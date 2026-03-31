@@ -162,6 +162,33 @@ function renderArticles() {
             }
         });
         
+        // Handle Share Button
+        const shareBtn = clone.querySelector('.share-btn');
+        shareBtn.addEventListener('click', async (e) => {
+            e.preventDefault();
+            const shareData = {
+                title: article.title,
+                text: article.summary,
+                url: article.link
+            };
+
+            try {
+                if (navigator.share) {
+                    await navigator.share(shareData);
+                } else {
+                    await navigator.clipboard.writeText(article.link);
+                    // Provide quick visual feedback
+                    const originalColor = shareBtn.style.color;
+                    shareBtn.style.color = "var(--neon-green)";
+                    setTimeout(() => {
+                        shareBtn.style.color = originalColor;
+                    }, 1500);
+                }
+            } catch (err) {
+                console.error('Error sharing or copying to clipboard:', err);
+            }
+        });
+        
         // Format date
         const dateObj = new Date(article.date);
         const formattedDate = dateObj.toLocaleDateString('en-US', {
