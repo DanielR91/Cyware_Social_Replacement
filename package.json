@@ -1,0 +1,14 @@
+{
+  "name": "cyware-social-replacer",
+  "version": "1.0.0",
+  "description": "Low cost RSS scraper utilizing free Gemini API.",
+  "main": "fetch-news.js",
+  "type": "module",
+  "scripts": {
+    "start": "node fetch-news.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "rss-parser": "^3.13.0"
+  }
+}

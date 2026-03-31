@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyware Social Replacement</title>
+    <meta name="description" content="Cyber Security News and Articles">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation -->
+        <header class="top-nav">
+            <div class="nav-brand">
+                <i data-lucide="shield-alert" class="brand-icon"></i>
+                <h1>Cyber Intel Feed</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">Alerts</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="nav-btn"><i data-lucide="search"></i></button>
+                <button class="nav-btn"><i data-lucide="user"></i></button>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Filter by</h3>
+                    <ul class="filter-list">
+                        <li><a href="#" class="active"><i data-lucide="rss"></i> All Alerts</a></li>
+                        <li><a href="#"><i data-lucide="bookmark"></i> Bookmarks</a></li>
+                        <li><a href="#"><i data-lucide="check-circle"></i> Marked as Read</a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-section">
+                    <h3>Topics</h3>
+                    <ul class="filter-list">
+                        <li><a href="#">Threat Intel & Info Sharing</a></li>
+                        <li><a href="#">Malware and Vulnerabilities</a></li>
+                        <li><a href="#">Breaches and Incidents</a></li>
+                        <li><a href="#">Laws, Policy, Regulations</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Main Feed -->
+            <main class="feed">
+                <div class="feed-header">
+                    <h2>Latest Cybersecurity News and Articles</h2>
+                    <div class="sort-options">
+                        <span>Sort by:</span>
+                        <select>
+                            <option>Latest</option>
+                            <option>Relevance</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="articles-container" class="articles-grid">
+                    <!-- Articles will be injected here via JavaScript -->
+                    <div class="loader">
+                        <i data-lucide="loader-2" class="spin"></i> Loading intel...
+                    </div>
+                </div>
+                
+                <div class="load-more-container">
+                    <button class="btn-load-more">Load More</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Article Template -->
+    <template id="article-template">
+        <article class="article-card">
+            <div class="article-header">
+                <span class="source-tag"></span>
+                <span class="category-tag"></span>
+            </div>
+            <h3 class="article-title">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="article-link"></a>
+            </h3>
+            <div class="article-summary-container">
+                <div class="sparkle-icon"><i data-lucide="sparkles"></i></div>
+                <p class="article-summary"></p>
+            </div>
+            <div class="article-footer">
+                <span class="article-date"></span>
+                <div class="article-actions">
+                    <button class="action-btn" title="Bookmark"><i data-lucide="bookmark"></i></button>
+                    <button class="action-btn" title="Share"><i data-lucide="share-2"></i></button>
+                    <button class="action-btn" title="Mark as Read"><i data-lucide="check"></i></button>
+                </div>
+            </div>
+        </article>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>
