@@ -37,6 +37,7 @@
                     <ul class="filter-list">
                         <li><a href="#" class="active filter-btn" data-reset="true"><i data-lucide="rss"></i> All Intel</a></li>
                         <li><a href="#" class="filter-btn" data-saved="true"><i data-lucide="bookmark"></i> Saved Intel</a></li>
+                        <li><a href="#" class="filter-btn" data-topten="true"><i data-lucide="sparkles"></i> Top 10 Intel</a></li>
                     </ul>
                 </div>
                 
@@ -126,7 +127,8 @@
         <article class="article-card">
             <div class="article-header">
                 <span class="source-tag"></span>
-                <div style="display: flex; gap: 0.5rem;">
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                    <span class="top-ten-badge" style="display: none;"><i data-lucide="sparkles"></i> Top 10</span>
                     <span class="category-tag"></span>
                     <span class="severity-tag"></span>
                 </div>

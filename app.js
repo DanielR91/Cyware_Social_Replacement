@@ -4,6 +4,7 @@ let savedArticles = JSON.parse(localStorage.getItem('savedBookmarkedIntel') || '
 let activeCategory = localStorage.getItem('defaultCategory') || null;
 let activeSeverity = localStorage.getItem('defaultSeverity') || null;
 let activeSaved = false;
+let activeTopTen = false;
 let currentSearchQuery = "";
 let currentSort = "Latest";
 
@@ -62,7 +63,12 @@ function renderArticles() {
         let matchCategory = true;
         let matchSeverity = true;
         let matchSearch = true;
+        let matchTopTen = true;
         
+        if (activeTopTen) {
+            matchTopTen = (article.isTopTen === true);
+        }
+
         if (activeCategory) {
             matchCategory = (article.tag === activeCategory);
         }
@@ -77,7 +83,7 @@ function renderArticles() {
             matchSearch = textToSearch.includes(query);
         }
         
-        return matchCategory && matchSeverity && matchSearch;
+        return matchCategory && matchSeverity && matchSearch && matchTopTen;
     });
 
     // Apply Sorting
@@ -117,11 +123,18 @@ function renderArticles() {
     // Render articles
     filteredArticles.forEach(article => {
         const clone = template.content.cloneNode(true);
+        const card = clone.querySelector('.article-card');
         
         // Populate data
         clone.querySelector('.source-tag').textContent = article.source;
         clone.querySelector('.category-tag').textContent = article.tag;
         
+        // Handle Top 10 Styling
+        if (article.isTopTen) {
+            card.classList.add('is-top-ten');
+            clone.querySelector('.top-ten-badge').style.display = 'flex';
+        }
+
         const severityTag = clone.querySelector('.severity-tag');
         if (article.severity) {
             severityTag.textContent = article.severity;
@@ -217,18 +230,28 @@ function setupFilters() {
                 activeCategory = null;
                 activeSeverity = null;
                 activeSaved = false;
+                activeTopTen = false;
             } else if (btn.dataset.saved) {
                 activeSaved = true;
-                activeCategory = null; // Clear to avoid confusion
+                activeTopTen = false;
+                activeCategory = null;
+                activeSeverity = null;
+            } else if (btn.dataset.topten) {
+                activeTopTen = true;
+                activeSaved = false;
+                activeCategory = null;
                 activeSeverity = null;
             } else if (btn.dataset.category) {
                 activeSaved = false;
+                activeTopTen = false;
                 if (activeCategory === btn.dataset.category) {
                     activeCategory = null; 
                 } else {
                     activeCategory = btn.dataset.category;
                 }
             } else if (btn.dataset.severity) {
+                activeSaved = false;
+                activeTopTen = false;
                 if (activeSeverity === btn.dataset.severity) {
                     activeSeverity = null;
                 } else {
@@ -258,6 +281,10 @@ function updateFilterUI() {
             anyActive = true;
         }
         if (btn.dataset.saved && activeSaved) {
+            btn.classList.add('active');
+            anyActive = true;
+        }
+        if (btn.dataset.topten && activeTopTen) {
             btn.classList.add('active');
             anyActive = true;
         }

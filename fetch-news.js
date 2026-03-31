@@ -57,6 +57,43 @@ Example: {"summary": "A new malware campaign is targeting Windows users.", "tag"
   }
 }
 
+async function identifyTopIntel(articles) {
+  if (articles.length === 0) return [];
+  
+  console.log('Identifying top 10 most impactful articles...');
+  
+  try {
+    const listForAI = articles.map(a => ({ id: a.id, title: a.title, summary: a.summary }));
+    const prompt = `You are a Senior Threat Intelligence Analyst. 
+Below is a list of cybersecurity news articles collected today. 
+Select exactly the 10 most critical or impactful articles that a CISO should prioritize.
+Base your selection on: 
+1. Impact (Global breaches, supply chain attacks, etc.)
+2. Exploitability (Zero-days, RCE with public PoCs).
+3. Strategic Importance (Nation-state actors, major policy changes).
+
+Articles:
+${JSON.stringify(listForAI)}
+
+Return ONLY a JSON array of the "id" strings for your top 10 selections.
+Example: ["id1", "id2", "id3", ...]`;
+
+    const response = await ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: prompt,
+        config: {
+            responseMimeType: "application/json"
+        }
+    });
+
+    const topIds = JSON.parse(response.text);
+    return Array.isArray(topIds) ? topIds : [];
+  } catch (error) {
+    console.error('Error identifying Top 10:', error.message);
+    return [];
+  }
+}
+
 async function fetchAllNews() {
   console.log('Fetching cybersecurity news...');
   const allArticles = [];
@@ -92,6 +129,14 @@ async function fetchAllNews() {
 
   // Sort by date newest first
   allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // Identify Top 10 using AI
+  const topTenIds = await identifyTopIntel(allArticles);
+  allArticles.forEach(article => {
+    if (topTenIds.includes(article.id)) {
+      article.isTopTen = true;
+    }
+  });
 
   // Save to articles.json
   await fs.writeFile('articles.json', JSON.stringify(allArticles, null, 2));

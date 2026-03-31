@@ -247,6 +247,16 @@ ul {
   border-left: 3px solid var(--neon-cyan);
 }
 
+.filter-list a[data-topten="true"]:hover,
+.filter-list a[data-topten="true"].active {
+  color: var(--neon-orange);
+  border-color: var(--neon-orange);
+}
+
+.filter-list a[data-topten="true"].active {
+  background: linear-gradient(90deg, rgba(255, 138, 0, 0.1), transparent);
+}
+
 /* Main Feed */
 .feed {
   flex: 1;
@@ -365,6 +375,40 @@ ul {
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   border: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+.top-ten-badge {
+  color: var(--neon-orange);
+  background: rgba(255, 138, 0, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 138, 0, 0.3);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  box-shadow: 0 0 8px rgba(255, 138, 0, 0.2);
+}
+
+.top-ten-badge i {
+  width: 12px;
+  height: 12px;
+}
+
+.article-card.is-top-ten {
+  border-color: rgba(255, 138, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(255, 138, 0, 0.05);
+}
+
+.article-card.is-top-ten::before {
+  background: var(--neon-orange);
+}
+
+.article-card.is-top-ten:hover {
+  border-color: var(--neon-orange);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 138, 0, 0.1);
 }
 
 .severity-tag {
