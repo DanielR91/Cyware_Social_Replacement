@@ -478,6 +478,14 @@ ul {
   color: var(--neon-cyan);
 }
 
+.bookmark-btn.bookmarked {
+  color: var(--neon-cyan);
+}
+
+.bookmark-btn.bookmarked svg {
+  fill: var(--neon-cyan);
+}
+
 .load-more-container {
   text-align: center;
   margin-top: 3rem;

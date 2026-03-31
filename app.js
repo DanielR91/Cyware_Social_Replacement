@@ -1,7 +1,9 @@
 // Global State
 let allArticles = [];
+let savedArticles = JSON.parse(localStorage.getItem('savedBookmarkedIntel') || '[]');
 let activeCategory = localStorage.getItem('defaultCategory') || null;
 let activeSeverity = localStorage.getItem('defaultSeverity') || null;
+let activeSaved = false;
 let currentSearchQuery = "";
 let currentSort = "Latest";
 
@@ -52,8 +54,11 @@ function renderArticles() {
     const container = document.getElementById('articles-container');
     const template = document.getElementById('article-template');
     
+    // Determine data source
+    const sourceArray = activeSaved ? savedArticles : allArticles;
+    
     // Filter logic
-    const filteredArticles = allArticles.filter(article => {
+    const filteredArticles = sourceArray.filter(article => {
         let matchCategory = true;
         let matchSeverity = true;
         let matchSearch = true;
@@ -131,6 +136,32 @@ function renderArticles() {
         
         clone.querySelector('.article-summary').textContent = article.summary;
         
+        // Handle Bookmark State
+        const bookmarkBtn = clone.querySelector('.bookmark-btn');
+        const isBookmarked = savedArticles.some(saved => saved.link === article.link);
+        if (isBookmarked) {
+            bookmarkBtn.classList.add('bookmarked');
+        }
+        
+        bookmarkBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const existsIndex = savedArticles.findIndex(saved => saved.link === article.link);
+            
+            if (existsIndex >= 0) {
+                savedArticles.splice(existsIndex, 1);
+                bookmarkBtn.classList.remove('bookmarked');
+                localStorage.setItem('savedBookmarkedIntel', JSON.stringify(savedArticles));
+                if (activeSaved) {
+                    renderArticles();
+                    return; // Stop execution since DOM is wiped
+                }
+            } else {
+                savedArticles.push(article);
+                bookmarkBtn.classList.add('bookmarked');
+                localStorage.setItem('savedBookmarkedIntel', JSON.stringify(savedArticles));
+            }
+        });
+        
         // Format date
         const dateObj = new Date(article.date);
         const formattedDate = dateObj.toLocaleDateString('en-US', {
@@ -158,7 +189,13 @@ function setupFilters() {
             if (btn.dataset.reset) {
                 activeCategory = null;
                 activeSeverity = null;
+                activeSaved = false;
+            } else if (btn.dataset.saved) {
+                activeSaved = true;
+                activeCategory = null; // Clear to avoid confusion
+                activeSeverity = null;
             } else if (btn.dataset.category) {
+                activeSaved = false;
                 if (activeCategory === btn.dataset.category) {
                     activeCategory = null; 
                 } else {
@@ -190,6 +227,10 @@ function updateFilterUI() {
             anyActive = true;
         }
         if (btn.dataset.severity && btn.dataset.severity === activeSeverity) {
+            btn.classList.add('active');
+            anyActive = true;
+        }
+        if (btn.dataset.saved && activeSaved) {
             btn.classList.add('active');
             anyActive = true;
         }
