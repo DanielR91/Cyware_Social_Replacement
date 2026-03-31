@@ -21,6 +21,7 @@ Instead of a massive backend team curating the news manually, this project utili
 - **Deep Space Aesthetics:** A custom, ground-up Vanilla HTML/CSS interface featuring a dark mode, glassmorphism cards, and dynamic neon-glow categorization metrics.
 - **Zero Cost Architecture:** By leveraging GitHub Actions to run the Node.js scraping script every 3 hours, and GitHub Pages to host the static HTML feed, this entire architecture operates flawlessly for $0 a month.
 - **Lightning Multi-Filtering:** Instantly sort the feed via Topics, Severities, or a global Search text match. Because it runs locally in browser memory, rendering is instantaneous.
+- **Browser Native Preferences:** A zero-database user settings modal utilizing local browser storage allows you to personalize default topic and severity constraints that automatically apply on your daily return.
 
 ## 🧰 Tech Stack
 - **Frontend**: Vanilla HTML5, Vanilla JavaScript, CSS3
