@@ -39,3 +39,4 @@ The feed is currently aggregating updates from:
 - Dark Reading
 - Security Affairs
 - Unit 42 (Palo Alto Networks)
+- Help Net Security
