@@ -25,7 +25,7 @@
                     <input type="text" id="search-input" class="search-input" placeholder="Search intel...">
                     <button class="nav-btn" id="search-toggle-btn"><i data-lucide="search"></i></button>
                 </div>
-                <button class="nav-btn"><i data-lucide="user"></i></button>
+                <button class="nav-btn" id="settings-btn" title="Preferences"><i data-lucide="settings"></i></button>
             </div>
         </header>
 
@@ -85,6 +85,40 @@
             </main>
         </div>
     </div>
+
+    <!-- Settings Modal -->
+    <dialog id="settings-modal" class="settings-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i data-lucide="sliders-horizontal"></i> Preferences</h2>
+                <button id="close-modal-btn" class="nav-btn" title="Close"><i data-lucide="x"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="default-category">Default Topic View</label>
+                    <select id="default-category" class="custom-select">
+                        <option value="">All Alerts (Off)</option>
+                        <option value="Threat Intel & Info Sharing">Threat Intel & Info Sharing</option>
+                        <option value="Malware and Vulnerabilities">Malware and Vulnerabilities</option>
+                        <option value="Breaches and Incidents">Breaches and Incidents</option>
+                        <option value="Laws, Policy, Regulations">Laws, Policy, Regulations</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="default-severity">Default Severity View</label>
+                    <select id="default-severity" class="custom-select">
+                        <option value="">Any Severity (Off)</option>
+                        <option value="Critical">Critical</option>
+                        <option value="High">High</option>
+                        <option value="Low">Low</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="save-preferences-btn" class="btn-primary">Save Preferences</button>
+            </div>
+        </div>
+    </dialog>
 
     <!-- Article Template -->
     <template id="article-template">

@@ -1,7 +1,7 @@
 // Global State
 let allArticles = [];
-let activeCategory = null;
-let activeSeverity = null;
+let activeCategory = localStorage.getItem('defaultCategory') || null;
+let activeSeverity = localStorage.getItem('defaultSeverity') || null;
 let currentSearchQuery = "";
 
 // Initialize Lucide icons
@@ -10,7 +10,13 @@ lucide.createIcons();
 document.addEventListener('DOMContentLoaded', () => {
     setupFilters();
     setupSearch();
+    setupModal();
     fetchArticles();
+    
+    // Auto-apply initial UI states from localStorage if they exist
+    if (activeCategory || activeSeverity) {
+        updateFilterUI();
+    }
 });
 
 async function fetchArticles() {
@@ -192,6 +198,61 @@ function setupSearch() {
     
     searchInput.addEventListener('input', (e) => {
         currentSearchQuery = e.target.value.trim();
+        renderArticles();
+    });
+}
+
+function setupModal() {
+    const settingsBtn = document.getElementById('settings-btn');
+    const modal = document.getElementById('settings-modal');
+    const closeBtn = document.getElementById('close-modal-btn');
+    const saveBtn = document.getElementById('save-preferences-btn');
+    const catSelect = document.getElementById('default-category');
+    const sevSelect = document.getElementById('default-severity');
+
+    if (!settingsBtn || !modal) return;
+
+    // Open modal and prepopulate selects
+    settingsBtn.addEventListener('click', () => {
+        catSelect.value = localStorage.getItem('defaultCategory') || "";
+        sevSelect.value = localStorage.getItem('defaultSeverity') || "";
+        modal.showModal();
+    });
+
+    // Close button
+    closeBtn.addEventListener('click', () => {
+        modal.close();
+    });
+
+    // Close on backdrop click
+    modal.addEventListener('click', (e) => {
+        const dialogDimensions = modal.getBoundingClientRect();
+        if (
+            e.clientX < dialogDimensions.left ||
+            e.clientX > dialogDimensions.right ||
+            e.clientY < dialogDimensions.top ||
+            e.clientY > dialogDimensions.bottom
+        ) {
+            modal.close();
+        }
+    });
+
+    // Save preferences
+    saveBtn.addEventListener('click', () => {
+        const selectedCat = catSelect.value;
+        const selectedSev = sevSelect.value;
+        
+        if (selectedCat) localStorage.setItem('defaultCategory', selectedCat);
+        else localStorage.removeItem('defaultCategory');
+        
+        if (selectedSev) localStorage.setItem('defaultSeverity', selectedSev);
+        else localStorage.removeItem('defaultSeverity');
+        
+        activeCategory = selectedCat || null;
+        activeSeverity = selectedSev || null;
+        
+        modal.close();
+        updateFilterUI();
         renderArticles();
     });
 }
