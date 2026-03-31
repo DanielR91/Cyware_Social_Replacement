@@ -15,7 +15,8 @@ const SOURCES = [
   { name: 'HackRead', url: 'https://hackread.com/feed/' },
   { name: 'The Record', url: 'https://therecord.media/feed' },
   { name: 'Dark Reading', url: 'https://www.darkreading.com/rss/all.xml' },
-  { name: 'Security Affairs', url: 'https://securityaffairs.com/feed/' }
+  { name: 'Security Affairs', url: 'https://securityaffairs.com/feed/' },
+  { name: 'Unit 42', url: 'https://unit42.paloaltonetworks.com/feed/' }
 ];
 
 const MAX_ARTICLES_PER_SOURCE = 10; // 60 total per run

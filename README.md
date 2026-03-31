@@ -38,3 +38,4 @@ The feed is currently aggregating updates from:
 - The Record
 - Dark Reading
 - Security Affairs
+- Unit 42 (Palo Alto Networks)
