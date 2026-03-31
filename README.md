@@ -36,3 +36,4 @@ The feed is currently aggregating updates from:
 - The Register
 - HackRead
 - The Record
+- Dark Reading

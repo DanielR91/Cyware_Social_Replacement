@@ -13,7 +13,8 @@ const SOURCES = [
   { name: 'CyberScoop', url: 'https://cyberscoop.com/feed/' },
   { name: 'The Register', url: 'https://www.theregister.com/security/headlines.atom' },
   { name: 'HackRead', url: 'https://hackread.com/feed/' },
-  { name: 'The Record', url: 'https://therecord.media/feed' }
+  { name: 'The Record', url: 'https://therecord.media/feed' },
+  { name: 'Dark Reading', url: 'https://www.darkreading.com/rss/all.xml' }
 ];
 
 const MAX_ARTICLES_PER_SOURCE = 10; // 60 total per run
