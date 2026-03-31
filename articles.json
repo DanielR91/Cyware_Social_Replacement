@@ -1,62 +1,552 @@
 [
   {
-    "id": "1",
-    "source": "BleepingComputer",
-    "tag": "Malware and Vulnerabilities",
-    "severity": "High",
-    "title": "GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX",
-    "summary": "Threat actors are distributing the new GlassWorm malware through backdoored packages across multiple popular code repositories. This campaign highlights the growing risk of supply chain attacks targeting developer ecosystems.",
-    "date": "2026-03-31T14:30:00Z",
-    "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos/"
+    "id": "ebdb37cd-eac1-4123-9efa-ec54583216db",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Iran targets M365 accounts with password-spraying attacks",
+    "summary": "No summary available.",
+    "date": "2026-03-31T19:09:53.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/31/iran_password_spraying_m365/"
   },
   {
-    "id": "2",
+    "id": "73332e6e-c0ef-49f4-b422-dc02217c24ea",
+    "source": "The Hacker News",
+    "tag": "Laws, Policy, Regulations",
+    "severity": "Low",
+    "title": "Android Developer Verification Rollout Begins Ahead of September Enforcement",
+    "summary": "Google is rolling out Android developer verification globally to combat harmful apps and anonymous bad actors, with a mandate beginning in select countries this September.",
+    "date": "2026-03-31T18:28:00.000Z",
+    "link": "https://thehackernews.com/2026/03/android-developer-verification-rollout.html"
+  },
+  {
+    "id": "a4b2af0b-02cf-40c8-bc43-64e82f37d7cb",
+    "source": "The Record",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "US indicts Maryland man for 2021 theft of $54 million from Uranium Finance",
+    "summary": "No summary available.",
+    "date": "2026-03-31T17:55:00.000Z",
+    "link": "https://therecord.media/us-indicts-maryland-man-54-million-crypto-theft"
+  },
+  {
+    "id": "b359582a-1555-4f6f-bdde-955e529cd1c9",
+    "source": "BleepingComputer",
+    "tag": "Breaches and Incidents",
+    "severity": "High",
+    "title": "Cisco source code stolen in Trivy-linked dev environment breach",
+    "summary": "Cisco experienced a cyberattack where credentials from a recent Trivy supply chain breach were used to compromise their internal development environment and steal source code belonging to Cisco and its customers.",
+    "date": "2026-03-31T17:53:04.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/"
+  },
+  {
+    "id": "267aa861-c17a-42f9-9b86-565adf7fe12e",
+    "source": "CyberScoop",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "Critical",
+    "title": "Attack on axios software developer tool threatens widespread compromises",
+    "summary": "Researchers are issuing warnings about a supply-chain attack on axios, a widely-used open-source software developer tool with 100 million weekly downloads, which poses a threat of widespread compromises.",
+    "date": "2026-03-31T16:25:52.000Z",
+    "link": "https://cyberscoop.com/axios-software-developer-tool-attack-compromise/"
+  },
+  {
+    "id": "e13b214d-ca8b-47d0-9bb0-0cb5d4ae9dc0",
+    "source": "The Hacker News",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "High",
+    "title": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks",
+    "summary": "A high-severity zero-day vulnerability (CVE-2026-3502) in TrueConf video conferencing software is being exploited in the wild, dubbed TrueChaos, to target government networks in Southeast Asia by distributing tampered application updates.",
+    "date": "2026-03-31T16:03:00.000Z",
+    "link": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html"
+  },
+  {
+    "id": "ae81315d-6a1b-4c34-925f-5a17e539e2b4",
+    "source": "The Record",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "New criminal service plans to monetize data stolen by ransomware gangs",
+    "summary": "No summary available.",
+    "date": "2026-03-31T14:25:00.000Z",
+    "link": "https://therecord.media/new-criminal-service-plans-to-monetize-ransomware-data"
+  },
+  {
+    "id": "9391c5fb-1b89-48fe-994b-9b983dc284c7",
+    "source": "BleepingComputer",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "High",
+    "title": "How to Categorize AI Agents and Prioritize Risk",
+    "summary": "This article explains how CISOs can categorize AI agents based on their system access and autonomy to effectively prioritize cybersecurity risks and secure them.",
+    "date": "2026-03-31T14:00:10.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/"
+  },
+  {
+    "id": "40de8839-8379-414b-89a6-ab532c8517c5",
+    "source": "BleepingComputer",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "Critical",
+    "title": "Hackers compromise Axios npm package to drop cross-platform malware",
+    "summary": "Hackers compromised the npm account of the widely used Axios JavaScript package to distribute remote access trojans, impacting Linux, Windows, and macOS systems.",
+    "date": "2026-03-31T13:53:43.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/"
+  },
+  {
+    "id": "c8be2c58-4d9e-4eac-ac41-8530b233ce6e",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Hackers Poison Axios npm Package with 100 Million Weekly Downloads",
+    "summary": "No summary available.",
+    "date": "2026-03-31T13:49:04.000Z",
+    "link": "https://hackread.com/hackers-poison-axios-npm-package-100m-downloads/"
+  },
+  {
+    "id": "2a7f0258-3abc-432a-ad43-3a11d7cb978b",
     "source": "The Hacker News",
     "tag": "Malware and Vulnerabilities",
     "severity": "Critical",
-    "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
-    "summary": "A newly discovered zero-day vulnerability in Telnetd allows remote attackers to execute root commands without authentication. Administrators are urged to disable Telnet services immediately until a patch is released.",
-    "date": "2026-03-31T12:15:00Z",
-    "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html"
+    "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
+    "summary": "A newly discovered vulnerability in Google Cloud's Vertex AI platform could allow attackers to weaponize AI agents, gaining unauthorized access to sensitive data and compromising an organization's cloud environment.",
+    "date": "2026-03-31T13:09:00.000Z",
+    "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html"
   },
   {
-    "id": "3",
-    "source": "CyberScoop",
+    "id": "96d226cf-1983-4413-8f03-ee993283c720",
+    "source": "The Record",
     "tag": "Threat Intel & Info Sharing",
-    "severity": "High",
-    "title": "An AI-powered phishing campaign has compromised hundreds of organizations",
-    "summary": "Cybercriminals are leveraging generative AI to craft highly personalized and convincing phishing emails at scale. The campaign has successfully bypassed traditional email security gateways across global enterprises.",
-    "date": "2026-03-31T09:45:00Z",
-    "link": "https://cyberscoop.com/huntress-railway-ai-phishing-campaign-compromised-hundreds-of-organizations/"
+    "severity": "Low",
+    "title": "CISA tells federal agencies to patch Citrix NetScaler bug by Thursday",
+    "summary": "No summary available.",
+    "date": "2026-03-31T13:04:00.000Z",
+    "link": "https://therecord.media/cisa-tells-federal-agencies-to-patch-citrix-netscaler-bug"
   },
   {
-    "id": "4",
+    "id": "a7bf1739-faed-45e4-80c4-8c2dbeafad95",
+    "source": "BleepingComputer",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "High",
+    "title": "Microsoft fixes Outlook Classic crashes caused by Teams Meeting add-in",
+    "summary": "Microsoft has resolved a known issue where the Teams Meeting Add-in caused the classic Outlook email client to crash and become unusable for users.",
+    "date": "2026-03-31T12:04:15.000Z",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-crashes-caused-by-teams-meeting-add-in/"
+  },
+  {
+    "id": "0d637ef1-0a04-4de6-b4ef-482a9844eda5",
+    "source": "The Hacker News",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Critical",
+    "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
+    "summary": "The article highlights the rapidly accelerating cybersecurity landscape, driven by the weaponization of AI, which is leading to dramatically faster attacks and exploitation, making unified exposure management a critical boardroom priority.",
+    "date": "2026-03-31T11:50:00.000Z",
+    "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html"
+  },
+  {
+    "id": "0d151c7c-4405-43f3-abff-e8dcf37614fd",
+    "source": "The Hacker News",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "High",
+    "title": "Silver Fox Expands Asia Cyber Campaign with AtlasCross RAT and Fake Domains",
+    "summary": "The Silver Fox group is expanding its cyber campaign in Asia, targeting Chinese-speaking users with typosquatted domains that distribute a new remote access trojan called AtlasCross RAT, impersonating various trusted software applications.",
+    "date": "2026-03-31T11:46:00.000Z",
+    "link": "https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html"
+  },
+  {
+    "id": "c28c815f-2eb2-4293-b767-5f5d2e3bdfec",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Critical F5 BIG-IP Flaw Upgraded to 9.8 RCE, Exploited in the Wild",
+    "summary": "No summary available.",
+    "date": "2026-03-31T11:36:21.000Z",
+    "link": "https://hackread.com/critical-f5-big-ip-flaw-upgrad-to-9-8-rce-exploited/"
+  },
+  {
+    "id": "b884edc8-6c97-403b-b374-5947131a5607",
     "source": "The Register",
     "tag": "Threat Intel & Info Sharing",
-    "severity": "High",
-    "title": "Telnyx package latest hit in PyPI supply-chain compromise",
-    "summary": "A malicious version of the Telnyx Python package was briefly available on PyPI, attempting to exfiltrate developer credentials. This marks the latest incident in an ongoing wave of targeted software supply chain attacks.",
-    "date": "2026-03-30T16:20:00Z",
-    "link": "https://www.theregister.com/2026/03/30/telnyx_pypi_supply_chain_attack_litellm/"
+    "severity": "Low",
+    "title": "Supply chain blast: Top npm package backdoored to drop dirty RAT on dev machines",
+    "summary": "No summary available.",
+    "date": "2026-03-31T10:29:10.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/31/axios_npm_backdoor_rat/"
   },
   {
-    "id": "5",
-    "source": "HackRead",
+    "id": "92a3b5d2-bc1d-4c7d-8e35-0f1727bf265a",
+    "source": "BleepingComputer",
+    "tag": "Breaches and Incidents",
+    "severity": "Critical",
+    "title": "Hacker charged with stealing $53 million from Uranium crypto exchange",
+    "summary": "U.S. prosecutors have charged a Maryland man with stealing over $53 million from the Uranium Finance crypto exchange through two hacks and laundering the stolen funds via a cryptocurrency mixer.",
+    "date": "2026-03-31T09:15:45.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/"
+  },
+  {
+    "id": "4d5cd67a-7009-49c1-b654-2948c9901a04",
+    "source": "BleepingComputer",
+    "tag": "Breaches and Incidents",
+    "severity": "High",
+    "title": "Dutch Finance Ministry takes treasury banking portal offline after breach",
+    "summary": "The Dutch Ministry of Finance has taken its digital treasury banking portal and other systems offline to investigate a cyberattack detected two weeks ago.",
+    "date": "2026-03-31T07:52:15.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/"
+  },
+  {
+    "id": "a44ee9a8-0c62-4b91-bbbd-834a3798d85a",
+    "source": "BleepingComputer",
     "tag": "Malware and Vulnerabilities",
+    "severity": "Critical",
+    "title": "CISA orders feds to patch actively exploited Citrix flaw by Thursday",
+    "summary": "CISA has ordered U.S. federal agencies to patch an actively exploited Citrix NetScaler vulnerability by Thursday due to its immediate threat.",
+    "date": "2026-03-31T07:05:25.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/"
+  },
+  {
+    "id": "191510ea-6e24-45de-bdf3-2d23c44b02a0",
+    "source": "The Hacker News",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "High",
+    "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
+    "summary": "The popular Axios npm package suffered a supply chain attack via compromised versions (1.14.1 and 0.30.4) that injected a malicious dependency, delivering a cross-platform trojan capable of targeting Windows, macOS, and Linux systems.",
+    "date": "2026-03-31T06:08:00.000Z",
+    "link": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html"
+  },
+  {
+    "id": "2d235335-5a00-4b61-8b30-d417844b3315",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "AI Agents Are Democratizing Finance but Also Redefining Risk",
+    "summary": "No summary available.",
+    "date": "2026-03-31T00:41:17.000Z",
+    "link": "https://hackread.com/ai-agents-democratizing-finance-redefining-risk/"
+  },
+  {
+    "id": "647c4605-9fd1-4904-8f24-ca807a347982",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Kernel Observability for Data Movement",
+    "summary": "No summary available.",
+    "date": "2026-03-30T23:50:57.000Z",
+    "link": "https://hackread.com/kernel-observability-for-data-movement/"
+  },
+  {
+    "id": "8d0c3268-ec2f-4531-8a06-1e3b4605e9f0",
+    "source": "The Record",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Pro-Russian hackers pose as Ukraine's cyber agency to target government, businesses",
+    "summary": "No summary available.",
+    "date": "2026-03-30T23:00:00.000Z",
+    "link": "https://therecord.media/pro-russian-hackers-posing-as-ukrainian-cyber-agency"
+  },
+  {
+    "id": "d3bf531e-bc15-48bf-84a2-6909b5c84822",
+    "source": "BleepingComputer",
+    "tag": "Breaches and Incidents",
+    "severity": "High",
+    "title": "Healthcare tech firm CareCloud says hackers stole patient data",
+    "summary": "Healthcare IT firm CareCloud has disclosed a data breach incident where hackers stole patient data and caused an eight-hour network disruption.",
+    "date": "2026-03-30T21:44:31.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/healthcare-tech-firm-carecloud-says-hackers-stole-patient-data/"
+  },
+  {
+    "id": "96aa5a36-1fe6-45a9-8457-0600038d05f4",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "OpenAI Codex Vulnerability Allowed Attackers to Steal GitHub Tokens",
+    "summary": "No summary available.",
+    "date": "2026-03-30T20:53:56.000Z",
+    "link": "https://hackread.com/openai-codex-vulnerability-steal-github-tokens/"
+  },
+  {
+    "id": "88825baf-9d26-4407-8180-a3caa8cd5c27",
+    "source": "BleepingComputer",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "New RoadK1ll WebSocket implant used to pivot on breached networks",
+    "summary": "No summary available.",
+    "date": "2026-03-30T20:49:22.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/new-roadk1ll-websocket-implant-used-to-pivot-on-breached-networks/"
+  },
+  {
+    "id": "e89cd41e-10a7-4813-9c23-f3076eab8082",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "OpenAI patches ChatGPT flaw that smuggled data over DNS",
+    "summary": "No summary available.",
+    "date": "2026-03-30T19:36:29.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/30/openai_chatgpt_dns_data_snuggling_flaw/"
+  },
+  {
+    "id": "ea4461f3-ace5-491f-bf57-a5d1ba6fbe17",
+    "source": "BleepingComputer",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "Critical",
+    "title": "Critical Citrix NetScaler memory flaw actively exploited in attacks",
+    "summary": "Hackers are actively exploiting a critical memory flaw, CVE-2026-3055, in Citrix NetScaler ADC and Gateway appliances to obtain sensitive data.",
+    "date": "2026-03-30T18:28:37.000Z",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks/"
+  },
+  {
+    "id": "81a41986-8f6c-4f02-9421-6d2695d44ada",
+    "source": "CyberScoop",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "High",
+    "title": "Researchers say credential-stealing campaign used AI to build evasion ‘at every stage’",
+    "summary": "A credential-stealing campaign, named DeepLoad, is reportedly using AI to generate evasion techniques at every stage, including obfuscating code, logging keystrokes, and re-infecting hosts after initial blocks.",
+    "date": "2026-03-30T18:28:17.000Z",
+    "link": "https://cyberscoop.com/deepload-ai-malware-obfuscation-at-every-stage-reliaquest/"
+  },
+  {
+    "id": "4a5bfd5d-9e5a-4503-bcdc-3d1495334019",
+    "source": "The Hacker News",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability",
+    "summary": "No summary available.",
+    "date": "2026-03-30T18:05:00.000Z",
+    "link": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html"
+  },
+  {
+    "id": "2396bf85-47b2-441f-996e-65af14c30d43",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Wave Browser Brings Gaming Tools and Ocean Cleanup into the Same Tab ",
+    "summary": "No summary available.",
+    "date": "2026-03-30T17:49:07.000Z",
+    "link": "https://hackread.com/wave-browser-gaming-tools-ocean-cleanup-tab/"
+  },
+  {
+    "id": "606bb428-de30-4e4e-beaf-ba85c4e236ca",
+    "source": "The Record",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Italian regulator fines financial giant $36 million for data protection failures",
+    "summary": "No summary available.",
+    "date": "2026-03-30T17:46:00.000Z",
+    "link": "https://therecord.media/italian-regulator-fines-financial-giant-36-million"
+  },
+  {
+    "id": "6f713500-8e78-42b6-81e9-1a4ab55d92d6",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Telnyx joins LiteLLM in latest PyPI package poisoning tied to Trivy breach",
+    "summary": "No summary available.",
+    "date": "2026-03-30T17:42:55.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/30/telnyx_pypi_supply_chain_attack_litellm/"
+  },
+  {
+    "id": "7bd247c7-81ff-4ca6-a0c0-1715cd852f11",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
     "severity": "Low",
     "title": "15-Year-Old strongSwan Flaw Lets Attackers Crash VPNs via Integer Underflow",
-    "summary": "Security researchers have uncovered a long-standing vulnerability in the strongSwan IPsec implementation that can lead to remote denial of service. The integer underflow bug affects numerous enterprise VPN appliances running the software.",
-    "date": "2026-03-30T11:05:00Z",
+    "summary": "No summary available.",
+    "date": "2026-03-30T17:07:39.000Z",
     "link": "https://hackread.com/strongswan-flaw-attackers-crash-vpn-integer-underflow/"
   },
   {
-    "id": "6",
-    "source": "The Record",
+    "id": "aae5a24b-a86e-483e-8691-73b90669ddd2",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "24/7 Payments for 24/7 Agents: The Case for Crypto in the Machine Economy",
+    "summary": "No summary available.",
+    "date": "2026-03-30T16:18:32.000Z",
+    "link": "https://hackread.com/payments-agents-crypto-in-the-machine-economy/"
+  },
+  {
+    "id": "94e13a95-4a7a-45eb-a4ae-0fc1ca86d04a",
+    "source": "The Hacker News",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials",
+    "summary": "No summary available.",
+    "date": "2026-03-30T15:47:00.000Z",
+    "link": "https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html"
+  },
+  {
+    "id": "ffa9f429-8fed-452e-8aaf-6aab4beb4a3f",
+    "source": "The Hacker News",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "High",
+    "title": "⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More",
+    "summary": "This weekly cybersecurity recap details long-running operations finally surfacing, old attack methods re-emerging in new contexts, and research becoming practical, covering topics from telecom sleeper cells to LLM jailbreaks and policy changes.",
+    "date": "2026-03-30T13:56:00.000Z",
+    "link": "https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html"
+  },
+  {
+    "id": "c062dbeb-2a56-41be-a6f7-b7bbcf80151a",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Citrix NetScaler bug exploited in days, may be multiple flaws in a trench coat",
+    "summary": "No summary available.",
+    "date": "2026-03-30T13:49:12.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/30/citrix_netscaler_flaw/"
+  },
+  {
+    "id": "e7ec486b-cbec-480a-b4b9-c688b6a7bf4f",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Dark Web Market Lists Alleged 375TB Lockheed Martin Data for $600M",
+    "summary": "No summary available.",
+    "date": "2026-03-30T13:36:40.000Z",
+    "link": "https://hackread.com/dark-web-market-375tb-lockheed-martin-data/"
+  },
+  {
+    "id": "f893b700-09a4-4492-87aa-c2f1a4f1d44b",
+    "source": "The Hacker News",
     "tag": "Breaches and Incidents",
     "severity": "Low",
-    "title": "Hacker walks away with $24.5 million after breaching Resolv DeFi platform",
-    "summary": "A sophisticated smart contract exploit allowed a lone attacker to drain millions from the Resolv decentralized finance platform. The incident underscores the persistent security challenges within the cryptocurrency and DeFi sectors.",
-    "date": "2026-03-29T18:50:00Z",
-    "link": "https://therecord.media/hacker-breaches-resolv-defi-25-million"
+    "title": "3 SOC Process Fixes That Unlock Tier 1 Productivity",
+    "summary": "The article highlights that inefficiencies in SOC Tier 1, such as fragmented workflows and limited visibility, are major causes of delays and unnecessary escalations, rather than just the threats themselves. It proposes process fixes to improve productivity and the overall SOC response.",
+    "date": "2026-03-30T13:00:00.000Z",
+    "link": "https://thehackernews.com/2026/03/3-soc-process-fixes-that-unlock-tier-1.html"
+  },
+  {
+    "id": "a2dabc0a-eae0-498d-a6c0-e5bf96099f15",
+    "source": "HackRead",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "TeamPCP Uses Fake Ringtone File in Tainted Telnyx SDK to Steal Credentials",
+    "summary": "No summary available.",
+    "date": "2026-03-30T10:50:41.000Z",
+    "link": "https://hackread.com/teampcp-fake-ringtone-file-tainted-telnyx-sdk-credentials/"
+  },
+  {
+    "id": "ed81e5b2-dc4a-489b-988c-61a495cbb3f0",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "European Commission admits attackers broke into public web systems, but says little else",
+    "summary": "No summary available.",
+    "date": "2026-03-30T10:15:13.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/30/european_commission_breach/"
+  },
+  {
+    "id": "85246b35-3473-4db0-bc6a-7bd2b0143e09",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Security contractor blew the whistle on support crew's viral indifference",
+    "summary": "No summary available.",
+    "date": "2026-03-30T07:30:15.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/30/who_me/"
+  },
+  {
+    "id": "282eeb58-dcdf-4c29-83bc-4bf1eaed4290",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "US foreign router ban criticized for being ‘industrial policy disguised as cybersecurity’",
+    "summary": "No summary available.",
+    "date": "2026-03-30T04:31:17.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/30/professor_criticizes_fcc_router_ban/"
+  },
+  {
+    "id": "d00cb420-35f0-43d2-aaa5-3782c617b0b3",
+    "source": "CyberScoop",
+    "tag": "Breaches and Incidents",
+    "severity": "High",
+    "title": "Iranian hackers, Handala, claim to compromise FBI Director Kash Patel’s personal data",
+    "summary": "Iranian hacker group Handala claims to have compromised the personal data of FBI Director Kash Patel via his personal email, though the FBI confirmed awareness and stated no government information was taken.",
+    "date": "2026-03-27T17:28:26.000Z",
+    "link": "https://cyberscoop.com/handala-hackers-target-fbi-director-kash-patel-email/"
+  },
+  {
+    "id": "2af2ca43-bd19-443c-bf4f-4f3864bb02e6",
+    "source": "CyberScoop",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "Critical",
+    "title": "Security leaders say the next two years are going to be ‘insane’",
+    "summary": "Leading security experts warn that the next two years will be 'insane' due to AI accelerating bug discovery and exploit development, with most organizations being unprepared for the escalating cyber threat landscape.",
+    "date": "2026-03-27T17:16:18.000Z",
+    "link": "https://cyberscoop.com/ai-cyberattacks-two-years-insane-vulnerabilities-kevin-mandia-alex-stamos-morgan-adamski-rsac-2026/"
+  },
+  {
+    "id": "0a30db7f-3c17-480d-852f-43c259fa7691",
+    "source": "The Register",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "Critical",
+    "title": "AFC Ajax drops ball as flaws let hackers play admin with tickets and bans",
+    "summary": "AFC Ajax experienced security flaws that granted hackers administrative privileges, allowing them to manipulate ticketing systems and user bans within their platforms.",
+    "date": "2026-03-27T12:30:11.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/27/afc_ajax_drops_ball_as/"
+  },
+  {
+    "id": "99f10a91-96fb-4ee1-94d3-7d79d709a278",
+    "source": "The Register",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Iran war drives urgent need to counter underwater attack drones",
+    "summary": "No summary available.",
+    "date": "2026-03-27T11:17:32.000Z",
+    "link": "https://go.theregister.com/feed/www.theregister.com/2026/03/27/us_and_uk_forces_auv_tender/"
+  },
+  {
+    "id": "9c428273-52d8-42c7-b62f-0814bb4ae2c3",
+    "source": "CyberScoop",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "ODNI tackles AI, threat hunting, app cybersecurity in year-one tech review",
+    "summary": "No summary available.",
+    "date": "2026-03-26T22:58:17.000Z",
+    "link": "https://cyberscoop.com/odni-tackles-ai-threat-hunting-app-cybersecurity-in-year-one-tech-review/"
+  },
+  {
+    "id": "0aec0c2b-f89f-413f-8b72-12e43c66773d",
+    "source": "CyberScoop",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "FCC pushes new rules to crack down on robocallers, foreign call centers",
+    "summary": "No summary available.",
+    "date": "2026-03-26T18:59:02.000Z",
+    "link": "https://cyberscoop.com/fcc-votes-to-crack-down-on-robcallers-foreign-call-centers/"
+  },
+  {
+    "id": "133fc14f-4fc6-4c90-9a05-2c21f37a249b",
+    "source": "CyberScoop",
+    "tag": "Laws, Policy, Regulations",
+    "severity": "Critical",
+    "title": "Former NSA chiefs worry American offensive edge in cybersecurity is slipping",
+    "summary": "Former NSA chiefs are concerned that the U.S. is losing its offensive cybersecurity edge, citing a systemic numbness to cyberattacks and ever-widening threats, with warnings that the worst cyber day is still ahead.",
+    "date": "2026-03-26T17:20:23.000Z",
+    "link": "https://cyberscoop.com/former-nsa-chiefs-offensive-edge-rsac/"
+  },
+  {
+    "id": "d0773786-ce3d-4c0a-926c-36d6d1f1e953",
+    "source": "CyberScoop",
+    "tag": "Malware and Vulnerabilities",
+    "severity": "High",
+    "title": "Alleged RedLine infostealer conspirator extradited to US",
+    "summary": "An Armenian man has been extradited to the US to face charges for allegedly administering the RedLine infostealer, described as one of the most prevalent infostealing malware variants globally.",
+    "date": "2026-03-25T22:25:08.000Z",
+    "link": "https://cyberscoop.com/alleged-redline-infostealer-conspirator-extradited-to-us/"
+  },
+  {
+    "id": "0ba14598-ce70-44e8-8c10-8d3a98f07eed",
+    "source": "CyberScoop",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "Google moves post-quantum encryption timeline up to 2029",
+    "summary": "No summary available.",
+    "date": "2026-03-25T21:44:14.000Z",
+    "link": "https://cyberscoop.com/google-moves-post-quantum-encryption-timeline-to-2029/"
+  },
+  {
+    "id": "083ab17a-209e-4d67-a7ff-1183705e2723",
+    "source": "CyberScoop",
+    "tag": "Threat Intel & Info Sharing",
+    "severity": "Low",
+    "title": "DarkSword’s GitHub leak threatens to turn elite iPhone hacking into a tool for the masses",
+    "summary": "No summary available.",
+    "date": "2026-03-24T21:34:03.000Z",
+    "link": "https://cyberscoop.com/darksword-iphone-spyware-leak-ios-18-exploit-threat/"
   }
 ]
