@@ -3,6 +3,7 @@ let allArticles = [];
 let activeCategory = localStorage.getItem('defaultCategory') || null;
 let activeSeverity = localStorage.getItem('defaultSeverity') || null;
 let currentSearchQuery = "";
+let currentSort = "Latest";
 
 // Initialize Lucide icons
 lucide.createIcons();
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupFilters();
     setupSearch();
     setupModal();
+    setupSort();
     fetchArticles();
     
     // Auto-apply initial UI states from localStorage if they exist
@@ -72,6 +74,27 @@ function renderArticles() {
         
         return matchCategory && matchSeverity && matchSearch;
     });
+
+    // Apply Sorting
+    if (currentSort === "Relevance") {
+        const severityWeight = {
+            "Critical": 3,
+            "High": 2,
+            "Low": 1
+        };
+        
+        filteredArticles.sort((a, b) => {
+            const weightA = severityWeight[a.severity] || 0;
+            const weightB = severityWeight[b.severity] || 0;
+            
+            if (weightA !== weightB) {
+                return weightB - weightA;
+            }
+            return new Date(b.date) - new Date(a.date);
+        });
+    } else {
+        filteredArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+    }
 
     container.innerHTML = '';
 
@@ -253,6 +276,16 @@ function setupModal() {
         
         modal.close();
         updateFilterUI();
+        renderArticles();
+    });
+}
+
+function setupSort() {
+    const sortSelect = document.getElementById('sort-select');
+    if (!sortSelect) return;
+    
+    sortSelect.addEventListener('change', (e) => {
+        currentSort = e.target.value;
         renderArticles();
     });
 }
