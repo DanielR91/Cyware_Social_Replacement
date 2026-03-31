@@ -37,3 +37,4 @@ The feed is currently aggregating updates from:
 - HackRead
 - The Record
 - Dark Reading
+- Security Affairs

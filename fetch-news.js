@@ -14,7 +14,8 @@ const SOURCES = [
   { name: 'The Register', url: 'https://www.theregister.com/security/headlines.atom' },
   { name: 'HackRead', url: 'https://hackread.com/feed/' },
   { name: 'The Record', url: 'https://therecord.media/feed' },
-  { name: 'Dark Reading', url: 'https://www.darkreading.com/rss/all.xml' }
+  { name: 'Dark Reading', url: 'https://www.darkreading.com/rss/all.xml' },
+  { name: 'Security Affairs', url: 'https://securityaffairs.com/feed/' }
 ];
 
 const MAX_ARTICLES_PER_SOURCE = 10; // 60 total per run
