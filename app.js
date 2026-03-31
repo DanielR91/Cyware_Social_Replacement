@@ -2,12 +2,14 @@
 let allArticles = [];
 let activeCategory = null;
 let activeSeverity = null;
+let currentSearchQuery = "";
 
 // Initialize Lucide icons
 lucide.createIcons();
 
 document.addEventListener('DOMContentLoaded', () => {
     setupFilters();
+    setupSearch();
     fetchArticles();
 });
 
@@ -46,6 +48,7 @@ function renderArticles() {
     const filteredArticles = allArticles.filter(article => {
         let matchCategory = true;
         let matchSeverity = true;
+        let matchSearch = true;
         
         if (activeCategory) {
             matchCategory = (article.tag === activeCategory);
@@ -54,8 +57,14 @@ function renderArticles() {
         if (activeSeverity) {
             matchSeverity = (article.severity === activeSeverity);
         }
+
+        if (currentSearchQuery) {
+            const query = currentSearchQuery.toLowerCase();
+            const textToSearch = `${article.title} ${article.summary}`.toLowerCase();
+            matchSearch = textToSearch.includes(query);
+        }
         
-        return matchCategory && matchSeverity;
+        return matchCategory && matchSeverity && matchSearch;
     });
 
     container.innerHTML = '';
@@ -161,4 +170,28 @@ function updateFilterUI() {
         const resetBtn = document.querySelector('[data-reset="true"]');
         if (resetBtn) resetBtn.classList.add('active');
     }
+}
+
+function setupSearch() {
+    const searchBtn = document.getElementById('search-toggle-btn');
+    const searchInput = document.getElementById('search-input');
+    
+    if (!searchBtn || !searchInput) return;
+
+    searchBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        searchInput.classList.toggle('expanded');
+        if (searchInput.classList.contains('expanded')) {
+            searchInput.focus();
+        } else {
+            searchInput.value = '';
+            currentSearchQuery = '';
+            renderArticles();
+        }
+    });
+    
+    searchInput.addEventListener('input', (e) => {
+        currentSearchQuery = e.target.value.trim();
+        renderArticles();
+    });
 }
