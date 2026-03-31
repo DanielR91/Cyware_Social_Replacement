@@ -29,6 +29,14 @@ async function fetchArticles() {
             clone.querySelector('.source-tag').textContent = article.source;
             clone.querySelector('.category-tag').textContent = article.tag;
             
+            const severityTag = clone.querySelector('.severity-tag');
+            if (article.severity) {
+                severityTag.textContent = article.severity;
+                severityTag.classList.add(`severity-${article.severity.toLowerCase()}`);
+            } else {
+                severityTag.style.display = 'none';
+            }
+            
             const titleLink = clone.querySelector('.article-title a');
             titleLink.textContent = article.title;
             titleLink.href = article.link;

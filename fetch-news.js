@@ -24,12 +24,13 @@ async function generateSummaryAndTag(title, snippet) {
 Title: ${title}
 Snippet: ${snippet || 'No snippet available.'}
 
-Provide two things in JSON format:
+Provide three things in JSON format:
 1. "summary": A concise 1-2 sentence summary of what the article is about.
 2. "tag": A categorization tag (must be one of: "Malware and Vulnerabilities", "Breaches and Incidents", "Threat Intel & Info Sharing", "Laws, Policy, Regulations").
+3. "severity": The threat severity rating (must be one of: "Critical", "High", "Low").
 
 Return ONLY valid JSON.
-Example: {"summary": "A new malware campaign is targeting Windows users.", "tag": "Malware and Vulnerabilities"}`;
+Example: {"summary": "A new malware campaign is targeting Windows users.", "tag": "Malware and Vulnerabilities", "severity": "High"}`;
 
     // Using the free tier model: gemini-2.5-flash
     const response = await ai.models.generateContent({
@@ -43,11 +44,12 @@ Example: {"summary": "A new malware campaign is targeting Windows users.", "tag"
     const parsed = JSON.parse(response.text);
     return {
       summary: parsed.summary || "Summary generation failed.",
-      tag: parsed.tag || "Threat Intel & Info Sharing"
+      tag: parsed.tag || "Threat Intel & Info Sharing",
+      severity: parsed.severity || "Low"
     };
   } catch (error) {
     console.error(`Error generating summary for "${title}":`, error.message);
-    return { summary: "No summary available.", tag: "Threat Intel & Info Sharing" };
+    return { summary: "No summary available.", tag: "Threat Intel & Info Sharing", severity: "Low" };
   }
 }
 
@@ -66,12 +68,13 @@ async function fetchAllNews() {
         await new Promise(r => setTimeout(r, 1000));
         
         console.log(`   -> Summarizing: ${item.title}`);
-        const { summary, tag } = await generateSummaryAndTag(item.title, item.contentSnippet);
+        const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
 
         allArticles.push({
           id: crypto.randomUUID(),
           source: source.name,
           tag: tag,
+          severity: severity,
           title: item.title,
           summary: summary,
           date: item.isoDate || item.pubDate || new Date().toISOString(),

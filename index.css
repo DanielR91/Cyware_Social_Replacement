@@ -11,6 +11,9 @@
   --neon-cyan: #00F0FF;
   --neon-purple: #B200FF;
   --neon-blue: #0066FF;
+  --neon-red: #FF003C;
+  --neon-orange: #FF8A00;
+  --neon-green: #00FF66;
 
   --border-light: rgba(255, 255, 255, 0.05);
   --border-glow: rgba(0, 240, 255, 0.15);
@@ -98,6 +101,7 @@ ul {
   letter-spacing: 0.5px;
   background: linear-gradient(90deg, var(--neon-cyan), var(--text-primary));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -322,6 +326,35 @@ ul {
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   border: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+.severity-tag {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.severity-critical {
+  color: var(--neon-red);
+  background: rgba(255, 0, 60, 0.1);
+  border-color: rgba(255, 0, 60, 0.3);
+  box-shadow: 0 0 10px rgba(255, 0, 60, 0.2);
+}
+
+.severity-high {
+  color: var(--neon-orange);
+  background: rgba(255, 138, 0, 0.1);
+  border-color: rgba(255, 138, 0, 0.3);
+}
+
+.severity-low {
+  color: var(--neon-green);
+  background: rgba(0, 255, 102, 0.1);
+  border-color: rgba(0, 255, 102, 0.3);
 }
 
 .article-title {
