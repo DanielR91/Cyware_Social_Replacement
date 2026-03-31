@@ -16,7 +16,7 @@ const SOURCES = [
   { name: 'The Record', url: 'https://therecord.media/feed' }
 ];
 
-const MAX_ARTICLES_PER_SOURCE = 3; // Keep it low to minimize API processing time
+const MAX_ARTICLES_PER_SOURCE = 10; // 60 total per run
 
 async function generateSummaryAndTag(title, snippet) {
   try {
@@ -64,8 +64,8 @@ async function fetchAllNews() {
       const latestItems = feed.items.slice(0, MAX_ARTICLES_PER_SOURCE);
 
       for (const item of latestItems) {
-        // Sleep slightly to respect rate limits if there are many articles
-        await new Promise(r => setTimeout(r, 1000));
+        // Sleep 4.5 seconds to stay strictly under the free tier 15 Requests Per Minute limit
+        await new Promise(r => setTimeout(r, 4500));
         
         console.log(`   -> Summarizing: ${item.title}`);
         const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
