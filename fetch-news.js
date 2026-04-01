@@ -26,6 +26,31 @@ function cleanAIResponse(text) {
   }
 }
 
+// Helper for AI calls with automatic retry for 429s (Rate Limits)
+async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
+  let attempt = 0;
+  while (attempt <= retries) {
+    try {
+      const response = await withTimeout(ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        config: { responseMimeType: "application/json" }
+      }), timeoutMs, operationName);
+      return response;
+    } catch (err) {
+      // Check for 429 errors in the message
+      if (err.message && err.message.includes("429") && attempt < retries) {
+        attempt++;
+        const wait = 60000 * attempt; // 60s, 120s, etc.
+        console.warn(`[429 Quota Hit] "${operationName}" - Retrying in ${wait/1000}s... (Attempt ${attempt}/${retries})`);
+        await new Promise(r => setTimeout(r, wait));
+      } else {
+        throw err;
+      }
+    }
+  }
+}
+
 const SOURCES = [
   { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/' },
   { name: 'The Hacker News', url: 'https://feeds.feedburner.com/TheHackersNews' },
@@ -39,7 +64,7 @@ const SOURCES = [
   { name: 'Help Net Security', url: 'https://www.helpnetsecurity.com/feed/' }
 ];
 
-const MAX_ARTICLES_PER_SOURCE = 10; // 60 total per run
+const MAX_ARTICLES_PER_SOURCE = 7; // 70 total per run to save quota
 
 async function generateSummaryAndTag(title, snippet) {
   try {
@@ -55,14 +80,8 @@ Provide three things in JSON format:
 Return ONLY valid JSON.
 Example: {"summary": "A new malware campaign is targeting Windows users.", "tag": "Malware and Vulnerabilities", "severity": "High"}`;
 
-    // Using the official SDK: gemini-2.5-flash
-    const response = await withTimeout(ai.models.generateContent({
-        model: 'gemini-2.5-flash',
-        contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        config: {
-            responseMimeType: "application/json"
-        }
-    }), 30000, `Summary for: ${title}`);
+    // Using the official SDK: gemini-2.5-flash with safety retry
+    const response = await callAIWithRetry(prompt, 30000, `Summary for: ${title}`);
 
     const parsed = cleanAIResponse(response.text);
     return {
@@ -97,13 +116,7 @@ ${JSON.stringify(listForAI)}
 Return ONLY a JSON array of the "id" strings for your top 10 selections.
 Example: ["id1", "id2", "id3", ...]`;
 
-    const response = await withTimeout(ai.models.generateContent({
-        model: 'gemini-2.5-flash',
-        contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        config: {
-            responseMimeType: "application/json"
-        }
-    }), 60000, "Top 10 Intel Selection");
+    const response = await callAIWithRetry(prompt, 60000, "Top 10 Intel Selection");
 
     const topIds = cleanAIResponse(response.text);
     return Array.isArray(topIds) ? topIds : [];
@@ -124,8 +137,8 @@ async function fetchAllNews() {
       const latestItems = feed.items.slice(0, MAX_ARTICLES_PER_SOURCE);
 
       for (const item of latestItems) {
-        // Sleep 4.5 seconds to stay strictly under the free tier 15 Requests Per Minute limit
-        await new Promise(r => setTimeout(r, 4500));
+        // Sleep 6 seconds to stay strictly under the free tier 15 Requests Per Minute limit (safer 10 RPM)
+        await new Promise(r => setTimeout(r, 6000));
         
         console.log(`   -> Summarizing: ${item.title}`);
         const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
