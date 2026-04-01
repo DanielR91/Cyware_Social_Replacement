@@ -1,12 +1,11 @@
 import Parser from 'rss-parser';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 import fs from 'fs/promises';
 import crypto from 'crypto';
 
 // Initialize RSS Parser and Gemini Client
 const parser = new Parser();
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // Helper for promise timeouts
 function withTimeout(promise, ms, operationName) {
@@ -56,16 +55,16 @@ Provide three things in JSON format:
 Return ONLY valid JSON.
 Example: {"summary": "A new malware campaign is targeting Windows users.", "tag": "Malware and Vulnerabilities", "severity": "High"}`;
 
-    // Using the official SDK: gemini-1.5-flash
-    const result = await withTimeout(model.generateContent({
+    // Using the official SDK: gemini-2.5-flash
+    const response = await withTimeout(ai.models.generateContent({
+        model: 'gemini-2.5-flash',
         contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        generationConfig: {
+        config: {
             responseMimeType: "application/json"
         }
     }), 30000, `Summary for: ${title}`);
 
-    const response = await result.response;
-    const parsed = cleanAIResponse(response.text());
+    const parsed = cleanAIResponse(response.text);
     return {
       summary: parsed.summary || "Summary generation failed.",
       tag: parsed.tag || "Threat Intel & Info Sharing",
@@ -98,15 +97,15 @@ ${JSON.stringify(listForAI)}
 Return ONLY a JSON array of the "id" strings for your top 10 selections.
 Example: ["id1", "id2", "id3", ...]`;
 
-    const result = await withTimeout(model.generateContent({
+    const response = await withTimeout(ai.models.generateContent({
+        model: 'gemini-2.5-flash',
         contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        generationConfig: {
+        config: {
             responseMimeType: "application/json"
         }
     }), 60000, "Top 10 Intel Selection");
 
-    const response = await result.response;
-    const topIds = cleanAIResponse(response.text());
+    const topIds = cleanAIResponse(response.text);
     return Array.isArray(topIds) ? topIds : [];
   } catch (error) {
     console.error('Error identifying Top 10:', error.message);
