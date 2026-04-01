@@ -1,11 +1,31 @@
 import Parser from 'rss-parser';
-import { GoogleGenAI } from '@google/genai';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 import fs from 'fs/promises';
 import crypto from 'crypto';
 
 // Initialize RSS Parser and Gemini Client
 const parser = new Parser();
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY }); // Assumes GEMINI_API_KEY is securely injected via GitHub Secrets
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+// Helper for promise timeouts
+function withTimeout(promise, ms, operationName) {
+  const timeout = new Promise((_, reject) =>
+    setTimeout(() => reject(new Error(`Operation "${operationName}" timed out after ${ms}ms`)), ms)
+  );
+  return Promise.race([promise, timeout]);
+}
+
+// Helper to strip Markdown and parse JSON
+function cleanAIResponse(text) {
+  try {
+    const cleaned = text.replace(/```json/g, '').replace(/```/g, '').trim();
+    return JSON.parse(cleaned);
+  } catch (e) {
+    console.error('Failed to parse AI response as JSON:', text);
+    throw e;
+  }
+}
 
 const SOURCES = [
   { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/' },
@@ -36,16 +56,16 @@ Provide three things in JSON format:
 Return ONLY valid JSON.
 Example: {"summary": "A new malware campaign is targeting Windows users.", "tag": "Malware and Vulnerabilities", "severity": "High"}`;
 
-    // Using the free tier model: gemini-2.5-flash
-    const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
-        contents: prompt,
-        config: {
+    // Using the official SDK: gemini-1.5-flash
+    const result = await withTimeout(model.generateContent({
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: {
             responseMimeType: "application/json"
         }
-    });
+    }), 30000, `Summary for: ${title}`);
 
-    const parsed = JSON.parse(response.text);
+    const response = await result.response;
+    const parsed = cleanAIResponse(response.text());
     return {
       summary: parsed.summary || "Summary generation failed.",
       tag: parsed.tag || "Threat Intel & Info Sharing",
@@ -78,15 +98,15 @@ ${JSON.stringify(listForAI)}
 Return ONLY a JSON array of the "id" strings for your top 10 selections.
 Example: ["id1", "id2", "id3", ...]`;
 
-    const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
-        contents: prompt,
-        config: {
+    const result = await withTimeout(model.generateContent({
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: {
             responseMimeType: "application/json"
         }
-    });
+    }), 60000, "Top 10 Intel Selection");
 
-    const topIds = JSON.parse(response.text);
+    const response = await result.response;
+    const topIds = cleanAIResponse(response.text());
     return Array.isArray(topIds) ? topIds : [];
   } catch (error) {
     console.error('Error identifying Top 10:', error.message);
@@ -130,13 +150,17 @@ async function fetchAllNews() {
   // Sort by date newest first
   allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  // Identify Top 10 using AI
-  const topTenIds = await identifyTopIntel(allArticles);
-  allArticles.forEach(article => {
-    if (topTenIds.includes(article.id)) {
-      article.isTopTen = true;
-    }
-  });
+  // Identify Top 10 using AI (Fail-safe)
+  try {
+    const topTenIds = await identifyTopIntel(allArticles);
+    allArticles.forEach(article => {
+      if (topTenIds.includes(article.id)) {
+        article.isTopTen = true;
+      }
+    });
+  } catch (err) {
+    console.error('Final Top 10 pass failed, proceeding with standard feed update:', err.message);
+  }
 
   // Save to articles.json
   await fs.writeFile('articles.json', JSON.stringify(allArticles, null, 2));
