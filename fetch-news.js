@@ -236,7 +236,9 @@ async function fetchAllNews() {
   console.log(`Successfully saved ${limitedCollection.length} articles.`);
 }
 
-fetchAllNews().then(() => {
+fetchAllNews().then(async () => {
+  // 2s delay to ensure logs flush before hard exit
+  await new Promise(r => setTimeout(r, 2000));
   process.exit(0);
 }).catch(err => {
   console.error("FATAL ERROR:", err);
