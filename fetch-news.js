@@ -136,14 +136,20 @@ async function identifyTopIntel(articles) {
 
     console.log(`Identifying top 10 most impactful articles using ${modelName}...`);
     try {
-      const listForAI = articles.map(a => ({ id: a.id, title: a.title, summary: a.summary }));
+      const listForAI = articles.map((a, idx) => ({ index: idx, title: a.title, summary: a.summary }));
       const prompt = `Select exactly the 10 most critical/impactful articles from this list.
-Return ONLY a JSON array of the "id" strings.
+Return ONLY a JSON array of the "index" integers (0-based).
 Articles: ${JSON.stringify(listForAI)}`;
 
       const response = await callAIWithRetry(prompt, 60000, `Top 10 (${modelName})`, modelName);
-      const topIds = cleanAIResponse(response.text);
-      return Array.isArray(topIds) ? topIds : [];
+      const topIndices = cleanAIResponse(response.text);
+      
+      if (!Array.isArray(topIndices)) return [];
+      
+      // Map indices back to article IDs safely
+      return topIndices
+        .filter(idx => typeof idx === 'number' && articles[idx])
+        .map(idx => articles[idx].id);
     } catch (error) {
       if (error.message === "QUOTA_EXCEEDED" && modelName.includes("2.5")) {
         console.warn('Premium model quota hit. Falling back to Lite model for Top 10 selection...');
