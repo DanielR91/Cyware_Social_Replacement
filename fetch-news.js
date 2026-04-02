@@ -45,16 +45,15 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
     } catch (err) {
       const msg = err.message || "";
       // Only treat it as FATAL if it's a daily/budget limit. 
-      // General 429s (RPM/Minute quotas) should just trigger a retry below.
       if (msg.toLowerCase().includes("quota") && (msg.toLowerCase().includes("daily") || msg.toLowerCase().includes("rpd") || msg.toLowerCase().includes("budget"))) {
-        console.error(`[FATAL] Daily Quota Exceeded. Details:`, JSON.stringify(err, null, 2));
+        console.error(`[FATAL] Daily Quota Exceeded. Switching to Headlines-Only mode.`);
         hasQuotaExceeded = true;
         throw new Error("QUOTA_EXCEEDED");
       }
 
       if (msg.includes("429") && attempt < retries) {
         attempt++;
-        const wait = 60000 * attempt; // 60s, 120s, etc.
+        const wait = 60000 * attempt; 
         console.warn(`[429 Rate Limit] "${operationName}". Details:`, JSON.stringify(err, null, 2));
         console.warn(`Pausing for ${wait/1000}s... (Attempt ${attempt}/${retries})`);
         await new Promise(r => setTimeout(r, wait));
@@ -79,173 +78,175 @@ const SOURCES = [
   { name: 'Help Net Security', url: 'https://www.helpnetsecurity.com/feed/' }
 ];
 
-const MAX_ARTICLES_PER_SOURCE = 7; // 70 total per run to save quota
+const MAX_ARTICLES_PER_SOURCE = 7; 
 
-async function generateSummaryAndTag(title, snippet) {
-  if (hasQuotaExceeded) {
-    return { summary: QUOTA_PLACEHOLDER, tag: "Threat Intel & Info Sharing", severity: "Low" };
+async function generateBatchSummaries(articles) {
+  if (hasQuotaExceeded || articles.length === 0) {
+    return articles.map(a => ({ id: a.id, summary: QUOTA_PLACEHOLDER, tag: "Threat Intel & Info Sharing", severity: "Low" }));
   }
 
+  const batchPrompt = `Analyze these ${articles.length} cybersecurity news headlines.
+For each one, provide:
+1. "id": Matches the ID provided.
+2. "summary": A concise 1-2 sentence summary.
+3. "tag": One of: "Malware and Vulnerabilities", "Breaches and Incidents", "Threat Intel & Info Sharing", "Laws, Policy, Regulations".
+4. "severity": One of: "Critical", "High", "Low".
+
+Articles to analyze:
+${JSON.stringify(articles.map(a => ({ id: a.id, title: a.title, snippet: a.snippet || "No snippet available." })))}
+
+Return ONLY a JSON array of objects.
+Example: [{"id": "...", "summary": "...", "tag": "...", "severity": "..."}]`;
+
   try {
-    const prompt = `Analyze this cybersecurity news article.
-Title: ${title}
-Snippet: ${snippet || 'No snippet available.'}
-
-Provide three things in JSON format:
-1. "summary": A concise 1-2 sentence summary of what the article is about.
-2. "tag": A categorization tag (must be one of: "Malware and Vulnerabilities", "Breaches and Incidents", "Threat Intel & Info Sharing", "Laws, Policy, Regulations").
-3. "severity": The threat severity rating (must be one of: "Critical", "High", "Low").
-
-Return ONLY valid JSON.
-Example: {"summary": "A new malware campaign is targeting Windows users.", "tag": "Malware and Vulnerabilities", "severity": "High"}`;
-
-    // Using the official SDK: gemini-2.5-flash with safety retry
-    const response = await callAIWithRetry(prompt, 30000, `Summary for: ${title}`);
-
-    const parsed = cleanAIResponse(response.text);
-    return {
-      summary: parsed.summary || "Summary generation failed.",
-      tag: parsed.tag || "Threat Intel & Info Sharing",
-      severity: parsed.severity || "Low"
-    };
+    const response = await callAIWithRetry(batchPrompt, 60000, `Batch Summary (${articles.length} items)`);
+    const results = cleanAIResponse(response.text);
+    return Array.isArray(results) ? results : [];
   } catch (error) {
-    console.error(`Error generating summary for "${title}":`, error.message);
-    return { summary: "No summary available.", tag: "Threat Intel & Info Sharing", severity: "Low" };
+    console.error('Batch summary failed:', error.message);
+    return articles.map(a => ({ id: a.id, summary: QUOTA_PLACEHOLDER, tag: "Threat Intel & Info Sharing", severity: "Low" }));
   }
 }
 
 async function identifyTopIntel(articles) {
   if (articles.length === 0) return [];
-  
   console.log('Identifying top 10 most impactful articles...');
   
   try {
     const listForAI = articles.map(a => ({ id: a.id, title: a.title, summary: a.summary }));
-    const prompt = `You are a Senior Threat Intelligence Analyst. 
-Below is a list of cybersecurity news articles collected today. 
-Select exactly the 10 most critical or impactful articles that a CISO should prioritize.
-Base your selection on: 
-1. Impact (Global breaches, supply chain attacks, etc.)
-2. Exploitability (Zero-days, RCE with public PoCs).
-3. Strategic Importance (Nation-state actors, major policy changes).
-
+    const prompt = `Select exactly the 10 most critical/impactful articles from this list.
+Return ONLY a JSON array of the "id" strings.
 Articles:
-${JSON.stringify(listForAI)}
+${JSON.stringify(listForAI)}`;
 
-Return ONLY a JSON array of the "id" strings for your top 10 selections.
-Example: ["id1", "id2", "id3", ...]`;
-
-    const response = await callAIWithRetry(prompt, 60000, "Top 10 Intel Selection");
-
+    const response = await callAIWithRetry(prompt, 60000, "Top 10 Selection");
     const topIds = cleanAIResponse(response.text);
     return Array.isArray(topIds) ? topIds : [];
   } catch (error) {
-    console.error('Error identifying Top 10:', error.message);
+    console.error('Top 10 selection failed:', error.message);
     return [];
   }
 }
 
 async function fetchAllNews() {
-  console.log('Loading existing news and fetching new reports...');
+  console.log('--- Resilient Bulk Scraper (2026 Quota Shield) ---');
   
-  // Load existing articles so we don't start from an empty file
   let existingArticles = [];
   try {
     const data = await fs.readFile('articles.json', 'utf8');
     existingArticles = JSON.parse(data);
-    console.log(`Successfully loaded ${existingArticles.length} existing articles.`);
+    console.log(`Loaded ${existingArticles.length} existing articles.`);
   } catch (err) {
-    console.log('No existing articles.json found or file is empty.');
+    console.log('No existing history found.');
   }
 
-  const newArticles = [];
-
+  // 1. Scrape all RSS headlines first
+  const rawHeadlines = [];
   for (const source of SOURCES) {
-    console.log(`Pulling ${source.name}...`);
+    console.log(`Scraping ${source.name}...`);
     try {
       const feed = await parser.parseURL(source.url);
-      const latestItems = feed.items.slice(0, MAX_ARTICLES_PER_SOURCE);
-
-      for (const item of latestItems) {
-        // Sleep 6 seconds to stay strictly under the free tier 15 Requests Per Minute limit (safer 10 RPM)
-        await new Promise(r => setTimeout(r, 6000));
-        
-        console.log(`   -> Summarizing: ${item.title}`);
-        const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
-
-        newArticles.push({
+      const items = feed.items.slice(0, MAX_ARTICLES_PER_SOURCE);
+      items.forEach(item => {
+        rawHeadlines.push({
           id: crypto.randomUUID(),
           source: source.name,
-          tag: tag,
-          severity: severity,
           title: item.title,
-          summary: summary,
+          snippet: item.contentSnippet,
           date: item.isoDate || item.pubDate || new Date().toISOString(),
           link: item.link
         });
-      }
+      });
     } catch (err) {
-      if (err.message === "QUOTA_EXCEEDED") {
-        console.warn(`Stopping scrape early due to quota exhaustion. Saving partial results (${newArticles.length} new items)...`);
-        break; // Break the SOURCES loop to jump to the save step
-      }
-      console.error(`Failed to fetch ${source.name}:`, err.message);
+      console.error(`Failed RSS pull for ${source.name}:`, err.message);
     }
   }
 
-  // Merge and Deduplicate (by link)
-  console.log('Merging and deduplicating news...');
-  const combined = [...newArticles];
-  const seenLinks = new Set(newArticles.map(a => a.link));
+  // 2. Filter for headlines that need AI summaries (New OR Placeholder)
+  const aiCandidates = [];
+  const processedArticles = []; // Items that already have valid summaries
+
+  const existingMap = new Map(existingArticles.map(a => [a.link, a]));
   
-  existingArticles.forEach(old => {
-    // If we've already seen this link in the new batch
-    if (seenLinks.has(old.link)) {
-      const newOne = combined.find(a => a.link === old.link);
-      // If the NEW one is a placeholder but the OLD one was real, keep the OLD one's data!
-      if (newOne && newOne.summary === QUOTA_PLACEHOLDER && old.summary !== QUOTA_PLACEHOLDER) {
-        newOne.summary = old.summary;
-        newOne.tag = old.tag;
-        newOne.severity = old.severity;
-        newOne.title = old.title; // In case headline changed slightly
-      }
+  rawHeadlines.forEach(raw => {
+    const existing = existingMap.get(raw.link);
+    if (!existing || existing.summary === QUOTA_PLACEHOLDER) {
+      aiCandidates.push(raw);
     } else {
-      combined.push(old);
-      seenLinks.add(old.link);
+      processedArticles.push(existing);
     }
   });
 
-  // Sort by date newest first
-  combined.sort((a, b) => new Date(b.date) - new Date(a.date));
+  console.log(`Found ${aiCandidates.length} articles needing AI summaries.`);
 
-  // Limit to 500 most recent items to keep file size optimized
-  const finalArticles = combined.slice(0, 500);
+  // 3. Batch Process in chunks of 14 (Respecting 20 RPD / 5 RPM)
+  const BATCH_SIZE = 14;
+  const summarizedNewOnes = [];
 
-  // Identify Top 10 using AI (Fail-safe) - Run this on the most recent 70 items
-  try {
-    // Wait an extra 10s to let the minute-bucket clear before the final selection pass
-    console.log('Brief 10s cool-down before identifying Top 10 Priority Intel...');
-    await new Promise(r => setTimeout(r, 10000));
+  for (let i = 0; i < aiCandidates.length; i += BATCH_SIZE) {
+    if (hasQuotaExceeded) {
+      // Fallback for remaining items
+      aiCandidates.slice(i).forEach(raw => {
+        summarizedNewOnes.push({ ...raw, summary: QUOTA_PLACEHOLDER, tag: "Threat Intel & Info Sharing", severity: "Low" });
+      });
+      break;
+    }
 
-    const topTenCandidates = finalArticles.slice(0, 70);
-    const topTenIds = await identifyTopIntel(topTenCandidates);
+    const chunk = aiCandidates.slice(i, i + BATCH_SIZE);
+    console.log(`Processing Batch ${Math.floor(i/BATCH_SIZE) + 1} (${chunk.length} items)...`);
     
-    // Clear old flags first (on our final set)
-    finalArticles.forEach(article => delete article.isTopTen);
+    // 15-second delay to stay strictly under 5 RPM
+    if (i > 0) await new Promise(r => setTimeout(r, 15000));
 
-    // Apply new Top 10 flags
-    finalArticles.forEach(article => {
-      if (topTenIds.includes(article.id)) {
-        article.isTopTen = true;
-      }
+    const results = await generateBatchSummaries(chunk);
+    
+    // Map AI results back to our raw objects
+    chunk.forEach(raw => {
+      const aiResult = results.find(r => r.id === raw.id);
+      summarizedNewOnes.push({
+        ...raw,
+        summary: aiResult?.summary || QUOTA_PLACEHOLDER,
+        tag: aiResult?.tag || "Threat Intel & Info Sharing",
+        severity: aiResult?.severity || "Low"
+      });
     });
-  } catch (err) {
-    console.error('Final Top 10 pass failed, proceeding with standard feed update:', err.message);
   }
 
-  // Save to articles.json
-  await fs.writeFile('articles.json', JSON.stringify(finalArticles, null, 2));
-  console.log(`Successfully saved ${finalArticles.length} total articles to articles.json`);
+  // 4. Merge, Sort, and Deduplicate
+  const allCurrent = [...summarizedNewOnes, ...processedArticles];
+  // Final dedupe by link (safety)
+  const uniqueMap = new Map();
+  allCurrent.forEach(a => uniqueMap.set(a.link, a));
+  
+  // Re-add historical articles not in the current pull
+  existingArticles.forEach(old => {
+    if (!uniqueMap.has(old.link)) {
+      uniqueMap.set(old.link, old);
+    }
+  });
+
+  const finalCollection = Array.from(uniqueMap.values());
+  finalCollection.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const limitedCollection = finalCollection.slice(0, 500);
+
+  // 5. Final Top 10 Pass (Using 1 AI request)
+  try {
+    if (!hasQuotaExceeded) {
+      await new Promise(r => setTimeout(r, 15000));
+      const topTenCandidates = limitedCollection.slice(0, 70);
+      const topTenIds = await identifyTopIntel(topTenCandidates);
+      
+      limitedCollection.forEach(article => delete article.isTopTen);
+      limitedCollection.forEach(article => {
+        if (topTenIds.includes(article.id)) article.isTopTen = true;
+      });
+    }
+  } catch (err) {
+    console.error('Top 10 pass failed:', err.message);
+  }
+
+  await fs.writeFile('articles.json', JSON.stringify(limitedCollection, null, 2));
+  console.log(`Done! Saved ${limitedCollection.length} articles.`);
 }
 
 fetchAllNews();
