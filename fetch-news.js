@@ -78,7 +78,7 @@ const SOURCES = [
   { name: 'Help Net Security', url: 'https://www.helpnetsecurity.com/feed/' }
 ];
 
-const MAX_ARTICLES_PER_SOURCE = 7; 
+const MAX_ARTICLES_PER_SOURCE = 6; 
 
 async function generateBatchSummaries(articles) {
   if (hasQuotaExceeded || articles.length === 0) {
@@ -179,8 +179,8 @@ async function fetchAllNews() {
 
   console.log(`Found ${aiCandidates.length} articles needing AI summaries.`);
 
-  // 3. Batch Process in chunks of 14 (Respecting 20 RPD / 5 RPM)
-  const BATCH_SIZE = 14;
+  // 3. Batch Process in chunks of 7 (Respecting 20 RPD / 5 RPM)
+  const BATCH_SIZE = 7;
   const summarizedNewOnes = [];
 
   for (let i = 0; i < aiCandidates.length; i += BATCH_SIZE) {
@@ -195,8 +195,8 @@ async function fetchAllNews() {
     const chunk = aiCandidates.slice(i, i + BATCH_SIZE);
     console.log(`Processing Batch ${Math.floor(i/BATCH_SIZE) + 1} (${chunk.length} items)...`);
     
-    // 15-second delay to stay strictly under 5 RPM
-    if (i > 0) await new Promise(r => setTimeout(r, 15000));
+    // 15-second delay to stay strictly under 5 RPM (including an initial warm-up)
+    await new Promise(r => setTimeout(r, 15000));
 
     const results = await generateBatchSummaries(chunk);
     
