@@ -55,8 +55,8 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, modelName, retr
     } catch (err) {
       const msg = (err.message || "").toLowerCase();
       
-      // Determine if this is a "Daily Budget" fail
-      const isDailyExhausted = msg.includes("quota") && (msg.includes("daily") || msg.includes("budget") || msg.includes("rpd"));
+      // Determine if this is a "Daily Budget" fail (2026 edition)
+      const isDailyExhausted = msg.includes("quota") && (msg.includes("daily") || msg.includes("budget") || msg.includes("rpd") || msg.includes("exceeded") || msg.includes("metric"));
 
       if (isDailyExhausted) {
         if (modelName.includes("lite")) quotaExceededLite = true;
