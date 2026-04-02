@@ -290,13 +290,47 @@ ul {
 .feed-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.last-updated {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.last-updated i {
+  width: 14px;
+  height: 14px;
+  color: var(--neon-cyan);
+}
+
+.last-updated span b {
+  color: var(--text-secondary);
 }
 
 .feed-header h2 {
   font-size: 1.5rem;
   font-weight: 600;
+  line-height: 1.2;
+}
+
+@media (min-width: 1024px) {
+  .header-main {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+  }
 }
 
 .sort-options {
