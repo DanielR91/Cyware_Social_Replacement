@@ -51,10 +51,10 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
         throw new Error("QUOTA_EXCEEDED");
       }
 
-      if (msg.includes("429") && attempt < retries) {
+      if ((msg.includes("429") || msg.includes("503")) && attempt < retries) {
         attempt++;
         const wait = 60000 * attempt; 
-        console.warn(`[429 Rate Limit] "${operationName}". Details:`, JSON.stringify(err, null, 2));
+        console.warn(`[Retry Needed - ${msg.includes("429") ? "429" : "503"}] "${operationName}".`);
         console.warn(`Pausing for ${wait/1000}s... (Attempt ${attempt}/${retries})`);
         await new Promise(r => setTimeout(r, wait));
       } else {
