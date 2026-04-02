@@ -4,7 +4,11 @@ import fs from 'fs/promises';
 import crypto from 'crypto';
 
 // Initialize RSS Parser and Gemini Client
-const parser = new Parser();
+const parser = new Parser({
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  }
+});
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // We track two separate quota states in our Hybrid Model (2026 Edition)
@@ -226,4 +230,9 @@ async function fetchAllNews() {
   console.log(`Successfully saved ${limitedCollection.length} articles.`);
 }
 
-fetchAllNews();
+fetchAllNews().then(() => {
+  process.exit(0);
+}).catch(err => {
+  console.error("FATAL ERROR:", err);
+  process.exit(1);
+});
