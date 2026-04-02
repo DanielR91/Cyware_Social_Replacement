@@ -121,23 +121,36 @@ Provide JSON:
 }
 
 async function identifyTopIntel(articles) {
-  if (articles.length === 0 || quotaExceededPremium) return [];
-  console.log('Identifying top 10 most impactful articles using Premium Model...');
+  if (articles.length === 0) return [];
   
-  try {
-    const listForAI = articles.map(a => ({ id: a.id, title: a.title, summary: a.summary }));
-    const prompt = `Select exactly the 10 most critical/impactful articles from this list.
+  // Strategy: Try Premium Model (2.5) first, fallback to Lite (3.1) if quota hit
+  const modelsToTry = ['gemini-2.5-flash', 'gemini-3.1-flash-lite-preview'];
+
+  for (const modelName of modelsToTry) {
+    if (modelName.includes("2.5") && quotaExceededPremium) continue;
+    if (modelName.includes("lite") && quotaExceededLite) continue;
+
+    console.log(`Identifying top 10 most impactful articles using ${modelName}...`);
+    try {
+      const listForAI = articles.map(a => ({ id: a.id, title: a.title, summary: a.summary }));
+      const prompt = `Select exactly the 10 most critical/impactful articles from this list.
 Return ONLY a JSON array of the "id" strings.
 Articles: ${JSON.stringify(listForAI)}`;
 
-    // Using the flagship 2.5 model for final selection pass
-    const response = await callAIWithRetry(prompt, 60000, "Top 10 Selection", 'gemini-2.5-flash');
-    const topIds = cleanAIResponse(response.text);
-    return Array.isArray(topIds) ? topIds : [];
-  } catch (error) {
-    console.error('Top 10 pass failed:', error.message);
-    return [];
+      const response = await callAIWithRetry(prompt, 60000, `Top 10 (${modelName})`, modelName);
+      const topIds = cleanAIResponse(response.text);
+      return Array.isArray(topIds) ? topIds : [];
+    } catch (error) {
+      if (error.message === "QUOTA_EXCEEDED" && modelName.includes("2.5")) {
+        console.warn('Premium model quota hit. Falling back to Lite model for Top 10 selection...');
+        continue; // Try the next model in the list
+      }
+      console.error(`Top 10 pass failed for ${modelName}:`, error.message);
+      // If it's a Lite model failure or anything else, don't keep looping
+      break; 
+    }
   }
+  return [];
 }
 
 async function fetchAllNews() {
