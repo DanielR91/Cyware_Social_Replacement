@@ -38,11 +38,17 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
       }), timeoutMs, operationName);
       return response;
     } catch (err) {
-      // Check for 429 errors in the message
-      if (err.message && err.message.includes("429") && attempt < retries) {
+      const msg = err.message || "";
+      // Check for permanent Quota Exceeded vs temporary Rate Limit
+      if (msg.toLowerCase().includes("quota")) {
+        console.error(`[FATAL] Daily Quota Exceeded. Aborting run.`);
+        throw new Error("QUOTA_EXCEEDED");
+      }
+
+      if (msg.includes("429") && attempt < retries) {
         attempt++;
         const wait = 60000 * attempt; // 60s, 120s, etc.
-        console.warn(`[429 Quota Hit] "${operationName}" - Retrying in ${wait/1000}s... (Attempt ${attempt}/${retries})`);
+        console.warn(`[429 Rate Limit] "${operationName}" - Pausing for ${wait/1000}s... (Attempt ${attempt}/${retries})`);
         await new Promise(r => setTimeout(r, wait));
       } else {
         throw err;
@@ -155,6 +161,10 @@ async function fetchAllNews() {
         });
       }
     } catch (err) {
+      if (err.message === "QUOTA_EXCEEDED") {
+        console.warn(`Stopping scrape early due to quota exhaustion. Saving partial results (${allArticles.length} items)...`);
+        break; // Break the SOURCES loop to jump to the save step
+      }
       console.error(`Failed to fetch ${source.name}:`, err.message);
     }
   }
