@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-04-02T16:10:09.386Z",
+  "lastUpdated": "2026-04-02T19:06:49.683Z",
   "articles": [
+    {
+      "id": "8aea75f2-6d01-4628-a48e-8a26c16560a4",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hasbro hit by cyberattack, investigates possible data breach",
+      "summary": "Toy manufacturer Hasbro is investigating a cyberattack that caused operational disruptions and is currently assessing if sensitive data was compromised during the incident.",
+      "date": "2026-04-02T18:27:07.000Z",
+      "link": "https://securityaffairs.com/190306/security/hasbro-hit-by-cyberattack-investigates-possible-data-breach.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6a9c1751-5000-4d64-961a-4b01a67f6b30",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "They thought they were downloading Claude Code source. They got a nasty dose of malware instead",
+      "summary": "Cybercriminals are distributing malicious software disguised as the Claude Code source code to infect unsuspecting users. This incident highlights a growing trend of supply chain and impersonation attacks targeting developers.",
+      "date": "2026-04-02T17:34:07.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/trojanized_claude_code_leak_github/",
+      "isTopTen": false
+    },
+    {
+      "id": "c96bf432-c3a7-4ad0-befe-0d0e87b4ec4e",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Drift crypto platform confirms $280 million stolen in hack as researchers point finger at North Korea",
+      "summary": "The Drift crypto platform suffered a $280 million theft following a sophisticated hack that allowed attackers to seize administrative control. Security researchers have attributed the incident to North Korean actors.",
+      "date": "2026-04-02T17:25:00.000Z",
+      "link": "https://therecord.media/drift-crypto-confirms-280-million-stolen-north-korea",
+      "isTopTen": true
+    },
+    {
+      "id": "f09d3158-2510-48ef-8397-c35cb2523ead",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco fixed critical and high-severity flaws",
+      "summary": "Cisco has released security patches to address two critical and six high-severity vulnerabilities that could enable remote code execution, authentication bypass, and privilege escalation. These updates are essential for protecting systems from potential exploitation and unauthorized data access.",
+      "date": "2026-04-02T17:04:38.000Z",
+      "link": "https://securityaffairs.com/190295/security/cisco-fixed-critical-and-high-severity-flaws.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1fe20ed1-1c8a-4959-bd09-e27aaf56f684",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "French Senate passes bill that would ban children under 15 from social media",
+      "summary": "The French Senate has passed legislation aiming to prohibit social media access for children under the age of 15. If enacted, this policy would make France the first European nation to implement such age-based restrictions on digital platforms.",
+      "date": "2026-04-02T16:48:00.000Z",
+      "link": "https://therecord.media/french-senate-passes-bill-child-ban-social-media",
+      "isTopTen": false
+    },
+    {
+      "id": "22406908-b906-426a-942b-d97e0e557928",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Akira ransomware group can achieve initial access to data encryption in less than an hour",
+      "summary": "The Akira ransomware group demonstrates high operational efficiency by achieving initial access and starting encryption within one hour. Additionally, the group actively maintains functional decryptors to increase the likelihood of ransom payments.",
+      "date": "2026-04-02T16:26:04.000Z",
+      "link": "https://cyberscoop.com/akira-ransomware-initial-access-to-encryption-in-hours/",
+      "isTopTen": false
+    },
+    {
+      "id": "ab666a16-33ce-4aeb-85f5-a73303863580",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Lawmakers renew push for Labor Department-backed cyber apprenticeship grants",
+      "summary": "U.S. lawmakers have reintroduced the Cyber Ready Workforce Act, a bipartisan effort designed to alleviate the national cybersecurity talent shortage through Labor Department-backed apprenticeship grants.",
+      "date": "2026-04-02T16:14:04.000Z",
+      "link": "https://cyberscoop.com/labor-department-cybersecurity-workforce-apprenticeships/",
+      "isTopTen": false
+    },
     {
       "id": "7c6f5de4-8290-4e6d-ae0d-7ece00043932",
       "source": "HackRead",
@@ -10,7 +87,7 @@
       "summary": "Microsoft has identified a malicious campaign distributing VBS malware via WhatsApp attachments, which allows attackers to gain unauthorized remote access to compromised Windows systems.",
       "date": "2026-04-02T15:23:27.000Z",
       "link": "https://hackread.com/microsoft-whatsapp-attachments-backdoor-windows-pcs/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d6499304-6a14-4352-b8d9-7a331ce7693f",
@@ -21,7 +98,18 @@
       "summary": "Residential proxies are significantly undermining IP reputation systems by masking malicious traffic as legitimate user activity in the majority of analyzed sessions. This trend poses a severe challenge for security controls that rely on IP-based filtering to block threats.",
       "date": "2026-04-02T15:21:02.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "776367b0-e99b-40cb-8610-4edaf65c2a7d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
+      "summary": "Cisco has released critical security patches for its Integrated Management Controller (IMC) to address a vulnerability (CVE-2026-20093) that could allow unauthenticated remote attackers to gain elevated system privileges.",
+      "date": "2026-04-02T15:21:00.000Z",
+      "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
+      "isTopTen": false
     },
     {
       "id": "456ae043-0f39-4db1-9f0f-d6953c764066",
@@ -32,7 +120,7 @@
       "summary": "Medical technology company Stryker has restored operations following a wiper malware attack orchestrated by the Iranian-linked group Handala. The incident caused significant operational disruption for the global firm last month.",
       "date": "2026-04-02T15:18:52.000Z",
       "link": "https://cyberscoop.com/medtech-giant-stryker-says-its-back-up-after-iranian-cyberattack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "edae68fc-ff7d-4eb6-8802-1da08318dc91",
@@ -98,7 +186,7 @@
       "summary": "Two vulnerabilities in Progress ShareFile can be chained by attackers to achieve pre-authentication remote code execution and unauthorized file exfiltration. This flaw poses a significant risk to enterprise environments using the secure file transfer solution.",
       "date": "2026-04-02T13:33:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "965b1338-8768-464b-8d2d-273fed66b284",
@@ -329,7 +417,7 @@
       "summary": "AI recruiting platform Mercor confirmed it was among thousands of organizations impacted by a supply-chain attack targeting the LiteLLM library. The incident highlights the widespread risks associated with vulnerabilities in commonly used AI-integrated software dependencies.",
       "date": "2026-04-02T00:02:58.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/mercor_supply_chain_attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "49f00d8d-596e-4c74-b829-c724eb8d652b",
@@ -538,7 +626,7 @@
       "summary": "Anthropic inadvertently exposed over 512,000 lines of proprietary Claude AI code, including sensitive internal project data, due to human error. The incident has prompted the company to urge users to transition to a new native installer for security.",
       "date": "2026-04-01T15:13:54.000Z",
       "link": "https://hackread.com/anthropic-leaks-claude-ai-code-blunder/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "303d3eca-be82-4ace-82ea-77011ae69d93",
@@ -692,7 +780,7 @@
       "summary": "A critical ImageMagick zero-day vulnerability has been discovered that allows for remote code execution on Linux and WordPress servers through malicious image uploads. The flaw successfully bypasses existing security policies, posing a significant risk to affected environments.",
       "date": "2026-04-01T10:56:41.000Z",
       "link": "https://hackread.com/imagemagick-zero-day-rce-linux-wordpress-servers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9df9e37a-1da6-419e-a751-fb258ea03700",
