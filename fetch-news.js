@@ -163,8 +163,8 @@ async function fetchAllNews() {
         // Only summarize if it's NEW or currently has a Placeholder
         if (!existing || existing.summary === QUOTA_PLACEHOLDER) {
           
-          // 5-second delay to stay strictly under the free tier RPM limits
-          await new Promise(r => setTimeout(r, 5000));
+          // 12-second delay to stay strictly under the 5 RPM project-wide limit (60s / 5 = 12s)
+          await new Promise(r => setTimeout(r, 12000));
           
           console.log(`   -> AI Summary (Lite): ${item.title}`);
           const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
@@ -199,6 +199,10 @@ async function fetchAllNews() {
   // Identify Top 10 (Using Premium Tier)
   try {
     const topTenCandidates = limitedCollection.slice(0, 70);
+    // Mandatory 60s cooldown to ensure the RPM bucket is completely empty for the premium pass
+    console.log('Final 60s cooldown to clear project RPM for the Premium Model pass...');
+    await new Promise(r => setTimeout(r, 60000));
+
     const topTenIds = await identifyTopIntel(topTenCandidates);
     limitedCollection.forEach(article => {
       article.isTopTen = topTenIds.includes(article.id);
