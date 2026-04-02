@@ -7,9 +7,9 @@ import crypto from 'crypto';
 const parser = new Parser();
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-// We track two separate quota states in our Hybrid Model
-let quotaExceeded25 = false;
-let quotaExceeded8B = false;
+// We track two separate quota states in our Hybrid Model (2026 Edition)
+let quotaExceededPremium = false;
+let quotaExceededLite = false;
 
 const QUOTA_PLACEHOLDER = "AI Summary Unavailable due to Gemini Rate Limit Hit - this will update upon rate reset";
 
@@ -34,14 +34,14 @@ function cleanAIResponse(text) {
 
 /**
  * Hybrid Helper for AI calls. 
- * Supports two models: 
- * - gemini-1.5-flash-8b (High Volume, 1,500 RPD)
- * - gemini-2.5-flash (Low Volume, 20 RPD)
+ * Supports two tiers: 
+ * - gemini-3.1-flash-lite-preview (High Volume Efficiency Tier)
+ * - gemini-2.5-flash (Low Volume Quality/Premium Tier)
  */
 async function callAIWithRetry(prompt, timeoutMs, operationName, modelName, retries = 3) {
   // Check localized quota flags
-  if (modelName.includes("2.5") && quotaExceeded25) throw new Error("QUOTA_EXCEEDED_25");
-  if (modelName.includes("8b") && quotaExceeded8B) throw new Error("QUOTA_EXCEEDED_8B");
+  if (modelName.includes("lite") && quotaExceededLite) throw new Error("QUOTA_EXCEEDED_LITE");
+  if (modelName.includes("2.5") && quotaExceededPremium) throw new Error("QUOTA_EXCEEDED_PREMIUM");
 
   let attempt = 0;
   while (attempt <= retries) {
@@ -59,8 +59,8 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, modelName, retr
       const isDailyExhausted = msg.includes("quota") && (msg.includes("daily") || msg.includes("budget") || msg.includes("rpd"));
 
       if (isDailyExhausted) {
-        if (modelName.includes("2.5")) quotaExceeded25 = true;
-        if (modelName.includes("8b")) quotaExceeded8B = true;
+        if (modelName.includes("lite")) quotaExceededLite = true;
+        if (modelName.includes("2.5")) quotaExceededPremium = true;
         console.error(`[FATAL] Daily Quota Exceeded for ${modelName}. Switching to fallback mode.`);
         throw new Error("QUOTA_EXCEEDED");
       }
@@ -95,7 +95,7 @@ const SOURCES = [
 const MAX_ARTICLES_PER_SOURCE = 7; 
 
 async function generateSummaryAndTag(title, snippet) {
-  if (quotaExceeded8B) return { summary: QUOTA_PLACEHOLDER, tag: "Threat Intel & Info Sharing", severity: "Low" };
+  if (quotaExceededLite) return { summary: QUOTA_PLACEHOLDER, tag: "Threat Intel & Info Sharing", severity: "Low" };
 
   try {
     const prompt = `Analyze this cybersecurity news headline.
@@ -107,8 +107,8 @@ Provide JSON:
 2. "tag": One of ["Malware and Vulnerabilities", "Breaches and Incidents", "Threat Intel & Info Sharing", "Laws, Policy, Regulations"].
 3. "severity": ["Critical", "High", "Low"].`;
 
-    // Using the "High Quota" 8B model for high-volume summarization
-    const response = await callAIWithRetry(prompt, 30000, `Summary: ${title.substring(0, 30)}`, 'gemini-1.5-flash-8b');
+    // Using the current 2026 "Lite" efficiency model for high-volume summaries
+    const response = await callAIWithRetry(prompt, 30000, `Summary: ${title.substring(0, 30)}`, 'gemini-3.1-flash-lite-preview');
     const parsed = cleanAIResponse(response.text);
     return {
       summary: parsed.summary || "Summary failed.",
@@ -121,8 +121,8 @@ Provide JSON:
 }
 
 async function identifyTopIntel(articles) {
-  if (articles.length === 0 || quotaExceeded25) return [];
-  console.log('Identifying top 10 most impactful articles using 2.5 Flash...');
+  if (articles.length === 0 || quotaExceededPremium) return [];
+  console.log('Identifying top 10 most impactful articles using Premium Model...');
   
   try {
     const listForAI = articles.map(a => ({ id: a.id, title: a.title, summary: a.summary }));
@@ -130,7 +130,7 @@ async function identifyTopIntel(articles) {
 Return ONLY a JSON array of the "id" strings.
 Articles: ${JSON.stringify(listForAI)}`;
 
-    // Using the "High IQ" 2.5 model for final selection pass (stayers under 20 RPD)
+    // Using the flagship 2.5 model for final selection pass
     const response = await callAIWithRetry(prompt, 60000, "Top 10 Selection", 'gemini-2.5-flash');
     const topIds = cleanAIResponse(response.text);
     return Array.isArray(topIds) ? topIds : [];
@@ -141,7 +141,7 @@ Articles: ${JSON.stringify(listForAI)}`;
 }
 
 async function fetchAllNews() {
-  console.log('--- Hybrid Model Scraper: 1.5-8B (Summaries) & 2.5 (Top 10) ---');
+  console.log('--- 2026 Hybrid Architecture: Flash-Lite (Summaries) & 2.5-Flash (Top 10) ---');
   
   let existingArticles = [];
   try {
@@ -163,10 +163,10 @@ async function fetchAllNews() {
         // Only summarize if it's NEW or currently has a Placeholder
         if (!existing || existing.summary === QUOTA_PLACEHOLDER) {
           
-          // 5-second delay to stay strictly under the 1.5-8B free tier RPM limits
+          // 5-second delay to stay strictly under the free tier RPM limits
           await new Promise(r => setTimeout(r, 5000));
           
-          console.log(`   -> AI Summary (8B): ${item.title}`);
+          console.log(`   -> AI Summary (Lite): ${item.title}`);
           const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
           
           newArticles.push({
@@ -196,7 +196,7 @@ async function fetchAllNews() {
   finalCollection.sort((a, b) => new Date(b.date) - new Date(a.date));
   const limitedCollection = finalCollection.slice(0, 500);
 
-  // Identify Top 10 (Using 2.5 Flash)
+  // Identify Top 10 (Using Premium Tier)
   try {
     const topTenCandidates = limitedCollection.slice(0, 70);
     const topTenIds = await identifyTopIntel(topTenCandidates);
