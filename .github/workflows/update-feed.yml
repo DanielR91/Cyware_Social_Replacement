@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add articles.json
           git pull --rebase origin main
+          git add articles.json
           git commit -m "Update news feed [skip ci]" || echo "No changes to commit"
           git push origin main
