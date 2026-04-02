@@ -95,7 +95,7 @@ function renderArticles() {
     });
 
     // Apply Sorting
-    if (currentSort === "Relevance") {
+    if (currentSort === "Severity") {
         const severityWeight = {
             "Critical": 3,
             "High": 2,
