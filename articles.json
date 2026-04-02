@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-04-02T19:06:49.683Z",
+  "lastUpdated": "2026-04-02T21:45:25.745Z",
   "articles": [
+    {
+      "id": "60570d37-c6fe-4a5d-aff3-0df162e420bf",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "House Dems decry confirmed ICE usage of Paragon spyware",
+      "summary": "House Democrats have publicly criticized Immigration and Customs Enforcement (ICE) for its confirmed use of Paragon spyware following unsatisfactory explanations from the agency. The situation highlights ongoing concerns regarding the use of advanced surveillance technology by federal law enforcement.",
+      "date": "2026-04-02T21:02:02.000Z",
+      "link": "https://cyberscoop.com/ice-using-paragon-spyware-house-democrats-letter/",
+      "isTopTen": false
+    },
+    {
+      "id": "9c81c1a9-e79b-49a4-a21c-c45c61ef2b54",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Claude Code leak used to push infostealer malware on GitHub",
+      "summary": "Threat actors are leveraging a recent leak of the Claude Code source code to distribute Vidar infostealer malware through malicious GitHub repositories. This campaign targets developers by masquerading as legitimate software tools.",
+      "date": "2026-04-02T20:30:55.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/",
+      "isTopTen": false
+    },
+    {
+      "id": "b7589f71-28c8-49a5-8a1a-221975a30b07",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "ShinyHunters Hackers Claim Theft of 3M+ Cisco Records, Threaten Public Leak",
+      "summary": "The ShinyHunters hacking group claims to have stolen over 3 million Cisco records through vulnerabilities in Salesforce and AWS, threatening to leak the data if ransom demands are not satisfied.",
+      "date": "2026-04-02T19:43:18.000Z",
+      "link": "https://hackread.com/shinyhunters-hackers-cisco-records-data-leak/",
+      "isTopTen": true
+    },
+    {
+      "id": "c395ddc4-37e4-46ba-8f4e-850d0e3fa498",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
+      "summary": "Hackers are exploiting the CVE-2025-55182 vulnerability, also known as React2Shell, to compromise 766 Next.js servers and exfiltrate sensitive data including API keys and credentials. Cisco Talos has identified this as a large-scale credential harvesting operation.",
+      "date": "2026-04-02T19:30:00.000Z",
+      "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2fcc9f41-681a-4a90-800a-083861e2bfcf",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Drift loses $280 million as hackers seize Security Council powers",
+      "summary": "The Drift Protocol suffered a $280 million loss after attackers compromised its Security Council administrative powers. This sophisticated breach allowed unauthorized actors to gain control over protocol assets.",
+      "date": "2026-04-02T19:03:39.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/",
+      "isTopTen": false
+    },
     {
       "id": "8aea75f2-6d01-4628-a48e-8a26c16560a4",
       "source": "Security Affairs",
@@ -87,7 +142,7 @@
       "summary": "Microsoft has identified a malicious campaign distributing VBS malware via WhatsApp attachments, which allows attackers to gain unauthorized remote access to compromised Windows systems.",
       "date": "2026-04-02T15:23:27.000Z",
       "link": "https://hackread.com/microsoft-whatsapp-attachments-backdoor-windows-pcs/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d6499304-6a14-4352-b8d9-7a331ce7693f",
@@ -120,7 +175,7 @@
       "summary": "Medical technology company Stryker has restored operations following a wiper malware attack orchestrated by the Iranian-linked group Handala. The incident caused significant operational disruption for the global firm last month.",
       "date": "2026-04-02T15:18:52.000Z",
       "link": "https://cyberscoop.com/medtech-giant-stryker-says-its-back-up-after-iranian-cyberattack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "edae68fc-ff7d-4eb6-8802-1da08318dc91",
@@ -164,7 +219,7 @@
       "summary": "The threat actor UAC-0255 is targeting users through a massive phishing campaign that impersonates CERT-UA to distribute the AGEWHEEZE malware disguised as a security tool. The campaign involves sending emails to approximately one million recipients, prompting them to download and execute malicious archives.",
       "date": "2026-04-02T14:02:18.000Z",
       "link": "https://securityaffairs.com/190287/hacking/threat-actor-uac-0255-impersonate-cert-ua-to-spread-agewheeze-malware-via-phishing.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c06e5744-67ab-4c3c-940b-178dbef0fac5",
@@ -549,7 +604,7 @@
       "summary": "Mercor confirmed a data breach resulting from a supply chain attack on the LiteLLM library, with the threat actor Lapsus$ claiming to have stolen hundreds of gigabytes of company data.",
       "date": "2026-04-01T18:58:00.000Z",
       "link": "https://therecord.media/mercor-confirms-security-incident-tied-to-litellm",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "678b511c-7320-4574-b067-7f599ec4bc00",
@@ -648,7 +703,7 @@
       "summary": "North Korean hackers compromised the popular Axios npm library by hijacking a maintainer's account to inject malicious post-install scripts. This supply chain attack allowed the attackers to deploy backdoored packages to unsuspecting developers.",
       "date": "2026-04-01T14:26:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2dbcd5e5-bc61-4c30-bc04-695540d465d9",
