@@ -133,8 +133,19 @@ Example: ["id1", "id2", "id3", ...]`;
 }
 
 async function fetchAllNews() {
-  console.log('Fetching cybersecurity news...');
-  const allArticles = [];
+  console.log('Loading existing news and fetching new reports...');
+  
+  // Load existing articles so we don't start from an empty file
+  let existingArticles = [];
+  try {
+    const data = await fs.readFile('articles.json', 'utf8');
+    existingArticles = JSON.parse(data);
+    console.log(`Successfully loaded ${existingArticles.length} existing articles.`);
+  } catch (err) {
+    console.log('No existing articles.json found or file is empty.');
+  }
+
+  const newArticles = [];
 
   for (const source of SOURCES) {
     console.log(`Pulling ${source.name}...`);
@@ -149,7 +160,7 @@ async function fetchAllNews() {
         console.log(`   -> Summarizing: ${item.title}`);
         const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
 
-        allArticles.push({
+        newArticles.push({
           id: crypto.randomUUID(),
           source: source.name,
           tag: tag,
@@ -162,20 +173,41 @@ async function fetchAllNews() {
       }
     } catch (err) {
       if (err.message === "QUOTA_EXCEEDED") {
-        console.warn(`Stopping scrape early due to quota exhaustion. Saving partial results (${allArticles.length} items)...`);
+        console.warn(`Stopping scrape early due to quota exhaustion. Saving partial results (${newArticles.length} new items)...`);
         break; // Break the SOURCES loop to jump to the save step
       }
       console.error(`Failed to fetch ${source.name}:`, err.message);
     }
   }
 
-  // Sort by date newest first
-  allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+  // Merge and Deduplicate (by link)
+  console.log('Merging and deduplicating news...');
+  const combined = [...newArticles];
+  const seenLinks = new Set(newArticles.map(a => a.link));
+  
+  existingArticles.forEach(old => {
+    if (!seenLinks.has(old.link)) {
+      combined.push(old);
+      seenLinks.add(old.link);
+    }
+  });
 
-  // Identify Top 10 using AI (Fail-safe)
+  // Sort by date newest first
+  combined.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // Limit to 500 most recent items to keep file size optimized
+  const finalArticles = combined.slice(0, 500);
+
+  // Identify Top 10 using AI (Fail-safe) - Run this on the most recent 70 items
   try {
-    const topTenIds = await identifyTopIntel(allArticles);
-    allArticles.forEach(article => {
+    const topTenCandidates = finalArticles.slice(0, 70);
+    const topTenIds = await identifyTopIntel(topTenCandidates);
+    
+    // Clear old flags first (on our final set)
+    finalArticles.forEach(article => delete article.isTopTen);
+
+    // Apply new Top 10 flags
+    finalArticles.forEach(article => {
       if (topTenIds.includes(article.id)) {
         article.isTopTen = true;
       }
@@ -185,8 +217,8 @@ async function fetchAllNews() {
   }
 
   // Save to articles.json
-  await fs.writeFile('articles.json', JSON.stringify(allArticles, null, 2));
-  console.log(`Successfully saved ${allArticles.length} articles to articles.json`);
+  await fs.writeFile('articles.json', JSON.stringify(finalArticles, null, 2));
+  console.log(`Successfully saved ${finalArticles.length} total articles to articles.json`);
 }
 
 fetchAllNews();
