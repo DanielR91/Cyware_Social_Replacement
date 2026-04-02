@@ -169,7 +169,9 @@ async function fetchAllNews() {
   let existingArticles = [];
   try {
     const data = await fs.readFile('articles.json', 'utf8');
-    existingArticles = JSON.parse(data);
+    const parsed = JSON.parse(data);
+    // Handle both old (array) and new (object) structures
+    existingArticles = Array.isArray(parsed) ? parsed : (parsed.articles || []);
   } catch (err) {}
 
   const newArticles = [];
