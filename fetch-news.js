@@ -44,9 +44,10 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
       return response;
     } catch (err) {
       const msg = err.message || "";
-      // Check for permanent Quota Exceeded vs temporary Rate Limit
-      if (msg.toLowerCase().includes("quota")) {
-        console.error(`[FATAL] Daily Quota Exceeded. Switching to Headlines-Only mode.`);
+      // Only treat it as FATAL if it's a daily/budget limit. 
+      // General 429s (RPM/Minute quotas) should just trigger a retry below.
+      if (msg.toLowerCase().includes("quota") && (msg.toLowerCase().includes("daily") || msg.toLowerCase().includes("rpd") || msg.toLowerCase().includes("budget"))) {
+        console.error(`[FATAL] Daily Quota Exceeded. Details:`, JSON.stringify(err, null, 2));
         hasQuotaExceeded = true;
         throw new Error("QUOTA_EXCEEDED");
       }
@@ -54,9 +55,11 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
       if (msg.includes("429") && attempt < retries) {
         attempt++;
         const wait = 60000 * attempt; // 60s, 120s, etc.
-        console.warn(`[429 Rate Limit] "${operationName}" - Pausing for ${wait/1000}s... (Attempt ${attempt}/${retries})`);
+        console.warn(`[429 Rate Limit] "${operationName}". Details:`, JSON.stringify(err, null, 2));
+        console.warn(`Pausing for ${wait/1000}s... (Attempt ${attempt}/${retries})`);
         await new Promise(r => setTimeout(r, wait));
       } else {
+        console.error(`AI Call Failed:`, JSON.stringify(err, null, 2));
         throw err;
       }
     }
@@ -220,6 +223,10 @@ async function fetchAllNews() {
 
   // Identify Top 10 using AI (Fail-safe) - Run this on the most recent 70 items
   try {
+    // Wait an extra 10s to let the minute-bucket clear before the final selection pass
+    console.log('Brief 10s cool-down before identifying Top 10 Priority Intel...');
+    await new Promise(r => setTimeout(r, 10000));
+
     const topTenCandidates = finalArticles.slice(0, 70);
     const topTenIds = await identifyTopIntel(topTenCandidates);
     
