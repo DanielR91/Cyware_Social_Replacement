@@ -232,7 +232,12 @@ async function fetchAllNews() {
     });
   } catch (err) {}
 
-  await fs.writeFile('articles.json', JSON.stringify(limitedCollection, null, 2));
+  const outputData = {
+    lastUpdated: new Date().toISOString(),
+    articles: limitedCollection
+  };
+
+  await fs.writeFile('articles.json', JSON.stringify(outputData, null, 2));
   console.log(`Successfully saved ${limitedCollection.length} articles.`);
 }
 

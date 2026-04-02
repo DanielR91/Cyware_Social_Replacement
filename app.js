@@ -34,7 +34,15 @@ async function fetchArticles() {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         
-        allArticles = await response.json();
+        const data = await response.json();
+        
+        // Handle both old (array) and new (object) structures
+        if (Array.isArray(data)) {
+            allArticles = data;
+        } else {
+            allArticles = data.articles || [];
+            displayLastUpdated(data.lastUpdated);
+        }
         
         // Render articles
         renderArticles();
@@ -383,4 +391,19 @@ function setupSort() {
         currentSort = e.target.value;
         renderArticles();
     });
+}
+function displayLastUpdated(timestamp) {
+    const timeElement = document.getElementById('last-updated-time');
+    if (!timeElement || !timestamp) return;
+
+    const dateObj = new Date(timestamp);
+    const options = { 
+        month: 'short', 
+        day: 'numeric', 
+        hour: '2-digit', 
+        minute: '2-digit'
+    };
+    
+    timeElement.textContent = dateObj.toLocaleString('en-US', options);
+    timeElement.title = dateObj.toLocaleString(); // Exact time on hover
 }

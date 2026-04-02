@@ -207,6 +207,30 @@ ul {
   gap: 2rem;
 }
 
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.last-updated {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.last-updated i {
+  width: 14px;
+  height: 14px;
+  color: var(--neon-cyan);
+}
+
+.last-updated span b {
+  color: var(--text-secondary);
+}
+
 .sidebar-section h3 {
   font-size: 0.8rem;
   text-transform: uppercase;
