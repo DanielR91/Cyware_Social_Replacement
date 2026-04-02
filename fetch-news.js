@@ -7,6 +7,9 @@ import crypto from 'crypto';
 const parser = new Parser();
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
+let hasQuotaExceeded = false;
+const QUOTA_PLACEHOLDER = "AI Summary Unavailable due to Gemini Rate Limit Hit - this will update upon rate reset";
+
 // Helper for promise timeouts
 function withTimeout(promise, ms, operationName) {
   const timeout = new Promise((_, reject) =>
@@ -28,6 +31,8 @@ function cleanAIResponse(text) {
 
 // Helper for AI calls with automatic retry for 429s (Rate Limits)
 async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
+  if (hasQuotaExceeded) throw new Error("QUOTA_EXCEEDED");
+  
   let attempt = 0;
   while (attempt <= retries) {
     try {
@@ -41,7 +46,8 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, retries = 3) {
       const msg = err.message || "";
       // Check for permanent Quota Exceeded vs temporary Rate Limit
       if (msg.toLowerCase().includes("quota")) {
-        console.error(`[FATAL] Daily Quota Exceeded. Aborting run.`);
+        console.error(`[FATAL] Daily Quota Exceeded. Switching to Headlines-Only mode.`);
+        hasQuotaExceeded = true;
         throw new Error("QUOTA_EXCEEDED");
       }
 
@@ -73,6 +79,10 @@ const SOURCES = [
 const MAX_ARTICLES_PER_SOURCE = 7; // 70 total per run to save quota
 
 async function generateSummaryAndTag(title, snippet) {
+  if (hasQuotaExceeded) {
+    return { summary: QUOTA_PLACEHOLDER, tag: "Threat Intel & Info Sharing", severity: "Low" };
+  }
+
   try {
     const prompt = `Analyze this cybersecurity news article.
 Title: ${title}
@@ -186,7 +196,17 @@ async function fetchAllNews() {
   const seenLinks = new Set(newArticles.map(a => a.link));
   
   existingArticles.forEach(old => {
-    if (!seenLinks.has(old.link)) {
+    // If we've already seen this link in the new batch
+    if (seenLinks.has(old.link)) {
+      const newOne = combined.find(a => a.link === old.link);
+      // If the NEW one is a placeholder but the OLD one was real, keep the OLD one's data!
+      if (newOne && newOne.summary === QUOTA_PLACEHOLDER && old.summary !== QUOTA_PLACEHOLDER) {
+        newOne.summary = old.summary;
+        newOne.tag = old.tag;
+        newOne.severity = old.severity;
+        newOne.title = old.title; // In case headline changed slightly
+      }
+    } else {
       combined.push(old);
       seenLinks.add(old.link);
     }
