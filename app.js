@@ -95,23 +95,17 @@ function renderArticles() {
     });
 
     // Apply Sorting
-    if (currentSort === "Severity") {
-        const severityWeight = {
-            "Critical": 3,
-            "High": 2,
-            "Low": 1
-        };
-        
+    // Apply Sorting
+    if (String(currentSort) === "Severity") {
+        const severityWeight = { "Critical": 3, "High": 2, "Low": 1 };
         filteredArticles.sort((a, b) => {
-            const weightA = severityWeight[a.severity] || 0;
-            const weightB = severityWeight[b.severity] || 0;
-            
-            if (weightA !== weightB) {
-                return weightB - weightA;
-            }
-            return new Date(b.date) - new Date(a.date);
+            const wA = severityWeight[a.severity] || 0;
+            const wB = severityWeight[b.severity] || 0;
+            if (wA !== wB) return wB - wA; // Highest severity first
+            return new Date(b.date) - new Date(a.date); // Then newest first
         });
     } else {
+        // Default: Sort by Date only
         filteredArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
     }
 
