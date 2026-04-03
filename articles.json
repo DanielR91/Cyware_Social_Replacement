@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-04-03T18:57:48.202Z",
+  "lastUpdated": "2026-04-03T21:41:22.636Z",
   "articles": [
+    {
+      "id": "fb94aaa7-c533-44bc-829d-ccc39565725b",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "LinkedIn secretely scans for 6,000+ Chrome extensions, collects data",
+      "summary": "LinkedIn has been identified using hidden JavaScript to secretly scan visitor browsers for installed extensions and harvest device data. This practice raises significant privacy concerns regarding data collection without transparent user consent.",
+      "date": "2026-04-03T20:40:22.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "1e02d84f-c395-4879-a34c-ca8f0cb92a57",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "FCC proposes $4.5 million fine for voice service provider hosting ‘suspicious’ foreign call traffic",
+      "summary": "The FCC has proposed a $4.5 million fine against Voxbeam for allegedly facilitating illegal financial impersonation robocalls through compromised and non-compliant accounts. The regulatory action targets the service provider's failure to prevent suspicious foreign traffic from reaching American consumers.",
+      "date": "2026-04-03T20:12:00.000Z",
+      "link": "https://therecord.media/fcc-proposes-5-million-fine-robocall",
+      "isTopTen": false
+    },
+    {
+      "id": "d0f05d1c-f470-4a97-b133-aef79049ffdd",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake ChatGPT Ad Blocker Chrome Extension Caught Spying on Users",
+      "summary": "A malicious Chrome extension masquerading as a ChatGPT ad blocker was discovered stealing user conversation data. The extension utilized deceptive practices to infiltrate user browsers and harvest sensitive information.",
+      "date": "2026-04-03T20:03:33.000Z",
+      "link": "https://hackread.com/fake-chatgpt-ad-blocker-chrome-extension-spy-users/",
+      "isTopTen": false
+    },
+    {
+      "id": "40824475-2a80-43d0-9589-a2d342c84b69",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA gives agencies two weeks to patch video conferencing bug exploited by Chinese hackers",
+      "summary": "CISA has issued an emergency directive requiring federal agencies to patch a video conferencing software vulnerability within two weeks due to active exploitation by Chinese-linked threat actors.",
+      "date": "2026-04-03T19:45:00.000Z",
+      "link": "https://therecord.media/trueconf-cyberattack-cisa-hackers",
+      "isTopTen": true
+    },
     {
       "id": "d88d8b0b-d04f-46ca-b473-105be46a17ab",
       "source": "The Record",
@@ -32,7 +76,7 @@
       "summary": "The China-linked threat actor TA416 has resumed targeting European government and diplomatic organizations using PlugX malware and OAuth-based phishing tactics. The campaign marks a return to activity for a group known by various aliases including RedDelta and SmugX.",
       "date": "2026-04-03T17:34:00.000Z",
       "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4da278d0-fc3b-4b58-94ab-8703b1ee6f7e",
@@ -65,7 +109,7 @@
       "summary": "A proposed federal budget cut would significantly reduce funding for the Cybersecurity and Infrastructure Security Agency (CISA), drawing criticism from Democratic lawmakers. The reduction sparks concerns over the agency's ability to maintain its cybersecurity mandates and operational scope.",
       "date": "2026-04-03T16:33:14.000Z",
       "link": "https://cyberscoop.com/trump-budget-proposal-would-cut-hundreds-of-millions-more-from-cisa/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9b31cff9-2361-4b8c-ae59-3d2fb362a1e6",
@@ -76,7 +120,7 @@
       "summary": "Senator Ron Wyden has cautioned the Social Security Administration against participating in a Trump administration executive order, alleging the creation of a voter database facilitates voter suppression.",
       "date": "2026-04-03T16:30:24.000Z",
       "link": "https://cyberscoop.com/wyden-warns-ssa-chief-trump-voter-database-blatant-voter-suppression/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "883e18ae-f2de-421d-a51e-d61f80263f4f",
@@ -109,7 +153,7 @@
       "summary": "AI company Mercor has confirmed a major data breach resulting from a supply chain attack on LiteLLM, with threat actors claiming to have exfiltrated 4TB of sensitive data. The incident highlights ongoing risks within software supply chains for AI-focused infrastructure.",
       "date": "2026-04-03T15:21:14.000Z",
       "link": "https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2c44dd30-9e71-4426-b4d0-e00d71c8f3e2",
@@ -120,7 +164,7 @@
       "summary": "Multi-extortion ransomware schemes leverage stolen data to pressure victims, prompting security firms like Penta Security to offer encryption solutions like D.AMO to protect exfiltrated files. This evolution highlights the growing threat of data exposure beyond simple encryption.",
       "date": "2026-04-03T14:05:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "317ac2f0-be76-4d99-90fd-dfc5a9f721f3",
@@ -219,7 +263,7 @@
       "summary": "The Axios npm package was compromised following a targeted social engineering attack by North Korean threat group UNC1069 against the package maintainer. The incident highlights the risks of supply chain attacks through individual developer targeting.",
       "date": "2026-04-03T11:04:00.000Z",
       "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "20a2817b-e5f5-4036-b6ea-4259f964301e",
@@ -230,7 +274,7 @@
       "summary": "The article highlights that third-party vendors and shadow IT represent a significant, often overlooked attack surface for organizations. It emphasizes the urgent need for better vendor risk management to prevent security breaches.",
       "date": "2026-04-03T11:00:00.000Z",
       "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cf266dea-4a15-46ff-a585-18268f111c3f",
@@ -318,7 +362,7 @@
       "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
       "date": "2026-04-03T06:34:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
@@ -329,7 +373,7 @@
       "summary": "The European Commission experienced a cloud data breach attributed to the threat group TeamPCP, impacting at least 29 other EU entities. The incident was confirmed and reported by CERT-EU.",
       "date": "2026-04-03T06:33:34.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8e577024-502c-4b2c-a435-e85117969bbd",
@@ -428,7 +472,7 @@
       "summary": "Hackers are exploiting the CVE-2025-55182 vulnerability, also known as React2Shell, to compromise 766 Next.js servers and exfiltrate sensitive data including API keys and credentials. Cisco Talos has identified this as a large-scale credential harvesting operation.",
       "date": "2026-04-02T19:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "451a0222-a908-41d3-9440-98c479d27c65",
@@ -560,7 +604,7 @@
       "summary": "Cisco has released critical security patches for its Integrated Management Controller (IMC) to address a vulnerability (CVE-2026-20093) that could allow unauthenticated remote attackers to gain elevated system privileges.",
       "date": "2026-04-02T15:21:00.000Z",
       "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "456ae043-0f39-4db1-9f0f-d6953c764066",
@@ -571,7 +615,7 @@
       "summary": "Medical technology company Stryker has restored operations following a wiper malware attack orchestrated by the Iranian-linked group Handala. The incident caused significant operational disruption for the global firm last month.",
       "date": "2026-04-02T15:18:52.000Z",
       "link": "https://cyberscoop.com/medtech-giant-stryker-says-its-back-up-after-iranian-cyberattack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "edae68fc-ff7d-4eb6-8802-1da08318dc91",
@@ -582,7 +626,7 @@
       "summary": "A wave of software supply chain attacks, including the Axios and Trivy breaches, has resulted in hundreds of thousands of stolen secrets that pose a significant risk of downstream customer compromises and ransomware. Security researchers warn that these intrusions, linked to North Korean actors and TeamPCP, could facilitate widespread future malicious activity.",
       "date": "2026-04-02T15:16:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/02/supply-chain-hacks-data-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3283bd1e-9e84-491b-af33-c8bf0aa3e957",
@@ -637,7 +681,7 @@
       "summary": "Two vulnerabilities in Progress ShareFile can be chained by attackers to achieve pre-authentication remote code execution and unauthorized file exfiltration. This flaw poses a significant risk to enterprise environments using the secure file transfer solution.",
       "date": "2026-04-02T13:33:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "965b1338-8768-464b-8d2d-273fed66b284",
@@ -769,7 +813,7 @@
       "summary": "State-sponsored attackers exploited a zero-day vulnerability in TrueConf videoconferencing software to deploy malware against government networks in Southeast Asia. The attack compromised the application's trusted update mechanism to bypass security controls in restricted environments.",
       "date": "2026-04-02T08:57:18.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/02/trueconf-zero-day-vulnerability-cyber-espionage/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e4fd59e3-e6db-4943-a89e-4922b3f8edee",
