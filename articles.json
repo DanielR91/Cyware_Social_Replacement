@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-04-03T09:59:04.317Z",
+  "lastUpdated": "2026-04-03T13:17:09.152Z",
   "articles": [
+    {
+      "id": "594d2296-cb21-4422-b98b-9c84a8e413e5",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco IMC auth bypass vulnerability allows attackers to alter user passwords (CVE-2026-20093)",
+      "summary": "Cisco has released patches for ten vulnerabilities in its Integrated Management Controller (IMC), including a critical authentication bypass flaw (CVE-2026-20093) that permits remote attackers to gain administrative access. The flaw specifically enables unauthorized users to modify account passwords, posing a significant risk to server security.",
+      "date": "2026-04-03T12:59:22.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/03/cisco-imc-vulnerability-cve-2026-20093/",
+      "isTopTen": true
+    },
+    {
+      "id": "2948a2a5-21b8-4141-9e95-1862ed9af75e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Windows Security app gets Secure Boot certificate status indicators as 2026 expiration approaches",
+      "summary": "Microsoft has introduced status indicators in the Windows Security app to help administrators verify that devices have received updated Secure Boot certificates ahead of the 2026 expiration of original 2011 versions.",
+      "date": "2026-04-03T11:43:26.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/03/windows-secure-boot-certificate-update-2026-expiration/",
+      "isTopTen": false
+    },
+    {
+      "id": "1fd3d61a-5b8d-42da-953a-0a0c0f014b3d",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Microsoft still working to fix Exchange Online mailbox access issues",
+      "summary": "Microsoft is actively addressing ongoing Exchange Online mailbox access disruptions impacting Outlook users on mobile and macOS platforms. These intermittent connectivity issues have persisted for several weeks while the company works toward a resolution.",
+      "date": "2026-04-03T11:25:20.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-exchange-online-mailbox-access-issues/",
+      "isTopTen": false
+    },
+    {
+      "id": "78c67744-14a6-4033-b7e8-5286f6a45a6f",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack",
+      "summary": "The Axios npm package was compromised following a targeted social engineering attack by North Korean threat group UNC1069 against the package maintainer. The incident highlights the risks of supply chain attacks through individual developer targeting.",
+      "date": "2026-04-03T11:04:00.000Z",
+      "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
+      "isTopTen": true
+    },
+    {
+      "id": "20a2817b-e5f5-4036-b6ea-4259f964301e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
+      "summary": "The article highlights that third-party vendors and shadow IT represent a significant, often overlooked attack surface for organizations. It emphasizes the urgent need for better vendor risk management to prevent security breaches.",
+      "date": "2026-04-03T11:00:00.000Z",
+      "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cf266dea-4a15-46ff-a585-18268f111c3f",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Claude Code source leak exploited to spread malware",
+      "summary": "Following an accidental leak of Anthropic’s Claude Code source code, attackers are actively distributing malware disguised as unauthorized versions of the tool to target developers. The incident highlights the risks associated with exposed intellectual property being weaponized for social engineering campaigns.",
+      "date": "2026-04-03T10:54:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/",
+      "isTopTen": false
+    },
     {
       "id": "c3d6ecf5-d713-4cb1-908e-fe1f454e4222",
       "source": "The Hacker News",
@@ -10,7 +76,7 @@
       "summary": "A new variant of the SparkCat malware has been identified in legitimate enterprise and food delivery apps on the Apple App Store and Google Play Store, specifically targeting cryptocurrency wallet recovery phrases. This discovery confirms the continued threat of malicious software bypassing official mobile app store security measures.",
       "date": "2026-04-03T09:10:00.000Z",
       "link": "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c629f4bc-f163-44ef-968a-98c93bfb6d18",
@@ -54,7 +120,7 @@
       "summary": "The pro-Iran hacker group Handala has claimed a breach of Israeli defense contractor PSK Wind Technologies, which specializes in command and control systems for critical infrastructure and defense.",
       "date": "2026-04-03T07:52:52.000Z",
       "link": "https://securityaffairs.com/190319/data-breach/pro-iran-handala-group-breached-israeli-defence-contractor-psk-wind-technologies.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "964cb901-0417-4757-977f-6ca39bdc7b53",
@@ -76,7 +142,7 @@
       "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
       "date": "2026-04-03T06:34:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
@@ -307,7 +373,7 @@
       "summary": "Residential proxies are significantly undermining IP reputation systems by masking malicious traffic as legitimate user activity in the majority of analyzed sessions. This trend poses a severe challenge for security controls that rely on IP-based filtering to block threats.",
       "date": "2026-04-02T15:21:02.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "776367b0-e99b-40cb-8610-4edaf65c2a7d",
@@ -373,7 +439,7 @@
       "summary": "The threat actor UAC-0255 is targeting users through a massive phishing campaign that impersonates CERT-UA to distribute the AGEWHEEZE malware disguised as a security tool. The campaign involves sending emails to approximately one million recipients, prompting them to download and execute malicious archives.",
       "date": "2026-04-02T14:02:18.000Z",
       "link": "https://securityaffairs.com/190287/hacking/threat-actor-uac-0255-impersonate-cert-ua-to-spread-agewheeze-malware-via-phishing.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c06e5744-67ab-4c3c-940b-178dbef0fac5",
@@ -395,7 +461,7 @@
       "summary": "Two vulnerabilities in Progress ShareFile can be chained by attackers to achieve pre-authentication remote code execution and unauthorized file exfiltration. This flaw poses a significant risk to enterprise environments using the secure file transfer solution.",
       "date": "2026-04-02T13:33:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "965b1338-8768-464b-8d2d-273fed66b284",
@@ -472,7 +538,7 @@
       "summary": "Apple has modified its security update strategy by providing patches to older iOS 18 devices to defend against the DarkSword and Coruna exploit kits. This shift marks a notable departure from the company's traditional requirement for users to upgrade to the latest OS version to receive critical fixes.",
       "date": "2026-04-02T11:11:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/02/apple-ios-18-darksword-security-updates/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "117377d9-7aa7-4c95-8fd0-1b9a9d312875",
@@ -714,7 +780,7 @@
       "summary": "Google has patched a actively exploited zero-day vulnerability (CVE-2026-5281) in Chrome's WebGPU Dawn component, marking the fourth such incident in 2026. The flaw is a use-after-free bug that was addressed as part of a larger security update involving 21 vulnerabilities.",
       "date": "2026-04-01T20:41:11.000Z",
       "link": "https://securityaffairs.com/190265/hacking/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2026.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e42ed7e8-f9a6-496e-9aee-6e2cd3e0b215",
