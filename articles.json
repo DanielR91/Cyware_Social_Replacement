@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-04-03T05:12:05.558Z",
+  "lastUpdated": "2026-04-03T07:19:50.075Z",
   "articles": [
+    {
+      "id": "964cb901-0417-4757-977f-6ca39bdc7b53",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "APERION releases SmartFlow SDK for secure, on-prem AI governance without cloud reliance",
+      "summary": "APERION has released the SmartFlow SDK to enable secure, on-premises AI governance following a major supply chain attack on the LiteLLM proxy. This move aims to help enterprises mitigate risks by moving away from vulnerable cloud-based AI gateways.",
+      "date": "2026-04-03T07:06:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/03/aperion-smartflow-sdk-ai-governance/",
+      "isTopTen": false
+    },
+    {
+      "id": "6e474165-1d74-4a8a-a44c-cd50a181285d",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Trivy supply chain attack enabled European Commission cloud breach",
+      "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
+      "date": "2026-04-03T06:34:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
+      "isTopTen": true
+    },
+    {
+      "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "CERT-EU: European Commission hack exposes data of 30 EU entities",
+      "summary": "The European Commission experienced a cloud data breach attributed to the threat group TeamPCP, impacting at least 29 other EU entities. The incident was confirmed and reported by CERT-EU.",
+      "date": "2026-04-03T06:33:34.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+      "isTopTen": true
+    },
+    {
+      "id": "8e577024-502c-4b2c-a435-e85117969bbd",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft releases open-source toolkit to govern autonomous AI agents",
+      "summary": "Microsoft has launched an open-source Agent Governance Toolkit designed to provide oversight and security frameworks for autonomous AI agents, which currently lack standardized governance. The toolkit includes seven packages intended to help organizations manage the risks associated with AI systems capable of executing independent actions.",
+      "date": "2026-04-03T05:30:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/",
+      "isTopTen": false
+    },
     {
       "id": "14633ee7-56c9-4d33-bf41-f72be9dad635",
       "source": "Help Net Security",
@@ -54,7 +98,7 @@
       "summary": "House Democrats have publicly criticized Immigration and Customs Enforcement (ICE) for its confirmed use of Paragon spyware following unsatisfactory explanations from the agency. The situation highlights ongoing concerns regarding the use of advanced surveillance technology by federal law enforcement.",
       "date": "2026-04-02T21:02:02.000Z",
       "link": "https://cyberscoop.com/ice-using-paragon-spyware-house-democrats-letter/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9c81c1a9-e79b-49a4-a21c-c45c61ef2b54",
@@ -87,7 +131,18 @@
       "summary": "Hackers are exploiting the CVE-2025-55182 vulnerability, also known as React2Shell, to compromise 766 Next.js servers and exfiltrate sensitive data including API keys and credentials. Cisco Talos has identified this as a large-scale credential harvesting operation.",
       "date": "2026-04-02T19:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-      "isTopTen": false
+      "isTopTen": true
+    },
+    {
+      "id": "451a0222-a908-41d3-9440-98c479d27c65",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Drift loses $280 million North Korean hackers seize Security Council powers",
+      "summary": "The Drift Protocol suffered a $280 million loss after North Korean hackers gained unauthorized control of its Security Council administrative powers. This sophisticated breach allowed the threat actors to manipulate protocol operations to misappropriate funds.",
+      "date": "2026-04-02T19:03:39.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/",
+      "isTopTen": true
     },
     {
       "id": "2fcc9f41-681a-4a90-800a-083861e2bfcf",
@@ -131,7 +186,7 @@
       "summary": "The Drift crypto platform suffered a $280 million theft following a sophisticated hack that allowed attackers to seize administrative control. Security researchers have attributed the incident to North Korean actors.",
       "date": "2026-04-02T17:25:00.000Z",
       "link": "https://therecord.media/drift-crypto-confirms-280-million-stolen-north-korea",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f09d3158-2510-48ef-8397-c35cb2523ead",
@@ -230,7 +285,7 @@
       "summary": "A wave of software supply chain attacks, including the Axios and Trivy breaches, has resulted in hundreds of thousands of stolen secrets that pose a significant risk of downstream customer compromises and ransomware. Security researchers warn that these intrusions, linked to North Korean actors and TeamPCP, could facilitate widespread future malicious activity.",
       "date": "2026-04-02T15:16:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/02/supply-chain-hacks-data-theft/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3283bd1e-9e84-491b-af33-c8bf0aa3e957",
@@ -395,7 +450,7 @@
       "summary": "Meta has notified approximately 200 WhatsApp users in Italy that they were targeted by a social engineering campaign involving a malicious, spyware-infected version of the iOS application. The activity is currently linked to an Italian firm, prompting further scrutiny.",
       "date": "2026-04-02T09:51:00.000Z",
       "link": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "38f0a1b9-af07-4632-9d2e-7e7aab627f3f",
@@ -725,7 +780,7 @@
       "summary": "Anthropic inadvertently exposed over 512,000 lines of proprietary Claude AI code, including sensitive internal project data, due to human error. The incident has prompted the company to urge users to transition to a new native installer for security.",
       "date": "2026-04-01T15:13:54.000Z",
       "link": "https://hackread.com/anthropic-leaks-claude-ai-code-blunder/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "303d3eca-be82-4ace-82ea-77011ae69d93",
@@ -747,7 +802,7 @@
       "summary": "North Korean hackers compromised the popular Axios npm library by hijacking a maintainer's account to inject malicious post-install scripts. This supply chain attack allowed the attackers to deploy backdoored packages to unsuspecting developers.",
       "date": "2026-04-01T14:26:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2dbcd5e5-bc61-4c30-bc04-695540d465d9",
