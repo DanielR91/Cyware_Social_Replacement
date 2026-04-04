@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-04T13:07:28.893Z",
+  "lastUpdated": "2026-04-04T15:39:32.349Z",
   "articles": [
+    {
+      "id": "a1875195-92e4-4b50-8bc7-201946268d78",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Device code phishing attacks surge 37x as new kits spread online",
+      "summary": "Cybersecurity researchers have identified a 37-fold increase in phishing attacks that exploit the OAuth 2.0 Device Authorization Grant flow to hijack user accounts. This surge is attributed to the widespread availability of new phishing kits tailored for this specific authentication bypass technique.",
+      "date": "2026-04-04T14:17:38.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
+      "isTopTen": true
+    },
+    {
+      "id": "f11bb9dd-2710-46a6-a025-fde913325a0f",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "FortiClient EMS zero-day exploited, emergency hotfixes available (CVE-2026-35616)",
+      "summary": "Fortinet has released emergency hotfixes for a critical zero-day vulnerability (CVE-2026-35616) in its FortiClient EMS software, which is currently being actively exploited in the wild.",
+      "date": "2026-04-04T14:09:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/04/forticlient-ems-zero-day-cve-2026-35616/",
+      "isTopTen": true
+    },
     {
       "id": "153627fd-cbe2-4695-a264-b371a27babed",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "The European Commission experienced a cloud security breach involving the TeamPCP threat group, resulting in the exposure of data from 30 EU entities. CERT-EU confirmed the incident and publicly disclosed it following investigative inquiries.",
       "date": "2026-04-04T08:45:04.000Z",
       "link": "https://securityaffairs.com/190333/security/european-commission-breach-exposed-data-of-30-eu-entities-cert-eu-says.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "35aa17c3-dbea-47e2-80d7-1a9f782e50d1",
@@ -32,6 +54,17 @@
       "summary": "Unit 42 research highlights emerging security vulnerabilities, including prompt injection risks, within multi-agent AI systems deployed on Amazon Bedrock. The study provides critical insights for developers to secure complex AI agent architectures against adversarial attacks.",
       "date": "2026-04-03T22:00:38.000Z",
       "link": "https://unit42.paloaltonetworks.com/amazon-bedrock-multiagent-applications/",
+      "isTopTen": true
+    },
+    {
+      "id": "ac02d33a-37e0-49a1-bee5-46fb3629f9e6",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "LinkedIn secretly scans for 6,000+ Chrome extensions, collects data",
+      "summary": "A report reveals that LinkedIn is utilizing hidden JavaScript to secretly scan users' browsers for installed extensions and harvest device data. This unauthorized surveillance practice raises significant privacy concerns regarding data collection methods.",
+      "date": "2026-04-03T20:40:22.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/linkedin-secretly-scans-for-6-000-plus-chrome-extensions-collects-data/",
       "isTopTen": false
     },
     {
@@ -43,7 +76,7 @@
       "summary": "LinkedIn has been identified using hidden JavaScript to secretly scan visitor browsers for installed extensions and harvest device data. This practice raises significant privacy concerns regarding data collection without transparent user consent.",
       "date": "2026-04-03T20:40:22.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1e02d84f-c395-4879-a34c-ca8f0cb92a57",
@@ -208,7 +241,7 @@
       "summary": "A cyberattack has disrupted emergency communications services across several small towns in northern Massachusetts. The incident highlights the vulnerability of critical regional infrastructure to digital threats.",
       "date": "2026-04-03T14:00:00.000Z",
       "link": "https://therecord.media/massachusetts-emergency-alert-cyberattack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f7878dc2-2523-440e-8f6a-1be2d60daaa0",
@@ -296,7 +329,7 @@
       "summary": "The Axios npm package was compromised following a targeted social engineering attack by North Korean threat group UNC1069 against the package maintainer. The incident highlights the risks of supply chain attacks through individual developer targeting.",
       "date": "2026-04-03T11:04:00.000Z",
       "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "20a2817b-e5f5-4036-b6ea-4259f964301e",
@@ -494,7 +527,7 @@
       "summary": "The ShinyHunters hacking group claims to have stolen over 3 million Cisco records through vulnerabilities in Salesforce and AWS, threatening to leak the data if ransom demands are not satisfied.",
       "date": "2026-04-02T19:43:18.000Z",
       "link": "https://hackread.com/shinyhunters-hackers-cisco-records-data-leak/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c395ddc4-37e4-46ba-8f4e-850d0e3fa498",
@@ -505,7 +538,7 @@
       "summary": "Hackers are exploiting the CVE-2025-55182 vulnerability, also known as React2Shell, to compromise 766 Next.js servers and exfiltrate sensitive data including API keys and credentials. Cisco Talos has identified this as a large-scale credential harvesting operation.",
       "date": "2026-04-02T19:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "451a0222-a908-41d3-9440-98c479d27c65",
@@ -626,7 +659,7 @@
       "summary": "Residential proxies are significantly undermining IP reputation systems by masking malicious traffic as legitimate user activity in the majority of analyzed sessions. This trend poses a severe challenge for security controls that rely on IP-based filtering to block threats.",
       "date": "2026-04-02T15:21:02.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "776367b0-e99b-40cb-8610-4edaf65c2a7d",
