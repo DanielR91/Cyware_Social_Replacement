@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-05T05:19:17.923Z",
+  "lastUpdated": "2026-04-05T07:16:07.119Z",
   "articles": [
+    {
+      "id": "6c315787-1107-492b-8334-c30be6eb2228",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+      "summary": "Researchers identified 36 malicious npm packages masquerading as Strapi plugins that target Redis and PostgreSQL databases to harvest credentials and establish persistent backdoors. These packages utilize deceptive file structures and lack standard metadata to evade detection.",
+      "date": "2026-04-05T05:07:00.000Z",
+      "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+      "isTopTen": true
+    },
+    {
+      "id": "72c74584-f9e2-4eef-8a97-2329d43728f7",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+      "summary": "Fortinet has released an urgent out-of-band patch to address a critical pre-authentication API access bypass vulnerability (CVE-2026-35616) in FortiClient EMS that is currently being exploited in the wild.",
+      "date": "2026-04-05T04:32:00.000Z",
+      "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+      "isTopTen": true
+    },
     {
       "id": "5039f4df-459a-4f6e-be27-4f1a15401ad2",
       "source": "BleepingComputer",
@@ -43,7 +65,7 @@
       "summary": "The North Korean threat actor UNC1069 is impersonating Node.js maintainers on social platforms like LinkedIn and Slack to distribute malware and compromise open-source packages. This campaign targets the software supply chain by building trust through fraudulent professional personas.",
       "date": "2026-04-04T16:13:09.000Z",
       "link": "https://hackread.com/unc1069-node-js-maintainer-fake-linkedin-slack-profile/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a1875195-92e4-4b50-8bc7-201946268d78",
@@ -65,7 +87,7 @@
       "summary": "Fortinet has released emergency hotfixes for a critical zero-day vulnerability (CVE-2026-35616) in its FortiClient EMS software, which is currently being actively exploited in the wild.",
       "date": "2026-04-04T14:09:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/04/forticlient-ems-zero-day-cve-2026-35616/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "153627fd-cbe2-4695-a264-b371a27babed",
@@ -340,7 +362,7 @@
       "summary": "Cisco has released patches for ten vulnerabilities in its Integrated Management Controller (IMC), including a critical authentication bypass flaw (CVE-2026-20093) that permits remote attackers to gain administrative access. The flaw specifically enables unauthorized users to modify account passwords, posing a significant risk to server security.",
       "date": "2026-04-03T12:59:22.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/cisco-imc-vulnerability-cve-2026-20093/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2948a2a5-21b8-4141-9e95-1862ed9af75e",
@@ -472,7 +494,7 @@
       "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
       "date": "2026-04-03T06:34:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
@@ -571,7 +593,7 @@
       "summary": "The ShinyHunters hacking group claims to have stolen over 3 million Cisco records through vulnerabilities in Salesforce and AWS, threatening to leak the data if ransom demands are not satisfied.",
       "date": "2026-04-02T19:43:18.000Z",
       "link": "https://hackread.com/shinyhunters-hackers-cisco-records-data-leak/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c395ddc4-37e4-46ba-8f4e-850d0e3fa498",
@@ -736,7 +758,7 @@
       "summary": "A wave of software supply chain attacks, including the Axios and Trivy breaches, has resulted in hundreds of thousands of stolen secrets that pose a significant risk of downstream customer compromises and ransomware. Security researchers warn that these intrusions, linked to North Korean actors and TeamPCP, could facilitate widespread future malicious activity.",
       "date": "2026-04-02T15:16:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/02/supply-chain-hacks-data-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3283bd1e-9e84-491b-af33-c8bf0aa3e957",
