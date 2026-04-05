@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-05T13:10:03.255Z",
+  "lastUpdated": "2026-04-05T15:40:23.017Z",
   "articles": [
+    {
+      "id": "d4cce388-049e-4351-8341-a280d35d294c",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 91",
+      "summary": "The 91st edition of the Security Affairs Malware newsletter highlights recent developments including the Infiniti Stealer for macOS, a new pivoting implant called RoadK1ll, and an npm supply chain attack involving axios.",
+      "date": "2026-04-05T14:34:20.000Z",
+      "link": "https://securityaffairs.com/190379/malware/security-affairs-malware-newsletter-round-91.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d6230a4d-bb5a-434b-abc7-39c2e8f05f95",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers exploit React2Shell in automated credential theft campaign",
+      "summary": "Hackers are conducting an automated credential theft campaign by exploiting a vulnerability known as React2Shell (CVE-2025-55182) within vulnerable Next.js applications.",
+      "date": "2026-04-05T14:17:23.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+      "isTopTen": false
+    },
     {
       "id": "4e9d01d4-f570-4eba-9677-9f06df1dc1c8",
       "source": "The Register",
@@ -54,7 +76,7 @@
       "summary": "Researchers identified 36 malicious npm packages masquerading as Strapi plugins that target Redis and PostgreSQL databases to harvest credentials and establish persistent backdoors. These packages utilize deceptive file structures and lack standard metadata to evade detection.",
       "date": "2026-04-05T05:07:00.000Z",
       "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "72c74584-f9e2-4eef-8a97-2329d43728f7",
@@ -76,7 +98,7 @@
       "summary": "A developer for the popular Axios npm package was targeted by a social engineering campaign involving a fake Microsoft Teams error, leading to the hijacking of a maintainer account. The incident is suspected to be the work of North Korean threat actors.",
       "date": "2026-04-04T20:30:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "48b7f006-ce5e-4e0b-a606-8dd0ec26504a",
@@ -109,7 +131,7 @@
       "summary": "The North Korean threat actor UNC1069 is impersonating Node.js maintainers on social platforms like LinkedIn and Slack to distribute malware and compromise open-source packages. This campaign targets the software supply chain by building trust through fraudulent professional personas.",
       "date": "2026-04-04T16:13:09.000Z",
       "link": "https://hackread.com/unc1069-node-js-maintainer-fake-linkedin-slack-profile/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a1875195-92e4-4b50-8bc7-201946268d78",
@@ -142,7 +164,7 @@
       "summary": "The European Commission experienced a cloud security breach involving the TeamPCP threat group, resulting in the exposure of data from 30 EU entities. CERT-EU confirmed the incident and publicly disclosed it following investigative inquiries.",
       "date": "2026-04-04T08:45:04.000Z",
       "link": "https://securityaffairs.com/190333/security/european-commission-breach-exposed-data-of-30-eu-entities-cert-eu-says.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "35aa17c3-dbea-47e2-80d7-1a9f782e50d1",
@@ -329,7 +351,7 @@
       "summary": "AI company Mercor has confirmed a major data breach resulting from a supply chain attack on LiteLLM, with threat actors claiming to have exfiltrated 4TB of sensitive data. The incident highlights ongoing risks within software supply chains for AI-focused infrastructure.",
       "date": "2026-04-03T15:21:14.000Z",
       "link": "https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2c44dd30-9e71-4426-b4d0-e00d71c8f3e2",
@@ -351,7 +373,7 @@
       "summary": "A cyberattack has disrupted emergency communications services across several small towns in northern Massachusetts. The incident highlights the vulnerability of critical regional infrastructure to digital threats.",
       "date": "2026-04-03T14:00:00.000Z",
       "link": "https://therecord.media/massachusetts-emergency-alert-cyberattack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f7878dc2-2523-440e-8f6a-1be2d60daaa0",
@@ -362,7 +384,7 @@
       "summary": "Drift lost $285 million in a sophisticated cryptocurrency heist orchestrated by North Korea-linked hackers who exploited multisig approvals and nonce-based transaction vulnerabilities. The attack allowed threat actors to drain funds by pre-signing and delaying malicious transactions.",
       "date": "2026-04-03T13:57:51.000Z",
       "link": "https://securityaffairs.com/190330/hacking/north-korea-linked-hackers-drain-285m-from-drift-in-sophisticated-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ed669f3-8d37-4d34-90a3-0cf10de8192b",
@@ -439,7 +461,7 @@
       "summary": "The Axios npm package was compromised following a targeted social engineering attack by North Korean threat group UNC1069 against the package maintainer. The incident highlights the risks of supply chain attacks through individual developer targeting.",
       "date": "2026-04-03T11:04:00.000Z",
       "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "20a2817b-e5f5-4036-b6ea-4259f964301e",
@@ -494,7 +516,7 @@
       "summary": "The Solana-based decentralized exchange Drift suffered a $285 million theft caused by a social engineering attack that exploited durable nonces to seize administrative control. The incident has been attributed to threat actors linked to the Democratic People's Republic of Korea (DPRK).",
       "date": "2026-04-03T08:35:00.000Z",
       "link": "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dea3a834-7e2a-4734-b831-a91b69b65390",
@@ -516,7 +538,7 @@
       "summary": "The pro-Iran hacker group Handala has claimed a breach of Israeli defense contractor PSK Wind Technologies, which specializes in command and control systems for critical infrastructure and defense.",
       "date": "2026-04-03T07:52:52.000Z",
       "link": "https://securityaffairs.com/190319/data-breach/pro-iran-handala-group-breached-israeli-defence-contractor-psk-wind-technologies.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "964cb901-0417-4757-977f-6ca39bdc7b53",
