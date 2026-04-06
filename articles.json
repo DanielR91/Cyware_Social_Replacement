@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-06T05:33:13.847Z",
+  "lastUpdated": "2026-04-06T07:54:33.303Z",
   "articles": [
+    {
+      "id": "52178a1c-5a5e-417f-a0ba-9b15a91b9e9c",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+      "summary": "Germany's Federal Criminal Police Office has identified the key leadership behind the defunct REvil ransomware operation, which was responsible for at least 130 attacks in the country. The investigation specifically unmasked the actor known as 'UNKN,' who served as a primary representative for the group.",
+      "date": "2026-04-06T06:59:00.000Z",
+      "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "isTopTen": false
+    },
     {
       "id": "e140d371-25e8-4047-b0af-ee45b03b26f5",
       "source": "Help Net Security",
@@ -10,6 +21,17 @@
       "summary": "Attackers are increasingly leveraging residential proxies to blend malicious traffic with legitimate user activity, rendering traditional IP reputation-based defenses significantly less effective. This technique makes it difficult for security systems to distinguish between threats and genuine traffic from consumers or employees.",
       "date": "2026-04-06T05:30:05.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/06/residential-proxy-attack-traffic-ip-reputation-enterprise-security/",
+      "isTopTen": true
+    },
+    {
+      "id": "9d52fad6-b98a-410d-8c4c-e591c9a2d474",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVE-2026-35616: Fortinet fixes actively exploited high-severity flaw",
+      "summary": "Fortinet has released emergency patches to address a critical, actively exploited authentication bypass vulnerability (CVE-2026-35616) impacting FortiClient EMS.",
+      "date": "2026-04-06T05:10:29.000Z",
+      "link": "https://securityaffairs.com/190392/hacking/cve-2026-35616-fortinet-fixes-actively-exploited-high-severity-flaw.html",
       "isTopTen": true
     },
     {
@@ -175,7 +197,7 @@
       "summary": "Researchers identified 36 malicious npm packages masquerading as Strapi plugins that target Redis and PostgreSQL databases to harvest credentials and establish persistent backdoors. These packages utilize deceptive file structures and lack standard metadata to evade detection.",
       "date": "2026-04-05T05:07:00.000Z",
       "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "72c74584-f9e2-4eef-8a97-2329d43728f7",
@@ -230,7 +252,7 @@
       "summary": "The North Korean threat actor UNC1069 is impersonating Node.js maintainers on social platforms like LinkedIn and Slack to distribute malware and compromise open-source packages. This campaign targets the software supply chain by building trust through fraudulent professional personas.",
       "date": "2026-04-04T16:13:09.000Z",
       "link": "https://hackread.com/unc1069-node-js-maintainer-fake-linkedin-slack-profile/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a1875195-92e4-4b50-8bc7-201946268d78",
@@ -252,7 +274,7 @@
       "summary": "Fortinet has released emergency hotfixes for a critical zero-day vulnerability (CVE-2026-35616) in its FortiClient EMS software, which is currently being actively exploited in the wild.",
       "date": "2026-04-04T14:09:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/04/forticlient-ems-zero-day-cve-2026-35616/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "153627fd-cbe2-4695-a264-b371a27babed",
@@ -263,7 +285,7 @@
       "summary": "The European Commission experienced a cloud security breach involving the TeamPCP threat group, resulting in the exposure of data from 30 EU entities. CERT-EU confirmed the incident and publicly disclosed it following investigative inquiries.",
       "date": "2026-04-04T08:45:04.000Z",
       "link": "https://securityaffairs.com/190333/security/european-commission-breach-exposed-data-of-30-eu-entities-cert-eu-says.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "35aa17c3-dbea-47e2-80d7-1a9f782e50d1",
@@ -274,7 +296,7 @@
       "summary": "Former President Trump has proposed a $707 million budget cut to the Cybersecurity and Infrastructure Security Agency (CISA), potentially impacting federal cybersecurity efforts. This move follows previous attempts to reduce the agency's funding and scope.",
       "date": "2026-04-03T22:41:05.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/03/trump_cisa_budget/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7535fe6c-946a-4399-8013-e67650b9b695",
@@ -450,7 +472,7 @@
       "summary": "AI company Mercor has confirmed a major data breach resulting from a supply chain attack on LiteLLM, with threat actors claiming to have exfiltrated 4TB of sensitive data. The incident highlights ongoing risks within software supply chains for AI-focused infrastructure.",
       "date": "2026-04-03T15:21:14.000Z",
       "link": "https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2c44dd30-9e71-4426-b4d0-e00d71c8f3e2",
@@ -582,7 +604,7 @@
       "summary": "Following an accidental leak of Anthropic’s Claude Code source code, attackers are actively distributing malware disguised as unauthorized versions of the tool to target developers. The incident highlights the risks associated with exposed intellectual property being weaponized for social engineering campaigns.",
       "date": "2026-04-03T10:54:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c3d6ecf5-d713-4cb1-908e-fe1f454e4222",
@@ -659,7 +681,7 @@
       "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
       "date": "2026-04-03T06:34:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
@@ -769,7 +791,7 @@
       "summary": "Hackers are exploiting the CVE-2025-55182 vulnerability, also known as React2Shell, to compromise 766 Next.js servers and exfiltrate sensitive data including API keys and credentials. Cisco Talos has identified this as a large-scale credential harvesting operation.",
       "date": "2026-04-02T19:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "451a0222-a908-41d3-9440-98c479d27c65",
