@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-05T21:39:13.041Z",
+  "lastUpdated": "2026-04-06T02:57:27.101Z",
   "articles": [
+    {
+      "id": "82e64f01-1d28-45a4-83da-3e0e5a0be508",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Anthropic sure has a mess on its hands thanks to that Claude Code source leak",
+      "summary": "Anthropic is facing significant security concerns following a reported source code leak involving its Claude Code developer tool. The incident raises potential risks regarding intellectual property exposure and the integrity of the tool's codebase.",
+      "date": "2026-04-06T00:02:52.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/06/anthropic_code_leak_kettle_podcast/",
+      "isTopTen": false
+    },
     {
       "id": "e408c647-98b5-4f48-8f44-bb9aa0e5e1ba",
       "source": "BleepingComputer",
@@ -21,7 +32,7 @@
       "summary": "Fortinet has issued an emergency patch for a critical vulnerability in FortiClient Enterprise Management Server that is currently being exploited in the wild. Organizations are urged to apply the update immediately to mitigate active attack risks.",
       "date": "2026-04-05T18:45:17.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dae0562d-e3fe-4531-96a5-9ae75aedc0c7",
@@ -120,7 +131,7 @@
       "summary": "Researchers identified 36 malicious npm packages masquerading as Strapi plugins that target Redis and PostgreSQL databases to harvest credentials and establish persistent backdoors. These packages utilize deceptive file structures and lack standard metadata to evade detection.",
       "date": "2026-04-05T05:07:00.000Z",
       "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "72c74584-f9e2-4eef-8a97-2329d43728f7",
@@ -142,7 +153,7 @@
       "summary": "A developer for the popular Axios npm package was targeted by a social engineering campaign involving a fake Microsoft Teams error, leading to the hijacking of a maintainer account. The incident is suspected to be the work of North Korean threat actors.",
       "date": "2026-04-04T20:30:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "48b7f006-ce5e-4e0b-a606-8dd0ec26504a",
@@ -164,7 +175,7 @@
       "summary": "CISA has added a high-severity vulnerability in the TrueConf Client, tracked as CVE-2026-3502, to its Known Exploited Vulnerabilities (KEV) catalog following evidence of active exploitation. The flaw carries a CVSS score of 7.8 and affects a platform frequently used for secure communications.",
       "date": "2026-04-04T16:42:38.000Z",
       "link": "https://securityaffairs.com/190341/security/u-s-cisa-adds-a-flaw-in-trueconf-client-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3a045d6e-530d-4e83-a23b-4652b6b00c4d",
@@ -175,7 +186,7 @@
       "summary": "The North Korean threat actor UNC1069 is impersonating Node.js maintainers on social platforms like LinkedIn and Slack to distribute malware and compromise open-source packages. This campaign targets the software supply chain by building trust through fraudulent professional personas.",
       "date": "2026-04-04T16:13:09.000Z",
       "link": "https://hackread.com/unc1069-node-js-maintainer-fake-linkedin-slack-profile/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a1875195-92e4-4b50-8bc7-201946268d78",
@@ -197,7 +208,7 @@
       "summary": "Fortinet has released emergency hotfixes for a critical zero-day vulnerability (CVE-2026-35616) in its FortiClient EMS software, which is currently being actively exploited in the wild.",
       "date": "2026-04-04T14:09:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/04/forticlient-ems-zero-day-cve-2026-35616/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "153627fd-cbe2-4695-a264-b371a27babed",
@@ -208,7 +219,7 @@
       "summary": "The European Commission experienced a cloud security breach involving the TeamPCP threat group, resulting in the exposure of data from 30 EU entities. CERT-EU confirmed the incident and publicly disclosed it following investigative inquiries.",
       "date": "2026-04-04T08:45:04.000Z",
       "link": "https://securityaffairs.com/190333/security/european-commission-breach-exposed-data-of-30-eu-entities-cert-eu-says.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "35aa17c3-dbea-47e2-80d7-1a9f782e50d1",
@@ -527,7 +538,7 @@
       "summary": "Following an accidental leak of Anthropic’s Claude Code source code, attackers are actively distributing malware disguised as unauthorized versions of the tool to target developers. The incident highlights the risks associated with exposed intellectual property being weaponized for social engineering campaigns.",
       "date": "2026-04-03T10:54:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c3d6ecf5-d713-4cb1-908e-fe1f454e4222",
@@ -604,7 +615,7 @@
       "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
       "date": "2026-04-03T06:34:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
@@ -714,7 +725,7 @@
       "summary": "Hackers are exploiting the CVE-2025-55182 vulnerability, also known as React2Shell, to compromise 766 Next.js servers and exfiltrate sensitive data including API keys and credentials. Cisco Talos has identified this as a large-scale credential harvesting operation.",
       "date": "2026-04-02T19:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "451a0222-a908-41d3-9440-98c479d27c65",
