@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-04-06T10:15:27.521Z",
+  "lastUpdated": "2026-04-06T13:23:40.688Z",
   "articles": [
+    {
+      "id": "f60b8cb7-2080-485a-9464-046359f9644f",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Major outage hits Russian banking apps, metro payments across regions",
+      "summary": "Major Russian banking institutions and public transit payment systems experienced a widespread service outage, disrupting operations across multiple regions. The incident impacted top-tier banks including Sberbank, VTB, and Alfa-Bank.",
+      "date": "2026-04-06T12:37:00.000Z",
+      "link": "https://therecord.media/outage-hits-russian-banking-apps",
+      "isTopTen": true
+    },
+    {
+      "id": "47293514-895d-4b2a-aa11-1f84515f082d",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers threaten to leak data after cyberattack on German party Die Linke",
+      "summary": "The German political party Die Linke is facing extortion threats after confirming a significant cyberattack on its IT infrastructure. Threat actors have claimed to possess sensitive data and are threatening to leak it.",
+      "date": "2026-04-06T12:29:00.000Z",
+      "link": "https://therecord.media/hackers-threaten-to-leak-german-political-party-data",
+      "isTopTen": false
+    },
+    {
+      "id": "90d9e8f8-3a82-495e-8a1d-6f31328bd583",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+      "summary": "The TeamPCP threat actor exploited the LiteLLM library in a supply chain attack that turned developer workstations into harvesting grounds for sensitive credentials. This incident highlights the significant security risks posed by caching credentials on local development machines used for AI agents.",
+      "date": "2026-04-06T11:45:00.000Z",
+      "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e24a1275-5b8d-4399-b323-2583319a2bd3",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "North Korean Hackers Pose as Trading Firm to Steal $285M from Drift",
+      "summary": "North Korean hackers group UNC4736 successfully infiltrated the Drift Protocol by posing as a legitimate trading firm, leading to the theft of $285 million through a six-month social engineering campaign.",
+      "date": "2026-04-06T11:09:26.000Z",
+      "link": "https://hackread.com/north-korean-hackers-trading-firm-drift-protocol/",
+      "isTopTen": true
+    },
+    {
+      "id": "848a84d5-9a60-475b-a882-26942a49dc95",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+      "summary": "Qilin and Warlock ransomware operators are leveraging the 'Bring Your Own Vulnerable Driver' (BYOVD) technique to disable over 300 endpoint security tools. This attack chain involves deploying a malicious DLL to execute the driver exploitation.",
+      "date": "2026-04-06T10:07:00.000Z",
+      "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "isTopTen": true
+    },
     {
       "id": "52178a1c-5a5e-417f-a0ba-9b15a91b9e9c",
       "source": "The Hacker News",
@@ -32,7 +87,7 @@
       "summary": "Fortinet has released emergency patches to address a critical, actively exploited authentication bypass vulnerability (CVE-2026-35616) impacting FortiClient EMS.",
       "date": "2026-04-06T05:10:29.000Z",
       "link": "https://securityaffairs.com/190392/hacking/cve-2026-35616-fortinet-fixes-actively-exploited-high-severity-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d5d84a4e-1f67-41c7-8e95-a19a3e72a97d",
@@ -109,7 +164,7 @@
       "summary": "The Solana-based decentralized exchange Drift suffered a $285 million theft resulting from a sophisticated six-month social engineering campaign orchestrated by North Korean state-sponsored actors. The operation, which began in late 2025, culminated in the April 2026 security breach.",
       "date": "2026-04-05T18:25:00.000Z",
       "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de97250d-7c53-493c-9ec0-ce7f3fc412e9",
@@ -120,7 +175,7 @@
       "summary": "LinkedIn is under scrutiny for allegedly tracking over 6,000 browser extensions installed on users' computers, sparking significant privacy and data surveillance concerns. The report, dubbed 'BrowserGate,' highlights potential unauthorized data collection practices.",
       "date": "2026-04-05T16:16:30.000Z",
       "link": "https://hackread.com/browsergate-linkedin-track-browser-extensions-user-pc/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d4cce388-049e-4351-8341-a280d35d294c",
@@ -197,7 +252,7 @@
       "summary": "Researchers identified 36 malicious npm packages masquerading as Strapi plugins that target Redis and PostgreSQL databases to harvest credentials and establish persistent backdoors. These packages utilize deceptive file structures and lack standard metadata to evade detection.",
       "date": "2026-04-05T05:07:00.000Z",
       "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "72c74584-f9e2-4eef-8a97-2329d43728f7",
@@ -241,7 +296,7 @@
       "summary": "CISA has added a high-severity vulnerability in the TrueConf Client, tracked as CVE-2026-3502, to its Known Exploited Vulnerabilities (KEV) catalog following evidence of active exploitation. The flaw carries a CVSS score of 7.8 and affects a platform frequently used for secure communications.",
       "date": "2026-04-04T16:42:38.000Z",
       "link": "https://securityaffairs.com/190341/security/u-s-cisa-adds-a-flaw-in-trueconf-client-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3a045d6e-530d-4e83-a23b-4652b6b00c4d",
@@ -252,7 +307,7 @@
       "summary": "The North Korean threat actor UNC1069 is impersonating Node.js maintainers on social platforms like LinkedIn and Slack to distribute malware and compromise open-source packages. This campaign targets the software supply chain by building trust through fraudulent professional personas.",
       "date": "2026-04-04T16:13:09.000Z",
       "link": "https://hackread.com/unc1069-node-js-maintainer-fake-linkedin-slack-profile/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a1875195-92e4-4b50-8bc7-201946268d78",
@@ -274,7 +329,7 @@
       "summary": "Fortinet has released emergency hotfixes for a critical zero-day vulnerability (CVE-2026-35616) in its FortiClient EMS software, which is currently being actively exploited in the wild.",
       "date": "2026-04-04T14:09:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/04/forticlient-ems-zero-day-cve-2026-35616/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "153627fd-cbe2-4695-a264-b371a27babed",
@@ -285,7 +340,7 @@
       "summary": "The European Commission experienced a cloud security breach involving the TeamPCP threat group, resulting in the exposure of data from 30 EU entities. CERT-EU confirmed the incident and publicly disclosed it following investigative inquiries.",
       "date": "2026-04-04T08:45:04.000Z",
       "link": "https://securityaffairs.com/190333/security/european-commission-breach-exposed-data-of-30-eu-entities-cert-eu-says.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "35aa17c3-dbea-47e2-80d7-1a9f782e50d1",
@@ -395,7 +450,7 @@
       "summary": "The China-linked threat actor TA416 has resumed targeting European government and diplomatic organizations using PlugX malware and OAuth-based phishing tactics. The campaign marks a return to activity for a group known by various aliases including RedDelta and SmugX.",
       "date": "2026-04-03T17:34:00.000Z",
       "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4da278d0-fc3b-4b58-94ab-8703b1ee6f7e",
@@ -538,7 +593,7 @@
       "summary": "Ukraine's CERT-UA has issued a warning that Russian state-backed actors are systematically re-evaluating old infrastructure compromises to identify lingering access points and outdated vulnerabilities for potential new attacks.",
       "date": "2026-04-03T13:20:00.000Z",
       "link": "https://therecord.media/ukraine-warns-russian-hackers-revisiting-old-attacks",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "594d2296-cb21-4422-b98b-9c84a8e413e5",
@@ -582,7 +637,7 @@
       "summary": "The Axios npm package was compromised following a targeted social engineering attack by North Korean threat group UNC1069 against the package maintainer. The incident highlights the risks of supply chain attacks through individual developer targeting.",
       "date": "2026-04-03T11:04:00.000Z",
       "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "20a2817b-e5f5-4036-b6ea-4259f964301e",
@@ -681,7 +736,7 @@
       "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
       "date": "2026-04-03T06:34:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
