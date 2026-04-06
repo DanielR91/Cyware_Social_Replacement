@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-04-06T13:23:40.688Z",
+  "lastUpdated": "2026-04-06T15:57:10.559Z",
   "articles": [
+    {
+      "id": "fdbc7875-307e-4f8c-a67b-276fa9fa5298",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "BKA unmasks two REvil Ransomware operators behind 130+ German attacks",
+      "summary": "German law enforcement (BKA) has successfully identified two key operators of the REvil ransomware group, attributing over 130 cyberattacks in Germany to them.",
+      "date": "2026-04-06T14:48:09.000Z",
+      "link": "https://securityaffairs.com/190401/cyber-crime/bka-unmasks-two-revil-ransomware-operators-behind-130-german-attacks.html",
+      "isTopTen": false
+    },
+    {
+      "id": "01e08de3-6503-4bdb-82a6-f25a1061dc79",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cloudflare Targets WordPress With New AI-Powered EmDash CMS",
+      "summary": "Cloudflare has introduced EmDash, an AI-powered CMS platform designed to address inherent WordPress security vulnerabilities through sandboxed plugins, serverless scaling, and passkey authentication.",
+      "date": "2026-04-06T14:26:07.000Z",
+      "link": "https://hackread.com/cloudflare-wordpress-ai-powered-emdash-cms/",
+      "isTopTen": false
+    },
+    {
+      "id": "21fe8381-87d3-43f5-9874-823b7c9347b7",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Why Simple Breach Monitoring is No Longer Enough",
+      "summary": "Modern infostealers are increasingly bypassing standard breach monitoring by harvesting session cookies and credentials at scale. This shift necessitates more robust security measures beyond traditional monitoring to combat advanced credential-based attacks.",
+      "date": "2026-04-06T14:02:12.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/why-simple-breach-monitoring-is-no-longer-enough/",
+      "isTopTen": false
+    },
+    {
+      "id": "c6ac5aa9-76f3-4933-b82c-b11a19a238c9",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Why Security Researchers and Red Teams Are Turning to Workflow Automation",
+      "summary": "Security researchers and red teams are increasingly utilizing workflow automation to reduce alert fatigue and enhance the efficiency of their security operations, intelligence, and reconnaissance tasks.",
+      "date": "2026-04-06T13:34:04.000Z",
+      "link": "https://hackread.com/security-researchers-red-teams-workflow-automation/",
+      "isTopTen": false
+    },
+    {
+      "id": "eb1df613-5c31-4e3a-9026-c2f2c8fbd926",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Exploit RCE Flaw as 14,000 F5 BIG-IP APM Instances Remain Exposed",
+      "summary": "Attackers are actively exploiting a critical remote code execution vulnerability (CVE-2025-53521) in F5 BIG-IP APM, with over 14,000 instances currently exposed online.",
+      "date": "2026-04-06T13:07:25.000Z",
+      "link": "https://securityaffairs.com/190384/security/attackers-exploit-rce-flaw-as-14000-f5-big-ip-apm-instances-remain-exposed.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4007f391-f278-4e0e-bd44-d25f79bd9142",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps",
+      "summary": "The shift toward multi-OS cyberattacks highlights the risks of fragmented security operations across diverse enterprise environments. Security Operations Centers must unify workflows to effectively defend against cross-platform threats spanning Windows, macOS, Linux, and mobile devices.",
+      "date": "2026-04-06T13:00:00.000Z",
+      "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d5854e8f-c8d8-43fb-bc99-60897c8d887c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
+      "summary": "This week's cybersecurity landscape was marked by significant incidents, including an Axios hack, a Chrome zero-day vulnerability, and active exploits targeting Fortinet systems and Paragon spyware. These events highlight the increasing speed at which vulnerabilities are being exploited across widely used software.",
+      "date": "2026-04-06T12:46:00.000Z",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+      "isTopTen": false
+    },
     {
       "id": "f60b8cb7-2080-485a-9464-046359f9644f",
       "source": "The Record",
@@ -32,7 +109,7 @@
       "summary": "The TeamPCP threat actor exploited the LiteLLM library in a supply chain attack that turned developer workstations into harvesting grounds for sensitive credentials. This incident highlights the significant security risks posed by caching credentials on local development machines used for AI agents.",
       "date": "2026-04-06T11:45:00.000Z",
       "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e24a1275-5b8d-4399-b323-2583319a2bd3",
@@ -87,7 +164,7 @@
       "summary": "Fortinet has released emergency patches to address a critical, actively exploited authentication bypass vulnerability (CVE-2026-35616) impacting FortiClient EMS.",
       "date": "2026-04-06T05:10:29.000Z",
       "link": "https://securityaffairs.com/190392/hacking/cve-2026-35616-fortinet-fixes-actively-exploited-high-severity-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d5d84a4e-1f67-41c7-8e95-a19a3e72a97d",
@@ -252,7 +329,7 @@
       "summary": "Researchers identified 36 malicious npm packages masquerading as Strapi plugins that target Redis and PostgreSQL databases to harvest credentials and establish persistent backdoors. These packages utilize deceptive file structures and lack standard metadata to evade detection.",
       "date": "2026-04-05T05:07:00.000Z",
       "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "72c74584-f9e2-4eef-8a97-2329d43728f7",
@@ -274,7 +351,7 @@
       "summary": "A developer for the popular Axios npm package was targeted by a social engineering campaign involving a fake Microsoft Teams error, leading to the hijacking of a maintainer account. The incident is suspected to be the work of North Korean threat actors.",
       "date": "2026-04-04T20:30:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "48b7f006-ce5e-4e0b-a606-8dd0ec26504a",
@@ -296,7 +373,7 @@
       "summary": "CISA has added a high-severity vulnerability in the TrueConf Client, tracked as CVE-2026-3502, to its Known Exploited Vulnerabilities (KEV) catalog following evidence of active exploitation. The flaw carries a CVSS score of 7.8 and affects a platform frequently used for secure communications.",
       "date": "2026-04-04T16:42:38.000Z",
       "link": "https://securityaffairs.com/190341/security/u-s-cisa-adds-a-flaw-in-trueconf-client-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3a045d6e-530d-4e83-a23b-4652b6b00c4d",
@@ -329,7 +406,7 @@
       "summary": "Fortinet has released emergency hotfixes for a critical zero-day vulnerability (CVE-2026-35616) in its FortiClient EMS software, which is currently being actively exploited in the wild.",
       "date": "2026-04-04T14:09:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/04/forticlient-ems-zero-day-cve-2026-35616/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "153627fd-cbe2-4695-a264-b371a27babed",
@@ -340,7 +417,7 @@
       "summary": "The European Commission experienced a cloud security breach involving the TeamPCP threat group, resulting in the exposure of data from 30 EU entities. CERT-EU confirmed the incident and publicly disclosed it following investigative inquiries.",
       "date": "2026-04-04T08:45:04.000Z",
       "link": "https://securityaffairs.com/190333/security/european-commission-breach-exposed-data-of-30-eu-entities-cert-eu-says.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "35aa17c3-dbea-47e2-80d7-1a9f782e50d1",
@@ -527,7 +604,7 @@
       "summary": "AI company Mercor has confirmed a major data breach resulting from a supply chain attack on LiteLLM, with threat actors claiming to have exfiltrated 4TB of sensitive data. The incident highlights ongoing risks within software supply chains for AI-focused infrastructure.",
       "date": "2026-04-03T15:21:14.000Z",
       "link": "https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2c44dd30-9e71-4426-b4d0-e00d71c8f3e2",
@@ -637,7 +714,7 @@
       "summary": "The Axios npm package was compromised following a targeted social engineering attack by North Korean threat group UNC1069 against the package maintainer. The incident highlights the risks of supply chain attacks through individual developer targeting.",
       "date": "2026-04-03T11:04:00.000Z",
       "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "20a2817b-e5f5-4036-b6ea-4259f964301e",
@@ -670,7 +747,7 @@
       "summary": "A new variant of the SparkCat malware has been identified in legitimate enterprise and food delivery apps on the Apple App Store and Google Play Store, specifically targeting cryptocurrency wallet recovery phrases. This discovery confirms the continued threat of malicious software bypassing official mobile app store security measures.",
       "date": "2026-04-03T09:10:00.000Z",
       "link": "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c629f4bc-f163-44ef-968a-98c93bfb6d18",
@@ -736,7 +813,7 @@
       "summary": "The hacking group ShinyHunters exploited a supply chain vulnerability in Trivy to breach European Commission cloud infrastructure, resulting in the theft and leak of approximately 340 GB of personal data.",
       "date": "2026-04-03T06:34:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1eed8ac7-8c6a-4527-8c0c-7ec0a4a1f38c",
