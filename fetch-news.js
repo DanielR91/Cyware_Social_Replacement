@@ -245,6 +245,14 @@ async function fetchAllNews() {
   finalCollection.sort((a, b) => new Date(b.date) - new Date(a.date));
   const limitedCollection = finalCollection.slice(0, 500);
 
+  // SAVE POINT 1: Ensure new articles are persisted before attempted AI passes
+  // This prevents 'losing' pulled news if the next steps hit a rate limit
+  let currentOutput = {
+    lastUpdated: new Date().toISOString(),
+    articles: limitedCollection
+  };
+  await fs.writeFile('articles.json', JSON.stringify(currentOutput, null, 2));
+
   // Identify Top 10 (Using Premium Tier)
   try {
     const topTenCandidates = limitedCollection.slice(0, 70);
@@ -256,7 +264,9 @@ async function fetchAllNews() {
     limitedCollection.forEach(article => {
       article.isTopTen = topTenIds.includes(article.id);
     });
-  } catch (err) {}
+  } catch (err) {
+    console.warn('Top 10 pass hit a snag, skipping for this run.');
+  }
 
   // 30s cooldown before the final "Insight Pass" (Executive Briefing)
   console.log('Brief cooldown before the final Executive Briefing pass...');
@@ -265,6 +275,7 @@ async function fetchAllNews() {
   // Generate Daily Briefing (Snapshot of the current landscape)
   const dailyBriefing = await generateExecutiveBriefing(limitedCollection);
 
+  // FINAL SAVE: Include any Top 10 rankings and the AI Briefing
   const outputData = {
     lastUpdated: new Date().toISOString(),
     dailyBriefing,

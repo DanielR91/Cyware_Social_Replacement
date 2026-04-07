@@ -464,3 +464,20 @@ function createChartBar(label, count, percent, colorClass) {
 
     return row;
 }
+
+function displayLastUpdated(timestamp) {
+    const timeElement = document.getElementById('last-updated-time');
+    if (!timeElement || !timestamp) return;
+
+    const dateObj = new Date(timestamp);
+    const options = { 
+        month: 'short', 
+        day: 'numeric', 
+        hour: '2-digit', 
+        minute: '2-digit'
+    };
+    
+    timeElement.textContent = dateObj.toLocaleString('en-US', options);
+    timeElement.title = dateObj.toLocaleString(); // Exact time on hover
+}
+
