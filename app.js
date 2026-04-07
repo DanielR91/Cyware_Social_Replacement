@@ -1,8 +1,18 @@
-// Global State
+// Global State (Hardened)
 let allArticles = [];
-let savedArticles = JSON.parse(localStorage.getItem('savedBookmarkedIntel') || '[]');
-let activeCategory = localStorage.getItem('defaultCategory') || null;
-let activeSeverity = localStorage.getItem('defaultSeverity') || null;
+let savedArticles = [];
+let activeCategory = null;
+let activeSeverity = null;
+
+try {
+    savedArticles = JSON.parse(localStorage.getItem('savedBookmarkedIntel') || '[]');
+    activeCategory = localStorage.getItem('defaultCategory') || null;
+    activeSeverity = localStorage.getItem('defaultSeverity') || null;
+} catch (e) {
+    console.warn("Storage corrupted, resetting local state.");
+    localStorage.removeItem('savedBookmarkedIntel');
+}
+
 let activeSaved = false;
 let activeTopTen = false;
 let currentSearchQuery = "";
@@ -54,9 +64,13 @@ async function fetchArticles() {
         if (Array.isArray(data)) {
             allArticles = data;
         } else {
-            allArticles = data.articles || [];
+            allArticles = Array.isArray(data.articles) ? data.articles : [];
             dailyBriefing = data.dailyBriefing || dailyBriefing;
             displayLastUpdated(data.lastUpdated);
+        }
+        
+        if (allArticles.length === 0) {
+            console.warn("Articles.json loaded but articles array is empty.");
         }
         
         // Render articles
@@ -64,13 +78,21 @@ async function fetchArticles() {
         
     } catch (error) {
         console.error('Failed to load articles:', error);
+        
+        // Visible Debug Status
+        const debugStatus = document.getElementById('debug-status');
+        if (debugStatus) {
+            debugStatus.textContent = `Diagnostic Error: ${error.message}. Check articles.json path.`;
+            debugStatus.style.display = 'block';
+        }
+
         container.innerHTML = `
             <div style="color: #ff4a4a; padding: 2rem; text-align: center;">
                 <i data-lucide="alert-triangle" style="width: 48px; height: 48px; margin-bottom: 1rem;"></i>
-                <p>Failed to load intel feed. Make sure you are viewing via a web server or GitHub Pages.</p>
+                <p>Failed to load intel feed. (${error.message})</p>
             </div>
         `;
-        lucide.createIcons();
+        safeCreateIcons();
     }
 }
 
