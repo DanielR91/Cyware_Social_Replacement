@@ -7,6 +7,8 @@ let activeSaved = false;
 let activeTopTen = false;
 let currentSearchQuery = "";
 let currentSort = "Latest";
+let activeView = "feed";
+let dailyBriefing = "Strategic situational briefing is being generated...";
 
 // Initialize Lucide icons
 lucide.createIcons();
@@ -16,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSearch();
     setupModal();
     setupSort();
+    setupTabs();
     fetchArticles();
     
     // Auto-apply initial UI states from localStorage if they exist
@@ -41,6 +44,7 @@ async function fetchArticles() {
             allArticles = data;
         } else {
             allArticles = data.articles || [];
+            dailyBriefing = data.dailyBriefing || dailyBriefing;
             displayLastUpdated(data.lastUpdated);
         }
         
@@ -377,27 +381,86 @@ function setupModal() {
     });
 }
 
-function setupSort() {
-    const sortSelect = document.getElementById('sort-select');
-    if (!sortSelect) return;
-    
-    sortSelect.addEventListener('change', (e) => {
-        currentSort = e.target.value;
-        renderArticles();
+function setupTabs() {
+    const navLinks = document.querySelectorAll('.nav-link');
+    const feedView = document.getElementById('feed-view');
+    const dashboardView = document.getElementById('dashboard-view');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const view = link.dataset.view;
+            if (view === activeView) return;
+
+            activeView = view;
+            
+            // Toggle UI
+            navLinks.forEach(nl => nl.classList.remove('active'));
+            link.classList.add('active');
+
+            if (view === 'dashboard') {
+                feedView.style.display = 'none';
+                dashboardView.style.display = 'block';
+                renderDashboard();
+            } else {
+                feedView.style.display = 'block';
+                dashboardView.style.display = 'none';
+                renderArticles();
+            }
+        });
     });
 }
-function displayLastUpdated(timestamp) {
-    const timeElement = document.getElementById('last-updated-time');
-    if (!timeElement || !timestamp) return;
 
-    const dateObj = new Date(timestamp);
-    const options = { 
-        month: 'short', 
-        day: 'numeric', 
-        hour: '2-digit', 
-        minute: '2-digit'
-    };
+function renderDashboard() {
+    // 1. Briefing
+    document.getElementById('ai-briefing-text').textContent = dailyBriefing;
+
+    // 2. Severity Analytics
+    const severityChart = document.getElementById('severity-chart');
+    const sevCounts = { Critical: 0, High: 0, Low: 0 };
+    allArticles.forEach(a => { if (sevCounts[a.severity] !== undefined) sevCounts[a.severity]++; });
     
-    timeElement.textContent = dateObj.toLocaleString('en-US', options);
-    timeElement.title = dateObj.toLocaleString(); // Exact time on hover
+    severityChart.innerHTML = '';
+    ['Critical', 'High', 'Low'].forEach(label => {
+        const count = sevCounts[label];
+        const percent = allArticles.length ? (count / allArticles.length * 100) : 0;
+        severityChart.appendChild(createChartBar(label, count, percent, `severity-${label.toLowerCase()}`));
+    });
+
+    // 3. Topics Analytics
+    const topicsChart = document.getElementById('topics-chart');
+    const topicCounts = {};
+    allArticles.forEach(a => { 
+        if (a.tag) { topicCounts[a.tag] = (topicCounts[a.tag] || 0) + 1; }
+    });
+
+    // Sort topics by count
+    const sortedTopics = Object.entries(topicCounts).sort((a,b) => b[1] - a[1]).slice(0, 5);
+    topicsChart.innerHTML = '';
+    sortedTopics.forEach(([label, count]) => {
+        const percent = allArticles.length ? (count / allArticles.length * 100) : 0;
+        topicsChart.appendChild(createChartBar(label, count, percent, 'topic-default'));
+    });
+}
+
+function createChartBar(label, count, percent, colorClass) {
+    const row = document.createElement('div');
+    row.className = 'chart-bar-row';
+    row.innerHTML = `
+        <div class="bar-info">
+            <span class="bar-label">${label}</span>
+            <span class="bar-value">${count} items (${Math.round(percent)}%)</span>
+        </div>
+        <div class="bar-track">
+            <div class="bar-fill ${colorClass}" style="width: 0%"></div>
+        </div>
+    `;
+    
+    // Trigger animation after append
+    setTimeout(() => {
+        const fill = row.querySelector('.bar-fill');
+        if (fill) fill.style.width = `${Math.max(percent, 2)}%`;
+    }, 100);
+
+    return row;
 }

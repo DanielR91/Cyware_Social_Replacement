@@ -163,6 +163,26 @@ Articles: ${JSON.stringify(listForAI)}`;
   return [];
 }
 
+async function generateExecutiveBriefing(articles) {
+  if (articles.length === 0 || quotaExceededLite) return "No situational briefing available at this time.";
+  
+  console.log('Generating AI Executive Briefing...');
+  try {
+    const topHeadlines = articles.slice(0, 30).map(a => `- ${a.title}`).join('\n');
+    const prompt = `Analyze these cybersecurity headlines from current news. 
+Write a pithy, 3-sentence "Executive Briefing" summarizing the current threat landscape, major trends, and what security teams should focus on.
+Headlines:
+${topHeadlines}`;
+
+    // Using Lite model for volume efficiency
+    const response = await callAIWithRetry(prompt, 30000, "Executive Briefing", 'gemini-3.1-flash-lite-preview');
+    return response.text.trim();
+  } catch (error) {
+    console.error('Failed to generate briefing:', error.message);
+    return "The threat landscape is active. Please review the latest alerts and indicators below for specific details.";
+  }
+}
+
 async function fetchAllNews() {
   console.log('--- 2026 Hybrid Architecture: Flash-Lite (Summaries) & 2.5-Flash (Top 10) ---');
   
@@ -234,8 +254,12 @@ async function fetchAllNews() {
     });
   } catch (err) {}
 
+  // Generate Daily Briefing (Snapshot of the current landscape)
+  const dailyBriefing = await generateExecutiveBriefing(limitedCollection);
+
   const outputData = {
     lastUpdated: new Date().toISOString(),
+    dailyBriefing,
     articles: limitedCollection
   };
 
