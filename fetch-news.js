@@ -208,8 +208,9 @@ async function fetchAllNews() {
         // Only summarize if it's NEW or currently has a Placeholder
         if (!existing || existing.summary === QUOTA_PLACEHOLDER) {
           
-          // 12-second delay to stay strictly under the 5 RPM project-wide limit (60s / 5 = 12s)
-          await new Promise(r => setTimeout(r, 12000));
+          // 15-second delay to stay strictly under the 5 RPM project-wide limit (60s / 4 = 15s)
+          // 2026 Free Tier is more stable at 4 RPM.
+          await new Promise(r => setTimeout(r, 15000));
           
           console.log(`   -> AI Summary (Lite): ${item.title}`);
           const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
@@ -253,6 +254,10 @@ async function fetchAllNews() {
       article.isTopTen = topTenIds.includes(article.id);
     });
   } catch (err) {}
+
+  // 30s cooldown before the final "Insight Pass" (Executive Briefing)
+  console.log('Brief cooldown before the final Executive Briefing pass...');
+  await new Promise(r => setTimeout(r, 30000));
 
   // Generate Daily Briefing (Snapshot of the current landscape)
   const dailyBriefing = await generateExecutiveBriefing(limitedCollection);
