@@ -9,6 +9,7 @@ let currentSearchQuery = "";
 let currentSort = "Latest";
 let activeView = "feed";
 let dailyBriefing = "Strategic situational briefing is being generated...";
+let itemsToShow = 20; 
 
 // Initialize Lucide icons
 lucide.createIcons();
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupModal();
     setupSort();
     setupTabs();
+    setupLoadMore();
     fetchArticles();
     
     // Auto-apply initial UI states from localStorage if they exist
@@ -26,6 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
         updateFilterUI();
     }
 });
+
+function safeCreateIcons() {
+    try {
+        if (window.lucide) lucide.createIcons();
+    } catch (e) {
+        console.warn('Lucide icons failed to load.');
+    }
+}
+
 
 async function fetchArticles() {
     const container = document.getElementById('articles-container');
@@ -113,21 +124,30 @@ function renderArticles() {
         filteredArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
     }
 
+    // Subset for pagination
+    const displayedArticles = filteredArticles.slice(0, itemsToShow);
+    
+    // Update "Load More" button visibility
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    if (loadMoreBtn) {
+        loadMoreBtn.style.display = (filteredArticles.length > itemsToShow) ? 'inline-block' : 'none';
+    }
+
     container.innerHTML = '';
 
-    if (filteredArticles.length === 0) {
+    if (displayedArticles.length === 0) {
         container.innerHTML = `
             <div style="color: var(--text-muted); padding: 3rem; text-align: center;">
                 <i data-lucide="list-x" style="width: 48px; height: 48px; margin-bottom: 1rem; opacity: 0.5;"></i>
                 <p>No articles match your current filters.</p>
             </div>
         `;
-        lucide.createIcons();
+        safeCreateIcons();
         return;
     }
     
     // Render articles
-    filteredArticles.forEach(article => {
+    displayedArticles.forEach(article => {
         const clone = template.content.cloneNode(true);
         const card = clone.querySelector('.article-card');
         
@@ -222,7 +242,7 @@ function renderArticles() {
     });
 
     // Re-initialize icons for newly added elements
-    lucide.createIcons();
+    safeCreateIcons();
 }
 
 function setupFilters() {
@@ -266,6 +286,7 @@ function setupFilters() {
             }
             
             updateFilterUI();
+            itemsToShow = 20; // RESET Pagination when filters change
             renderArticles();
         });
     });
@@ -463,6 +484,16 @@ function createChartBar(label, count, percent, colorClass) {
     }, 100);
 
     return row;
+}
+
+function setupLoadMore() {
+    const btn = document.getElementById('load-more-btn');
+    if (btn) {
+        btn.addEventListener('click', () => {
+            itemsToShow += 20;
+            renderArticles();
+        });
+    }
 }
 
 function displayLastUpdated(timestamp) {
