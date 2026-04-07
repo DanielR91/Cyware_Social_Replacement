@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-04-06T21:47:37.654Z",
+  "lastUpdated": "2026-04-07T02:51:53.688Z",
   "articles": [
+    {
+      "id": "d6b897dc-f90f-4c46-8cee-6fb96e39927d",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "German authorities identify REvil and GangCrab ransomware bosses",
+      "summary": "German federal police have identified two Russian nationals as the primary leaders behind the REvil and GandCrab ransomware operations active between 2019 and 2021.",
+      "date": "2026-04-06T23:54:04.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/",
+      "isTopTen": false
+    },
+    {
+      "id": "4437fe73-4d6a-4cf6-81f7-753043307550",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI agents found vulns in this popular Linux and Unix print server",
+      "summary": "AI agents were utilized to successfully identify security vulnerabilities within a widely used Linux and Unix print server software. This development highlights the growing role of automated AI tools in both discovering and potentially exploiting system weaknesses.",
+      "date": "2026-04-06T23:03:49.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/06/ai_agents_cups_server_rce/",
+      "isTopTen": false
+    },
+    {
+      "id": "d69b621e-a27e-4657-908e-1eaea6e1f664",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Understanding Current Threats to Kubernetes Environments",
+      "summary": "Unit 42 reports an increase in Kubernetes-focused attacks where threat actors leverage identity abuse and critical vulnerabilities to compromise cloud environments. The analysis highlights the evolving tactics used by adversaries to gain unauthorized access to containerized infrastructure.",
+      "date": "2026-04-06T22:00:08.000Z",
+      "link": "https://unit42.paloaltonetworks.com/modern-kubernetes-threats/",
+      "isTopTen": false
+    },
+    {
+      "id": "4bd10253-5ad2-4a8e-b3d9-a3123646203c",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New GPUBreach attack enables system takeover via GPU rowhammer",
+      "summary": "The GPUBreach attack exploits Rowhammer vulnerabilities in GDDR6 memory to perform bit-flips, enabling attackers to escalate privileges and gain full control over a system. This technique highlights a significant hardware-level security risk involving GPU memory management.",
+      "date": "2026-04-06T21:44:15.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
+      "isTopTen": true
+    },
     {
       "id": "12168e77-90a2-4804-85ea-1c4d5bacee31",
       "source": "CyberScoop",
@@ -10,7 +54,7 @@
       "summary": "Fortinet customers are facing active exploitation of two critical vulnerabilities in FortiClient EMS. While a full patch is pending, security experts are urging users to apply an immediate hotfix to mitigate risk.",
       "date": "2026-04-06T21:12:01.000Z",
       "link": "https://cyberscoop.com/fortinet-forticlient-ems-zero-day-cve-2026-35616-hotfix-known-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "052326d2-cb15-4237-9da8-22f7545e590b",
@@ -318,7 +362,7 @@
       "summary": "North Korean hackers group UNC4736 successfully infiltrated the Drift Protocol by posing as a legitimate trading firm, leading to the theft of $285 million through a six-month social engineering campaign.",
       "date": "2026-04-06T11:09:26.000Z",
       "link": "https://hackread.com/north-korean-hackers-trading-firm-drift-protocol/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "848a84d5-9a60-475b-a882-26942a49dc95",
@@ -439,7 +483,7 @@
       "summary": "The Solana-based decentralized exchange Drift suffered a $285 million theft resulting from a sophisticated six-month social engineering campaign orchestrated by North Korean state-sponsored actors. The operation, which began in late 2025, culminated in the April 2026 security breach.",
       "date": "2026-04-05T18:25:00.000Z",
       "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "de97250d-7c53-493c-9ec0-ce7f3fc412e9",
@@ -549,7 +593,7 @@
       "summary": "A developer for the popular Axios npm package was targeted by a social engineering campaign involving a fake Microsoft Teams error, leading to the hijacking of a maintainer account. The incident is suspected to be the work of North Korean threat actors.",
       "date": "2026-04-04T20:30:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "48b7f006-ce5e-4e0b-a606-8dd0ec26504a",
@@ -593,7 +637,7 @@
       "summary": "Cybersecurity researchers have identified a 37-fold increase in phishing attacks that exploit the OAuth 2.0 Device Authorization Grant flow to hijack user accounts. This surge is attributed to the widespread availability of new phishing kits tailored for this specific authentication bypass technique.",
       "date": "2026-04-04T14:17:38.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f11bb9dd-2710-46a6-a025-fde913325a0f",
