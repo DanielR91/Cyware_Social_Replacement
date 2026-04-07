@@ -11,7 +11,6 @@
 </head>
 <body>
     <div class="app-container">
-        <div id="debug-status" style="display: none; background: #ff4a4a; color: white; padding: 0.5rem; text-align: center; position: sticky; top: 0; z-index: 9999; font-size: 0.8rem; font-weight: bold;"></div>
         <!-- Top Navigation -->
         <header class="top-nav">
             <div class="nav-brand">
@@ -19,8 +18,7 @@
                 <h1>Cyber Intel Feed</h1>
             </div>
             <nav class="nav-links">
-                <a href="#" class="nav-link active" data-view="feed">Intel Feed</a>
-                <a href="#" class="nav-link" data-view="dashboard">Intel Dashboard</a>
+                <a href="#" class="active">Intel Feed</a>
             </nav>
             <div class="nav-actions">
                 <div class="search-container">
@@ -65,69 +63,33 @@
 
             <!-- Main Feed -->
             <main class="feed">
-                <section id="feed-view" class="view-container">
-                    <div class="feed-header">
-                        <div class="header-main">
-                            <h2>Latest Cybersecurity News and Articles</h2>
-                            <div class="last-updated" id="last-updated-header">
-                                <i data-lucide="clock"></i>
-                                <span>Last updated: <span id="last-updated-time">---</span></span>
-                            </div>
-                        </div>
-                        <div class="sort-options">
-                            <span>Sort by:</span>
-                            <select id="sort-select">
-                                <option value="Latest">Latest</option>
-                                <option value="Severity">Severity</option>
-                            </select>
+                <div class="feed-header">
+                    <div class="header-main">
+                        <h2>Latest Cybersecurity News and Articles</h2>
+                        <div class="last-updated" id="last-updated-header">
+                            <i data-lucide="clock"></i>
+                            <span>Last updated: <span id="last-updated-time">---</span></span>
                         </div>
                     </div>
-
-                    <div id="articles-container" class="articles-grid">
-                        <div class="loader">
-                            <i data-lucide="loader-2" class="spin"></i> Loading intel...
-                        </div>
+                    <div class="sort-options">
+                        <span>Sort by:</span>
+                        <select id="sort-select">
+                            <option value="Latest">Latest</option>
+                            <option value="Severity">Severity</option>
+                        </select>
                     </div>
-                    
-                    <div class="load-more-container">
-                        <button id="load-more-btn" class="btn-load-more">Load More</button>
+                </div>
+
+                <div id="articles-container" class="articles-grid">
+                    <!-- Articles will be injected here via JavaScript -->
+                    <div class="loader">
+                        <i data-lucide="loader-2" class="spin"></i> Loading intel...
                     </div>
-                </section>
-
-                <section id="dashboard-view" class="view-container" style="display: none;">
-                    <div class="dashboard-grid">
-                        <!-- AI Briefing Card -->
-                        <div class="dashboard-card briefing-card full-width">
-                            <div class="card-header">
-                                <i data-lucide="sparkles" class="neon-purple"></i>
-                                <h3>AI Executive Briefing</h3>
-                            </div>
-                            <p id="ai-briefing-text" class="briefing-text">Generating situation analysis...</p>
-                        </div>
-
-                        <!-- Severity Stats -->
-                        <div class="dashboard-card">
-                            <div class="card-header">
-                                <i data-lucide="activity" class="neon-red"></i>
-                                <h3>Severity Distribution</h3>
-                            </div>
-                            <div class="chart-container" id="severity-chart">
-                                <!-- CSS Bars injected here -->
-                            </div>
-                        </div>
-
-                        <!-- Topic Breakdown -->
-                        <div class="dashboard-card">
-                            <div class="card-header">
-                                <i data-lucide="pie-chart" class="neon-blue"></i>
-                                <h3>Topic Breakdown</h3>
-                            </div>
-                            <div class="chart-container" id="topics-chart">
-                                <!-- CSS Bars injected here -->
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                </div>
+                
+                <div class="load-more-container">
+                    <button class="btn-load-more">Load More</button>
+                </div>
             </main>
         </div>
     </div>

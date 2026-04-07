@@ -1,25 +1,12 @@
-// Global State (Hardened)
+// Global State
 let allArticles = [];
-let savedArticles = [];
-let activeCategory = null;
-let activeSeverity = null;
-
-try {
-    savedArticles = JSON.parse(localStorage.getItem('savedBookmarkedIntel') || '[]');
-    activeCategory = localStorage.getItem('defaultCategory') || null;
-    activeSeverity = localStorage.getItem('defaultSeverity') || null;
-} catch (e) {
-    console.warn("Storage corrupted, resetting local state.");
-    localStorage.removeItem('savedBookmarkedIntel');
-}
-
+let savedArticles = JSON.parse(localStorage.getItem('savedBookmarkedIntel') || '[]');
+let activeCategory = localStorage.getItem('defaultCategory') || null;
+let activeSeverity = localStorage.getItem('defaultSeverity') || null;
 let activeSaved = false;
 let activeTopTen = false;
 let currentSearchQuery = "";
 let currentSort = "Latest";
-let activeView = "feed";
-let dailyBriefing = "Strategic situational briefing is being generated...";
-let itemsToShow = 20; 
 
 // Initialize Lucide icons
 lucide.createIcons();
@@ -29,8 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSearch();
     setupModal();
     setupSort();
-    setupTabs();
-    setupLoadMore();
     fetchArticles();
     
     // Auto-apply initial UI states from localStorage if they exist
@@ -38,15 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         updateFilterUI();
     }
 });
-
-function safeCreateIcons() {
-    try {
-        if (window.lucide) lucide.createIcons();
-    } catch (e) {
-        console.warn('Lucide icons failed to load.');
-    }
-}
-
 
 async function fetchArticles() {
     const container = document.getElementById('articles-container');
@@ -64,13 +40,8 @@ async function fetchArticles() {
         if (Array.isArray(data)) {
             allArticles = data;
         } else {
-            allArticles = Array.isArray(data.articles) ? data.articles : [];
-            dailyBriefing = data.dailyBriefing || dailyBriefing;
+            allArticles = data.articles || [];
             displayLastUpdated(data.lastUpdated);
-        }
-        
-        if (allArticles.length === 0) {
-            console.warn("Articles.json loaded but articles array is empty.");
         }
         
         // Render articles
@@ -78,21 +49,13 @@ async function fetchArticles() {
         
     } catch (error) {
         console.error('Failed to load articles:', error);
-        
-        // Visible Debug Status
-        const debugStatus = document.getElementById('debug-status');
-        if (debugStatus) {
-            debugStatus.textContent = `Diagnostic Error: ${error.message}. Check articles.json path.`;
-            debugStatus.style.display = 'block';
-        }
-
         container.innerHTML = `
             <div style="color: #ff4a4a; padding: 2rem; text-align: center;">
                 <i data-lucide="alert-triangle" style="width: 48px; height: 48px; margin-bottom: 1rem;"></i>
-                <p>Failed to load intel feed. (${error.message})</p>
+                <p>Failed to load intel feed. Make sure you are viewing via a web server or GitHub Pages.</p>
             </div>
         `;
-        safeCreateIcons();
+        lucide.createIcons();
     }
 }
 
@@ -146,30 +109,21 @@ function renderArticles() {
         filteredArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
     }
 
-    // Subset for pagination
-    const displayedArticles = filteredArticles.slice(0, itemsToShow);
-    
-    // Update "Load More" button visibility
-    const loadMoreBtn = document.getElementById('load-more-btn');
-    if (loadMoreBtn) {
-        loadMoreBtn.style.display = (filteredArticles.length > itemsToShow) ? 'inline-block' : 'none';
-    }
-
     container.innerHTML = '';
 
-    if (displayedArticles.length === 0) {
+    if (filteredArticles.length === 0) {
         container.innerHTML = `
             <div style="color: var(--text-muted); padding: 3rem; text-align: center;">
                 <i data-lucide="list-x" style="width: 48px; height: 48px; margin-bottom: 1rem; opacity: 0.5;"></i>
                 <p>No articles match your current filters.</p>
             </div>
         `;
-        safeCreateIcons();
+        lucide.createIcons();
         return;
     }
     
     // Render articles
-    displayedArticles.forEach(article => {
+    filteredArticles.forEach(article => {
         const clone = template.content.cloneNode(true);
         const card = clone.querySelector('.article-card');
         
@@ -264,7 +218,7 @@ function renderArticles() {
     });
 
     // Re-initialize icons for newly added elements
-    safeCreateIcons();
+    lucide.createIcons();
 }
 
 function setupFilters() {
@@ -308,7 +262,6 @@ function setupFilters() {
             }
             
             updateFilterUI();
-            itemsToShow = 20; // RESET Pagination when filters change
             renderArticles();
         });
     });
@@ -424,100 +377,15 @@ function setupModal() {
     });
 }
 
-function setupTabs() {
-    const navLinks = document.querySelectorAll('.nav-link');
-    const feedView = document.getElementById('feed-view');
-    const dashboardView = document.getElementById('dashboard-view');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const view = link.dataset.view;
-            if (view === activeView) return;
-
-            activeView = view;
-            
-            // Toggle UI
-            navLinks.forEach(nl => nl.classList.remove('active'));
-            link.classList.add('active');
-
-            if (view === 'dashboard') {
-                feedView.style.display = 'none';
-                dashboardView.style.display = 'block';
-                renderDashboard();
-            } else {
-                feedView.style.display = 'block';
-                dashboardView.style.display = 'none';
-                renderArticles();
-            }
-        });
-    });
-}
-
-function renderDashboard() {
-    // 1. Briefing
-    document.getElementById('ai-briefing-text').textContent = dailyBriefing;
-
-    // 2. Severity Analytics
-    const severityChart = document.getElementById('severity-chart');
-    const sevCounts = { Critical: 0, High: 0, Low: 0 };
-    allArticles.forEach(a => { if (sevCounts[a.severity] !== undefined) sevCounts[a.severity]++; });
+function setupSort() {
+    const sortSelect = document.getElementById('sort-select');
+    if (!sortSelect) return;
     
-    severityChart.innerHTML = '';
-    ['Critical', 'High', 'Low'].forEach(label => {
-        const count = sevCounts[label];
-        const percent = allArticles.length ? (count / allArticles.length * 100) : 0;
-        severityChart.appendChild(createChartBar(label, count, percent, `severity-${label.toLowerCase()}`));
-    });
-
-    // 3. Topics Analytics
-    const topicsChart = document.getElementById('topics-chart');
-    const topicCounts = {};
-    allArticles.forEach(a => { 
-        if (a.tag) { topicCounts[a.tag] = (topicCounts[a.tag] || 0) + 1; }
-    });
-
-    // Sort topics by count
-    const sortedTopics = Object.entries(topicCounts).sort((a,b) => b[1] - a[1]).slice(0, 5);
-    topicsChart.innerHTML = '';
-    sortedTopics.forEach(([label, count]) => {
-        const percent = allArticles.length ? (count / allArticles.length * 100) : 0;
-        topicsChart.appendChild(createChartBar(label, count, percent, 'topic-default'));
+    sortSelect.addEventListener('change', (e) => {
+        currentSort = e.target.value;
+        renderArticles();
     });
 }
-
-function createChartBar(label, count, percent, colorClass) {
-    const row = document.createElement('div');
-    row.className = 'chart-bar-row';
-    row.innerHTML = `
-        <div class="bar-info">
-            <span class="bar-label">${label}</span>
-            <span class="bar-value">${count} items (${Math.round(percent)}%)</span>
-        </div>
-        <div class="bar-track">
-            <div class="bar-fill ${colorClass}" style="width: 0%"></div>
-        </div>
-    `;
-    
-    // Trigger animation after append
-    setTimeout(() => {
-        const fill = row.querySelector('.bar-fill');
-        if (fill) fill.style.width = `${Math.max(percent, 2)}%`;
-    }, 100);
-
-    return row;
-}
-
-function setupLoadMore() {
-    const btn = document.getElementById('load-more-btn');
-    if (btn) {
-        btn.addEventListener('click', () => {
-            itemsToShow += 20;
-            renderArticles();
-        });
-    }
-}
-
 function displayLastUpdated(timestamp) {
     const timeElement = document.getElementById('last-updated-time');
     if (!timeElement || !timestamp) return;
@@ -533,4 +401,3 @@ function displayLastUpdated(timestamp) {
     timeElement.textContent = dateObj.toLocaleString('en-US', options);
     timeElement.title = dateObj.toLocaleString(); // Exact time on hover
 }
-

@@ -12,8 +12,8 @@ const parser = new Parser({
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // We track two separate quota states in our Hybrid Model (2026 Edition)
+let quotaExceededPremium = false;
 let quotaExceededLite = false;
-let globalDelayMs = 15000; // Starting baseline delay
 
 const QUOTA_PLACEHOLDER = "AI Summary Unavailable due to Gemini Rate Limit Hit - this will update upon rate reset";
 
@@ -72,10 +72,8 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, modelName, retr
       // Handle temporary 429/503 Busy errors
       if ((msg.includes("429") || msg.includes("503")) && attempt < retries) {
         attempt++;
-        // Shift global rhythm slower if we hit a wall
-        globalDelayMs = Math.min(globalDelayMs + 5000, 30000); 
-        const wait = (60000 * attempt) * 2; // More patient 2026 backoff (120s, 240s...)
-        console.warn(`[Retry Needed] ${modelName} is busy. Slowing baseline to ${globalDelayMs/1000}s and pausing for ${wait/1000}s...`);
+        const wait = 60000 * attempt; 
+        console.warn(`[Retry Needed] ${modelName} is busy. Pausing for ${wait/1000}s...`);
         await new Promise(r => setTimeout(r, wait));
       } else {
         console.error(`AI Call Failed (${modelName}):`, msg);
@@ -165,26 +163,6 @@ Articles: ${JSON.stringify(listForAI)}`;
   return [];
 }
 
-async function generateExecutiveBriefing(articles) {
-  if (articles.length === 0 || quotaExceededLite) return "No situational briefing available at this time.";
-  
-  console.log('Generating AI Executive Briefing...');
-  try {
-    const topHeadlines = articles.slice(0, 30).map(a => `- ${a.title}`).join('\n');
-    const prompt = `Analyze these cybersecurity headlines from current news. 
-Write a pithy, 3-sentence "Executive Briefing" summarizing the current threat landscape, major trends, and what security teams should focus on.
-Headlines:
-${topHeadlines}`;
-
-    // Using Lite model for volume efficiency
-    const response = await callAIWithRetry(prompt, 30000, "Executive Briefing", 'gemini-3.1-flash-lite-preview');
-    return response.text.trim();
-  } catch (error) {
-    console.error('Failed to generate briefing:', error.message);
-    return "The threat landscape is active. Please review the latest alerts and indicators below for specific details.";
-  }
-}
-
 async function fetchAllNews() {
   console.log('--- 2026 Hybrid Architecture: Flash-Lite (Summaries) & 2.5-Flash (Top 10) ---');
   
@@ -210,10 +188,8 @@ async function fetchAllNews() {
         // Only summarize if it's NEW or currently has a Placeholder
         if (!existing || existing.summary === QUOTA_PLACEHOLDER) {
           
-          // Jittered delay to stay under the 2026 Preview Model thresholds
-          // Uses adaptive globalDelayMs (15s-30s) + random jitter (0-7s)
-          const jitter = Math.floor(Math.random() * 7000);
-          await new Promise(r => setTimeout(r, globalDelayMs + jitter));
+          // 12-second delay to stay strictly under the 5 RPM project-wide limit (60s / 5 = 12s)
+          await new Promise(r => setTimeout(r, 12000));
           
           console.log(`   -> AI Summary (Lite): ${item.title}`);
           const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
@@ -245,14 +221,6 @@ async function fetchAllNews() {
   finalCollection.sort((a, b) => new Date(b.date) - new Date(a.date));
   const limitedCollection = finalCollection.slice(0, 500);
 
-  // SAVE POINT 1: Ensure new articles are persisted before attempted AI passes
-  // This prevents 'losing' pulled news if the next steps hit a rate limit
-  let currentOutput = {
-    lastUpdated: new Date().toISOString(),
-    articles: limitedCollection
-  };
-  await fs.writeFile('articles.json', JSON.stringify(currentOutput, null, 2));
-
   // Identify Top 10 (Using Premium Tier)
   try {
     const topTenCandidates = limitedCollection.slice(0, 70);
@@ -264,21 +232,10 @@ async function fetchAllNews() {
     limitedCollection.forEach(article => {
       article.isTopTen = topTenIds.includes(article.id);
     });
-  } catch (err) {
-    console.warn('Top 10 pass hit a snag, skipping for this run.');
-  }
+  } catch (err) {}
 
-  // 30s cooldown before the final "Insight Pass" (Executive Briefing)
-  console.log('Brief cooldown before the final Executive Briefing pass...');
-  await new Promise(r => setTimeout(r, 30000));
-
-  // Generate Daily Briefing (Snapshot of the current landscape)
-  const dailyBriefing = await generateExecutiveBriefing(limitedCollection);
-
-  // FINAL SAVE: Include any Top 10 rankings and the AI Briefing
   const outputData = {
     lastUpdated: new Date().toISOString(),
-    dailyBriefing,
     articles: limitedCollection
   };
 
