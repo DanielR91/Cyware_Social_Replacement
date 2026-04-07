@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-04-07T07:27:44.102Z",
+  "lastUpdated": "2026-04-07T10:15:07.533Z",
   "articles": [
+    {
+      "id": "ef53b897-5a3b-4b63-9b9b-2259436daa9e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "GitHub Copilot CLI gets a second-opinion feature built on cross-model review",
+      "summary": "GitHub has introduced a 'Rubber Duck' feature for its Copilot CLI that employs cross-model reviews to mitigate the risks of AI-generated coding errors. By using a second model to verify the output of the first, the tool aims to overcome the inherent blind spots found in self-reflection techniques.",
+      "date": "2026-04-07T09:27:06.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/07/github-copilot-rubber-duck-cross-model-review/",
+      "isTopTen": false
+    },
+    {
+      "id": "10774556-8b09-460e-9d73-4c9af2637ac6",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a flaw in Fortinet FortiClient EMS to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the critical Fortinet FortiClient EMS vulnerability, tracked as CVE-2026-35616, to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw carries a CVSS score of 9.1, prompting urgent patching requirements for federal agencies.",
+      "date": "2026-04-07T08:59:09.000Z",
+      "link": "https://securityaffairs.com/190425/security/u-s-cisa-adds-a-flaw-in-fortinet-forticlient-ems-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "ce278f67-eb62-4756-a63d-fbe0e8553918",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Comp AI: The open-source way to get compliant with SOC 2, ISO 27001, HIPAA and GDPR",
+      "summary": "Comp AI is an open-source compliance platform designed to automate evidence collection and policy management for standards like SOC 2, ISO 27001, HIPAA, and GDPR. By offering a self-hosted, inspectable codebase, it aims to streamline the traditional manual audit process for startups.",
+      "date": "2026-04-07T08:45:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/07/comp-ai-open-source-compliance-platform/",
+      "isTopTen": false
+    },
+    {
+      "id": "1356bbc5-51b0-4fbd-b288-e16cb14004e8",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI opens applications for an external AI safety research fellowship",
+      "summary": "OpenAI has launched a paid external fellowship program to fund research into AI safety, alignment, and robust mitigation strategies for advanced systems. The initiative seeks to engage researchers and engineers outside of the organization to address critical AI security and ethical challenges.",
+      "date": "2026-04-07T08:39:52.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/07/openai-safety-fellowship-applications/",
+      "isTopTen": false
+    },
+    {
+      "id": "cec502a5-c335-465c-b98e-9e5af6119d23",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips",
+      "summary": "Researchers have discovered new RowHammer-based side-channel attacks, collectively named GPUBreach, that exploit GDDR6 memory to achieve privilege escalation and potential host control. These vulnerabilities demonstrate the first successful attempt to leverage GPU memory bit-flips for full system compromise.",
+      "date": "2026-04-07T08:38:00.000Z",
+      "link": "https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7538a28c-2e3a-4a0e-83c5-0aeb979dad43",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Experts published unpatched Windows zero-day BlueHammer",
+      "summary": "A researcher has publicly disclosed an unpatched privilege escalation zero-day vulnerability in Windows dubbed 'BlueHammer', which allows attackers to gain SYSTEM-level administrative rights. Microsoft has not yet released a patch for this flaw.",
+      "date": "2026-04-07T08:09:34.000Z",
+      "link": "https://securityaffairs.com/190400/breaking-news/experts-published-unpatched-windows-zero-day-bluehammer.html",
+      "isTopTen": true
+    },
+    {
+      "id": "1df9865a-21b3-4c02-9992-bf3b395fe059",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
+      "summary": "The China-linked threat actor Storm-1175 is actively weaponizing a combination of zero-day and N-day vulnerabilities to conduct high-speed attacks and deploy Medusa ransomware. The group is noted for its high operational tempo and expert reconnaissance of exposed internet-facing assets.",
+      "date": "2026-04-07T06:35:00.000Z",
+      "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
+      "isTopTen": false
+    },
     {
       "id": "a2fcfb38-8c07-4a85-ab35-6e7457262117",
       "source": "The Hacker News",
@@ -21,7 +98,7 @@
       "summary": "MITRE's Alec Summers advocates for addressing systemic CWE weakness patterns rather than relying on reactive, individual bug patching to improve long-term software security. The shift toward mapping CVEs to specific CWEs enhances root-cause analysis, though it requires high-quality data to ensure automation tools remain effective.",
       "date": "2026-04-07T05:00:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/07/alec-summers-mitre-cwe-vulnerability-mapping/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8df6830e-3cca-4f49-b28e-c209f709ed5d",
@@ -98,7 +175,7 @@
       "summary": "The GPUBreach attack exploits Rowhammer vulnerabilities in GDDR6 memory to perform bit-flips, enabling attackers to escalate privileges and gain full control over a system. This technique highlights a significant hardware-level security risk involving GPU memory management.",
       "date": "2026-04-06T21:44:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "12168e77-90a2-4804-85ea-1c4d5bacee31",
@@ -120,7 +197,7 @@
       "summary": "FBI reports indicate that cyber-enabled fraud losses reached $17.6 billion in 2025, driven significantly by an increase in scams and cryptocurrency-related theft. These fraudulent activities accounted for nearly half of all complaints received by the IC3.",
       "date": "2026-04-06T20:24:00.000Z",
       "link": "https://therecord.media/cyber-fraud-surges-to-17-billion-fbi-ic3",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0248ea28-e16c-4ecb-99a3-333fc8d6496c",
@@ -131,7 +208,7 @@
       "summary": "The Medusa ransomware group is rapidly executing full-scale attacks, moving from initial compromise to data exfiltration and encryption in under 24 hours. Microsoft warns that the group is effectively leveraging zero-day vulnerabilities to expedite these intrusions.",
       "date": "2026-04-06T20:08:00.000Z",
       "link": "https://therecord.media/medusa-ransomware-group-zero-days-microsoft",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6ab2b992-3452-4403-ac2d-878ff1652464",
@@ -164,7 +241,7 @@
       "summary": "A disgruntled security researcher publicly disclosed a zero-day privilege escalation vulnerability in Windows, known as BlueHammer, which allows attackers to gain SYSTEM-level access. The exploit remains unpatched by Microsoft.",
       "date": "2026-04-06T19:19:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d6f8f8e9-834e-47bd-8834-ff863e17e4b1",
@@ -351,7 +428,7 @@
       "summary": "Attackers are actively exploiting a critical remote code execution vulnerability (CVE-2025-53521) in F5 BIG-IP APM, with over 14,000 instances currently exposed online.",
       "date": "2026-04-06T13:07:25.000Z",
       "link": "https://securityaffairs.com/190384/security/attackers-exploit-rce-flaw-as-14000-f5-big-ip-apm-instances-remain-exposed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4007f391-f278-4e0e-bd44-d25f79bd9142",
@@ -406,7 +483,7 @@
       "summary": "The TeamPCP threat actor exploited the LiteLLM library in a supply chain attack that turned developer workstations into harvesting grounds for sensitive credentials. This incident highlights the significant security risks posed by caching credentials on local development machines used for AI agents.",
       "date": "2026-04-06T11:45:00.000Z",
       "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e24a1275-5b8d-4399-b323-2583319a2bd3",
@@ -626,7 +703,7 @@
       "summary": "Researchers identified 36 malicious npm packages masquerading as Strapi plugins that target Redis and PostgreSQL databases to harvest credentials and establish persistent backdoors. These packages utilize deceptive file structures and lack standard metadata to evade detection.",
       "date": "2026-04-05T05:07:00.000Z",
       "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "72c74584-f9e2-4eef-8a97-2329d43728f7",
@@ -703,7 +780,7 @@
       "summary": "Fortinet has released emergency hotfixes for a critical zero-day vulnerability (CVE-2026-35616) in its FortiClient EMS software, which is currently being actively exploited in the wild.",
       "date": "2026-04-04T14:09:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/04/forticlient-ems-zero-day-cve-2026-35616/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "153627fd-cbe2-4695-a264-b371a27babed",
