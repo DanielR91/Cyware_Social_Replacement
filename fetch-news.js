@@ -12,8 +12,8 @@ const parser = new Parser({
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // We track two separate quota states in our Hybrid Model (2026 Edition)
-let quotaExceededPremium = false;
 let quotaExceededLite = false;
+let globalDelayMs = 15000; // Starting baseline delay
 
 const QUOTA_PLACEHOLDER = "AI Summary Unavailable due to Gemini Rate Limit Hit - this will update upon rate reset";
 
@@ -72,8 +72,10 @@ async function callAIWithRetry(prompt, timeoutMs, operationName, modelName, retr
       // Handle temporary 429/503 Busy errors
       if ((msg.includes("429") || msg.includes("503")) && attempt < retries) {
         attempt++;
-        const wait = 60000 * attempt; 
-        console.warn(`[Retry Needed] ${modelName} is busy. Pausing for ${wait/1000}s...`);
+        // Shift global rhythm slower if we hit a wall
+        globalDelayMs = Math.min(globalDelayMs + 5000, 30000); 
+        const wait = (60000 * attempt) * 2; // More patient 2026 backoff (120s, 240s...)
+        console.warn(`[Retry Needed] ${modelName} is busy. Slowing baseline to ${globalDelayMs/1000}s and pausing for ${wait/1000}s...`);
         await new Promise(r => setTimeout(r, wait));
       } else {
         console.error(`AI Call Failed (${modelName}):`, msg);
@@ -208,9 +210,10 @@ async function fetchAllNews() {
         // Only summarize if it's NEW or currently has a Placeholder
         if (!existing || existing.summary === QUOTA_PLACEHOLDER) {
           
-          // 15-second delay to stay strictly under the 5 RPM project-wide limit (60s / 4 = 15s)
-          // 2026 Free Tier is more stable at 4 RPM.
-          await new Promise(r => setTimeout(r, 15000));
+          // Jittered delay to stay under the 2026 Preview Model thresholds
+          // Uses adaptive globalDelayMs (15s-30s) + random jitter (0-7s)
+          const jitter = Math.floor(Math.random() * 7000);
+          await new Promise(r => setTimeout(r, globalDelayMs + jitter));
           
           console.log(`   -> AI Summary (Lite): ${item.title}`);
           const { summary, tag, severity } = await generateSummaryAndTag(item.title, item.contentSnippet);
