@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-04-08T07:45:00.449Z",
+  "lastUpdated": "2026-04-08T10:21:08.640Z",
   "articles": [
+    {
+      "id": "12f7bdbd-8cc2-4c91-9453-2c5fe76027df",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "NHS Scotland-linked domains caught serving pr0n and dodgy sports streams",
+      "summary": "Domains associated with NHS Scotland have been compromised and are currently being utilized to host unauthorized adult content and illegal sports streaming services. This indicates a potential security breach or misuse of institutional domain infrastructure.",
+      "date": "2026-04-08T10:00:14.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/08/scotland_nhs_domain_compromised/",
+      "isTopTen": false
+    },
+    {
+      "id": "b96837aa-aa63-40f2-97a9-629b942c035f",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chaos malware expands from routers to Linux cloud servers",
+      "summary": "The Chaos malware botnet has expanded its target scope from routers and edge devices to include misconfigured Linux cloud servers. Researchers identified this new variant via a honeypot network, signaling an increased threat to cloud-based infrastructure.",
+      "date": "2026-04-08T09:34:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/08/chaos-malware-cloud-misconfigured-servers/",
+      "isTopTen": false
+    },
+    {
+      "id": "e0e23040-ffe8-4eed-a6aa-e9c1ecd7447a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
+      "summary": "Anthropic has launched Project Glasswing, an initiative utilizing its new AI model, Claude Mythos, to proactively identify and mitigate thousands of zero-day vulnerabilities across major technology systems. This tool is currently being deployed for testing by a select group of major industry organizations.",
+      "date": "2026-04-08T09:16:00.000Z",
+      "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
+      "isTopTen": false
+    },
+    {
+      "id": "85c0d4f6-db2d-4b8a-94f7-f09c6b7f09b7",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New ClickFix Attack Uses Node.js Malware via Tor to Steal Crypto",
+      "summary": "Threat actors are leveraging a new ClickFix attack vector that uses fake CAPTCHA prompts to trick Windows users into executing Node.js malware, which subsequently uses Tor for command-and-control to facilitate cryptocurrency theft. The campaign represents a sophisticated evolution of social engineering combined with automated wallet-draining payloads.",
+      "date": "2026-04-08T09:15:51.000Z",
+      "link": "https://hackread.com/clickfix-attack-node-js-malware-tor-steal-crypto/",
+      "isTopTen": false
+    },
+    {
+      "id": "c49922ab-14a0-4c68-aad0-fa262450f7d7",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Flatpak 1.16.4 fixes sandbox escape and three other security flaws",
+      "summary": "Flatpak version 1.16.4 addresses four security vulnerabilities, including a critical sandbox escape flaw that allows for host file access and arbitrary code execution.",
+      "date": "2026-04-08T08:32:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/08/flatpak-1-16-4-released-fixes-sandbox-escape/",
+      "isTopTen": false
+    },
+    {
+      "id": "211f15a2-c1ff-472f-ba02-2d369c28153e",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Secureframe expands Comply with User Access Reviews for automated governance",
+      "summary": "Secureframe has introduced an automated User Access Review feature within its Comply platform to streamline identity governance and reduce risks associated with manual audit processes. This tool helps organizations ensure proper access control by replacing inefficient spreadsheet-based management with centralized, automated workflows.",
+      "date": "2026-04-08T08:24:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/08/secureframe-user-access-reviews/",
+      "isTopTen": false
+    },
+    {
+      "id": "f10582e8-4b1c-4187-ad69-45229f445791",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust",
+      "summary": "North Korean threat actors have expanded the 'Contagious Interview' campaign by deploying over 1,700 malicious packages across multiple programming language ecosystems, including npm, PyPI, Go, and Rust. These packages masquerade as legitimate developer tools to function as malware loaders.",
+      "date": "2026-04-08T07:47:00.000Z",
+      "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4d14b16a-fac4-459d-a6f5-604048a224a4",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "U.S. agencies alert: Iran-linked actors target critical infrastructure PLCs",
+      "summary": "U.S. federal agencies have issued a joint advisory warning that Iran-linked threat actors are actively exploiting internet-exposed Rockwell/Allen-Bradley PLCs within critical infrastructure networks.",
+      "date": "2026-04-08T07:46:38.000Z",
+      "link": "https://securityaffairs.com/190485/apt/u-s-agencies-alert-iran-linked-actors-target-critical-infrastructure-plcs.html",
+      "isTopTen": false
+    },
     {
       "id": "aa1bb96d-41ea-4f2b-9c50-9ebc01962f4c",
       "source": "BleepingComputer",
@@ -76,7 +164,7 @@
       "summary": "Anthropic has released a limited preview of Claude Mythos, an AI model capable of autonomously discovering zero-day vulnerabilities and constructing functional exploits for major operating systems and browsers. This advancement significantly reduces the time and effort required for attackers to weaponize software flaws.",
       "date": "2026-04-08T04:23:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/anthropic-claude-mythos-preview-identify-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "42e3830e-04a7-49c4-be7a-637c3f787e83",
@@ -87,7 +175,7 @@
       "summary": "Iran-linked cyber actors are targeting internet-exposed programmable logic controllers (PLCs) in U.S. critical infrastructure, resulting in operational disruptions and data manipulation. U.S. agencies have issued warnings regarding these ongoing activities affecting operational technology.",
       "date": "2026-04-08T04:23:00.000Z",
       "link": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2a3033a2-be1f-4064-9881-466ccb0a0255",
@@ -120,7 +208,7 @@
       "summary": "U.S. authorities disrupted a large-scale espionage operation involving 18,000 compromised devices orchestrated by the Russian GRU-linked threat group Forest Blizzard. The attackers exploited network traffic to harvest credentials for Microsoft and other online services.",
       "date": "2026-04-07T23:46:53.000Z",
       "link": "https://cyberscoop.com/forest-blizzard-apt28-routers-espionage-campaign-operation-masquerade/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aba4d508-cfc8-4226-b261-ff72b99412f9",
@@ -153,7 +241,7 @@
       "summary": "Unit 42 researchers identified critical vulnerabilities in Amazon Bedrock AgentCore that allow attackers to escape the sandbox environment. These flaws could potentially lead to DNS tunneling and the exposure of sensitive credentials.",
       "date": "2026-04-07T22:00:11.000Z",
       "link": "https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aef00dfe-460b-4fac-bf43-ab18197e238e",
@@ -318,7 +406,7 @@
       "summary": "The FBI's 2025 report reveals a 26% increase in cybercrime losses, totaling $20.9 billion, while noting that many incidents remain unreported. This highlights a significant and worsening threat landscape for individuals and organizations alike.",
       "date": "2026-04-07T16:47:46.000Z",
       "link": "https://cyberscoop.com/fbi-internet-crime-complaint-center-annual-cybercrime-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3a8a753f-a014-43d7-9ce0-3258fc992142",
@@ -362,7 +450,7 @@
       "summary": "Signature Healthcare Brockton Hospital is diverting ambulances after a cyberattack disrupted critical information systems. The incident has significantly impacted hospital operations, forcing the facility to limit patient intake.",
       "date": "2026-04-07T15:52:00.000Z",
       "link": "https://therecord.media/massachusetts-hospital-turning-ambulances-away-cyberattack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d6916ed7-30b5-4d1a-9396-e25ef33f3693",
@@ -373,7 +461,7 @@
       "summary": "International authorities and private sector partners have dismantled the FrostArmada campaign, which used compromised MikroTik and TP-Link routers to hijack DNS traffic and harvest Microsoft 365 login credentials. The operation successfully neutralized an APT28 initiative targeting local network traffic.",
       "date": "2026-04-07T15:51:22.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dfd5ddbe-70b1-4e8e-bb00-045af8009c22",
@@ -593,7 +681,7 @@
       "summary": "Researchers have discovered new RowHammer-based side-channel attacks, collectively named GPUBreach, that exploit GDDR6 memory to achieve privilege escalation and potential host control. These vulnerabilities demonstrate the first successful attempt to leverage GPU memory bit-flips for full system compromise.",
       "date": "2026-04-07T08:38:00.000Z",
       "link": "https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7538a28c-2e3a-4a0e-83c5-0aeb979dad43",
@@ -604,7 +692,7 @@
       "summary": "A researcher has publicly disclosed an unpatched privilege escalation zero-day vulnerability in Windows dubbed 'BlueHammer', which allows attackers to gain SYSTEM-level administrative rights. Microsoft has not yet released a patch for this flaw.",
       "date": "2026-04-07T08:09:34.000Z",
       "link": "https://securityaffairs.com/190400/breaking-news/experts-published-unpatched-windows-zero-day-bluehammer.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1df9865a-21b3-4c02-9992-bf3b395fe059",
@@ -626,7 +714,7 @@
       "summary": "An open-source AI platform called Flowise is facing active exploitation of a critical CVSS 10.0 remote code execution vulnerability, putting over 12,000 instances at risk. The flaw, identified as CVE-2025-59528, allows attackers to perform arbitrary code execution via the CustomMCP node.",
       "date": "2026-04-07T05:56:00.000Z",
       "link": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d79f88d-e138-4e3e-a0c2-04da19fcb015",
