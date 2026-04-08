@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-04-08T16:26:27.505Z",
+  "lastUpdated": "2026-04-08T19:28:34.203Z",
   "articles": [
+    {
+      "id": "945e52ff-91c6-42f4-8366-ee1507be7cfb",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New macOS stealer campaign uses Script Editor in ClickFix attack",
+      "summary": "A new Atomic Stealer campaign targeting macOS users leverages a 'ClickFix' social engineering tactic, deceiving victims into executing malicious commands via the native Script Editor and Terminal. This approach exploits user trust in system utilities to facilitate malware deployment.",
+      "date": "2026-04-08T18:55:43.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "f16e9640-511d-42df-9274-cd22f04bc560",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Critical",
+      "title": "CISA orders feds to patch exploited Ivanti EPMM flaw by Sunday",
+      "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a critical-severity vulnerability in Ivanti EPMM that has been actively exploited since January. Agencies must complete these updates by the upcoming Sunday deadline to mitigate ongoing security risks.",
+      "date": "2026-04-08T18:15:27.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/",
+      "isTopTen": true
+    },
+    {
+      "id": "e2139781-7cd6-48da-b2ab-8644ed676fe8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy",
+      "summary": "A new variant of the Chaos malware has evolved to target misconfigured cloud deployments, incorporating SOCKS proxy capabilities to expand its reach beyond traditional edge devices.",
+      "date": "2026-04-08T17:51:00.000Z",
+      "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f61bf890-8708-4fb8-97a7-18168971bafe",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Trellix strengthens data security for the GenAI era",
+      "summary": "Trellix has introduced a new security framework and enhanced data protection features to help organizations mitigate risks associated with both sanctioned and shadow generative AI usage. The initiative focuses on providing visibility, policy enforcement, and control over sensitive data in the evolving AI landscape.",
+      "date": "2026-04-08T17:50:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/08/trellix-data-security-capabilities-generative-ai/",
+      "isTopTen": false
+    },
+    {
+      "id": "b5665a5b-f30e-47bf-926d-a17f57ef7742",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "13-year-old bug in ActiveMQ lets hackers remotely execute commands",
+      "summary": "A long-standing remote code execution vulnerability has been discovered in Apache ActiveMQ Classic, remaining undetected for 13 years. This flaw allows unauthorized attackers to execute arbitrary commands on affected systems.",
+      "date": "2026-04-08T17:26:40.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/",
+      "isTopTen": true
+    },
+    {
+      "id": "2f0c3d7c-6336-4490-b9de-53c996a97435",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Hack-for-hire spyware campaign targets journalists in Middle East, North Africa",
+      "summary": "Researchers have identified a hack-for-hire spyware campaign, potentially linked to an Indian government-affiliated group known as Bitter, which is actively targeting journalists across the Middle East and North Africa.",
+      "date": "2026-04-08T16:38:03.000Z",
+      "link": "https://cyberscoop.com/hack-for-hire-spyware-campaign-targets-journalists-in-middle-east-north-africa/",
+      "isTopTen": false
+    },
+    {
+      "id": "269501f8-b577-4023-87b7-e76b5f8c938e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices",
+      "summary": "The Masjesu botnet has emerged as a new DDoS-for-hire service targeting a wide array of IoT devices like routers and gateways. Operational since 2023, the botnet is being actively marketed through Telegram.",
+      "date": "2026-04-08T16:30:00.000Z",
+      "link": "https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2a39ace0-bbd9-4140-b19e-fb6ac6f29d44",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Operation Masquerade: FBI Disrupts Russian Router Hacking Campaign",
+      "summary": "The FBI and Department of Justice successfully disrupted a Russian GRU-led cyber espionage campaign that utilized DNS-based router attacks to monitor users and exfiltrate credentials. This operation neutralized a significant threat to global network security.",
+      "date": "2026-04-08T16:18:48.000Z",
+      "link": "https://hackread.com/operation-masquerade-fbi-russia-router-hacking/",
+      "isTopTen": false
+    },
     {
       "id": "15c86365-3863-416d-9463-35d4d3511874",
       "source": "The Record",
@@ -54,7 +142,7 @@
       "summary": "The Russian-linked threat group APT28 is utilizing a new, undocumented malware called PRISMEX to conduct spear-phishing campaigns against Ukraine and NATO-allied nations. The malware employs advanced techniques such as steganography and cloud service abuse to maintain stealthy command-and-control operations.",
       "date": "2026-04-08T13:50:00.000Z",
       "link": "https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d92c5fb-9409-4543-9c3c-2ac36b6dfbc8",
@@ -120,7 +208,7 @@
       "summary": "U.S. federal agencies have issued a warning regarding ongoing cyber operations by Iranian-affiliated threat actors targeting operational technology and industrial control systems within critical infrastructure sectors. The campaign focuses on disrupting essential services, including energy, water, and government networks.",
       "date": "2026-04-08T10:14:04.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/iran-targets-us-critical-infrastructure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "12f7bdbd-8cc2-4c91-9453-2c5fe76027df",
@@ -197,7 +285,7 @@
       "summary": "North Korean threat actors have expanded the 'Contagious Interview' campaign by deploying over 1,700 malicious packages across multiple programming language ecosystems, including npm, PyPI, Go, and Rust. These packages masquerade as legitimate developer tools to function as malware loaders.",
       "date": "2026-04-08T07:47:00.000Z",
       "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d14b16a-fac4-459d-a6f5-604048a224a4",
@@ -285,7 +373,7 @@
       "summary": "Anthropic has released a limited preview of Claude Mythos, an AI model capable of autonomously discovering zero-day vulnerabilities and constructing functional exploits for major operating systems and browsers. This advancement significantly reduces the time and effort required for attackers to weaponize software flaws.",
       "date": "2026-04-08T04:23:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/anthropic-claude-mythos-preview-identify-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "42e3830e-04a7-49c4-be7a-637c3f787e83",
@@ -329,7 +417,7 @@
       "summary": "U.S. authorities disrupted a large-scale espionage operation involving 18,000 compromised devices orchestrated by the Russian GRU-linked threat group Forest Blizzard. The attackers exploited network traffic to harvest credentials for Microsoft and other online services.",
       "date": "2026-04-07T23:46:53.000Z",
       "link": "https://cyberscoop.com/forest-blizzard-apt28-routers-espionage-campaign-operation-masquerade/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "aba4d508-cfc8-4226-b261-ff72b99412f9",
@@ -340,7 +428,7 @@
       "summary": "The FBI has issued an alert regarding Iranian state-sponsored cyber actors actively targeting and disrupting critical infrastructure, including water and energy facilities, within the United States.",
       "date": "2026-04-07T23:30:24.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/07/iran_hackers_disrupting_us_water_energy/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "419e6c8c-8a06-4913-a81a-2ceb1a7327a3",
@@ -362,7 +450,7 @@
       "summary": "Unit 42 researchers identified critical vulnerabilities in Amazon Bedrock AgentCore that allow attackers to escape the sandbox environment. These flaws could potentially lead to DNS tunneling and the exposure of sensitive credentials.",
       "date": "2026-04-07T22:00:11.000Z",
       "link": "https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "aef00dfe-460b-4fac-bf43-ab18197e238e",
@@ -417,7 +505,7 @@
       "summary": "Multiple organizations using Snowflake experienced data theft after a SaaS integration provider was breached, leading to the unauthorized acquisition of authentication tokens. The incident highlights the security risks posed by third-party integrations and supply chain dependencies.",
       "date": "2026-04-07T19:39:18.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c139ebd6-627c-45bc-b0b5-07d737448e7a",
