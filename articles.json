@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-08T21:59:11.885Z",
+  "lastUpdated": "2026-04-09T02:46:46.302Z",
   "articles": [
+    {
+      "id": "68d4d83e-9a4b-4140-85f1-6ec5c2fa240e",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers use pixel-large SVG trick to hide credit card stealer",
+      "summary": "Hackers are conducting a large-scale campaign targeting Magento e-commerce stores by embedding malicious credit card-stealing code within tiny, pixel-sized SVG image files. This obfuscation technique allows attackers to bypass detection while harvesting payment data from online shoppers.",
+      "date": "2026-04-08T22:34:26.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
+      "isTopTen": false
+    },
+    {
+      "id": "fce2f417-c31a-4423-99f3-4c8dc5bb7f92",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Cracks in the Bedrock: Agent God Mode",
+      "summary": "Unit 42 discovered a vulnerability in Amazon Bedrock AgentCore called 'Agent God Mode' that enables privilege escalation and potential data exfiltration due to overly permissive IAM configurations.",
+      "date": "2026-04-08T22:00:51.000Z",
+      "link": "https://unit42.paloaltonetworks.com/exploit-of-aws-agentcore-iam-god-mode/",
+      "isTopTen": false
+    },
     {
       "id": "f8be4194-e587-4017-8fe9-911b6f1c2ba8",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "The threat actor UNC6783 is compromising business process outsourcing providers to gain unauthorized access to corporate Zendesk support tickets. This supply chain-style attack allows the group to infiltrate high-value organizations across multiple industries.",
       "date": "2026-04-08T21:46:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "098212a1-517d-4136-b548-e41240e13f56",
@@ -65,7 +87,7 @@
       "summary": "A functional proof-of-concept exploit for the 'BlueHammer' local privilege escalation vulnerability in Windows has been leaked and refined by researchers to work on modern OS versions. Microsoft has yet to issue an official patch for the flaw.",
       "date": "2026-04-08T19:48:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/bluehammer-windows-zero-day-exploit-leaked/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "945e52ff-91c6-42f4-8366-ee1507be7cfb",
@@ -87,7 +109,7 @@
       "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a critical-severity vulnerability in Ivanti EPMM that has been actively exploited since January. Agencies must complete these updates by the upcoming Sunday deadline to mitigate ongoing security risks.",
       "date": "2026-04-08T18:15:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e2139781-7cd6-48da-b2ab-8644ed676fe8",
@@ -142,7 +164,7 @@
       "summary": "A long-standing remote code execution vulnerability has been discovered in Apache ActiveMQ Classic, remaining undetected for 13 years. This flaw allows unauthorized attackers to execute arbitrary commands on affected systems.",
       "date": "2026-04-08T17:26:40.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5516f909-9a2f-4785-8fe6-f1753dc7e277",
@@ -197,7 +219,7 @@
       "summary": "The FBI and Department of Justice successfully disrupted a Russian GRU-led cyber espionage campaign that utilized DNS-based router attacks to monitor users and exfiltrate credentials. This operation neutralized a significant threat to global network security.",
       "date": "2026-04-08T16:18:48.000Z",
       "link": "https://hackread.com/operation-masquerade-fbi-russia-router-hacking/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "15c86365-3863-416d-9463-35d4d3511874",
@@ -318,7 +340,7 @@
       "summary": "U.S. federal agencies have issued a warning regarding ongoing cyber operations by Iranian-affiliated threat actors targeting operational technology and industrial control systems within critical infrastructure sectors. The campaign focuses on disrupting essential services, including energy, water, and government networks.",
       "date": "2026-04-08T10:14:04.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/iran-targets-us-critical-infrastructure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "12f7bdbd-8cc2-4c91-9453-2c5fe76027df",
@@ -395,7 +417,7 @@
       "summary": "North Korean threat actors have expanded the 'Contagious Interview' campaign by deploying over 1,700 malicious packages across multiple programming language ecosystems, including npm, PyPI, Go, and Rust. These packages masquerade as legitimate developer tools to function as malware loaders.",
       "date": "2026-04-08T07:47:00.000Z",
       "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d14b16a-fac4-459d-a6f5-604048a224a4",
@@ -483,7 +505,7 @@
       "summary": "Anthropic has released a limited preview of Claude Mythos, an AI model capable of autonomously discovering zero-day vulnerabilities and constructing functional exploits for major operating systems and browsers. This advancement significantly reduces the time and effort required for attackers to weaponize software flaws.",
       "date": "2026-04-08T04:23:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/anthropic-claude-mythos-preview-identify-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "42e3830e-04a7-49c4-be7a-637c3f787e83",
@@ -571,7 +593,7 @@
       "summary": "Service busy.",
       "date": "2026-04-07T20:41:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fd16eb5a-5925-4328-9a15-99dc17a46b30",
@@ -615,7 +637,7 @@
       "summary": "Multiple organizations using Snowflake experienced data theft after a SaaS integration provider was breached, leading to the unauthorized acquisition of authentication tokens. The incident highlights the security risks posed by third-party integrations and supply chain dependencies.",
       "date": "2026-04-07T19:39:18.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c139ebd6-627c-45bc-b0b5-07d737448e7a",
