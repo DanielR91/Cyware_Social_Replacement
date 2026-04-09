@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-04-09T16:30:36.736Z",
+  "lastUpdated": "2026-04-09T19:19:30.099Z",
   "articles": [
+    {
+      "id": "c242427d-b02a-435e-a3a4-11ac55e91ae1",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Google Chrome adds infostealer protection against session cookie theft",
+      "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146 for Windows to prevent info-stealing malware from hijacking session cookies. This security feature binds session cookies to the user's specific device, significantly mitigating the impact of session theft attacks.",
+      "date": "2026-04-09T18:33:29.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
+      "isTopTen": true
+    },
+    {
+      "id": "d02fe7e5-e619-4207-b099-efed2a970320",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Crypto? Huh. Good gawd y'all, what is it good for? $45M in this case",
+      "summary": "An unidentified cryptocurrency-related security incident resulted in the theft or loss of $45 million in assets.",
+      "date": "2026-04-09T18:20:15.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/crypto_fraud_scam_45_million/",
+      "isTopTen": false
+    },
+    {
+      "id": "38b32b5f-3673-42d9-95c2-5d410b0cf8c8",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Treasury Department announces crypto industry cyber threat sharing initiative",
+      "summary": "The U.S. Treasury Department has launched an initiative to provide qualified digital asset firms with access to the same cybersecurity threat intelligence currently shared with traditional financial institutions. This move aims to bolster the defense of the cryptocurrency industry against emerging cyber threats.",
+      "date": "2026-04-09T17:25:00.000Z",
+      "link": "https://therecord.media/treasury-department-announces-crypto-info-sharing",
+      "isTopTen": false
+    },
+    {
+      "id": "b0b77334-f2c6-4b86-8b36-44e019a3d2dd",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "'Several dozen' high-value corporations hit by new extortion crew in helpdesk phishing spree",
+      "summary": "Service busy.",
+      "date": "2026-04-09T17:11:41.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
+      "isTopTen": false
+    },
+    {
+      "id": "ced7a79c-0ebb-4e9b-a03e-bf70faede5a1",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Reader Zero-Day Exploited to Steal Data via Malicious PDFs",
+      "summary": "Hackers are actively exploiting an unpatched zero-day vulnerability in Adobe Reader through malicious PDFs to steal data without requiring user interaction. Due to the lack of an available patch, the threat poses a significant risk to organizations and individuals.",
+      "date": "2026-04-09T16:45:40.000Z",
+      "link": "https://hackread.com/adobe-reader-zero-day-exploit-data-malicious-pdfs/",
+      "isTopTen": true
+    },
+    {
+      "id": "b3b62a76-975a-495e-994d-bf45248236db",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
+      "summary": "A newly identified threat actor group, UAT-10362, is conducting spear-phishing campaigns against Taiwanese NGOs and universities to deliver a novel Lua-based malware called LucidRook. The malware serves as a sophisticated stager capable of executing malicious payloads via embedded Lua interpreters.",
+      "date": "2026-04-09T16:23:00.000Z",
+      "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
+      "isTopTen": false
+    },
     {
       "id": "37d22eba-c7ba-46e1-b69b-4edc4f7e21d6",
       "source": "BleepingComputer",
@@ -10,7 +76,7 @@
       "summary": "Hackers compromised the update server for the Smart Slider 3 Pro plugin, distributing malicious updates containing backdoors to WordPress and Joomla websites. This supply chain attack poses a significant threat to sites using the plugin.",
       "date": "2026-04-09T16:15:26.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "efb0f9fc-26fb-493b-bb7f-2fb550eb36fb",
@@ -21,7 +87,7 @@
       "summary": "The FBI successfully neutralized a Russian GRU-linked APT28 campaign that utilized compromised routers to gain widespread access to target networks. This operation disrupted the sophisticated capabilities of the threat actor to propagate malicious activity beyond initial router access points.",
       "date": "2026-04-09T15:34:14.000Z",
       "link": "https://cyberscoop.com/fbi-operation-masquerade-russian-gru-router-takedown-brett-leatherman/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3787e571-52cd-4d60-a060-ce448d6b8ac0",
@@ -329,7 +395,7 @@
       "summary": "A hacker claims to have exfiltrated over 10 petabytes of sensitive military, aerospace, and missile-related data from China's National Supercomputing Center. The incident poses significant national security concerns and potential geopolitical repercussions.",
       "date": "2026-04-09T09:27:00.000Z",
       "link": "https://securityaffairs.com/190536/hacking/the-alleged-breach-of-chinas-national-supercomputing-center-can-have-serious-geopolitical-consequences.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "25c6dc40-b634-477b-82f7-3b9bbe5261a6",
@@ -538,7 +604,7 @@
       "summary": "The Russia-linked threat group APT28 is conducting a spear-phishing campaign against Ukraine and its allies using a new, stealthy malware suite known as PRISMEX. The campaign leverages advanced techniques like steganography to facilitate long-term espionage and command-and-control operations.",
       "date": "2026-04-08T20:23:08.000Z",
       "link": "https://securityaffairs.com/190510/apt/russia-linked-apt28-uses-prismex-to-infiltrate-ukraine-and-allied-infrastructure-with-advanced-tactics.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c45eacb9-75c2-4c09-979e-5ebdfcade7f3",
@@ -582,7 +648,7 @@
       "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a critical-severity vulnerability in Ivanti EPMM that has been actively exploited since January. Agencies must complete these updates by the upcoming Sunday deadline to mitigate ongoing security risks.",
       "date": "2026-04-08T18:15:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e2139781-7cd6-48da-b2ab-8644ed676fe8",
@@ -615,7 +681,7 @@
       "summary": "A December data breach at Eurail resulted in the exposure of over 300,000 passport numbers and 1.3 TB of internal data, including source code and customer support tickets. The incident was later claimed by a hacker in February.",
       "date": "2026-04-08T17:46:00.000Z",
       "link": "https://therecord.media/eurail-reports-data-breach-impacting-over-300000",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ca1e52b-a419-4102-8d1a-aa674558b198",
@@ -626,7 +692,7 @@
       "summary": "A data breach in the Los Angeles city attorney's system resulted in the exposure and potential theft of 7.7 terabytes of sensitive LAPD files. Information regarding the stolen data was briefly circulated on social media, prompting an investigation into the incident.",
       "date": "2026-04-08T17:42:00.000Z",
       "link": "https://therecord.media/breach-exposes-lapd-files-city-attorney-systems",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b5665a5b-f30e-47bf-926d-a17f57ef7742",
@@ -648,7 +714,7 @@
       "summary": "Minnesota Governor Tim Walz has deployed the National Guard to assist Winona County following a cyberattack on its critical systems. The state is responding to the incident to help restore and secure the impacted infrastructure.",
       "date": "2026-04-08T17:10:00.000Z",
       "link": "https://therecord.media/minnesota-sends-national-guard-after-local-cyberattack",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6dfa8023-3638-4cef-8d54-052abf3e24af",
