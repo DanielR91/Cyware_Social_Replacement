@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-04-09T02:46:46.302Z",
+  "lastUpdated": "2026-04-09T05:16:54.473Z",
   "articles": [
+    {
+      "id": "51292ed1-6974-4d77-8ca3-e8f66736507e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Asqav: Open-source SDK for AI agent governance",
+      "summary": "Asqav is an open-source Python SDK that secures autonomous AI agents by using cryptographic signatures and hash chains to provide an immutable record of agent actions. It utilizes quantum-resistant ML-DSA-65 signatures and RFC 3161 timestamps to ensure accountability and traceability in AI workflows.",
+      "date": "2026-04-09T05:00:12.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/09/asqav-ai-agent-audit-trail/",
+      "isTopTen": false
+    },
+    {
+      "id": "5bd31e35-fc9f-4531-8c16-f713d12b014e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Phishers sneak through using GitHub and Jira’s own mail delivery infrastructure",
+      "summary": "Attackers are exploiting the legitimate email notification infrastructure of SaaS platforms like GitHub and Jira to bypass SPF, DKIM, and DMARC authentication checks for phishing campaigns. By using trusted delivery systems, malicious actors can successfully deliver fraudulent content that appears verified by reputable platforms.",
+      "date": "2026-04-09T04:30:03.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/09/saas-platforms-notification-systems-phishing/",
+      "isTopTen": false
+    },
+    {
+      "id": "0002cb14-2da7-4b3b-b26b-bd240778e1f2",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Prompt injection tags along as GenAI enters daily government use",
+      "summary": "The integration of generative AI into state and territorial government workflows has introduced new security risks, specifically the persistent threat of prompt injection attacks. A recent CIS report highlights these vulnerabilities as government agencies increasingly adopt AI tools.",
+      "date": "2026-04-09T04:00:19.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/09/genai-prompt-injection-enterprise-data-risk/",
+      "isTopTen": false
+    },
     {
       "id": "68d4d83e-9a4b-4140-85f1-6ec5c2fa240e",
       "source": "BleepingComputer",
@@ -32,7 +65,7 @@
       "summary": "The threat actor UNC6783 is compromising business process outsourcing providers to gain unauthorized access to corporate Zendesk support tickets. This supply chain-style attack allows the group to infiltrate high-value organizations across multiple industries.",
       "date": "2026-04-08T21:46:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "098212a1-517d-4136-b548-e41240e13f56",
@@ -43,7 +76,7 @@
       "summary": "CISA has added a critical code injection vulnerability (CVE-2026-1340) in Ivanti Endpoint Manager Mobile to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
       "date": "2026-04-08T21:35:09.000Z",
       "link": "https://securityaffairs.com/190519/security/u-s-cisa-adds-a-flaw-in-ivanti-epmm-to-its-known-exploited-vulnerabilities-catalog-2.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "180bda52-f0ae-4380-af0d-3eb1d5e67a97",
@@ -65,7 +98,7 @@
       "summary": "The Russia-linked threat group APT28 is conducting a spear-phishing campaign against Ukraine and its allies using a new, stealthy malware suite known as PRISMEX. The campaign leverages advanced techniques like steganography to facilitate long-term espionage and command-and-control operations.",
       "date": "2026-04-08T20:23:08.000Z",
       "link": "https://securityaffairs.com/190510/apt/russia-linked-apt28-uses-prismex-to-infiltrate-ukraine-and-allied-infrastructure-with-advanced-tactics.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c45eacb9-75c2-4c09-979e-5ebdfcade7f3",
@@ -109,7 +142,7 @@
       "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a critical-severity vulnerability in Ivanti EPMM that has been actively exploited since January. Agencies must complete these updates by the upcoming Sunday deadline to mitigate ongoing security risks.",
       "date": "2026-04-08T18:15:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e2139781-7cd6-48da-b2ab-8644ed676fe8",
@@ -219,7 +252,7 @@
       "summary": "The FBI and Department of Justice successfully disrupted a Russian GRU-led cyber espionage campaign that utilized DNS-based router attacks to monitor users and exfiltrate credentials. This operation neutralized a significant threat to global network security.",
       "date": "2026-04-08T16:18:48.000Z",
       "link": "https://hackread.com/operation-masquerade-fbi-russia-router-hacking/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15c86365-3863-416d-9463-35d4d3511874",
@@ -252,7 +285,7 @@
       "summary": "The threat actor Storm-1175 is exploiting newly disclosed vulnerabilities within 24 hours to deploy Medusa ransomware against the healthcare and education sectors. The group targets organizations in the UK, US, and Australia with high-speed attack cycles.",
       "date": "2026-04-08T14:19:37.000Z",
       "link": "https://hackread.com/storm-1175-hackers-24-hour-medusa-ransomware-flaw/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1e744c97-ce43-400f-9c17-37911888b201",
@@ -549,7 +582,7 @@
       "summary": "U.S. authorities disrupted a large-scale espionage operation involving 18,000 compromised devices orchestrated by the Russian GRU-linked threat group Forest Blizzard. The attackers exploited network traffic to harvest credentials for Microsoft and other online services.",
       "date": "2026-04-07T23:46:53.000Z",
       "link": "https://cyberscoop.com/forest-blizzard-apt28-routers-espionage-campaign-operation-masquerade/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "aba4d508-cfc8-4226-b261-ff72b99412f9",
@@ -593,7 +626,7 @@
       "summary": "Service busy.",
       "date": "2026-04-07T20:41:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fd16eb5a-5925-4328-9a15-99dc17a46b30",
