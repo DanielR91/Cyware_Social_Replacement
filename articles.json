@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-04-10T03:04:21.581Z",
+  "lastUpdated": "2026-04-10T05:35:25.939Z",
   "articles": [
+    {
+      "id": "a06daced-2262-4faf-aeda-c6c1fd41ae18",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "What vibe hunting gets right about AI threat hunting, and where it breaks down",
+      "summary": "This article discusses 'vibe hunting,' an AI-driven approach to threat detection that shifts focus from pre-defined hypothesis-based hunting to identifying anomalous patterns. It emphasizes the need for human analysts to maintain explainability and oversight to prevent over-reliance on AI decision-making.",
+      "date": "2026-04-10T05:30:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/10/aqsa-taylor-exaforce-vibe-hunting/",
+      "isTopTen": false
+    },
+    {
+      "id": "1a5f0f53-3088-4c9e-8fef-e25401dc0ef7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Health insurance lead sites sell personal data within seconds of form submission",
+      "summary": "Researchers discovered that health insurance lead generation websites rapidly sell users' sensitive personal data to multiple third-party buyers immediately after form submission. This study highlights significant privacy risks and the aggressive monetization of consumer information by lead generation platforms.",
+      "date": "2026-04-10T05:00:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/10/health-insurance-lead-generation-privacy/",
+      "isTopTen": false
+    },
+    {
+      "id": "5d081683-3ebb-438c-b36f-7937e570f3ee",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: Session, a messenger without phone numbers or metadata",
+      "summary": "Session is an instant messaging platform that enhances user privacy by eliminating the need for phone numbers and minimizing metadata collection. It focuses on secure communication through end-to-end encryption, addressing growing concerns regarding data surveillance.",
+      "date": "2026-04-10T04:30:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/10/product-showcase-session-a-messenger-without-phone-numbers-or-metadata/",
+      "isTopTen": false
+    },
+    {
+      "id": "a97c7846-da48-4457-a490-d21aa89ffd55",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New infosec products of the week: April 10, 2026",
+      "summary": "This article highlights recent cybersecurity product releases, specifically noting Mallory's launch of an AI-native threat intelligence platform and Secureframe's expansion of its compliance tools.",
+      "date": "2026-04-10T04:00:32.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/10/new-infosec-products-of-the-week-april-10-2026/",
+      "isTopTen": false
+    },
     {
       "id": "8d79f902-72b5-42e6-90ac-b0dfb6d910fd",
       "source": "BleepingComputer",
@@ -32,7 +76,7 @@
       "summary": "Censys researchers identified approximately 3,900 internet-exposed devices at risk of exploitation by Iranian-backed actors targeting critical U.S. infrastructure. The campaign specifically focuses on the energy, water, and government services sectors.",
       "date": "2026-04-09T21:29:16.000Z",
       "link": "https://cyberscoop.com/iran-attackers-industrial-ot-government-energy-water-censys/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d116a653-ec17-4b23-a122-070b738ec306",
@@ -76,7 +120,7 @@
       "summary": "Dutch healthcare software provider ChipSoft experienced a ransomware attack, forcing the company to take its patient and provider-facing digital services offline. The incident highlights the ongoing threat of ransomware targeting critical infrastructure within the healthcare sector.",
       "date": "2026-04-09T19:46:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "83372c58-59ee-454d-bd37-8794cfe6ddfb",
@@ -87,7 +131,7 @@
       "summary": "Cybersecurity researcher Haifei Li has discovered a malicious PDF file exploiting an actively used Adobe Reader zero-day vulnerability that has been leveraged by hackers for several months. The researcher is currently seeking assistance from the security community to conduct a full analysis of the exploit.",
       "date": "2026-04-09T19:14:16.000Z",
       "link": "https://securityaffairs.com/190558/hacking/malicious-pdf-reveals-active-adobe-reader-zero-day-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c242427d-b02a-435e-a3a4-11ac55e91ae1",
@@ -120,7 +164,7 @@
       "summary": "A now-patched security vulnerability in the EngageLab Android SDK allowed apps to bypass the system's security sandbox, exposing sensitive data for 50 million users including 30 million crypto wallets.",
       "date": "2026-04-09T17:26:00.000Z",
       "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "38b32b5f-3673-42d9-95c2-5d410b0cf8c8",
@@ -285,7 +329,7 @@
       "summary": "Researchers discovered a vulnerability in Claude Code where malicious instructions injected into a CLAUDE.md file can bypass safety guardrails to execute SQL injection attacks. This exploit allows attackers to manipulate AI-driven coding assistants to perform unauthorized database operations.",
       "date": "2026-04-09T13:50:29.000Z",
       "link": "https://hackread.com/claude-code-claude-md-sql-injection-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a600c6d2-5236-4c02-a808-7703ecab3d99",
@@ -494,7 +538,7 @@
       "summary": "A hacker claims to have exfiltrated over 10 petabytes of sensitive military, aerospace, and missile-related data from China's National Supercomputing Center. The incident poses significant national security concerns and potential geopolitical repercussions.",
       "date": "2026-04-09T09:27:00.000Z",
       "link": "https://securityaffairs.com/190536/hacking/the-alleged-breach-of-chinas-national-supercomputing-center-can-have-serious-geopolitical-consequences.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "25c6dc40-b634-477b-82f7-3b9bbe5261a6",
@@ -659,7 +703,7 @@
       "summary": "Unit 42 discovered a vulnerability in Amazon Bedrock AgentCore called 'Agent God Mode' that enables privilege escalation and potential data exfiltration due to overly permissive IAM configurations.",
       "date": "2026-04-08T22:00:51.000Z",
       "link": "https://unit42.paloaltonetworks.com/exploit-of-aws-agentcore-iam-god-mode/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8be4194-e587-4017-8fe9-911b6f1c2ba8",
@@ -681,7 +725,7 @@
       "summary": "CISA has added a critical code injection vulnerability (CVE-2026-1340) in Ivanti Endpoint Manager Mobile to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
       "date": "2026-04-08T21:35:09.000Z",
       "link": "https://securityaffairs.com/190519/security/u-s-cisa-adds-a-flaw-in-ivanti-epmm-to-its-known-exploited-vulnerabilities-catalog-2.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "180bda52-f0ae-4380-af0d-3eb1d5e67a97",
@@ -703,7 +747,7 @@
       "summary": "The Russia-linked threat group APT28 is conducting a spear-phishing campaign against Ukraine and its allies using a new, stealthy malware suite known as PRISMEX. The campaign leverages advanced techniques like steganography to facilitate long-term espionage and command-and-control operations.",
       "date": "2026-04-08T20:23:08.000Z",
       "link": "https://securityaffairs.com/190510/apt/russia-linked-apt28-uses-prismex-to-infiltrate-ukraine-and-allied-infrastructure-with-advanced-tactics.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c45eacb9-75c2-4c09-979e-5ebdfcade7f3",
@@ -725,7 +769,7 @@
       "summary": "A functional proof-of-concept exploit for the 'BlueHammer' local privilege escalation vulnerability in Windows has been leaked and refined by researchers to work on modern OS versions. Microsoft has yet to issue an official patch for the flaw.",
       "date": "2026-04-08T19:48:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/bluehammer-windows-zero-day-exploit-leaked/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "945e52ff-91c6-42f4-8366-ee1507be7cfb",
