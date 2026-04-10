@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-10T05:35:25.939Z",
+  "lastUpdated": "2026-04-10T07:57:55.258Z",
   "articles": [
+    {
+      "id": "2f0cdaeb-0d3a-46df-9ebd-6caa50a44409",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "April 2026 Patch Tuesday forecast: Spring-cleaning of a preview",
+      "summary": "The article previews the upcoming April 2026 Patch Tuesday updates while reflecting on the growing integration of AI into security products and industry discourse.",
+      "date": "2026-04-10T07:22:04.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/10/april-2026-patch-tuesday-forecast/",
+      "isTopTen": false
+    },
+    {
+      "id": "9266097c-767a-4005-a614-644dd77d3552",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
+      "summary": "Threat actors compromised Nextend's update servers to distribute a backdoored version of the Smart Slider 3 Pro plugin. This supply chain attack affects users who updated to version 3.5.1.35.",
+      "date": "2026-04-10T06:28:00.000Z",
+      "link": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
+      "isTopTen": false
+    },
     {
       "id": "a06daced-2262-4faf-aeda-c6c1fd41ae18",
       "source": "Help Net Security",
@@ -76,7 +98,7 @@
       "summary": "Censys researchers identified approximately 3,900 internet-exposed devices at risk of exploitation by Iranian-backed actors targeting critical U.S. infrastructure. The campaign specifically focuses on the energy, water, and government services sectors.",
       "date": "2026-04-09T21:29:16.000Z",
       "link": "https://cyberscoop.com/iran-attackers-industrial-ot-government-energy-water-censys/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d116a653-ec17-4b23-a122-070b738ec306",
@@ -120,7 +142,7 @@
       "summary": "Dutch healthcare software provider ChipSoft experienced a ransomware attack, forcing the company to take its patient and provider-facing digital services offline. The incident highlights the ongoing threat of ransomware targeting critical infrastructure within the healthcare sector.",
       "date": "2026-04-09T19:46:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "83372c58-59ee-454d-bd37-8794cfe6ddfb",
@@ -131,7 +153,7 @@
       "summary": "Cybersecurity researcher Haifei Li has discovered a malicious PDF file exploiting an actively used Adobe Reader zero-day vulnerability that has been leveraged by hackers for several months. The researcher is currently seeking assistance from the security community to conduct a full analysis of the exploit.",
       "date": "2026-04-09T19:14:16.000Z",
       "link": "https://securityaffairs.com/190558/hacking/malicious-pdf-reveals-active-adobe-reader-zero-day-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c242427d-b02a-435e-a3a4-11ac55e91ae1",
@@ -164,7 +186,7 @@
       "summary": "A now-patched security vulnerability in the EngageLab Android SDK allowed apps to bypass the system's security sandbox, exposing sensitive data for 50 million users including 30 million crypto wallets.",
       "date": "2026-04-09T17:26:00.000Z",
       "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "38b32b5f-3673-42d9-95c2-5d410b0cf8c8",
@@ -329,7 +351,7 @@
       "summary": "Researchers discovered a vulnerability in Claude Code where malicious instructions injected into a CLAUDE.md file can bypass safety guardrails to execute SQL injection attacks. This exploit allows attackers to manipulate AI-driven coding assistants to perform unauthorized database operations.",
       "date": "2026-04-09T13:50:29.000Z",
       "link": "https://hackread.com/claude-code-claude-md-sql-injection-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a600c6d2-5236-4c02-a808-7703ecab3d99",
@@ -538,7 +560,7 @@
       "summary": "A hacker claims to have exfiltrated over 10 petabytes of sensitive military, aerospace, and missile-related data from China's National Supercomputing Center. The incident poses significant national security concerns and potential geopolitical repercussions.",
       "date": "2026-04-09T09:27:00.000Z",
       "link": "https://securityaffairs.com/190536/hacking/the-alleged-breach-of-chinas-national-supercomputing-center-can-have-serious-geopolitical-consequences.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "25c6dc40-b634-477b-82f7-3b9bbe5261a6",
@@ -703,7 +725,7 @@
       "summary": "Unit 42 discovered a vulnerability in Amazon Bedrock AgentCore called 'Agent God Mode' that enables privilege escalation and potential data exfiltration due to overly permissive IAM configurations.",
       "date": "2026-04-08T22:00:51.000Z",
       "link": "https://unit42.paloaltonetworks.com/exploit-of-aws-agentcore-iam-god-mode/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f8be4194-e587-4017-8fe9-911b6f1c2ba8",
@@ -725,7 +747,7 @@
       "summary": "CISA has added a critical code injection vulnerability (CVE-2026-1340) in Ivanti Endpoint Manager Mobile to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
       "date": "2026-04-08T21:35:09.000Z",
       "link": "https://securityaffairs.com/190519/security/u-s-cisa-adds-a-flaw-in-ivanti-epmm-to-its-known-exploited-vulnerabilities-catalog-2.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "180bda52-f0ae-4380-af0d-3eb1d5e67a97",
@@ -747,7 +769,7 @@
       "summary": "The Russia-linked threat group APT28 is conducting a spear-phishing campaign against Ukraine and its allies using a new, stealthy malware suite known as PRISMEX. The campaign leverages advanced techniques like steganography to facilitate long-term espionage and command-and-control operations.",
       "date": "2026-04-08T20:23:08.000Z",
       "link": "https://securityaffairs.com/190510/apt/russia-linked-apt28-uses-prismex-to-infiltrate-ukraine-and-allied-infrastructure-with-advanced-tactics.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c45eacb9-75c2-4c09-979e-5ebdfcade7f3",
@@ -769,7 +791,7 @@
       "summary": "A functional proof-of-concept exploit for the 'BlueHammer' local privilege escalation vulnerability in Windows has been leaked and refined by researchers to work on modern OS versions. Microsoft has yet to issue an official patch for the flaw.",
       "date": "2026-04-08T19:48:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/08/bluehammer-windows-zero-day-exploit-leaked/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "945e52ff-91c6-42f4-8366-ee1507be7cfb",
