@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-11T15:40:03.495Z",
+  "lastUpdated": "2026-04-11T18:55:16.400Z",
   "articles": [
+    {
+      "id": "1bf2f614-969a-496e-8ad0-c56fd0bc3caa",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "GlassWorm evolves with Zig dropper to infect multiple developer tools",
+      "summary": "The GlassWorm campaign has evolved to use Zig-based droppers disguised as IDE extensions to conduct supply chain attacks and deploy RATs across developer platforms. The operation targets various developer tools, marking a significant escalation in its ongoing malicious activity.",
+      "date": "2026-04-11T16:27:02.000Z",
+      "link": "https://securityaffairs.com/190638/malware/glassworm-evolves-with-zig-dropper-to-infect-multiple-developer-tools.html",
+      "isTopTen": false
+    },
+    {
+      "id": "872b17ed-015d-4930-b3a3-011dd36de070",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "FBI Recovers Deleted Signal Messages Through iPhone Notifications",
+      "summary": "Court documents reveal that the FBI can access deleted Signal messages by extracting data from iPhone notification logs. This highlights a persistent privacy risk where message content cached by the iOS notification system remains retrievable despite in-app deletion.",
+      "date": "2026-04-11T16:04:27.000Z",
+      "link": "https://hackread.com/fbi-recover-deleted-signal-messages-iphone-notifications/",
+      "isTopTen": true
+    },
     {
       "id": "63f9a100-ab3a-4dec-82be-f96384e44b24",
       "source": "BleepingComputer",
@@ -21,7 +43,7 @@
       "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146, a new security feature that ties session cookies to hardware keys to prevent infostealers from hijacking user sessions on Windows.",
       "date": "2026-04-11T12:11:10.000Z",
       "link": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ea348833-237e-47a1-bcfd-fa76b96316c8",
@@ -43,7 +65,7 @@
       "summary": "The open-source Python tool Marimo suffered a critical remote code execution vulnerability, CVE-2026-39987, which was actively exploited in the wild within 10 hours of its disclosure. The flaw carries a CVSS score of 9.3, indicating a severe risk to affected systems.",
       "date": "2026-04-11T09:44:44.000Z",
       "link": "https://securityaffairs.com/190623/hacking/cve-2026-39987-marimo-rce-exploited-in-hours-after-disclosure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d67e5261-406d-4c56-bdbc-3cd650ac6ab0",
@@ -120,7 +142,7 @@
       "summary": "A U.S. Senator has initiated an inquiry into eight major technology companies following allegations from the NCMEC regarding their failure to properly report child sexual abuse material (CSAM) and manage data concerns related to generative AI.",
       "date": "2026-04-10T18:05:00.000Z",
       "link": "https://therecord.media/senator-launches-inquiry-into-tech-giants-csam",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f974147c-585e-4aef-a739-4737f7adf820",
@@ -153,7 +175,7 @@
       "summary": "The North Korean Lazarus group is leveraging legitimate US-based LLCs and GitHub typo-squatting to distribute malware through the GraphAlgo campaign, specifically targeting software developers. This sophisticated technique bypasses traditional trust markers by utilizing registered corporate identities to facilitate cyberattacks.",
       "date": "2026-04-10T16:55:07.000Z",
       "link": "https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "811b329a-b7e1-49e6-8123-5326e85fec05",
@@ -164,7 +186,7 @@
       "summary": "Approximately 4,000 internet-exposed Rockwell Automation industrial controllers in the U.S. have been identified as potential targets for Iranian-linked cyberattacks. These devices represent a significant risk to critical infrastructure networks.",
       "date": "2026-04-10T15:52:45.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98aebced-1811-4c5b-a765-0db943bc6453",
@@ -186,7 +208,7 @@
       "summary": "Florida authorities are investigating OpenAI after a family alleged that the gunman involved in a deadly shooting used ChatGPT extensively in the period leading up to the attack. The family plans to pursue legal action against the company regarding the AI's potential influence.",
       "date": "2026-04-10T14:07:00.000Z",
       "link": "https://therecord.media/florida-investigates-openai-chatgpt-deadly-shooting",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "21cb24e4-363b-4168-acc6-acc58c2f8901",
@@ -604,7 +626,7 @@
       "summary": "Cybersecurity researcher Haifei Li has discovered a malicious PDF file exploiting an actively used Adobe Reader zero-day vulnerability that has been leveraged by hackers for several months. The researcher is currently seeking assistance from the security community to conduct a full analysis of the exploit.",
       "date": "2026-04-09T19:14:16.000Z",
       "link": "https://securityaffairs.com/190558/hacking/malicious-pdf-reveals-active-adobe-reader-zero-day-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c242427d-b02a-435e-a3a4-11ac55e91ae1",
