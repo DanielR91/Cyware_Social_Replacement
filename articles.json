@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-12T03:20:45.675Z",
+  "lastUpdated": "2026-04-12T07:24:02.376Z",
   "articles": [
+    {
+      "id": "c31c3987-0bee-43ad-8d40-adf1ed7a4dd6",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
+      "summary": "Threat actors compromised the official CPUID website for approximately 19 hours to distribute trojanized versions of popular hardware monitoring tools embedded with the STX RAT. Users who downloaded software from the site during this window were exposed to remote access malware.",
+      "date": "2026-04-12T05:54:00.000Z",
+      "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7887f668-0521-406c-9cb6-232e37553799",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621",
+      "summary": "Adobe has released an emergency patch for a critical vulnerability (CVE-2026-34621) in Acrobat Reader that is currently being exploited in the wild. The flaw could allow attackers to execute arbitrary code on vulnerable systems.",
+      "date": "2026-04-12T04:25:00.000Z",
+      "link": "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
+      "isTopTen": true
+    },
     {
       "id": "aa799c85-cae6-4779-9839-f62b5f234ac9",
       "source": "Security Affairs",
@@ -54,7 +76,7 @@
       "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146, a new security feature that ties session cookies to hardware keys to prevent infostealers from hijacking user sessions on Windows.",
       "date": "2026-04-11T12:11:10.000Z",
       "link": "https://hackread.com/google-chrome-update-infostealer-cookie-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ea348833-237e-47a1-bcfd-fa76b96316c8",
@@ -65,7 +87,7 @@
       "summary": "Recent incidents involving the poisoning of popular open-source tools highlight an evolving trend in supply chain attacks, demonstrating how threat actors are increasingly targeting software dependencies to gain widespread unauthorized access. These events underscore the urgent need for enhanced security measures within the open-source ecosystem to prevent systemic compromise.",
       "date": "2026-04-11T11:11:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/11/trivy_axios_supply_chain_attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8b83dee5-824f-4ef7-9121-fdfea6891d68",
@@ -76,7 +98,7 @@
       "summary": "The open-source Python tool Marimo suffered a critical remote code execution vulnerability, CVE-2026-39987, which was actively exploited in the wild within 10 hours of its disclosure. The flaw carries a CVSS score of 9.3, indicating a severe risk to affected systems.",
       "date": "2026-04-11T09:44:44.000Z",
       "link": "https://securityaffairs.com/190623/hacking/cve-2026-39987-marimo-rce-exploited-in-hours-after-disclosure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d67e5261-406d-4c56-bdbc-3cd650ac6ab0",
@@ -98,7 +120,7 @@
       "summary": "Service busy.",
       "date": "2026-04-11T06:02:00.000Z",
       "link": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6e3aa0da-cc6a-4c60-8ab8-1106d8448715",
@@ -131,7 +153,7 @@
       "summary": "An Android banking trojan connected to forced labor scam operations in Cambodia is actively targeting users across 21 countries to steal funds by bypassing security measures. This campaign highlights the intersection of organized criminal human trafficking and sophisticated cybercrime operations.",
       "date": "2026-04-10T20:32:33.000Z",
       "link": "https://hackread.com/android-banking-trojan-cambodia-scam-compounds/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ab0507a9-7943-475a-8949-caa527a6a98c",
@@ -153,7 +175,7 @@
       "summary": "A U.S. Senator has initiated an inquiry into eight major technology companies following allegations from the NCMEC regarding their failure to properly report child sexual abuse material (CSAM) and manage data concerns related to generative AI.",
       "date": "2026-04-10T18:05:00.000Z",
       "link": "https://therecord.media/senator-launches-inquiry-into-tech-giants-csam",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f974147c-585e-4aef-a739-4737f7adf820",
@@ -186,7 +208,7 @@
       "summary": "The North Korean Lazarus group is leveraging legitimate US-based LLCs and GitHub typo-squatting to distribute malware through the GraphAlgo campaign, specifically targeting software developers. This sophisticated technique bypasses traditional trust markers by utilizing registered corporate identities to facilitate cyberattacks.",
       "date": "2026-04-10T16:55:07.000Z",
       "link": "https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "811b329a-b7e1-49e6-8123-5326e85fec05",
@@ -274,7 +296,7 @@
       "summary": "The UK Ministry of Defence reported that Russian naval assets, including an attack submarine and research vessels, were monitored engaging in suspicious activities near critical undersea infrastructure. This disclosure highlights growing concerns over potential sabotage risks to international subsea communication cables.",
       "date": "2026-04-10T13:03:00.000Z",
       "link": "https://therecord.media/uk-says-it-exposed-russian-submarine-activity",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8f2785ee-4bb2-4411-96b0-c28e678d3ef4",
@@ -736,7 +758,7 @@
       "summary": "The FBI successfully neutralized a Russian GRU-linked APT28 campaign that utilized compromised routers to gain widespread access to target networks. This operation disrupted the sophisticated capabilities of the threat actor to propagate malicious activity beyond initial router access points.",
       "date": "2026-04-09T15:34:14.000Z",
       "link": "https://cyberscoop.com/fbi-operation-masquerade-russian-gru-router-takedown-brett-leatherman/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3787e571-52cd-4d60-a060-ce448d6b8ac0",
