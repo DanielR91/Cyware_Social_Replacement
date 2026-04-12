@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-12T09:52:47.193Z",
+  "lastUpdated": "2026-04-12T13:13:28.741Z",
   "articles": [
+    {
+      "id": "8b62681e-1153-4f82-a97b-de60b6afa80d",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 92",
+      "summary": "The Security Affairs newsletter provides an analysis of recent malware campaigns, including malicious npm packages targeting Strapi, Kimsuky's evolving LNK distribution methods, and exploitation of ComfyUI servers.",
+      "date": "2026-04-12T12:23:04.000Z",
+      "link": "https://securityaffairs.com/190672/malware/security-affairs-malware-newsletter-round-92.html",
+      "isTopTen": false
+    },
+    {
+      "id": "37611b5e-8240-4993-bc46-68cad0a02643",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "FBI Atlanta and Indonesian National Police Take Down W3LLSTORE Phishing Marketplace",
+      "summary": "The FBI and Indonesian National Police have dismantled the W3LLSTORE phishing marketplace, which was associated with $20 million in fraud, leading to domain seizures and the arrest of its lead developer.",
+      "date": "2026-04-12T11:35:49.000Z",
+      "link": "https://hackread.com/fbi-atlanta-indonesian-police-w3llstore-phishing-market/",
+      "isTopTen": false
+    },
     {
       "id": "5f1e602b-01ce-4291-b241-44b0de10481e",
       "source": "Security Affairs",
@@ -21,7 +43,7 @@
       "summary": "This weekly review highlights the leak of a Windows zero-day exploit and upcoming Patch Tuesday expectations, alongside Cloudflare's updated roadmap for post-quantum security readiness.",
       "date": "2026-04-12T08:00:55.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/12/week-in-review-windows-zero-day-exploit-leaked-patch-tuesday-forecast/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c31c3987-0bee-43ad-8d40-adf1ed7a4dd6",
@@ -32,7 +54,7 @@
       "summary": "Threat actors compromised the official CPUID website for approximately 19 hours to distribute trojanized versions of popular hardware monitoring tools embedded with the STX RAT. Users who downloaded software from the site during this window were exposed to remote access malware.",
       "date": "2026-04-12T05:54:00.000Z",
       "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7887f668-0521-406c-9cb6-232e37553799",
@@ -54,7 +76,7 @@
       "summary": "Censys has identified over 5,000 internet-exposed Rockwell Automation PLCs in the U.S. that are being actively targeted by Iranian-linked threat actors. Agencies including the FBI, CISA, and NSA have issued warnings to critical infrastructure operators to secure these devices immediately.",
       "date": "2026-04-11T20:39:37.000Z",
       "link": "https://securityaffairs.com/190646/ics-scada/censys-finds-5219-devices-exposed-to-attacks-by-iranian-apts-majority-in-u-s.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1bf2f614-969a-496e-8ad0-c56fd0bc3caa",
@@ -65,7 +87,7 @@
       "summary": "The GlassWorm campaign has evolved to use Zig-based droppers disguised as IDE extensions to conduct supply chain attacks and deploy RATs across developer platforms. The operation targets various developer tools, marking a significant escalation in its ongoing malicious activity.",
       "date": "2026-04-11T16:27:02.000Z",
       "link": "https://securityaffairs.com/190638/malware/glassworm-evolves-with-zig-dropper-to-infect-multiple-developer-tools.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "872b17ed-015d-4930-b3a3-011dd36de070",
@@ -109,7 +131,7 @@
       "summary": "Recent incidents involving the poisoning of popular open-source tools highlight an evolving trend in supply chain attacks, demonstrating how threat actors are increasingly targeting software dependencies to gain widespread unauthorized access. These events underscore the urgent need for enhanced security measures within the open-source ecosystem to prevent systemic compromise.",
       "date": "2026-04-11T11:11:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/11/trivy_axios_supply_chain_attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8b83dee5-824f-4ef7-9121-fdfea6891d68",
@@ -120,7 +142,7 @@
       "summary": "The open-source Python tool Marimo suffered a critical remote code execution vulnerability, CVE-2026-39987, which was actively exploited in the wild within 10 hours of its disclosure. The flaw carries a CVSS score of 9.3, indicating a severe risk to affected systems.",
       "date": "2026-04-11T09:44:44.000Z",
       "link": "https://securityaffairs.com/190623/hacking/cve-2026-39987-marimo-rce-exploited-in-hours-after-disclosure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d67e5261-406d-4c56-bdbc-3cd650ac6ab0",
@@ -131,7 +153,7 @@
       "summary": "Hungarian government credentials were found exposed online, reportedly secured by an account using the alias 'FrankLampard'. This indicates a significant security lapse involving sensitive administrative access.",
       "date": "2026-04-11T08:30:14.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/11/hungary_government_logins_breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d5fb60d1-3e8e-42d9-a4fb-0f24b3e0b35a",
@@ -153,7 +175,7 @@
       "summary": "OpenAI has introduced a new $100 Pro subscription tier for ChatGPT, aligning its pricing strategy more closely with competitor Claude. This move signals heightened market competition in the enterprise AI space.",
       "date": "2026-04-11T02:08:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "28ac19ac-1fbe-44a6-b470-c46f7eb74be7",
@@ -175,7 +197,7 @@
       "summary": "An Android banking trojan connected to forced labor scam operations in Cambodia is actively targeting users across 21 countries to steal funds by bypassing security measures. This campaign highlights the intersection of organized criminal human trafficking and sophisticated cybercrime operations.",
       "date": "2026-04-10T20:32:33.000Z",
       "link": "https://hackread.com/android-banking-trojan-cambodia-scam-compounds/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab0507a9-7943-475a-8949-caa527a6a98c",
@@ -219,7 +241,7 @@
       "summary": "The $280 million theft from Drift was orchestrated by North Korean actors who infiltrated the company by posing as a quantitative trading firm at a cryptocurrency conference. This sophisticated social engineering operation highlights the persistence and methods of state-sponsored threat actors in targeting financial infrastructure.",
       "date": "2026-04-10T17:33:00.000Z",
       "link": "https://therecord.media/drift-crypto-theft-post-mortem-north-korea",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c802ff53-bcd5-48c6-b7df-621c8e5d393e",
@@ -230,7 +252,7 @@
       "summary": "The North Korean Lazarus group is leveraging legitimate US-based LLCs and GitHub typo-squatting to distribute malware through the GraphAlgo campaign, specifically targeting software developers. This sophisticated technique bypasses traditional trust markers by utilizing registered corporate identities to facilitate cyberattacks.",
       "date": "2026-04-10T16:55:07.000Z",
       "link": "https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "811b329a-b7e1-49e6-8123-5326e85fec05",
@@ -241,7 +263,7 @@
       "summary": "Approximately 4,000 internet-exposed Rockwell Automation industrial controllers in the U.S. have been identified as potential targets for Iranian-linked cyberattacks. These devices represent a significant risk to critical infrastructure networks.",
       "date": "2026-04-10T15:52:45.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "98aebced-1811-4c5b-a765-0db943bc6453",
@@ -252,7 +274,7 @@
       "summary": "A ransomware attack on healthcare IT provider ChipSoft has forced its HiX electronic health record platform offline, causing widespread service disruptions across hospitals in the Netherlands and Belgium.",
       "date": "2026-04-10T14:12:51.000Z",
       "link": "https://securityaffairs.com/190615/cyber-crime/ransomware-attack-on-chipsoft-knocks-ehr-services-offline-across-hospitals-in-the-netherlands-and-belgium.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "954fd08c-86d3-47ad-aee6-e70540028fa9",
@@ -263,7 +285,7 @@
       "summary": "Florida authorities are investigating OpenAI after a family alleged that the gunman involved in a deadly shooting used ChatGPT extensively in the period leading up to the attack. The family plans to pursue legal action against the company regarding the AI's potential influence.",
       "date": "2026-04-10T14:07:00.000Z",
       "link": "https://therecord.media/florida-investigates-openai-chatgpt-deadly-shooting",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "21cb24e4-363b-4168-acc6-acc58c2f8901",
@@ -318,7 +340,7 @@
       "summary": "The UK Ministry of Defence reported that Russian naval assets, including an attack submarine and research vessels, were monitored engaging in suspicious activities near critical undersea infrastructure. This disclosure highlights growing concerns over potential sabotage risks to international subsea communication cables.",
       "date": "2026-04-10T13:03:00.000Z",
       "link": "https://therecord.media/uk-says-it-exposed-russian-submarine-activity",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8f2785ee-4bb2-4411-96b0-c28e678d3ef4",
@@ -747,7 +769,7 @@
       "summary": "Hackers are actively exploiting an unpatched zero-day vulnerability in Adobe Reader through malicious PDFs to steal data without requiring user interaction. Due to the lack of an available patch, the threat poses a significant risk to organizations and individuals.",
       "date": "2026-04-09T16:45:40.000Z",
       "link": "https://hackread.com/adobe-reader-zero-day-exploit-data-malicious-pdfs/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b3b62a76-975a-495e-994d-bf45248236db",
