@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-12T15:43:54.322Z",
+  "lastUpdated": "2026-04-12T18:58:52.227Z",
   "articles": [
+    {
+      "id": "d2cbcdc6-e6d6-4b40-b3ac-ce97df949252",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe fixes actively exploited Acrobat Reader flaw CVE-2026-34621",
+      "summary": "Adobe has released emergency updates to address a critical, actively exploited vulnerability in Acrobat Reader that could allow attackers to execute malicious code. The flaw, identified as CVE-2026-34621, carries a CVSS score of 8.6.",
+      "date": "2026-04-12T17:47:08.000Z",
+      "link": "https://securityaffairs.com/190697/security/adobe-fixes-actively-exploited-acrobat-reader-flaw-cve-2026-34621.html",
+      "isTopTen": true
+    },
     {
       "id": "aedfd55c-a8c8-44ad-91fc-fffb3dce340b",
       "source": "HackRead",
@@ -21,7 +32,7 @@
       "summary": "A critical pre-authentication remote code execution vulnerability in Marimo is currently being actively exploited to steal credentials. Users should patch immediately to prevent unauthorized access and data compromise.",
       "date": "2026-04-12T14:20:31.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f7823131-0c8b-4579-b3e0-f802172c1c51",
@@ -87,7 +98,7 @@
       "summary": "Threat actors compromised the official CPUID website for approximately 19 hours to distribute trojanized versions of popular hardware monitoring tools embedded with the STX RAT. Users who downloaded software from the site during this window were exposed to remote access malware.",
       "date": "2026-04-12T05:54:00.000Z",
       "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7887f668-0521-406c-9cb6-232e37553799",
@@ -98,7 +109,7 @@
       "summary": "Adobe has released an emergency patch for a critical vulnerability (CVE-2026-34621) in Acrobat Reader that is currently being exploited in the wild. The flaw could allow attackers to execute arbitrary code on vulnerable systems.",
       "date": "2026-04-12T04:25:00.000Z",
       "link": "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aa799c85-cae6-4779-9839-f62b5f234ac9",
@@ -164,7 +175,7 @@
       "summary": "Recent incidents involving the poisoning of popular open-source tools highlight an evolving trend in supply chain attacks, demonstrating how threat actors are increasingly targeting software dependencies to gain widespread unauthorized access. These events underscore the urgent need for enhanced security measures within the open-source ecosystem to prevent systemic compromise.",
       "date": "2026-04-11T11:11:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/11/trivy_axios_supply_chain_attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8b83dee5-824f-4ef7-9121-fdfea6891d68",
@@ -197,7 +208,7 @@
       "summary": "Service busy.",
       "date": "2026-04-11T06:02:00.000Z",
       "link": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6e3aa0da-cc6a-4c60-8ab8-1106d8448715",
@@ -263,7 +274,7 @@
       "summary": "The UK government is threatening tech executives with imprisonment if they fail to implement measures to stop the proliferation of non-consensual AI-generated nudification tools. This crackdown follows the recent Grok scandal, which facilitated the global circulation of deepfake imagery targeting women and children.",
       "date": "2026-04-10T17:35:00.000Z",
       "link": "https://therecord.media/uk-threatens-tech-bosses-with-jail-ai-nudification",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "73a407b1-2625-4e85-9be3-7d9bc0f81c0b",
@@ -285,7 +296,7 @@
       "summary": "The North Korean Lazarus group is leveraging legitimate US-based LLCs and GitHub typo-squatting to distribute malware through the GraphAlgo campaign, specifically targeting software developers. This sophisticated technique bypasses traditional trust markers by utilizing registered corporate identities to facilitate cyberattacks.",
       "date": "2026-04-10T16:55:07.000Z",
       "link": "https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "811b329a-b7e1-49e6-8123-5326e85fec05",
@@ -373,7 +384,7 @@
       "summary": "The UK Ministry of Defence reported that Russian naval assets, including an attack submarine and research vessels, were monitored engaging in suspicious activities near critical undersea infrastructure. This disclosure highlights growing concerns over potential sabotage risks to international subsea communication cables.",
       "date": "2026-04-10T13:03:00.000Z",
       "link": "https://therecord.media/uk-says-it-exposed-russian-submarine-activity",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8f2785ee-4bb2-4411-96b0-c28e678d3ef4",
@@ -505,7 +516,7 @@
       "summary": "A critical vulnerability in the EngageLab SDK allows malicious applications to bypass Android sandbox protections and access sensitive user data, impacting approximately 50 million devices including numerous crypto wallets.",
       "date": "2026-04-10T08:41:39.000Z",
       "link": "https://securityaffairs.com/190586/hacking/engagelab-sdk-flaw-opens-door-to-private-data-on-50m-android-devices.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7ae6be86-e727-400c-8b20-d84cbc3fb32a",
