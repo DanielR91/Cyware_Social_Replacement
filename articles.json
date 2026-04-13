@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-04-13T03:28:01.698Z",
+  "lastUpdated": "2026-04-13T08:21:39.573Z",
   "articles": [
+    {
+      "id": "3d58b820-8095-492e-ba4d-2fd44102ae49",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "CPUID watering hole attack spreads STX RAT malware",
+      "summary": "Threat actors compromised the official CPUID website to distribute STX RAT malware by replacing legitimate CPU-Z and HWMonitor installers with malicious versions. The attack successfully provided attackers with remote access to the systems of users who downloaded the tampered files.",
+      "date": "2026-04-13T07:23:36.000Z",
+      "link": "https://securityaffairs.com/190702/malware/cpuid-watering-hole-attack-spreads-stx-rat-malware.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c8dae7e7-7223-46e8-96c2-38f4429b586d",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+      "summary": "Service busy.",
+      "date": "2026-04-13T06:50:00.000Z",
+      "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+      "isTopTen": false
+    },
+    {
+      "id": "eeda5b2c-4010-471a-823a-049892072dc9",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Fixing vulnerability data quality requires fixing the architecture first",
+      "summary": "Art Manion argues that the inconsistency in vulnerability data stems from fundamental architectural flaws in how systems manage and collect such information. The research highlights the difficulty in establishing a universal standard, such as Minimum Viable Vulnerability Enumeration, due to the contextual nature of vulnerabilities.",
+      "date": "2026-04-13T06:00:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/13/art-manion-tharros-vulnerability-data-quality/",
+      "isTopTen": false
+    },
+    {
+      "id": "4b94acb5-50e7-4223-b6c5-b564ff229be1",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "ZeroID: Open-source identity platform for autonomous AI agents",
+      "summary": "ZeroID is an open-source identity and credentialing platform designed to solve the attribution problem in autonomous and multi-agent systems by providing traceability for agent actions. It addresses the security limitations of shared service accounts and traditional OAuth protocols in complex agentic workflows.",
+      "date": "2026-04-13T05:30:40.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/13/zeroid-open-source-identity-platform-autonomous-ai-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "b7a72c85-b77e-40c5-8160-804a74a69246",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "MITRE releases a shared fraud-cyber framework built from real attack data",
+      "summary": "MITRE has introduced the Fight Fraud Framework (F3) to bridge the operational gap between fraud investigators and cybersecurity analysts by providing a unified, behavior-based model for identifying and responding to financial attacks.",
+      "date": "2026-04-13T05:00:20.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/13/mitre-fight-fraud-framework-f3/",
+      "isTopTen": false
+    },
+    {
+      "id": "67361b90-237d-45af-abdd-7ac8303ed13c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Why manual certificate management is running out of time",
+      "summary": "Service busy.",
+      "date": "2026-04-13T04:30:37.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/13/globalsign-certificate-lifecycle-management-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "10489c80-02be-4776-9b95-d6b9f3c226a1",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Bringing governance and visibility to machine and AI identities",
+      "summary": "AppViewX CEO Archit Lohokare discusses the growing need for unified governance and visibility for machine and AI identities as autonomous systems increasingly replace human-driven processes. The company is addressing this shift by integrating certificate lifecycle management, PKI, and agentic governance to secure emerging digital identity frameworks.",
+      "date": "2026-04-13T04:00:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/13/archit-lohokare-appviewx-ai-agent-identity/",
+      "isTopTen": false
+    },
     {
       "id": "cabed533-2433-4b3b-9c80-6a65f90fec5c",
       "source": "The Register",
@@ -54,7 +131,7 @@
       "summary": "A lone actor utilized AI tools, specifically Claude Code and GPT-4.1, to exfiltrate hundreds of millions of personal records from nine Mexican government agencies. This incident highlights the growing risk of AI-assisted cyberattacks on critical public sector infrastructure.",
       "date": "2026-04-12T14:44:55.000Z",
       "link": "https://hackread.com/hacker-claude-code-gpt-4-1-mexican-records/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c29214da-25c3-4851-af71-3209aae4b941",
@@ -76,7 +153,7 @@
       "summary": "Hackers have allegedly breached Venice's San Marco flood control system, gaining the ability to manipulate pumps and disable critical defensive infrastructure. The incident highlights the growing risks associated with the security of operational technology (OT) in essential infrastructure.",
       "date": "2026-04-12T13:34:28.000Z",
       "link": "https://securityaffairs.com/190679/hacktivism/hackers-claim-control-over-venice-san-marco-anti-flood-pumps.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8b62681e-1153-4f82-a97b-de60b6afa80d",
@@ -153,7 +230,7 @@
       "summary": "Censys has identified over 5,000 internet-exposed Rockwell Automation PLCs in the U.S. that are being actively targeted by Iranian-linked threat actors. Agencies including the FBI, CISA, and NSA have issued warnings to critical infrastructure operators to secure these devices immediately.",
       "date": "2026-04-11T20:39:37.000Z",
       "link": "https://securityaffairs.com/190646/ics-scada/censys-finds-5219-devices-exposed-to-attacks-by-iranian-apts-majority-in-u-s.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1bf2f614-969a-496e-8ad0-c56fd0bc3caa",
@@ -208,7 +285,7 @@
       "summary": "Recent incidents involving the poisoning of popular open-source tools highlight an evolving trend in supply chain attacks, demonstrating how threat actors are increasingly targeting software dependencies to gain widespread unauthorized access. These events underscore the urgent need for enhanced security measures within the open-source ecosystem to prevent systemic compromise.",
       "date": "2026-04-11T11:11:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/11/trivy_axios_supply_chain_attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8b83dee5-824f-4ef7-9121-fdfea6891d68",
@@ -274,7 +351,7 @@
       "summary": "An Android banking trojan connected to forced labor scam operations in Cambodia is actively targeting users across 21 countries to steal funds by bypassing security measures. This campaign highlights the intersection of organized criminal human trafficking and sophisticated cybercrime operations.",
       "date": "2026-04-10T20:32:33.000Z",
       "link": "https://hackread.com/android-banking-trojan-cambodia-scam-compounds/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab0507a9-7943-475a-8949-caa527a6a98c",
@@ -318,7 +395,7 @@
       "summary": "The $280 million theft from Drift was orchestrated by North Korean actors who infiltrated the company by posing as a quantitative trading firm at a cryptocurrency conference. This sophisticated social engineering operation highlights the persistence and methods of state-sponsored threat actors in targeting financial infrastructure.",
       "date": "2026-04-10T17:33:00.000Z",
       "link": "https://therecord.media/drift-crypto-theft-post-mortem-north-korea",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c802ff53-bcd5-48c6-b7df-621c8e5d393e",
@@ -329,7 +406,7 @@
       "summary": "The North Korean Lazarus group is leveraging legitimate US-based LLCs and GitHub typo-squatting to distribute malware through the GraphAlgo campaign, specifically targeting software developers. This sophisticated technique bypasses traditional trust markers by utilizing registered corporate identities to facilitate cyberattacks.",
       "date": "2026-04-10T16:55:07.000Z",
       "link": "https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "811b329a-b7e1-49e6-8123-5326e85fec05",
@@ -351,7 +428,7 @@
       "summary": "A ransomware attack on healthcare IT provider ChipSoft has forced its HiX electronic health record platform offline, causing widespread service disruptions across hospitals in the Netherlands and Belgium.",
       "date": "2026-04-10T14:12:51.000Z",
       "link": "https://securityaffairs.com/190615/cyber-crime/ransomware-attack-on-chipsoft-knocks-ehr-services-offline-across-hospitals-in-the-netherlands-and-belgium.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "954fd08c-86d3-47ad-aee6-e70540028fa9",
@@ -417,7 +494,7 @@
       "summary": "The UK Ministry of Defence reported that Russian naval assets, including an attack submarine and research vessels, were monitored engaging in suspicious activities near critical undersea infrastructure. This disclosure highlights growing concerns over potential sabotage risks to international subsea communication cables.",
       "date": "2026-04-10T13:03:00.000Z",
       "link": "https://therecord.media/uk-says-it-exposed-russian-submarine-activity",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8f2785ee-4bb2-4411-96b0-c28e678d3ef4",
@@ -549,7 +626,7 @@
       "summary": "A critical vulnerability in the EngageLab SDK allows malicious applications to bypass Android sandbox protections and access sensitive user data, impacting approximately 50 million devices including numerous crypto wallets.",
       "date": "2026-04-10T08:41:39.000Z",
       "link": "https://securityaffairs.com/190586/hacking/engagelab-sdk-flaw-opens-door-to-private-data-on-50m-android-devices.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7ae6be86-e727-400c-8b20-d84cbc3fb32a",
