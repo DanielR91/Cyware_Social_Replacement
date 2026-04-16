@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-04-16T03:29:55.937Z",
+  "lastUpdated": "2026-04-16T08:05:21.736Z",
   "articles": [
+    {
+      "id": "37c6f332-d13c-497b-83ba-2b95abd0a4c7",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft: April Windows Server 2025 update may fail to install",
+      "summary": "Microsoft is investigating reports that the KB5082063 security update for Windows Server 2025 is failing to install on some systems.",
+      "date": "2026-04-16T07:37:44.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-windows-server-2025-update-may-fail-to-install/",
+      "isTopTen": false
+    },
+    {
+      "id": "92453463-e478-4528-9468-eec0a2569a9c",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "GitHub lays out copyright liability changes and upcoming DMCA review for developers",
+      "summary": "Following a U.S. Supreme Court ruling, GitHub is updating its copyright liability policies and DMCA review processes to align with the new standard requiring evidence of intentional conduct for infringement liability.",
+      "date": "2026-04-16T07:29:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/16/github-copyright-liability-update/",
+      "isTopTen": false
+    },
+    {
+      "id": "32558739-af64-463d-83ae-580ea8de7b49",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Sweden reports cyberattack attempt on heating plant amid rising energy threats",
+      "summary": "Sweden reported a failed cyberattack on a heating plant in 2025, which authorities attributed to a pro-Russian group linked to Russian intelligence. This incident underscores the increasing risks posed to European critical energy infrastructure.",
+      "date": "2026-04-16T07:26:48.000Z",
+      "link": "https://securityaffairs.com/190869/intelligence/sweden-reports-cyberattack-attempt-on-heating-plant-amid-rising-energy-threats.html",
+      "isTopTen": false
+    },
+    {
+      "id": "176912a7-4e1e-41cc-817a-3866d5817c08",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "EU cybersecurity standards are at risk if supplier ban passes",
+      "summary": "The European standards body ETSI has warned the European Commission that proposed restrictions in the Cybersecurity Act 2 could undermine EU standardization efforts by excluding key international suppliers.",
+      "date": "2026-04-16T07:00:59.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/16/etsi-eu-cybersecurity-standards/",
+      "isTopTen": false
+    },
+    {
+      "id": "83ffca32-13ad-450c-a06f-a3135a23bcde",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
+      "summary": "The threat actor UAC-0247 is conducting a targeted malware campaign against Ukrainian government entities and healthcare institutions to exfiltrate sensitive data from web browsers and messaging applications.",
+      "date": "2026-04-16T06:20:00.000Z",
+      "link": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f7803399-a696-467c-b417-29702a02e819",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Command integrity breaks in the LLM routing layer",
+      "summary": "A study of LLM routing services reveals that intermediaries can maliciously manipulate user commands and expose sensitive data before requests reach the final model. Researchers found that many existing routers are already altering commands, highlighting a significant security risk in the LLM supply chain.",
+      "date": "2026-04-16T06:00:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/16/llm-router-security-risk-agent-commands/",
+      "isTopTen": false
+    },
+    {
+      "id": "079ae604-d953-4f44-baa1-3fea80e432b9",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "What the EU AI Act requires for AI agent logging",
+      "summary": "This article analyzes the specific logging requirements for AI agents under the EU AI Act, highlighting which systems fall under high-risk categories and the associated compliance deadlines.",
+      "date": "2026-04-16T05:30:52.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/16/eu-ai-act-logging-requirements/",
+      "isTopTen": false
+    },
+    {
+      "id": "35b79e47-5ad3-4a91-9dfc-59bfb08404fd",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: Ente Auth encrypts, backs up, and syncs 2FA",
+      "summary": "Ente Auth is an open-source, encrypted authenticator application that allows users to securely back up and synchronize two-factor authentication codes across multiple devices. It simplifies 2FA management by supporting QR code imports and facilitating easy migration from other apps.",
+      "date": "2026-04-16T05:00:26.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/16/product-showcase-ente-auth-authenticator-app/",
+      "isTopTen": false
+    },
     {
       "id": "79722dfe-2f8a-42ed-978c-da9406c98582",
       "source": "The Record",
@@ -54,7 +142,7 @@
       "summary": "Service busy.",
       "date": "2026-04-15T22:35:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b5f37773-936a-4d21-910d-93235b04c64e",
@@ -76,7 +164,7 @@
       "summary": "A newly discovered malware called AgingFly is targeting Ukrainian government institutions and hospitals to exfiltrate authentication data from Chromium browsers and WhatsApp. The campaign represents a targeted effort to compromise sensitive credentials within critical infrastructure sectors.",
       "date": "2026-04-15T21:57:17.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c368cb02-9927-49e6-bb5e-48d268772661",
@@ -109,7 +197,7 @@
       "summary": "Service busy.",
       "date": "2026-04-15T20:33:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a27530a-2449-44c0-8aef-2a3386b859f7",
@@ -175,7 +263,7 @@
       "summary": "A digitally signed adware tool is being leveraged to deploy malicious payloads that disable antivirus software and execute with SYSTEM-level privileges across critical sectors. Thousands of endpoints have already been impacted by this privilege escalation and defensive evasion tactic.",
       "date": "2026-04-15T17:59:30.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "434024fb-31f1-40bb-b142-e8559edbee31",
@@ -208,7 +296,7 @@
       "summary": "A fraudulent Ledger Live application bypassed Apple's App Store review process, resulting in the theft of $9.5 million in cryptocurrency from over 50 victims. The incident highlights significant risks associated with supply chain compromises and platform vetting failures.",
       "date": "2026-04-15T16:47:20.000Z",
       "link": "https://hackread.com/fake-ledger-live-app-apple-store-crypto-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5c09c500-399c-472a-aae5-d81f4b64b5d0",
@@ -263,7 +351,7 @@
       "summary": "McGraw Hill experienced a significant data breach involving 45 million Salesforce records due to a misconfiguration. The incident was orchestrated by the ShinyHunters group, who are demanding a ransom to prevent the data's public release.",
       "date": "2026-04-15T14:28:00.000Z",
       "link": "https://therecord.media/mcgraw-hill-data-leak-tied-to-salesforce-misconfiguration",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b3ba3963-0f79-459e-a5c7-ae622914ea64",
@@ -395,7 +483,7 @@
       "summary": "A suspected pro-Russian hacker group attempted to disrupt a thermal power plant in western Sweden last year. Swedish defense officials confirmed the intrusion attempt targeted critical national infrastructure.",
       "date": "2026-04-15T12:15:00.000Z",
       "link": "https://therecord.media/sweden-hackers-russia-power-plant",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4e55f3c1-e9c3-4a75-984a-c863c1c7e3ec",
@@ -439,7 +527,7 @@
       "summary": "The Mirax Android remote access trojan has compromised over 220,000 accounts via malicious Meta ads, granting attackers full remote control and the ability to repurpose devices as SOCKS5 proxies.",
       "date": "2026-04-15T11:41:10.000Z",
       "link": "https://securityaffairs.com/190842/uncategorized/mirax-malware-campaign-hits-220k-accounts-enables-full-remote-control.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a34fa208-9c7e-4095-916a-9af422be77b2",
@@ -505,7 +593,7 @@
       "summary": "Qrator Labs reports that a massive botnet consisting of 13.5 million compromised devices is being used to launch 2 Tbps DDoS attacks against financial technology companies.",
       "date": "2026-04-15T09:58:42.000Z",
       "link": "https://hackread.com/botnet-device-drives-2-tbps-ddos-attacks-fintech/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce42f89b-a9ce-4154-96c1-85f71b2cab3b",
@@ -527,7 +615,7 @@
       "summary": "Microsoft has released security updates for 169 vulnerabilities, including a SharePoint zero-day that is currently being actively exploited. The batch of patches addresses a wide range of severity levels across the company's product portfolio.",
       "date": "2026-04-15T08:40:00.000Z",
       "link": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4febe871-7b92-4bb5-9fd8-2fbb99e23241",
@@ -5411,94 +5499,6 @@
       "summary": "U.S. lawmakers have reintroduced the Cyber Ready Workforce Act, a bipartisan effort designed to alleviate the national cybersecurity talent shortage through Labor Department-backed apprenticeship grants.",
       "date": "2026-04-02T16:14:04.000Z",
       "link": "https://cyberscoop.com/labor-department-cybersecurity-workforce-apprenticeships/",
-      "isTopTen": false
-    },
-    {
-      "id": "7c6f5de4-8290-4e6d-ae0d-7ece00043932",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Warns of WhatsApp Attachments Spreading Backdoor on Windows PCs",
-      "summary": "Microsoft has identified a malicious campaign distributing VBS malware via WhatsApp attachments, which allows attackers to gain unauthorized remote access to compromised Windows systems.",
-      "date": "2026-04-02T15:23:27.000Z",
-      "link": "https://hackread.com/microsoft-whatsapp-attachments-backdoor-windows-pcs/",
-      "isTopTen": false
-    },
-    {
-      "id": "d6499304-6a14-4352-b8d9-7a331ce7693f",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Residential proxies evaded IP reputation checks in 78% of 4B sessions",
-      "summary": "Residential proxies are significantly undermining IP reputation systems by masking malicious traffic as legitimate user activity in the majority of analyzed sessions. This trend poses a severe challenge for security controls that rely on IP-based filtering to block threats.",
-      "date": "2026-04-02T15:21:02.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
-      "isTopTen": false
-    },
-    {
-      "id": "776367b0-e99b-40cb-8610-4edaf65c2a7d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
-      "summary": "Cisco has released critical security patches for its Integrated Management Controller (IMC) to address a vulnerability (CVE-2026-20093) that could allow unauthenticated remote attackers to gain elevated system privileges.",
-      "date": "2026-04-02T15:21:00.000Z",
-      "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
-      "isTopTen": false
-    },
-    {
-      "id": "456ae043-0f39-4db1-9f0f-d6953c764066",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Medtech giant Stryker says it’s back up after Iranian cyberattack",
-      "summary": "Medical technology company Stryker has restored operations following a wiper malware attack orchestrated by the Iranian-linked group Handala. The incident caused significant operational disruption for the global firm last month.",
-      "date": "2026-04-02T15:18:52.000Z",
-      "link": "https://cyberscoop.com/medtech-giant-stryker-says-its-back-up-after-iranian-cyberattack/",
-      "isTopTen": false
-    },
-    {
-      "id": "edae68fc-ff7d-4eb6-8802-1da08318dc91",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Software supply chain hacks trigger wave of intrusions, data theft",
-      "summary": "A wave of software supply chain attacks, including the Axios and Trivy breaches, has resulted in hundreds of thousands of stolen secrets that pose a significant risk of downstream customer compromises and ransomware. Security researchers warn that these intrusions, linked to North Korean actors and TeamPCP, could facilitate widespread future malicious activity.",
-      "date": "2026-04-02T15:16:06.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/02/supply-chain-hacks-data-theft/",
-      "isTopTen": false
-    },
-    {
-      "id": "3283bd1e-9e84-491b-af33-c8bf0aa3e957",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "OpenSSH 10.3 patches five security bugs and drops legacy rekeying support",
-      "summary": "OpenSSH 10.3 has been released to address five security vulnerabilities while simultaneously removing legacy code that supported non-rekeying SSH implementations. This change will cause connectivity issues for outdated SSH clients and servers that do not comply with modern rekeying standards.",
-      "date": "2026-04-02T14:45:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/02/openssh-10-3-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "dd87241d-2712-4f07-9794-1b1c5a3dd070",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Yurei Ransomware Uses Common Tools, Adds Stranger Things References",
-      "summary": "The Yurei ransomware campaign leverages standard administrative tools and thematic payload names inspired by 'Stranger Things' to compromise and encrypt targeted systems. Security researchers at Team Cymru have identified these tactics, highlighting the group's reliance on common utilities for malicious operations.",
-      "date": "2026-04-02T14:07:16.000Z",
-      "link": "https://hackread.com/yurei-ransomware-tools-stranger-things-references/",
-      "isTopTen": false
-    },
-    {
-      "id": "6e1fbbd0-9dba-44c9-86f9-db9bf910f123",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Threat actor UAC-0255 impersonate CERT-UA to spread AGEWHEEZE malware via phishing",
-      "summary": "The threat actor UAC-0255 is targeting users through a massive phishing campaign that impersonates CERT-UA to distribute the AGEWHEEZE malware disguised as a security tool. The campaign involves sending emails to approximately one million recipients, prompting them to download and execute malicious archives.",
-      "date": "2026-04-02T14:02:18.000Z",
-      "link": "https://securityaffairs.com/190287/hacking/threat-actor-uac-0255-impersonate-cert-ua-to-spread-agewheeze-malware-via-phishing.html",
       "isTopTen": false
     }
   ]
