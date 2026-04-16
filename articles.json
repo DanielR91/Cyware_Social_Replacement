@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-16T19:26:43.994Z",
+  "lastUpdated": "2026-04-16T21:53:39.417Z",
   "articles": [
+    {
+      "id": "d6e58da2-70ad-471a-b273-a67346901dfd",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges",
+      "summary": "A security researcher released a proof-of-concept exploit for a second Microsoft Defender zero-day vulnerability, named 'RedSun,' which allows attackers to escalate privileges to SYSTEM level. The disclosure was made to protest Microsoft's current handling of vulnerability reporting and researcher relations.",
+      "date": "2026-04-16T20:19:31.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/",
+      "isTopTen": true
+    },
+    {
+      "id": "26c1aed6-e152-4a0c-9a14-6467d57d6597",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco fixed four critical flaws in Identity Services and Webex",
+      "summary": "Cisco has released patches for four critical vulnerabilities in its Identity Services and Webex platforms that could enable unauthorized code execution and user impersonation. These security flaws present significant risks, necessitating immediate updates for affected systems.",
+      "date": "2026-04-16T19:19:25.000Z",
+      "link": "https://securityaffairs.com/190909/security/cisco-fixed-four-critical-flaws-in-identity-services-and-webex.html",
+      "isTopTen": false
+    },
     {
       "id": "50274580-ae4e-4a65-8266-3d635aa7d197",
       "source": "The Register",
@@ -109,7 +131,7 @@
       "summary": "The newly identified ATHR vishing platform leverages AI voice agents and human operators to conduct automated credential theft through sophisticated social engineering. This advancement highlights the increasing scale and automation of voice-based phishing attacks.",
       "date": "2026-04-16T14:09:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "49cda90b-7cf1-44ef-9d5e-bc58c2d5ba30",
@@ -142,7 +164,7 @@
       "summary": "Sophisticated remote access campaigns conducted by hackers have significantly contributed to a surge in North American cargo theft, resulting in $6.6 billion in losses during 2025. These digital attacks highlight a growing threat to supply chain security managed through fleet logistics platforms.",
       "date": "2026-04-16T13:16:00.000Z",
       "link": "https://therecord.media/cargo-thieving-hackers-running-sophisticated-campaigns",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "45fb22e6-908d-47e3-b436-bbdbfb29ebee",
@@ -197,7 +219,7 @@
       "summary": "Ukrainian emergency services and hospitals are being targeted by a new espionage-focused malware strain identified as AgingFly. The campaign focuses on compromising sensitive local infrastructure and government entities.",
       "date": "2026-04-16T12:00:00.000Z",
       "link": "https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "33ee8649-0521-49ac-8e42-eb2e395cbd70",
@@ -274,7 +296,7 @@
       "summary": "The ShinyHunters extortion group compromised McGraw Hill's Salesforce environment, resulting in the exposure of data belonging to 13.5 million user accounts. This incident represents a significant breach of sensitive educational platform information.",
       "date": "2026-04-16T10:35:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "36fbd74d-11c5-4113-94bc-a7c7553abe73",
@@ -362,7 +384,7 @@
       "summary": "The threat actor UAC-0247 has launched a targeted cyber campaign against Ukrainian government entities and healthcare facilities to exfiltrate sensitive data from browsers and messaging apps. This operation, active between March and April 2026, focuses on stealing credentials and information via specialized malware.",
       "date": "2026-04-16T09:36:30.000Z",
       "link": "https://securityaffairs.com/190875/apt/from-clinics-to-government-uac-0247-expands-cyber-campaign-across-ukraine.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c8c8eb81-637c-4df6-a179-d6b5e589a75f",
@@ -626,7 +648,7 @@
       "summary": "NIST is shifting its CVE management strategy by restricting detailed documentation to only high-priority vulnerabilities due to a significant surge in submission volume. This marks a departure from their previous policy of cataloging every reported vulnerability.",
       "date": "2026-04-15T20:11:00.000Z",
       "link": "https://therecord.media/nist-to-limit-work-on-cve-entries-surge",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "56e56dd0-2edc-4af1-b03f-0805872db96a",
@@ -670,7 +692,7 @@
       "summary": "A digitally signed adware tool is being leveraged to deploy malicious payloads that disable antivirus software and execute with SYSTEM-level privileges across critical sectors. Thousands of endpoints have already been impacted by this privilege escalation and defensive evasion tactic.",
       "date": "2026-04-15T17:59:30.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "434024fb-31f1-40bb-b142-e8559edbee31",
@@ -5477,28 +5499,6 @@
       "summary": "Microsoft researchers have discovered threat actors utilizing HTTP cookies as a covert command channel for PHP web shells, allowing for persistent remote code execution on Linux servers via cron jobs. This technique bypasses traditional detection by avoiding suspicious URL parameters or request bodies.",
       "date": "2026-04-03T15:32:00.000Z",
       "link": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3db9e8b3-eac5-4233-9868-1bbc15bcae98",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "AI Firm Mercor Confirms Breach as Hackers Claim 4TB of Stolen Data",
-      "summary": "AI company Mercor has confirmed a major data breach resulting from a supply chain attack on LiteLLM, with threat actors claiming to have exfiltrated 4TB of sensitive data. The incident highlights ongoing risks within software supply chains for AI-focused infrastructure.",
-      "date": "2026-04-03T15:21:14.000Z",
-      "link": "https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/",
-      "isTopTen": false
-    },
-    {
-      "id": "2c44dd30-9e71-4426-b4d0-e00d71c8f3e2",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Evolution of Ransomware: Multi-Extortion Ransomware Attacks",
-      "summary": "Multi-extortion ransomware schemes leverage stolen data to pressure victims, prompting security firms like Penta Security to offer encryption solutions like D.AMO to protect exfiltrated files. This evolution highlights the growing threat of data exposure beyond simple encryption.",
-      "date": "2026-04-03T14:05:15.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/",
       "isTopTen": false
     }
   ]
