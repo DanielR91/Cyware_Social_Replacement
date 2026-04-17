@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-17T03:06:39.022Z",
+  "lastUpdated": "2026-04-17T05:36:13.810Z",
   "articles": [
+    {
+      "id": "400ab784-00f1-47e6-a2bb-c53b802f1511",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
+      "summary": "CISA has added a high-severity vulnerability in Apache ActiveMQ Classic (CVE-2026-34197) to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild. Federal agencies are now required to remediate this flaw to mitigate security risks.",
+      "date": "2026-04-17T03:22:00.000Z",
+      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+      "isTopTen": true
+    },
     {
       "id": "6d3bc879-eeba-4a59-a8e7-60e69d7d6e05",
       "source": "CyberScoop",
@@ -32,7 +43,7 @@
       "summary": "Operation PowerOFF successfully targeted the global DDoS-for-hire ecosystem, resulting in the identification of 75,000 users and the seizure of 53 associated domains across 21 countries. This coordinated international effort aims to disrupt the infrastructure and user base behind distributed denial-of-service attacks.",
       "date": "2026-04-16T22:26:34.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f455459f-06dc-400b-ace0-92329ab0dd62",
@@ -76,7 +87,7 @@
       "summary": "Cisco has released patches for four critical vulnerabilities in its Identity Services and Webex platforms that could enable unauthorized code execution and user impersonation. These security flaws present significant risks, necessitating immediate updates for affected systems.",
       "date": "2026-04-16T19:19:25.000Z",
       "link": "https://securityaffairs.com/190909/security/cisco-fixed-four-critical-flaws-in-identity-services-and-webex.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "50274580-ae4e-4a65-8266-3d635aa7d197",
@@ -98,7 +109,7 @@
       "summary": "Cookeville Regional Medical Center suffered a ransomware attack by the Rhysida group, resulting in the theft of 500GB of sensitive data and impacting 337,917 individuals.",
       "date": "2026-04-16T18:03:55.000Z",
       "link": "https://securityaffairs.com/190898/cyber-crime/cookeville-regional-medical-center-hospital-data-breach-impacts-337917-people.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "863b55ce-d1aa-4dd8-b921-18ef68c1f2f9",
@@ -186,7 +197,7 @@
       "summary": "The newly identified ATHR vishing platform leverages AI voice agents and human operators to conduct automated credential theft through sophisticated social engineering. This advancement highlights the increasing scale and automation of voice-based phishing attacks.",
       "date": "2026-04-16T14:09:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "49cda90b-7cf1-44ef-9d5e-bc58c2d5ba30",
@@ -219,7 +230,7 @@
       "summary": "Sophisticated remote access campaigns conducted by hackers have significantly contributed to a surge in North American cargo theft, resulting in $6.6 billion in losses during 2025. These digital attacks highlight a growing threat to supply chain security managed through fleet logistics platforms.",
       "date": "2026-04-16T13:16:00.000Z",
       "link": "https://therecord.media/cargo-thieving-hackers-running-sophisticated-campaigns",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "45fb22e6-908d-47e3-b436-bbdbfb29ebee",
@@ -252,7 +263,7 @@
       "summary": "Fortinet has patched two critical vulnerabilities in its FortiSandbox product that could allow unauthenticated attackers to bypass security and execute arbitrary code via malicious HTTP requests. Users are urged to update their deployments to mitigate the risk of unauthorized system access.",
       "date": "2026-04-16T12:48:26.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/16/fortinet-fortisandbox-vulnerabilities-cve-2026-39813-cve-2026-39808/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3aafa0e-4ca3-462e-b3a2-e97c6a3f4def",
@@ -274,7 +285,7 @@
       "summary": "Ukrainian emergency services and hospitals are being targeted by a new espionage-focused malware strain identified as AgingFly. The campaign focuses on compromising sensitive local infrastructure and government entities.",
       "date": "2026-04-16T12:00:00.000Z",
       "link": "https://therecord.media/aging-fly-espionage-campaign-targets-ukraine-emergency-services",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "33ee8649-0521-49ac-8e42-eb2e395cbd70",
@@ -307,7 +318,7 @@
       "summary": "Cisco has released patches for four critical vulnerabilities in its Identity Services and Webex platforms that could allow attackers to execute arbitrary code and impersonate users. The most severe of these, CVE-2026-20184, carries a CVSS score of 9.8 due to improper SSO certificate validation.",
       "date": "2026-04-16T11:27:00.000Z",
       "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6e55c93-7dd2-4fab-910c-9ccb7f6f3f03",
@@ -373,7 +384,7 @@
       "summary": "A Taboola pixel embedded on a banking website was found redirecting authenticated user traffic to a Temu tracking endpoint without authorization. This exploit highlights a critical blind spot in third-party script monitoring and supply chain security.",
       "date": "2026-04-16T10:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d1e7ca1a-48e5-4a69-9f74-ca47cba33962",
@@ -549,7 +560,7 @@
       "summary": "A study of LLM routing services reveals that intermediaries can maliciously manipulate user commands and expose sensitive data before requests reach the final model. Researchers found that many existing routers are already altering commands, highlighting a significant security risk in the LLM supply chain.",
       "date": "2026-04-16T06:00:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/16/llm-router-security-risk-agent-commands/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "079ae604-d953-4f44-baa1-3fea80e432b9",
@@ -747,7 +758,7 @@
       "summary": "A digitally signed adware tool is being leveraged to deploy malicious payloads that disable antivirus software and execute with SYSTEM-level privileges across critical sectors. Thousands of endpoints have already been impacted by this privilege escalation and defensive evasion tactic.",
       "date": "2026-04-15T17:59:30.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "434024fb-31f1-40bb-b142-e8559edbee31",
@@ -5488,17 +5499,6 @@
       "summary": "The China-linked threat actor TA416 has resumed targeting European government and diplomatic organizations using PlugX malware and OAuth-based phishing tactics. The campaign marks a return to activity for a group known by various aliases including RedDelta and SmugX.",
       "date": "2026-04-03T17:34:00.000Z",
       "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4da278d0-fc3b-4b58-94ab-8703b1ee6f7e",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "North Korean Hackers Abuse GitHub to Spy on South Korean Firms",
-      "summary": "North Korean threat actors are exploiting GitHub to conduct espionage campaigns targeting South Korean corporations. The operation has been identified by FortiGuard Labs as a high-severity security threat.",
-      "date": "2026-04-03T17:05:23.000Z",
-      "link": "https://hackread.com/north-korean-hackers-github-spy-south-korean-firms/",
       "isTopTen": false
     }
   ]
