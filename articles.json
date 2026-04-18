@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-18T15:44:51.848Z",
+  "lastUpdated": "2026-04-18T19:02:44.869Z",
   "articles": [
+    {
+      "id": "65f16a48-410a-4044-b060-522ca21cbadd",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hidden VMs: how hackers leverage QEMU to stealthily steal data and spread malware",
+      "summary": "Threat actors are increasingly abusing the open-source QEMU emulator to execute malware within hidden virtual machines, allowing them to bypass endpoint security controls and minimize their forensic footprint. This technique enables attackers to conduct data theft and ransomware deployments while remaining undetected by traditional security monitoring.",
+      "date": "2026-04-18T15:20:06.000Z",
+      "link": "https://securityaffairs.com/190982/security/hidden-vms-how-hackers-leverage-qemu-to-stealthily-steal-data-and-spread-malware.html",
+      "isTopTen": true
+    },
     {
       "id": "3bc7ff1d-415e-401a-a108-7ec5a1adda2d",
       "source": "BleepingComputer",
@@ -21,7 +32,7 @@
       "summary": "Hackers are actively exploiting an older ShowDoc vulnerability, tracked as CVE-2025-0520, to install web shells and gain unauthorized remote code execution access to servers. Users are urged to ensure their instances are fully patched to prevent complete system compromise.",
       "date": "2026-04-18T14:25:37.000Z",
       "link": "https://hackread.com/showdoc-vulnerability-patch-2020-server-takeover/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c9144e26-e0c5-4feb-81a4-722e44af247a",
@@ -98,7 +109,7 @@
       "summary": "A new Mirai botnet variant called Nexcorium is actively exploiting command injection vulnerability CVE-2024-3721 to hijack TBK DVR devices and TP-Link routers for DDoS operations.",
       "date": "2026-04-18T06:01:00.000Z",
       "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "00d2254c-f683-4ea2-a12d-7343b09fab18",
@@ -164,7 +175,7 @@
       "summary": "Security researchers have identified four new Android malware strains—RecruitRat, SaferRat, Astrinox, and Massiv—that are actively targeting over 800 global banking applications. These campaigns represent a significant threat to mobile financial security through coordinated malicious activity.",
       "date": "2026-04-17T18:44:32.000Z",
       "link": "https://hackread.com/recruitrat-saferrat-astrinox-massiv-android-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5d4bb8c0-3a77-4f89-8864-10d146ca1816",
@@ -252,7 +263,7 @@
       "summary": "The Russian-linked APT28 group is conducting a targeted cyber campaign against Ukrainian government agencies by exploiting a remote code execution vulnerability in the Roundcube webmail platform. Victims are compromised simply by opening a malicious email, without needing to interact with attachments.",
       "date": "2026-04-17T14:12:00.000Z",
       "link": "https://therecord.media/ukraine-confirms-suspected-apt28-campaign-targeting-prosecutors",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "32acb0ea-bf8f-4720-ad7a-0079d2a72f81",
@@ -571,7 +582,7 @@
       "summary": "A researcher claims that a design flaw in Anthropic's Model Context Protocol (MCP) leaves 200,000 servers vulnerable, though the company reportedly refuses to acknowledge the issue as a flaw. The vulnerability could potentially be exploited to gain unauthorized access or control over affected systems.",
       "date": "2026-04-16T22:45:37.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/anthropic_mcp_design_flaw/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b70ca9c6-2689-4155-90bb-29abb0715f85",
@@ -5488,17 +5499,6 @@
       "summary": "The Drift Protocol suffered a $280 million theft resulting from a long-term, coordinated infiltration effort where attackers established an operational presence within the ecosystem. The incident highlights the sophisticated nature of the exploit, which took place over six months.",
       "date": "2026-04-06T16:35:03.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
-      "isTopTen": false
-    },
-    {
-      "id": "6cdbe12c-d2dc-47fc-9f43-48712c539d49",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
-      "summary": "DPRK-linked threat actors are targeting South Korean organizations using GitHub as command-and-control infrastructure within a multi-stage attack chain involving LNK files. The campaign utilizes obfuscated shortcuts to deliver decoy documents and initiate further malicious activity.",
-      "date": "2026-04-06T16:24:00.000Z",
-      "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
       "isTopTen": false
     }
   ]
