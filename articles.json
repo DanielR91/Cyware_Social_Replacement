@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-18T05:15:47.921Z",
+  "lastUpdated": "2026-04-18T07:22:42.458Z",
   "articles": [
+    {
+      "id": "3c6ac29a-6b3b-4694-9f4a-94037e1720eb",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Defender under attack as three zero-days, two of them still unpatched, enable elevated access",
+      "summary": "Three Microsoft Defender zero-day vulnerabilities, collectively known as BlueHammer, RedSun, and UnDefend, are being exploited to grant attackers unauthorized elevated system privileges.",
+      "date": "2026-04-18T06:49:12.000Z",
+      "link": "https://securityaffairs.com/190961/hacking/microsoft-defender-under-attack-as-three-zero-days-two-of-them-still-unpatched-enable-elevated-access.html",
+      "isTopTen": true
+    },
+    {
+      "id": "c714bef8-6eff-4856-ba44-aeca64358968",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+      "summary": "A new Mirai botnet variant called Nexcorium is actively exploiting command injection vulnerability CVE-2024-3721 to hijack TBK DVR devices and TP-Link routers for DDoS operations.",
+      "date": "2026-04-18T06:01:00.000Z",
+      "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+      "isTopTen": false
+    },
     {
       "id": "00d2254c-f683-4ea2-a12d-7343b09fab18",
       "source": "Unit 42",
@@ -87,7 +109,7 @@
       "summary": "Organizations are actively migrating to post-quantum cryptography to defend against future decryption threats, specifically the 'harvest now, decrypt later' tactic used by attackers. This transition highlights the urgent need for long-term data security against emerging quantum computing capabilities.",
       "date": "2026-04-17T17:44:46.000Z",
       "link": "https://hackread.com/race-to-quantum-proof-the-internet/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "09eb1e1c-6914-49b4-99b2-23fca1c8a041",
@@ -109,7 +131,7 @@
       "summary": "CISA has issued a directive requiring federal agencies to remediate a 13-year-old vulnerability in Apache ActiveMQ that is currently being exploited in the wild. The mandate highlights the critical risk posed by unpatched legacy software.",
       "date": "2026-04-17T17:09:51.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/cisa_tells_feds_to_patch/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4c7de12d-9b12-4295-8cc8-c15153139fb2",
@@ -186,7 +208,7 @@
       "summary": "International law enforcement successfully dismantled 53 DDoS-for-hire domains, arrested four individuals, and gained access to data on over 3 million criminal user accounts. The operation effectively neutralized a significant portion of infrastructure used by tens of thousands of cybercriminals to launch distributed denial-of-service attacks.",
       "date": "2026-04-17T13:38:32.000Z",
       "link": "https://securityaffairs.com/190932/cyber-crime/operation-poweroff-53-ddos-domains-seized-and-3-million-criminal-accounts-uncovered.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a8e51063-1a6f-4d7c-bcf5-fb00873b3012",
@@ -263,7 +285,7 @@
       "summary": "A security researcher has released proof-of-concept exploits for three Microsoft Defender zero-day vulnerabilities, all of which are currently being actively exploited in the wild. The vulnerabilities include privilege escalation flaws and methods to disable or block security updates.",
       "date": "2026-04-17T10:04:26.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/17/microsoft-defender-zero-days-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10a1e1fb-3f96-491d-a5e0-80d2b369a371",
@@ -420,6 +442,17 @@
       "isTopTen": false
     },
     {
+      "id": "550afb64-cfc0-4de8-bfc2-acf8b7cd643a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Android 17 Beta 4 arrives with post-quantum cryptography and new memory limits",
+      "summary": "Google has released Android 17 Beta 4, introducing new memory management limits and incorporating post-quantum cryptography to enhance platform security. This update serves as the final beta phase, focusing on developer compatibility and stability before the official release.",
+      "date": "2026-04-17T06:14:13.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/17/android-17-beta-4-released/",
+      "isTopTen": false
+    },
+    {
       "id": "d3ce3e84-03f1-4d19-bfaa-9873c6216db4",
       "source": "The Hacker News",
       "tag": "Breaches and Incidents",
@@ -439,7 +472,7 @@
       "summary": "CISA has added a high-severity vulnerability in Apache ActiveMQ Classic (CVE-2026-34197) to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild. Federal agencies are now required to remediate this flaw to mitigate security risks.",
       "date": "2026-04-17T03:22:00.000Z",
       "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6d3bc879-eeba-4a59-a8e7-60e69d7d6e05",
@@ -450,7 +483,7 @@
       "summary": "Two U.S. nationals were sentenced for operating shell companies and laptop farms that facilitated North Korean operatives in securing remote technology jobs at over 100 American companies. This scheme allowed North Korean agents to infiltrate U.S. corporate environments to generate illicit revenue.",
       "date": "2026-04-16T23:05:57.000Z",
       "link": "https://cyberscoop.com/us-nationals-sentenced-facilitate-north-korea-tech-worker-scheme/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9123c7c8-f98a-47f9-a61b-fba718ead587",
@@ -461,7 +494,7 @@
       "summary": "A researcher claims that a design flaw in Anthropic's Model Context Protocol (MCP) leaves 200,000 servers vulnerable, though the company reportedly refuses to acknowledge the issue as a flaw. The vulnerability could potentially be exploited to gain unauthorized access or control over affected systems.",
       "date": "2026-04-16T22:45:37.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/anthropic_mcp_design_flaw/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b70ca9c6-2689-4155-90bb-29abb0715f85",
@@ -516,7 +549,7 @@
       "summary": "Cisco has released patches for four critical vulnerabilities in its Identity Services and Webex platforms that could enable unauthorized code execution and user impersonation. These security flaws present significant risks, necessitating immediate updates for affected systems.",
       "date": "2026-04-16T19:19:25.000Z",
       "link": "https://securityaffairs.com/190909/security/cisco-fixed-four-critical-flaws-in-identity-services-and-webex.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "50274580-ae4e-4a65-8266-3d635aa7d197",
@@ -604,7 +637,7 @@
       "summary": "Two Americans were sentenced to over 16 years in prison for orchestrating a scheme that placed North Korean IT workers in U.S. companies to siphon wages for the regime. The operation exploited remote work platforms to bypass sanctions and facilitate illicit funding for North Korea's weapons program.",
       "date": "2026-04-16T15:13:37.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/nork_it_worker_scam_facilitators_sentenced_200_months/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e879b9aa-c50a-4f89-afd4-5a878f723e93",
@@ -5466,39 +5499,6 @@
       "summary": "The shift toward multi-OS cyberattacks highlights the risks of fragmented security operations across diverse enterprise environments. Security Operations Centers must unify workflows to effectively defend against cross-platform threats spanning Windows, macOS, Linux, and mobile devices.",
       "date": "2026-04-06T13:00:00.000Z",
       "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d5854e8f-c8d8-43fb-bc99-60897c8d887c",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
-      "summary": "This week's cybersecurity landscape was marked by significant incidents, including an Axios hack, a Chrome zero-day vulnerability, and active exploits targeting Fortinet systems and Paragon spyware. These events highlight the increasing speed at which vulnerabilities are being exploited across widely used software.",
-      "date": "2026-04-06T12:46:00.000Z",
-      "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f60b8cb7-2080-485a-9464-046359f9644f",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Major outage hits Russian banking apps, metro payments across regions",
-      "summary": "Major Russian banking institutions and public transit payment systems experienced a widespread service outage, disrupting operations across multiple regions. The incident impacted top-tier banks including Sberbank, VTB, and Alfa-Bank.",
-      "date": "2026-04-06T12:37:00.000Z",
-      "link": "https://therecord.media/outage-hits-russian-banking-apps",
-      "isTopTen": false
-    },
-    {
-      "id": "47293514-895d-4b2a-aa11-1f84515f082d",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers threaten to leak data after cyberattack on German party Die Linke",
-      "summary": "The German political party Die Linke is facing extortion threats after confirming a significant cyberattack on its IT infrastructure. Threat actors have claimed to possess sensitive data and are threatening to leak it.",
-      "date": "2026-04-06T12:29:00.000Z",
-      "link": "https://therecord.media/hackers-threaten-to-leak-german-political-party-data",
       "isTopTen": false
     }
   ]
