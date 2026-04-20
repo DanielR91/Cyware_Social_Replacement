@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-04-20T19:18:40.670Z",
+  "lastUpdated": "2026-04-20T21:56:39.643Z",
   "articles": [
+    {
+      "id": "1c9874da-40cb-4741-ad31-99e7bb106f16",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "China's Apple App Store infiltrated by crypto-stealing wallet apps",
+      "summary": "Malicious actors have uploaded 26 fraudulent cryptocurrency wallet apps to Apple's China App Store, designed to impersonate legitimate services and steal users' seed phrases to drain funds. This campaign highlights a significant security risk for iOS users targeting digital asset theft.",
+      "date": "2026-04-20T21:52:54.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/",
+      "isTopTen": false
+    },
+    {
+      "id": "a654bda5-f3c1-4982-b587-db4452d628ef",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Vercel Breach Linked to Context.ai, ShinyHunters Says It’s Not Involved",
+      "summary": "Vercel has confirmed a data breach originating from a third-party incident at Context.ai, with a threat actor offering allegedly stolen data for $2 million. The hacking group ShinyHunters has denied any involvement, claiming that other actors are using their name.",
+      "date": "2026-04-20T21:21:48.000Z",
+      "link": "https://hackread.com/vercel-breach-context-ai-shinyhunters-not-involved/",
+      "isTopTen": false
+    },
+    {
+      "id": "9afb625d-c39e-44dc-8eff-61c5757907db",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Vuln in Google’s Antigravity AI agent manager could escape sandbox, give attackers remote code execution",
+      "summary": "A vulnerability in Google's Antigravity AI agent manager allows attackers to bypass sandbox protections via prompt injection, potentially leading to remote code execution. Despite security measures like throttled network access, the system remains susceptible to this exploit.",
+      "date": "2026-04-20T21:17:31.000Z",
+      "link": "https://cyberscoop.com/google-antigravity-pillar-security-agent-sandbox-escape-remote-code-execution/",
+      "isTopTen": true
+    },
+    {
+      "id": "1b3ef6f4-f587-4920-a11c-df1d5ea1f308",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "The FTC’s AI portfolio is about to get bigger",
+      "summary": "The FTC is expanding its AI regulatory efforts to combat the rise of sexual deepfakes and AI-driven voice clone scams. This initiative signals a growing focus on enforcing new legal standards to prevent AI-enabled fraud and abuse.",
+      "date": "2026-04-20T21:00:27.000Z",
+      "link": "https://cyberscoop.com/ftc-ai-portolio-getting-bigger-take-it-down-voice-cloning/",
+      "isTopTen": false
+    },
+    {
+      "id": "642486a1-4133-46d6-886b-c70d6fd3dff8",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "France’s ANTS ID System website hit by cyberattack, possible data breach",
+      "summary": "The French ANTS website, which processes sensitive government identification applications, suffered a cyberattack that may have resulted in a breach of personal user data. Authorities identified the incident on April 15 and are currently investigating the exposure.",
+      "date": "2026-04-20T20:30:17.000Z",
+      "link": "https://securityaffairs.com/191069/data-breach/frances-ants-id-system-website-hit-by-cyberattack-possible-data-breach.html",
+      "isTopTen": false
+    },
+    {
+      "id": "82c09a15-4d6a-40ed-82c3-90085b13e480",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Vercel’s security breach started with malware disguised as Roblox cheats",
+      "summary": "Vercel suffered a security breach triggered by malware hidden in Roblox cheats, highlighting risks associated with interconnected SaaS applications and excessive permission privileges.",
+      "date": "2026-04-20T20:24:40.000Z",
+      "link": "https://cyberscoop.com/vercel-security-breach-third-party-attack-context-ai-lumma-stealer/",
+      "isTopTen": false
+    },
+    {
+      "id": "0c27846e-6b95-4168-9d84-9ab2790c35e2",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
+      "summary": "The Gentlemen ransomware gang has begun utilizing the SystemBC proxy malware to conduct bot-powered attacks, with researchers identifying a network of over 1,570 compromised corporate hosts. This integration indicates a shift toward more sophisticated, automated infrastructure for managing ransomware operations.",
+      "date": "2026-04-20T20:02:37.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "b781ca70-a87d-4bf0-b5a7-7d296d0d411c",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Claude Desktop changes app access settings for browsers you don't even have installed yet",
+      "summary": "The Claude Desktop application has been found to pre-configure browser integration settings for web browsers that are not currently installed on the user's system. This behavior has raised privacy and security concerns regarding how the application manages permissions and browser-based access.",
+      "date": "2026-04-20T19:56:55.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/anthropic_claude_desktop_spyware_allegation/",
+      "isTopTen": false
+    },
     {
       "id": "754550de-e79a-410e-80e9-f063d1c6b246",
       "source": "BleepingComputer",
@@ -329,7 +417,7 @@
       "summary": "Researchers demonstrated that the AI model Claude Opus can successfully generate functional Chrome exploits for a low cost, highlighting emerging risks in AI-assisted vulnerability weaponization.",
       "date": "2026-04-20T08:24:01.000Z",
       "link": "https://securityaffairs.com/191018/ai/ai-model-claude-opus-turns-bugs-into-exploits-for-just-2283.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "41e23f5e-2326-4bb0-b6cd-23f37918c3bd",
@@ -527,7 +615,7 @@
       "summary": "Threat actors are increasingly abusing the open-source QEMU emulator to execute malware within hidden virtual machines, allowing them to bypass endpoint security controls and minimize their forensic footprint. This technique enables attackers to conduct data theft and ransomware deployments while remaining undetected by traditional security monitoring.",
       "date": "2026-04-18T15:20:06.000Z",
       "link": "https://securityaffairs.com/190982/security/hidden-vms-how-hackers-leverage-qemu-to-stealthily-steal-data-and-spread-malware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3bc7ff1d-415e-401a-a108-7ec5a1adda2d",
@@ -681,7 +769,7 @@
       "summary": "Nearly two years after a ransomware attack, an NHS trust in London continues to struggle with system restoration and significant backlogs in medical testing. This highlights the long-term operational damage and patient safety risks caused by major cyber incidents.",
       "date": "2026-04-17T18:45:00.000Z",
       "link": "https://therecord.media/ransomware-nhs-cyberattack-disruption",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "af4094c1-116f-4b75-af37-9e7794b3e309",
@@ -692,7 +780,7 @@
       "summary": "Security researchers have identified four new Android malware strains—RecruitRat, SaferRat, Astrinox, and Massiv—that are actively targeting over 800 global banking applications. These campaigns represent a significant threat to mobile financial security through coordinated malicious activity.",
       "date": "2026-04-17T18:44:32.000Z",
       "link": "https://hackread.com/recruitrat-saferrat-astrinox-massiv-android-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5d4bb8c0-3a77-4f89-8864-10d146ca1816",
@@ -736,7 +824,7 @@
       "summary": "CISA has issued a directive requiring federal agencies to remediate a 13-year-old vulnerability in Apache ActiveMQ that is currently being exploited in the wild. The mandate highlights the critical risk posed by unpatched legacy software.",
       "date": "2026-04-17T17:09:51.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/cisa_tells_feds_to_patch/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4c7de12d-9b12-4295-8cc8-c15153139fb2",
@@ -5411,94 +5499,6 @@
       "summary": "The NCSC has issued a warning that the Russian-linked threat actor Fancy Bear is actively exploiting router vulnerabilities to redirect web traffic to malicious websites. This campaign leverages compromised network hardware to enhance the reach and credibility of fake digital platforms.",
       "date": "2026-04-07T17:02:05.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/07/russia_fancy_bear_ncsc_router_attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "0131df53-43e6-4c64-adcb-8dd7fc8d06a7",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign",
-      "summary": "The Russian state-linked threat actor APT28 has been targeting insecure MikroTik and TP-Link SOHO routers since May 2025 to hijack DNS settings for cyber espionage purposes. The campaign utilizes compromised hardware to establish malicious infrastructure on a global scale.",
-      "date": "2026-04-07T16:48:00.000Z",
-      "link": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
-      "isTopTen": false
-    },
-    {
-      "id": "165c6003-b38a-4562-800a-eb95143f7e91",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cybercrime losses jumped 26% to $20.9 billion in 2025",
-      "summary": "The FBI's 2025 report reveals a 26% increase in cybercrime losses, totaling $20.9 billion, while noting that many incidents remain unreported. This highlights a significant and worsening threat landscape for individuals and organizations alike.",
-      "date": "2026-04-07T16:47:46.000Z",
-      "link": "https://cyberscoop.com/fbi-internet-crime-complaint-center-annual-cybercrime-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "3a8a753f-a014-43d7-9ce0-3258fc992142",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "National security veterans warn against delays in FISA 702 reauthorization",
-      "summary": "National security experts are urging Congress to avoid delays in reauthorizing FISA Section 702, which is set to expire soon. Policymakers are planning a quick 18-month extension of the surveillance authority upon returning from recess.",
-      "date": "2026-04-07T16:29:00.000Z",
-      "link": "https://therecord.media/national-security-vets-warn-section-702-authorization-delay",
-      "isTopTen": false
-    },
-    {
-      "id": "9dddd64f-3bf2-4126-8e06-077d139505b8",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Russian hackers hijack internet traffic using vulnerable routers",
-      "summary": "The Russian state-sponsored group APT28 is exploiting vulnerabilities in routers to hijack web traffic by altering DNS and DHCP settings. The NCSC has confirmed that these activities are attributed to the GRU's military intelligence unit.",
-      "date": "2026-04-07T16:18:00.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/07/russian-hackers-router-hijacking-dns-credential-theft/",
-      "isTopTen": false
-    },
-    {
-      "id": "ee3db522-434d-4e4c-9912-3b771da14ea4",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "GrafanaGhost Vulnerability Allows Data Theft via AI Injection",
-      "summary": "Service busy.",
-      "date": "2026-04-07T15:55:01.000Z",
-      "link": "https://hackread.com/grafanaghost-vulnerability-data-theft-via-ai-injection/",
-      "isTopTen": false
-    },
-    {
-      "id": "1eb5624c-a045-49bb-b28d-5c8502dd1fe8",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Massachusetts hospital turning ambulances away after cyberattack",
-      "summary": "Signature Healthcare Brockton Hospital is diverting ambulances after a cyberattack disrupted critical information systems. The incident has significantly impacted hospital operations, forcing the facility to limit patient intake.",
-      "date": "2026-04-07T15:52:00.000Z",
-      "link": "https://therecord.media/massachusetts-hospital-turning-ambulances-away-cyberattack",
-      "isTopTen": false
-    },
-    {
-      "id": "d6916ed7-30b5-4d1a-9396-e25ef33f3693",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Authorities disrupt router DNS hijacks used to steal Microsoft 365 logins",
-      "summary": "International authorities and private sector partners have dismantled the FrostArmada campaign, which used compromised MikroTik and TP-Link routers to hijack DNS traffic and harvest Microsoft 365 login credentials. The operation successfully neutralized an APT28 initiative targeting local network traffic.",
-      "date": "2026-04-07T15:51:22.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
-      "isTopTen": false
-    },
-    {
-      "id": "dfd5ddbe-70b1-4e8e-bb00-045af8009c22",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
-      "summary": "Docker Engine is affected by CVE-2026-34040, a high-severity vulnerability that allows attackers to bypass authorization plugins and potentially gain host access due to an incomplete patch for a previous flaw. The vulnerability carries a CVSS score of 8.8.",
-      "date": "2026-04-07T15:15:00.000Z",
-      "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
       "isTopTen": false
     }
   ]
