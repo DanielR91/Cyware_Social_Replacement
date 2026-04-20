@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-04-20T16:25:16.723Z",
+  "lastUpdated": "2026-04-20T19:18:40.670Z",
   "articles": [
+    {
+      "id": "754550de-e79a-410e-80e9-f063d1c6b246",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Seiko USA website defaced as hacker claims customer data theft",
+      "summary": "Seiko USA's website was defaced by attackers who claim to have stolen the company's Shopify customer database and are demanding a ransom to prevent its release.",
+      "date": "2026-04-20T18:22:31.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
+      "isTopTen": false
+    },
+    {
+      "id": "3d6ba47c-de4b-4b1d-ad18-d1a370fd11d0",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Scattered Spider member Tyler Buchanan pleads guilty to major crypto theft",
+      "summary": "Tyler Buchanan, a member of the Scattered Spider threat group, has pleaded guilty in a US court to orchestrating a massive campaign of corporate hacking and cryptocurrency theft. The conviction follows his arrest by Spanish authorities for his role in targeting dozens of companies.",
+      "date": "2026-04-20T18:13:41.000Z",
+      "link": "https://securityaffairs.com/191052/cyber-crime/scattered-spider-member-tyler-buchanan-pleads-guilty-to-major-crypto-theft.html",
+      "isTopTen": false
+    },
+    {
+      "id": "808e7ca0-fc7e-4bf2-9009-5374721c8a5e",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Scot becomes second Scattered Spider-linked crook to plead guilty in US",
+      "summary": "A Scottish individual has pleaded guilty in a U.S. court for their involvement in the Scattered Spider cybercrime group, which is known for high-profile social engineering and ransomware attacks. This marks the second successful prosecution of an affiliate linked to the prolific threat actor.",
+      "date": "2026-04-20T17:22:17.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/scattered_spider_linked_scot_plead_guilty/",
+      "isTopTen": false
+    },
+    {
+      "id": "c8f89651-f506-4ff3-aa6a-bf376414bb38",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
+      "summary": "A critical remote code execution vulnerability (CVE-2026-5760) in SGLang allows attackers to execute arbitrary code by supplying malicious GGUF model files. The flaw has been assigned a CVSS score of 9.8.",
+      "date": "2026-04-20T17:14:00.000Z",
+      "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+      "isTopTen": true
+    },
+    {
+      "id": "ae6abfac-b941-41b3-9492-e4d1e6798d43",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Italian regulator fines national postal service orgs $15 million for data privacy violations",
+      "summary": "The Italian data protection regulator has issued fines totaling $15 million to Poste Italiane SpA and its subsidiary Postepay SpA for the unauthorized processing of personal data belonging to millions of users.",
+      "date": "2026-04-20T16:51:00.000Z",
+      "link": "https://therecord.media/italian-regulator-fines-postal-service-orgs-15-million-privacy",
+      "isTopTen": false
+    },
+    {
+      "id": "5d45cf71-5907-4385-9784-f118cd4670a7",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Crypto infrastructure company blames $290 million theft on North Korean hackers",
+      "summary": "A cryptocurrency infrastructure company has attributed a $290 million theft to North Korean hackers, marking a significant incident affecting multiple platforms. The event highlights ongoing security challenges within the crypto industry.",
+      "date": "2026-04-20T16:45:00.000Z",
+      "link": "https://therecord.media/crypto-north-korea-theft-kelp",
+      "isTopTen": true
+    },
     {
       "id": "1db82d69-2790-4b5d-ade0-3cd747602d8e",
       "source": "HackRead",
@@ -120,7 +186,7 @@
       "summary": "A suspected North Korean threat actor injected malicious code into the widely used Axios JavaScript library, exposing millions of users to supply chain risks. The incident highlights the urgent need for AI-driven security to detect and respond to such rapid, large-scale attacks.",
       "date": "2026-04-20T13:17:25.000Z",
       "link": "https://cyberscoop.com/ai-powered-security-operations-axios-supply-chain-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4928273d-655f-4908-9270-20852db0ca30",
@@ -186,7 +252,7 @@
       "summary": "The widely used protobuf.js library has been found to contain a critical remote code execution (RCE) vulnerability stemming from improper schema handling. Developers are advised to update their dependencies to prevent potential malicious code execution.",
       "date": "2026-04-20T10:42:15.000Z",
       "link": "https://hackread.com/52m-download-protobuf-js-library-rce-schema-handle/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ffb11519-7374-4846-8017-3376e7387254",
@@ -197,7 +263,7 @@
       "summary": "Researchers identified a critical design vulnerability in the Model Context Protocol that allows for remote code execution, potentially compromising AI supply chains. The flaw enables attackers to gain unauthorized access to systems utilizing vulnerable MCP implementations.",
       "date": "2026-04-20T10:42:00.000Z",
       "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2b96a685-1d9f-48c9-87eb-50143c758dd1",
@@ -285,7 +351,7 @@
       "summary": "Researchers have identified a new malware, ZionSiphon, engineered to target critical infrastructure including Israeli water and desalination OT systems. The malware establishes persistence and scans for local industrial control services to facilitate unauthorized access or manipulation.",
       "date": "2026-04-20T07:34:00.000Z",
       "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "38c61055-8996-4b25-a576-c8d0f434e2dc",
@@ -549,7 +615,7 @@
       "summary": "Three Microsoft Defender zero-day vulnerabilities, collectively known as BlueHammer, RedSun, and UnDefend, are being exploited to grant attackers unauthorized elevated system privileges.",
       "date": "2026-04-18T06:49:12.000Z",
       "link": "https://securityaffairs.com/190961/hacking/microsoft-defender-under-attack-as-three-zero-days-two-of-them-still-unpatched-enable-elevated-access.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c714bef8-6eff-4856-ba44-aeca64358968",
@@ -615,7 +681,7 @@
       "summary": "Nearly two years after a ransomware attack, an NHS trust in London continues to struggle with system restoration and significant backlogs in medical testing. This highlights the long-term operational damage and patient safety risks caused by major cyber incidents.",
       "date": "2026-04-17T18:45:00.000Z",
       "link": "https://therecord.media/ransomware-nhs-cyberattack-disruption",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "af4094c1-116f-4b75-af37-9e7794b3e309",
@@ -626,7 +692,7 @@
       "summary": "Security researchers have identified four new Android malware strains—RecruitRat, SaferRat, Astrinox, and Massiv—that are actively targeting over 800 global banking applications. These campaigns represent a significant threat to mobile financial security through coordinated malicious activity.",
       "date": "2026-04-17T18:44:32.000Z",
       "link": "https://hackread.com/recruitrat-saferrat-astrinox-massiv-android-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5d4bb8c0-3a77-4f89-8864-10d146ca1816",
@@ -670,7 +736,7 @@
       "summary": "CISA has issued a directive requiring federal agencies to remediate a 13-year-old vulnerability in Apache ActiveMQ that is currently being exploited in the wild. The mandate highlights the critical risk posed by unpatched legacy software.",
       "date": "2026-04-17T17:09:51.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/cisa_tells_feds_to_patch/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4c7de12d-9b12-4295-8cc8-c15153139fb2",
@@ -5433,72 +5499,6 @@
       "summary": "Docker Engine is affected by CVE-2026-34040, a high-severity vulnerability that allows attackers to bypass authorization plugins and potentially gain host access due to an incomplete patch for a previous flaw. The vulnerability carries a CVSS score of 8.8.",
       "date": "2026-04-07T15:15:00.000Z",
       "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4eb0ec90-4b78-46a3-8e70-c1de856dc249",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Why Your Automated Pentesting Tool Just Hit a Wall",
-      "summary": "Automated pentesting tools often experience a performance plateau known as the 'PoC cliff,' which leaves significant attack surfaces unvalidated. This creates security gaps that leave organizations vulnerable despite initial testing success.",
-      "date": "2026-04-07T14:01:11.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/why-your-automated-pentesting-tool-just-hit-a-wall/",
-      "isTopTen": false
-    },
-    {
-      "id": "a9df1560-5dfd-43dd-b2d8-464a76e7d5a1",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "UK exposes Russian cyber unit hacking home routers to hijack internet traffic",
-      "summary": "UK officials have identified a Russian state-linked cyber unit that is compromising home and small office routers to hijack internet traffic. The campaign exploits devices with outdated software or weak security configurations.",
-      "date": "2026-04-07T14:00:00.000Z",
-      "link": "https://therecord.media/uk-exposes-russian-cyber-unit-hacking-home-routers",
-      "isTopTen": false
-    },
-    {
-      "id": "80d9b941-a1dc-4ef1-aabe-ec596ff30969",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Major outage cripples Russian banking apps and metro payments nationwide",
-      "summary": "A widespread outage incapacitated major Russian banking applications and payment systems, leaving customers unable to access mobile banking, withdraw cash, or use cards for several hours.",
-      "date": "2026-04-07T13:57:19.000Z",
-      "link": "https://securityaffairs.com/190464/security/major-outage-cripples-russian-banking-apps-and-metro-payments-nationwide.html",
-      "isTopTen": false
-    },
-    {
-      "id": "37f550fc-6982-4155-83d8-0220cde84366",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "‘GrafanaGhost’ bypasses Grafana’s AI defenses without leaving a trace",
-      "summary": "Researchers discovered 'GrafanaGhost,' an indirect prompt injection vulnerability that allows attackers to exfiltrate sensitive corporate data through Grafana's AI features without leaving detectable traces. The exploit effectively weaponizes the AI against the platform to bypass existing security controls.",
-      "date": "2026-04-07T13:44:35.000Z",
-      "link": "https://cyberscoop.com/grafanaghost-grafana-prompt-injection-vulnerability-data-exfiltration/",
-      "isTopTen": false
-    },
-    {
-      "id": "46ffc46a-618c-4b97-ac10-379f9f23f015",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Acronis MDR by TRU brings 24/7 managed detection and response to MSPs",
-      "summary": "Acronis has launched a 24/7 managed detection and response (MDR) service specifically designed for managed service providers to scale their security offerings. The service leverages the company's internal Threat Research Unit to provide incident response and threat detection capabilities without requiring an in-house security operations center.",
-      "date": "2026-04-07T13:37:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/07/acronis-mdr-by-acronis-tru/",
-      "isTopTen": false
-    },
-    {
-      "id": "e829d3ba-785f-4c8d-98ca-0264d93c9ae0",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Fast-moving Storm-1175 uses new exploits to breach networks and drop Medusa",
-      "summary": "The China-based threat group Storm-1175 is actively exploiting newly disclosed vulnerabilities to gain unauthorized access and rapidly deploy Medusa ransomware. The actor focuses on speed, targeting exposed systems before organizations can apply necessary security patches.",
-      "date": "2026-04-07T13:20:50.000Z",
-      "link": "https://securityaffairs.com/190440/cyber-crime/fast-moving-storm-1175-uses-new-exploits-to-breach-networks-and-drop-medusa.html",
       "isTopTen": false
     }
   ]
