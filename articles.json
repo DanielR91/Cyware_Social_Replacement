@@ -1,6 +1,116 @@
 {
-  "lastUpdated": "2026-04-22T08:10:36.655Z",
+  "lastUpdated": "2026-04-22T10:35:22.421Z",
   "articles": [
+    {
+      "id": "2b54b63e-3695-4eca-abe2-f6f84b1947dd",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Microsoft traces Universal Print issues to Graph API code change",
+      "summary": "Microsoft confirmed that a recent issue preventing the creation of Universal Print shares was caused by a configuration change within the Microsoft Graph API. The company is currently working to resolve the service disruption affecting impacted users.",
+      "date": "2026-04-22T10:15:09.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
+      "isTopTen": false
+    },
+    {
+      "id": "c53efb30-1970-4fe2-8c8a-2a4b5d76cb6c",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "When Wi-Fi Encryption Fails: Protecting Your Enterprise from AirSnitch Attacks",
+      "summary": "Unit 42 researchers have identified 'AirSnitch' attacks that successfully bypass WPA2/3 encryption and client isolation protocols, posing significant risks to enterprise network infrastructure.",
+      "date": "2026-04-22T10:00:22.000Z",
+      "link": "https://unit42.paloaltonetworks.com/air-snitch-enterprise-wireless-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "bc324880-d3bd-4d96-b42d-1b4aff9c3b00",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Phishing reclaims the top initial access spot, attackers experiment with AI tools",
+      "summary": "Phishing has re-emerged as the primary initial access vector in Q1 2026, while threat actors continue to integrate AI tools into their attack methodologies.",
+      "date": "2026-04-22T10:00:03.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/22/cisco-phishing-initial-access-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "df967b88-d63f-46c0-b002-814843b05bd9",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
+      "summary": "A new Linux-based backdoor called GoGra leverages the legitimate Microsoft Graph API and Outlook mailboxes to facilitate command-and-control communication and payload delivery. By abusing trusted infrastructure, the malware evades detection while targeting Linux environments.",
+      "date": "2026-04-22T10:00:00.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
+      "isTopTen": false
+    },
+    {
+      "id": "d67433ec-1afe-4195-a2c0-516d0f515842",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The AI era demands a different kind of CISO",
+      "summary": "The rapid pace of AI-driven cyberattacks renders traditional, static security audits obsolete, necessitating a transition to real-time threat monitoring and proactive risk management for CISOs.",
+      "date": "2026-04-22T10:00:00.000Z",
+      "link": "https://cyberscoop.com/ciso-strategy-ai-real-time-risk-op-ed/",
+      "isTopTen": false
+    },
+    {
+      "id": "e1612e53-32c3-4bb9-a4d0-9d8a867f6acb",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "OneDrive updates focus on AI, access control, and compliance",
+      "summary": "Microsoft has introduced updates to OneDrive focused on integrating AI capabilities, improving administrative access controls, and enhancing organizational compliance. These changes aim to transform the platform into a more intelligent workspace for document management and collaboration.",
+      "date": "2026-04-22T09:47:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/22/microsoft-onedrive-intelligence-collaboration-updates/",
+      "isTopTen": false
+    },
+    {
+      "id": "c0b3d112-fc7b-4c07-968f-e9552183326d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
+      "summary": "Microsoft has released an out-of-band security update to address a critical privilege escalation vulnerability in ASP.NET Core tracked as CVE-2026-40372. The flaw, which involves improper cryptographic verification, carries a high CVSS score of 9.1.",
+      "date": "2026-04-22T09:29:00.000Z",
+      "link": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5b000d10-0cdb-4a52-918c-9f01ae2bf2c0",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Oil crisis? What oil crisis? IT spending de-coupled from wider war shock",
+      "summary": "Recent market analysis indicates that corporate IT spending remains resilient despite global geopolitical instability and potential energy sector shocks. This suggests that cybersecurity and digital infrastructure investments continue to be prioritized by organizations regardless of wider economic pressures.",
+      "date": "2026-04-22T08:30:11.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/oil_crisis_what_oil_crisis/",
+      "isTopTen": false
+    },
+    {
+      "id": "4a60d464-c982-46e0-bd66-15940adc398e",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft releases emergency patches for critical ASP.NET flaw",
+      "summary": "Microsoft has issued emergency out-of-band security updates to address a critical privilege escalation vulnerability affecting ASP.NET Core. Users are urged to apply these patches immediately to mitigate potential security risks.",
+      "date": "2026-04-22T08:08:16.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/",
+      "isTopTen": false
+    },
+    {
+      "id": "269033f5-e5ad-4a4b-bfbe-1abc31265830",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
+      "summary": "The Mustang Panda threat group has launched a new campaign using a LOTUSLITE malware variant to target banking sectors in India and policy organizations in South Korea. The backdoor enables espionage activities through remote shell access, file management, and command-and-control communication.",
+      "date": "2026-04-22T07:58:00.000Z",
+      "link": "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
+      "isTopTen": false
+    },
     {
       "id": "27b8a4a5-95db-41ff-99f7-482bb8f009b8",
       "source": "Security Affairs",
@@ -10,6 +120,17 @@
       "summary": "The Lotus Wiper malware has targeted Venezuela's energy and utility sectors, employing batch scripts to disable security defenses before executing irreversible data erasure. Kaspersky researchers identified the activity as part of a campaign occurring during 2025–2026 amidst regional geopolitical tensions.",
       "date": "2026-04-22T07:53:08.000Z",
       "link": "https://securityaffairs.com/191106/malware/venezuela-energy-sector-targeted-by-highly-destructive-lotus-wiper.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2ff7ec9d-1195-4c94-a093-8597abf3b0fd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
+      "summary": "A critical sandbox escape vulnerability (CVE-2026-5752) in Cohere AI's Terrarium environment allows attackers to achieve arbitrary code execution with root privileges through JavaScript prototype chain traversal.",
+      "date": "2026-04-22T07:16:00.000Z",
+      "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
       "isTopTen": false
     },
     {
@@ -5378,127 +5499,6 @@
       "summary": "Cryptographers have entered into a $5,000 wager regarding the future impact and timeline of quantum computing on existing cryptographic standards. This highlights the ongoing debate within the industry over the urgency of adopting post-quantum security measures.",
       "date": "2026-04-09T07:00:10.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/cryptograhpers_quantum_bet/",
-      "isTopTen": false
-    },
-    {
-      "id": "2857f89b-04bb-4d4a-9052-c908fbd47076",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Microsoft suspends dev accounts for high-profile open source projects",
-      "summary": "Microsoft suspended developer accounts for several key open-source projects without prior notice, preventing the release of critical software updates and security patches. This disruption impacts the maintenance and delivery of software for the Windows ecosystem.",
-      "date": "2026-04-09T06:46:26.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
-      "isTopTen": false
-    },
-    {
-      "id": "cc2abb25-ed2f-46c3-ad0a-dae2212e06ad",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI agent intent is a starting point, not a security strategy",
-      "summary": "Research from Token Security reveals that 65% of unused AI agentic chatbots retain live access credentials, creating significant security risks similar to orphaned service accounts. The report emphasizes the need to treat AI agents as governed identities rather than transient experiments.",
-      "date": "2026-04-09T05:30:01.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/09/itamar-apelblat-token-security-ai-agents-security-risks/",
-      "isTopTen": false
-    },
-    {
-      "id": "51292ed1-6974-4d77-8ca3-e8f66736507e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Asqav: Open-source SDK for AI agent governance",
-      "summary": "Asqav is an open-source Python SDK that secures autonomous AI agents by using cryptographic signatures and hash chains to provide an immutable record of agent actions. It utilizes quantum-resistant ML-DSA-65 signatures and RFC 3161 timestamps to ensure accountability and traceability in AI workflows.",
-      "date": "2026-04-09T05:00:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/09/asqav-ai-agent-audit-trail/",
-      "isTopTen": false
-    },
-    {
-      "id": "5bd31e35-fc9f-4531-8c16-f713d12b014e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Phishers sneak through using GitHub and Jira’s own mail delivery infrastructure",
-      "summary": "Attackers are exploiting the legitimate email notification infrastructure of SaaS platforms like GitHub and Jira to bypass SPF, DKIM, and DMARC authentication checks for phishing campaigns. By using trusted delivery systems, malicious actors can successfully deliver fraudulent content that appears verified by reputable platforms.",
-      "date": "2026-04-09T04:30:03.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/09/saas-platforms-notification-systems-phishing/",
-      "isTopTen": false
-    },
-    {
-      "id": "0002cb14-2da7-4b3b-b26b-bd240778e1f2",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Prompt injection tags along as GenAI enters daily government use",
-      "summary": "The integration of generative AI into state and territorial government workflows has introduced new security risks, specifically the persistent threat of prompt injection attacks. A recent CIS report highlights these vulnerabilities as government agencies increasingly adopt AI tools.",
-      "date": "2026-04-09T04:00:19.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/09/genai-prompt-injection-enterprise-data-risk/",
-      "isTopTen": false
-    },
-    {
-      "id": "ef062741-73be-48d5-95b7-e41fb659a776",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cybercriminals target accountants to drain Russian firms’ bank accounts",
-      "summary": "Cybercriminals are targeting accountants at Russian firms to gain unauthorized access and siphon funds by disguising fraudulent transfers as legitimate salary payments. The campaign has resulted in significant financial losses, with individual incidents reaching millions of rubles.",
-      "date": "2026-04-08T23:00:00.000Z",
-      "link": "https://therecord.media/cybercriminals-hack-russian-accountants-to-steal-millions",
-      "isTopTen": false
-    },
-    {
-      "id": "68d4d83e-9a4b-4140-85f1-6ec5c2fa240e",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hackers use pixel-large SVG trick to hide credit card stealer",
-      "summary": "Hackers are conducting a large-scale campaign targeting Magento e-commerce stores by embedding malicious credit card-stealing code within tiny, pixel-sized SVG image files. This obfuscation technique allows attackers to bypass detection while harvesting payment data from online shoppers.",
-      "date": "2026-04-08T22:34:26.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
-      "isTopTen": false
-    },
-    {
-      "id": "fce2f417-c31a-4423-99f3-4c8dc5bb7f92",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Cracks in the Bedrock: Agent God Mode",
-      "summary": "Unit 42 discovered a vulnerability in Amazon Bedrock AgentCore called 'Agent God Mode' that enables privilege escalation and potential data exfiltration due to overly permissive IAM configurations.",
-      "date": "2026-04-08T22:00:51.000Z",
-      "link": "https://unit42.paloaltonetworks.com/exploit-of-aws-agentcore-iam-god-mode/",
-      "isTopTen": false
-    },
-    {
-      "id": "f8be4194-e587-4017-8fe9-911b6f1c2ba8",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Google: New UNC6783 hackers steal corporate Zendesk support tickets",
-      "summary": "The threat actor UNC6783 is compromising business process outsourcing providers to gain unauthorized access to corporate Zendesk support tickets. This supply chain-style attack allows the group to infiltrate high-value organizations across multiple industries.",
-      "date": "2026-04-08T21:46:27.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
-      "isTopTen": false
-    },
-    {
-      "id": "098212a1-517d-4136-b548-e41240e13f56",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds a flaw in Ivanti EPMM to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added a critical code injection vulnerability (CVE-2026-1340) in Ivanti Endpoint Manager Mobile to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
-      "date": "2026-04-08T21:35:09.000Z",
-      "link": "https://securityaffairs.com/190519/security/u-s-cisa-adds-a-flaw-in-ivanti-epmm-to-its-known-exploited-vulnerabilities-catalog-2.html",
-      "isTopTen": false
-    },
-    {
-      "id": "180bda52-f0ae-4380-af0d-3eb1d5e67a97",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Criminal wannabes even more dangerous than the pros, says ex-FBI cyber chief",
-      "summary": "A former FBI cyber official warns that unskilled, aspiring cybercriminals pose a greater threat than professional groups due to their reckless and unpredictable methods. Their lack of operational security and disregard for consequences often lead to more chaotic and damaging attacks.",
-      "date": "2026-04-08T21:09:51.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/08/cynthia_kaiser_interview/",
       "isTopTen": false
     }
   ]
