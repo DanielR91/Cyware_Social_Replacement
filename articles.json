@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-04-22T19:33:49.216Z",
+  "lastUpdated": "2026-04-22T21:59:13.575Z",
   "articles": [
+    {
+      "id": "1ac4cfa9-a20a-4abc-bc45-7d51be7d1cf6",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Anthropic's super-scary bug hunting model Mythos is shaping up to be a nothingburger",
+      "summary": "Recent analysis suggests that Mythos, an AI model developed by Anthropic for automated bug hunting, has failed to live up to its hype regarding security research capabilities.",
+      "date": "2026-04-22T21:39:44.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/",
+      "isTopTen": false
+    },
+    {
+      "id": "fb88bd6a-fa95-45f9-8fe8-57cef3a39165",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Apple fixes iOS bug that retained deleted notification data",
+      "summary": "Apple has issued out-of-band security updates for iOS and iPadOS to resolve a vulnerability that caused deleted notification data to persist on user devices. The fix addresses a privacy flaw within the Notification Services component.",
+      "date": "2026-04-22T20:58:58.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "7525bf94-22ba-4a3b-8adb-278e7f3f05cf",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "North Korean hackers siphon more than $12 million from crypto users in sprawling campaign",
+      "summary": "North Korean threat actors successfully exfiltrated over $12 million in cryptocurrency from individual users during the first quarter of 2026 using malware-based campaigns. The attacks targeted personal devices to bypass traditional security measures.",
+      "date": "2026-04-22T20:48:00.000Z",
+      "link": "https://therecord.media/north-korean-hackers-siphon-12-million-from-crypto-users",
+      "isTopTen": false
+    },
+    {
+      "id": "f444f86b-139d-4996-80fb-e2a9af5cb8dd",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "CISA director pick Sean Plankey withdraws his nomination",
+      "summary": "Sean Plankey has withdrawn his nomination for CISA director after facing a year-long delay in the confirmation process. His departure leaves the agency facing continued leadership instability.",
+      "date": "2026-04-22T20:29:41.000Z",
+      "link": "https://cyberscoop.com/cisa-director-pick-sean-plankey-withdraws-his-nomination/",
+      "isTopTen": false
+    },
+    {
+      "id": "ef1b7d60-dcca-41d4-ac29-4fcc4f395f27",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "House Republicans roll out national privacy bill",
+      "summary": "House Republicans have introduced a federal privacy bill modeled after existing state-level legislation in Virginia and Kentucky. However, the proposal faces potential challenges due to a lack of bipartisan support.",
+      "date": "2026-04-22T20:15:56.000Z",
+      "link": "https://cyberscoop.com/house-republicans-release-national-privacy-legislation/",
+      "isTopTen": false
+    },
+    {
+      "id": "a03a3531-1392-45da-8447-3d8910c06948",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Mirai campaign exploits RCE flaw in EoL D-Link routers",
+      "summary": "A new Mirai-based botnet campaign is actively exploiting a high-severity command-injection vulnerability, CVE-2025-29635, in end-of-life D-Link DIR-823X routers to compromise devices.",
+      "date": "2026-04-22T20:04:46.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
+      "isTopTen": false
+    },
+    {
+      "id": "33454d1d-1fb7-4bbe-b11d-b1a40b2694f9",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google’s Workspace Intelligence promises privacy while running on your data",
+      "summary": "Google has introduced Workspace Intelligence, an AI-powered system designed to analyze and organize content across Google Workspace apps while emphasizing data privacy and compliance. The feature aims to provide secure insights by leveraging the existing security infrastructure of the Workspace platform.",
+      "date": "2026-04-22T19:55:20.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/22/google-workspace-intelligence-feature/",
+      "isTopTen": false
+    },
     {
       "id": "525a87d9-6890-4563-a9e7-7fe9c93818ee",
       "source": "The Record",
@@ -54,7 +131,7 @@
       "summary": "Threat actors compromised the official Checkmarx KICS Docker Hub repository by overwriting existing tags and injecting a malicious version, alongside reports of compromised VS Code extensions. This supply chain attack highlights significant risks to developers utilizing poisoned container images.",
       "date": "2026-04-22T17:55:00.000Z",
       "link": "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "49457eac-8e55-4afa-bd21-25124116efb5",
@@ -175,7 +252,7 @@
       "summary": "Microsoft has released an out-of-band security update to address a critical privilege escalation vulnerability in ASP.NET Core (CVE-2026-40372) that could allow attackers to gain SYSTEM-level access. The patch is available in ASP.NET Core version 10.0.7.",
       "date": "2026-04-22T14:00:19.000Z",
       "link": "https://securityaffairs.com/191130/security/microsoft-out-of-band-updates-fixed-critical-asp-net-core-privilege-escalation-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "23d31cb8-72a5-41e8-9fa4-034ea90f3cd6",
@@ -219,7 +296,7 @@
       "summary": "Researchers have discovered 22 'BRIDGE:BREAK' vulnerabilities in Lantronix and Silex Technology serial-to-IP converters, potentially exposing 20,000 devices to remote hijacking and data tampering. These flaws impact legacy equipment connected to modern IP networks, necessitating urgent security patches.",
       "date": "2026-04-22T13:29:22.000Z",
       "link": "https://securityaffairs.com/191114/hacking/critical-bridgebreak-flaws-impact-lantronix-and-silex-technology-converters.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d9bac242-bda3-4bdd-ba41-d8a550a2750c",
@@ -274,7 +351,7 @@
       "summary": "The UK's cybersecurity agency is managing four major nation-state cyber incidents weekly, marking a shift from criminal-led attacks to state-sponsored threats.",
       "date": "2026-04-22T12:45:00.000Z",
       "link": "https://therecord.media/UK-cyberattacks-ncsc-china",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cbb4c465-d129-4b8b-826f-e300de29692f",
@@ -409,17 +486,6 @@
       "isTopTen": false
     },
     {
-      "id": "df967b88-d63f-46c0-b002-814843b05bd9",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
-      "summary": "A new Linux-based backdoor called GoGra leverages the legitimate Microsoft Graph API and Outlook mailboxes to facilitate command-and-control communication and payload delivery. By abusing trusted infrastructure, the malware evades detection while targeting Linux environments.",
-      "date": "2026-04-22T10:00:00.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
-      "isTopTen": false
-    },
-    {
       "id": "d67433ec-1afe-4195-a2c0-516d0f515842",
       "source": "CyberScoop",
       "tag": "Threat Intel & Info Sharing",
@@ -428,6 +494,17 @@
       "summary": "The rapid pace of AI-driven cyberattacks renders traditional, static security audits obsolete, necessitating a transition to real-time threat monitoring and proactive risk management for CISOs.",
       "date": "2026-04-22T10:00:00.000Z",
       "link": "https://cyberscoop.com/ciso-strategy-ai-real-time-risk-op-ed/",
+      "isTopTen": false
+    },
+    {
+      "id": "df967b88-d63f-46c0-b002-814843b05bd9",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
+      "summary": "A new Linux-based backdoor called GoGra leverages the legitimate Microsoft Graph API and Outlook mailboxes to facilitate command-and-control communication and payload delivery. By abusing trusted infrastructure, the malware evades detection while targeting Linux environments.",
+      "date": "2026-04-22T10:00:00.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
       "isTopTen": false
     },
     {
@@ -505,7 +582,7 @@
       "summary": "A critical sandbox escape vulnerability (CVE-2026-5752) in Cohere AI's Terrarium environment allows attackers to achieve arbitrary code execution with root privileges through JavaScript prototype chain traversal.",
       "date": "2026-04-22T07:16:00.000Z",
       "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "62feea36-003a-48ca-b563-6d963ea291d9",
@@ -560,7 +637,7 @@
       "summary": "Financial institutions faced a surge of attacks in 2025 driven by financial motives, with data breaches and ransomware incidents incurring an average cost of $5.56 million per breach. Emerging threats like shadow AI, deepfakes, and supply chain compromises are increasingly shaping the sector's risk landscape.",
       "date": "2026-04-22T04:00:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/22/financial-sector-cyber-threats-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a4fd8d9-5177-4b92-b9b1-08bf6d743dbf",
@@ -593,7 +670,7 @@
       "summary": "Former DigitalMint ransomware negotiator Angelo Martino has pleaded guilty to participating in an extortion scheme that defrauded five companies out of $75.3 million. He facilitated ransom payments for his accomplices while operating as a supposedly legitimate intermediary.",
       "date": "2026-04-21T21:03:58.000Z",
       "link": "https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-guilty-plea/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "45808575-2724-48db-8ce6-262cb5c5df8f",
@@ -615,7 +692,7 @@
       "summary": "A former FBI official is advocating for federal prosecutors to charge ransomware operators with homicide when their attacks lead to patient deaths or critical infrastructure failures. This proposal seeks to elevate the legal consequences for cybercriminals whose actions result in loss of life.",
       "date": "2026-04-21T20:26:33.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/exfbi_cyber_chief_urges_felony_charges_ransomware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2b5126cc-aca1-4709-b273-20257be5bb3c",
@@ -5422,83 +5499,6 @@
       "summary": "A now-patched security vulnerability in the EngageLab Android SDK allowed apps to bypass the system's security sandbox, exposing sensitive data for 50 million users including 30 million crypto wallets.",
       "date": "2026-04-09T17:26:00.000Z",
       "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-      "isTopTen": false
-    },
-    {
-      "id": "38b32b5f-3673-42d9-95c2-5d410b0cf8c8",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Treasury Department announces crypto industry cyber threat sharing initiative",
-      "summary": "The U.S. Treasury Department has launched an initiative to provide qualified digital asset firms with access to the same cybersecurity threat intelligence currently shared with traditional financial institutions. This move aims to bolster the defense of the cryptocurrency industry against emerging cyber threats.",
-      "date": "2026-04-09T17:25:00.000Z",
-      "link": "https://therecord.media/treasury-department-announces-crypto-info-sharing",
-      "isTopTen": false
-    },
-    {
-      "id": "b0b77334-f2c6-4b86-8b36-44e019a3d2dd",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "'Several dozen' high-value corporations hit by new extortion crew in helpdesk phishing spree",
-      "summary": "Service busy.",
-      "date": "2026-04-09T17:11:41.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/several_dozen_highvalue_corporations_targeted/",
-      "isTopTen": false
-    },
-    {
-      "id": "ced7a79c-0ebb-4e9b-a03e-bf70faede5a1",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Adobe Reader Zero-Day Exploited to Steal Data via Malicious PDFs",
-      "summary": "Hackers are actively exploiting an unpatched zero-day vulnerability in Adobe Reader through malicious PDFs to steal data without requiring user interaction. Due to the lack of an available patch, the threat poses a significant risk to organizations and individuals.",
-      "date": "2026-04-09T16:45:40.000Z",
-      "link": "https://hackread.com/adobe-reader-zero-day-exploit-data-malicious-pdfs/",
-      "isTopTen": false
-    },
-    {
-      "id": "b3b62a76-975a-495e-994d-bf45248236db",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
-      "summary": "A newly identified threat actor group, UAT-10362, is conducting spear-phishing campaigns against Taiwanese NGOs and universities to deliver a novel Lua-based malware called LucidRook. The malware serves as a sophisticated stager capable of executing malicious payloads via embedded Lua interpreters.",
-      "date": "2026-04-09T16:23:00.000Z",
-      "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
-      "isTopTen": false
-    },
-    {
-      "id": "37d22eba-c7ba-46e1-b69b-4edc4f7e21d6",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Smart Slider updates hijacked to push malicious WordPress, Joomla versions",
-      "summary": "Hackers compromised the update server for the Smart Slider 3 Pro plugin, distributing malicious updates containing backdoors to WordPress and Joomla websites. This supply chain attack poses a significant threat to sites using the plugin.",
-      "date": "2026-04-09T16:15:26.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
-      "isTopTen": false
-    },
-    {
-      "id": "efb0f9fc-26fb-493b-bb7f-2fb550eb36fb",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Inside the FBI’s router takedown that cut off APT28’s ‘tremendous access’",
-      "summary": "The FBI successfully neutralized a Russian GRU-linked APT28 campaign that utilized compromised routers to gain widespread access to target networks. This operation disrupted the sophisticated capabilities of the threat actor to propagate malicious activity beyond initial router access points.",
-      "date": "2026-04-09T15:34:14.000Z",
-      "link": "https://cyberscoop.com/fbi-operation-masquerade-russian-gru-router-takedown-brett-leatherman/",
-      "isTopTen": false
-    },
-    {
-      "id": "3787e571-52cd-4d60-a060-ce448d6b8ac0",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Chevin pulls the handbrake on FleetWave software after security scare",
-      "summary": "Chevin has suspended access to its FleetWave software following a security concern to prevent potential unauthorized access or data exposure. The company is currently investigating the incident to ensure the integrity of its platform.",
-      "date": "2026-04-09T15:20:11.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/chevin_fleetwave_security_incident/",
       "isTopTen": false
     }
   ]
