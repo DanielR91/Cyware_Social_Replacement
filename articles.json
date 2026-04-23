@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-22T21:59:13.575Z",
+  "lastUpdated": "2026-04-23T03:23:30.973Z",
   "articles": [
+    {
+      "id": "0667181b-58b7-4acb-9734-31dfec32bf80",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Another npm supply chain worm is tearing through dev environments",
+      "summary": "A self-propagating worm has been discovered in the npm package registry, specifically targeting developer environments to spread malicious code. This supply chain attack poses a significant risk to internal development infrastructure and code integrity.",
+      "date": "2026-04-22T22:34:59.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/another_npm_supply_chain_attack/",
+      "isTopTen": false
+    },
     {
       "id": "1ac4cfa9-a20a-4abc-bc45-7d51be7d1cf6",
       "source": "The Register",
@@ -87,7 +98,7 @@
       "summary": "Hackers utilized a previously unknown wiper malware to conduct destructive attacks against Venezuela's energy and utilities sector. The incident appears specifically engineered to cause permanent system damage.",
       "date": "2026-04-22T19:00:00.000Z",
       "link": "https://therecord.media/hackers-venezuela-wiper-malware-oil",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "013f437b-f6aa-42cb-82fd-280640df376b",
@@ -571,7 +582,7 @@
       "summary": "The Lotus Wiper malware has targeted Venezuela's energy and utility sectors, employing batch scripts to disable security defenses before executing irreversible data erasure. Kaspersky researchers identified the activity as part of a campaign occurring during 2025–2026 amidst regional geopolitical tensions.",
       "date": "2026-04-22T07:53:08.000Z",
       "link": "https://securityaffairs.com/191106/malware/venezuela-energy-sector-targeted-by-highly-destructive-lotus-wiper.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2ff7ec9d-1195-4c94-a093-8597abf3b0fd",
@@ -582,7 +593,7 @@
       "summary": "A critical sandbox escape vulnerability (CVE-2026-5752) in Cohere AI's Terrarium environment allows attackers to achieve arbitrary code execution with root privileges through JavaScript prototype chain traversal.",
       "date": "2026-04-22T07:16:00.000Z",
       "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "62feea36-003a-48ca-b563-6d963ea291d9",
@@ -626,7 +637,7 @@
       "summary": "Researchers discovered a vulnerability in Apple Intelligence's authentication design that allows attackers to steal and reuse anonymous access tokens on unauthorized devices. This flaw bypasses the intended security protections for requests offloaded to Private Cloud Compute.",
       "date": "2026-04-22T04:30:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/22/apple-intelligence-token-vulnerability-serpent-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6f234b7c-838d-4073-88df-d8dab9a90017",
@@ -692,7 +703,7 @@
       "summary": "A former FBI official is advocating for federal prosecutors to charge ransomware operators with homicide when their attacks lead to patient deaths or critical infrastructure failures. This proposal seeks to elevate the legal consequences for cybercriminals whose actions result in loss of life.",
       "date": "2026-04-21T20:26:33.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/exfbi_cyber_chief_urges_felony_charges_ransomware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2b5126cc-aca1-4709-b273-20257be5bb3c",
@@ -725,7 +736,7 @@
       "summary": "U.S. lawmakers are exploring the possibility of classifying hospital ransomware attacks as acts of terrorism and filing homicide charges against perpetrators. This discussion follows a surge in cyberattacks targeting the healthcare sector.",
       "date": "2026-04-21T18:49:46.000Z",
       "link": "https://cyberscoop.com/lawmakers-ponder-terrorism-designations-homicide-charges-over-hospital-ransomware-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bb4eb22f-74e6-4f1b-a34b-e5d639c49448",
@@ -5488,17 +5499,6 @@
       "summary": "An unidentified cryptocurrency-related security incident resulted in the theft or loss of $45 million in assets.",
       "date": "2026-04-09T18:20:15.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/crypto_fraud_scam_45_million/",
-      "isTopTen": false
-    },
-    {
-      "id": "11bec511-3af3-4f82-a5c8-526e6bfbf639",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets",
-      "summary": "A now-patched security vulnerability in the EngageLab Android SDK allowed apps to bypass the system's security sandbox, exposing sensitive data for 50 million users including 30 million crypto wallets.",
-      "date": "2026-04-09T17:26:00.000Z",
-      "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
       "isTopTen": false
     }
   ]
