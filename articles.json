@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-04-23T03:23:30.973Z",
+  "lastUpdated": "2026-04-23T08:15:19.590Z",
   "articles": [
+    {
+      "id": "04d4484a-e65c-485f-b0f8-a01e9dc7a797",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Pass the key, passwords have passed their sell-by date",
+      "summary": "The headline advocates for the transition away from traditional password-based authentication in favor of more secure alternatives like passkeys. It emphasizes that passwords are increasingly obsolete due to their vulnerability to modern cyber threats.",
+      "date": "2026-04-23T08:00:08.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/ncsc_passkey_tech_now_reliable/",
+      "isTopTen": false
+    },
+    {
+      "id": "6bc99bd9-b4f3-41d3-b208-eef4c2422103",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft Graph API misused by new GoGra Linux malware for hidden communication",
+      "summary": "A new variant of the GoGra Linux malware leverages the Microsoft Graph API and Outlook to stealthily deliver payloads. The threat is attributed to the Harvester cyberespionage group.",
+      "date": "2026-04-23T07:49:13.000Z",
+      "link": "https://securityaffairs.com/191153/uncategorized/microsoft-graph-api-misused-by-new-gogra-linux-malware-for-hidden-communication.html",
+      "isTopTen": false
+    },
+    {
+      "id": "529d0a25-008d-4729-8949-266a8c62d3b5",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "A year in, Zoom’s CISO reflects on balancing security and business",
+      "summary": "Zoom CISO Sandra McLeod reflects on her first year, focusing on the transition from reactive incident management to proactive business strategy and leadership.",
+      "date": "2026-04-23T05:30:34.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/23/sandra-mcleod-zoom-ciso-leadership/",
+      "isTopTen": false
+    },
+    {
+      "id": "b83df12b-8895-496c-84ce-231f0f623881",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Scenario: Open-source framework for automated AI app red-teaming",
+      "summary": "LangWatch has introduced Scenario, an open-source framework designed to perform automated, multi-turn red-teaming exercises against AI-driven applications. This tool aims to improve security by simulating complex, adversarial attacks that exceed the capabilities of traditional single-prompt penetration testing.",
+      "date": "2026-04-23T05:00:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/23/scenario-open-source-framework-for-automated-ai-app-red-teaming/",
+      "isTopTen": false
+    },
+    {
+      "id": "e226ee97-3046-49bc-bd26-464749428053",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "GDPR works, but only where someone enforces it",
+      "summary": "A study reveals that GDPR's effectiveness in reducing web tracking is primarily limited to jurisdictions where regulators actively enforce the law. The findings underscore the critical role of enforcement in ensuring actual compliance with privacy regulations.",
+      "date": "2026-04-23T04:30:03.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/23/gdpr-enforcement-measurement-study/",
+      "isTopTen": false
+    },
+    {
+      "id": "76f79334-668c-46c9-afb7-61e414dbaad4",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ransomware, fraud, and lawsuits drive cyber insurance claims to new peaks",
+      "summary": "The 2026 InsurSec Report reveals record-high cyber insurance claims, with ransomware costs reaching an average of $508,000. Remote access vulnerabilities remain the primary entry point, accounting for 87% of ransomware incidents.",
+      "date": "2026-04-23T04:00:36.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/",
+      "isTopTen": false
+    },
     {
       "id": "0667181b-58b7-4acb-9734-31dfec32bf80",
       "source": "The Register",
@@ -109,7 +175,7 @@
       "summary": "The Kyber ransomware group is targeting Windows and VMware ESXi systems with a new variant that incorporates Kyber1024 post-quantum encryption algorithms. This development signals an early adoption of quantum-resistant cryptographic primitives by malicious actors to secure their extortion payloads.",
       "date": "2026-04-22T18:52:29.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "399b0e1e-7431-4724-8ce4-6328b73e55cc",
@@ -153,7 +219,7 @@
       "summary": "Researchers have discovered a self-propagating supply chain worm, dubbed CanisterSprawl, that compromises npm packages to hijack developer tokens for data exfiltration. The malware utilizes ICP canisters to securely manage stolen credentials while spreading across the ecosystem.",
       "date": "2026-04-22T17:33:00.000Z",
       "link": "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7dfe2460-849b-4cb0-b44d-0002277a8294",
@@ -263,7 +329,7 @@
       "summary": "Microsoft has released an out-of-band security update to address a critical privilege escalation vulnerability in ASP.NET Core (CVE-2026-40372) that could allow attackers to gain SYSTEM-level access. The patch is available in ASP.NET Core version 10.0.7.",
       "date": "2026-04-22T14:00:19.000Z",
       "link": "https://securityaffairs.com/191130/security/microsoft-out-of-band-updates-fixed-critical-asp-net-core-privilege-escalation-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "23d31cb8-72a5-41e8-9fa4-034ea90f3cd6",
@@ -296,7 +362,7 @@
       "summary": "Dutch intelligence officials have warned that China's cyber capabilities are now on par with the United States, noting that Beijing's sophisticated operations frequently evade detection by global defense agencies. The report highlights an urgent need to address this growing, largely unmet threat to international cybersecurity.",
       "date": "2026-04-22T13:33:00.000Z",
       "link": "https://therecord.media/china-cyber-capabilities-match-us-dutch-intel-says",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0cd599ec-ddc2-4c1a-b5a4-244555266726",
@@ -307,7 +373,7 @@
       "summary": "Researchers have discovered 22 'BRIDGE:BREAK' vulnerabilities in Lantronix and Silex Technology serial-to-IP converters, potentially exposing 20,000 devices to remote hijacking and data tampering. These flaws impact legacy equipment connected to modern IP networks, necessitating urgent security patches.",
       "date": "2026-04-22T13:29:22.000Z",
       "link": "https://securityaffairs.com/191114/hacking/critical-bridgebreak-flaws-impact-lantronix-and-silex-technology-converters.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9bac242-bda3-4bdd-ba41-d8a550a2750c",
@@ -417,7 +483,7 @@
       "summary": "France's national secure identity agency is investigating a potential data breach after cybercriminals claimed to have stolen records belonging to 19 million citizens.",
       "date": "2026-04-22T11:30:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/frances_secure_id_agency_probes/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc9956fa-d11b-48d4-85ce-22c3636c4bb2",
@@ -582,7 +648,7 @@
       "summary": "The Lotus Wiper malware has targeted Venezuela's energy and utility sectors, employing batch scripts to disable security defenses before executing irreversible data erasure. Kaspersky researchers identified the activity as part of a campaign occurring during 2025–2026 amidst regional geopolitical tensions.",
       "date": "2026-04-22T07:53:08.000Z",
       "link": "https://securityaffairs.com/191106/malware/venezuela-energy-sector-targeted-by-highly-destructive-lotus-wiper.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2ff7ec9d-1195-4c94-a093-8597abf3b0fd",
@@ -637,7 +703,7 @@
       "summary": "Researchers discovered a vulnerability in Apple Intelligence's authentication design that allows attackers to steal and reuse anonymous access tokens on unauthorized devices. This flaw bypasses the intended security protections for requests offloaded to Private Cloud Compute.",
       "date": "2026-04-22T04:30:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/22/apple-intelligence-token-vulnerability-serpent-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6f234b7c-838d-4073-88df-d8dab9a90017",
@@ -736,7 +802,7 @@
       "summary": "U.S. lawmakers are exploring the possibility of classifying hospital ransomware attacks as acts of terrorism and filing homicide charges against perpetrators. This discussion follows a surge in cyberattacks targeting the healthcare sector.",
       "date": "2026-04-21T18:49:46.000Z",
       "link": "https://cyberscoop.com/lawmakers-ponder-terrorism-designations-homicide-charges-over-hospital-ransomware-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bb4eb22f-74e6-4f1b-a34b-e5d639c49448",
@@ -758,7 +824,7 @@
       "summary": "The North Korean-linked Lazarus Group successfully stole $290 million from the DeFi protocol Kelp DAO by exploiting LayerZero. A subsequent attempt to steal an additional $95 million was successfully thwarted.",
       "date": "2026-04-21T18:34:03.000Z",
       "link": "https://securityaffairs.com/191092/digital-id/north-koreas-lazarus-apt-stole-290m-from-kelp-dao.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9acb72a5-a321-4bda-b217-c3cb9d9a8c2c",
@@ -5433,72 +5499,6 @@
       "summary": "Rapid advancements in quantum computing and geopolitical concerns are accelerating the urgency for organizations to transition to post-quantum cryptography. Experts warn that the window for securing sensitive data against future quantum-enabled decryption is closing faster than anticipated.",
       "date": "2026-04-09T21:05:40.000Z",
       "link": "https://cyberscoop.com/quantum-computing-industry-timeline-threat-accelerating/",
-      "isTopTen": false
-    },
-    {
-      "id": "f2ce7e2c-7a99-4710-ae77-61c085577858",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Eurail data breach impacted 308,777 people",
-      "summary": "Eurail suffered a data breach in December 2025, resulting in the theft of personal information, including names and passport numbers, for 308,777 travelers. The company is currently notifying affected individuals regarding potential identity theft risks.",
-      "date": "2026-04-09T20:42:14.000Z",
-      "link": "https://securityaffairs.com/190570/data-breach/eurail-data-breach-impacted-308777-people.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c5c1813d-69f6-42a7-ba55-bd7e1826cba3",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "FCC proposes new rule to further crackdown on illegal robocalls",
-      "summary": "The FCC has proposed a new regulation requiring originating service providers to verify customer data and implement stricter oversight to combat illegal robocalls. Non-compliant providers face increased financial penalties for failing to block these malicious communications on their networks.",
-      "date": "2026-04-09T19:57:00.000Z",
-      "link": "https://therecord.media/fcc-proposes-new-rule-robocall-crackdown",
-      "isTopTen": false
-    },
-    {
-      "id": "94f1e6bf-5b86-4387-ac64-c73cba6912c0",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Healthcare IT solutions provider ChipSoft hit by ransomware attack",
-      "summary": "Dutch healthcare software provider ChipSoft experienced a ransomware attack, forcing the company to take its patient and provider-facing digital services offline. The incident highlights the ongoing threat of ransomware targeting critical infrastructure within the healthcare sector.",
-      "date": "2026-04-09T19:46:44.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "83372c58-59ee-454d-bd37-8794cfe6ddfb",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Malicious PDF reveals active Adobe Reader zero-day in the wild",
-      "summary": "Cybersecurity researcher Haifei Li has discovered a malicious PDF file exploiting an actively used Adobe Reader zero-day vulnerability that has been leveraged by hackers for several months. The researcher is currently seeking assistance from the security community to conduct a full analysis of the exploit.",
-      "date": "2026-04-09T19:14:16.000Z",
-      "link": "https://securityaffairs.com/190558/hacking/malicious-pdf-reveals-active-adobe-reader-zero-day-in-the-wild.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c242427d-b02a-435e-a3a4-11ac55e91ae1",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Google Chrome adds infostealer protection against session cookie theft",
-      "summary": "Google has introduced Device Bound Session Credentials (DBSC) in Chrome 146 for Windows to prevent info-stealing malware from hijacking session cookies. This security feature binds session cookies to the user's specific device, significantly mitigating the impact of session theft attacks.",
-      "date": "2026-04-09T18:33:29.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
-      "isTopTen": false
-    },
-    {
-      "id": "d02fe7e5-e619-4207-b099-efed2a970320",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Crypto? Huh. Good gawd y'all, what is it good for? $45M in this case",
-      "summary": "An unidentified cryptocurrency-related security incident resulted in the theft or loss of $45 million in assets.",
-      "date": "2026-04-09T18:20:15.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/crypto_fraud_scam_45_million/",
       "isTopTen": false
     }
   ]
