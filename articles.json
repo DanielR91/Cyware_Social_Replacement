@@ -1,6 +1,105 @@
 {
-  "lastUpdated": "2026-04-23T08:15:19.590Z",
+  "lastUpdated": "2026-04-23T10:36:27.461Z",
   "articles": [
+    {
+      "id": "4aa77615-cb0f-4fb8-b84c-b0ed8a0673a0",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hackers Use Hidden Website Instructions in New Attacks on AI Assistants",
+      "summary": "Researchers have identified a novel indirect prompt injection technique that leverages hidden website instructions to compromise AI assistants like GitHub Copilot. This vulnerability allows attackers to manipulate AI outputs by embedding malicious commands within accessible web content.",
+      "date": "2026-04-23T10:20:06.000Z",
+      "link": "https://hackread.com/hackers-hidden-site-instruction-attack-ai-assistants/",
+      "isTopTen": false
+    },
+    {
+      "id": "7c2d58b1-0702-4c26-8e62-848289aaf6ab",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AIはクラウドを攻撃できるのか?自律型クラウド攻撃型マルチエージェント システムの構築から得られた教訓",
+      "summary": "Unit 42 explores the capabilities of autonomous multi-agent AI systems in performing cyberattacks against cloud environments, offering insights for proactive security measures.",
+      "date": "2026-04-23T10:00:02.000Z",
+      "link": "https://unit42.paloaltonetworks.com/autonomous-ai-cloud-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "73222022-926e-4a8e-af5d-865dc0a8e51f",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Sharing isn’t caring if it’s an admin password",
+      "summary": "This headline emphasizes the high-risk nature of sharing administrative credentials, highlighting the danger of exposing privileged access within an organization. It serves as a warning against poor password hygiene and unauthorized privilege escalation.",
+      "date": "2026-04-23T09:28:12.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/sharing_isnt_caring_pwned/",
+      "isTopTen": false
+    },
+    {
+      "id": "bf2ab331-1977-43d9-b9a3-2ec71057c3f7",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "U.S. CISA adds a flaw in Microsoft Defender to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added CVE-2026-33825, a Microsoft Defender vulnerability with a CVSS score of 7.8, to its Known Exploited Vulnerabilities catalog. This action mandates that federal agencies address the security flaw due to evidence of active exploitation.",
+      "date": "2026-04-23T09:23:55.000Z",
+      "link": "https://securityaffairs.com/191164/hacking/u-s-cisa-adds-a-flaw-in-microsoft-defender-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "81a7902f-94f1-40ca-b9cc-b61994a6b352",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
+      "summary": "A previously unknown China-aligned threat actor dubbed GopherWhisper has compromised 12 Mongolian government systems using a variety of Go-based backdoors and custom injectors. The campaign, discovered by ESET, highlights the group's sophisticated capability to deploy and execute persistent malware.",
+      "date": "2026-04-23T09:04:00.000Z",
+      "link": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c1fb0018-9278-4be7-8971-8e33b78e5da3",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "GopherWhisper APT group hides command and control traffic in Slack and Discord",
+      "summary": "The newly identified China-aligned APT group GopherWhisper is utilizing legitimate collaboration platforms like Slack, Discord, Outlook, and file.io to mask command-and-control traffic. The group was recently linked to a cyber espionage operation targeting a Mongolian governmental entity.",
+      "date": "2026-04-23T09:00:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/23/gopherwhisper-apt-group/",
+      "isTopTen": false
+    },
+    {
+      "id": "6dfef7e3-5206-46d2-8ca9-f460027e5db3",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI tackles a bad habit people have when interacting with AI",
+      "summary": "OpenAI has released an open-source Privacy Filter model designed to automatically detect and redact personally identifiable information from text inputs. This tool aims to mitigate the security risks associated with users inadvertently sharing sensitive data with AI systems.",
+      "date": "2026-04-23T08:42:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/23/openai-privacy-filter-personally-identifiable-information/",
+      "isTopTen": false
+    },
+    {
+      "id": "f6a32a8c-77d9-4a5f-9bb8-d3b5bdbc6138",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
+      "summary": "Vercel has discovered more compromised customer accounts linked to a previous security breach after expanding its investigation and internal system review.",
+      "date": "2026-04-23T08:40:00.000Z",
+      "link": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c585b83e-1187-4e5f-a666-24f32ff88411",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Apple Patches iOS Flaw That Stored Deleted Signal Notifications in FBI Forensic Case",
+      "summary": "Apple released a security patch for iOS and iPadOS to resolve a vulnerability that caused deleted Signal notifications to be incorrectly retained on devices. The fix improves data redaction to prevent sensitive notification logs from being stored after deletion.",
+      "date": "2026-04-23T08:06:00.000Z",
+      "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+      "isTopTen": false
+    },
     {
       "id": "04d4484a-e65c-485f-b0f8-a01e9dc7a797",
       "source": "The Register",
@@ -5400,105 +5499,6 @@
       "summary": "Threat actors compromised Nextend's update servers to distribute a backdoored version of the Smart Slider 3 Pro plugin. This supply chain attack affects users who updated to version 3.5.1.35.",
       "date": "2026-04-10T06:28:00.000Z",
       "link": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a06daced-2262-4faf-aeda-c6c1fd41ae18",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "What vibe hunting gets right about AI threat hunting, and where it breaks down",
-      "summary": "This article discusses 'vibe hunting,' an AI-driven approach to threat detection that shifts focus from pre-defined hypothesis-based hunting to identifying anomalous patterns. It emphasizes the need for human analysts to maintain explainability and oversight to prevent over-reliance on AI decision-making.",
-      "date": "2026-04-10T05:30:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/10/aqsa-taylor-exaforce-vibe-hunting/",
-      "isTopTen": false
-    },
-    {
-      "id": "1a5f0f53-3088-4c9e-8fef-e25401dc0ef7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Health insurance lead sites sell personal data within seconds of form submission",
-      "summary": "Researchers discovered that health insurance lead generation websites rapidly sell users' sensitive personal data to multiple third-party buyers immediately after form submission. This study highlights significant privacy risks and the aggressive monetization of consumer information by lead generation platforms.",
-      "date": "2026-04-10T05:00:30.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/10/health-insurance-lead-generation-privacy/",
-      "isTopTen": false
-    },
-    {
-      "id": "5d081683-3ebb-438c-b36f-7937e570f3ee",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: Session, a messenger without phone numbers or metadata",
-      "summary": "Session is an instant messaging platform that enhances user privacy by eliminating the need for phone numbers and minimizing metadata collection. It focuses on secure communication through end-to-end encryption, addressing growing concerns regarding data surveillance.",
-      "date": "2026-04-10T04:30:54.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/10/product-showcase-session-a-messenger-without-phone-numbers-or-metadata/",
-      "isTopTen": false
-    },
-    {
-      "id": "a97c7846-da48-4457-a490-d21aa89ffd55",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the week: April 10, 2026",
-      "summary": "This article highlights recent cybersecurity product releases, specifically noting Mallory's launch of an AI-native threat intelligence platform and Secureframe's expansion of its compliance tools.",
-      "date": "2026-04-10T04:00:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/10/new-infosec-products-of-the-week-april-10-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "1011324f-a26d-4c45-aa42-41bbc77b5076",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Dutch hospitals face disruptions after ransomware attack on software provider ChipSoft",
-      "summary": "Dutch healthcare software provider ChipSoft experienced a ransomware attack, leading to the disruption of digital services used by hospitals and patients throughout the Netherlands.",
-      "date": "2026-04-09T23:00:00.000Z",
-      "link": "https://therecord.media/chipsoft-ransomware-attack-disrupts-dutch-hospitals",
-      "isTopTen": false
-    },
-    {
-      "id": "8d79f902-72b5-42e6-90ac-b0dfb6d910fd",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New ‘LucidRook’ malware used in targeted attacks on NGOs, universities",
-      "summary": "A novel Lua-based malware named 'LucidRook' is being deployed in targeted spear-phishing campaigns against NGOs and universities in Taiwan.",
-      "date": "2026-04-09T22:04:31.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
-      "isTopTen": false
-    },
-    {
-      "id": "ce45d8c5-bbab-4873-ac7f-a75a81fcbbf7",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "New VENOM phishing attacks steal senior executives' Microsoft logins",
-      "summary": "A new phishing-as-a-service platform called VENOM is being used to target and steal Microsoft login credentials from C-suite executives across various industries.",
-      "date": "2026-04-09T21:37:04.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
-      "isTopTen": false
-    },
-    {
-      "id": "ac5a87ef-8ae3-4d79-b9ae-ea61d26bec23",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Iranian attacks on US critical infrastructure puts 3,900 devices in crosshairs",
-      "summary": "Censys researchers identified approximately 3,900 internet-exposed devices at risk of exploitation by Iranian-backed actors targeting critical U.S. infrastructure. The campaign specifically focuses on the energy, water, and government services sectors.",
-      "date": "2026-04-09T21:29:16.000Z",
-      "link": "https://cyberscoop.com/iran-attackers-industrial-ot-government-energy-water-censys/",
-      "isTopTen": false
-    },
-    {
-      "id": "d116a653-ec17-4b23-a122-070b738ec306",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Why is the timeline to quantum-proof everything constantly shrinking?",
-      "summary": "Rapid advancements in quantum computing and geopolitical concerns are accelerating the urgency for organizations to transition to post-quantum cryptography. Experts warn that the window for securing sensitive data against future quantum-enabled decryption is closing faster than anticipated.",
-      "date": "2026-04-09T21:05:40.000Z",
-      "link": "https://cyberscoop.com/quantum-computing-industry-timeline-threat-accelerating/",
       "isTopTen": false
     }
   ]
