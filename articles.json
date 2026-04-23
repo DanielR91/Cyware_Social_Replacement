@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-04-23T16:53:42.137Z",
+  "lastUpdated": "2026-04-23T19:25:16.482Z",
   "articles": [
+    {
+      "id": "1ffe69c0-c40c-4c88-9d9f-9f150dd84a24",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "CISA: US agency breached through Cisco vulnerability, FIRESTARTER backdoor allowed access through March",
+      "summary": "CISA reported that an unnamed US government agency was compromised via a Cisco vulnerability, with attackers utilizing the FIRESTARTER backdoor to maintain persistent access through March. This incident highlights the risk of persistent unauthorized access following the initial exploitation of network vulnerabilities.",
+      "date": "2026-04-23T19:03:00.000Z",
+      "link": "https://therecord.media/cisa-us-agency-breached-cisco-vulnerability-backdoor",
+      "isTopTen": true
+    },
+    {
+      "id": "3e8f2397-9a95-45d7-9481-2e1f919eeba6",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+      "summary": "Trigona ransomware operators have deployed a custom command-line utility designed to accelerate the exfiltration of sensitive data from victim networks. This update enhances their ability to conduct large-scale data theft more efficiently during cyberattacks.",
+      "date": "2026-04-23T18:59:39.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "f15f785d-b6c6-4439-8d7f-9823c3e356ef",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Surveillance companies exploiting telecom system to spy on targets’ locations, research shows",
+      "summary": "Research has revealed that surveillance companies are exploiting vulnerabilities in global telecom infrastructure to track individuals by impersonating legitimate cellular providers. This method allows for clandestine geolocation of targets without their knowledge.",
+      "date": "2026-04-23T18:43:00.000Z",
+      "link": "https://therecord.media/surveillance-companies-exploiting-telecom-systems-to-track-location",
+      "isTopTen": true
+    },
+    {
+      "id": "1d2f0198-c480-4380-b41e-d8a6d5d4d84e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
+      "summary": "The newly identified threat actor UNC6692 is using social engineering on Microsoft Teams to impersonate IT support staff and deploy custom malware. This campaign relies on deceptive tactics to compromise victim hosts by tricking users into accepting malicious chat invitations.",
+      "date": "2026-04-23T18:16:00.000Z",
+      "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1eba32a4-926a-4255-b5fb-b5868f6f3c81",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Luxury cosmetics giant Rituals discloses data breach impacting member personal details",
+      "summary": "Luxury cosmetics company Rituals has confirmed a data breach in which unauthorized actors accessed and exfiltrated personal information, including names and addresses, from its My Rituals member database.",
+      "date": "2026-04-23T17:32:19.000Z",
+      "link": "https://securityaffairs.com/191192/data-breach/rituals-discloses-a-data-breach-impacting-member-personal-details.html",
+      "isTopTen": false
+    },
     {
       "id": "44a6bb91-cbd9-421e-b992-cbfdaf0444d5",
       "source": "HackRead",
@@ -263,7 +318,7 @@
       "summary": "Anthropic has restricted the release of its Project Glasswing AI model, which is highly capable of identifying software vulnerabilities, opting instead to collaborate with major tech companies to patch security flaws before they can be exploited. This move highlights the dual-use risks of advanced AI in cybersecurity.",
       "date": "2026-04-23T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a072d78b-8eef-41a2-a63e-2e60a009c416",
@@ -285,7 +340,7 @@
       "summary": "Apple released a security patch for CVE-2026-28950, a vulnerability in Notification Services that caused iPhones to retain deleted message notifications, which was previously exploited by the FBI. This fix ensures that messages intended for deletion are properly removed from the device's logging system.",
       "date": "2026-04-23T11:15:27.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/23/cve-2026-28950-iphone-vulnerability-notifications-signal/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c1be951e-dc7a-40ac-b9e4-18ea7f674a58",
@@ -318,7 +373,7 @@
       "summary": "Researchers have identified a novel indirect prompt injection technique that leverages hidden website instructions to compromise AI assistants like GitHub Copilot. This vulnerability allows attackers to manipulate AI outputs by embedding malicious commands within accessible web content.",
       "date": "2026-04-23T10:20:06.000Z",
       "link": "https://hackread.com/hackers-hidden-site-instruction-attack-ai-assistants/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f789b57-56bf-4216-b91c-ad2343d7510d",
@@ -637,7 +692,7 @@
       "summary": "Researchers have discovered a self-propagating supply chain worm, dubbed CanisterSprawl, that compromises npm packages to hijack developer tokens for data exfiltration. The malware utilizes ICP canisters to securely manage stolen credentials while spreading across the ecosystem.",
       "date": "2026-04-22T17:33:00.000Z",
       "link": "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7dfe2460-849b-4cb0-b44d-0002277a8294",
@@ -5444,61 +5499,6 @@
       "summary": "The threat actor ShinyHunters claims to have accessed Rockstar Games' data through a third-party breach of Anodot, threatening a data leak if ransom demands remain unmet. The incident highlights potential supply chain vulnerabilities involving Snowflake environments.",
       "date": "2026-04-11T01:34:24.000Z",
       "link": "https://hackread.com/shinyhunters-rockstar-games-snowflake-breach-anodot/",
-      "isTopTen": false
-    },
-    {
-      "id": "ef4ef75d-3fdb-4102-98ed-43014bbc1661",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Android Banking Trojan Linked to Cambodia Scam Compounds Hits 21 Countries",
-      "summary": "An Android banking trojan connected to forced labor scam operations in Cambodia is actively targeting users across 21 countries to steal funds by bypassing security measures. This campaign highlights the intersection of organized criminal human trafficking and sophisticated cybercrime operations.",
-      "date": "2026-04-10T20:32:33.000Z",
-      "link": "https://hackread.com/android-banking-trojan-cambodia-scam-compounds/",
-      "isTopTen": false
-    },
-    {
-      "id": "ab0507a9-7943-475a-8949-caa527a6a98c",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Commerce setting up new AI export regime to push adoption of ‘American AI’ abroad",
-      "summary": "The U.S. Department of Commerce is developing a framework to promote and export American-made artificial intelligence technology to international allies. This initiative aims to strengthen global adoption of U.S.-aligned AI standards and systems.",
-      "date": "2026-04-10T19:40:00.000Z",
-      "link": "https://cyberscoop.com/commerce-ai-export-regime-promotes-american-ai-adoption-abroad/",
-      "isTopTen": false
-    },
-    {
-      "id": "e7160407-09b1-49e6-a5f4-493896a0f7a6",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Senator launches inquiry into 8 tech giants for failures to adequately report CSAM",
-      "summary": "A U.S. Senator has initiated an inquiry into eight major technology companies following allegations from the NCMEC regarding their failure to properly report child sexual abuse material (CSAM) and manage data concerns related to generative AI.",
-      "date": "2026-04-10T18:05:00.000Z",
-      "link": "https://therecord.media/senator-launches-inquiry-into-tech-giants-csam",
-      "isTopTen": false
-    },
-    {
-      "id": "f974147c-585e-4aef-a739-4737f7adf820",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "UK government threatens tech bosses with jail time if they do not adequately fight nudification tools",
-      "summary": "The UK government is threatening tech executives with imprisonment if they fail to implement measures to stop the proliferation of non-consensual AI-generated nudification tools. This crackdown follows the recent Grok scandal, which facilitated the global circulation of deepfake imagery targeting women and children.",
-      "date": "2026-04-10T17:35:00.000Z",
-      "link": "https://therecord.media/uk-threatens-tech-bosses-with-jail-ai-nudification",
-      "isTopTen": false
-    },
-    {
-      "id": "73a407b1-2625-4e85-9be3-7d9bc0f81c0b",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "‘It reads like a spy novel’: $280 million theft from Drift involved North Korean fake companies, cutouts",
-      "summary": "The $280 million theft from Drift was orchestrated by North Korean actors who infiltrated the company by posing as a quantitative trading firm at a cryptocurrency conference. This sophisticated social engineering operation highlights the persistence and methods of state-sponsored threat actors in targeting financial infrastructure.",
-      "date": "2026-04-10T17:33:00.000Z",
-      "link": "https://therecord.media/drift-crypto-theft-post-mortem-north-korea",
       "isTopTen": false
     }
   ]
