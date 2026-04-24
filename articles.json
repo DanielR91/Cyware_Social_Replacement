@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-23T22:00:26.015Z",
+  "lastUpdated": "2026-04-24T03:23:54.804Z",
   "articles": [
+    {
+      "id": "28cebbb1-d018-4a0d-bcc3-98796934eca5",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Vercel attack fallout expands to more customers and third-party systems",
+      "summary": "Vercel has confirmed that its ongoing security breach has impacted a wider range of customers and third-party systems than previously identified. The expanding scope of the compromise creates significant downstream security risks for affected organizations.",
+      "date": "2026-04-23T22:05:51.000Z",
+      "link": "https://cyberscoop.com/vercel-attack-fallout-expands/",
+      "isTopTen": true
+    },
     {
       "id": "26fb44a4-267a-4fdc-9f8d-1518cc248fb9",
       "source": "The Register",
@@ -43,7 +54,7 @@
       "summary": "US and UK cybersecurity agencies revealed that attackers utilized persistent malware, dubbed Firestarter, to maintain access to Cisco firewalls even after security patches were deployed. The campaign, discovered on a federal agency's network, highlights the risk of post-exploitation persistence despite remediation efforts.",
       "date": "2026-04-23T20:25:05.000Z",
       "link": "https://cyberscoop.com/cisco-firestarter-malware-cisa-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "73771b94-949d-49da-9aa8-a0d1c8cfe360",
@@ -109,7 +120,7 @@
       "summary": "CISA reported that an unnamed US government agency was compromised via a Cisco vulnerability, with attackers utilizing the FIRESTARTER backdoor to maintain persistent access through March. This incident highlights the risk of persistent unauthorized access following the initial exploitation of network vulnerabilities.",
       "date": "2026-04-23T19:03:00.000Z",
       "link": "https://therecord.media/cisa-us-agency-breached-cisco-vulnerability-backdoor",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3e8f2397-9a95-45d7-9481-2e1f919eeba6",
@@ -131,7 +142,7 @@
       "summary": "Research has revealed that surveillance companies are exploiting vulnerabilities in global telecom infrastructure to track individuals by impersonating legitimate cellular providers. This method allows for clandestine geolocation of targets without their knowledge.",
       "date": "2026-04-23T18:43:00.000Z",
       "link": "https://therecord.media/surveillance-companies-exploiting-telecom-systems-to-track-location",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1d2f0198-c480-4380-b41e-d8a6d5d4d84e",
@@ -252,7 +263,7 @@
       "summary": "The Bitwarden CLI package version 2026.4.0 was compromised through a malicious file, 'bw1.js,' as part of an ongoing supply chain attack identified by JFrog and Socket.",
       "date": "2026-04-23T13:42:00.000Z",
       "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06939a02-bfee-4408-99bc-c7aa9235be40",
@@ -318,7 +329,7 @@
       "summary": "Sensitive medical and genetic data belonging to 500,000 UK citizens, held by the UK Biobank, has been offered for sale on a Chinese website. The compromised information includes blood samples, medical scans, and genetic sequences.",
       "date": "2026-04-23T13:02:00.000Z",
       "link": "https://therecord.media/medical-data-on-500000-britons-put-on-sale-alibaba",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ad177289-a7cb-4474-ba91-c0aa70452999",
@@ -351,7 +362,7 @@
       "summary": "A UK government minister reported that the sensitive medical data of 500,000 Biobank volunteers has been illicitly listed for sale on the Alibaba platform. The incident highlights a significant breach involving the personal and health information of a large research participant group.",
       "date": "2026-04-23T12:34:49.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/500k_biobank_volunteers_data_listed/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ff7ca0e1-bec8-48a8-b086-22d527192e99",
@@ -417,7 +428,7 @@
       "summary": "Anthropic has restricted the release of its Project Glasswing AI model, which is highly capable of identifying software vulnerabilities, opting instead to collaborate with major tech companies to patch security flaws before they can be exploited. This move highlights the dual-use risks of advanced AI in cybersecurity.",
       "date": "2026-04-23T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a072d78b-8eef-41a2-a63e-2e60a009c416",
@@ -516,7 +527,7 @@
       "summary": "CISA has added CVE-2026-33825, a Microsoft Defender vulnerability with a CVSS score of 7.8, to its Known Exploited Vulnerabilities catalog. This action mandates that federal agencies address the security flaw due to evidence of active exploitation.",
       "date": "2026-04-23T09:23:55.000Z",
       "link": "https://securityaffairs.com/191164/hacking/u-s-cisa-adds-a-flaw-in-microsoft-defender-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "81a7902f-94f1-40ca-b9cc-b61994a6b352",
@@ -747,7 +758,7 @@
       "summary": "The Kyber ransomware group is targeting Windows and VMware ESXi systems with a new variant that incorporates Kyber1024 post-quantum encryption algorithms. This development signals an early adoption of quantum-resistant cryptographic primitives by malicious actors to secure their extortion payloads.",
       "date": "2026-04-22T18:52:29.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "399b0e1e-7431-4724-8ce4-6328b73e55cc",
@@ -5488,17 +5499,6 @@
       "summary": "Censys has identified over 5,000 internet-exposed Rockwell Automation PLCs in the U.S. that are being actively targeted by Iranian-linked threat actors. Agencies including the FBI, CISA, and NSA have issued warnings to critical infrastructure operators to secure these devices immediately.",
       "date": "2026-04-11T20:39:37.000Z",
       "link": "https://securityaffairs.com/190646/ics-scada/censys-finds-5219-devices-exposed-to-attacks-by-iranian-apts-majority-in-u-s.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1bf2f614-969a-496e-8ad0-c56fd0bc3caa",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "GlassWorm evolves with Zig dropper to infect multiple developer tools",
-      "summary": "The GlassWorm campaign has evolved to use Zig-based droppers disguised as IDE extensions to conduct supply chain attacks and deploy RATs across developer platforms. The operation targets various developer tools, marking a significant escalation in its ongoing malicious activity.",
-      "date": "2026-04-11T16:27:02.000Z",
-      "link": "https://securityaffairs.com/190638/malware/glassworm-evolves-with-zig-dropper-to-infect-multiple-developer-tools.html",
       "isTopTen": false
     }
   ]
