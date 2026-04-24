@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-04-24T16:10:53.066Z",
+  "lastUpdated": "2026-04-24T19:03:21.076Z",
   "articles": [
+    {
+      "id": "94c39b95-8fbb-411e-9002-31c5f8d1fb18",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "ADT says customer data stolen in cyber intrusion",
+      "summary": "Home security company ADT confirmed that cybercriminals breached their systems, resulting in the theft of a limited amount of customer and prospective customer data.",
+      "date": "2026-04-24T18:45:00.000Z",
+      "link": "https://therecord.media/ADT-data-breach-cyberattack",
+      "isTopTen": false
+    },
+    {
+      "id": "7757f087-dce3-4eb1-a462-bdc5ce8518fe",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "New BlackFile extortion group linked to surge of vishing attacks",
+      "summary": "A new threat actor called BlackFile is conducting data theft and extortion attacks against the retail and hospitality sectors using vishing techniques. The group has been active since February 2026.",
+      "date": "2026-04-24T18:26:27.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/",
+      "isTopTen": false
+    },
+    {
+      "id": "8f2c2e74-ddc2-4028-be96-91bb9b44cf85",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft to roll out Entra passkeys on Windows in late April",
+      "summary": "Microsoft is introducing phishing-resistant passkey support for Entra-protected resources on Windows devices starting in late April. This move aims to enhance security by enabling stronger passwordless authentication methods.",
+      "date": "2026-04-24T18:13:55.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/",
+      "isTopTen": false
+    },
+    {
+      "id": "ee663fe9-26ba-4261-aac1-70bd28bf48df",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New ‘Pack2TheRoot’ flaw gives hackers root Linux access",
+      "summary": "A vulnerability named Pack2TheRoot in the PackageKit daemon allows local Linux users to execute arbitrary commands with root privileges. This flaw enables unauthorized installation or removal of system packages, leading to a full system compromise.",
+      "date": "2026-04-24T17:28:46.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/",
+      "isTopTen": true
+    },
+    {
+      "id": "2a84a300-8db0-435b-a864-9bb43eff90e9",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Pentagon grapples with securing AI as it moves toward autonomous warfare",
+      "summary": "The Pentagon is increasingly integrating autonomous weapons into its defense strategy while facing the significant challenge of securing these AI-driven systems. Gen. Dan Caine emphasized their necessity in modern warfare, highlighting the urgency for robust cybersecurity protocols.",
+      "date": "2026-04-24T17:14:00.000Z",
+      "link": "https://therecord.media/pentagon-grapples-with-securing-ai-as-it-moves-towards-autonomous-warfare",
+      "isTopTen": true
+    },
+    {
+      "id": "6684017b-2412-49ab-b485-03c1931cb641",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
+      "summary": "CISA and the NCSC identified a new backdoor named FIRESTARTER that compromised a federal Cisco Firepower device. The malware persists despite security patches, enabling unauthorized remote access.",
+      "date": "2026-04-24T17:06:00.000Z",
+      "link": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
+      "isTopTen": true
+    },
     {
       "id": "9d39a69f-89cc-4d9a-ad0f-696334170534",
       "source": "The Register",
@@ -32,7 +98,7 @@
       "summary": "CISA has successfully neutralized the Firestarter backdoor found within a federal network, prompting widespread vigilance among government agencies. The discovery highlights an active effort to mitigate unauthorized access and potential long-term threats to critical infrastructure.",
       "date": "2026-04-24T14:46:07.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/government_cni_on_high_alert/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9832bddf-798c-435e-a2f7-959397171f51",
@@ -43,7 +109,7 @@
       "summary": "The Norwegian government is proposing legislation to ban social media access for young teenagers, mandating that tech companies implement strict age verification tools. This initiative aims to increase corporate accountability regarding the online safety of minors.",
       "date": "2026-04-24T14:41:00.000Z",
       "link": "https://therecord.media/norway-prime-minister-proposes-social-media-ban-for-young-teens",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b9e5f1a8-e584-4e4e-81a5-399261c601c7",
@@ -76,7 +142,7 @@
       "summary": "The article details how DORA's Article 9 mandates strict authentication and access controls for EU financial institutions to bolster operational resilience. It highlights the regulatory requirements and the severe consequences of failing to implement these essential risk controls.",
       "date": "2026-04-24T14:10:20.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "66ae3d74-a231-452f-87b4-af1e7e180a2c",
@@ -87,7 +153,7 @@
       "summary": "The threat actor TeamPCP has compromised the Bitwarden CLI and leveraged GitHub Dependabot to distribute Shai-Hulud malware and tamper with AI-assisted coding tools.",
       "date": "2026-04-24T13:58:55.000Z",
       "link": "https://hackread.com/teampcp-bitwarden-cli-dependabot-shai-hulud-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4a84480b-817f-431b-9908-31f13f24f08a",
@@ -153,7 +219,7 @@
       "summary": "Cybersecurity researchers identified malicious apps on the Apple App Store that impersonate legitimate cryptocurrency wallets to steal users' seed phrases and private keys. The campaign, active since late 2025, uses deceptive browser redirects to distribute trojanized versions of popular wallet software.",
       "date": "2026-04-24T11:48:00.000Z",
       "link": "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f649cec4-3fed-4f88-8f07-2f1a074a2d55",
@@ -208,7 +274,7 @@
       "summary": "The NCSC and partner agencies have issued an advisory warning that China-linked threat actors are increasingly using botnets composed of compromised edge devices like routers for large-scale cyber espionage. Organizations are urged to monitor traffic from remote access and VPN connections to mitigate this threat.",
       "date": "2026-04-24T09:59:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/ncsc-china-covert-networks-advisory/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e744db13-f347-49de-8913-d77c87b62257",
@@ -560,7 +626,7 @@
       "summary": "A coalition of international intelligence agencies has issued a warning regarding a shift in tactics by Chinese-linked threat actors who are leveraging consumer-grade routers to establish clandestine cyberattack infrastructure. The report provides technical guidance for organizations to mitigate the risks associated with this persistent network compromise.",
       "date": "2026-04-23T16:13:51.000Z",
       "link": "https://cyberscoop.com/china-nexus-covert-networks-advisory/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2941c244-cfce-4b66-861f-7a9b74eb6fe0",
@@ -626,7 +692,7 @@
       "summary": "The Bitwarden CLI package version 2026.4.0 was compromised through a malicious file, 'bw1.js,' as part of an ongoing supply chain attack identified by JFrog and Socket.",
       "date": "2026-04-23T13:42:00.000Z",
       "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06939a02-bfee-4408-99bc-c7aa9235be40",
@@ -648,7 +714,7 @@
       "summary": "House Republicans have introduced the SECURE Data Act, a proposed federal data privacy bill that would preempt and override existing state-level consumer privacy protections.",
       "date": "2026-04-23T13:30:00.000Z",
       "link": "https://therecord.media/house-republicans-unveil-data-privacy-law-override-state-measures",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c27eb03e-cb5f-4ab8-92cd-80b76fa5e396",
@@ -5433,72 +5499,6 @@
       "summary": "This weekly recap highlights a critical zero-day exploit affecting PDF files alongside ongoing state-sponsored infrastructure attacks. It emphasizes the urgent need for incident response due to the discovery of long-standing security vulnerabilities.",
       "date": "2026-04-13T13:01:00.000Z",
       "link": "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c6608a82-f050-4f8f-aa57-042f561a2647",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OpenSSF Flags Malware Campaign on Slack Posing as Linux Foundation Figures",
-      "summary": "The OpenSSF has issued an alert regarding a malicious campaign where hackers impersonate Linux Foundation leaders on Slack to deceive developers into installing system-compromising malware.",
-      "date": "2026-04-13T12:51:14.000Z",
-      "link": "https://hackread.com/openssf-malware-slack-linux-foundation-figures/",
-      "isTopTen": false
-    },
-    {
-      "id": "17762d57-326d-487d-827d-0b47870e92e1",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "$12 million frozen, 20,000 victims identified in crypto scam crackdown",
-      "summary": "Service busy.",
-      "date": "2026-04-13T12:42:38.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/13/crypto-scam-crackdown-12-million-frozen/",
-      "isTopTen": false
-    },
-    {
-      "id": "a19fe862-c9ca-4df5-bfb3-f7a780af4a09",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Rockstar Games receives “pay or leak” warning after cyberattack",
-      "summary": "Rockstar Games suffered a data breach after threat group ShinyHunters accessed their Snowflake environment by compromising a third-party SaaS analytics tool. The attackers obtained sensitive company data and issued a ransom demand under threat of publication.",
-      "date": "2026-04-13T11:51:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/13/rockstar-games-data-breach-shinyhunters/",
-      "isTopTen": false
-    },
-    {
-      "id": "f7e2373a-169d-4a9a-8972-de8a43fc8e6d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Your MTTD Looks Great. Your Post-Alert Gap Doesn't",
-      "summary": "The emergence of autonomous AI models capable of discovering and exploiting zero-day vulnerabilities poses an urgent threat to cybersecurity, drastically reducing the window for incident response. Security experts warn that such capabilities are nearing mass proliferation, challenging traditional metrics like Mean Time to Detect.",
-      "date": "2026-04-13T11:41:00.000Z",
-      "link": "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
-      "isTopTen": false
-    },
-    {
-      "id": "72e88dab-e9c2-4cf0-b19d-d93c2679e0cc",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "iPhone forensics expose Signal messages after app removal in U.S. case",
-      "summary": "An FBI forensic analysis of an iPhone revealed that deleted Signal messages can be recovered through system artifacts despite app uninstallation. This discovery highlights a significant misconception regarding the limitations of mobile privacy and encrypted messaging applications.",
-      "date": "2026-04-13T11:33:46.000Z",
-      "link": "https://securityaffairs.com/190740/security/iphone-forensics-expose-signal-messages-after-app-removal-in-u-s-case.html",
-      "isTopTen": false
-    },
-    {
-      "id": "30bf2540-b8fa-4e44-ba7b-6c3ff32e0c28",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Gym giant Basic-Fit confirms data on a million members stolen in cyberattack",
-      "summary": "Gym chain Basic-Fit has confirmed a cyberattack that resulted in the unauthorized access and theft of personal data belonging to approximately one million members.",
-      "date": "2026-04-13T11:22:08.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/13/basicfit_breach/",
       "isTopTen": false
     }
   ]
