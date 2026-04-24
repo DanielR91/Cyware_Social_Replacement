@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-04-24T10:39:32.377Z",
+  "lastUpdated": "2026-04-24T13:50:47.023Z",
   "articles": [
+    {
+      "id": "c6baab13-eb0a-4b8f-bf44-fa812aacc5ff",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Toronto police arrest three in Canada’s first mobile SMS blaster case",
+      "summary": "Toronto police have arrested three individuals for using a mobile SMS blaster to impersonate cellular towers for mass phishing and network disruption, marking the first case of its kind in Canada.",
+      "date": "2026-04-24T13:45:00.000Z",
+      "link": "https://therecord.media/canada-sms-blaster-cybercriminals",
+      "isTopTen": false
+    },
+    {
+      "id": "d1b59e8b-edfe-41b5-9d86-1a542eaf2a3e",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks",
+      "summary": "More than 10,000 publicly exposed Zimbra Collaboration Suite servers are currently being targeted by active exploitation of a cross-site scripting (XSS) vulnerability. Organizations are urged to patch their systems to prevent potential unauthorized access and data compromise.",
+      "date": "2026-04-24T13:35:33.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/",
+      "isTopTen": false
+    },
+    {
+      "id": "f1cfc11e-62cf-4fb5-8ad5-4463586a8887",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Intel bets the farm on AI inference to drag CPU back to the top table",
+      "summary": "Intel is strategically prioritizing AI inference capabilities in its next-generation processors to regain competitive dominance in the CPU market. This shift reflects a broader industry focus on integrating dedicated AI acceleration hardware directly into standard computing architecture.",
+      "date": "2026-04-24T12:50:36.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/intel_expects_ai_inference_to/",
+      "isTopTen": false
+    },
+    {
+      "id": "21c6af3e-c967-4892-8aa0-14a55cfef794",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
+      "summary": "The article explores the security risks of AI agents, arguing that the core issue lies in the governance of delegated authority rather than just the emergence of new autonomous actors. It proposes continuous observability as a necessary mechanism to manage and monitor these agentic workflows.",
+      "date": "2026-04-24T11:49:00.000Z",
+      "link": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7e87c450-2c85-4ff5-8386-25819ef8306c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases",
+      "summary": "Cybersecurity researchers identified malicious apps on the Apple App Store that impersonate legitimate cryptocurrency wallets to steal users' seed phrases and private keys. The campaign, active since late 2025, uses deceptive browser redirects to distribute trojanized versions of popular wallet software.",
+      "date": "2026-04-24T11:48:00.000Z",
+      "link": "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f649cec4-3fed-4f88-8f07-2f1a074a2d55",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Microsoft beefs up Remote Desktop security with ... hard-to-read messages",
+      "summary": "Microsoft has updated Remote Desktop security protocols, though the implementation has drawn criticism for using confusing or difficult-to-read warning messages for users. This change aims to improve user awareness of security risks despite the reported usability issues.",
+      "date": "2026-04-24T11:47:52.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/remote_desktop_security_beefed_up/",
+      "isTopTen": false
+    },
+    {
+      "id": "9e9023f7-3298-4803-ac4c-4be5d5c6bc9a",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "It's a myth that you need Mythos to find bugs: Open source models can do it just as well",
+      "summary": "Recent research suggests that open-source AI models are as effective as specialized proprietary models like Mythos for identifying software vulnerabilities. This challenges the notion that expensive, closed-source tools are required for automated bug hunting.",
+      "date": "2026-04-24T11:41:54.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/ai_bugfinding_futures/",
+      "isTopTen": false
+    },
+    {
+      "id": "0cb8f0be-086f-4ea8-9746-4d33f76f534e",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Microsoft now lets admins uninstall Copilot on enterprise devices",
+      "summary": "Microsoft has introduced a new policy allowing enterprise IT administrators to uninstall the Copilot AI assistant from managed devices following the April 2026 Patch Tuesday updates. This provides organizations with greater control over the software environment on their corporate systems.",
+      "date": "2026-04-24T11:38:00.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-uninstall-copilot-on-enterprise-devices/",
+      "isTopTen": false
+    },
     {
       "id": "70cf511c-7b6f-49f3-a07c-188763c21658",
       "source": "HackRead",
@@ -32,7 +120,7 @@
       "summary": "State-sponsored attackers are utilizing a persistent backdoor named Firestarter to compromise Cisco security appliances. The malware is notable for its persistence, as it can only be removed by physically power-cycling the affected devices.",
       "date": "2026-04-24T09:56:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/cisco-firepower-firestarter-backdoor/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ed573276-8cb2-47e5-be85-fcde770c4ce9",
@@ -43,7 +131,7 @@
       "summary": "Bitwarden's CLI tool was compromised via a supply chain attack involving a malicious update to the @bitwarden/cli package, which contained harmful code embedded in bw1.js. The breach was facilitated by a compromised GitHub Action as part of a larger, ongoing campaign identified by Checkmarx.",
       "date": "2026-04-24T09:34:04.000Z",
       "link": "https://securityaffairs.com/191215/uncategorized/checkmarx-supply-chain-attack-impacts-bitwarden-npm-distribution-path.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2bab8d0e-28fe-44b1-b36d-c3fbaa59a588",
@@ -109,7 +197,7 @@
       "summary": "LMDeploy is facing active exploitation of a high-severity Server-Side Request Forgery vulnerability (CVE-2026-33626) occurring within 13 hours of its initial disclosure.",
       "date": "2026-04-24T07:24:00.000Z",
       "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "89f41068-9686-4d6a-be0a-63512928023e",
@@ -153,7 +241,7 @@
       "summary": "Microsoft's Kaja Ciglic highlights that nation-state cyber programs are increasingly integrated with geopolitical power, with AI accelerating their capabilities. She advocates for more robust, multi-faceted international strategies beyond traditional sanctions to address state-sponsored threats and ransomware.",
       "date": "2026-04-24T05:30:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/kaja-ciglic-microsoft-nation-state-cyber-programs/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3653992a-9013-4b65-82a1-217b9b9ac176",
@@ -175,7 +263,7 @@
       "summary": "A security weakness in public electric vehicle charging infrastructure could allow malicious actors to remotely disable an entire city's charger network. This vulnerability highlights the risks inherent in the growing connectivity of smart urban infrastructure.",
       "date": "2026-04-24T04:10:33.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/rentable_iot_security_flaws/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "28cebbb1-d018-4a0d-bcc3-98796934eca5",
@@ -373,7 +461,7 @@
       "summary": "A coalition of international intelligence agencies has issued a warning regarding a shift in tactics by Chinese-linked threat actors who are leveraging consumer-grade routers to establish clandestine cyberattack infrastructure. The report provides technical guidance for organizations to mitigate the risks associated with this persistent network compromise.",
       "date": "2026-04-23T16:13:51.000Z",
       "link": "https://cyberscoop.com/china-nexus-covert-networks-advisory/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2941c244-cfce-4b66-861f-7a9b74eb6fe0",
@@ -538,7 +626,7 @@
       "summary": "A UK government minister reported that the sensitive medical data of 500,000 Biobank volunteers has been illicitly listed for sale on the Alibaba platform. The incident highlights a significant breach involving the personal and health information of a large research participant group.",
       "date": "2026-04-23T12:34:49.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/500k_biobank_volunteers_data_listed/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ff7ca0e1-bec8-48a8-b086-22d527192e99",
@@ -637,7 +725,7 @@
       "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a Microsoft Defender privilege escalation vulnerability known as BlueHammer that is actively being exploited as a zero-day.",
       "date": "2026-04-23T11:05:57.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7b28e44f-3d19-4577-97c6-7a56d8f8083b",
@@ -659,7 +747,7 @@
       "summary": "Researchers have identified a novel indirect prompt injection technique that leverages hidden website instructions to compromise AI assistants like GitHub Copilot. This vulnerability allows attackers to manipulate AI outputs by embedding malicious commands within accessible web content.",
       "date": "2026-04-23T10:20:06.000Z",
       "link": "https://hackread.com/hackers-hidden-site-instruction-attack-ai-assistants/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f789b57-56bf-4216-b91c-ad2343d7510d",
@@ -670,7 +758,7 @@
       "summary": "Leaked data from the RAMP dark web forum exposes the sophisticated, highly organized structure of the Russian ransomware marketplace involving thousands of users and vast amounts of operational data. This revelation provides a deep look into the professional roles, including brokers and recruiters, that facilitate global ransomware operations.",
       "date": "2026-04-23T10:16:59.000Z",
       "link": "https://securityaffairs.com/191171/cyber-crime/ramp-uncovered-anatomy-of-russias-ransomware-marketplace.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7c2d58b1-0702-4c26-8e62-848289aaf6ab",
@@ -5411,94 +5499,6 @@
       "summary": "The NHS is allocating £46,000 to prepare for an upcoming renewal of its Microsoft software licensing agreements. This administrative action ensures continued access to enterprise tools and security updates.",
       "date": "2026-04-13T09:27:14.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/13/nhs_benchmarking_microsoft/",
-      "isTopTen": false
-    },
-    {
-      "id": "de1a29e5-ca32-47fd-9fb5-a09e392cf3ba",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
-      "summary": "The North Korean threat group APT37 is utilizing social engineering on Facebook to build rapport with targets and deliver the RokRAT remote access trojan. This multi-stage campaign demonstrates a shift toward leveraging trusted social platforms for malware distribution.",
-      "date": "2026-04-13T09:15:00.000Z",
-      "link": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ee298760-1d73-47cc-9703-189a60384486",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Iran-linked group Handala claims to have breached three major UAE organizations",
-      "summary": "An Iran-linked threat group named Handala claims to have breached three major Dubai government organizations, allegedly destroying 6 petabytes of data and exfiltrating 149 terabytes.",
-      "date": "2026-04-13T09:00:36.000Z",
-      "link": "https://securityaffairs.com/190716/hacking/iran-linked-group-handala-claims-to-have-breached-three-major-uae-organizations.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3d58b820-8095-492e-ba4d-2fd44102ae49",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "CPUID watering hole attack spreads STX RAT malware",
-      "summary": "Threat actors compromised the official CPUID website to distribute STX RAT malware by replacing legitimate CPU-Z and HWMonitor installers with malicious versions. The attack successfully provided attackers with remote access to the systems of users who downloaded the tampered files.",
-      "date": "2026-04-13T07:23:36.000Z",
-      "link": "https://securityaffairs.com/190702/malware/cpuid-watering-hole-attack-spreads-stx-rat-malware.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c8dae7e7-7223-46e8-96c2-38f4429b586d",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
-      "summary": "Service busy.",
-      "date": "2026-04-13T06:50:00.000Z",
-      "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
-      "isTopTen": false
-    },
-    {
-      "id": "eeda5b2c-4010-471a-823a-049892072dc9",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Fixing vulnerability data quality requires fixing the architecture first",
-      "summary": "Art Manion argues that the inconsistency in vulnerability data stems from fundamental architectural flaws in how systems manage and collect such information. The research highlights the difficulty in establishing a universal standard, such as Minimum Viable Vulnerability Enumeration, due to the contextual nature of vulnerabilities.",
-      "date": "2026-04-13T06:00:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/13/art-manion-tharros-vulnerability-data-quality/",
-      "isTopTen": false
-    },
-    {
-      "id": "4b94acb5-50e7-4223-b6c5-b564ff229be1",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "ZeroID: Open-source identity platform for autonomous AI agents",
-      "summary": "ZeroID is an open-source identity and credentialing platform designed to solve the attribution problem in autonomous and multi-agent systems by providing traceability for agent actions. It addresses the security limitations of shared service accounts and traditional OAuth protocols in complex agentic workflows.",
-      "date": "2026-04-13T05:30:40.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/13/zeroid-open-source-identity-platform-autonomous-ai-agents/",
-      "isTopTen": false
-    },
-    {
-      "id": "b7a72c85-b77e-40c5-8160-804a74a69246",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "MITRE releases a shared fraud-cyber framework built from real attack data",
-      "summary": "MITRE has introduced the Fight Fraud Framework (F3) to bridge the operational gap between fraud investigators and cybersecurity analysts by providing a unified, behavior-based model for identifying and responding to financial attacks.",
-      "date": "2026-04-13T05:00:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/13/mitre-fight-fraud-framework-f3/",
-      "isTopTen": false
-    },
-    {
-      "id": "67361b90-237d-45af-abdd-7ac8303ed13c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Why manual certificate management is running out of time",
-      "summary": "Service busy.",
-      "date": "2026-04-13T04:30:37.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/13/globalsign-certificate-lifecycle-management-video/",
       "isTopTen": false
     }
   ]
