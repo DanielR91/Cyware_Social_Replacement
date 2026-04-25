@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-25T10:10:55.501Z",
+  "lastUpdated": "2026-04-25T13:17:02.824Z",
   "articles": [
+    {
+      "id": "f210aa51-6828-47b8-b193-54e94c72069b",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake CAPTCHA Scam Abuses Verification Clicks to Send Costly International Texts",
+      "summary": "Researchers have uncovered a widespread Click2SMS fraud campaign that uses deceptive CAPTCHA prompts and browser hijacking to trick users into sending unauthorized, premium-rate international text messages. The scheme exploits user interaction to generate fraudulent charges without victim consent.",
+      "date": "2026-04-25T11:10:58.000Z",
+      "link": "https://hackread.com/fake-captcha-pages-exploit-clicks-send-texts/",
+      "isTopTen": true
+    },
     {
       "id": "13e6303a-fba5-4d95-b71b-0f22225382de",
       "source": "The Register",
@@ -32,7 +43,7 @@
       "summary": "Service busy.",
       "date": "2026-04-25T05:08:00.000Z",
       "link": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "240d114a-2688-4388-9519-e8492ac74779",
@@ -43,7 +54,7 @@
       "summary": "CISA discovered the persistent FIRESTARTER backdoor on a U.S. federal agency's Cisco Firepower ASA device, noting that the malware remained active even after the application of security patches.",
       "date": "2026-04-25T00:00:52.000Z",
       "link": "https://securityaffairs.com/191241/hacking/cisa-reports-persistent-firestarter-backdoor-on-cisco-asa-device-in-federal-network.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d2aebf39-10ed-4cbb-9029-9c2daf004571",
@@ -54,7 +65,7 @@
       "summary": "Home security company ADT has officially confirmed a data breach following extortion demands from the ShinyHunters hacking group. The group threatened to release stolen sensitive information unless their ransom demands were met.",
       "date": "2026-04-24T22:53:14.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fd41f76b-7b48-42c0-b047-eb1bd8a5b890",
@@ -274,7 +285,7 @@
       "summary": "A Chinese national conducted a long-term spear-phishing campaign against NASA employees and other U.S. entities to illicitly acquire sensitive defense software and technical information. This operation bypassed export control laws by posing as a legitimate researcher to gain unauthorized access.",
       "date": "2026-04-24T14:13:00.000Z",
       "link": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4c67a547-9ced-4806-8794-afe6d54a0c4f",
@@ -329,7 +340,7 @@
       "summary": "More than 10,000 publicly exposed Zimbra Collaboration Suite servers are currently being targeted by active exploitation of a cross-site scripting (XSS) vulnerability. Organizations are urged to patch their systems to prevent potential unauthorized access and data compromise.",
       "date": "2026-04-24T13:35:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab32a69c-1f2c-422b-bb43-d190311e0eca",
@@ -461,7 +472,7 @@
       "summary": "Bitwarden's CLI tool was compromised via a supply chain attack involving a malicious update to the @bitwarden/cli package, which contained harmful code embedded in bw1.js. The breach was facilitated by a compromised GitHub Action as part of a larger, ongoing campaign identified by Checkmarx.",
       "date": "2026-04-24T09:34:04.000Z",
       "link": "https://securityaffairs.com/191215/uncategorized/checkmarx-supply-chain-attack-impacts-bitwarden-npm-distribution-path.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2bab8d0e-28fe-44b1-b36d-c3fbaa59a588",
@@ -549,7 +560,7 @@
       "summary": "The UK's NCSC and international partners have issued a warning regarding China-linked threat actors who are leveraging large-scale botnets of compromised consumer hardware to disguise malicious traffic. These groups are hijacking devices such as routers and cameras to act as proxies, complicating detection efforts by security teams.",
       "date": "2026-04-24T06:58:13.000Z",
       "link": "https://securityaffairs.com/191202/security/china-linked-threat-actors-use-consumer-device-botnets-to-evade-detection-warn-uk-and-partners.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b42154a5-998e-4464-bec0-bda30c9a6ac2",
@@ -648,7 +659,7 @@
       "summary": "US and UK cybersecurity agencies revealed that attackers utilized persistent malware, dubbed Firestarter, to maintain access to Cisco firewalls even after security patches were deployed. The campaign, discovered on a federal agency's network, highlights the risk of post-exploitation persistence despite remediation efforts.",
       "date": "2026-04-23T20:25:05.000Z",
       "link": "https://cyberscoop.com/cisco-firestarter-malware-cisa-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "73771b94-949d-49da-9aa8-a0d1c8cfe360",
@@ -681,7 +692,7 @@
       "summary": "Ten countries have issued a joint warning regarding Chinese state-sponsored actors compromising global infrastructure to facilitate further cyberattacks. This operation highlights a significant trend of threat actors weaponizing legitimate network devices to establish persistence.",
       "date": "2026-04-23T19:25:11.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/china_covert_networks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2d136aaf-a3b4-4261-ab95-a1ea8d2ea46c",
@@ -692,7 +703,7 @@
       "summary": "Attackers injected malicious code into the Bitwarden CLI npm package to steal developer credentials and distribute the payload to downstream projects. The compromise was quickly identified, but it highlights risks in software supply chain security.",
       "date": "2026-04-23T19:21:01.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a3c68279-a97b-4a09-bf83-6d239a2d7777",
@@ -703,7 +714,7 @@
       "summary": "Researchers have documented the first instance of mapping attack traffic to mobile signaling infrastructure, revealing that surveillance actors are leveraging long-standing telecommunications vulnerabilities via commercial tools.",
       "date": "2026-04-23T19:19:32.000Z",
       "link": "https://cyberscoop.com/surveillance-campaigns-use-commercial-surveillance-tools-to-exploit-long-known-telecom-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1ffe69c0-c40c-4c88-9d9f-9f150dd84a24",
@@ -5488,17 +5499,6 @@
       "summary": "Rockstar Games experienced a data breach stemming from a security incident at its third-party analytics provider, Anodot. The stolen data has been publicly released by the ShinyHunters extortion gang.",
       "date": "2026-04-13T20:08:10.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5b7b005-835d-4f20-9b74-fb631715a779",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical flaw in wolfSSL library enables forged certificate use",
-      "summary": "A critical vulnerability in the wolfSSL library allows attackers to forge certificates by improperly verifying ECDSA signature hashes or sizes. This flaw could lead to weakened security in communications using the library.",
-      "date": "2026-04-13T19:56:03.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
       "isTopTen": false
     }
   ]
