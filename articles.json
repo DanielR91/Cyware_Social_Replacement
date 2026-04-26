@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-26T09:59:05.575Z",
+  "lastUpdated": "2026-04-26T13:18:16.546Z",
   "articles": [
+    {
+      "id": "1a261253-fc6c-4a8c-bf46-6a400d27cfe7",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 94",
+      "summary": "This newsletter highlights recent malware threats, including the Morpheus spyware, DarkSword and Coruna exploits targeting iPhones, and the Lotus Wiper targeting energy infrastructure. It provides a curated overview of critical cybersecurity research and emerging malicious activity.",
+      "date": "2026-04-26T11:32:42.000Z",
+      "link": "https://securityaffairs.com/191312/malware/security-affairs-malware-newsletter-round-94.html",
+      "isTopTen": true
+    },
+    {
+      "id": "c4d1a812-d275-4930-854b-9c70a8519180",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Trigona ransomware adopts custom tool to steal data and evade detection",
+      "summary": "Trigona ransomware has transitioned to a custom-built data exfiltration tool to improve efficiency and bypass security detection mechanisms previously triggered by standard utilities like Rclone. This shift reflects an evolving tactical approach aimed at gaining greater control over stolen data and evading discovery.",
+      "date": "2026-04-26T09:37:30.000Z",
+      "link": "https://securityaffairs.com/191294/cyber-crime/trigona-ransomware-adopts-custom-tool-to-steal-data-and-evade-detection.html",
+      "isTopTen": false
+    },
     {
       "id": "4ca76bf7-5fde-495c-a812-9118c7bf8323",
       "source": "The Register",
@@ -65,7 +87,7 @@
       "summary": "A threat actor identified as UNC6692 is utilizing social engineering via Microsoft Teams to distribute a new malware suite called 'Snow'. This custom malware includes a backdoor, a tunneler, and a browser extension.",
       "date": "2026-04-25T15:07:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "61d17a77-6bc5-4754-9b52-84adf25771f4",
@@ -219,7 +241,7 @@
       "summary": "A 12-year-old high-severity vulnerability (CVE-2026-41651) in PackageKit, dubbed Pack2TheRoot, allows local unprivileged Linux users to gain unauthorized root access. The flaw permits users to install or remove system packages, posing a significant security risk.",
       "date": "2026-04-24T19:46:15.000Z",
       "link": "https://securityaffairs.com/191231/security/12-year-old-pack2theroot-bug-lets-linux-users-gain-root-privileges.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "833c9fca-21c9-4a53-96b3-11845bcb2fd1",
@@ -285,7 +307,7 @@
       "summary": "The Pentagon is increasingly integrating autonomous weapons into its defense strategy while facing the significant challenge of securing these AI-driven systems. Gen. Dan Caine emphasized their necessity in modern warfare, highlighting the urgency for robust cybersecurity protocols.",
       "date": "2026-04-24T17:14:00.000Z",
       "link": "https://therecord.media/pentagon-grapples-with-securing-ai-as-it-moves-towards-autonomous-warfare",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6684017b-2412-49ab-b485-03c1931cb641",
@@ -527,7 +549,7 @@
       "summary": "The NCSC and partner agencies have issued an advisory warning that China-linked threat actors are increasingly using botnets composed of compromised edge devices like routers for large-scale cyber espionage. Organizations are urged to monitor traffic from remote access and VPN connections to mitigate this threat.",
       "date": "2026-04-24T09:59:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/ncsc-china-covert-networks-advisory/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e744db13-f347-49de-8913-d77c87b62257",
@@ -626,7 +648,7 @@
       "summary": "LMDeploy is facing active exploitation of a high-severity Server-Side Request Forgery vulnerability (CVE-2026-33626) occurring within 13 hours of its initial disclosure.",
       "date": "2026-04-24T07:24:00.000Z",
       "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "89f41068-9686-4d6a-be0a-63512928023e",
@@ -648,7 +670,7 @@
       "summary": "The UK's NCSC and international partners have issued a warning regarding China-linked threat actors who are leveraging large-scale botnets of compromised consumer hardware to disguise malicious traffic. These groups are hijacking devices such as routers and cameras to act as proxies, complicating detection efforts by security teams.",
       "date": "2026-04-24T06:58:13.000Z",
       "link": "https://securityaffairs.com/191202/security/china-linked-threat-actors-use-consumer-device-botnets-to-evade-detection-warn-uk-and-partners.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b42154a5-998e-4464-bec0-bda30c9a6ac2",
@@ -703,7 +725,7 @@
       "summary": "Vercel has confirmed that its ongoing security breach has impacted a wider range of customers and third-party systems than previously identified. The expanding scope of the compromise creates significant downstream security risks for affected organizations.",
       "date": "2026-04-23T22:05:51.000Z",
       "link": "https://cyberscoop.com/vercel-attack-fallout-expands/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "26fb44a4-267a-4fdc-9f8d-1518cc248fb9",
@@ -5477,28 +5499,6 @@
       "summary": "A campaign involving 108 malicious Chrome extensions has been identified for stealing user data and injecting unauthorized code, impacting approximately 20,000 users. These extensions communicate with a shared command-and-control infrastructure to facilitate browser-level exploitation.",
       "date": "2026-04-14T08:35:00.000Z",
       "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7b86682e-2db5-4f1a-9eec-e029b7a6db6a",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Adobe, Fortinet, Microsoft Exchange Server, and Microsoft Windows flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include multiple high-risk flaws affecting Adobe, Fortinet, Microsoft, Apple, and various web frameworks. Organizations are urged to patch these vulnerabilities to mitigate active exploitation risks.",
-      "date": "2026-04-14T07:38:20.000Z",
-      "link": "https://securityaffairs.com/190775/security/u-s-cisa-adds-adobe-fortinet-microsoft-windows-microsoft-exchange-server-and-microsoft-windows-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e6e606c9-059f-4aff-9fd5-869c233cb010",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Fake Claude AI installer abuses DLL sideloading to deploy PlugX",
-      "summary": "Threat actors are impersonating the Anthropic Claude website to distribute a ZIP file containing the PlugX remote access trojan via DLL sideloading. The campaign leverages the popularity of AI chatbots to trick users into downloading a malicious 'pro version' installer.",
-      "date": "2026-04-14T07:19:57.000Z",
-      "link": "https://securityaffairs.com/190754/malware/fake-claude-ai-installer-abuses-dll-sideloading-to-deploy-plugx.html",
       "isTopTen": false
     }
   ]
