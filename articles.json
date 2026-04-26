@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-04-26T13:18:16.546Z",
+  "lastUpdated": "2026-04-26T15:50:18.063Z",
   "articles": [
+    {
+      "id": "ae8aa1c3-7968-42ab-9689-5d9a6246513d",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "American utility firm Itron discloses breach of internal IT network",
+      "summary": "American utility company Itron, Inc. has reported a cybersecurity breach involving unauthorized access to its internal IT network via an SEC 8-K filing. The company is currently investigating the incident to determine the scope of the impact.",
+      "date": "2026-04-26T14:22:34.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+      "isTopTen": false
+    },
+    {
+      "id": "eba62af3-6640-4966-8e04-9d584b4afb94",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "GopherWhisper: new China-linked APT targets Mongolia with Go-based malware",
+      "summary": "A China-linked APT group identified as GopherWhisper is targeting Mongolian government institutions using a sophisticated suite of Go-based loaders and backdoors. ESET researchers discovered this campaign, highlighting the group's focus on regional espionage.",
+      "date": "2026-04-26T13:07:58.000Z",
+      "link": "https://securityaffairs.com/191318/apt/gopherwhisper-new-china-linked-apt-targets-mongolia-with-go-based-malware.html",
+      "isTopTen": false
+    },
     {
       "id": "1a261253-fc6c-4a8c-bf46-6a400d27cfe7",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "This newsletter highlights recent malware threats, including the Morpheus spyware, DarkSword and Coruna exploits targeting iPhones, and the Lotus Wiper targeting energy infrastructure. It provides a curated overview of critical cybersecurity research and emerging malicious activity.",
       "date": "2026-04-26T11:32:42.000Z",
       "link": "https://securityaffairs.com/191312/malware/security-affairs-malware-newsletter-round-94.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c4d1a812-d275-4930-854b-9c70a8519180",
@@ -65,7 +87,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical security flaws found in SimpleHelp, Samsung, and D-Link products. Federal agencies are required to address these vulnerabilities by specified deadlines to mitigate active exploitation risks.",
       "date": "2026-04-25T21:00:26.000Z",
       "link": "https://securityaffairs.com/191281/security/u-s-cisa-adds-simplehelp-samsung-and-d-link-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "08a8c6e7-7718-4c73-bc5d-44c5014137a1",
@@ -153,7 +175,7 @@
       "summary": "CISA discovered the persistent FIRESTARTER backdoor on a U.S. federal agency's Cisco Firepower ASA device, noting that the malware remained active even after the application of security patches.",
       "date": "2026-04-25T00:00:52.000Z",
       "link": "https://securityaffairs.com/191241/hacking/cisa-reports-persistent-firestarter-backdoor-on-cisco-asa-device-in-federal-network.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d2aebf39-10ed-4cbb-9029-9c2daf004571",
@@ -549,7 +571,7 @@
       "summary": "The NCSC and partner agencies have issued an advisory warning that China-linked threat actors are increasingly using botnets composed of compromised edge devices like routers for large-scale cyber espionage. Organizations are urged to monitor traffic from remote access and VPN connections to mitigate this threat.",
       "date": "2026-04-24T09:59:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/ncsc-china-covert-networks-advisory/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e744db13-f347-49de-8913-d77c87b62257",
@@ -560,7 +582,7 @@
       "summary": "State-sponsored attackers are utilizing a persistent backdoor named Firestarter to compromise Cisco security appliances. The malware is notable for its persistence, as it can only be removed by physically power-cycling the affected devices.",
       "date": "2026-04-24T09:56:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/cisco-firepower-firestarter-backdoor/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4872ec70-51c8-4a50-9cdd-a53269aa5085",
@@ -670,7 +692,7 @@
       "summary": "The UK's NCSC and international partners have issued a warning regarding China-linked threat actors who are leveraging large-scale botnets of compromised consumer hardware to disguise malicious traffic. These groups are hijacking devices such as routers and cameras to act as proxies, complicating detection efforts by security teams.",
       "date": "2026-04-24T06:58:13.000Z",
       "link": "https://securityaffairs.com/191202/security/china-linked-threat-actors-use-consumer-device-botnets-to-evade-detection-warn-uk-and-partners.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b42154a5-998e-4464-bec0-bda30c9a6ac2",
@@ -5477,28 +5499,6 @@
       "summary": "The article advocates for the Senate to swiftly confirm Sean Plankey as the director of CISA to address escalating global cyber threats and internal budget constraints.",
       "date": "2026-04-14T10:00:00.000Z",
       "link": "https://cyberscoop.com/national-security-ntsc-op-ed-sean-plankey-cisa-confirmed-director/",
-      "isTopTen": false
-    },
-    {
-      "id": "216be442-d239-45d3-b666-802da16903e2",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers target unpatched ShowDoc servers via CVE-2025-0520",
-      "summary": "ShowDoc servers are currently facing active exploitation due to a critical remote code execution vulnerability identified as CVE-2025-0520, which carries a CVSS score of 9.4. Organizations using the documentation platform are urged to apply patches immediately to mitigate the risk of unauthorized access.",
-      "date": "2026-04-14T09:13:40.000Z",
-      "link": "https://securityaffairs.com/190790/hacking/attackers-target-unpatched-showdoc-servers-via-cve-2025-0520.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c0bb18c9-6705-4ae0-9c6f-9c083bb715b9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
-      "summary": "A campaign involving 108 malicious Chrome extensions has been identified for stealing user data and injecting unauthorized code, impacting approximately 20,000 users. These extensions communicate with a shared command-and-control infrastructure to facilitate browser-level exploitation.",
-      "date": "2026-04-14T08:35:00.000Z",
-      "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
       "isTopTen": false
     }
   ]
