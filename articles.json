@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-26T15:50:18.063Z",
+  "lastUpdated": "2026-04-26T19:04:09.662Z",
   "articles": [
+    {
+      "id": "07b8bc0c-97eb-4a17-b92f-e20515e67a79",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical bug in CrowdStrike LogScale let attackers access files",
+      "summary": "CrowdStrike has patched a critical path traversal vulnerability (CVE-2026-40050) in its self-hosted LogScale product that could allow unauthenticated attackers to read arbitrary files from the server. Security updates have been released to address the flaw.",
+      "date": "2026-04-26T16:07:02.000Z",
+      "link": "https://securityaffairs.com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html",
+      "isTopTen": true
+    },
     {
       "id": "ae8aa1c3-7968-42ab-9689-5d9a6246513d",
       "source": "BleepingComputer",
@@ -21,7 +32,7 @@
       "summary": "A China-linked APT group identified as GopherWhisper is targeting Mongolian government institutions using a sophisticated suite of Go-based loaders and backdoors. ESET researchers discovered this campaign, highlighting the group's focus on regional espionage.",
       "date": "2026-04-26T13:07:58.000Z",
       "link": "https://securityaffairs.com/191318/apt/gopherwhisper-new-china-linked-apt-targets-mongolia-with-go-based-malware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1a261253-fc6c-4a8c-bf46-6a400d27cfe7",
@@ -175,7 +186,7 @@
       "summary": "CISA discovered the persistent FIRESTARTER backdoor on a U.S. federal agency's Cisco Firepower ASA device, noting that the malware remained active even after the application of security patches.",
       "date": "2026-04-25T00:00:52.000Z",
       "link": "https://securityaffairs.com/191241/hacking/cisa-reports-persistent-firestarter-backdoor-on-cisco-asa-device-in-federal-network.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d2aebf39-10ed-4cbb-9029-9c2daf004571",
@@ -186,7 +197,7 @@
       "summary": "Home security company ADT has officially confirmed a data breach following extortion demands from the ShinyHunters hacking group. The group threatened to release stolen sensitive information unless their ransom demands were met.",
       "date": "2026-04-24T22:53:14.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fd41f76b-7b48-42c0-b047-eb1bd8a5b890",
@@ -263,7 +274,7 @@
       "summary": "A 12-year-old high-severity vulnerability (CVE-2026-41651) in PackageKit, dubbed Pack2TheRoot, allows local unprivileged Linux users to gain unauthorized root access. The flaw permits users to install or remove system packages, posing a significant security risk.",
       "date": "2026-04-24T19:46:15.000Z",
       "link": "https://securityaffairs.com/191231/security/12-year-old-pack2theroot-bug-lets-linux-users-gain-root-privileges.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "833c9fca-21c9-4a53-96b3-11845bcb2fd1",
@@ -329,7 +340,7 @@
       "summary": "The Pentagon is increasingly integrating autonomous weapons into its defense strategy while facing the significant challenge of securing these AI-driven systems. Gen. Dan Caine emphasized their necessity in modern warfare, highlighting the urgency for robust cybersecurity protocols.",
       "date": "2026-04-24T17:14:00.000Z",
       "link": "https://therecord.media/pentagon-grapples-with-securing-ai-as-it-moves-towards-autonomous-warfare",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6684017b-2412-49ab-b485-03c1931cb641",
@@ -571,7 +582,7 @@
       "summary": "The NCSC and partner agencies have issued an advisory warning that China-linked threat actors are increasingly using botnets composed of compromised edge devices like routers for large-scale cyber espionage. Organizations are urged to monitor traffic from remote access and VPN connections to mitigate this threat.",
       "date": "2026-04-24T09:59:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/ncsc-china-covert-networks-advisory/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e744db13-f347-49de-8913-d77c87b62257",
@@ -582,7 +593,7 @@
       "summary": "State-sponsored attackers are utilizing a persistent backdoor named Firestarter to compromise Cisco security appliances. The malware is notable for its persistence, as it can only be removed by physically power-cycling the affected devices.",
       "date": "2026-04-24T09:56:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/cisco-firepower-firestarter-backdoor/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4872ec70-51c8-4a50-9cdd-a53269aa5085",
@@ -5488,17 +5499,6 @@
       "summary": "A 2026 report by OX Security reveals that while total security alert volume rose by 52%, critical risks surged by 400%, likely driven by an AI-induced velocity gap in software development.",
       "date": "2026-04-14T10:00:00.000Z",
       "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d3eb1972-b1ac-434c-961d-a6a9c57e151a",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Secretary Mullin must help finish the job: Urge the Senate to confirm Plankey",
-      "summary": "The article advocates for the Senate to swiftly confirm Sean Plankey as the director of CISA to address escalating global cyber threats and internal budget constraints.",
-      "date": "2026-04-14T10:00:00.000Z",
-      "link": "https://cyberscoop.com/national-security-ntsc-op-ed-sean-plankey-cisa-confirmed-director/",
       "isTopTen": false
     }
   ]
