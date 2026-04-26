@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-04-26T07:47:40.699Z",
+  "lastUpdated": "2026-04-26T09:59:05.575Z",
   "articles": [
+    {
+      "id": "4ca76bf7-5fde-495c-a812-9118c7bf8323",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Hot take: AI's not going to kill open source code security",
+      "summary": "The article argues against the prevailing sentiment that artificial intelligence poses an existential threat to the security of open-source software. It suggests that AI will likely serve as a tool to enhance rather than compromise secure development practices.",
+      "date": "2026-04-26T09:28:09.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/opinion_column/",
+      "isTopTen": false
+    },
+    {
+      "id": "59b719c2-5e7c-4dcc-9f12-1c0908a8e948",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 574 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The Security Affairs newsletter highlights CISA's addition of critical vulnerabilities in SimpleHelp, Samsung, and D-Link products to its Known Exploited Vulnerabilities catalog.",
+      "date": "2026-04-26T08:41:06.000Z",
+      "link": "https://securityaffairs.com/191305/breaking-news/security-affairs-newsletter-round-574-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f705304d-9ab9-45a2-bd5a-2b755f560e74",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Week in review: Claude Mythos finds 271 Firefox flaws, Vercel breach",
+      "summary": "This weekly review covers the discovery of 271 Firefox vulnerabilities using Claude Mythos, a Vercel security breach, the release of the SmokedMeat CI/CD security tool, and the emergence of NGate NFC malware targeting Android devices.",
+      "date": "2026-04-26T08:00:32.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/04/26/week-in-review-claude-mythos-finds-271-firefox-flaws-vercel-breach/",
+      "isTopTen": false
+    },
     {
       "id": "c01d7e7f-0576-4f03-841a-273259005d45",
       "source": "Security Affairs",
@@ -10,7 +43,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical security flaws found in SimpleHelp, Samsung, and D-Link products. Federal agencies are required to address these vulnerabilities by specified deadlines to mitigate active exploitation risks.",
       "date": "2026-04-25T21:00:26.000Z",
       "link": "https://securityaffairs.com/191281/security/u-s-cisa-adds-simplehelp-samsung-and-d-link-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "08a8c6e7-7718-4c73-bc5d-44c5014137a1",
@@ -32,7 +65,7 @@
       "summary": "A threat actor identified as UNC6692 is utilizing social engineering via Microsoft Teams to distribute a new malware suite called 'Snow'. This custom malware includes a backdoor, a tunneler, and a browser extension.",
       "date": "2026-04-25T15:07:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "61d17a77-6bc5-4754-9b52-84adf25771f4",
@@ -186,7 +219,7 @@
       "summary": "A 12-year-old high-severity vulnerability (CVE-2026-41651) in PackageKit, dubbed Pack2TheRoot, allows local unprivileged Linux users to gain unauthorized root access. The flaw permits users to install or remove system packages, posing a significant security risk.",
       "date": "2026-04-24T19:46:15.000Z",
       "link": "https://securityaffairs.com/191231/security/12-year-old-pack2theroot-bug-lets-linux-users-gain-root-privileges.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "833c9fca-21c9-4a53-96b3-11845bcb2fd1",
@@ -439,7 +472,7 @@
       "summary": "Cybersecurity researchers identified malicious apps on the Apple App Store that impersonate legitimate cryptocurrency wallets to steal users' seed phrases and private keys. The campaign, active since late 2025, uses deceptive browser redirects to distribute trojanized versions of popular wallet software.",
       "date": "2026-04-24T11:48:00.000Z",
       "link": "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f649cec4-3fed-4f88-8f07-2f1a074a2d55",
@@ -494,7 +527,7 @@
       "summary": "The NCSC and partner agencies have issued an advisory warning that China-linked threat actors are increasingly using botnets composed of compromised edge devices like routers for large-scale cyber espionage. Organizations are urged to monitor traffic from remote access and VPN connections to mitigate this threat.",
       "date": "2026-04-24T09:59:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/ncsc-china-covert-networks-advisory/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e744db13-f347-49de-8913-d77c87b62257",
@@ -505,7 +538,7 @@
       "summary": "State-sponsored attackers are utilizing a persistent backdoor named Firestarter to compromise Cisco security appliances. The malware is notable for its persistence, as it can only be removed by physically power-cycling the affected devices.",
       "date": "2026-04-24T09:56:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/cisco-firepower-firestarter-backdoor/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4872ec70-51c8-4a50-9cdd-a53269aa5085",
@@ -593,7 +626,7 @@
       "summary": "LMDeploy is facing active exploitation of a high-severity Server-Side Request Forgery vulnerability (CVE-2026-33626) occurring within 13 hours of its initial disclosure.",
       "date": "2026-04-24T07:24:00.000Z",
       "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "89f41068-9686-4d6a-be0a-63512928023e",
@@ -615,7 +648,7 @@
       "summary": "The UK's NCSC and international partners have issued a warning regarding China-linked threat actors who are leveraging large-scale botnets of compromised consumer hardware to disguise malicious traffic. These groups are hijacking devices such as routers and cameras to act as proxies, complicating detection efforts by security teams.",
       "date": "2026-04-24T06:58:13.000Z",
       "link": "https://securityaffairs.com/191202/security/china-linked-threat-actors-use-consumer-device-botnets-to-evade-detection-warn-uk-and-partners.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b42154a5-998e-4464-bec0-bda30c9a6ac2",
@@ -670,7 +703,7 @@
       "summary": "Vercel has confirmed that its ongoing security breach has impacted a wider range of customers and third-party systems than previously identified. The expanding scope of the compromise creates significant downstream security risks for affected organizations.",
       "date": "2026-04-23T22:05:51.000Z",
       "link": "https://cyberscoop.com/vercel-attack-fallout-expands/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "26fb44a4-267a-4fdc-9f8d-1518cc248fb9",
@@ -714,7 +747,7 @@
       "summary": "US and UK cybersecurity agencies revealed that attackers utilized persistent malware, dubbed Firestarter, to maintain access to Cisco firewalls even after security patches were deployed. The campaign, discovered on a federal agency's network, highlights the risk of post-exploitation persistence despite remediation efforts.",
       "date": "2026-04-23T20:25:05.000Z",
       "link": "https://cyberscoop.com/cisco-firestarter-malware-cisa-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "73771b94-949d-49da-9aa8-a0d1c8cfe360",
@@ -5466,39 +5499,6 @@
       "summary": "Threat actors are impersonating the Anthropic Claude website to distribute a ZIP file containing the PlugX remote access trojan via DLL sideloading. The campaign leverages the popularity of AI chatbots to trick users into downloading a malicious 'pro version' installer.",
       "date": "2026-04-14T07:19:57.000Z",
       "link": "https://securityaffairs.com/190754/malware/fake-claude-ai-installer-abuses-dll-sideloading-to-deploy-plugx.html",
-      "isTopTen": false
-    },
-    {
-      "id": "164ed0a9-e3c5-4717-b1ec-50456acd5f63",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
-      "summary": "The critical CVE-2025-0520 vulnerability in ShowDoc, an unrestricted file upload flaw, is currently being actively exploited by attackers on unpatched servers.",
-      "date": "2026-04-14T05:50:00.000Z",
-      "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b26bfb9f-9b03-47b0-8461-7b88a283fafd",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "European Gym giant Basic-Fit data breach affects 1 million members",
-      "summary": "Dutch gym chain Basic-Fit reported a data breach exposing the personal information of approximately one million customers. The company confirmed that unauthorized parties gained access to its systems, compromising member data.",
-      "date": "2026-04-13T21:50:01.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
-      "isTopTen": false
-    },
-    {
-      "id": "4063dde0-cb9f-4e89-9460-f18b1f27ece2",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Here’s how cyber heavyweights in the US and UK are dealing with Claude Mythos",
-      "summary": "High-level U.S. and UK cyber officials and researchers have released reports analyzing the potential hacking capabilities of the AI tool Claude Mythos. These assessments aim to help security defenders understand and mitigate the risks posed by the model's advanced features.",
-      "date": "2026-04-13T21:43:37.000Z",
-      "link": "https://cyberscoop.com/claude-mythos-ai-cybersecurity-threat-report/",
       "isTopTen": false
     }
   ]
