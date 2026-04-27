@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-26T21:50:21.293Z",
+  "lastUpdated": "2026-04-27T03:41:24.998Z",
   "articles": [
+    {
+      "id": "611d1b77-af8d-4faf-a43c-579495580bb2",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google Cloud Next proves what we suspected: Everything is AI now",
+      "summary": "Service busy.",
+      "date": "2026-04-27T00:01:15.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/google_cloud_next_proves_what/",
+      "isTopTen": false
+    },
     {
       "id": "f0c1aafd-3104-4a5f-9a4a-b16293e411ac",
       "source": "HackRead",
@@ -21,7 +32,7 @@
       "summary": "CrowdStrike has patched a critical path traversal vulnerability (CVE-2026-40050) in its self-hosted LogScale product that could allow unauthenticated attackers to read arbitrary files from the server. Security updates have been released to address the flaw.",
       "date": "2026-04-26T16:07:02.000Z",
       "link": "https://securityaffairs.com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ae8aa1c3-7968-42ab-9689-5d9a6246513d",
@@ -109,7 +120,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical security flaws found in SimpleHelp, Samsung, and D-Link products. Federal agencies are required to address these vulnerabilities by specified deadlines to mitigate active exploitation risks.",
       "date": "2026-04-25T21:00:26.000Z",
       "link": "https://securityaffairs.com/191281/security/u-s-cisa-adds-simplehelp-samsung-and-d-link-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "08a8c6e7-7718-4c73-bc5d-44c5014137a1",
@@ -197,7 +208,7 @@
       "summary": "CISA discovered the persistent FIRESTARTER backdoor on a U.S. federal agency's Cisco Firepower ASA device, noting that the malware remained active even after the application of security patches.",
       "date": "2026-04-25T00:00:52.000Z",
       "link": "https://securityaffairs.com/191241/hacking/cisa-reports-persistent-firestarter-backdoor-on-cisco-asa-device-in-federal-network.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d2aebf39-10ed-4cbb-9029-9c2daf004571",
@@ -428,7 +439,7 @@
       "summary": "A Chinese national conducted a long-term spear-phishing campaign against NASA employees and other U.S. entities to illicitly acquire sensitive defense software and technical information. This operation bypassed export control laws by posing as a legitimate researcher to gain unauthorized access.",
       "date": "2026-04-24T14:13:00.000Z",
       "link": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4c67a547-9ced-4806-8794-afe6d54a0c4f",
@@ -450,7 +461,7 @@
       "summary": "The threat actor TeamPCP has compromised the Bitwarden CLI and leveraged GitHub Dependabot to distribute Shai-Hulud malware and tamper with AI-assisted coding tools.",
       "date": "2026-04-24T13:58:55.000Z",
       "link": "https://hackread.com/teampcp-bitwarden-cli-dependabot-shai-hulud-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4a84480b-817f-431b-9908-31f13f24f08a",
@@ -494,7 +505,7 @@
       "summary": "The UK's National Cyber Security Centre (NCSC) has officially updated its guidance, recommending that users shift from passwords to passkeys to better defend against modern cyber threats. This shift marks a significant change in security standards, positioning passkeys as the primary authentication method for digital services.",
       "date": "2026-04-24T12:54:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/ncsc-passkey-adoption-cybersecurity/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f1cfc11e-62cf-4fb5-8ad5-4463586a8887",
@@ -593,7 +604,7 @@
       "summary": "The NCSC and partner agencies have issued an advisory warning that China-linked threat actors are increasingly using botnets composed of compromised edge devices like routers for large-scale cyber espionage. Organizations are urged to monitor traffic from remote access and VPN connections to mitigate this threat.",
       "date": "2026-04-24T09:59:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/ncsc-china-covert-networks-advisory/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e744db13-f347-49de-8913-d77c87b62257",
@@ -604,7 +615,7 @@
       "summary": "State-sponsored attackers are utilizing a persistent backdoor named Firestarter to compromise Cisco security appliances. The malware is notable for its persistence, as it can only be removed by physically power-cycling the affected devices.",
       "date": "2026-04-24T09:56:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/24/cisco-firepower-firestarter-backdoor/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4872ec70-51c8-4a50-9cdd-a53269aa5085",
@@ -626,7 +637,7 @@
       "summary": "Bitwarden's CLI tool was compromised via a supply chain attack involving a malicious update to the @bitwarden/cli package, which contained harmful code embedded in bw1.js. The breach was facilitated by a compromised GitHub Action as part of a larger, ongoing campaign identified by Checkmarx.",
       "date": "2026-04-24T09:34:04.000Z",
       "link": "https://securityaffairs.com/191215/uncategorized/checkmarx-supply-chain-attack-impacts-bitwarden-npm-distribution-path.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2bab8d0e-28fe-44b1-b36d-c3fbaa59a588",
@@ -714,7 +725,7 @@
       "summary": "The UK's NCSC and international partners have issued a warning regarding China-linked threat actors who are leveraging large-scale botnets of compromised consumer hardware to disguise malicious traffic. These groups are hijacking devices such as routers and cameras to act as proxies, complicating detection efforts by security teams.",
       "date": "2026-04-24T06:58:13.000Z",
       "link": "https://securityaffairs.com/191202/security/china-linked-threat-actors-use-consumer-device-botnets-to-evade-detection-warn-uk-and-partners.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b42154a5-998e-4464-bec0-bda30c9a6ac2",
@@ -758,7 +769,7 @@
       "summary": "A security weakness in public electric vehicle charging infrastructure could allow malicious actors to remotely disable an entire city's charger network. This vulnerability highlights the risks inherent in the growing connectivity of smart urban infrastructure.",
       "date": "2026-04-24T04:10:33.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/rentable_iot_security_flaws/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "28cebbb1-d018-4a0d-bcc3-98796934eca5",
@@ -769,7 +780,7 @@
       "summary": "Vercel has confirmed that its ongoing security breach has impacted a wider range of customers and third-party systems than previously identified. The expanding scope of the compromise creates significant downstream security risks for affected organizations.",
       "date": "2026-04-23T22:05:51.000Z",
       "link": "https://cyberscoop.com/vercel-attack-fallout-expands/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "26fb44a4-267a-4fdc-9f8d-1518cc248fb9",
@@ -5488,17 +5499,6 @@
       "summary": "The Mirax Android RAT is infecting devices across Spanish-speaking regions by masquerading as advertisements on Meta platforms to build a SOCKS5 proxy network. The campaign has successfully compromised over 220,000 accounts, granting attackers full remote control over infected devices.",
       "date": "2026-04-14T10:20:00.000Z",
       "link": "https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4069d614-1a42-489a-a392-20774b94bcf8",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Ransomware-Linked ViperTunnel Malware Hits UK and US Businesses",
-      "summary": "The newly identified ViperTunnel malware, a Python-based backdoor associated with DragonForce ransomware, is actively targeting Windows servers at businesses in the UK and US. This campaign poses a significant threat to corporate infrastructure and data security in these regions.",
-      "date": "2026-04-14T10:02:28.000Z",
-      "link": "https://hackread.com/ransomware-vipertunnel-malware-uk-us-businesses/",
       "isTopTen": false
     }
   ]
