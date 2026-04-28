@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-04-28T19:54:44.789Z",
+  "lastUpdated": "2026-04-28T22:06:34.005Z",
   "articles": [
+    {
+      "id": "1fcb5271-29ea-48ab-9d7b-747aac6db2f6",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Spy agency officials say job loss anxiety, moving fast ‘safely’ among top challenges in AI workforce overhaul",
+      "summary": "Intelligence agency officials identified employee job security concerns and the challenge of balancing rapid AI adoption with safety as primary obstacles in their organizational AI integration efforts.",
+      "date": "2026-04-28T21:43:20.000Z",
+      "link": "https://cyberscoop.com/national-geospatial-intelligence-ai-agency-leaders-say-job-loss-safety-top-concerns/",
+      "isTopTen": false
+    },
+    {
+      "id": "9be32ebf-c62a-4ecb-b0e9-c819f611cee0",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "New DHL Phishing Scam Uses 11-Step Attack Chain to Steal Passwords",
+      "summary": "A sophisticated DHL-themed phishing campaign utilizes an 11-step attack sequence, including fake OTP codes and EmailJS, to harvest user credentials and collect device telemetry data.",
+      "date": "2026-04-28T21:33:11.000Z",
+      "link": "https://hackread.com/dhl-phishing-scam-attack-chain-steal-passwords/",
+      "isTopTen": false
+    },
+    {
+      "id": "1ba35ad2-df84-44e4-aa9d-44ae88a1f0d7",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+      "summary": "The VECT 2.0 ransomware contains a coding flaw in its encryption process that causes it to corrupt and permanently destroy large files instead of encrypting them. This error renders affected data unrecoverable, even if a ransom is paid.",
+      "date": "2026-04-28T21:25:57.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+      "isTopTen": false
+    },
+    {
+      "id": "b8629637-cf07-41e4-8369-558e835ff629",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+      "summary": "Hackers are actively exploiting a critical pre-authentication SQL injection vulnerability, identified as CVE-2026-42208, within the LiteLLM gateway to access sensitive information. This flaw poses a significant risk to organizations utilizing the open-source LLM management tool.",
+      "date": "2026-04-28T21:07:23.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+      "isTopTen": false
+    },
+    {
+      "id": "89e45542-9e67-4762-b1a5-ff6ae93e9e09",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Decoding Q1 2026’s $152.9 Billion Crypto Custody Concentration",
+      "summary": "In Q1 2026, institutional capital is increasingly consolidating within major crypto exchanges as market activity slows and interest in derivatives rises. This centralization creates significant concentrations of assets, highlighting potential systemic risks within exchange-based custody models.",
+      "date": "2026-04-28T20:53:39.000Z",
+      "link": "https://hackread.com/decoding-q1-2026s-152-9b-crypto-custody-concentration/",
+      "isTopTen": false
+    },
+    {
+      "id": "4f5855db-409c-422c-9494-ba7723f840ab",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVE-2026-3854 GitHub flaw enables remote code execution",
+      "summary": "A critical command injection vulnerability in GitHub, identified as CVE-2026-3854, allows unauthorized users to achieve remote code execution via a single git push. The flaw impacts various GitHub Enterprise deployments, posing a significant risk to affected environments.",
+      "date": "2026-04-28T20:39:28.000Z",
+      "link": "https://securityaffairs.com/191434/security/cve-2026-3854-github-flaw-enables-remote-code-execution.html",
+      "isTopTen": true
+    },
+    {
+      "id": "15875f91-04c4-4cce-b9fe-9d98a539e863",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Federal CIO cautious on Anthropic’s Mythos despite planned rollout",
+      "summary": "Federal CIO Greg Barbaccia expresses caution regarding the deployment of Anthropic's Mythos AI tool, emphasizing the need to bridge the gap between laboratory performance and live network defense requirements.",
+      "date": "2026-04-28T20:14:55.000Z",
+      "link": "https://cyberscoop.com/anthropic-mythos-federal-cybersecurity-evaluation-greg-barbaccia/",
+      "isTopTen": false
+    },
     {
       "id": "cff2b05b-bfd3-435f-b1ae-5b5c637b6126",
       "source": "BleepingComputer",
@@ -32,7 +109,7 @@
       "summary": "Researchers have identified a critical command injection vulnerability in GitHub that enables an authenticated attacker to achieve remote code execution through a single git push command. The flaw, tracked as CVE-2026-3854, carries a CVSS score of 8.7.",
       "date": "2026-04-28T18:19:00.000Z",
       "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "488af66e-7009-4435-a775-8d909c3da2d2",
@@ -197,7 +274,7 @@
       "summary": "Chinese national Xu Zewei has been extradited from Italy to the United States to face charges for a state-sponsored cyber espionage campaign targeting international COVID-19 research. The operation was allegedly directed by China's Ministry of State Security and involved the compromise of thousands of computers globally.",
       "date": "2026-04-28T13:41:45.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/28/chinese-national-cyber-espionage-charges/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7a5f9e3d-a6e9-43d2-b095-8a120676e9ce",
@@ -285,7 +362,7 @@
       "summary": "CISA and NCSC have issued a warning regarding FIRESTARTER, a persistent Linux-based backdoor specifically designed to compromise Cisco Firepower devices and bypass firmware update security measures.",
       "date": "2026-04-28T11:41:17.000Z",
       "link": "https://hackread.com/linux-firestarter-backdoor-cisco-firepower-devices/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "183f0f18-cd8c-4aad-bc4f-c4700fae4091",
@@ -307,7 +384,7 @@
       "summary": "Service busy.",
       "date": "2026-04-28T11:18:00.000Z",
       "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a74b640-b489-4738-889f-17c8e524d859",
@@ -406,7 +483,7 @@
       "summary": "U.S. companies are facing record-breaking privacy fines in 2025 due to stricter state legislation, enhanced interstate enforcement, and increased regulatory scrutiny of AI and automation.",
       "date": "2026-04-28T07:30:00.000Z",
       "link": "https://cyberscoop.com/privacy-companies-hit-with-record-fines-2025-gartner/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d7597994-5437-422f-8267-c12f8ead861d",
@@ -516,7 +593,7 @@
       "summary": "The U.S. Supreme Court has indicated that law enforcement should obtain warrants for reverse location data searches, potentially setting a precedent to protect digital privacy against geofencing surveillance. This stance addresses concerns regarding the constitutionality of warrantless data collection practices.",
       "date": "2026-04-27T20:52:00.000Z",
       "link": "https://therecord.media/supreme-court-signals-location-data-searches-require-warrant",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3658453c-8ba8-4f77-adc0-f0c17f8b0b42",
@@ -549,7 +626,7 @@
       "summary": "LayerX researchers discovered 82 malicious Chrome extensions that were collecting and selling user data, impacting over 6.5 million users. These extensions utilized deceptive practices to harvest personal information from unsuspecting individuals.",
       "date": "2026-04-27T19:56:23.000Z",
       "link": "https://hackread.com/82-chrome-extensions-selling-user-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d363d73d-384d-4ac9-a39b-038d4fb55ca3",
@@ -615,7 +692,7 @@
       "summary": "The threat actor ShinyHunters has leaked data belonging to Udemy, Zara, and 7-Eleven, allegedly obtained through a breach of Salesforce-linked cloud systems.",
       "date": "2026-04-27T16:44:26.000Z",
       "link": "https://hackread.com/shinyhunters-leak-udemy-zara-7-eleven-data-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b607c91-90f3-4737-9ae1-a223a085e5c7",
@@ -725,7 +802,7 @@
       "summary": "A Chinese national conducted a spear-phishing campaign by impersonating a U.S. researcher to deceive NASA employees into divulging sensitive defense software and export data.",
       "date": "2026-04-27T13:36:42.000Z",
       "link": "https://securityaffairs.com/191347/intelligence/chinese-spy-posed-as-researcher-in-spear-phishing-campaign-targeting-nasa-to-steal-defense-software.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9f2bb56a-4e11-42d2-aa8d-a348bf97ec56",
@@ -5422,83 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-04-15T22:35:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
-      "isTopTen": false
-    },
-    {
-      "id": "b5f37773-936a-4d21-910d-93235b04c64e",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Windows is getting stronger RDP file protections to fight phishing attacks",
-      "summary": "Microsoft has implemented enhanced security warnings and resource-sharing requirements for RDP files in the April 2026 security update to mitigate phishing risks. These updates aim to prevent attackers from abusing RDP configurations to compromise user systems.",
-      "date": "2026-04-15T22:05:45.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/16/microsoft-windows-remote-desktop-protections/",
-      "isTopTen": false
-    },
-    {
-      "id": "f63e3b65-f1a8-4f96-9dd2-fddad76e96d7",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New AgingFly malware used in attacks on Ukraine govt, hospitals",
-      "summary": "A newly discovered malware called AgingFly is targeting Ukrainian government institutions and hospitals to exfiltrate authentication data from Chromium browsers and WhatsApp. The campaign represents a targeted effort to compromise sensitive credentials within critical infrastructure sectors.",
-      "date": "2026-04-15T21:57:17.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
-      "isTopTen": false
-    },
-    {
-      "id": "c368cb02-9927-49e6-bb5e-48d268772661",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Anthropic's Project Glasswing CVE tally is still anyone's guess",
-      "summary": "The exact number of vulnerabilities associated with Anthropic's Project Glasswing remains undisclosed and unverified by security researchers. Uncertainty persists regarding the extent of the project's security exposure.",
-      "date": "2026-04-15T21:33:35.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/15/project_glasswing_cves/",
-      "isTopTen": false
-    },
-    {
-      "id": "c7f8f52b-4dd8-4a85-87da-ef12f274e140",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Fake Claude AI Installer Targets Windows Users with PlugX Malware",
-      "summary": "Threat actors are distributing a malicious installer disguised as the Claude AI desktop application to infect Windows systems with PlugX malware. The campaign utilizes DLL sideloading techniques to establish persistent unauthorized remote access.",
-      "date": "2026-04-15T20:59:32.000Z",
-      "link": "https://hackread.com/fake-claude-ai-installer-plugx-malware-windows-users/",
-      "isTopTen": false
-    },
-    {
-      "id": "4377c928-e633-4a4b-a9a7-b5092c724ac6",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "WordPress plugin suite hacked to push malware to thousands of sites",
-      "summary": "Service busy.",
-      "date": "2026-04-15T20:33:50.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/",
-      "isTopTen": false
-    },
-    {
-      "id": "9a27530a-2449-44c0-8aef-2a3386b859f7",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "NIST narrows scope of CVE analysis to keep up with rising tide of vulnerabilities",
-      "summary": "To address the overwhelming volume of security vulnerabilities, NIST has restricted the scope of its National Vulnerability Database analysis to focus only on critical software, federal systems, and actively exploited vulnerabilities.",
-      "date": "2026-04-15T20:17:55.000Z",
-      "link": "https://cyberscoop.com/nist-narrows-cve-analysis-nvd/",
-      "isTopTen": false
-    },
-    {
-      "id": "a71f7a04-77c2-448e-b60c-0b5bf6cb1837",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "NIST to limit work on CVE entries as submissions surge",
-      "summary": "NIST is shifting its CVE management strategy by restricting detailed documentation to only high-priority vulnerabilities due to a significant surge in submission volume. This marks a departure from their previous policy of cataloging every reported vulnerability.",
-      "date": "2026-04-15T20:11:00.000Z",
-      "link": "https://therecord.media/nist-to-limit-work-on-cve-entries-surge",
       "isTopTen": false
     }
   ]
