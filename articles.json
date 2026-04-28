@@ -1,6 +1,116 @@
 {
-  "lastUpdated": "2026-04-28T11:13:51.385Z",
+  "lastUpdated": "2026-04-28T14:40:53.488Z",
   "articles": [
+    {
+      "id": "a0b827c6-fd40-4fdb-96f7-9c2dc2818e36",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Have I Been Pwned claims Pitney Bowes hit by 8.2M email address leak",
+      "summary": "Service busy.",
+      "date": "2026-04-28T14:15:07.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/pitney_bowes_is_the_latest/",
+      "isTopTen": false
+    },
+    {
+      "id": "0de99154-6160-4998-9592-c52294f707a6",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
+      "summary": "The VECT 2.0 ransomware contains a critical flaw that destroys files larger than 131KB instead of encrypting them, making data recovery impossible for victims and attackers alike. This behavior effectively transforms the ransomware into a wiper, permanently deleting data across Windows, Linux, and ESXi systems.",
+      "date": "2026-04-28T14:01:00.000Z",
+      "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f133e471-f308-4185-b4ca-c698056ea255",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Signal Phishing Campaign Targets German Officials in Suspected Russian Operation",
+      "summary": "German officials have been targeted by a suspected Russian phishing campaign conducted via Signal, highlighting a shift toward social engineering over technical exploits for espionage. The operation aims to compromise sensitive political communications by exploiting trust.",
+      "date": "2026-04-28T13:56:58.000Z",
+      "link": "https://securityaffairs.com/191425/intelligence/signal-phishing-campaign-targets-german-officials-in-suspected-russian-operation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7a5f9e3d-a6e9-43d2-b095-8a120676e9ce",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Stablecoins: Always-On Money Needs Always-On Controls",
+      "summary": "As stablecoins become integral to the digital economy, there is an urgent need for robust, continuous security controls to mitigate potential risks. The reliance on always-on financial infrastructure requires a proactive approach to safeguard against emerging threats.",
+      "date": "2026-04-28T13:39:32.000Z",
+      "link": "https://hackread.com/stablecoins-always-money-needs-always-controls/",
+      "isTopTen": false
+    },
+    {
+      "id": "50bffb64-b27b-4ec4-8898-a88e0524ed6f",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+      "summary": "Service busy.",
+      "date": "2026-04-28T13:18:36.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
+      "isTopTen": false
+    },
+    {
+      "id": "5f8fd517-4267-4f33-9494-f829fab98627",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+      "summary": "Service busy.",
+      "date": "2026-04-28T12:50:58.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
+      "isTopTen": false
+    },
+    {
+      "id": "113857ed-1bf4-4648-a4db-a200643e304b",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+      "summary": "The article argues that organizations often overlook the complexity of secure data movement, causing Zero Trust implementation strategies to stall. It highlights that current security models incorrectly prioritize connectivity over the integrity and security of data in transit.",
+      "date": "2026-04-28T11:58:00.000Z",
+      "link": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4c38acc9-26e7-4174-9e01-cd8c2d4c96e5",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New Linux FIRESTARTER Backdoor Targets Cisco Firepower Devices",
+      "summary": "CISA and NCSC have issued a warning regarding FIRESTARTER, a persistent Linux-based backdoor specifically designed to compromise Cisco Firepower devices and bypass firmware update security measures.",
+      "date": "2026-04-28T11:41:17.000Z",
+      "link": "https://hackread.com/linux-firestarter-backdoor-cisco-firepower-devices/",
+      "isTopTen": false
+    },
+    {
+      "id": "183f0f18-cd8c-4aad-bc4f-c4700fae4091",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft fixes Entra ID flaw enabling privilege escalation",
+      "summary": "Microsoft has patched a vulnerability in the Entra ID Agent ID Administrator role that could have allowed attackers to perform privilege escalation and gain control of service accounts. The flaw specifically concerned the management of AI agent identities and access permissions.",
+      "date": "2026-04-28T11:19:27.000Z",
+      "link": "https://securityaffairs.com/191414/security/microsoft-fixes-entra-id-flaw-enabling-privilege-escalation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9c5bc9da-8d99-436a-bc38-0bde86daf224",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+      "summary": "Service busy.",
+      "date": "2026-04-28T11:18:00.000Z",
+      "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
+      "isTopTen": false
+    },
     {
       "id": "9a74b640-b489-4738-889f-17c8e524d859",
       "source": "HackRead",
@@ -21,7 +131,7 @@
       "summary": "The rapid advancement of AI models like Claude Mythos is drastically reducing the window of time available for organizations to patch vulnerabilities. Network Detection and Response (NDR) is highlighted as a critical defense strategy to mitigate these accelerated threats.",
       "date": "2026-04-28T10:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b252bd5-37ff-4db7-8db7-a8c17a29547d",
@@ -87,7 +197,7 @@
       "summary": "Xu Zewei, a Chinese national linked to the Silk Typhoon hacking group, has been extradited to the U.S. to face charges for cyberattacks targeting American organizations and government agencies during the COVID-19 pandemic.",
       "date": "2026-04-28T07:57:00.000Z",
       "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "898f7d6d-ecec-4c7e-9082-96a71f4b84bf",
@@ -131,7 +241,7 @@
       "summary": "Microsoft has confirmed that a spoofing vulnerability in Windows Shell, tracked as CVE-2026-32202, is currently being actively exploited in the wild. The flaw, which allows for potential sensitive information disclosure, was addressed in the latest Patch Tuesday update.",
       "date": "2026-04-28T05:50:00.000Z",
       "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9ae9bcfc-5f64-435b-83ca-17510940118f",
@@ -153,7 +263,7 @@
       "summary": "An ongoing supply-chain attack has been identified that specifically targets developers and security professionals through compromised tooling. The campaign poses a significant risk to organizations by leveraging trusted software environments to facilitate potential breaches.",
       "date": "2026-04-27T23:33:51.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/supply_chain_campaign_targets_security/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0cbc94de-58bc-4e0b-96ca-a710575b199f",
@@ -197,7 +307,7 @@
       "summary": "The U.S. Supreme Court has indicated that law enforcement should obtain warrants for reverse location data searches, potentially setting a precedent to protect digital privacy against geofencing surveillance. This stance addresses concerns regarding the constitutionality of warrantless data collection practices.",
       "date": "2026-04-27T20:52:00.000Z",
       "link": "https://therecord.media/supreme-court-signals-location-data-searches-require-warrant",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3658453c-8ba8-4f77-adc0-f0c17f8b0b42",
@@ -296,7 +406,7 @@
       "summary": "The threat actor ShinyHunters has leaked data belonging to Udemy, Zara, and 7-Eleven, allegedly obtained through a breach of Salesforce-linked cloud systems.",
       "date": "2026-04-27T16:44:26.000Z",
       "link": "https://hackread.com/shinyhunters-leak-udemy-zara-7-eleven-data-breach/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0b607c91-90f3-4737-9ae1-a223a085e5c7",
@@ -329,7 +439,7 @@
       "summary": "A popular PyPI package named elementary-data was compromised by attackers to distribute an information-stealing malware capable of harvesting developer data and cryptocurrency wallets. The malicious package impacted approximately 1.1 million monthly downloads before being addressed.",
       "date": "2026-04-27T15:17:37.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fd89f82f-aa74-4b77-a5e7-184727318e16",
@@ -406,7 +516,7 @@
       "summary": "A Chinese national conducted a spear-phishing campaign by impersonating a U.S. researcher to deceive NASA employees into divulging sensitive defense software and export data.",
       "date": "2026-04-27T13:36:42.000Z",
       "link": "https://securityaffairs.com/191347/intelligence/chinese-spy-posed-as-researcher-in-spear-phishing-campaign-targeting-nasa-to-steal-defense-software.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9f2bb56a-4e11-42d2-aa8d-a348bf97ec56",
@@ -472,7 +582,7 @@
       "summary": "Deepfake voice technology now requires only three seconds of audio to facilitate fraudulent activities, effectively bypassing many current security measures. This trend poses a significant risk to organizations as attackers increasingly use manipulated calls to deceive employees into conducting unauthorized financial transactions.",
       "date": "2026-04-27T13:00:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "473644f0-4bf6-492d-8ac0-a745f8ab0914",
@@ -670,7 +780,7 @@
       "summary": "CrowdStrike has patched a critical path traversal vulnerability (CVE-2026-40050) in its self-hosted LogScale product that could allow unauthenticated attackers to read arbitrary files from the server. Security updates have been released to address the flaw.",
       "date": "2026-04-26T16:07:02.000Z",
       "link": "https://securityaffairs.com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ae8aa1c3-7968-42ab-9689-5d9a6246513d",
@@ -5389,116 +5499,6 @@
       "summary": "Bitdefender has introduced GravityZone Extended Email Security, a platform that integrates email and endpoint protection to defend against advanced threats like phishing, ransomware, and business email compromise.",
       "date": "2026-04-15T13:28:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/15/bitdefender-gravityzone-extended-email-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "97149491-b1e6-4192-a3bc-fe3dc06ce593",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Tenable unveils OT discovery engine to expose cyber-physical risks",
-      "summary": "Tenable has launched a new VM-Native OT discovery engine designed to provide organizations with unified visibility into cyber-physical risks across OT, IoT, and shadow IT environments. The tool aims to simplify exposure management by offering rapid deployment without requiring additional IT overhead.",
-      "date": "2026-04-15T13:14:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/15/tenable-ot-discovery-engine/",
-      "isTopTen": false
-    },
-    {
-      "id": "c795c7b2-dc95-4ca3-8692-f0f96e9661c8",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Webinar: The IT Leader’s Guide to AI Governance",
-      "summary": "This webinar discusses the challenges IT leaders face in balancing rapid generative AI adoption with necessary security, privacy, and compliance frameworks. It provides practical insights into navigating governance trade-offs within the modern enterprise landscape.",
-      "date": "2026-04-15T13:00:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/15/webinar-the-it-leaders-guide-to-ai-governance/",
-      "isTopTen": false
-    },
-    {
-      "id": "d46fc335-cb78-4551-807d-4c814705a5f7",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
-      "summary": "The critical authentication bypass vulnerability CVE-2026-33032, codenamed MCPwn, is being actively exploited in the wild to allow attackers full control of nginx-ui instances.",
-      "date": "2026-04-15T12:56:00.000Z",
-      "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dbb699f0-9dca-4c73-b6ba-6d7631a1b011",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
-      "summary": "April's Patch Tuesday addresses critical vulnerabilities across major vendors including SAP, Adobe, Microsoft, and Fortinet. A standout flaw is an SAP SQL injection vulnerability with a CVSS score of 9.9 that allows for arbitrary database execution.",
-      "date": "2026-04-15T12:37:00.000Z",
-      "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
-      "isTopTen": false
-    },
-    {
-      "id": "422d990e-b68c-4ce8-b9fe-1bc08654f266",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Sweden says pro-Russian hackers attempted to breach thermal power plant",
-      "summary": "A suspected pro-Russian hacker group attempted to disrupt a thermal power plant in western Sweden last year. Swedish defense officials confirmed the intrusion attempt targeted critical national infrastructure.",
-      "date": "2026-04-15T12:15:00.000Z",
-      "link": "https://therecord.media/sweden-hackers-russia-power-plant",
-      "isTopTen": false
-    },
-    {
-      "id": "4e55f3c1-e9c3-4a75-984a-c863c1c7e3ec",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "ShinyHunters Leak Rockstar Games Data, No Player Records Impacted",
-      "summary": "The hacking group ShinyHunters leaked 7.54 GB of internal data stolen from Rockstar Games' Snowflake environment. Rockstar confirmed that the breach did not compromise any player records or personal user information.",
-      "date": "2026-04-15T11:55:37.000Z",
-      "link": "https://hackread.com/shinyhunters-leak-rockstar-games-data-player-records/",
-      "isTopTen": false
-    },
-    {
-      "id": "5fcc8daf-c385-4c56-844c-9cd57fdebc49",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Ancient Excel bug comes out of retirement for active attacks",
-      "summary": "A long-standing, previously identified vulnerability in Microsoft Excel is being actively exploited by threat actors to execute malicious code. Security researchers have observed a resurgence in the use of this legacy bug to target users via weaponized documents.",
-      "date": "2026-04-15T11:46:05.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/15/excel_exploit/",
-      "isTopTen": false
-    },
-    {
-      "id": "46b56e54-04aa-44b8-b2b0-512b6b9a2c84",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Microsoft: April updates trigger BitLocker key prompts on some servers",
-      "summary": "Microsoft confirmed that the April 2026 KB5082063 security update causes some Windows Server 2025 devices to trigger unexpected BitLocker recovery prompts upon booting. This issue complicates system accessibility for affected administrators after applying the latest patches.",
-      "date": "2026-04-15T11:41:35.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-windows-servers-ask-for-bitlocker-key-after-april-updates/",
-      "isTopTen": false
-    },
-    {
-      "id": "befe0dc8-8f63-474b-9b0d-bce8bcb4c1b1",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Mirax malware campaign hits 220K accounts, enables full remote control",
-      "summary": "The Mirax Android remote access trojan has compromised over 220,000 accounts via malicious Meta ads, granting attackers full remote control and the ability to repurpose devices as SOCKS5 proxies.",
-      "date": "2026-04-15T11:41:10.000Z",
-      "link": "https://securityaffairs.com/190842/uncategorized/mirax-malware-campaign-hits-220k-accounts-enables-full-remote-control.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a34fa208-9c7e-4095-916a-9af422be77b2",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Raspberry Pi OS ends open-door policy for sudo",
-      "summary": "Raspberry Pi OS is removing the default 'pi' user and its automatic sudo privileges to improve system security by preventing unauthorized administrative access. This change replaces the traditional open-door policy with a requirement for users to create a unique account during initial setup.",
-      "date": "2026-04-15T11:35:48.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/15/raspberry_pi_os_sudo/",
       "isTopTen": false
     }
   ]
