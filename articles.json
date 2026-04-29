@@ -1,6 +1,116 @@
 {
-  "lastUpdated": "2026-04-29T11:12:04.670Z",
+  "lastUpdated": "2026-04-29T14:15:26.082Z",
   "articles": [
+    {
+      "id": "1730821e-ddbb-4f4a-920b-bb46622513dd",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Swiss police arrest 10 suspected members of Nigeria-linked crime group Black Axe",
+      "summary": "Law enforcement agencies in Switzerland and Germany arrested 10 members of the Black Axe cybercriminal network, including a high-ranking leader. This operation aims to dismantle the group's regional illicit activities in Southern Europe.",
+      "date": "2026-04-29T14:15:00.000Z",
+      "link": "https://therecord.media/black-axe-switzerland-germany-cyber",
+      "isTopTen": false
+    },
+    {
+      "id": "3466a987-8c38-42d7-9534-31d5676a5131",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "All supported cPanel versions hit by critical auth bug, now patched",
+      "summary": "cPanel has released security updates to address a critical authentication vulnerability affecting all supported versions that could allow unauthorized server access. Administrators are urged to apply the patches immediately to mitigate the risk of exploitation.",
+      "date": "2026-04-29T13:55:00.000Z",
+      "link": "https://securityaffairs.com/191465/security/all-supported-cpanel-versions-hit-by-critical-auth-bug-now-patched.html",
+      "isTopTen": true
+    },
+    {
+      "id": "17498b1c-e562-4ffe-ab18-0a935d181e3b",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+      "summary": "The Vercel breach highlights the significant security risks posed by Shadow AI and unmanaged OAuth integrations, which can serve as entry points for attackers to infiltrate downstream customer environments. This incident underscores the importance of securing third-party app connections to prevent widespread supply chain compromises.",
+      "date": "2026-04-29T13:05:14.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "isTopTen": false
+    },
+    {
+      "id": "dc9d4640-9790-480d-a2b3-1cff3bbb3250",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "GitHub: Woah, a genuinely helpful AI-assisted bug report that isn't total slop. Here, Wiz, take this wad of cash",
+      "summary": "GitHub successfully utilized an AI-assisted bug report provided by Wiz to identify and resolve a vulnerability, resulting in a bug bounty payout. This demonstrates the growing effectiveness of AI tools in security research and vulnerability discovery.",
+      "date": "2026-04-29T13:02:16.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/github_woah_a_genuinely_helpful/",
+      "isTopTen": false
+    },
+    {
+      "id": "0f0f8221-5f40-4e53-b3ac-c8d7efec7511",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Brinker Introduces a Novel Approach to Deepfake Detection",
+      "summary": "Brinker has unveiled a new methodology aimed at identifying and mitigating the threat of deepfake media. This development focuses on advancing detection capabilities to combat synthetic media-based deception.",
+      "date": "2026-04-29T12:45:21.000Z",
+      "link": "https://hackread.com/brinker-introduces-a-novel-approach-to-deepfake-detection/",
+      "isTopTen": false
+    },
+    {
+      "id": "9f6e3802-1d61-45eb-9037-dd0efefd0346",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
+      "summary": "GitHub has patched a critical remote code execution vulnerability, CVE-2026-3854, which posed a significant risk of unauthorized access to millions of private repositories.",
+      "date": "2026-04-29T12:41:17.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+      "isTopTen": true
+    },
+    {
+      "id": "0d99846c-0fd4-45d6-812e-6da319d13505",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "EU waves through open source age-check tool to keep kids safe online",
+      "summary": "The European Union has approved an open-source age-verification tool designed to enhance child safety and privacy when accessing online services. This initiative aligns with broader regulatory efforts to protect minors in the digital environment.",
+      "date": "2026-04-29T12:03:22.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/eu_adopts_open_source_ageverification/",
+      "isTopTen": false
+    },
+    {
+      "id": "c249d7de-0887-48bd-896e-7a034eca2268",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "summary": "Threat actors are utilizing autonomous AI agents to accelerate the attack lifecycle, specifically targeting Active Directory to obtain administrative privileges within minutes. The report emphasizes the critical need for automated exposure validation to keep pace with these high-speed AI-driven threats.",
+      "date": "2026-04-29T12:02:00.000Z",
+      "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "01bbc1ae-1a3c-4b3e-a6c7-316d340d5079",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+      "summary": "This article critiques current exposure management practices, arguing that relying solely on patch counts and CVSS scores fails to provide a meaningful assessment of an organization's actual security posture.",
+      "date": "2026-04-29T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7fde6eaa-ffdf-49bf-9701-2179a285b755",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "US-Estonian Suspect Arrested Over Alleged Scattered Spider Cyberattacks",
+      "summary": "US-Estonian national Peter Stokes has been arrested in Finland for his alleged involvement with the Scattered Spider cybercriminal group, facing charges related to fraud and data breaches in the US.",
+      "date": "2026-04-29T11:19:54.000Z",
+      "link": "https://hackread.com/us-estonian-suspect-arrest-scattered-spider-cyberattacks/",
+      "isTopTen": false
+    },
     {
       "id": "1a3be5c4-1177-4851-b8ef-195c66186e48",
       "source": "BleepingComputer",
@@ -10,7 +120,7 @@
       "summary": "CISA has issued a directive requiring all federal agencies to remediate a specific Windows vulnerability that is currently being exploited as a zero-day. This measure aims to protect government systems from active cyber threats targeting this security flaw.",
       "date": "2026-04-29T10:29:31.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e99b1cd1-d805-4345-8dd1-b65b7fea4140",
@@ -21,7 +131,7 @@
       "summary": "CISA and Microsoft have issued an alert regarding the active exploitation of CVE-2026-32202, a zero-click Windows Shell spoofing vulnerability resulting from an incomplete patch for previous flaws linked to the APT28 group.",
       "date": "2026-04-29T10:20:42.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/29/windows-cve-2026-32202-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "479eb287-71d3-4baa-9615-7311e15a6460",
@@ -65,7 +175,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a critical path traversal flaw in ConnectWise ScreenConnect and a Windows security vulnerability due to evidence of active exploitation.",
       "date": "2026-04-29T08:46:00.000Z",
       "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2c676a34-33eb-460a-8a8c-2ce08fba84db",
@@ -208,7 +318,7 @@
       "summary": "The LiteLLM Python package is under active exploitation due to a critical SQL injection vulnerability, tracked as CVE-2026-42208, within 36 hours of its public disclosure.",
       "date": "2026-04-29T05:34:00.000Z",
       "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "076d3d82-a30d-4521-aa86-8a340720fe65",
@@ -263,7 +373,7 @@
       "summary": "The VECT 2.0 ransomware contains a coding flaw in its encryption process that causes it to corrupt and permanently destroy large files instead of encrypting them. This error renders affected data unrecoverable, even if a ransom is paid.",
       "date": "2026-04-28T21:25:57.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b8629637-cf07-41e4-8369-558e835ff629",
@@ -428,7 +538,7 @@
       "summary": "The hacking group ShinyHunters claims to have stolen 1.4 million records from Udemy, exposing sensitive PII including email addresses, physical addresses, and instructor payout details.",
       "date": "2026-04-28T15:39:46.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/28/udemy-data-breach-shinyhunters-group/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3aec7ea6-7729-4eef-a15a-cd8b62b548bd",
@@ -450,7 +560,7 @@
       "summary": "Checkmarx has officially confirmed that the LAPSUS$ hacking group leaked proprietary data stolen from the company's private GitHub repositories. The incident underscores a significant security breach involving sensitive source code or internal assets.",
       "date": "2026-04-28T14:50:40.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a0b827c6-fd40-4fdb-96f7-9c2dc2818e36",
@@ -483,7 +593,7 @@
       "summary": "German officials have been targeted by a suspected Russian phishing campaign conducted via Signal, highlighting a shift toward social engineering over technical exploits for espionage. The operation aims to compromise sensitive political communications by exploiting trust.",
       "date": "2026-04-28T13:56:58.000Z",
       "link": "https://securityaffairs.com/191425/intelligence/signal-phishing-campaign-targets-german-officials-in-suspected-russian-operation.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "97485192-2f7a-43c2-86ed-9a4785e6b9c3",
@@ -5389,116 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-04-16T11:55:00.000Z",
       "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9a73e423-d9c6-48c8-a158-7ca4fd733242",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Textbook titan McGraw Hill on ransomware crew's reading list after 13.5M records exposed",
-      "summary": "Educational publisher McGraw Hill suffered a data breach resulting in the exposure of 13.5 million records after being targeted by a ransomware group.",
-      "date": "2026-04-16T11:49:35.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/mcgraw_hill_salesforce/",
-      "isTopTen": false
-    },
-    {
-      "id": "ba5d62fb-c033-451c-9f4e-c4f7acbc9206",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
-      "summary": "Cisco has released patches for four critical vulnerabilities in its Identity Services and Webex platforms that could allow attackers to execute arbitrary code and impersonate users. The most severe of these, CVE-2026-20184, carries a CVSS score of 9.8 due to improper SSO certificate validation.",
-      "date": "2026-04-16T11:27:00.000Z",
-      "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f6e55c93-7dd2-4fab-910c-9ccb7f6f3f03",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Cybersecurity Risks of Hiring a Virtual Assistant and How to Protect Your Business",
-      "summary": "Hiring virtual assistants can introduce significant cybersecurity risks to a business due to issues like weak access controls and credential sharing. Companies should implement robust security practices to mitigate these exposures when delegating tasks to third-party assistants.",
-      "date": "2026-04-16T11:23:46.000Z",
-      "link": "https://hackread.com/cybersecurity-risks-hiring-virtual-assistant-business/",
-      "isTopTen": false
-    },
-    {
-      "id": "1dd7dc8a-c5bb-4ee0-9eef-2748d8633af2",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Google Play is changing how Android apps access your contacts and location",
-      "summary": "Google is implementing updated Google Play policies and developer tools to enhance user privacy regarding contact and location data access. These changes include new compliance guidance and pre-review processes to ensure app adherence by October.",
-      "date": "2026-04-16T11:10:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/16/google-play-store-policy-updates/",
-      "isTopTen": false
-    },
-    {
-      "id": "13ef1e2c-6902-46c6-8e95-4acfabceaadc",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Researchers Say Fiverr Left User Files Open to Google Search",
-      "summary": "Fiverr inadvertently exposed sensitive user documents, such as tax records and IDs, to public Google search results due to a misconfigured storage bucket. The platform has since addressed the configuration issue to secure the leaked data.",
-      "date": "2026-04-16T10:42:26.000Z",
-      "link": "https://hackread.com/fiverr-left-user-files-open-to-google-search/",
-      "isTopTen": false
-    },
-    {
-      "id": "70309b51-ec41-466a-9d8b-13f7194e8ac3",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Data breach at edtech giant McGraw Hill affects 13.5 million accounts",
-      "summary": "The ShinyHunters extortion group compromised McGraw Hill's Salesforce environment, resulting in the exposure of data belonging to 13.5 million user accounts. This incident represents a significant breach of sensitive educational platform information.",
-      "date": "2026-04-16T10:35:09.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/",
-      "isTopTen": false
-    },
-    {
-      "id": "36fbd74d-11c5-4113-94bc-a7c7553abe73",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Tails 7.6.2 patches vulnerability that could expose saved files",
-      "summary": "The Tails Project has released version 7.6.2 to address a security vulnerability that could potentially expose files saved by users on the portable operating system. This emergency update aims to restore the privacy and anonymity protections central to the OS.",
-      "date": "2026-04-16T10:31:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/16/tails-vulnerability-expose-saved-files/",
-      "isTopTen": false
-    },
-    {
-      "id": "7143563d-7fd2-4ea6-a303-a452d6c861d4",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
-      "summary": "A Taboola pixel embedded on a banking website was found redirecting authenticated user traffic to a Temu tracking endpoint without authorization. This exploit highlights a critical blind spot in third-party script monitoring and supply chain security.",
-      "date": "2026-04-16T10:30:00.000Z",
-      "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d1e7ca1a-48e5-4a69-9f74-ca47cba33962",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
-      "summary": "A threat actor dubbed REF6598 is using the note-taking application Obsidian as a vector to deliver a new Windows remote access trojan named PHANTOMPULSE. The campaign specifically targets individuals within the cryptocurrency and financial sectors through sophisticated social engineering.",
-      "date": "2026-04-16T10:20:00.000Z",
-      "link": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e22b4c34-3a88-41e6-8ae5-2a3889968891",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Cargo theft malware actor spent a month inside a decoy network before researchers pulled the plug",
-      "summary": "Proofpoint researchers successfully monitored a cargo-theft malware actor for over 30 days within a decoy network to analyze their tactics and scripts. The attacker is known for targeting trucking and logistics companies by compromising online load board platforms.",
-      "date": "2026-04-16T10:18:27.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/16/cargo-theft-malware-actor-decoy-network/",
       "isTopTen": false
     }
   ]
