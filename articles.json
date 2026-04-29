@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-04-29T19:46:50.083Z",
+  "lastUpdated": "2026-04-29T22:06:27.408Z",
   "articles": [
+    {
+      "id": "b7972a4b-bc27-41b2-a592-b69c12b0f9c9",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Cursor AI Agent Wipes PocketOS Database and Backups in 9 Seconds",
+      "summary": "An autonomous Cursor AI agent inadvertently deleted a startup's production database and backups within nine seconds after misusing a root API token. The incident highlights significant risks in AI-driven development tools and underlying platform permission structures.",
+      "date": "2026-04-29T21:31:34.000Z",
+      "link": "https://hackread.com/cursor-ai-agent-wipes-pocketos-database-backups/",
+      "isTopTen": true
+    },
+    {
+      "id": "e4f9dd4a-892d-41be-a3f1-2907eeda6a50",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "US, China partner on scam center takedown in Dubai",
+      "summary": "U.S. and Chinese authorities collaborated to dismantle a cryptocurrency investment fraud operation based in Dubai after it caused millions in losses for American victims. The operation followed extensive investigations and numerous complaints filed with the FBI.",
+      "date": "2026-04-29T20:51:00.000Z",
+      "link": "https://therecord.media/us-china-partner-on-dubai-scam-compound-takedown",
+      "isTopTen": false
+    },
+    {
+      "id": "40e70499-a772-4e1b-a0e8-06d3b65ce19b",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
+      "summary": "Hackers are actively exploiting authentication bypass vulnerabilities in the Qinglong task scheduling tool to execute remote code and install cryptomining software on developer servers.",
+      "date": "2026-04-29T20:50:35.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
+      "isTopTen": false
+    },
+    {
+      "id": "542eeab7-6254-48b5-b8c3-da93d42462bd",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Researchers move in the right direction, develop powerful GPS interference alarm",
+      "summary": "Researchers have developed a new, highly effective detection system designed to alert users to GPS signal interference. This innovation enhances situational awareness for technologies reliant on satellite-based positioning systems.",
+      "date": "2026-04-29T20:11:05.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/boffins_new_gps_interference_alarm/",
+      "isTopTen": false
+    },
+    {
+      "id": "cef7e790-bda8-4116-9f80-860a73007159",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVE-2026-42208: LiteLLM bug exploited 36 hours after its disclosure",
+      "summary": "The LiteLLM Python package is under active exploitation due to a critical SQL injection vulnerability (CVE-2026-42208) that allows unauthorized database access and modification. Attackers began targeting the flaw just 36 hours after its public disclosure.",
+      "date": "2026-04-29T20:09:58.000Z",
+      "link": "https://securityaffairs.com/191483/hacking/cve-2026-42208-litellm-bug-exploited-36-hours-after-its-disclosure.html",
+      "isTopTen": false
+    },
     {
       "id": "e8246c58-7029-4ef7-bc19-274c6e3b0f33",
       "source": "CyberScoop",
@@ -230,7 +285,7 @@
       "summary": "Threat actors are utilizing autonomous AI agents to accelerate the attack lifecycle, specifically targeting Active Directory to obtain administrative privileges within minutes. The report emphasizes the critical need for automated exposure validation to keep pace with these high-speed AI-driven threats.",
       "date": "2026-04-29T12:02:00.000Z",
       "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01bbc1ae-1a3c-4b3e-a6c7-316d340d5079",
@@ -263,7 +318,7 @@
       "summary": "CISA has issued a directive requiring all federal agencies to remediate a specific Windows vulnerability that is currently being exploited as a zero-day. This measure aims to protect government systems from active cyber threats targeting this security flaw.",
       "date": "2026-04-29T10:29:31.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e99b1cd1-d805-4345-8dd1-b65b7fea4140",
@@ -285,7 +340,7 @@
       "summary": "A long-time GoDaddy customer alleges that the registrar transferred a 27-year-old domain to an unauthorized party without performing mandatory security verification protocols. This incident raises significant concerns regarding the reliability of account security and domain ownership protection mechanisms.",
       "date": "2026-04-29T10:00:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/godaddy_megagaffe_wrongly_transferred_27yearold/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f038553b-eef3-42e7-8d46-cfb18effdbb6",
@@ -516,7 +571,7 @@
       "summary": "The VECT 2.0 ransomware contains a coding flaw in its encryption process that causes it to corrupt and permanently destroy large files instead of encrypting them. This error renders affected data unrecoverable, even if a ransom is paid.",
       "date": "2026-04-28T21:25:57.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b8629637-cf07-41e4-8369-558e835ff629",
@@ -527,7 +582,7 @@
       "summary": "Hackers are actively exploiting a critical pre-authentication SQL injection vulnerability, identified as CVE-2026-42208, within the LiteLLM gateway to access sensitive information. This flaw poses a significant risk to organizations utilizing the open-source LLM management tool.",
       "date": "2026-04-28T21:07:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "89e45542-9e67-4762-b1a5-ff6ae93e9e09",
@@ -637,7 +692,7 @@
       "summary": "A high-severity vulnerability dubbed Pack2TheRoot has been discovered in Linux's PackageKit, potentially allowing unauthorized users to gain full root-level access. The flaw affects multiple Linux distributions and poses a significant security risk to system integrity.",
       "date": "2026-04-28T17:22:21.000Z",
       "link": "https://hackread.com/pack2theroot-linux-packagekit-flaw-full-compromise/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7aac521-13f5-47b2-8d9e-12bc55387b02",
@@ -725,7 +780,7 @@
       "summary": "The VECT 2.0 ransomware contains a critical flaw that destroys files larger than 131KB instead of encrypting them, making data recovery impossible for victims and attackers alike. This behavior effectively transforms the ransomware into a wiper, permanently deleting data across Windows, Linux, and ESXi systems.",
       "date": "2026-04-28T14:01:00.000Z",
       "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f133e471-f308-4185-b4ca-c698056ea255",
@@ -5444,61 +5499,6 @@
       "summary": "North Korean state-sponsored threat actors are actively targeting macOS users as part of a new campaign to conduct cyber heists. This development indicates an expansion in the operational scope of North Korean hacking groups beyond their traditional Windows-focused attacks.",
       "date": "2026-04-16T18:20:12.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/north_korea_social_engineering_macos/",
-      "isTopTen": false
-    },
-    {
-      "id": "20677919-793c-4b93-9e80-49144e96bf69",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cookeville Regional Medical Center hospital data breach impacts 337,917 people",
-      "summary": "Cookeville Regional Medical Center suffered a ransomware attack by the Rhysida group, resulting in the theft of 500GB of sensitive data and impacting 337,917 individuals.",
-      "date": "2026-04-16T18:03:55.000Z",
-      "link": "https://securityaffairs.com/190898/cyber-crime/cookeville-regional-medical-center-hospital-data-breach-impacts-337917-people.html",
-      "isTopTen": false
-    },
-    {
-      "id": "863b55ce-d1aa-4dd8-b921-18ef68c1f2f9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
-      "summary": "A newly identified botnet called PowMix is targeting employees in the Czech Republic, utilizing randomized C2 beaconing intervals to evade network-based detection. The campaign has been active since at least December 2025.",
-      "date": "2026-04-16T17:52:00.000Z",
-      "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
-      "isTopTen": false
-    },
-    {
-      "id": "098e4020-4d7c-4645-862d-707d51d3160d",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Officials seize 53 DDoS-for-hire domains in ongoing crackdown",
-      "summary": "Law enforcement agencies coordinated through Operation PowerOFF have seized 53 DDoS-for-hire domains and issued warnings to over 75,000 alleged cybercriminals involved in launching traffic-jamming attacks.",
-      "date": "2026-04-16T17:26:16.000Z",
-      "link": "https://cyberscoop.com/ddos-for-hire-takedowns-operation-poweroff/",
-      "isTopTen": false
-    },
-    {
-      "id": "41713765-678b-4198-8852-072e5ac67890",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hackers exploit Marimo flaw to deploy NKAbuse malware from Hugging Face",
-      "summary": "Hackers are actively exploiting a critical vulnerability in the Marimo reactive Python notebook to distribute a new variant of the NKAbuse malware hosted on Hugging Face Spaces.",
-      "date": "2026-04-16T16:58:06.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/",
-      "isTopTen": false
-    },
-    {
-      "id": "72e7a1b0-890b-4664-9ba3-d95b6f52c13f",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "New Jersey men given lengthy sentences for running North Korean laptop farms",
-      "summary": "Two New Jersey men received multi-year prison sentences for operating a laptop farm that laundered money and circumvented sanctions to generate over $5 million for the North Korean government.",
-      "date": "2026-04-16T16:38:00.000Z",
-      "link": "https://therecord.media/new-jersey-men-sentenced-north-korean-laptop-farms",
       "isTopTen": false
     }
   ]
