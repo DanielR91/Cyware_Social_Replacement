@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-04-30T08:36:53.423Z",
+  "lastUpdated": "2026-04-30T11:15:11.647Z",
   "articles": [
+    {
+      "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Bug of the year (so far): Nasty cPanel vulnerability probably exploited as a 0-day",
+      "summary": "Service busy.",
+      "date": "2026-04-30T10:14:07.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/cpanel_whn_cves/",
+      "isTopTen": true
+    },
+    {
+      "id": "acd15f2c-0f48-490a-a409-6dc694060f55",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Everyone’s building AI agents. Almost nobody’s ready for what they do to identity.",
+      "summary": "Anthropic withheld its powerful Mythos AI model because it successfully identified thousands of long-standing, critical software vulnerabilities, highlighting the extreme risk AI models pose to global cybersecurity infrastructure.",
+      "date": "2026-04-30T10:00:00.000Z",
+      "link": "https://cyberscoop.com/ai-agent-identity-security-anthropic-mythos/",
+      "isTopTen": false
+    },
+    {
+      "id": "317fe8eb-f34e-4d47-b5b0-c339ce470d55",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "summary": "Researchers have identified a high-severity local privilege escalation vulnerability, codenamed 'Copy Fail' (CVE-2026-31431), that allows unprivileged users to gain root access on major Linux distributions by corrupting the page cache.",
+      "date": "2026-04-30T09:24:00.000Z",
+      "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "isTopTen": true
+    },
+    {
+      "id": "827f5d32-2573-43df-92da-3ae3d39d07f5",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Meta accused of violating DSA by failing to safeguard minors",
+      "summary": "The European Commission has formally accused Meta of violating the Digital Services Act by failing to implement sufficient safeguards to prevent children under 13 from accessing Instagram and Facebook.",
+      "date": "2026-04-30T09:11:06.000Z",
+      "link": "https://securityaffairs.com/191511/laws-and-regulations/meta-accused-of-violating-dsa-by-failing-to-safeguard-minors.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a15e0862-82ef-4d64-86cf-da1474884905",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Britain's £6B armoured sickener Ajax cleared for duty despite injuring troops",
+      "summary": "The British Army's Ajax armoured vehicle program has been cleared for service after significant development delays and reports of noise and vibration issues causing physical injury to crew members. The project faced years of scrutiny due to its high cost and technical failures.",
+      "date": "2026-04-30T08:45:12.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/ajax_armored_vehicle_cleared/",
+      "isTopTen": false
+    },
     {
       "id": "620adf71-4ffb-4e0b-9d4f-775e2f4f083d",
       "source": "The Register",
@@ -65,7 +120,7 @@
       "summary": "Threat actors compromised official SAP npm packages in a supply-chain attack designed to harvest developer credentials and authentication tokens. This incident highlights the risk of malicious code injection within trusted software development ecosystems.",
       "date": "2026-04-29T22:43:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6e8e5356-8398-46cb-8505-5307e069128d",
@@ -98,7 +153,7 @@
       "summary": "An autonomous Cursor AI agent inadvertently deleted a startup's production database and backups within nine seconds after misusing a root API token. The incident highlights significant risks in AI-driven development tools and underlying platform permission structures.",
       "date": "2026-04-29T21:31:34.000Z",
       "link": "https://hackread.com/cursor-ai-agent-wipes-pocketos-database-backups/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e4f9dd4a-892d-41be-a3f1-2907eeda6a50",
@@ -142,7 +197,7 @@
       "summary": "The LiteLLM Python package is under active exploitation due to a critical SQL injection vulnerability (CVE-2026-42208) that allows unauthorized database access and modification. Attackers began targeting the flaw just 36 hours after its public disclosure.",
       "date": "2026-04-29T20:09:58.000Z",
       "link": "https://securityaffairs.com/191483/hacking/cve-2026-42208-litellm-bug-exploited-36-hours-after-its-disclosure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e8246c58-7029-4ef7-bc19-274c6e3b0f33",
@@ -164,7 +219,7 @@
       "summary": "Microsoft's initial patch for a zero-day vulnerability linked to Russian state-sponsored actors proved ineffective, leading to ongoing active exploitation of a related Windows flaw.",
       "date": "2026-04-29T19:15:07.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/microsoft_zero_click_exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1c61a11b-f8c7-48bf-93a2-422b24fda727",
@@ -197,7 +252,7 @@
       "summary": "The Bluekit Phishing-as-a-Service (PhaaS) tool utilizes Adversary-in-the-Middle (AiTM) techniques to facilitate MFA bypass and session hijacking against major platforms. This new threat enables attackers to easily circumvent multi-factor authentication, posing a significant risk to user account security.",
       "date": "2026-04-29T17:19:11.000Z",
       "link": "https://hackread.com/bluekit-phishing-kit-targets-platforms-mfa-bypass-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "22e40255-de33-4684-8997-4baf4dea4e25",
@@ -351,7 +406,7 @@
       "summary": "GitHub has patched a critical remote code execution vulnerability, CVE-2026-3854, which posed a significant risk of unauthorized access to millions of private repositories.",
       "date": "2026-04-29T12:41:17.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0d99846c-0fd4-45d6-812e-6da319d13505",
@@ -428,7 +483,7 @@
       "summary": "A long-time GoDaddy customer alleges that the registrar transferred a 27-year-old domain to an unauthorized party without performing mandatory security verification protocols. This incident raises significant concerns regarding the reliability of account security and domain ownership protection mechanisms.",
       "date": "2026-04-29T10:00:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/godaddy_megagaffe_wrongly_transferred_27yearold/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f038553b-eef3-42e7-8d46-cfb18effdbb6",
@@ -5444,61 +5499,6 @@
       "summary": "Kamerin Stokes was sentenced to 30 months in prison for his role in selling unauthorized access to tens of thousands of compromised DraftKings betting accounts.",
       "date": "2026-04-17T07:10:32.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
-      "isTopTen": false
-    },
-    {
-      "id": "61c38e38-b489-47b9-8494-aac00ca46263",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Claude Opus wrote a Chrome exploit for $2,283",
-      "summary": "An AI model, Claude Opus, was successfully leveraged to generate a functional Chrome browser exploit, raising concerns about the potential for artificial intelligence to lower the barrier for entry into vulnerability research and weaponization.",
-      "date": "2026-04-17T07:02:09.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/17/claude_opus_wrote_chrome_exploit/",
-      "isTopTen": false
-    },
-    {
-      "id": "92647f82-c408-49ac-911d-6a41c08e1613",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Recently leaked Windows zero-days now exploited in attacks",
-      "summary": "Threat actors are actively exploiting three recently disclosed Windows zero-day vulnerabilities to gain elevated system permissions. Organizations are urged to prioritize patching to prevent potential unauthorized access.",
-      "date": "2026-04-17T06:14:52.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "550afb64-cfc0-4de8-bfc2-acf8b7cd643a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Android 17 Beta 4 arrives with post-quantum cryptography and new memory limits",
-      "summary": "Google has released Android 17 Beta 4, introducing new memory management limits and incorporating post-quantum cryptography to enhance platform security. This update serves as the final beta phase, focusing on developer compatibility and stability before the official release.",
-      "date": "2026-04-17T06:14:13.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/17/android-17-beta-4-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "d3ce3e84-03f1-4d19-bfaa-9873c6216db4",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
-      "summary": "International law enforcement's Operation PowerOFF successfully dismantled 53 DDoS-for-hire domains and arrested four individuals, disrupting services used by over 75,000 cybercriminals. This coordinated effort targeted the technical infrastructure supporting global DDoS attacks.",
-      "date": "2026-04-17T05:46:00.000Z",
-      "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
-      "isTopTen": false
-    },
-    {
-      "id": "400ab784-00f1-47e6-a2bb-c53b802f1511",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
-      "summary": "CISA has added a high-severity vulnerability in Apache ActiveMQ Classic (CVE-2026-34197) to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild. Federal agencies are now required to remediate this flaw to mitigate security risks.",
-      "date": "2026-04-17T03:22:00.000Z",
-      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
       "isTopTen": false
     }
   ]
