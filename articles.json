@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-04-29T22:06:27.408Z",
+  "lastUpdated": "2026-04-30T03:42:02.205Z",
   "articles": [
+    {
+      "id": "ce503853-f87f-417f-99f6-8b70b426898c",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Linux cryptographic code flaw offers fast route to root",
+      "summary": "A vulnerability identified in Linux cryptographic code potentially allows unauthorized users to escalate privileges to root access. This security flaw poses a significant risk to affected systems due to the severity of the potential impact.",
+      "date": "2026-04-30T00:01:50.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/linux_cryptographic_code_flaw/",
+      "isTopTen": true
+    },
+    {
+      "id": "661ddad7-410f-4731-996d-b7fdbc57e631",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "summary": "Threat actors compromised official SAP npm packages in a supply-chain attack designed to harvest developer credentials and authentication tokens. This incident highlights the risk of malicious code injection within trusted software development ecosystems.",
+      "date": "2026-04-29T22:43:44.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "isTopTen": true
+    },
+    {
+      "id": "6e8e5356-8398-46cb-8505-5307e069128d",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "House approves spy program on second attempt, Senate fate murky",
+      "summary": "The U.S. House of Representatives successfully passed a bill to reauthorize Section 702 of the Foreign Intelligence Surveillance Act for three years, though the legislation now faces an uncertain path in the Senate.",
+      "date": "2026-04-29T22:41:00.000Z",
+      "link": "https://therecord.media/house-approves-spy-program-on-second-attempt",
+      "isTopTen": false
+    },
+    {
+      "id": "05dfd365-b667-45c0-a175-e6b57d87f61a",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "summary": "A popular WordPress redirect plugin containing a hidden backdoor for over five years has been exposed, potentially allowing unauthorized arbitrary code execution on 70,000 websites.",
+      "date": "2026-04-29T22:13:15.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "isTopTen": false
+    },
     {
       "id": "b7972a4b-bc27-41b2-a592-b69c12b0f9c9",
       "source": "HackRead",
@@ -54,7 +98,7 @@
       "summary": "The LiteLLM Python package is under active exploitation due to a critical SQL injection vulnerability (CVE-2026-42208) that allows unauthorized database access and modification. Attackers began targeting the flaw just 36 hours after its public disclosure.",
       "date": "2026-04-29T20:09:58.000Z",
       "link": "https://securityaffairs.com/191483/hacking/cve-2026-42208-litellm-bug-exploited-36-hours-after-its-disclosure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e8246c58-7029-4ef7-bc19-274c6e3b0f33",
@@ -120,7 +164,7 @@
       "summary": "Cybersecurity researchers have identified a supply chain attack involving compromised SAP-related npm packages that distribute the \"Mini Shai-Hulud\" credential-stealing malware. The campaign targets developers by injecting malicious code into JavaScript and cloud application packages.",
       "date": "2026-04-29T16:26:00.000Z",
       "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "666b305c-36ee-4484-837f-e828e67fd366",
@@ -285,7 +329,7 @@
       "summary": "Threat actors are utilizing autonomous AI agents to accelerate the attack lifecycle, specifically targeting Active Directory to obtain administrative privileges within minutes. The report emphasizes the critical need for automated exposure validation to keep pace with these high-speed AI-driven threats.",
       "date": "2026-04-29T12:02:00.000Z",
       "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "01bbc1ae-1a3c-4b3e-a6c7-316d340d5079",
@@ -329,7 +373,7 @@
       "summary": "CISA and Microsoft have issued an alert regarding the active exploitation of CVE-2026-32202, a zero-click Windows Shell spoofing vulnerability resulting from an incomplete patch for previous flaws linked to the APT28 group.",
       "date": "2026-04-29T10:20:42.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/29/windows-cve-2026-32202-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "479eb287-71d3-4baa-9615-7311e15a6460",
@@ -340,7 +384,7 @@
       "summary": "A long-time GoDaddy customer alleges that the registrar transferred a 27-year-old domain to an unauthorized party without performing mandatory security verification protocols. This incident raises significant concerns regarding the reliability of account security and domain ownership protection mechanisms.",
       "date": "2026-04-29T10:00:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/godaddy_megagaffe_wrongly_transferred_27yearold/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f038553b-eef3-42e7-8d46-cfb18effdbb6",
@@ -373,7 +417,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a critical path traversal flaw in ConnectWise ScreenConnect and a Windows security vulnerability due to evidence of active exploitation.",
       "date": "2026-04-29T08:46:00.000Z",
       "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2c676a34-33eb-460a-8a8c-2ce08fba84db",
@@ -505,7 +549,7 @@
       "summary": "Researchers discovered 30 malicious skills on the ClawHub platform designed to hijack AI agents and force them into a coordinated cryptocurrency mining swarm. This incident highlights the emerging threat of malicious extensions compromising the autonomy of AI systems.",
       "date": "2026-04-29T06:32:14.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a3946fc9-f4e3-4355-9c7d-a545ebb370dd",
@@ -571,7 +615,7 @@
       "summary": "The VECT 2.0 ransomware contains a coding flaw in its encryption process that causes it to corrupt and permanently destroy large files instead of encrypting them. This error renders affected data unrecoverable, even if a ransom is paid.",
       "date": "2026-04-28T21:25:57.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b8629637-cf07-41e4-8369-558e835ff629",
@@ -5455,50 +5499,6 @@
       "summary": "ZionSiphon is a newly discovered malware strain specifically engineered to target and sabotage the operational technology utilized in water treatment and desalination facilities.",
       "date": "2026-04-16T22:04:53.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d106619-52ab-44b6-86da-95d4089c9970",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "A Deep Dive Into Attempted Exploitation of CVE-2023-33538",
-      "summary": "Security researchers at Unit 42 have analyzed exploitation attempts against CVE-2023-33538, a command injection vulnerability in TP-Link routers that is being targeted by Mirai botnet variants.",
-      "date": "2026-04-16T22:00:13.000Z",
-      "link": "https://unit42.paloaltonetworks.com/exploitation-of-cve-2023-33538/",
-      "isTopTen": false
-    },
-    {
-      "id": "d6e58da2-70ad-471a-b273-a67346901dfd",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges",
-      "summary": "A security researcher released a proof-of-concept exploit for a second Microsoft Defender zero-day vulnerability, named 'RedSun,' which allows attackers to escalate privileges to SYSTEM level. The disclosure was made to protest Microsoft's current handling of vulnerability reporting and researcher relations.",
-      "date": "2026-04-16T20:19:31.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/",
-      "isTopTen": false
-    },
-    {
-      "id": "26c1aed6-e152-4a0c-9a14-6467d57d6597",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco fixed four critical flaws in Identity Services and Webex",
-      "summary": "Cisco has released patches for four critical vulnerabilities in its Identity Services and Webex platforms that could enable unauthorized code execution and user impersonation. These security flaws present significant risks, necessitating immediate updates for affected systems.",
-      "date": "2026-04-16T19:19:25.000Z",
-      "link": "https://securityaffairs.com/190909/security/cisco-fixed-four-critical-flaws-in-identity-services-and-webex.html",
-      "isTopTen": false
-    },
-    {
-      "id": "50274580-ae4e-4a65-8266-3d635aa7d197",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "North Korea targets macOS users in latest heist",
-      "summary": "North Korean state-sponsored threat actors are actively targeting macOS users as part of a new campaign to conduct cyber heists. This development indicates an expansion in the operational scope of North Korean hacking groups beyond their traditional Windows-focused attacks.",
-      "date": "2026-04-16T18:20:12.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/north_korea_social_engineering_macos/",
       "isTopTen": false
     }
   ]
