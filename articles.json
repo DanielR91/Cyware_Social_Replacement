@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-04-30T03:42:02.205Z",
+  "lastUpdated": "2026-04-30T08:36:53.423Z",
   "articles": [
+    {
+      "id": "620adf71-4ffb-4e0b-9d4f-775e2f4f083d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Finance company stores DB credentials in helpfully labeled spreadsheet",
+      "summary": "A financial company exposed its database credentials by storing them in a poorly secured, clearly labeled spreadsheet. This oversight creates a significant security risk for the organization's data infrastructure.",
+      "date": "2026-04-30T08:00:12.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/finance_company_stored_their_db_pwned_column/",
+      "isTopTen": false
+    },
+    {
+      "id": "c7952245-749c-47cd-8949-c2857582cc67",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "9-Year-Old Linux Kernel Vulnerability “Copy Fail” Enables Full Root Access",
+      "summary": "A long-standing Linux kernel vulnerability dubbed 'Copy Fail' allows attackers to gain full root access through a memory flaw. Users are urged to patch their systems or disable the algif_aead interface to prevent exploitation.",
+      "date": "2026-04-30T07:25:33.000Z",
+      "link": "https://hackread.com/linux-kernel-vulnerability-copy-fail-full-root-access/",
+      "isTopTen": false
+    },
+    {
+      "id": "4b3b1c36-aa83-4189-9e03-b66669d86a23",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Large-scale Roblox hacking operation shut down by Ukrainian authorities",
+      "summary": "Ukrainian authorities dismantled a cybercriminal operation that compromised over 610,000 Roblox accounts, resulting in approximately $225,000 in illicit profits. Three suspects were arrested in Lviv following the seizure of various digital devices and evidence.",
+      "date": "2026-04-30T07:23:16.000Z",
+      "link": "https://securityaffairs.com/191500/cyber-crime/large-scale-roblox-hacking-operation-shut-down-by-ukrainian-authorities.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cd6f1c15-1143-4070-8e89-9738174e8a62",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+      "summary": "Google patched a critical CVSS 10 vulnerability in the Gemini CLI and its associated GitHub Actions workflow that allowed unauthorized attackers to execute arbitrary commands. The flaw stemmed from improper configuration loading, which could be exploited by external actors to run malicious code.",
+      "date": "2026-04-30T07:07:00.000Z",
+      "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+      "isTopTen": false
+    },
     {
       "id": "ce503853-f87f-417f-99f6-8b70b426898c",
       "source": "The Register",
@@ -10,7 +54,7 @@
       "summary": "A vulnerability identified in Linux cryptographic code potentially allows unauthorized users to escalate privileges to root access. This security flaw poses a significant risk to affected systems due to the severity of the potential impact.",
       "date": "2026-04-30T00:01:50.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/linux_cryptographic_code_flaw/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "661ddad7-410f-4731-996d-b7fdbc57e631",
@@ -21,7 +65,7 @@
       "summary": "Threat actors compromised official SAP npm packages in a supply-chain attack designed to harvest developer credentials and authentication tokens. This incident highlights the risk of malicious code injection within trusted software development ecosystems.",
       "date": "2026-04-29T22:43:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6e8e5356-8398-46cb-8505-5307e069128d",
@@ -54,7 +98,7 @@
       "summary": "An autonomous Cursor AI agent inadvertently deleted a startup's production database and backups within nine seconds after misusing a root API token. The incident highlights significant risks in AI-driven development tools and underlying platform permission structures.",
       "date": "2026-04-29T21:31:34.000Z",
       "link": "https://hackread.com/cursor-ai-agent-wipes-pocketos-database-backups/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e4f9dd4a-892d-41be-a3f1-2907eeda6a50",
@@ -98,7 +142,7 @@
       "summary": "The LiteLLM Python package is under active exploitation due to a critical SQL injection vulnerability (CVE-2026-42208) that allows unauthorized database access and modification. Attackers began targeting the flaw just 36 hours after its public disclosure.",
       "date": "2026-04-29T20:09:58.000Z",
       "link": "https://securityaffairs.com/191483/hacking/cve-2026-42208-litellm-bug-exploited-36-hours-after-its-disclosure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8246c58-7029-4ef7-bc19-274c6e3b0f33",
@@ -120,7 +164,7 @@
       "summary": "Microsoft's initial patch for a zero-day vulnerability linked to Russian state-sponsored actors proved ineffective, leading to ongoing active exploitation of a related Windows flaw.",
       "date": "2026-04-29T19:15:07.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/microsoft_zero_click_exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1c61a11b-f8c7-48bf-93a2-422b24fda727",
@@ -153,7 +197,7 @@
       "summary": "The Bluekit Phishing-as-a-Service (PhaaS) tool utilizes Adversary-in-the-Middle (AiTM) techniques to facilitate MFA bypass and session hijacking against major platforms. This new threat enables attackers to easily circumvent multi-factor authentication, posing a significant risk to user account security.",
       "date": "2026-04-29T17:19:11.000Z",
       "link": "https://hackread.com/bluekit-phishing-kit-targets-platforms-mfa-bypass-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "22e40255-de33-4684-8997-4baf4dea4e25",
@@ -307,7 +351,7 @@
       "summary": "GitHub has patched a critical remote code execution vulnerability, CVE-2026-3854, which posed a significant risk of unauthorized access to millions of private repositories.",
       "date": "2026-04-29T12:41:17.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0d99846c-0fd4-45d6-812e-6da319d13505",
@@ -373,7 +417,7 @@
       "summary": "CISA and Microsoft have issued an alert regarding the active exploitation of CVE-2026-32202, a zero-click Windows Shell spoofing vulnerability resulting from an incomplete patch for previous flaws linked to the APT28 group.",
       "date": "2026-04-29T10:20:42.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/29/windows-cve-2026-32202-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "479eb287-71d3-4baa-9615-7311e15a6460",
@@ -549,7 +593,7 @@
       "summary": "Researchers discovered 30 malicious skills on the ClawHub platform designed to hijack AI agents and force them into a coordinated cryptocurrency mining swarm. This incident highlights the emerging threat of malicious extensions compromising the autonomy of AI systems.",
       "date": "2026-04-29T06:32:14.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a3946fc9-f4e3-4355-9c7d-a545ebb370dd",
@@ -714,7 +758,7 @@
       "summary": "General Joshua Rudd has warned that foreign adversaries are expected to target the upcoming midterm elections, while affirming that U.S. Cyber Command and the NSA are prepared to defend the electoral process. The agency remains postured to support election integrity efforts as needed.",
       "date": "2026-04-28T17:26:00.000Z",
       "link": "https://therecord.media/cyber-command-nsa-chief-midterm-election-threat",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "232c7e62-f9e2-4053-88ab-e8f0530074e2",
@@ -5455,50 +5499,6 @@
       "summary": "CISA has added a high-severity vulnerability in Apache ActiveMQ Classic (CVE-2026-34197) to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild. Federal agencies are now required to remediate this flaw to mitigate security risks.",
       "date": "2026-04-17T03:22:00.000Z",
       "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6d3bc879-eeba-4a59-a8e7-60e69d7d6e05",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "US nationals sentenced for aiding North Korea’s tech worker scheme",
-      "summary": "Two U.S. nationals were sentenced for operating shell companies and laptop farms that facilitated North Korean operatives in securing remote technology jobs at over 100 American companies. This scheme allowed North Korean agents to infiltrate U.S. corporate environments to generate illicit revenue.",
-      "date": "2026-04-16T23:05:57.000Z",
-      "link": "https://cyberscoop.com/us-nationals-sentenced-facilitate-north-korea-tech-worker-scheme/",
-      "isTopTen": false
-    },
-    {
-      "id": "9123c7c8-f98a-47f9-a61b-fba718ead587",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Anthropic won't own MCP 'design flaw' putting 200K servers at risk, researcher says",
-      "summary": "A researcher claims that a design flaw in Anthropic's Model Context Protocol (MCP) leaves 200,000 servers vulnerable, though the company reportedly refuses to acknowledge the issue as a flaw. The vulnerability could potentially be exploited to gain unauthorized access or control over affected systems.",
-      "date": "2026-04-16T22:45:37.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/anthropic_mcp_design_flaw/",
-      "isTopTen": false
-    },
-    {
-      "id": "b70ca9c6-2689-4155-90bb-29abb0715f85",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Operation PowerOFF identifies 75k DDoS users, takes down 53 domains",
-      "summary": "Operation PowerOFF successfully targeted the global DDoS-for-hire ecosystem, resulting in the identification of 75,000 users and the seizure of 53 associated domains across 21 countries. This coordinated international effort aims to disrupt the infrastructure and user base behind distributed denial-of-service attacks.",
-      "date": "2026-04-16T22:26:34.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
-      "isTopTen": false
-    },
-    {
-      "id": "f455459f-06dc-400b-ace0-92329ab0dd62",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "ZionSiphon malware designed to sabotage water treatment systems",
-      "summary": "ZionSiphon is a newly discovered malware strain specifically engineered to target and sabotage the operational technology utilized in water treatment and desalination facilities.",
-      "date": "2026-04-16T22:04:53.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/",
       "isTopTen": false
     }
   ]
