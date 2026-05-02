@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-02T07:52:35.352Z",
+  "lastUpdated": "2026-05-02T10:03:01.874Z",
   "articles": [
+    {
+      "id": "10c55744-5f7e-4add-a6a2-cadbfa322f38",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Brace for the patch tsunami: AI is unearthing decades of buried code debt",
+      "summary": "Artificial intelligence tools are accelerating the discovery of long-standing security vulnerabilities in legacy codebases, necessitating a surge in emergency patching. This trend highlights the risks posed by accumulated technical debt that is now becoming more visible and exploitable.",
+      "date": "2026-05-02T08:30:09.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
+      "isTopTen": true
+    },
+    {
+      "id": "bbc7e560-b851-4cce-9ae3-a826e182a12b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Deep#Door RAT uses stealth and persistence to target Windows",
+      "summary": "The newly discovered Deep#Door RAT utilizes a stealthy Python-based backdoor embedded in batch files to bypass Windows security measures and maintain persistent access. This sophisticated campaign exfiltrates data through public TCP tunnels, posing a significant risk to affected Windows systems.",
+      "date": "2026-05-02T08:22:39.000Z",
+      "link": "https://securityaffairs.com/191567/malware/new-deepdoor-rat-uses-stealth-and-persistence-to-target-windows.html",
+      "isTopTen": false
+    },
     {
       "id": "e8c76d65-4ac0-43b1-802a-d320997e9278",
       "source": "The Hacker News",
@@ -153,7 +175,7 @@
       "summary": "Threat actors identified as Cordial Spider and Snarky Spider are executing rapid, high-impact SaaS extortion attacks using vishing and SSO exploitation. These campaigns are noted for their speed, high data-theft volume, and ability to operate with minimal forensic traces.",
       "date": "2026-05-01T14:26:00.000Z",
       "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a7c8fc85-8a47-4d66-bca2-996ab5add857",
@@ -186,7 +208,7 @@
       "summary": "China-linked threat actor SHADOW-EARTH-053 is conducting a wide-reaching espionage campaign targeting government, defense, and civil society entities across Asia and a NATO member state. The operation, disclosed by Trend Micro, focuses on stealing sensitive information through sophisticated cyber activities.",
       "date": "2026-05-01T14:02:00.000Z",
       "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e3cc4b24-22cb-49bf-80f1-6792d85d72d1",
@@ -307,7 +329,7 @@
       "summary": "A critical vulnerability in cPanel allows unauthorized users to bypass authentication and achieve root-level access, with evidence of active exploitation in the wild.",
       "date": "2026-05-01T11:02:37.000Z",
       "link": "https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f1777bb5-9bf5-48c2-a183-65033721a2cf",
@@ -461,7 +483,7 @@
       "summary": "Malicious actors are increasingly targeting software supply chains by injecting malicious code into npm packages and common development tools, including those used for SAP environments. These attacks exploit the trusted relationships within development ecosystems to distribute malware or compromise software build processes.",
       "date": "2026-04-30T23:21:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3c9c5b97-7547-4992-9d88-a90593d85f5c",
@@ -604,7 +626,7 @@
       "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
       "date": "2026-04-30T13:40:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
@@ -637,7 +659,7 @@
       "summary": "Researchers have identified a high-severity local privilege escalation vulnerability, codenamed 'Copy Fail' (CVE-2026-31431), that allows unprivileged users to gain root access on major Linux distributions by corrupting the page cache.",
       "date": "2026-04-30T09:24:00.000Z",
       "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "827f5d32-2573-43df-92da-3ae3d39d07f5",
@@ -681,7 +703,7 @@
       "summary": "A long-standing Linux kernel vulnerability dubbed 'Copy Fail' allows attackers to gain full root access through a memory flaw. Users are urged to patch their systems or disable the algif_aead interface to prevent exploitation.",
       "date": "2026-04-30T07:25:33.000Z",
       "link": "https://hackread.com/linux-kernel-vulnerability-copy-fail-full-root-access/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b3b1c36-aa83-4189-9e03-b66669d86a23",
@@ -725,7 +747,7 @@
       "summary": "Threat actors compromised official SAP npm packages in a supply-chain attack designed to harvest developer credentials and authentication tokens. This incident highlights the risk of malicious code injection within trusted software development ecosystems.",
       "date": "2026-04-29T22:43:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6e8e5356-8398-46cb-8505-5307e069128d",
@@ -758,7 +780,7 @@
       "summary": "An autonomous Cursor AI agent inadvertently deleted a startup's production database and backups within nine seconds after misusing a root API token. The incident highlights significant risks in AI-driven development tools and underlying platform permission structures.",
       "date": "2026-04-29T21:31:34.000Z",
       "link": "https://hackread.com/cursor-ai-agent-wipes-pocketos-database-backups/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e4f9dd4a-892d-41be-a3f1-2907eeda6a50",
@@ -5477,28 +5499,6 @@
       "summary": "North Korean operatives are increasingly using fake identities and AI-driven deepfakes to secure employment at companies, prompting cybersecurity experts to recommend rigorous identity verification during the hiring process. Organizations are advised to utilize practical checks, such as physical movement tests and mandatory in-person interviews, to detect these fraudulent candidates.",
       "date": "2026-04-20T05:00:52.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/20/north-korean-job-interview-infiltration-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "df20492a-3249-4242-b3e7-8f8dd465e527",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: Syncthing for secure, private file synchronization",
-      "summary": "Syncthing is an open-source, peer-to-peer file synchronization tool that enables private and decentralized data transfers without a central server. It automatically updates shared folders across devices to maintain consistency and user control over data.",
-      "date": "2026-04-20T04:30:14.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/20/product-showcase-syncthing-private-file-synchronization-app/",
-      "isTopTen": false
-    },
-    {
-      "id": "1d79234b-8100-4389-9bc2-120b62c4de6d",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
-      "summary": "Vercel suffered a security breach after an employee's account was compromised via a third-party AI tool, Context.ai, leading to unauthorized access to internal systems and customer credentials. The incident highlights the risks associated with third-party tool integrations in corporate environments.",
-      "date": "2026-04-20T03:35:00.000Z",
-      "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
       "isTopTen": false
     }
   ]
