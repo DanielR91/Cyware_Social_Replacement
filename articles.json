@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-02T10:03:01.874Z",
+  "lastUpdated": "2026-05-02T13:23:59.894Z",
   "articles": [
+    {
+      "id": "ae5be7c0-cefc-4400-8ade-242eb8a341b1",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Trellix discloses the breach of a code repository",
+      "summary": "Trellix confirmed unauthorized access to a portion of its source code repository, though the company stated there is currently no evidence of malicious use. An investigation is underway with forensic experts and law enforcement.",
+      "date": "2026-05-02T12:55:38.000Z",
+      "link": "https://securityaffairs.com/191584/data-breach/trellix-discloses-the-breach-of-a-code-repository.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4b03a7ed-ec51-429a-8882-48621e919136",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "2 US Cybersecurity Experts Jailed for Aiding ALPHV (BlackCat) Ransomware",
+      "summary": "Two American cybersecurity professionals were sentenced to prison for leveraging their insider access to assist the ALPHV (BlackCat) ransomware gang in extorting global victims. Their criminal actions involved providing technical support and infrastructure to facilitate cyberattacks for financial gain.",
+      "date": "2026-05-02T12:28:23.000Z",
+      "link": "https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/",
+      "isTopTen": true
+    },
     {
       "id": "10c55744-5f7e-4add-a6a2-cadbfa322f38",
       "source": "The Register",
@@ -10,7 +32,7 @@
       "summary": "Artificial intelligence tools are accelerating the discovery of long-standing security vulnerabilities in legacy codebases, necessitating a surge in emergency patching. This trend highlights the risks posed by accumulated technical debt that is now becoming more visible and exploitable.",
       "date": "2026-05-02T08:30:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbc7e560-b851-4cce-9ae3-a826e182a12b",
@@ -32,7 +54,7 @@
       "summary": "Cybersecurity firm Trellix confirmed a security breach resulting in unauthorized access to a portion of its source code repository. The company has engaged forensic experts and notified law enforcement to address the incident.",
       "date": "2026-05-02T06:41:00.000Z",
       "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d769d270-17a7-400a-94fa-dc420932b23a",
@@ -186,7 +208,7 @@
       "summary": "Two cybersecurity incident responders were sentenced to four years in prison for abusing their professional access to conduct covert ransomware attacks. The case highlights the insider threat posed by individuals in trusted security roles.",
       "date": "2026-05-01T14:15:00.000Z",
       "link": "https://therecord.media/ransomware-cyber-incident-responders",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "527fd1ba-0254-4b1e-a991-8ec0a21a67d3",
@@ -329,7 +351,7 @@
       "summary": "A critical vulnerability in cPanel allows unauthorized users to bypass authentication and achieve root-level access, with evidence of active exploitation in the wild.",
       "date": "2026-05-01T11:02:37.000Z",
       "link": "https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f1777bb5-9bf5-48c2-a183-65033721a2cf",
@@ -494,7 +516,7 @@
       "summary": "Unit 42 researchers have identified malicious AI-powered browser extensions masquerading as productivity tools that are actively stealing user data, including passwords and email content. These extensions pose a significant threat by intercepting sensitive information through compromised browser permissions.",
       "date": "2026-04-30T22:00:57.000Z",
       "link": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d9e2bb17-9897-4b8f-add6-ad1143267c24",
@@ -626,7 +648,7 @@
       "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
       "date": "2026-04-30T13:40:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
@@ -5477,28 +5499,6 @@
       "summary": "The European Commission has awarded a €180 million contract to four European-based cloud providers to enhance the EU's digital sovereignty. This initiative aims to provide EU institutions and agencies with secure, localized cloud services independent of non-EU infrastructure.",
       "date": "2026-04-20T06:43:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/20/eu-sovereign-cloud-tender-180-million-eu/",
-      "isTopTen": false
-    },
-    {
-      "id": "bd40f93e-a2b1-4a56-98cb-bcd3a3a138ea",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "SmokedMeat: Open-source tool shows what attackers do inside CI/CD pipelines",
-      "summary": "Boost Security has launched SmokedMeat, an open-source framework that simulates attack chains within CI/CD pipelines to help security teams identify and demonstrate potential vulnerabilities in their infrastructure.",
-      "date": "2026-04-20T05:30:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/20/smokedmeat-ci-cd-pipeline-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "559c5418-898d-4cb5-9e65-1e39b852ce53",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "How to spot a North Korean fake in a job interview",
-      "summary": "North Korean operatives are increasingly using fake identities and AI-driven deepfakes to secure employment at companies, prompting cybersecurity experts to recommend rigorous identity verification during the hiring process. Organizations are advised to utilize practical checks, such as physical movement tests and mandatory in-person interviews, to detect these fraudulent candidates.",
-      "date": "2026-04-20T05:00:52.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/20/north-korean-job-interview-infiltration-video/",
       "isTopTen": false
     }
   ]
