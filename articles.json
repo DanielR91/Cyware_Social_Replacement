@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-02T03:45:50.241Z",
+  "lastUpdated": "2026-05-02T07:52:35.352Z",
   "articles": [
+    {
+      "id": "e8c76d65-4ac0-43b1-802a-d320997e9278",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+      "summary": "Cybersecurity firm Trellix confirmed a security breach resulting in unauthorized access to a portion of its source code repository. The company has engaged forensic experts and notified law enforcement to address the incident.",
+      "date": "2026-05-02T06:41:00.000Z",
+      "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+      "isTopTen": true
+    },
     {
       "id": "d769d270-17a7-400a-94fa-dc420932b23a",
       "source": "BleepingComputer",
@@ -120,7 +131,7 @@
       "summary": "CISA has mandated that federal agencies patch a critical cPanel vulnerability, CVE-2026-41940, by this Sunday to prevent full system compromise. The flaw allows attackers to gain unauthorized control over host configurations, databases, and managed websites.",
       "date": "2026-05-01T16:20:00.000Z",
       "link": "https://therecord.media/cisa-orders-federal-agencies-to-patch-cpanel-bug",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "91387300-848c-441d-b801-979c2cd570e5",
@@ -142,7 +153,7 @@
       "summary": "Threat actors identified as Cordial Spider and Snarky Spider are executing rapid, high-impact SaaS extortion attacks using vishing and SSO exploitation. These campaigns are noted for their speed, high data-theft volume, and ability to operate with minimal forensic traces.",
       "date": "2026-05-01T14:26:00.000Z",
       "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a7c8fc85-8a47-4d66-bca2-996ab5add857",
@@ -153,7 +164,7 @@
       "summary": "Two cybersecurity incident responders were sentenced to four years in prison for abusing their professional access to conduct covert ransomware attacks. The case highlights the insider threat posed by individuals in trusted security roles.",
       "date": "2026-05-01T14:15:00.000Z",
       "link": "https://therecord.media/ransomware-cyber-incident-responders",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "527fd1ba-0254-4b1e-a991-8ec0a21a67d3",
@@ -450,7 +461,7 @@
       "summary": "Malicious actors are increasingly targeting software supply chains by injecting malicious code into npm packages and common development tools, including those used for SAP environments. These attacks exploit the trusted relationships within development ecosystems to distribute malware or compromise software build processes.",
       "date": "2026-04-30T23:21:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3c9c5b97-7547-4992-9d88-a90593d85f5c",
@@ -549,7 +560,7 @@
       "summary": "A critical Linux vulnerability dubbed 'Copy Fail' (CVE-2026-31431) allows local, unprivileged users to manipulate page cache files, potentially leading to privilege escalation to root. The flaw carries a CVSS score of 7.8 and affects major Linux distributions.",
       "date": "2026-04-30T18:23:30.000Z",
       "link": "https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8dadb9a2-f549-461c-afea-4209aaf8072c",
@@ -670,7 +681,7 @@
       "summary": "A long-standing Linux kernel vulnerability dubbed 'Copy Fail' allows attackers to gain full root access through a memory flaw. Users are urged to patch their systems or disable the algif_aead interface to prevent exploitation.",
       "date": "2026-04-30T07:25:33.000Z",
       "link": "https://hackread.com/linux-kernel-vulnerability-copy-fail-full-root-access/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4b3b1c36-aa83-4189-9e03-b66669d86a23",
@@ -714,7 +725,7 @@
       "summary": "Threat actors compromised official SAP npm packages in a supply-chain attack designed to harvest developer credentials and authentication tokens. This incident highlights the risk of malicious code injection within trusted software development ecosystems.",
       "date": "2026-04-29T22:43:44.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6e8e5356-8398-46cb-8505-5307e069128d",
@@ -5488,17 +5499,6 @@
       "summary": "Vercel suffered a security breach after an employee's account was compromised via a third-party AI tool, Context.ai, leading to unauthorized access to internal systems and customer credentials. The incident highlights the risks associated with third-party tool integrations in corporate environments.",
       "date": "2026-04-20T03:35:00.000Z",
       "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
-      "isTopTen": false
-    },
-    {
-      "id": "13e1924b-b0db-4784-8815-cecb2e72e4ac",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Just like phishing for gullible humans, prompt injecting AIs is here to stay",
-      "summary": "Prompt injection attacks against AI systems are emerging as a persistent security challenge, drawing parallels to traditional human-targeted phishing schemes. These vulnerabilities represent a fundamental risk to the reliability and security of large language models.",
-      "date": "2026-04-19T23:00:14.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/19/just_like_phishing_for_gullible/",
       "isTopTen": false
     }
   ]
