@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-02T13:23:59.894Z",
+  "lastUpdated": "2026-05-02T15:54:09.846Z",
   "articles": [
+    {
+      "id": "f01b7007-c0e9-460e-8869-261708428112",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
+      "summary": "The ConsentFix v3 attack campaign leverages automation to scale unauthorized OAuth consent grants against Azure environments. This evolution increases the efficiency and reach of illicit application-based access attacks.",
+      "date": "2026-05-02T14:32:25.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
+      "isTopTen": true
+    },
     {
       "id": "ae5be7c0-cefc-4400-8ade-242eb8a341b1",
       "source": "Security Affairs",
@@ -10,7 +21,7 @@
       "summary": "Trellix confirmed unauthorized access to a portion of its source code repository, though the company stated there is currently no evidence of malicious use. An investigation is underway with forensic experts and law enforcement.",
       "date": "2026-05-02T12:55:38.000Z",
       "link": "https://securityaffairs.com/191584/data-breach/trellix-discloses-the-breach-of-a-code-repository.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b03a7ed-ec51-429a-8882-48621e919136",
@@ -32,7 +43,7 @@
       "summary": "Artificial intelligence tools are accelerating the discovery of long-standing security vulnerabilities in legacy codebases, necessitating a surge in emergency patching. This trend highlights the risks posed by accumulated technical debt that is now becoming more visible and exploitable.",
       "date": "2026-05-02T08:30:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bbc7e560-b851-4cce-9ae3-a826e182a12b",
@@ -98,7 +109,7 @@
       "summary": "SOCRadar researchers identified a large-scale Chinese cybercrime operation that utilized the OpenClaw and Paperclip systems to facilitate over 45,000 attacks and plant more than 5,300 backdoors globally.",
       "date": "2026-05-01T19:38:50.000Z",
       "link": "https://hackread.com/45k-attacks-53k-backdoor-china-cybercrime-operation/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "55635c32-ae26-4f12-9ed6-d10ed057ffa0",
@@ -582,7 +593,7 @@
       "summary": "The FBI reports that China's reliance on a massive, unregulated 'hacker-for-hire' ecosystem has created a significant and uncontrollable global cyber threat. This shift marks an escalation in how state-sponsored actors leverage private contractors to conduct cyber operations.",
       "date": "2026-04-30T19:30:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/fbi_cyber_boss_chinas_hackerforhire/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d80de744-ff79-4871-a79c-4c4626e72b2f",
@@ -670,7 +681,7 @@
       "summary": "Anthropic withheld its powerful Mythos AI model because it successfully identified thousands of long-standing, critical software vulnerabilities, highlighting the extreme risk AI models pose to global cybersecurity infrastructure.",
       "date": "2026-04-30T10:00:00.000Z",
       "link": "https://cyberscoop.com/ai-agent-identity-security-anthropic-mythos/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "317fe8eb-f34e-4d47-b5b0-c339ce470d55",
@@ -681,7 +692,7 @@
       "summary": "Researchers have identified a high-severity local privilege escalation vulnerability, codenamed 'Copy Fail' (CVE-2026-31431), that allows unprivileged users to gain root access on major Linux distributions by corrupting the page cache.",
       "date": "2026-04-30T09:24:00.000Z",
       "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "827f5d32-2573-43df-92da-3ae3d39d07f5",
@@ -725,7 +736,7 @@
       "summary": "A long-standing Linux kernel vulnerability dubbed 'Copy Fail' allows attackers to gain full root access through a memory flaw. Users are urged to patch their systems or disable the algif_aead interface to prevent exploitation.",
       "date": "2026-04-30T07:25:33.000Z",
       "link": "https://hackread.com/linux-kernel-vulnerability-copy-fail-full-root-access/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4b3b1c36-aa83-4189-9e03-b66669d86a23",
@@ -5488,17 +5499,6 @@
       "summary": "Vercel has alerted customers to a potential credential compromise affecting its platform. The company is investigating the incident to determine the scope and impact on user accounts.",
       "date": "2026-04-20T07:31:13.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/vercel_context_ai_security_incident/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d91e2cc-54cd-48f8-828b-4a27cd947a83",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "EU pushes for stronger cloud sovereignty, awards €180 million to four providers",
-      "summary": "The European Commission has awarded a €180 million contract to four European-based cloud providers to enhance the EU's digital sovereignty. This initiative aims to provide EU institutions and agencies with secure, localized cloud services independent of non-EU infrastructure.",
-      "date": "2026-04-20T06:43:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/20/eu-sovereign-cloud-tender-180-million-eu/",
       "isTopTen": false
     }
   ]
