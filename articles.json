@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-02T15:54:09.846Z",
+  "lastUpdated": "2026-05-02T19:09:10.357Z",
   "articles": [
+    {
+      "id": "7a5cf572-6024-456f-8ca9-c15153b2aad2",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Google AppSheet Exploited in 30,000-User Facebook Phishing Operation",
+      "summary": "Threat actors are leveraging Google AppSheet and Google Drive to bypass security filters and conduct a massive phishing campaign targeting Facebook Business account credentials. The operation has successfully compromised thousands of user accounts globally.",
+      "date": "2026-05-02T18:07:25.000Z",
+      "link": "https://hackread.com/google-appsheet-facebook-accountdumpling-scam/",
+      "isTopTen": true
+    },
+    {
+      "id": "7daf0714-3eaf-4be0-b651-0625df05d2ec",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Two US cybersecurity experts sentenced in ransomware case, third awaits July ruling",
+      "summary": "Two US cybersecurity experts were sentenced to four years in prison for participating in a ransomware conspiracy, while a third accomplice awaits sentencing. The individuals pleaded guilty to charges related to their involvement in facilitating ransomware attacks.",
+      "date": "2026-05-02T15:36:21.000Z",
+      "link": "https://securityaffairs.com/191591/cyber-crime/two-us-cybersecurity-experts-sentenced-in-ransomware-case-third-awaits-july-ruling.html",
+      "isTopTen": false
+    },
     {
       "id": "f01b7007-c0e9-460e-8869-261708428112",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "The ConsentFix v3 attack campaign leverages automation to scale unauthorized OAuth consent grants against Azure environments. This evolution increases the efficiency and reach of illicit application-based access attacks.",
       "date": "2026-05-02T14:32:25.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ae5be7c0-cefc-4400-8ade-242eb8a341b1",
@@ -32,7 +54,7 @@
       "summary": "Two American cybersecurity professionals were sentenced to prison for leveraging their insider access to assist the ALPHV (BlackCat) ransomware gang in extorting global victims. Their criminal actions involved providing technical support and infrastructure to facilitate cyberattacks for financial gain.",
       "date": "2026-05-02T12:28:23.000Z",
       "link": "https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10c55744-5f7e-4add-a6a2-cadbfa322f38",
@@ -241,7 +263,7 @@
       "summary": "China-linked threat actor SHADOW-EARTH-053 is conducting a wide-reaching espionage campaign targeting government, defense, and civil society entities across Asia and a NATO member state. The operation, disclosed by Trend Micro, focuses on stealing sensitive information through sophisticated cyber activities.",
       "date": "2026-05-01T14:02:00.000Z",
       "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e3cc4b24-22cb-49bf-80f1-6792d85d72d1",
@@ -593,7 +615,7 @@
       "summary": "The FBI reports that China's reliance on a massive, unregulated 'hacker-for-hire' ecosystem has created a significant and uncontrollable global cyber threat. This shift marks an escalation in how state-sponsored actors leverage private contractors to conduct cyber operations.",
       "date": "2026-04-30T19:30:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/fbi_cyber_boss_chinas_hackerforhire/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d80de744-ff79-4871-a79c-4c4626e72b2f",
@@ -615,7 +637,7 @@
       "summary": "A critical Linux vulnerability dubbed 'Copy Fail' (CVE-2026-31431) allows local, unprivileged users to manipulate page cache files, potentially leading to privilege escalation to root. The flaw carries a CVSS score of 7.8 and affects major Linux distributions.",
       "date": "2026-04-30T18:23:30.000Z",
       "link": "https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8dadb9a2-f549-461c-afea-4209aaf8072c",
@@ -736,7 +758,7 @@
       "summary": "A long-standing Linux kernel vulnerability dubbed 'Copy Fail' allows attackers to gain full root access through a memory flaw. Users are urged to patch their systems or disable the algif_aead interface to prevent exploitation.",
       "date": "2026-04-30T07:25:33.000Z",
       "link": "https://hackread.com/linux-kernel-vulnerability-copy-fail-full-root-access/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b3b1c36-aa83-4189-9e03-b66669d86a23",
@@ -758,7 +780,7 @@
       "summary": "Google patched a critical CVSS 10 vulnerability in the Gemini CLI and its associated GitHub Actions workflow that allowed unauthorized attackers to execute arbitrary commands. The flaw stemmed from improper configuration loading, which could be exploited by external actors to run malicious code.",
       "date": "2026-04-30T07:07:00.000Z",
       "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce503853-f87f-417f-99f6-8b70b426898c",
@@ -5477,28 +5499,6 @@
       "summary": "Meta and PortSwigger have partnered to provide security researchers with enhanced tools and educational resources, specifically through the integration of Burp Suite Professional into Meta's bug bounty program. The initiative aims to improve vulnerability discovery by fostering collaboration and skill development within the global security community.",
       "date": "2026-04-20T08:13:30.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/20/meta-bug-bounty-portswigger-partnership/",
-      "isTopTen": false
-    },
-    {
-      "id": "a8fa82da-1795-4c4a-95b6-dc7947fd5bd5",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
-      "summary": "Researchers have identified a new malware, ZionSiphon, engineered to target critical infrastructure including Israeli water and desalination OT systems. The malware establishes persistence and scans for local industrial control services to facilitate unauthorized access or manipulation.",
-      "date": "2026-04-20T07:34:00.000Z",
-      "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
-      "isTopTen": false
-    },
-    {
-      "id": "38c61055-8996-4b25-a576-c8d0f434e2dc",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Next.js developer Vercel warns of customer credential compromise",
-      "summary": "Vercel has alerted customers to a potential credential compromise affecting its platform. The company is investigating the incident to determine the scope and impact on user accounts.",
-      "date": "2026-04-20T07:31:13.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/vercel_context_ai_security_incident/",
       "isTopTen": false
     }
   ]
