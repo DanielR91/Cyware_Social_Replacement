@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-03T03:43:02.636Z",
+  "lastUpdated": "2026-05-03T08:08:42.229Z",
   "articles": [
+    {
+      "id": "7fd87f22-09b8-4103-8ef3-83394f47fd15",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Week in review: High-severity LPE vulnerability in the Linux kernel, cPanel 0-day exploited for months",
+      "summary": "The weekly security roundup highlights a high-severity Linux kernel local privilege escalation vulnerability and the exploitation of a cPanel zero-day, alongside trends in AI-driven gig labor platforms.",
+      "date": "2026-05-03T08:00:48.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/03/week-in-review-high-severity-lpe-vulnerability-in-the-linux-kernel-cpanel-0-day-exploited-for-months/",
+      "isTopTen": false
+    },
+    {
+      "id": "6c476c33-b25c-41bf-b06f-d56fd5ed2f44",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+      "summary": "CISA has added the actively exploited local privilege escalation vulnerability CVE-2026-31431, affecting multiple Linux distributions, to its Known Exploited Vulnerabilities (KEV) catalog. The flaw carries a CVSS score of 7.8, indicating a significant risk for systems where attackers have local access.",
+      "date": "2026-05-03T06:26:00.000Z",
+      "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "isTopTen": true
+    },
     {
       "id": "d735e3bf-9d9d-4bc9-a09d-d052b8f9b6b7",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "A critical vulnerability in cPanel, tracked as CVE-2026-41940, is being actively exploited to deploy 'Sorry' ransomware across compromised websites. This flaw poses a significant threat to data integrity and server security for impacted hosts.",
       "date": "2026-05-02T21:54:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7a5cf572-6024-456f-8ca9-c15153b2aad2",
@@ -21,7 +43,7 @@
       "summary": "Threat actors are leveraging Google AppSheet and Google Drive to bypass security filters and conduct a massive phishing campaign targeting Facebook Business account credentials. The operation has successfully compromised thousands of user accounts globally.",
       "date": "2026-05-02T18:07:25.000Z",
       "link": "https://hackread.com/google-appsheet-facebook-accountdumpling-scam/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7daf0714-3eaf-4be0-b651-0625df05d2ec",
@@ -76,7 +98,7 @@
       "summary": "Artificial intelligence tools are accelerating the discovery of long-standing security vulnerabilities in legacy codebases, necessitating a surge in emergency patching. This trend highlights the risks posed by accumulated technical debt that is now becoming more visible and exploitable.",
       "date": "2026-05-02T08:30:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bbc7e560-b851-4cce-9ae3-a826e182a12b",
@@ -142,7 +164,7 @@
       "summary": "SOCRadar researchers identified a large-scale Chinese cybercrime operation that utilized the OpenClaw and Paperclip systems to facilitate over 45,000 attacks and plant more than 5,300 backdoors globally.",
       "date": "2026-05-01T19:38:50.000Z",
       "link": "https://hackread.com/45k-attacks-53k-backdoor-china-cybercrime-operation/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "55635c32-ae26-4f12-9ed6-d10ed057ffa0",
@@ -241,7 +263,7 @@
       "summary": "Threat actors identified as Cordial Spider and Snarky Spider are executing rapid, high-impact SaaS extortion attacks using vishing and SSO exploitation. These campaigns are noted for their speed, high data-theft volume, and ability to operate with minimal forensic traces.",
       "date": "2026-05-01T14:26:00.000Z",
       "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a7c8fc85-8a47-4d66-bca2-996ab5add857",
@@ -648,7 +670,7 @@
       "summary": "A critical Linux vulnerability dubbed 'Copy Fail' (CVE-2026-31431) allows local, unprivileged users to manipulate page cache files, potentially leading to privilege escalation to root. The flaw carries a CVSS score of 7.8 and affects major Linux distributions.",
       "date": "2026-04-30T18:23:30.000Z",
       "link": "https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8dadb9a2-f549-461c-afea-4209aaf8072c",
@@ -692,7 +714,7 @@
       "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
       "date": "2026-04-30T13:40:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
@@ -5477,28 +5499,6 @@
       "summary": "Microsoft reverted a service update after it caused launch failures for the Microsoft Teams desktop client. The issue was identified as a functional service disruption rather than a security incident.",
       "date": "2026-04-20T09:40:20.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/",
-      "isTopTen": false
-    },
-    {
-      "id": "6c58a319-c573-42ca-9d2a-6cf502f2a33a",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft releases emergency updates to fix Windows Server issues",
-      "summary": "Microsoft has issued emergency out-of-band updates to address technical issues triggered by the April 2026 security patch for Windows Server systems.",
-      "date": "2026-04-20T08:30:56.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-server-issues/",
-      "isTopTen": false
-    },
-    {
-      "id": "8ac99a1e-aba7-4ad9-af78-335784049370",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI Model Claude Opus turns bugs into exploits for just $2,283",
-      "summary": "Researchers demonstrated that the AI model Claude Opus can successfully generate functional Chrome exploits for a low cost, highlighting emerging risks in AI-assisted vulnerability weaponization.",
-      "date": "2026-04-20T08:24:01.000Z",
-      "link": "https://securityaffairs.com/191018/ai/ai-model-claude-opus-turns-bugs-into-exploits-for-just-2283.html",
       "isTopTen": false
     }
   ]
