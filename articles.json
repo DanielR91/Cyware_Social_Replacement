@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-03T13:22:24.850Z",
+  "lastUpdated": "2026-05-03T15:55:00.738Z",
   "articles": [
+    {
+      "id": "129d826a-a5a6-4e48-8d5b-8d8863a40144",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a flaw in WebPros cPanel to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added a high-severity vulnerability in WebPros cPanel to its Known Exploited Vulnerabilities catalog, signaling active exploitation in the wild. Organizations using cPanel are urged to apply necessary security updates to mitigate potential risks.",
+      "date": "2026-05-03T14:39:51.000Z",
+      "link": "https://securityaffairs.com/191613/hacking/u-s-cisa-adds-a-flaw-in-webpros-cpanel-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3985d834-da9b-4c74-bdf1-5ccf7a51fbac",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+      "summary": "Cybersecurity researchers have identified a widespread fraud campaign exploiting Telegram's Mini Apps platform to facilitate cryptocurrency scams, brand impersonation, and the distribution of Android malware. The campaign leverages the platform's features to deceive users on a large scale.",
+      "date": "2026-05-03T14:11:21.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+      "isTopTen": false
+    },
+    {
+      "id": "e7e0a3a8-9d7e-4de2-b1c3-44565147ecee",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 575 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "This Security Affairs newsletter edition highlights the sentencing of two cybersecurity experts involved in a ransomware case and reports on a recent security breach disclosed by Trellix.",
+      "date": "2026-05-03T13:49:09.000Z",
+      "link": "https://securityaffairs.com/191607/breaking-news/security-affairs-newsletter-round-575-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "fb5db30b-b4cb-47ab-862f-3ee43236c0f3",
       "source": "Security Affairs",
@@ -43,7 +76,7 @@
       "summary": "A critical vulnerability in cPanel, tracked as CVE-2026-41940, is being actively exploited to deploy 'Sorry' ransomware across compromised websites. This flaw poses a significant threat to data integrity and server security for impacted hosts.",
       "date": "2026-05-02T21:54:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7a5cf572-6024-456f-8ca9-c15153b2aad2",
@@ -109,7 +142,7 @@
       "summary": "Artificial intelligence tools are accelerating the discovery of long-standing security vulnerabilities in legacy codebases, necessitating a surge in emergency patching. This trend highlights the risks posed by accumulated technical debt that is now becoming more visible and exploitable.",
       "date": "2026-05-02T08:30:09.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbc7e560-b851-4cce-9ae3-a826e182a12b",
@@ -307,7 +340,7 @@
       "summary": "China-linked threat actor SHADOW-EARTH-053 is conducting a wide-reaching espionage campaign targeting government, defense, and civil society entities across Asia and a NATO member state. The operation, disclosed by Trend Micro, focuses on stealing sensitive information through sophisticated cyber activities.",
       "date": "2026-05-01T14:02:00.000Z",
       "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e3cc4b24-22cb-49bf-80f1-6792d85d72d1",
@@ -428,7 +461,7 @@
       "summary": "A critical vulnerability in cPanel allows unauthorized users to bypass authentication and achieve root-level access, with evidence of active exploitation in the wild.",
       "date": "2026-05-01T11:02:37.000Z",
       "link": "https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f1777bb5-9bf5-48c2-a183-65033721a2cf",
@@ -461,7 +494,7 @@
       "summary": "Attackers are distributing malicious Ruby gems and Go modules through a GitHub account to compromise CI/CD pipelines, enabling credential theft and persistent unauthorized access. This supply chain campaign leverages sleeper packages to maintain a low profile while delivering secondary malicious payloads.",
       "date": "2026-05-01T09:43:00.000Z",
       "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f241051-1938-4609-b9f6-1b3297d9cff9",
@@ -582,7 +615,7 @@
       "summary": "Malicious actors are increasingly targeting software supply chains by injecting malicious code into npm packages and common development tools, including those used for SAP environments. These attacks exploit the trusted relationships within development ecosystems to distribute malware or compromise software build processes.",
       "date": "2026-04-30T23:21:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3c9c5b97-7547-4992-9d88-a90593d85f5c",
@@ -593,7 +626,7 @@
       "summary": "Unit 42 researchers have identified malicious AI-powered browser extensions masquerading as productivity tools that are actively stealing user data, including passwords and email content. These extensions pose a significant threat by intercepting sensitive information through compromised browser permissions.",
       "date": "2026-04-30T22:00:57.000Z",
       "link": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d9e2bb17-9897-4b8f-add6-ad1143267c24",
@@ -659,7 +692,7 @@
       "summary": "The FBI reports that China's reliance on a massive, unregulated 'hacker-for-hire' ecosystem has created a significant and uncontrollable global cyber threat. This shift marks an escalation in how state-sponsored actors leverage private contractors to conduct cyber operations.",
       "date": "2026-04-30T19:30:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/fbi_cyber_boss_chinas_hackerforhire/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d80de744-ff79-4871-a79c-4c4626e72b2f",
@@ -725,7 +758,7 @@
       "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
       "date": "2026-04-30T13:40:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
@@ -747,7 +780,7 @@
       "summary": "Anthropic withheld its powerful Mythos AI model because it successfully identified thousands of long-standing, critical software vulnerabilities, highlighting the extreme risk AI models pose to global cybersecurity infrastructure.",
       "date": "2026-04-30T10:00:00.000Z",
       "link": "https://cyberscoop.com/ai-agent-identity-security-anthropic-mythos/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "317fe8eb-f34e-4d47-b5b0-c339ce470d55",
@@ -5466,39 +5499,6 @@
       "summary": "Researchers identified a critical design vulnerability in the Model Context Protocol that allows for remote code execution, potentially compromising AI supply chains. The flaw enables attackers to gain unauthorized access to systems utilizing vulnerable MCP implementations.",
       "date": "2026-04-20T10:42:00.000Z",
       "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2b96a685-1d9f-48c9-87eb-50143c758dd1",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Third-party AI hack triggers Vercel breach, internal environments accessed",
-      "summary": "Vercel experienced a security breach after a compromised third-party AI tool, Context.ai, allowed attackers to hijack an employee's Google Workspace account. The incident resulted in unauthorized access to limited internal systems and non-sensitive data.",
-      "date": "2026-04-20T10:11:04.000Z",
-      "link": "https://securityaffairs.com/191031/data-breach/third-party-ai-hack-triggers-vercel-breach-internal-environments-accessed.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bae757f9-044b-42ca-a805-38f03bb24b2a",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Fracturing Software Security With Frontier AI Models",
-      "summary": "Frontier AI models are now capable of acting as autonomous security researchers, significantly accelerating both the discovery of zero-day vulnerabilities and the development of N-day patches. This advancement shifts the software security landscape by automating complex tasks previously reserved for human experts.",
-      "date": "2026-04-20T10:00:14.000Z",
-      "link": "https://unit42.paloaltonetworks.com/ai-software-security-risks/",
-      "isTopTen": false
-    },
-    {
-      "id": "0cc9a138-63b2-4f8b-9cd8-5cf9fbd796b1",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Network ‘background noise’ may predict the next big edge-device vulnerability",
-      "summary": "GreyNoise researchers have identified that monitoring routine network 'background noise' can serve as an early-warning signal for upcoming vulnerabilities in edge devices. This approach allows security teams to anticipate and prepare for attacks before they become widespread.",
-      "date": "2026-04-20T10:00:00.000Z",
-      "link": "https://cyberscoop.com/greynoise-traffic-surge-early-warning-system-network-edge-device-vulnerabilities/",
       "isTopTen": false
     }
   ]
