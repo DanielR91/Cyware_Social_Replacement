@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-02T21:50:56.732Z",
+  "lastUpdated": "2026-05-03T03:43:02.636Z",
   "articles": [
+    {
+      "id": "d735e3bf-9d9d-4bc9-a09d-d052b8f9b6b7",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+      "summary": "A critical vulnerability in cPanel, tracked as CVE-2026-41940, is being actively exploited to deploy 'Sorry' ransomware across compromised websites. This flaw poses a significant threat to data integrity and server security for impacted hosts.",
+      "date": "2026-05-02T21:54:00.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
+      "isTopTen": false
+    },
     {
       "id": "7a5cf572-6024-456f-8ca9-c15153b2aad2",
       "source": "HackRead",
@@ -10,7 +21,7 @@
       "summary": "Threat actors are leveraging Google AppSheet and Google Drive to bypass security filters and conduct a massive phishing campaign targeting Facebook Business account credentials. The operation has successfully compromised thousands of user accounts globally.",
       "date": "2026-05-02T18:07:25.000Z",
       "link": "https://hackread.com/google-appsheet-facebook-accountdumpling-scam/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7daf0714-3eaf-4be0-b651-0625df05d2ec",
@@ -43,7 +54,7 @@
       "summary": "Trellix confirmed unauthorized access to a portion of its source code repository, though the company stated there is currently no evidence of malicious use. An investigation is underway with forensic experts and law enforcement.",
       "date": "2026-05-02T12:55:38.000Z",
       "link": "https://securityaffairs.com/191584/data-breach/trellix-discloses-the-breach-of-a-code-repository.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b03a7ed-ec51-429a-8882-48621e919136",
@@ -131,7 +142,7 @@
       "summary": "SOCRadar researchers identified a large-scale Chinese cybercrime operation that utilized the OpenClaw and Paperclip systems to facilitate over 45,000 attacks and plant more than 5,300 backdoors globally.",
       "date": "2026-05-01T19:38:50.000Z",
       "link": "https://hackread.com/45k-attacks-53k-backdoor-china-cybercrime-operation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "55635c32-ae26-4f12-9ed6-d10ed057ffa0",
@@ -384,7 +395,7 @@
       "summary": "A critical vulnerability in cPanel allows unauthorized users to bypass authentication and achieve root-level access, with evidence of active exploitation in the wild.",
       "date": "2026-05-01T11:02:37.000Z",
       "link": "https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f1777bb5-9bf5-48c2-a183-65033721a2cf",
@@ -615,7 +626,7 @@
       "summary": "The FBI reports that China's reliance on a massive, unregulated 'hacker-for-hire' ecosystem has created a significant and uncontrollable global cyber threat. This shift marks an escalation in how state-sponsored actors leverage private contractors to conduct cyber operations.",
       "date": "2026-04-30T19:30:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/fbi_cyber_boss_chinas_hackerforhire/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d80de744-ff79-4871-a79c-4c4626e72b2f",
@@ -637,7 +648,7 @@
       "summary": "A critical Linux vulnerability dubbed 'Copy Fail' (CVE-2026-31431) allows local, unprivileged users to manipulate page cache files, potentially leading to privilege escalation to root. The flaw carries a CVSS score of 7.8 and affects major Linux distributions.",
       "date": "2026-04-30T18:23:30.000Z",
       "link": "https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8dadb9a2-f549-461c-afea-4209aaf8072c",
@@ -681,7 +692,7 @@
       "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
       "date": "2026-04-30T13:40:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
@@ -758,7 +769,7 @@
       "summary": "A long-standing Linux kernel vulnerability dubbed 'Copy Fail' allows attackers to gain full root access through a memory flaw. Users are urged to patch their systems or disable the algif_aead interface to prevent exploitation.",
       "date": "2026-04-30T07:25:33.000Z",
       "link": "https://hackread.com/linux-kernel-vulnerability-copy-fail-full-root-access/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b3b1c36-aa83-4189-9e03-b66669d86a23",
@@ -5488,17 +5499,6 @@
       "summary": "Researchers demonstrated that the AI model Claude Opus can successfully generate functional Chrome exploits for a low cost, highlighting emerging risks in AI-assisted vulnerability weaponization.",
       "date": "2026-04-20T08:24:01.000Z",
       "link": "https://securityaffairs.com/191018/ai/ai-model-claude-opus-turns-bugs-into-exploits-for-just-2283.html",
-      "isTopTen": false
-    },
-    {
-      "id": "41e23f5e-2326-4bb0-b6cd-23f37918c3bd",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meta and PortSwigger drive offensive security further to find what others miss",
-      "summary": "Meta and PortSwigger have partnered to provide security researchers with enhanced tools and educational resources, specifically through the integration of Burp Suite Professional into Meta's bug bounty program. The initiative aims to improve vulnerability discovery by fostering collaboration and skill development within the global security community.",
-      "date": "2026-04-20T08:13:30.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/20/meta-bug-bounty-portswigger-partnership/",
       "isTopTen": false
     }
   ]
