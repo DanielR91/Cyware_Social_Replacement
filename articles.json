@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-03T15:55:00.738Z",
+  "lastUpdated": "2026-05-03T19:08:45.141Z",
   "articles": [
+    {
+      "id": "06024360-5097-4b05-bd14-62652b36f3a1",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+      "summary": "Microsoft Defender is incorrectly identifying legitimate DigiCert root certificates as malicious, causing false-positive detections and the inadvertent removal of valid security files on Windows systems.",
+      "date": "2026-05-03T18:11:25.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "isTopTen": true
+    },
+    {
+      "id": "7b37e2f8-f98b-4de9-be3d-a357b5fb56f7",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Paying Ransom Won’t Help as VECT 2.0 Ransomware Destroys Data Irreversibly",
+      "summary": "VECT 2.0 ransomware features critical flaws that cause irreversible data destruction, ensuring that ransom payments cannot facilitate file recovery. Victims are warned that data loss is permanent regardless of payment.",
+      "date": "2026-05-03T16:07:49.000Z",
+      "link": "https://hackread.com/paying-ransom-vect-2-0-ransomware-destroys-data/",
+      "isTopTen": true
+    },
+    {
+      "id": "f9ba698c-1ef4-4483-b115-34465f51f1e3",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 95",
+      "summary": "This newsletter provides a compilation of significant malware research and security reports, covering topics such as historical software sabotage, malicious VSX extensions, and new attack vectors like CapFix.",
+      "date": "2026-05-03T15:38:40.000Z",
+      "link": "https://securityaffairs.com/191623/malware/security-affairs-malware-newsletter-round-95.html",
+      "isTopTen": false
+    },
     {
       "id": "129d826a-a5a6-4e48-8d5b-8d8863a40144",
       "source": "Security Affairs",
@@ -21,7 +54,7 @@
       "summary": "Cybersecurity researchers have identified a widespread fraud campaign exploiting Telegram's Mini Apps platform to facilitate cryptocurrency scams, brand impersonation, and the distribution of Android malware. The campaign leverages the platform's features to deceive users on a large scale.",
       "date": "2026-05-03T14:11:21.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e7e0a3a8-9d7e-4de2-b1c3-44565147ecee",
@@ -87,7 +120,7 @@
       "summary": "Threat actors are leveraging Google AppSheet and Google Drive to bypass security filters and conduct a massive phishing campaign targeting Facebook Business account credentials. The operation has successfully compromised thousands of user accounts globally.",
       "date": "2026-05-02T18:07:25.000Z",
       "link": "https://hackread.com/google-appsheet-facebook-accountdumpling-scam/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7daf0714-3eaf-4be0-b651-0625df05d2ec",
@@ -131,7 +164,7 @@
       "summary": "Two American cybersecurity professionals were sentenced to prison for leveraging their insider access to assist the ALPHV (BlackCat) ransomware gang in extorting global victims. Their criminal actions involved providing technical support and infrastructure to facilitate cyberattacks for financial gain.",
       "date": "2026-05-02T12:28:23.000Z",
       "link": "https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10c55744-5f7e-4add-a6a2-cadbfa322f38",
@@ -208,7 +241,7 @@
       "summary": "SOCRadar researchers identified a large-scale Chinese cybercrime operation that utilized the OpenClaw and Paperclip systems to facilitate over 45,000 attacks and plant more than 5,300 backdoors globally.",
       "date": "2026-05-01T19:38:50.000Z",
       "link": "https://hackread.com/45k-attacks-53k-backdoor-china-cybercrime-operation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "55635c32-ae26-4f12-9ed6-d10ed057ffa0",
@@ -461,7 +494,7 @@
       "summary": "A critical vulnerability in cPanel allows unauthorized users to bypass authentication and achieve root-level access, with evidence of active exploitation in the wild.",
       "date": "2026-05-01T11:02:37.000Z",
       "link": "https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f1777bb5-9bf5-48c2-a183-65033721a2cf",
@@ -494,7 +527,7 @@
       "summary": "Attackers are distributing malicious Ruby gems and Go modules through a GitHub account to compromise CI/CD pipelines, enabling credential theft and persistent unauthorized access. This supply chain campaign leverages sleeper packages to maintain a low profile while delivering secondary malicious payloads.",
       "date": "2026-05-01T09:43:00.000Z",
       "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f241051-1938-4609-b9f6-1b3297d9cff9",
@@ -615,7 +648,7 @@
       "summary": "Malicious actors are increasingly targeting software supply chains by injecting malicious code into npm packages and common development tools, including those used for SAP environments. These attacks exploit the trusted relationships within development ecosystems to distribute malware or compromise software build processes.",
       "date": "2026-04-30T23:21:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3c9c5b97-7547-4992-9d88-a90593d85f5c",
@@ -758,7 +791,7 @@
       "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
       "date": "2026-04-30T13:40:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
@@ -5466,39 +5499,6 @@
       "summary": "AI initiatives frequently fail after the demonstration phase because the tools struggle to scale and integrate into complex real-world operational environments. The transition from proof-of-concept to production is often hindered by unforeseen operational gaps rather than technical deficiencies.",
       "date": "2026-04-20T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
-      "isTopTen": false
-    },
-    {
-      "id": "83c19452-3252-4cc8-9bba-ab7d868784f3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI platform ATHR makes voice phishing a one-person job",
-      "summary": "The ATHR AI platform is enabling cybercriminals to automate large-scale voice-phishing campaigns by integrating spoofing tools and AI voice agents for a low entry cost. This development highlights the increasing accessibility of advanced technology in streamlining criminal operations.",
-      "date": "2026-04-20T11:08:38.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/20/athr-voice-phishing-ai-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "dea28eb4-6c2a-4fbf-a024-91b8d6b33acd",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "52M-Download protobuf.js Library Hit by RCE in Schema Handling",
-      "summary": "The widely used protobuf.js library has been found to contain a critical remote code execution (RCE) vulnerability stemming from improper schema handling. Developers are advised to update their dependencies to prevent potential malicious code execution.",
-      "date": "2026-04-20T10:42:15.000Z",
-      "link": "https://hackread.com/52m-download-protobuf-js-library-rce-schema-handle/",
-      "isTopTen": false
-    },
-    {
-      "id": "ffb11519-7374-4846-8017-3376e7387254",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
-      "summary": "Researchers identified a critical design vulnerability in the Model Context Protocol that allows for remote code execution, potentially compromising AI supply chains. The flaw enables attackers to gain unauthorized access to systems utilizing vulnerable MCP implementations.",
-      "date": "2026-04-20T10:42:00.000Z",
-      "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
       "isTopTen": false
     }
   ]
