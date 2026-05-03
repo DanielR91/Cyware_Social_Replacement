@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-03T08:08:42.229Z",
+  "lastUpdated": "2026-05-03T10:11:10.727Z",
   "articles": [
+    {
+      "id": "fb5db30b-b4cb-47ab-862f-3ee43236c0f3",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI",
+      "summary": "Google has updated its Vulnerability Reward Programs for Android and Chrome, increasing top-tier Android bounties while lowering Chrome payouts to prioritize high-impact, AI-resistant vulnerabilities. This strategic shift reflects the evolving security landscape driven by artificial intelligence.",
+      "date": "2026-05-03T08:25:35.000Z",
+      "link": "https://securityaffairs.com/191600/security/google-revamps-bug-bounty-programs-android-rewards-rise-chrome-payouts-drop-in-the-age-of-ai.html",
+      "isTopTen": false
+    },
     {
       "id": "7fd87f22-09b8-4103-8ef3-83394f47fd15",
       "source": "Help Net Security",
@@ -32,7 +43,7 @@
       "summary": "A critical vulnerability in cPanel, tracked as CVE-2026-41940, is being actively exploited to deploy 'Sorry' ransomware across compromised websites. This flaw poses a significant threat to data integrity and server security for impacted hosts.",
       "date": "2026-05-02T21:54:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7a5cf572-6024-456f-8ca9-c15153b2aad2",
@@ -417,7 +428,7 @@
       "summary": "A critical vulnerability in cPanel allows unauthorized users to bypass authentication and achieve root-level access, with evidence of active exploitation in the wild.",
       "date": "2026-05-01T11:02:37.000Z",
       "link": "https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f1777bb5-9bf5-48c2-a183-65033721a2cf",
@@ -450,7 +461,7 @@
       "summary": "Attackers are distributing malicious Ruby gems and Go modules through a GitHub account to compromise CI/CD pipelines, enabling credential theft and persistent unauthorized access. This supply chain campaign leverages sleeper packages to maintain a low profile while delivering secondary malicious payloads.",
       "date": "2026-05-01T09:43:00.000Z",
       "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f241051-1938-4609-b9f6-1b3297d9cff9",
@@ -571,7 +582,7 @@
       "summary": "Malicious actors are increasingly targeting software supply chains by injecting malicious code into npm packages and common development tools, including those used for SAP environments. These attacks exploit the trusted relationships within development ecosystems to distribute malware or compromise software build processes.",
       "date": "2026-04-30T23:21:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3c9c5b97-7547-4992-9d88-a90593d85f5c",
@@ -582,7 +593,7 @@
       "summary": "Unit 42 researchers have identified malicious AI-powered browser extensions masquerading as productivity tools that are actively stealing user data, including passwords and email content. These extensions pose a significant threat by intercepting sensitive information through compromised browser permissions.",
       "date": "2026-04-30T22:00:57.000Z",
       "link": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9e2bb17-9897-4b8f-add6-ad1143267c24",
@@ -648,7 +659,7 @@
       "summary": "The FBI reports that China's reliance on a massive, unregulated 'hacker-for-hire' ecosystem has created a significant and uncontrollable global cyber threat. This shift marks an escalation in how state-sponsored actors leverage private contractors to conduct cyber operations.",
       "date": "2026-04-30T19:30:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/fbi_cyber_boss_chinas_hackerforhire/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d80de744-ff79-4871-a79c-4c4626e72b2f",
@@ -670,7 +681,7 @@
       "summary": "A critical Linux vulnerability dubbed 'Copy Fail' (CVE-2026-31431) allows local, unprivileged users to manipulate page cache files, potentially leading to privilege escalation to root. The flaw carries a CVSS score of 7.8 and affects major Linux distributions.",
       "date": "2026-04-30T18:23:30.000Z",
       "link": "https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8dadb9a2-f549-461c-afea-4209aaf8072c",
@@ -714,7 +725,7 @@
       "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
       "date": "2026-04-30T13:40:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
@@ -5488,17 +5499,6 @@
       "summary": "GreyNoise researchers have identified that monitoring routine network 'background noise' can serve as an early-warning signal for upcoming vulnerabilities in edge devices. This approach allows security teams to anticipate and prepare for attacks before they become widespread.",
       "date": "2026-04-20T10:00:00.000Z",
       "link": "https://cyberscoop.com/greynoise-traffic-surge-early-warning-system-network-edge-device-vulnerabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "e72945f7-243b-4c30-bcfb-5eb9fbf321d4",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Microsoft pulls service update causing Teams launch failures",
-      "summary": "Microsoft reverted a service update after it caused launch failures for the Microsoft Teams desktop client. The issue was identified as a functional service disruption rather than a security incident.",
-      "date": "2026-04-20T09:40:20.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/",
       "isTopTen": false
     }
   ]
