@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-05-04T17:00:24.707Z",
+  "lastUpdated": "2026-05-04T19:54:56.047Z",
   "articles": [
+    {
+      "id": "31a28147-2f35-4e87-bc0a-f80b2e0d5993",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
+      "summary": "An active phishing campaign named VENOMOUS#HELPER has compromised over 80 U.S.-based organizations by leveraging legitimate SimpleHelp and ScreenConnect RMM tools for persistent remote access. The campaign has been ongoing since at least April 2025 and utilizes these tools to maintain unauthorized control over target environments.",
+      "date": "2026-05-04T18:06:00.000Z",
+      "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4b9435a6-e389-4413-894d-eb17e60c88fa",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Educational company Infrastructure reports cyber incident",
+      "summary": "Educational company Infrastructure confirmed a data breach involving the unauthorized access of user information, including names, email addresses, student IDs, and internal messages. The incident highlights a significant exposure of sensitive academic records.",
+      "date": "2026-05-04T17:19:00.000Z",
+      "link": "https://therecord.media/infrastructure-education-company-canvas-incident",
+      "isTopTen": false
+    },
+    {
+      "id": "74ca4c47-cd56-4ea1-8fa6-42852bceee6f",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Backdoored PyTorch Lightning package drops credential stealer",
+      "summary": "A malicious version of the PyTorch Lightning package was discovered on PyPI, designed to steal credentials from browsers, local environment files, and cloud service configurations. The supply chain attack poses a significant risk to developers who inadvertently download the compromised library.",
+      "date": "2026-05-04T17:15:27.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+      "isTopTen": false
+    },
+    {
+      "id": "b66ad342-4cc2-4dd9-a9f5-3460c136cc98",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Forbes preliminarily agrees to pay $10 million to settle California wiretapping lawsuit",
+      "summary": "Forbes has reached a preliminary $10 million settlement regarding a California wiretapping lawsuit concerning the unauthorized use of website trackers. As part of the agreement, the company will enhance user transparency and provide California residents with more control over their data sharing practices.",
+      "date": "2026-05-04T16:49:00.000Z",
+      "link": "https://therecord.media/forbes-agrees-10-million-settlement-privacy-class-action",
+      "isTopTen": false
+    },
+    {
+      "id": "ed2b5ede-2629-462e-8542-abf8a87c0355",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+      "summary": "Progress Software has issued patches for two security vulnerabilities in its MOVEit Automation platform, including a critical flaw that allows attackers to bypass authentication. Organizations using the managed file transfer solution are encouraged to update immediately to prevent potential unauthorized access.",
+      "date": "2026-05-04T16:34:00.000Z",
+      "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+      "isTopTen": false
+    },
     {
       "id": "c879445a-e4b6-4cc4-90af-9301883f2db6",
       "source": "BleepingComputer",
@@ -5444,61 +5499,6 @@
       "summary": "Panasonic has developed QR codes locked to specific devices to streamline and secure the process of facial biometric data capture. This innovation aims to enhance identity verification efficiency while reducing risks associated with unauthorized code duplication.",
       "date": "2026-04-21T07:37:42.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/panasonic_locked_qr_codes/",
-      "isTopTen": false
-    },
-    {
-      "id": "d50e42d3-81fd-46f5-b011-b0de2690d5bb",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
-      "summary": "CISA has added eight actively exploited vulnerabilities, including three in Cisco Catalyst SD-WAN Manager and one in PaperCut, to its Known Exploited Vulnerabilities catalog. Federal agencies are required to remediate these flaws by established deadlines in April and May 2026.",
-      "date": "2026-04-21T06:23:00.000Z",
-      "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b0c91bf8-bba0-432b-a7d9-c124a07feda8",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Iran claims US used backdoors to knock out networking equipment during war",
-      "summary": "Iran has alleged that the United States utilized intentional backdoors to disable its networking infrastructure during military conflicts. This claim highlights ongoing geopolitical tensions centered around potential state-sponsored cyber warfare capabilities.",
-      "date": "2026-04-21T06:21:36.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/iran_claims_us_used_backdoors/",
-      "isTopTen": false
-    },
-    {
-      "id": "4fbee595-5bd7-450d-b694-8a709da15edb",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Researchers build an encrypted routing layer for private AI inference",
-      "summary": "Researchers have developed an encrypted routing layer using Secure Multi-Party Computation (MPC) to enable AI model inference while keeping input data private. This technique allows distributed servers to compute results without exposing sensitive raw information.",
-      "date": "2026-04-21T04:30:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/21/securerouter-encrypted-ai-inference/",
-      "isTopTen": false
-    },
-    {
-      "id": "8f3264e8-7102-442e-90d8-1872d59adfcf",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cybersecurity jobs available right now: April 21, 2026",
-      "summary": "This post provides a curated list of active cybersecurity employment opportunities, highlighting a specific role for an Application Security Engineer in the Philippines.",
-      "date": "2026-04-21T04:00:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/21/cybersecurity-jobs-available-right-now-april-21-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "842e776b-b71c-430d-b750-d2d04aa1852d",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Vibe coding upstart Lovable denies data leak, cites 'intentional behavior,' then throws HackerOne under the bus",
-      "summary": "AI development platform Lovable denied a data breach following user reports of exposed credentials, attributing the issue to intentional user behavior while shifting blame to the HackerOne platform. The incident highlights communication friction between vendors and security researchers regarding vulnerability disclosure processes.",
-      "date": "2026-04-20T23:26:12.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/20/lovable_denies_data_leak/",
       "isTopTen": false
     }
   ]
