@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-04T22:09:44.013Z",
+  "lastUpdated": "2026-05-05T03:27:59.522Z",
   "articles": [
+    {
+      "id": "3ccd0b51-1c6b-4f69-a751-b048ba48c4b6",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Singapore boffins get diverse SIEMs singing in harmony with agentic rule translation",
+      "summary": "Researchers in Singapore have developed an agentic system that automates the translation of security rules across diverse SIEM platforms. This advancement improves interoperability and efficiency in security operations by bridging compatibility gaps between different security monitoring tools.",
+      "date": "2026-05-05T02:12:16.000Z",
+      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/arulecon_siem_rule_conversion/",
+      "isTopTen": false
+    },
+    {
+      "id": "a2721b36-03b6-45bf-b109-42e56769b00c",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Weaver E-cology critical bug exploited in attacks since March",
+      "summary": "Hackers have been actively exploiting a critical remote code execution vulnerability, tracked as CVE-2026-22679, in Weaver E-cology office automation software since mid-March to execute unauthorized commands. The campaign primarily focuses on reconnaissance activities within compromised systems.",
+      "date": "2026-05-04T22:12:57.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+      "isTopTen": true
+    },
     {
       "id": "0fa902da-8d47-4ec3-a5ae-9be0a0a88ac6",
       "source": "CyberScoop",
@@ -54,7 +76,7 @@
       "summary": "A critical cPanel vulnerability, CVE-2026-41940, is being exploited by threat actors to target government, military, and MSP networks globally, including in the U.S., Canada, and Southeast Asia.",
       "date": "2026-05-04T19:10:42.000Z",
       "link": "https://securityaffairs.com/191666/breaking-news/hackers-target-governments-and-msps-via-critical-cpanel-flaw-cve-2026-41940.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "31a28147-2f35-4e87-bc0a-f80b2e0d5993",
@@ -65,7 +87,7 @@
       "summary": "An active phishing campaign named VENOMOUS#HELPER has compromised over 80 U.S.-based organizations by leveraging legitimate SimpleHelp and ScreenConnect RMM tools for persistent remote access. The campaign has been ongoing since at least April 2025 and utilizes these tools to maintain unauthorized control over target environments.",
       "date": "2026-05-04T18:06:00.000Z",
       "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4b9435a6-e389-4413-894d-eb17e60c88fa",
@@ -241,7 +263,7 @@
       "summary": "CISA has confirmed active exploitation of the 'Copy Fail' Linux vulnerability shortly after security researchers released a proof-of-concept exploit. The flaw allows threat actors to gain root-level access to affected systems.",
       "date": "2026-05-04T11:28:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0450c03f-2176-4e5c-b557-032a77b7557e",
@@ -362,7 +384,7 @@
       "summary": "Bluekit is an emerging phishing-as-a-service platform that utilizes AI, automated domain registration, and over 40 customizable templates to facilitate large-scale phishing campaigns. Its integration of advanced tools like voice cloning and AI assistants marks a sophisticated evolution in automated credential harvesting threats.",
       "date": "2026-05-04T06:46:14.000Z",
       "link": "https://securityaffairs.com/191646/cyber-crime/bluekit-phishing-kit-enables-automated-phishing-with-40-templates-and-ai-tools.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "131b0ce6-072c-442b-bfbc-b73b1310e3da",
@@ -494,7 +516,7 @@
       "summary": "VECT 2.0 ransomware features critical flaws that cause irreversible data destruction, ensuring that ransom payments cannot facilitate file recovery. Victims are warned that data loss is permanent regardless of payment.",
       "date": "2026-05-03T16:07:49.000Z",
       "link": "https://hackread.com/paying-ransom-vect-2-0-ransomware-destroys-data/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f9ba698c-1ef4-4483-b115-34465f51f1e3",
@@ -637,7 +659,7 @@
       "summary": "Two American cybersecurity professionals were sentenced to prison for leveraging their insider access to assist the ALPHV (BlackCat) ransomware gang in extorting global victims. Their criminal actions involved providing technical support and infrastructure to facilitate cyberattacks for financial gain.",
       "date": "2026-05-02T12:28:23.000Z",
       "link": "https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10c55744-5f7e-4add-a6a2-cadbfa322f38",
@@ -725,7 +747,7 @@
       "summary": "A Vietnamese-linked threat actor group, dubbed AccountDumpling, is utilizing Google AppSheet as a relay to phish and hijack approximately 30,000 Facebook accounts for resale on an illicit marketplace.",
       "date": "2026-05-01T18:09:00.000Z",
       "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1ca198ba-7f54-4d65-9686-efc80d2b5472",
@@ -5477,28 +5499,6 @@
       "summary": "A former cybersecurity professional, Angelo Martino, has pleaded guilty to participating in BlackCat ransomware attacks against U.S. companies in 2023. The case highlights an insider threat incident where a negotiator exploited their expertise to facilitate criminal activity.",
       "date": "2026-04-21T10:12:21.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "d10e4987-bb3e-48d7-9999-cb6848b56f56",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Mythos can find the vulnerability. It can’t tell you what to do about it.",
-      "summary": "Anthropic's new AI model, Mythos, efficiently identifies security vulnerabilities but lacks the capability to provide remediation guidance. The report highlights that finding flaws remains significantly easier than executing the necessary follow-up fixes.",
-      "date": "2026-04-21T10:00:00.000Z",
-      "link": "https://cyberscoop.com/anthropic-mythos-vulnerability-discovery-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "09da15a1-b371-4ffa-83d3-985201b92282",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Grinex crypto exchange shuts down, blames Western agencies for $13.7M breach",
-      "summary": "The Grinex cryptocurrency exchange has ceased operations following a $13.7 million security breach, while forensic analysis suggests the event may be an exit scam linked to sanctions evasion.",
-      "date": "2026-04-21T09:31:16.000Z",
-      "link": "https://hackread.com/grinex-crypto-exchange-shuts-down-west-agency-breach/",
       "isTopTen": false
     }
   ]
