@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-05T03:27:59.522Z",
+  "lastUpdated": "2026-05-05T08:25:49.701Z",
   "articles": [
+    {
+      "id": "0c7feb0f-fa5c-433b-a893-735617e44545",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Educational tech firm Instructure data breach may have impacted 9,000 schools",
+      "summary": "Educational technology firm Instructure is investigating a cybersecurity incident involving its Canvas learning platform that potentially exposed the personal data of users across 9,000 schools.",
+      "date": "2026-05-05T07:48:31.000Z",
+      "link": "https://securityaffairs.com/191686/cyber-crime/educational-tech-firm-instructure-data-breach-may-have-impacted-9000-schools.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2ab77923-81a8-471b-a6a0-981b09bb4e4f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
+      "summary": "A critical RCE vulnerability (CVE-2026-22679) in Weaver E-cology 10.0 is being actively exploited in the wild via the platform's Debug API. The flaw allows unauthenticated attackers to execute arbitrary code on affected enterprise office automation systems.",
+      "date": "2026-05-05T07:37:00.000Z",
+      "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8f080d00-633c-4b41-b4b7-5ef40df7be07",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+      "summary": "Microsoft identified a widespread credential theft campaign that targeted over 35,000 users across 13,000 organizations using deceptive lures and malicious redirects. The attackers utilized legitimate email services to harvest authentication tokens from victims in 26 countries.",
+      "date": "2026-05-05T06:35:00.000Z",
+      "link": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+      "isTopTen": false
+    },
     {
       "id": "3ccd0b51-1c6b-4f69-a751-b048ba48c4b6",
       "source": "The Register",
@@ -21,7 +54,7 @@
       "summary": "Hackers have been actively exploiting a critical remote code execution vulnerability, tracked as CVE-2026-22679, in Weaver E-cology office automation software since mid-March to execute unauthorized commands. The campaign primarily focuses on reconnaissance activities within compromised systems.",
       "date": "2026-05-04T22:12:57.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0fa902da-8d47-4ec3-a5ae-9be0a0a88ac6",
@@ -43,7 +76,7 @@
       "summary": "Progress Software has patched two critical vulnerabilities in MOVEit Automation, including an authentication bypass and a privilege escalation flaw that could lead to full system compromise.",
       "date": "2026-05-04T21:32:10.000Z",
       "link": "https://securityaffairs.com/191681/security/moveit-automation-flaws-could-enable-full-system-compromise.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b244663a-1042-4ce9-bdb9-7cffdcb97665",
@@ -76,7 +109,7 @@
       "summary": "A critical cPanel vulnerability, CVE-2026-41940, is being exploited by threat actors to target government, military, and MSP networks globally, including in the U.S., Canada, and Southeast Asia.",
       "date": "2026-05-04T19:10:42.000Z",
       "link": "https://securityaffairs.com/191666/breaking-news/hackers-target-governments-and-msps-via-critical-cpanel-flaw-cve-2026-41940.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "31a28147-2f35-4e87-bc0a-f80b2e0d5993",
@@ -87,7 +120,7 @@
       "summary": "An active phishing campaign named VENOMOUS#HELPER has compromised over 80 U.S.-based organizations by leveraging legitimate SimpleHelp and ScreenConnect RMM tools for persistent remote access. The campaign has been ongoing since at least April 2025 and utilizes these tools to maintain unauthorized control over target environments.",
       "date": "2026-05-04T18:06:00.000Z",
       "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b9435a6-e389-4413-894d-eb17e60c88fa",
@@ -109,7 +142,7 @@
       "summary": "A malicious version of the PyTorch Lightning package was discovered on PyPI, designed to steal credentials from browsers, local environment files, and cloud service configurations. The supply chain attack poses a significant risk to developers who inadvertently download the compromised library.",
       "date": "2026-05-04T17:15:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b66ad342-4cc2-4dd9-a9f5-3460c136cc98",
@@ -263,7 +296,7 @@
       "summary": "CISA has confirmed active exploitation of the 'Copy Fail' Linux vulnerability shortly after security researchers released a proof-of-concept exploit. The flaw allows threat actors to gain root-level access to affected systems.",
       "date": "2026-05-04T11:28:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0450c03f-2176-4e5c-b557-032a77b7557e",
@@ -362,7 +395,7 @@
       "summary": "A 15-year-old suspect has been detained for a massive data breach at France Titres that compromised between 12 and 18 million records. The breach, which occurred in mid-April, was confirmed by the agency after data appeared for sale on cybercriminal forums.",
       "date": "2026-05-04T08:31:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/04/france-titres-data-breach-teen-suspect/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "75c3aaac-60c0-43e3-922a-b138a9328fa6",
@@ -494,7 +527,7 @@
       "summary": "The Chinese-linked threat actor Salt Typhoon breached IBM Italy subsidiary Sistemi Informativi in April 2026, compromising critical IT infrastructure for major public and private institutions. This incident underscores significant vulnerabilities in European digital security against state-sponsored espionage operations.",
       "date": "2026-05-03T20:56:00.000Z",
       "link": "https://securityaffairs.com/191638/apt/salt-typhoon-breach-ibm-subsidiary-in-italy-a-warning-for-europes-digital-defenses.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06024360-5097-4b05-bd14-62652b36f3a1",
@@ -593,7 +626,7 @@
       "summary": "CISA has added the actively exploited local privilege escalation vulnerability CVE-2026-31431, affecting multiple Linux distributions, to its Known Exploited Vulnerabilities (KEV) catalog. The flaw carries a CVSS score of 7.8, indicating a significant risk for systems where attackers have local access.",
       "date": "2026-05-03T06:26:00.000Z",
       "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d735e3bf-9d9d-4bc9-a09d-d052b8f9b6b7",
@@ -604,7 +637,7 @@
       "summary": "A critical vulnerability in cPanel, tracked as CVE-2026-41940, is being actively exploited to deploy 'Sorry' ransomware across compromised websites. This flaw poses a significant threat to data integrity and server security for impacted hosts.",
       "date": "2026-05-02T21:54:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7a5cf572-6024-456f-8ca9-c15153b2aad2",
@@ -5466,39 +5499,6 @@
       "summary": "The Metropolitan Police Service is testing new surveillance technology aimed at identifying and apprehending shoplifters across London. The initiative reflects a growing integration of AI-driven monitoring tools into urban law enforcement strategies.",
       "date": "2026-04-21T10:52:04.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/21/met_police_trials_tech_platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "db1d1104-8655-4298-be19-8f0bc3dce763",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "The US NSA is using Anthropic’s Claude Mythos despite supply chain risk",
-      "summary": "The U.S. National Security Agency has reportedly adopted Anthropic’s Claude Mythos model for operations, prompting scrutiny regarding supply chain security and the balance between AI utility and risk. This development highlights ongoing tensions within the Department of Defense over the integration of private AI technologies in sensitive environments.",
-      "date": "2026-04-21T10:26:58.000Z",
-      "link": "https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9d23314a-a238-47a2-8ebb-7489dbe43ddc",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
-      "summary": "Google patched a vulnerability in its Antigravity IDE that allowed attackers to achieve remote code execution by combining file-creation capabilities with insufficient input sanitization in the file-searching tool. This flaw enabled attackers to bypass security restrictions through malicious prompt injection.",
-      "date": "2026-04-21T10:22:00.000Z",
-      "link": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8a4a98c8-cc3d-4d02-ae2f-43811cab62ec",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
-      "summary": "A former cybersecurity professional, Angelo Martino, has pleaded guilty to participating in BlackCat ransomware attacks against U.S. companies in 2023. The case highlights an insider threat incident where a negotiator exploited their expertise to facilitate criminal activity.",
-      "date": "2026-04-21T10:12:21.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
       "isTopTen": false
     }
   ]
