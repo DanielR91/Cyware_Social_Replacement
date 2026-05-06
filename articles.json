@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T16:49:02.959Z",
+  "lastUpdated": "2026-05-06T19:56:41.952Z",
   "articles": [
     {
       "id": "270ec802-13c3-4a34-a57f-322c784b9271",
@@ -10,7 +10,84 @@
       "summary": "The North Korean threat actor APT37 targeted ethnic Koreans in China using a malicious backdoor disguised as legitimate card games on the Android platform. This campaign, identified as 'BirdCall,' highlights the group's ongoing efforts to compromise specific demographic targets through mobile malware.",
       "date": "2026-05-07T00:12:00.000Z",
       "link": "https://therecord.media/north-korean-hackers-target-ethnic-koreans-in-china",
+      "isTopTen": false
+    },
+    {
+      "id": "3b1fecbe-d085-49bd-8f3b-f5803511c267",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "A critical Palo Alto PAN-OS zero-day is being exploited in the wild",
+      "summary": "Palo Alto Networks is investigating a critical zero-day vulnerability in its PAN-OS software that is currently being exploited in the wild. A patch for the flaw has not yet been released by the vendor.",
+      "date": "2026-05-06T19:48:40.000Z",
+      "link": "https://cyberscoop.com/palo-alto-networks-pan-os-firewall-zero-day-vulnerability-exploited/",
       "isTopTen": true
+    },
+    {
+      "id": "57578608-cabf-4046-a52d-23fe8ed5dc25",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
+      "summary": "A critical vulnerability in the Node.js library vm2 enables attackers to bypass sandbox restrictions and execute arbitrary code on the host machine. This flaw poses a significant security risk to any applications relying on the library for isolated code execution.",
+      "date": "2026-05-06T18:38:38.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+      "isTopTen": true
+    },
+    {
+      "id": "0236895d-a404-4124-9f24-002cc17348d0",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Arctic Wolf kicks 250 employees out of the pack to save money for AI",
+      "summary": "Arctic Wolf has laid off approximately 250 employees, representing less than 10% of its workforce, to reallocate resources toward artificial intelligence initiatives. The workforce reduction primarily impacted the sales, product, and marketing departments.",
+      "date": "2026-05-06T18:20:00.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213",
+      "isTopTen": false
+    },
+    {
+      "id": "1bf768a5-1e65-4516-9f84-7221202eb191",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
+      "summary": "Cisco has released patches for a denial-of-service vulnerability affecting its Crosswork Network Controller and Network Services Orchestrator that necessitates a manual device reboot for recovery.",
+      "date": "2026-05-06T18:06:21.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "isTopTen": false
+    },
+    {
+      "id": "bcaca4cd-4c40-4ded-95a6-d7ebc22d3309",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "1 in 8 employees totally cool with selling work credentials",
+      "summary": "A survey indicates that 13% of employees are willing to sell their work credentials or have previously done so, highlighting a significant insider threat risk for organizations. This behavior underscores the challenge of credential abuse and the necessity of robust access management.",
+      "date": "2026-05-06T17:58:00.000Z",
+      "link": "https://www.theregister.com/security/2026/05/06/1-in-8-workers-say-selling-company-logins-is-justifiable/5231104",
+      "isTopTen": false
+    },
+    {
+      "id": "d4af8d2d-6ce7-4fb3-9921-cd75dcd5c687",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "ShinyHunters’ Instructure Canvas LMS and Vimeo Breaches Impact Millions of Users",
+      "summary": "The threat actor ShinyHunters has compromised Instructure and Vimeo, resulting in the exposure of personal records for millions of users through direct and supply chain attack vectors.",
+      "date": "2026-05-06T17:28:28.000Z",
+      "link": "https://hackread.com/shinyhunters-instructure-canvas-lms-vimeo-data-breach/",
+      "isTopTen": true
+    },
+    {
+      "id": "f741a3ab-9a1b-4af5-8191-f9cbc24d4147",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "New CISA initiative aims for critical infrastructure to operate offline during cyberattacks",
+      "summary": "CISA has launched the 'CI Fortify' initiative to help critical infrastructure entities maintain operational continuity by disconnecting from networks and third-party dependencies during cyberattacks. This strategy emphasizes resilient recovery and offline functionality to mitigate risks from severe connectivity disruptions.",
+      "date": "2026-05-06T17:26:00.000Z",
+      "link": "https://therecord.media/cisa-initiative-aims-for-critical-infrastructure-to-operate-during-cyberattacks",
+      "isTopTen": false
     },
     {
       "id": "8aebeaed-c16a-47f6-ba0b-e76babbe7d35",
@@ -120,7 +197,7 @@
       "summary": "Attackers compromised the official Daemon Tools website to distribute malicious installers, marking a significant supply-chain attack. Security researchers at Kaspersky identified that legitimate software downloads had been tampered with to facilitate the campaign.",
       "date": "2026-05-06T12:45:00.000Z",
       "link": "https://therecord.media/hackers-compromise-daemon-tools-global-supply-chain-attack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9840059-9f00-454c-abff-f16b76a92a9f",
@@ -395,7 +472,7 @@
       "summary": "A hacker has claimed to have stolen 280 million records from over 8,800 educational institutions linked to the technology firm Instructure. The breach poses a significant risk to the personal data of students and staff across a vast network of schools and universities.",
       "date": "2026-05-05T21:20:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "95f5c0a8-49c8-4030-9a37-3b41c95fa4a6",
@@ -450,7 +527,7 @@
       "summary": "The FTC has prohibited data broker Kochava from selling sensitive geolocation data, citing the company's unauthorized collection of information regarding visits to sensitive locations like healthcare clinics and places of worship. This enforcement action addresses the practice of selling user data without consent, categorizing it as an unfair and deceptive trade practice.",
       "date": "2026-05-05T18:02:00.000Z",
       "link": "https://therecord.media/ftc-bans-kochava-location-data-sales",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f93e3f39-1750-40b0-9910-d6332a0f3387",
@@ -527,7 +604,7 @@
       "summary": "Cybersecurity researchers discovered that official DAEMON Tools installers hosted on their legitimate website have been compromised to distribute malicious payloads. The attackers successfully used valid digital certificates to sign the malicious software, increasing the risk to end-users.",
       "date": "2026-05-05T16:07:00.000Z",
       "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "46126d43-8dec-4e29-9714-30b50855d266",
@@ -560,7 +637,7 @@
       "summary": "The 'CopyFail' Linux vulnerability has been weaponized by threat actors, who are actively exploiting the publicly available root-level proof-of-concept code.",
       "date": "2026-05-05T15:01:08.000Z",
       "link": "https://www.theregister.com/security/2026/05/05/copyfail-attackers-start-cashing-in-on-linux-flaw/5226930",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f2046b9a-2479-41f2-ada2-3c5eb254e5f2",
@@ -604,7 +681,7 @@
       "summary": "A China-linked APT group identified as UAT-8302 is targeting government entities across South America and Europe using custom-developed malware. The campaign, active since late 2024, demonstrates a sophisticated, cross-regional strategy for long-term intelligence gathering.",
       "date": "2026-05-05T14:19:00.000Z",
       "link": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "40f2e157-64a2-4463-90dc-a09d7f06452f",
@@ -5422,83 +5499,6 @@
       "summary": "A new variant of the GoGra Linux malware leverages the Microsoft Graph API and Outlook to stealthily deliver payloads. The threat is attributed to the Harvester cyberespionage group.",
       "date": "2026-04-23T07:49:13.000Z",
       "link": "https://securityaffairs.com/191153/uncategorized/microsoft-graph-api-misused-by-new-gogra-linux-malware-for-hidden-communication.html",
-      "isTopTen": false
-    },
-    {
-      "id": "529d0a25-008d-4729-8949-266a8c62d3b5",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "A year in, Zoom’s CISO reflects on balancing security and business",
-      "summary": "Zoom CISO Sandra McLeod reflects on her first year, focusing on the transition from reactive incident management to proactive business strategy and leadership.",
-      "date": "2026-04-23T05:30:34.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/23/sandra-mcleod-zoom-ciso-leadership/",
-      "isTopTen": false
-    },
-    {
-      "id": "b83df12b-8895-496c-84ce-231f0f623881",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Scenario: Open-source framework for automated AI app red-teaming",
-      "summary": "LangWatch has introduced Scenario, an open-source framework designed to perform automated, multi-turn red-teaming exercises against AI-driven applications. This tool aims to improve security by simulating complex, adversarial attacks that exceed the capabilities of traditional single-prompt penetration testing.",
-      "date": "2026-04-23T05:00:54.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/23/scenario-open-source-framework-for-automated-ai-app-red-teaming/",
-      "isTopTen": false
-    },
-    {
-      "id": "e226ee97-3046-49bc-bd26-464749428053",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "GDPR works, but only where someone enforces it",
-      "summary": "A study reveals that GDPR's effectiveness in reducing web tracking is primarily limited to jurisdictions where regulators actively enforce the law. The findings underscore the critical role of enforcement in ensuring actual compliance with privacy regulations.",
-      "date": "2026-04-23T04:30:03.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/23/gdpr-enforcement-measurement-study/",
-      "isTopTen": false
-    },
-    {
-      "id": "76f79334-668c-46c9-afb7-61e414dbaad4",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Ransomware, fraud, and lawsuits drive cyber insurance claims to new peaks",
-      "summary": "The 2026 InsurSec Report reveals record-high cyber insurance claims, with ransomware costs reaching an average of $508,000. Remote access vulnerabilities remain the primary entry point, accounting for 87% of ransomware incidents.",
-      "date": "2026-04-23T04:00:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "0667181b-58b7-4acb-9734-31dfec32bf80",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Another npm supply chain worm is tearing through dev environments",
-      "summary": "A self-propagating worm has been discovered in the npm package registry, specifically targeting developer environments to spread malicious code. This supply chain attack poses a significant risk to internal development infrastructure and code integrity.",
-      "date": "2026-04-22T22:34:59.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/another_npm_supply_chain_attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "1ac4cfa9-a20a-4abc-bc45-7d51be7d1cf6",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic's super-scary bug hunting model Mythos is shaping up to be a nothingburger",
-      "summary": "Recent analysis suggests that Mythos, an AI model developed by Anthropic for automated bug hunting, has failed to live up to its hype regarding security research capabilities.",
-      "date": "2026-04-22T21:39:44.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/",
-      "isTopTen": false
-    },
-    {
-      "id": "fb88bd6a-fa95-45f9-8fe8-57cef3a39165",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Apple fixes iOS bug that retained deleted notification data",
-      "summary": "Apple has issued out-of-band security updates for iOS and iPadOS to resolve a vulnerability that caused deleted notification data to persist on user devices. The fix addresses a privacy flaw within the Notification Services component.",
-      "date": "2026-04-22T20:58:58.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
       "isTopTen": false
     }
   ]
