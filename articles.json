@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T03:39:28.013Z",
+  "lastUpdated": "2026-05-06T08:41:27.462Z",
   "articles": [
     {
       "id": "270ec802-13c3-4a34-a57f-322c784b9271",
@@ -10,6 +10,39 @@
       "summary": "The North Korean threat actor APT37 targeted ethnic Koreans in China using a malicious backdoor disguised as legitimate card games on the Android platform. This campaign, identified as 'BirdCall,' highlights the group's ongoing efforts to compromise specific demographic targets through mobile malware.",
       "date": "2026-05-07T00:12:00.000Z",
       "link": "https://therecord.media/north-korean-hackers-target-ethnic-koreans-in-china",
+      "isTopTen": false
+    },
+    {
+      "id": "2de633f4-4cf4-4110-886b-c8295659c89b",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Massive “Low and Slow” DDoS Attack Hits Platform With 2.45 Billion in 5 Hours",
+      "summary": "DataDome researchers identified a massive 'low and slow' DDoS attack that utilized 1.2 million IP addresses to flood a platform with 2.45 billion requests in just five hours. This sophisticated campaign highlights the evolving scale and persistence of stealthy volumetric attack methods.",
+      "date": "2026-05-06T07:59:56.000Z",
+      "link": "https://hackread.com/low-and-slow-ddos-attack-hits-2-45-billion-5-hours/",
+      "isTopTen": false
+    },
+    {
+      "id": "6caa58a4-b18e-484f-b086-356a8cb37836",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Malicious PyTorch Lightning update hits AI supply chain security",
+      "summary": "A malicious update to the PyTorch Lightning library was uploaded to PyPI, leading to credential theft and potential remote compromise of developer systems. The incident highlights significant risks to the AI software supply chain.",
+      "date": "2026-05-06T07:04:22.000Z",
+      "link": "https://securityaffairs.com/191732/ai/malicious-pytorch-lightning-update-hits-ai-supply-chain-security.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f39100fd-631d-4afe-8234-efc9089c09d2",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
+      "summary": "Palo Alto Networks has confirmed active exploitation of a critical buffer overflow vulnerability (CVE-2026-0300) in PAN-OS software, which allows for unauthenticated remote code execution. Organizations are urged to secure the User-ID Authentication Portal to mitigate risks from internet-exposed systems.",
+      "date": "2026-05-06T06:14:00.000Z",
+      "link": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
       "isTopTen": false
     },
     {
@@ -32,7 +65,7 @@
       "summary": "Copy Fail (CVE-2026-31431) is a critical Linux kernel vulnerability that permits unauthorized local privilege escalation to root access. The flaw affects a massive number of systems globally and is considered one of the most severe threats to the Linux ecosystem in recent years.",
       "date": "2026-05-05T23:00:33.000Z",
       "link": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "67b0e7e4-c68a-4e78-9489-6ca737229c9f",
@@ -54,7 +87,7 @@
       "summary": "CISA is launching targeted assessments to help critical infrastructure operators maintain functionality during potential conflicts by disconnecting operational technology from IT systems and third-party vendors for extended periods.",
       "date": "2026-05-05T21:47:34.000Z",
       "link": "https://cyberscoop.com/cisa-ci-fortify-critical-infrastructure-isolation-recovery-guidance-during-conflict/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "90ecec6b-cee0-43a3-821f-242e8e7dffee",
@@ -65,7 +98,7 @@
       "summary": "A hacker has claimed to have stolen 280 million records from over 8,800 educational institutions linked to the technology firm Instructure. The breach poses a significant risk to the personal data of students and staff across a vast network of schools and universities.",
       "date": "2026-05-05T21:20:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "95f5c0a8-49c8-4030-9a37-3b41c95fa4a6",
@@ -131,7 +164,7 @@
       "summary": "A 23-year-old student was arrested in Taiwan for compromising the TETRA communication system of the high-speed rail network to activate emergency braking. The incident highlights vulnerabilities in critical infrastructure communication protocols.",
       "date": "2026-05-05T17:34:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "af1f55d0-6102-49d6-ae54-ab3c2e14d429",
@@ -164,7 +197,7 @@
       "summary": "The Apache Software Foundation released updates for a critical vulnerability (CVE-2026-23918) in its HTTP/2 protocol handling that could allow for denial-of-service attacks or remote code execution. The flaw holds a CVSS score of 8.8 due to its potential for severe system exploitation.",
       "date": "2026-05-05T16:19:00.000Z",
       "link": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "da07bb77-98ac-46a8-b5e9-f81b12034c13",
@@ -252,7 +285,7 @@
       "summary": "A China-linked APT group identified as UAT-8302 is targeting government entities across South America and Europe using custom-developed malware. The campaign, active since late 2024, demonstrates a sophisticated, cross-regional strategy for long-term intelligence gathering.",
       "date": "2026-05-05T14:19:00.000Z",
       "link": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "40f2e157-64a2-4463-90dc-a09d7f06452f",
@@ -263,7 +296,7 @@
       "summary": "Google has released a critical security update for Android to address CVE-2026-0073, a remote code execution vulnerability in the System component that permits attackers to execute code without user interaction.",
       "date": "2026-05-05T14:06:33.000Z",
       "link": "https://securityaffairs.com/191710/breaking-news/critical-android-vulnerability-cve-2026-0073-fixed-by-google.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a4a6e2ff-6be5-43c0-b903-96c865b30571",
@@ -384,7 +417,7 @@
       "summary": "The widespread use of third-party AI and productivity applications has created a massive security gap due to long-lived, unmonitored OAuth tokens. These tokens allow attackers to bypass traditional perimeter defenses and multi-factor authentication to gain unauthorized access.",
       "date": "2026-05-05T11:58:00.000Z",
       "link": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a376fc7c-c06b-4937-be4e-5d5d2bc7ee74",
@@ -505,7 +538,7 @@
       "summary": "Microsoft identified a widespread phishing campaign targeting 35,000 users across 26 countries, using fraudulent code-of-conduct emails to compromise authentication tokens. Attackers successfully leveraged legitimate services to bypass security filters and deceive recipients.",
       "date": "2026-05-05T09:10:53.000Z",
       "link": "https://securityaffairs.com/191695/security/microsoft-warns-of-global-campaign-stealing-auth-tokens-from-35k-users.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "81d40071-2879-4b8a-a36e-ffc9efb22815",
@@ -681,7 +714,7 @@
       "summary": "Progress Software has patched two critical vulnerabilities in MOVEit Automation, including an authentication bypass and a privilege escalation flaw that could lead to full system compromise.",
       "date": "2026-05-04T21:32:10.000Z",
       "link": "https://securityaffairs.com/191681/security/moveit-automation-flaws-could-enable-full-system-compromise.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b244663a-1042-4ce9-bdb9-7cffdcb97665",
@@ -5466,39 +5499,6 @@
       "summary": "Microsoft is introducing an 'Efficiency Mode' for Teams to optimize resource usage and improve application performance on PCs with limited CPU and memory. This update aims to enhance user experience by reducing system strain.",
       "date": "2026-04-22T12:24:38.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
-      "isTopTen": false
-    },
-    {
-      "id": "e0e98074-7813-44c1-a319-e4bc402fc7c6",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google unleashes even more AI security agents to fight the baddies",
-      "summary": "Google has expanded its portfolio of AI-driven security tools designed to assist in the detection and mitigation of cyber threats. These agents are intended to automate defensive tasks and enhance the speed of response against malicious actors.",
-      "date": "2026-04-22T12:01:43.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/google_unleashes_even_more_ai/",
-      "isTopTen": false
-    },
-    {
-      "id": "546e7ca2-91fb-4a73-a7f4-7139da8dbc99",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "France's 'Secure' ID agency probes breach as crooks claim 19M records",
-      "summary": "France's national secure identity agency is investigating a potential data breach after cybercriminals claimed to have stolen records belonging to 19 million citizens.",
-      "date": "2026-04-22T11:30:09.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/frances_secure_id_agency_probes/",
-      "isTopTen": false
-    },
-    {
-      "id": "bc9956fa-d11b-48d4-85ce-22c3636c4bb2",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Progress Software fixes sneaky WAF bypass vulnerability (CVE-2026-21876)",
-      "summary": "Progress Software has patched multiple high-severity vulnerabilities, including CVE-2026-21876, which could allow attackers to bypass web application firewall protections in MOVEit WAF and LoadMaster.",
-      "date": "2026-04-22T11:29:19.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/22/progress-waf-bypass-cve-2026-21876/",
       "isTopTen": false
     }
   ]
