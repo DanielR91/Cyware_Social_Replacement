@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T14:39:38.104Z",
+  "lastUpdated": "2026-05-06T16:49:02.959Z",
   "articles": [
     {
       "id": "270ec802-13c3-4a34-a57f-322c784b9271",
@@ -10,6 +10,39 @@
       "summary": "The North Korean threat actor APT37 targeted ethnic Koreans in China using a malicious backdoor disguised as legitimate card games on the Android platform. This campaign, identified as 'BirdCall,' highlights the group's ongoing efforts to compromise specific demographic targets through mobile malware.",
       "date": "2026-05-07T00:12:00.000Z",
       "link": "https://therecord.media/north-korean-hackers-target-ethnic-koreans-in-china",
+      "isTopTen": true
+    },
+    {
+      "id": "8aebeaed-c16a-47f6-ba0b-e76babbe7d35",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "DAEMON Tools devs confirm breach, release malware-free version",
+      "summary": "Disc Soft Limited confirmed a supply chain attack that resulted in a trojanized version of DAEMON Tools being distributed, prompting the release of a clean update.",
+      "date": "2026-05-06T16:43:30.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "isTopTen": false
+    },
+    {
+      "id": "bf9833b7-9d47-4504-bdc9-d754540eb77a",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Iran cybersnoops still LARPing as ransomware crooks in espionage ops",
+      "summary": "State-sponsored Iranian actors are utilizing ransomware-themed attacks as a deception tactic to hide espionage activities and unauthorized backdoor access. This technique allows the group to mask their true objective of data theft under the guise of common cybercriminal extortion.",
+      "date": "2026-05-06T16:03:12.000Z",
+      "link": "https://www.theregister.com/security/2026/05/06/iran-cyberspies-larping-as-ransomware-crims-in-espionage-ops/5230993",
+      "isTopTen": false
+    },
+    {
+      "id": "513aa000-3312-44bd-8f25-4fa4cc0e2714",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Iranian cyber espionage disguised as a Chaos Ransomware attack",
+      "summary": "The Iran-linked APT group MuddyWater is utilizing ransomware-style tactics, including phishing and data exfiltration, to disguise espionage operations as extortion attempts. This campaign highlights a growing trend of state-sponsored actors masking intelligence gathering behind simulated ransomware activities.",
+      "date": "2026-05-06T14:19:46.000Z",
+      "link": "https://securityaffairs.com/191765/breaking-news/iranian-cyber-espionage-disguised-as-a-chaos-ransomware-attack.html",
       "isTopTen": false
     },
     {
@@ -87,7 +120,7 @@
       "summary": "Attackers compromised the official Daemon Tools website to distribute malicious installers, marking a significant supply-chain attack. Security researchers at Kaspersky identified that legitimate software downloads had been tampered with to facilitate the campaign.",
       "date": "2026-05-06T12:45:00.000Z",
       "link": "https://therecord.media/hackers-compromise-daemon-tools-global-supply-chain-attack",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d9840059-9f00-454c-abff-f16b76a92a9f",
@@ -197,7 +230,7 @@
       "summary": "Palo Alto Networks is investigating an actively exploited buffer overflow vulnerability (CVE-2026-0300) in the User-ID Authentication Portal of its PAN-OS software that allows for root-level remote code execution. The company is currently urging customers to implement temporary mitigations while awaiting a permanent security patch.",
       "date": "2026-05-06T09:51:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/06/palo-alto-firewalls-vulnerability-exploited-cve-2026-0300/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "50d57cde-ee26-4f11-8d82-969c300d605d",
@@ -285,7 +318,7 @@
       "summary": "A malicious update to the PyTorch Lightning library was uploaded to PyPI, leading to credential theft and potential remote compromise of developer systems. The incident highlights significant risks to the AI software supply chain.",
       "date": "2026-05-06T07:04:22.000Z",
       "link": "https://securityaffairs.com/191732/ai/malicious-pytorch-lightning-update-hits-ai-supply-chain-security.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f39100fd-631d-4afe-8234-efc9089c09d2",
@@ -329,7 +362,7 @@
       "summary": "Copy Fail (CVE-2026-31431) is a critical Linux kernel vulnerability that permits unauthorized local privilege escalation to root access. The flaw affects a massive number of systems globally and is considered one of the most severe threats to the Linux ecosystem in recent years.",
       "date": "2026-05-05T23:00:33.000Z",
       "link": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "67b0e7e4-c68a-4e78-9489-6ca737229c9f",
@@ -362,7 +395,7 @@
       "summary": "A hacker has claimed to have stolen 280 million records from over 8,800 educational institutions linked to the technology firm Instructure. The breach poses a significant risk to the personal data of students and staff across a vast network of schools and universities.",
       "date": "2026-05-05T21:20:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "95f5c0a8-49c8-4030-9a37-3b41c95fa4a6",
@@ -417,7 +450,7 @@
       "summary": "The FTC has prohibited data broker Kochava from selling sensitive geolocation data, citing the company's unauthorized collection of information regarding visits to sensitive locations like healthcare clinics and places of worship. This enforcement action addresses the practice of selling user data without consent, categorizing it as an unfair and deceptive trade practice.",
       "date": "2026-05-05T18:02:00.000Z",
       "link": "https://therecord.media/ftc-bans-kochava-location-data-sales",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f93e3f39-1750-40b0-9910-d6332a0f3387",
@@ -428,7 +461,7 @@
       "summary": "A 23-year-old student was arrested in Taiwan for compromising the TETRA communication system of the high-speed rail network to activate emergency braking. The incident highlights vulnerabilities in critical infrastructure communication protocols.",
       "date": "2026-05-05T17:34:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "af1f55d0-6102-49d6-ae54-ab3c2e14d429",
@@ -571,7 +604,7 @@
       "summary": "A China-linked APT group identified as UAT-8302 is targeting government entities across South America and Europe using custom-developed malware. The campaign, active since late 2024, demonstrates a sophisticated, cross-regional strategy for long-term intelligence gathering.",
       "date": "2026-05-05T14:19:00.000Z",
       "link": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "40f2e157-64a2-4463-90dc-a09d7f06452f",
@@ -582,7 +615,7 @@
       "summary": "Google has released a critical security update for Android to address CVE-2026-0073, a remote code execution vulnerability in the System component that permits attackers to execute code without user interaction.",
       "date": "2026-05-05T14:06:33.000Z",
       "link": "https://securityaffairs.com/191710/breaking-news/critical-android-vulnerability-cve-2026-0073-fixed-by-google.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a4a6e2ff-6be5-43c0-b903-96c865b30571",
@@ -5466,39 +5499,6 @@
       "summary": "Apple has issued out-of-band security updates for iOS and iPadOS to resolve a vulnerability that caused deleted notification data to persist on user devices. The fix addresses a privacy flaw within the Notification Services component.",
       "date": "2026-04-22T20:58:58.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
-      "isTopTen": false
-    },
-    {
-      "id": "7525bf94-22ba-4a3b-8adb-278e7f3f05cf",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "North Korean hackers siphon more than $12 million from crypto users in sprawling campaign",
-      "summary": "North Korean threat actors successfully exfiltrated over $12 million in cryptocurrency from individual users during the first quarter of 2026 using malware-based campaigns. The attacks targeted personal devices to bypass traditional security measures.",
-      "date": "2026-04-22T20:48:00.000Z",
-      "link": "https://therecord.media/north-korean-hackers-siphon-12-million-from-crypto-users",
-      "isTopTen": false
-    },
-    {
-      "id": "f444f86b-139d-4996-80fb-e2a9af5cb8dd",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "CISA director pick Sean Plankey withdraws his nomination",
-      "summary": "Sean Plankey has withdrawn his nomination for CISA director after facing a year-long delay in the confirmation process. His departure leaves the agency facing continued leadership instability.",
-      "date": "2026-04-22T20:29:41.000Z",
-      "link": "https://cyberscoop.com/cisa-director-pick-sean-plankey-withdraws-his-nomination/",
-      "isTopTen": false
-    },
-    {
-      "id": "ef1b7d60-dcca-41d4-ac29-4fcc4f395f27",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "House Republicans roll out national privacy bill",
-      "summary": "House Republicans have introduced a federal privacy bill modeled after existing state-level legislation in Virginia and Kentucky. However, the proposal faces potential challenges due to a lack of bipartisan support.",
-      "date": "2026-04-22T20:15:56.000Z",
-      "link": "https://cyberscoop.com/house-republicans-release-national-privacy-legislation/",
       "isTopTen": false
     }
   ]
