@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-05-07T03:38:26.343Z",
+  "lastUpdated": "2026-05-07T08:51:29.789Z",
   "articles": [
+    {
+      "id": "3336099b-e87c-4c07-a237-b13640ac709a",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Kloudfuse 4.0 delivers AI-governed observability and scalable workload isolation",
+      "summary": "Kloudfuse 4.0 has been released to provide AI-governed observability and scalable workload isolation, specifically addressing compliance requirements like the upcoming FIPS 140-2 sunset. The platform ensures data residency by maintaining telemetry within the user's own cloud environment.",
+      "date": "2026-05-07T08:15:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/07/kloudfuse-4-0-observability-platform/",
+      "isTopTen": false
+    },
+    {
+      "id": "d0ed4a1c-fc59-4048-a1e5-694653c5e456",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Red Hat Enterprise Linux adds post-quantum security and AI-driven automation in latest releases",
+      "summary": "Red Hat announced updates for RHEL 10.2 and 9.8, introducing new post-quantum security features and AI-driven automation to improve hybrid cloud operations. The release aims to bolster security frameworks and streamline IT management tasks.",
+      "date": "2026-05-07T08:05:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/07/red-hat-enterprise-linux-10-2-and-9-8/",
+      "isTopTen": false
+    },
+    {
+      "id": "85c644b2-d42c-4ac7-ba74-14f86200209a",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a flaw in Palo Alto Networks PAN-OS to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added CVE-2026-0300, a critical buffer overflow vulnerability in Palo Alto Networks PAN-OS, to its Known Exploited Vulnerabilities catalog. The flaw carries a high CVSS score of 9.3 and is actively being exploited in the wild.",
+      "date": "2026-05-07T06:51:04.000Z",
+      "link": "https://securityaffairs.com/191780/security/u-s-cisa-adds-a-flaw-in-palo-alto-networks-pan-os-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7d5d3a46-b3d7-4a46-a078-4533af038ef0",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Open-source MCP server monitoring for Python apps",
+      "summary": "BlueRock has released MCP Python Hooks, an open-source runtime sensor that allows developers to monitor Model Context Protocol servers by intercepting security-sensitive audit hooks without modifying existing application code.",
+      "date": "2026-05-07T04:30:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/07/bluerock-mcp-python-hooks-mcp-server-monitoring/",
+      "isTopTen": false
+    },
+    {
+      "id": "3d769a62-358c-45eb-821f-23989b801b6c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
+      "summary": "Multiple critical vulnerabilities in the vm2 Node.js library allow attackers to bypass sandbox restrictions and execute arbitrary code on host systems. These flaws pose a significant risk to applications relying on vm2 for secure code execution.",
+      "date": "2026-05-07T04:15:00.000Z",
+      "link": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
+      "isTopTen": false
+    },
+    {
+      "id": "80abe840-44d3-424b-833a-a3f91e1dfeb4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Multi-model AI is creating a routing headache for enterprises",
+      "summary": "Enterprises are struggling to manage complex routing and infrastructure for the increasing number of AI models deployed in production environments. Organizations are scaling traffic management and security controls to support the shift toward widespread AI inference adoption.",
+      "date": "2026-05-07T04:00:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/07/f5-ai-inference-operations-report/",
+      "isTopTen": false
+    },
     {
       "id": "270ec802-13c3-4a34-a57f-322c784b9271",
       "source": "The Record",
@@ -32,7 +98,18 @@
       "summary": "A student successfully disrupted Taiwan's high-speed rail network by spoofing signaling systems, causing emergency stops and highlighting significant vulnerabilities in critical infrastructure. The incident occurred during a major holiday, resulting in the stoppage of multiple trains and service chaos.",
       "date": "2026-05-06T23:05:09.000Z",
       "link": "https://securityaffairs.com/191785/hacking/taiwan-high-speed-rail-emergency-braking-hack-how-a-student-stopped-the-trains-and-exposed-a-major-security-gap.html",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "3d8ea0fb-b360-4e09-95a6-2ee67e70a6f9",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Teams calls are about to get a lot harder to fake",
+      "summary": "Microsoft is introducing a new security feature for Teams that alerts users to potential impersonation attempts from suspicious, first-time external VoIP callers. This update aims to reduce the risk of brand spoofing and social engineering attacks within the platform.",
+      "date": "2026-05-06T22:15:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/07/microsoft-teams-calling-brand-impersonation-protection/",
+      "isTopTen": false
     },
     {
       "id": "d5aeff91-a273-49ca-bf98-e441ee8adc82",
@@ -109,7 +186,7 @@
       "summary": "Google has patched a critical CVSS 10 vulnerability in its Gemini CLI that allowed attackers to execute remote code via prompt injection and privilege escalation. This flaw posed a significant risk of full supply chain compromise.",
       "date": "2026-05-06T20:02:52.000Z",
       "link": "https://hackread.com/google-cvss-10-gemini-cli-vulnerability-github-rce/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3b1fecbe-d085-49bd-8f3b-f5803511c267",
@@ -211,6 +288,17 @@
       "isTopTen": false
     },
     {
+      "id": "8f9be384-8b3e-4ebe-96e8-af69302ecc25",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Sysdig delivers cloud security that runs inside AI coding agents",
+      "summary": "Sysdig has launched a headless cloud security platform designed to integrate directly into AI coding agents, allowing automated systems to perform real-time cyberdefense operations. This shift moves security management from manual UI-based workflows to machine-speed execution via AI operators.",
+      "date": "2026-05-06T15:50:39.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/06/sysdig-headless-cloud-security-platform/",
+      "isTopTen": false
+    },
+    {
       "id": "513aa000-3312-44bd-8f25-4fa4cc0e2714",
       "source": "Security Affairs",
       "tag": "Threat Intel & Info Sharing",
@@ -219,7 +307,7 @@
       "summary": "The Iran-linked APT group MuddyWater is utilizing ransomware-style tactics, including phishing and data exfiltration, to disguise espionage operations as extortion attempts. This campaign highlights a growing trend of state-sponsored actors masking intelligence gathering behind simulated ransomware activities.",
       "date": "2026-05-06T14:19:46.000Z",
       "link": "https://securityaffairs.com/191765/breaking-news/iranian-cyber-espionage-disguised-as-a-chaos-ransomware-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a84d4006-9ebb-4a9d-a9cd-7559630c4a83",
@@ -230,7 +318,7 @@
       "summary": "Ransomware attacks are increasingly successful because attackers prioritize destroying or compromising backup systems before initiating file encryption. This strategy prevents organizations from restoring data, effectively neutralizing traditional recovery methods.",
       "date": "2026-05-06T14:04:14.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "37efad5e-49b3-4bec-87ea-3a810a12bccb",
@@ -263,6 +351,17 @@
       "summary": "Service busy.",
       "date": "2026-05-06T13:02:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "d536ce02-8cf8-4a5e-871b-f60725b9550b",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Attackers compromised Daemon Tools software to deliver backdoors",
+      "summary": "Attackers compromised the official Daemon Tools download site to distribute trojanized installers that deploy .NET-based information-stealing backdoors to user systems. This supply chain attack has been active since April 8, 2026.",
+      "date": "2026-05-06T13:00:46.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/06/daemon-tools-compromised-backdoors-supply-chain-attack/",
       "isTopTen": false
     },
     {
@@ -340,7 +439,7 @@
       "summary": "Enterprise adoption of AI agents is rapidly outpacing the implementation of necessary governance and security controls. This creates a critical risk as organizations struggle to monitor and manage the activities of agents operating within their networks.",
       "date": "2026-05-06T10:57:00.000Z",
       "link": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a9dbed00-0259-476c-83bd-b396317fa6c4",
@@ -406,7 +505,7 @@
       "summary": "Palo Alto Networks is investigating an actively exploited buffer overflow vulnerability (CVE-2026-0300) in the User-ID Authentication Portal of its PAN-OS software that allows for root-level remote code execution. The company is currently urging customers to implement temporary mitigations while awaiting a permanent security patch.",
       "date": "2026-05-06T09:51:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/06/palo-alto-firewalls-vulnerability-exploited-cve-2026-0300/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "50d57cde-ee26-4f11-8d82-969c300d605d",
@@ -494,7 +593,7 @@
       "summary": "A malicious update to the PyTorch Lightning library was uploaded to PyPI, leading to credential theft and potential remote compromise of developer systems. The incident highlights significant risks to the AI software supply chain.",
       "date": "2026-05-06T07:04:22.000Z",
       "link": "https://securityaffairs.com/191732/ai/malicious-pytorch-lightning-update-hits-ai-supply-chain-security.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f39100fd-631d-4afe-8234-efc9089c09d2",
@@ -538,7 +637,7 @@
       "summary": "Copy Fail (CVE-2026-31431) is a critical Linux kernel vulnerability that permits unauthorized local privilege escalation to root access. The flaw affects a massive number of systems globally and is considered one of the most severe threats to the Linux ecosystem in recent years.",
       "date": "2026-05-05T23:00:33.000Z",
       "link": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "67b0e7e4-c68a-4e78-9489-6ca737229c9f",
@@ -571,7 +670,7 @@
       "summary": "A hacker has claimed to have stolen 280 million records from over 8,800 educational institutions linked to the technology firm Instructure. The breach poses a significant risk to the personal data of students and staff across a vast network of schools and universities.",
       "date": "2026-05-05T21:20:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "95f5c0a8-49c8-4030-9a37-3b41c95fa4a6",
@@ -703,7 +802,7 @@
       "summary": "Cybersecurity researchers discovered that official DAEMON Tools installers hosted on their legitimate website have been compromised to distribute malicious payloads. The attackers successfully used valid digital certificates to sign the malicious software, increasing the risk to end-users.",
       "date": "2026-05-05T16:07:00.000Z",
       "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "46126d43-8dec-4e29-9714-30b50855d266",
@@ -5400,105 +5499,6 @@
       "summary": "This webinar discusses the escalating threat of AI-driven, automated exploitation, which significantly reduces the time available for security teams to patch vulnerabilities. It highlights the 'Collapsing Exploit Window' as a major risk factor for organizations.",
       "date": "2026-04-23T12:03:00.000Z",
       "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "isTopTen": false
-    },
-    {
-      "id": "845e9024-f0af-4114-8aa7-bf99fe0321f2",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google brings instant email verification to Android, no OTP needed",
-      "summary": "Google has launched cryptographically verified email credentials for Android via the Credential Manager API, allowing for secure, frictionless authentication without the need for OTPs. This implementation adheres to W3C standards to streamline user onboarding and enhance security.",
-      "date": "2026-04-23T12:01:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/23/android-verified-email-credentials-feature/",
-      "isTopTen": false
-    },
-    {
-      "id": "b687de23-b730-43b6-8bf6-569bf2517835",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
-      "summary": "Anthropic has restricted the release of its Project Glasswing AI model, which is highly capable of identifying software vulnerabilities, opting instead to collaborate with major tech companies to patch security flaws before they can be exploited. This move highlights the dual-use risks of advanced AI in cybersecurity.",
-      "date": "2026-04-23T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a072d78b-8eef-41a2-a63e-2e60a009c416",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "If cyber espionage via HDMI worries you, NCSC built a device to stop it",
-      "summary": "The UK's NCSC has developed a hardware device called SilentGlass to protect HDMI and DisplayPort connections from cyber espionage and potential exploitation. This plug-and-play solution aims to mitigate risks associated with monitors that can process and store sensitive data.",
-      "date": "2026-04-23T11:16:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/23/ncsc-silentglass-cybersecurity-tool-hdmi-displayport/",
-      "isTopTen": false
-    },
-    {
-      "id": "7db0176b-d244-42aa-877e-f2064baaec21",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Apple fixes iPhone bug that let FBI retrieve deleted Signal messages(CVE-2026-28950)",
-      "summary": "Apple released a security patch for CVE-2026-28950, a vulnerability in Notification Services that caused iPhones to retain deleted message notifications, which was previously exploited by the FBI. This fix ensures that messages intended for deletion are properly removed from the device's logging system.",
-      "date": "2026-04-23T11:15:27.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/23/cve-2026-28950-iphone-vulnerability-notifications-signal/",
-      "isTopTen": false
-    },
-    {
-      "id": "c1be951e-dc7a-40ac-b9e4-18ea7f674a58",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
-      "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a Microsoft Defender privilege escalation vulnerability known as BlueHammer that is actively being exploited as a zero-day.",
-      "date": "2026-04-23T11:05:57.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "7b28e44f-3d19-4577-97c6-7a56d8f8083b",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "If malware via monitor cables is a matter of national security, this might be the gadget for you",
-      "summary": "The headline discusses a specialized hardware security tool designed to mitigate risks posed by malicious monitor cables capable of exfiltrating data. It highlights an emerging physical-layer attack vector that can potentially compromise sensitive information.",
-      "date": "2026-04-23T10:45:11.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/ncscs_first_foray_into_commercial/",
-      "isTopTen": false
-    },
-    {
-      "id": "4aa77615-cb0f-4fb8-b84c-b0ed8a0673a0",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hackers Use Hidden Website Instructions in New Attacks on AI Assistants",
-      "summary": "Researchers have identified a novel indirect prompt injection technique that leverages hidden website instructions to compromise AI assistants like GitHub Copilot. This vulnerability allows attackers to manipulate AI outputs by embedding malicious commands within accessible web content.",
-      "date": "2026-04-23T10:20:06.000Z",
-      "link": "https://hackread.com/hackers-hidden-site-instruction-attack-ai-assistants/",
-      "isTopTen": false
-    },
-    {
-      "id": "5f789b57-56bf-4216-b91c-ad2343d7510d",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "RAMP Uncovered: Anatomy of Russia’s Ransomware Marketplace",
-      "summary": "Leaked data from the RAMP dark web forum exposes the sophisticated, highly organized structure of the Russian ransomware marketplace involving thousands of users and vast amounts of operational data. This revelation provides a deep look into the professional roles, including brokers and recruiters, that facilitate global ransomware operations.",
-      "date": "2026-04-23T10:16:59.000Z",
-      "link": "https://securityaffairs.com/191171/cyber-crime/ramp-uncovered-anatomy-of-russias-ransomware-marketplace.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7c2d58b1-0702-4c26-8e62-848289aaf6ab",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AIはクラウドを攻撃できるのか?自律型クラウド攻撃型マルチエージェント システムの構築から得られた教訓",
-      "summary": "Unit 42 explores the capabilities of autonomous multi-agent AI systems in performing cyberattacks against cloud environments, offering insights for proactive security measures.",
-      "date": "2026-04-23T10:00:02.000Z",
-      "link": "https://unit42.paloaltonetworks.com/autonomous-ai-cloud-attacks/",
       "isTopTen": false
     }
   ]
