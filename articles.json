@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T22:12:57.664Z",
+  "lastUpdated": "2026-05-07T03:38:26.343Z",
   "articles": [
     {
       "id": "270ec802-13c3-4a34-a57f-322c784b9271",
@@ -11,6 +11,28 @@
       "date": "2026-05-07T00:12:00.000Z",
       "link": "https://therecord.media/north-korean-hackers-target-ethnic-koreans-in-china",
       "isTopTen": false
+    },
+    {
+      "id": "6486863b-d02f-4627-a07e-18af6a1ea503",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution",
+      "summary": "Palo Alto Networks has released a threat brief regarding CVE-2026-0300, a critical buffer overflow vulnerability in the PAN-OS User-ID Authentication Portal that enables unauthenticated remote code execution.",
+      "date": "2026-05-07T00:00:53.000Z",
+      "link": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/",
+      "isTopTen": false
+    },
+    {
+      "id": "e552e4af-c3e1-4163-9c40-3bf9e74316bf",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Taiwan High-Speed Rail Emergency Braking Hack: How a Student Stopped the Trains and Exposed a Major Security Gap",
+      "summary": "A student successfully disrupted Taiwan's high-speed rail network by spoofing signaling systems, causing emergency stops and highlighting significant vulnerabilities in critical infrastructure. The incident occurred during a major holiday, resulting in the stoppage of multiple trains and service chaos.",
+      "date": "2026-05-06T23:05:09.000Z",
+      "link": "https://securityaffairs.com/191785/hacking/taiwan-high-speed-rail-emergency-braking-hack-how-a-student-stopped-the-trains-and-exposed-a-major-security-gap.html",
+      "isTopTen": true
     },
     {
       "id": "d5aeff91-a273-49ca-bf98-e441ee8adc82",
@@ -87,7 +109,7 @@
       "summary": "Google has patched a critical CVSS 10 vulnerability in its Gemini CLI that allowed attackers to execute remote code via prompt injection and privilege escalation. This flaw posed a significant risk of full supply chain compromise.",
       "date": "2026-05-06T20:02:52.000Z",
       "link": "https://hackread.com/google-cvss-10-gemini-cli-vulnerability-github-rce/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3b1fecbe-d085-49bd-8f3b-f5803511c267",
@@ -197,7 +219,7 @@
       "summary": "The Iran-linked APT group MuddyWater is utilizing ransomware-style tactics, including phishing and data exfiltration, to disguise espionage operations as extortion attempts. This campaign highlights a growing trend of state-sponsored actors masking intelligence gathering behind simulated ransomware activities.",
       "date": "2026-05-06T14:19:46.000Z",
       "link": "https://securityaffairs.com/191765/breaking-news/iranian-cyber-espionage-disguised-as-a-chaos-ransomware-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a84d4006-9ebb-4a9d-a9cd-7559630c4a83",
@@ -208,7 +230,7 @@
       "summary": "Ransomware attacks are increasingly successful because attackers prioritize destroying or compromising backup systems before initiating file encryption. This strategy prevents organizations from restoring data, effectively neutralizing traditional recovery methods.",
       "date": "2026-05-06T14:04:14.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "37efad5e-49b3-4bec-87ea-3a810a12bccb",
@@ -318,7 +340,7 @@
       "summary": "Enterprise adoption of AI agents is rapidly outpacing the implementation of necessary governance and security controls. This creates a critical risk as organizations struggle to monitor and manage the activities of agents operating within their networks.",
       "date": "2026-05-06T10:57:00.000Z",
       "link": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a9dbed00-0259-476c-83bd-b396317fa6c4",
@@ -384,7 +406,7 @@
       "summary": "Palo Alto Networks is investigating an actively exploited buffer overflow vulnerability (CVE-2026-0300) in the User-ID Authentication Portal of its PAN-OS software that allows for root-level remote code execution. The company is currently urging customers to implement temporary mitigations while awaiting a permanent security patch.",
       "date": "2026-05-06T09:51:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/06/palo-alto-firewalls-vulnerability-exploited-cve-2026-0300/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "50d57cde-ee26-4f11-8d82-969c300d605d",
@@ -472,7 +494,7 @@
       "summary": "A malicious update to the PyTorch Lightning library was uploaded to PyPI, leading to credential theft and potential remote compromise of developer systems. The incident highlights significant risks to the AI software supply chain.",
       "date": "2026-05-06T07:04:22.000Z",
       "link": "https://securityaffairs.com/191732/ai/malicious-pytorch-lightning-update-hits-ai-supply-chain-security.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f39100fd-631d-4afe-8234-efc9089c09d2",
@@ -516,7 +538,7 @@
       "summary": "Copy Fail (CVE-2026-31431) is a critical Linux kernel vulnerability that permits unauthorized local privilege escalation to root access. The flaw affects a massive number of systems globally and is considered one of the most severe threats to the Linux ecosystem in recent years.",
       "date": "2026-05-05T23:00:33.000Z",
       "link": "https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "67b0e7e4-c68a-4e78-9489-6ca737229c9f",
@@ -549,7 +571,7 @@
       "summary": "A hacker has claimed to have stolen 280 million records from over 8,800 educational institutions linked to the technology firm Instructure. The breach poses a significant risk to the personal data of students and staff across a vast network of schools and universities.",
       "date": "2026-05-05T21:20:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "95f5c0a8-49c8-4030-9a37-3b41c95fa4a6",
@@ -681,7 +703,7 @@
       "summary": "Cybersecurity researchers discovered that official DAEMON Tools installers hosted on their legitimate website have been compromised to distribute malicious payloads. The attackers successfully used valid digital certificates to sign the malicious software, increasing the risk to end-users.",
       "date": "2026-05-05T16:07:00.000Z",
       "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "46126d43-8dec-4e29-9714-30b50855d266",
@@ -5477,28 +5499,6 @@
       "summary": "Unit 42 explores the capabilities of autonomous multi-agent AI systems in performing cyberattacks against cloud environments, offering insights for proactive security measures.",
       "date": "2026-04-23T10:00:02.000Z",
       "link": "https://unit42.paloaltonetworks.com/autonomous-ai-cloud-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "73222022-926e-4a8e-af5d-865dc0a8e51f",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Sharing isn’t caring if it’s an admin password",
-      "summary": "This headline emphasizes the high-risk nature of sharing administrative credentials, highlighting the danger of exposing privileged access within an organization. It serves as a warning against poor password hygiene and unauthorized privilege escalation.",
-      "date": "2026-04-23T09:28:12.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/sharing_isnt_caring_pwned/",
-      "isTopTen": false
-    },
-    {
-      "id": "bf2ab331-1977-43d9-b9a3-2ec71057c3f7",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "U.S. CISA adds a flaw in Microsoft Defender to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added CVE-2026-33825, a Microsoft Defender vulnerability with a CVSS score of 7.8, to its Known Exploited Vulnerabilities catalog. This action mandates that federal agencies address the security flaw due to evidence of active exploitation.",
-      "date": "2026-04-23T09:23:55.000Z",
-      "link": "https://securityaffairs.com/191164/hacking/u-s-cisa-adds-a-flaw-in-microsoft-defender-to-its-known-exploited-vulnerabilities-catalog.html",
       "isTopTen": false
     }
   ]
