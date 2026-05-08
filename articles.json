@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-08T19:48:27.707Z",
+  "lastUpdated": "2026-05-08T22:04:33.975Z",
   "articles": [
+    {
+      "id": "8d04ce0b-ea22-47cc-980c-e07e6547f208",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake macOS Troubleshooting Sites Used to Steal iCloud Data in ClickFix Scam",
+      "summary": "Cybercriminals are using fake macOS troubleshooting guides on platforms like Medium and Craft to trick users into executing malicious Terminal commands that install information stealers. This 'ClickFix' campaign specifically targets iCloud credentials through the deployment of AMOS and SHub malware.",
+      "date": "2026-05-08T20:51:38.000Z",
+      "link": "https://hackread.com/fake-macos-troubleshooting-sites-steal-icloud-clickfix/",
+      "isTopTen": false
+    },
+    {
+      "id": "ea954d8a-b797-4b0b-866d-da0ccf4b8667",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "RansomHouse says it breached Trellix and exposes internal systems",
+      "summary": "The RansomHouse ransomware group has claimed responsibility for breaching cybersecurity firm Trellix, providing screenshots of internal systems as evidence. This incident highlights a targeted attack against a security provider, potentially exposing sensitive internal data.",
+      "date": "2026-05-08T20:34:26.000Z",
+      "link": "https://securityaffairs.com/191879/cyber-crime/ransomhouse-says-it-breached-trellix-and-exposes-internal-systems.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4e87b824-d4ef-4030-9b77-fff5248dec5f",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "GM to pay over $12 million in California privacy settlement involving driver data",
+      "summary": "General Motors has agreed to a $12 million settlement with California authorities for violating the California Consumer Privacy Act regarding the unauthorized collection and sharing of driver data. This penalty marks the largest fine ever issued under the CCPA.",
+      "date": "2026-05-08T19:35:00.000Z",
+      "link": "https://therecord.media/gm-to-pay-12-million-california-privacy-settlement",
+      "isTopTen": false
+    },
     {
       "id": "ac7b3de0-1ca1-4db8-a6d1-1038c83cce85",
       "source": "The Record",
@@ -32,7 +65,7 @@
       "summary": "A Virginia man was convicted for federal crimes after intentionally deleting 96 government databases and unauthorized access to an individual's email account via password theft.",
       "date": "2026-05-08T18:14:00.000Z",
       "link": "https://therecord.media/virginia-man-found-guilty-deleting-96-gov-databases",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ebb81e06-5ebf-4a02-aa0d-de5745bedaeb",
@@ -175,7 +208,7 @@
       "summary": "The RansomHouse threat group has claimed responsibility for a security breach involving the exfiltration of Trellix source code, providing images as evidence of the intrusion.",
       "date": "2026-05-08T13:23:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c6ca0ccb-8c2e-4272-b726-adce29290b36",
@@ -461,7 +494,7 @@
       "summary": "An academic study of 25 popular mental health apps revealed that all of them contained undisclosed trackers, highlighting a significant lack of privacy and confidentiality protections compared to traditional therapy. Users are often unaware that their sensitive emotional data is being shared with third parties.",
       "date": "2026-05-08T05:30:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0c52b382-d6f3-4647-a471-d4654fab8d48",
@@ -582,7 +615,7 @@
       "summary": "Service busy.",
       "date": "2026-05-07T20:44:22.000Z",
       "link": "https://securityaffairs.com/191831/security/nation-state-actors-exploit-palo-alto-pan-os-zero-day-for-weeks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f5f08c9-0888-4cc8-837a-e5b67a2d5ca3",
@@ -703,7 +736,7 @@
       "summary": "Security researcher Tom Rønning discovered that Microsoft Edge stores saved passwords in computer memory as plaintext, creating a significant risk for credential theft. This vulnerability allows attackers with system access to easily extract sensitive user information.",
       "date": "2026-05-07T15:04:56.000Z",
       "link": "https://hackread.com/edge-browser-stores-saved-plaintext-passwords/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9d90a41f-c1cb-4222-af2e-e69f1ecc3416",
@@ -3035,6 +3068,17 @@
       "summary": "Microsoft is introducing an updated 'Run' dialog in Windows 11 preview builds that features dark mode support and improved performance. This is a functional UI update rather than a security-related change.",
       "date": "2026-05-02T00:18:05.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
+      "isTopTen": false
+    },
+    {
+      "id": "a3bee12d-68aa-4257-b86a-0efc36d0f4d9",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1)",
+      "summary": "Unit 42 provides an updated analysis of the evolving npm supply chain threat landscape, highlighting sophisticated tactics such as wormable malware and persistent CI/CD attacks. The report outlines emerging risks and essential mitigation strategies for securing the software development lifecycle.",
+      "date": "2026-05-02T00:10:33.000Z",
+      "link": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
       "isTopTen": false
     },
     {
@@ -5455,50 +5499,6 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical security flaws found in SimpleHelp, Samsung, and D-Link products. Federal agencies are required to address these vulnerabilities by specified deadlines to mitigate active exploitation risks.",
       "date": "2026-04-25T21:00:26.000Z",
       "link": "https://securityaffairs.com/191281/security/u-s-cisa-adds-simplehelp-samsung-and-d-link-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "08a8c6e7-7718-4c73-bc5d-44c5014137a1",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft rolls out revamped Windows Insider Program",
-      "summary": "Microsoft is introducing a revamped Windows Insider Program designed to address ongoing performance and reliability issues within Windows 11. This update aims to improve the overall quality of the operating system by refining the feedback and testing process.",
-      "date": "2026-04-25T17:07:13.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
-      "isTopTen": false
-    },
-    {
-      "id": "3dbd34ab-a013-4ea4-9bc6-63adccf3a2df",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
-      "summary": "A threat actor identified as UNC6692 is utilizing social engineering via Microsoft Teams to distribute a new malware suite called 'Snow'. This custom malware includes a backdoor, a tunneler, and a browser extension.",
-      "date": "2026-04-25T15:07:44.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "61d17a77-6bc5-4754-9b52-84adf25771f4",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Over 400,000 sites at risk as hackers exploit Breeze Cache plugin flaw (CVE-2026-3844)",
-      "summary": "A critical, unauthenticated file upload vulnerability (CVE-2026-3844) in the Breeze Cache WordPress plugin is currently being exploited in the wild, putting over 400,000 websites at risk. The flaw carries a CVSS score of 9.8, allowing attackers to compromise servers without requiring login credentials.",
-      "date": "2026-04-25T14:22:33.000Z",
-      "link": "https://securityaffairs.com/191267/uncategorized/over-400000-sites-at-risk-as-hackers-exploit-breeze-cache-plugin-flaw-cve-2026-3844.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f210aa51-6828-47b8-b193-54e94c72069b",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Fake CAPTCHA Scam Abuses Verification Clicks to Send Costly International Texts",
-      "summary": "Researchers have uncovered a widespread Click2SMS fraud campaign that uses deceptive CAPTCHA prompts and browser hijacking to trick users into sending unauthorized, premium-rate international text messages. The scheme exploits user interaction to generate fraudulent charges without victim consent.",
-      "date": "2026-04-25T11:10:58.000Z",
-      "link": "https://hackread.com/fake-captcha-pages-exploit-clicks-send-texts/",
       "isTopTen": false
     }
   ]
