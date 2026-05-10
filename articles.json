@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-05-10T10:21:16.402Z",
+  "lastUpdated": "2026-05-10T13:41:46.650Z",
   "articles": [
+    {
+      "id": "34481543-9f8b-4bd2-b91e-a8fc09ae9296",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+      "summary": "A critical out-of-bounds read vulnerability, dubbed Bleeding Llama (CVE-2026-7482), allows unauthenticated remote attackers to leak process memory from over 300,000 exposed Ollama servers.",
+      "date": "2026-05-10T12:41:00.000Z",
+      "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "isTopTen": true
+    },
+    {
+      "id": "67af61a1-1bf0-418d-aacd-3eaa84a768ba",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Official JDownloader site served malware to Windows and Linux users between May 6 and May 7",
+      "summary": "The official JDownloader website was compromised in a supply chain attack, resulting in the distribution of malicious installers containing a Python RAT to Windows and Linux users for a two-day period in May 2026.",
+      "date": "2026-05-10T12:33:57.000Z",
+      "link": "https://securityaffairs.com/191920/malware/official-jdownloader-site-served-malware-to-windows-and-linux-users.html",
+      "isTopTen": true
+    },
+    {
+      "id": "8a155618-26c5-45e6-9f0f-565eb7c0ec29",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 96",
+      "summary": "The Security Affairs Malware Newsletter highlights various cyber threats, including a CloudZ RAT variant stealing OTP messages, a supply-chain attack on PyTorch, and state-sponsored activity from ScarCruft. It serves as a digest of the latest research and technical analysis regarding active malware campaigns.",
+      "date": "2026-05-10T11:49:15.000Z",
+      "link": "https://securityaffairs.com/191911/malware/security-affairs-malware-newsletter-round-96.html",
+      "isTopTen": false
+    },
+    {
+      "id": "75cf456d-5db1-4745-9422-95d380ec0251",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers Hijack JDownloader Site to Deliver Malware Through Installers",
+      "summary": "JDownloader experienced a security breach where hackers compromised official download links to distribute malware to users on May 6-7, 2026.",
+      "date": "2026-05-10T10:27:32.000Z",
+      "link": "https://hackread.com/hackers-hijack-jdownloader-site-malware-installers/",
+      "isTopTen": false
+    },
     {
       "id": "37e97ccf-554d-4d8a-8ad7-26e88488fb39",
       "source": "Security Affairs",
@@ -43,7 +87,7 @@
       "summary": "A malicious Hugging Face repository posing as an OpenAI project successfully reached the trending list, spreading infostealer malware to Windows users. The threat actor utilized impersonation techniques to deceive developers into downloading malicious code.",
       "date": "2026-05-09T14:26:03.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a1d43d4-5d68-4b84-993f-47793f16f68f",
@@ -54,7 +98,7 @@
       "summary": "Researchers have discovered Quasar Linux RAT (QLNX), a stealthy, fileless Linux malware designed to compromise developer and DevOps environments to steal credentials and monitor system activity. It utilizes advanced persistence techniques to maintain unauthorized remote access and exfiltrate sensitive data.",
       "date": "2026-05-09T13:11:08.000Z",
       "link": "https://securityaffairs.com/191898/malware/quasar-linux-rat-qlnx-a-fileless-linux-implant-built-for-stealth-and-persistence.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0e611d7c-cfb0-48e8-ab2b-636134edba63",
@@ -98,7 +142,7 @@
       "summary": "The RansomHouse ransomware group has claimed responsibility for breaching cybersecurity firm Trellix, providing screenshots of internal systems as evidence. This incident highlights a targeted attack against a security provider, potentially exposing sensitive internal data.",
       "date": "2026-05-08T20:34:26.000Z",
       "link": "https://securityaffairs.com/191879/cyber-crime/ransomhouse-says-it-breached-trellix-and-exposes-internal-systems.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4e87b824-d4ef-4030-9b77-fff5248dec5f",
@@ -142,7 +186,7 @@
       "summary": "A Virginia man was convicted for federal crimes after intentionally deleting 96 government databases and unauthorized access to an individual's email account via password theft.",
       "date": "2026-05-08T18:14:00.000Z",
       "link": "https://therecord.media/virginia-man-found-guilty-deleting-96-gov-databases",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ebb81e06-5ebf-4a02-aa0d-de5745bedaeb",
@@ -197,7 +241,7 @@
       "summary": "A cyber incident involving the educational platform Canvas has forced multiple universities to reschedule final exams after students reported seeing unauthorized messages from a cybercriminal group. The breach highlights a significant disruption to academic operations across numerous institutions.",
       "date": "2026-05-08T15:48:00.000Z",
       "link": "https://therecord.media/universities-forced-to-reschedule-exams-canvas-incident",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "db3c8a8a-8a79-4b85-b86a-5d91a5122754",
@@ -219,7 +263,7 @@
       "summary": "The 'Dirty Frag' vulnerability, consisting of two Linux kernel flaws, enables local privilege escalation to root access, with one of the components currently remaining unpatched.",
       "date": "2026-05-08T14:13:04.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/dirty-frag-linux-vulnerability-cve-2026-43284-cve-2026-43500/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2279c51d-37ab-4d53-a2ab-0929413fcfb4",
@@ -285,7 +329,7 @@
       "summary": "The RansomHouse threat group has claimed responsibility for a security breach involving the exfiltration of Trellix source code, providing images as evidence of the intrusion.",
       "date": "2026-05-08T13:23:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c6ca0ccb-8c2e-4272-b726-adce29290b36",
@@ -318,7 +362,7 @@
       "summary": "Meta has reversed its commitment to universal end-to-end encryption for Instagram direct messages, reverting to plaintext storage and granting the company access to user communications. This shift marks a significant departure from their previous privacy-focused roadmap.",
       "date": "2026-05-08T12:42:00.000Z",
       "link": "https://www.theregister.com/security/2026/05/08/meta-u-turns-on-encryption-push-for-instagram-as-dms-go-plaintext/5235705",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "172ddb24-5555-4211-820a-74cdb03775a6",
@@ -505,7 +549,7 @@
       "summary": "A critical Linux zero-day vulnerability dubbed 'Dirty Frag' enables local attackers to escalate privileges to root across most major distributions with a single command.",
       "date": "2026-05-08T07:45:24.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e50aa6e6-0f4d-479a-8b58-d5879315ce0a",
@@ -571,7 +615,7 @@
       "summary": "An academic study of 25 popular mental health apps revealed that all of them contained undisclosed trackers, highlighting a significant lack of privacy and confidentiality protections compared to traditional therapy. Users are often unaware that their sensitive emotional data is being shared with third parties.",
       "date": "2026-05-08T05:30:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0c52b382-d6f3-4647-a471-d4654fab8d48",
@@ -637,7 +681,7 @@
       "summary": "The ShinyHunters extortion group has compromised hundreds of educational Canvas login portals by exploiting a vulnerability in Instructure's systems. The attack resulted in the defacement of these portals across numerous colleges and universities.",
       "date": "2026-05-07T22:36:54.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7ad95361-473a-47ef-897d-1ff54fd26ef2",
@@ -681,7 +725,7 @@
       "summary": "Rapid7 researchers discovered that an Iranian state-sponsored group known as MuddyWater is utilizing Chaos ransomware as a decoy to obscure their targeted intrusion activities. This tactic aims to misdirect incident responders by masking espionage operations as financially motivated ransomware attacks.",
       "date": "2026-05-07T21:30:00.000Z",
       "link": "https://therecord.media/iran-government-hackers-use-chaos-ransomware-as-cover",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5bc64007-c750-4a8e-a9b6-f0e52952ca35",
@@ -5455,50 +5499,6 @@
       "summary": "Threat actors are leveraging fake CAPTCHA prompts and Keitaro traffic distribution systems to trick users into sending unauthorized, premium-rate international SMS messages. This global fraud campaign generates illicit revenue by exploiting mobile billing systems.",
       "date": "2026-04-27T06:33:00.000Z",
       "link": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
-      "isTopTen": false
-    },
-    {
-      "id": "611d1b77-af8d-4faf-a43c-579495580bb2",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google Cloud Next proves what we suspected: Everything is AI now",
-      "summary": "Service busy.",
-      "date": "2026-04-27T00:01:15.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/google_cloud_next_proves_what/",
-      "isTopTen": false
-    },
-    {
-      "id": "f0c1aafd-3104-4a5f-9a4a-b16293e411ac",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft Entra Agent ID Flaw Enabled Tenant Takeover via Privilege Escalation",
-      "summary": "Service busy.",
-      "date": "2026-04-26T19:21:35.000Z",
-      "link": "https://hackread.com/microsoft-entra-agent-id-flaw-tenant-takeover/",
-      "isTopTen": false
-    },
-    {
-      "id": "07b8bc0c-97eb-4a17-b92f-e20515e67a79",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical bug in CrowdStrike LogScale let attackers access files",
-      "summary": "CrowdStrike has patched a critical path traversal vulnerability (CVE-2026-40050) in its self-hosted LogScale product that could allow unauthenticated attackers to read arbitrary files from the server. Security updates have been released to address the flaw.",
-      "date": "2026-04-26T16:07:02.000Z",
-      "link": "https://securityaffairs.com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ae8aa1c3-7968-42ab-9689-5d9a6246513d",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "American utility firm Itron discloses breach of internal IT network",
-      "summary": "American utility company Itron, Inc. has reported a cybersecurity breach involving unauthorized access to its internal IT network via an SEC 8-K filing. The company is currently investigating the incident to determine the scope of the impact.",
-      "date": "2026-04-26T14:22:34.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
       "isTopTen": false
     }
   ]
