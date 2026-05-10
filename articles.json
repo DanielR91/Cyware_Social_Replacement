@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-10T03:46:59.927Z",
+  "lastUpdated": "2026-05-10T08:15:19.406Z",
   "articles": [
+    {
+      "id": "da0de949-f7d0-4026-a6cf-c64b37e19090",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Week in review: cPanel vulnerability actively exploited, DigiCert breach, LinkedIn job scams",
+      "summary": "This week's security news highlights active exploitation of a cPanel vulnerability, a significant data breach at DigiCert, and the prevalence of LinkedIn job scams. Additionally, research reveals that common workplace mobile applications are harvesting extensive user data.",
+      "date": "2026-05-10T08:00:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/10/week-in-review-cpanel-vulnerability-actively-exploited-digicert-breach-linkedin-job-scams/",
+      "isTopTen": true
+    },
     {
       "id": "2fb00c50-aba7-49ee-87c4-edefb94ff3be",
       "source": "BleepingComputer",
@@ -32,7 +43,7 @@
       "summary": "Researchers have discovered Quasar Linux RAT (QLNX), a stealthy, fileless Linux malware designed to compromise developer and DevOps environments to steal credentials and monitor system activity. It utilizes advanced persistence techniques to maintain unauthorized remote access and exfiltrate sensitive data.",
       "date": "2026-05-09T13:11:08.000Z",
       "link": "https://securityaffairs.com/191898/malware/quasar-linux-rat-qlnx-a-fileless-linux-implant-built-for-stealth-and-persistence.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0e611d7c-cfb0-48e8-ab2b-636134edba63",
@@ -120,7 +131,7 @@
       "summary": "A Virginia man was convicted for federal crimes after intentionally deleting 96 government databases and unauthorized access to an individual's email account via password theft.",
       "date": "2026-05-08T18:14:00.000Z",
       "link": "https://therecord.media/virginia-man-found-guilty-deleting-96-gov-databases",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ebb81e06-5ebf-4a02-aa0d-de5745bedaeb",
@@ -373,7 +384,7 @@
       "summary": "Ivanti has patched five high-severity vulnerabilities in its Endpoint Manager Mobile (EPMM) solution, including CVE-2026-6973, which is currently being exploited in targeted zero-day attacks. The flaw allows remote attackers with administrative privileges to execute arbitrary code via improper input validation.",
       "date": "2026-05-08T10:30:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/ivanti-epmm-zero-day-cve-2026-6973/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dae7374e-6542-4e8f-b835-a25553137f5e",
@@ -494,7 +505,7 @@
       "summary": "The Pentagon is operationalizing AI integration across its military, cybersecurity, and command systems to create a unified, autonomous warfare architecture. This transition signifies a major shift in modern military strategy where AI and cyber capabilities are formally embedded into core conventional operations.",
       "date": "2026-05-08T07:31:41.000Z",
       "link": "https://securityaffairs.com/191842/cyber-warfare-2/ai-cyberwarfare-and-autonomous-weapons-inside-americas-new-military-strategy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2a593a59-55ce-4741-a6c6-fc73a45f1dac",
@@ -549,7 +560,7 @@
       "summary": "An academic study of 25 popular mental health apps revealed that all of them contained undisclosed trackers, highlighting a significant lack of privacy and confidentiality protections compared to traditional therapy. Users are often unaware that their sensitive emotional data is being shared with third parties.",
       "date": "2026-05-08T05:30:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0c52b382-d6f3-4647-a471-d4654fab8d48",
@@ -659,7 +670,7 @@
       "summary": "Rapid7 researchers discovered that an Iranian state-sponsored group known as MuddyWater is utilizing Chaos ransomware as a decoy to obscure their targeted intrusion activities. This tactic aims to misdirect incident responders by masking espionage operations as financially motivated ransomware attacks.",
       "date": "2026-05-07T21:30:00.000Z",
       "link": "https://therecord.media/iran-government-hackers-use-chaos-ransomware-as-cover",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5bc64007-c750-4a8e-a9b6-f0e52952ca35",
@@ -714,7 +725,7 @@
       "summary": "CISA has added a vulnerability in Ivanti Endpoint Manager Mobile (CVE-2026-6973), which carries a CVSS score of 7.1, to its Known Exploited Vulnerabilities catalog due to active exploitation. Users are urged to apply the necessary security updates to protect their environments.",
       "date": "2026-05-07T18:03:00.000Z",
       "link": "https://securityaffairs.com/191822/security/u-s-cisa-adds-a-flaw-in-ivanti-endpoint-manager-mobile-epmm-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e806afa3-89ef-4d83-b384-0f90b59027fc",
@@ -5488,17 +5499,6 @@
       "summary": "A China-linked APT group identified as GopherWhisper is targeting Mongolian government institutions using a sophisticated suite of Go-based loaders and backdoors. ESET researchers discovered this campaign, highlighting the group's focus on regional espionage.",
       "date": "2026-04-26T13:07:58.000Z",
       "link": "https://securityaffairs.com/191318/apt/gopherwhisper-new-china-linked-apt-targets-mongolia-with-go-based-malware.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1a261253-fc6c-4a8c-bf46-6a400d27cfe7",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 94",
-      "summary": "This newsletter highlights recent malware threats, including the Morpheus spyware, DarkSword and Coruna exploits targeting iPhones, and the Lotus Wiper targeting energy infrastructure. It provides a curated overview of critical cybersecurity research and emerging malicious activity.",
-      "date": "2026-04-26T11:32:42.000Z",
-      "link": "https://securityaffairs.com/191312/malware/security-affairs-malware-newsletter-round-94.html",
       "isTopTen": false
     }
   ]
