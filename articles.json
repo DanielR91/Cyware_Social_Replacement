@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-10T19:14:49.525Z",
+  "lastUpdated": "2026-05-10T21:55:37.694Z",
   "articles": [
+    {
+      "id": "4975b85c-d03c-4b03-b8ce-f05c32aa3dd9",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Two US Men Jailed for Helping North Korean Hackers Infiltrate US Firms",
+      "summary": "Two US men were sentenced to 18 months in prison for facilitating the infiltration of American companies by North Korean hackers using remote laptop farms. The operation involved assisting illicit workers in bypassing corporate security measures to access sensitive corporate networks.",
+      "date": "2026-05-10T19:54:34.000Z",
+      "link": "https://hackread.com/us-men-sentenced-north-korean-hackers-hack-us-firms/",
+      "isTopTen": false
+    },
     {
       "id": "659f9716-f31e-4f2c-b8c4-cd220f1b19c3",
       "source": "BleepingComputer",
@@ -32,7 +43,7 @@
       "summary": "cPanel has released security updates to patch three vulnerabilities in cPanel & WHM that could potentially allow unauthorized file access, remote code execution, and privilege escalation. No active exploitation of these flaws has been reported to date.",
       "date": "2026-05-10T15:59:36.000Z",
       "link": "https://securityaffairs.com/191931/security/new-cpanel-vulnerabilities-could-allow-file-access-and-remote-code-execution.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "df9132af-135d-4e1b-afff-bd7ca3733edf",
@@ -54,7 +65,7 @@
       "summary": "A critical out-of-bounds read vulnerability, dubbed Bleeding Llama (CVE-2026-7482), allows unauthenticated remote attackers to leak process memory from over 300,000 exposed Ollama servers.",
       "date": "2026-05-10T12:41:00.000Z",
       "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "67af61a1-1bf0-418d-aacd-3eaa84a768ba",
@@ -340,7 +351,7 @@
       "summary": "The ClaudeBleed vulnerability enables unauthorized actors to bypass security controls in the Claude Chrome extension, potentially resulting in the exfiltration of sensitive data from Gmail and Google Drive. This flaw exposes users to significant privacy risks by allowing attackers to circumvent established guardrails.",
       "date": "2026-05-08T13:36:18.000Z",
       "link": "https://hackread.com/claudebleed-vulnerability-hackers-claude-chrome-extension/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "30242c9f-e4fa-4bdb-86e2-308b25153a26",
@@ -406,7 +417,7 @@
       "summary": "Meta has reversed its commitment to universal end-to-end encryption for Instagram direct messages, reverting to plaintext storage and granting the company access to user communications. This shift marks a significant departure from their previous privacy-focused roadmap.",
       "date": "2026-05-08T12:42:00.000Z",
       "link": "https://www.theregister.com/security/2026/05/08/meta-u-turns-on-encryption-push-for-instagram-as-dms-go-plaintext/5235705",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "172ddb24-5555-4211-820a-74cdb03775a6",
@@ -5488,17 +5499,6 @@
       "summary": "The UK Information Commissioner, John Edwards, has temporarily stepped back from his role while an internal workplace investigation is conducted. The investigation's specific details remain undisclosed.",
       "date": "2026-04-27T09:35:08.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/ico_chief_john_edwards_steps/",
-      "isTopTen": false
-    },
-    {
-      "id": "c84b441f-41fc-4999-aa25-a01a83b43938",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Fast16: Pre-Stuxnet malware that targeted precision engineering software",
-      "summary": "SentinelOne has identified Fast16, a sophisticated 2005-era sabotage malware that manipulated precision engineering software and predates the Stuxnet worm. The discovery reveals early state-sponsored cyber operations that utilized Lua-based code to disrupt industrial calculation integrity.",
-      "date": "2026-04-27T08:48:44.000Z",
-      "link": "https://securityaffairs.com/191325/malware/fast16-pre-stuxnet-malware-that-targeted-precision-engineering-software.html",
       "isTopTen": false
     }
   ]
