@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-10T08:15:19.406Z",
+  "lastUpdated": "2026-05-10T10:21:16.402Z",
   "articles": [
+    {
+      "id": "37e97ccf-554d-4d8a-8ad7-26e88488fb39",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 576 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 576th Security Affairs newsletter covers the release of the Quasar Linux RAT, a stealthy fileless implant, alongside details on a recent Braintrust security incident.",
+      "date": "2026-05-10T08:20:42.000Z",
+      "link": "https://securityaffairs.com/191908/breaking-news/security-affairs-newsletter-round-576-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "da0de949-f7d0-4026-a6cf-c64b37e19090",
       "source": "Help Net Security",
@@ -21,7 +32,7 @@
       "summary": "The JDownloader website was compromised to distribute malicious installers for Windows and Linux, which deploy a Python-based remote access trojan (RAT) on victim systems.",
       "date": "2026-05-09T19:27:58.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9b1fd463-143d-4091-8945-6b1922eb5c6b",
@@ -32,7 +43,7 @@
       "summary": "A malicious Hugging Face repository posing as an OpenAI project successfully reached the trending list, spreading infostealer malware to Windows users. The threat actor utilized impersonation techniques to deceive developers into downloading malicious code.",
       "date": "2026-05-09T14:26:03.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0a1d43d4-5d68-4b84-993f-47793f16f68f",
@@ -43,7 +54,7 @@
       "summary": "Researchers have discovered Quasar Linux RAT (QLNX), a stealthy, fileless Linux malware designed to compromise developer and DevOps environments to steal credentials and monitor system activity. It utilizes advanced persistence techniques to maintain unauthorized remote access and exfiltrate sensitive data.",
       "date": "2026-05-09T13:11:08.000Z",
       "link": "https://securityaffairs.com/191898/malware/quasar-linux-rat-qlnx-a-fileless-linux-implant-built-for-stealth-and-persistence.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0e611d7c-cfb0-48e8-ab2b-636134edba63",
@@ -131,7 +142,7 @@
       "summary": "A Virginia man was convicted for federal crimes after intentionally deleting 96 government databases and unauthorized access to an individual's email account via password theft.",
       "date": "2026-05-08T18:14:00.000Z",
       "link": "https://therecord.media/virginia-man-found-guilty-deleting-96-gov-databases",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ebb81e06-5ebf-4a02-aa0d-de5745bedaeb",
@@ -384,7 +395,7 @@
       "summary": "Ivanti has patched five high-severity vulnerabilities in its Endpoint Manager Mobile (EPMM) solution, including CVE-2026-6973, which is currently being exploited in targeted zero-day attacks. The flaw allows remote attackers with administrative privileges to execute arbitrary code via improper input validation.",
       "date": "2026-05-08T10:30:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/ivanti-epmm-zero-day-cve-2026-6973/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dae7374e-6542-4e8f-b835-a25553137f5e",
@@ -560,7 +571,7 @@
       "summary": "An academic study of 25 popular mental health apps revealed that all of them contained undisclosed trackers, highlighting a significant lack of privacy and confidentiality protections compared to traditional therapy. Users are often unaware that their sensitive emotional data is being shared with third parties.",
       "date": "2026-05-08T05:30:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0c52b382-d6f3-4647-a471-d4654fab8d48",
@@ -670,7 +681,7 @@
       "summary": "Rapid7 researchers discovered that an Iranian state-sponsored group known as MuddyWater is utilizing Chaos ransomware as a decoy to obscure their targeted intrusion activities. This tactic aims to misdirect incident responders by masking espionage operations as financially motivated ransomware attacks.",
       "date": "2026-05-07T21:30:00.000Z",
       "link": "https://therecord.media/iran-government-hackers-use-chaos-ransomware-as-cover",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5bc64007-c750-4a8e-a9b6-f0e52952ca35",
@@ -725,7 +736,7 @@
       "summary": "CISA has added a vulnerability in Ivanti Endpoint Manager Mobile (CVE-2026-6973), which carries a CVSS score of 7.1, to its Known Exploited Vulnerabilities catalog due to active exploitation. Users are urged to apply the necessary security updates to protect their environments.",
       "date": "2026-05-07T18:03:00.000Z",
       "link": "https://securityaffairs.com/191822/security/u-s-cisa-adds-a-flaw-in-ivanti-endpoint-manager-mobile-epmm-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e806afa3-89ef-4d83-b384-0f90b59027fc",
@@ -5488,17 +5499,6 @@
       "summary": "American utility company Itron, Inc. has reported a cybersecurity breach involving unauthorized access to its internal IT network via an SEC 8-K filing. The company is currently investigating the incident to determine the scope of the impact.",
       "date": "2026-04-26T14:22:34.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
-      "isTopTen": false
-    },
-    {
-      "id": "eba62af3-6640-4966-8e04-9d584b4afb94",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "GopherWhisper: new China-linked APT targets Mongolia with Go-based malware",
-      "summary": "A China-linked APT group identified as GopherWhisper is targeting Mongolian government institutions using a sophisticated suite of Go-based loaders and backdoors. ESET researchers discovered this campaign, highlighting the group's focus on regional espionage.",
-      "date": "2026-04-26T13:07:58.000Z",
-      "link": "https://securityaffairs.com/191318/apt/gopherwhisper-new-china-linked-apt-targets-mongolia-with-go-based-malware.html",
       "isTopTen": false
     }
   ]
