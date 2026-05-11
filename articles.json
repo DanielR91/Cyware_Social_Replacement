@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-05-11T19:58:21.366Z",
+  "lastUpdated": "2026-05-11T22:16:48.471Z",
   "articles": [
+    {
+      "id": "4c43be9b-35e1-4947-b37a-bda67730ea11",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Official CheckMarx Jenkins package compromised with infostealer",
+      "summary": "A malicious version of the Checkmarx Jenkins AST plugin was uploaded to the official Jenkins Marketplace, potentially infecting users with an infostealer. Checkmarx has issued a warning to users to verify their plugin versions to ensure security.",
+      "date": "2026-05-11T22:03:06.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+      "isTopTen": true
+    },
+    {
+      "id": "989cc92b-eaa1-44a3-8a4c-4a0afa5580db",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New GhostLock tool abuses Windows API to block file access",
+      "summary": "A security researcher has unveiled a proof-of-concept tool called GhostLock that exploits legitimate Windows APIs to restrict access to local and network-shared files. This technique poses a significant risk as it allows attackers to perform unauthorized file locking or potential denial-of-service on system resources.",
+      "date": "2026-05-11T22:02:00.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
+      "isTopTen": false
+    },
+    {
+      "id": "0be35d2b-371f-491e-b8e2-115be26d54cc",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
+      "summary": "Palo Alto Networks Unit 42 explores sophisticated exploitation methods involving Active Directory Certificate Services (AD CS) misconfigurations and shadow credentials, providing mitigation strategies for defenders.",
+      "date": "2026-05-11T22:00:43.000Z",
+      "link": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
+      "isTopTen": false
+    },
+    {
+      "id": "a90f07c4-42f2-485e-9fda-8f5626434e4a",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Google Says Hackers Used AI to Develop a Zero-Day Exploit",
+      "summary": "Google researchers have identified that malicious actors are leveraging artificial intelligence to automate the creation of zero-day exploits, Android backdoors, and supply chain attacks. These activities specifically target code repositories like GitHub and PyPI, representing a significant shift in automated threat development.",
+      "date": "2026-05-11T22:00:41.000Z",
+      "link": "https://hackread.com/google-hackers-used-ai-develop-zero-day-exploit/",
+      "isTopTen": false
+    },
+    {
+      "id": "065bff25-4280-4300-8109-589fcc27a6fd",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Cookie thieves caught stealing dev secrets via fake Claude Code installers",
+      "summary": "Cybercriminals are distributing malicious installers disguised as Claude Code tools to hijack session cookies and exfiltrate sensitive developer credentials. The campaign exploits advanced techniques, including a new IElevator2 COM interface, to bypass security controls.",
+      "date": "2026-05-11T20:21:09.000Z",
+      "link": "https://www.theregister.com/security/2026/05/11/cookie-thieves-caught-stealing-dev-secrets/5238248",
+      "isTopTen": false
+    },
+    {
+      "id": "6bb84958-cb18-4696-b76e-ab2e461c5612",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Texas sues Netflix over alleged data practices that create ‘surveillance machinery’ without user consent",
+      "summary": "The state of Texas has filed a lawsuit against Netflix, alleging the platform engages in unauthorized data harvesting and tracking practices while demanding changes to children's autoplay features. The legal action seeks to impose fines and restrict the company's data collection methods.",
+      "date": "2026-05-11T19:56:00.000Z",
+      "link": "https://therecord.media/texas-sues-netflix-over-data-practices-surveillance",
+      "isTopTen": false
+    },
     {
       "id": "c7704825-0f3d-49f6-b02d-aadf3de4376c",
       "source": "Help Net Security",
@@ -142,7 +208,7 @@
       "summary": "Google's latest threat intelligence report indicates that cybercriminals are increasingly leveraging artificial intelligence to automate attacks, develop zero-day exploits, and evade security defenses. This trend significantly scales the threat landscape by enhancing the efficiency and reach of malicious operations.",
       "date": "2026-05-11T14:06:29.000Z",
       "link": "https://securityaffairs.com/191984/ai/google-warns-artificial-intelligence-is-accelerating-cyberattacks-and-zero-day-exploits.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e2ca8db0-edaa-42e1-af0a-0de70f4ce16b",
@@ -384,7 +450,7 @@
       "summary": "The F-Secure Scam Intelligence & Impacts Report 2026 highlights that AI is being increasingly utilized to enhance the effectiveness of scams, which remain a persistent threat across multiple communication channels. Younger consumers and users in the United States are currently reporting the highest levels of exposure to these automated deceptive tactics.",
       "date": "2026-05-11T09:19:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/11/f-secure-ai-scam-risks-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b206237e-3b5e-4d9c-86d1-76131f0f7eaf",
@@ -428,7 +494,7 @@
       "summary": "A malicious actor impersonated an OpenAI model repository on Hugging Face to distribute a Rust-based information-stealing malware to Windows users. The deceptive project successfully gained popularity, reaching the platform's trending list and accumulating over 244,000 downloads.",
       "date": "2026-05-11T07:05:00.000Z",
       "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3ec36e59-7ad0-4a32-8bc8-083c28bf00d5",
@@ -670,7 +736,7 @@
       "summary": "The RansomHouse ransomware group has claimed responsibility for breaching cybersecurity firm Trellix, providing screenshots of internal systems as evidence. This incident highlights a targeted attack against a security provider, potentially exposing sensitive internal data.",
       "date": "2026-05-08T20:34:26.000Z",
       "link": "https://securityaffairs.com/191879/cyber-crime/ransomhouse-says-it-breached-trellix-and-exposes-internal-systems.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4e87b824-d4ef-4030-9b77-fff5248dec5f",
@@ -703,7 +769,7 @@
       "summary": "Poland’s Internal Security Agency (ABW) confirmed that Russia-linked threat actors compromised the industrial control systems (ICS) of five water treatment facilities in 2025. This incident highlights a growing concern regarding the use of critical infrastructure cyberattacks as a tool of hybrid warfare.",
       "date": "2026-05-08T18:16:28.000Z",
       "link": "https://securityaffairs.com/191868/security/cyberattacks-on-polands-water-plants-a-blueprint-for-hybrid-warfare.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5cbf7421-ddad-44c0-9cd8-3d161028ec30",
@@ -5433,72 +5499,6 @@
       "summary": "Microsoft confirmed a bug where new Windows security warnings for Remote Desktop (.rdp) files may fail to display correctly, potentially impacting user awareness. This issue does not stem from a security breach or vulnerability but represents a functional flaw in the security interface.",
       "date": "2026-04-28T09:51:26.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
-      "isTopTen": false
-    },
-    {
-      "id": "5f9c4cfd-7190-4fcb-ae9a-766c2afdc6ca",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Android spyware Morpheus linked to Italian surveillance firm",
-      "summary": "Researchers have discovered a new Android spyware named Morpheus, which is distributed via fake apps and linked to an Italian surveillance firm to facilitate large-scale data theft. The discovery underscores the increasing proliferation of covert surveillance tools targeting mobile devices.",
-      "date": "2026-04-28T09:18:05.000Z",
-      "link": "https://securityaffairs.com/191398/malware/new-android-spyware-morpheus-linked-to-italian-surveillance-firm.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a68d6f26-5f41-4383-b593-2bf6c4ecb4cd",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
-      "summary": "Microsoft is requiring iPhone users to re-enter their credentials in the default Mail app following a global Outlook.com service outage. This action is necessary for users to restore access to their accounts after the service disruption.",
-      "date": "2026-04-28T08:37:12.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
-      "isTopTen": false
-    },
-    {
-      "id": "e092d3bf-67af-4b1f-83f3-256caefdaab5",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
-      "summary": "Xu Zewei, a Chinese national linked to the Silk Typhoon hacking group, has been extradited to the U.S. to face charges for cyberattacks targeting American organizations and government agencies during the COVID-19 pandemic.",
-      "date": "2026-04-28T07:57:00.000Z",
-      "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
-      "isTopTen": false
-    },
-    {
-      "id": "898f7d6d-ecec-4c7e-9082-96a71f4b84bf",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "U.S. companies hit with record fines for privacy in 2025",
-      "summary": "U.S. companies are facing record-breaking privacy fines in 2025 due to stricter state legislation, enhanced interstate enforcement, and increased regulatory scrutiny of AI and automation.",
-      "date": "2026-04-28T07:30:00.000Z",
-      "link": "https://cyberscoop.com/privacy-companies-hit-with-record-fines-2025-gartner/",
-      "isTopTen": false
-    },
-    {
-      "id": "d7597994-5437-422f-8267-c12f8ead861d",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "NCSC launches SilentGlass, a plug-in device to secure HDMI and DisplayPort links",
-      "summary": "The UK's NCSC has commercialized SilentGlass, a hardware security device designed to mitigate physical-layer attacks on HDMI and DisplayPort connections.",
-      "date": "2026-04-28T07:14:23.000Z",
-      "link": "https://securityaffairs.com/191408/security/ncsc-launches-silentglass-a-plug-in-device-to-secure-hdmi-and-displayport-links.html",
-      "isTopTen": false
-    },
-    {
-      "id": "215baf9e-ec01-495b-bc94-5316e5379a60",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
-      "summary": "Service busy.",
-      "date": "2026-04-28T06:37:00.000Z",
-      "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
       "isTopTen": false
     }
   ]
