@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-05-12T20:10:09.852Z",
+  "lastUpdated": "2026-05-12T22:20:06.446Z",
   "articles": [
+    {
+      "id": "5a5ff99d-68e2-47cd-aca9-69eea6ce26c0",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Foxconn confirms cyberattack after ransomware crew claims it stole confidential Apple, Nvidia files",
+      "summary": "Foxconn confirmed a cyberattack involving a ransomware group that allegedly stole confidential data belonging to Apple and Nvidia. While the company stated that affected factory operations have been restored, the incident highlights a significant breach of sensitive supply chain information.",
+      "date": "2026-05-12T22:02:35.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/05/12/foxconn-confirms-cyberattack-after-nitrogen-claims-apple-nvidia-data-theft/5239144",
+      "isTopTen": true
+    },
+    {
+      "id": "fde2356f-0dba-41a6-b129-7c4237232d11",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "‘Mini Shai-Hulud’ malware compromises hundreds of open-source packages in sprawling supply-chain attack",
+      "summary": "A large-scale supply-chain attack involving 'Mini Shai-Hulud' malware has compromised hundreds of open-source packages by leveraging legitimate release signatures. The incident highlights the growing threat of attackers weaponizing the software update process to distribute malicious code.",
+      "date": "2026-05-12T21:38:44.000Z",
+      "link": "https://cyberscoop.com/mini-shai-hulud-supply-chain-malware-attack/",
+      "isTopTen": true
+    },
+    {
+      "id": "01c03bf8-efa3-4588-b09d-0be20c3ab952",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Canvas Hackers ShinyHunters Say Their Official Domain Was Suspended",
+      "summary": "The hacking group ShinyHunters claims their official domain was suspended following the Canvas LMS attacks, forcing them to transition their operations exclusively to the dark web. This move highlights the group's ongoing response to increased scrutiny after their recent high-profile data breach activity.",
+      "date": "2026-05-12T21:18:09.000Z",
+      "link": "https://hackread.com/canvas-hackers-shinyhunters-official-domain-suspended/",
+      "isTopTen": false
+    },
+    {
+      "id": "6147c805-3a25-4355-a9ed-56514729c48f",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Major world economies spell out key elements of AI ‘ingredients list’",
+      "summary": "The G7 nations have released a new set of guidelines outlining the key elements required for the responsible development and deployment of artificial intelligence. Experts generally support the initiative while noting that the framework still requires further refinement.",
+      "date": "2026-05-12T21:09:36.000Z",
+      "link": "https://cyberscoop.com/g7-cisa-ai-sbom-security-guidance/",
+      "isTopTen": true
+    },
+    {
+      "id": "23c988c8-6dda-4fec-84d4-6afcdb641f30",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft addresses 137 vulnerabilities in May’s Patch Tuesday, including 13 rated critical",
+      "summary": "Microsoft's May Patch Tuesday addressed 137 vulnerabilities, 13 of which are critical, with experts attributing the high count to AI-driven defect discovery. This release underscores a broader industry trend of increased vulnerability detection capabilities.",
+      "date": "2026-05-12T21:00:37.000Z",
+      "link": "https://cyberscoop.com/microsoft-patch-tuesday-may-2026/",
+      "isTopTen": true
+    },
+    {
+      "id": "99ed2550-ef47-4927-b23f-256a8b1c02f2",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
+      "summary": "South Staffordshire Water Plc was fined $1.3 million by the UK's ICO for failing to secure the personal data of over 663,000 individuals during a cyberattack.",
+      "date": "2026-05-12T20:17:19.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+      "isTopTen": false
+    },
     {
       "id": "fe8f98d5-78de-498b-834a-2a3f41b50719",
       "source": "The Record",
@@ -10,7 +76,7 @@
       "summary": "Foxconn has officially confirmed that its North American manufacturing facilities have been targeted by a cyberattack, though the company has not disclosed the specific extent of the operational impact. The incident affects multiple locations across the United States and Mexico.",
       "date": "2026-05-12T19:57:00.000Z",
       "link": "https://therecord.media/foxconn-confirms-cyberattack-north-american-factories",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e15a764c-5fa8-4695-a8f9-284caa3014a0",
@@ -98,7 +164,7 @@
       "summary": "Fortinet has issued urgent security patches to address critical remote code execution vulnerabilities identified in its FortiSandbox and FortiAuthenticator products. These flaws could allow unauthenticated attackers to execute arbitrary code or commands on affected systems.",
       "date": "2026-05-12T18:23:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "600d570c-3e73-4473-95eb-790aa6fe79dd",
@@ -384,7 +450,7 @@
       "summary": "Attackers compromised the TanStack npm package repository to distribute 84 malicious versions containing credential theft and disk-wiping payloads over a six-minute window. This supply chain attack highlights the risks of automated software distribution platforms being leveraged to push malicious code to unsuspecting developers.",
       "date": "2026-05-12T12:00:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/12/cache-poisoning-caper-turns-tanstack-npm-packages-toxic/5238650",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bf026590-3476-497c-bfd6-523032c63126",
@@ -428,7 +494,7 @@
       "summary": "A supply-chain attack dubbed 'Shai-Hulud' has compromised hundreds of npm and PyPI packages to distribute credential-stealing malware to developers. The malicious packages masquerade as legitimate tools like TanStack and Mistral.",
       "date": "2026-05-12T11:29:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "27bdf612-e36d-4684-8e4e-e35abfebebce",
@@ -505,7 +571,7 @@
       "summary": "Apple and Google have integrated cross-platform end-to-end encryption (E2EE) for messaging, removing the barrier between iPhone and Android users. This update improves privacy for communications that previously relied on insecure SMS protocols.",
       "date": "2026-05-12T09:46:00.000Z",
       "link": "https://www.theregister.com/security/2026/05/12/apple-google-drag-cross-platform-texting-into-the-encrypted-age/5238556",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "23916053-7927-4f9b-92f8-d363179a9990",
@@ -560,7 +626,7 @@
       "summary": "Instructure entered into a ransom agreement with the ShinyHunters threat group to prevent the public release of 3.65TB of stolen data originating from its Canvas platform. The breach potentially impacts thousands of educational institutions globally.",
       "date": "2026-05-12T07:37:00.000Z",
       "link": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d3a87d0d-e63d-48cf-a9a1-c58326ab3151",
@@ -659,7 +725,7 @@
       "summary": "Educational platform Double Canvas confirmed a data breach by the threat actor ShinyHunters, who has issued a deadline for a ransom payment to prevent the publication of stolen data.",
       "date": "2026-05-11T23:16:25.000Z",
       "link": "https://www.theregister.com/security/2026/05/12/double-canvas-intrusion-confirmed-as-shinyhunters-resets-leak-deadline/5238361",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2907cbdf-d593-435f-9ab0-ed79280dc935",
@@ -714,7 +780,7 @@
       "summary": "Google researchers have identified that malicious actors are leveraging artificial intelligence to automate the creation of zero-day exploits, Android backdoors, and supply chain attacks. These activities specifically target code repositories like GitHub and PyPI, representing a significant shift in automated threat development.",
       "date": "2026-05-11T22:00:41.000Z",
       "link": "https://hackread.com/google-hackers-used-ai-develop-zero-day-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "065bff25-4280-4300-8109-589fcc27a6fd",
@@ -5433,72 +5499,6 @@
       "summary": "GitHub successfully utilized an AI-assisted bug report provided by Wiz to identify and resolve a vulnerability, resulting in a bug bounty payout. This demonstrates the growing effectiveness of AI tools in security research and vulnerability discovery.",
       "date": "2026-04-29T13:02:16.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/github_woah_a_genuinely_helpful/",
-      "isTopTen": false
-    },
-    {
-      "id": "0f0f8221-5f40-4e53-b3ac-c8d7efec7511",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Brinker Introduces a Novel Approach to Deepfake Detection",
-      "summary": "Brinker has unveiled a new methodology aimed at identifying and mitigating the threat of deepfake media. This development focuses on advancing detection capabilities to combat synthetic media-based deception.",
-      "date": "2026-04-29T12:45:21.000Z",
-      "link": "https://hackread.com/brinker-introduces-a-novel-approach-to-deepfake-detection/",
-      "isTopTen": false
-    },
-    {
-      "id": "9f6e3802-1d61-45eb-9037-dd0efefd0346",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
-      "summary": "GitHub has patched a critical remote code execution vulnerability, CVE-2026-3854, which posed a significant risk of unauthorized access to millions of private repositories.",
-      "date": "2026-04-29T12:41:17.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
-      "isTopTen": false
-    },
-    {
-      "id": "0d99846c-0fd4-45d6-812e-6da319d13505",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "EU waves through open source age-check tool to keep kids safe online",
-      "summary": "The European Union has approved an open-source age-verification tool designed to enhance child safety and privacy when accessing online services. This initiative aligns with broader regulatory efforts to protect minors in the digital environment.",
-      "date": "2026-04-29T12:03:22.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/eu_adopts_open_source_ageverification/",
-      "isTopTen": false
-    },
-    {
-      "id": "c249d7de-0887-48bd-896e-7a034eca2268",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
-      "summary": "Threat actors are utilizing autonomous AI agents to accelerate the attack lifecycle, specifically targeting Active Directory to obtain administrative privileges within minutes. The report emphasizes the critical need for automated exposure validation to keep pace with these high-speed AI-driven threats.",
-      "date": "2026-04-29T12:02:00.000Z",
-      "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
-      "isTopTen": false
-    },
-    {
-      "id": "01bbc1ae-1a3c-4b3e-a6c7-316d340d5079",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
-      "summary": "This article critiques current exposure management practices, arguing that relying solely on patch counts and CVSS scores fails to provide a meaningful assessment of an organization's actual security posture.",
-      "date": "2026-04-29T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7fde6eaa-ffdf-49bf-9701-2179a285b755",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "US-Estonian Suspect Arrested Over Alleged Scattered Spider Cyberattacks",
-      "summary": "US-Estonian national Peter Stokes has been arrested in Finland for his alleged involvement with the Scattered Spider cybercriminal group, facing charges related to fraud and data breaches in the US.",
-      "date": "2026-04-29T11:19:54.000Z",
-      "link": "https://hackread.com/us-estonian-suspect-arrest-scattered-spider-cyberattacks/",
       "isTopTen": false
     }
   ]
