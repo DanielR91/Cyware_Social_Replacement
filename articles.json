@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-11T22:16:48.471Z",
+  "lastUpdated": "2026-05-12T03:42:54.896Z",
   "articles": [
+    {
+      "id": "1ab7c6e1-146c-464e-86ad-3f11460a5d16",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Pressure mounts on Canvas as data leak extortion deadline looms",
+      "summary": "The hacking group known as The Com is threatening to leak data from over 8,800 school systems if Instructure fails to meet an extortion deadline. The attack targets the Canvas learning management platform, putting significant pressure on the company to address the ransom demand.",
+      "date": "2026-05-11T23:31:55.000Z",
+      "link": "https://cyberscoop.com/canvas-instructure-data-theft-extortion-the-com/",
+      "isTopTen": false
+    },
+    {
+      "id": "d1ee096a-7a32-40db-9de0-38e4888cba4a",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Double Canvas breach acknowledged as ShinyHunters sets new pay-or-leak deadline",
+      "summary": "Educational platform Double Canvas confirmed a data breach by the threat actor ShinyHunters, who has issued a deadline for a ransom payment to prevent the publication of stolen data.",
+      "date": "2026-05-11T23:16:25.000Z",
+      "link": "https://www.theregister.com/security/2026/05/12/double-canvas-intrusion-confirmed-as-shinyhunters-resets-leak-deadline/5238361",
+      "isTopTen": true
+    },
+    {
+      "id": "2907cbdf-d593-435f-9ab0-ed79280dc935",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
+      "summary": "General Motors has reached a $12.75 million settlement with California for allegedly violating the California Consumer Privacy Act by selling drivers' personal data without proper consent. The agreement resolves claims that the company failed to provide adequate transparency regarding data privacy practices.",
+      "date": "2026-05-11T22:40:34.000Z",
+      "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
+      "isTopTen": false
+    },
     {
       "id": "4c43be9b-35e1-4947-b37a-bda67730ea11",
       "source": "BleepingComputer",
@@ -10,7 +43,7 @@
       "summary": "A malicious version of the Checkmarx Jenkins AST plugin was uploaded to the official Jenkins Marketplace, potentially infecting users with an infostealer. Checkmarx has issued a warning to users to verify their plugin versions to ensure security.",
       "date": "2026-05-11T22:03:06.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "989cc92b-eaa1-44a3-8a4c-4a0afa5580db",
@@ -417,7 +450,7 @@
       "summary": "Instagram has discontinued end-to-end encryption for direct messages, granting the platform access to user media and communication content. Privacy advocates have criticized the move, prompting Instagram to advise users to archive their data.",
       "date": "2026-05-11T10:39:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/11/instagram-messaging-end-to-end-encryption-removed/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d5fa2360-dc47-4a3f-8310-235795a6e94c",
@@ -428,7 +461,7 @@
       "summary": "Threat actors are leveraging Vercel's GenAI tools to generate highly realistic, brand-impersonating phishing pages at scale, increasing the risk of successful social engineering attacks. This technique exploits automated site creation to bypass traditional detection methods.",
       "date": "2026-05-11T10:34:38.000Z",
       "link": "https://hackread.com/hackers-exploit-vercel-genai-phishing-sites/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f8b7480-45da-4bc2-ad03-00846eb8d046",
@@ -5466,39 +5499,6 @@
       "summary": "The rapid advancement of AI models like Claude Mythos is drastically reducing the window of time available for organizations to patch vulnerabilities. Network Detection and Response (NDR) is highlighted as a critical defense strategy to mitigate these accelerated threats.",
       "date": "2026-04-28T10:30:00.000Z",
       "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4b252bd5-37ff-4db7-8db7-a8c17a29547d",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "The Role of Aggregated Liquidity in Modern Crypto Markets",
-      "summary": "Aggregated liquidity enhances cryptocurrency trading efficiency by consolidating various market sources to provide competitive rates and stable execution. This development focuses on financial market infrastructure rather than cybersecurity threats.",
-      "date": "2026-04-28T10:16:50.000Z",
-      "link": "https://hackread.com/role-of-aggregated-liquidity-modern-crypto-markets/",
-      "isTopTen": false
-    },
-    {
-      "id": "abd65c7a-7ea3-466c-af48-c2dda2ab905b",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "SUSE's sovereignty pitch meets an inconvenient $6 billion question",
-      "summary": "SUSE faces challenges in its digital sovereignty strategy amid concerns regarding its financial valuation and business positioning. The headline highlights the tension between the company's strategic market pitch and significant fiscal scrutiny.",
-      "date": "2026-04-28T10:00:07.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/sovereignty_its_all_about_the/",
-      "isTopTen": false
-    },
-    {
-      "id": "a2b2e1fe-961a-4cfa-9778-73357931dc7f",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
-      "summary": "Microsoft confirmed a bug where new Windows security warnings for Remote Desktop (.rdp) files may fail to display correctly, potentially impacting user awareness. This issue does not stem from a security breach or vulnerability but represents a functional flaw in the security interface.",
-      "date": "2026-04-28T09:51:26.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
       "isTopTen": false
     }
   ]
