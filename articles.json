@@ -1,6 +1,248 @@
 {
-  "lastUpdated": "2026-05-13T11:37:23.735Z",
+  "lastUpdated": "2026-05-13T17:32:32.069Z",
   "articles": [
+    {
+      "id": "551705d2-7fe9-475d-93ae-f0bf0c413971",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+      "summary": "A security researcher released proof-of-concept exploits for two unpatched Windows vulnerabilities, YellowKey and GreenPlasma, which allow attackers to bypass BitLocker encryption and escalate privileges. These flaws currently remain unpatched by Microsoft.",
+      "date": "2026-05-13T16:37:49.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
+      "isTopTen": true
+    },
+    {
+      "id": "2f0df5ae-0a4d-4344-be79-7f22e4ba811f",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Mystery Microsoft bug leaker keeps the zero-days coming",
+      "summary": "Service busy.",
+      "date": "2026-05-13T16:16:02.000Z",
+      "link": "https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758",
+      "isTopTen": false
+    },
+    {
+      "id": "70b3f6ca-4a8a-44b5-bfca-f1b5ac5cd713",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
+      "summary": "The webinar discusses the limitations of relying solely on prevention strategies and advocates for integrating security with robust backup and recovery planning to enhance organizational cyber resilience.",
+      "date": "2026-05-13T15:45:56.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "b370c186-ea41-4ec8-83cc-9bb012fbdb0e",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
+      "summary": "Microsoft released a fix for a bug that forced Windows 11 systems into BitLocker recovery mode following the April 2026 security updates. The resolution is currently limited to Windows 11 users.",
+      "date": "2026-05-13T15:42:46.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
+      "isTopTen": false
+    },
+    {
+      "id": "80c2617f-a52e-43f4-a6bd-2cafddf4277a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "WhatsApp adds Incognito Chat for private Meta AI conversations",
+      "summary": "WhatsApp is introducing 'Incognito Chat' for Meta AI, a feature that utilizes Private Processing technology to ensure that AI conversations remain inaccessible to Meta. This privacy-focused update will be rolled out to WhatsApp and the standalone Meta AI app over the coming months.",
+      "date": "2026-05-13T15:24:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/13/whatsapp-incognito-chat-meta-ai/",
+      "isTopTen": false
+    },
+    {
+      "id": "97750201-b099-4219-896f-cd79edbc00d6",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "TeamPCP Used Mini Shai-Hulud Worm to Poison Over 400 npm and PyPI Packages",
+      "summary": "The threat actor TeamPCP compromised over 400 npm and PyPI packages by hijacking OIDC tokens to distribute the self-propagating Mini Shai-Hulud malware. This supply chain attack targeted popular libraries from TanStack, Mistral AI, and UiPath.",
+      "date": "2026-05-13T15:18:47.000Z",
+      "link": "https://hackread.com/teampcp-mini-shai-hulud-worm-npm-pypi-packages/",
+      "isTopTen": true
+    },
+    {
+      "id": "d61f35e6-300c-41d8-bf91-26aa5350b1ad",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
+      "summary": "Microsoft resolved a bug in Windows Autopatch that incorrectly deployed restricted driver updates to managed devices in the European Union. The issue bypassed established administrative policies regarding software deployment.",
+      "date": "2026-05-13T14:36:09.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
+      "isTopTen": false
+    },
+    {
+      "id": "b59b6fb5-8f67-4e7d-9ac0-6fc612a19c91",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Daybreak is OpenAI’s answer to the AI arms race in cybersecurity",
+      "summary": "Service busy.",
+      "date": "2026-05-13T14:30:10.000Z",
+      "link": "https://cyberscoop.com/openai-daybreak-gpt-5-5-anthropic-mythos-cybersecurity/",
+      "isTopTen": false
+    },
+    {
+      "id": "ea3ccef8-c870-4b96-a735-ac3f7714e3b8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
+      "summary": "Microsoft has introduced MDASH, an AI-driven vulnerability discovery system, which successfully identified 16 Windows flaws addressed in the latest Patch Tuesday update. The tool utilizes multi-model agentic scanning to automate the identification and remediation of security weaknesses.",
+      "date": "2026-05-13T13:46:02.000Z",
+      "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a3eb4309-497e-450c-81a7-04630b4ddf5d",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Quest KACE SMA flaw CVE-2025-32975: when one unpatched tool opens the door to 60 organizations",
+      "summary": "A critical vulnerability, CVE-2025-32975, has been identified in the Quest KACE SMA endpoint management platform, potentially allowing attackers to compromise all systems managed by affected organizations. The flaw poses a significant risk due to the widespread control provided by the software.",
+      "date": "2026-05-13T13:24:36.000Z",
+      "link": "https://securityaffairs.com/192067/security/quest-kace-sma-flaw-cve-2025-32975-when-one-unpatched-tool-opens-the-door-to-60-organizations.html",
+      "isTopTen": true
+    },
+    {
+      "id": "9a39c190-0886-41ce-a030-bae32c062efb",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Signal responds to phishing attacks with new in-app security warnings",
+      "summary": "Signal has introduced new in-app security warnings to combat phishing campaigns that exploit the 'linked devices' feature, often used by intelligence-linked threat actors to impersonate trusted contacts. These updates follow official advisories from the FBI, CISA, and European security authorities regarding the platform being a primary target.",
+      "date": "2026-05-13T13:08:59.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/13/signal-phishing-social-engineering-protections/",
+      "isTopTen": false
+    },
+    {
+      "id": "4fd98c8c-347b-4b38-99ee-d809cd16e1dd",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Tuskira’s Kairo exposes hidden AI-driven breach paths",
+      "summary": "Tuskira has launched Kairo, a breach modeling tool that utilizes digital twin technology to identify complex, AI-driven attack vectors across cloud, IT, and OT infrastructure. The platform assists security teams in assessing breach resilience by validating potential kill chains against existing security controls.",
+      "date": "2026-05-13T13:01:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/13/tuskira-kairo/",
+      "isTopTen": false
+    },
+    {
+      "id": "f9bf3ef2-27bb-4670-befa-686130d1f6b4",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
+      "summary": "An unnamed Azerbaijani energy company was targeted in a multi-wave intrusion by the China-linked threat actor FamousSparrow using Microsoft Exchange vulnerabilities. The campaign, occurring between late 2025 and early 2026, signals an expansion in the group's targeting scope.",
+      "date": "2026-05-13T13:00:00.000Z",
+      "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
+      "isTopTen": false
+    },
+    {
+      "id": "187b2c91-9b8d-4ba3-a6a1-cd2a79a4a648",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "UK moves to shield security researchers in cybercrime law overhaul",
+      "summary": "The UK government is proposing reforms to the Computer Misuse Act 1990 to provide legal protections for security researchers. This update is part of a broader national security strategy aimed at modernizing cybercrime legislation.",
+      "date": "2026-05-13T12:58:00.000Z",
+      "link": "https://therecord.media/uk-moves-to-shield-security-researchers-cybercrime",
+      "isTopTen": false
+    },
+    {
+      "id": "2b2a4fd3-b9f5-4911-9f0e-844c1dcb24dc",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft on pace to break annual vulnerability record as AI-driven patch wave takes hold",
+      "summary": "Microsoft is on track to set a new record for annual vulnerability patches, having already addressed over 500 issues in the first five months of 2026. This surge is attributed in part to the integration of AI in identifying and remediating security flaws.",
+      "date": "2026-05-13T12:54:00.000Z",
+      "link": "https://therecord.media/microsoft-on-pace-to-break-annual-vulnerability-record-ai",
+      "isTopTen": false
+    },
+    {
+      "id": "f65fa9e2-cc5b-4ce1-ab3f-3fd0dc26bc88",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
+      "summary": "Foxconn has confirmed a cyberattack involving the Nitrogen ransomware group, which impacted several of its North American manufacturing facilities. The company is currently working to restore normal operations following the incident.",
+      "date": "2026-05-13T12:49:54.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+      "isTopTen": false
+    },
+    {
+      "id": "e66bcbd2-39fe-45d0-9468-db2510eabf2f",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Apricorn hardens ASK3 encrypted USB drive for extreme conditions",
+      "summary": "Apricorn has upgraded its Aegis Secure Key 3.0 encrypted USB drive to feature enhanced environmental durability and submission for FIPS 140-3 Level 3 certification. These improvements target high-security sectors like government and defense by offering better physical protection and faster data performance.",
+      "date": "2026-05-13T12:47:21.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/13/apricorn-aegis-secure-key-3-0-ask3/",
+      "isTopTen": false
+    },
+    {
+      "id": "1d021ab2-1949-401b-bfe9-179ea1ae7ef4",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
+      "summary": "This article highlights the significant speed gap between attacker exploitation and defender patching, advocating for autonomous validation as a necessary strategy to close this window of exposure.",
+      "date": "2026-05-13T12:30:38.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+      "isTopTen": false
+    },
+    {
+      "id": "a233486a-f4e1-4b53-9919-fcf927d857c7",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Slovakian Admin of Dark Web Kingdom Market Jailed for 16 Years in US",
+      "summary": "A Slovakian administrator of the dark web platform Kingdom Market has been sentenced to 16 years in a U.S. prison for his role in facilitating drug trafficking and cybercrime. The sentencing concludes a major legal action against the infrastructure of an illicit marketplace.",
+      "date": "2026-05-13T12:24:46.000Z",
+      "link": "https://hackread.com/slovakian-admin-dark-web-kingdom-market-us-jail/",
+      "isTopTen": false
+    },
+    {
+      "id": "e7af42fe-b4ea-4d59-b647-9ef3b336edb0",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Microsoft says some users can't install Office on Windows 365 devices",
+      "summary": "Microsoft has acknowledged a technical issue preventing some users from downloading or installing Office applications on their Windows 365 cloud-based devices.",
+      "date": "2026-05-13T11:53:54.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
+      "isTopTen": false
+    },
+    {
+      "id": "a044ad07-69f7-42d1-83de-50ad41513699",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
+      "summary": "This webinar highlights how cyber attackers exploit interconnected vulnerabilities across code, pipelines, and cloud environments to reach sensitive data. It emphasizes moving beyond alert fatigue to focus on identifying and breaking lethal attack paths.",
+      "date": "2026-05-13T11:52:43.000Z",
+      "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
+      "isTopTen": false
+    },
+    {
+      "id": "066abd70-b2ef-4a95-af38-56b0c6f79c0b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Most Remediation Programs Never Confirm the Fix Actually Worked",
+      "summary": "Security teams struggle to verify the effectiveness of remediation efforts, leading to persistent vulnerabilities as exploit speeds outpace fix times. This disconnect highlights a critical gap between vulnerability detection and confirmed resolution.",
+      "date": "2026-05-13T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
+      "isTopTen": false
+    },
     {
       "id": "3c03af31-af87-4323-84f1-8bd4a40c218e",
       "source": "Help Net Security",
@@ -24,6 +266,17 @@
       "isTopTen": true
     },
     {
+      "id": "fd3acf4b-1cf4-4034-96bd-8cbabf50ec5c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws",
+      "summary": "Microsoft addressed 138 vulnerabilities across its product portfolio, including critical DNS and Netlogon RCE flaws, though none are currently reported as under active exploitation.",
+      "date": "2026-05-13T10:36:10.000Z",
+      "link": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
+      "isTopTen": true
+    },
+    {
       "id": "b95234fb-6749-4c29-982a-c4162b868ad8",
       "source": "Security Affairs",
       "tag": "Breaches and Incidents",
@@ -32,7 +285,7 @@
       "summary": "Educational technology company Instructure reached a settlement with cybercriminals to prevent the publication of sensitive student data stolen during a breach of its Canvas platform. The incident highlights the ongoing risk of extortion involving large-scale educational databases.",
       "date": "2026-05-13T10:16:15.000Z",
       "link": "https://securityaffairs.com/192059/cyber-crime/instructure-settles-with-hackers-following-massive-student-data-theft.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7543b6fc-cd71-4aa0-9e55-ac3a71bbb334",
@@ -87,7 +340,7 @@
       "summary": "The hacking group TeamPCP has publicly released the source code for its 'Shai-Hulud' worm on GitHub, making the malicious tool widely accessible. The code remains available on the platform despite potential policy violations.",
       "date": "2026-05-13T06:23:32.000Z",
       "link": "https://www.theregister.com/security/2026/05/13/malware-crew-teampcp-open-sources-its-shai-hulud-worm-on-github/5239319",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0900d66d-b9c0-4f40-97ee-c9575140e6b1",
@@ -131,7 +384,7 @@
       "summary": "The rapid adoption of AI agents and non-human identities is creating significant security risks due to persistent, privileged access that lacks necessary oversight and audit trails. Organizations must address these gaps to prevent potential exploitation of these unsecured machine identities.",
       "date": "2026-05-13T05:00:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/13/hidden-risk-non-human-identities-ai-adoption/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a415e02-916c-45c5-9b18-e320526f402b",
@@ -175,7 +428,7 @@
       "summary": "Microsoft's latest Patch Tuesday update addresses 30 critical vulnerabilities, requiring immediate attention from administrators despite the absence of any exploited zero-days.",
       "date": "2026-05-12T23:51:20.000Z",
       "link": "https://www.theregister.com/patches/2026/05/13/doozy-of-a-patch-tuesday-includes-30-critical-microsoft-cves/5239224",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a6171af3-e048-4bdb-8c4c-42b6890ce9ac",
@@ -208,7 +461,7 @@
       "summary": "Foxconn confirmed a cyberattack involving a ransomware group that allegedly stole confidential data belonging to Apple and Nvidia. While the company stated that affected factory operations have been restored, the incident highlights a significant breach of sensitive supply chain information.",
       "date": "2026-05-12T22:02:35.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/12/foxconn-confirms-cyberattack-after-nitrogen-claims-apple-nvidia-data-theft/5239144",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fde2356f-0dba-41a6-b129-7c4237232d11",
@@ -219,7 +472,7 @@
       "summary": "A large-scale supply-chain attack involving 'Mini Shai-Hulud' malware has compromised hundreds of open-source packages by leveraging legitimate release signatures. The incident highlights the growing threat of attackers weaponizing the software update process to distribute malicious code.",
       "date": "2026-05-12T21:38:44.000Z",
       "link": "https://cyberscoop.com/mini-shai-hulud-supply-chain-malware-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "01c03bf8-efa3-4588-b09d-0be20c3ab952",
@@ -395,7 +648,7 @@
       "summary": "An undocumented malware campaign is actively distributing malicious Claude Code installers to compromise developers' browsers and exfiltrate sensitive credentials. This targeted attack leverages fake software to bypass security measures and steal browser cookies and passwords.",
       "date": "2026-05-12T17:47:36.000Z",
       "link": "https://hackread.com/fake-claude-code-installer-devs-browser-credential-stealer/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2b9edea5-e575-4b9a-945f-8f1150cdd0c7",
@@ -538,7 +791,7 @@
       "summary": "A US bank has self-reported a data leak after employees inadvertently exposed sensitive customer information to an unauthorized artificial intelligence application. The incident highlights significant concerns regarding the volume and nature of the compromised data.",
       "date": "2026-05-12T14:50:26.000Z",
       "link": "https://www.theregister.com/security/2026/05/12/us-bank-reports-itself-after-ai-customer-data-mishap/5238787",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e4a0cc3-2e4d-41c2-9a24-7188c41e0a4e",
@@ -604,7 +857,7 @@
       "summary": "Instructure paid a ransom to hackers following a security incident involving its Canvas platform, prompting a formal investigation by Congress. The company claims it received confirmation that the stolen data was destroyed.",
       "date": "2026-05-12T13:01:00.000Z",
       "link": "https://therecord.media/instructure-pays-ransom-canvas-incident-congress-investigation",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "340c8c10-5d35-4901-88cc-31b26e0e6936",
@@ -648,7 +901,7 @@
       "summary": "Attackers compromised the TanStack npm package repository to distribute 84 malicious versions containing credential theft and disk-wiping payloads over a six-minute window. This supply chain attack highlights the risks of automated software distribution platforms being leveraged to push malicious code to unsuspecting developers.",
       "date": "2026-05-12T12:00:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/12/cache-poisoning-caper-turns-tanstack-npm-packages-toxic/5238650",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bf026590-3476-497c-bfd6-523032c63126",
@@ -5246,259 +5499,6 @@
       "summary": "The FBI reports that China's reliance on a massive, unregulated 'hacker-for-hire' ecosystem has created a significant and uncontrollable global cyber threat. This shift marks an escalation in how state-sponsored actors leverage private contractors to conduct cyber operations.",
       "date": "2026-04-30T19:30:53.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/fbi_cyber_boss_chinas_hackerforhire/",
-      "isTopTen": false
-    },
-    {
-      "id": "d80de744-ff79-4871-a79c-4c4626e72b2f",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Misconfigured Server Run by Hackers Leaks 345,000 Stolen Credit Cards",
-      "summary": "A misconfigured server associated with the illicit carding marketplace Jerry’s Store exposed 345,000 stolen credit cards due to an AI coding error. The vulnerability resulted in a significant leak of sensitive financial data from the criminal operation.",
-      "date": "2026-04-30T19:01:18.000Z",
-      "link": "https://hackread.com/misconfigured-server-hackers-leak-stolen-credit-cards/",
-      "isTopTen": false
-    },
-    {
-      "id": "eea84716-db44-4f4d-8415-e2e71b088615",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Copy Fail: New Linux bug enables Root via page‑cache corruption",
-      "summary": "A critical Linux vulnerability dubbed 'Copy Fail' (CVE-2026-31431) allows local, unprivileged users to manipulate page cache files, potentially leading to privilege escalation to root. The flaw carries a CVSS score of 7.8 and affects major Linux distributions.",
-      "date": "2026-04-30T18:23:30.000Z",
-      "link": "https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8dadb9a2-f549-461c-afea-4209aaf8072c",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Agent’s claims on WhatsApp access spark security concerns",
-      "summary": "A US agent's allegations that Meta can bypass WhatsApp encryption have triggered significant security concerns after the Commerce Department abruptly terminated an investigation into the matter. This development has led industry leaders to question the privacy and suitability of consumer messaging apps for sensitive business communications.",
-      "date": "2026-04-30T16:39:50.000Z",
-      "link": "https://securityaffairs.com/191515/social-networks/agents-claims-on-whatsapp-access-spark-security-concerns.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4d117f81-950d-4d70-b3ed-ecc8e3d1b069",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
-      "summary": "Threat actors compromised the PyTorch Lightning and Intercom-client Python packages to distribute malicious versions aimed at credential theft. The incident highlights an ongoing wave of supply chain attacks targeting popular development ecosystems.",
-      "date": "2026-04-30T16:31:00.000Z",
-      "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0f12ca86-96fb-4ab1-81f5-3fb8c0b29a65",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Two new extortion crews are speedrunning the Scattered Spider playbook",
-      "summary": "Two new extortion groups affiliated with The Com are adopting Scattered Spider's tactics, utilizing vishing and fraudulent SSO pages to compromise SaaS environments. These groups prioritize rapid data theft for extortion purposes.",
-      "date": "2026-04-30T15:00:00.000Z",
-      "link": "https://cyberscoop.com/crowdstrike-cordial-spider-snarky-spider-extortion-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "1eac099f-3fd6-4214-ad8f-413ea3db1e7a",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "cPanel zero-day exploited for months before patch release (CVE-2026-41940)",
-      "summary": "A critical authentication bypass vulnerability in cPanel (CVE-2026-41940) has been actively exploited in the wild since at least February 23, months before a patch was released.",
-      "date": "2026-04-30T13:40:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/04/30/cpanel-zero-day-vulnerability-cve-2026-41940-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "6eafe3d9-cada-42ab-af4e-7bcbbb413784",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Bug of the year (so far): Nasty cPanel vulnerability probably exploited as a 0-day",
-      "summary": "Service busy.",
-      "date": "2026-04-30T10:14:07.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/cpanel_whn_cves/",
-      "isTopTen": false
-    },
-    {
-      "id": "acd15f2c-0f48-490a-a409-6dc694060f55",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Everyone’s building AI agents. Almost nobody’s ready for what they do to identity.",
-      "summary": "Anthropic withheld its powerful Mythos AI model because it successfully identified thousands of long-standing, critical software vulnerabilities, highlighting the extreme risk AI models pose to global cybersecurity infrastructure.",
-      "date": "2026-04-30T10:00:00.000Z",
-      "link": "https://cyberscoop.com/ai-agent-identity-security-anthropic-mythos/",
-      "isTopTen": false
-    },
-    {
-      "id": "317fe8eb-f34e-4d47-b5b0-c339ce470d55",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
-      "summary": "Researchers have identified a high-severity local privilege escalation vulnerability, codenamed 'Copy Fail' (CVE-2026-31431), that allows unprivileged users to gain root access on major Linux distributions by corrupting the page cache.",
-      "date": "2026-04-30T09:24:00.000Z",
-      "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
-      "isTopTen": false
-    },
-    {
-      "id": "827f5d32-2573-43df-92da-3ae3d39d07f5",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Meta accused of violating DSA by failing to safeguard minors",
-      "summary": "The European Commission has formally accused Meta of violating the Digital Services Act by failing to implement sufficient safeguards to prevent children under 13 from accessing Instagram and Facebook.",
-      "date": "2026-04-30T09:11:06.000Z",
-      "link": "https://securityaffairs.com/191511/laws-and-regulations/meta-accused-of-violating-dsa-by-failing-to-safeguard-minors.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a15e0862-82ef-4d64-86cf-da1474884905",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Britain's £6B armoured sickener Ajax cleared for duty despite injuring troops",
-      "summary": "The British Army's Ajax armoured vehicle program has been cleared for service after significant development delays and reports of noise and vibration issues causing physical injury to crew members. The project faced years of scrutiny due to its high cost and technical failures.",
-      "date": "2026-04-30T08:45:12.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/ajax_armored_vehicle_cleared/",
-      "isTopTen": false
-    },
-    {
-      "id": "620adf71-4ffb-4e0b-9d4f-775e2f4f083d",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Finance company stores DB credentials in helpfully labeled spreadsheet",
-      "summary": "A financial company exposed its database credentials by storing them in a poorly secured, clearly labeled spreadsheet. This oversight creates a significant security risk for the organization's data infrastructure.",
-      "date": "2026-04-30T08:00:12.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/finance_company_stored_their_db_pwned_column/",
-      "isTopTen": false
-    },
-    {
-      "id": "c7952245-749c-47cd-8949-c2857582cc67",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "9-Year-Old Linux Kernel Vulnerability “Copy Fail” Enables Full Root Access",
-      "summary": "A long-standing Linux kernel vulnerability dubbed 'Copy Fail' allows attackers to gain full root access through a memory flaw. Users are urged to patch their systems or disable the algif_aead interface to prevent exploitation.",
-      "date": "2026-04-30T07:25:33.000Z",
-      "link": "https://hackread.com/linux-kernel-vulnerability-copy-fail-full-root-access/",
-      "isTopTen": false
-    },
-    {
-      "id": "4b3b1c36-aa83-4189-9e03-b66669d86a23",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Large-scale Roblox hacking operation shut down by Ukrainian authorities",
-      "summary": "Ukrainian authorities dismantled a cybercriminal operation that compromised over 610,000 Roblox accounts, resulting in approximately $225,000 in illicit profits. Three suspects were arrested in Lviv following the seizure of various digital devices and evidence.",
-      "date": "2026-04-30T07:23:16.000Z",
-      "link": "https://securityaffairs.com/191500/cyber-crime/large-scale-roblox-hacking-operation-shut-down-by-ukrainian-authorities.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cd6f1c15-1143-4070-8e89-9738174e8a62",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
-      "summary": "Google patched a critical CVSS 10 vulnerability in the Gemini CLI and its associated GitHub Actions workflow that allowed unauthorized attackers to execute arbitrary commands. The flaw stemmed from improper configuration loading, which could be exploited by external actors to run malicious code.",
-      "date": "2026-04-30T07:07:00.000Z",
-      "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ce503853-f87f-417f-99f6-8b70b426898c",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Linux cryptographic code flaw offers fast route to root",
-      "summary": "A vulnerability identified in Linux cryptographic code potentially allows unauthorized users to escalate privileges to root access. This security flaw poses a significant risk to affected systems due to the severity of the potential impact.",
-      "date": "2026-04-30T00:01:50.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/linux_cryptographic_code_flaw/",
-      "isTopTen": false
-    },
-    {
-      "id": "661ddad7-410f-4731-996d-b7fdbc57e631",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Official SAP npm packages compromised to steal credentials",
-      "summary": "Threat actors compromised official SAP npm packages in a supply-chain attack designed to harvest developer credentials and authentication tokens. This incident highlights the risk of malicious code injection within trusted software development ecosystems.",
-      "date": "2026-04-29T22:43:44.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-      "isTopTen": false
-    },
-    {
-      "id": "6e8e5356-8398-46cb-8505-5307e069128d",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "House approves spy program on second attempt, Senate fate murky",
-      "summary": "The U.S. House of Representatives successfully passed a bill to reauthorize Section 702 of the Foreign Intelligence Surveillance Act for three years, though the legislation now faces an uncertain path in the Senate.",
-      "date": "2026-04-29T22:41:00.000Z",
-      "link": "https://therecord.media/house-approves-spy-program-on-second-attempt",
-      "isTopTen": false
-    },
-    {
-      "id": "05dfd365-b667-45c0-a175-e6b57d87f61a",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
-      "summary": "A popular WordPress redirect plugin containing a hidden backdoor for over five years has been exposed, potentially allowing unauthorized arbitrary code execution on 70,000 websites.",
-      "date": "2026-04-29T22:13:15.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
-      "isTopTen": false
-    },
-    {
-      "id": "b7972a4b-bc27-41b2-a592-b69c12b0f9c9",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cursor AI Agent Wipes PocketOS Database and Backups in 9 Seconds",
-      "summary": "An autonomous Cursor AI agent inadvertently deleted a startup's production database and backups within nine seconds after misusing a root API token. The incident highlights significant risks in AI-driven development tools and underlying platform permission structures.",
-      "date": "2026-04-29T21:31:34.000Z",
-      "link": "https://hackread.com/cursor-ai-agent-wipes-pocketos-database-backups/",
-      "isTopTen": false
-    },
-    {
-      "id": "e4f9dd4a-892d-41be-a3f1-2907eeda6a50",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "US, China partner on scam center takedown in Dubai",
-      "summary": "U.S. and Chinese authorities collaborated to dismantle a cryptocurrency investment fraud operation based in Dubai after it caused millions in losses for American victims. The operation followed extensive investigations and numerous complaints filed with the FBI.",
-      "date": "2026-04-29T20:51:00.000Z",
-      "link": "https://therecord.media/us-china-partner-on-dubai-scam-compound-takedown",
-      "isTopTen": false
-    },
-    {
-      "id": "40e70499-a772-4e1b-a0e8-06d3b65ce19b",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
-      "summary": "Hackers are actively exploiting authentication bypass vulnerabilities in the Qinglong task scheduling tool to execute remote code and install cryptomining software on developer servers.",
-      "date": "2026-04-29T20:50:35.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
-      "isTopTen": false
-    },
-    {
-      "id": "542eeab7-6254-48b5-b8c3-da93d42462bd",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Researchers move in the right direction, develop powerful GPS interference alarm",
-      "summary": "Researchers have developed a new, highly effective detection system designed to alert users to GPS signal interference. This innovation enhances situational awareness for technologies reliant on satellite-based positioning systems.",
-      "date": "2026-04-29T20:11:05.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/boffins_new_gps_interference_alarm/",
       "isTopTen": false
     }
   ]
