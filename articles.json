@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-05-13T20:05:51.556Z",
+  "lastUpdated": "2026-05-13T22:21:04.239Z",
   "articles": [
+    {
+      "id": "cb0d338c-34d3-4ce1-98ca-abfcd901f6b6",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Closed briefing sets stage for House hearing on Anthropic’s Mythos and cyber risks",
+      "summary": "The U.S. House of Representatives held a closed briefing with Anthropic regarding potential cybersecurity risks associated with its AI model, Mythos, as part of ongoing oversight efforts.",
+      "date": "2026-05-13T22:10:00.000Z",
+      "link": "https://cyberscoop.com/house-homeland-security-briefing-anthropic-mythos-cyber-risks/",
+      "isTopTen": false
+    },
+    {
+      "id": "967bc1a9-d331-4fc8-a8ab-ae8273b031b0",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Iranian hackers targeted major South Korean electronics maker",
+      "summary": "The Iranian state-sponsored group MuddyWater has initiated a widespread cyber-espionage campaign targeting multiple high-profile organizations, including a major South Korean electronics manufacturer.",
+      "date": "2026-05-13T21:59:33.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
+      "isTopTen": true
+    },
+    {
+      "id": "f5558151-17e7-459d-99e2-b7d1023fbfcb",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Instructure Reaches Deal with ShinyHunters to Prevent Canvas Data Leak",
+      "summary": "Instructure has negotiated a deal with the threat actor group ShinyHunters to secure the return and deletion of stolen Canvas data, averting a mass exposure of student records. The incident highlights a significant breach involving millions of user accounts.",
+      "date": "2026-05-13T21:10:04.000Z",
+      "link": "https://hackread.com/instructure-shinyhunters-deal-prevent-canvas-data-leak/",
+      "isTopTen": true
+    },
+    {
+      "id": "a5607871-6221-4a5d-a888-fc82e895e8f9",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New critical Exim mailer flaw allows remote code execution",
+      "summary": "A critical vulnerability in the Exim mail transfer agent enables unauthenticated remote attackers to execute arbitrary code on affected systems. This flaw poses a significant security risk for organizations running specific Exim configurations.",
+      "date": "2026-05-13T20:23:50.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
+      "isTopTen": true
+    },
+    {
+      "id": "c36b32c1-b30e-4745-8c83-a26ef46ffe62",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Bug hunter tracks down three massive MCP flaws and one vendor won't fix theirs",
+      "summary": "Three significant vulnerabilities were discovered in Apache and Alibaba database management software. While patches are available for most, one affected vendor has refused to address their respective security flaw.",
+      "date": "2026-05-13T20:17:24.000Z",
+      "link": "https://www.theregister.com/security/2026/05/13/bug-hunter-tracks-down-three-serious-mcp-database-flaws-one-left-unpatched/5238916",
+      "isTopTen": false
+    },
+    {
+      "id": "61eb6790-c491-4675-a829-68e8e572378d",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "DOJ releases legal rationale for nationwide voter data collection",
+      "summary": "The Department of Justice has published a legal memorandum asserting federal authority to collect and vet nationwide voter data, a move that has met with immediate skepticism and criticism from state-level election officials.",
+      "date": "2026-05-13T20:10:21.000Z",
+      "link": "https://cyberscoop.com/federal-voter-data-collection-doj-legal-memo/",
+      "isTopTen": false
+    },
     {
       "id": "67753401-f672-459e-afec-1a4d75a54968",
       "source": "The Record",
@@ -13,6 +79,17 @@
       "isTopTen": false
     },
     {
+      "id": "f358abfb-ea07-4b3f-a066-70307094b9ac",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Patch Tuesday for May 2026 fix 138 bugs, some of them are alarming",
+      "summary": "Microsoft's May 2026 Patch Tuesday addressed 138 vulnerabilities across its software ecosystem, including 30 critical flaws. This significant update highlights the extensive maintenance required for the company's diverse product portfolio.",
+      "date": "2026-05-13T19:28:12.000Z",
+      "link": "https://securityaffairs.com/192086/uncategorized/microsoft-patch-tuesday-for-may-2026-fix-138-bugs-some-of-them-are-alarming.html",
+      "isTopTen": false
+    },
+    {
       "id": "b536ff2b-9974-46d1-bd92-e86ce8c195e0",
       "source": "Security Affairs",
       "tag": "Breaches and Incidents",
@@ -21,7 +98,7 @@
       "summary": "Telehealth infrastructure firm OpenLoop Health confirmed a January 2026 data breach that exposed the personal information of 716,000 individuals. The incident involved the exfiltration of sensitive data, with the full extent of the impact determined months after the initial attack.",
       "date": "2026-05-13T18:45:13.000Z",
       "link": "https://securityaffairs.com/192066/uncategorized/openloop-health-confirms-january-2026-data-breach-affecting-716000.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b8008649-83d2-4e87-b649-8573e51f3efa",
@@ -109,7 +186,7 @@
       "summary": "The threat actor TeamPCP compromised over 400 npm and PyPI packages by hijacking OIDC tokens to distribute the self-propagating Mini Shai-Hulud malware. This supply chain attack targeted popular libraries from TanStack, Mistral AI, and UiPath.",
       "date": "2026-05-13T15:18:47.000Z",
       "link": "https://hackread.com/teampcp-mini-shai-hulud-worm-npm-pypi-packages/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d61f35e6-300c-41d8-bf91-26aa5350b1ad",
@@ -318,7 +395,7 @@
       "summary": "Microsoft addressed 138 vulnerabilities across its product portfolio, including critical DNS and Netlogon RCE flaws, though none are currently reported as under active exploitation.",
       "date": "2026-05-13T10:36:10.000Z",
       "link": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b95234fb-6749-4c29-982a-c4162b868ad8",
@@ -384,7 +461,7 @@
       "summary": "The hacking group TeamPCP has publicly released the source code for its 'Shai-Hulud' worm on GitHub, making the malicious tool widely accessible. The code remains available on the platform despite potential policy violations.",
       "date": "2026-05-13T06:23:32.000Z",
       "link": "https://www.theregister.com/security/2026/05/13/malware-crew-teampcp-open-sources-its-shai-hulud-worm-on-github/5239319",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0900d66d-b9c0-4f40-97ee-c9575140e6b1",
@@ -516,7 +593,7 @@
       "summary": "A large-scale supply-chain attack involving 'Mini Shai-Hulud' malware has compromised hundreds of open-source packages by leveraging legitimate release signatures. The incident highlights the growing threat of attackers weaponizing the software update process to distribute malicious code.",
       "date": "2026-05-12T21:38:44.000Z",
       "link": "https://cyberscoop.com/mini-shai-hulud-supply-chain-malware-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "01c03bf8-efa3-4588-b09d-0be20c3ab952",
@@ -538,7 +615,7 @@
       "summary": "The G7 nations have released a new set of guidelines outlining the key elements required for the responsible development and deployment of artificial intelligence. Experts generally support the initiative while noting that the framework still requires further refinement.",
       "date": "2026-05-12T21:09:36.000Z",
       "link": "https://cyberscoop.com/g7-cisa-ai-sbom-security-guidance/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "23c988c8-6dda-4fec-84d4-6afcdb641f30",
@@ -758,7 +835,7 @@
       "summary": "The Pwn2Own Berlin 2026 competition reached full capacity, causing excluded researchers to publicly release zero-day vulnerabilities affecting Firefox, NVIDIA, and AI platforms. This disclosure poses an immediate risk to users of these technologies due to the availability of unpatched exploits.",
       "date": "2026-05-12T16:41:26.000Z",
       "link": "https://hackread.com/pwn2own-berlin-2026-hits-capacity-hackers-0-days/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3191633a-9de5-4f67-9653-8b035536be1e",
@@ -5422,83 +5499,6 @@
       "summary": "Teleport CEO Ev Kontsevoy advocates for consolidating fragmented identity systems into a single identity layer to improve security and visibility across distributed infrastructure. This approach emphasizes reducing credentials and entry points to better manage modern cloud and Kubernetes environments.",
       "date": "2026-05-01T05:00:15.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/01/teleport-ceo-distributed-infrastructure-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "4a153148-937d-4c1e-aae0-8e8f6f0203a1",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AI traffic is getting bigger, louder, and less predictable",
-      "summary": "The surge in AI model lifecycle workflows is shifting network traffic toward high-bandwidth, concentrated data flows between fewer endpoints. This transition in data movement patterns requires updated infrastructure strategies to handle increasingly unpredictable and massive AI-driven workloads.",
-      "date": "2026-05-01T04:30:02.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/01/backblaze-ai-network-traffic-trends-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "8cfbc703-f8be-4c04-b621-bc2454eb93ce",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the month: April 2026",
-      "summary": "This article highlights recent cybersecurity product releases from April 2026, specifically detailing Mallory's new AI-native platform for contextualized threat intelligence and attack surface management.",
-      "date": "2026-05-01T04:00:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/01/new-infosec-products-of-the-month-april-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "2837ae04-9484-4adf-af24-a5061c389c69",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Former incident responders sentenced to 4 years in prison for committing ransomware attacks",
-      "summary": "Two former incident responders were sentenced to four years in prison for executing ransomware attacks against five companies and extorting $1.3 million. The case highlights a significant insider threat involving cybersecurity professionals abusing their expertise for criminal gain.",
-      "date": "2026-04-30T23:29:01.000Z",
-      "link": "https://cyberscoop.com/incident-responders-ryan-goldberg-kevin-martin-sentenced-ransomware/",
-      "isTopTen": false
-    },
-    {
-      "id": "8f130f01-314d-4d29-9f4e-97f766d33f28",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The never-ending supply chain attacks worm into SAP npm packages, other dev tools",
-      "summary": "Malicious actors are increasingly targeting software supply chains by injecting malicious code into npm packages and common development tools, including those used for SAP environments. These attacks exploit the trusted relationships within development ecosystems to distribute malware or compromise software build processes.",
-      "date": "2026-04-30T23:21:53.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
-      "isTopTen": false
-    },
-    {
-      "id": "3c9c5b97-7547-4992-9d88-a90593d85f5c",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "That AI Extension Helping You Write Emails? It’s Reading Them First",
-      "summary": "Unit 42 researchers have identified malicious AI-powered browser extensions masquerading as productivity tools that are actively stealing user data, including passwords and email content. These extensions pose a significant threat by intercepting sensitive information through compromised browser permissions.",
-      "date": "2026-04-30T22:00:57.000Z",
-      "link": "https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/",
-      "isTopTen": false
-    },
-    {
-      "id": "d9e2bb17-9897-4b8f-add6-ad1143267c24",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "FCC tightens KYC rules for telecoms, closes loophole for banned foreign services",
-      "summary": "The FCC has updated its KYC requirements for telecommunications providers to better verify callers and block illegal foreign-originating scam calls. This regulatory action aims to strengthen the security of the U.S. telecommunications infrastructure against fraud.",
-      "date": "2026-04-30T21:46:34.000Z",
-      "link": "https://cyberscoop.com/fcc-know-your-customer-supply-chain-security-rules/",
-      "isTopTen": false
-    },
-    {
-      "id": "35555869-6005-411f-b817-c7829c026cc1",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Private Chats, Photos of Celebs Exposed in Suspected Stalkerware Leak",
-      "summary": "Sensitive private data belonging to celebrities and influencers was exposed due to a misconfigured database associated with suspected stalkerware. The leak compromised personal messages and media files stored by the insecure application.",
-      "date": "2026-04-30T21:24:19.000Z",
-      "link": "https://hackread.com/private-chats-photos-celebs-expose-stalkerware-leak/",
       "isTopTen": false
     }
   ]
