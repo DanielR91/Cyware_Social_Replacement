@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-05-14T19:58:33.341Z",
+  "lastUpdated": "2026-05-14T22:18:03.763Z",
   "articles": [
+    {
+      "id": "04f78cf9-dbc4-4d83-a2f3-9e87a967f2d3",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+      "summary": "Hackers are actively exploiting a critical authentication bypass vulnerability in the Burst Statistics WordPress plugin to gain unauthorized administrator access. Users are advised to update the plugin immediately to mitigate the risk of compromise.",
+      "date": "2026-05-14T21:07:17.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+      "isTopTen": true
+    },
+    {
+      "id": "e81dae5d-9565-4fe0-8357-49a64be5a76a",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Pentagon cyber official calls advanced AI ‘revolutionary warfare’",
+      "summary": "Paul Lyons, a senior Pentagon cyber policy official, highlighted the revolutionary impact of advanced AI on modern warfare while emphasizing the strategic importance of cyber offensive capabilities.",
+      "date": "2026-05-14T20:35:59.000Z",
+      "link": "https://cyberscoop.com/pentagon-cyber-ai-revolutionary-warfare-mythos/",
+      "isTopTen": false
+    },
+    {
+      "id": "87309777-f5d4-48b6-8b1a-1f74ad6e6f5c",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenAI asks macOS users to update after TanStack npm supply chain attack",
+      "summary": "OpenAI has advised macOS users to update their software following a supply chain attack targeting the popular TanStack library and other AI-related npm and PyPI packages. This incident is part of an ongoing campaign affecting multiple AI companies through malicious open-source dependencies.",
+      "date": "2026-05-14T20:26:00.000Z",
+      "link": "https://therecord.media/openai-asks-macos-users-to-update-tanstack-npm",
+      "isTopTen": false
+    },
+    {
+      "id": "98ebf84a-42fb-429d-a9dd-c1a2f822d541",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "White House cyber official: identity security matters more than ever in the age of AI",
+      "summary": "A White House official highlighted that robust identity security is critical to mitigating the heightened cyber threats posed by AI tools. The official emphasized that AI-driven attacks often exploit fundamental weaknesses in organizational identity management.",
+      "date": "2026-05-14T20:15:21.000Z",
+      "link": "https://cyberscoop.com/white-house-federal-identity-security-ai-risks/",
+      "isTopTen": false
+    },
+    {
+      "id": "7ea050e4-8208-43de-827a-ac55fb67f227",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+      "summary": "Cisco has issued an urgent warning regarding a critical authentication bypass vulnerability, CVE-2026-20182, in its Catalyst SD-WAN Controller that is being actively exploited in the wild. This flaw allows unauthorized attackers to escalate privileges and gain administrative control over affected devices.",
+      "date": "2026-05-14T20:09:56.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+      "isTopTen": true
+    },
     {
       "id": "9ae7d6cd-0b9d-4e0b-9747-6b440217f248",
       "source": "BleepingComputer",
@@ -21,7 +76,7 @@
       "summary": "Security researchers successfully demonstrated exploits for 24 unique zero-day vulnerabilities in Windows 11 and Microsoft Edge during the first day of the Pwn2Own Berlin 2026 competition. The event resulted in $523,000 in payouts for the identified flaws.",
       "date": "2026-05-14T18:53:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "48392c8b-f6d5-4bf2-b742-1629a28176ca",
@@ -32,7 +87,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -54,7 +109,7 @@
       "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
       "date": "2026-05-14T17:57:14.000Z",
       "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
@@ -318,7 +373,7 @@
       "summary": "A new Linux kernel vulnerability dubbed Fragnesia allows attackers to achieve root-level privilege escalation by exploiting flaws in memory and page-cache handling. The vulnerability is considered dangerous due to the availability of reliable, public exploit code.",
       "date": "2026-05-14T10:01:52.000Z",
       "link": "https://www.theregister.com/security/2026/05/14/dirty-frag-gets-a-sequel-as-fragnesia-hands-linux-attackers-root-level-access/5240270",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5e4f0f73-4e4d-4a5e-ac80-655354c93d90",
@@ -340,7 +395,7 @@
       "summary": "A security researcher known as Chaotic Eclipse has disclosed two new Windows zero-day vulnerabilities, codenamed YellowKey and GreenPlasma, which enable BitLocker bypasses and privilege escalation via the CTFMON framework.",
       "date": "2026-05-14T09:25:50.000Z",
       "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c0845655-8cff-4652-951b-f66ca5e0bade",
@@ -516,7 +571,7 @@
       "summary": "The threat actor TeamPCP is reportedly selling stolen Mistral AI repositories following the Mini Shai-Hulud supply chain attack on npm and PyPI. This incident highlights a significant breach involving both malicious packages and the compromise of proprietary source code.",
       "date": "2026-05-14T00:37:05.000Z",
       "link": "https://hackread.com/teampcp-mistral-ai-repositories-mini-shai-hulud-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d7dc6cde-24f1-4ac7-85ca-0aca4f309e82",
@@ -549,7 +604,7 @@
       "summary": "Two independent studies report that advanced AI models, specifically Claude Mythos Preview and GPT-5.5, have significantly outperformed all established benchmarks for autonomous cyber capability. The sudden surge in performance has left researchers uncertain whether this represents a sustainable new standard or a singular anomaly.",
       "date": "2026-05-13T22:29:19.000Z",
       "link": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "18ac5cca-3a3b-4155-b1aa-0e1a1eece907",
@@ -604,7 +659,7 @@
       "summary": "A critical vulnerability in the Exim mail transfer agent enables unauthenticated remote attackers to execute arbitrary code on affected systems. This flaw poses a significant security risk for organizations running specific Exim configurations.",
       "date": "2026-05-13T20:23:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c36b32c1-b30e-4745-8c83-a26ef46ffe62",
@@ -692,7 +747,7 @@
       "summary": "A security researcher released proof-of-concept exploits for two unpatched Windows vulnerabilities, YellowKey and GreenPlasma, which allow attackers to bypass BitLocker encryption and escalate privileges. These flaws currently remain unpatched by Microsoft.",
       "date": "2026-05-13T16:37:49.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2f0df5ae-0a4d-4344-be79-7f22e4ba811f",
@@ -747,7 +802,7 @@
       "summary": "The threat actor TeamPCP compromised over 400 npm and PyPI packages by hijacking OIDC tokens to distribute the self-propagating Mini Shai-Hulud malware. This supply chain attack targeted popular libraries from TanStack, Mistral AI, and UiPath.",
       "date": "2026-05-13T15:18:47.000Z",
       "link": "https://hackread.com/teampcp-mini-shai-hulud-worm-npm-pypi-packages/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d61f35e6-300c-41d8-bf91-26aa5350b1ad",
@@ -5444,61 +5499,6 @@
       "summary": "The Chinese-linked threat actor Salt Typhoon breached IBM Italy subsidiary Sistemi Informativi in April 2026, compromising critical IT infrastructure for major public and private institutions. This incident underscores significant vulnerabilities in European digital security against state-sponsored espionage operations.",
       "date": "2026-05-03T20:56:00.000Z",
       "link": "https://securityaffairs.com/191638/apt/salt-typhoon-breach-ibm-subsidiary-in-italy-a-warning-for-europes-digital-defenses.html",
-      "isTopTen": false
-    },
-    {
-      "id": "06024360-5097-4b05-bd14-62652b36f3a1",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
-      "summary": "Microsoft Defender is incorrectly identifying legitimate DigiCert root certificates as malicious, causing false-positive detections and the inadvertent removal of valid security files on Windows systems.",
-      "date": "2026-05-03T18:11:25.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
-      "isTopTen": false
-    },
-    {
-      "id": "7b37e2f8-f98b-4de9-be3d-a357b5fb56f7",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Paying Ransom Won’t Help as VECT 2.0 Ransomware Destroys Data Irreversibly",
-      "summary": "VECT 2.0 ransomware features critical flaws that cause irreversible data destruction, ensuring that ransom payments cannot facilitate file recovery. Victims are warned that data loss is permanent regardless of payment.",
-      "date": "2026-05-03T16:07:49.000Z",
-      "link": "https://hackread.com/paying-ransom-vect-2-0-ransomware-destroys-data/",
-      "isTopTen": false
-    },
-    {
-      "id": "f9ba698c-1ef4-4483-b115-34465f51f1e3",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 95",
-      "summary": "This newsletter provides a compilation of significant malware research and security reports, covering topics such as historical software sabotage, malicious VSX extensions, and new attack vectors like CapFix.",
-      "date": "2026-05-03T15:38:40.000Z",
-      "link": "https://securityaffairs.com/191623/malware/security-affairs-malware-newsletter-round-95.html",
-      "isTopTen": false
-    },
-    {
-      "id": "129d826a-a5a6-4e48-8d5b-8d8863a40144",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds a flaw in WebPros cPanel to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added a high-severity vulnerability in WebPros cPanel to its Known Exploited Vulnerabilities catalog, signaling active exploitation in the wild. Organizations using cPanel are urged to apply necessary security updates to mitigate potential risks.",
-      "date": "2026-05-03T14:39:51.000Z",
-      "link": "https://securityaffairs.com/191613/hacking/u-s-cisa-adds-a-flaw-in-webpros-cpanel-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3985d834-da9b-4c74-bdf1-5ccf7a51fbac",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
-      "summary": "Cybersecurity researchers have identified a widespread fraud campaign exploiting Telegram's Mini Apps platform to facilitate cryptocurrency scams, brand impersonation, and the distribution of Android malware. The campaign leverages the platform's features to deceive users on a large scale.",
-      "date": "2026-05-03T14:11:21.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
       "isTopTen": false
     }
   ]
