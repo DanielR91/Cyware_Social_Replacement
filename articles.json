@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-05-13T22:21:04.239Z",
+  "lastUpdated": "2026-05-14T03:53:00.357Z",
   "articles": [
+    {
+      "id": "ed47e6eb-3bb7-4471-9d3e-b63b7573b192",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cisco to fire 4,000 staff and generously give them free training – on Cisco",
+      "summary": "Cisco has announced a workforce reduction of 4,000 employees as part of a cost-cutting strategy while offering internal training programs to those affected. This organizational restructuring reflects a shift in resource allocation aimed at optimizing hardware development.",
+      "date": "2026-05-14T03:32:53.000Z",
+      "link": "https://www.theregister.com/networks/2026/05/14/cisco-to-fire-4000-staff-and-generously-give-them-free-training-on-cisco/5240125",
+      "isTopTen": false
+    },
+    {
+      "id": "906afc48-7cce-4f36-bed8-d2576704601f",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "TeamPCP Claims Sale of Mistral AI Repositories Amid Mini Shai-Hulud Attack",
+      "summary": "The threat actor TeamPCP is reportedly selling stolen Mistral AI repositories following the Mini Shai-Hulud supply chain attack on npm and PyPI. This incident highlights a significant breach involving both malicious packages and the compromise of proprietary source code.",
+      "date": "2026-05-14T00:37:05.000Z",
+      "link": "https://hackread.com/teampcp-mistral-ai-repositories-mini-shai-hulud-attack/",
+      "isTopTen": true
+    },
+    {
+      "id": "d7dc6cde-24f1-4ac7-85ca-0aca4f309e82",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Welcome to the vulnpocalypse, as vendors use AI to find bugs and patches multiply like rabbits",
+      "summary": "The integration of AI into vulnerability research is significantly increasing the volume of discovered software flaws, leading to a surge in mandatory patches for organizations. This trend suggests a shift toward a more rapid, high-frequency patch management environment.",
+      "date": "2026-05-13T23:27:50.000Z",
+      "link": "https://www.theregister.com/patches/2026/05/14/welcome-to-the-vulnpocalypse-as-vendors-use-ai-to-find-bugs-and-patches-multiply-like-rabbits/5240027",
+      "isTopTen": true
+    },
+    {
+      "id": "37b2a54d-cc42-4f82-8a49-4b092b632cb6",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "AWS to Quick admins: The access control didn't work, but you weren't using it anyway, so what's the problem?",
+      "summary": "AWS informed administrators that a specific access control mechanism was faulty, while simultaneously noting that the feature was not actively being used, effectively downplaying the technical failure.",
+      "date": "2026-05-13T22:56:41.000Z",
+      "link": "https://www.theregister.com/paas-and-iaas/2026/05/13/aws-patched-quick-auth-bypass-says-customers-werent-using-control/5240041",
+      "isTopTen": false
+    },
+    {
+      "id": "f0e23a20-6087-43a6-bdbe-d97d0f3849d2",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Researchers say AI just broke every benchmark for autonomous cyber capability",
+      "summary": "Two independent studies report that advanced AI models, specifically Claude Mythos Preview and GPT-5.5, have significantly outperformed all established benchmarks for autonomous cyber capability. The sudden surge in performance has left researchers uncertain whether this represents a sustainable new standard or a singular anomaly.",
+      "date": "2026-05-13T22:29:19.000Z",
+      "link": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/",
+      "isTopTen": true
+    },
+    {
+      "id": "18ac5cca-3a3b-4155-b1aa-0e1a1eece907",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
+      "summary": "West Pharmaceutical Services suffered a cyberattack involving unauthorized data exfiltration and the encryption of internal systems. The incident resulted in significant operational disruption and a breach of sensitive data.",
+      "date": "2026-05-13T22:23:31.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+      "isTopTen": false
+    },
     {
       "id": "cb0d338c-34d3-4ce1-98ca-abfcd901f6b6",
       "source": "CyberScoop",
@@ -21,7 +87,7 @@
       "summary": "The Iranian state-sponsored group MuddyWater has initiated a widespread cyber-espionage campaign targeting multiple high-profile organizations, including a major South Korean electronics manufacturer.",
       "date": "2026-05-13T21:59:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f5558151-17e7-459d-99e2-b7d1023fbfcb",
@@ -109,7 +175,7 @@
       "summary": "The rise of weaponized AI is driving a surge in identity fraud, necessitating a shift from static security measures to agile, AI-driven defense systems. Organizations must adopt rapid-iteration security models to mitigate the projected $40 billion in financial losses.",
       "date": "2026-05-13T18:30:00.000Z",
       "link": "https://cyberscoop.com/ai-generated-fraud-identity-spoofing-defense-strategy/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4a0ec848-d9f8-418c-837a-5c1bd1582812",
@@ -186,7 +252,7 @@
       "summary": "The threat actor TeamPCP compromised over 400 npm and PyPI packages by hijacking OIDC tokens to distribute the self-propagating Mini Shai-Hulud malware. This supply chain attack targeted popular libraries from TanStack, Mistral AI, and UiPath.",
       "date": "2026-05-13T15:18:47.000Z",
       "link": "https://hackread.com/teampcp-mini-shai-hulud-worm-npm-pypi-packages/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d61f35e6-300c-41d8-bf91-26aa5350b1ad",
@@ -230,7 +296,7 @@
       "summary": "A critical vulnerability, CVE-2025-32975, has been identified in the Quest KACE SMA endpoint management platform, potentially allowing attackers to compromise all systems managed by affected organizations. The flaw poses a significant risk due to the widespread control provided by the software.",
       "date": "2026-05-13T13:24:36.000Z",
       "link": "https://securityaffairs.com/192067/security/quest-kace-sma-flaw-cve-2025-32975-when-one-unpatched-tool-opens-the-door-to-60-organizations.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a39c190-0886-41ce-a030-bae32c062efb",
@@ -263,7 +329,7 @@
       "summary": "An unnamed Azerbaijani energy company was targeted in a multi-wave intrusion by the China-linked threat actor FamousSparrow using Microsoft Exchange vulnerabilities. The campaign, occurring between late 2025 and early 2026, signals an expansion in the group's targeting scope.",
       "date": "2026-05-13T13:00:00.000Z",
       "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "187b2c91-9b8d-4ba3-a6a1-cd2a79a4a648",
@@ -472,7 +538,7 @@
       "summary": "Fortinet has released patches for critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable remote code execution on unpatched systems. Attackers can exploit these flaws, including an improper access control issue, to execute arbitrary commands.",
       "date": "2026-05-13T06:22:55.000Z",
       "link": "https://securityaffairs.com/192047/security/critical-fortinet-vulnerabilities-fixed-in-fortisandbox-and-fortiauthenticator.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9eb2e3e4-b7c3-4c95-aad5-0cf798837bf7",
@@ -505,7 +571,7 @@
       "summary": "The rapid adoption of AI agents and non-human identities is creating significant security risks due to persistent, privileged access that lacks necessary oversight and audit trails. Organizations must address these gaps to prevent potential exploitation of these unsecured machine identities.",
       "date": "2026-05-13T05:00:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/13/hidden-risk-non-human-identities-ai-adoption/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a415e02-916c-45c5-9b18-e320526f402b",
@@ -593,7 +659,7 @@
       "summary": "A large-scale supply-chain attack involving 'Mini Shai-Hulud' malware has compromised hundreds of open-source packages by leveraging legitimate release signatures. The incident highlights the growing threat of attackers weaponizing the software update process to distribute malicious code.",
       "date": "2026-05-12T21:38:44.000Z",
       "link": "https://cyberscoop.com/mini-shai-hulud-supply-chain-malware-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01c03bf8-efa3-4588-b09d-0be20c3ab952",
@@ -615,7 +681,7 @@
       "summary": "The G7 nations have released a new set of guidelines outlining the key elements required for the responsible development and deployment of artificial intelligence. Experts generally support the initiative while noting that the framework still requires further refinement.",
       "date": "2026-05-12T21:09:36.000Z",
       "link": "https://cyberscoop.com/g7-cisa-ai-sbom-security-guidance/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "23c988c8-6dda-4fec-84d4-6afcdb641f30",
@@ -5433,72 +5499,6 @@
       "summary": "The UK Home Office has increased the value of a pending travel document contract by £216 million before initiating the formal bidding process. This decision raises concerns regarding procurement transparency and potential financial mismanagement within government infrastructure projects.",
       "date": "2026-05-01T09:15:06.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/passport_to_home_office_adds/",
-      "isTopTen": false
-    },
-    {
-      "id": "0513ad98-aed8-434e-9252-b0e20b928d3f",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Anthropic launches Claude Security to counter rapid AI-Powered exploits",
-      "summary": "Anthropic has introduced Claude Security, a defensive tool designed to help organizations detect and mitigate the rapid increase in AI-driven cyberattacks. This launch comes in response to emerging malicious models like Mythos that enable near-instant exploitation of vulnerabilities.",
-      "date": "2026-05-01T09:15:02.000Z",
-      "link": "https://securityaffairs.com/191532/ai/anthropic-launches-claude-security-to-counter-rapid-ai-powered-exploits.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6a3c5072-ce55-4a8e-a1c9-f9be713bc1a4",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "SonicWall patches three SonicOS flaws in Gen 6, 7 and 8 firewalls. Patch them now",
-      "summary": "SonicWall has released urgent firmware updates to address three vulnerabilities across Gen 6, 7, and 8 firewalls that could lead to unauthorized access and security control bypass. Administrators are advised to apply these patches immediately.",
-      "date": "2026-05-01T08:42:36.000Z",
-      "link": "https://securityaffairs.com/191527/security/sonicwall-patches-three-sonicos-flaws-in-gen-6-7-and-8-firewalls-patch-them-now.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1d6358d9-b424-4529-be94-6dec5c36f2c1",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Best Diagram Software in 2026, Why EdrawMax Works for Everyday Use",
-      "summary": "The article evaluates top diagramming software for 2026, highlighting Wondershare EdrawMax for its AI-powered features and template library.",
-      "date": "2026-05-01T07:03:29.000Z",
-      "link": "https://hackread.com/best-diagram-software-2026-edrawmax/",
-      "isTopTen": false
-    },
-    {
-      "id": "8e98e928-f759-4564-b475-ee5ce9ec8ad7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Open-source privacy proxy masks PII before prompts reach external AI services",
-      "summary": "Dataiku has released Kiji Privacy Proxy, an open-source tool designed to detect and mask personally identifiable information (PII) in prompts before they are sent to external AI APIs. This solution helps enterprise developers prevent accidental data leakage when interacting with third-party large language models.",
-      "date": "2026-05-01T06:00:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/01/open-source-pii-privacy-proxy/",
-      "isTopTen": false
-    },
-    {
-      "id": "f7e4dd34-5c3a-4274-95df-4cffdce3e6c0",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Shadow AI risks deepen as 31% of users get no employer training",
-      "summary": "A global survey reveals that up to one-third of employees use AI tools without employer oversight or training, creating significant security gaps. This trend of 'Shadow AI' highlights a growing misalignment between rapid workforce adoption and corporate governance controls.",
-      "date": "2026-05-01T05:30:46.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/01/shadow-ai-risks-it-oversight/",
-      "isTopTen": false
-    },
-    {
-      "id": "a4335246-a6d1-4b62-9552-236fc43cf901",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Identity is the control plane for distributed infrastructure",
-      "summary": "Teleport CEO Ev Kontsevoy advocates for consolidating fragmented identity systems into a single identity layer to improve security and visibility across distributed infrastructure. This approach emphasizes reducing credentials and entry points to better manage modern cloud and Kubernetes environments.",
-      "date": "2026-05-01T05:00:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/01/teleport-ceo-distributed-infrastructure-video/",
       "isTopTen": false
     }
   ]
