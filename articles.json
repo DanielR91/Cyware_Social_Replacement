@@ -1,6 +1,105 @@
 {
-  "lastUpdated": "2026-05-14T17:09:34.013Z",
+  "lastUpdated": "2026-05-14T19:58:33.341Z",
   "articles": [
+    {
+      "id": "9ae7d6cd-0b9d-4e0b-9747-6b440217f248",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "OpenAI confirms security breach in TanStack supply chain attack",
+      "summary": "OpenAI confirmed that two employee devices were compromised as part of a larger supply chain attack involving malicious npm and PyPI packages. In response, the company rotated its code-signing certificates to mitigate potential downstream risks.",
+      "date": "2026-05-14T19:07:24.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "5f90fd8b-c841-4e55-a556-f77546c2694d",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
+      "summary": "Security researchers successfully demonstrated exploits for 24 unique zero-day vulnerabilities in Windows 11 and Microsoft Edge during the first day of the Pwn2Own Berlin 2026 competition. The event resulted in $523,000 in payouts for the identified flaws.",
+      "date": "2026-05-14T18:53:50.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
+      "isTopTen": true
+    },
+    {
+      "id": "48392c8b-f6d5-4bf2-b742-1629a28176ca",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a flaw in Cisco Catalyst SD-WAN  to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
+      "date": "2026-05-14T18:35:43.000Z",
+      "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "03222039-b843-49c7-8158-80b1801c90ba",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "ODNI taps officials to coordinate response to foreign election threats",
+      "summary": "The Director of National Intelligence has appointed two officials to oversee cross-agency efforts to monitor and mitigate foreign interference threats ahead of the 2026 U.S. elections.",
+      "date": "2026-05-14T18:21:00.000Z",
+      "link": "https://therecord.media/odni-taps-officials-to-coordinate-response-to-election-threats",
+      "isTopTen": false
+    },
+    {
+      "id": "7d8b758d-7a26-40da-a8d1-d32e937d3545",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Linux Kernel bug Fragnesia allows local root access attacks",
+      "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
+      "date": "2026-05-14T17:57:14.000Z",
+      "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
+      "isTopTen": true
+    },
+    {
+      "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+      "summary": "Cisco has released patches for a critical authentication bypass vulnerability in its Catalyst SD-WAN Controller, which is currently being exploited in targeted attacks. The flaw, assigned CVE-2026-20182, holds a maximum CVSS score of 10.0 and allows unauthorized administrative access.",
+      "date": "2026-05-14T17:45:20.000Z",
+      "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d3296b12-a899-4d91-bf7a-4ad4e1152c9d",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake Job Interview Apps Drop JobStealer Malware on Windows and macOS",
+      "summary": "Threat actors are distributing the JobStealer malware via fraudulent job interview applications on both Windows and macOS platforms. The malware is designed to exfiltrate sensitive data, including cryptocurrency wallets, browser credentials, and passwords.",
+      "date": "2026-05-14T17:25:10.000Z",
+      "link": "https://hackread.com/fake-job-interview-jobstealer-malware-windows-macos/",
+      "isTopTen": false
+    },
+    {
+      "id": "07a2bb6e-4fb6-418f-9bcd-04f1a101461b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+      "summary": "Malicious code has been discovered in three versions of the popular npm package node-ipc, which are designed to steal developer secrets. The affected versions include 9.1.6, 9.2.3, and 12.0.1.",
+      "date": "2026-05-14T17:22:43.000Z",
+      "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ca8e5c2a-580c-4c7a-9c2e-cbe465fb089b",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+      "summary": "Service busy.",
+      "date": "2026-05-14T16:07:46.000Z",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+      "isTopTen": false
+    },
     {
       "id": "71db63dd-5954-4bb8-8484-2821aef6f1f1",
       "source": "Security Affairs",
@@ -142,7 +241,7 @@
       "summary": "Threat actors began exploiting the PraisonAI authentication bypass vulnerability (CVE-2026-44338) just four hours after its public disclosure. The vulnerability allows unauthorized access to sensitive endpoints within the multi-agent orchestration framework.",
       "date": "2026-05-14T11:40:14.000Z",
       "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f06b16dc-7a19-4d48-9364-522faf1f3f96",
@@ -153,7 +252,7 @@
       "summary": "AI hallucinations pose significant security threats to critical infrastructure by generating confident but inaccurate information that users may trust. This lack of reliability in decision-making processes creates vulnerabilities when systems fail to identify and flag uncertain outputs.",
       "date": "2026-05-14T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "55c251b1-4ed2-4179-9825-5a1725a6a359",
@@ -241,7 +340,7 @@
       "summary": "A security researcher known as Chaotic Eclipse has disclosed two new Windows zero-day vulnerabilities, codenamed YellowKey and GreenPlasma, which enable BitLocker bypasses and privilege escalation via the CTFMON framework.",
       "date": "2026-05-14T09:25:50.000Z",
       "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c0845655-8cff-4652-951b-f66ca5e0bade",
@@ -296,7 +395,7 @@
       "summary": "The newly identified Fragnesia vulnerability (CVE-2026-46300) is a Linux kernel local privilege escalation flaw that allows attackers to gain root access through XFRM-related page cache corruption. It is the third such kernel bug discovered in a two-week period.",
       "date": "2026-05-14T07:06:15.000Z",
       "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5acde574-0a10-442c-b065-3e6c255d9866",
@@ -494,7 +593,7 @@
       "summary": "Instructure has negotiated a deal with the threat actor group ShinyHunters to secure the return and deletion of stolen Canvas data, averting a mass exposure of student records. The incident highlights a significant breach involving millions of user accounts.",
       "date": "2026-05-13T21:10:04.000Z",
       "link": "https://hackread.com/instructure-shinyhunters-deal-prevent-canvas-data-leak/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a5607871-6221-4a5d-a888-fc82e895e8f9",
@@ -505,7 +604,7 @@
       "summary": "A critical vulnerability in the Exim mail transfer agent enables unauthenticated remote attackers to execute arbitrary code on affected systems. This flaw poses a significant security risk for organizations running specific Exim configurations.",
       "date": "2026-05-13T20:23:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c36b32c1-b30e-4745-8c83-a26ef46ffe62",
@@ -593,7 +692,7 @@
       "summary": "A security researcher released proof-of-concept exploits for two unpatched Windows vulnerabilities, YellowKey and GreenPlasma, which allow attackers to bypass BitLocker encryption and escalate privileges. These flaws currently remain unpatched by Microsoft.",
       "date": "2026-05-13T16:37:49.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2f0df5ae-0a4d-4344-be79-7f22e4ba811f",
@@ -5400,105 +5499,6 @@
       "summary": "Cybersecurity researchers have identified a widespread fraud campaign exploiting Telegram's Mini Apps platform to facilitate cryptocurrency scams, brand impersonation, and the distribution of Android malware. The campaign leverages the platform's features to deceive users on a large scale.",
       "date": "2026-05-03T14:11:21.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
-      "isTopTen": false
-    },
-    {
-      "id": "e7e0a3a8-9d7e-4de2-b1c3-44565147ecee",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Security Affairs newsletter Round 575 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "summary": "This Security Affairs newsletter edition highlights the sentencing of two cybersecurity experts involved in a ransomware case and reports on a recent security breach disclosed by Trellix.",
-      "date": "2026-05-03T13:49:09.000Z",
-      "link": "https://securityaffairs.com/191607/breaking-news/security-affairs-newsletter-round-575-by-pierluigi-paganini-international-edition.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fb5db30b-b4cb-47ab-862f-3ee43236c0f3",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI",
-      "summary": "Google has updated its Vulnerability Reward Programs for Android and Chrome, increasing top-tier Android bounties while lowering Chrome payouts to prioritize high-impact, AI-resistant vulnerabilities. This strategic shift reflects the evolving security landscape driven by artificial intelligence.",
-      "date": "2026-05-03T08:25:35.000Z",
-      "link": "https://securityaffairs.com/191600/security/google-revamps-bug-bounty-programs-android-rewards-rise-chrome-payouts-drop-in-the-age-of-ai.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7fd87f22-09b8-4103-8ef3-83394f47fd15",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Week in review: High-severity LPE vulnerability in the Linux kernel, cPanel 0-day exploited for months",
-      "summary": "The weekly security roundup highlights a high-severity Linux kernel local privilege escalation vulnerability and the exploitation of a cPanel zero-day, alongside trends in AI-driven gig labor platforms.",
-      "date": "2026-05-03T08:00:48.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/03/week-in-review-high-severity-lpe-vulnerability-in-the-linux-kernel-cpanel-0-day-exploited-for-months/",
-      "isTopTen": false
-    },
-    {
-      "id": "6c476c33-b25c-41bf-b06f-d56fd5ed2f44",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
-      "summary": "CISA has added the actively exploited local privilege escalation vulnerability CVE-2026-31431, affecting multiple Linux distributions, to its Known Exploited Vulnerabilities (KEV) catalog. The flaw carries a CVSS score of 7.8, indicating a significant risk for systems where attackers have local access.",
-      "date": "2026-05-03T06:26:00.000Z",
-      "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d735e3bf-9d9d-4bc9-a09d-d052b8f9b6b7",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
-      "summary": "A critical vulnerability in cPanel, tracked as CVE-2026-41940, is being actively exploited to deploy 'Sorry' ransomware across compromised websites. This flaw poses a significant threat to data integrity and server security for impacted hosts.",
-      "date": "2026-05-02T21:54:00.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "7a5cf572-6024-456f-8ca9-c15153b2aad2",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Google AppSheet Exploited in 30,000-User Facebook Phishing Operation",
-      "summary": "Threat actors are leveraging Google AppSheet and Google Drive to bypass security filters and conduct a massive phishing campaign targeting Facebook Business account credentials. The operation has successfully compromised thousands of user accounts globally.",
-      "date": "2026-05-02T18:07:25.000Z",
-      "link": "https://hackread.com/google-appsheet-facebook-accountdumpling-scam/",
-      "isTopTen": false
-    },
-    {
-      "id": "7daf0714-3eaf-4be0-b651-0625df05d2ec",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Two US cybersecurity experts sentenced in ransomware case, third awaits July ruling",
-      "summary": "Two US cybersecurity experts were sentenced to four years in prison for participating in a ransomware conspiracy, while a third accomplice awaits sentencing. The individuals pleaded guilty to charges related to their involvement in facilitating ransomware attacks.",
-      "date": "2026-05-02T15:36:21.000Z",
-      "link": "https://securityaffairs.com/191591/cyber-crime/two-us-cybersecurity-experts-sentenced-in-ransomware-case-third-awaits-july-ruling.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f01b7007-c0e9-460e-8869-261708428112",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-      "summary": "The ConsentFix v3 attack campaign leverages automation to scale unauthorized OAuth consent grants against Azure environments. This evolution increases the efficiency and reach of illicit application-based access attacks.",
-      "date": "2026-05-02T14:32:25.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-      "isTopTen": false
-    },
-    {
-      "id": "ae5be7c0-cefc-4400-8ade-242eb8a341b1",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Trellix discloses the breach of a code repository",
-      "summary": "Trellix confirmed unauthorized access to a portion of its source code repository, though the company stated there is currently no evidence of malicious use. An investigation is underway with forensic experts and law enforcement.",
-      "date": "2026-05-02T12:55:38.000Z",
-      "link": "https://securityaffairs.com/191584/data-breach/trellix-discloses-the-breach-of-a-code-repository.html",
       "isTopTen": false
     }
   ]
