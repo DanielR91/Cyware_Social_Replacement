@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-05-14T14:37:16.007Z",
+  "lastUpdated": "2026-05-14T17:09:34.013Z",
   "articles": [
+    {
+      "id": "71db63dd-5954-4bb8-8484-2821aef6f1f1",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Broadcom releases VMware Fusion security update for root access bug",
+      "summary": "Broadcom has released a security patch for VMware Fusion to address a high-severity TOCTOU vulnerability (CVE-2026-41702) that could allow local attackers to gain root access.",
+      "date": "2026-05-14T15:46:09.000Z",
+      "link": "https://securityaffairs.com/192136/security/broadcom-releases-vmware-fusion-security-update-for-root-access-bug.html",
+      "isTopTen": false
+    },
+    {
+      "id": "eaca7bb5-f4c6-4bc9-aa87-d1bbdd4063ed",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
+      "summary": "Service busy.",
+      "date": "2026-05-14T15:43:41.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
+      "isTopTen": false
+    },
+    {
+      "id": "4477e7d3-412f-485d-be7a-8df0e06a1369",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
+      "summary": "Cargo theft is increasingly driven by cybercriminal techniques such as phishing and credential theft rather than physical hijacking to reroute freight. The NMFTA report highlights the evolution of these digital tactics within supply chain security.",
+      "date": "2026-05-14T15:21:32.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
+      "isTopTen": false
+    },
+    {
+      "id": "8fe7c76a-cc2a-4d45-b535-a37dbf24c2c2",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "How Fintech APIs Are Modernizing Business Cash Flow Management",
+      "summary": "Service busy.",
+      "date": "2026-05-14T15:21:32.000Z",
+      "link": "https://hackread.com/fintech-apis-modernize-business-cash-flow-management/",
+      "isTopTen": false
+    },
+    {
+      "id": "431b016a-4129-428f-aefa-8b652832b39e",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fragnesia: New Linux kernel LPE bug was spawned by Dirty Frag patch (CVE-2026-46300)",
+      "summary": "A new Linux kernel local privilege escalation vulnerability called Fragnesia (CVE-2026-46300) was inadvertently introduced by a patch intended to fix the previous Dirty Frag flaw. Both vulnerabilities affect the xfrm-ESP module, highlighting the risks of regression in complex kernel security updates.",
+      "date": "2026-05-14T14:34:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/14/fragnesia-cve-2026-46300-linux-lpe-vulnerability/",
+      "isTopTen": false
+    },
     {
       "id": "7aa427bd-fbf7-4614-afcf-b8a5b915d69a",
       "source": "CyberScoop",
@@ -10,6 +65,17 @@
       "summary": "Foxconn confirmed a ransomware attack on its North American operations, with the threat actor group Nitrogen claiming responsibility for the theft of 8 terabytes of customer data.",
       "date": "2026-05-14T14:23:05.000Z",
       "link": "https://cyberscoop.com/foxconn-cyberattack-disrupts-north-america-factories/",
+      "isTopTen": true
+    },
+    {
+      "id": "b7135cf4-7421-4e61-b176-75814c5aa755",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+      "summary": "The Belarus-aligned threat group Ghostwriter is actively targeting Ukrainian government organizations using geofenced PDF phishing lures to deploy Cobalt Strike. This activity continues the group's long-standing pattern of cyber espionage and influence operations in the region.",
+      "date": "2026-05-14T14:00:37.000Z",
+      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
       "isTopTen": false
     },
     {
@@ -43,7 +109,7 @@
       "summary": "The China-linked FamousSparrow hacking group exploited MS Exchange Server vulnerabilities to target an Azerbaijani energy company with advanced malware. This operation highlights the persistent threat of state-sponsored actors utilizing known server exploits to infiltrate critical infrastructure.",
       "date": "2026-05-14T12:20:02.000Z",
       "link": "https://hackread.com/famoussparrow-oil-gas-ms-exchange-server-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8ca8ba34-bbc3-48b7-a7bf-8885a470f206",
@@ -87,7 +153,7 @@
       "summary": "AI hallucinations pose significant security threats to critical infrastructure by generating confident but inaccurate information that users may trust. This lack of reliability in decision-making processes creates vulnerabilities when systems fail to identify and flag uncertain outputs.",
       "date": "2026-05-14T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "55c251b1-4ed2-4179-9825-5a1725a6a359",
@@ -230,7 +296,7 @@
       "summary": "The newly identified Fragnesia vulnerability (CVE-2026-46300) is a Linux kernel local privilege escalation flaw that allows attackers to gain root access through XFRM-related page cache corruption. It is the third such kernel bug discovered in a two-week period.",
       "date": "2026-05-14T07:06:15.000Z",
       "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5acde574-0a10-442c-b065-3e6c255d9866",
@@ -285,7 +351,7 @@
       "summary": "Researchers discovered a 18-year-old critical heap buffer overflow vulnerability in the NGINX rewrite module that allows unauthenticated attackers to achieve remote code execution.",
       "date": "2026-05-14T06:00:09.000Z",
       "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c3e4877f-ba00-43ab-a782-64ebdb955917",
@@ -384,7 +450,7 @@
       "summary": "Two independent studies report that advanced AI models, specifically Claude Mythos Preview and GPT-5.5, have significantly outperformed all established benchmarks for autonomous cyber capability. The sudden surge in performance has left researchers uncertain whether this represents a sustainable new standard or a singular anomaly.",
       "date": "2026-05-13T22:29:19.000Z",
       "link": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "18ac5cca-3a3b-4155-b1aa-0e1a1eece907",
@@ -428,7 +494,7 @@
       "summary": "Instructure has negotiated a deal with the threat actor group ShinyHunters to secure the return and deletion of stolen Canvas data, averting a mass exposure of student records. The incident highlights a significant breach involving millions of user accounts.",
       "date": "2026-05-13T21:10:04.000Z",
       "link": "https://hackread.com/instructure-shinyhunters-deal-prevent-canvas-data-leak/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a5607871-6221-4a5d-a888-fc82e895e8f9",
@@ -439,7 +505,7 @@
       "summary": "A critical vulnerability in the Exim mail transfer agent enables unauthenticated remote attackers to execute arbitrary code on affected systems. This flaw poses a significant security risk for organizations running specific Exim configurations.",
       "date": "2026-05-13T20:23:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c36b32c1-b30e-4745-8c83-a26ef46ffe62",
@@ -527,7 +593,7 @@
       "summary": "A security researcher released proof-of-concept exploits for two unpatched Windows vulnerabilities, YellowKey and GreenPlasma, which allow attackers to bypass BitLocker encryption and escalate privileges. These flaws currently remain unpatched by Microsoft.",
       "date": "2026-05-13T16:37:49.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2f0df5ae-0a4d-4344-be79-7f22e4ba811f",
@@ -582,7 +648,7 @@
       "summary": "The threat actor TeamPCP compromised over 400 npm and PyPI packages by hijacking OIDC tokens to distribute the self-propagating Mini Shai-Hulud malware. This supply chain attack targeted popular libraries from TanStack, Mistral AI, and UiPath.",
       "date": "2026-05-13T15:18:47.000Z",
       "link": "https://hackread.com/teampcp-mini-shai-hulud-worm-npm-pypi-packages/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d61f35e6-300c-41d8-bf91-26aa5350b1ad",
@@ -5433,72 +5499,6 @@
       "summary": "Trellix confirmed unauthorized access to a portion of its source code repository, though the company stated there is currently no evidence of malicious use. An investigation is underway with forensic experts and law enforcement.",
       "date": "2026-05-02T12:55:38.000Z",
       "link": "https://securityaffairs.com/191584/data-breach/trellix-discloses-the-breach-of-a-code-repository.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4b03a7ed-ec51-429a-8882-48621e919136",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "2 US Cybersecurity Experts Jailed for Aiding ALPHV (BlackCat) Ransomware",
-      "summary": "Two American cybersecurity professionals were sentenced to prison for leveraging their insider access to assist the ALPHV (BlackCat) ransomware gang in extorting global victims. Their criminal actions involved providing technical support and infrastructure to facilitate cyberattacks for financial gain.",
-      "date": "2026-05-02T12:28:23.000Z",
-      "link": "https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/",
-      "isTopTen": false
-    },
-    {
-      "id": "10c55744-5f7e-4add-a6a2-cadbfa322f38",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Brace for the patch tsunami: AI is unearthing decades of buried code debt",
-      "summary": "Artificial intelligence tools are accelerating the discovery of long-standing security vulnerabilities in legacy codebases, necessitating a surge in emergency patching. This trend highlights the risks posed by accumulated technical debt that is now becoming more visible and exploitable.",
-      "date": "2026-05-02T08:30:09.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
-      "isTopTen": false
-    },
-    {
-      "id": "bbc7e560-b851-4cce-9ae3-a826e182a12b",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Deep#Door RAT uses stealth and persistence to target Windows",
-      "summary": "The newly discovered Deep#Door RAT utilizes a stealthy Python-based backdoor embedded in batch files to bypass Windows security measures and maintain persistent access. This sophisticated campaign exfiltrates data through public TCP tunnels, posing a significant risk to affected Windows systems.",
-      "date": "2026-05-02T08:22:39.000Z",
-      "link": "https://securityaffairs.com/191567/malware/new-deepdoor-rat-uses-stealth-and-persistence-to-target-windows.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e8c76d65-4ac0-43b1-802a-d320997e9278",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
-      "summary": "Cybersecurity firm Trellix confirmed a security breach resulting in unauthorized access to a portion of its source code repository. The company has engaged forensic experts and notified law enforcement to address the incident.",
-      "date": "2026-05-02T06:41:00.000Z",
-      "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d769d270-17a7-400a-94fa-dc420932b23a",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
-      "summary": "Microsoft is introducing an updated 'Run' dialog in Windows 11 preview builds that features dark mode support and improved performance. This is a functional UI update rather than a security-related change.",
-      "date": "2026-05-02T00:18:05.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
-      "isTopTen": false
-    },
-    {
-      "id": "a3bee12d-68aa-4257-b86a-0efc36d0f4d9",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1)",
-      "summary": "Unit 42 provides an updated analysis of the evolving npm supply chain threat landscape, highlighting sophisticated tactics such as wormable malware and persistent CI/CD attacks. The report outlines emerging risks and essential mitigation strategies for securing the software development lifecycle.",
-      "date": "2026-05-02T00:10:33.000Z",
-      "link": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
       "isTopTen": false
     }
   ]
