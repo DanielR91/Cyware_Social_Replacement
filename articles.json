@@ -1,6 +1,105 @@
 {
-  "lastUpdated": "2026-05-15T08:58:55.451Z",
+  "lastUpdated": "2026-05-15T11:29:07.288Z",
   "articles": [
+    {
+      "id": "34d18c01-f474-4c5c-b0d1-f92d8ac3a9b5",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Akamai to acquire LayerX for $205 million",
+      "summary": "Akamai has entered an agreement to acquire LayerX for $205 million, integrating browser-based security and AI usage control into its existing zero trust security portfolio.",
+      "date": "2026-05-15T11:17:14.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/15/akamai-layerx-acquisition/",
+      "isTopTen": false
+    },
+    {
+      "id": "71334e83-3ec2-4fa7-a878-ad5a426211cb",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Thieves unlock stolen iPhones using cheap tools sold on Telegram",
+      "summary": "Infoblox researchers discovered a Telegram-based underground market offering tools that bypass iPhone Activation Lock, enabling criminals to monetize stolen devices. This infrastructure facilitates the illegal unlocking and resale of millions of stolen iPhones annually.",
+      "date": "2026-05-15T10:50:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/15/stolen-iphone-unlocking-tools-telegram-groups/",
+      "isTopTen": false
+    },
+    {
+      "id": "4c3894cc-5675-49bd-9bee-3784e53c229c",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ghostwriter group resumes attacks on Ukrainian Government targets",
+      "summary": "The APT group known as Ghostwriter (FrostyNeighbor) has resumed its cyber-espionage campaign against Ukrainian government organizations as of March 2026. Researchers from ESET have identified that this recent activity mirrors the tactics used in the group's previous campaigns.",
+      "date": "2026-05-15T10:36:36.000Z",
+      "link": "https://securityaffairs.com/192196/apt/ghostwriter-group-resumes-attacks-on-ukrainian-government-targets.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7dc47d40-4739-4c7e-8557-470c58bde5fa",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "CalPhishing Scam Uses EvilTokens Kit, Outlook Invites to Steal M365 Sessions",
+      "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
+      "date": "2026-05-15T10:30:22.000Z",
+      "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
+      "isTopTen": true
+    },
+    {
+      "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "OpenAI caught in TanStack npm supply chain chaos after employee devices compromised",
+      "summary": "OpenAI employees' devices were compromised by malicious npm packages, leading to the theft of internal credentials. The incident highlights a supply chain attack involving poisoned packages that bypassed initial security measures.",
+      "date": "2026-05-15T10:08:07.000Z",
+      "link": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+      "isTopTen": true
+    },
+    {
+      "id": "da47b8de-babd-4168-95e8-eda326c52de0",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
+      "summary": "Unit 42 reports on the evolution of the Gremlin stealer, which now employs advanced obfuscation, crypto clipping, and session hijacking to exfiltrate sensitive data. The malware is specifically noted for its ability to hide malicious code within resource files.",
+      "date": "2026-05-15T10:00:52.000Z",
+      "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
+      "isTopTen": false
+    },
+    {
+      "id": "4fd494a8-6845-4f6d-a609-ef2b287073fc",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Unpatched Microsoft Exchange Server vulnerability exploited (CVE-2026-42897)",
+      "summary": "Microsoft is warning of an actively exploited, unpatched critical XSS vulnerability (CVE-2026-42897) affecting on-premises versions of Microsoft Exchange Server. While a permanent fix is pending, Microsoft has released temporary mitigations to help organizations protect their infrastructure.",
+      "date": "2026-05-15T09:58:09.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/15/exchange-server-cve-2026-42897-exploited/",
+      "isTopTen": true
+    },
+    {
+      "id": "0f7ed977-689d-48d6-b39a-5a45af5fb8f1",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Rocky Linux launches opt-in security repository for urgent fixes",
+      "summary": "Rocky Linux has introduced an optional, opt-in security repository designed to provide accelerated patches for urgent vulnerabilities before they are released by upstream providers. This feature allows administrators to prioritize security responsiveness while maintaining the distribution's core stability.",
+      "date": "2026-05-15T09:43:34.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/15/rocky-linux-launches-security-repository/",
+      "isTopTen": false
+    },
+    {
+      "id": "e44ab802-06cf-4f20-9b1a-36737c2f0e5a",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+      "summary": "Microsoft has issued mitigations for a high-severity zero-day vulnerability in Exchange Server that enables attackers to execute arbitrary code via cross-site scripting against Outlook on the web users.",
+      "date": "2026-05-15T09:40:42.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+      "isTopTen": false
+    },
     {
       "id": "77510063-b6fa-4cd1-bf6e-8149d2fadb94",
       "source": "The Register",
@@ -32,7 +131,7 @@
       "summary": "Security researcher Chaotic Eclipse has disclosed two Windows zero-day vulnerabilities, YellowKey and GreenPlasma, which impact BitLocker encryption and the CTFMON framework.",
       "date": "2026-05-15T06:46:59.000Z",
       "link": "https://securityaffairs.com/192173/hacking/researchers-uncover-yellowkey-and-greenplasma-windows-zero-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f066b0c1-2ff4-4d4e-a0c7-bb4f21dd242f",
@@ -43,7 +142,7 @@
       "summary": "Microsoft has disclosed a high-severity spoofing vulnerability (CVE-2026-42897) in on-premise Exchange Servers that is currently being exploited in the wild via crafted emails. The flaw is rooted in a cross-site scripting issue and carries a CVSS score of 8.1.",
       "date": "2026-05-15T06:19:04.000Z",
       "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3c8abf7d-dc8a-45f1-b4a5-89f53bdee95c",
@@ -197,7 +296,7 @@
       "summary": "OpenAI confirmed that two employee devices were compromised as part of a larger supply chain attack involving malicious npm and PyPI packages. In response, the company rotated its code-signing certificates to mitigate potential downstream risks.",
       "date": "2026-05-14T19:07:24.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f90fd8b-c841-4e55-a556-f77546c2694d",
@@ -310,17 +409,6 @@
       "isTopTen": false
     },
     {
-      "id": "4477e7d3-412f-485d-be7a-8df0e06a1369",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
-      "summary": "Cargo theft is increasingly driven by cybercriminal techniques such as phishing and credential theft rather than physical hijacking to reroute freight. The NMFTA report highlights the evolution of these digital tactics within supply chain security.",
-      "date": "2026-05-14T15:21:32.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
-      "isTopTen": false
-    },
-    {
       "id": "8fe7c76a-cc2a-4d45-b535-a37dbf24c2c2",
       "source": "HackRead",
       "tag": "Threat Intel & Info Sharing",
@@ -329,6 +417,17 @@
       "summary": "Service busy.",
       "date": "2026-05-14T15:21:32.000Z",
       "link": "https://hackread.com/fintech-apis-modernize-business-cash-flow-management/",
+      "isTopTen": false
+    },
+    {
+      "id": "4477e7d3-412f-485d-be7a-8df0e06a1369",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
+      "summary": "Cargo theft is increasingly driven by cybercriminal techniques such as phishing and credential theft rather than physical hijacking to reroute freight. The NMFTA report highlights the evolution of these digital tactics within supply chain security.",
+      "date": "2026-05-14T15:21:32.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
       "isTopTen": false
     },
     {
@@ -351,7 +450,7 @@
       "summary": "Foxconn confirmed a ransomware attack on its North American operations, with the threat actor group Nitrogen claiming responsibility for the theft of 8 terabytes of customer data.",
       "date": "2026-05-14T14:23:05.000Z",
       "link": "https://cyberscoop.com/foxconn-cyberattack-disrupts-north-america-factories/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b7135cf4-7421-4e61-b176-75814c5aa755",
@@ -395,7 +494,7 @@
       "summary": "The China-linked FamousSparrow hacking group exploited MS Exchange Server vulnerabilities to target an Azerbaijani energy company with advanced malware. This operation highlights the persistent threat of state-sponsored actors utilizing known server exploits to infiltrate critical infrastructure.",
       "date": "2026-05-14T12:20:02.000Z",
       "link": "https://hackread.com/famoussparrow-oil-gas-ms-exchange-server-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8ca8ba34-bbc3-48b7-a7bf-8885a470f206",
@@ -428,7 +527,7 @@
       "summary": "Threat actors began exploiting the PraisonAI authentication bypass vulnerability (CVE-2026-44338) just four hours after its public disclosure. The vulnerability allows unauthorized access to sensitive endpoints within the multi-agent orchestration framework.",
       "date": "2026-05-14T11:40:14.000Z",
       "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f06b16dc-7a19-4d48-9364-522faf1f3f96",
@@ -439,7 +538,7 @@
       "summary": "AI hallucinations pose significant security threats to critical infrastructure by generating confident but inaccurate information that users may trust. This lack of reliability in decision-making processes creates vulnerabilities when systems fail to identify and flag uncertain outputs.",
       "date": "2026-05-14T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "55c251b1-4ed2-4179-9825-5a1725a6a359",
@@ -670,7 +769,7 @@
       "summary": "A Sophos survey reveals that over 70% of organizations have been affected by identity-based breaches, primarily driven by stolen credentials, compromised service accounts, and social engineering. The report highlights the pervasive nature of these attacks and their impact on global IT and security environments.",
       "date": "2026-05-14T04:30:47.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/14/sophos-2026-identity-breach-costs-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "afc0e614-4197-49f9-9eb9-9fc98d834d16",
@@ -703,7 +802,7 @@
       "summary": "The threat actor TeamPCP is reportedly selling stolen Mistral AI repositories following the Mini Shai-Hulud supply chain attack on npm and PyPI. This incident highlights a significant breach involving both malicious packages and the compromise of proprietary source code.",
       "date": "2026-05-14T00:37:05.000Z",
       "link": "https://hackread.com/teampcp-mistral-ai-repositories-mini-shai-hulud-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7dc6cde-24f1-4ac7-85ca-0aca4f309e82",
@@ -736,7 +835,7 @@
       "summary": "Two independent studies report that advanced AI models, specifically Claude Mythos Preview and GPT-5.5, have significantly outperformed all established benchmarks for autonomous cyber capability. The sudden surge in performance has left researchers uncertain whether this represents a sustainable new standard or a singular anomaly.",
       "date": "2026-05-13T22:29:19.000Z",
       "link": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "18ac5cca-3a3b-4155-b1aa-0e1a1eece907",
@@ -5400,105 +5499,6 @@
       "summary": "CISA has confirmed active exploitation of the 'Copy Fail' Linux vulnerability shortly after security researchers released a proof-of-concept exploit. The flaw allows threat actors to gain root-level access to affected systems.",
       "date": "2026-05-04T11:28:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
-      "isTopTen": false
-    },
-    {
-      "id": "0450c03f-2176-4e5c-b557-032a77b7557e",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Cyber-Secure Philanthropy: Tech Infrastructure for Global Donations",
-      "summary": "Philanthropic organizations must implement robust payment security, API protections, and compliance measures to safeguard international donations against cyber threats and fraud. These infrastructure improvements are essential for maintaining donor trust and ensuring the integrity of global charitable operations.",
-      "date": "2026-05-04T10:55:27.000Z",
-      "link": "https://hackread.com/cyber-secure-philanthropy-tech-infrastructure-global-donations/",
-      "isTopTen": false
-    },
-    {
-      "id": "a7edc214-4618-4b5d-97ce-f50dfccc4fe4",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Microsoft confirms April Windows updates cause backup failures",
-      "summary": "Microsoft confirmed that the April 2026 security updates are triggering backup failures for applications relying on the psmounterex.sys driver. This technical incompatibility affects third-party software operations across affected Windows systems.",
-      "date": "2026-05-04T10:40:11.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
-      "isTopTen": false
-    },
-    {
-      "id": "a928f5c2-eb85-4f7c-992c-ca91969fe0cf",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "U.S. CISA adds a flaw in Linux Kernel to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added a high-severity Linux kernel vulnerability, tracked as CVE-2026-31431, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
-      "date": "2026-05-04T10:26:17.000Z",
-      "link": "https://securityaffairs.com/191629/hacking/u-s-cisa-adds-a-flaw-in-linux-kernel-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2057853f-6f04-4a58-b61f-de21d9169ff0",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Why data centers now belong on the critical infrastructure list",
-      "summary": "As AI integration increases global reliance on cloud services, data centers are being reclassified as critical infrastructure, making them prime targets for malicious actors. This shift emphasizes the growing need for enhanced security protocols to protect essential digital operations.",
-      "date": "2026-05-04T10:00:00.000Z",
-      "link": "https://cyberscoop.com/data-centers-critical-infrastructure-ai-security-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "b047e530-6428-447c-b1a5-c4dfeae6cee5",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "7 Key Features That Make Secure Browsers Safer",
-      "summary": "This article highlights seven essential security features in modern browsers, such as tracking protection and threat defense, that help mitigate web-based attacks. These tools enhance user safety by proactively blocking malicious activities during internet navigation.",
-      "date": "2026-05-04T09:48:00.000Z",
-      "link": "https://hackread.com/7-key-features-make-secure-browsers-safer/",
-      "isTopTen": false
-    },
-    {
-      "id": "e30dcade-b78d-4ea7-a8be-4bef9f02c4b5",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
-      "summary": "A threat actor is actively exploiting a critical cPanel vulnerability to target government, military, and managed service provider networks across multiple global regions. The campaign was detected in early May 2026 by researchers.",
-      "date": "2026-05-04T09:27:00.000Z",
-      "link": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
-      "isTopTen": false
-    },
-    {
-      "id": "411229cd-c702-4772-ad0a-b204b6a37162",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI speeds flaw discovery, forcing rapid updates, UK NCSC warns",
-      "summary": "The UK's NCSC warns that AI is accelerating the discovery of software vulnerabilities, necessitating an increase in urgent security patches to mitigate large-scale exploitation risks.",
-      "date": "2026-05-04T09:18:27.000Z",
-      "link": "https://securityaffairs.com/191657/security/ai-speeds-flaw-discovery-forcing-rapid-updates-uk-ncsc-warns.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dd1793bf-76a6-4bc4-b7cb-83d4b4831b1f",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "If the vote you rocked, your personal info can be grokked",
-      "summary": "The headline suggests that personal information belonging to voters may have been exposed or accessed by unauthorized parties. It implies a potential data breach related to voter registration or election-related databases.",
-      "date": "2026-05-04T09:06:12.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/public_voter_records_weaponized_for_privacy_violation/",
-      "isTopTen": false
-    },
-    {
-      "id": "37978eff-904a-41d8-9921-8741d9831f03",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "15-year-old detained over massive data breach at French government agency",
-      "summary": "A 15-year-old suspect has been detained for a massive data breach at France Titres that compromised between 12 and 18 million records. The breach, which occurred in mid-April, was confirmed by the agency after data appeared for sale on cybercriminal forums.",
-      "date": "2026-05-04T08:31:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/04/france-titres-data-breach-teen-suspect/",
       "isTopTen": false
     }
   ]
