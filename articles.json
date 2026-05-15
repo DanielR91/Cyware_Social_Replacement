@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-05-15T16:57:24.898Z",
+  "lastUpdated": "2026-05-15T19:47:57.520Z",
   "articles": [
+    {
+      "id": "9986833f-3810-4858-b02b-5d0e91d6f72e",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "More than $10 million stolen from crypto platform THORChain",
+      "summary": "THORChain confirmed a security breach resulting in the theft of approximately $10.7 million after one of its six vaults was compromised. An investigation into the incident is currently ongoing.",
+      "date": "2026-05-15T19:31:00.000Z",
+      "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
+      "isTopTen": true
+    },
+    {
+      "id": "6f1b5563-0548-4cca-afc7-d46a829a51fc",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+      "summary": "A critical vulnerability in the WordPress Funnel Builder plugin is being actively exploited to inject malicious JavaScript into WooCommerce checkout pages to steal customer credit card data.",
+      "date": "2026-05-15T19:30:33.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+      "isTopTen": true
+    },
+    {
+      "id": "80024a6c-433a-4cd6-9349-90e64f4d450f",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+      "summary": "Security researchers successfully exploited 15 zero-day vulnerabilities in products like Windows 11 and Microsoft Exchange during the second day of the Pwn2Own Berlin 2026 competition, resulting in $385,750 in payouts. These findings highlight critical weaknesses that vendors must now address through patch releases.",
+      "date": "2026-05-15T17:47:25.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+      "isTopTen": false
+    },
+    {
+      "id": "17c216c7-fcf5-48fc-a12b-aeac23e39898",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Popular node-ipc npm package compromised to steal credentials",
+      "summary": "The popular node-ipc npm package was compromised via a supply chain attack that injected credential-stealing malware into its recent versions. This incident highlights the ongoing risks of malicious code insertion within the open-source software ecosystem.",
+      "date": "2026-05-15T17:10:42.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+      "isTopTen": true
+    },
+    {
+      "id": "922d5e4d-891e-47ba-b18f-a3a6426490e9",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+      "summary": "The Russian state-sponsored group Turla has upgraded its Kazuar backdoor into a modular P2P botnet designed to maintain stealthy, persistent access to infected systems. This evolution reflects the group's ongoing efforts to enhance its espionage capabilities against targeted organizations.",
+      "date": "2026-05-15T17:10:25.000Z",
+      "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+      "isTopTen": false
+    },
     {
       "id": "8b4e72e3-27fd-4ec6-a9b4-46d3a1fd78c8",
       "source": "HackRead",
@@ -21,7 +76,7 @@
       "summary": "Two critical vulnerabilities in the widely-used Avada Builder WordPress plugin could allow unauthorized attackers to steal site credentials and extract sensitive data by reading arbitrary files. These flaws pose a significant risk to the estimated one million websites currently utilizing the plugin.",
       "date": "2026-05-15T15:56:56.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4371b472-e6c9-4154-b438-93d3072049e6",
@@ -274,7 +329,7 @@
       "summary": "Security researcher Chaotic Eclipse has disclosed two Windows zero-day vulnerabilities, YellowKey and GreenPlasma, which impact BitLocker encryption and the CTFMON framework.",
       "date": "2026-05-15T06:46:59.000Z",
       "link": "https://securityaffairs.com/192173/hacking/researchers-uncover-yellowkey-and-greenplasma-windows-zero-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f066b0c1-2ff4-4d4e-a0c7-bb4f21dd242f",
@@ -461,7 +516,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -516,7 +571,7 @@
       "summary": "Malicious code has been discovered in three versions of the popular npm package node-ipc, which are designed to steal developer secrets. The affected versions include 9.1.6, 9.2.3, and 12.0.1.",
       "date": "2026-05-14T17:22:43.000Z",
       "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ca8e5c2a-580c-4c7a-9c2e-cbe465fb089b",
@@ -593,7 +648,7 @@
       "summary": "Foxconn confirmed a ransomware attack on its North American operations, with the threat actor group Nitrogen claiming responsibility for the theft of 8 terabytes of customer data.",
       "date": "2026-05-14T14:23:05.000Z",
       "link": "https://cyberscoop.com/foxconn-cyberattack-disrupts-north-america-factories/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b7135cf4-7421-4e61-b176-75814c5aa755",
@@ -626,7 +681,7 @@
       "summary": "Service busy.",
       "date": "2026-05-14T13:30:44.000Z",
       "link": "https://securityaffairs.com/192132/hacking/nginx-rift-an-18-year-old-flaw-in-the-worlds-most-deployed-web-server-just-came-to-light.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c812a41d-751e-4411-8c13-8e2c5bb99c94",
@@ -670,7 +725,7 @@
       "summary": "Threat actors began exploiting the PraisonAI authentication bypass vulnerability (CVE-2026-44338) just four hours after its public disclosure. The vulnerability allows unauthorized access to sensitive endpoints within the multi-agent orchestration framework.",
       "date": "2026-05-14T11:40:14.000Z",
       "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f06b16dc-7a19-4d48-9364-522faf1f3f96",
@@ -5444,61 +5499,6 @@
       "summary": "A critical cPanel vulnerability, CVE-2026-41940, is being exploited by threat actors to target government, military, and MSP networks globally, including in the U.S., Canada, and Southeast Asia.",
       "date": "2026-05-04T19:10:42.000Z",
       "link": "https://securityaffairs.com/191666/breaking-news/hackers-target-governments-and-msps-via-critical-cpanel-flaw-cve-2026-41940.html",
-      "isTopTen": false
-    },
-    {
-      "id": "31a28147-2f35-4e87-bc0a-f80b2e0d5993",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
-      "summary": "An active phishing campaign named VENOMOUS#HELPER has compromised over 80 U.S.-based organizations by leveraging legitimate SimpleHelp and ScreenConnect RMM tools for persistent remote access. The campaign has been ongoing since at least April 2025 and utilizes these tools to maintain unauthorized control over target environments.",
-      "date": "2026-05-04T18:06:00.000Z",
-      "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4b9435a6-e389-4413-894d-eb17e60c88fa",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Educational company Infrastructure reports cyber incident",
-      "summary": "Educational company Infrastructure confirmed a data breach involving the unauthorized access of user information, including names, email addresses, student IDs, and internal messages. The incident highlights a significant exposure of sensitive academic records.",
-      "date": "2026-05-04T17:19:00.000Z",
-      "link": "https://therecord.media/infrastructure-education-company-canvas-incident",
-      "isTopTen": false
-    },
-    {
-      "id": "74ca4c47-cd56-4ea1-8fa6-42852bceee6f",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Backdoored PyTorch Lightning package drops credential stealer",
-      "summary": "A malicious version of the PyTorch Lightning package was discovered on PyPI, designed to steal credentials from browsers, local environment files, and cloud service configurations. The supply chain attack poses a significant risk to developers who inadvertently download the compromised library.",
-      "date": "2026-05-04T17:15:27.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-      "isTopTen": false
-    },
-    {
-      "id": "b66ad342-4cc2-4dd9-a9f5-3460c136cc98",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Forbes preliminarily agrees to pay $10 million to settle California wiretapping lawsuit",
-      "summary": "Forbes has reached a preliminary $10 million settlement regarding a California wiretapping lawsuit concerning the unauthorized use of website trackers. As part of the agreement, the company will enhance user transparency and provide California residents with more control over their data sharing practices.",
-      "date": "2026-05-04T16:49:00.000Z",
-      "link": "https://therecord.media/forbes-agrees-10-million-settlement-privacy-class-action",
-      "isTopTen": false
-    },
-    {
-      "id": "ed2b5ede-2629-462e-8542-abf8a87c0355",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
-      "summary": "Progress Software has issued patches for two security vulnerabilities in its MOVEit Automation platform, including a critical flaw that allows attackers to bypass authentication. Organizations using the managed file transfer solution are encouraged to update immediately to prevent potential unauthorized access.",
-      "date": "2026-05-04T16:34:00.000Z",
-      "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
       "isTopTen": false
     }
   ]
