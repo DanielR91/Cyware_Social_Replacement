@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-15T14:26:47.283Z",
+  "lastUpdated": "2026-05-15T16:57:24.898Z",
   "articles": [
+    {
+      "id": "8b4e72e3-27fd-4ec6-a9b4-46d3a1fd78c8",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hackers Use PyInstaller and AMSI Patching to Deliver XWorm RAT v7.4",
+      "summary": "Threat actors are distributing the XWorm RAT v7.4 by leveraging PyInstaller and AMSI patching techniques to evade Windows security mechanisms. This attack enables unauthorized remote device control and data exfiltration through malicious advertisements.",
+      "date": "2026-05-15T16:42:58.000Z",
+      "link": "https://hackread.com/hackers-pyinstaller-amsi-patching-xworm-rat-v7-4/",
+      "isTopTen": false
+    },
+    {
+      "id": "f96bcff7-9602-477b-8d50-4711e222de62",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
+      "summary": "Two critical vulnerabilities in the widely-used Avada Builder WordPress plugin could allow unauthorized attackers to steal site credentials and extract sensitive data by reading arbitrary files. These flaws pose a significant risk to the estimated one million websites currently utilizing the plugin.",
+      "date": "2026-05-15T15:56:56.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+      "isTopTen": false
+    },
+    {
+      "id": "4371b472-e6c9-4154-b438-93d3072049e6",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
+      "summary": "Microsoft is modifying the Edge browser to prevent the automatic loading of saved passwords into system memory in clear text at startup. This change comes after a previous security controversy where the company had labeled the practice as intentional behavior.",
+      "date": "2026-05-15T14:49:39.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+      "isTopTen": false
+    },
     {
       "id": "0df24544-890c-4815-b0f6-e71544882caa",
       "source": "CyberScoop",
@@ -35,6 +68,17 @@
       "isTopTen": false
     },
     {
+      "id": "b0f23bad-aeef-443d-86bd-5f1c7c46b26b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+      "summary": "Researchers discovered four chained vulnerabilities in OpenClaw, collectively named 'Claw Chain,' that allow attackers to steal data, escalate privileges, and establish persistent backdoors. These flaws enable a complete system compromise through a sequence of exploitation.",
+      "date": "2026-05-15T13:35:04.000Z",
+      "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+      "isTopTen": false
+    },
+    {
       "id": "224e3cf2-7aec-495f-8fff-b8dedf95f120",
       "source": "The Record",
       "tag": "Malware and Vulnerabilities",
@@ -43,7 +87,7 @@
       "summary": "CISA has mandated that all federal agencies apply a security patch to Cisco SD-WAN systems by Sunday to address an actively exploited authentication bypass vulnerability. This critical flaw allows remote, unauthenticated attackers to gain administrative control over the affected devices.",
       "date": "2026-05-15T13:16:00.000Z",
       "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "098b1aea-aa65-4c1e-97d2-6ebc4586e2b0",
@@ -131,7 +175,7 @@
       "summary": "The APT group known as Ghostwriter (FrostyNeighbor) has resumed its cyber-espionage campaign against Ukrainian government organizations as of March 2026. Researchers from ESET have identified that this recent activity mirrors the tactics used in the group's previous campaigns.",
       "date": "2026-05-15T10:36:36.000Z",
       "link": "https://securityaffairs.com/192196/apt/ghostwriter-group-resumes-attacks-on-ukrainian-government-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7dc47d40-4739-4c7e-8557-470c58bde5fa",
@@ -318,7 +362,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -417,7 +461,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -582,7 +626,7 @@
       "summary": "Service busy.",
       "date": "2026-05-14T13:30:44.000Z",
       "link": "https://securityaffairs.com/192132/hacking/nginx-rift-an-18-year-old-flaw-in-the-worlds-most-deployed-web-server-just-came-to-light.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c812a41d-751e-4411-8c13-8e2c5bb99c94",
@@ -626,7 +670,7 @@
       "summary": "Threat actors began exploiting the PraisonAI authentication bypass vulnerability (CVE-2026-44338) just four hours after its public disclosure. The vulnerability allows unauthorized access to sensitive endpoints within the multi-agent orchestration framework.",
       "date": "2026-05-14T11:40:14.000Z",
       "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f06b16dc-7a19-4d48-9364-522faf1f3f96",
@@ -5455,50 +5499,6 @@
       "summary": "Progress Software has issued patches for two security vulnerabilities in its MOVEit Automation platform, including a critical flaw that allows attackers to bypass authentication. Organizations using the managed file transfer solution are encouraged to update immediately to prevent potential unauthorized access.",
       "date": "2026-05-04T16:34:00.000Z",
       "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c879445a-e4b6-4cc4-90af-9301883f2db6",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Trellix discloses data breach after source code repository hack",
-      "summary": "Cybersecurity firm Trellix has confirmed a data breach involving unauthorized access to a portion of its source code repository. The company is currently investigating the incident to determine the extent of the impact.",
-      "date": "2026-05-04T16:25:07.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
-      "isTopTen": false
-    },
-    {
-      "id": "5e44ac39-6dc3-479a-80f3-1658d8d77307",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "A college student is suing a dating app that allegedly used her TikTok videos to target men in her dormitory",
-      "summary": "A college student is suing a dating app for allegedly misappropriating her TikTok videos and using geofencing to falsely portray her as a 'friend with benefits' to men in her dormitory. This case highlights potential legal and ethical concerns regarding the unauthorized use of user content and invasive targeted advertising tactics.",
-      "date": "2026-05-04T16:02:51.000Z",
-      "link": "https://cyberscoop.com/meete-dating-app-lawsuit-geofencing-tiktok-misappropriation/",
-      "isTopTen": false
-    },
-    {
-      "id": "faa3cf20-99c3-41de-95b3-3dca076ab99d",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Ransomware group claims breach of pro-Orbán Hungarian media firm",
-      "summary": "The pro-Orbán Hungarian media firm Mediaworks has confirmed a data breach following a ransomware attack that resulted in the potential theft of significant amounts of sensitive data.",
-      "date": "2026-05-04T15:23:00.000Z",
-      "link": "https://therecord.media/ransomware-group-claims-breach-of-pro-orban-media-firm",
-      "isTopTen": false
-    },
-    {
-      "id": "9f06c811-3b47-422d-933d-0cfbe2db0316",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Wiz ZeroDay.Cloud Event Reveals 20-Year-Old PostgreSQL Vulnerabilities",
-      "summary": "Researchers at the Wiz ZeroDay.Cloud event disclosed two-decade-old critical vulnerabilities in PostgreSQL's pgcrypto module, necessitating immediate security patching.",
-      "date": "2026-05-04T15:08:40.000Z",
-      "link": "https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/",
       "isTopTen": false
     }
   ]
