@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-15T19:47:57.520Z",
+  "lastUpdated": "2026-05-15T22:05:51.852Z",
   "articles": [
+    {
+      "id": "1e26acd1-25c9-41a0-95f9-232f1425e7d1",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The Next Cybersecurity Challenge May Be Verifying AI Agents",
+      "summary": "The rapid adoption of autonomous AI agents introduces new security risks, making robust identity verification and runtime controls essential to prevent misuse. Organizations must prioritize establishing trust frameworks to secure these evolving digital entities.",
+      "date": "2026-05-15T20:55:22.000Z",
+      "link": "https://hackread.com/next-cybersecurity-challenge-verifying-ai-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "a5e6c2de-0f29-42f6-bed0-2b6bf175c366",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Here’s how the FTC plans to enforce the Take It Down Act",
+      "summary": "The FTC plans to enforce the Take It Down Act through rigorous investigations and significant financial penalties for violators. However, experts express concerns regarding whether the agency possesses the necessary resources and strategic focus to effectively implement the mandate.",
+      "date": "2026-05-15T19:54:15.000Z",
+      "link": "https://cyberscoop.com/ftc-take-it-down-act-enforcement-deepfakes/",
+      "isTopTen": false
+    },
     {
       "id": "9986833f-3810-4858-b02b-5d0e91d6f72e",
       "source": "The Record",
@@ -10,7 +32,7 @@
       "summary": "THORChain confirmed a security breach resulting in the theft of approximately $10.7 million after one of its six vaults was compromised. An investigation into the incident is currently ongoing.",
       "date": "2026-05-15T19:31:00.000Z",
       "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6f1b5563-0548-4cca-afc7-d46a829a51fc",
@@ -76,7 +98,7 @@
       "summary": "Two critical vulnerabilities in the widely-used Avada Builder WordPress plugin could allow unauthorized attackers to steal site credentials and extract sensitive data by reading arbitrary files. These flaws pose a significant risk to the estimated one million websites currently utilizing the plugin.",
       "date": "2026-05-15T15:56:56.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4371b472-e6c9-4154-b438-93d3072049e6",
@@ -109,7 +131,7 @@
       "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
       "date": "2026-05-15T14:03:58.000Z",
       "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
@@ -252,7 +274,7 @@
       "summary": "OpenAI employees' devices were compromised by malicious npm packages, leading to the theft of internal credentials. The incident highlights a supply chain attack involving poisoned packages that bypassed initial security measures.",
       "date": "2026-05-15T10:08:07.000Z",
       "link": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "da47b8de-babd-4168-95e8-eda326c52de0",
@@ -340,7 +362,7 @@
       "summary": "Microsoft has disclosed a high-severity spoofing vulnerability (CVE-2026-42897) in on-premise Exchange Servers that is currently being exploited in the wild via crafted emails. The flaw is rooted in a cross-site scripting issue and carries a CVSS score of 8.1.",
       "date": "2026-05-15T06:19:04.000Z",
       "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3c8abf7d-dc8a-45f1-b4a5-89f53bdee95c",
@@ -373,7 +395,7 @@
       "summary": "On the first day of Pwn2Own Berlin 2026, researchers successfully demonstrated 24 zero-day vulnerabilities across various platforms, including AI products and NVIDIA infrastructure, resulting in $523,000 in payouts.",
       "date": "2026-05-15T05:20:06.000Z",
       "link": "https://securityaffairs.com/192183/hacking/pwn2own-berlin-2026-day-one-523000-paid-out-ai-products-fall.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "14a46992-1cee-42bb-a42b-37e0f776ae26",
@@ -417,7 +439,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -494,7 +516,7 @@
       "summary": "OpenAI confirmed that two employee devices were compromised as part of a larger supply chain attack involving malicious npm and PyPI packages. In response, the company rotated its code-signing certificates to mitigate potential downstream risks.",
       "date": "2026-05-14T19:07:24.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f90fd8b-c841-4e55-a556-f77546c2694d",
@@ -516,7 +538,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -648,7 +670,7 @@
       "summary": "Foxconn confirmed a ransomware attack on its North American operations, with the threat actor group Nitrogen claiming responsibility for the theft of 8 terabytes of customer data.",
       "date": "2026-05-14T14:23:05.000Z",
       "link": "https://cyberscoop.com/foxconn-cyberattack-disrupts-north-america-factories/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b7135cf4-7421-4e61-b176-75814c5aa755",
@@ -659,7 +681,7 @@
       "summary": "The Belarus-aligned threat group Ghostwriter is actively targeting Ukrainian government organizations using geofenced PDF phishing lures to deploy Cobalt Strike. This activity continues the group's long-standing pattern of cyber espionage and influence operations in the region.",
       "date": "2026-05-14T14:00:37.000Z",
       "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dd4bb336-e015-4136-a16c-8a47536ec682",
@@ -692,7 +714,7 @@
       "summary": "The China-linked FamousSparrow hacking group exploited MS Exchange Server vulnerabilities to target an Azerbaijani energy company with advanced malware. This operation highlights the persistent threat of state-sponsored actors utilizing known server exploits to infiltrate critical infrastructure.",
       "date": "2026-05-14T12:20:02.000Z",
       "link": "https://hackread.com/famoussparrow-oil-gas-ms-exchange-server-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8ca8ba34-bbc3-48b7-a7bf-8885a470f206",
@@ -5477,28 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-04T20:50:10.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/",
-      "isTopTen": false
-    },
-    {
-      "id": "94ffb601-1850-4861-818f-8e146768101c",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Amazon SES increasingly abused in phishing to evade detection",
-      "summary": "Threat actors are increasingly leveraging Amazon Simple Email Service (SES) to deliver phishing campaigns that bypass standard security filters and reputation-based blocking mechanisms. This abuse exploits the platform's trusted infrastructure to increase the deliverability and perceived legitimacy of malicious emails.",
-      "date": "2026-05-04T20:03:28.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
-      "isTopTen": false
-    },
-    {
-      "id": "8404f6f4-2bbb-4f04-8b2e-24ee26cfee84",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hackers target governments and MSPs via critical cPanel flaw CVE-2026-41940",
-      "summary": "A critical cPanel vulnerability, CVE-2026-41940, is being exploited by threat actors to target government, military, and MSP networks globally, including in the U.S., Canada, and Southeast Asia.",
-      "date": "2026-05-04T19:10:42.000Z",
-      "link": "https://securityaffairs.com/191666/breaking-news/hackers-target-governments-and-msps-via-critical-cpanel-flaw-cve-2026-41940.html",
       "isTopTen": false
     }
   ]
