@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-05-15T11:29:07.288Z",
+  "lastUpdated": "2026-05-15T14:26:47.283Z",
   "articles": [
+    {
+      "id": "0df24544-890c-4815-b0f6-e71544882caa",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco zero-day under ongoing attack by persistent threat group",
+      "summary": "Cisco is currently investigating an actively exploited zero-day vulnerability linked to a threat group previously responsible for attacks on the company's firewalls and SD-WAN systems.",
+      "date": "2026-05-15T14:11:59.000Z",
+      "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploited/",
+      "isTopTen": false
+    },
+    {
+      "id": "781b3303-071f-4ab8-96fb-3e71b5b98b6c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CVE-2026-42897: Microsoft confirms active exploitation of Exchange Server zero-day",
+      "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
+      "date": "2026-05-15T14:03:58.000Z",
+      "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
+      "isTopTen": true
+    },
+    {
+      "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
+      "summary": "Service busy.",
+      "date": "2026-05-15T14:02:12.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
+      "isTopTen": false
+    },
+    {
+      "id": "224e3cf2-7aec-495f-8fff-b8dedf95f120",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA orders all federal agencies to patch exploited bug in Cisco SD-WAN systems by Sunday",
+      "summary": "CISA has mandated that all federal agencies apply a security patch to Cisco SD-WAN systems by Sunday to address an actively exploited authentication bypass vulnerability. This critical flaw allows remote, unauthenticated attackers to gain administrative control over the affected devices.",
+      "date": "2026-05-15T13:16:00.000Z",
+      "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
+      "isTopTen": false
+    },
+    {
+      "id": "098b1aea-aa65-4c1e-97d2-6ebc4586e2b0",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Google lets Workspace admins apply one policy across all SAML apps",
+      "summary": "Google has updated Context-Aware Access in Workspace to allow administrators to set a default security policy for all SAML applications, ensuring consistent protection for apps without specific assignments. This update streamlines identity management and strengthens the security baseline for third-party and internal SSO integrations.",
+      "date": "2026-05-15T12:44:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/15/google-workspace-caa-default-policy-saml-applications/",
+      "isTopTen": false
+    },
+    {
+      "id": "448f8b0f-fe92-4701-a3a4-7caddb66c7df",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182)",
+      "summary": "Cisco has released patches for an actively exploited zero-day authentication bypass vulnerability (CVE-2026-20182) affecting its Catalyst SD-WAN Controller and Manager components. The flaw impacts both on-premise and cloud deployments and has reportedly been used by a highly sophisticated threat actor.",
+      "date": "2026-05-15T12:43:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/15/cisco-sd-wan-zero-day-cve-2026-20182/",
+      "isTopTen": false
+    },
+    {
+      "id": "b37add9b-8dfa-4012-a175-c735f2c4e09a",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft to automatically roll back faulty Windows drivers",
+      "summary": "Microsoft is implementing a feature that enables the automatic remote rollback of faulty Windows drivers distributed via Windows Update. This capability aims to mitigate system instability caused by problematic driver updates.",
+      "date": "2026-05-15T12:29:48.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+      "isTopTen": false
+    },
     {
       "id": "34d18c01-f474-4c5c-b0d1-f92d8ac3a9b5",
       "source": "Help Net Security",
@@ -10,6 +87,28 @@
       "summary": "Akamai has entered an agreement to acquire LayerX for $205 million, integrating browser-based security and AI usage control into its existing zero trust security portfolio.",
       "date": "2026-05-15T11:17:14.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/15/akamai-layerx-acquisition/",
+      "isTopTen": false
+    },
+    {
+      "id": "06bc49af-7d48-4c74-a739-bc3173f80626",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
+      "summary": "Modern threat actors increasingly leverage legitimate, trusted administrative tools like PowerShell and MSBuild to conduct attacks, making unauthorized use of these utilities a significant security risk. Monitoring these everyday tools over time is essential to understanding an organization's true attack surface.",
+      "date": "2026-05-15T11:00:00.000Z",
+      "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b1890c97-e27a-4a45-9341-a049c6c95b69",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+      "summary": "Service busy.",
+      "date": "2026-05-15T10:54:44.000Z",
+      "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
       "isTopTen": false
     },
     {
@@ -43,7 +142,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -76,7 +175,7 @@
       "summary": "Microsoft is warning of an actively exploited, unpatched critical XSS vulnerability (CVE-2026-42897) affecting on-premises versions of Microsoft Exchange Server. While a permanent fix is pending, Microsoft has released temporary mitigations to help organizations protect their infrastructure.",
       "date": "2026-05-15T09:58:09.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/15/exchange-server-cve-2026-42897-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0f7ed977-689d-48d6-b39a-5a45af5fb8f1",
@@ -131,7 +230,7 @@
       "summary": "Security researcher Chaotic Eclipse has disclosed two Windows zero-day vulnerabilities, YellowKey and GreenPlasma, which impact BitLocker encryption and the CTFMON framework.",
       "date": "2026-05-15T06:46:59.000Z",
       "link": "https://securityaffairs.com/192173/hacking/researchers-uncover-yellowkey-and-greenplasma-windows-zero-days.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f066b0c1-2ff4-4d4e-a0c7-bb4f21dd242f",
@@ -164,7 +263,7 @@
       "summary": "CISA has added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller (CVE-2026-20182) to its Known Exploited Vulnerabilities catalog. Federal agencies are mandated to patch the flaw by May 17, 2026.",
       "date": "2026-05-15T05:28:03.000Z",
       "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "062e8864-bde4-499c-a4b3-372c9f9aa7db",
@@ -219,7 +318,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -318,7 +417,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -373,7 +472,7 @@
       "summary": "Malicious code has been discovered in three versions of the popular npm package node-ipc, which are designed to steal developer secrets. The affected versions include 9.1.6, 9.2.3, and 12.0.1.",
       "date": "2026-05-14T17:22:43.000Z",
       "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ca8e5c2a-580c-4c7a-9c2e-cbe465fb089b",
@@ -450,7 +549,7 @@
       "summary": "Foxconn confirmed a ransomware attack on its North American operations, with the threat actor group Nitrogen claiming responsibility for the theft of 8 terabytes of customer data.",
       "date": "2026-05-14T14:23:05.000Z",
       "link": "https://cyberscoop.com/foxconn-cyberattack-disrupts-north-america-factories/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b7135cf4-7421-4e61-b176-75814c5aa755",
@@ -538,7 +637,7 @@
       "summary": "AI hallucinations pose significant security threats to critical infrastructure by generating confident but inaccurate information that users may trust. This lack of reliability in decision-making processes creates vulnerabilities when systems fail to identify and flag uncertain outputs.",
       "date": "2026-05-14T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "55c251b1-4ed2-4179-9825-5a1725a6a359",
@@ -736,7 +835,7 @@
       "summary": "Researchers discovered a 18-year-old critical heap buffer overflow vulnerability in the NGINX rewrite module that allows unauthenticated attackers to achieve remote code execution.",
       "date": "2026-05-14T06:00:09.000Z",
       "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c3e4877f-ba00-43ab-a782-64ebdb955917",
@@ -769,7 +868,7 @@
       "summary": "A Sophos survey reveals that over 70% of organizations have been affected by identity-based breaches, primarily driven by stolen credentials, compromised service accounts, and social engineering. The report highlights the pervasive nature of these attacks and their impact on global IT and security environments.",
       "date": "2026-05-14T04:30:47.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/14/sophos-2026-identity-breach-costs-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "afc0e614-4197-49f9-9eb9-9fc98d834d16",
@@ -5400,105 +5499,6 @@
       "summary": "Researchers at the Wiz ZeroDay.Cloud event disclosed two-decade-old critical vulnerabilities in PostgreSQL's pgcrypto module, necessitating immediate security patching.",
       "date": "2026-05-04T15:08:40.000Z",
       "link": "https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "50ce1321-eaef-4794-a4cf-f3b1c86b9214",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Shadow IT has given way to shadow AI. Enter AI-BOMs",
-      "summary": "The rise of shadow AI usage within enterprises has created a need for AI Bills of Materials (AI-BOMs) to manage the security, transparency, and governance of undocumented artificial intelligence tools. This development mirrors historical shadow IT trends, emphasizing the growing challenge of tracking unauthorized AI adoption in corporate environments.",
-      "date": "2026-05-04T15:04:20.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/ai_bom_supply_chain/",
-      "isTopTen": false
-    },
-    {
-      "id": "74e2256c-9e12-4f40-84bd-e4d2b759994f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Critical MOVEit Automation auth bypass vulnerability fixed (CVE-2026-4670)",
-      "summary": "Service busy.",
-      "date": "2026-05-04T14:58:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/04/critical-moveit-automation-auth-bypass-vulnerability-fixed-cve-2026-4670/",
-      "isTopTen": false
-    },
-    {
-      "id": "2a39cc36-046f-412f-b985-7c5f022ca782",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
-      "summary": "The weekly report highlights a shift in cyber threats, focusing on AI-enhanced phishing, Android surveillance tools, and sophisticated supply chain attacks that exploit CI/CD pipelines. Attackers are increasingly prioritizing long-term persistence within SaaS environments and trusted codebases over traditional breach methods.",
-      "date": "2026-05-04T14:23:00.000Z",
-      "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5c472275-5502-4ec7-870c-cac4380959e4",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "They don’t hack, they borrow: How fraudsters target credit unions",
-      "summary": "Fraudsters are bypassing credit union security by leveraging legitimate business processes and stolen identities rather than traditional hacking techniques to secure fraudulent loans. This shift highlights a trend in exploiting standard verification workflows to commit financial fraud.",
-      "date": "2026-05-04T13:42:51.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
-      "isTopTen": false
-    },
-    {
-      "id": "47e0ab6b-e4c3-4cb7-8fd6-8dde3adc6129",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
-      "summary": "Progress Software has issued an urgent warning regarding a critical authentication bypass vulnerability affecting its MOVEit Automation file transfer application. Customers are advised to apply patches immediately to mitigate the risk of unauthorized access.",
-      "date": "2026-05-04T12:18:57.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
-      "isTopTen": false
-    },
-    {
-      "id": "972f5e25-7c4d-4dbd-97b7-148831e464db",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Webinar: Why MSPs must rethink security and backup strategies",
-      "summary": "This webinar highlights the necessity for Managed Service Providers (MSPs) to modernize their cybersecurity and disaster recovery strategies, focusing on SaaS backups and BCDR to maintain operational resilience following an attack.",
-      "date": "2026-05-04T12:16:24.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
-      "isTopTen": false
-    },
-    {
-      "id": "4688bfa5-51ba-45fa-9aeb-8da6d7775a13",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "2026: The Year of AI-Assisted Attacks",
-      "summary": "A 17-year-old was arrested in Japan for using malicious code to steal personal data from over 7 million users of the Kaikatsu Club internet cafe chain to fund a hobby. The incident highlights the growing threat of individual actors executing large-scale data breaches.",
-      "date": "2026-05-04T11:58:00.000Z",
-      "link": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7fb33fc0-19ac-460e-a8ee-d7fb4d6d69aa",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
-      "summary": "The China-based cybercrime group Silver Fox is targeting organizations in India and Russia using tax-themed phishing emails to deploy a new malware variant known as ABCDoor.",
-      "date": "2026-05-04T11:57:00.000Z",
-      "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
-      "isTopTen": false
-    },
-    {
-      "id": "97273988-2eb5-4e78-ba3a-00f59d03c694",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
-      "summary": "CISA has confirmed active exploitation of the 'Copy Fail' Linux vulnerability shortly after security researchers released a proof-of-concept exploit. The flaw allows threat actors to gain root-level access to affected systems.",
-      "date": "2026-05-04T11:28:15.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
       "isTopTen": false
     }
   ]
