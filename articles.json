@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-15T22:05:51.852Z",
+  "lastUpdated": "2026-05-16T03:38:16.345Z",
   "articles": [
+    {
+      "id": "8579318c-9a9e-4669-a7d6-353e8853bbaa",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Colorado governor commutes prison sentence for election denier Tina Peters ",
+      "summary": "Colorado Governor Jared Polis has commuted the nine-year prison sentence of Tina Peters, who was convicted for her role in a security breach involving the theft of voting system data. The decision has drawn attention due to Peters' lack of remorse regarding the breach of election equipment.",
+      "date": "2026-05-15T22:58:12.000Z",
+      "link": "https://cyberscoop.com/colorado-election-denier-tina-peters-sentence-commuted-governor-jared-polis/",
+      "isTopTen": false
+    },
+    {
+      "id": "23b214c9-d000-4217-a4c9-802fffafd8a2",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Pwn2Own Berlin 2026, Day Two: $385,750 more, Microsoft Exchange falls, and the running total crosses $900K",
+      "summary": "The second day of Pwn2Own Berlin 2026 resulted in $385,750 being awarded for 15 zero-day vulnerabilities, including critical flaws in Microsoft Exchange, Windows 11, and Red Hat Enterprise Linux. The event has reached a two-day total of $908,750 for 39 discovered vulnerabilities.",
+      "date": "2026-05-15T21:53:56.000Z",
+      "link": "https://securityaffairs.com/192209/security/pwn2own-berlin-2026-day-two-385750-more-microsoft-exchange-falls-and-the-running-total-crosses-900k.html",
+      "isTopTen": false
+    },
     {
       "id": "1e26acd1-25c9-41a0-95f9-232f1425e7d1",
       "source": "HackRead",
@@ -32,7 +54,7 @@
       "summary": "THORChain confirmed a security breach resulting in the theft of approximately $10.7 million after one of its six vaults was compromised. An investigation into the incident is currently ongoing.",
       "date": "2026-05-15T19:31:00.000Z",
       "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6f1b5563-0548-4cca-afc7-d46a829a51fc",
@@ -43,7 +65,7 @@
       "summary": "A critical vulnerability in the WordPress Funnel Builder plugin is being actively exploited to inject malicious JavaScript into WooCommerce checkout pages to steal customer credit card data.",
       "date": "2026-05-15T19:30:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "80024a6c-433a-4cd6-9349-90e64f4d450f",
@@ -131,7 +153,7 @@
       "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
       "date": "2026-05-15T14:03:58.000Z",
       "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
@@ -164,7 +186,7 @@
       "summary": "CISA has mandated that all federal agencies apply a security patch to Cisco SD-WAN systems by Sunday to address an actively exploited authentication bypass vulnerability. This critical flaw allows remote, unauthenticated attackers to gain administrative control over the affected devices.",
       "date": "2026-05-15T13:16:00.000Z",
       "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "098b1aea-aa65-4c1e-97d2-6ebc4586e2b0",
@@ -263,7 +285,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -362,7 +384,7 @@
       "summary": "Microsoft has disclosed a high-severity spoofing vulnerability (CVE-2026-42897) in on-premise Exchange Servers that is currently being exploited in the wild via crafted emails. The flaw is rooted in a cross-site scripting issue and carries a CVSS score of 8.1.",
       "date": "2026-05-15T06:19:04.000Z",
       "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3c8abf7d-dc8a-45f1-b4a5-89f53bdee95c",
@@ -395,7 +417,7 @@
       "summary": "On the first day of Pwn2Own Berlin 2026, researchers successfully demonstrated 24 zero-day vulnerabilities across various platforms, including AI products and NVIDIA infrastructure, resulting in $523,000 in payouts.",
       "date": "2026-05-15T05:20:06.000Z",
       "link": "https://securityaffairs.com/192183/hacking/pwn2own-berlin-2026-day-one-523000-paid-out-ai-products-fall.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "14a46992-1cee-42bb-a42b-37e0f776ae26",
@@ -439,7 +461,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -538,7 +560,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -560,7 +582,7 @@
       "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
       "date": "2026-05-14T17:57:14.000Z",
       "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
@@ -659,7 +681,7 @@
       "summary": "A new Linux kernel local privilege escalation vulnerability called Fragnesia (CVE-2026-46300) was inadvertently introduced by a patch intended to fix the previous Dirty Frag flaw. Both vulnerabilities affect the xfrm-ESP module, highlighting the risks of regression in complex kernel security updates.",
       "date": "2026-05-14T14:34:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/14/fragnesia-cve-2026-46300-linux-lpe-vulnerability/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7aa427bd-fbf7-4614-afcf-b8a5b915d69a",
@@ -714,7 +736,7 @@
       "summary": "The China-linked FamousSparrow hacking group exploited MS Exchange Server vulnerabilities to target an Azerbaijani energy company with advanced malware. This operation highlights the persistent threat of state-sponsored actors utilizing known server exploits to infiltrate critical infrastructure.",
       "date": "2026-05-14T12:20:02.000Z",
       "link": "https://hackread.com/famoussparrow-oil-gas-ms-exchange-server-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8ca8ba34-bbc3-48b7-a7bf-8885a470f206",
@@ -5477,28 +5499,6 @@
       "summary": "A long-standing security vulnerability dubbed 'Copy Fail' affects mainstream Linux distributions since 2017, though the disclosure process was criticized for relying on poor-quality AI-generated content.",
       "date": "2026-05-04T21:54:13.000Z",
       "link": "https://cyberscoop.com/copy-fail-linux-vulnerability-artificial-intelligence/",
-      "isTopTen": false
-    },
-    {
-      "id": "ab045752-bd97-43c6-9b0b-8d52097526ac",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "MOVEit automation flaws could enable full system compromise",
-      "summary": "Progress Software has patched two critical vulnerabilities in MOVEit Automation, including an authentication bypass and a privilege escalation flaw that could lead to full system compromise.",
-      "date": "2026-05-04T21:32:10.000Z",
-      "link": "https://securityaffairs.com/191681/security/moveit-automation-flaws-could-enable-full-system-compromise.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b244663a-1042-4ce9-bdb9-7cffdcb97665",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Kids say they can beat age checks by drawing on a fake mustache",
-      "summary": "Service busy.",
-      "date": "2026-05-04T20:50:10.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/",
       "isTopTen": false
     }
   ]
