@@ -78,7 +78,12 @@ function renderArticles() {
         }
 
         if (activeCategory) {
-            matchCategory = (article.tag === activeCategory);
+            if (activeCategory === "Zero Day Vulnerabilities") {
+                const text = `${article.title} ${article.summary}`.toLowerCase();
+                matchCategory = text.includes('zero-day') || text.includes('0-day') || text.includes('zero day');
+            } else {
+                matchCategory = (article.tag === activeCategory);
+            }
         }
         
         if (activeSeverity) {
