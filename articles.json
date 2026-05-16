@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T03:38:16.345Z",
+  "lastUpdated": "2026-05-16T08:12:10.751Z",
   "articles": [
     {
       "id": "8579318c-9a9e-4669-a7d6-353e8853bbaa",
@@ -54,7 +54,7 @@
       "summary": "THORChain confirmed a security breach resulting in the theft of approximately $10.7 million after one of its six vaults was compromised. An investigation into the incident is currently ongoing.",
       "date": "2026-05-15T19:31:00.000Z",
       "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6f1b5563-0548-4cca-afc7-d46a829a51fc",
@@ -65,7 +65,7 @@
       "summary": "A critical vulnerability in the WordPress Funnel Builder plugin is being actively exploited to inject malicious JavaScript into WooCommerce checkout pages to steal customer credit card data.",
       "date": "2026-05-15T19:30:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "80024a6c-433a-4cd6-9349-90e64f4d450f",
@@ -186,7 +186,7 @@
       "summary": "CISA has mandated that all federal agencies apply a security patch to Cisco SD-WAN systems by Sunday to address an actively exploited authentication bypass vulnerability. This critical flaw allows remote, unauthenticated attackers to gain administrative control over the affected devices.",
       "date": "2026-05-15T13:16:00.000Z",
       "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "098b1aea-aa65-4c1e-97d2-6ebc4586e2b0",
@@ -296,7 +296,7 @@
       "summary": "OpenAI employees' devices were compromised by malicious npm packages, leading to the theft of internal credentials. The incident highlights a supply chain attack involving poisoned packages that bypassed initial security measures.",
       "date": "2026-05-15T10:08:07.000Z",
       "link": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "da47b8de-babd-4168-95e8-eda326c52de0",
@@ -417,7 +417,7 @@
       "summary": "On the first day of Pwn2Own Berlin 2026, researchers successfully demonstrated 24 zero-day vulnerabilities across various platforms, including AI products and NVIDIA infrastructure, resulting in $523,000 in payouts.",
       "date": "2026-05-15T05:20:06.000Z",
       "link": "https://securityaffairs.com/192183/hacking/pwn2own-berlin-2026-day-one-523000-paid-out-ai-products-fall.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "14a46992-1cee-42bb-a42b-37e0f776ae26",
@@ -461,7 +461,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -538,7 +538,7 @@
       "summary": "OpenAI confirmed that two employee devices were compromised as part of a larger supply chain attack involving malicious npm and PyPI packages. In response, the company rotated its code-signing certificates to mitigate potential downstream risks.",
       "date": "2026-05-14T19:07:24.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f90fd8b-c841-4e55-a556-f77546c2694d",
@@ -560,7 +560,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -582,7 +582,7 @@
       "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
       "date": "2026-05-14T17:57:14.000Z",
       "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
@@ -681,7 +681,7 @@
       "summary": "A new Linux kernel local privilege escalation vulnerability called Fragnesia (CVE-2026-46300) was inadvertently introduced by a patch intended to fix the previous Dirty Frag flaw. Both vulnerabilities affect the xfrm-ESP module, highlighting the risks of regression in complex kernel security updates.",
       "date": "2026-05-14T14:34:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/14/fragnesia-cve-2026-46300-linux-lpe-vulnerability/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7aa427bd-fbf7-4614-afcf-b8a5b915d69a",
@@ -703,7 +703,7 @@
       "summary": "The Belarus-aligned threat group Ghostwriter is actively targeting Ukrainian government organizations using geofenced PDF phishing lures to deploy Cobalt Strike. This activity continues the group's long-standing pattern of cyber espionage and influence operations in the region.",
       "date": "2026-05-14T14:00:37.000Z",
       "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dd4bb336-e015-4136-a16c-8a47536ec682",
@@ -736,7 +736,7 @@
       "summary": "The China-linked FamousSparrow hacking group exploited MS Exchange Server vulnerabilities to target an Azerbaijani energy company with advanced malware. This operation highlights the persistent threat of state-sponsored actors utilizing known server exploits to infiltrate critical infrastructure.",
       "date": "2026-05-14T12:20:02.000Z",
       "link": "https://hackread.com/famoussparrow-oil-gas-ms-exchange-server-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8ca8ba34-bbc3-48b7-a7bf-8885a470f206",
