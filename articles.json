@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-16T16:03:56.326Z",
+  "lastUpdated": "2026-05-16T19:15:02.163Z",
   "articles": [
+    {
+      "id": "ab9c6f65-9df6-476f-a807-b3c87855fb8d",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "U.S. CISA adds a flaw in Microsoft Exchange Server to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added a Microsoft Exchange Server vulnerability, CVE-2026-42897, to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw carries a CVSS score of 8.1, prompting urgent attention from organizations relying on the affected software.",
+      "date": "2026-05-16T17:30:29.000Z",
+      "link": "https://securityaffairs.com/192240/hacking/u-s-cisa-adds-a-flaw-in-microsoft-exchange-server-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "2612ace4-9761-422b-930a-3a0612fa94ad",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Russian APT Turla builds long-term access tool with Kazuar Botnet evolution",
+      "summary": "The Russia-linked APT group Turla has evolved its Kazuar backdoor into a sophisticated peer-to-peer botnet to maintain stealthy, long-term persistence within compromised systems.",
+      "date": "2026-05-16T16:48:57.000Z",
+      "link": "https://securityaffairs.com/192231/apt/russian-apt-turla-builds-long-term-access-tool-with-kazuar-botnet-evolution.html",
+      "isTopTen": true
+    },
+    {
+      "id": "f829dc65-1af3-48ef-aa39-9bc018e23362",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
+      "summary": "A critical, unpatched vulnerability in the WordPress Funnel Builder plugin is being actively exploited to inject malicious JavaScript into WooCommerce checkout pages for payment data theft.",
+      "date": "2026-05-16T15:20:48.000Z",
+      "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+      "isTopTen": false
+    },
     {
       "id": "92eaab68-b704-43a4-8915-7b7c161156eb",
       "source": "BleepingComputer",
@@ -10,7 +43,7 @@
       "summary": "The Russian threat group Secret Blizzard has upgraded its Kazuar backdoor into a modular P2P botnet to enhance long-term persistence, stealth, and exfiltration capabilities.",
       "date": "2026-05-16T14:15:37.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0948c08f-0fde-47af-bc94-2191e3128b93",
@@ -131,7 +164,7 @@
       "summary": "The popular node-ipc npm package was compromised via a supply chain attack that injected credential-stealing malware into its recent versions. This incident highlights the ongoing risks of malicious code insertion within the open-source software ecosystem.",
       "date": "2026-05-15T17:10:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "922d5e4d-891e-47ba-b18f-a3a6426490e9",
@@ -164,7 +197,7 @@
       "summary": "Two critical vulnerabilities in the widely-used Avada Builder WordPress plugin could allow unauthorized attackers to steal site credentials and extract sensitive data by reading arbitrary files. These flaws pose a significant risk to the estimated one million websites currently utilizing the plugin.",
       "date": "2026-05-15T15:56:56.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4371b472-e6c9-4154-b438-93d3072049e6",
@@ -197,7 +230,7 @@
       "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
       "date": "2026-05-15T14:03:58.000Z",
       "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
@@ -329,7 +362,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -417,7 +450,7 @@
       "summary": "Security researcher Chaotic Eclipse has disclosed two Windows zero-day vulnerabilities, YellowKey and GreenPlasma, which impact BitLocker encryption and the CTFMON framework.",
       "date": "2026-05-15T06:46:59.000Z",
       "link": "https://securityaffairs.com/192173/hacking/researchers-uncover-yellowkey-and-greenplasma-windows-zero-days.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f066b0c1-2ff4-4d4e-a0c7-bb4f21dd242f",
@@ -461,7 +494,7 @@
       "summary": "On the first day of Pwn2Own Berlin 2026, researchers successfully demonstrated 24 zero-day vulnerabilities across various platforms, including AI products and NVIDIA infrastructure, resulting in $523,000 in payouts.",
       "date": "2026-05-15T05:20:06.000Z",
       "link": "https://securityaffairs.com/192183/hacking/pwn2own-berlin-2026-day-one-523000-paid-out-ai-products-fall.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "14a46992-1cee-42bb-a42b-37e0f776ae26",
@@ -505,7 +538,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -626,7 +659,7 @@
       "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
       "date": "2026-05-14T17:57:14.000Z",
       "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
@@ -769,7 +802,7 @@
       "summary": "Service busy.",
       "date": "2026-05-14T13:30:44.000Z",
       "link": "https://securityaffairs.com/192132/hacking/nginx-rift-an-18-year-old-flaw-in-the-worlds-most-deployed-web-server-just-came-to-light.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c812a41d-751e-4411-8c13-8e2c5bb99c94",
@@ -5466,39 +5499,6 @@
       "summary": "Researchers at the University of Massachusetts Dartmouth are investigating whether stylistic coding patterns can effectively predict the presence of vulnerabilities in software. This study builds on existing techniques used for authorship attribution to determine if developer habits correlate with secure or insecure coding practices.",
       "date": "2026-05-05T05:00:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/05/research-code-stylometry-vulnerability-detection/",
-      "isTopTen": false
-    },
-    {
-      "id": "8fd2c187-924b-4173-87cc-14d7262175b2",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "One in four MCP servers opens AI agent security to code execution risk",
-      "summary": "Service busy.",
-      "date": "2026-05-05T04:30:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/05/ai-agent-security-skills-blind-spots/",
-      "isTopTen": false
-    },
-    {
-      "id": "f74b5eb1-d3be-46c4-a750-3c69fcb2b683",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cybersecurity jobs available right now: May 5, 2026",
-      "summary": "Service busy.",
-      "date": "2026-05-05T04:00:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/05/cybersecurity-jobs-available-right-now-may-5-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "7106e439-4873-49bb-96ce-afee6c0d2a2a",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "German officials advance legislation that would expand law enforcement use of surveillance technology",
-      "summary": "German officials are introducing legislation to authorize the use of AI-driven facial recognition and automated data analysis tools for police investigations. This move aims to enhance law enforcement capabilities by enabling the mass scanning of internet images to track individuals.",
-      "date": "2026-05-05T04:00:00.000Z",
-      "link": "https://therecord.media/german-officials-advance-laws-surveillance",
       "isTopTen": false
     }
   ]
