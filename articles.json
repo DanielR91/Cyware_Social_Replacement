@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-16T08:12:10.751Z",
+  "lastUpdated": "2026-05-16T10:23:37.356Z",
   "articles": [
+    {
+      "id": "0948c08f-0fde-47af-bc94-2191e3128b93",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI Voice Cloning: The Technology Behind It, Who’s Building It, and Where It’s Headed",
+      "summary": "This article examines the mechanisms, key players, and ethical implications of AI voice cloning technology. It highlights the growing concerns surrounding synthetic audio and its potential for misuse in cybersecurity contexts.",
+      "date": "2026-05-16T10:13:31.000Z",
+      "link": "https://hackread.com/ai-voice-cloning-technology-behind-where-it-is-headed/",
+      "isTopTen": false
+    },
+    {
+      "id": "737e35fe-e1b7-496c-bd55-d2bdbc85bfd1",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "OpenAI hit by supply chain attack linked to malicious TanStack packages",
+      "summary": "OpenAI confirmed that the TeamPCP hacking group used a supply chain attack involving malicious TanStack packages to compromise employee devices and access internal code repository credentials.",
+      "date": "2026-05-16T09:31:49.000Z",
+      "link": "https://securityaffairs.com/192222/hacking/openai-hit-by-supply-chain-attack-linked-to-malicious-tanstack-packages.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a2dc92cf-7db7-42f7-8f9a-43f15446dd3a",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical ‘Claw Chain’ Vulnerabilities Put Thousands of OpenClaw AI Servers at Risk",
+      "summary": "The 'Claw Chain' vulnerabilities in OpenClaw AI servers allow attackers to perform data theft, install backdoors, and achieve admin-level access globally. Thousands of servers are currently exposed to these critical security flaws.",
+      "date": "2026-05-16T09:16:10.000Z",
+      "link": "https://hackread.com/claw-chain-vulnerabilities-openclaw-ai-servers-risk/",
+      "isTopTen": true
+    },
     {
       "id": "8579318c-9a9e-4669-a7d6-353e8853bbaa",
       "source": "CyberScoop",
@@ -21,7 +54,7 @@
       "summary": "The second day of Pwn2Own Berlin 2026 resulted in $385,750 being awarded for 15 zero-day vulnerabilities, including critical flaws in Microsoft Exchange, Windows 11, and Red Hat Enterprise Linux. The event has reached a two-day total of $908,750 for 39 discovered vulnerabilities.",
       "date": "2026-05-15T21:53:56.000Z",
       "link": "https://securityaffairs.com/192209/security/pwn2own-berlin-2026-day-two-385750-more-microsoft-exchange-falls-and-the-running-total-crosses-900k.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1e26acd1-25c9-41a0-95f9-232f1425e7d1",
@@ -65,7 +98,7 @@
       "summary": "A critical vulnerability in the WordPress Funnel Builder plugin is being actively exploited to inject malicious JavaScript into WooCommerce checkout pages to steal customer credit card data.",
       "date": "2026-05-15T19:30:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "80024a6c-433a-4cd6-9349-90e64f4d450f",
@@ -296,7 +329,7 @@
       "summary": "OpenAI employees' devices were compromised by malicious npm packages, leading to the theft of internal credentials. The incident highlights a supply chain attack involving poisoned packages that bypassed initial security measures.",
       "date": "2026-05-15T10:08:07.000Z",
       "link": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "da47b8de-babd-4168-95e8-eda326c52de0",
@@ -417,7 +450,7 @@
       "summary": "On the first day of Pwn2Own Berlin 2026, researchers successfully demonstrated 24 zero-day vulnerabilities across various platforms, including AI products and NVIDIA infrastructure, resulting in $523,000 in payouts.",
       "date": "2026-05-15T05:20:06.000Z",
       "link": "https://securityaffairs.com/192183/hacking/pwn2own-berlin-2026-day-one-523000-paid-out-ai-products-fall.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "14a46992-1cee-42bb-a42b-37e0f776ae26",
@@ -461,7 +494,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -692,7 +725,7 @@
       "summary": "Foxconn confirmed a ransomware attack on its North American operations, with the threat actor group Nitrogen claiming responsibility for the theft of 8 terabytes of customer data.",
       "date": "2026-05-14T14:23:05.000Z",
       "link": "https://cyberscoop.com/foxconn-cyberattack-disrupts-north-america-factories/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b7135cf4-7421-4e61-b176-75814c5aa755",
@@ -703,7 +736,7 @@
       "summary": "The Belarus-aligned threat group Ghostwriter is actively targeting Ukrainian government organizations using geofenced PDF phishing lures to deploy Cobalt Strike. This activity continues the group's long-standing pattern of cyber espionage and influence operations in the region.",
       "date": "2026-05-14T14:00:37.000Z",
       "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dd4bb336-e015-4136-a16c-8a47536ec682",
@@ -736,7 +769,7 @@
       "summary": "The China-linked FamousSparrow hacking group exploited MS Exchange Server vulnerabilities to target an Azerbaijani energy company with advanced malware. This operation highlights the persistent threat of state-sponsored actors utilizing known server exploits to infiltrate critical infrastructure.",
       "date": "2026-05-14T12:20:02.000Z",
       "link": "https://hackread.com/famoussparrow-oil-gas-ms-exchange-server-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8ca8ba34-bbc3-48b7-a7bf-8885a470f206",
@@ -5466,39 +5499,6 @@
       "summary": "Researchers in Singapore have developed an agentic translation technology that converts disparate SIEM rule formats into a unified standard to improve SOC efficiency. This innovation addresses the interoperability challenges often faced by security teams managing tools from multiple vendors.",
       "date": "2026-05-05T02:12:16.000Z",
       "link": "https://www.theregister.com/security/2026/05/05/singapore-boffins-get-diverse-siems-singing-in-harmony/5220619",
-      "isTopTen": false
-    },
-    {
-      "id": "3ccd0b51-1c6b-4f69-a751-b048ba48c4b6",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Singapore boffins get diverse SIEMs singing in harmony with agentic rule translation",
-      "summary": "Researchers in Singapore have developed an agentic system that automates the translation of security rules across diverse SIEM platforms. This advancement improves interoperability and efficiency in security operations by bridging compatibility gaps between different security monitoring tools.",
-      "date": "2026-05-05T02:12:16.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/arulecon_siem_rule_conversion/",
-      "isTopTen": false
-    },
-    {
-      "id": "a2721b36-03b6-45bf-b109-42e56769b00c",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Weaver E-cology critical bug exploited in attacks since March",
-      "summary": "Hackers have been actively exploiting a critical remote code execution vulnerability, tracked as CVE-2026-22679, in Weaver E-cology office automation software since mid-March to execute unauthorized commands. The campaign primarily focuses on reconnaissance activities within compromised systems.",
-      "date": "2026-05-04T22:12:57.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
-      "isTopTen": false
-    },
-    {
-      "id": "0fa902da-8d47-4ec3-a5ae-9be0a0a88ac6",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "‘Copy Fail’ is a real Linux security crisis wrapped in AI slop",
-      "summary": "A long-standing security vulnerability dubbed 'Copy Fail' affects mainstream Linux distributions since 2017, though the disclosure process was criticized for relying on poor-quality AI-generated content.",
-      "date": "2026-05-04T21:54:13.000Z",
-      "link": "https://cyberscoop.com/copy-fail-linux-vulnerability-artificial-intelligence/",
       "isTopTen": false
     }
   ]
