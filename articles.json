@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-17T10:27:50.569Z",
+  "lastUpdated": "2026-05-17T13:44:15.397Z",
   "articles": [
+    {
+      "id": "0576f85c-280c-4a1d-9bfe-3abe069984ac",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Security Affairs newsletter Round 577 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 577th edition of the Security Affairs newsletter features updates on the exploitation of a Funnel Builder vulnerability for e-skimming attacks and ongoing coverage of Pwn2Own Berlin 2026. It serves as a digest for the latest cybersecurity news and research.",
+      "date": "2026-05-17T12:59:38.000Z",
+      "link": "https://securityaffairs.com/192269/security/security-affairs-newsletter-round-577-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "fd362aee-05b6-49d0-b4eb-adf63a2f4d6b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers exploit Funnel Builder bug to inject e-skimmers into e-stores",
+      "summary": "Attackers are actively exploiting a critical vulnerability in the WordPress Funnel Builder plugin to inject malicious JavaScript e-skimmers into WooCommerce checkout pages. This threat poses a significant risk to the payment security of online stores using the affected plugin.",
+      "date": "2026-05-17T12:25:40.000Z",
+      "link": "https://securityaffairs.com/192260/cyber-crime/attackers-exploit-funnel-builder-bug-to-inject-e-skimmers-into-e-stores.html",
+      "isTopTen": true
+    },
+    {
+      "id": "548b93af-23bf-468e-888f-10fec11923df",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Scammers Send Physical Phishing Letters to Steal Ledger Wallet Seed Phrases",
+      "summary": "Scammers are targeting cryptocurrency users in Italy by mailing physical letters containing malicious QR codes designed to steal Ledger hardware wallet seed phrases. This campaign highlights a shift toward physical social engineering tactics to compromise digital assets.",
+      "date": "2026-05-17T11:55:35.000Z",
+      "link": "https://hackread.com/scammers-physical-phishing-letters-ledger-wallet-seed/",
+      "isTopTen": false
+    },
     {
       "id": "ecc0f671-6763-488d-aa96-1b4419ce0e00",
       "source": "HackRead",
@@ -10,7 +43,7 @@
       "summary": "Grafana experienced a source code theft following unauthorized access via a compromised GitHub token, though the company confirmed no customer data or systems were impacted and a subsequent ransom demand was rejected.",
       "date": "2026-05-17T10:17:46.000Z",
       "link": "https://hackread.com/grafana-source-code-theft-rejected-ransom-demand/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a5f94cf-abe9-4e08-aa66-31c3f823aa5b",
@@ -43,7 +76,7 @@
       "summary": "Pwn2Own Berlin 2026 concluded with researchers identifying 47 unique zero-day vulnerabilities, resulting in over $1.29 million in payouts with DEVCORE securing the top position. The event highlighted a significant volume of new security flaws across various software categories.",
       "date": "2026-05-17T00:41:06.000Z",
       "link": "https://securityaffairs.com/192250/hacking/pwn2own-berlin-2026-day-three-devcore-crowned-master-of-pwn-1-298-million-total.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "11558892-4934-479e-912f-276529136c54",
@@ -87,7 +120,7 @@
       "summary": "A critical, unpatched vulnerability in the WordPress Funnel Builder plugin is being actively exploited to inject malicious JavaScript into WooCommerce checkout pages for payment data theft.",
       "date": "2026-05-16T15:20:48.000Z",
       "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "92eaab68-b704-43a4-8915-7b7c161156eb",
@@ -131,7 +164,7 @@
       "summary": "The 'Claw Chain' vulnerabilities in OpenClaw AI servers allow attackers to perform data theft, install backdoors, and achieve admin-level access globally. Thousands of servers are currently exposed to these critical security flaws.",
       "date": "2026-05-16T09:16:10.000Z",
       "link": "https://hackread.com/claw-chain-vulnerabilities-openclaw-ai-servers-risk/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8579318c-9a9e-4669-a7d6-353e8853bbaa",
@@ -186,7 +219,7 @@
       "summary": "THORChain confirmed a security breach resulting in the theft of approximately $10.7 million after one of its six vaults was compromised. An investigation into the incident is currently ongoing.",
       "date": "2026-05-15T19:31:00.000Z",
       "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6f1b5563-0548-4cca-afc7-d46a829a51fc",
@@ -219,7 +252,7 @@
       "summary": "The popular node-ipc npm package was compromised via a supply chain attack that injected credential-stealing malware into its recent versions. This incident highlights the ongoing risks of malicious code insertion within the open-source software ecosystem.",
       "date": "2026-05-15T17:10:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "922d5e4d-891e-47ba-b18f-a3a6426490e9",
@@ -252,7 +285,7 @@
       "summary": "Two critical vulnerabilities in the widely-used Avada Builder WordPress plugin could allow unauthorized attackers to steal site credentials and extract sensitive data by reading arbitrary files. These flaws pose a significant risk to the estimated one million websites currently utilizing the plugin.",
       "date": "2026-05-15T15:56:56.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4371b472-e6c9-4154-b438-93d3072049e6",
@@ -285,7 +318,7 @@
       "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
       "date": "2026-05-15T14:03:58.000Z",
       "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
@@ -417,7 +450,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -692,7 +725,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -714,7 +747,7 @@
       "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
       "date": "2026-05-14T17:57:14.000Z",
       "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
@@ -5466,39 +5499,6 @@
       "summary": "The North Korean-aligned hacking group ScarCruft compromised a gaming platform to distribute the BirdCall backdoor, marking an expansion of the malware's capabilities to include Android devices alongside Windows. The campaign is believed to be a supply chain attack targeting ethnic Koreans living in China.",
       "date": "2026-05-05T09:07:00.000Z",
       "link": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "942ee03a-dd8f-4c2c-af62-9284548221b6",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "ScarCruft hackers push BirdCall Android malware via game platform",
-      "summary": "The North Korean APT37 group is distributing the BirdCall Android backdoor through a supply-chain attack hosted on a video game platform. This campaign demonstrates a targeted effort to compromise mobile devices via malicious software delivery.",
-      "date": "2026-05-05T09:04:13.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "cd08e3f3-24b3-488a-9db9-b91e774dcea3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "North Korean hackers trojanize gaming platform to spy on ethnic Koreans in China",
-      "summary": "Service busy.",
-      "date": "2026-05-05T09:00:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/05/china-scarcruft-supply-chain-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "1affcb43-aaf8-46b7-940d-5b582deb5abc",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meta adds proof-based security to encrypted backups",
-      "summary": "Meta has enhanced the security of its end-to-end encrypted backups by implementing over-the-air fleet key distribution and committing to transparent, proof-based verification of its HSM-based infrastructure.",
-      "date": "2026-05-05T08:34:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/05/meta-whatsapp-messenger-encrypted-backups-update/",
       "isTopTen": false
     }
   ]
