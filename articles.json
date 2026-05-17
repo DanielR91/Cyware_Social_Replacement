@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-17T13:44:15.397Z",
+  "lastUpdated": "2026-05-17T16:04:36.638Z",
   "articles": [
+    {
+      "id": "66b1c053-2212-4feb-af9d-dd44b6d8971b",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
+      "summary": "The Tycoon2FA phishing kit has been updated to use device-code phishing and malicious click-tracking URLs to compromise Microsoft 365 accounts. This technique allows attackers to bypass traditional multi-factor authentication methods.",
+      "date": "2026-05-17T14:43:10.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+      "isTopTen": true
+    },
+    {
+      "id": "4562227d-8fb0-4174-89b5-f4930193239a",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 97",
+      "summary": "The Security Affairs Malware Newsletter highlights significant threats, including a JDownloader site compromise, a new TrickMo banking Trojan variant, and active exploitation of CVE-2026-41940 by the threat actor Mr_Rot13. These reports focus on recent campaigns involving malware distribution and unauthorized backdoor deployment.",
+      "date": "2026-05-17T13:54:22.000Z",
+      "link": "https://securityaffairs.com/192278/security/security-affairs-malware-newsletter-round-97.html",
+      "isTopTen": false
+    },
     {
       "id": "0576f85c-280c-4a1d-9bfe-3abe069984ac",
       "source": "Security Affairs",
@@ -21,6 +43,17 @@
       "summary": "Attackers are actively exploiting a critical vulnerability in the WordPress Funnel Builder plugin to inject malicious JavaScript e-skimmers into WooCommerce checkout pages. This threat poses a significant risk to the payment security of online stores using the affected plugin.",
       "date": "2026-05-17T12:25:40.000Z",
       "link": "https://securityaffairs.com/192260/cyber-crime/attackers-exploit-funnel-builder-bug-to-inject-e-skimmers-into-e-stores.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f640342c-6014-4d78-95cc-17804b34ced9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+      "summary": "A heap buffer overflow vulnerability (CVE-2026-42945) in the NGINX rewrite module is currently being exploited in the wild, leading to service crashes and potential remote code execution. The flaw affects a broad range of NGINX versions and carries a critical CVSS score of 9.2.",
+      "date": "2026-05-17T11:57:53.000Z",
+      "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
       "isTopTen": true
     },
     {
@@ -32,7 +65,7 @@
       "summary": "Scammers are targeting cryptocurrency users in Italy by mailing physical letters containing malicious QR codes designed to steal Ledger hardware wallet seed phrases. This campaign highlights a shift toward physical social engineering tactics to compromise digital assets.",
       "date": "2026-05-17T11:55:35.000Z",
       "link": "https://hackread.com/scammers-physical-phishing-letters-ledger-wallet-seed/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ecc0f671-6763-488d-aa96-1b4419ce0e00",
@@ -76,7 +109,7 @@
       "summary": "Pwn2Own Berlin 2026 concluded with researchers identifying 47 unique zero-day vulnerabilities, resulting in over $1.29 million in payouts with DEVCORE securing the top position. The event highlighted a significant volume of new security flaws across various software categories.",
       "date": "2026-05-17T00:41:06.000Z",
       "link": "https://securityaffairs.com/192250/hacking/pwn2own-berlin-2026-day-three-devcore-crowned-master-of-pwn-1-298-million-total.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "11558892-4934-479e-912f-276529136c54",
@@ -98,7 +131,7 @@
       "summary": "CISA has added a Microsoft Exchange Server vulnerability, CVE-2026-42897, to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw carries a CVSS score of 8.1, prompting urgent attention from organizations relying on the affected software.",
       "date": "2026-05-16T17:30:29.000Z",
       "link": "https://securityaffairs.com/192240/hacking/u-s-cisa-adds-a-flaw-in-microsoft-exchange-server-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2612ace4-9761-422b-930a-3a0612fa94ad",
@@ -109,7 +142,7 @@
       "summary": "The Russia-linked APT group Turla has evolved its Kazuar backdoor into a sophisticated peer-to-peer botnet to maintain stealthy, long-term persistence within compromised systems.",
       "date": "2026-05-16T16:48:57.000Z",
       "link": "https://securityaffairs.com/192231/apt/russian-apt-turla-builds-long-term-access-tool-with-kazuar-botnet-evolution.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f829dc65-1af3-48ef-aa39-9bc018e23362",
@@ -120,7 +153,7 @@
       "summary": "A critical, unpatched vulnerability in the WordPress Funnel Builder plugin is being actively exploited to inject malicious JavaScript into WooCommerce checkout pages for payment data theft.",
       "date": "2026-05-16T15:20:48.000Z",
       "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "92eaab68-b704-43a4-8915-7b7c161156eb",
@@ -153,7 +186,7 @@
       "summary": "OpenAI confirmed that the TeamPCP hacking group used a supply chain attack involving malicious TanStack packages to compromise employee devices and access internal code repository credentials.",
       "date": "2026-05-16T09:31:49.000Z",
       "link": "https://securityaffairs.com/192222/hacking/openai-hit-by-supply-chain-attack-linked-to-malicious-tanstack-packages.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a2dc92cf-7db7-42f7-8f9a-43f15446dd3a",
@@ -252,7 +285,7 @@
       "summary": "The popular node-ipc npm package was compromised via a supply chain attack that injected credential-stealing malware into its recent versions. This incident highlights the ongoing risks of malicious code insertion within the open-source software ecosystem.",
       "date": "2026-05-15T17:10:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "922d5e4d-891e-47ba-b18f-a3a6426490e9",
@@ -318,7 +351,7 @@
       "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
       "date": "2026-05-15T14:03:58.000Z",
       "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
@@ -450,7 +483,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -461,7 +494,7 @@
       "summary": "OpenAI employees' devices were compromised by malicious npm packages, leading to the theft of internal credentials. The incident highlights a supply chain attack involving poisoned packages that bypassed initial security measures.",
       "date": "2026-05-15T10:08:07.000Z",
       "link": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "da47b8de-babd-4168-95e8-eda326c52de0",
@@ -747,7 +780,7 @@
       "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
       "date": "2026-05-14T17:57:14.000Z",
       "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
@@ -5466,39 +5499,6 @@
       "summary": "The CloudZ remote access tool has introduced a new malicious plugin called Pheno that exploits Microsoft Phone Link to intercept sensitive SMS messages and OTP codes from linked mobile devices. This technique allows attackers to bypass multi-factor authentication by accessing security codes directly through the connected desktop environment.",
       "date": "2026-05-05T10:03:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
-      "isTopTen": false
-    },
-    {
-      "id": "73944203-cc38-4a98-843b-eb147d8a536d",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "NHS to close-source hundreds of GitHub repos over AI, security concerns",
-      "summary": "Service busy.",
-      "date": "2026-05-05T09:15:07.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/nhs_to_closesource_hundreds_of_repos/",
-      "isTopTen": false
-    },
-    {
-      "id": "bace75f4-a274-401a-ab28-c3b206f9e7c8",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Microsoft warns of global campaign stealing auth tokens from 35K users",
-      "summary": "Microsoft identified a widespread phishing campaign targeting 35,000 users across 26 countries, using fraudulent code-of-conduct emails to compromise authentication tokens. Attackers successfully leveraged legitimate services to bypass security filters and deceive recipients.",
-      "date": "2026-05-05T09:10:53.000Z",
-      "link": "https://securityaffairs.com/191695/security/microsoft-warns-of-global-campaign-stealing-auth-tokens-from-35k-users.html",
-      "isTopTen": false
-    },
-    {
-      "id": "81d40071-2879-4b8a-a36e-ffc9efb22815",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
-      "summary": "The North Korean-aligned hacking group ScarCruft compromised a gaming platform to distribute the BirdCall backdoor, marking an expansion of the malware's capabilities to include Android devices alongside Windows. The campaign is believed to be a supply chain attack targeting ethnic Koreans living in China.",
-      "date": "2026-05-05T09:07:00.000Z",
-      "link": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
       "isTopTen": false
     }
   ]
