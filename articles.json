@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-17T03:56:31.568Z",
+  "lastUpdated": "2026-05-17T08:29:49.364Z",
   "articles": [
+    {
+      "id": "9a5f94cf-abe9-4e08-aa66-31c3f823aa5b",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Week in review: Cisco patches SD-WAN 0-day, unpatched Microsoft Exchange Server flaw exploited",
+      "summary": "This weekly review highlights the disclosure of a Cisco SD-WAN zero-day vulnerability and the active exploitation of an unpatched flaw in Microsoft Exchange Server. It also features a new cybersecurity educational resource for industry newcomers.",
+      "date": "2026-05-17T08:00:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/17/week-in-review-cisco-patches-sd-wan-0-day-unpatched-microsoft-exchange-server-flaw-exploited/",
+      "isTopTen": false
+    },
+    {
+      "id": "c46d9125-1c0b-445f-a67f-1b21281d69f9",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+      "summary": "Grafana disclosed a security incident where an unauthorized party used a compromised GitHub token to access and download the company's source code, leading to an extortion attempt. The company confirmed that no customer data or systems were impacted by the breach.",
+      "date": "2026-05-17T07:13:33.000Z",
+      "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "isTopTen": false
+    },
     {
       "id": "4872351b-e29d-4e12-bd72-176c89c4ee4b",
       "source": "Security Affairs",
@@ -285,7 +307,7 @@
       "summary": "CISA has mandated that all federal agencies apply a security patch to Cisco SD-WAN systems by Sunday to address an actively exploited authentication bypass vulnerability. This critical flaw allows remote, unauthenticated attackers to gain administrative control over the affected devices.",
       "date": "2026-05-15T13:16:00.000Z",
       "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "098b1aea-aa65-4c1e-97d2-6ebc4586e2b0",
@@ -373,7 +395,7 @@
       "summary": "The APT group known as Ghostwriter (FrostyNeighbor) has resumed its cyber-espionage campaign against Ukrainian government organizations as of March 2026. Researchers from ESET have identified that this recent activity mirrors the tactics used in the group's previous campaigns.",
       "date": "2026-05-15T10:36:36.000Z",
       "link": "https://securityaffairs.com/192196/apt/ghostwriter-group-resumes-attacks-on-ukrainian-government-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7dc47d40-4739-4c7e-8557-470c58bde5fa",
@@ -384,7 +406,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -472,7 +494,7 @@
       "summary": "Security researcher Chaotic Eclipse has disclosed two Windows zero-day vulnerabilities, YellowKey and GreenPlasma, which impact BitLocker encryption and the CTFMON framework.",
       "date": "2026-05-15T06:46:59.000Z",
       "link": "https://securityaffairs.com/192173/hacking/researchers-uncover-yellowkey-and-greenplasma-windows-zero-days.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f066b0c1-2ff4-4d4e-a0c7-bb4f21dd242f",
@@ -560,7 +582,7 @@
       "summary": "The hacker group TeamPCP has claimed to possess and is currently auctioning stolen source code from Mistral AI. The group threatens to publicly leak the proprietary data if a buyer is not secured.",
       "date": "2026-05-14T22:50:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d08337d6-7162-4ced-92bd-1f0851fac987",
@@ -659,7 +681,7 @@
       "summary": "CISA has added CVE-2026-20182, a critical vulnerability in Cisco Catalyst SD-WAN with a CVSS score of 10.0, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-05-14T18:35:43.000Z",
       "link": "https://securityaffairs.com/192157/hacking/u-s-cisa-adds-a-flaw-in-cisco-catalyst-sd-wan-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "03222039-b843-49c7-8158-80b1801c90ba",
@@ -5477,28 +5499,6 @@
       "summary": "The article critiques Microsoft's declining software quality and service standards, suggesting that a shift in organizational focus has led to increased technical issues and vulnerabilities. It serves as an editorial commentary on the company's current development practices rather than a report on a specific exploit.",
       "date": "2026-05-05T08:30:14.000Z",
       "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/microsoft_opinion_column/",
-      "isTopTen": false
-    },
-    {
-      "id": "0c7feb0f-fa5c-433b-a893-735617e44545",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Educational tech firm Instructure data breach may have impacted 9,000 schools",
-      "summary": "Educational technology firm Instructure is investigating a cybersecurity incident involving its Canvas learning platform that potentially exposed the personal data of users across 9,000 schools.",
-      "date": "2026-05-05T07:48:31.000Z",
-      "link": "https://securityaffairs.com/191686/cyber-crime/educational-tech-firm-instructure-data-breach-may-have-impacted-9000-schools.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2ab77923-81a8-471b-a6a0-981b09bb4e4f",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
-      "summary": "A critical RCE vulnerability (CVE-2026-22679) in Weaver E-cology 10.0 is being actively exploited in the wild via the platform's Debug API. The flaw allows unauthenticated attackers to execute arbitrary code on affected enterprise office automation systems.",
-      "date": "2026-05-05T07:37:00.000Z",
-      "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
       "isTopTen": false
     }
   ]
