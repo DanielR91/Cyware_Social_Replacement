@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-17T08:29:49.364Z",
+  "lastUpdated": "2026-05-17T10:27:50.569Z",
   "articles": [
+    {
+      "id": "ecc0f671-6763-488d-aa96-1b4419ce0e00",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Grafana Says It Rejected Ransom Demand After Source Code Theft",
+      "summary": "Grafana experienced a source code theft following unauthorized access via a compromised GitHub token, though the company confirmed no customer data or systems were impacted and a subsequent ransom demand was rejected.",
+      "date": "2026-05-17T10:17:46.000Z",
+      "link": "https://hackread.com/grafana-source-code-theft-rejected-ransom-demand/",
+      "isTopTen": true
+    },
     {
       "id": "9a5f94cf-abe9-4e08-aa66-31c3f823aa5b",
       "source": "Help Net Security",
@@ -120,7 +131,7 @@
       "summary": "The 'Claw Chain' vulnerabilities in OpenClaw AI servers allow attackers to perform data theft, install backdoors, and achieve admin-level access globally. Thousands of servers are currently exposed to these critical security flaws.",
       "date": "2026-05-16T09:16:10.000Z",
       "link": "https://hackread.com/claw-chain-vulnerabilities-openclaw-ai-servers-risk/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8579318c-9a9e-4669-a7d6-353e8853bbaa",
@@ -175,7 +186,7 @@
       "summary": "THORChain confirmed a security breach resulting in the theft of approximately $10.7 million after one of its six vaults was compromised. An investigation into the incident is currently ongoing.",
       "date": "2026-05-15T19:31:00.000Z",
       "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6f1b5563-0548-4cca-afc7-d46a829a51fc",
@@ -241,7 +252,7 @@
       "summary": "Two critical vulnerabilities in the widely-used Avada Builder WordPress plugin could allow unauthorized attackers to steal site credentials and extract sensitive data by reading arbitrary files. These flaws pose a significant risk to the estimated one million websites currently utilizing the plugin.",
       "date": "2026-05-15T15:56:56.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4371b472-e6c9-4154-b438-93d3072049e6",
@@ -274,7 +285,7 @@
       "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
       "date": "2026-05-15T14:03:58.000Z",
       "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
@@ -307,7 +318,7 @@
       "summary": "CISA has mandated that all federal agencies apply a security patch to Cisco SD-WAN systems by Sunday to address an actively exploited authentication bypass vulnerability. This critical flaw allows remote, unauthenticated attackers to gain administrative control over the affected devices.",
       "date": "2026-05-15T13:16:00.000Z",
       "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "098b1aea-aa65-4c1e-97d2-6ebc4586e2b0",
@@ -406,7 +417,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -494,7 +505,7 @@
       "summary": "Security researcher Chaotic Eclipse has disclosed two Windows zero-day vulnerabilities, YellowKey and GreenPlasma, which impact BitLocker encryption and the CTFMON framework.",
       "date": "2026-05-15T06:46:59.000Z",
       "link": "https://securityaffairs.com/192173/hacking/researchers-uncover-yellowkey-and-greenplasma-windows-zero-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f066b0c1-2ff4-4d4e-a0c7-bb4f21dd242f",
@@ -5488,17 +5499,6 @@
       "summary": "Meta has enhanced the security of its end-to-end encrypted backups by implementing over-the-air fleet key distribution and committing to transparent, proof-based verification of its HSM-based infrastructure.",
       "date": "2026-05-05T08:34:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/05/meta-whatsapp-messenger-encrypted-backups-update/",
-      "isTopTen": false
-    },
-    {
-      "id": "adb48756-8bb6-401d-864d-cd38dfb55b05",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Microsoft's bad obsession is showing up in shabby services and slipshod software. Here's proof",
-      "summary": "The article critiques Microsoft's declining software quality and service standards, suggesting that a shift in organizational focus has led to increased technical issues and vulnerabilities. It serves as an editorial commentary on the company's current development practices rather than a report on a specific exploit.",
-      "date": "2026-05-05T08:30:14.000Z",
-      "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/microsoft_opinion_column/",
       "isTopTen": false
     }
   ]
