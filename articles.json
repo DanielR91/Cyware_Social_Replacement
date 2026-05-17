@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-16T21:57:24.151Z",
+  "lastUpdated": "2026-05-17T03:56:31.568Z",
   "articles": [
+    {
+      "id": "4872351b-e29d-4e12-bd72-176c89c4ee4b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Pwn2Own Berlin 2026, Day Three: DEVCORE Crowned Master of Pwn, $1.298 Million Total",
+      "summary": "Pwn2Own Berlin 2026 concluded with researchers identifying 47 unique zero-day vulnerabilities, resulting in over $1.29 million in payouts with DEVCORE securing the top position. The event highlighted a significant volume of new security flaws across various software categories.",
+      "date": "2026-05-17T00:41:06.000Z",
+      "link": "https://securityaffairs.com/192250/hacking/pwn2own-berlin-2026-day-three-devcore-crowned-master-of-pwn-1-298-million-total.html",
+      "isTopTen": false
+    },
     {
       "id": "11558892-4934-479e-912f-276529136c54",
       "source": "BleepingComputer",
@@ -21,7 +32,7 @@
       "summary": "CISA has added a Microsoft Exchange Server vulnerability, CVE-2026-42897, to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw carries a CVSS score of 8.1, prompting urgent attention from organizations relying on the affected software.",
       "date": "2026-05-16T17:30:29.000Z",
       "link": "https://securityaffairs.com/192240/hacking/u-s-cisa-adds-a-flaw-in-microsoft-exchange-server-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2612ace4-9761-422b-930a-3a0612fa94ad",
@@ -142,7 +153,7 @@
       "summary": "THORChain confirmed a security breach resulting in the theft of approximately $10.7 million after one of its six vaults was compromised. An investigation into the incident is currently ongoing.",
       "date": "2026-05-15T19:31:00.000Z",
       "link": "https://therecord.media/more-than-10-million-stolen-crypto-platform-thorchain",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6f1b5563-0548-4cca-afc7-d46a829a51fc",
@@ -241,7 +252,7 @@
       "summary": "Microsoft has confirmed active exploitation of a new zero-day cross-site scripting vulnerability in Exchange Server, identified as CVE-2026-42897. The flaw carries a CVSS score of 8.1, posing a significant risk to affected organizations.",
       "date": "2026-05-15T14:03:58.000Z",
       "link": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06346fe5-bbde-40bd-9b32-6aa6cb21757b",
@@ -274,7 +285,7 @@
       "summary": "CISA has mandated that all federal agencies apply a security patch to Cisco SD-WAN systems by Sunday to address an actively exploited authentication bypass vulnerability. This critical flaw allows remote, unauthenticated attackers to gain administrative control over the affected devices.",
       "date": "2026-05-15T13:16:00.000Z",
       "link": "https://therecord.media/cisa-orders-all-federal-agencies-to-patch-cisco-sd-wan-bug",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "098b1aea-aa65-4c1e-97d2-6ebc4586e2b0",
@@ -362,7 +373,7 @@
       "summary": "The APT group known as Ghostwriter (FrostyNeighbor) has resumed its cyber-espionage campaign against Ukrainian government organizations as of March 2026. Researchers from ESET have identified that this recent activity mirrors the tactics used in the group's previous campaigns.",
       "date": "2026-05-15T10:36:36.000Z",
       "link": "https://securityaffairs.com/192196/apt/ghostwriter-group-resumes-attacks-on-ukrainian-government-targets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7dc47d40-4739-4c7e-8557-470c58bde5fa",
@@ -373,7 +384,7 @@
       "summary": "Threat actors are leveraging Outlook calendar invitations and the EvilTokens kit to conduct device code phishing, effectively bypassing multi-factor authentication to compromise Microsoft 365 sessions. This attack vector allows attackers to gain unauthorized access to enterprise accounts by stealing session tokens.",
       "date": "2026-05-15T10:30:22.000Z",
       "link": "https://hackread.com/calphishing-eviltokens-kit-outlook-invites-m365/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70f74d90-9a0f-485e-83e8-67baf0849b5c",
@@ -494,7 +505,7 @@
       "summary": "CISA has added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller (CVE-2026-20182) to its Known Exploited Vulnerabilities catalog. Federal agencies are mandated to patch the flaw by May 17, 2026.",
       "date": "2026-05-15T05:28:03.000Z",
       "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "062e8864-bde4-499c-a4b3-372c9f9aa7db",
@@ -670,7 +681,7 @@
       "summary": "The Fragnesia vulnerability (CVE-2026-46300) in the Linux kernel's XFRM ESP-in-TCP subsystem allows local attackers to perform page cache corruption and escalate privileges to root. Despite being a local attack, the flaw represents a significant risk due to its potential for full system compromise.",
       "date": "2026-05-14T17:57:14.000Z",
       "link": "https://securityaffairs.com/192145/uncategorized/linux-kernel-bug-fragnesia-allows-local-root-access-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "83a085cf-688e-42e1-965a-e8e7242b82e6",
@@ -5488,17 +5499,6 @@
       "summary": "A critical RCE vulnerability (CVE-2026-22679) in Weaver E-cology 10.0 is being actively exploited in the wild via the platform's Debug API. The flaw allows unauthenticated attackers to execute arbitrary code on affected enterprise office automation systems.",
       "date": "2026-05-05T07:37:00.000Z",
       "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8f080d00-633c-4b41-b4b7-5ef40df7be07",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
-      "summary": "Microsoft identified a widespread credential theft campaign that targeted over 35,000 users across 13,000 organizations using deceptive lures and malicious redirects. The attackers utilized legitimate email services to harvest authentication tokens from victims in 26 countries.",
-      "date": "2026-05-05T06:35:00.000Z",
-      "link": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
       "isTopTen": false
     }
   ]
