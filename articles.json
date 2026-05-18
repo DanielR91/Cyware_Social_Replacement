@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-05-18T19:54:32.862Z",
+  "lastUpdated": "2026-05-18T22:10:57.592Z",
   "articles": [
+    {
+      "id": "269aa355-f07c-4e21-a8bc-80b416162ed9",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SHub macOS infostealer variant spoofs Apple security updates",
+      "summary": "A new variant of the SHub macOS infostealer leverages AppleScript to display fraudulent security update prompts, subsequently installing a backdoor on compromised systems.",
+      "date": "2026-05-18T21:42:20.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
+      "isTopTen": false
+    },
+    {
+      "id": "37bb9f68-9c60-4e4c-8195-76c9e34d5e0f",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "More than 200 arrested in cyber raids aimed at Middle East scam networks",
+      "summary": "Law enforcement conducted widespread raids across the Middle East, resulting in over 200 arrests and the identification of hundreds of compromised devices linked to cybercriminal scam networks. Authorities are actively working to notify the owners of the affected devices.",
+      "date": "2026-05-18T20:52:00.000Z",
+      "link": "https://therecord.media/more-than-200-arrested-interpol-middle-east-scams",
+      "isTopTen": false
+    },
+    {
+      "id": "496c16e1-69ce-4c27-a453-a8e8af8e0495",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "AI might cut false positives, but it won’t stop the slop ",
+      "summary": "While AI tools are being developed to improve vulnerability detection and reduce false positives, cybersecurity professionals are concerned about the rising volume of low-quality, AI-generated reports flooding their workflows.",
+      "date": "2026-05-18T20:45:38.000Z",
+      "link": "https://cyberscoop.com/ai-vulnerability-reporting-bug-bounty-noise/",
+      "isTopTen": false
+    },
+    {
+      "id": "40bb1c04-6d09-44bf-a7b2-926aa01ae4e9",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "10 Top OSINT Tools Every Investigator Should Know in 2026",
+      "summary": "This article highlights the evolution of OSINT tools in 2026, noting a shift toward AI-driven platforms as traditional social media tracking faces increasing API and privacy limitations.",
+      "date": "2026-05-18T20:13:06.000Z",
+      "link": "https://hackread.com/10-top-osint-tools-investigator-should-know-2026/",
+      "isTopTen": false
+    },
     {
       "id": "24e5764c-23e1-410b-89b7-360fca58d340",
       "source": "CyberScoop",
@@ -21,7 +65,7 @@
       "summary": "Grafana Labs confirmed a security breach where a compromised GitHub token exposed internal source code after the threat actor group 'Coinbase Cartel' claimed responsibility. The company stated that no customer data or production systems were impacted by the incident.",
       "date": "2026-05-18T18:54:22.000Z",
       "link": "https://securityaffairs.com/192347/breaking-news/grafana-confirms-github-token-breach-cybercrime-group-claims-the-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1d83d3f0-b18f-4fdd-9bf5-3813ece84fa5",
@@ -109,7 +153,18 @@
       "summary": "A vulnerability in the Linux kernel allows unprivileged users to access sensitive files restricted to root, prompting researchers to propose ModuleJail as a mitigation strategy.",
       "date": "2026-05-18T16:20:00.000Z",
       "link": "https://www.theregister.com/security/2026/05/18/linux-kernel-flaw-opens-root-only-files-to-unprivileged-users/5241950",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "4c9c61a9-375e-447e-b836-171492164fc4",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Experts warn of privacy risks as AI firms looks to connect to financial accounts",
+      "summary": "OpenAI has introduced a new feature allowing users to integrate financial accounts with ChatGPT for personalized financial advice, raising significant privacy and security concerns among experts. This expansion of AI capabilities into sensitive financial data presents new vectors for potential data exposure.",
+      "date": "2026-05-18T16:10:00.000Z",
+      "link": "https://therecord.media/experts-warn-of-privacy-cyber-risks-ai-finance",
+      "isTopTen": false
     },
     {
       "id": "32daebae-050a-4755-934d-320c114734ef",
@@ -120,7 +175,7 @@
       "summary": "OpenAI has introduced a new feature enabling ChatGPT to connect to users' financial accounts for personalized advice, raising significant concerns among experts regarding data privacy and security risks. This integration poses potential threats to sensitive financial data exposure if the AI systems are compromised or mishandled.",
       "date": "2026-05-18T16:10:00.000Z",
       "link": "https://therecord.media/experts-warn-of-privacy-cyer-risks-ai-finance",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a0ada15f-e366-4697-8332-b7df74fabd08",
@@ -197,7 +252,7 @@
       "summary": "Attackers are actively exploiting a critical NGINX vulnerability (CVE-2026-42945), known as NGINX Rift, which allows for denial-of-service and potential remote code execution via specially crafted HTTP requests.",
       "date": "2026-05-18T13:29:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/ngnix-vulnerability-exploited-cve-2026-42945/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc4c0577-8cb4-43e1-9afb-5be22f3314f7",
@@ -274,7 +329,7 @@
       "summary": "Attackers are increasingly targeting developer workstations and CI/CD pipelines to harvest sensitive credentials like API keys and tokens, compromising the software supply chain. Recent campaigns against npm, PyPI, and Docker Hub highlight this shift in tactical focus toward infrastructure access.",
       "date": "2026-05-18T11:23:41.000Z",
       "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d85e169d-9622-43c0-b0a9-f28fd568435b",
@@ -395,7 +450,7 @@
       "summary": "Security researcher Chaotic Eclipse has identified a privilege escalation zero-day named MiniPlasma in the cldflt.sys Windows driver, indicating a potential regression or incomplete fix of a 2020 vulnerability. The exploit remains effective on fully patched Windows 11 systems, allowing attackers to gain SYSTEM-level access.",
       "date": "2026-05-18T08:13:09.000Z",
       "link": "https://securityaffairs.com/192325/hacking/chaotic-eclipse-discloses-miniplasma-zero-day-suggesting-a-missing-or-undone-2020-windows-security-fix.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7a99774-325e-4849-9154-b20a98743fed",
@@ -406,7 +461,7 @@
       "summary": "A proof-of-concept exploit has been released for a recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module, enabling potential root access on vulnerable systems.",
       "date": "2026-05-18T07:18:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "50422ca6-06c6-4668-a959-50495d4f6215",
@@ -450,7 +505,7 @@
       "summary": "New research has unveiled 'MetaBackdoor,' a sophisticated AI vulnerability that bypasses traditional input-based security defenses to potentially leak proprietary data. This discovery challenges existing enterprise security stacks that rely on token and prompt injection pattern detection.",
       "date": "2026-05-18T06:00:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/metabackdoor-llm-backdoor-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6eea97ac-a306-4a73-8e87-8b209cebd2c0",
@@ -494,7 +549,7 @@
       "summary": "The rapid advancement of AI has significantly shortened the time between vulnerability discovery and exploitation, reducing the window of opportunity for defenders to mere hours. Furthermore, the rise of autonomous agentic AI introduces complex new attack vectors that automated tools struggle to identify.",
       "date": "2026-05-18T05:00:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/synack-2025-ai-driven-vulnerability-trends-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d5e8abf4-bba8-4035-a4bf-67c3875f236c",
@@ -505,7 +560,7 @@
       "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit for MiniPlasma, a zero-day vulnerability in the Windows Cloud Files Mini Filter Driver that allows privilege escalation to SYSTEM level. The flaw affects fully patched Windows systems, posing a significant risk to local device security.",
       "date": "2026-05-18T04:59:21.000Z",
       "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "50b90d13-0c34-44af-b1e6-c92f81616672",
@@ -549,7 +604,7 @@
       "summary": "Linus Torvalds reports that the Linux security mailing list is being overwhelmed by AI-generated bug reports, creating redundant work for maintainers. This influx of repetitive findings is hindering the efficiency of the vulnerability management process.",
       "date": "2026-05-17T23:39:47.000Z",
       "link": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d2309cb0-f4dd-473a-bed2-d4677a2c9d83",
@@ -593,7 +648,7 @@
       "summary": "The Tycoon2FA phishing kit has been updated to use device-code phishing and malicious click-tracking URLs to compromise Microsoft 365 accounts. This technique allows attackers to bypass traditional multi-factor authentication methods.",
       "date": "2026-05-17T14:43:10.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4562227d-8fb0-4174-89b5-f4930193239a",
@@ -637,7 +692,7 @@
       "summary": "A heap buffer overflow vulnerability (CVE-2026-42945) in the NGINX rewrite module is currently being exploited in the wild, leading to service crashes and potential remote code execution. The flaw affects a broad range of NGINX versions and carries a critical CVSS score of 9.2.",
       "date": "2026-05-17T11:57:53.000Z",
       "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "548b93af-23bf-468e-888f-10fec11923df",
@@ -769,7 +824,7 @@
       "summary": "OpenAI confirmed that the TeamPCP hacking group used a supply chain attack involving malicious TanStack packages to compromise employee devices and access internal code repository credentials.",
       "date": "2026-05-16T09:31:49.000Z",
       "link": "https://securityaffairs.com/192222/hacking/openai-hit-by-supply-chain-attack-linked-to-malicious-tanstack-packages.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a2dc92cf-7db7-42f7-8f9a-43f15446dd3a",
@@ -5444,61 +5499,6 @@
       "summary": "Palo Alto Networks is investigating an actively exploited buffer overflow vulnerability (CVE-2026-0300) in the User-ID Authentication Portal of its PAN-OS software that allows for root-level remote code execution. The company is currently urging customers to implement temporary mitigations while awaiting a permanent security patch.",
       "date": "2026-05-06T09:51:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/06/palo-alto-firewalls-vulnerability-exploited-cve-2026-0300/",
-      "isTopTen": false
-    },
-    {
-      "id": "50d57cde-ee26-4f11-8d82-969c300d605d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New Relic advances AI observability with new intelligence layer",
-      "summary": "New Relic has introduced New Relic Knowledge, a platform capability that integrates real-time telemetry with historical incident data to improve AI-driven observability and accelerate issue resolution. This tool aims to reduce operational downtime by providing deeper context for engineering teams and AI agents.",
-      "date": "2026-05-06T09:49:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/06/new-relic-knowledge-capability/",
-      "isTopTen": false
-    },
-    {
-      "id": "a191a7e2-3044-48a6-821d-3637dbcadfa2",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Application Security Strategies Are Changing as AI-generated Code Floods the SDLC",
-      "summary": "The rapid influx of AI-generated code into the software development lifecycle is compelling security teams to overhaul their AppSec processes, including code review and risk assessment. Organizations must adapt their workflows to manage the unique security challenges posed by automated code generation.",
-      "date": "2026-05-06T09:40:15.000Z",
-      "link": "https://hackread.com/application-security-strategies-ai-generated-code-sdlc/",
-      "isTopTen": false
-    },
-    {
-      "id": "68ea87d7-e85c-4400-8843-76dd8e667600",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
-      "summary": "Palo Alto Networks has issued an urgent warning regarding a critical, actively exploited zero-day vulnerability in its PAN-OS firewall software that allows for remote code execution. The company is currently working on a patch while advising customers to secure their Authentication Portals immediately.",
-      "date": "2026-05-06T09:18:16.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
-      "isTopTen": false
-    },
-    {
-      "id": "9ab1acf3-6ee0-44bb-abd4-bd4a9ddf3dc0",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
-      "summary": "Service busy.",
-      "date": "2026-05-06T09:13:00.000Z",
-      "link": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b1ae9913-b58d-49fc-a3f3-f5a9f3c42565",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Palo Alto Networks PAN-OS flaw exploited for remote code execution",
-      "summary": "Service busy.",
-      "date": "2026-05-06T08:52:21.000Z",
-      "link": "https://securityaffairs.com/191748/security/palo-alto-networks-pan-os-flaw-exploited-for-remote-code-execution.html",
       "isTopTen": false
     }
   ]
