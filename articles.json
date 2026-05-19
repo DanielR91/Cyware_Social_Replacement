@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-05-19T20:02:35.372Z",
+  "lastUpdated": "2026-05-19T22:22:55.177Z",
   "articles": [
+    {
+      "id": "7928d28e-c6dd-4b5c-901d-b600a8305341",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Microsoft shuts down illegal code-signing operation used by ransomware crims to mask their malware",
+      "summary": "Microsoft dismantled an illegal code-signing infrastructure that ransomware groups were using to bypass security filters by digitally signing malicious software. The operation impacted thousands of victims, including multiple systems within Microsoft's own environment.",
+      "date": "2026-05-19T21:56:18.000Z",
+      "link": "https://www.theregister.com/security/2026/05/19/microsoft-disrupts-alleged-malware-signing-operation-used-by-ransomware-gangs/5243013",
+      "isTopTen": true
+    },
+    {
+      "id": "ea65966d-35bb-4f07-8c6e-3fe6626d987d",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+      "summary": "Microsoft has dismantled a malware-signing-as-a-service operation that exploited its legitimate code-signing infrastructure to validate malicious software for criminal syndicates. By disrupting this service, Microsoft has hindered the ability of ransomware groups to bypass security defenses using fraudulent certificates.",
+      "date": "2026-05-19T21:47:31.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+      "isTopTen": false
+    },
+    {
+      "id": "e4d8bab1-72d0-49ee-b9f2-4539d9adadd2",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers hit vulnerabilities hard last year, making exploits the top entry point for breaches",
+      "summary": "Verizon's Data Breach Investigations Report reveals that exploited vulnerabilities have become the leading entry point for cyberattacks due to widespread failures in patching critical defects. This shift highlights a significant trend in attacker behavior, prioritizing the weaponization of known security gaps.",
+      "date": "2026-05-19T21:19:24.000Z",
+      "link": "https://cyberscoop.com/verizon-data-breach-investigations-report-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "9112a0d3-d546-447d-bfff-70abc64c9191",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI Agent Security: Automating Workflow Without Creating Prompt Injection or Data Leak Risks",
+      "summary": "This article discusses the critical security considerations for AI agents, emphasizing the need for strict access controls to prevent prompt injection and data leakage. It highlights that increasing an agent's operational authority necessitates a corresponding increase in defensive security measures.",
+      "date": "2026-05-19T21:13:08.000Z",
+      "link": "https://hackread.com/ai-agent-security-automating-prompt-injection-data-leak/",
+      "isTopTen": false
+    },
+    {
+      "id": "d2c8ad46-de6e-4446-8e2d-3f92ac5e0ac5",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Discord rolls out end-to-end encryption on voice, video calls",
+      "summary": "Discord has implemented default end-to-end encryption for all voice and video calls across its platform to enhance user privacy and communication security. This update ensures that call content remains inaccessible to unauthorized third parties.",
+      "date": "2026-05-19T20:37:45.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+      "isTopTen": false
+    },
     {
       "id": "223facb8-8bbc-4dff-9763-b1db716d5e52",
       "source": "BleepingComputer",
@@ -22,6 +77,17 @@
       "date": "2026-05-19T19:35:32.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
       "isTopTen": true
+    },
+    {
+      "id": "47724c1a-ac0a-4d49-ae59-bf02273c7127",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Drupal is rolling out an emergency security update on May 20. You cannot miss it",
+      "summary": "The Drupal Security Team has announced an emergency security update scheduled for release on May 20, requiring immediate attention from all site administrators. The nature of the announcement suggests the patch addresses a significant vulnerability.",
+      "date": "2026-05-19T19:30:44.000Z",
+      "link": "https://securityaffairs.com/192407/security/drupal-is-rolling-out-an-emergency-security-update-tomorrow-you-cannot-miss-it.html",
+      "isTopTen": false
     },
     {
       "id": "4f967440-13da-4baf-8eae-4ead98220700",
@@ -98,7 +164,7 @@
       "summary": "Microsoft successfully disrupted Fox Tempest, a malware-signing-as-a-service platform that provided code-signing tools to various ransomware groups. The operation followed a legal action filed in a U.S. District Court to dismantle the criminal infrastructure.",
       "date": "2026-05-19T16:36:00.000Z",
       "link": "https://therecord.media/microsoft-disrupts-fox-tempest-malware-signing-service",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "763f4106-3a15-4df2-b4b0-84bde2f5ee59",
@@ -340,7 +406,7 @@
       "summary": "The Drupal Security Team has announced an urgent core security release scheduled for May 20, 2026, and strongly advises administrators to prepare for immediate updates to mitigate potential exploitation. Drupal warns that exploit code for the addressed vulnerabilities may emerge shortly after the patches are published.",
       "date": "2026-05-19T10:44:45.000Z",
       "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "252e41ea-856c-43f4-b830-a051a5c6c2f7",
@@ -373,7 +439,7 @@
       "summary": "Critical vulnerabilities in the SEPPMail Secure E-Mail Gateway allow attackers to execute arbitrary code and intercept sensitive email traffic. These flaws could be leveraged to compromise the appliance and gain unauthorized access to internal network resources.",
       "date": "2026-05-19T09:23:15.000Z",
       "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b9ad1c9-e637-4484-839a-06ddcaa98f48",
@@ -461,7 +527,7 @@
       "summary": "Researchers have demonstrated that publicly available Instagram posts provide sufficient personal data for generative AI to craft highly convincing and personalized phishing campaigns. This finding highlights a significant increase in the accessibility of automated social engineering tactics for threat actors.",
       "date": "2026-05-19T05:30:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/19/social-media-phishing-ai-generated-emails/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c6395789-54d7-4580-9a8a-d7b25733bf27",
@@ -472,7 +538,7 @@
       "summary": "Threat actors compromised the popular GitHub Action 'actions-cool/issues-helper' by redirecting existing tags to malicious commits, enabling the theft of CI/CD credentials. This supply chain attack demonstrates a sophisticated method of compromising automated workflows.",
       "date": "2026-05-19T05:28:06.000Z",
       "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5e66b1e9-797a-48da-add7-4c1204e91e84",
@@ -648,7 +714,7 @@
       "summary": "The newly identified Reaper malware targets macOS users by leveraging a deceptive Microsoft domain to bypass security updates, enabling password theft and the installation of a persistent backdoor. It poses a significant threat by compromising credentials and crypto assets while evading standard system defenses.",
       "date": "2026-05-18T17:37:08.000Z",
       "link": "https://hackread.com/reaper-malware-fake-microsoft-domain-macos-passwords/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cecf5013-09d5-4d39-b8d1-c7f1594031ae",
@@ -692,7 +758,7 @@
       "summary": "INTERPOL successfully coordinated a multinational operation across the MENA region that resulted in 201 arrests and the identification of 382 suspects involved in cybercriminal activity. The initiative focused on dismantling malicious infrastructure and neutralizing regional cybercrime networks over a five-month period.",
       "date": "2026-05-18T17:21:18.000Z",
       "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c84397d6-1675-48b5-b724-035f4efeeab3",
@@ -714,7 +780,7 @@
       "summary": "OpenAI has introduced a new feature allowing users to integrate financial accounts with ChatGPT for personalized financial advice, raising significant privacy and security concerns among experts. This expansion of AI capabilities into sensitive financial data presents new vectors for potential data exposure.",
       "date": "2026-05-18T16:10:00.000Z",
       "link": "https://therecord.media/experts-warn-of-privacy-cyber-risks-ai-finance",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "32daebae-050a-4755-934d-320c114734ef",
@@ -758,7 +824,7 @@
       "summary": "This weekly recap outlines a wave of cyber threats including an active Microsoft Exchange zero-day, malicious npm packages, and a fake AI repository distributing info-stealing malware. It highlights how minor weaknesses, such as compromised dependencies or leaked keys, are being leveraged to gain production cloud access.",
       "date": "2026-05-18T13:50:17.000Z",
       "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15f1d448-ed3b-41a7-9577-85611d0cf2d3",
@@ -5433,72 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-07T10:54:00.000Z",
       "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f481d7a9-33ba-4a2d-8e97-21e20e92fee6",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Scammers Use Hidden Text to Bypass AI Email Filters in Phishing Scams",
-      "summary": "Threat actors are embedding invisible text within phishing emails to deceive AI-based security filters, thereby improving delivery rates to targeted user inboxes.",
-      "date": "2026-05-07T10:22:40.000Z",
-      "link": "https://hackread.com/scammers-text-bypass-ai-email-filters-phishing-scams/",
-      "isTopTen": false
-    },
-    {
-      "id": "0a6d7e5d-5faf-4f8a-ac70-373772b52cac",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "From Android TVs to routers: the xlabs_v1 Mirai-based botnet built for DDoS attacks",
-      "summary": "The xlabs_v1 Mirai-based botnet is actively exploiting internet-exposed Android Debug Bridge (ADB) ports on IoT devices to execute large-scale DDoS attacks using 21 different flooding techniques. Discovered by Hunt.io, this botnet is currently being utilized as a DDoS-for-hire service.",
-      "date": "2026-05-07T10:15:08.000Z",
-      "link": "https://securityaffairs.com/191796/malware/from-android-tvs-to-routers-the-xlabs_v1-mirai-based-botnet-built-for-ddos-attacks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a60ef073-577e-48a2-baff-73ceb5bc7479",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
-      "summary": "Threat actors are distributing a previously undocumented Windows backdoor named Beagle through a fraudulent website impersonating Claude AI. The malicious software is delivered via a fake 'Claude-Pro' download, posing a significant risk to user systems.",
-      "date": "2026-05-07T10:02:35.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "8294a564-5c11-40eb-843d-3e3f967a5eb6",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "One House Democrat is pressing Commerce on the government’s spyware use",
-      "summary": "Rep. Summer Lee has sent a letter to the Commerce Department seeking oversight on U.S. government usage of commercial spyware following reports involving ICE and the NSO Group.",
-      "date": "2026-05-07T10:00:00.000Z",
-      "link": "https://cyberscoop.com/democrat-summer-lee-letter-briefing-nso-group-spyware-trump/",
-      "isTopTen": false
-    },
-    {
-      "id": "623726ec-88f0-49e3-b6e7-43c19b372a87",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "The network password was a key plot point in one of the most famous movies of all time",
-      "summary": "A legitimate contractor was able to gain access to a secure network by guessing a password that was referenced in a famous movie. This incident highlights the significant risks associated with using weak or easily guessable passwords for network security.",
-      "date": "2026-05-07T09:49:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/07/guessable-admin-password-exposes-sloppy-network-security/5231161",
-      "isTopTen": false
-    },
-    {
-      "id": "c89ed1d7-c424-4abb-9f52-b35ef68037be",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Node.js 26 ships with Temporal API enabled by default",
-      "summary": "Service busy.",
-      "date": "2026-05-07T09:26:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/07/node-js-26-released/",
       "isTopTen": false
     }
   ]
