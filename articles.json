@@ -1,6 +1,237 @@
 {
-  "lastUpdated": "2026-05-19T09:59:38.261Z",
+  "lastUpdated": "2026-05-19T15:44:35.820Z",
   "articles": [
+    {
+      "id": "3c388983-5e58-4e29-b11f-3c47aaa8285b",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Mini Shai-Hulud returns, compromising hundreds of npm packages",
+      "summary": "A wave of malware dubbed 'Mini Shai-Hulud' has compromised hundreds of npm packages, stealing developer credentials and installing backdoors within CI pipelines and development environments.",
+      "date": "2026-05-19T15:28:44.000Z",
+      "link": "https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/",
+      "isTopTen": false
+    },
+    {
+      "id": "60ffb9d7-f751-4dd6-80aa-1f8350ec459e",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Microsoft disrupts cybercrime service that abused software verification systems en masse",
+      "summary": "Microsoft has dismantled a cybercrime service operated by the threat group Fox Tempest, which enabled criminals to bypass software verification systems and distribute malware. The operation effectively shut down a critical vector used by ransomware actors to evade security controls.",
+      "date": "2026-05-19T15:00:00.000Z",
+      "link": "https://cyberscoop.com/microsoft-digital-crimes-unit-disrupts-fox-tempest/",
+      "isTopTen": true
+    },
+    {
+      "id": "106a431d-9918-4069-9852-1493f18dfafd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+      "summary": "A proof-of-concept exploit has been released for the DirtyDecrypt local privilege escalation vulnerability affecting the Linux kernel. The flaw, also known as DirtyCBC, was addressed in a recent security patch.",
+      "date": "2026-05-19T14:56:26.000Z",
+      "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+      "isTopTen": true
+    },
+    {
+      "id": "33669bab-1833-4862-b7a4-ba0c74c411c9",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
+      "summary": "A new supply-chain campaign dubbed 'Shai-Hulud' has compromised the npm registry by injecting over 600 malicious packages. This mass-scale automated attack poses a significant threat to developers and downstream applications utilizing the Node Package Manager.",
+      "date": "2026-05-19T14:30:22.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+      "isTopTen": true
+    },
+    {
+      "id": "f6b5d3e6-9b4a-4a08-a820-32149a306784",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+      "summary": "7-Eleven has confirmed a security breach following claims made by the ShinyHunters extortion group regarding unauthorized access to their systems.",
+      "date": "2026-05-19T14:16:41.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+      "isTopTen": false
+    },
+    {
+      "id": "c67dca00-4224-4e46-8a89-aa2d45e30038",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Criminal IP Returns to Infosecurity Europe 2026 with Advanced AI-Driven TI & ASM",
+      "summary": "Criminal IP is set to showcase its latest AI-powered Threat Intelligence and Attack Surface Management solutions at the upcoming Infosecurity Europe 2026 event. This announcement highlights the company's commitment to advancing security capabilities for proactive defense.",
+      "date": "2026-05-19T14:00:25.000Z",
+      "link": "https://hackread.com/criminal-ip-returns-to-infosecurity-europe-2026-with-advanced-ai-driven-ti-asm/",
+      "isTopTen": false
+    },
+    {
+      "id": "a26eba43-90f2-4474-8aa6-14c8e470386f",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
+      "summary": "Microsoft saw a significant surge in critical vulnerabilities in 2025, with attackers increasingly shifting their focus toward privilege escalation and identity abuse tactics.",
+      "date": "2026-05-19T14:00:10.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
+      "isTopTen": false
+    },
+    {
+      "id": "c9d8146d-1f8b-4fef-993d-b41682f3f8f7",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "PureLogs infostealer is stealing credentials worldwide",
+      "summary": "The PureLogs infostealer is targeting Windows systems via phishing campaigns that hide malicious payloads within image files. The malware extracts credentials after using invoice-themed lures to trick users into executing the initial archive.",
+      "date": "2026-05-19T13:10:53.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/19/purelogs-infostealer-delivery-steganography/",
+      "isTopTen": false
+    },
+    {
+      "id": "31984644-c2cb-4c81-b12a-554dae7f2be7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Selector extends AI-driven observability into multi-cloud environments",
+      "summary": "Selector has expanded its AI-powered observability platform to include multi-cloud environments, allowing organizations to correlate telemetry data across hybrid infrastructures. This update aims to improve incident visibility and root cause analysis for complex cloud architectures.",
+      "date": "2026-05-19T13:05:47.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/19/selector-ai-driven-observability-capabilities/",
+      "isTopTen": false
+    },
+    {
+      "id": "eb081b54-0108-47bf-9189-d3264d519e4b",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Two-Thirds of Nonhuman Accounts Are Unseen and Unmanaged, According to Orchid Security’s Identity Gap Report",
+      "summary": "Orchid Security’s Identity Gap Report reveals that two-thirds of nonhuman accounts remain unmanaged and invisible, posing significant security risks to organizational infrastructure. The findings highlight a critical lack of oversight regarding machine identities in modern enterprise environments.",
+      "date": "2026-05-19T13:00:16.000Z",
+      "link": "https://hackread.com/two-thirds-of-nonhuman-accounts-are-unseen-and-unmanaged-according-to-orchid-securitys-identity-gap-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "20d79688-91f0-45bc-882f-ae4319c02129",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "LaunchDarkly adds real-time controls for AI agents in production",
+      "summary": "Service busy.",
+      "date": "2026-05-19T12:47:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/19/launchdarkly-agentcontrol/",
+      "isTopTen": false
+    },
+    {
+      "id": "2d6fd964-d9f7-4c0c-b405-2fc4d91bb0b6",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Canonical ships Ubuntu Core 26 with 15 years of security maintenance",
+      "summary": "Canonical has released Ubuntu Core 26, an immutable Linux distribution offering up to 15 years of security maintenance to help industrial and edge AI devices comply with the EU Cyber Resilience Act.",
+      "date": "2026-05-19T12:44:59.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/19/ubuntu-core-26-released/",
+      "isTopTen": false
+    },
+    {
+      "id": "905e2452-17f8-4470-bd35-9375ff341816",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New macOS infostealer impersonates Apple, Microsoft, and Google in a single attack chain",
+      "summary": "A new macOS infostealer variant dubbed Reaper leverages a multi-stage attack chain that impersonates major tech brands to steal sensitive browser, password, and cryptocurrency data. The malware establishes persistence on infected systems, marking a shift away from traditional ClickFix social engineering methods.",
+      "date": "2026-05-19T12:30:08.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/19/shub-reaper-macos-infostealer-apple-google-microsoft/",
+      "isTopTen": false
+    },
+    {
+      "id": "01cb7f18-f5fb-4c98-a3f4-a4b42547aea0",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Webinar: The hidden bottlenecks in network incident response",
+      "summary": "This webinar examines the challenges IT teams face with fragmented incident response processes and discusses how AI-driven automation can streamline coordination and reduce response times.",
+      "date": "2026-05-19T12:14:22.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
+      "isTopTen": false
+    },
+    {
+      "id": "05deab3a-b8c7-4d44-8a4c-18bb3addffde",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "The end of unencrypted Discord calls is here",
+      "summary": "Discord has officially implemented end-to-end encryption (E2EE) by default for all voice and video communications across its platform using the new DAVE protocol. This change ensures that only call participants can access media content, excluding Discord from intercepting the data.",
+      "date": "2026-05-19T12:08:51.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/19/discord-voice-and-video-call-encryption/",
+      "isTopTen": false
+    },
+    {
+      "id": "04e6195e-2fd6-4fd3-86dd-7c22486f0ddf",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+      "summary": "A phishing-as-a-service platform named EvilTokens is leveraging OAuth consent bypasses to compromise Microsoft 365 organizations despite active MFA protections. By tricking users into entering device login codes, the attackers successfully bypass traditional authentication protocols.",
+      "date": "2026-05-19T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+      "isTopTen": true
+    },
+    {
+      "id": "175fb53b-0f80-4f51-b349-77f557fe0a39",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Microsoft confirms patching issues in restricted Windows networks",
+      "summary": "Microsoft has acknowledged that the January 2026 optional non-security updates are causing Windows Update failures for users within restricted network environments.",
+      "date": "2026-05-19T11:22:15.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
+      "isTopTen": false
+    },
+    {
+      "id": "a10b9e9e-f1fd-4174-a151-66cd909fdb2b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+      "summary": "The Drupal Security Team has announced an urgent core security release scheduled for May 20, 2026, and strongly advises administrators to prepare for immediate updates to mitigate potential exploitation. Drupal warns that exploit code for the addressed vulnerabilities may emerge shortly after the patches are published.",
+      "date": "2026-05-19T10:44:45.000Z",
+      "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+      "isTopTen": false
+    },
+    {
+      "id": "252e41ea-856c-43f4-b830-a051a5c6c2f7",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Hosting Service Standards That Define High-Performing Agencies",
+      "summary": "The article discusses best practices for hosting services that contribute to agency success and client retention. It focuses on operational excellence rather than specific cybersecurity threats or incidents.",
+      "date": "2026-05-19T10:44:08.000Z",
+      "link": "https://hackread.com/hosting-service-standards-high-performing-agencies/",
+      "isTopTen": false
+    },
+    {
+      "id": "15ba7e11-8cf8-4feb-bc69-3005e24ead1c",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hackers Actively Exploit ‘Nginx Rift’ Vulnerability Affecting NGINX, F5 Products",
+      "summary": "Threat actors are actively exploiting a vulnerability known as 'Nginx Rift' in NGINX and F5 products, which leaves servers susceptible to denial-of-service attacks.",
+      "date": "2026-05-19T10:12:20.000Z",
+      "link": "https://hackread.com/hackers-exploit-nginx-rift-vulnerability-nginx-f5-products/",
+      "isTopTen": true
+    },
+    {
+      "id": "219f1dac-eaca-4ba5-89c7-b717ed2f55a9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+      "summary": "Critical vulnerabilities in the SEPPMail Secure E-Mail Gateway allow attackers to execute arbitrary code and intercept sensitive email traffic. These flaws could be leveraged to compromise the appliance and gain unauthorized access to internal network resources.",
+      "date": "2026-05-19T09:23:15.000Z",
+      "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+      "isTopTen": false
+    },
     {
       "id": "4b9ad1c9-e637-4484-839a-06ddcaa98f48",
       "source": "Security Affairs",
@@ -10,7 +241,7 @@
       "summary": "Poland has ordered government officials to discontinue the use of Signal for sensitive communications and transition to a state-developed alternative following a series of targeted cyberattacks against public sector accounts.",
       "date": "2026-05-19T08:34:21.000Z",
       "link": "https://securityaffairs.com/192381/intelligence/poland-shifts-away-from-signal-following-cyberattacks-on-officials-accounts.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4d8b0cad-9bd7-4354-b518-5c8472fbaba1",
@@ -120,7 +351,7 @@
       "summary": "The Mini Shai-Hulud threat actor compromised an npm maintainer account to inject malicious code into several AntV ecosystem packages, including the popular echarts-for-react library. This supply chain attack poses a significant risk to downstream users of these widely downloaded packages.",
       "date": "2026-05-19T04:54:17.000Z",
       "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "451b4b8d-4443-4f34-931e-f5fbc00c3b09",
@@ -384,7 +615,7 @@
       "summary": "This weekly recap outlines a wave of cyber threats including an active Microsoft Exchange zero-day, malicious npm packages, and a fake AI repository distributing info-stealing malware. It highlights how minor weaknesses, such as compromised dependencies or leaked keys, are being leveraged to gain production cloud access.",
       "date": "2026-05-18T13:50:17.000Z",
       "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15f1d448-ed3b-41a7-9577-85611d0cf2d3",
@@ -417,7 +648,7 @@
       "summary": "State-sponsored threat actors launched an espionage campaign in Malaysia by exploiting Cloudflare storage services to host command-and-control infrastructure and facilitate data exfiltration. The operation demonstrates a sophisticated abuse of legitimate cloud services to bypass traditional security detection.",
       "date": "2026-05-18T13:42:46.000Z",
       "link": "https://hackread.com/government-backed-hackers-cloudflare-malaysia-espionage/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9af28bf5-bead-4cdf-bfe1-2d7574e26027",
@@ -428,7 +659,7 @@
       "summary": "Attackers are actively exploiting a critical NGINX vulnerability (CVE-2026-42945), known as NGINX Rift, which allows for denial-of-service and potential remote code execution via specially crafted HTTP requests.",
       "date": "2026-05-18T13:29:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/ngnix-vulnerability-exploited-cve-2026-42945/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc4c0577-8cb4-43e1-9afb-5be22f3314f7",
@@ -505,7 +736,7 @@
       "summary": "Attackers are increasingly targeting developer workstations and CI/CD pipelines to harvest sensitive credentials like API keys and tokens, compromising the software supply chain. Recent campaigns against npm, PyPI, and Docker Hub highlight this shift in tactical focus toward infrastructure access.",
       "date": "2026-05-18T11:23:41.000Z",
       "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d85e169d-9622-43c0-b0a9-f28fd568435b",
@@ -538,7 +769,7 @@
       "summary": "Major vendors including Ivanti, Fortinet, SAP, VMware, and n8n have released critical security patches to address high-risk vulnerabilities such as RCE, SQL injection, and privilege escalation. The most urgent flaw identified is a critical vulnerability in Ivanti Xtraction with a CVSS score of 9.6.",
       "date": "2026-05-18T10:54:05.000Z",
       "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c3fda18a-86e9-438d-8f3c-a8a3202b5a5c",
@@ -725,7 +956,7 @@
       "summary": "The rapid advancement of AI has significantly shortened the time between vulnerability discovery and exploitation, reducing the window of opportunity for defenders to mere hours. Furthermore, the rise of autonomous agentic AI introduces complex new attack vectors that automated tools struggle to identify.",
       "date": "2026-05-18T05:00:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/synack-2025-ai-driven-vulnerability-trends-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d5e8abf4-bba8-4035-a4bf-67c3875f236c",
@@ -736,7 +967,7 @@
       "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit for MiniPlasma, a zero-day vulnerability in the Windows Cloud Files Mini Filter Driver that allows privilege escalation to SYSTEM level. The flaw affects fully patched Windows systems, posing a significant risk to local device security.",
       "date": "2026-05-18T04:59:21.000Z",
       "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "50b90d13-0c34-44af-b1e6-c92f81616672",
@@ -5268,237 +5499,6 @@
       "summary": "A student successfully disrupted Taiwan's high-speed rail network by spoofing signaling systems, causing emergency stops and highlighting significant vulnerabilities in critical infrastructure. The incident occurred during a major holiday, resulting in the stoppage of multiple trains and service chaos.",
       "date": "2026-05-06T23:05:09.000Z",
       "link": "https://securityaffairs.com/191785/hacking/taiwan-high-speed-rail-emergency-braking-hack-how-a-student-stopped-the-trains-and-exposed-a-major-security-gap.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3d8ea0fb-b360-4e09-95a6-2ee67e70a6f9",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Teams calls are about to get a lot harder to fake",
-      "summary": "Microsoft is introducing a new security feature for Teams that alerts users to potential impersonation attempts from suspicious, first-time external VoIP callers. This update aims to reduce the risk of brand spoofing and social engineering attacks within the platform.",
-      "date": "2026-05-06T22:15:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/07/microsoft-teams-calling-brand-impersonation-protection/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5aeff91-a273-49ca-bf98-e441ee8adc82",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Best OSINT Tools for Investigations and Threat Intelligence in 2026",
-      "summary": "This article highlights top Open Source Intelligence (OSINT) tools for 2026, focusing on their utility in digital investigations, reconnaissance, and threat intelligence operations.",
-      "date": "2026-05-06T21:53:53.000Z",
-      "link": "https://hackread.com/best-osint-tools-investigate-threat-intelligence-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "9badf7dd-858b-495c-9731-7e3fbf553c86",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
-      "summary": "Hackers are using malicious Google sponsored search results to redirect users to a phishing site designed to steal credentials for GoDaddy's ManageWP platform. This campaign exploits trust in search engine advertising to compromise administrative access to WordPress website fleets.",
-      "date": "2026-05-06T21:36:06.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
-      "isTopTen": false
-    },
-    {
-      "id": "da84493e-5181-45ac-aea0-e108485a7d75",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "A DOD contractor’s API flaw exposed military course data and service member records",
-      "summary": "A security vulnerability in an API used by DOD contractor Schemata exposed sensitive information, including service member records and military course data. The company has since patched the flaw and alerted the appropriate government authorities.",
-      "date": "2026-05-06T21:15:13.000Z",
-      "link": "https://cyberscoop.com/schemata-dod-contractor-api-flaw-military-data-exposure/",
-      "isTopTen": false
-    },
-    {
-      "id": "9b845a85-7f93-467c-b474-2080bf8dabfe",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "After 17 years, Gavril Sandu extradited to U.S. for hacking scheme",
-      "summary": "Service busy.",
-      "date": "2026-05-06T20:48:37.000Z",
-      "link": "https://securityaffairs.com/191771/cyber-crime/after-17-years-gavril-sandu-extradited-to-u-s-for-hacking-scheme.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ff9b356b-9dc7-4b97-8bd5-a1cef0349c35",
-      "source": "The Record",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Palo Alto warns of critical software bug used in firewall attacks",
-      "summary": "Palo Alto Networks has issued a warning regarding a critical, actively exploited vulnerability in its firewall software. A patch is currently under development and is expected to be released within the next two weeks.",
-      "date": "2026-05-06T20:33:00.000Z",
-      "link": "https://therecord.media/palo-alto-warns-of-critical-software-bug-firewalls",
-      "isTopTen": false
-    },
-    {
-      "id": "a61cea49-22ce-4c50-b245-06306867f87a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
-      "summary": "Researchers discovered a new Mirai-based botnet named xlabs_v1 that targets internet-exposed Android Debug Bridge (ADB) services to recruit devices into a DDoS-capable botnet. The malware was identified after researchers located an exposed directory hosted in the Netherlands.",
-      "date": "2026-05-06T20:21:00.000Z",
-      "link": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c8f44f27-c71a-402c-a6c8-747d4c3542b9",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Google Fixes CVSS 10 Gemini CLI Vulnerability Enabling GitHub Issue-Based RCE",
-      "summary": "Google has patched a critical CVSS 10 vulnerability in its Gemini CLI that allowed attackers to execute remote code via prompt injection and privilege escalation. This flaw posed a significant risk of full supply chain compromise.",
-      "date": "2026-05-06T20:02:52.000Z",
-      "link": "https://hackread.com/google-cvss-10-gemini-cli-vulnerability-github-rce/",
-      "isTopTen": false
-    },
-    {
-      "id": "3b1fecbe-d085-49bd-8f3b-f5803511c267",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "A critical Palo Alto PAN-OS zero-day is being exploited in the wild",
-      "summary": "Palo Alto Networks is investigating a critical zero-day vulnerability in its PAN-OS software that is currently being exploited in the wild. A patch for the flaw has not yet been released by the vendor.",
-      "date": "2026-05-06T19:48:40.000Z",
-      "link": "https://cyberscoop.com/palo-alto-networks-pan-os-firewall-zero-day-vulnerability-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "57578608-cabf-4046-a52d-23fe8ed5dc25",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
-      "summary": "A critical vulnerability in the Node.js library vm2 enables attackers to bypass sandbox restrictions and execute arbitrary code on the host machine. This flaw poses a significant security risk to any applications relying on the library for isolated code execution.",
-      "date": "2026-05-06T18:38:38.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
-      "isTopTen": false
-    },
-    {
-      "id": "0236895d-a404-4124-9f24-002cc17348d0",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Arctic Wolf kicks 250 employees out of the pack to save money for AI",
-      "summary": "Arctic Wolf has laid off approximately 250 employees, representing less than 10% of its workforce, to reallocate resources toward artificial intelligence initiatives. The workforce reduction primarily impacted the sales, product, and marketing departments.",
-      "date": "2026-05-06T18:20:00.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213",
-      "isTopTen": false
-    },
-    {
-      "id": "1bf768a5-1e65-4516-9f84-7221202eb191",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
-      "summary": "Cisco has released patches for a denial-of-service vulnerability affecting its Crosswork Network Controller and Network Services Orchestrator that necessitates a manual device reboot for recovery.",
-      "date": "2026-05-06T18:06:21.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
-      "isTopTen": false
-    },
-    {
-      "id": "bcaca4cd-4c40-4ded-95a6-d7ebc22d3309",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "1 in 8 employees totally cool with selling work credentials",
-      "summary": "A survey indicates that 13% of employees are willing to sell their work credentials or have previously done so, highlighting a significant insider threat risk for organizations. This behavior underscores the challenge of credential abuse and the necessity of robust access management.",
-      "date": "2026-05-06T17:58:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/06/1-in-8-workers-say-selling-company-logins-is-justifiable/5231104",
-      "isTopTen": false
-    },
-    {
-      "id": "d4af8d2d-6ce7-4fb3-9921-cd75dcd5c687",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShinyHunters’ Instructure Canvas LMS and Vimeo Breaches Impact Millions of Users",
-      "summary": "The threat actor ShinyHunters has compromised Instructure and Vimeo, resulting in the exposure of personal records for millions of users through direct and supply chain attack vectors.",
-      "date": "2026-05-06T17:28:28.000Z",
-      "link": "https://hackread.com/shinyhunters-instructure-canvas-lms-vimeo-data-breach/",
-      "isTopTen": false
-    },
-    {
-      "id": "f741a3ab-9a1b-4af5-8191-f9cbc24d4147",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "New CISA initiative aims for critical infrastructure to operate offline during cyberattacks",
-      "summary": "CISA has launched the 'CI Fortify' initiative to help critical infrastructure entities maintain operational continuity by disconnecting from networks and third-party dependencies during cyberattacks. This strategy emphasizes resilient recovery and offline functionality to mitigate risks from severe connectivity disruptions.",
-      "date": "2026-05-06T17:26:00.000Z",
-      "link": "https://therecord.media/cisa-initiative-aims-for-critical-infrastructure-to-operate-during-cyberattacks",
-      "isTopTen": false
-    },
-    {
-      "id": "8aebeaed-c16a-47f6-ba0b-e76babbe7d35",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "DAEMON Tools devs confirm breach, release malware-free version",
-      "summary": "Disc Soft Limited confirmed a supply chain attack that resulted in a trojanized version of DAEMON Tools being distributed, prompting the release of a clean update.",
-      "date": "2026-05-06T16:43:30.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
-      "isTopTen": false
-    },
-    {
-      "id": "bf9833b7-9d47-4504-bdc9-d754540eb77a",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iran cybersnoops still LARPing as ransomware crooks in espionage ops",
-      "summary": "State-sponsored Iranian actors are utilizing ransomware-themed attacks as a deception tactic to hide espionage activities and unauthorized backdoor access. This technique allows the group to mask their true objective of data theft under the guise of common cybercriminal extortion.",
-      "date": "2026-05-06T16:03:12.000Z",
-      "link": "https://www.theregister.com/security/2026/05/06/iran-cyberspies-larping-as-ransomware-crims-in-espionage-ops/5230993",
-      "isTopTen": false
-    },
-    {
-      "id": "8f9be384-8b3e-4ebe-96e8-af69302ecc25",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Sysdig delivers cloud security that runs inside AI coding agents",
-      "summary": "Sysdig has launched a headless cloud security platform designed to integrate directly into AI coding agents, allowing automated systems to perform real-time cyberdefense operations. This shift moves security management from manual UI-based workflows to machine-speed execution via AI operators.",
-      "date": "2026-05-06T15:50:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/06/sysdig-headless-cloud-security-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "513aa000-3312-44bd-8f25-4fa4cc0e2714",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iranian cyber espionage disguised as a Chaos Ransomware attack",
-      "summary": "The Iran-linked APT group MuddyWater is utilizing ransomware-style tactics, including phishing and data exfiltration, to disguise espionage operations as extortion attempts. This campaign highlights a growing trend of state-sponsored actors masking intelligence gathering behind simulated ransomware activities.",
-      "date": "2026-05-06T14:19:46.000Z",
-      "link": "https://securityaffairs.com/191765/breaking-news/iranian-cyber-espionage-disguised-as-a-chaos-ransomware-attack.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a84d4006-9ebb-4a9d-a9cd-7559630c4a83",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Why ransomware attacks succeed even when backups exist",
-      "summary": "Ransomware attacks are increasingly successful because attackers prioritize destroying or compromising backup systems before initiating file encryption. This strategy prevents organizations from restoring data, effectively neutralizing traditional recovery methods.",
-      "date": "2026-05-06T14:04:14.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-      "isTopTen": false
-    },
-    {
-      "id": "37efad5e-49b3-4bec-87ea-3a810a12bccb",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Building Strategic Advantage With Integrated Planning",
-      "summary": "This article discusses the importance of breaking down operational silos through integrated business planning to improve decision-making and risk management. By connecting finance, demand, and strategy into a single cycle, organizations can better identify and mitigate enterprise-level risks.",
-      "date": "2026-05-06T13:42:45.000Z",
-      "link": "https://hackread.com/building-strategic-advantage-integrated-planning/",
       "isTopTen": false
     }
   ]
