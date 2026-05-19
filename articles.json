@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-05-18T22:10:57.592Z",
+  "lastUpdated": "2026-05-19T04:03:11.294Z",
   "articles": [
+    {
+      "id": "e407da20-4108-4d79-81f0-43568b65ec3f",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Cybersecurity jobs available right now: May 19, 2026",
+      "summary": "This article provides a list of current cybersecurity job opportunities, including roles such as CISO at DataFence and Cyber Security Analyst at ZEE. It serves as a recruitment update for professionals seeking employment within the industry.",
+      "date": "2026-05-19T04:00:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/19/cybersecurity-jobs-available-right-now-may-19-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "653cbff4-93d5-4395-afe0-914b75b70aaa",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Do fear the Reaper - stealer swipes macOS users' passwords, wallets, then backdoors them",
+      "summary": "A new malware strain known as Reaper is targeting macOS users by spoofing trusted domains to steal passwords and cryptocurrency wallets before establishing a persistent backdoor. The attack leverages sophisticated impersonation of major tech companies to deceive users and compromise their systems.",
+      "date": "2026-05-18T23:32:48.000Z",
+      "link": "https://www.theregister.com/security/2026/05/19/do-fear-the-reaper-stealer-swipes-macos-users-passwords-wallets-then-backdoors-them/5242258",
+      "isTopTen": false
+    },
+    {
+      "id": "769285ca-f249-4410-bae2-3e29e77ac3a1",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
+      "summary": "INTERPOL's Operation Ramz, targeting cybercrime in the Middle East and North Africa, resulted in over 200 arrests and the seizure of 53 servers used for malware and phishing. The operation successfully disrupted infrastructure and networks associated with significant regional cybercriminal activity.",
+      "date": "2026-05-18T22:15:30.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+      "isTopTen": false
+    },
+    {
+      "id": "262377c1-b94b-4d19-935a-90a863f318d8",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Shai-Hulud copycat worm infects yet another npm package",
+      "summary": "A malicious actor has injected the Shai-Hulud worm and three additional information-stealing payloads into multiple packages on the npm registry. This activity indicates an ongoing supply chain attack targeting the JavaScript ecosystem.",
+      "date": "2026-05-18T22:07:59.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/05/18/shai-hulud-copycat-hits-another-npm-package/5242180",
+      "isTopTen": true
+    },
     {
       "id": "269aa355-f07c-4e21-a8bc-80b416162ed9",
       "source": "BleepingComputer",
@@ -65,7 +109,7 @@
       "summary": "Grafana Labs confirmed a security breach where a compromised GitHub token exposed internal source code after the threat actor group 'Coinbase Cartel' claimed responsibility. The company stated that no customer data or production systems were impacted by the incident.",
       "date": "2026-05-18T18:54:22.000Z",
       "link": "https://securityaffairs.com/192347/breaking-news/grafana-confirms-github-token-breach-cybercrime-group-claims-the-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1d83d3f0-b18f-4fdd-9bf5-3813ece84fa5",
@@ -98,7 +142,7 @@
       "summary": "The newly identified Reaper malware targets macOS users by leveraging a deceptive Microsoft domain to bypass security updates, enabling password theft and the installation of a persistent backdoor. It poses a significant threat by compromising credentials and crypto assets while evading standard system defenses.",
       "date": "2026-05-18T17:37:08.000Z",
       "link": "https://hackread.com/reaper-malware-fake-microsoft-domain-macos-passwords/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cecf5013-09d5-4d39-b8d1-c7f1594031ae",
@@ -120,7 +164,7 @@
       "summary": "Threat actors are actively leveraging leaked Shai-Hulud malware source code to distribute malicious packages within the npm ecosystem. This campaign highlights a rapid exploitation of public code leaks to facilitate information-stealing attacks.",
       "date": "2026-05-18T17:28:02.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9cc5b348-2a4e-4f99-b79b-2c5379dd3f97",
@@ -142,7 +186,7 @@
       "summary": "INTERPOL successfully coordinated a multinational operation across the MENA region that resulted in 201 arrests and the identification of 382 suspects involved in cybercriminal activity. The initiative focused on dismantling malicious infrastructure and neutralizing regional cybercrime networks over a five-month period.",
       "date": "2026-05-18T17:21:18.000Z",
       "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c84397d6-1675-48b5-b724-035f4efeeab3",
@@ -263,7 +307,7 @@
       "summary": "A misconfigured Amazon S3 bucket in the Tabiq hotel check-in system resulted in the unauthorized exposure of over one million sensitive records, including passports, IDs, and facial verification photos. The security lapse underscores the critical risk of improper cloud storage configurations.",
       "date": "2026-05-18T13:02:16.000Z",
       "link": "https://securityaffairs.com/192302/data-breach/public-amazon-bucket-leaks-sensitive-guest-data-from-japanese-hotel-platform-tabiq.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "60dadafd-f257-4f54-bd79-207154d8255e",
@@ -329,7 +373,7 @@
       "summary": "Attackers are increasingly targeting developer workstations and CI/CD pipelines to harvest sensitive credentials like API keys and tokens, compromising the software supply chain. Recent campaigns against npm, PyPI, and Docker Hub highlight this shift in tactical focus toward infrastructure access.",
       "date": "2026-05-18T11:23:41.000Z",
       "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d85e169d-9622-43c0-b0a9-f28fd568435b",
@@ -362,7 +406,7 @@
       "summary": "Major vendors including Ivanti, Fortinet, SAP, VMware, and n8n have released critical security patches to address high-risk vulnerabilities such as RCE, SQL injection, and privilege escalation. The most urgent flaw identified is a critical vulnerability in Ivanti Xtraction with a CVSS score of 9.6.",
       "date": "2026-05-18T10:54:05.000Z",
       "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c3fda18a-86e9-438d-8f3c-a8a3202b5a5c",
@@ -406,7 +450,7 @@
       "summary": "Grafana Labs confirmed that unauthorized actors gained access to and downloaded their internal GitHub codebase. The breach poses a significant risk due to the widespread integration of Grafana's observability tools in enterprise DevOps environments.",
       "date": "2026-05-18T09:11:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/attackers-accessed-downloaded-code-from-grafana-labs-github/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01ec5714-6e4d-4427-938d-2976d3e24c6f",
@@ -461,7 +505,7 @@
       "summary": "A proof-of-concept exploit has been released for a recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module, enabling potential root access on vulnerable systems.",
       "date": "2026-05-18T07:18:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "50422ca6-06c6-4668-a959-50495d4f6215",
@@ -483,7 +527,7 @@
       "summary": "A critical heap buffer overflow vulnerability in NGINX (CVE-2026-42945) is currently being actively exploited in the wild, posing risks of system crashes or remote code execution. With a CVSS score of 9.2, the flaw affects both NGINX Open Source and NGINX Plus instances.",
       "date": "2026-05-18T06:33:16.000Z",
       "link": "https://securityaffairs.com/192289/hacking/experts-warn-of-active-exploitation-of-critical-nginx-flaw-cve-2026-42945.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2f82f2ba-4f64-426a-9c18-c8b628283b9f",
@@ -505,7 +549,7 @@
       "summary": "New research has unveiled 'MetaBackdoor,' a sophisticated AI vulnerability that bypasses traditional input-based security defenses to potentially leak proprietary data. This discovery challenges existing enterprise security stacks that rely on token and prompt injection pattern detection.",
       "date": "2026-05-18T06:00:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/metabackdoor-llm-backdoor-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6eea97ac-a306-4a73-8e87-8b209cebd2c0",
@@ -549,7 +593,7 @@
       "summary": "The rapid advancement of AI has significantly shortened the time between vulnerability discovery and exploitation, reducing the window of opportunity for defenders to mere hours. Furthermore, the rise of autonomous agentic AI introduces complex new attack vectors that automated tools struggle to identify.",
       "date": "2026-05-18T05:00:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/synack-2025-ai-driven-vulnerability-trends-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d5e8abf4-bba8-4035-a4bf-67c3875f236c",
@@ -604,7 +648,7 @@
       "summary": "Linus Torvalds reports that the Linux security mailing list is being overwhelmed by AI-generated bug reports, creating redundant work for maintainers. This influx of repetitive findings is hindering the efficiency of the vulnerability management process.",
       "date": "2026-05-17T23:39:47.000Z",
       "link": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d2309cb0-f4dd-473a-bed2-d4677a2c9d83",
@@ -692,7 +736,7 @@
       "summary": "A heap buffer overflow vulnerability (CVE-2026-42945) in the NGINX rewrite module is currently being exploited in the wild, leading to service crashes and potential remote code execution. The flaw affects a broad range of NGINX versions and carries a critical CVSS score of 9.2.",
       "date": "2026-05-17T11:57:53.000Z",
       "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "548b93af-23bf-468e-888f-10fec11923df",
@@ -769,7 +813,7 @@
       "summary": "CISA has added a Microsoft Exchange Server vulnerability, CVE-2026-42897, to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw carries a CVSS score of 8.1, prompting urgent attention from organizations relying on the affected software.",
       "date": "2026-05-16T17:30:29.000Z",
       "link": "https://securityaffairs.com/192240/hacking/u-s-cisa-adds-a-flaw-in-microsoft-exchange-server-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2612ace4-9761-422b-930a-3a0612fa94ad",
@@ -5455,50 +5499,6 @@
       "summary": "Extreme Networks has launched Extreme Agent ONE, an AI-powered solution designed to enable autonomous decision-making and operational remediation within enterprise network environments.",
       "date": "2026-05-06T10:36:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/06/extreme-networks-extreme-agent-one/",
-      "isTopTen": false
-    },
-    {
-      "id": "e8bf2fd5-83d5-4a05-854d-0344e8e3fdba",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "UiPath adds agentic AI capabilities to Automation Suite for government agencies",
-      "summary": "UiPath has integrated agentic AI capabilities into its Automation Suite, allowing government and regulated agencies to deploy secure, self-hosted LLMs that adhere to strict data sovereignty and compliance standards.",
-      "date": "2026-05-06T10:25:54.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/06/uipath-automation-suite-agentic-ai-capabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "c4dc7209-0544-4627-bd02-49258e768c80",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "8×8 updates CX platform with AI, analytics, and frontline management capabilities",
-      "summary": "8x8 has introduced updates to its CX platform designed to streamline AI integration, improve real-time monitoring, and enhance agent management capabilities. These features aim to address operational inefficiencies and integration hurdles for customer experience teams.",
-      "date": "2026-05-06T10:12:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/06/8x8-cx-platform-updates/",
-      "isTopTen": false
-    },
-    {
-      "id": "6966dd7c-bc3e-4337-9c4f-12b5a49a87e7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Proton Mail brings quantum-safe email encryption to all accounts",
-      "summary": "Proton Mail has introduced optional post-quantum encryption across all account tiers to protect future communications against potential threats from quantum computing. Users must update their applications to the latest versions to support the new encryption key infrastructure.",
-      "date": "2026-05-06T10:00:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/06/proton-mail-post-quantum-protection-feature/",
-      "isTopTen": false
-    },
-    {
-      "id": "27263691-f9af-46b4-9151-a302cc4e1ba5",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Root-level RCE vulnerability in Palo Alto firewalls exploited (CVE-2026-0300)",
-      "summary": "Palo Alto Networks is investigating an actively exploited buffer overflow vulnerability (CVE-2026-0300) in the User-ID Authentication Portal of its PAN-OS software that allows for root-level remote code execution. The company is currently urging customers to implement temporary mitigations while awaiting a permanent security patch.",
-      "date": "2026-05-06T09:51:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/06/palo-alto-firewalls-vulnerability-exploited-cve-2026-0300/",
       "isTopTen": false
     }
   ]
