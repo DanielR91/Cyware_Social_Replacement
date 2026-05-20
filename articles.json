@@ -1,6 +1,292 @@
 {
-  "lastUpdated": "2026-05-20T09:48:30.665Z",
+  "lastUpdated": "2026-05-20T15:42:49.702Z",
   "articles": [
+    {
+      "id": "21b33f63-2b08-4e3f-92bf-51bc0bfd1bbc",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft issues YellowKey mitigation, no patch yet",
+      "summary": "Microsoft has released manual mitigations for the YellowKey BitLocker bypass vulnerability (CVE-2026-45585) instead of a formal software patch. Users are advised to disable autofstx.exe and enable TPM+PIN to secure their systems.",
+      "date": "2026-05-20T15:07:51.000Z",
+      "link": "https://securityaffairs.com/192449/hacking/microsoft-issues-yellowkey-mitigation-no-patch-yet.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9aa93d17-df76-44e2-8ae1-170340545052",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Understanding Trend Structure: Higher Highs and Lower Lows Explained",
+      "summary": "This article discusses technical market analysis techniques regarding price structure, such as higher highs and lower lows. It does not contain information related to cybersecurity.",
+      "date": "2026-05-20T14:55:43.000Z",
+      "link": "https://hackread.com/understanding-trend-structure-higher-highs-lower-lows/",
+      "isTopTen": false
+    },
+    {
+      "id": "3aeb80e4-3605-4f16-a3be-aab18508aaa5",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "GitHub says internal repositories were impacted in poisoned VS Code extension attack",
+      "summary": "GitHub experienced a data breach involving internal repositories after an employee's device was compromised by a malicious Visual Studio Code extension. The incident highlights the escalating security risks associated with third-party developer tools within software development ecosystems.",
+      "date": "2026-05-20T14:48:38.000Z",
+      "link": "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "3baf03ab-4b06-41f8-97cd-1edd9adb425e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
+      "summary": "Microsoft disrupted a malware-signing-as-a-service operation run by the threat actor Fox Tempest that abused legitimate signing systems to distribute ransomware. The operation impacted thousands of global networks and devices.",
+      "date": "2026-05-20T14:36:44.000Z",
+      "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+      "isTopTen": true
+    },
+    {
+      "id": "20bc1a8a-de51-4c47-98f0-705f665188b7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Webworm APT targets European government organizations with new backdoors",
+      "summary": "The China-aligned APT group Webworm, also known as Space Pirates, has expanded its cyber espionage operations to target government organizations across Europe and a university in South Africa using new backdoors. The activity was uncovered by ESET, highlighting the group's evolving geographic reach since its inception in 2022.",
+      "date": "2026-05-20T14:29:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/20/webworm-apt-campaign-targets-europe/",
+      "isTopTen": false
+    },
+    {
+      "id": "96f736f9-584a-42a9-b930-9f9f638cd40d",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Verizon DBIR: Vulnerability exploitation is the dominant initial access vector",
+      "summary": "The 2026 Verizon Data Breach Investigations Report reveals that vulnerability exploitation has surpassed stolen credentials as the primary method for initial network access. This shift marks the first time in 19 years that credential theft has not been the leading vector for cyberattacks.",
+      "date": "2026-05-20T14:10:13.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/20/verizon-2026-dbir-findings/",
+      "isTopTen": true
+    },
+    {
+      "id": "1262c546-de2a-4581-99a6-293b2de80277",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
+      "summary": "The headline highlights that identity-based authentication is no longer sufficient to secure networks against modern threats, emphasizing the necessity of integrating continuous device verification within Zero Trust architectures. It notes that attackers are increasingly bypassing identity checks by exploiting compromised devices and stolen session tokens.",
+      "date": "2026-05-20T14:02:12.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
+      "isTopTen": false
+    },
+    {
+      "id": "d53dd942-ed85-4b15-9d74-fdb81f144592",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "NanoCo lands $12 million seed funding, launches enterprise assistant built on NanoClaw",
+      "summary": "NanoCo has secured $12 million in seed funding and launched an enterprise-grade professional assistant leveraging its open-source agent framework, NanoClaw.",
+      "date": "2026-05-20T14:00:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/20/nanoco-seed-funding-12-million/",
+      "isTopTen": false
+    },
+    {
+      "id": "cb080709-141e-4a74-9cbf-3a87772ddb81",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "GitHub Breach: TeamPCP Steals 3,800 Repositories via VS Code Extension",
+      "summary": "The threat group TeamPCP compromised 3,800 GitHub repositories using a malicious VS Code extension and is currently offering the stolen data for sale on the dark web for $95,000.",
+      "date": "2026-05-20T13:55:51.000Z",
+      "link": "https://hackread.com/github-breach-teampcp-repositories-vs-code-extension/",
+      "isTopTen": false
+    },
+    {
+      "id": "70fd0c53-7afb-43b9-aba7-a0b6f62b5915",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Texas, Florida top list of states reporting millions of dollars lost through crypto ATMs",
+      "summary": "Residents in Texas and Florida have reported significant financial losses due to scams involving cryptocurrency ATMs, where fraudsters guide victims through the process of transferring funds. These incidents highlight the increasing use of physical kiosks as a common vector for financial fraud.",
+      "date": "2026-05-20T13:04:00.000Z",
+      "link": "https://therecord.media/texas-florida-top-list-of-crypto-atm-scam-losses",
+      "isTopTen": false
+    },
+    {
+      "id": "29884b38-a71c-4ccc-a129-32ad7e22ea91",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Drupal critical update to fix bug with high exploitation risk",
+      "summary": "Drupal has scheduled a critical core security release to address a vulnerability with a high risk of exploitation. The organization warns that threat actors may attempt to create exploits shortly after the patch is disclosed.",
+      "date": "2026-05-20T12:52:29.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
+      "isTopTen": false
+    },
+    {
+      "id": "1dfa0ab7-4d0a-4f5e-a5a8-21bb35985f9f",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
+      "summary": "The China-aligned threat actor Webworm is utilizing custom EchoCreep and GraphWorm backdoors that leverage Discord and Microsoft Graph API for command-and-control communications against government targets.",
+      "date": "2026-05-20T12:51:43.000Z",
+      "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4f634a2c-a3b6-4f9d-8299-387e38a494d6",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Verizon DBIR: AI Helped Hackers Exploit Vulnerabilities in 31% of Recent Breaches",
+      "summary": "The 2026 Verizon DBIR report highlights that software vulnerabilities have surpassed compromised passwords as the primary attack vector, with AI significantly accelerating the speed at which hackers exploit these flaws. This shift underscores a critical increase in the efficiency and frequency of automated exploitation campaigns.",
+      "date": "2026-05-20T12:32:37.000Z",
+      "link": "https://hackread.com/verizon-dbir-ai-hackers-exploit-vulnerabilities-breaches/",
+      "isTopTen": true
+    },
+    {
+      "id": "d8526bbb-1a79-4377-8379-3a4127f32405",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "GitHub confirms being hacked by TeamPCP, says customer data unaffected",
+      "summary": "GitHub confirmed a security breach where hackers known as TeamPCP claimed to have stolen source code from the platform. The company stated that no customer data was compromised during the incident.",
+      "date": "2026-05-20T12:21:00.000Z",
+      "link": "https://therecord.media/github-confirms-teampcp-hack-customers-unaffected",
+      "isTopTen": false
+    },
+    {
+      "id": "b9358507-a6ad-4322-a545-7f91c0c3aa4d",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Carding site B1ack’s Stash dumps 4.6 Million stolen cards for free ",
+      "summary": "The dark web marketplace B1ack’s Stash has leaked 4.6 million stolen credit card records for free following a decision to suspend its seller operations. This mass release of financial data poses a significant risk of widespread payment fraud for the affected consumers.",
+      "date": "2026-05-20T12:14:10.000Z",
+      "link": "https://securityaffairs.com/192415/cyber-crime/carding-site-b1acks-stash-dumps-4-6-million-stolen-cards-for-free.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4445e61f-cd6a-4157-8cc0-191c0f28901b",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Senator presses CISA for answers about alleged GitHub repository leak",
+      "summary": "Senator Maggie Hassan has demanded an explanation from CISA regarding a reported data breach involving government contractor Nightwing, which was first exposed by journalist Brian Krebs. The inquiry seeks to understand the scope and implications of an alleged leak from a GitHub repository.",
+      "date": "2026-05-20T12:11:00.000Z",
+      "link": "https://therecord.media/hassan-presses-cisa-github-leak",
+      "isTopTen": false
+    },
+    {
+      "id": "5e811bb8-228f-4d58-bef4-9d9005cd75c6",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Agent AI is Coming. Are You Ready?",
+      "summary": "Orchid Security's 2026 report reveals that unmanaged 'identity dark matter' now outweighs visible identity components, creating significant security risks for enterprises rapidly adopting Agent AI. This gap suggests organizations are unprepared for the identity management challenges posed by new AI deployments.",
+      "date": "2026-05-20T11:58:00.000Z",
+      "link": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
+      "isTopTen": false
+    },
+    {
+      "id": "15f65405-9db5-4f78-b080-c496bb7fe022",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "FBI: $388 million lost in crypto ATM scams in 2026",
+      "summary": "The FBI reports that Americans lost over $388 million to cryptocurrency ATM scams in 2025, as criminals increasingly use these physical kiosks to facilitate fraudulent fund transfers. The agency warns of the growing exploitation of these machines due to their high visibility and accessibility in public locations.",
+      "date": "2026-05-20T11:23:15.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/20/us-crypto-atm-scams-losses-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "953bdc1d-7693-4113-8711-0e7c2e2cb7fc",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "ArmorCode gives security teams AI workers for exposure and remediation",
+      "summary": "ArmorCode has launched Anya Agents, an AI-driven framework designed to automate security workflows including triage, vulnerability remediation, and compliance at enterprise scale. The platform utilizes a Context Risk Graph to convert security data into actionable tasks for automated AI workers.",
+      "date": "2026-05-20T11:22:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/20/armorcode-anya-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "62364b91-2590-412e-adac-988477ed24c3",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Novata uses AI to map risk across portfolios and supply chains",
+      "summary": "Novata has launched Risk Atlas, an AI-powered monitoring tool designed to help organizations aggregate, normalize, and prioritize risk signals across their portfolios and supply chains.",
+      "date": "2026-05-20T11:02:52.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/20/novata-risk-atlas/",
+      "isTopTen": false
+    },
+    {
+      "id": "fdb62c86-1853-47b8-83df-d2c829ebd33a",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake Word Phishing Reveals Enterprise Blind Spot in Trusted Remote Access Tools",
+      "summary": "Cybersecurity researchers discovered a phishing campaign using fake Microsoft Word documents to exploit trusted remote access tools and bypass enterprise security. The attack highlights a significant blind spot in how organizations monitor and authorize legitimate administrative software.",
+      "date": "2026-05-20T11:02:51.000Z",
+      "link": "https://hackread.com/fake-word-phishing-enterprise-blind-spot-trusted-remote-access-tools/",
+      "isTopTen": false
+    },
+    {
+      "id": "a47fb740-bad6-4b1b-9e94-d32020818ac1",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
+      "summary": "A public proof-of-concept exploit has been released for the PinTheft vulnerability, enabling local attackers to achieve root escalation on Arch Linux systems.",
+      "date": "2026-05-20T10:52:31.000Z",
+      "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
+      "isTopTen": false
+    },
+    {
+      "id": "75c54814-659f-48a4-a14b-66660b8ae6cf",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "TeamPCP breached GitHub’s internal codebase via poisoned VS Code extension",
+      "summary": "TeamPCP gained unauthorized access to GitHub's internal private repositories by utilizing a malicious VS Code extension. GitHub confirmed the breach, noting that the exfiltration was limited to internal source code and did not impact customer information.",
+      "date": "2026-05-20T10:41:12.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/20/github-breached-teampcp/",
+      "isTopTen": false
+    },
+    {
+      "id": "0d44fc51-cb31-4576-8bbd-a4178aae1744",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem",
+      "summary": "Attackers are now leveraging AI-generated lookalike domains embedded within third-party scripts, shifting typosquatting from a user-based threat to a supply chain security risk. Current security stacks often fail to detect these obfuscated threats, necessitating more advanced monitoring techniques.",
+      "date": "2026-05-20T10:30:00.000Z",
+      "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4d58b59a-b329-4c00-b1e6-3733183b4ecb",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "GitHub says internal repos exfiltrated after poisoned VS Code extension attack",
+      "summary": "GitHub reported that unauthorized actors exfiltrated internal repositories after compromising developer accounts via a malicious VS Code extension. While the company stated that customer data remains secure, the incident has raised concerns regarding the extent of the unauthorized access.",
+      "date": "2026-05-20T10:27:44.000Z",
+      "link": "https://www.theregister.com/devops/2026/05/20/github-says-internal-repos-exfiltrated-after-poisoned-vs-code-extension-attack/5243206",
+      "isTopTen": false
+    },
+    {
+      "id": "e6db76e5-bee5-45f8-9d17-e307d7f555e9",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+      "summary": "Unit 42 reports on TamperedChef malware, which utilizes trojanized applications and malvertising tactics to deploy stealthy payloads. The analysis tracks these clusters through identified patterns in code and certificate reuse.",
+      "date": "2026-05-20T10:00:46.000Z",
+      "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+      "isTopTen": false
+    },
     {
       "id": "ba202c69-7b13-4e2d-a416-1df87d8e58fb",
       "source": "Help Net Security",
@@ -43,7 +329,7 @@
       "summary": "A malicious VS Code extension was used to exfiltrate approximately 3,800 internal GitHub repositories after being installed by an employee. The threat actor group TeamPCP has claimed responsibility and is demanding a $50,000 ransom.",
       "date": "2026-05-20T08:50:50.000Z",
       "link": "https://securityaffairs.com/192440/cyber-crime/a-malicious-vs-code-extension-just-breached-github-s-internal-repositories.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ab3bb675-0862-47f4-90e3-2d1157f03cb6",
@@ -54,7 +340,7 @@
       "summary": "Microsoft has released mitigation steps for CVE-2026-45585, a BitLocker security feature bypass vulnerability known as 'YellowKey' that requires physical access to exploit. The company is currently working on a permanent patch for the flaw.",
       "date": "2026-05-20T08:33:52.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/yellowkey-bitlocker-mitigation-cve-2026-45585/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dd1d425e-ecee-464c-8921-7240c61cf650",
@@ -65,7 +351,18 @@
       "summary": "London's Metropolitan Police requested communication data from major technology companies over 700,000 times in the past year, highlighting the significant scale of state surveillance. The disclosure, obtained via a Freedom of Information request, underscores growing concerns regarding data privacy and police access to user information.",
       "date": "2026-05-20T08:30:00.000Z",
       "link": "https://www.theregister.com/databases/2026/05/20/londons-police-asked-big-tech-for-comms-data-over-700000-times-last-year/5242590",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "e8b3e466-e66f-4df2-9134-03a03375ef3f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+      "summary": "Microsoft has released a mitigation for the YellowKey vulnerability (CVE-2026-45585), a zero-day flaw that allows attackers to bypass BitLocker security features on Windows systems.",
+      "date": "2026-05-20T08:28:26.000Z",
+      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "isTopTen": false
     },
     {
       "id": "faa99e3a-6177-4332-a1c3-ee4e645242c1",
@@ -131,7 +428,7 @@
       "summary": "The integration of agentic AI into live infrastructure management creates significant security risks, specifically raising concerns about potential confused-deputy attacks where AI assistants could be manipulated to perform unauthorized actions. This shift towards autonomous remediation introduces vulnerabilities that necessitate a re-evaluation of current operational security practices.",
       "date": "2026-05-20T05:30:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/agentic-ai-security-llm-research/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "52bdab23-09b0-4c9d-a38d-1a1ef06d9cf3",
@@ -142,7 +439,7 @@
       "summary": "A zero-day vulnerability in Huawei enterprise routers caused a nationwide telecommunications outage in Luxembourg, disrupting critical services for over three hours. The incident highlights significant risks to national infrastructure posed by unpatched flaws in core networking equipment.",
       "date": "2026-05-20T05:30:04.000Z",
       "link": "https://securityaffairs.com/192431/hacking/alleged-huawei-zero-day-blamed-for-the-2025-luxembourg-telecom-crash.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "465ddc53-99c3-4385-8fda-e54de1bdd1db",
@@ -153,7 +450,7 @@
       "summary": "Grafana Labs confirmed a security breach affecting its GitHub environment resulting from a supply chain attack via the TanStack npm package. While internal source code repositories were accessed, the company states that customer production systems remain unaffected.",
       "date": "2026-05-20T05:12:06.000Z",
       "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3ee7d6af-1abc-42dc-830f-85603d4a32af",
@@ -200,6 +497,17 @@
       "isTopTen": false
     },
     {
+      "id": "3f419277-1a54-42bd-acc3-bfd410dcc89e",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Ukraine says Russia is deploying AI-powered malware on the battlefield",
+      "summary": "Ukraine’s National Security and Defense Council reports that Russia has significantly scaled its use of AI in cyber operations, particularly in malware development and social engineering. This advancement is reportedly creating a widening capability gap that increasingly disadvantages cyber defenders.",
+      "date": "2026-05-19T23:00:00.000Z",
+      "link": "https://therecord.media/ukraine-says-russia-using-ai-malware-on-battlefield",
+      "isTopTen": true
+    },
+    {
       "id": "7c073cc9-3fe4-4f82-9d11-3f00edcb00de",
       "source": "BleepingComputer",
       "tag": "Malware and Vulnerabilities",
@@ -219,7 +527,7 @@
       "summary": "Microsoft dismantled an illegal code-signing infrastructure that ransomware groups were using to bypass security filters by digitally signing malicious software. The operation impacted thousands of victims, including multiple systems within Microsoft's own environment.",
       "date": "2026-05-19T21:56:18.000Z",
       "link": "https://www.theregister.com/security/2026/05/19/microsoft-disrupts-alleged-malware-signing-operation-used-by-ransomware-gangs/5243013",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ea65966d-35bb-4f07-8c6e-3fe6626d987d",
@@ -241,7 +549,7 @@
       "summary": "Verizon's Data Breach Investigations Report reveals that exploited vulnerabilities have become the leading entry point for cyberattacks due to widespread failures in patching critical defects. This shift highlights a significant trend in attacker behavior, prioritizing the weaponization of known security gaps.",
       "date": "2026-05-19T21:19:24.000Z",
       "link": "https://cyberscoop.com/verizon-data-breach-investigations-report-2026/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9112a0d3-d546-447d-bfff-70abc64c9191",
@@ -461,7 +769,7 @@
       "summary": "A new supply-chain campaign dubbed 'Shai-Hulud' has compromised the npm registry by injecting over 600 malicious packages. This mass-scale automated attack poses a significant threat to developers and downstream applications utilizing the Node Package Manager.",
       "date": "2026-05-19T14:30:22.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6b5d3e6-9b4a-4a08-a820-32149a306784",
@@ -593,7 +901,7 @@
       "summary": "A phishing-as-a-service platform named EvilTokens is leveraging OAuth consent bypasses to compromise Microsoft 365 organizations despite active MFA protections. By tricking users into entering device login codes, the attackers successfully bypass traditional authentication protocols.",
       "date": "2026-05-19T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "175fb53b-0f80-4f51-b349-77f557fe0a39",
@@ -648,7 +956,7 @@
       "summary": "Critical vulnerabilities in the SEPPMail Secure E-Mail Gateway allow attackers to execute arbitrary code and intercept sensitive email traffic. These flaws could be leveraged to compromise the appliance and gain unauthorized access to internal network resources.",
       "date": "2026-05-19T09:23:15.000Z",
       "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b9ad1c9-e637-4484-839a-06ddcaa98f48",
@@ -5191,314 +5499,6 @@
       "summary": "OpenAI has introduced GPT-5.5-Cyber, a specialized model variant for verified cybersecurity professionals designed to support defensive workflows with more permissive access. The release is part of the Trusted Access for Cyber program, which balances expanded capabilities with safety restrictions against malicious use.",
       "date": "2026-05-08T08:03:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/openai-gpt-5-5-cyber-model/",
-      "isTopTen": false
-    },
-    {
-      "id": "4f309d3d-0a0d-4808-805a-08bfdc1dd989",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
-      "summary": "A critical Linux zero-day vulnerability dubbed 'Dirty Frag' enables local attackers to escalate privileges to root across most major distributions with a single command.",
-      "date": "2026-05-08T07:45:24.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
-      "isTopTen": false
-    },
-    {
-      "id": "e50aa6e6-0f4d-479a-8b58-d5879315ce0a",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "AI, Cyberwarfare, and Autonomous Weapons: Inside America’s New Military Strategy",
-      "summary": "The Pentagon is operationalizing AI integration across its military, cybersecurity, and command systems to create a unified, autonomous warfare architecture. This transition signifies a major shift in modern military strategy where AI and cyber capabilities are formally embedded into core conventional operations.",
-      "date": "2026-05-08T07:31:41.000Z",
-      "link": "https://securityaffairs.com/191842/cyber-warfare-2/ai-cyberwarfare-and-autonomous-weapons-inside-americas-new-military-strategy.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2a593a59-55ce-4741-a6c6-fc73a45f1dac",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Transilience AI unveils Security Operating System for cloud remediation",
-      "summary": "Transilience AI has launched a new security operating system designed to streamline cloud remediation by integrating fragmented security tools into a single, human-guided platform. The solution aims to reduce alert fatigue and accelerate the transition from threat detection to active elimination.",
-      "date": "2026-05-08T07:20:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/transilience-ai-full-stack-os/",
-      "isTopTen": false
-    },
-    {
-      "id": "3c37f8be-8f5b-4c68-8d66-7a4c8e2032cf",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Object First Fleet Manager simplifies distributed backup storage",
-      "summary": "Object First has introduced Fleet Manager, a cloud-based service designed to centralize and simplify the management of distributed Ootbi backup storage for Veeam environments. This tool aims to reduce operational overhead for enterprises and service providers managing complex, multi-site backup infrastructures.",
-      "date": "2026-05-08T07:18:00.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/object-first-fleet-manager-backup-storage/",
-      "isTopTen": false
-    },
-    {
-      "id": "687e9abc-70ea-4345-85dc-19970c8676c6",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "May 2026 Patch Tuesday forecast: AI starts driving security industry changes",
-      "summary": "The integration of AI-driven vulnerability discovery models like Anthropic Mythos is drastically increasing the volume of identified software flaws, as seen with the discovery of 271 vulnerabilities in Mozilla Firefox 150. This development signals a transformative shift in the security industry, necessitating new approaches to patching and vulnerability management.",
-      "date": "2026-05-08T06:19:11.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/may-2026-patch-tuesday-forecast/",
-      "isTopTen": false
-    },
-    {
-      "id": "a353cc60-a000-4704-a71a-24c1c80219bb",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Roblox chat moderation gets bypassed by leet speak and code words",
-      "summary": "An independent audit of Roblox's automated chat moderation reveals significant vulnerabilities, as users bypass filters using leet speak and code words to distribute harmful content. The study highlights that the platform is failing to adequately protect minors from grooming, violence, and sexual content.",
-      "date": "2026-05-08T06:00:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/roblox-chat-moderation-issues/",
-      "isTopTen": false
-    },
-    {
-      "id": "ddc046dc-c0f5-4bcc-b7eb-27ef888f3bb3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Mental health apps are collecting more than emotional conversations",
-      "summary": "An academic study of 25 popular mental health apps revealed that all of them contained undisclosed trackers, highlighting a significant lack of privacy and confidentiality protections compared to traditional therapy. Users are often unaware that their sensitive emotional data is being shared with third parties.",
-      "date": "2026-05-08T05:30:25.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/",
-      "isTopTen": false
-    },
-    {
-      "id": "0c52b382-d6f3-4647-a471-d4654fab8d48",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-      "summary": "Service busy.",
-      "date": "2026-05-08T05:12:00.000Z",
-      "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c236eca3-4e2b-4387-b853-5e6d34b2a0c4",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: NetGuard open-source firewall for Android",
-      "summary": "NetGuard is an open-source firewall application for Android that enables users to manage internet access for apps without requiring root privileges by utilizing the Android VPN service. It offers a secure, non-invasive method for traffic control on mobile devices.",
-      "date": "2026-05-08T05:00:48.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/product-showcase-netguard-open-source-firewall-android/",
-      "isTopTen": false
-    },
-    {
-      "id": "76d560fe-fd29-42e6-8c66-2b0f72329988",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Your coworker might be selling company logins, and thinks it’s fine",
-      "summary": "New research reveals a growing trend where employees increasingly view internal fraud, such as selling login credentials or moonlighting for competitors, as justifiable behavior. This shift poses a significant insider threat, particularly within the IT and telecommunications sectors.",
-      "date": "2026-05-08T04:30:37.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/workplace-fraud-trends-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "155eaa18-09f3-4827-a06a-cf4d62554c06",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShinyHunters Defaces Canvas LMS Portal, Hundreds of Universities Affected",
-      "summary": "The hacking group ShinyHunters breached Instructure systems to deface the Canvas LMS portal, causing global service disruptions for hundreds of universities. This incident highlights a significant compromise of a widely used educational infrastructure platform.",
-      "date": "2026-05-07T23:55:50.000Z",
-      "link": "https://hackread.com/shinyhunters-defaces-canvas-lms-portal-universities-affected/",
-      "isTopTen": false
-    },
-    {
-      "id": "dfddc8e6-71cc-43e1-853c-b1c856eab519",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Mozilla boasts Mythos boosted Firefox bug cull",
-      "summary": "Mozilla is utilizing Anthropic's AI model, Mythos, to assist in identifying and resolving security vulnerabilities within the Firefox browser. The effectiveness of the AI's contribution remains under evaluation compared to improvements in middleware infrastructure.",
-      "date": "2026-05-07T23:32:16.000Z",
-      "link": "https://www.theregister.com/security/2026/05/08/mozilla-says-ai-helped-squash-423-firefox-security-bugs/5235438",
-      "isTopTen": false
-    },
-    {
-      "id": "0cb5071c-ede5-4665-8aca-71abceef0ebe",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
-      "summary": "The ShinyHunters extortion group has compromised hundreds of educational Canvas login portals by exploiting a vulnerability in Instructure's systems. The attack resulted in the defacement of these portals across numerous colleges and universities.",
-      "date": "2026-05-07T22:36:54.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
-      "isTopTen": false
-    },
-    {
-      "id": "7ad95361-473a-47ef-897d-1ff54fd26ef2",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
-      "summary": "The newly discovered TCLBanker trojan masquerades as a Logitech AI software installer to compromise 59 financial platforms and utilizes WhatsApp and Outlook for self-propagation.",
-      "date": "2026-05-07T22:06:52.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
-      "isTopTen": false
-    },
-    {
-      "id": "29bd8db6-23e4-435a-9839-5476ea1004d6",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Ivanti customers confront yet another actively exploited zero-day",
-      "summary": "Ivanti customers are facing an actively exploited zero-day vulnerability in one of the company's mobile endpoint security products. This incident marks another instance of attackers targeting Ivanti's network edge solutions.",
-      "date": "2026-05-07T21:50:52.000Z",
-      "link": "https://cyberscoop.com/ivanti-epmm-zero-day-vulnerability-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "0c36d875-c215-463d-a538-ad2f3626cb9e",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hackers Use Fake Claude AI Site to Infect Users With New Beagle Malware",
-      "summary": "Cybercriminals are distributing a newly discovered backdoor called Beagle via a deceptive malvertising campaign that mimics the official Claude AI website. Users are at risk of system compromise through these malicious advertisements.",
-      "date": "2026-05-07T21:34:18.000Z",
-      "link": "https://hackread.com/hackers-fake-claude-ai-site-infect-beagle-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "76aac46b-8bf0-44be-b673-40fe8cd6ac56",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iranian government hackers using Chaos ransomware as cover, researchers say",
-      "summary": "Rapid7 researchers discovered that an Iranian state-sponsored group known as MuddyWater is utilizing Chaos ransomware as a decoy to obscure their targeted intrusion activities. This tactic aims to misdirect incident responders by masking espionage operations as financially motivated ransomware attacks.",
-      "date": "2026-05-07T21:30:00.000Z",
-      "link": "https://therecord.media/iran-government-hackers-use-chaos-ransomware-as-cover",
-      "isTopTen": false
-    },
-    {
-      "id": "5bc64007-c750-4a8e-a9b6-f0e52952ca35",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Nation-state actors exploit Palo Alto PAN-OS zero-day for weeks",
-      "summary": "Service busy.",
-      "date": "2026-05-07T20:44:22.000Z",
-      "link": "https://securityaffairs.com/191831/security/nation-state-actors-exploit-palo-alto-pan-os-zero-day-for-weeks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5f5f08c9-0888-4cc8-837a-e5b67a2d5ca3",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Anthropic response to 1-click pwn: Shouldn't have clicked 'ok'",
-      "summary": "Anthropic responded to security research by Adversa AI regarding a potential one-click vulnerability, suggesting users should exercise greater caution when interacting with prompt prompts. The incident highlights an ongoing debate over the adequacy of security warnings provided by AI platform developers.",
-      "date": "2026-05-07T20:03:11.000Z",
-      "link": "https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319",
-      "isTopTen": false
-    },
-    {
-      "id": "2ae5ed97-31ed-4dd1-b5f4-f00ed295e5ca",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Trump officials are steering a cybersecurity scholarship program toward AI",
-      "summary": "The U.S. government is reorienting a cybersecurity scholarship program to prioritize artificial intelligence, raising concerns among current scholars about their career prospects. This shift in educational focus leaves many students worried that their traditional cybersecurity skills will be deprioritized in the job market.",
-      "date": "2026-05-07T19:57:12.000Z",
-      "link": "https://cyberscoop.com/sfs-scholarship-program-trump-administration-ai-shift/",
-      "isTopTen": false
-    },
-    {
-      "id": "8be23f24-9a29-47ba-9d0c-5251d16c97d8",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
-      "summary": "The PCPJack malware framework is targeting exposed cloud infrastructure to harvest credentials while simultaneously displacing a competing threat known as TeamPCP. This activity highlights a growing trend of malicious actors hijacking systems from one another.",
-      "date": "2026-05-07T18:35:50.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
-      "isTopTen": false
-    },
-    {
-      "id": "d0c5533e-6328-4ed6-90d2-535fe03899c7",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "U.S. CISA adds a flaw in Ivanti Endpoint Manager Mobile (EPMM) to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added a vulnerability in Ivanti Endpoint Manager Mobile (CVE-2026-6973), which carries a CVSS score of 7.1, to its Known Exploited Vulnerabilities catalog due to active exploitation. Users are urged to apply the necessary security updates to protect their environments.",
-      "date": "2026-05-07T18:03:00.000Z",
-      "link": "https://securityaffairs.com/191822/security/u-s-cisa-adds-a-flaw-in-ivanti-endpoint-manager-mobile-epmm-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e806afa3-89ef-4d83-b384-0f90b59027fc",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
-      "summary": "Service busy.",
-      "date": "2026-05-07T18:00:59.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "9e327771-7123-44ea-9bdc-8971c0c6fe4c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
-      "summary": "Service busy.",
-      "date": "2026-05-07T17:55:00.000Z",
-      "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9fc9f86c-27c7-467c-8869-8397cd3fae26",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
-      "summary": "The PCPJack credential-stealing framework targets cloud infrastructure by exploiting five vulnerabilities to spread autonomously and exfiltrate sensitive data. It notably includes functionality to remove traces of competing threat actors from infected environments.",
-      "date": "2026-05-07T17:45:00.000Z",
-      "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
-      "isTopTen": false
-    },
-    {
-      "id": "01811344-7bfd-43e9-b9da-692a31f31dec",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "60% of MD5 password hashes are crackable in under an hour",
-      "summary": "Service busy.",
-      "date": "2026-05-07T16:47:43.000Z",
-      "link": "https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954",
-      "isTopTen": false
-    },
-    {
-      "id": "93822ea7-f87f-4752-bce4-897bc81151ac",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "What Mozilla learned running an AI security bug hunting pipeline on Firefox",
-      "summary": "Mozilla successfully utilized an AI-powered agentic harness to identify and remediate 271 security vulnerabilities across various Firefox subsystems, including long-standing legacy flaws. The initiative demonstrates the effectiveness of integrating AI pipelines into large-scale software development security processes.",
-      "date": "2026-05-07T16:00:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/07/mozilla-firefox-claude-ai-security-bug-hunting/",
-      "isTopTen": false
-    },
-    {
-      "id": "1c029129-e273-4d1f-a697-60cdbd63b6a9",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
-      "summary": "Service busy.",
-      "date": "2026-05-07T15:20:51.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
       "isTopTen": false
     }
   ]
