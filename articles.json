@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-05-20T15:42:49.702Z",
+  "lastUpdated": "2026-05-20T20:26:41.269Z",
   "articles": [
+    {
+      "id": "377b87cd-16a2-4ed3-a71b-23b96804c875",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated May 20)",
+      "summary": "Unit 42 provides an updated analysis of the evolving npm supply chain threat landscape, highlighting sophisticated tactics such as wormable malware and CI/CD persistence. The report outlines emerging attack vectors and necessary mitigation strategies for developers and organizations.",
+      "date": "2026-05-20T19:30:33.000Z",
+      "link": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "b01571e8-870f-493d-8cf5-2b776d5cf47e",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "FTC warns 12 major tech firms of violating Take It Down Act",
+      "summary": "The FTC has issued warnings to 12 major tech companies regarding their compliance with the Take It Down Act, which requires the removal of nonconsensual intimate images within 48 hours of a request. This action emphasizes the regulatory pressure on platforms to improve user safety and content moderation practices.",
+      "date": "2026-05-20T17:29:00.000Z",
+      "link": "https://therecord.media/ftc-warns-12-firms-of-violating-take-it-down-act",
+      "isTopTen": false
+    },
+    {
+      "id": "01277390-73f6-4937-aab5-e60c24ed75d0",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+      "summary": "Microsoft has released two open-source tools, RAMPART and Clarity, designed to help developers test and secure AI agents against potential security risks. These frameworks facilitate automated safety testing during the AI development lifecycle.",
+      "date": "2026-05-20T17:06:54.000Z",
+      "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+      "isTopTen": false
+    },
+    {
+      "id": "bc591513-120d-4468-9819-ef9a4c8121f2",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ukraine probes teen suspect in cyber theft scheme targeting California online shoppers",
+      "summary": "Ukrainian authorities are investigating a teenage suspect linked to a cyber theft scheme targeting online shoppers in California. The case originated from intelligence shared by U.S. officials regarding hackers operating within Ukraine.",
+      "date": "2026-05-20T16:33:00.000Z",
+      "link": "https://therecord.media/ukraine-probes-teen-suspect-cyber-theft-scheme",
+      "isTopTen": false
+    },
+    {
+      "id": "bc072305-bb8e-4c29-85a2-a6b4a8dd74e1",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Discord migrates all users to end-to-end encryption by default",
+      "summary": "Discord has transitioned all user messaging to default end-to-end encryption, bucking a trend seen in other social media platforms like Instagram and TikTok.",
+      "date": "2026-05-20T16:29:00.000Z",
+      "link": "https://therecord.media/discord-migrates-users-to-end-to-end-encryption",
+      "isTopTen": false
+    },
+    {
+      "id": "0ce569d9-bd87-4808-bd27-e5513b908dfe",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "7-Eleven confirms breach after ShinyHunters claims",
+      "summary": "7-Eleven confirmed a data breach involving unauthorized access to systems containing franchisee documents after the ShinyHunters threat group claimed responsibility. The incident was discovered on April 8, prompting an internal investigation into the exposure.",
+      "date": "2026-05-20T16:05:00.000Z",
+      "link": "https://therecord.media/7-eleven-reports-data-breach-shinyhunters",
+      "isTopTen": false
+    },
+    {
+      "id": "99fc570f-27f4-4e5d-a3b2-5f6579c761e3",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Grafana breach caused by missed token rotation after TanStack attack",
+      "summary": "Grafana experienced a data breach resulting from a failure to rotate a GitHub workflow token following the recent TanStack npm supply-chain attack. The oversight allowed unauthorized access due to a remaining valid credential that should have been revoked.",
+      "date": "2026-05-20T15:46:37.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "isTopTen": true
+    },
     {
       "id": "21b33f63-2b08-4e3f-92bf-51bc0bfd1bbc",
       "source": "Security Affairs",
@@ -10,7 +87,7 @@
       "summary": "Microsoft has released manual mitigations for the YellowKey BitLocker bypass vulnerability (CVE-2026-45585) instead of a formal software patch. Users are advised to disable autofstx.exe and enable TPM+PIN to secure their systems.",
       "date": "2026-05-20T15:07:51.000Z",
       "link": "https://securityaffairs.com/192449/hacking/microsoft-issues-yellowkey-mitigation-no-patch-yet.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9aa93d17-df76-44e2-8ae1-170340545052",
@@ -32,7 +109,7 @@
       "summary": "GitHub experienced a data breach involving internal repositories after an employee's device was compromised by a malicious Visual Studio Code extension. The incident highlights the escalating security risks associated with third-party developer tools within software development ecosystems.",
       "date": "2026-05-20T14:48:38.000Z",
       "link": "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3baf03ab-4b06-41f8-97cd-1edd9adb425e",
@@ -76,7 +153,7 @@
       "summary": "The headline highlights that identity-based authentication is no longer sufficient to secure networks against modern threats, emphasizing the necessity of integrating continuous device verification within Zero Trust architectures. It notes that attackers are increasingly bypassing identity checks by exploiting compromised devices and stolen session tokens.",
       "date": "2026-05-20T14:02:12.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d53dd942-ed85-4b15-9d74-fdb81f144592",
@@ -329,7 +406,7 @@
       "summary": "A malicious VS Code extension was used to exfiltrate approximately 3,800 internal GitHub repositories after being installed by an employee. The threat actor group TeamPCP has claimed responsibility and is demanding a $50,000 ransom.",
       "date": "2026-05-20T08:50:50.000Z",
       "link": "https://securityaffairs.com/192440/cyber-crime/a-malicious-vs-code-extension-just-breached-github-s-internal-repositories.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab3bb675-0862-47f4-90e3-2d1157f03cb6",
@@ -428,7 +505,7 @@
       "summary": "The integration of agentic AI into live infrastructure management creates significant security risks, specifically raising concerns about potential confused-deputy attacks where AI assistants could be manipulated to perform unauthorized actions. This shift towards autonomous remediation introduces vulnerabilities that necessitate a re-evaluation of current operational security practices.",
       "date": "2026-05-20T05:30:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/agentic-ai-security-llm-research/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "52bdab23-09b0-4c9d-a38d-1a1ef06d9cf3",
@@ -505,7 +582,7 @@
       "summary": "Ukraine’s National Security and Defense Council reports that Russia has significantly scaled its use of AI in cyber operations, particularly in malware development and social engineering. This advancement is reportedly creating a widening capability gap that increasingly disadvantages cyber defenders.",
       "date": "2026-05-19T23:00:00.000Z",
       "link": "https://therecord.media/ukraine-says-russia-using-ai-malware-on-battlefield",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7c073cc9-3fe4-4f82-9d11-3f00edcb00de",
@@ -714,7 +791,7 @@
       "summary": "The Pwn2Own Berlin 2026 competition concluded with researchers earning $1.3 million for identifying 47 unique zero-day vulnerabilities in enterprise software and AI platforms. These findings underscore significant security risks within widely used systems.",
       "date": "2026-05-19T15:59:01.000Z",
       "link": "https://hackread.com/pwn2own-berlin-2026-closes-zero-day-payouts/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "92a3f59c-cb20-464f-a84b-5f3a1ac2246c",
@@ -5422,83 +5499,6 @@
       "summary": "Google is integrating Play Policy Insights directly into Android Studio to alert developers about policy violations and SDK risks during the coding process. This initiative aims to improve app compliance and security by proactively identifying common issues within the development environment.",
       "date": "2026-05-08T10:09:59.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/08/google-android-studio-app-security-updates/",
-      "isTopTen": false
-    },
-    {
-      "id": "a4f65f6c-d6af-43fc-9341-48d218c23927",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Helping North Korean IT remote workers is becoming a fast track to prison",
-      "summary": "Two U.S. nationals received 18-month prison sentences for operating laptop farms that enabled North Korean IT workers to infiltrate American companies and generate illicit funding for Pyongyang. The case highlights the legal consequences for individuals facilitating remote labor schemes linked to North Korean state-sponsored operations.",
-      "date": "2026-05-08T09:40:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/north-korean-it-workers-us-laptop-farm-operation-sentencing/",
-      "isTopTen": false
-    },
-    {
-      "id": "89507360-8fb0-4b0e-a599-1a8b4cefffba",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Former govt contractor convicted for wiping dozens of federal databases",
-      "summary": "A former federal contractor was convicted of destroying dozens of government databases as an act of retaliation following his termination. The incident highlights the significant insider threat posed by disgruntled former employees with authorized access.",
-      "date": "2026-05-08T08:45:04.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "isTopTen": false
-    },
-    {
-      "id": "78420d74-e432-4c19-800c-46a1e23cf0c1",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-      "summary": "A new Linux backdoor called PamDOORa, sold on a cybercrime forum for $1,600, leverages Pluggable Authentication Modules (PAM) to grant persistent SSH access via magic passwords. This post-exploitation toolkit allows attackers to maintain stealthy, long-term unauthorized entry into compromised Linux systems.",
-      "date": "2026-05-08T08:41:00.000Z",
-      "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c086c69b-5e06-4d72-a929-b0db6cf43cf3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Snyk integrates Claude to advance AI-native application security",
-      "summary": "Snyk has integrated Anthropic’s Claude models into its AI Security Platform to automate vulnerability discovery, prioritization, and code remediation. This development aims to help organizations secure software against the growing threat landscape by embedding AI-native security capabilities directly into the development lifecycle.",
-      "date": "2026-05-08T08:26:55.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/snyk-ai-security-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "fea30835-2850-4700-8537-de75ab896800",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Avantra’s new AI can diagnose SAP failures in seconds",
-      "summary": "Avantra has released Avantra 26 and the AIR Root Cause Analyzer, an AI-driven tool designed to automatically diagnose SAP system incidents and correlate data across platforms. This advancement aims to streamline operational efficiency and troubleshooting within complex SAP environments.",
-      "date": "2026-05-08T08:09:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/avantra-26-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "8940bd3a-15f6-4cfc-ad0f-491294c5b74a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Securonix launches AI threat research agent and ThreatWatch validation tool",
-      "summary": "Securonix has introduced an AI-powered threat research agent and the ThreatWatch validation tool to help security teams streamline threat intelligence analysis and validation. These new capabilities integrate with the ThreatQ platform to provide actionable, explainable insights for security operations.",
-      "date": "2026-05-08T08:05:42.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/securonix-threat-research-agent-threatwatch-threatq/",
-      "isTopTen": false
-    },
-    {
-      "id": "726611cf-2e39-4f74-aa4a-9af3039f0eed",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI tunes GPT-5.5-Cyber for more permissive security workflows",
-      "summary": "OpenAI has introduced GPT-5.5-Cyber, a specialized model variant for verified cybersecurity professionals designed to support defensive workflows with more permissive access. The release is part of the Trusted Access for Cyber program, which balances expanded capabilities with safety restrictions against malicious use.",
-      "date": "2026-05-08T08:03:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/openai-gpt-5-5-cyber-model/",
       "isTopTen": false
     }
   ]
