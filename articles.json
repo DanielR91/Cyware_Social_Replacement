@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-05-20T20:26:41.269Z",
+  "lastUpdated": "2026-05-20T22:29:38.416Z",
   "articles": [
+    {
+      "id": "dcb868d7-3835-477d-9590-35fd4d4f7b6f",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
+      "summary": "Ukrainian cyberpolice and U.S. law enforcement have identified an 18-year-old suspect in Odesa for operating an infostealer malware campaign that compromised 28,000 accounts. The operation specifically targeted customers of a California-based online store.",
+      "date": "2026-05-20T21:36:24.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+      "isTopTen": false
+    },
+    {
+      "id": "0b79b7f0-ab9c-4c41-8682-44a8e7669270",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
+      "summary": "Threat actors are exploiting incomplete patches on SonicWall Gen6 SSL-VPN appliances to brute-force credentials and bypass multi-factor authentication for ransomware deployment. Organizations are urged to ensure their devices are fully updated to mitigate this unauthorized access.",
+      "date": "2026-05-20T21:19:17.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+      "isTopTen": true
+    },
+    {
+      "id": "ecca6994-82c0-4efe-82bc-8787847df75f",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Even Claude agrees: hole in its sandbox was real and dangerous",
+      "summary": "An undisclosed and potentially dangerous sandbox vulnerability in the Claude AI model was identified and silently patched without a formal CVE or public disclosure. The lack of transparency regarding this security flaw highlights concerns about silent remediation practices in AI infrastructure.",
+      "date": "2026-05-20T20:34:15.000Z",
+      "link": "https://www.theregister.com/security/2026/05/20/even-claude-agrees-hole-in-its-sandbox-was-real-and-dangerous/5243662",
+      "isTopTen": false
+    },
+    {
+      "id": "fb09c9a9-ad0d-4f0f-bb03-eed9cfda7a62",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "PinTheft: Another Linux Privilege Escalation, Another Working Exploit, This Time Targeting Arch",
+      "summary": "PinTheft is a newly identified local privilege escalation vulnerability within the Linux RDS subsystem that currently has publicly available exploit code. Arch Linux users are at the highest risk and are urged to apply patches immediately to mitigate the threat.",
+      "date": "2026-05-20T20:32:53.000Z",
+      "link": "https://securityaffairs.com/192456/security/pintheft-another-linux-privilege-escalation-another-working-exploit-this-time-targeting-arch.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2a56cc9a-34c3-41aa-9a81-144f2abb8c3a",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Meet Rampart and Clarity, Microsoft’s new red team combo AI agents",
+      "summary": "Microsoft has open-sourced two new AI agents, Rampart and Clarity, designed to assist developers and incident responders in red-teaming security operations. These tools aim to improve automated threat detection and proactive defense testing.",
+      "date": "2026-05-20T20:25:51.000Z",
+      "link": "https://cyberscoop.com/microsoft-rampart-clarity-agentic-ai-security-red-teaming-tools/",
+      "isTopTen": false
+    },
     {
       "id": "377b87cd-16a2-4ed3-a71b-23b96804c875",
       "source": "Unit 42",
@@ -76,7 +131,7 @@
       "summary": "Grafana experienced a data breach resulting from a failure to rotate a GitHub workflow token following the recent TanStack npm supply-chain attack. The oversight allowed unauthorized access due to a remaining valid credential that should have been revoked.",
       "date": "2026-05-20T15:46:37.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "21b33f63-2b08-4e3f-92bf-51bc0bfd1bbc",
@@ -87,7 +142,7 @@
       "summary": "Microsoft has released manual mitigations for the YellowKey BitLocker bypass vulnerability (CVE-2026-45585) instead of a formal software patch. Users are advised to disable autofstx.exe and enable TPM+PIN to secure their systems.",
       "date": "2026-05-20T15:07:51.000Z",
       "link": "https://securityaffairs.com/192449/hacking/microsoft-issues-yellowkey-mitigation-no-patch-yet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9aa93d17-df76-44e2-8ae1-170340545052",
@@ -109,7 +164,7 @@
       "summary": "GitHub experienced a data breach involving internal repositories after an employee's device was compromised by a malicious Visual Studio Code extension. The incident highlights the escalating security risks associated with third-party developer tools within software development ecosystems.",
       "date": "2026-05-20T14:48:38.000Z",
       "link": "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3baf03ab-4b06-41f8-97cd-1edd9adb425e",
@@ -142,7 +197,7 @@
       "summary": "The 2026 Verizon Data Breach Investigations Report reveals that vulnerability exploitation has surpassed stolen credentials as the primary method for initial network access. This shift marks the first time in 19 years that credential theft has not been the leading vector for cyberattacks.",
       "date": "2026-05-20T14:10:13.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/verizon-2026-dbir-findings/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1262c546-de2a-4581-99a6-293b2de80277",
@@ -153,7 +208,7 @@
       "summary": "The headline highlights that identity-based authentication is no longer sufficient to secure networks against modern threats, emphasizing the necessity of integrating continuous device verification within Zero Trust architectures. It notes that attackers are increasingly bypassing identity checks by exploiting compromised devices and stolen session tokens.",
       "date": "2026-05-20T14:02:12.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d53dd942-ed85-4b15-9d74-fdb81f144592",
@@ -406,7 +461,7 @@
       "summary": "A malicious VS Code extension was used to exfiltrate approximately 3,800 internal GitHub repositories after being installed by an employee. The threat actor group TeamPCP has claimed responsibility and is demanding a $50,000 ransom.",
       "date": "2026-05-20T08:50:50.000Z",
       "link": "https://securityaffairs.com/192440/cyber-crime/a-malicious-vs-code-extension-just-breached-github-s-internal-repositories.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ab3bb675-0862-47f4-90e3-2d1157f03cb6",
@@ -505,7 +560,7 @@
       "summary": "The integration of agentic AI into live infrastructure management creates significant security risks, specifically raising concerns about potential confused-deputy attacks where AI assistants could be manipulated to perform unauthorized actions. This shift towards autonomous remediation introduces vulnerabilities that necessitate a re-evaluation of current operational security practices.",
       "date": "2026-05-20T05:30:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/agentic-ai-security-llm-research/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "52bdab23-09b0-4c9d-a38d-1a1ef06d9cf3",
@@ -582,7 +637,7 @@
       "summary": "Ukraine’s National Security and Defense Council reports that Russia has significantly scaled its use of AI in cyber operations, particularly in malware development and social engineering. This advancement is reportedly creating a widening capability gap that increasingly disadvantages cyber defenders.",
       "date": "2026-05-19T23:00:00.000Z",
       "link": "https://therecord.media/ukraine-says-russia-using-ai-malware-on-battlefield",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7c073cc9-3fe4-4f82-9d11-3f00edcb00de",
@@ -593,7 +648,7 @@
       "summary": "A critical vulnerability in ChromaDB's Python FastAPI implementation enables unauthenticated attackers to execute arbitrary code and hijack exposed servers.",
       "date": "2026-05-19T22:25:49.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7928d28e-c6dd-4b5c-901d-b600a8305341",
@@ -5444,61 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-08T10:59:10.000Z",
       "link": "https://www.theregister.com/security/2026/05/08/hackers-ate-my-homework-educational-saas-canvas-down-after-cyberattack/5235561",
-      "isTopTen": false
-    },
-    {
-      "id": "1c82de06-54d0-4a1b-9c90-788582a36b9d",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Zara data breach exposed personal information of 197,000 people",
-      "summary": "Hackers breached Zara's databases, compromising the personal information of approximately 197,000 customers. The incident was identified and reported by the data breach notification service Have I Been Pwned.",
-      "date": "2026-05-08T10:42:22.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
-      "isTopTen": false
-    },
-    {
-      "id": "e2d26e58-68a5-4deb-81a6-2d1d0dc551ce",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meta fights Ofcom over how many billions count as billions",
-      "summary": "Service busy.",
-      "date": "2026-05-08T10:39:29.000Z",
-      "link": "https://www.theregister.com/security/2026/05/08/meta-fights-ofcom-over-how-many-billions-count-as-billions/5235662",
-      "isTopTen": false
-    },
-    {
-      "id": "e66be9e6-eaa6-4d31-b449-cefcec994bf9",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Ivanti EPMM vulnerability exploited in zero-day attacks (CVE-2026-6973)",
-      "summary": "Ivanti has patched five high-severity vulnerabilities in its Endpoint Manager Mobile (EPMM) solution, including CVE-2026-6973, which is currently being exploited in targeted zero-day attacks. The flaw allows remote attackers with administrative privileges to execute arbitrary code via improper input validation.",
-      "date": "2026-05-08T10:30:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/ivanti-epmm-zero-day-cve-2026-6973/",
-      "isTopTen": false
-    },
-    {
-      "id": "dae7374e-6542-4e8f-b835-a25553137f5e",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
-      "summary": "An analysis of 25 million security alerts reveals that enterprise defenders frequently ignore low-severity and informational alerts, leading to a significant number of missed threats. This trend suggests a systemic operational failure where security teams inadvertently normalize the practice of overlooking potential risks.",
-      "date": "2026-05-08T10:30:00.000Z",
-      "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c366d673-2fe1-4f4b-955f-fb9e17f872a8",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Google is turning Android Studio into a policy watchdog",
-      "summary": "Google is integrating Play Policy Insights directly into Android Studio to alert developers about policy violations and SDK risks during the coding process. This initiative aims to improve app compliance and security by proactively identifying common issues within the development environment.",
-      "date": "2026-05-08T10:09:59.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/08/google-android-studio-app-security-updates/",
       "isTopTen": false
     }
   ]
