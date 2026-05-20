@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-19T22:22:55.177Z",
+  "lastUpdated": "2026-05-20T04:03:21.563Z",
   "articles": [
+    {
+      "id": "b025a506-4ccb-4fb6-a496-332ef54df5e8",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "CISA credential leak raises alarms, and Capitol Hill demands answers",
+      "summary": "A major credential leak discovered on a public GitHub repository has triggered congressional scrutiny and security concerns regarding CISA's internal data management. Security researchers identified the incident as a significant exposure, prompting urgent demands for accountability from Capitol Hill.",
+      "date": "2026-05-19T23:28:26.000Z",
+      "link": "https://cyberscoop.com/cisa-credential-leak-congress-demands-answers/",
+      "isTopTen": false
+    },
+    {
+      "id": "7c073cc9-3fe4-4f82-9d11-3f00edcb00de",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
+      "summary": "A critical vulnerability in ChromaDB's Python FastAPI implementation enables unauthenticated attackers to execute arbitrary code and hijack exposed servers.",
+      "date": "2026-05-19T22:25:49.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
+      "isTopTen": true
+    },
     {
       "id": "7928d28e-c6dd-4b5c-901d-b600a8305341",
       "source": "The Register",
@@ -32,7 +54,7 @@
       "summary": "Verizon's Data Breach Investigations Report reveals that exploited vulnerabilities have become the leading entry point for cyberattacks due to widespread failures in patching critical defects. This shift highlights a significant trend in attacker behavior, prioritizing the weaponization of known security gaps.",
       "date": "2026-05-19T21:19:24.000Z",
       "link": "https://cyberscoop.com/verizon-data-breach-investigations-report-2026/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9112a0d3-d546-447d-bfff-70abc64c9191",
@@ -54,7 +76,7 @@
       "summary": "Discord has implemented default end-to-end encryption for all voice and video calls across its platform to enhance user privacy and communication security. This update ensures that call content remains inaccessible to unauthorized third parties.",
       "date": "2026-05-19T20:37:45.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "223facb8-8bbc-4dff-9763-b1db716d5e52",
@@ -76,7 +98,7 @@
       "summary": "Threat actors are exploiting the legitimate Microsoft Self-Service Password Reset feature within Azure and Microsoft 365 environments to conduct unauthorized data theft. This technique utilizes native administrative tools to bypass traditional security detection methods.",
       "date": "2026-05-19T19:35:32.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "47724c1a-ac0a-4d49-ae59-bf02273c7127",
@@ -714,7 +736,7 @@
       "summary": "The newly identified Reaper malware targets macOS users by leveraging a deceptive Microsoft domain to bypass security updates, enabling password theft and the installation of a persistent backdoor. It poses a significant threat by compromising credentials and crypto assets while evading standard system defenses.",
       "date": "2026-05-18T17:37:08.000Z",
       "link": "https://hackread.com/reaper-malware-fake-microsoft-domain-macos-passwords/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cecf5013-09d5-4d39-b8d1-c7f1594031ae",
@@ -758,7 +780,7 @@
       "summary": "INTERPOL successfully coordinated a multinational operation across the MENA region that resulted in 201 arrests and the identification of 382 suspects involved in cybercriminal activity. The initiative focused on dismantling malicious infrastructure and neutralizing regional cybercrime networks over a five-month period.",
       "date": "2026-05-18T17:21:18.000Z",
       "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c84397d6-1675-48b5-b724-035f4efeeab3",
@@ -5477,28 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-07T11:33:00.000Z",
       "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cc2887f1-27e5-44c8-ab2e-00fb14cf60f3",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-      "summary": "Palo Alto Networks has alerted customers to an actively exploited zero-day vulnerability in its PAN-OS firewalls, which state-sponsored actors have been targeting for nearly a month.",
-      "date": "2026-05-07T10:57:59.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
-      "isTopTen": false
-    },
-    {
-      "id": "a6842250-729d-4f3c-8545-139d65e7d820",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
-      "summary": "Service busy.",
-      "date": "2026-05-07T10:54:00.000Z",
-      "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
       "isTopTen": false
     }
   ]
