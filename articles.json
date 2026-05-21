@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-20T22:29:38.416Z",
+  "lastUpdated": "2026-05-21T04:11:49.975Z",
   "articles": [
+    {
+      "id": "28056e3f-ab7a-47ea-8db3-f7117f110aad",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cyber threats push SMBs to spend more on security",
+      "summary": "Small and medium-sized businesses are increasing their cybersecurity budgets in response to rising threats and the integration of artificial intelligence. Despite the increased investment, many organizations continue to rely on reactive security measures.",
+      "date": "2026-05-21T04:00:35.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/21/idc-smbs-cybersecurity-spending-report/",
+      "isTopTen": false
+    },
     {
       "id": "dcb868d7-3835-477d-9590-35fd4d4f7b6f",
       "source": "BleepingComputer",
@@ -21,7 +32,7 @@
       "summary": "Threat actors are exploiting incomplete patches on SonicWall Gen6 SSL-VPN appliances to brute-force credentials and bypass multi-factor authentication for ransomware deployment. Organizations are urged to ensure their devices are fully updated to mitigate this unauthorized access.",
       "date": "2026-05-20T21:19:17.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ecca6994-82c0-4efe-82bc-8787847df75f",
@@ -164,7 +175,7 @@
       "summary": "GitHub experienced a data breach involving internal repositories after an employee's device was compromised by a malicious Visual Studio Code extension. The incident highlights the escalating security risks associated with third-party developer tools within software development ecosystems.",
       "date": "2026-05-20T14:48:38.000Z",
       "link": "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3baf03ab-4b06-41f8-97cd-1edd9adb425e",
@@ -197,7 +208,7 @@
       "summary": "The 2026 Verizon Data Breach Investigations Report reveals that vulnerability exploitation has surpassed stolen credentials as the primary method for initial network access. This shift marks the first time in 19 years that credential theft has not been the leading vector for cyberattacks.",
       "date": "2026-05-20T14:10:13.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/verizon-2026-dbir-findings/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1262c546-de2a-4581-99a6-293b2de80277",
@@ -252,7 +263,7 @@
       "summary": "Drupal has scheduled a critical core security release to address a vulnerability with a high risk of exploitation. The organization warns that threat actors may attempt to create exploits shortly after the patch is disclosed.",
       "date": "2026-05-20T12:52:29.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1dfa0ab7-4d0a-4f5e-a5a8-21bb35985f9f",
@@ -461,7 +472,7 @@
       "summary": "A malicious VS Code extension was used to exfiltrate approximately 3,800 internal GitHub repositories after being installed by an employee. The threat actor group TeamPCP has claimed responsibility and is demanding a $50,000 ransom.",
       "date": "2026-05-20T08:50:50.000Z",
       "link": "https://securityaffairs.com/192440/cyber-crime/a-malicious-vs-code-extension-just-breached-github-s-internal-repositories.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab3bb675-0862-47f4-90e3-2d1157f03cb6",
@@ -626,7 +637,7 @@
       "summary": "A major credential leak discovered on a public GitHub repository has triggered congressional scrutiny and security concerns regarding CISA's internal data management. Security researchers identified the incident as a significant exposure, prompting urgent demands for accountability from Capitol Hill.",
       "date": "2026-05-19T23:28:26.000Z",
       "link": "https://cyberscoop.com/cisa-credential-leak-congress-demands-answers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3f419277-1a54-42bd-acc3-bfd410dcc89e",
@@ -648,7 +659,7 @@
       "summary": "A critical vulnerability in ChromaDB's Python FastAPI implementation enables unauthenticated attackers to execute arbitrary code and hijack exposed servers.",
       "date": "2026-05-19T22:25:49.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7928d28e-c6dd-4b5c-901d-b600a8305341",
@@ -761,6 +772,17 @@
       "isTopTen": false
     },
     {
+      "id": "b677a568-f6a9-4531-b2e6-bc6858cc753f",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "America's top cyber-defense agency left a GitHub repo open with passwords, keys, tokens – and incredibly obvious filenames",
+      "summary": "CISA accidentally exposed sensitive credentials, including AWS keys and passwords, in a publicly accessible GitHub repository with poorly named files. This configuration error highlights a major lapse in security hygiene for a federal cybersecurity agency.",
+      "date": "2026-05-19T17:49:17.000Z",
+      "link": "https://www.theregister.com/security/2026/05/19/americas-top-cyber-defense-agency-left-a-github-repo-open-with-passwords-keys-tokens-and-incredibly-obvious-filenames/5242915",
+      "isTopTen": false
+    },
+    {
       "id": "93c2a7d3-bf97-44b6-9232-c1c8827b000f",
       "source": "The Register",
       "tag": "Breaches and Incidents",
@@ -769,7 +791,7 @@
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) unintentionally exposed sensitive credentials, including passwords and API keys, through a publicly accessible GitHub repository. The exposure was exacerbated by the use of highly descriptive filenames that explicitly labeled the contents of the sensitive files.",
       "date": "2026-05-19T17:49:17.000Z",
       "link": "https://www.theregister.com/security/2026/05/19/americas-top-cyber-defense-agency-left-a-github-repo-open-with-with-passwords-keys-tokens-and-incredibly-obvious-filenames/5242915",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b9098d07-4013-4748-8f67-056657336090",
@@ -5477,28 +5499,6 @@
       "summary": "A new, unpatched Linux kernel vulnerability nicknamed 'Dirty Frag' allows unprivileged local users to achieve full root access across major distributions. A functional exploit for this flaw is currently publicly available.",
       "date": "2026-05-08T11:19:17.000Z",
       "link": "https://securityaffairs.com/191847/hacking/dirty-frag-a-new-linux-privilege-escalation-vulnerability-is-already-in-the-wild.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bf609092-a5a1-4678-9637-9436d8447438",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
-      "summary": "The newly discovered Quasar Linux RAT (QLNX) is a sophisticated malware implant targeting developers to steal credentials and gain unauthorized control over software supply chain environments.",
-      "date": "2026-05-08T11:00:00.000Z",
-      "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1a378b0c-7c70-4d19-888e-ab965d8c5fb2",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Hackers ate my homework: Educational SaaS Canvas down after cyberattack",
-      "summary": "Service busy.",
-      "date": "2026-05-08T10:59:10.000Z",
-      "link": "https://www.theregister.com/security/2026/05/08/hackers-ate-my-homework-educational-saas-canvas-down-after-cyberattack/5235561",
       "isTopTen": false
     }
   ]
