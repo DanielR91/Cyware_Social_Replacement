@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-21T20:03:30.506Z",
+  "lastUpdated": "2026-05-21T22:26:00.253Z",
   "articles": [
+    {
+      "id": "61493f06-41c0-49c4-95c0-9b7326807f0b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Microsoft and Adobe flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in Microsoft, Adobe, and ConnectWise software. These additions mandate that federal agencies patch the affected systems to mitigate risks from active exploitation.",
+      "date": "2026-05-21T20:27:11.000Z",
+      "link": "https://securityaffairs.com/192508/security/u-s-cisa-adds-microsoft-and-adobe-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "abe40728-d0fe-40b0-ba6f-8e60dba547e7",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Threat hunters find Google API keys still usable 23 minutes after deletion",
+      "summary": "Security researchers discovered that deleted Google API keys remain functional for 23 minutes, creating a window of opportunity for unauthorized data access or billing abuse. This latency highlights a critical vulnerability in credential lifecycle management for cloud services.",
+      "date": "2026-05-21T20:23:00.000Z",
+      "link": "https://www.theregister.com/devops/2026/05/21/threat-hunters-find-google-api-keys-still-usable-23-minutes-after-deletion/5244504",
+      "isTopTen": true
+    },
+    {
+      "id": "e885da8c-ab13-4781-910c-ab35268d4668",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Lawmakers from both parties say CISA cuts have gone too far",
+      "summary": "Bipartisan lawmakers are raising concerns that recent budget cuts to CISA have weakened the agency's ability to protect civilian networks against increasing cyber threats. They argue these reductions are ill-timed given the escalating risk from nation-state actors like China.",
+      "date": "2026-05-21T20:02:58.000Z",
+      "link": "https://cyberscoop.com/lawmakers-bipartisan-cisa-budget-cuts/",
+      "isTopTen": false
+    },
     {
       "id": "ffbb7ae1-f165-4522-ac86-a17dee53a1f8",
       "source": "The Register",
@@ -76,7 +109,7 @@
       "summary": "Apple's 2025 fraud prevention report highlights a massive security effort, including the rejection of over 2 million malicious apps and the blocking of 1 billion fake accounts. These measures are designed to mitigate large-scale fraudulent activity and maintain App Store integrity.",
       "date": "2026-05-21T17:21:55.000Z",
       "link": "https://securityaffairs.com/192484/security/apple-blocks-over-2-million-apps-in-2025-fraud-crackdown.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4eb71552-8cd6-474d-8138-c00ffb197ed4",
@@ -87,7 +120,7 @@
       "summary": "CISA officials are expressing concerns regarding the inherent security risks in open-source software and the slow pace of implementing necessary security improvements. This follows a recent increase in malware campaigns targeting collaborative technology platforms.",
       "date": "2026-05-21T17:05:40.000Z",
       "link": "https://cyberscoop.com/cisa-chief-frets-about-open-source-vulnerabilities-delayed-security-improvements/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5c8b3c0a-7564-405f-a922-17da0df1834e",
@@ -153,7 +186,7 @@
       "summary": "Attackers are exploiting SonicWall Gen6 VPNs by bypassing MFA, as administrators failed to complete all required manual steps for a previously issued patch. This highlights the critical risk of incomplete remediation processes in security maintenance.",
       "date": "2026-05-21T14:29:21.000Z",
       "link": "https://securityaffairs.com/192477/hacking/attackers-are-bypassing-mfa-on-sonicwall-vpns-because-something-was-wrong-with-previous-fix.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9f0bf711-551c-4c61-b7b9-218fbeadf440",
@@ -164,7 +197,7 @@
       "summary": "The Showboat modular Linux malware has been identified in a long-running campaign targeting Middle Eastern telecommunications infrastructure to establish remote access and SOCKS5 proxy capabilities. Researchers report the framework has been active since at least 2022, facilitating file transfers and shell access for post-exploitation activities.",
       "date": "2026-05-21T14:17:09.000Z",
       "link": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "95f0b741-fa8a-4113-b843-afad649ab2ea",
@@ -197,7 +230,7 @@
       "summary": "Chinese state-sponsored actors are targeting telecommunications providers using new, platform-specific malware variants identified as Showboat and JFMBackdoor. These tools are designed to facilitate ongoing cyber-espionage activities against critical infrastructure.",
       "date": "2026-05-21T14:00:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f6e7d7a-0c77-4de2-82e6-4f037c7f6974",
@@ -538,7 +571,7 @@
       "summary": "Drupal has issued security updates to address a critical vulnerability in its database abstraction API that could allow attackers to execute remote code, escalate privileges, or access sensitive information on PostgreSQL-based sites. The flaw is tracked as CVE-2026-9082.",
       "date": "2026-05-21T03:44:11.000Z",
       "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1013c46b-f467-4ad7-b936-435bdfb29284",
@@ -560,7 +593,7 @@
       "summary": "Russia and China have announced a strategic partnership to develop independent technological ecosystems in AI, satellite systems, and software to reduce reliance on Western infrastructure. This alignment signals a shift in global technological power dynamics aimed at countering policies from nations deemed unfriendly.",
       "date": "2026-05-20T23:00:00.000Z",
       "link": "https://therecord.media/russia-and-china-pledge-cooperation-2026",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dcb868d7-3835-477d-9590-35fd4d4f7b6f",
@@ -593,7 +626,7 @@
       "summary": "An undisclosed and potentially dangerous sandbox vulnerability in the Claude AI model was identified and silently patched without a formal CVE or public disclosure. The lack of transparency regarding this security flaw highlights concerns about silent remediation practices in AI infrastructure.",
       "date": "2026-05-20T20:34:15.000Z",
       "link": "https://www.theregister.com/security/2026/05/20/even-claude-agrees-hole-in-its-sandbox-was-real-and-dangerous/5243662",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fb09c9a9-ad0d-4f0f-bb03-eed9cfda7a62",
@@ -758,7 +791,7 @@
       "summary": "The 2026 Verizon Data Breach Investigations Report reveals that vulnerability exploitation has surpassed stolen credentials as the primary method for initial network access. This shift marks the first time in 19 years that credential theft has not been the leading vector for cyberattacks.",
       "date": "2026-05-20T14:10:13.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/verizon-2026-dbir-findings/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1262c546-de2a-4581-99a6-293b2de80277",
@@ -5466,39 +5499,6 @@
       "summary": "The article argues that many organizations fail to achieve true Purple Team collaboration due to inefficient internal processes and operational silos, despite having competent staff. It highlights how fragmented workflows and slow bureaucratic systems hinder effective threat detection and response.",
       "date": "2026-05-11T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
-      "isTopTen": false
-    },
-    {
-      "id": "08177f48-32c8-4ac9-b98f-b460df1691b9",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Crimenetwork returns after takedown, dismantled again by German authorities",
-      "summary": "German authorities successfully dismantled a resurrected version of the Crimenetwork cybercrime marketplace just months after its initial takedown. Despite the quick intervention, the site had already amassed over 22,000 users and 100 sellers.",
-      "date": "2026-05-11T11:25:26.000Z",
-      "link": "https://securityaffairs.com/191969/cyber-crime/crimenetwork-returns-after-takedown-dismantled-again-by-german-authorities.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2cb60789-3815-4d78-b051-d814168cad48",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Instagram messaging encryption removed, and privacy advocates are pushing back",
-      "summary": "Instagram has discontinued end-to-end encryption for direct messages, granting the platform access to user media and communication content. Privacy advocates have criticized the move, prompting Instagram to advise users to archive their data.",
-      "date": "2026-05-11T10:39:06.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/11/instagram-messaging-end-to-end-encryption-removed/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5fa2360-dc47-4a3f-8310-235795a6e94c",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Hackers Exploit Vercel GenAI to Mass-Produce Convincing Phishing Sites",
-      "summary": "Threat actors are leveraging Vercel's GenAI tools to generate highly realistic, brand-impersonating phishing pages at scale, increasing the risk of successful social engineering attacks. This technique exploits automated site creation to bypass traditional detection methods.",
-      "date": "2026-05-11T10:34:38.000Z",
-      "link": "https://hackread.com/hackers-exploit-vercel-genai-phishing-sites/",
       "isTopTen": false
     }
   ]
