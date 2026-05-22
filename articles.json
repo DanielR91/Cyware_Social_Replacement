@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T14:56:43.464Z",
+  "lastUpdated": "2026-05-22T17:13:23.893Z",
   "articles": [
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -13,6 +13,50 @@
       "isTopTen": false
     },
     {
+      "id": "aeea737a-76aa-47b1-9331-7c4b525db468",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
+      "summary": "The Belarus-aligned threat actor Ghostwriter is conducting phishing campaigns against Ukrainian government entities by leveraging lures related to the Prometheus online learning platform. The activity has been identified and reported by CERT-UA.",
+      "date": "2026-05-22T16:20:32.000Z",
+      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b2d68101-f9e4-4da5-93af-a5640832dbc8",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Former US execs plead guilty to aiding tech support scammers",
+      "summary": "Two former executives pleaded guilty to facilitating a global tech support fraud scheme by hiding the illicit activities of their clients. The case highlights how corporate entities can be leveraged to sustain large-scale cyber-fraud operations.",
+      "date": "2026-05-22T15:32:18.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+      "isTopTen": false
+    },
+    {
+      "id": "b8d4b091-a395-421b-930e-07e87d7d214d",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Why the Supreme Court's Chatrie case could change the meaning of privacy in America",
+      "summary": "The Supreme Court's evaluation of the Chatrie case regarding geofence searches has the potential to fundamentally redefine privacy rights and legal standards for digital surveillance in the United States.",
+      "date": "2026-05-22T15:03:00.000Z",
+      "link": "https://therecord.media/why-supreme-court-chatrie-case-could-reshape-privacy",
+      "isTopTen": false
+    },
+    {
+      "id": "b0e4cb6c-c3d0-4d1f-abc0-974665f598bc",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Canadian man arrested, charged for running KimWolf DDos botnet",
+      "summary": "Canadian national Jacob Butler has been arrested and charged for operating the KimWolf botnet, a DDoS-for-hire service that compromised over one million devices globally. The investigation, led by the U.S. Justice Department, highlights the ongoing crackdown on illicit cybercriminal services.",
+      "date": "2026-05-22T15:00:00.000Z",
+      "link": "https://therecord.media/canadian-man-arrested-charged-running-kimwolf-botnet",
+      "isTopTen": false
+    },
+    {
       "id": "29764c88-c087-42fd-a77f-890df58c8da2",
       "source": "Help Net Security",
       "tag": "Malware and Vulnerabilities",
@@ -21,7 +65,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -230,7 +274,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog by including critical flaws identified in Trend Micro Apex One and Langflow software. This action mandates that federal agencies address these vulnerabilities to mitigate risks of active exploitation.",
       "date": "2026-05-22T09:13:30.000Z",
       "link": "https://securityaffairs.com/192529/hacking/u-s-cisa-adds-trend-micro-apex-one-and-langflow-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f76854b4-c66a-4876-8151-c85fd9eb9a05",
@@ -318,7 +362,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -582,7 +626,7 @@
       "summary": "Attackers are exploiting SonicWall Gen6 VPNs by bypassing MFA, as administrators failed to complete all required manual steps for a previously issued patch. This highlights the critical risk of incomplete remediation processes in security maintenance.",
       "date": "2026-05-21T14:29:21.000Z",
       "link": "https://securityaffairs.com/192477/hacking/attackers-are-bypassing-mfa-on-sonicwall-vpns-because-something-was-wrong-with-previous-fix.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9f0bf711-551c-4c61-b7b9-218fbeadf440",
@@ -626,7 +670,7 @@
       "summary": "Chinese state-sponsored actors are targeting telecommunications providers using new, platform-specific malware variants identified as Showboat and JFMBackdoor. These tools are designed to facilitate ongoing cyber-espionage activities against critical infrastructure.",
       "date": "2026-05-21T14:00:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f6e7d7a-0c77-4de2-82e6-4f037c7f6974",
@@ -648,7 +692,7 @@
       "summary": "GitHub and Grafana Labs suffered security breaches after threat group TeamPCP injected malicious code into the popular Nx Console VS Code extension. This supply chain attack allowed attackers to steal credentials, infiltrate CI/CD pipelines, and exfiltrate thousands of private GitHub repositories.",
       "date": "2026-05-21T13:42:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/21/github-grafana-breach-root-cause-nx-console/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "175ea6fb-5676-4f54-b90b-ef837aa834f9",
@@ -747,7 +791,7 @@
       "summary": "Microsoft Defender vulnerabilities CVE-2026-41091 and CVE-2026-45498 are being actively exploited in the wild, with the former allowing local privilege elevation to SYSTEM level. CISA has added both flaws to its Known Exploited Vulnerabilities catalog.",
       "date": "2026-05-21T10:57:13.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/21/microsoft-defender-vulnerabilities-cve-2026-41091-cve-2026-45498/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f8e0141d-06ef-4053-aafd-01f5ed9439b0",
@@ -5455,50 +5499,6 @@
       "summary": "A study by Leipzig University highlights the security risks posed by the long lifespans of smart refrigerators compared to the short support cycles of their software, cloud services, and mobile applications. The analysis examines specific models from Bosch, Samsung, and LG to illustrate the potential vulnerabilities emerging from obsolete IoT connectivity.",
       "date": "2026-05-12T04:30:48.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/12/iot-smart-fridge-risks/",
-      "isTopTen": false
-    },
-    {
-      "id": "62865989-fcf8-4eff-9231-d4de863c9a71",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cybersecurity jobs available right now: May 12, 2026",
-      "summary": "This article provides a list of current cybersecurity job openings across various companies and roles for May 12, 2026. It highlights opportunities in application security and IoT security sectors.",
-      "date": "2026-05-12T04:00:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/cybersecurity-jobs-available-right-now-may-12-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "1ab7c6e1-146c-464e-86ad-3f11460a5d16",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Pressure mounts on Canvas as data leak extortion deadline looms",
-      "summary": "The hacking group known as The Com is threatening to leak data from over 8,800 school systems if Instructure fails to meet an extortion deadline. The attack targets the Canvas learning management platform, putting significant pressure on the company to address the ransom demand.",
-      "date": "2026-05-11T23:31:55.000Z",
-      "link": "https://cyberscoop.com/canvas-instructure-data-theft-extortion-the-com/",
-      "isTopTen": false
-    },
-    {
-      "id": "d1ee096a-7a32-40db-9de0-38e4888cba4a",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Double Canvas breach acknowledged as ShinyHunters sets new pay-or-leak deadline",
-      "summary": "Educational platform Double Canvas confirmed a data breach by the threat actor ShinyHunters, who has issued a deadline for a ransom payment to prevent the publication of stolen data.",
-      "date": "2026-05-11T23:16:25.000Z",
-      "link": "https://www.theregister.com/security/2026/05/12/double-canvas-intrusion-confirmed-as-shinyhunters-resets-leak-deadline/5238361",
-      "isTopTen": false
-    },
-    {
-      "id": "2907cbdf-d593-435f-9ab0-ed79280dc935",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
-      "summary": "General Motors has reached a $12.75 million settlement with California for allegedly violating the California Consumer Privacy Act by selling drivers' personal data without proper consent. The agreement resolves claims that the company failed to provide adequate transparency regarding data privacy practices.",
-      "date": "2026-05-11T22:40:34.000Z",
-      "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
       "isTopTen": false
     }
   ]
