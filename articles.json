@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T19:56:10.452Z",
+  "lastUpdated": "2026-05-22T22:14:17.394Z",
   "articles": [
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -10,6 +10,61 @@
       "summary": "CISA has introduced a new nomination process allowing security researchers and industry partners to directly report vulnerabilities for inclusion in the agency's Known Exploited Vulnerabilities catalog. This initiative aims to improve the speed and accuracy of tracking actively exploited security flaws.",
       "date": "2026-05-23T01:11:00.000Z",
       "link": "https://therecord.media/cisa-to-allow-researchers-to-report-vulnerabilities-kev",
+      "isTopTen": false
+    },
+    {
+      "id": "31f1f83d-82ff-4b7f-8aef-626f3454afff",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "A Russian speaker and jailbroken Gemini went on a hacking spree and emptied at least one MAGA victim's crypto wallets",
+      "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
+      "date": "2026-05-22T21:18:53.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
+      "isTopTen": true
+    },
+    {
+      "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "FBI warns about fast-growing phishing kit targeting Microsoft 365 users",
+      "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
+      "date": "2026-05-22T20:41:20.000Z",
+      "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
+      "isTopTen": false
+    },
+    {
+      "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "FBI warns of Kali365 phishing-as-a-service after April Microsoft 365 attacks",
+      "summary": "The FBI has issued an advisory regarding Kali365, a Telegram-based phishing-as-a-service platform used to harvest OAuth tokens for compromising Microsoft 365 environments. The alert follows a series of targeted attacks observed in April.",
+      "date": "2026-05-22T20:01:00.000Z",
+      "link": "https://therecord.media/fbi-warns-of-kali365-phishing-attacks",
+      "isTopTen": false
+    },
+    {
+      "id": "985e3717-2b3a-46ea-a0fe-027b6f41c5b6",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "FBI Warns of Kali365 Phishing Service Targeting Microsoft 365 Account",
+      "summary": "The FBI has issued a warning regarding Kali365, a phishing-as-a-service platform that enables attackers to bypass multi-factor authentication and compromise Microsoft 365 accounts. This tool simplifies account hijacking by eliminating the need for password-based credentials.",
+      "date": "2026-05-22T19:59:46.000Z",
+      "link": "https://hackread.com/fbi-kali365-phishing-service-microsoft-365-account/",
+      "isTopTen": false
+    },
+    {
+      "id": "732d38c7-89ca-4ea8-af31-16fcc75e090f",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Meta settles school district lawsuit claiming addictive design harmed students' mental health",
+      "summary": "Meta has reached a settlement in the first of over 1,200 lawsuits filed by school districts alleging that the company's social media platforms are designed to be addictive and harmful to student mental health.",
+      "date": "2026-05-22T19:53:00.000Z",
+      "link": "https://therecord.media/meta-settles-school-district-lawsuit-mental-health",
       "isTopTen": false
     },
     {
@@ -131,7 +186,7 @@
       "summary": "Trend Micro has released a security update to address a zero-day vulnerability in its Apex One software that is currently being exploited in the wild to target Windows systems.",
       "date": "2026-05-22T13:39:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "26bb1352-ace8-4419-a535-eb1ea1684f99",
@@ -5444,61 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-12T08:50:00.000Z",
       "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-      "isTopTen": false
-    },
-    {
-      "id": "05b27fb6-db25-4d4e-b393-a9fef9384857",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI’s Daybreak uses Codex Security to identify risky attack paths",
-      "summary": "Service busy.",
-      "date": "2026-05-12T08:32:47.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/openai-daybreak-openai-daybreak-vulnerability-validation-initiative/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5a8d88d-5f68-41f1-84bc-9b91cf4cbfe4",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
-      "summary": "Instructure entered into a ransom agreement with the ShinyHunters threat group to prevent the public release of 3.65TB of stolen data originating from its Canvas platform. The breach potentially impacts thousands of educational institutions globally.",
-      "date": "2026-05-12T07:37:00.000Z",
-      "link": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d3a87d0d-e63d-48cf-a9a1-c58326ab3151",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-      "summary": "Service busy.",
-      "date": "2026-05-12T06:55:00.000Z",
-      "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f747194e-c006-4421-92e5-ece952914c2d",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Android banking Trojan TrickMo evolves using TON network for C2",
-      "summary": "The TrickMo Android banking trojan has evolved to utilize the TON network for its command-and-control communications to enhance stealth and persistence. This update highlights a strategic shift by threat actors toward improving operational flexibility over new feature development.",
-      "date": "2026-05-12T06:53:14.000Z",
-      "link": "https://securityaffairs.com/192003/malware/android-banking-trojan-trickmo-evolves-using-ton-network-for-c2.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7865fabe-61e8-4467-8087-77634bd466c1",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Japan’s PM orders cybersecurity review to stop Mythos going full CyberZilla",
-      "summary": "The Japanese Prime Minister has ordered a national cybersecurity review to mitigate the potential impact of an evolving threat group known as Mythos. The directive aims to prevent a massive escalation in the speed and scale of cyberattacks.",
-      "date": "2026-05-12T05:40:37.000Z",
-      "link": "https://www.theregister.com/security/2026/05/12/japans-pm-orders-cybersecurity-review-to-defend-against-anthropic-mythos/5238501",
       "isTopTen": false
     }
   ]
