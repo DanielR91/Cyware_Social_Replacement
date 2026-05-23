@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-23T13:49:00.394Z",
+  "lastUpdated": "2026-05-23T16:06:40.184Z",
   "articles": [
+    {
+      "id": "3b9c3af5-ed98-4a87-9ad1-266796fa0f7b",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
+      "summary": "Italian authorities dismantled the CINEMAGOAL piracy app, which illegally accessed streaming service authentication tokens to provide unauthorized content distribution. The operation effectively neutralized a significant ecosystem facilitating large-scale digital content theft.",
+      "date": "2026-05-23T14:23:44.000Z",
+      "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+      "isTopTen": false
+    },
+    {
+      "id": "fcfde134-115b-4f51-9457-348c8cedb99c",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Why pure extortion is replacing traditional ransomware",
+      "summary": "Ransomware gangs are evolving their tactics by moving away from system encryption toward pure data extortion, focusing on stealing sensitive information and threatening public leaks to exert pressure. This shift enables attackers to operate more stealthily while maintaining high leverage over their victims.",
+      "date": "2026-05-23T13:13:59.000Z",
+      "link": "https://securityaffairs.com/192550/cyber-crime/why-pure-extortion-is-replacing-traditional-ransomware.html",
+      "isTopTen": true
+    },
     {
       "id": "63402943-f5bf-46f8-9e37-83a891a4d87c",
       "source": "The Hacker News",
@@ -54,7 +76,7 @@
       "summary": "The Belarus-linked threat actor Ghostwriter has launched a new phishing campaign targeting Ukrainian government employees by spoofing the legitimate Prometheus online learning platform to deliver malware and Cobalt Strike. This resurfacing of the UAC-0057 group highlights a continued focus on critical government infrastructure.",
       "date": "2026-05-23T09:39:32.000Z",
       "link": "https://securityaffairs.com/192538/apt/ghostwriter-is-back-using-a-ukrainian-learning-platform-as-bait-to-hit-government-targets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fce3ff90-adc8-455a-9719-853da6398c9b",
@@ -109,7 +131,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
       "date": "2026-05-22T20:41:20.000Z",
       "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
@@ -230,7 +252,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -263,7 +285,7 @@
       "summary": "Trend Micro has released a security update to address a zero-day vulnerability in its Apex One software that is currently being exploited in the wild to target Windows systems.",
       "date": "2026-05-22T13:39:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "26bb1352-ace8-4419-a535-eb1ea1684f99",
@@ -307,7 +329,7 @@
       "summary": "Researchers discovered that Google API keys remain functional for up to 23 minutes after deletion, potentially allowing attackers to exploit leaked credentials even after revocation. This delay exposes services and sensitive data to unauthorized access during the window before the key is fully invalidated.",
       "date": "2026-05-22T12:08:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbcc7962-1359-48dd-83f9-7cf2bb433a22",
@@ -450,7 +472,7 @@
       "summary": "The FBI warns of a new Phishing-as-a-Service platform called Kali365 that enables attackers to bypass MFA by stealing Microsoft 365 access tokens via AI-generated phishing campaigns. This platform lowers the technical barrier for cybercriminals to compromise accounts without needing user credentials.",
       "date": "2026-05-22T09:11:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/kali365-microsoft-365-phishing-fbi-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "01bdf695-2699-423f-a729-caf760d80d64",
@@ -527,7 +549,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -5477,28 +5499,6 @@
       "summary": "Citrix has launched 'Citrix Platform Flex,' a new unified secure access platform that utilizes a credit-based consumption model to allow organizations to allocate resources based on specific workforce requirements.",
       "date": "2026-05-12T11:20:27.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/12/citrix-moves-secure-access-to-a-flexible-credit-based-consumption-model/",
-      "isTopTen": false
-    },
-    {
-      "id": "bf66ae68-2f42-456c-915f-a6c6fb7cbe48",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
-      "summary": "SAP has addressed 15 security vulnerabilities, including two critical flaws impacting its Commerce Cloud and S/4HANA platforms in the May 2026 security patch cycle.",
-      "date": "2026-05-12T11:04:55.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
-      "isTopTen": false
-    },
-    {
-      "id": "8127e78f-1b20-47be-b857-a6e2379a7050",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Six new dnsmasq vulnerabilities open the door to DNS cache poisoning, local root",
-      "summary": "Service busy.",
-      "date": "2026-05-12T10:57:23.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/dnsmasq-vulnerabilities-cve/",
       "isTopTen": false
     }
   ]
