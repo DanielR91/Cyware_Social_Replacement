@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-23T19:20:08.311Z",
+  "lastUpdated": "2026-05-23T22:00:46.493Z",
   "articles": [
+    {
+      "id": "8905468a-7acc-42f0-a929-9f6b404b8ed0",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+      "summary": "Attackers compromised Laravel Lang localization packages by abusing GitHub version tags to inject credential-stealing malware into Composer dependencies. This supply chain attack successfully distributed malicious code to developers utilizing the popular localization library.",
+      "date": "2026-05-23T20:48:23.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "isTopTen": false
+    },
     {
       "id": "847797f2-36ad-4503-8d0f-4e18ac42be8e",
       "source": "The Hacker News",
@@ -21,7 +32,7 @@
       "summary": "A highly critical SQL injection vulnerability (CVE-2026-9082) affecting Drupal sites using PostgreSQL is currently being exploited in the wild shortly after its patch release.",
       "date": "2026-05-23T16:17:07.000Z",
       "link": "https://securityaffairs.com/192557/security/cve-2026-9082-drupals-highly-critical-sql-injection-flaw-is-already-under-active-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5fbd644a-f1ac-4f3c-8163-627eac660154",
@@ -32,7 +43,7 @@
       "summary": "A coordinated supply chain attack compromised eight Packagist packages by injecting malicious code into package.json files to execute Linux binaries from GitHub. The campaign strategically targets projects that ship both PHP and JavaScript components.",
       "date": "2026-05-23T16:07:51.000Z",
       "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3b9c3af5-ed98-4a87-9ad1-266796fa0f7b",
@@ -54,7 +65,7 @@
       "summary": "Ransomware gangs are evolving their tactics by moving away from system encryption toward pure data extortion, focusing on stealing sensitive information and threatening public leaks to exert pressure. This shift enables attackers to operate more stealthily while maintaining high leverage over their victims.",
       "date": "2026-05-23T13:13:59.000Z",
       "link": "https://securityaffairs.com/192550/cyber-crime/why-pure-extortion-is-replacing-traditional-ransomware.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "63402943-f5bf-46f8-9e37-83a891a4d87c",
@@ -65,7 +76,7 @@
       "summary": "Anthropic's Project Glasswing initiative has utilized AI to identify over 10,000 high- or critical-severity vulnerabilities in essential global software systems within its first month of operation.",
       "date": "2026-05-23T11:55:35.000Z",
       "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "617a7ea9-e5fb-4797-9a23-cd187a048e43",
@@ -131,7 +142,7 @@
       "summary": "CISA has added a critical SQL injection vulnerability (CVE-2026-9082) in Drupal Core to its Known Exploited Vulnerabilities catalog due to reports of active exploitation. Organizations using Drupal are urged to apply the latest security patches to mitigate this risk.",
       "date": "2026-05-23T07:23:48.000Z",
       "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -153,7 +164,7 @@
       "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
       "date": "2026-05-22T21:18:53.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
@@ -219,7 +230,7 @@
       "summary": "Authorities in Europe and North America dismantled a criminal VPN service that facilitated ransomware, data theft, and other cyberattacks for at least 25 different threat groups. The operation was led by law enforcement in France and the Netherlands.",
       "date": "2026-05-22T17:35:02.000Z",
       "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3e6a1eaf-728a-4d93-893a-499cb02d68f8",
@@ -285,7 +296,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -318,7 +329,7 @@
       "summary": "Trend Micro has released a security update to address a zero-day vulnerability in its Apex One software that is currently being exploited in the wild to target Windows systems.",
       "date": "2026-05-22T13:39:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "26bb1352-ace8-4419-a535-eb1ea1684f99",
@@ -582,7 +593,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -5488,17 +5499,6 @@
       "summary": "This webinar explores the challenge of security operations teams struggling to address high-risk alerts due to operational blind spots. It highlights specific alert categories, such as supply chain and IoT signals, that frequently go uninvestigated.",
       "date": "2026-05-12T11:58:00.000Z",
       "link": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e89c3002-00c1-4d62-abbf-4c75f5ed1024",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Operation HumanitarianBait Uses Fake Aid Documents to Deploy Python Spyware",
-      "summary": "Service busy.",
-      "date": "2026-05-12T11:55:40.000Z",
-      "link": "https://hackread.com/operation-humanitarianbait-fake-aid-docs-python-spyware/",
       "isTopTen": false
     }
   ]
