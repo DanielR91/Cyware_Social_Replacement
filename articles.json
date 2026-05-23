@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T22:14:17.394Z",
+  "lastUpdated": "2026-05-23T03:43:18.243Z",
   "articles": [
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -87,7 +87,7 @@
       "summary": "Authorities in Europe and North America dismantled a criminal VPN service that facilitated ransomware, data theft, and other cyberattacks for at least 25 different threat groups. The operation was led by law enforcement in France and the Netherlands.",
       "date": "2026-05-22T17:35:02.000Z",
       "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3e6a1eaf-728a-4d93-893a-499cb02d68f8",
@@ -175,7 +175,7 @@
       "summary": "The Megalodon supply chain attack compromised over 5,500 GitHub repositories within six hours by injecting malicious CI workflows to steal cloud credentials. Researchers at SafeDep discovered the incident, highlighting a significant automated threat to software supply chains.",
       "date": "2026-05-22T13:51:21.000Z",
       "link": "https://hackread.com/github-repositories-megalodon-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "800ab177-afa6-44f4-a74b-8fb7b3571699",
@@ -197,7 +197,7 @@
       "summary": "Drupal has issued a warning that a critical SQL injection vulnerability is currently being actively exploited by attackers. Users are urged to patch their systems immediately to mitigate the risk of compromise.",
       "date": "2026-05-22T13:14:40.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2cb055f2-83be-44ac-ba7e-056ffc2d3012",
@@ -230,7 +230,7 @@
       "summary": "Researchers discovered that Google API keys remain functional for up to 23 minutes after deletion, potentially allowing attackers to exploit leaked credentials even after revocation. This delay exposes services and sensitive data to unauthorized access during the window before the key is fully invalidated.",
       "date": "2026-05-22T12:08:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbcc7962-1359-48dd-83f9-7cf2bb433a22",
@@ -252,7 +252,7 @@
       "summary": "An automated campaign dubbed Megalodon injected malicious GitHub Actions workflows into over 5,500 repositories within six hours using forged identities to exfiltrate CI environment secrets. The attackers utilized base64-encoded payloads to compromise the software supply chain through automated commits.",
       "date": "2026-05-22T11:55:24.000Z",
       "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8b55d78-60cc-40b1-81aa-5cd9faeb4301",
@@ -604,7 +604,7 @@
       "summary": "Google inadvertently disclosed an unfixed Chromium vulnerability that permits remote code execution by keeping JavaScript processes active after the browser is closed. This oversight exposes a significant security risk for users until a patch is released.",
       "date": "2026-05-21T18:13:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a60bdcfc-b900-46eb-ab19-a47497a91f44",
@@ -681,7 +681,7 @@
       "summary": "A study reveals that deleted Google API keys stay functional for up to 23 minutes, creating a window of vulnerability for GCP, Gemini, BigQuery, and Maps services. This latency in key revocation could allow attackers to exploit credentials that administrators believe have been invalidated.",
       "date": "2026-05-21T16:03:12.000Z",
       "link": "https://hackread.com/deleted-google-api-keys-active-23-minutes/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8e831a4c-4116-43a6-a8c2-361a2cbd8073",
@@ -736,7 +736,7 @@
       "summary": "Law enforcement agencies from France, the Netherlands, and Europol dismantled the First VPN service, which was specifically marketed to and utilized by ransomware actors to maintain anonymity. The operation involved seizing 33 servers and shutting down associated domains to disrupt the infrastructure supporting cybercriminal activities.",
       "date": "2026-05-21T14:03:44.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/21/operation-saffron-first-vpn-takedown/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dea4b0ab-b11f-44e5-afd5-d563c868f774",
