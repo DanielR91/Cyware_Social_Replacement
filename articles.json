@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-05-23T16:06:40.184Z",
+  "lastUpdated": "2026-05-23T19:20:08.311Z",
   "articles": [
+    {
+      "id": "847797f2-36ad-4503-8d0f-4e18ac42be8e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+      "summary": "GitHub has introduced staged publishing for npm, requiring two-factor authentication (2FA) and manual approval before package releases become publicly available to mitigate supply chain attacks.",
+      "date": "2026-05-23T16:35:10.000Z",
+      "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ff367e10-eed9-4913-a03f-b8d94ae0fd4d",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVE-2026-9082: Drupal’s Highly Critical SQL Injection Flaw Is Already Under Active Attack",
+      "summary": "A highly critical SQL injection vulnerability (CVE-2026-9082) affecting Drupal sites using PostgreSQL is currently being exploited in the wild shortly after its patch release.",
+      "date": "2026-05-23T16:17:07.000Z",
+      "link": "https://securityaffairs.com/192557/security/cve-2026-9082-drupals-highly-critical-sql-injection-flaw-is-already-under-active-attack.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5fbd644a-f1ac-4f3c-8163-627eac660154",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+      "summary": "A coordinated supply chain attack compromised eight Packagist packages by injecting malicious code into package.json files to execute Linux binaries from GitHub. The campaign strategically targets projects that ship both PHP and JavaScript components.",
+      "date": "2026-05-23T16:07:51.000Z",
+      "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+      "isTopTen": true
+    },
     {
       "id": "3b9c3af5-ed98-4a87-9ad1-266796fa0f7b",
       "source": "BleepingComputer",
@@ -32,7 +65,7 @@
       "summary": "Anthropic's Project Glasswing initiative has utilized AI to identify over 10,000 high- or critical-severity vulnerabilities in essential global software systems within its first month of operation.",
       "date": "2026-05-23T11:55:35.000Z",
       "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "617a7ea9-e5fb-4797-9a23-cd187a048e43",
@@ -65,7 +98,7 @@
       "summary": "Malicious actors compromised several Laravel-Lang PHP packages to inject a credential-stealing framework, marking a significant software supply chain attack. Users of the affected packages are at risk of data theft via the compromised tags.",
       "date": "2026-05-23T09:51:13.000Z",
       "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7379aea0-235e-4980-b68a-27d6bdde9657",
@@ -329,7 +362,7 @@
       "summary": "Researchers discovered that Google API keys remain functional for up to 23 minutes after deletion, potentially allowing attackers to exploit leaked credentials even after revocation. This delay exposes services and sensitive data to unauthorized access during the window before the key is fully invalidated.",
       "date": "2026-05-22T12:08:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bbcc7962-1359-48dd-83f9-7cf2bb433a22",
@@ -5466,39 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-12T11:55:40.000Z",
       "link": "https://hackread.com/operation-humanitarianbait-fake-aid-docs-python-spyware/",
-      "isTopTen": false
-    },
-    {
-      "id": "1234fd7c-634d-40e1-a2c4-0f8105d29ace",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers exploit cPanel CVE-2026-41940 to deploy Filemanager Backdoor",
-      "summary": "Attackers are actively exploiting a critical cPanel vulnerability (CVE-2026-41940, CVSS 9.3) to install a backdoor named Filemanager and gain unauthorized administrative access. This flaw poses a significant risk to web hosting servers that rely on the cPanel control panel.",
-      "date": "2026-05-12T11:41:28.000Z",
-      "link": "https://securityaffairs.com/192013/cyber-crime/attackers-exploit-cpanel-cve-2026-41940-to-deploy-filemanager-backdoor.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dee8e837-ee01-48a4-b9fe-2118f523c8e9",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
-      "summary": "A supply-chain attack dubbed 'Shai-Hulud' has compromised hundreds of npm and PyPI packages to distribute credential-stealing malware to developers. The malicious packages masquerade as legitimate tools like TanStack and Mistral.",
-      "date": "2026-05-12T11:29:36.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
-      "isTopTen": false
-    },
-    {
-      "id": "27bdf612-e36d-4684-8e4e-e35abfebebce",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Citrix moves secure access to a flexible, credit-based consumption model",
-      "summary": "Citrix has launched 'Citrix Platform Flex,' a new unified secure access platform that utilizes a credit-based consumption model to allow organizations to allocate resources based on specific workforce requirements.",
-      "date": "2026-05-12T11:20:27.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/citrix-moves-secure-access-to-a-flexible-credit-based-consumption-model/",
       "isTopTen": false
     }
   ]
