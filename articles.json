@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-23T03:43:18.243Z",
+  "lastUpdated": "2026-05-23T08:27:29.550Z",
   "articles": [
+    {
+      "id": "fce3ff90-adc8-455a-9719-853da6398c9b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+      "summary": "A critical vulnerability in the LiteSpeed cPanel Plugin (CVE-2026-48172) is being actively exploited, allowing attackers to execute arbitrary scripts with root privileges.",
+      "date": "2026-05-23T07:35:13.000Z",
+      "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4296a51f-8d87-43d8-a70e-b9a8aee17356",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+      "summary": "CISA has added a critical SQL injection vulnerability (CVE-2026-9082) in Drupal Core to its Known Exploited Vulnerabilities catalog due to reports of active exploitation. Organizations using Drupal are urged to apply the latest security patches to mitigate this risk.",
+      "date": "2026-05-23T07:23:48.000Z",
+      "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+      "isTopTen": true
+    },
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
       "source": "The Record",
@@ -21,7 +43,7 @@
       "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
       "date": "2026-05-22T21:18:53.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
@@ -54,7 +76,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing-as-a-service platform that enables attackers to bypass multi-factor authentication and compromise Microsoft 365 accounts. This tool simplifies account hijacking by eliminating the need for password-based credentials.",
       "date": "2026-05-22T19:59:46.000Z",
       "link": "https://hackread.com/fbi-kali365-phishing-service-microsoft-365-account/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "732d38c7-89ca-4ea8-af31-16fcc75e090f",
@@ -87,7 +109,7 @@
       "summary": "Authorities in Europe and North America dismantled a criminal VPN service that facilitated ransomware, data theft, and other cyberattacks for at least 25 different threat groups. The operation was led by law enforcement in France and the Netherlands.",
       "date": "2026-05-22T17:35:02.000Z",
       "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3e6a1eaf-728a-4d93-893a-499cb02d68f8",
@@ -98,7 +120,7 @@
       "summary": "Dutch financial crime investigators arrested two individuals and seized 800 servers from a hosting provider identified as a hub for cyberattacks, disinformation, and digital interference. The operation marks a significant disruption to infrastructure used to facilitate global malicious activities.",
       "date": "2026-05-22T17:24:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aeea737a-76aa-47b1-9331-7c4b525db468",
@@ -153,7 +175,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -175,7 +197,7 @@
       "summary": "The Megalodon supply chain attack compromised over 5,500 GitHub repositories within six hours by injecting malicious CI workflows to steal cloud credentials. Researchers at SafeDep discovered the incident, highlighting a significant automated threat to software supply chains.",
       "date": "2026-05-22T13:51:21.000Z",
       "link": "https://hackread.com/github-repositories-megalodon-supply-chain-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "800ab177-afa6-44f4-a74b-8fb7b3571699",
@@ -230,7 +252,7 @@
       "summary": "Researchers discovered that Google API keys remain functional for up to 23 minutes after deletion, potentially allowing attackers to exploit leaked credentials even after revocation. This delay exposes services and sensitive data to unauthorized access during the window before the key is fully invalidated.",
       "date": "2026-05-22T12:08:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bbcc7962-1359-48dd-83f9-7cf2bb433a22",
@@ -252,7 +274,7 @@
       "summary": "An automated campaign dubbed Megalodon injected malicious GitHub Actions workflows into over 5,500 repositories within six hours using forged identities to exfiltrate CI environment secrets. The attackers utilized base64-encoded payloads to compromise the software supply chain through automated commits.",
       "date": "2026-05-22T11:55:24.000Z",
       "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f8b55d78-60cc-40b1-81aa-5cd9faeb4301",
@@ -362,7 +384,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog by including critical flaws identified in Trend Micro Apex One and Langflow software. This action mandates that federal agencies address these vulnerabilities to mitigate risks of active exploitation.",
       "date": "2026-05-22T09:13:30.000Z",
       "link": "https://securityaffairs.com/192529/hacking/u-s-cisa-adds-trend-micro-apex-one-and-langflow-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f76854b4-c66a-4876-8151-c85fd9eb9a05",
@@ -373,7 +395,7 @@
       "summary": "The FBI warns of a new Phishing-as-a-Service platform called Kali365 that enables attackers to bypass MFA by stealing Microsoft 365 access tokens via AI-generated phishing campaigns. This platform lowers the technical barrier for cybercriminals to compromise accounts without needing user credentials.",
       "date": "2026-05-22T09:11:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/kali365-microsoft-365-phishing-fbi-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "01bdf695-2699-423f-a729-caf760d80d64",
@@ -538,7 +560,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in Microsoft, Adobe, and ConnectWise software. These additions mandate that federal agencies patch the affected systems to mitigate risks from active exploitation.",
       "date": "2026-05-21T20:27:11.000Z",
       "link": "https://securityaffairs.com/192508/security/u-s-cisa-adds-microsoft-and-adobe-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "abe40728-d0fe-40b0-ba6f-8e60dba547e7",
@@ -604,7 +626,7 @@
       "summary": "Google inadvertently disclosed an unfixed Chromium vulnerability that permits remote code execution by keeping JavaScript processes active after the browser is closed. This oversight exposes a significant security risk for users until a patch is released.",
       "date": "2026-05-21T18:13:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a60bdcfc-b900-46eb-ab19-a47497a91f44",
@@ -681,7 +703,7 @@
       "summary": "A study reveals that deleted Google API keys stay functional for up to 23 minutes, creating a window of vulnerability for GCP, Gemini, BigQuery, and Maps services. This latency in key revocation could allow attackers to exploit credentials that administrators believe have been invalidated.",
       "date": "2026-05-21T16:03:12.000Z",
       "link": "https://hackread.com/deleted-google-api-keys-active-23-minutes/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8e831a4c-4116-43a6-a8c2-361a2cbd8073",
@@ -714,7 +736,7 @@
       "summary": "Attackers are exploiting SonicWall Gen6 VPNs by bypassing MFA, as administrators failed to complete all required manual steps for a previously issued patch. This highlights the critical risk of incomplete remediation processes in security maintenance.",
       "date": "2026-05-21T14:29:21.000Z",
       "link": "https://securityaffairs.com/192477/hacking/attackers-are-bypassing-mfa-on-sonicwall-vpns-because-something-was-wrong-with-previous-fix.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9f0bf711-551c-4c61-b7b9-218fbeadf440",
@@ -736,7 +758,7 @@
       "summary": "Law enforcement agencies from France, the Netherlands, and Europol dismantled the First VPN service, which was specifically marketed to and utilized by ransomware actors to maintain anonymity. The operation involved seizing 33 servers and shutting down associated domains to disrupt the infrastructure supporting cybercriminal activities.",
       "date": "2026-05-21T14:03:44.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/21/operation-saffron-first-vpn-takedown/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dea4b0ab-b11f-44e5-afd5-d563c868f774",
@@ -758,7 +780,7 @@
       "summary": "Chinese state-sponsored actors are targeting telecommunications providers using new, platform-specific malware variants identified as Showboat and JFMBackdoor. These tools are designed to facilitate ongoing cyber-espionage activities against critical infrastructure.",
       "date": "2026-05-21T14:00:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f6e7d7a-0c77-4de2-82e6-4f037c7f6974",
@@ -5477,28 +5499,6 @@
       "summary": "WannaCry is recognized as a pivotal historical ransomware event that exposed systemic vulnerabilities and catalyzed global improvements in cybersecurity defenses. Its impact highlighted the dangers of unpatched software and the misuse of leaked government-developed exploit tools.",
       "date": "2026-05-12T09:31:21.000Z",
       "link": "https://securityaffairs.com/192015/malware/wannacry-the-ransomware-attack-that-changed-the-history-of-cybersecurity.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ab52b810-20b6-434c-b560-eabe05b00ca4",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
-      "summary": "Edtech company Instructure has reportedly reached an agreement with the ShinyHunters extortion group to suppress the publication of data stolen during a recent breach of its Canvas learning management system. This development highlights a concerning trend of victim organizations negotiating directly with threat actors to prevent data exposure.",
-      "date": "2026-05-12T09:23:56.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
-      "isTopTen": false
-    },
-    {
-      "id": "f6067815-5a09-4a1c-b9b5-97432404fad9",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
-      "summary": "Service busy.",
-      "date": "2026-05-12T08:50:00.000Z",
-      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
       "isTopTen": false
     }
   ]
