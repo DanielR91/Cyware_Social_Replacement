@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-23T08:27:29.550Z",
+  "lastUpdated": "2026-05-23T10:41:15.384Z",
   "articles": [
+    {
+      "id": "637498dd-3181-417e-82c4-579920163e14",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+      "summary": "Malicious actors compromised several Laravel-Lang PHP packages to inject a credential-stealing framework, marking a significant software supply chain attack. Users of the affected packages are at risk of data theft via the compromised tags.",
+      "date": "2026-05-23T09:51:13.000Z",
+      "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7379aea0-235e-4980-b68a-27d6bdde9657",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ghostwriter Is Back, Using a Ukrainian Learning Platform as Bait to Hit Government Targets",
+      "summary": "The Belarus-linked threat actor Ghostwriter has launched a new phishing campaign targeting Ukrainian government employees by spoofing the legitimate Prometheus online learning platform to deliver malware and Cobalt Strike. This resurfacing of the UAC-0057 group highlights a continued focus on critical government infrastructure.",
+      "date": "2026-05-23T09:39:32.000Z",
+      "link": "https://securityaffairs.com/192538/apt/ghostwriter-is-back-using-a-ukrainian-learning-platform-as-bait-to-hit-government-targets.html",
+      "isTopTen": true
+    },
     {
       "id": "fce3ff90-adc8-455a-9719-853da6398c9b",
       "source": "The Hacker News",
@@ -10,7 +32,7 @@
       "summary": "A critical vulnerability in the LiteSpeed cPanel Plugin (CVE-2026-48172) is being actively exploited, allowing attackers to execute arbitrary scripts with root privileges.",
       "date": "2026-05-23T07:35:13.000Z",
       "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4296a51f-8d87-43d8-a70e-b9a8aee17356",
@@ -54,7 +76,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
       "date": "2026-05-22T20:41:20.000Z",
       "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
@@ -76,7 +98,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing-as-a-service platform that enables attackers to bypass multi-factor authentication and compromise Microsoft 365 accounts. This tool simplifies account hijacking by eliminating the need for password-based credentials.",
       "date": "2026-05-22T19:59:46.000Z",
       "link": "https://hackread.com/fbi-kali365-phishing-service-microsoft-365-account/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "732d38c7-89ca-4ea8-af31-16fcc75e090f",
@@ -175,7 +197,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -384,7 +406,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog by including critical flaws identified in Trend Micro Apex One and Langflow software. This action mandates that federal agencies address these vulnerabilities to mitigate risks of active exploitation.",
       "date": "2026-05-22T09:13:30.000Z",
       "link": "https://securityaffairs.com/192529/hacking/u-s-cisa-adds-trend-micro-apex-one-and-langflow-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f76854b4-c66a-4876-8151-c85fd9eb9a05",
@@ -560,7 +582,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in Microsoft, Adobe, and ConnectWise software. These additions mandate that federal agencies patch the affected systems to mitigate risks from active exploitation.",
       "date": "2026-05-21T20:27:11.000Z",
       "link": "https://securityaffairs.com/192508/security/u-s-cisa-adds-microsoft-and-adobe-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "abe40728-d0fe-40b0-ba6f-8e60dba547e7",
@@ -5477,28 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-12T10:00:00.000Z",
       "link": "https://cyberscoop.com/ai-cybersecurity-market-trends-2026-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "c94b9614-0a2b-41c0-ab9f-0e2b8245cff0",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Apple, Google drag cross-platform texting into the encrypted age",
-      "summary": "Apple and Google have integrated cross-platform end-to-end encryption (E2EE) for messaging, removing the barrier between iPhone and Android users. This update improves privacy for communications that previously relied on insecure SMS protocols.",
-      "date": "2026-05-12T09:46:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/12/apple-google-drag-cross-platform-texting-into-the-encrypted-age/5238556",
-      "isTopTen": false
-    },
-    {
-      "id": "23916053-7927-4f9b-92f8-d363179a9990",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "WannaCry, the ransomware attack that changed the history of cybersecurity",
-      "summary": "WannaCry is recognized as a pivotal historical ransomware event that exposed systemic vulnerabilities and catalyzed global improvements in cybersecurity defenses. Its impact highlighted the dangers of unpatched software and the misuse of leaked government-developed exploit tools.",
-      "date": "2026-05-12T09:31:21.000Z",
-      "link": "https://securityaffairs.com/192015/malware/wannacry-the-ransomware-attack-that-changed-the-history-of-cybersecurity.html",
       "isTopTen": false
     }
   ]
