@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-24T04:05:30.371Z",
+  "lastUpdated": "2026-05-24T08:37:16.858Z",
   "articles": [
+    {
+      "id": "3bcd75eb-d9b0-47a7-9bed-3a480e7f6e0c",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Week in review: GitHub breached via poisoned VS Code extension, critical NGINX flaw exploited",
+      "summary": "GitHub confirmed an internal breach caused by a malicious VS Code extension, alongside reports of active exploitation of a critical NGINX vulnerability.",
+      "date": "2026-05-24T08:00:37.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/24/week-in-review-github-breached-via-poisoned-vs-code-extension-critical-nginx-flaw-exploited/",
+      "isTopTen": true
+    },
+    {
+      "id": "0279b597-8548-492f-8255-b89bd6fa18b3",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a flaw in Drupal Core to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a critical vulnerability in Drupal Core. This action mandates that federal agencies address the security flaw to mitigate potential exploitation risks.",
+      "date": "2026-05-24T07:54:20.000Z",
+      "link": "https://securityaffairs.com/192566/uncategorized/u-s-cisa-adds-a-flaw-in-drupal-core-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
     {
       "id": "8905468a-7acc-42f0-a929-9f6b404b8ed0",
       "source": "BleepingComputer",
@@ -32,7 +54,7 @@
       "summary": "A highly critical SQL injection vulnerability (CVE-2026-9082) affecting Drupal sites using PostgreSQL is currently being exploited in the wild shortly after its patch release.",
       "date": "2026-05-23T16:17:07.000Z",
       "link": "https://securityaffairs.com/192557/security/cve-2026-9082-drupals-highly-critical-sql-injection-flaw-is-already-under-active-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5fbd644a-f1ac-4f3c-8163-627eac660154",
@@ -87,7 +109,7 @@
       "summary": "The RondoDox botnet is actively leveraging a critical 2018 security vulnerability to bypass authentication and compromise over a million ASUS routers. This campaign highlights the persistent risk posed by unpatched legacy vulnerabilities in network hardware.",
       "date": "2026-05-23T11:16:40.000Z",
       "link": "https://hackread.com/rondodox-botnet-2018-vulnerability-hijack-asus-routers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad027305-8bd7-44bf-ad6c-ca4d7fa9c3fc",
@@ -142,7 +164,7 @@
       "summary": "CISA has added a critical SQL injection vulnerability (CVE-2026-9082) in Drupal Core to its Known Exploited Vulnerabilities catalog due to reports of active exploitation. Organizations using Drupal are urged to apply the latest security patches to mitigate this risk.",
       "date": "2026-05-23T07:23:48.000Z",
       "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -208,7 +230,7 @@
       "summary": "Meta has reached a settlement in the first of over 1,200 lawsuits filed by school districts alleging that the company's social media platforms are designed to be addictive and harmful to student mental health.",
       "date": "2026-05-22T19:53:00.000Z",
       "link": "https://therecord.media/meta-settles-school-district-lawsuit-mental-health",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "85a08472-c18b-42c5-8c0b-464aedc3735b",
@@ -219,7 +241,7 @@
       "summary": "The 'Megalodon' campaign has successfully compromised over 5,500 GitHub repositories by injecting malicious code. This large-scale supply chain attack poses a significant risk to developers and organizations relying on the affected repositories.",
       "date": "2026-05-22T18:57:14.000Z",
       "link": "https://www.theregister.com/security/2026/05/22/megalodon-chums-the-waters-in-55k-github-repo-poisonings/5245342",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e16bd0c7-4369-4798-8911-1adcb00c4c0d",
@@ -318,7 +340,7 @@
       "summary": "The Megalodon supply chain attack compromised over 5,500 GitHub repositories within six hours by injecting malicious CI workflows to steal cloud credentials. Researchers at SafeDep discovered the incident, highlighting a significant automated threat to software supply chains.",
       "date": "2026-05-22T13:51:21.000Z",
       "link": "https://hackread.com/github-repositories-megalodon-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "800ab177-afa6-44f4-a74b-8fb7b3571699",
@@ -373,7 +395,7 @@
       "summary": "Researchers discovered that Google API keys remain functional for up to 23 minutes after deletion, potentially allowing attackers to exploit leaked credentials even after revocation. This delay exposes services and sensitive data to unauthorized access during the window before the key is fully invalidated.",
       "date": "2026-05-22T12:08:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbcc7962-1359-48dd-83f9-7cf2bb433a22",
@@ -604,7 +626,7 @@
       "summary": "Global 2000 companies are facing an increasing financial impact from unplanned downtime, with costs reaching $600 billion due to service outages and degradation. This represents a 50% rise over two years, resulting in significant business consequences like stock decline and brand damage.",
       "date": "2026-05-22T05:00:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/splunk-average-downtime-cost-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9740b026-782f-47a7-8f27-891a0c3f7cde",
@@ -747,7 +769,7 @@
       "summary": "Google inadvertently disclosed an unfixed Chromium vulnerability that permits remote code execution by keeping JavaScript processes active after the browser is closed. This oversight exposes a significant security risk for users until a patch is released.",
       "date": "2026-05-21T18:13:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a60bdcfc-b900-46eb-ab19-a47497a91f44",
@@ -5477,28 +5499,6 @@
       "summary": "JetBrains has released a security patch for a high-severity vulnerability (CVE-2026-44413) in TeamCity that could allow unauthorized users to escalate privileges and access sensitive API endpoints. Organizations using self-managed or on-premises deployments are urged to update their software immediately.",
       "date": "2026-05-12T12:26:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/12/jetbrains-teamcity-vulnerability-cve-2026-44413/",
-      "isTopTen": false
-    },
-    {
-      "id": "2b6c5362-32d9-497c-b0e8-76034d6b5e5e",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cache-poisoning caper turns TanStack npm packages toxic",
-      "summary": "Attackers compromised the TanStack npm package repository to distribute 84 malicious versions containing credential theft and disk-wiping payloads over a six-minute window. This supply chain attack highlights the risks of automated software distribution platforms being leveraged to push malicious code to unsuspecting developers.",
-      "date": "2026-05-12T12:00:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/05/12/cache-poisoning-caper-turns-tanstack-npm-packages-toxic/5238650",
-      "isTopTen": false
-    },
-    {
-      "id": "bf026590-3476-497c-bfd6-523032c63126",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
-      "summary": "This webinar explores the challenge of security operations teams struggling to address high-risk alerts due to operational blind spots. It highlights specific alert categories, such as supply chain and IoT signals, that frequently go uninvestigated.",
-      "date": "2026-05-12T11:58:00.000Z",
-      "link": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
       "isTopTen": false
     }
   ]
