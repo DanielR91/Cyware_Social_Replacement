@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-24T08:37:16.858Z",
+  "lastUpdated": "2026-05-24T10:46:04.774Z",
   "articles": [
+    {
+      "id": "7251fd1c-2d57-46fb-8301-233ac708bc93",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Anthropic’s Project Glasswing: 10,000+ Vulnerabilities Found in One Month, and the Patching Problem Has Never Been More Obvious",
+      "summary": "Anthropic's Project Glasswing, powered by the Claude Mythos Preview, identified over 10,000 critical security vulnerabilities in its first month, highlighting a significant and growing gap in organizational patching capabilities.",
+      "date": "2026-05-24T09:07:55.000Z",
+      "link": "https://securityaffairs.com/192576/ai/anthropics-glasswing-10000-vulnerabilities-found-in-one-month-and-the-patching-problem-has-never-been-more-obvious.html",
+      "isTopTen": true
+    },
     {
       "id": "3bcd75eb-d9b0-47a7-9bed-3a480e7f6e0c",
       "source": "Help Net Security",
@@ -87,7 +98,7 @@
       "summary": "Ransomware gangs are evolving their tactics by moving away from system encryption toward pure data extortion, focusing on stealing sensitive information and threatening public leaks to exert pressure. This shift enables attackers to operate more stealthily while maintaining high leverage over their victims.",
       "date": "2026-05-23T13:13:59.000Z",
       "link": "https://securityaffairs.com/192550/cyber-crime/why-pure-extortion-is-replacing-traditional-ransomware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "63402943-f5bf-46f8-9e37-83a891a4d87c",
@@ -98,7 +109,7 @@
       "summary": "Anthropic's Project Glasswing initiative has utilized AI to identify over 10,000 high- or critical-severity vulnerabilities in essential global software systems within its first month of operation.",
       "date": "2026-05-23T11:55:35.000Z",
       "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "617a7ea9-e5fb-4797-9a23-cd187a048e43",
@@ -197,7 +208,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
       "date": "2026-05-22T20:41:20.000Z",
       "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
@@ -615,7 +626,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -769,7 +780,7 @@
       "summary": "Google inadvertently disclosed an unfixed Chromium vulnerability that permits remote code execution by keeping JavaScript processes active after the browser is closed. This oversight exposes a significant security risk for users until a patch is released.",
       "date": "2026-05-21T18:13:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a60bdcfc-b900-46eb-ab19-a47497a91f44",
@@ -5488,17 +5499,6 @@
       "summary": "A new variant of the TrickMo Android banking trojan is utilizing The Open Network (TON) for C2 communication and SOCKS5 proxies to target financial and crypto users in Europe. The malware employs runtime-loaded APK modules to maintain persistence and evade detection.",
       "date": "2026-05-12T12:50:00.000Z",
       "link": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
-      "isTopTen": false
-    },
-    {
-      "id": "40de4e53-6ee2-4619-8f3d-d606e10dbb90",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "JetBrains TeamCity vulnerability allows privilege escalation, API exposure (CVE-2026-44413)",
-      "summary": "JetBrains has released a security patch for a high-severity vulnerability (CVE-2026-44413) in TeamCity that could allow unauthorized users to escalate privileges and access sensitive API endpoints. Organizations using self-managed or on-premises deployments are urged to update their software immediately.",
-      "date": "2026-05-12T12:26:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/jetbrains-teamcity-vulnerability-cve-2026-44413/",
       "isTopTen": false
     }
   ]
