@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T19:25:13.803Z",
+  "lastUpdated": "2026-05-24T22:00:37.020Z",
   "articles": [
     {
       "id": "5aa0f4d8-ae9f-4444-9d6a-b6d8135762c2",
@@ -10,7 +10,7 @@
       "summary": "A large-scale campaign is actively exploiting a critical SQL injection vulnerability in Ghost CMS, identified as CVE-2026-26980, to execute ClickFix malicious JavaScript attacks. The vulnerability enables attackers to inject unauthorized code, posing a significant risk to affected installations.",
       "date": "2026-05-24T14:12:32.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b0af65af-7cbb-43c8-86a9-789b17e0c27e",
@@ -43,7 +43,7 @@
       "summary": "Anthropic's Project Glasswing, powered by the Claude Mythos Preview, identified over 10,000 critical security vulnerabilities in its first month, highlighting a significant and growing gap in organizational patching capabilities.",
       "date": "2026-05-24T09:07:55.000Z",
       "link": "https://securityaffairs.com/192576/ai/anthropics-glasswing-10000-vulnerabilities-found-in-one-month-and-the-patching-problem-has-never-been-more-obvious.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3bcd75eb-d9b0-47a7-9bed-3a480e7f6e0c",
@@ -54,7 +54,7 @@
       "summary": "GitHub confirmed an internal breach caused by a malicious VS Code extension, alongside reports of active exploitation of a critical NGINX vulnerability.",
       "date": "2026-05-24T08:00:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/24/week-in-review-github-breached-via-poisoned-vs-code-extension-critical-nginx-flaw-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0279b597-8548-492f-8255-b89bd6fa18b3",
@@ -76,7 +76,7 @@
       "summary": "Attackers compromised Laravel Lang localization packages by abusing GitHub version tags to inject credential-stealing malware into Composer dependencies. This supply chain attack successfully distributed malicious code to developers utilizing the popular localization library.",
       "date": "2026-05-23T20:48:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "847797f2-36ad-4503-8d0f-4e18ac42be8e",
@@ -131,7 +131,7 @@
       "summary": "Ransomware gangs are evolving their tactics by moving away from system encryption toward pure data extortion, focusing on stealing sensitive information and threatening public leaks to exert pressure. This shift enables attackers to operate more stealthily while maintaining high leverage over their victims.",
       "date": "2026-05-23T13:13:59.000Z",
       "link": "https://securityaffairs.com/192550/cyber-crime/why-pure-extortion-is-replacing-traditional-ransomware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "63402943-f5bf-46f8-9e37-83a891a4d87c",
@@ -153,7 +153,7 @@
       "summary": "The RondoDox botnet is actively leveraging a critical 2018 security vulnerability to bypass authentication and compromise over a million ASUS routers. This campaign highlights the persistent risk posed by unpatched legacy vulnerabilities in network hardware.",
       "date": "2026-05-23T11:16:40.000Z",
       "link": "https://hackread.com/rondodox-botnet-2018-vulnerability-hijack-asus-routers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "55db4c23-3f09-49bd-bdbe-295b3a934f4c",
@@ -197,7 +197,7 @@
       "summary": "The Belarus-linked threat actor Ghostwriter has launched a new phishing campaign targeting Ukrainian government employees by spoofing the legitimate Prometheus online learning platform to deliver malware and Cobalt Strike. This resurfacing of the UAC-0057 group highlights a continued focus on critical government infrastructure.",
       "date": "2026-05-23T09:39:32.000Z",
       "link": "https://securityaffairs.com/192538/apt/ghostwriter-is-back-using-a-ukrainian-learning-platform-as-bait-to-hit-government-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fce3ff90-adc8-455a-9719-853da6398c9b",
@@ -230,7 +230,7 @@
       "summary": "CISA has introduced a new nomination process allowing security researchers and industry partners to directly report vulnerabilities for inclusion in the agency's Known Exploited Vulnerabilities catalog. This initiative aims to improve the speed and accuracy of tracking actively exploited security flaws.",
       "date": "2026-05-23T01:11:00.000Z",
       "link": "https://therecord.media/cisa-to-allow-researchers-to-report-vulnerabilities-kev",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "31f1f83d-82ff-4b7f-8aef-626f3454afff",
@@ -241,7 +241,7 @@
       "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
       "date": "2026-05-22T21:18:53.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
@@ -252,7 +252,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
       "date": "2026-05-22T20:41:20.000Z",
       "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
@@ -318,7 +318,7 @@
       "summary": "Dutch financial crime investigators arrested two individuals and seized 800 servers from a hosting provider identified as a hub for cyberattacks, disinformation, and digital interference. The operation marks a significant disruption to infrastructure used to facilitate global malicious activities.",
       "date": "2026-05-22T17:24:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aeea737a-76aa-47b1-9331-7c4b525db468",
@@ -406,7 +406,7 @@
       "summary": "Trend Micro has released a security update to address a zero-day vulnerability in its Apex One software that is currently being exploited in the wild to target Windows systems.",
       "date": "2026-05-22T13:39:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "26bb1352-ace8-4419-a535-eb1ea1684f99",
@@ -670,7 +670,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -758,7 +758,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in Microsoft, Adobe, and ConnectWise software. These additions mandate that federal agencies patch the affected systems to mitigate risks from active exploitation.",
       "date": "2026-05-21T20:27:11.000Z",
       "link": "https://securityaffairs.com/192508/security/u-s-cisa-adds-microsoft-and-adobe-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "abe40728-d0fe-40b0-ba6f-8e60dba547e7",
