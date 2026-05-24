@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-24T13:47:28.031Z",
+  "lastUpdated": "2026-05-24T16:05:46.279Z",
   "articles": [
+    {
+      "id": "5aa0f4d8-ae9f-4444-9d6a-b6d8135762c2",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+      "summary": "A large-scale campaign is actively exploiting a critical SQL injection vulnerability in Ghost CMS, identified as CVE-2026-26980, to execute ClickFix malicious JavaScript attacks. The vulnerability enables attackers to inject unauthorized code, posing a significant risk to affected installations.",
+      "date": "2026-05-24T14:12:32.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "isTopTen": true
+    },
     {
       "id": "b0af65af-7cbb-43c8-86a9-789b17e0c27e",
       "source": "Security Affairs",
@@ -54,7 +65,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a critical vulnerability in Drupal Core. This action mandates that federal agencies address the security flaw to mitigate potential exploitation risks.",
       "date": "2026-05-24T07:54:20.000Z",
       "link": "https://securityaffairs.com/192566/uncategorized/u-s-cisa-adds-a-flaw-in-drupal-core-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8905468a-7acc-42f0-a929-9f6b404b8ed0",
@@ -142,7 +153,7 @@
       "summary": "The RondoDox botnet is actively leveraging a critical 2018 security vulnerability to bypass authentication and compromise over a million ASUS routers. This campaign highlights the persistent risk posed by unpatched legacy vulnerabilities in network hardware.",
       "date": "2026-05-23T11:16:40.000Z",
       "link": "https://hackread.com/rondodox-botnet-2018-vulnerability-hijack-asus-routers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad027305-8bd7-44bf-ad6c-ca4d7fa9c3fc",
@@ -175,7 +186,7 @@
       "summary": "The Belarus-linked threat actor Ghostwriter has launched a new phishing campaign targeting Ukrainian government employees by spoofing the legitimate Prometheus online learning platform to deliver malware and Cobalt Strike. This resurfacing of the UAC-0057 group highlights a continued focus on critical government infrastructure.",
       "date": "2026-05-23T09:39:32.000Z",
       "link": "https://securityaffairs.com/192538/apt/ghostwriter-is-back-using-a-ukrainian-learning-platform-as-bait-to-hit-government-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fce3ff90-adc8-455a-9719-853da6398c9b",
@@ -197,7 +208,7 @@
       "summary": "CISA has added a critical SQL injection vulnerability (CVE-2026-9082) in Drupal Core to its Known Exploited Vulnerabilities catalog due to reports of active exploitation. Organizations using Drupal are urged to apply the latest security patches to mitigate this risk.",
       "date": "2026-05-23T07:23:48.000Z",
       "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -219,7 +230,7 @@
       "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
       "date": "2026-05-22T21:18:53.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
@@ -274,7 +285,7 @@
       "summary": "The 'Megalodon' campaign has successfully compromised over 5,500 GitHub repositories by injecting malicious code. This large-scale supply chain attack poses a significant risk to developers and organizations relying on the affected repositories.",
       "date": "2026-05-22T18:57:14.000Z",
       "link": "https://www.theregister.com/security/2026/05/22/megalodon-chums-the-waters-in-55k-github-repo-poisonings/5245342",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e16bd0c7-4369-4798-8911-1adcb00c4c0d",
@@ -285,7 +296,7 @@
       "summary": "Authorities in Europe and North America dismantled a criminal VPN service that facilitated ransomware, data theft, and other cyberattacks for at least 25 different threat groups. The operation was led by law enforcement in France and the Netherlands.",
       "date": "2026-05-22T17:35:02.000Z",
       "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3e6a1eaf-728a-4d93-893a-499cb02d68f8",
@@ -296,7 +307,7 @@
       "summary": "Dutch financial crime investigators arrested two individuals and seized 800 servers from a hosting provider identified as a hub for cyberattacks, disinformation, and digital interference. The operation marks a significant disruption to infrastructure used to facilitate global malicious activities.",
       "date": "2026-05-22T17:24:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "aeea737a-76aa-47b1-9331-7c4b525db468",
@@ -351,7 +362,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -373,7 +384,7 @@
       "summary": "The Megalodon supply chain attack compromised over 5,500 GitHub repositories within six hours by injecting malicious CI workflows to steal cloud credentials. Researchers at SafeDep discovered the incident, highlighting a significant automated threat to software supply chains.",
       "date": "2026-05-22T13:51:21.000Z",
       "link": "https://hackread.com/github-repositories-megalodon-supply-chain-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "800ab177-afa6-44f4-a74b-8fb7b3571699",
@@ -648,7 +659,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -5488,17 +5499,6 @@
       "summary": "This article reviews Wondershare UniConverter as a top video downloader for 2026, focusing on its utility for managing digital content. It serves as a product promotional or informational piece rather than a security alert.",
       "date": "2026-05-12T13:13:11.000Z",
       "link": "https://hackread.com/video-downloaders-2026-wondershare-uniconverter/",
-      "isTopTen": false
-    },
-    {
-      "id": "d70bd019-05db-44a3-9cad-2099820188b8",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Instructure pays ransom after Canvas incident as Congress announces investigation",
-      "summary": "Instructure paid a ransom to hackers following a security incident involving its Canvas platform, prompting a formal investigation by Congress. The company claims it received confirmation that the stolen data was destroyed.",
-      "date": "2026-05-12T13:01:00.000Z",
-      "link": "https://therecord.media/instructure-pays-ransom-canvas-incident-congress-investigation",
       "isTopTen": false
     }
   ]
