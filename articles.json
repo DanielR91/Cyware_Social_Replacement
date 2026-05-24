@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-24T10:46:04.774Z",
+  "lastUpdated": "2026-05-24T13:47:28.031Z",
   "articles": [
+    {
+      "id": "b0af65af-7cbb-43c8-86a9-789b17e0c27e",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 98",
+      "summary": "This newsletter highlights several recent supply chain attacks and malware campaigns targeting npm packages and GitHub actions, emphasizing the growing threat to software development ecosystems. It covers incidents involving credential stealers, Shai-Hulud clones, and compromised development tools.",
+      "date": "2026-05-24T12:11:38.000Z",
+      "link": "https://securityaffairs.com/192598/malware/security-affairs-malware-newsletter-round-98.html",
+      "isTopTen": false
+    },
+    {
+      "id": "83847efb-f6ee-422d-a1b8-1cc3b203a1ec",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Security Affairs newsletter Round 578 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "This newsletter highlights a critical SQL injection vulnerability in Drupal (CVE-2026-9082) that is currently being exploited in the wild, alongside discussions on extortion-based cyberattacks.",
+      "date": "2026-05-24T11:51:37.000Z",
+      "link": "https://securityaffairs.com/192586/hacking/security-affairs-newsletter-round-578-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "7251fd1c-2d57-46fb-8301-233ac708bc93",
       "source": "Security Affairs",
@@ -32,7 +54,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a critical vulnerability in Drupal Core. This action mandates that federal agencies address the security flaw to mitigate potential exploitation risks.",
       "date": "2026-05-24T07:54:20.000Z",
       "link": "https://securityaffairs.com/192566/uncategorized/u-s-cisa-adds-a-flaw-in-drupal-core-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8905468a-7acc-42f0-a929-9f6b404b8ed0",
@@ -65,7 +87,7 @@
       "summary": "A highly critical SQL injection vulnerability (CVE-2026-9082) affecting Drupal sites using PostgreSQL is currently being exploited in the wild shortly after its patch release.",
       "date": "2026-05-23T16:17:07.000Z",
       "link": "https://securityaffairs.com/192557/security/cve-2026-9082-drupals-highly-critical-sql-injection-flaw-is-already-under-active-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5fbd644a-f1ac-4f3c-8163-627eac660154",
@@ -120,7 +142,7 @@
       "summary": "The RondoDox botnet is actively leveraging a critical 2018 security vulnerability to bypass authentication and compromise over a million ASUS routers. This campaign highlights the persistent risk posed by unpatched legacy vulnerabilities in network hardware.",
       "date": "2026-05-23T11:16:40.000Z",
       "link": "https://hackread.com/rondodox-botnet-2018-vulnerability-hijack-asus-routers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ad027305-8bd7-44bf-ad6c-ca4d7fa9c3fc",
@@ -197,7 +219,7 @@
       "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
       "date": "2026-05-22T21:18:53.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
@@ -208,7 +230,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
       "date": "2026-05-22T20:41:20.000Z",
       "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
@@ -329,7 +351,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -549,7 +571,7 @@
       "summary": "The FBI warns of a new Phishing-as-a-Service platform called Kali365 that enables attackers to bypass MFA by stealing Microsoft 365 access tokens via AI-generated phishing campaigns. This platform lowers the technical barrier for cybercriminals to compromise accounts without needing user credentials.",
       "date": "2026-05-22T09:11:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/kali365-microsoft-365-phishing-fbi-warning/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01bdf695-2699-423f-a729-caf760d80d64",
@@ -626,7 +648,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -5477,28 +5499,6 @@
       "summary": "Instructure paid a ransom to hackers following a security incident involving its Canvas platform, prompting a formal investigation by Congress. The company claims it received confirmation that the stolen data was destroyed.",
       "date": "2026-05-12T13:01:00.000Z",
       "link": "https://therecord.media/instructure-pays-ransom-canvas-incident-congress-investigation",
-      "isTopTen": false
-    },
-    {
-      "id": "340c8c10-5d35-4901-88cc-31b26e0e6936",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Download: The IT and security field guide to AI adoption",
-      "summary": "This guide addresses the practical challenges and risks associated with AI adoption in IT and security, offering a framework for successful implementation with human oversight. It highlights how poorly vetted AI tools can increase organizational complexity and create new security burdens.",
-      "date": "2026-05-12T13:00:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/tines-download-ai-adoption-guide/",
-      "isTopTen": false
-    },
-    {
-      "id": "e0a840f9-ffc4-4315-b381-9f95288d458f",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
-      "summary": "A new variant of the TrickMo Android banking trojan is utilizing The Open Network (TON) for C2 communication and SOCKS5 proxies to target financial and crypto users in Europe. The malware employs runtime-loaded APK modules to maintain persistence and evade detection.",
-      "date": "2026-05-12T12:50:00.000Z",
-      "link": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
       "isTopTen": false
     }
   ]
