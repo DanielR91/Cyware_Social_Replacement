@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-24T22:00:37.020Z",
+  "lastUpdated": "2026-05-25T04:17:33.265Z",
   "articles": [
+    {
+      "id": "dc63e3ce-8d14-4323-b50e-5d6944fd99b7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Turns out the C-suite loves shadow AI",
+      "summary": "A TrustedTech report reveals that senior decision-makers are the primary drivers of shadow AI usage, continuing to utilize unapproved tools despite clear awareness of the associated security and privacy risks. This suggests that shadow AI adoption is a leadership-driven trend rather than a grassroots employee practice.",
+      "date": "2026-05-25T04:00:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/25/trustedtech-workplace-shadow-ai-use-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "c3c40139-b3df-4f68-ba33-4eb8182f1c22",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hacker Selling 340 Million OnlyFans User Records Built From Old Breaches",
+      "summary": "A threat actor is offering a database of 340 million OnlyFans user records for sale, reportedly aggregated by cross-referencing previous data breaches and public profile information. This incident highlights the risks of credential stuffing and data exposure through the aggregation of legacy breach data.",
+      "date": "2026-05-25T01:20:02.000Z",
+      "link": "https://hackread.com/hacker-selling-onlyfans-user-records-old-breaches/",
+      "isTopTen": false
+    },
     {
       "id": "5aa0f4d8-ae9f-4444-9d6a-b6d8135762c2",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "A large-scale campaign is actively exploiting a critical SQL injection vulnerability in Ghost CMS, identified as CVE-2026-26980, to execute ClickFix malicious JavaScript attacks. The vulnerability enables attackers to inject unauthorized code, posing a significant risk to affected installations.",
       "date": "2026-05-24T14:12:32.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b0af65af-7cbb-43c8-86a9-789b17e0c27e",
@@ -43,7 +65,7 @@
       "summary": "Anthropic's Project Glasswing, powered by the Claude Mythos Preview, identified over 10,000 critical security vulnerabilities in its first month, highlighting a significant and growing gap in organizational patching capabilities.",
       "date": "2026-05-24T09:07:55.000Z",
       "link": "https://securityaffairs.com/192576/ai/anthropics-glasswing-10000-vulnerabilities-found-in-one-month-and-the-patching-problem-has-never-been-more-obvious.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3bcd75eb-d9b0-47a7-9bed-3a480e7f6e0c",
@@ -76,7 +98,7 @@
       "summary": "Attackers compromised Laravel Lang localization packages by abusing GitHub version tags to inject credential-stealing malware into Composer dependencies. This supply chain attack successfully distributed malicious code to developers utilizing the popular localization library.",
       "date": "2026-05-23T20:48:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "847797f2-36ad-4503-8d0f-4e18ac42be8e",
@@ -98,7 +120,7 @@
       "summary": "A highly critical SQL injection vulnerability (CVE-2026-9082) affecting Drupal sites using PostgreSQL is currently being exploited in the wild shortly after its patch release.",
       "date": "2026-05-23T16:17:07.000Z",
       "link": "https://securityaffairs.com/192557/security/cve-2026-9082-drupals-highly-critical-sql-injection-flaw-is-already-under-active-attack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5fbd644a-f1ac-4f3c-8163-627eac660154",
@@ -197,7 +219,7 @@
       "summary": "The Belarus-linked threat actor Ghostwriter has launched a new phishing campaign targeting Ukrainian government employees by spoofing the legitimate Prometheus online learning platform to deliver malware and Cobalt Strike. This resurfacing of the UAC-0057 group highlights a continued focus on critical government infrastructure.",
       "date": "2026-05-23T09:39:32.000Z",
       "link": "https://securityaffairs.com/192538/apt/ghostwriter-is-back-using-a-ukrainian-learning-platform-as-bait-to-hit-government-targets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fce3ff90-adc8-455a-9719-853da6398c9b",
@@ -219,7 +241,7 @@
       "summary": "CISA has added a critical SQL injection vulnerability (CVE-2026-9082) in Drupal Core to its Known Exploited Vulnerabilities catalog due to reports of active exploitation. Organizations using Drupal are urged to apply the latest security patches to mitigate this risk.",
       "date": "2026-05-23T07:23:48.000Z",
       "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -230,7 +252,7 @@
       "summary": "CISA has introduced a new nomination process allowing security researchers and industry partners to directly report vulnerabilities for inclusion in the agency's Known Exploited Vulnerabilities catalog. This initiative aims to improve the speed and accuracy of tracking actively exploited security flaws.",
       "date": "2026-05-23T01:11:00.000Z",
       "link": "https://therecord.media/cisa-to-allow-researchers-to-report-vulnerabilities-kev",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "31f1f83d-82ff-4b7f-8aef-626f3454afff",
@@ -252,7 +274,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
       "date": "2026-05-22T20:41:20.000Z",
       "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
@@ -296,7 +318,7 @@
       "summary": "The 'Megalodon' campaign has successfully compromised over 5,500 GitHub repositories by injecting malicious code. This large-scale supply chain attack poses a significant risk to developers and organizations relying on the affected repositories.",
       "date": "2026-05-22T18:57:14.000Z",
       "link": "https://www.theregister.com/security/2026/05/22/megalodon-chums-the-waters-in-55k-github-repo-poisonings/5245342",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e16bd0c7-4369-4798-8911-1adcb00c4c0d",
@@ -373,7 +395,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -395,7 +417,7 @@
       "summary": "The Megalodon supply chain attack compromised over 5,500 GitHub repositories within six hours by injecting malicious CI workflows to steal cloud credentials. Researchers at SafeDep discovered the incident, highlighting a significant automated threat to software supply chains.",
       "date": "2026-05-22T13:51:21.000Z",
       "link": "https://hackread.com/github-repositories-megalodon-supply-chain-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "800ab177-afa6-44f4-a74b-8fb7b3571699",
@@ -450,7 +472,7 @@
       "summary": "Researchers discovered that Google API keys remain functional for up to 23 minutes after deletion, potentially allowing attackers to exploit leaked credentials even after revocation. This delay exposes services and sensitive data to unauthorized access during the window before the key is fully invalidated.",
       "date": "2026-05-22T12:08:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bbcc7962-1359-48dd-83f9-7cf2bb433a22",
@@ -5477,28 +5499,6 @@
       "summary": "RubyGems has temporarily suspended new account registrations to mitigate a large-scale malicious package upload attack targeting its ecosystem.",
       "date": "2026-05-12T14:47:00.000Z",
       "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0e6a2eff-f213-4d75-a86b-24e9e645c54a",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Instructure took a risky approach to recover stolen Canvas data",
-      "summary": "Instructure, the operator of the Canvas learning platform, potentially paid a ransom to the threat group ShinyHunters to prevent the public release of stolen user data. The incident impacts a vast user base of 30 million people across 8,000 institutions.",
-      "date": "2026-05-12T14:09:37.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/instructure-canvas-data-breach-shinyhunters-agreement/",
-      "isTopTen": false
-    },
-    {
-      "id": "1c0a6bfe-be75-400b-a3f7-46a152384272",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "General Motors to pay $12.75 million over driver data sales",
-      "summary": "General Motors has reached a $12.75 million settlement with California for unlawfully selling driver location and behavioral data to third-party brokers without user consent. This penalty represents the largest ever under the California Consumer Privacy Act.",
-      "date": "2026-05-12T13:44:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/general-motors-location-data-sale-12-75-million-settlement/",
       "isTopTen": false
     }
   ]
