@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-05-25T04:17:33.265Z",
+  "lastUpdated": "2026-05-25T10:22:55.520Z",
   "articles": [
+    {
+      "id": "c0b103c7-ae5e-40f6-ad02-36b586a78aac",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Dutch authorities dismantle hosting network allegedly used for cyberattacks and disinformation",
+      "summary": "Dutch authorities arrested two individuals and seized 800 servers associated with Stark Industries, a hosting provider allegedly facilitating cyberattacks and disinformation campaigns. The operation targeted infrastructure suspected of supporting Russian interference activities.",
+      "date": "2026-05-25T08:54:45.000Z",
+      "link": "https://securityaffairs.com/192602/intelligence/dutch-authorities-dismantle-hosting-network-allegedly-used-for-cyberattacks-and-disinformation.html",
+      "isTopTen": true
+    },
+    {
+      "id": "78e3204f-e41e-44ac-b4ac-79dcecb7c89f",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Anthropic to release Mythos-class models to the public",
+      "summary": "Anthropic is expanding access to its Mythos-class AI vulnerability-detection models to government and select users while continuing to develop safety guardrails. The company remains cautious about a full public release to prevent potential misuse of the flaw-finding capabilities.",
+      "date": "2026-05-25T07:09:26.000Z",
+      "link": "https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596",
+      "isTopTen": false
+    },
+    {
+      "id": "ee0d7139-1d86-4ff2-9d40-c416b3a26589",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "FBI director Kash Patel’s brand website taken offline after malware reports",
+      "summary": "The merchandise website for FBI Director Kash Patel was taken offline following a compromise that leveraged a fake Cloudflare prompt to execute a ClickFix malware attack on visitors.",
+      "date": "2026-05-25T06:54:15.000Z",
+      "link": "https://securityaffairs.com/192613/security/fbi-director-kash-patels-brand-website-taken-offline-after-malware-reports.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d209c9d5-5542-4c46-8647-982881bbd52a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+      "summary": "The TrapDoor supply chain attack campaign has compromised over 34 malicious packages across npm, PyPI, and Crates.io to distribute credential-stealing malware. This coordinated effort involves hundreds of malicious package versions impacting multiple software development ecosystems.",
+      "date": "2026-05-25T05:59:13.000Z",
+      "link": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b2f40983-fc8d-4681-a43e-5451e86bc20b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Lessons for organizations from the Verizon 2026 Data Breach Investigations Report",
+      "summary": "This article highlights the release of the Verizon 2026 Data Breach Investigations Report (DBIR) and emphasizes its value as a essential resource for organizations to understand current security threats. It frames the report as a top-tier industry document that provides critical insights for strengthening cybersecurity posture.",
+      "date": "2026-05-25T05:30:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/25/lessons-from-verizon-dbir-2026-findings/",
+      "isTopTen": false
+    },
+    {
+      "id": "111c67b0-2629-46a8-893c-33338397a163",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenHack: Open-source AI-powered vulnerability research",
+      "summary": "Hadrian has released OpenHack, an MIT-licensed, open-source project that utilizes AI agents to automate the vulnerability research process within developer coding harnesses. This tool packages expert-led research methodologies into a workspace compatible with existing AI coding assistants.",
+      "date": "2026-05-25T05:00:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/25/openhack-open-source-ai-powered-vulnerability-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "37c7cad2-9f0a-4cbf-aa06-6a1e78765a91",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Boards want cyber risk in dollars, not CVE counts",
+      "summary": "Security leaders are increasingly pressured to translate complex technical vulnerabilities into financial risk metrics to better communicate with corporate boards. This shift emphasizes mapping cyber threats to critical business assets to justify security investment in terms executives understand.",
+      "date": "2026-05-25T04:30:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/05/25/translating-cyber-risk-video/",
+      "isTopTen": false
+    },
     {
       "id": "dc63e3ce-8d14-4323-b50e-5d6944fd99b7",
       "source": "Help Net Security",
@@ -65,7 +142,7 @@
       "summary": "Anthropic's Project Glasswing, powered by the Claude Mythos Preview, identified over 10,000 critical security vulnerabilities in its first month, highlighting a significant and growing gap in organizational patching capabilities.",
       "date": "2026-05-24T09:07:55.000Z",
       "link": "https://securityaffairs.com/192576/ai/anthropics-glasswing-10000-vulnerabilities-found-in-one-month-and-the-patching-problem-has-never-been-more-obvious.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3bcd75eb-d9b0-47a7-9bed-3a480e7f6e0c",
@@ -76,7 +153,7 @@
       "summary": "GitHub confirmed an internal breach caused by a malicious VS Code extension, alongside reports of active exploitation of a critical NGINX vulnerability.",
       "date": "2026-05-24T08:00:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/24/week-in-review-github-breached-via-poisoned-vs-code-extension-critical-nginx-flaw-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0279b597-8548-492f-8255-b89bd6fa18b3",
@@ -120,7 +197,7 @@
       "summary": "A highly critical SQL injection vulnerability (CVE-2026-9082) affecting Drupal sites using PostgreSQL is currently being exploited in the wild shortly after its patch release.",
       "date": "2026-05-23T16:17:07.000Z",
       "link": "https://securityaffairs.com/192557/security/cve-2026-9082-drupals-highly-critical-sql-injection-flaw-is-already-under-active-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5fbd644a-f1ac-4f3c-8163-627eac660154",
@@ -175,7 +252,7 @@
       "summary": "The RondoDox botnet is actively leveraging a critical 2018 security vulnerability to bypass authentication and compromise over a million ASUS routers. This campaign highlights the persistent risk posed by unpatched legacy vulnerabilities in network hardware.",
       "date": "2026-05-23T11:16:40.000Z",
       "link": "https://hackread.com/rondodox-botnet-2018-vulnerability-hijack-asus-routers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "55db4c23-3f09-49bd-bdbe-295b3a934f4c",
@@ -241,7 +318,7 @@
       "summary": "CISA has added a critical SQL injection vulnerability (CVE-2026-9082) in Drupal Core to its Known Exploited Vulnerabilities catalog due to reports of active exploitation. Organizations using Drupal are urged to apply the latest security patches to mitigate this risk.",
       "date": "2026-05-23T07:23:48.000Z",
       "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
@@ -263,7 +340,7 @@
       "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
       "date": "2026-05-22T21:18:53.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
@@ -274,7 +351,7 @@
       "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
       "date": "2026-05-22T20:41:20.000Z",
       "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
@@ -329,7 +406,7 @@
       "summary": "Authorities in Europe and North America dismantled a criminal VPN service that facilitated ransomware, data theft, and other cyberattacks for at least 25 different threat groups. The operation was led by law enforcement in France and the Netherlands.",
       "date": "2026-05-22T17:35:02.000Z",
       "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3e6a1eaf-728a-4d93-893a-499cb02d68f8",
@@ -395,7 +472,7 @@
       "summary": "Researchers have developed an automated AI-driven pipeline capable of discovering zero-day vulnerabilities in WordPress plugins at a cost of only $20 per bug. This advancement highlights the growing efficiency of AI in vulnerability research and the potential for a surge in mass-produced software exploits.",
       "date": "2026-05-22T14:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/ai-wordpress-plugin-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d207100-b01a-417b-b65b-60c4ec8d09d4",
@@ -472,7 +549,7 @@
       "summary": "Researchers discovered that Google API keys remain functional for up to 23 minutes after deletion, potentially allowing attackers to exploit leaked credentials even after revocation. This delay exposes services and sensitive data to unauthorized access during the window before the key is fully invalidated.",
       "date": "2026-05-22T12:08:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/deleted-google-api-keys-risk/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbcc7962-1359-48dd-83f9-7cf2bb433a22",
@@ -615,7 +692,7 @@
       "summary": "The FBI warns of a new Phishing-as-a-Service platform called Kali365 that enables attackers to bypass MFA by stealing Microsoft 365 access tokens via AI-generated phishing campaigns. This platform lowers the technical barrier for cybercriminals to compromise accounts without needing user credentials.",
       "date": "2026-05-22T09:11:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/kali365-microsoft-365-phishing-fbi-warning/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01bdf695-2699-423f-a729-caf760d80d64",
@@ -692,7 +769,7 @@
       "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
       "date": "2026-05-22T05:36:18.000Z",
       "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
@@ -5422,83 +5499,6 @@
       "summary": "AI-native security operations platform Exaforce has secured $125 million in Series B funding to scale its defensive technology against AI-powered cyberattacks. This round brings the company's total capital to $200 million, reflecting significant investor interest in AI-driven security operations.",
       "date": "2026-05-12T15:46:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/12/exaforce-funding-125-million-series-b/",
-      "isTopTen": false
-    },
-    {
-      "id": "1436abea-af39-4aea-886b-7ccdac3a2dc8",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Stealthy hackers exploit cPanel flaw in active backdoor campaign (CVE-2026-41940)",
-      "summary": "Security researchers have identified an active campaign exploiting a critical authentication bypass vulnerability (CVE-2026-41940) in cPanel & WHM, allowing attackers to gain full administrative control without credentials. The attacks are attributed to a long-running, stealthy threat actor.",
-      "date": "2026-05-12T15:44:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/cpanel-vulnerability-exploited-backdoor-cve-2026-41940/",
-      "isTopTen": false
-    },
-    {
-      "id": "f7ff8299-addf-4f10-bd9d-721e30389183",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "ThreatDown ITDR prevents credential-based attacks",
-      "summary": "ThreatDown has launched an Identity Threat Detection and Response (ITDR) solution designed to monitor hybrid identity environments and prevent credential-based attacks. The product integrates with platforms like Microsoft Entra ID, Okta, and Active Directory to provide unified visibility and detect suspicious account activity.",
-      "date": "2026-05-12T15:21:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/threatdown-identity-threat-detection-and-response-itdr/",
-      "isTopTen": false
-    },
-    {
-      "id": "a6d1404e-4cd3-4a2d-9197-af2d6159cfe5",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Amazon Quick authorization bypass let users reach blocked AI chat agents",
-      "summary": "A security vulnerability in Amazon Quick allowed users to bypass custom permission restrictions and access unauthorized AI chat agents via direct backend API calls. The flaw meant that administrative access controls were only enforced within the user interface rather than at the API level.",
-      "date": "2026-05-12T14:59:40.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/fog-security-amazon-quick-authorization-bypass/",
-      "isTopTen": false
-    },
-    {
-      "id": "e08cca83-f4a9-4194-990b-da0094f69d36",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Veeam Intelligent ResOps unifies data context and recovery",
-      "summary": "Veeam has launched Intelligent ResOps, a new solution designed to integrate data context with recovery operations to enhance resilience against AI-driven threats. It aims to reduce recovery times by providing precise insights into data impact without requiring broad rollbacks.",
-      "date": "2026-05-12T14:59:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/12/veeam-intelligent-resops-recovery-operations/",
-      "isTopTen": false
-    },
-    {
-      "id": "16abee1c-30d9-461e-b95b-99a173c33f9f",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "US bank reports itself after slinging customer data at 'unauthorized AI app'",
-      "summary": "A US bank has self-reported a data leak after employees inadvertently exposed sensitive customer information to an unauthorized artificial intelligence application. The incident highlights significant concerns regarding the volume and nature of the compromised data.",
-      "date": "2026-05-12T14:50:26.000Z",
-      "link": "https://www.theregister.com/security/2026/05/12/us-bank-reports-itself-after-ai-customer-data-mishap/5238787",
-      "isTopTen": false
-    },
-    {
-      "id": "2e4a0cc3-2e4d-41c2-9a24-7188c41e0a4e",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "The world’s most “Dangerous” AI, Anthropic’s Mythos, found only one flaw in curl",
-      "summary": "Anthropic's 'Mythos' AI model identified five potential vulnerabilities in curl, but only one was confirmed as a low-severity issue, casting doubt on the model's 'dangerously good' capabilities.",
-      "date": "2026-05-12T14:47:55.000Z",
-      "link": "https://securityaffairs.com/192029/hacking/the-worlds-most-dangerous-ai-anthropics-mythos-found-only-one-flaw-in-curl.html",
-      "isTopTen": false
-    },
-    {
-      "id": "218b0cc6-4953-4a68-8b09-6b0bfd13ede7",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
-      "summary": "RubyGems has temporarily suspended new account registrations to mitigate a large-scale malicious package upload attack targeting its ecosystem.",
-      "date": "2026-05-12T14:47:00.000Z",
-      "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
       "isTopTen": false
     }
   ]
