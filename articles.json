@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-30T03:52:59.282Z",
+  "lastUpdated": "2026-05-30T08:34:53.346Z",
   "articles": [
+    {
+      "id": "203e6eaa-7b93-408f-bee1-2fb139cb2be4",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Botnet of 17 Million Devices Dismantled in the Netherlands",
+      "summary": "Dutch authorities successfully dismantled a massive botnet comprising 17 million infected devices by seizing over 200 servers linked to the Asocks proxy service. The operation aimed to disrupt the infrastructure used for cybercriminal activities across global endpoints.",
+      "date": "2026-05-30T08:16:15.000Z",
+      "link": "https://securityaffairs.com/192890/uncategorized/botnet-of-17-million-devices-dismantled-in-the-netherlands.html",
+      "isTopTen": true
+    },
+    {
+      "id": "9ef44a27-17ca-4318-acf9-9238810a655c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+      "summary": "Palo Alto Networks has confirmed active exploitation of CVE-2026-0257, an authentication bypass vulnerability affecting PAN-OS and Prisma Access that allows unauthorized VPN access.",
+      "date": "2026-05-30T06:41:26.000Z",
+      "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+      "isTopTen": true
+    },
     {
       "id": "5dca153e-9beb-4886-ae0b-a8a7d3244d95",
       "source": "The Register",
@@ -142,7 +164,7 @@
       "summary": "Dutch authorities successfully dismantled a massive botnet consisting of 17 million infected devices and seized over 200 associated servers. This operation marks a significant blow to the infrastructure supporting the malicious network.",
       "date": "2026-05-29T14:26:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "730dcba3-6b67-4bab-b791-d5f699c14467",
@@ -186,7 +208,7 @@
       "summary": "Google has launched Device Bound Session Credentials (DBSC) for Chrome to protect users against account hijacking by tying session cookies to specific hardware. This feature aims to neutralize session cookie theft, a common method used by infostealer malware.",
       "date": "2026-05-29T12:08:08.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0c52c18b-c69f-4024-abe4-8bb3cceeec30",
@@ -296,7 +318,7 @@
       "summary": "The hacking group ShinyHunters has leaked the personal information of 4.9 million Charter Communications customers, including names, addresses, and contact details. While the telecommunications company claims no sensitive data was compromised, the exposure of PII presents a significant risk to affected individuals.",
       "date": "2026-05-29T10:22:31.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/05/29/shinyhunters-adds-charter-to-trophy-shelf-after-49m-customer-records-leak/5248281",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eb7b7512-6f1a-429e-a8f6-2e96be955aa5",
@@ -769,7 +791,7 @@
       "summary": "GCHQ director Anne Keast-Butler warned that Russia is executing daily, multifaceted attacks against the UK ranging from physical sabotage of subsea infrastructure to cyber operations. The agency is actively working to counter these threats, including technology smuggling networks and assassination attempts.",
       "date": "2026-05-28T13:20:00.000Z",
       "link": "https://therecord.media/russia-conducting-attacks-on-uk-gchq-briefing",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8ced377c-0445-4c10-86c8-5bd78bee809b",
@@ -5477,28 +5499,6 @@
       "summary": "New research has unveiled 'MetaBackdoor,' a sophisticated AI vulnerability that bypasses traditional input-based security defenses to potentially leak proprietary data. This discovery challenges existing enterprise security stacks that rely on token and prompt injection pattern detection.",
       "date": "2026-05-18T06:00:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/18/metabackdoor-llm-backdoor-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "6eea97ac-a306-4a73-8e87-8b209cebd2c0",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Grafana Labs admits all its codebase are belong to someone who popped its GitHub account",
-      "summary": "Grafana Labs confirmed that unauthorized parties gained access to its GitHub account, resulting in the exposure of its codebase. The company stated that no customer data was compromised and operational integrity remains intact.",
-      "date": "2026-05-18T05:46:31.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/05/18/grafana-labs-admits-attackers-downloaded-its-codebase-from-github/5241686",
-      "isTopTen": false
-    },
-    {
-      "id": "feb7e05f-523e-4041-a868-b5d40021f3f7",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
-      "summary": "Security researchers were awarded over $1.29 million for successfully demonstrating 47 zero-day exploits at the Pwn2Own Berlin 2026 hacking competition. These findings highlight critical vulnerabilities in various software platforms that vendors must now address.",
-      "date": "2026-05-18T05:33:20.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
       "isTopTen": false
     }
   ]
