@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-30T08:34:53.346Z",
+  "lastUpdated": "2026-05-30T10:51:39.457Z",
   "articles": [
+    {
+      "id": "c88ac7e5-8329-487d-a644-939c437143c1",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Signal Phishing Campaign Targets Journalists and Activists to Steal Backup Recovery Keys",
+      "summary": "A targeted phishing campaign is impersonating Signal Support via SMS to trick users into revealing their backup recovery keys, allowing attackers to decrypt their entire message history. This sophisticated social engineering attack specifically threatens the privacy of journalists and activists.",
+      "date": "2026-05-30T09:25:45.000Z",
+      "link": "https://securityaffairs.com/192899/security/signal-phishing-campaign-targets-journalists-and-activists-to-steal-backup-recovery-keys.html",
+      "isTopTen": true
+    },
+    {
+      "id": "9283f7e3-181d-4ec1-aa11-f086e4fe5c84",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Botnet of 17 Million Devices Dismantled in the Netherlands",
+      "summary": "Dutch authorities successfully dismantled a massive botnet comprising 17 million infected devices by seizing 200 servers associated with the proxy service Asocks. The operation targeted a widespread network of compromised computers, tablets, and smartphones used for illicit activities.",
+      "date": "2026-05-30T08:16:15.000Z",
+      "link": "https://securityaffairs.com/192890/malware/botnet-of-17-million-devices-dismantled-in-the-netherlands.html",
+      "isTopTen": true
+    },
     {
       "id": "203e6eaa-7b93-408f-bee1-2fb139cb2be4",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "Dutch authorities successfully dismantled a massive botnet comprising 17 million infected devices by seizing over 200 servers linked to the Asocks proxy service. The operation aimed to disrupt the infrastructure used for cybercriminal activities across global endpoints.",
       "date": "2026-05-30T08:16:15.000Z",
       "link": "https://securityaffairs.com/192890/uncategorized/botnet-of-17-million-devices-dismantled-in-the-netherlands.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9ef44a27-17ca-4318-acf9-9238810a655c",
@@ -87,7 +109,7 @@
       "summary": "Zachary Sweeney, a Tennessee man linked to a child exploitation network, has been charged with a series of crimes against minors across multiple states following an FBI investigation. The individual allegedly traveled across state lines to harm victims starting as early as 2022.",
       "date": "2026-05-29T18:17:11.000Z",
       "link": "https://cyberscoop.com/tennessee-zachary-sweeney-764-charged-csam-exploitation/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6206f2a6-a0e2-4ffe-a758-95e186e9fd59",
@@ -98,7 +120,7 @@
       "summary": "The California Attorney General has filed a lawsuit against 23andMe for failing to adequately protect the sensitive genetic and personal data of its customers during a 2023 security breach.",
       "date": "2026-05-29T18:08:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "17ec3d6d-3e55-44db-8d2c-d26be01a4226",
@@ -186,7 +208,7 @@
       "summary": "Microsoft has condemned the practice of releasing zero-day vulnerabilities with proof-of-concept code on GitHub, labeling it unjustifiable as a researcher threatens to disclose more flaws. This action increases immediate risk by providing attackers with ready-to-use exploit material.",
       "date": "2026-05-29T13:33:00.000Z",
       "link": "https://therecord.media/microsoft-calls-zero-day-releases-never-justifiable-as-researcher-threatens-more",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7156dcff-4df1-442f-828c-ae7b6c7cc1e7",
@@ -208,7 +230,7 @@
       "summary": "Google has launched Device Bound Session Credentials (DBSC) for Chrome to protect users against account hijacking by tying session cookies to specific hardware. This feature aims to neutralize session cookie theft, a common method used by infostealer malware.",
       "date": "2026-05-29T12:08:08.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0c52c18b-c69f-4024-abe4-8bb3cceeec30",
@@ -274,7 +296,7 @@
       "summary": "A North Carolina man received a 10-year prison sentence for selling the personal data of 7 million elderly Americans to international scammers. This criminal operation facilitated widespread identity theft and financial fraud against a vulnerable population.",
       "date": "2026-05-29T11:07:07.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7447f3c3-ef42-4561-ac9b-d285818a7ab9",
@@ -5477,28 +5499,6 @@
       "summary": "A critical heap buffer overflow vulnerability in NGINX (CVE-2026-42945) is currently being actively exploited in the wild, posing risks of system crashes or remote code execution. With a CVSS score of 9.2, the flaw affects both NGINX Open Source and NGINX Plus instances.",
       "date": "2026-05-18T06:33:16.000Z",
       "link": "https://securityaffairs.com/192289/hacking/experts-warn-of-active-exploitation-of-critical-nginx-flaw-cve-2026-42945.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2f82f2ba-4f64-426a-9c18-c8b628283b9f",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Experts warn of active exploitation of critical NGINX flaw CVE-2026-42945",
-      "summary": "A critical heap buffer vulnerability in NGINX (CVE-2026-42945) is currently being actively exploited, posing risks of system crashes or remote code execution. With a CVSS score of 9.2, the flaw affects both NGINX Plus and NGINX Open versions.",
-      "date": "2026-05-18T06:33:16.000Z",
-      "link": "https://securityaffairs.com/192289/uncategorized/experts-warn-of-active-exploitation-of-critical-nginx-flaw-cve-2026-42945.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3900ccdf-d601-46bb-83fc-d49bbe7146e8",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The AI backdoor your security stack is not built to see",
-      "summary": "New research has unveiled 'MetaBackdoor,' a sophisticated AI vulnerability that bypasses traditional input-based security defenses to potentially leak proprietary data. This discovery challenges existing enterprise security stacks that rely on token and prompt injection pattern detection.",
-      "date": "2026-05-18T06:00:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/18/metabackdoor-llm-backdoor-attack/",
       "isTopTen": false
     }
   ]
