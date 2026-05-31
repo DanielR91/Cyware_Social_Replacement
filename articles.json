@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-05-31T13:56:53.391Z",
+  "lastUpdated": "2026-05-31T16:16:25.690Z",
   "articles": [
+    {
+      "id": "d938aba7-1475-4b90-a312-133506f7d9f4",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "27,000-Download Codex UI Tool Secretly Stole OpenAI Refresh Tokens",
+      "summary": "A malicious npm package named Codex UI, which received 27,000 weekly downloads, was discovered exfiltrating OpenAI refresh tokens from developer environments. This incident poses a significant threat to affected users by enabling potential unauthorized account access.",
+      "date": "2026-05-31T14:54:04.000Z",
+      "link": "https://hackread.com/codex-ui-tool-secretly-stole-openai-refresh-tokens/",
+      "isTopTen": true
+    },
+    {
+      "id": "cd2d40c5-e2df-40c7-8650-5300b6123425",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 99",
+      "summary": "This newsletter highlights recent malware campaigns, including Ghost CMS being compromised via CVE-2026-26980 for ClickFix attacks, a widespread supply chain attack on package managers, and new insights into the Lazarus group's RemotePE RAT.",
+      "date": "2026-05-31T14:53:47.000Z",
+      "link": "https://securityaffairs.com/192928/security/security-affairs-malware-newsletter-round-99.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d026aec6-7105-4331-b8ee-d33de8812bd7",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 579 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The latest edition of the Security Affairs newsletter covers a significant data leak involving 5 million Charter Communications customers by the ShinyHunters group and a targeted phishing campaign against journalists. These reports highlight ongoing risks to large-scale data privacy and media professionals.",
+      "date": "2026-05-31T14:32:14.000Z",
+      "link": "https://securityaffairs.com/192918/security/security-affairs-newsletter-round-579-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e0ba4bec-9d1a-414a-bb2d-1d091e3e674a",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
+      "summary": "A vulnerability in the WP Maps Pro WordPress plugin is being exploited by attackers to create unauthorized administrative accounts on target websites. This security flaw allows unauthenticated users to gain full control over affected installations.",
+      "date": "2026-05-31T14:06:42.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+      "isTopTen": false
+    },
     {
       "id": "46ba42f8-1c07-4b2b-9433-21b0084678d5",
       "source": "The Hacker News",
@@ -142,7 +186,7 @@
       "summary": "A critical remote code execution vulnerability in the open-source Gogs service remains unpatched despite being reported months ago, and a functional exploit module is now publicly available.",
       "date": "2026-05-29T18:26:48.000Z",
       "link": "https://www.theregister.com/security/2026/05/29/no-fix-yet-for-critical-gogs-rce-bug-exploit-module-is-out/5248691",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aff78c49-7a3e-415f-af2c-3f2bd1bbf36f",
@@ -274,7 +318,7 @@
       "summary": "Microsoft has condemned the practice of releasing zero-day vulnerabilities with proof-of-concept code on GitHub, labeling it unjustifiable as a researcher threatens to disclose more flaws. This action increases immediate risk by providing attackers with ready-to-use exploit material.",
       "date": "2026-05-29T13:33:00.000Z",
       "link": "https://therecord.media/microsoft-calls-zero-day-releases-never-justifiable-as-researcher-threatens-more",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7156dcff-4df1-442f-828c-ae7b6c7cc1e7",
@@ -604,7 +648,7 @@
       "summary": "Foreign adversaries have been exploiting commercial location tracking data from the smartphones of military personnel to pinpoint their positions. Consequently, lawmakers are urging the Department of Defense to implement stricter security controls regarding mobile device usage.",
       "date": "2026-05-28T21:35:36.000Z",
       "link": "https://www.theregister.com/security/2026/05/28/troops-phones-leaked-location-data-to-foreign-adversaries/5248108",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0521a9a9-dcb5-4c36-b0b6-0cbf10f8c777",
@@ -5455,50 +5499,6 @@
       "summary": "The UK Ministry of Defence is utilizing US-made StormBreaker glide bombs as a temporary measure to address operational capability gaps caused by F-35 software integration delays. This workaround will remain in place until the domestic SPEAR 3 weapon system is fully integrated.",
       "date": "2026-05-18T10:48:00.000Z",
       "link": "https://www.theregister.com/security/2026/05/18/f-35-software-delays-leave-uk-buying-time-with-us-glide-bombs/5241737",
-      "isTopTen": false
-    },
-    {
-      "id": "0aee93ca-5ad8-4dd0-9ab6-0a012faaafe0",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "The Canvas breach proved that prevention is no longer enough",
-      "summary": "The breach of the Canvas learning platform highlights the evolving nature of SaaS-based attacks and underscores the critical need for organizations to move beyond prevention-only security strategies.",
-      "date": "2026-05-18T10:00:00.000Z",
-      "link": "https://cyberscoop.com/canvas-breach-saas-security-identity-governance-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "2ecb6748-9dd3-4781-b0f1-be3e2513f63a",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Mozilla warns UK: Breaking VPNs will not magically fix Britain's age-check mess",
-      "summary": "Mozilla has cautioned the UK government against implementing restrictions on VPNs, arguing that these tools are essential for online security rather than a means to circumvent age-verification systems. The company emphasizes that compromising VPN functionality would weaken digital privacy and infrastructure.",
-      "date": "2026-05-18T09:54:01.000Z",
-      "link": "https://www.theregister.com/security/2026/05/18/mozilla-warns-uk-breaking-vpns-will-not-magically-fix-britains-age-check-mess/5241770",
-      "isTopTen": false
-    },
-    {
-      "id": "51423a59-7c28-4370-a69b-7bffcd229ca8",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Attackers accessed, downloaded code from Grafana Labs’ GitHub",
-      "summary": "Grafana Labs confirmed that unauthorized actors gained access to and downloaded their internal GitHub codebase. The breach poses a significant risk due to the widespread integration of Grafana's observability tools in enterprise DevOps environments.",
-      "date": "2026-05-18T09:11:34.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/18/attackers-accessed-downloaded-code-from-grafana-labs-github/",
-      "isTopTen": false
-    },
-    {
-      "id": "01ec5714-6e4d-4427-938d-2976d3e24c6f",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
-      "summary": "Researchers identified four malicious npm packages designed to distribute infostealers and the Phantom botnet malware, including a package that clones the Shai-Hulud worm.",
-      "date": "2026-05-18T08:57:26.000Z",
-      "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
       "isTopTen": false
     }
   ]
