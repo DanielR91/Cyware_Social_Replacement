@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-31T16:16:25.690Z",
+  "lastUpdated": "2026-05-31T19:24:56.354Z",
   "articles": [
+    {
+      "id": "017feb19-a7bf-4e86-9c87-37f14f27cb9f",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVE-2026-0257: Rapid7 Caught Attackers Abusing Forged VPN Cookies Against Multiple Customers",
+      "summary": "Attackers are actively exploiting CVE-2026-0257, a vulnerability in Palo Alto GlobalProtect that allows for VPN authentication bypass via forged cookies. Rapid7 reported confirmed compromises across multiple customer environments following the release of a patch.",
+      "date": "2026-05-31T17:52:29.000Z",
+      "link": "https://securityaffairs.com/192933/security/cve-2026-0257-rapid7-caught-attackers-abusing-forged-vpn-cookies-against-multiple-customers.html",
+      "isTopTen": true
+    },
     {
       "id": "d938aba7-1475-4b90-a312-133506f7d9f4",
       "source": "HackRead",
@@ -76,7 +87,7 @@
       "summary": "Palo Alto Networks has confirmed that the CVE-2026-0257 authentication bypass vulnerability in PAN-OS GlobalProtect is currently being exploited by attackers to compromise corporate networks.",
       "date": "2026-05-30T18:02:51.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce43de56-42a1-4afd-8569-b8c4e59c7e3d",
@@ -109,7 +120,7 @@
       "summary": "A newly identified local privilege escalation vulnerability called 'CIFSwitch' affects the Linux kernel, enabling attackers to gain root access by exploiting the CIFS authentication key mechanism.",
       "date": "2026-05-30T14:16:08.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c88ac7e5-8329-487d-a644-939c437143c1",
@@ -186,7 +197,7 @@
       "summary": "A critical remote code execution vulnerability in the open-source Gogs service remains unpatched despite being reported months ago, and a functional exploit module is now publicly available.",
       "date": "2026-05-29T18:26:48.000Z",
       "link": "https://www.theregister.com/security/2026/05/29/no-fix-yet-for-critical-gogs-rce-bug-exploit-module-is-out/5248691",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "aff78c49-7a3e-415f-af2c-3f2bd1bbf36f",
@@ -230,7 +241,7 @@
       "summary": "The California Attorney General has filed a lawsuit against 23andMe for failing to adequately protect the sensitive genetic and personal data of its customers during a 2023 security breach.",
       "date": "2026-05-29T18:08:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "17ec3d6d-3e55-44db-8d2c-d26be01a4226",
@@ -318,7 +329,7 @@
       "summary": "Microsoft has condemned the practice of releasing zero-day vulnerabilities with proof-of-concept code on GitHub, labeling it unjustifiable as a researcher threatens to disclose more flaws. This action increases immediate risk by providing attackers with ready-to-use exploit material.",
       "date": "2026-05-29T13:33:00.000Z",
       "link": "https://therecord.media/microsoft-calls-zero-day-releases-never-justifiable-as-researcher-threatens-more",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7156dcff-4df1-442f-828c-ae7b6c7cc1e7",
@@ -340,7 +351,7 @@
       "summary": "Google has launched Device Bound Session Credentials (DBSC) for Chrome to protect users against account hijacking by tying session cookies to specific hardware. This feature aims to neutralize session cookie theft, a common method used by infostealer malware.",
       "date": "2026-05-29T12:08:08.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0c52c18b-c69f-4024-abe4-8bb3cceeec30",
@@ -648,7 +659,7 @@
       "summary": "Foreign adversaries have been exploiting commercial location tracking data from the smartphones of military personnel to pinpoint their positions. Consequently, lawmakers are urging the Department of Defense to implement stricter security controls regarding mobile device usage.",
       "date": "2026-05-28T21:35:36.000Z",
       "link": "https://www.theregister.com/security/2026/05/28/troops-phones-leaked-location-data-to-foreign-adversaries/5248108",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0521a9a9-dcb5-4c36-b0b6-0cbf10f8c777",
@@ -5488,17 +5499,6 @@
       "summary": "Major vendors including Ivanti, Fortinet, SAP, VMware, and n8n have released critical security patches to address high-risk vulnerabilities such as RCE, SQL injection, and privilege escalation. The most urgent flaw identified is a critical vulnerability in Ivanti Xtraction with a CVSS score of 9.6.",
       "date": "2026-05-18T10:54:05.000Z",
       "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c3fda18a-86e9-438d-8f3c-a8a3202b5a5c",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "F-35 software delays leave UK buying time with US glide bombs",
-      "summary": "The UK Ministry of Defence is utilizing US-made StormBreaker glide bombs as a temporary measure to address operational capability gaps caused by F-35 software integration delays. This workaround will remain in place until the domestic SPEAR 3 weapon system is fully integrated.",
-      "date": "2026-05-18T10:48:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/18/f-35-software-delays-leave-uk-buying-time-with-us-glide-bombs/5241737",
       "isTopTen": false
     }
   ]
