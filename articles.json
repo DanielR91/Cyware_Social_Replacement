@@ -1,6 +1,204 @@
 {
-  "lastUpdated": "2026-06-01T04:47:01.142Z",
+  "lastUpdated": "2026-06-01T11:52:39.667Z",
   "articles": [
+    {
+      "id": "3500d617-ac2b-48d4-b362-7828bf7f48ba",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Microsoft confirms outage affecting MFA, My Sign-Ins platform",
+      "summary": "Microsoft is investigating a service outage preventing users from configuring multi-factor authentication and accessing the My Sign-Ins platform. The issue impacts authentication security management for affected customers.",
+      "date": "2026-06-01T11:40:16.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-outage-affecting-mfa-my-sign-ins-platform/",
+      "isTopTen": false
+    },
+    {
+      "id": "9c2c5696-1675-4e30-914d-eae6e5e385f3",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Password manager Dashlane suspends customer accounts amid brute-force attacks",
+      "summary": "Dashlane has suspended a subset of customer accounts as a precautionary measure to counter an ongoing wave of credential stuffing and brute-force attacks. The company's automated security protocols were triggered to prevent unauthorized access while engineers work to mitigate the threat.",
+      "date": "2026-06-01T11:15:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/01/password-manager-dashlane-suspends-customer-accounts-amid-brute-force-attacks/5248991",
+      "isTopTen": false
+    },
+    {
+      "id": "b0369385-c552-4be2-8a25-feedd286861b",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Microsoft fixes KB5089549 Windows security update install issues",
+      "summary": "Microsoft has fixed an installation error causing 0x800f0922 issues for the KB5089549 Windows 11 security update.",
+      "date": "2026-06-01T10:59:43.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/",
+      "isTopTen": false
+    },
+    {
+      "id": "1e6c1c4f-b1b2-423f-a4f6-aa47f38cc9bb",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Putin sends submarines to survey Britain's subsea cables. UK deploys Royal Navy, mobilizes parliamentary draftsmen",
+      "summary": "The UK is deploying the Royal Navy and drafting new legislation to penalize the reckless damaging of subsea cables following reports of Russian submarine surveillance. The proposed laws introduce potential prison sentences and fines to deter interference with critical infrastructure.",
+      "date": "2026-06-01T10:48:11.000Z",
+      "link": "https://www.theregister.com/networks/2026/06/01/putin-sends-submarines-to-survey-britains-subsea-cables-uk-deploys-royal-navy-mobilizes-parliamentary-draftsmen/5248978",
+      "isTopTen": true
+    },
+    {
+      "id": "ea069975-11c0-4d99-b224-2359281f45f1",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake Purchase Order Emails Spread Fileless PureLogs Malware via RAR Archives",
+      "summary": "Attackers are distributing PureLogs malware through fake purchase order emails, utilizing process hollowing and fileless execution to steal sensitive data from browsers, cryptocurrency wallets, and Discord. The malware leverages malicious RAR archives to evade detection while harvesting information from compromised Windows systems.",
+      "date": "2026-06-01T10:46:42.000Z",
+      "link": "https://hackread.com/purchase-emails-fileless-purelogs-malware-rar-archives/",
+      "isTopTen": false
+    },
+    {
+      "id": "5eb96365-d994-4d63-8bb3-681454be47e7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Dragos acquires Phosphorus to secure extended operational technology",
+      "summary": "Dragos has acquired Phosphorus to expand its operational technology security platform, aiming to protect the growing number of connected devices and digital systems within critical infrastructure. This acquisition integrates Phosphorus's capabilities to secure diverse, non-traditional assets across modern operational environments.",
+      "date": "2026-06-01T10:00:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/01/dragos-phosphorus-acquisition/",
+      "isTopTen": false
+    },
+    {
+      "id": "597ffc24-e0db-4a95-8dde-50ce57e15c43",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Election threats are focused on campaign systems, not voting machines",
+      "summary": "Cybersecurity researchers observe that election-related threats are increasingly targeting campaign infrastructure and utilizing AI-generated misinformation rather than physical voting machines. This shift presents a growing challenge as the public struggles to keep pace with these evolving digital risks.",
+      "date": "2026-06-01T10:00:00.000Z",
+      "link": "https://cyberscoop.com/2026-election-cyber-threats-campaign-systems/",
+      "isTopTen": false
+    },
+    {
+      "id": "50febc89-01bd-4f87-8031-ba6703f38ebf",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CIFSwitch, a Linux Root Bug Hidden in Plain Sight for 19 Years",
+      "summary": "Researchers discovered CIFSwitch, a 19-year-old privilege escalation vulnerability in Linux that allows attackers to gain root access by forging CIFS authentication keys. The bug affects several major distributions and was identified using AI-driven code analysis.",
+      "date": "2026-06-01T09:55:15.000Z",
+      "link": "https://securityaffairs.com/192959/security/a-spacex-security-engineer-used-ai-to-find-a-19-year-old-linux-bug-that-gives-attackers-root.html",
+      "isTopTen": true
+    },
+    {
+      "id": "8a9461e8-ad56-47a2-ad95-89f62456e88c",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers are exploiting Palo Alto GlobalProtect VPN authentication bypass (CVE-2026-0257)",
+      "summary": "Palo Alto Networks has confirmed limited exploitation of a critical authentication bypass vulnerability (CVE-2026-0257) affecting its GlobalProtect VPN, involving the use of forged cookies. While researchers have observed successful exploitation attempts, there is currently no evidence of lateral movement within affected environments.",
+      "date": "2026-06-01T09:40:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/01/hackers-are-exploiting-palo-alto-globalprotect-vpn-authentication-bypass-cve-2026-0257/",
+      "isTopTen": true
+    },
+    {
+      "id": "75d4175e-b131-40fb-a097-d11436a135e9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+      "summary": "A malicious npm package named codexui-android, posing as a legitimate OpenAI Codex interface, has been identified for stealing developer authentication tokens. The package continues to remain available for download despite the ongoing supply chain attack.",
+      "date": "2026-06-01T09:31:15.000Z",
+      "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "isTopTen": true
+    },
+    {
+      "id": "eb038ee9-c09f-488d-9ae3-37af6d525ffc",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
+      "summary": "A critical vulnerability in the WP Maps Pro WordPress plugin is being actively exploited by threat actors to create unauthorized administrator accounts on affected websites. The plugin, which has over 15,000 sales, poses a significant risk to site security.",
+      "date": "2026-06-01T08:45:29.000Z",
+      "link": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c8642411-7973-4e8a-9d2b-64b4471eaaad",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "NVIDIA goes open source with a big batch of physical AI agent tools",
+      "summary": "NVIDIA has released an open-source toolkit designed to simplify the development of physical AI agents for robotics, autonomous vehicles, and industrial digital twins. This initiative aims to streamline complex automation tasks by providing modular skills for AI agent deployment.",
+      "date": "2026-06-01T08:44:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/01/nvidia-open-source-physical-ai-skills/",
+      "isTopTen": false
+    },
+    {
+      "id": "488a775e-71b0-4286-aaed-9bef005e8ceb",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "U.S. CISA adds Palo Alto Networks PAN-OS flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the Palo Alto Networks PAN-OS vulnerability CVE-2026-0257, which carries a CVSS score of 7.8, to its Known Exploited Vulnerabilities catalog due to active exploitation. Users are urged to patch their systems to mitigate potential security risks.",
+      "date": "2026-06-01T08:36:29.000Z",
+      "link": "https://securityaffairs.com/192951/security/u-s-cisa-adds-palo-alto-networks-pan-os-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "72e7bbcd-0489-44d8-95f1-97131b601080",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "DNS-AID lets AI agents find and verify each other through DNS",
+      "summary": "The Linux Foundation's DNS-AID project leverages the Domain Name System to provide a vendor-neutral directory for AI agents and servers to discover and authenticate one another. This initiative aims to streamline secure communication between disparate AI systems across multiple platforms.",
+      "date": "2026-06-01T07:57:40.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/01/dns-aid-ai-agent-discovery-dns/",
+      "isTopTen": false
+    },
+    {
+      "id": "b9db5101-baae-4ecf-a4fc-09131d098ae0",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Asimily turns device risk into automated network policy",
+      "summary": "Asimily has launched a new 'Segmentation Orchestration' platform that integrates device risk intelligence with automated network policy enforcement to defend connected devices. The tool aims to close security gaps by streamlining the transition from asset visibility and vulnerability prioritization to actionable network segmentation.",
+      "date": "2026-06-01T07:39:56.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/01/asimily-segmentation-orchestration/",
+      "isTopTen": false
+    },
+    {
+      "id": "fc01911e-43e8-4737-85ee-5a9243f5a4dc",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The Pentagon Finally Admits That Location Data Is a Battlefield Problem",
+      "summary": "The Pentagon has officially acknowledged that commercially available location data poses a significant security risk by allowing adversaries to track U.S. military personnel. This confirms long-standing warnings that ad-tech networks function as a form of accessible surveillance infrastructure.",
+      "date": "2026-06-01T07:18:51.000Z",
+      "link": "https://securityaffairs.com/192942/cyber-warfare-2/the-pentagon-finally-admits-that-location-data-is-a-battlefield-problem.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a9184d33-56b8-4f07-90fa-cc7fb0be3a95",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Data discovery gaps that catch enterprises off guard",
+      "summary": "Avani Desai of Schellman discusses the critical discrepancy between perceived data awareness and the reality of shadow data discovered during security audits. The interview highlights common risks such as abandoned cloud storage and the challenges of managing data post-merger.",
+      "date": "2026-06-01T06:00:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/01/avani-desai-schellman-data-discovery-gaps/",
+      "isTopTen": false
+    },
+    {
+      "id": "f4c27712-f465-42f0-bc3b-7fc3957d7e8f",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "EU organizations buckle under rising compliance pressure",
+      "summary": "EU organizations are facing significant operational strain as they adapt to evolving cybersecurity regulations like NIS2 and DORA. The complexity of these frameworks, combined with emerging AI security challenges, is creating a state of compliance overload.",
+      "date": "2026-06-01T05:00:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/01/antonija-vojnovic-span-cybersecurity-governance-challenges/",
+      "isTopTen": false
+    },
     {
       "id": "f5a3e3f5-c38d-4787-85e1-d11c5cb9a53c",
       "source": "Help Net Security",
@@ -32,7 +230,7 @@
       "summary": "Attackers are actively exploiting CVE-2026-0257, a vulnerability in Palo Alto GlobalProtect that allows for VPN authentication bypass via forged cookies. Rapid7 reported confirmed compromises across multiple customer environments following the release of a patch.",
       "date": "2026-05-31T17:52:29.000Z",
       "link": "https://securityaffairs.com/192933/security/cve-2026-0257-rapid7-caught-attackers-abusing-forged-vpn-cookies-against-multiple-customers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d938aba7-1475-4b90-a312-133506f7d9f4",
@@ -230,7 +428,7 @@
       "summary": "The newly identified Russia-linked threat actor GREYVIBE is actively targeting Ukrainian government and military organizations using AI-assisted malware. Despite their advanced tools, researchers have observed the group committing significant operational security errors.",
       "date": "2026-05-29T18:23:20.000Z",
       "link": "https://securityaffairs.com/192877/apt/meet-greyvibe-the-russian-linked-hacking-group-using-ai-to-target-ukraine-and-still-making-rookie-mistakes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "14ce51a8-f77c-4a51-9afb-567401ecffbe",
@@ -263,7 +461,7 @@
       "summary": "The California Attorney General has filed a lawsuit against 23andMe for failing to adequately protect the sensitive genetic and personal data of its customers during a 2023 security breach.",
       "date": "2026-05-29T18:08:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "17ec3d6d-3e55-44db-8d2c-d26be01a4226",
@@ -406,7 +604,7 @@
       "summary": "Attackers are exploiting a known improper access control vulnerability (CVE-2026-35616) in FortiClient EMS to deliver infostealer malware by masquerading as legitimate endpoint updates. The campaign leverages managed VPN scripting workflows to compromise enterprise devices.",
       "date": "2026-05-29T11:45:59.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/29/forticlient-ems-vulnerability-infostealer/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ec48fd1f-d870-46e6-b5f0-39151d35624e",
@@ -439,7 +637,7 @@
       "summary": "A North Carolina man received a 10-year prison sentence for selling the personal data of 7 million elderly Americans to international scammers. This criminal operation facilitated widespread identity theft and financial fraud against a vulnerable population.",
       "date": "2026-05-29T11:07:07.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7447f3c3-ef42-4561-ac9b-d285818a7ab9",
@@ -681,7 +879,7 @@
       "summary": "Foreign adversaries have been exploiting commercial location tracking data from the smartphones of military personnel to pinpoint their positions. Consequently, lawmakers are urging the Department of Defense to implement stricter security controls regarding mobile device usage.",
       "date": "2026-05-28T21:35:36.000Z",
       "link": "https://www.theregister.com/security/2026/05/28/troops-phones-leaked-location-data-to-foreign-adversaries/5248108",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0521a9a9-dcb5-4c36-b0b6-0cbf10f8c777",
@@ -703,7 +901,7 @@
       "summary": "A disgruntled security researcher who claims to possess several zero-day vulnerabilities, including some under active exploitation, has threatened to release them publicly after Microsoft involved law enforcement. The researcher intends to potentially dump these exploits on July 14.",
       "date": "2026-05-28T20:19:09.000Z",
       "link": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab8c8966-3f62-4e5a-b0bb-54d6e2ff2d00",
@@ -725,7 +923,7 @@
       "summary": "Carnival Corporation disclosed a data breach resulting from a social engineering attack that compromised employee accounts, exposing the personal information of nearly 6 million customers. The company is currently in the process of notifying all affected individuals.",
       "date": "2026-05-28T19:32:55.000Z",
       "link": "https://securityaffairs.com/192833/uncategorized/carnival-data-breach-exposes-personal-data-of-nearly-6-million-customers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bce7848f-b8bd-4304-be25-ca2ca1116ac7",
@@ -5301,204 +5499,6 @@
       "summary": "INTERPOL successfully coordinated a multinational operation across the MENA region that resulted in 201 arrests and the identification of 382 suspects involved in cybercriminal activity. The initiative focused on dismantling malicious infrastructure and neutralizing regional cybercrime networks over a five-month period.",
       "date": "2026-05-18T17:21:18.000Z",
       "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c84397d6-1675-48b5-b724-035f4efeeab3",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Linux kernel flaw opens root-only files to unprivileged users",
-      "summary": "A vulnerability in the Linux kernel allows unprivileged users to access sensitive files restricted to root, prompting researchers to propose ModuleJail as a mitigation strategy.",
-      "date": "2026-05-18T16:20:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/18/linux-kernel-flaw-opens-root-only-files-to-unprivileged-users/5241950",
-      "isTopTen": false
-    },
-    {
-      "id": "4c9c61a9-375e-447e-b836-171492164fc4",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Experts warn of privacy risks as AI firms looks to connect to financial accounts",
-      "summary": "OpenAI has introduced a new feature allowing users to integrate financial accounts with ChatGPT for personalized financial advice, raising significant privacy and security concerns among experts. This expansion of AI capabilities into sensitive financial data presents new vectors for potential data exposure.",
-      "date": "2026-05-18T16:10:00.000Z",
-      "link": "https://therecord.media/experts-warn-of-privacy-cyber-risks-ai-finance",
-      "isTopTen": false
-    },
-    {
-      "id": "32daebae-050a-4755-934d-320c114734ef",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Experts warn of privacy risks as AI firms looks to connect to financial accounts",
-      "summary": "OpenAI has introduced a new feature enabling ChatGPT to connect to users' financial accounts for personalized advice, raising significant concerns among experts regarding data privacy and security risks. This integration poses potential threats to sensitive financial data exposure if the AI systems are compromised or mishandled.",
-      "date": "2026-05-18T16:10:00.000Z",
-      "link": "https://therecord.media/experts-warn-of-privacy-cyer-risks-ai-finance",
-      "isTopTen": false
-    },
-    {
-      "id": "a0ada15f-e366-4697-8332-b7df74fabd08",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "10 Tips for Phrasing Employee Feedback in Reviews",
-      "summary": "The article discusses the unique pressures of conducting performance reviews for cybersecurity teams and provides strategies for delivering effective, professional feedback. It emphasizes the high stakes involved in managing specialized roles like security analysts and incident responders.",
-      "date": "2026-05-18T14:37:18.000Z",
-      "link": "https://hackread.com/10-tips-for-phrasing-employee-feedback-in-reviews/",
-      "isTopTen": false
-    },
-    {
-      "id": "0a000486-413c-4af3-b427-940c501f14cb",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "TanStack weighs invitation-only pull requests after supply chain attack",
-      "summary": "The TanStack project is considering restricting pull requests to invited contributors following a supply chain attack where the Shai-Hulud worm exploited a GitHub Actions misconfiguration. The incident involved poisoning a shared cache, prompting the developers to weigh tighter security measures for unsolicited contributions.",
-      "date": "2026-05-18T14:15:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/18/tanstack-weighs-invitation-only-pull-requests-after-supply-chain-attack/5241899",
-      "isTopTen": false
-    },
-    {
-      "id": "390ffcf1-c6f7-4e6d-a08b-1b69531be8b0",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-      "summary": "This weekly recap outlines a wave of cyber threats including an active Microsoft Exchange zero-day, malicious npm packages, and a fake AI repository distributing info-stealing malware. It highlights how minor weaknesses, such as compromised dependencies or leaked keys, are being leveraged to gain production cloud access.",
-      "date": "2026-05-18T13:50:17.000Z",
-      "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "isTopTen": false
-    },
-    {
-      "id": "15f1d448-ed3b-41a7-9577-85611d0cf2d3",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "ShinyHunters hack 7-Eleven: franchisee data and Salesforce records exposed",
-      "summary": "7-Eleven has confirmed a data breach involving the theft of over 600,000 Salesforce records containing PII and internal corporate data, a claim attributed to the hacking group ShinyHunters.",
-      "date": "2026-05-18T13:48:01.000Z",
-      "link": "https://securityaffairs.com/192336/data-breach/shinyhunters-hack-7-eleven-franchisee-data-and-salesforce-records-exposed.html",
-      "isTopTen": false
-    },
-    {
-      "id": "beb57bb5-46c2-433d-85c0-55f04332e169",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Grafana says stolen GitHub token let hackers steal codebase",
-      "summary": "Grafana Labs experienced a security breach after unauthorized actors utilized a stolen GitHub access token to download the company's source code. The company has since invalidated the compromised token and initiated an investigation.",
-      "date": "2026-05-18T13:46:26.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
-      "isTopTen": false
-    },
-    {
-      "id": "ef83d828-65cd-48cc-9c8c-16cf45632f8e",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Government Backed Hackers Abuse Cloudflare in Malaysian Espionage Campaign",
-      "summary": "State-sponsored threat actors launched an espionage campaign in Malaysia by exploiting Cloudflare storage services to host command-and-control infrastructure and facilitate data exfiltration. The operation demonstrates a sophisticated abuse of legitimate cloud services to bypass traditional security detection.",
-      "date": "2026-05-18T13:42:46.000Z",
-      "link": "https://hackread.com/government-backed-hackers-cloudflare-malaysia-espionage/",
-      "isTopTen": false
-    },
-    {
-      "id": "9af28bf5-bead-4cdf-bfe1-2d7574e26027",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers are exploiting critical NGINX vulnerability (CVE-2026-42945)",
-      "summary": "Attackers are actively exploiting a critical NGINX vulnerability (CVE-2026-42945), known as NGINX Rift, which allows for denial-of-service and potential remote code execution via specially crafted HTTP requests.",
-      "date": "2026-05-18T13:29:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/18/ngnix-vulnerability-exploited-cve-2026-42945/",
-      "isTopTen": false
-    },
-    {
-      "id": "bc4c0577-8cb4-43e1-9afb-5be22f3314f7",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Public Amazon bucket leaks sensitive guest data from Japanese hotel platform Tabiq",
-      "summary": "A misconfigured Amazon S3 bucket in the Tabiq hotel check-in system resulted in the unauthorized exposure of over one million sensitive records, including passports, IDs, and facial verification photos. The security lapse underscores the critical risk of improper cloud storage configurations.",
-      "date": "2026-05-18T13:02:16.000Z",
-      "link": "https://securityaffairs.com/192302/data-breach/public-amazon-bucket-leaks-sensitive-guest-data-from-japanese-hotel-platform-tabiq.html",
-      "isTopTen": false
-    },
-    {
-      "id": "60dadafd-f257-4f54-bd79-207154d8255e",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "NGINX Rift attackers waste no time targeting exposed servers",
-      "summary": "Attackers are actively exploiting an 18-year-old vulnerability in NGINX servers mere days after its public disclosure. This rapid weaponization highlights the significant risk posed to unpatched, exposed infrastructure.",
-      "date": "2026-05-18T13:02:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/18/nginx-rift-attackers-waste-no-time-targeting-exposed-servers/5241851",
-      "isTopTen": false
-    },
-    {
-      "id": "aa2b1db5-f843-4840-bc93-b5249712bc2f",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-      "summary": "This article discusses the challenges Security Operations Centers face in detecting sophisticated phishing attacks and emphasizes the importance of early detection to mitigate business disruption. It highlights the transition from uncertainty to evidence-based response as a critical strategy for managing phishing exposure.",
-      "date": "2026-05-18T13:00:00.000Z",
-      "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5c3887cb-3029-434c-9a25-b33f20ae9ed0",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Continuous Detection, Continuous Response: Mate Security Redefines the Modern SOC",
-      "summary": "Mate Security is launching a new cybersecurity platform focused on continuous detection and response capabilities to modernize Security Operations Centers (SOC).",
-      "date": "2026-05-18T12:49:03.000Z",
-      "link": "https://hackread.com/continuous-detection-continuous-response-mate-security-soc/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d2391f1-19c7-4154-87ab-43acf93cf1dc",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "SmartBear expands ReadyAPI with AI-powered API testing capabilities",
-      "summary": "SmartBear has integrated AI-driven test generation into its ReadyAPI platform to automate test creation and accelerate API validation workflows. The tool aims to improve testing efficiency while maintaining human oversight to ensure application quality and integrity.",
-      "date": "2026-05-18T12:30:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/18/smartbear-readyapi/",
-      "isTopTen": false
-    },
-    {
-      "id": "ed6ecd90-4e5f-4ed6-8e17-aa265da9c712",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Poland directs officials to ditch Signal in favor of 'secure' state-developed alternative",
-      "summary": "The Polish government has ordered officials to stop using Signal, citing a need to transition to a state-developed communication platform to mitigate ongoing social engineering risks targeting senior leadership.",
-      "date": "2026-05-18T12:15:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/18/poland-builds-its-own-signal-amid-security-concerns/5241824",
-      "isTopTen": false
-    },
-    {
-      "id": "438af707-dc02-4842-b6a5-996ad9da877a",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-      "summary": "Attackers are increasingly targeting developer workstations and CI/CD pipelines to harvest sensitive credentials like API keys and tokens, compromising the software supply chain. Recent campaigns against npm, PyPI, and Docker Hub highlight this shift in tactical focus toward infrastructure access.",
-      "date": "2026-05-18T11:23:41.000Z",
-      "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d85e169d-9622-43c0-b0a9-f28fd568435b",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "The Gentlemen Ransomware Gang Hit by Internal Breach, Operations Exposed",
-      "summary": "The Gentlemen ransomware gang experienced an internal security breach in May 2026, leading to the unauthorized exposure of their victim data, affiliate details, and backend operational infrastructure.",
-      "date": "2026-05-18T11:15:07.000Z",
-      "link": "https://hackread.com/the-gentlemen-ransomware-gang-breach-op-exposed/",
       "isTopTen": false
     }
   ]
