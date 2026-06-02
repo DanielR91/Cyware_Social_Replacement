@@ -1,6 +1,127 @@
 {
-  "lastUpdated": "2026-06-02T04:27:55.398Z",
+  "lastUpdated": "2026-06-02T10:48:17.032Z",
   "articles": [
+    {
+      "id": "c8ce5485-9aa5-4da9-b023-91016415bb2f",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft Entra pushes passkeys, tightens identity security",
+      "summary": "Microsoft has expanded its Entra identity suite by introducing phishing-resistant MFA for Linux desktops and furthering the adoption of passkeys to enhance zero-trust security. These updates aim to strengthen authentication processes across diverse operating environments.",
+      "date": "2026-06-02T10:27:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/microsoft-entra-latest-security-updates/",
+      "isTopTen": true
+    },
+    {
+      "id": "b43e0e87-c2ad-40d8-be3c-779f2323110e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Sophos uncovers AI-powered malware lab built for EDR evasion",
+      "summary": "Sophos has identified a sophisticated threat actor utilizing an AI-powered framework to develop and test malware specifically designed to evade endpoint detection and response (EDR) systems. The framework includes techniques like Cobalt Strike profile manipulation to disguise malicious traffic as legitimate network activity.",
+      "date": "2026-06-02T10:13:37.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/ai-agents-edr-evasion-techniques/",
+      "isTopTen": true
+    },
+    {
+      "id": "ff1e04d0-06e5-44b7-81f9-f8341b3e46bb",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor",
+      "summary": "Operation FlutterBridge is a malvertising campaign targeting macOS users that distributes a new backdoor called FlutterShell developed using the Flutter framework.",
+      "date": "2026-06-02T10:00:31.000Z",
+      "link": "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
+      "isTopTen": false
+    },
+    {
+      "id": "7eb9e561-49ac-4f47-adc3-8fce014c51be",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Red Hat npm packages compromised in new Mini Shai-Hulud malware wave",
+      "summary": "Attackers compromised over 30 Red Hat Cloud Services npm packages by hijacking a developer's GitHub account to inject malicious credential-stealing code. The incident represents a significant supply chain attack targeting developer environments.",
+      "date": "2026-06-02T09:38:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/red-hat-npm-packages-compromised-mini-shai-hulud/",
+      "isTopTen": true
+    },
+    {
+      "id": "e6c9e358-6245-4e15-81ff-e342332d5c6f",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
+      "summary": "The Pakistan-aligned threat group SideCopy is conducting a spear-phishing campaign targeting the Afghanistan Ministry of Finance using the Xeno RAT. The attack utilizes malicious LNK files delivered within ZIP archives to compromise government systems.",
+      "date": "2026-06-02T09:05:40.000Z",
+      "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b1da2333-7051-442a-a92e-414d932cca6e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "KDE Linux security audit cuts kernel modules and unused packages",
+      "summary": "The KDE community conducted a security audit of its Linux distribution, resulting in the removal of unused packages and kernel modules to minimize the attack surface. This move follows recent security vulnerabilities discovered in the upstream Linux kernel.",
+      "date": "2026-06-02T08:45:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/kde-linux-security-audit-update/",
+      "isTopTen": false
+    },
+    {
+      "id": "2aca1b17-39ac-4266-8636-1ce523119b04",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cybanetix unveils Managed AI Service to secure users, models, and agents",
+      "summary": "Cybanetix has launched a Managed AI Service that integrates multiple security technologies to protect enterprise AI usage, governance, and embedded models. The service is supported by 24/7 SOC monitoring to provide rapid incident response for AI-related security threats.",
+      "date": "2026-06-02T08:38:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/cybanetix-managed-ai-service/",
+      "isTopTen": false
+    },
+    {
+      "id": "c470d6f8-f29f-417a-b1c8-eeb3dc28fc75",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI brings frontier AI to existing AWS environments",
+      "summary": "OpenAI has integrated its frontier models into Amazon Bedrock, allowing AWS customers to deploy generative AI applications using native cloud security and governance controls.",
+      "date": "2026-06-02T08:35:12.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/openai-models-and-codex-on-aws/",
+      "isTopTen": false
+    },
+    {
+      "id": "2ba36cf0-9a0d-4687-be9c-2f69cbe8110c",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "ENISA NIS360 2026: Progress Across the Board, But the Sectors That Matter Most Are Still Falling Short",
+      "summary": "The ENISA NIS360 2026 report indicates overall improvements in EU cybersecurity maturity, though critical sectors like health, water, rail, and space continue to face significant vulnerabilities. The report highlights that despite progress, these essential industries remain in the high-risk zone under the NIS2 directive.",
+      "date": "2026-06-02T08:19:37.000Z",
+      "link": "https://securityaffairs.com/193002/reports/enisa-nis360-2026-progress-across-the-board-but-the-sectors-that-matter-most-are-still-falling-short.html",
+      "isTopTen": true
+    },
+    {
+      "id": "90ed9182-51c0-4123-a348-e8f475e10aea",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Sensitive government personnel data posted online, Spanish police arrest suspect",
+      "summary": "Spanish police have arrested a man in Granada for allegedly leaking the personal information of employees from multiple sensitive state institutions, including the National Police and the National Cybersecurity Institute. The suspect reportedly published this restricted data across various online platforms.",
+      "date": "2026-06-02T07:43:40.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/spain-government-data-leak-arrest/",
+      "isTopTen": false
+    },
+    {
+      "id": "6ea70471-90f9-4eee-bdd7-039b5816d736",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "GoDaddy found malware on 1,980 WordPress sites using Steam as C2 infrastructure",
+      "summary": "GoDaddy researchers identified a malware campaign infecting nearly 2,000 WordPress sites that utilizes Steam community profile comments as an unconventional command-and-control infrastructure. The malware retrieves hidden instructions from these profiles using invisible Unicode characters to execute malicious payloads.",
+      "date": "2026-06-02T05:38:31.000Z",
+      "link": "https://securityaffairs.com/192990/breaking-news/godaddy-found-malware-on-1980-wordpress-sites-using-steam-as-c2-infrastructure.html",
+      "isTopTen": false
+    },
     {
       "id": "10db5452-f77e-4091-a218-93e971a3f399",
       "source": "Help Net Security",
@@ -10,6 +131,17 @@
       "summary": "Google is seeking an Agentic Safety and Ecosystem Architect to develop security controls, permission models, and monitoring mechanisms for autonomous agents on the Android platform.",
       "date": "2026-06-02T04:00:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/02/cybersecurity-jobs-available-right-now-june-2-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "1710e20f-65b4-4a99-adeb-05303f1561f2",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+      "summary": "Dashlane reported that fewer than 20 personal user accounts were compromised after an external threat actor conducted a brute-force attack targeting two-factor authentication. The attacker successfully downloaded the encrypted vaults of the affected accounts.",
+      "date": "2026-06-02T03:55:25.000Z",
+      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
       "isTopTen": false
     },
     {
@@ -32,7 +164,7 @@
       "summary": "Attackers are actively exploiting a Palo Alto Networks vulnerability that was previously considered low-risk, highlighting a rapid escalation in threat severity. Organizations are urged to prioritize patching to mitigate potential compromise.",
       "date": "2026-06-01T22:29:42.000Z",
       "link": "https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "65dd7c1d-c88f-4a72-88f0-c98b2f1cd42d",
@@ -43,7 +175,7 @@
       "summary": "A threat actor known as DriveSurge is compromising thousands of websites to distribute malware via ClickFix and FakeUpdate social engineering techniques. The campaign relies on deceptive browser pop-ups to trick users into executing malicious code.",
       "date": "2026-06-01T22:14:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "076632ad-bdaa-4e85-87ff-991c6eb45a7b",
@@ -54,7 +186,7 @@
       "summary": "Malicious 'Shai-Hulud' malware has been discovered embedded in multiple Red Hat-related npm packages, accumulating 80,000 weekly downloads. The campaign involves worm-like propagation tactics targeting developer environments.",
       "date": "2026-06-01T21:54:07.000Z",
       "link": "https://www.theregister.com/security/2026/06/01/shai-hulud-malware-infects-red-hat-npm-packages-downloaded-80k-times-weekly/5249803",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "11eabda6-eaf9-4e0f-b9ca-d3a8aec32a82",
@@ -175,7 +307,7 @@
       "summary": "OpenAI is mandating the use of passkeys for users in its Trusted Access for Cyber (TAC) program to enhance security for its most advanced AI models starting June 1, 2026. This move highlights a push toward stronger, phishing-resistant authentication methods in the AI sector.",
       "date": "2026-06-01T17:14:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/01/yubico-openai-passkeys-requirements/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6ca49efe-39d0-4800-a5a9-b210a6791373",
@@ -406,7 +538,7 @@
       "summary": "The China-aligned threat group Dragon Weave is conducting a cyber espionage campaign against government and private sectors in the Czech Republic and Taiwan using spear-phishing to deploy the AdaptixC2 agent.",
       "date": "2026-06-01T11:54:24.000Z",
       "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "11950751-0846-48cf-96bf-3c5272d26eb8",
@@ -439,7 +571,7 @@
       "summary": "CVE-2026-8732 is a critical vulnerability in the WP Maps Pro WordPress plugin that allows unauthenticated attackers to create unauthorized administrative accounts. The flaw is currently being exploited in the wild, with thousands of attacks blocked within a 24-hour period.",
       "date": "2026-06-01T11:36:20.000Z",
       "link": "https://securityaffairs.com/192977/hacking/cve-2026-8732-the-wp-maps-pro-flaw-that-lets-anyone-create-a-wordpress-admin-without-a-password.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0865157d-e087-4efd-aa1a-9bab7b3b0ea8",
@@ -527,7 +659,7 @@
       "summary": "Researchers discovered CIFSwitch, a 19-year-old privilege escalation vulnerability in Linux that allows attackers to gain root access by forging CIFS authentication keys. The bug affects several major distributions and was identified using AI-driven code analysis.",
       "date": "2026-06-01T09:55:15.000Z",
       "link": "https://securityaffairs.com/192959/security/a-spacex-security-engineer-used-ai-to-find-a-19-year-old-linux-bug-that-gives-attackers-root.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8a9461e8-ad56-47a2-ad95-89f62456e88c",
@@ -582,7 +714,7 @@
       "summary": "CISA has added the Palo Alto Networks PAN-OS vulnerability CVE-2026-0257, which carries a CVSS score of 7.8, to its Known Exploited Vulnerabilities catalog due to active exploitation. Users are urged to patch their systems to mitigate potential security risks.",
       "date": "2026-06-01T08:36:29.000Z",
       "link": "https://securityaffairs.com/192951/security/u-s-cisa-adds-palo-alto-networks-pan-os-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "72e7bbcd-0489-44d8-95f1-97131b601080",
@@ -615,7 +747,7 @@
       "summary": "The Pentagon has officially acknowledged that commercially available location data poses a significant security risk by allowing adversaries to track U.S. military personnel. This confirms long-standing warnings that ad-tech networks function as a form of accessible surveillance infrastructure.",
       "date": "2026-06-01T07:18:51.000Z",
       "link": "https://securityaffairs.com/192942/cyber-warfare-2/the-pentagon-finally-admits-that-location-data-is-a-battlefield-problem.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a9184d33-56b8-4f07-90fa-cc7fb0be3a95",
@@ -747,7 +879,7 @@
       "summary": "Dutch authorities successfully dismantled a massive botnet consisting of 17 million infected devices, including smartphones and IoT hardware, that were used for malicious cyberattacks. The operation involved seizing over 200 servers in the Netherlands to neutralize the infrastructure.",
       "date": "2026-05-31T12:22:12.000Z",
       "link": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "678d1eb9-6e28-410a-9b58-1ca6715497ce",
@@ -5367,138 +5499,6 @@
       "summary": "Microsoft successfully disrupted Fox Tempest, a malware-signing-as-a-service platform that provided code-signing tools to various ransomware groups. The operation followed a legal action filed in a U.S. District Court to dismantle the criminal infrastructure.",
       "date": "2026-05-19T16:36:00.000Z",
       "link": "https://therecord.media/microsoft-disrupts-fox-tempest-malware-signing-service",
-      "isTopTen": false
-    },
-    {
-      "id": "763f4106-3a15-4df2-b4b0-84bde2f5ee59",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
-      "summary": "Microsoft is implementing stricter quality standards for Windows 11 drivers by 2026 to improve system stability and security performance. This initiative aims to address the critical role drivers play in connecting the operating system with hardware components.",
-      "date": "2026-05-19T16:22:30.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "3d03d349-9448-4dc6-bba1-2ebea433f4f8",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Microsoft blames macOS update for undismissible Teams location prompts",
-      "summary": "Microsoft is investigating a bug on macOS where Teams displays persistent location prompts that cannot be dismissed by users. The issue is attributed to a conflict with a recent macOS system update.",
-      "date": "2026-05-19T16:10:47.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
-      "isTopTen": false
-    },
-    {
-      "id": "d8656717-3995-490e-9fb0-e18648378277",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Pwn2Own Berlin 2026 Closes With $1.3 Million in Zero-Day Payouts",
-      "summary": "The Pwn2Own Berlin 2026 competition concluded with researchers earning $1.3 million for identifying 47 unique zero-day vulnerabilities in enterprise software and AI platforms. These findings underscore significant security risks within widely used systems.",
-      "date": "2026-05-19T15:59:01.000Z",
-      "link": "https://hackread.com/pwn2own-berlin-2026-closes-zero-day-payouts/",
-      "isTopTen": false
-    },
-    {
-      "id": "92a3f59c-cb20-464f-a84b-5f3a1ac2246c",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Clear your calendar, Drupal user: You have a critically urgent patch to install",
-      "summary": "Drupal has released an urgent security patch to address a critical vulnerability, with fixes extending back to the unsupported 8.9 branch. Administrators are advised to apply these updates immediately despite limited technical details provided by the organization.",
-      "date": "2026-05-19T15:56:25.000Z",
-      "link": "https://www.theregister.com/security/2026/05/19/drupal-warns-admins-to-brace-for-highly-critical-core-patch/5242728",
-      "isTopTen": false
-    },
-    {
-      "id": "3c388983-5e58-4e29-b11f-3c47aaa8285b",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Mini Shai-Hulud returns, compromising hundreds of npm packages",
-      "summary": "A wave of malware dubbed 'Mini Shai-Hulud' has compromised hundreds of npm packages, stealing developer credentials and installing backdoors within CI pipelines and development environments.",
-      "date": "2026-05-19T15:28:44.000Z",
-      "link": "https://cyberscoop.com/mini-shai-hulud-malware-npm-packages-compromised-again/",
-      "isTopTen": false
-    },
-    {
-      "id": "60ffb9d7-f751-4dd6-80aa-1f8350ec459e",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Microsoft disrupts cybercrime service that abused software verification systems en masse",
-      "summary": "Microsoft has dismantled a cybercrime service operated by the threat group Fox Tempest, which enabled criminals to bypass software verification systems and distribute malware. The operation effectively shut down a critical vector used by ransomware actors to evade security controls.",
-      "date": "2026-05-19T15:00:00.000Z",
-      "link": "https://cyberscoop.com/microsoft-digital-crimes-unit-disrupts-fox-tempest/",
-      "isTopTen": false
-    },
-    {
-      "id": "106a431d-9918-4069-9852-1493f18dfafd",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
-      "summary": "A proof-of-concept exploit has been released for the DirtyDecrypt local privilege escalation vulnerability affecting the Linux kernel. The flaw, also known as DirtyCBC, was addressed in a recent security patch.",
-      "date": "2026-05-19T14:56:26.000Z",
-      "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
-      "isTopTen": false
-    },
-    {
-      "id": "33669bab-1833-4862-b7a4-ba0c74c411c9",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
-      "summary": "A new supply-chain campaign dubbed 'Shai-Hulud' has compromised the npm registry by injecting over 600 malicious packages. This mass-scale automated attack poses a significant threat to developers and downstream applications utilizing the Node Package Manager.",
-      "date": "2026-05-19T14:30:22.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
-      "isTopTen": false
-    },
-    {
-      "id": "f6b5d3e6-9b4a-4a08-a820-32149a306784",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
-      "summary": "7-Eleven has confirmed a security breach following claims made by the ShinyHunters extortion group regarding unauthorized access to their systems.",
-      "date": "2026-05-19T14:16:41.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
-      "isTopTen": false
-    },
-    {
-      "id": "c67dca00-4224-4e46-8a89-aa2d45e30038",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Criminal IP Returns to Infosecurity Europe 2026 with Advanced AI-Driven TI & ASM",
-      "summary": "Criminal IP is set to showcase its latest AI-powered Threat Intelligence and Attack Surface Management solutions at the upcoming Infosecurity Europe 2026 event. This announcement highlights the company's commitment to advancing security capabilities for proactive defense.",
-      "date": "2026-05-19T14:00:25.000Z",
-      "link": "https://hackread.com/criminal-ip-returns-to-infosecurity-europe-2026-with-advanced-ai-driven-ti-asm/",
-      "isTopTen": false
-    },
-    {
-      "id": "a26eba43-90f2-4474-8aa6-14c8e470386f",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
-      "summary": "Microsoft saw a significant surge in critical vulnerabilities in 2025, with attackers increasingly shifting their focus toward privilege escalation and identity abuse tactics.",
-      "date": "2026-05-19T14:00:10.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
-      "isTopTen": false
-    },
-    {
-      "id": "c9d8146d-1f8b-4fef-993d-b41682f3f8f7",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "PureLogs infostealer is stealing credentials worldwide",
-      "summary": "The PureLogs infostealer is targeting Windows systems via phishing campaigns that hide malicious payloads within image files. The malware extracts credentials after using invoice-themed lures to trick users into executing the initial archive.",
-      "date": "2026-05-19T13:10:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/19/purelogs-infostealer-delivery-steganography/",
       "isTopTen": false
     }
   ]
