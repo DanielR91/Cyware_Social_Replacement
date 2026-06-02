@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-06-01T21:41:08.228Z",
+  "lastUpdated": "2026-06-02T04:27:55.398Z",
   "articles": [
+    {
+      "id": "10db5452-f77e-4091-a218-93e971a3f399",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cybersecurity jobs available right now: June 2, 2026",
+      "summary": "Google is seeking an Agentic Safety and Ecosystem Architect to develop security controls, permission models, and monitoring mechanisms for autonomous agents on the Android platform.",
+      "date": "2026-06-02T04:00:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/02/cybersecurity-jobs-available-right-now-june-2-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "c144745e-ddf2-4185-be14-67dcaf483196",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Why Encrypted File Sharing Is Essential for Modern Businesses",
+      "summary": "Encrypted file sharing is presented as a critical defense mechanism for modern businesses to protect sensitive data and prevent corporate scandals. It emphasizes the necessity of securing digital communications to mitigate risks associated with data exposure.",
+      "date": "2026-06-01T22:40:45.000Z",
+      "link": "https://hackread.com/encrypted-file-sharing-essential-modern-businesses/",
+      "isTopTen": false
+    },
+    {
+      "id": "fd6cc813-bad7-451d-9f39-189bc3dfd47b",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers are exploiting Palo Alto Networks defect that initially flew under the radar",
+      "summary": "Attackers are actively exploiting a Palo Alto Networks vulnerability that was previously considered low-risk, highlighting a rapid escalation in threat severity. Organizations are urged to prioritize patching to mitigate potential compromise.",
+      "date": "2026-06-01T22:29:42.000Z",
+      "link": "https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/",
+      "isTopTen": false
+    },
+    {
+      "id": "65dd7c1d-c88f-4a72-88f0-c98b2f1cd42d",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+      "summary": "A threat actor known as DriveSurge is compromising thousands of websites to distribute malware via ClickFix and FakeUpdate social engineering techniques. The campaign relies on deceptive browser pop-ups to trick users into executing malicious code.",
+      "date": "2026-06-01T22:14:19.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+      "isTopTen": true
+    },
+    {
+      "id": "076632ad-bdaa-4e85-87ff-991c6eb45a7b",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Shai-Hulud malware worms Red Hat npm package versions downloaded 80K times a week",
+      "summary": "Malicious 'Shai-Hulud' malware has been discovered embedded in multiple Red Hat-related npm packages, accumulating 80,000 weekly downloads. The campaign involves worm-like propagation tactics targeting developer environments.",
+      "date": "2026-06-01T21:54:07.000Z",
+      "link": "https://www.theregister.com/security/2026/06/01/shai-hulud-malware-infects-red-hat-npm-packages-downloaded-80k-times-weekly/5249803",
+      "isTopTen": true
+    },
+    {
+      "id": "11eabda6-eaf9-4e0f-b9ca-d3a8aec32a82",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Red Hat npm packages compromised to steal developer credentials",
+      "summary": "Attackers compromised over 30 npm packages within the '@redhat-cloud-services' namespace to distribute the Miasma credential-stealing malware. This supply-chain attack specifically targeted developer credentials.",
+      "date": "2026-06-01T21:38:29.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
+      "isTopTen": false
+    },
     {
       "id": "01ffc406-c78d-4542-b907-0401019dd1df",
       "source": "BleepingComputer",
@@ -98,7 +164,7 @@
       "summary": "The Miasma supply chain attack targets Red Hat npm packages to distribute a self-propagating worm that harvests developer credentials and secrets. The campaign utilizes install-time execution and CI/CD targeting to compromise environments.",
       "date": "2026-06-01T17:40:28.000Z",
       "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9d6f27df-2e40-449b-8657-77cc36fd29fa",
@@ -340,7 +406,7 @@
       "summary": "The China-aligned threat group Dragon Weave is conducting a cyber espionage campaign against government and private sectors in the Czech Republic and Taiwan using spear-phishing to deploy the AdaptixC2 agent.",
       "date": "2026-06-01T11:54:24.000Z",
       "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "11950751-0846-48cf-96bf-3c5272d26eb8",
@@ -461,7 +527,7 @@
       "summary": "Researchers discovered CIFSwitch, a 19-year-old privilege escalation vulnerability in Linux that allows attackers to gain root access by forging CIFS authentication keys. The bug affects several major distributions and was identified using AI-driven code analysis.",
       "date": "2026-06-01T09:55:15.000Z",
       "link": "https://securityaffairs.com/192959/security/a-spacex-security-engineer-used-ai-to-find-a-19-year-old-linux-bug-that-gives-attackers-root.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8a9461e8-ad56-47a2-ad95-89f62456e88c",
@@ -637,7 +703,7 @@
       "summary": "A malicious npm package named Codex UI, which received 27,000 weekly downloads, was discovered exfiltrating OpenAI refresh tokens from developer environments. This incident poses a significant threat to affected users by enabling potential unauthorized account access.",
       "date": "2026-05-31T14:54:04.000Z",
       "link": "https://hackread.com/codex-ui-tool-secretly-stole-openai-refresh-tokens/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cd2d40c5-e2df-40c7-8650-5300b6123425",
@@ -681,7 +747,7 @@
       "summary": "Dutch authorities successfully dismantled a massive botnet consisting of 17 million infected devices, including smartphones and IoT hardware, that were used for malicious cyberattacks. The operation involved seizing over 200 servers in the Netherlands to neutralize the infrastructure.",
       "date": "2026-05-31T12:22:12.000Z",
       "link": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "678d1eb9-6e28-410a-9b58-1ca6715497ce",
@@ -758,7 +824,7 @@
       "summary": "Dutch authorities successfully dismantled a massive botnet comprising 17 million infected devices by seizing 200 servers associated with the proxy service Asocks. The operation targeted a widespread network of compromised computers, tablets, and smartphones used for illicit activities.",
       "date": "2026-05-30T08:16:15.000Z",
       "link": "https://securityaffairs.com/192890/malware/botnet-of-17-million-devices-dismantled-in-the-netherlands.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "203e6eaa-7b93-408f-bee1-2fb139cb2be4",
@@ -5433,72 +5499,6 @@
       "summary": "The PureLogs infostealer is targeting Windows systems via phishing campaigns that hide malicious payloads within image files. The malware extracts credentials after using invoice-themed lures to trick users into executing the initial archive.",
       "date": "2026-05-19T13:10:53.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/19/purelogs-infostealer-delivery-steganography/",
-      "isTopTen": false
-    },
-    {
-      "id": "31984644-c2cb-4c81-b12a-554dae7f2be7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Selector extends AI-driven observability into multi-cloud environments",
-      "summary": "Selector has expanded its AI-powered observability platform to include multi-cloud environments, allowing organizations to correlate telemetry data across hybrid infrastructures. This update aims to improve incident visibility and root cause analysis for complex cloud architectures.",
-      "date": "2026-05-19T13:05:47.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/19/selector-ai-driven-observability-capabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "eb081b54-0108-47bf-9189-d3264d519e4b",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Two-Thirds of Nonhuman Accounts Are Unseen and Unmanaged, According to Orchid Security’s Identity Gap Report",
-      "summary": "Orchid Security’s Identity Gap Report reveals that two-thirds of nonhuman accounts remain unmanaged and invisible, posing significant security risks to organizational infrastructure. The findings highlight a critical lack of oversight regarding machine identities in modern enterprise environments.",
-      "date": "2026-05-19T13:00:16.000Z",
-      "link": "https://hackread.com/two-thirds-of-nonhuman-accounts-are-unseen-and-unmanaged-according-to-orchid-securitys-identity-gap-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "20d79688-91f0-45bc-882f-ae4319c02129",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "LaunchDarkly adds real-time controls for AI agents in production",
-      "summary": "Service busy.",
-      "date": "2026-05-19T12:47:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/19/launchdarkly-agentcontrol/",
-      "isTopTen": false
-    },
-    {
-      "id": "2d6fd964-d9f7-4c0c-b405-2fc4d91bb0b6",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Canonical ships Ubuntu Core 26 with 15 years of security maintenance",
-      "summary": "Canonical has released Ubuntu Core 26, an immutable Linux distribution offering up to 15 years of security maintenance to help industrial and edge AI devices comply with the EU Cyber Resilience Act.",
-      "date": "2026-05-19T12:44:59.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/19/ubuntu-core-26-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "905e2452-17f8-4470-bd35-9375ff341816",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New macOS infostealer impersonates Apple, Microsoft, and Google in a single attack chain",
-      "summary": "A new macOS infostealer variant dubbed Reaper leverages a multi-stage attack chain that impersonates major tech brands to steal sensitive browser, password, and cryptocurrency data. The malware establishes persistence on infected systems, marking a shift away from traditional ClickFix social engineering methods.",
-      "date": "2026-05-19T12:30:08.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/19/shub-reaper-macos-infostealer-apple-google-microsoft/",
-      "isTopTen": false
-    },
-    {
-      "id": "01cb7f18-f5fb-4c98-a3f4-a4b42547aea0",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Webinar: The hidden bottlenecks in network incident response",
-      "summary": "This webinar examines the challenges IT teams face with fragmented incident response processes and discusses how AI-driven automation can streamline coordination and reduce response times.",
-      "date": "2026-05-19T12:14:22.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
       "isTopTen": false
     }
   ]
