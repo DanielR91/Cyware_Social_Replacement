@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-02T23:06:48.637Z",
+  "lastUpdated": "2026-06-03T04:44:56.695Z",
   "articles": [
+    {
+      "id": "e018daf1-9a3e-47ff-a3c3-3371104b13c4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "What CISOs need to do about post-quantum migration in the next 24 months",
+      "summary": "With cryptographically relevant quantum computing expected by 2029, CISOs must accelerate post-quantum migration strategies to defend against the threat of future decryption of current encrypted data. Organizations are advised to adopt quantum-resistant measures now to combat the 'Harvest Now, Decrypt Later' risk.",
+      "date": "2026-06-03T04:30:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/03/post-quantum-migration-timeline-video/",
+      "isTopTen": true
+    },
+    {
+      "id": "305a5f09-ccd6-4ec6-9ecd-c334dbbb8f7c",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Known vulnerabilities behind most application security incidents",
+      "summary": "A survey of 902 IT professionals reveals that 80% of application security incidents are caused by known vulnerabilities that organizations failed to patch in time. This highlights a critical industry-wide gap between identifying flaws and implementing remediation in production environments.",
+      "date": "2026-06-03T04:00:18.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/03/csa-application-security-incidents/",
+      "isTopTen": true
+    },
     {
       "id": "6ac6604f-aee8-44f3-a93b-c85f43968da3",
       "source": "BleepingComputer",
@@ -43,6 +65,17 @@
       "summary": "A ransomware operator violated an unwritten industry rule by infecting systems within Russia and CIS countries, leading to potential retaliation or exposure. This breach of operational protocol highlights the geopolitical boundaries often respected by cybercriminal syndicates.",
       "date": "2026-06-02T21:58:34.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/02/dumbass-criminal-breaks-the-first-rule-of-ransomware-club/5250380",
+      "isTopTen": false
+    },
+    {
+      "id": "f0f174b6-88d9-4d93-bf95-4f703bd6ff80",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Over 116,000 Minecraft systems infected in WeedHack malware campaign",
+      "summary": "A large-scale malware campaign known as WeedHack has compromised over 116,000 Minecraft systems since January, specifically targeting players of the game.",
+      "date": "2026-06-02T21:54:49.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
       "isTopTen": false
     },
     {
@@ -142,7 +175,7 @@
       "summary": "The U.S. Department of Defense is prioritizing the integration of cyber operations across all military functions while establishing stringent security protocols for artificial intelligence. The move aims to avoid past security failures by embedding robust defensive measures into AI development from the start.",
       "date": "2026-06-02T17:11:25.000Z",
       "link": "https://cyberscoop.com/pentagon-cyber-integration-ai-security/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "02631fd3-d594-4a8e-90d5-9669bcd36a04",
@@ -461,7 +494,7 @@
       "summary": "Sophos has identified a sophisticated threat actor utilizing an AI-powered framework to develop and test malware specifically designed to evade endpoint detection and response (EDR) systems. The framework includes techniques like Cobalt Strike profile manipulation to disguise malicious traffic as legitimate network activity.",
       "date": "2026-06-02T10:13:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/02/ai-agents-edr-evasion-techniques/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ff1e04d0-06e5-44b7-81f9-f8341b3e46bb",
@@ -615,7 +648,7 @@
       "summary": "Attackers are actively exploiting a Palo Alto Networks vulnerability that was previously considered low-risk, highlighting a rapid escalation in threat severity. Organizations are urged to prioritize patching to mitigate potential compromise.",
       "date": "2026-06-01T22:29:42.000Z",
       "link": "https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "65dd7c1d-c88f-4a72-88f0-c98b2f1cd42d",
@@ -747,7 +780,7 @@
       "summary": "The Miasma supply chain attack targets Red Hat npm packages to distribute a self-propagating worm that harvests developer credentials and secrets. The campaign utilizes install-time execution and CI/CD targeting to compromise environments.",
       "date": "2026-06-01T17:40:28.000Z",
       "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9d6f27df-2e40-449b-8657-77cc36fd29fa",
@@ -5466,39 +5499,6 @@
       "summary": "ArmorCode has launched Anya Agents, an AI-driven framework designed to automate security workflows including triage, vulnerability remediation, and compliance at enterprise scale. The platform utilizes a Context Risk Graph to convert security data into actionable tasks for automated AI workers.",
       "date": "2026-05-20T11:22:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/20/armorcode-anya-agents/",
-      "isTopTen": false
-    },
-    {
-      "id": "62364b91-2590-412e-adac-988477ed24c3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Novata uses AI to map risk across portfolios and supply chains",
-      "summary": "Novata has launched Risk Atlas, an AI-powered monitoring tool designed to help organizations aggregate, normalize, and prioritize risk signals across their portfolios and supply chains.",
-      "date": "2026-05-20T11:02:52.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/20/novata-risk-atlas/",
-      "isTopTen": false
-    },
-    {
-      "id": "fdb62c86-1853-47b8-83df-d2c829ebd33a",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Fake Word Phishing Reveals Enterprise Blind Spot in Trusted Remote Access Tools",
-      "summary": "Cybersecurity researchers discovered a phishing campaign using fake Microsoft Word documents to exploit trusted remote access tools and bypass enterprise security. The attack highlights a significant blind spot in how organizations monitor and authorize legitimate administrative software.",
-      "date": "2026-05-20T11:02:51.000Z",
-      "link": "https://hackread.com/fake-word-phishing-enterprise-blind-spot-trusted-remote-access-tools/",
-      "isTopTen": false
-    },
-    {
-      "id": "a47fb740-bad6-4b1b-9e94-d32020818ac1",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
-      "summary": "A public proof-of-concept exploit has been released for the PinTheft vulnerability, enabling local attackers to achieve root escalation on Arch Linux systems.",
-      "date": "2026-05-20T10:52:31.000Z",
-      "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
       "isTopTen": false
     }
   ]
