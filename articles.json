@@ -1,6 +1,127 @@
 {
-  "lastUpdated": "2026-06-04T15:31:45.695Z",
+  "lastUpdated": "2026-06-04T20:14:37.801Z",
   "articles": [
+    {
+      "id": "9a2508c6-7f19-45bd-af3a-01bf3637385f",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "FTC considers setting aside or modifying $150 million privacy penalty against X",
+      "summary": "X (formerly Twitter) is petitioning the FTC to modify or set aside a $150 million privacy settlement, arguing that the company structure and leadership have changed significantly since the original order. The FTC is currently reviewing these arguments to determine if the penalty remains applicable.",
+      "date": "2026-06-04T19:42:00.000Z",
+      "link": "https://therecord.media/ftc-considers-modifying-150-million-twitter-privacy-fine",
+      "isTopTen": false
+    },
+    {
+      "id": "4af964db-3e77-4a7f-aa95-f2d178f1ccee",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenAI's agent chained decade-old DoS attacks to crash web servers in seconds",
+      "summary": "OpenAI's AI agent demonstrated the capability to execute decade-old HTTP/2 Denial-of-Service attacks, effectively crashing web servers within seconds using the Codex model. This highlights the risk of AI-powered tools weaponizing known but unpatched legacy vulnerabilities.",
+      "date": "2026-06-04T19:08:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/04/openais-codex-chains-decade-old-dos-techniques-into-http/2-bomb/5251377",
+      "isTopTen": true
+    },
+    {
+      "id": "347424e9-065f-4d7d-aee1-38177f9e2444",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
+      "summary": "Dental benefits administrator DentaQuest suffered a data breach that resulted in the exposure of sensitive personal information for approximately 2.6 million accounts.",
+      "date": "2026-06-04T18:36:27.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
+      "isTopTen": false
+    },
+    {
+      "id": "b8d92688-e01d-49dc-94ed-9885919c4409",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Your AI agent could become your biggest insider threat ",
+      "summary": "Recent research highlights that the integration of AI agents in business environments creates new avenues for both malicious and accidental insider data exposure. The study emphasizes the growing security risks associated with autonomous tools handling sensitive organizational information.",
+      "date": "2026-06-04T18:06:21.000Z",
+      "link": "https://cyberscoop.com/ai-agent-insider-threat-cybersecurity-dtex/",
+      "isTopTen": false
+    },
+    {
+      "id": "1474dbb4-6d56-4a8d-a727-dac4c1d45ea6",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Russia seeks to label two anti-Kremlin hacker groups as ‘extremist’",
+      "summary": "The Russian government is moving to designate two anti-Kremlin hacker groups as 'extremist' organizations following a series of cyberattacks against critical infrastructure in Russia and Belarus.",
+      "date": "2026-06-04T18:04:00.000Z",
+      "link": "https://therecord.media/russia-seeks-extremist-label-for-hacker-groups",
+      "isTopTen": false
+    },
+    {
+      "id": "129c9b79-ec36-42ca-a6b7-47f5858439e6",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Supreme Court rules FCC fines punishing telecom giants for sharing location data were legal",
+      "summary": "The U.S. Supreme Court ruled that FCC fines against telecommunications companies for the unauthorized sharing of customer location data are legally valid. This decision upholds the agency's authority to penalize carriers for privacy-related security failures.",
+      "date": "2026-06-04T17:17:00.000Z",
+      "link": "https://therecord.media/supreme-court-rules-fcc-fines-telecom-location-data-legal",
+      "isTopTen": false
+    },
+    {
+      "id": "2165bec8-331e-4de2-929a-5a75963b0d02",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "iFood Confirms Data Breach Affecting 1.2 Million Users in Brazil",
+      "summary": "iFood has officially confirmed a data breach impacting 1.2 million Brazilian users, though threat actors claim the scale of the stolen data is significantly higher.",
+      "date": "2026-06-04T17:10:54.000Z",
+      "link": "https://hackread.com/ifood-confirms-data-breach-brazil-users/",
+      "isTopTen": false
+    },
+    {
+      "id": "3444c851-0bae-42d9-91b6-9d42bbcdd730",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Mirasvit Full Page Cache Warmer flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the critical CVE-2026-45247 vulnerability affecting the Mirasvit Full Page Cache Warmer extension to its Known Exploited Vulnerabilities catalog. The flaw, which carries a CVSS score of 9.3, is actively being exploited in the wild.",
+      "date": "2026-06-04T17:10:17.000Z",
+      "link": "https://securityaffairs.com/193156/security/u-s-cisa-adds-mirasvit-full-page-cache-warmer-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "983e3fab-aa3b-428a-84e9-df94dc788656",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
+      "summary": "Cisco has released a patch for CVE-2026-20230, a server-side request forgery vulnerability in Unified Communications Manager that could allow unauthenticated, remote root access. Public proof-of-concept exploit code has increased the urgency for organizations to apply the update.",
+      "date": "2026-06-04T16:55:51.000Z",
+      "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+      "isTopTen": true
+    },
+    {
+      "id": "59e3c9eb-7d60-4030-afbd-8ded620886fa",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "UN food agency discloses breach affecting 600,000 Gaza households",
+      "summary": "The United Nations' World Food Programme suffered a data breach in its self-registration application for Palestine, compromising the personal information of 600,000 households in Gaza.",
+      "date": "2026-06-04T16:38:49.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
+      "isTopTen": true
+    },
+    {
+      "id": "5d7dc0ab-d88e-4b7d-a0d9-304beb8a4e68",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New IronWorm malware hits 36 packages in npm supply-chain attack",
+      "summary": "The IronWorm infostealer malware has compromised 36 packages within the npm registry, marking a significant supply-chain attack. Developers using these affected packages are at risk of data theft.",
+      "date": "2026-06-04T15:25:37.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
+      "isTopTen": true
+    },
     {
       "id": "8483ad33-ef98-4578-9c0b-4174e4e73ad6",
       "source": "The Hacker News",
@@ -10,6 +131,17 @@
       "summary": "A security vulnerability in the Claude Code GitHub Action allowed attackers to hijack repositories and potentially distribute malicious code by simply opening a GitHub issue. The flaw posed a supply chain risk because it could have compromised the action's own repository and affected downstream users.",
       "date": "2026-06-04T15:15:26.000Z",
       "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f08439e4-d24c-4a1c-9c80-70f10b41f1c5",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+      "summary": "The emergence of agentic AI in defense networks presents new security challenges, highlighted by a report claiming unauthorized access to Anthropic's Claude Mythos model shortly after its release. The incident underscores the necessity of robust IT infrastructure to safely leverage AI advancements.",
+      "date": "2026-06-04T15:10:00.000Z",
+      "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
       "isTopTen": false
     },
     {
@@ -131,7 +263,7 @@
       "summary": "The North Korean-linked Lazarus Group is conducting a brandjacking campaign on the npm registry by distributing malicious packages that mimic legitimate developer tools. This attack vector aims to compromise developer environments, exfiltrate credentials, and deploy malware.",
       "date": "2026-06-04T12:35:11.000Z",
       "link": "https://hackread.com/lazarus-group-npm-brandjacking-target-developers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1b6bfc03-cab9-438e-9808-143f16d325e8",
@@ -285,7 +417,7 @@
       "summary": "Security researchers demonstrate that open-source AI models can be effectively used to automate the exploitation of known vulnerabilities, lowering the barrier to entry for creating disruptive computer worms. This shift highlights how accessible technology is being repurposed to scale cyberattack capabilities without requiring sophisticated zero-day exploits.",
       "date": "2026-06-04T07:09:00.000Z",
       "link": "https://www.theregister.com/research/2026/06/04/free-ai-model-powers-self-spreading-worm-in-enterprise-test-network/5250918",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "28c24fbf-8926-4dcc-988f-a33c2135aa46",
@@ -461,7 +593,7 @@
       "summary": "CISA and various federal agencies have issued a warning regarding active cyberattacks against internet-exposed automatic tank gauge systems used in critical infrastructure. The alert highlights the risk these vulnerabilities pose to fuel and liquid storage monitoring systems.",
       "date": "2026-06-03T20:21:56.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3b078b82-c0fb-4ec3-a74d-e0ab41f24eea",
@@ -483,7 +615,7 @@
       "summary": "Google Gemini on Android is vulnerable to a remote exploit where malicious, invisible notifications can hijack the assistant to perform unauthorized actions or manipulate its long-term memory without requiring any malicious app installation. This attack vector leverages the assistant's integration with popular messaging platforms to execute commands on the victim's device.",
       "date": "2026-06-03T19:11:15.000Z",
       "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b7050596-5538-4f8d-beef-378e29e6eaf6",
@@ -549,7 +681,7 @@
       "summary": "A debug flag inadvertently left enabled in several Microsoft 365 Android apps allowed unauthorized third-party applications to access and steal sensitive account authentication tokens. This vulnerability enabled attackers to hijack user sessions without requiring passwords or user interaction.",
       "date": "2026-06-03T14:56:35.000Z",
       "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bfbe0f70-e137-49bc-8f13-41c448e9a53a",
@@ -637,7 +769,7 @@
       "summary": "Security researchers have identified a critical vulnerability in the GitHub.dev feature that allows attackers to steal GitHub OAuth tokens via a single-click malicious link. This exploit grants unauthorized read and write access to a victim's repositories, including private ones.",
       "date": "2026-06-03T12:58:22.000Z",
       "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "17a7a5cb-e419-41e2-864c-7c3dd2eb38f4",
@@ -5367,138 +5499,6 @@
       "summary": "A report from Hunt.io reveals that a single telecom provider hosts a significant portion of active command-and-control (C2) infrastructure across the Middle East, highlighting a strategic shift toward monitoring hosting providers. This discovery emphasizes the need for defenders to focus on infrastructure-level indicators rather than just individual malware samples.",
       "date": "2026-05-22T07:29:37.000Z",
       "link": "https://securityaffairs.com/192518/hacking/one-telecom-provider-hosted-most-of-the-middle-east-s-active-c2-infrastructure.html",
-      "isTopTen": false
-    },
-    {
-      "id": "873bfc3a-4dfc-4763-9c03-d7a27a82a811",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
-      "summary": "CISA has added two actively exploited vulnerabilities in Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, requiring immediate remediation. The Langflow vulnerability, CVE-2025-34291, carries a critical CVSS score of 9.4.",
-      "date": "2026-05-22T05:47:33.000Z",
-      "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
-      "isTopTen": false
-    },
-    {
-      "id": "117c2d88-7318-4ca2-8d1f-5b6a92551e5d",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cisco used AI to write security incident reports, with mixed results",
-      "summary": "Cisco's attempt to automate security incident reporting using AI yielded inconsistent results, requiring complex prompts and remaining prone to errors. This highlights the limitations of current generative AI in producing accurate, technical documentation without manual oversight.",
-      "date": "2026-05-22T05:38:19.000Z",
-      "link": "https://www.theregister.com/security/2026/05/22/cisco-used-ai-to-write-security-incident-reports-with-mixed-results/5244692",
-      "isTopTen": false
-    },
-    {
-      "id": "7b49b60f-6f2e-4df7-93d0-82ad24dff488",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
-      "summary": "Cisco has released patches for a critical CVSS 10.0 vulnerability in its Secure Workload REST API that allows unauthenticated remote attackers to access sensitive data due to improper authentication and validation. Users are urged to update their systems to mitigate the risk of unauthorized data exposure.",
-      "date": "2026-05-22T05:36:18.000Z",
-      "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4aa641f5-1da9-48b1-a805-4103100279b9",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Downtime has become a $600 billion business problem",
-      "summary": "Global 2000 companies are facing an increasing financial impact from unplanned downtime, with costs reaching $600 billion due to service outages and degradation. This represents a 50% rise over two years, resulting in significant business consequences like stock decline and brand damage.",
-      "date": "2026-05-22T05:00:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/22/splunk-average-downtime-cost-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "9740b026-782f-47a7-8f27-891a0c3f7cde",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The new economics of fraud: Cheaper, faster, more convincing",
-      "summary": "Visa’s Spring 2026 report highlights how AI-driven social engineering and impersonation are making scams faster and more effective, despite improvements in core payment defenses. The shift focuses on manipulating users into authorizing payments rather than technical system exploits.",
-      "date": "2026-05-22T04:30:46.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/22/visa-consumer-payment-fraud-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "e3c71bd0-5bb9-4d3b-9810-22a7b0a5a06f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the week: May 22, 2026",
-      "summary": "Babel Street has introduced 'Insights Investigator,' an AI-driven tool designed to assist investigators by automating tradecraft workflows while maintaining human oversight. This release is part of a weekly roundup of new cybersecurity products.",
-      "date": "2026-05-22T04:00:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/22/new-infosec-products-of-the-week-may-22-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "4cdc6170-a832-4f10-9643-baced8339794",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Alleged leader of Kimwolf, a sweeping botnet for cybercriminals, arrested in Canada",
-      "summary": "Jacob Butler, the 23-year-old alleged leader of the Kimwolf botnet, has been arrested in Canada and faces extradition to the United States. He is charged with orchestrating a significant cybercriminal operation involving the botnet.",
-      "date": "2026-05-21T23:24:39.000Z",
-      "link": "https://cyberscoop.com/kimwolf-botnet-alleged-administrator-jacob-butler-arrested-canada/",
-      "isTopTen": false
-    },
-    {
-      "id": "03274843-16de-4d68-b16d-2c80e805cc0e",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Dems slam Trump for making cybersecurity hold out the tin cup while splurging on ballroom and Jan. 6 'slush fund'",
-      "summary": "Democratic lawmakers are criticizing former President Trump for prioritizing personal expenditures over funding for critical cybersecurity initiatives. They argue that insufficient budgetary allocations for cybersecurity reflect a failure to prioritize national digital security.",
-      "date": "2026-05-21T23:03:16.000Z",
-      "link": "https://www.theregister.com/security/2026/05/22/dems-slam-trump-cyber-cuts-amid-ballroom-jan-6-slush-fund/5244618",
-      "isTopTen": false
-    },
-    {
-      "id": "484a2e83-8355-4df2-a204-60301ec8dad5",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Belarus-linked hackers use fake training certificates to target Ukrainian officials",
-      "summary": "The Belarus-linked threat actor GhostWriter is targeting Ukrainian officials with a spear-phishing campaign that uses counterfeit training certificates to distribute malware. This espionage effort leverages social engineering to compromise sensitive government accounts.",
-      "date": "2026-05-21T23:00:00.000Z",
-      "link": "https://therecord.media/oysterfresh-belarus-linked-campaign-targets-ukraine",
-      "isTopTen": false
-    },
-    {
-      "id": "9d18f612-1f9c-4349-a093-bbb44e00087f",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers steal patient and billing data from German hospitals via third-party provider",
-      "summary": "Hackers compromised a third-party billing provider called Unimed, resulting in a large-scale data breach involving patient and billing information across multiple German hospitals.",
-      "date": "2026-05-21T23:00:00.000Z",
-      "link": "https://therecord.media/hackers-steal-patient-billing-data-german-hospitals",
-      "isTopTen": false
-    },
-    {
-      "id": "61493f06-41c0-49c4-95c0-9b7326807f0b",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Microsoft and Adobe flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in Microsoft, Adobe, and ConnectWise software. These additions mandate that federal agencies patch the affected systems to mitigate risks from active exploitation.",
-      "date": "2026-05-21T20:27:11.000Z",
-      "link": "https://securityaffairs.com/192508/security/u-s-cisa-adds-microsoft-and-adobe-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "abe40728-d0fe-40b0-ba6f-8e60dba547e7",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Threat hunters find Google API keys still usable 23 minutes after deletion",
-      "summary": "Security researchers discovered that deleted Google API keys remain functional for 23 minutes, creating a window of opportunity for unauthorized data access or billing abuse. This latency highlights a critical vulnerability in credential lifecycle management for cloud services.",
-      "date": "2026-05-21T20:23:00.000Z",
-      "link": "https://www.theregister.com/devops/2026/05/21/threat-hunters-find-google-api-keys-still-usable-23-minutes-after-deletion/5244504",
       "isTopTen": false
     }
   ]
