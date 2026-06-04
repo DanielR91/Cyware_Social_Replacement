@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-06-04T20:14:37.801Z",
+  "lastUpdated": "2026-06-04T22:26:05.773Z",
   "articles": [
+    {
+      "id": "63fe234d-6209-4402-a9cc-b8eb2a8ed826",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Pink is the latest goon squad to use fake helpdesk calls to steal creds",
+      "summary": "A threat group known as Pink is employing social engineering tactics, specifically fake helpdesk calls, to steal user credentials in a manner similar to the Lapsus$ hacking group.",
+      "date": "2026-06-04T22:16:55.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/06/04/pink-is-the-latest-goon-squad-to-use-fake-helpdesk-calls-to-steal-creds/5251434",
+      "isTopTen": false
+    },
+    {
+      "id": "517a9e30-6f9c-4b29-8a2e-82304f5187b1",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
+      "summary": "Brave Software has launched 'Brave Origin,' a paid, minimalist browser version that removes cryptocurrency, AI, and monetization features to provide a stripped-down user experience.",
+      "date": "2026-06-04T21:37:10.000Z",
+      "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
+      "isTopTen": false
+    },
+    {
+      "id": "17b97dd8-95f8-4248-829c-fe311e80b310",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hola Browser for Windows compromised to deliver cryptominer",
+      "summary": "The Windows version of Hola Browser was compromised in a supply chain attack to distribute unauthorized cryptocurrency mining software. This incident represents a breach of the software distribution pipeline, putting end-user systems at risk.",
+      "date": "2026-06-04T21:27:25.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+      "isTopTen": false
+    },
+    {
+      "id": "1987d7b2-a8c6-4238-b383-6008edb35bfd",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
+      "summary": "A sophisticated Magecart campaign is leveraging Stripe's API infrastructure to host malicious payment-skimming scripts and store stolen credit card data. This technique allows attackers to bypass security filters by blending malicious activity with legitimate service traffic.",
+      "date": "2026-06-04T20:47:16.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+      "isTopTen": false
+    },
+    {
+      "id": "e644627f-2072-49b8-90be-b2c70d9e0d53",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Hill Dems hammer GOP for $250M CISA budget cut",
+      "summary": "House Democrats are criticizing a Republican-led proposal to reduce the Cybersecurity and Infrastructure Security Agency's (CISA) budget by $250 million. The move comes as part of the upcoming fiscal 2027 Department of Homeland Security funding legislation.",
+      "date": "2026-06-04T20:40:28.000Z",
+      "link": "https://cyberscoop.com/hill-dems-hammer-gop-for-250m-cisa-budget-cut/",
+      "isTopTen": false
+    },
+    {
+      "id": "4497c96e-51ac-4b8c-9733-beb0e6f1dee6",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Trump considers Palantir exec to lead CISA",
+      "summary": "Shyam Sankar, CTO of Palantir Technologies, is reportedly being considered for the position of Director at the Cybersecurity and Infrastructure Security Agency (CISA). This potential appointment marks a significant shift in leadership for the nation's primary civilian cybersecurity organization.",
+      "date": "2026-06-04T20:40:00.000Z",
+      "link": "https://therecord.media/trump-considers-palantir-exec-to-lead-cisa",
+      "isTopTen": false
+    },
     {
       "id": "9a2508c6-7f19-45bd-af3a-01bf3637385f",
       "source": "The Record",
@@ -43,7 +109,7 @@
       "summary": "Recent research highlights that the integration of AI agents in business environments creates new avenues for both malicious and accidental insider data exposure. The study emphasizes the growing security risks associated with autonomous tools handling sensitive organizational information.",
       "date": "2026-06-04T18:06:21.000Z",
       "link": "https://cyberscoop.com/ai-agent-insider-threat-cybersecurity-dtex/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1474dbb4-6d56-4a8d-a727-dac4c1d45ea6",
@@ -98,7 +164,7 @@
       "summary": "Cisco has released a patch for CVE-2026-20230, a server-side request forgery vulnerability in Unified Communications Manager that could allow unauthenticated, remote root access. Public proof-of-concept exploit code has increased the urgency for organizations to apply the update.",
       "date": "2026-06-04T16:55:51.000Z",
       "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "59e3c9eb-7d60-4030-afbd-8ded620886fa",
@@ -120,7 +186,7 @@
       "summary": "The IronWorm infostealer malware has compromised 36 packages within the npm registry, marking a significant supply-chain attack. Developers using these affected packages are at risk of data theft.",
       "date": "2026-06-04T15:25:37.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8483ad33-ef98-4578-9c0b-4174e4e73ad6",
@@ -241,7 +307,7 @@
       "summary": "The Five Eyes alliance has issued a warning regarding Chinese intelligence officers using professional networking sites and front companies to recruit insiders with access to classified government or military information. This espionage campaign specifically targets individuals holding privileged access to sensitive data.",
       "date": "2026-06-04T13:34:00.000Z",
       "link": "https://therecord.media/five-eyes-warns-chinese-spies-are-using-job-sites-to-recruit-insiders",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a817db0c-d195-4d27-99c8-cd3c2a111dc3",
@@ -494,7 +560,7 @@
       "summary": "Attackers gained unauthorized access to sensitive credentials by exploiting the poor practice of storing plaintext passwords within Active Directory description fields. This misconfiguration allowed for trivial exploitation and compromise of user accounts.",
       "date": "2026-06-04T05:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/04/all-the-passwords-were-stored-in-active-directory-description-fields/5250820",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1a3cfe51-512e-42b8-bec9-a5f0cb7881cd",
@@ -769,7 +835,7 @@
       "summary": "Security researchers have identified a critical vulnerability in the GitHub.dev feature that allows attackers to steal GitHub OAuth tokens via a single-click malicious link. This exploit grants unauthorized read and write access to a victim's repositories, including private ones.",
       "date": "2026-06-03T12:58:22.000Z",
       "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "17a7a5cb-e419-41e2-864c-7c3dd2eb38f4",
@@ -5433,72 +5499,6 @@
       "summary": "CISA has introduced a new online nomination form that streamlines the process for vendors and security researchers to report known exploited vulnerabilities for potential inclusion in its KEV catalog. This initiative aims to improve collaboration and threat intelligence sharing regarding active security threats.",
       "date": "2026-05-22T09:34:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/22/cisa-kev-nomination-form/",
-      "isTopTen": false
-    },
-    {
-      "id": "38e55be6-e7c3-4b5c-89ea-63820e284b60",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Trend Micro Apex One and Langflow to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog by including critical flaws identified in Trend Micro Apex One and Langflow software. This action mandates that federal agencies address these vulnerabilities to mitigate risks of active exploitation.",
-      "date": "2026-05-22T09:13:30.000Z",
-      "link": "https://securityaffairs.com/192529/hacking/u-s-cisa-adds-trend-micro-apex-one-and-langflow-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f76854b4-c66a-4876-8151-c85fd9eb9a05",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Microsoft 365 users targeted by new phishing threat that bypasses MFA",
-      "summary": "The FBI warns of a new Phishing-as-a-Service platform called Kali365 that enables attackers to bypass MFA by stealing Microsoft 365 access tokens via AI-generated phishing campaigns. This platform lowers the technical barrier for cybercriminals to compromise accounts without needing user credentials.",
-      "date": "2026-05-22T09:11:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/22/kali365-microsoft-365-phishing-fbi-warning/",
-      "isTopTen": false
-    },
-    {
-      "id": "01bdf695-2699-423f-a729-caf760d80d64",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meet Fractal, an OS made for microarchitecture reverse engineering",
-      "summary": "MIT CSAIL researchers have developed Fractal, a specialized operating system designed to simplify microarchitecture reverse engineering by isolating hardware behavior from OS interference. The tool has already successfully identified previously undocumented vulnerabilities in the Apple M1 branch predictor.",
-      "date": "2026-05-22T09:08:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/22/fractal-os-microarchitecture-reverse-engineering/",
-      "isTopTen": false
-    },
-    {
-      "id": "d36a3fe5-541b-4d9a-8c34-c79dd87d6fd5",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
-      "summary": "Authorities in the U.S. and Canada have arrested a Canadian individual accused of operating the KimWolf botnet, which compromised nearly two million devices globally for DDoS attacks.",
-      "date": "2026-05-22T09:01:20.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
-      "isTopTen": false
-    },
-    {
-      "id": "fe3c64ae-8288-4093-8084-ac8ca01f6930",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
-      "summary": "A 23-year-old Canadian man was arrested and charged for developing and operating the Kimwolf DDoS botnet, a variant of the AISURU malware used for DDoS-for-hire attacks. The operation was a collaborative effort involving international law enforcement agencies.",
-      "date": "2026-05-22T08:50:18.000Z",
-      "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a06b094a-d9ea-45c3-90e5-d4eebf0c48e7",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "One Telecom Provider Hosted Most of the Middle East ’s Active C2 Infrastructure",
-      "summary": "A report from Hunt.io reveals that a single telecom provider hosts a significant portion of active command-and-control (C2) infrastructure across the Middle East, highlighting a strategic shift toward monitoring hosting providers. This discovery emphasizes the need for defenders to focus on infrastructure-level indicators rather than just individual malware samples.",
-      "date": "2026-05-22T07:29:37.000Z",
-      "link": "https://securityaffairs.com/192518/hacking/one-telecom-provider-hosted-most-of-the-middle-east-s-active-c2-infrastructure.html",
       "isTopTen": false
     }
   ]
