@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-04T22:26:05.773Z",
+  "lastUpdated": "2026-06-05T04:13:18.299Z",
   "articles": [
+    {
+      "id": "0576f6d9-35f1-4a6a-9913-1cf256cb39cc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New infosec products of the week: June 5, 2026",
+      "summary": "The weekly roundup highlights new cybersecurity product launches, including Asimily's Segmentation Orchestration for automated network policy and Hyland's AI governance innovations.",
+      "date": "2026-06-05T04:00:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/05/new-infosec-products-of-the-week-june-5-2026/",
+      "isTopTen": false
+    },
     {
       "id": "63fe234d-6209-4402-a9cc-b8eb2a8ed826",
       "source": "The Register",
@@ -43,7 +54,7 @@
       "summary": "A sophisticated Magecart campaign is leveraging Stripe's API infrastructure to host malicious payment-skimming scripts and store stolen credit card data. This technique allows attackers to bypass security filters by blending malicious activity with legitimate service traffic.",
       "date": "2026-06-04T20:47:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e644627f-2072-49b8-90be-b2c70d9e0d53",
@@ -131,7 +142,7 @@
       "summary": "The U.S. Supreme Court ruled that FCC fines against telecommunications companies for the unauthorized sharing of customer location data are legally valid. This decision upholds the agency's authority to penalize carriers for privacy-related security failures.",
       "date": "2026-06-04T17:17:00.000Z",
       "link": "https://therecord.media/supreme-court-rules-fcc-fines-telecom-location-data-legal",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2165bec8-331e-4de2-929a-5a75963b0d02",
@@ -164,7 +175,7 @@
       "summary": "Cisco has released a patch for CVE-2026-20230, a server-side request forgery vulnerability in Unified Communications Manager that could allow unauthenticated, remote root access. Public proof-of-concept exploit code has increased the urgency for organizations to apply the update.",
       "date": "2026-06-04T16:55:51.000Z",
       "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "59e3c9eb-7d60-4030-afbd-8ded620886fa",
@@ -175,7 +186,7 @@
       "summary": "The United Nations' World Food Programme suffered a data breach in its self-registration application for Palestine, compromising the personal information of 600,000 households in Gaza.",
       "date": "2026-06-04T16:38:49.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5d7dc0ab-d88e-4b7d-a0d9-304beb8a4e68",
@@ -450,7 +461,7 @@
       "summary": "Unknown attackers conducted a long-term espionage campaign by exfiltrating emails from a senior stock exchange executive's Outlook account over five months using cloud storage services to mask their activities. The incident, identified by security researchers, indicates a targeted effort to gather intelligence rather than financial theft.",
       "date": "2026-06-04T09:33:57.000Z",
       "link": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9366460e-7327-4f67-ac4a-508a3094943f",
@@ -483,7 +494,7 @@
       "summary": "Security researchers demonstrate that open-source AI models can be effectively used to automate the exploitation of known vulnerabilities, lowering the barrier to entry for creating disruptive computer worms. This shift highlights how accessible technology is being repurposed to scale cyberattack capabilities without requiring sophisticated zero-day exploits.",
       "date": "2026-06-04T07:09:00.000Z",
       "link": "https://www.theregister.com/research/2026/06/04/free-ai-model-powers-self-spreading-worm-in-enterprise-test-network/5250918",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "28c24fbf-8926-4dcc-988f-a33c2135aa46",
@@ -560,7 +571,7 @@
       "summary": "Attackers gained unauthorized access to sensitive credentials by exploiting the poor practice of storing plaintext passwords within Active Directory description fields. This misconfiguration allowed for trivial exploitation and compromise of user accounts.",
       "date": "2026-06-04T05:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/04/all-the-passwords-were-stored-in-active-directory-description-fields/5250820",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1a3cfe51-512e-42b8-bec9-a5f0cb7881cd",
@@ -747,7 +758,7 @@
       "summary": "A debug flag inadvertently left enabled in several Microsoft 365 Android apps allowed unauthorized third-party applications to access and steal sensitive account authentication tokens. This vulnerability enabled attackers to hijack user sessions without requiring passwords or user interaction.",
       "date": "2026-06-03T14:56:35.000Z",
       "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bfbe0f70-e137-49bc-8f13-41c448e9a53a",
@@ -5488,17 +5499,6 @@
       "summary": "Threat actors are increasingly misusing the open-source ROADtools framework to conduct unauthorized cloud environment intrusions. The report provides security teams with guidance on identifying and mitigating these malicious activities.",
       "date": "2026-05-22T10:00:24.000Z",
       "link": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "7dd64dcf-9c47-45a1-b68e-f10cdd415744",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "CISA’s new KEV nomination form opens reporting to vendors and researchers",
-      "summary": "CISA has introduced a new online nomination form that streamlines the process for vendors and security researchers to report known exploited vulnerabilities for potential inclusion in its KEV catalog. This initiative aims to improve collaboration and threat intelligence sharing regarding active security threats.",
-      "date": "2026-05-22T09:34:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/22/cisa-kev-nomination-form/",
       "isTopTen": false
     }
   ]
