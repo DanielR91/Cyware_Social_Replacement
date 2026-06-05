@@ -1,6 +1,105 @@
 {
-  "lastUpdated": "2026-06-05T15:18:56.710Z",
+  "lastUpdated": "2026-06-05T20:06:13.090Z",
   "articles": [
+    {
+      "id": "f4a3890f-09cb-40f4-9ad6-ec8e3955bc9f",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
+      "summary": "CISA has issued a warning regarding active exploitation of a high-severity vulnerability in SolarWinds Serv-U that allows attackers to crash affected servers. Users are urged to apply available patches to mitigate the risk of denial-of-service attacks.",
+      "date": "2026-06-05T19:15:30.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
+      "isTopTen": true
+    },
+    {
+      "id": "852e2610-1131-411b-843a-61a389001174",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Miasma Malware Hits 32 Red Hat Packages via Compromised GitHub Account",
+      "summary": "The Miasma malware compromised 32 Red Hat npm packages through a hijacked GitHub account, putting cloud tokens, CI/CD secrets, and developer credentials at risk. This supply chain attack highlights the danger of account takeovers in software development ecosystems.",
+      "date": "2026-06-05T19:14:40.000Z",
+      "link": "https://hackread.com/miasma-malware-red-hat-packages-github-account/",
+      "isTopTen": true
+    },
+    {
+      "id": "a0743da5-ba86-4fe7-820f-002392bc9a40",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chinese APT deploys new malware to keep access to hacked networks",
+      "summary": "A Chinese state-sponsored threat actor known as UNC5221 is utilizing newly identified malware variants, including Plenet and AgentPSD, to maintain persistent unauthorized access to Microsoft 365 environments.",
+      "date": "2026-06-05T18:09:47.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
+      "isTopTen": false
+    },
+    {
+      "id": "e8d9b660-b3d8-442c-ab9e-b2cd80487454",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
+      "summary": "Threat actors are targeting the npm ecosystem with malicious packages that distribute a Rust-based information stealer and a self-spreading worm protected by a kernel rootkit. This supply chain attack utilizes over 50 poisoned packages to compromise developer machines and exfiltrate secrets.",
+      "date": "2026-06-05T18:05:30.000Z",
+      "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
+      "isTopTen": true
+    },
+    {
+      "id": "37543e1b-5740-4017-945a-2972b3c6a57c",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Silent Ransom Group (SRG): Switching To DNS Fast Flux Infrastructure",
+      "summary": "Researchers have uncovered the Silent Ransom Group's use of Fast Flux DNS infrastructure to facilitate attacks against U.S. businesses and law firms. This intelligence is being shared to help service providers disrupt the group's malicious operations.",
+      "date": "2026-06-05T17:54:38.000Z",
+      "link": "https://securityaffairs.com/193215/cyber-crime/silent-ransom-group-srg-switching-to-dns-fast-flux-infrastructure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f03efb6e-5e47-46c2-bf7a-2dce8d4b3710",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
+      "summary": "A California man received a 26-year prison sentence for distributing fentanyl and methamphetamine via the dark web marketplace Nemesis Market. This highlights ongoing federal efforts to dismantle illicit operations on major dark web platforms.",
+      "date": "2026-06-05T17:50:58.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
+      "isTopTen": false
+    },
+    {
+      "id": "2da42a7e-4cbf-4800-b621-e9c01118610e",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Yet another Cisco SD-WAN 0-day under attack, and no patch in sight",
+      "summary": "Cisco SD-WAN systems are currently being exploited by a zero-day vulnerability for which no security patch is yet available. This situation leaves administrators without an immediate remediation path to secure their environments.",
+      "date": "2026-06-05T17:27:42.000Z",
+      "link": "https://www.theregister.com/security/2026/06/05/yet-another-cisco-sd-wan-0-day-under-attack-and-no-patch-in-sight/5251855",
+      "isTopTen": false
+    },
+    {
+      "id": "1a971f3c-ced5-42df-abf7-8602902ea719",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Atlas Menu Data Breach Exposes 64,000 GTA V and CS2 Cheat Service Users",
+      "summary": "A data breach involving the cheat service provider Atlas Menu has compromised the personal information of 64,000 users, including emails, IP addresses, and hashed passwords. The exposed data relates to individuals using unauthorized software for Grand Theft Auto V and Counter-Strike 2.",
+      "date": "2026-06-05T17:16:02.000Z",
+      "link": "https://hackread.com/atlas-menu-data-breach-exposes-gta-v-cs2-cheat-users/",
+      "isTopTen": false
+    },
+    {
+      "id": "ab629b69-e515-4468-a6d1-3e0fa99d4e9b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
+      "summary": "ESET researchers have identified a new Android spyware dubbed Asin that targets Arabic-speaking users through deceptive apps disguised as news, PDF tools, and war maps. The malware is distributed via malicious websites mimicking legitimate government and utility services.",
+      "date": "2026-06-05T14:53:40.000Z",
+      "link": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
+      "isTopTen": false
+    },
     {
       "id": "d43d0866-9a39-48a7-9dc0-08669c41f3f3",
       "source": "BleepingComputer",
@@ -32,7 +131,7 @@
       "summary": "Unit 42 reports active exploitation of the PAN-OS vulnerability CVE-2026-0257 and provides guidance on indicators of activity and necessary mitigations.",
       "date": "2026-06-05T14:05:42.000Z",
       "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c0ea3e47-3b93-4023-bb77-dc12771c2ad9",
@@ -43,7 +142,7 @@
       "summary": "The 2026 Verizon Data Breach Investigations Report highlights an increase in cyber threats, including phishing and shadow AI, that specifically exploit the browser as an attack vector. Organizations are urged to address these browser-layer security gaps to mitigate evolving credential theft and malicious extension risks.",
       "date": "2026-06-05T14:00:10.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d91ed70-9425-48e2-b1c7-40a0395d4026",
@@ -164,7 +263,7 @@
       "summary": "Cisco is tracking an actively exploited zero-day privilege escalation vulnerability (CVE-2026-20245) in its Catalyst SD-WAN Manager for which no patch is currently available. Attackers require existing netadmin privileges or the exploitation of secondary vulnerabilities to leverage this flaw.",
       "date": "2026-06-05T08:44:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/cisco-sd-wan-cve-2026-20245-0-day-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a5041c49-a889-4381-ade5-682621736c35",
@@ -241,7 +340,7 @@
       "summary": "Cisco has issued a warning regarding a high-severity, unpatched zero-day vulnerability (CVE-2026-20245) in its Catalyst SD-WAN Manager that is currently being exploited to gain root privileges.",
       "date": "2026-06-05T06:24:20.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f24f72b-fdd5-4309-b6c7-90a4ee470ed2",
@@ -461,7 +560,7 @@
       "summary": "CISA has added the critical CVE-2026-45247 vulnerability affecting the Mirasvit Full Page Cache Warmer extension to its Known Exploited Vulnerabilities catalog. The flaw, which carries a CVSS score of 9.3, is actively being exploited in the wild.",
       "date": "2026-06-04T17:10:17.000Z",
       "link": "https://securityaffairs.com/193156/security/u-s-cisa-adds-mirasvit-full-page-cache-warmer-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "983e3fab-aa3b-428a-84e9-df94dc788656",
@@ -472,7 +571,7 @@
       "summary": "Cisco has released a patch for CVE-2026-20230, a server-side request forgery vulnerability in Unified Communications Manager that could allow unauthenticated, remote root access. Public proof-of-concept exploit code has increased the urgency for organizations to apply the update.",
       "date": "2026-06-04T16:55:51.000Z",
       "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "59e3c9eb-7d60-4030-afbd-8ded620886fa",
@@ -637,7 +736,7 @@
       "summary": "The North Korean-linked Lazarus Group is conducting a brandjacking campaign on the npm registry by distributing malicious packages that mimic legitimate developer tools. This attack vector aims to compromise developer environments, exfiltrate credentials, and deploy malware.",
       "date": "2026-06-04T12:35:11.000Z",
       "link": "https://hackread.com/lazarus-group-npm-brandjacking-target-developers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1b6bfc03-cab9-438e-9808-143f16d325e8",
@@ -5400,105 +5499,6 @@
       "summary": "The emergence of AI-driven vulnerability discovery tools is accelerating the identification of Linux kernel flaws, such as Dirty Frag and Copy Fail, creating new challenges for system security maintenance. This trend suggests that attackers are increasingly leveraging automated systems to find and exploit vulnerabilities at a faster pace.",
       "date": "2026-05-23T10:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/05/23/ai-eyes-scanning-for-bugs-create-a-worrisome-linux-security-trend/5244742",
-      "isTopTen": false
-    },
-    {
-      "id": "ad027305-8bd7-44bf-ad6c-ca4d7fa9c3fc",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Dirty Frag, Copy Fail, Fragnesia: The start of a worrisome Linux security trend",
-      "summary": "The emergence of several Linux-related vulnerabilities nicknamed 'Dirty Frag,' 'Copy Fail,' and 'Fragnesia' signals a potential rise in systematic exploit discovery. The article questions whether these findings are a natural security evolution or an effect of AI-driven vulnerability scanning.",
-      "date": "2026-05-23T10:59:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/23/dirty-frag-copy-fail-fragnesia-the-start-of-a-worrisome-linux-security-trend/5244742",
-      "isTopTen": false
-    },
-    {
-      "id": "637498dd-3181-417e-82c4-579920163e14",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
-      "summary": "Malicious actors compromised several Laravel-Lang PHP packages to inject a credential-stealing framework, marking a significant software supply chain attack. Users of the affected packages are at risk of data theft via the compromised tags.",
-      "date": "2026-05-23T09:51:13.000Z",
-      "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7379aea0-235e-4980-b68a-27d6bdde9657",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Ghostwriter Is Back, Using a Ukrainian Learning Platform as Bait to Hit Government Targets",
-      "summary": "The Belarus-linked threat actor Ghostwriter has launched a new phishing campaign targeting Ukrainian government employees by spoofing the legitimate Prometheus online learning platform to deliver malware and Cobalt Strike. This resurfacing of the UAC-0057 group highlights a continued focus on critical government infrastructure.",
-      "date": "2026-05-23T09:39:32.000Z",
-      "link": "https://securityaffairs.com/192538/apt/ghostwriter-is-back-using-a-ukrainian-learning-platform-as-bait-to-hit-government-targets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fce3ff90-adc8-455a-9719-853da6398c9b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
-      "summary": "A critical vulnerability in the LiteSpeed cPanel Plugin (CVE-2026-48172) is being actively exploited, allowing attackers to execute arbitrary scripts with root privileges.",
-      "date": "2026-05-23T07:35:13.000Z",
-      "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4296a51f-8d87-43d8-a70e-b9a8aee17356",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
-      "summary": "CISA has added a critical SQL injection vulnerability (CVE-2026-9082) in Drupal Core to its Known Exploited Vulnerabilities catalog due to reports of active exploitation. Organizations using Drupal are urged to apply the latest security patches to mitigate this risk.",
-      "date": "2026-05-23T07:23:48.000Z",
-      "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ed2dcb90-254c-4213-ada3-40adb10ae1b9",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "CISA to allow researchers to report vulnerabilities to exploited bugs catalog",
-      "summary": "CISA has introduced a new nomination process allowing security researchers and industry partners to directly report vulnerabilities for inclusion in the agency's Known Exploited Vulnerabilities catalog. This initiative aims to improve the speed and accuracy of tracking actively exploited security flaws.",
-      "date": "2026-05-23T01:11:00.000Z",
-      "link": "https://therecord.media/cisa-to-allow-researchers-to-report-vulnerabilities-kev",
-      "isTopTen": false
-    },
-    {
-      "id": "31f1f83d-82ff-4b7f-8aef-626f3454afff",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "A Russian speaker and jailbroken Gemini went on a hacking spree and emptied at least one MAGA victim's crypto wallets",
-      "summary": "A threat actor utilized a jailbroken instance of Google's Gemini AI to facilitate a hacking spree that resulted in the theft of cryptocurrency from targeted victims. The incident highlights the growing risk of adversarial AI being leveraged to assist in malicious cyber activities.",
-      "date": "2026-05-22T21:18:53.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
-      "isTopTen": false
-    },
-    {
-      "id": "f52dd4c6-2ce4-43b5-8ff5-59986a08e4fe",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI warns about fast-growing phishing kit targeting Microsoft 365 users",
-      "summary": "The FBI has issued a warning regarding Kali365, a phishing kit that exploits Microsoft's legitimate device authorization process to gain persistent, unauthorized access to user accounts. This tool has seen rapid adoption by cybercriminals since its emergence in April.",
-      "date": "2026-05-22T20:41:20.000Z",
-      "link": "https://cyberscoop.com/fbi-phishing-kali365-microsoft365-access-tokens/",
-      "isTopTen": false
-    },
-    {
-      "id": "be665b7c-643e-4239-93c5-cc646eabc0b1",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI warns of Kali365 phishing-as-a-service after April Microsoft 365 attacks",
-      "summary": "The FBI has issued an advisory regarding Kali365, a Telegram-based phishing-as-a-service platform used to harvest OAuth tokens for compromising Microsoft 365 environments. The alert follows a series of targeted attacks observed in April.",
-      "date": "2026-05-22T20:01:00.000Z",
-      "link": "https://therecord.media/fbi-warns-of-kali365-phishing-attacks",
       "isTopTen": false
     }
   ]
