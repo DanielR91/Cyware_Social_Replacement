@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-05T20:06:13.090Z",
+  "lastUpdated": "2026-06-05T22:21:00.850Z",
   "articles": [
+    {
+      "id": "f3d2c67a-5f35-4e46-8a65-7eb1d1647242",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
+      "summary": "Toshiba and Muji have issued warnings regarding malicious polyfill-based login overlays on their websites designed to harvest user credentials. These unauthorized prompts indicate a supply chain or code-injection vulnerability impacting visitors of both brands.",
+      "date": "2026-06-05T21:54:42.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
+      "isTopTen": false
+    },
+    {
+      "id": "0594cf63-f287-4e74-bc4e-e09c8220a19e",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "If you don't fall for these extortionists' calls, they'll show up with USB sticks",
+      "summary": "The threat group identified as 'Chatty Spider' has evolved its tactics to include physical intimidation, threatening to deliver malware via USB drives if victims refuse to comply with their extortion demands.",
+      "date": "2026-06-05T21:18:42.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/06/05/if-you-dont-fall-for-these-extortionists-calls-theyll-show-up-with-usb-sticks/5251891",
+      "isTopTen": false
+    },
     {
       "id": "f4a3890f-09cb-40f4-9ad6-ec8e3955bc9f",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of a high-severity vulnerability in SolarWinds Serv-U that allows attackers to crash affected servers. Users are urged to apply available patches to mitigate the risk of denial-of-service attacks.",
       "date": "2026-06-05T19:15:30.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "852e2610-1131-411b-843a-61a389001174",
@@ -21,7 +43,7 @@
       "summary": "The Miasma malware compromised 32 Red Hat npm packages through a hijacked GitHub account, putting cloud tokens, CI/CD secrets, and developer credentials at risk. This supply chain attack highlights the danger of account takeovers in software development ecosystems.",
       "date": "2026-06-05T19:14:40.000Z",
       "link": "https://hackread.com/miasma-malware-red-hat-packages-github-account/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a0743da5-ba86-4fe7-820f-002392bc9a40",
@@ -32,7 +54,7 @@
       "summary": "A Chinese state-sponsored threat actor known as UNC5221 is utilizing newly identified malware variants, including Plenet and AgentPSD, to maintain persistent unauthorized access to Microsoft 365 environments.",
       "date": "2026-06-05T18:09:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e8d9b660-b3d8-442c-ab9e-b2cd80487454",
@@ -131,7 +153,7 @@
       "summary": "Unit 42 reports active exploitation of the PAN-OS vulnerability CVE-2026-0257 and provides guidance on indicators of activity and necessary mitigations.",
       "date": "2026-06-05T14:05:42.000Z",
       "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c0ea3e47-3b93-4023-bb77-dc12771c2ad9",
@@ -208,7 +230,7 @@
       "summary": "Dashlane confirmed that attackers successfully accessed and copied encrypted password vaults from a subset of user accounts through a brute-force attack. The company stated that its internal systems remained secure and the incident was limited to specific account access.",
       "date": "2026-06-05T11:34:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/dashlane-brute-force-attack-vaults-customer-accounts/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f7c8749b-23fe-4ccd-ada7-210c1afa3295",
@@ -285,7 +307,7 @@
       "summary": "Anthropic's analysis of over 800 banned accounts reveals that AI tools are lowering the barrier to entry for low-skill actors to execute complex cyberattacks. The study aligns these malicious activities with the MITRE ATT&CK framework to highlight evolving threat tactics.",
       "date": "2026-06-05T08:22:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/anthropic-ai-cyber-activity-analysis/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "78da460c-de06-402f-a6e9-0fa3af6e7e6a",
@@ -494,7 +516,7 @@
       "summary": "OpenAI's AI agent demonstrated the capability to execute decade-old HTTP/2 Denial-of-Service attacks, effectively crashing web servers within seconds using the Codex model. This highlights the risk of AI-powered tools weaponizing known but unpatched legacy vulnerabilities.",
       "date": "2026-06-04T19:08:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/04/openais-codex-chains-decade-old-dos-techniques-into-http/2-bomb/5251377",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "347424e9-065f-4d7d-aee1-38177f9e2444",
@@ -560,7 +582,7 @@
       "summary": "CISA has added the critical CVE-2026-45247 vulnerability affecting the Mirasvit Full Page Cache Warmer extension to its Known Exploited Vulnerabilities catalog. The flaw, which carries a CVSS score of 9.3, is actively being exploited in the wild.",
       "date": "2026-06-04T17:10:17.000Z",
       "link": "https://securityaffairs.com/193156/security/u-s-cisa-adds-mirasvit-full-page-cache-warmer-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "983e3fab-aa3b-428a-84e9-df94dc788656",
@@ -714,7 +736,7 @@
       "summary": "The Five Eyes alliance has issued a warning regarding Chinese intelligence officers using professional networking sites and front companies to recruit insiders with access to classified government or military information. This espionage campaign specifically targets individuals holding privileged access to sensitive data.",
       "date": "2026-06-04T13:34:00.000Z",
       "link": "https://therecord.media/five-eyes-warns-chinese-spies-are-using-job-sites-to-recruit-insiders",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a817db0c-d195-4d27-99c8-cd3c2a111dc3",
@@ -736,7 +758,7 @@
       "summary": "The North Korean-linked Lazarus Group is conducting a brandjacking campaign on the npm registry by distributing malicious packages that mimic legitimate developer tools. This attack vector aims to compromise developer environments, exfiltrate credentials, and deploy malware.",
       "date": "2026-06-04T12:35:11.000Z",
       "link": "https://hackread.com/lazarus-group-npm-brandjacking-target-developers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1b6bfc03-cab9-438e-9808-143f16d325e8",
@@ -5477,28 +5499,6 @@
       "summary": "Anthropic's Project Glasswing initiative has utilized AI to identify over 10,000 high- or critical-severity vulnerabilities in essential global software systems within its first month of operation.",
       "date": "2026-05-23T11:55:35.000Z",
       "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-      "isTopTen": false
-    },
-    {
-      "id": "617a7ea9-e5fb-4797-9a23-cd187a048e43",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "RondoDox Botnet Exploits Critical 2018 Vulnerability to Hijack ASUS Routers",
-      "summary": "The RondoDox botnet is actively leveraging a critical 2018 security vulnerability to bypass authentication and compromise over a million ASUS routers. This campaign highlights the persistent risk posed by unpatched legacy vulnerabilities in network hardware.",
-      "date": "2026-05-23T11:16:40.000Z",
-      "link": "https://hackread.com/rondodox-botnet-2018-vulnerability-hijack-asus-routers/",
-      "isTopTen": false
-    },
-    {
-      "id": "55db4c23-3f09-49bd-bdbe-295b3a934f4c",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI eyes scanning for bugs create a worrisome Linux security trend",
-      "summary": "The emergence of AI-driven vulnerability discovery tools is accelerating the identification of Linux kernel flaws, such as Dirty Frag and Copy Fail, creating new challenges for system security maintenance. This trend suggests that attackers are increasingly leveraging automated systems to find and exploit vulnerabilities at a faster pace.",
-      "date": "2026-05-23T10:59:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/23/ai-eyes-scanning-for-bugs-create-a-worrisome-linux-security-trend/5244742",
       "isTopTen": false
     }
   ]
