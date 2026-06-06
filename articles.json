@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-06T16:18:36.510Z",
+  "lastUpdated": "2026-06-06T19:42:07.316Z",
   "articles": [
+    {
+      "id": "090370cf-3396-4514-a025-3e6ac5820a9a",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "New Pink Extortion Group Targets Microsoft 365 Cloud Data Via Vishing Scams",
+      "summary": "The Pink Extortion Group is utilizing vishing techniques to circumvent multi-factor authentication and exfiltrate sensitive files from Microsoft 365 cloud environments. Security researchers advise organizations to be alert to these sophisticated voice-based social engineering attacks.",
+      "date": "2026-06-06T18:47:34.000Z",
+      "link": "https://hackread.com/pink-extortion-microsoft-365-cloud-data-vishing-scams/",
+      "isTopTen": true
+    },
+    {
+      "id": "e7003d48-7f4f-4e2c-8f9f-4e962223064c",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Report: Anthropic Deploys Engineers to Support NSA Use of Mythos",
+      "summary": "Anthropic has deployed engineers to the National Security Agency to assist with the integration and utilization of its advanced Mythos AI model for intelligence and offensive cyber operations.",
+      "date": "2026-06-06T16:18:53.000Z",
+      "link": "https://securityaffairs.com/193234/ai/report-anthropic-deploys-engineers-to-support-nsa-use-of-mythos.html",
+      "isTopTen": false
+    },
     {
       "id": "c991ba8a-6882-4001-b088-d7c2b14ae78d",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "A critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin is being actively exploited to allow attackers to gain full administrative control over WordPress sites.",
       "date": "2026-06-06T14:09:26.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "48a5d443-9f08-43d2-95be-5cdfb7b62915",
@@ -65,7 +87,7 @@
       "summary": "An autonomous AI agent discovered 21 zero-day vulnerabilities in FFmpeg, while Google addressed a record-breaking 429 security bugs in its latest Chrome release.",
       "date": "2026-06-06T07:28:30.000Z",
       "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3293d064-1405-4309-8eb6-8ade9eea721a",
@@ -120,7 +142,7 @@
       "summary": "The threat group identified as 'Chatty Spider' has evolved its tactics to include physical intimidation, threatening to deliver malware via USB drives if victims refuse to comply with their extortion demands.",
       "date": "2026-06-05T21:18:42.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/05/if-you-dont-fall-for-these-extortionists-calls-theyll-show-up-with-usb-sticks/5251891",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f4a3890f-09cb-40f4-9ad6-ec8e3955bc9f",
@@ -164,7 +186,7 @@
       "summary": "Threat actors are targeting the npm ecosystem with malicious packages that distribute a Rust-based information stealer and a self-spreading worm protected by a kernel rootkit. This supply chain attack utilizes over 50 poisoned packages to compromise developer machines and exfiltrate secrets.",
       "date": "2026-06-05T18:05:30.000Z",
       "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "37543e1b-5740-4017-945a-2972b3c6a57c",
@@ -230,7 +252,7 @@
       "summary": "Over 900 automatic tank gauge systems in the US are publicly exposed and vulnerable to cyberattacks, posing a significant risk to critical infrastructure. These systems are used to monitor fuel and chemical storage, making them high-value targets for malicious actors.",
       "date": "2026-06-05T14:50:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a5e59ba6-b4e2-4aa1-ab16-d309adce7b45",
@@ -252,7 +274,7 @@
       "summary": "Unit 42 reports active exploitation of the PAN-OS vulnerability CVE-2026-0257 and provides guidance on indicators of activity and necessary mitigations.",
       "date": "2026-06-05T14:05:42.000Z",
       "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c0ea3e47-3b93-4023-bb77-dc12771c2ad9",
@@ -329,7 +351,7 @@
       "summary": "Dashlane confirmed that attackers successfully accessed and copied encrypted password vaults from a subset of user accounts through a brute-force attack. The company stated that its internal systems remained secure and the incident was limited to specific account access.",
       "date": "2026-06-05T11:34:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/dashlane-brute-force-attack-vaults-customer-accounts/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f7c8749b-23fe-4ccd-ada7-210c1afa3295",
@@ -417,7 +439,7 @@
       "summary": "Researchers at SafeBreach discovered a 'Fake Context Alignment' attack that leverages hidden foreign-language text in notifications to manipulate Google Gemini into executing unauthorized commands. This vulnerability allows attackers to bypass security defenses and control smart home devices via voice assistant integrations.",
       "date": "2026-06-05T07:32:14.000Z",
       "link": "https://securityaffairs.com/193165/ai/fake-context-alignment-the-attack-that-made-gemini-obey-strangers-through-your-notifications.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bdbfd852-a593-4ab5-95fd-284ab5db6639",
@@ -505,7 +527,7 @@
       "summary": "Autonomous AI agents pose significant security risks, as demonstrated by a case where a compromised agent exfiltrated six million customer records via a malicious upstream instruction. As AI agent populations grow, existing enterprise governance frameworks struggle to effectively manage and secure these autonomous systems.",
       "date": "2026-06-05T05:00:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/ai-agent-governance-video/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0576f6d9-35f1-4a6a-9913-1cf256cb39cc",
@@ -637,7 +659,7 @@
       "summary": "Recent research highlights that the integration of AI agents in business environments creates new avenues for both malicious and accidental insider data exposure. The study emphasizes the growing security risks associated with autonomous tools handling sensitive organizational information.",
       "date": "2026-06-04T18:06:21.000Z",
       "link": "https://cyberscoop.com/ai-agent-insider-threat-cybersecurity-dtex/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1474dbb4-6d56-4a8d-a727-dac4c1d45ea6",
@@ -681,7 +703,7 @@
       "summary": "CISA has added the critical CVE-2026-45247 vulnerability affecting the Mirasvit Full Page Cache Warmer extension to its Known Exploited Vulnerabilities catalog. The flaw, which carries a CVSS score of 9.3, is actively being exploited in the wild.",
       "date": "2026-06-04T17:10:17.000Z",
       "link": "https://securityaffairs.com/193156/security/u-s-cisa-adds-mirasvit-full-page-cache-warmer-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "983e3fab-aa3b-428a-84e9-df94dc788656",
@@ -5477,28 +5499,6 @@
       "summary": "This newsletter highlights several recent supply chain attacks and malware campaigns targeting npm packages and GitHub actions, emphasizing the growing threat to software development ecosystems. It covers incidents involving credential stealers, Shai-Hulud clones, and compromised development tools.",
       "date": "2026-05-24T12:11:38.000Z",
       "link": "https://securityaffairs.com/192598/malware/security-affairs-malware-newsletter-round-98.html",
-      "isTopTen": false
-    },
-    {
-      "id": "83847efb-f6ee-422d-a1b8-1cc3b203a1ec",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Security Affairs newsletter Round 578 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "summary": "This newsletter highlights a critical SQL injection vulnerability in Drupal (CVE-2026-9082) that is currently being exploited in the wild, alongside discussions on extortion-based cyberattacks.",
-      "date": "2026-05-24T11:51:37.000Z",
-      "link": "https://securityaffairs.com/192586/hacking/security-affairs-newsletter-round-578-by-pierluigi-paganini-international-edition.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7251fd1c-2d57-46fb-8301-233ac708bc93",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Anthropic’s Project Glasswing: 10,000+ Vulnerabilities Found in One Month, and the Patching Problem Has Never Been More Obvious",
-      "summary": "Anthropic's Project Glasswing, powered by the Claude Mythos Preview, identified over 10,000 critical security vulnerabilities in its first month, highlighting a significant and growing gap in organizational patching capabilities.",
-      "date": "2026-05-24T09:07:55.000Z",
-      "link": "https://securityaffairs.com/192576/ai/anthropics-glasswing-10000-vulnerabilities-found-in-one-month-and-the-patching-problem-has-never-been-more-obvious.html",
       "isTopTen": false
     }
   ]
