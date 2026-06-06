@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-06T13:55:00.343Z",
+  "lastUpdated": "2026-06-06T16:18:36.510Z",
   "articles": [
+    {
+      "id": "c991ba8a-6882-4001-b088-d7c2b14ae78d",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+      "summary": "A critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin is being actively exploited to allow attackers to gain full administrative control over WordPress sites.",
+      "date": "2026-06-06T14:09:26.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "isTopTen": true
+    },
+    {
+      "id": "48a5d443-9f08-43d2-95be-5cdfb7b62915",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+      "summary": "OpenAI has introduced a new Lockdown Mode for ChatGPT designed to mitigate data exfiltration risks stemming from prompt injection attacks. This security feature targets users handling sensitive information across all account tiers.",
+      "date": "2026-06-06T13:36:57.000Z",
+      "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "isTopTen": false
+    },
     {
       "id": "96adc9c3-3488-48a0-8fc3-a71951cfcf43",
       "source": "The Hacker News",
@@ -10,7 +32,7 @@
       "summary": "Researchers discovered that Bright Data's SDK in certain free apps turns consumer devices, including smart TVs, into residential proxy nodes used for commercial web-scraping and AI data collection. This practice utilizes device resources without user awareness to facilitate large-scale traffic relay.",
       "date": "2026-06-06T08:29:05.000Z",
       "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f058d189-7968-41b3-9dc1-0408ce5ef795",
@@ -32,7 +54,7 @@
       "summary": "Security researcher Taylor Hornby utilized Claude Opus 4.8 to discover a four-year-old critical vulnerability in the Zcash Orchard privacy protocol, which potentially allowed for the creation of counterfeit coins. It remains unknown if this exploit was discovered or utilized by malicious actors prior to its identification.",
       "date": "2026-06-06T07:53:05.000Z",
       "link": "https://securityaffairs.com/193224/hacking/claude-opus-found-a-four-year-old-hole-in-zcashs-privacy-layer-nobody-knows-if-someone-already-used-it.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6e228f2e-186c-4ac8-a6d8-f31e6dcd2990",
@@ -43,7 +65,7 @@
       "summary": "An autonomous AI agent discovered 21 zero-day vulnerabilities in FFmpeg, while Google addressed a record-breaking 429 security bugs in its latest Chrome release.",
       "date": "2026-06-06T07:28:30.000Z",
       "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3293d064-1405-4309-8eb6-8ade9eea721a",
@@ -131,7 +153,7 @@
       "summary": "A Chinese state-sponsored threat actor known as UNC5221 is utilizing newly identified malware variants, including Plenet and AgentPSD, to maintain persistent unauthorized access to Microsoft 365 environments.",
       "date": "2026-06-05T18:09:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8d9b660-b3d8-442c-ab9e-b2cd80487454",
@@ -208,7 +230,7 @@
       "summary": "Over 900 automatic tank gauge systems in the US are publicly exposed and vulnerable to cyberattacks, posing a significant risk to critical infrastructure. These systems are used to monitor fuel and chemical storage, making them high-value targets for malicious actors.",
       "date": "2026-06-05T14:50:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a5e59ba6-b4e2-4aa1-ab16-d309adce7b45",
@@ -230,7 +252,7 @@
       "summary": "Unit 42 reports active exploitation of the PAN-OS vulnerability CVE-2026-0257 and provides guidance on indicators of activity and necessary mitigations.",
       "date": "2026-06-05T14:05:42.000Z",
       "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c0ea3e47-3b93-4023-bb77-dc12771c2ad9",
@@ -395,7 +417,7 @@
       "summary": "Researchers at SafeBreach discovered a 'Fake Context Alignment' attack that leverages hidden foreign-language text in notifications to manipulate Google Gemini into executing unauthorized commands. This vulnerability allows attackers to bypass security defenses and control smart home devices via voice assistant integrations.",
       "date": "2026-06-05T07:32:14.000Z",
       "link": "https://securityaffairs.com/193165/ai/fake-context-alignment-the-attack-that-made-gemini-obey-strangers-through-your-notifications.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bdbfd852-a593-4ab5-95fd-284ab5db6639",
@@ -483,7 +505,7 @@
       "summary": "Autonomous AI agents pose significant security risks, as demonstrated by a case where a compromised agent exfiltrated six million customer records via a malicious upstream instruction. As AI agent populations grow, existing enterprise governance frameworks struggle to effectively manage and secure these autonomous systems.",
       "date": "2026-06-05T05:00:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/ai-agent-governance-video/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0576f6d9-35f1-4a6a-9913-1cf256cb39cc",
@@ -659,7 +681,7 @@
       "summary": "CISA has added the critical CVE-2026-45247 vulnerability affecting the Mirasvit Full Page Cache Warmer extension to its Known Exploited Vulnerabilities catalog. The flaw, which carries a CVSS score of 9.3, is actively being exploited in the wild.",
       "date": "2026-06-04T17:10:17.000Z",
       "link": "https://securityaffairs.com/193156/security/u-s-cisa-adds-mirasvit-full-page-cache-warmer-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "983e3fab-aa3b-428a-84e9-df94dc788656",
@@ -5477,28 +5499,6 @@
       "summary": "Anthropic's Project Glasswing, powered by the Claude Mythos Preview, identified over 10,000 critical security vulnerabilities in its first month, highlighting a significant and growing gap in organizational patching capabilities.",
       "date": "2026-05-24T09:07:55.000Z",
       "link": "https://securityaffairs.com/192576/ai/anthropics-glasswing-10000-vulnerabilities-found-in-one-month-and-the-patching-problem-has-never-been-more-obvious.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3bcd75eb-d9b0-47a7-9bed-3a480e7f6e0c",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Week in review: GitHub breached via poisoned VS Code extension, critical NGINX flaw exploited",
-      "summary": "GitHub confirmed an internal breach caused by a malicious VS Code extension, alongside reports of active exploitation of a critical NGINX vulnerability.",
-      "date": "2026-05-24T08:00:37.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/24/week-in-review-github-breached-via-poisoned-vs-code-extension-critical-nginx-flaw-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "0279b597-8548-492f-8255-b89bd6fa18b3",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds a flaw in Drupal Core to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a critical vulnerability in Drupal Core. This action mandates that federal agencies address the security flaw to mitigate potential exploitation risks.",
-      "date": "2026-05-24T07:54:20.000Z",
-      "link": "https://securityaffairs.com/192566/uncategorized/u-s-cisa-adds-a-flaw-in-drupal-core-to-its-known-exploited-vulnerabilities-catalog.html",
       "isTopTen": false
     }
   ]
