@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T09:29:29.318Z",
+  "lastUpdated": "2026-06-07T14:11:48.795Z",
   "articles": [
     {
       "id": "2a25d623-3d5d-44ac-ba54-deeb0f313982",
@@ -21,7 +21,7 @@
       "summary": "The U.S. CISA has added a SolarWinds Serv-U vulnerability (CVE-2026-28318) to its Known Exploited Vulnerabilities catalog, indicating active exploitation in the wild. The flaw, which has a CVSS score of 7.5, affects the company's managed file transfer software.",
       "date": "2026-06-06T21:44:53.000Z",
       "link": "https://securityaffairs.com/193245/security/u-s-cisa-adds-solarwinds-serv-u-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "090370cf-3396-4514-a025-3e6ac5820a9a",
@@ -54,7 +54,7 @@
       "summary": "A critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin is being actively exploited to allow attackers to gain full administrative control over WordPress sites.",
       "date": "2026-06-06T14:09:26.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "48a5d443-9f08-43d2-95be-5cdfb7b62915",
@@ -131,7 +131,7 @@
       "summary": "The Miasma self-replicating worm has compromised 73 Microsoft GitHub repositories, forcing the platform to restrict access to the affected areas. This supply chain attack highlights a significant security breach within major organizations including Azure and MicrosoftDocs.",
       "date": "2026-06-06T06:58:04.000Z",
       "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "42e6fdd7-c904-4194-ac4f-795916f05c0f",
@@ -142,7 +142,7 @@
       "summary": "Cisco has confirmed that a high-severity vulnerability, CVE-2026-20245, affecting Catalyst SD-WAN Manager is currently being actively exploited in the wild with no patch currently available. The flaw impacts multiple deployment types and carries a CVSS score of 7.8.",
       "date": "2026-06-06T04:19:28.000Z",
       "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f3d2c67a-5f35-4e46-8a65-7eb1d1647242",
@@ -208,7 +208,7 @@
       "summary": "Threat actors are targeting the npm ecosystem with malicious packages that distribute a Rust-based information stealer and a self-spreading worm protected by a kernel rootkit. This supply chain attack utilizes over 50 poisoned packages to compromise developer machines and exfiltrate secrets.",
       "date": "2026-06-05T18:05:30.000Z",
       "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "37543e1b-5740-4017-945a-2972b3c6a57c",
@@ -274,7 +274,7 @@
       "summary": "Over 900 automatic tank gauge systems in the US are publicly exposed and vulnerable to cyberattacks, posing a significant risk to critical infrastructure. These systems are used to monitor fuel and chemical storage, making them high-value targets for malicious actors.",
       "date": "2026-06-05T14:50:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a5e59ba6-b4e2-4aa1-ab16-d309adce7b45",
@@ -450,7 +450,7 @@
       "summary": "Anthropic's analysis of over 800 banned accounts reveals that AI tools are lowering the barrier to entry for low-skill actors to execute complex cyberattacks. The study aligns these malicious activities with the MITRE ATT&CK framework to highlight evolving threat tactics.",
       "date": "2026-06-05T08:22:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/anthropic-ai-cyber-activity-analysis/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "78da460c-de06-402f-a6e9-0fa3af6e7e6a",
@@ -461,7 +461,7 @@
       "summary": "Researchers at SafeBreach discovered a 'Fake Context Alignment' attack that leverages hidden foreign-language text in notifications to manipulate Google Gemini into executing unauthorized commands. This vulnerability allows attackers to bypass security defenses and control smart home devices via voice assistant integrations.",
       "date": "2026-06-05T07:32:14.000Z",
       "link": "https://securityaffairs.com/193165/ai/fake-context-alignment-the-attack-that-made-gemini-obey-strangers-through-your-notifications.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bdbfd852-a593-4ab5-95fd-284ab5db6639",
@@ -549,7 +549,7 @@
       "summary": "Autonomous AI agents pose significant security risks, as demonstrated by a case where a compromised agent exfiltrated six million customer records via a malicious upstream instruction. As AI agent populations grow, existing enterprise governance frameworks struggle to effectively manage and secure these autonomous systems.",
       "date": "2026-06-05T05:00:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/ai-agent-governance-video/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0576f6d9-35f1-4a6a-9913-1cf256cb39cc",
@@ -615,7 +615,7 @@
       "summary": "A sophisticated Magecart campaign is leveraging Stripe's API infrastructure to host malicious payment-skimming scripts and store stolen credit card data. This technique allows attackers to bypass security filters by blending malicious activity with legitimate service traffic.",
       "date": "2026-06-04T20:47:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e644627f-2072-49b8-90be-b2c70d9e0d53",
