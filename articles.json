@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-06-07T14:11:48.795Z",
+  "lastUpdated": "2026-06-07T16:23:51.657Z",
   "articles": [
+    {
+      "id": "adf57545-4a3d-4854-954f-d94f49a58751",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND  100",
+      "summary": "This newsletter highlights significant malware threats, including the abuse of Steam profiles for WordPress botnets, AI token theft via compromised UI tools, and a China-linked espionage campaign targeting the Czech Republic and Taiwan.",
+      "date": "2026-06-07T15:38:25.000Z",
+      "link": "https://securityaffairs.com/193268/malware/security-affairs-malware-newsletter-round-100.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7ef4e88e-3ba8-4d1b-bac1-3056843e1e4d",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 580 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "This newsletter highlights recent cybersecurity developments, including CISA's addition of a SolarWinds Serv-U vulnerability to its Known Exploited Vulnerabilities catalog. It serves as a weekly digest covering critical industry news and intelligence.",
+      "date": "2026-06-07T14:39:23.000Z",
+      "link": "https://securityaffairs.com/193260/breaking-news/security-affairs-newsletter-round-580-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a21e189b-c818-4736-beaf-67ebe038b6ee",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
+      "summary": "The C0XMO botnet, a new variant of Gafgyt, is actively exploiting vulnerabilities in DD-WRT router firmware to infect devices and eliminate competing malware. It possesses multi-architecture capabilities, allowing it to spread across diverse hardware platforms.",
+      "date": "2026-06-07T14:17:46.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
+      "isTopTen": false
+    },
+    {
+      "id": "ef1f9c91-428e-4782-8a79-1e15846c43cc",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Silent Ransom Group targets law firms with fake IT support calls",
+      "summary": "The Silent Ransom Group is using social engineering and fake IT support calls to target U.S. law firms, leading to rapid data theft. Mandiant reports that the attackers gain access and exfiltrate sensitive data within hours of initial contact.",
+      "date": "2026-06-07T14:09:19.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+      "isTopTen": false
+    },
     {
       "id": "2a25d623-3d5d-44ac-ba54-deeb0f313982",
       "source": "Help Net Security",
@@ -21,7 +65,7 @@
       "summary": "The U.S. CISA has added a SolarWinds Serv-U vulnerability (CVE-2026-28318) to its Known Exploited Vulnerabilities catalog, indicating active exploitation in the wild. The flaw, which has a CVSS score of 7.5, affects the company's managed file transfer software.",
       "date": "2026-06-06T21:44:53.000Z",
       "link": "https://securityaffairs.com/193245/security/u-s-cisa-adds-solarwinds-serv-u-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "090370cf-3396-4514-a025-3e6ac5820a9a",
@@ -32,7 +76,7 @@
       "summary": "The Pink Extortion Group is utilizing vishing techniques to circumvent multi-factor authentication and exfiltrate sensitive files from Microsoft 365 cloud environments. Security researchers advise organizations to be alert to these sophisticated voice-based social engineering attacks.",
       "date": "2026-06-06T18:47:34.000Z",
       "link": "https://hackread.com/pink-extortion-microsoft-365-cloud-data-vishing-scams/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e7003d48-7f4f-4e2c-8f9f-4e962223064c",
@@ -54,7 +98,7 @@
       "summary": "A critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin is being actively exploited to allow attackers to gain full administrative control over WordPress sites.",
       "date": "2026-06-06T14:09:26.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "48a5d443-9f08-43d2-95be-5cdfb7b62915",
@@ -131,7 +175,7 @@
       "summary": "The Miasma self-replicating worm has compromised 73 Microsoft GitHub repositories, forcing the platform to restrict access to the affected areas. This supply chain attack highlights a significant security breach within major organizations including Azure and MicrosoftDocs.",
       "date": "2026-06-06T06:58:04.000Z",
       "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "42e6fdd7-c904-4194-ac4f-795916f05c0f",
@@ -296,7 +340,7 @@
       "summary": "Unit 42 reports active exploitation of the PAN-OS vulnerability CVE-2026-0257 and provides guidance on indicators of activity and necessary mitigations.",
       "date": "2026-06-05T14:05:42.000Z",
       "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c0ea3e47-3b93-4023-bb77-dc12771c2ad9",
@@ -373,7 +417,7 @@
       "summary": "Dashlane confirmed that attackers successfully accessed and copied encrypted password vaults from a subset of user accounts through a brute-force attack. The company stated that its internal systems remained secure and the incident was limited to specific account access.",
       "date": "2026-06-05T11:34:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/dashlane-brute-force-attack-vaults-customer-accounts/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f7c8749b-23fe-4ccd-ada7-210c1afa3295",
@@ -615,7 +659,7 @@
       "summary": "A sophisticated Magecart campaign is leveraging Stripe's API infrastructure to host malicious payment-skimming scripts and store stolen credit card data. This technique allows attackers to bypass security filters by blending malicious activity with legitimate service traffic.",
       "date": "2026-06-04T20:47:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e644627f-2072-49b8-90be-b2c70d9e0d53",
@@ -5455,50 +5499,6 @@
       "summary": "This article highlights the release of the Verizon 2026 Data Breach Investigations Report (DBIR) and emphasizes its value as a essential resource for organizations to understand current security threats. It frames the report as a top-tier industry document that provides critical insights for strengthening cybersecurity posture.",
       "date": "2026-05-25T05:30:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/25/lessons-from-verizon-dbir-2026-findings/",
-      "isTopTen": false
-    },
-    {
-      "id": "111c67b0-2629-46a8-893c-33338397a163",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenHack: Open-source AI-powered vulnerability research",
-      "summary": "Hadrian has released OpenHack, an MIT-licensed, open-source project that utilizes AI agents to automate the vulnerability research process within developer coding harnesses. This tool packages expert-led research methodologies into a workspace compatible with existing AI coding assistants.",
-      "date": "2026-05-25T05:00:30.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/25/openhack-open-source-ai-powered-vulnerability-research/",
-      "isTopTen": false
-    },
-    {
-      "id": "37c7cad2-9f0a-4cbf-aa06-6a1e78765a91",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Boards want cyber risk in dollars, not CVE counts",
-      "summary": "Security leaders are increasingly pressured to translate complex technical vulnerabilities into financial risk metrics to better communicate with corporate boards. This shift emphasizes mapping cyber threats to critical business assets to justify security investment in terms executives understand.",
-      "date": "2026-05-25T04:30:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/25/translating-cyber-risk-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "dc63e3ce-8d14-4323-b50e-5d6944fd99b7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Turns out the C-suite loves shadow AI",
-      "summary": "A TrustedTech report reveals that senior decision-makers are the primary drivers of shadow AI usage, continuing to utilize unapproved tools despite clear awareness of the associated security and privacy risks. This suggests that shadow AI adoption is a leadership-driven trend rather than a grassroots employee practice.",
-      "date": "2026-05-25T04:00:27.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/25/trustedtech-workplace-shadow-ai-use-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "c3c40139-b3df-4f68-ba33-4eb8182f1c22",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hacker Selling 340 Million OnlyFans User Records Built From Old Breaches",
-      "summary": "A threat actor is offering a database of 340 million OnlyFans user records for sale, reportedly aggregated by cross-referencing previous data breaches and public profile information. This incident highlights the risks of credential stuffing and data exposure through the aggregation of legacy breach data.",
-      "date": "2026-05-25T01:20:02.000Z",
-      "link": "https://hackread.com/hacker-selling-onlyfans-user-records-old-breaches/",
       "isTopTen": false
     }
   ]
