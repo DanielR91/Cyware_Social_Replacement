@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T19:41:24.374Z",
+  "lastUpdated": "2026-06-07T22:10:19.797Z",
   "articles": [
     {
       "id": "7049a1e9-4a84-4ab1-a38e-e29141d50a81",
@@ -54,7 +54,7 @@
       "summary": "The Silent Ransom Group is using social engineering and fake IT support calls to target U.S. law firms, leading to rapid data theft. Mandiant reports that the attackers gain access and exfiltrate sensitive data within hours of initial contact.",
       "date": "2026-06-07T14:09:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2a25d623-3d5d-44ac-ba54-deeb0f313982",
@@ -76,7 +76,7 @@
       "summary": "The U.S. CISA has added a SolarWinds Serv-U vulnerability (CVE-2026-28318) to its Known Exploited Vulnerabilities catalog, indicating active exploitation in the wild. The flaw, which has a CVSS score of 7.5, affects the company's managed file transfer software.",
       "date": "2026-06-06T21:44:53.000Z",
       "link": "https://securityaffairs.com/193245/security/u-s-cisa-adds-solarwinds-serv-u-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "090370cf-3396-4514-a025-3e6ac5820a9a",
@@ -87,7 +87,7 @@
       "summary": "The Pink Extortion Group is utilizing vishing techniques to circumvent multi-factor authentication and exfiltrate sensitive files from Microsoft 365 cloud environments. Security researchers advise organizations to be alert to these sophisticated voice-based social engineering attacks.",
       "date": "2026-06-06T18:47:34.000Z",
       "link": "https://hackread.com/pink-extortion-microsoft-365-cloud-data-vishing-scams/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e7003d48-7f4f-4e2c-8f9f-4e962223064c",
@@ -186,7 +186,7 @@
       "summary": "The Miasma self-replicating worm has compromised 73 Microsoft GitHub repositories, forcing the platform to restrict access to the affected areas. This supply chain attack highlights a significant security breach within major organizations including Azure and MicrosoftDocs.",
       "date": "2026-06-06T06:58:04.000Z",
       "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "42e6fdd7-c904-4194-ac4f-795916f05c0f",
@@ -219,7 +219,7 @@
       "summary": "The threat group identified as 'Chatty Spider' has evolved its tactics to include physical intimidation, threatening to deliver malware via USB drives if victims refuse to comply with their extortion demands.",
       "date": "2026-06-05T21:18:42.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/05/if-you-dont-fall-for-these-extortionists-calls-theyll-show-up-with-usb-sticks/5251891",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f4a3890f-09cb-40f4-9ad6-ec8e3955bc9f",
@@ -252,7 +252,7 @@
       "summary": "A Chinese state-sponsored threat actor known as UNC5221 is utilizing newly identified malware variants, including Plenet and AgentPSD, to maintain persistent unauthorized access to Microsoft 365 environments.",
       "date": "2026-06-05T18:09:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e8d9b660-b3d8-442c-ab9e-b2cd80487454",
@@ -263,7 +263,7 @@
       "summary": "Threat actors are targeting the npm ecosystem with malicious packages that distribute a Rust-based information stealer and a self-spreading worm protected by a kernel rootkit. This supply chain attack utilizes over 50 poisoned packages to compromise developer machines and exfiltrate secrets.",
       "date": "2026-06-05T18:05:30.000Z",
       "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "37543e1b-5740-4017-945a-2972b3c6a57c",
@@ -406,7 +406,7 @@
       "summary": "The World Food Programme suffered a data breach exposing the personal information of approximately 600,000 vulnerable families in Gaza. Despite the security compromise, the agency has confirmed that aid distribution efforts will continue uninterrupted.",
       "date": "2026-06-05T13:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/05/world-food-programme-breach-exposes-data-of-600k-vulnerable-gazan-families/5251605",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a8925f0e-196b-41e0-93d7-8bfc2fac6e12",
@@ -428,7 +428,7 @@
       "summary": "Dashlane confirmed that attackers successfully accessed and copied encrypted password vaults from a subset of user accounts through a brute-force attack. The company stated that its internal systems remained secure and the incident was limited to specific account access.",
       "date": "2026-06-05T11:34:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/dashlane-brute-force-attack-vaults-customer-accounts/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f7c8749b-23fe-4ccd-ada7-210c1afa3295",
@@ -604,7 +604,7 @@
       "summary": "Autonomous AI agents pose significant security risks, as demonstrated by a case where a compromised agent exfiltrated six million customer records via a malicious upstream instruction. As AI agent populations grow, existing enterprise governance frameworks struggle to effectively manage and secure these autonomous systems.",
       "date": "2026-06-05T05:00:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/ai-agent-governance-video/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0576f6d9-35f1-4a6a-9913-1cf256cb39cc",
