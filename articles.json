@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-06-08T20:29:23.227Z",
+  "lastUpdated": "2026-06-08T22:51:27.071Z",
   "articles": [
+    {
+      "id": "2e1f1241-fa85-47cb-9ab7-2b8deb32d8e8",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Norks blast 250+ fake job offers to developers over 6 weeks to try and snarf creds and crypto",
+      "summary": "North Korean state-sponsored actors have launched a campaign using over 250 fraudulent job offers to target software developers, aiming to steal credentials and cryptocurrency. The operation reflects an ongoing effort to exploit technical professionals for financial gain.",
+      "date": "2026-06-08T22:13:20.000Z",
+      "link": "https://www.theregister.com/security/2026/06/08/suspected-norks-send-250-fake-dev-job-pitches-to-steal-crypto/5252526",
+      "isTopTen": false
+    },
+    {
+      "id": "67a371a4-b225-48c4-b880-13993bd9eeb0",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+      "summary": "The NFCShare Android malware is actively targeting users by masquerading as legitimate banking app updates hosted on GitHub. This campaign leverages social engineering to infect devices through third-party distribution platforms.",
+      "date": "2026-06-08T22:11:58.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+      "isTopTen": false
+    },
+    {
+      "id": "8981b11b-3f89-4a38-a1c4-636335152189",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+      "summary": "SoFi Hong Kong reported a data breach caused by unauthorized access to a database held by a third-party vendor. The incident exposed customer information to external attackers.",
+      "date": "2026-06-08T21:55:46.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+      "isTopTen": false
+    },
+    {
+      "id": "3441746f-035b-4674-a868-a72460320e1d",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New Apple feature automatically changes your compromised passwords",
+      "summary": "Apple introduced an AI-powered feature for Safari in iOS 27 that automatically updates weak or compromised user passwords. This capability aims to improve account security by proactively addressing credential vulnerabilities.",
+      "date": "2026-06-08T21:03:40.000Z",
+      "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+      "isTopTen": false
+    },
+    {
+      "id": "1e407fcb-d3d7-4213-9d55-c7d58f22d9ef",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Meta Accuses NSO of Violating WhatsApp Court Injunction",
+      "summary": "Meta has accused NSO Group of breaching a permanent court injunction by continuing to target WhatsApp users with phishing campaigns and unauthorized test accounts. This legal escalation follows a previous landmark ruling that explicitly prohibited NSO Group from accessing or targeting Meta's platforms.",
+      "date": "2026-06-08T20:42:49.000Z",
+      "link": "https://securityaffairs.com/193333/security/meta-accuses-nso-of-violating-whatsapp-court-injunction.html",
+      "isTopTen": false
+    },
+    {
+      "id": "58c39b17-1697-450a-8bbe-5aa184744802",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+      "summary": "Hackers have compromised 19 science-focused PyPI packages in a supply-chain attack dubbed Shai-Hulud, which aims to steal sensitive secrets from developers. The malicious packages have been downloaded hundreds of thousands of times, posing a significant risk to the software supply chain.",
+      "date": "2026-06-08T20:41:35.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+      "isTopTen": false
+    },
+    {
+      "id": "a5971a11-cfb5-4387-b60a-a7c328d1aebb",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "UK gives big tech 3 months to create device controls to block nude images of kids",
+      "summary": "The UK government has mandated that tech companies implement device-level controls within three months to detect and block nude imagery of minors on smartphones and tablets. This regulatory measure aims to enhance online child safety through mandatory technical solutions.",
+      "date": "2026-06-08T20:24:00.000Z",
+      "link": "https://therecord.media/uk-gives-big-tech-3-months-to-create-device-controls-kid-images",
+      "isTopTen": false
+    },
+    {
+      "id": "fcba8bf4-ce9b-434d-b640-cfa7c1bacae5",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+      "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables component allows local unprivileged users to gain root access and escape containers. Publicly available exploit code increases the risk of exploitation for unpatched systems.",
+      "date": "2026-06-08T20:17:39.000Z",
+      "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+      "isTopTen": false
+    },
     {
       "id": "954ead27-ad6d-45f4-8f6f-f0dc05c2526d",
       "source": "HackRead",
@@ -10,7 +98,7 @@
       "summary": "Operation FlutterBridge employs malicious Google advertisements and shell companies to distribute a new macOS backdoor known as FlutterShell. The campaign leverages these deceptive tactics to compromise unsuspecting users' systems.",
       "date": "2026-06-08T18:56:07.000Z",
       "link": "https://hackread.com/op-flutterbridge-fake-google-ads-spread-macos-backdoor/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5804ced6-fd34-4bca-aef3-85b97b4f0577",
@@ -43,7 +131,7 @@
       "summary": "Meta has filed a contempt of court complaint against NSO Group, alleging the firm violated a previous injunction by launching spearphishing campaigns against WhatsApp users. This legal action highlights ongoing efforts to hold the spyware developer accountable for unauthorized surveillance activities.",
       "date": "2026-06-08T17:11:39.000Z",
       "link": "https://cyberscoop.com/meta-contempt-complaint-nso-group-spyware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ccdc6d62-792e-4c0c-b9ae-e9aecc853ead",
@@ -54,7 +142,7 @@
       "summary": "Threat actors, including a Qilin ransomware affiliate, exploited a Check Point VPN zero-day vulnerability for a month before a patch was released. The flaw allowed unauthorized access, and users are urged to apply the available fix immediately.",
       "date": "2026-06-08T17:10:31.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/08/attackers-had-month-long-head-start-on-patched-check-point-vpn-zero-day/5252438",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "88c1fd89-b319-496f-ba7b-5833226a783d",
@@ -131,7 +219,7 @@
       "summary": "A chain of three previously disclosed vulnerabilities in Ubiquiti UniFi OS allows unauthenticated attackers to achieve remote code execution with root-level access. Although patches are available, the flaw poses a significant risk to systems that remain unupdated.",
       "date": "2026-06-08T15:51:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a92e7962-ff0d-4942-933f-877f8c1a5f3c",
@@ -197,7 +285,7 @@
       "summary": "GitHub suspended over 70 Microsoft repositories after they were compromised by the Miasma worm, which aimed to scrape cloud secrets. The removal caused widespread disruption to CI/CD pipelines relying on those repositories.",
       "date": "2026-06-08T13:56:50.000Z",
       "link": "https://www.theregister.com/security/2026/06/08/github-nukes-70-microsoft-repos-amid-suspected-worm-attack/5252169",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "17576f98-9683-46cb-80e9-c2e0f1afa985",
@@ -208,7 +296,7 @@
       "summary": "Attackers exploited a vulnerability in Meta's AI-assisted 'High Touch Support' recovery system to hijack over 20,000 Instagram accounts by triggering unauthorized password resets. The flaw allowed unauthorized parties to bypass standard security measures within the account recovery workflow.",
       "date": "2026-06-08T13:50:42.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/08/instagram-ai-support-vulnerability-account-takeovers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "27fdef05-d574-4ec1-98b6-9cbdbb8158af",
@@ -351,7 +439,7 @@
       "summary": "The cybercrime group UNC3753 is intensifying its extortion campaign by combining vishing-based remote access attacks with physical office intrusions to compromise sensitive data. This evolution demonstrates a hybrid approach where attackers use social engineering to gain digital access and physical presence to deploy malicious hardware.",
       "date": "2026-06-08T10:46:36.000Z",
       "link": "https://securityaffairs.com/193315/cyber-crime/unc3753-escalates-from-vishing-calls-to-physical-office-intrusions-at-us-legal-and-financial-firms.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc164dbb-1cc1-4853-a34a-934e9faa8293",
@@ -373,7 +461,7 @@
       "summary": "CISA has issued an emergency directive for federal agencies to patch or mitigate an actively exploited uncontrolled resource consumption vulnerability in SolarWinds Serv-U that allows for remote denial-of-service attacks.",
       "date": "2026-06-08T10:26:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/08/cisa-patch-actively-exploited-solarwinds-serv-u-dos-vulnerability-cve-2026-28318/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9607b331-bebe-4e07-a611-116650c57092",
@@ -714,7 +802,7 @@
       "summary": "An autonomous AI agent discovered 21 zero-day vulnerabilities in FFmpeg, while Google addressed a record-breaking 429 security bugs in its latest Chrome release.",
       "date": "2026-06-06T07:28:30.000Z",
       "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3293d064-1405-4309-8eb6-8ade9eea721a",
@@ -747,7 +835,7 @@
       "summary": "Cisco has confirmed that a high-severity vulnerability, CVE-2026-20245, affecting Catalyst SD-WAN Manager is currently being actively exploited in the wild with no patch currently available. The flaw impacts multiple deployment types and carries a CVSS score of 7.8.",
       "date": "2026-06-06T04:19:28.000Z",
       "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3d2c67a-5f35-4e46-8a65-7eb1d1647242",
@@ -5411,94 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-26T19:46:01.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
-      "isTopTen": false
-    },
-    {
-      "id": "416121d6-fdfa-49a8-955d-c15344958e7d",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Apple open-sources quantum-resistant encryption code",
-      "summary": "Service busy.",
-      "date": "2026-05-26T19:40:26.000Z",
-      "link": "https://cyberscoop.com/apple-open-source-quantum-resistant-encryption/",
-      "isTopTen": false
-    },
-    {
-      "id": "59d641ff-65c2-4027-9d2b-672a9782feae",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "White House charts new course for federal agencies and cybersecurity logging",
-      "summary": "Service busy.",
-      "date": "2026-05-26T19:09:46.000Z",
-      "link": "https://cyberscoop.com/white-house-federal-cybersecurity-logging-rules/",
-      "isTopTen": false
-    },
-    {
-      "id": "85dc2a91-8faf-4d76-819a-45639be9452e",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Trojanized Gemini and Claude Installers Target Developers Via SEO Poisoning",
-      "summary": "Service busy.",
-      "date": "2026-05-26T18:46:47.000Z",
-      "link": "https://hackread.com/trojan-gemini-claude-installers-developers-seo-poisoning/",
-      "isTopTen": false
-    },
-    {
-      "id": "f3d691ef-875d-4e90-becb-ae471a67d028",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "MyPillow must decide whether to be firm or soft as ransomware crims demand pay",
-      "summary": "Service busy.",
-      "date": "2026-05-26T18:02:48.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/05/26/mypillow-appears-on-play-ransomware-leak-site/5246513",
-      "isTopTen": false
-    },
-    {
-      "id": "66bea9f6-8a71-4ea9-a5fc-7427cf37deb5",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "The Hidden Ransomware Economy Running on Exposed Databases",
-      "summary": "Service busy.",
-      "date": "2026-05-26T17:57:22.000Z",
-      "link": "https://securityaffairs.com/192711/cyber-crime/the-hidden-ransomware-economy-running-on-exposed-databases.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0c9e0720-387b-424e-aa8b-ed3540e30b14",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Claude Mythos AI Identified 10,000+ Software Vulnerabilities in One Month",
-      "summary": "Service busy.",
-      "date": "2026-05-26T15:55:05.000Z",
-      "link": "https://hackread.com/claude-mythos-ai-vulnerabilities-one-month/",
-      "isTopTen": false
-    },
-    {
-      "id": "b19973e2-f861-4659-87d0-f40f038d98ee",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
-      "summary": "Service busy.",
-      "date": "2026-05-26T15:48:41.000Z",
-      "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-      "isTopTen": false
-    },
-    {
-      "id": "da117f3a-e1c1-490a-9568-b964bdbd0c69",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic: Mythos finds more than 10,000 software flaws in first month",
-      "summary": "Service busy.",
-      "date": "2026-05-26T15:15:51.000Z",
-      "link": "https://cyberscoop.com/anthropic-mythos-software-flaws-glasswing/",
       "isTopTen": false
     }
   ]
