@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-07T22:10:19.797Z",
+  "lastUpdated": "2026-06-08T04:27:40.384Z",
   "articles": [
+    {
+      "id": "85c9f50a-2d72-49ca-b450-25db8935df93",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "GitHub Copilot app launches as desktop home for AI coding agents",
+      "summary": "GitHub has launched a dedicated desktop application for its Copilot service, providing a centralized workspace to manage multiple AI coding agents. The app is currently available in technical preview for existing Copilot subscribers.",
+      "date": "2026-06-08T04:15:02.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/08/github-copilot-app-ai-coding-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "ae5cb641-51fc-4a15-82fb-fee9602d4f20",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "52% of direct-to-IP threats are missing from intelligence feeds",
+      "summary": "Attackers are increasingly bypassing security filters by communicating directly via IP addresses, leaving over half of these threats undetected by standard intelligence feeds. This visibility gap creates a significant blind spot for security systems at the network edge.",
+      "date": "2026-06-08T04:00:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/08/palo-alto-networks-securing-ip-connections-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "23ac75c0-ce7f-4337-8581-010e62aed2c0",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
+      "summary": "Microsoft has introduced Intelligent Terminal, an open-source AI-integrated fork of Windows Terminal that enables users to utilize AI tools directly within their command-line sessions.",
+      "date": "2026-06-07T23:20:02.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
+      "isTopTen": false
+    },
     {
       "id": "7049a1e9-4a84-4ab1-a38e-e29141d50a81",
       "source": "Security Affairs",
@@ -76,7 +109,7 @@
       "summary": "The U.S. CISA has added a SolarWinds Serv-U vulnerability (CVE-2026-28318) to its Known Exploited Vulnerabilities catalog, indicating active exploitation in the wild. The flaw, which has a CVSS score of 7.5, affects the company's managed file transfer software.",
       "date": "2026-06-06T21:44:53.000Z",
       "link": "https://securityaffairs.com/193245/security/u-s-cisa-adds-solarwinds-serv-u-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "090370cf-3396-4514-a025-3e6ac5820a9a",
@@ -98,7 +131,7 @@
       "summary": "Anthropic has deployed engineers to the National Security Agency to assist with the integration and utilization of its advanced Mythos AI model for intelligence and offensive cyber operations.",
       "date": "2026-06-06T16:18:53.000Z",
       "link": "https://securityaffairs.com/193234/ai/report-anthropic-deploys-engineers-to-support-nsa-use-of-mythos.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c991ba8a-6882-4001-b088-d7c2b14ae78d",
@@ -109,7 +142,7 @@
       "summary": "A critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin is being actively exploited to allow attackers to gain full administrative control over WordPress sites.",
       "date": "2026-06-06T14:09:26.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "48a5d443-9f08-43d2-95be-5cdfb7b62915",
@@ -219,7 +252,7 @@
       "summary": "The threat group identified as 'Chatty Spider' has evolved its tactics to include physical intimidation, threatening to deliver malware via USB drives if victims refuse to comply with their extortion demands.",
       "date": "2026-06-05T21:18:42.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/05/if-you-dont-fall-for-these-extortionists-calls-theyll-show-up-with-usb-sticks/5251891",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f4a3890f-09cb-40f4-9ad6-ec8e3955bc9f",
@@ -252,7 +285,7 @@
       "summary": "A Chinese state-sponsored threat actor known as UNC5221 is utilizing newly identified malware variants, including Plenet and AgentPSD, to maintain persistent unauthorized access to Microsoft 365 environments.",
       "date": "2026-06-05T18:09:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8d9b660-b3d8-442c-ab9e-b2cd80487454",
@@ -406,7 +439,7 @@
       "summary": "The World Food Programme suffered a data breach exposing the personal information of approximately 600,000 vulnerable families in Gaza. Despite the security compromise, the agency has confirmed that aid distribution efforts will continue uninterrupted.",
       "date": "2026-06-05T13:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/05/world-food-programme-breach-exposes-data-of-600k-vulnerable-gazan-families/5251605",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a8925f0e-196b-41e0-93d7-8bfc2fac6e12",
@@ -516,7 +549,7 @@
       "summary": "Researchers at SafeBreach discovered a 'Fake Context Alignment' attack that leverages hidden foreign-language text in notifications to manipulate Google Gemini into executing unauthorized commands. This vulnerability allows attackers to bypass security defenses and control smart home devices via voice assistant integrations.",
       "date": "2026-06-05T07:32:14.000Z",
       "link": "https://securityaffairs.com/193165/ai/fake-context-alignment-the-attack-that-made-gemini-obey-strangers-through-your-notifications.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bdbfd852-a593-4ab5-95fd-284ab5db6639",
@@ -604,7 +637,7 @@
       "summary": "Autonomous AI agents pose significant security risks, as demonstrated by a case where a compromised agent exfiltrated six million customer records via a malicious upstream instruction. As AI agent populations grow, existing enterprise governance frameworks struggle to effectively manage and secure these autonomous systems.",
       "date": "2026-06-05T05:00:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/05/ai-agent-governance-video/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0576f6d9-35f1-4a6a-9913-1cf256cb39cc",
@@ -5466,39 +5499,6 @@
       "summary": "Dutch authorities arrested two individuals and seized 800 servers associated with Stark Industries, a hosting provider allegedly facilitating cyberattacks and disinformation campaigns. The operation targeted infrastructure suspected of supporting Russian interference activities.",
       "date": "2026-05-25T08:54:45.000Z",
       "link": "https://securityaffairs.com/192602/intelligence/dutch-authorities-dismantle-hosting-network-allegedly-used-for-cyberattacks-and-disinformation.html",
-      "isTopTen": false
-    },
-    {
-      "id": "78e3204f-e41e-44ac-b4ac-79dcecb7c89f",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic to release Mythos-class models to the public",
-      "summary": "Anthropic is expanding access to its Mythos-class AI vulnerability-detection models to government and select users while continuing to develop safety guardrails. The company remains cautious about a full public release to prevent potential misuse of the flaw-finding capabilities.",
-      "date": "2026-05-25T07:09:26.000Z",
-      "link": "https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596",
-      "isTopTen": false
-    },
-    {
-      "id": "ee0d7139-1d86-4ff2-9d40-c416b3a26589",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "FBI director Kash Patel’s brand website taken offline after malware reports",
-      "summary": "The merchandise website for FBI Director Kash Patel was taken offline following a compromise that leveraged a fake Cloudflare prompt to execute a ClickFix malware attack on visitors.",
-      "date": "2026-05-25T06:54:15.000Z",
-      "link": "https://securityaffairs.com/192613/security/fbi-director-kash-patels-brand-website-taken-offline-after-malware-reports.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d209c9d5-5542-4c46-8647-982881bbd52a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
-      "summary": "The TrapDoor supply chain attack campaign has compromised over 34 malicious packages across npm, PyPI, and Crates.io to distribute credential-stealing malware. This coordinated effort involves hundreds of malicious package versions impacting multiple software development ecosystems.",
-      "date": "2026-05-25T05:59:13.000Z",
-      "link": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
       "isTopTen": false
     }
   ]
