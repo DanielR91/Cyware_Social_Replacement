@@ -1,6 +1,237 @@
 {
-  "lastUpdated": "2026-06-08T11:16:49.996Z",
+  "lastUpdated": "2026-06-08T16:11:49.910Z",
   "articles": [
+    {
+      "id": "1d1f67e2-c8bd-4c80-801c-e5372d02ccdd",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical UniFi OS bug lets hackers gain root without authentication",
+      "summary": "A chain of three previously disclosed vulnerabilities in Ubiquiti UniFi OS allows unauthenticated attackers to achieve remote code execution with root-level access. Although patches are available, the flaw poses a significant risk to systems that remain unupdated.",
+      "date": "2026-06-08T15:51:19.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+      "isTopTen": true
+    },
+    {
+      "id": "a92e7962-ff0d-4942-933f-877f8c1a5f3c",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ransomware sends Illinois high school on an early summer vacation",
+      "summary": "An Illinois high school was forced to close early due to a ransomware attack, while a separate cyberattack impacted 13 schools across Wales. Both incidents highlight the increasing vulnerability of educational institutions to disruptive malware campaigns.",
+      "date": "2026-06-08T15:46:52.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/06/08/ransomware-attack-shuts-illinois-high-school-until-wednesday/5252322",
+      "isTopTen": false
+    },
+    {
+      "id": "60cbdf1c-7704-4555-ab86-da5d6e19534f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+      "summary": "Check Point has reported active exploitation of a critical, high-severity vulnerability (CVE-2026-50751) in its VPN products that allows unauthenticated attackers to bypass password authentication via IKEv1. Users are urged to address deployments using this deprecated key exchange protocol.",
+      "date": "2026-06-08T14:17:39.000Z",
+      "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a6312dd4-5cda-40d1-a5eb-e7d70dd97938",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Everest Forms Pro WordPress Flaw is Handing Attackers Admin Access",
+      "summary": "Service busy.",
+      "date": "2026-06-08T14:11:44.000Z",
+      "link": "https://securityaffairs.com/193325/security/everest-forms-pro-wordpress-flaw-is-handing-attackers-admin-access.html",
+      "isTopTen": false
+    },
+    {
+      "id": "887566a1-3da0-4fbd-85e5-349dee4d6ea0",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Russia upgrades rules for its digital spy system to better track citizens online",
+      "summary": "Russia has updated the technical standards for its SORM surveillance system, enhancing the government's ability to monitor and track citizens' online activities. These new regulations formalize stricter control over digital communications data.",
+      "date": "2026-06-08T14:04:00.000Z",
+      "link": "https://therecord.media/russia-upgrades-rules-for-digital-spy-system-sorm",
+      "isTopTen": false
+    },
+    {
+      "id": "3fe65ddc-013d-4c84-af1a-3f4bf4965177",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Reducing security operations complexity with Wazuh Cloud",
+      "summary": "Wazuh Cloud aims to alleviate security operations challenges like alert fatigue and infrastructure maintenance by offering a managed, scalable SIEM/XDR platform with AI-driven analysis. This solution helps teams streamline their workflows within complex hybrid environments.",
+      "date": "2026-06-08T14:01:11.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+      "isTopTen": false
+    },
+    {
+      "id": "65ad1d1b-e025-46a0-8dce-9726d84ca831",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "GitHub nukes 70+ Microsoft repos, breaks CI/CD pipelines, following suspected worm infections",
+      "summary": "GitHub suspended over 70 Microsoft repositories after they were compromised by the Miasma worm, which aimed to scrape cloud secrets. The removal caused widespread disruption to CI/CD pipelines relying on those repositories.",
+      "date": "2026-06-08T13:56:50.000Z",
+      "link": "https://www.theregister.com/security/2026/06/08/github-nukes-70-microsoft-repos-amid-suspected-worm-attack/5252169",
+      "isTopTen": true
+    },
+    {
+      "id": "17576f98-9683-46cb-80e9-c2e0f1afa985",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers used Meta’s AI support system to hijack over 20,000 Instagram accounts",
+      "summary": "Attackers exploited a vulnerability in Meta's AI-assisted 'High Touch Support' recovery system to hijack over 20,000 Instagram accounts by triggering unauthorized password resets. The flaw allowed unauthorized parties to bypass standard security measures within the account recovery workflow.",
+      "date": "2026-06-08T13:50:42.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/08/instagram-ai-support-vulnerability-account-takeovers/",
+      "isTopTen": true
+    },
+    {
+      "id": "27fdef05-d574-4ec1-98b6-9cbdbb8158af",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Silent Ransom Group Uses Fast Flux Botnet to Hide Law Firm Leak Sites",
+      "summary": "The Silent Ransom Group is targeting law firms through data theft and vishing, leveraging fast flux botnet technology to obfuscate their leak sites. This tactic aims to make their malicious infrastructure harder to track and take down.",
+      "date": "2026-06-08T13:40:06.000Z",
+      "link": "https://hackread.com/silent-ransom-group-fast-flux-botnet-leak-sites/",
+      "isTopTen": false
+    },
+    {
+      "id": "22e19135-21e9-43fd-a911-1a7d797e909a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New Relic expands observability into AI-assisted software development",
+      "summary": "New Relic has launched an open-source AI Coding Observability tool designed to provide visibility and auditing capabilities for AI-assisted software development workflows. This tool addresses the visibility gaps created when organizations integrate AI coding assistants into their existing development environments.",
+      "date": "2026-06-08T13:26:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/08/new-relic-ai-coding-observability/",
+      "isTopTen": false
+    },
+    {
+      "id": "f754b4ce-dc75-409f-b054-39eb02237c41",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+      "summary": "The use of AI-generated phishing content is significantly increasing the volume of security alerts, overwhelming Tier 1 SOC analysts and creating a risk of missing actual threats. Organizations must adopt strategies to manage this alert surge to prevent critical credential theft or malware incidents.",
+      "date": "2026-06-08T13:19:13.000Z",
+      "link": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "isTopTen": false
+    },
+    {
+      "id": "37619357-993d-4a39-aa1a-4c53fa5126f9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+      "summary": "This weekly recap highlights a series of cyber threats including Instagram account compromises, an Android zero-day, and a malicious worm spreading through GitHub repositories. The report emphasizes that despite sophisticated threats, many incidents continue to stem from basic security oversights and ongoing unauthorized inbox access.",
+      "date": "2026-06-08T13:18:57.000Z",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+      "isTopTen": false
+    },
+    {
+      "id": "dfe11303-15de-4ac5-bf40-e411742c31b5",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
+      "summary": "Check Point has patched a critical zero-day vulnerability in its VPN products that was actively exploited by the Qilin ransomware group. The company issued security updates to address the flaw and protect impacted Remote Access and Mobile Access deployments.",
+      "date": "2026-06-08T13:05:16.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+      "isTopTen": false
+    },
+    {
+      "id": "f6e84ffc-406f-44fd-8580-de944673ce3e",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Qilin ransomware affiliate exploited Check Point VPN zero-day (CVE-2026-50751)",
+      "summary": "A Qilin ransomware affiliate is actively exploiting a critical authentication bypass zero-day vulnerability (CVE-2026-50751) affecting Check Point's Remote Access and Mobile Access VPN solutions. Users are urged to address the flaw to prevent unauthorized network access.",
+      "date": "2026-06-08T12:23:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/08/check-point-cve-2026-50751-qilin-ransomware/",
+      "isTopTen": false
+    },
+    {
+      "id": "60419556-cbf3-43be-ba73-e98661831174",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "NSO Group back in Meta's crosshairs after alleged WhatsApp targeting",
+      "summary": "Meta has renewed legal action against NSO Group, alleging that the surveillance firm continued to conduct phishing operations against WhatsApp users despite previous court injunctions. This development highlights ongoing friction between tech platforms and spyware vendors regarding the misuse of communication services.",
+      "date": "2026-06-08T12:10:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/08/nso-group-back-in-metas-crosshairs-after-alleged-whatsapp-targeting/5252105",
+      "isTopTen": false
+    },
+    {
+      "id": "115ccc82-8809-4db9-986d-37362b67926b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The Hardest Fork",
+      "summary": "A security researcher claims that a complex, novel chain of minor vulnerabilities dubbed 'Mythos' poses a significant, credible threat, countering industry skepticism that it is merely a marketing stunt.",
+      "date": "2026-06-08T11:53:00.000Z",
+      "link": "https://thehackernews.com/2026/06/the-hardest-fork.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b285dee2-6f9b-48d5-af61-38e44ad0d973",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "RidgeBot 7.0 automates Active Directory attack simulations for security validation",
+      "summary": "Ridge Security has released RidgeBot 7.0, a security platform update that automates Active Directory penetration testing to identify and simulate potential domain compromise risks. This tool allows security teams to validate defenses against tactics like credential extraction and lateral movement.",
+      "date": "2026-06-08T11:34:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/08/ridge-security-ridgebot-7-0/",
+      "isTopTen": false
+    },
+    {
+      "id": "41876d1c-22d6-4570-b6b4-f4fe97b1fd3a",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Instagram Recovery Tool Bug Exposed 20,225 Accounts to Password Reset Abuse",
+      "summary": "A vulnerability in an Instagram recovery tool allowed unauthorized password resets, potentially exposing 20,225 accounts to takeover attempts. Users without two-factor authentication were particularly susceptible to this exploit.",
+      "date": "2026-06-08T11:34:20.000Z",
+      "link": "https://hackread.com/instagram-recovery-tool-bug-accounts-password-reset/",
+      "isTopTen": false
+    },
+    {
+      "id": "c9644c49-9309-4d0d-bc5d-40ae27f5a466",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "ConnectSecure’s Patch 360 gives MSPs control over patch testing and deployment",
+      "summary": "ConnectSecure has launched Patch 360, a patch management platform designed for MSPs that features a test-and-trust framework to validate patches before widespread deployment. The tool aims to reduce operational risk by providing visibility throughout the entire remediation lifecycle, from pilot testing to potential rollback.",
+      "date": "2026-06-08T11:25:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/08/connectsecure-patch-360/",
+      "isTopTen": false
+    },
+    {
+      "id": "44afe3ce-f06a-4220-991a-28e7598f5a24",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Oxford University discloses data breach after careers platform hack",
+      "summary": "Oxford University reported a data breach affecting its CareerConnect platform following a security incident at its third-party provider, Group GTI.",
+      "date": "2026-06-08T11:14:41.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+      "isTopTen": false
+    },
+    {
+      "id": "a4a72c3b-f624-40b2-b5e1-0c823b5e1f41",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "UNC3753 Escalates: From Vishing Calls to Physical Office Intrusions at US Legal and Financial Firms",
+      "summary": "The cybercrime group UNC3753 is intensifying its extortion campaign by combining vishing-based remote access attacks with physical office intrusions to compromise sensitive data. This evolution demonstrates a hybrid approach where attackers use social engineering to gain digital access and physical presence to deploy malicious hardware.",
+      "date": "2026-06-08T10:46:36.000Z",
+      "link": "https://securityaffairs.com/193315/cyber-crime/unc3753-escalates-from-vishing-calls-to-physical-office-intrusions-at-us-legal-and-financial-firms.html",
+      "isTopTen": true
+    },
     {
       "id": "fc164dbb-1cc1-4853-a34a-934e9faa8293",
       "source": "The Hacker News",
@@ -21,7 +252,7 @@
       "summary": "CISA has issued an emergency directive for federal agencies to patch or mitigate an actively exploited uncontrolled resource consumption vulnerability in SolarWinds Serv-U that allows for remote denial-of-service attacks.",
       "date": "2026-06-08T10:26:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/08/cisa-patch-actively-exploited-solarwinds-serv-u-dos-vulnerability-cve-2026-28318/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9607b331-bebe-4e07-a611-116650c57092",
@@ -384,7 +615,7 @@
       "summary": "The Miasma self-replicating worm has compromised 73 Microsoft GitHub repositories, forcing the platform to restrict access to the affected areas. This supply chain attack highlights a significant security breach within major organizations including Azure and MicrosoftDocs.",
       "date": "2026-06-06T06:58:04.000Z",
       "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "42e6fdd7-c904-4194-ac4f-795916f05c0f",
@@ -450,7 +681,7 @@
       "summary": "A Chinese state-sponsored threat actor known as UNC5221 is utilizing newly identified malware variants, including Plenet and AgentPSD, to maintain persistent unauthorized access to Microsoft 365 environments.",
       "date": "2026-06-05T18:09:47.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8d9b660-b3d8-442c-ab9e-b2cd80487454",
@@ -604,7 +835,7 @@
       "summary": "The World Food Programme suffered a data breach exposing the personal information of approximately 600,000 vulnerable families in Gaza. Despite the security compromise, the agency has confirmed that aid distribution efforts will continue uninterrupted.",
       "date": "2026-06-05T13:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/05/world-food-programme-breach-exposes-data-of-600k-vulnerable-gazan-families/5251605",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a8925f0e-196b-41e0-93d7-8bfc2fac6e12",
@@ -714,7 +945,7 @@
       "summary": "Researchers at SafeBreach discovered a 'Fake Context Alignment' attack that leverages hidden foreign-language text in notifications to manipulate Google Gemini into executing unauthorized commands. This vulnerability allows attackers to bypass security defenses and control smart home devices via voice assistant integrations.",
       "date": "2026-06-05T07:32:14.000Z",
       "link": "https://securityaffairs.com/193165/ai/fake-context-alignment-the-attack-that-made-gemini-obey-strangers-through-your-notifications.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bdbfd852-a593-4ab5-95fd-284ab5db6639",
@@ -5268,237 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-26T11:58:00.000Z",
       "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
-      "isTopTen": false
-    },
-    {
-      "id": "88dc3b7e-3424-4e46-a508-e3abeba551ce",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-      "summary": "Service busy.",
-      "date": "2026-05-26T11:49:53.000Z",
-      "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3b46e1d1-f957-423f-91a4-f17f8454f7e8",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Personal information of 185,000 people exposed after cyberattack on 7-Eleven",
-      "summary": "Service busy.",
-      "date": "2026-05-26T11:49:02.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/26/7-eleven-data-breach-shinyhunters/",
-      "isTopTen": false
-    },
-    {
-      "id": "456c5d0c-7035-4f34-89a2-ed9f916b2bf5",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Tamnoon introduces skill-based AI orchestration for autonomous cloud defense",
-      "summary": "Service busy.",
-      "date": "2026-05-26T11:22:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/26/tamnoon-tami-ai-skills/",
-      "isTopTen": false
-    },
-    {
-      "id": "6d7019f3-e21c-4859-b36a-4e0c22fec611",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Malware Found in Laravel-Lang Composer Packages After Git Tag Poisoning Attack",
-      "summary": "Service busy.",
-      "date": "2026-05-26T11:20:11.000Z",
-      "link": "https://securityaffairs.com/192697/security/malware-found-in-laravel-lang-composer-packages-after-git-tag-poisoning-attack.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9f26fca6-1ff9-4efd-8993-22442ae2f476",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "summary": "Service busy.",
-      "date": "2026-05-26T10:30:00.000Z",
-      "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f43863bc-3e82-44da-82e3-62ca37cb7b60",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "What happens when security teams inherit identity",
-      "summary": "Service busy.",
-      "date": "2026-05-26T09:20:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/26/eric-woodruff-semperis-identity-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "fe6029b0-51d1-46ba-bff8-fc100d2edc7c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "CERT-In Mandates 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
-      "summary": "Service busy.",
-      "date": "2026-05-26T09:13:02.000Z",
-      "link": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e76f9e6a-8834-4525-aa6d-b92d49c66c24",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Nimbus Manticore Expanded Attacks With AI-Assisted Malware and Fake Zoom Installers",
-      "summary": "Service busy.",
-      "date": "2026-05-26T09:09:17.000Z",
-      "link": "https://securityaffairs.com/192689/apt/nimbus-manticore-expanded-attacks-with-ai-assisted-malware-and-fake-zoom-installers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7f04c04c-b1ce-4e2b-9659-100ee7382b8f",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "CISA orders feds to patch actively exploited Drupal vulnerability",
-      "summary": "Service busy.",
-      "date": "2026-05-26T08:46:45.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/",
-      "isTopTen": false
-    },
-    {
-      "id": "7a78eba7-63d9-4c14-93dc-3cc72989f120",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Lazarus APT unveils fileless remote access Trojan designed to evade detection",
-      "summary": "Service busy.",
-      "date": "2026-05-26T08:01:40.000Z",
-      "link": "https://securityaffairs.com/192666/apt/lazarus-apt-unveils-fileless-remote-access-trojan-designed-to-evade-detection.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cf98b2ea-e31e-4bdc-8e7b-5a685b6f0b53",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft: Domain Controller lookup may fail on Windows Server 2016",
-      "summary": "Service busy.",
-      "date": "2026-05-26T07:41:25.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-domain-controller-lookup-may-fail-on-windows-server-2016/",
-      "isTopTen": false
-    },
-    {
-      "id": "65fdcf19-23c4-4280-97c8-76ee2e8c46ef",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
-      "summary": "Service busy.",
-      "date": "2026-05-26T07:13:05.000Z",
-      "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e7211b2c-0598-4de2-989b-75b20d7d3507",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "7-Eleven data breach exposes personal information of 185,000 people",
-      "summary": "Service busy.",
-      "date": "2026-05-26T07:01:12.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
-      "isTopTen": false
-    },
-    {
-      "id": "a1fbd88f-a545-4c62-a841-b1bbf5768f80",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Third-Party Cyberattack Impacts Patient Information at The Oncology Institute",
-      "summary": "Service busy.",
-      "date": "2026-05-26T05:25:00.000Z",
-      "link": "https://securityaffairs.com/192679/data-breach/third-party-cyberattack-impacts-patient-information-at-the-oncology-institute.html",
-      "isTopTen": false
-    },
-    {
-      "id": "63d63321-2733-40ad-b0ad-74f98e44356b",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-      "summary": "Service busy.",
-      "date": "2026-05-26T05:19:38.000Z",
-      "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "be249dbf-3d42-43bc-a0b1-bb6e9e093785",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: F-Secure Internet Security blocks phishing sites, fake stores, and SMS scams",
-      "summary": "Service busy.",
-      "date": "2026-05-26T05:00:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/26/product-showcase-f-secure-internet-security-android/",
-      "isTopTen": false
-    },
-    {
-      "id": "cc357a25-e346-4fde-a8a4-44df763415d5",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Manage machine identities: The hidden privileged access layer you need to manage",
-      "summary": "Service busy.",
-      "date": "2026-05-26T04:30:30.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/26/delinea-managing-managing-machine-identities-access/",
-      "isTopTen": false
-    },
-    {
-      "id": "3a72ede4-b5eb-41a7-bf54-48c25f99f82e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cybersecurity jobs available right now: May 26, 2026",
-      "summary": "Service busy.",
-      "date": "2026-05-26T04:00:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/26/cybersecurity-jobs-available-right-now-may-26-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "ae22b7f7-62fe-4a5c-8a00-b9980bcda4d1",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Dutch authorities arrest men suspected of providing infrastructure for Russian cyber operations",
-      "summary": "Service busy.",
-      "date": "2026-05-25T23:00:00.000Z",
-      "link": "https://therecord.media/dutch-authorities-arrest-suspects-over-russian-cyber-operations",
-      "isTopTen": false
-    },
-    {
-      "id": "df9105c6-a12b-4b1f-b90d-fe1ae62e4dee",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Kremlin appoints cyber executive with alleged GRU ties to Security Council role",
-      "summary": "Service busy.",
-      "date": "2026-05-25T23:00:00.000Z",
-      "link": "https://therecord.media/andrei-kozlov-appointed-russia-security-council",
-      "isTopTen": false
-    },
-    {
-      "id": "850c67b9-8e6e-461c-af4c-6fe7301025b6",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Ghost CMS flaw abused to push ClickFix attacks on hundreds of sites",
-      "summary": "Service busy.",
-      "date": "2026-05-25T18:07:21.000Z",
-      "link": "https://securityaffairs.com/192655/cyber-crime/ghost-cms-flaw-abused-to-push-clickfix-attacks-on-hundreds-of-sites.html",
       "isTopTen": false
     }
   ]
