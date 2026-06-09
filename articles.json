@@ -1,6 +1,248 @@
 {
-  "lastUpdated": "2026-06-09T09:58:49.927Z",
+  "lastUpdated": "2026-06-09T15:22:02.829Z",
   "articles": [
+    {
+      "id": "c501b459-61b3-4a92-92a5-f492498095fd",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
+      "summary": "Veeam has issued security patches for a critical vulnerability in its Backup & Replication software that could allow attackers to achieve remote code execution on domain-joined backup servers.",
+      "date": "2026-06-09T14:27:56.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "isTopTen": true
+    },
+    {
+      "id": "13b71073-bb9d-4902-a7b8-398554aba592",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "French government messaging platform breached through account hijacking",
+      "summary": "The French government's secure messaging platform, Tchap, was breached after attackers hijacked a user account to access public chat rooms. Authorities are currently investigating the incident involving this state-managed communication service.",
+      "date": "2026-06-09T14:04:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/09/tchap-french-government-secure-messaging-platform-breach/",
+      "isTopTen": false
+    },
+    {
+      "id": "ab4b8f84-5cca-42ab-bd30-cedc6fb003a7",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco customers encounter another SD-WAN zero-day under attack",
+      "summary": "Cisco SD-WAN customers are facing an actively exploited zero-day vulnerability, marking the seventh such incident this year for the product line without a current patch available.",
+      "date": "2026-06-09T14:03:30.000Z",
+      "link": "https://cyberscoop.com/cisco-sdwan-zero-day-vulnerability-exploited-cve202620245/",
+      "isTopTen": false
+    },
+    {
+      "id": "4fd82c3f-1162-4b3b-93e2-07b64be883a4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Elastic brings AI-driven incident investigation to Kubernetes and observability tools",
+      "summary": "Elastic has introduced AI-driven, agentic Kubernetes investigation workflows designed to automatically diagnose incidents and identify root causes the moment an alert triggers. This tool aims to reduce the time spent by SREs on manual troubleshooting and incident resolution.",
+      "date": "2026-06-09T13:55:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/09/elastic-observability-agentic-kubernetes-investigation-workflow/",
+      "isTopTen": false
+    },
+    {
+      "id": "d09e7bbc-61c7-4e29-9c59-2b60d2ba6999",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Hackers pose as women seeking romance to spy on Russian soldiers",
+      "summary": "The hacker group SiribClone is using romantic decoys to conduct espionage operations against Russian military personnel in border and combat zones. The campaign has been active since mid-2025 and targets service members via social engineering tactics.",
+      "date": "2026-06-09T13:52:00.000Z",
+      "link": "https://therecord.media/hackers-pose-as-women-seeking-romance-russian-military",
+      "isTopTen": false
+    },
+    {
+      "id": "5b669ddb-093a-49a1-ae7b-b80d4b9144f0",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Filigran launches XTM One to automate CTEM with AI agents",
+      "summary": "Filigran has introduced XTM One, an AI-native orchestration layer designed to automate Continuous Threat Exposure Management (CTEM) workflows by integrating threat intelligence and attack simulation tools. The solution aims to reduce manual security operations by coordinating AI agents across the threat management lifecycle.",
+      "date": "2026-06-09T13:31:47.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/09/filigran-xtm-one/",
+      "isTopTen": false
+    },
+    {
+      "id": "3ddf0b2d-2848-4d90-90d3-e7f4c192b772",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Rockwell Automation adds AI-powered security tools to SecureOT Suite",
+      "summary": "Rockwell Automation has expanded its SecureOT suite with AI-powered assessment, managed services, and remote access tools to help industrial enterprises improve OT visibility and threat response. These enhancements aim to bolster operational resilience without requiring additional specialized infrastructure or staff.",
+      "date": "2026-06-09T13:11:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/09/rockwell-automation-secureot-expansion/",
+      "isTopTen": false
+    },
+    {
+      "id": "133ca697-b33a-4769-b981-0c3f179023a5",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Signal says UK plan to scan devices for nude images 'endangers us all'",
+      "summary": "Signal has publicly criticized a UK government proposal to implement device-level scanning for illicit images, arguing that the technology threatens user privacy and could be exploited for mass surveillance or censorship. The messaging service warns that such measures undermine end-to-end encryption and expose all users to potential misuse.",
+      "date": "2026-06-09T12:41:03.000Z",
+      "link": "https://www.theregister.com/security/2026/06/09/signal-uks-child-nude-block-threat-wont-protect-children/5252761",
+      "isTopTen": true
+    },
+    {
+      "id": "6e273316-c5b3-429e-b079-061c83fb8f70",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
+      "summary": "Russia-aligned threat actors Earth Dahu and SHADOW-EARTH-066 are actively exploiting a known WinRAR path traversal vulnerability, CVE-2025-8088, to deploy info-stealing malware against Ukrainian organizations. This exploitation persists despite the availability of security patches for the flaw.",
+      "date": "2026-06-09T12:26:10.000Z",
+      "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3ecca48e-6d6a-48bf-98fe-61188f723e83",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Chrome's zero-day Whac-A-Mole continues with fifth exploited bug of the year",
+      "summary": "Service busy.",
+      "date": "2026-06-09T12:15:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/09/chromes-zero-day-whac-a-mole-continues-with-fifth-exploited-bug-of-the-year/5252689",
+      "isTopTen": false
+    },
+    {
+      "id": "b07d3f68-03ec-4733-beec-c01241c10369",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+      "summary": "University of Toronto researchers developed a proof-of-concept AI worm capable of autonomous propagation and adaptive attack execution using local, open-weight models. This breakthrough highlights a new class of potential security threats involving self-replicating, AI-driven malware that operates independently of commercial cloud services.",
+      "date": "2026-06-09T11:59:03.000Z",
+      "link": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+      "isTopTen": true
+    },
+    {
+      "id": "6efe16ac-77b3-4c5d-8e45-dc13b4d4721a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now",
+      "summary": "Google has issued a critical security update for Chrome to address 74 vulnerabilities, including an actively exploited zero-day vulnerability (CVE-2026-11645) in the V8 engine that allows for out-of-bounds memory access.",
+      "date": "2026-06-09T11:58:49.000Z",
+      "link": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
+      "isTopTen": false
+    },
+    {
+      "id": "35f1114d-ea66-46f9-905a-26839180356b",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "LiteLLM vulnerability under active attack, CISA warns (CVE-2026-42271)",
+      "summary": "CISA has added a critical command injection vulnerability in the LiteLLM AI gateway (CVE-2026-42271) to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw impacts users of the open-source library that facilitates unified access to various large language model APIs.",
+      "date": "2026-06-09T11:37:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/09/litellm-vulnerability-under-active-attack-cisa-warns-cve-2026-42271/",
+      "isTopTen": true
+    },
+    {
+      "id": "b858a5a1-1389-4c24-9223-ffba3be4bf5e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The Hidden Security Risk in Modern Networks: The Work Between Tools",
+      "summary": "Organizations are struggling with operational outages and incident response delays despite implementing advanced AI and automated security tools. The article highlights that gaps between disparate security systems remain a critical vulnerability for modern networks.",
+      "date": "2026-06-09T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1dd83fcd-54cd-4c20-8d98-81d49cb865ba",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "France probes compromise of gov messaging platform after account hijack",
+      "summary": "French authorities are investigating a security breach involving the compromise of a government messaging platform that may have exposed more data than initially reported by officials. The investigation follows claims by an attacker that sensitive information beyond public chat rooms was accessed.",
+      "date": "2026-06-09T11:27:55.000Z",
+      "link": "https://www.theregister.com/security/2026/06/09/france-probes-compromise-of-gov-messaging-platform-after-account-hijack/5252717",
+      "isTopTen": false
+    },
+    {
+      "id": "b671b28b-c801-44c6-bdec-77c795c800a3",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Maine Govt Portal Lists 10M Discord Data Breach Notice, But Filing Shows Red Flags",
+      "summary": "The Maine Attorney General's portal features a notice claiming a Discord data breach affecting 10 million users, though inconsistencies in the filing have led experts to question its legitimacy. Discord has not confirmed the incident, casting doubt on the report's accuracy.",
+      "date": "2026-06-09T11:25:21.000Z",
+      "link": "https://hackread.com/maine-govt-portal-discord-data-breach-notice/",
+      "isTopTen": false
+    },
+    {
+      "id": "2696733d-b2c7-4b19-96b3-be6bf05fb6f8",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Google patches Chrome zero-day exploited in the wild (CVE-2026-11645)",
+      "summary": "Google has released an urgent update for Chrome to patch a high-severity, actively exploited zero-day vulnerability tracked as CVE-2026-11645. The fix is currently rolling out across Windows, macOS, and Linux platforms.",
+      "date": "2026-06-09T11:24:41.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/",
+      "isTopTen": false
+    },
+    {
+      "id": "4e7ef476-b487-4da3-87f6-c233e6ec22a4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Apple Intelligence can now replace weak passwords without user intervention",
+      "summary": "Apple is enhancing its Passwords app by integrating Apple Intelligence to automatically identify and replace weak, reused, or compromised passwords. This feature streamlines security management by reducing manual user intervention for credential updates.",
+      "date": "2026-06-09T11:19:28.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/09/apple-intelligence-automated-passwords-security-updates/",
+      "isTopTen": false
+    },
+    {
+      "id": "39193276-5eff-4bb5-b089-00f2e3a5ae1c",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "French govt messaging service breached in account hijacking attack",
+      "summary": "The French government's encrypted messaging platform, Tchap, was breached after hackers compromised a legitimate user account to gain unauthorized access. DINUM confirmed the incident and warned users following the security lapse.",
+      "date": "2026-06-09T10:53:00.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "88bd5a0e-bda8-4ab3-9c6a-8e15e593d26c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Google fixes the fifth actively exploited Chrome zero-day of 2026",
+      "summary": "Google has released an emergency patch for CVE-2026-11645, a critical zero-day vulnerability in the Chrome V8 engine that is currently being exploited in the wild.",
+      "date": "2026-06-09T10:38:32.000Z",
+      "link": "https://securityaffairs.com/193371/hacking/google-fixes-fifth-actively-exploited-chrome-zero-day-of-2026.html",
+      "isTopTen": true
+    },
+    {
+      "id": "72b1848d-eb52-466e-a9c3-0776365f7239",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Handala Claims Israeli Radar Hack, But Evidence Shows Phone Admin Panel",
+      "summary": "The hacker group Handala claimed a significant cyberattack against Israeli radar systems, but investigation revealed the evidence actually displayed a simple administrative panel for a mobile device. This suggests the group is employing misleading claims for psychological impact rather than executing a high-level military breach.",
+      "date": "2026-06-09T10:23:25.000Z",
+      "link": "https://hackread.com/handala-israeli-radar-hack-evidence-phone-admin-panel/",
+      "isTopTen": false
+    },
+    {
+      "id": "9d6120d1-c510-47f7-8a5c-48feb1c3c9ae",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
+      "summary": "Researchers have discovered a side-channel attack called FROST that uses SSD timing and JavaScript to track a user's browsing activity and opened applications without requiring special permissions. The attack exploits storage contention to monitor system activity stealthily.",
+      "date": "2026-06-09T09:50:41.000Z",
+      "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
+      "isTopTen": false
+    },
     {
       "id": "3ebb8a14-f23a-4101-aa19-f773fcddbf85",
       "source": "Help Net Security",
@@ -10,7 +252,7 @@
       "summary": "Anthropic research reveals that the Mythos Preview AI tool can weaponize disclosed N-day vulnerabilities within hours, significantly accelerating the threat window for unpatched systems. This capability highlights the heightened danger posed by existing vulnerabilities that remain unpatched after disclosure.",
       "date": "2026-06-09T09:19:53.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c072ff6d-0e2b-490b-8576-f71d53305519",
@@ -22,6 +264,17 @@
       "date": "2026-06-09T09:15:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/09/qilin-nhs-breach-tally-grows-as-essex-trust-confirms-stolen-records/5252663",
       "isTopTen": false
+    },
+    {
+      "id": "8ce0c398-7162-4f28-830c-b390e7f23cd0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
+      "summary": "The Hades supply chain attack involves 19 malicious PyPI packages that utilize a *-setup.pth file to automatically execute a credential-stealing payload. This campaign is part of the ongoing Miasma series targeting Python developers.",
+      "date": "2026-06-09T09:13:32.000Z",
+      "link": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+      "isTopTen": true
     },
     {
       "id": "5d350e94-85d5-4c5a-851d-dacf322c8b99",
@@ -54,7 +307,7 @@
       "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables framework allows local users to achieve privilege escalation to root. The flaw was identified by Exodus Intelligence researcher Oliver Sieber and stems from a minor logic error.",
       "date": "2026-06-09T07:27:39.000Z",
       "link": "https://securityaffairs.com/193352/hacking/cve-2026-23111-linux-nf_tables-flaw-enables-root-exploits.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "beff7445-f378-4e95-83e8-df642cb7c5e7",
@@ -65,7 +318,7 @@
       "summary": "Google has issued an emergency update for Chrome to address the fifth zero-day vulnerability exploited in the wild this year. Users are urged to update their browsers immediately to mitigate potential security risks.",
       "date": "2026-06-09T06:56:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "54f0b50b-8f3c-4153-bc0d-cc305c096aab",
@@ -76,7 +329,7 @@
       "summary": "CISA has added the high-severity command injection vulnerability CVE-2026-42271 in BerriAI LiteLLM to its Known Exploited Vulnerabilities catalog due to reports of active in-the-wild exploitation. This flaw allows authenticated users to execute arbitrary commands, posing a significant risk to affected systems.",
       "date": "2026-06-09T06:26:14.000Z",
       "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "021f7995-1737-4d29-a34e-46af388893df",
@@ -153,7 +406,7 @@
       "summary": "WhatsApp has successfully blocked a surveillance campaign orchestrated by the NSO Group using its Pegasus spyware and is seeking legal action in a U.S. court for a breach of injunction. This move highlights an ongoing legal and technical battle against the deployment of sophisticated commercial spyware targeting mobile users.",
       "date": "2026-06-08T22:51:26.000Z",
       "link": "https://hackread.com/whatsapp-blocked-pegasus-spyware-campaign-nso/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2e1f1241-fa85-47cb-9ab7-2b8deb32d8e8",
@@ -219,7 +472,7 @@
       "summary": "Hackers have compromised 19 science-focused PyPI packages in a supply-chain attack dubbed Shai-Hulud, which aims to steal sensitive secrets from developers. The malicious packages have been downloaded hundreds of thousands of times, posing a significant risk to the software supply chain.",
       "date": "2026-06-08T20:41:35.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a5971a11-cfb5-4387-b60a-a7c328d1aebb",
@@ -241,7 +494,7 @@
       "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables component allows local unprivileged users to gain root access and escape containers. Publicly available exploit code increases the risk of exploitation for unpatched systems.",
       "date": "2026-06-08T20:17:39.000Z",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "954ead27-ad6d-45f4-8f6f-f0dc05c2526d",
@@ -318,7 +571,7 @@
       "summary": "Meta has blocked NSO Group spear-phishing attempts targeting WhatsApp users and is seeking a federal court contempt order for violating a permanent injunction. The legal action alleges that NSO Group bypassed previous restrictions to conduct malicious activity.",
       "date": "2026-06-08T17:08:44.000Z",
       "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3dbfafbc-2451-4fe0-bbe1-e26c81fb5e23",
@@ -373,7 +626,7 @@
       "summary": "A chain of three previously disclosed vulnerabilities in Ubiquiti UniFi OS allows unauthenticated attackers to achieve remote code execution with root-level access. Although patches are available, the flaw poses a significant risk to systems that remain unupdated.",
       "date": "2026-06-08T15:51:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a92e7962-ff0d-4942-933f-877f8c1a5f3c",
@@ -593,7 +846,7 @@
       "summary": "The cybercrime group UNC3753 is intensifying its extortion campaign by combining vishing-based remote access attacks with physical office intrusions to compromise sensitive data. This evolution demonstrates a hybrid approach where attackers use social engineering to gain digital access and physical presence to deploy malicious hardware.",
       "date": "2026-06-08T10:46:36.000Z",
       "link": "https://securityaffairs.com/193315/cyber-crime/unc3753-escalates-from-vishing-calls-to-physical-office-intrusions-at-us-legal-and-financial-firms.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc164dbb-1cc1-4853-a34a-934e9faa8293",
@@ -5246,259 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-27T14:33:00.000Z",
       "link": "https://therecord.media/fbi-warns-hackers-visit-law-firms-to-steal-data",
-      "isTopTen": false
-    },
-    {
-      "id": "970b4c9a-a257-4dcd-b4e4-15de92ecfda6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google AI Threat Defense targets attackers using AI to find flaws faster",
-      "summary": "Service busy.",
-      "date": "2026-05-27T14:23:08.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/27/google-ai-threat-defense-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "0d88faec-1b92-4f9d-ab3f-4c26005ffb11",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Can you enforce strong Active Directory password rules without frustrating users?",
-      "summary": "Service busy.",
-      "date": "2026-05-27T14:00:10.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/",
-      "isTopTen": false
-    },
-    {
-      "id": "8dcaafd4-0f75-491e-ad05-8668b3569d6e",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "India's cyber agency sets clock at 12 hours to tackle exploited bugs as AI turns up the heat",
-      "summary": "Service busy.",
-      "date": "2026-05-27T14:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/27/cert-in-professes-12-hour-patching-for-ai-assisted-attacks/5247009",
-      "isTopTen": false
-    },
-    {
-      "id": "cb19231a-f3b6-4c32-aa94-342a76db5f0a",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "The LA Metro Attack Wasn’t Hacktivism. It Was a State Operation With a Costume On.",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:52:07.000Z",
-      "link": "https://securityaffairs.com/192764/hacktivism/the-la-metro-attack-wasnt-hacktivism-it-was-a-state-operation-with-a-costume-on.html",
-      "isTopTen": false
-    },
-    {
-      "id": "051edbb5-0622-4aca-9fdd-fdd78e776634",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Claude now reviews and fixes vulnerabilities as you write code",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:37:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/27/anthropic-claude-code-security-guidance-plugin/",
-      "isTopTen": false
-    },
-    {
-      "id": "7ac6e8e8-68f3-4ba8-8a16-82704be02dbc",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cogent targets exploit-to-remediation gap with new AI-powered security capabilities",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:36:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/27/cogent-zero-day-response-and-autonomous-remediation/",
-      "isTopTen": false
-    },
-    {
-      "id": "3b95c056-8999-4209-9cf6-82e6a3ab9002",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "CrowdStrike disrupts Glassworm botnet that preyed on open-source supply chain",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:35:14.000Z",
-      "link": "https://cyberscoop.com/crowdstrike-glassworm-botnet-takedown/",
-      "isTopTen": false
-    },
-    {
-      "id": "f561bec1-6e08-4ed4-a3a2-a7cce4651344",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:28:48.000Z",
-      "link": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e1b4dc1d-1436-4cfe-9a72-e91aff187188",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Glassworm botnet disrupted after resilient C2 infrastructure takedown",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:28:42.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/glassworm-botnet-disrupted-after-resilient-c2-infrastructure-takedown/",
-      "isTopTen": false
-    },
-    {
-      "id": "7548a828-85a8-452b-a8a5-f16e1c38fb6b",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Dutch police arrest man over cyber breach at Ajax football club",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:28:00.000Z",
-      "link": "https://therecord.media/dutch-police-arrest-man-over-cyber-breach-ajax-football",
-      "isTopTen": false
-    },
-    {
-      "id": "d7fd085b-1bb5-447d-9933-d4b4a53462f7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Ping Identity advances agentic security with AI governance and trusted access",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:25:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/27/ping-identity-advances-agentic-security-with-ai-governance-and-trusted-access/",
-      "isTopTen": false
-    },
-    {
-      "id": "07f67fbc-26a3-4f5a-ab3d-af65b7ab3f33",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Iranian intelligence service behind hack of LA transit system, researchers say",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:20:00.000Z",
-      "link": "https://therecord.media/iranian-intelligence-behind-hack-of-la-transit-system",
-      "isTopTen": false
-    },
-    {
-      "id": "d08b9d06-7c4b-4da5-bf79-fcbbbff8bf4b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "eSentire launches new Atlas AI Operatives for autonomous threat detection and response",
-      "summary": "Service busy.",
-      "date": "2026-05-27T13:05:38.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/27/esentire-atlas-platform-capabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "d4d346dc-6ffc-4418-9ed7-944186036d4c",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Link11 is fully committed to Europe and is opening a Customer Excellence Hub in Lisbon",
-      "summary": "Service busy.",
-      "date": "2026-05-27T12:21:39.000Z",
-      "link": "https://hackread.com/link11-is-fully-committed-to-europe-and-is-opening-a-customer-excellence-hub-in-lisbon/",
-      "isTopTen": false
-    },
-    {
-      "id": "ac714db6-9a8b-4069-b6e9-06745297f1d6",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "How to guarantee a speaker gig: Hack the system. Literally",
-      "summary": "Service busy.",
-      "date": "2026-05-27T12:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/27/pretalx-xss-flaw-exposed-conference-cfp-systems/5246598",
-      "isTopTen": false
-    },
-    {
-      "id": "4ca52ebc-5ea7-4fdf-913f-706fd1961b3e",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "FBI warns of in-person data theft attacks from extortion gang",
-      "summary": "Service busy.",
-      "date": "2026-05-27T11:51:12.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "f041bf10-51cf-4fcd-a7d0-14605e496e16",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Fake ChatGPT and Claude installers on GitHub are dropping Deno RAT malware",
-      "summary": "Service busy.",
-      "date": "2026-05-27T11:50:48.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/27/deno-rat-malware-fake-chatgpt-claude-installers/",
-      "isTopTen": false
-    },
-    {
-      "id": "05bd1388-7795-4048-9e8c-c6f3161d18c1",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
-      "summary": "Service busy.",
-      "date": "2026-05-27T11:48:37.000Z",
-      "link": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-      "isTopTen": false
-    },
-    {
-      "id": "44f16cbc-9cc3-4a29-acb0-7053f0b5d71c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "3 SOC Steps that Shut Down Incident Risks Early",
-      "summary": "Service busy.",
-      "date": "2026-05-27T11:45:00.000Z",
-      "link": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3e3e73ef-bf8a-4462-885e-fc94bfaeea24",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "How cybersecurity firms took down Glassworm botnet in one shot",
-      "summary": "Service busy.",
-      "date": "2026-05-27T11:35:46.000Z",
-      "link": "https://securityaffairs.com/192749/cyber-crime/how-cybersecurity-firms-took-down-glassworm-botnet-in-one-shot.html",
-      "isTopTen": false
-    },
-    {
-      "id": "33899c37-d489-468b-a099-7e3752b22aad",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
-      "summary": "Service busy.",
-      "date": "2026-05-27T10:06:32.000Z",
-      "link": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b06ea0df-b25d-46a7-a0eb-e24a7d0c0c85",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "CISA gives feds 4 days to patch actively exploited cPanel plugin flaw",
-      "summary": "Service busy.",
-      "date": "2026-05-27T10:06:17.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
-      "isTopTen": false
-    },
-    {
-      "id": "5db14e34-82db-4d0c-a9ce-96a0e24c1306",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Dutch police arrests suspect linked to Ajax football club hack",
-      "summary": "Service busy.",
-      "date": "2026-05-27T09:09:03.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/",
       "isTopTen": false
     }
   ]
