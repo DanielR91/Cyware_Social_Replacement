@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-08T22:51:27.071Z",
+  "lastUpdated": "2026-06-09T03:59:28.616Z",
   "articles": [
+    {
+      "id": "eff23a8f-b62e-4bc3-933e-b0a4727cc4b0",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "When “Hi, This Is IT” Comes Through Microsoft Teams",
+      "summary": "Cybercriminals are increasingly exploiting Microsoft Teams to conduct social engineering attacks by masquerading as IT support. Organizations are advised to implement security best practices to mitigate the risks associated with these collaboration platform threats.",
+      "date": "2026-06-08T23:00:45.000Z",
+      "link": "https://unit42.paloaltonetworks.com/microsoft-teams-phishing/",
+      "isTopTen": false
+    },
+    {
+      "id": "b7c4abb1-34ea-4269-9d22-8ff8f73e35bf",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "WhatsApp Says It Blocked Pegasus Spyware Campaign Linked to NSO",
+      "summary": "WhatsApp has successfully blocked a surveillance campaign orchestrated by the NSO Group using its Pegasus spyware and is seeking legal action in a U.S. court for a breach of injunction. This move highlights an ongoing legal and technical battle against the deployment of sophisticated commercial spyware targeting mobile users.",
+      "date": "2026-06-08T22:51:26.000Z",
+      "link": "https://hackread.com/whatsapp-blocked-pegasus-spyware-campaign-nso/",
+      "isTopTen": false
+    },
     {
       "id": "2e1f1241-fa85-47cb-9ab7-2b8deb32d8e8",
       "source": "The Register",
@@ -65,7 +87,7 @@
       "summary": "Hackers have compromised 19 science-focused PyPI packages in a supply-chain attack dubbed Shai-Hulud, which aims to steal sensitive secrets from developers. The malicious packages have been downloaded hundreds of thousands of times, posing a significant risk to the software supply chain.",
       "date": "2026-06-08T20:41:35.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a5971a11-cfb5-4387-b60a-a7c328d1aebb",
@@ -76,7 +98,7 @@
       "summary": "The UK government has mandated that tech companies implement device-level controls within three months to detect and block nude imagery of minors on smartphones and tablets. This regulatory measure aims to enhance online child safety through mandatory technical solutions.",
       "date": "2026-06-08T20:24:00.000Z",
       "link": "https://therecord.media/uk-gives-big-tech-3-months-to-create-device-controls-kid-images",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fcba8bf4-ce9b-434d-b640-cfa7c1bacae5",
@@ -87,7 +109,7 @@
       "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables component allows local unprivileged users to gain root access and escape containers. Publicly available exploit code increases the risk of exploitation for unpatched systems.",
       "date": "2026-06-08T20:17:39.000Z",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "954ead27-ad6d-45f4-8f6f-f0dc05c2526d",
@@ -142,7 +164,7 @@
       "summary": "Threat actors, including a Qilin ransomware affiliate, exploited a Check Point VPN zero-day vulnerability for a month before a patch was released. The flaw allowed unauthorized access, and users are urged to apply the available fix immediately.",
       "date": "2026-06-08T17:10:31.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/08/attackers-had-month-long-head-start-on-patched-check-point-vpn-zero-day/5252438",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "88c1fd89-b319-496f-ba7b-5833226a783d",
@@ -285,7 +307,7 @@
       "summary": "GitHub suspended over 70 Microsoft repositories after they were compromised by the Miasma worm, which aimed to scrape cloud secrets. The removal caused widespread disruption to CI/CD pipelines relying on those repositories.",
       "date": "2026-06-08T13:56:50.000Z",
       "link": "https://www.theregister.com/security/2026/06/08/github-nukes-70-microsoft-repos-amid-suspected-worm-attack/5252169",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "17576f98-9683-46cb-80e9-c2e0f1afa985",
@@ -296,7 +318,7 @@
       "summary": "Attackers exploited a vulnerability in Meta's AI-assisted 'High Touch Support' recovery system to hijack over 20,000 Instagram accounts by triggering unauthorized password resets. The flaw allowed unauthorized parties to bypass standard security measures within the account recovery workflow.",
       "date": "2026-06-08T13:50:42.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/08/instagram-ai-support-vulnerability-account-takeovers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "27fdef05-d574-4ec1-98b6-9cbdbb8158af",
@@ -439,7 +461,7 @@
       "summary": "The cybercrime group UNC3753 is intensifying its extortion campaign by combining vishing-based remote access attacks with physical office intrusions to compromise sensitive data. This evolution demonstrates a hybrid approach where attackers use social engineering to gain digital access and physical presence to deploy malicious hardware.",
       "date": "2026-06-08T10:46:36.000Z",
       "link": "https://securityaffairs.com/193315/cyber-crime/unc3753-escalates-from-vishing-calls-to-physical-office-intrusions-at-us-legal-and-financial-firms.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fc164dbb-1cc1-4853-a34a-934e9faa8293",
@@ -461,7 +483,7 @@
       "summary": "CISA has issued an emergency directive for federal agencies to patch or mitigate an actively exploited uncontrolled resource consumption vulnerability in SolarWinds Serv-U that allows for remote denial-of-service attacks.",
       "date": "2026-06-08T10:26:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/08/cisa-patch-actively-exploited-solarwinds-serv-u-dos-vulnerability-cve-2026-28318/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9607b331-bebe-4e07-a611-116650c57092",
@@ -648,7 +670,7 @@
       "summary": "The cybercrime group ShinyHunters has leaked 234 GB of sensitive data stolen from DentaQuest following unsuccessful extortion negotiations, affecting an estimated 2.6 million individuals.",
       "date": "2026-06-07T18:42:59.000Z",
       "link": "https://securityaffairs.com/193274/data-breach/dentaquest-breach-shinyhunters-publish-data-impacting-2-6m-people.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "adf57545-4a3d-4854-954f-d94f49a58751",
@@ -736,7 +758,7 @@
       "summary": "Anthropic has deployed engineers to the National Security Agency to assist with the integration and utilization of its advanced Mythos AI model for intelligence and offensive cyber operations.",
       "date": "2026-06-06T16:18:53.000Z",
       "link": "https://securityaffairs.com/193234/ai/report-anthropic-deploys-engineers-to-support-nsa-use-of-mythos.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c991ba8a-6882-4001-b088-d7c2b14ae78d",
@@ -5477,28 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-05-27T04:00:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/27/netskope-european-ai-adoption-risks/",
-      "isTopTen": false
-    },
-    {
-      "id": "7fff0ab8-7fcc-4abb-a7b7-ece71323ab49",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "KnowledgeDeliver flaw exploited as a zero-day to install web shells",
-      "summary": "Service busy.",
-      "date": "2026-05-26T20:07:31.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
-      "isTopTen": false
-    },
-    {
-      "id": "2d95e47f-aa51-419b-b2ce-1a04fc0bf9ec",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Charter confirms data breach after ShinyHunters extortion threat",
-      "summary": "Service busy.",
-      "date": "2026-05-26T19:46:01.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
       "isTopTen": false
     }
   ]
