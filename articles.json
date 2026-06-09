@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-09T20:17:47.249Z",
+  "lastUpdated": "2026-06-09T22:28:18.922Z",
   "articles": [
+    {
+      "id": "b0263bcc-accf-42eb-baba-d49324dc6158",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility",
+      "summary": "Palo Alto Networks' Unit 42 research details how attackers manipulate cloud logging services to hide malicious activity and evade detection. The report provides defensive strategies to mitigate log tampering and maintain operational visibility.",
+      "date": "2026-06-09T22:00:21.000Z",
+      "link": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
+      "isTopTen": true
+    },
+    {
+      "id": "776a22c1-e5b9-412e-9bde-48db22de15d3",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "ServiceNow discloses security incident exposing customer data",
+      "summary": "ServiceNow reported a security breach where attackers exploited an unauthenticated API vulnerability to access and query sensitive customer instance data. The company is actively notifying affected customers and addressing the flaw.",
+      "date": "2026-06-09T21:34:09.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "ad237566-06df-414b-86fe-adf0653ed65b",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
+      "summary": "Researchers discovered that the OpenClaw AI agent is vulnerable to traditional phishing tactics, leading to the unauthorized exposure of user data. The findings demonstrate that AI email agents can be deceived by the same social engineering techniques used against humans.",
+      "date": "2026-06-09T21:20:20.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+      "isTopTen": false
+    },
     {
       "id": "969997da-4114-43b1-b2be-faac89b3dd31",
       "source": "CyberScoop",
@@ -76,7 +109,7 @@
       "summary": "Microsoft's June 2026 Patch Tuesday addressed 200 security vulnerabilities, including three zero-day flaws that were publicly disclosed. These updates are essential for protecting systems against potential exploitation.",
       "date": "2026-06-09T17:57:59.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "149020a3-bcd0-4823-8187-2a686d4b39c0",
@@ -120,7 +153,7 @@
       "summary": "Veeam has patched a critical remote code execution vulnerability, CVE-2026-44963, which allows low-privileged domain users to compromise Backup & Replication servers. The flaw carries a CVSS score of 9.4 and impacts version 12.x.",
       "date": "2026-06-09T16:51:20.000Z",
       "link": "https://securityaffairs.com/193385/uncategorized/critical-veeam-rce-flaw-lets-low-privilege-users-take-over-backup-servers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8aca3e6c-1c12-42ce-9984-7eff6d349483",
@@ -296,7 +329,7 @@
       "summary": "Signal has publicly criticized a UK government proposal to implement device-level scanning for illicit images, arguing that the technology threatens user privacy and could be exploited for mass surveillance or censorship. The messaging service warns that such measures undermine end-to-end encryption and expose all users to potential misuse.",
       "date": "2026-06-09T12:41:03.000Z",
       "link": "https://www.theregister.com/security/2026/06/09/signal-uks-child-nude-block-threat-wont-protect-children/5252761",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6e273316-c5b3-429e-b079-061c83fb8f70",
@@ -351,7 +384,7 @@
       "summary": "CISA has added a critical command injection vulnerability in the LiteLLM AI gateway (CVE-2026-42271) to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw impacts users of the open-source library that facilitates unified access to various large language model APIs.",
       "date": "2026-06-09T11:37:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/litellm-vulnerability-under-active-attack-cisa-warns-cve-2026-42271/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b858a5a1-1389-4c24-9223-ffba3be4bf5e",
@@ -461,7 +494,7 @@
       "summary": "Anthropic research reveals that the Mythos Preview AI tool can weaponize disclosed N-day vulnerabilities within hours, significantly accelerating the threat window for unpatched systems. This capability highlights the heightened danger posed by existing vulnerabilities that remain unpatched after disclosure.",
       "date": "2026-06-09T09:19:53.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c072ff6d-0e2b-490b-8576-f71d53305519",
@@ -516,7 +549,7 @@
       "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables framework allows local users to achieve privilege escalation to root. The flaw was identified by Exodus Intelligence researcher Oliver Sieber and stems from a minor logic error.",
       "date": "2026-06-09T07:27:39.000Z",
       "link": "https://securityaffairs.com/193352/hacking/cve-2026-23111-linux-nf_tables-flaw-enables-root-exploits.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "beff7445-f378-4e95-83e8-df642cb7c5e7",
@@ -615,7 +648,7 @@
       "summary": "WhatsApp has successfully blocked a surveillance campaign orchestrated by the NSO Group using its Pegasus spyware and is seeking legal action in a U.S. court for a breach of injunction. This move highlights an ongoing legal and technical battle against the deployment of sophisticated commercial spyware targeting mobile users.",
       "date": "2026-06-08T22:51:26.000Z",
       "link": "https://hackread.com/whatsapp-blocked-pegasus-spyware-campaign-nso/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2e1f1241-fa85-47cb-9ab7-2b8deb32d8e8",
@@ -692,7 +725,7 @@
       "summary": "The UK government has mandated that tech companies implement device-level controls within three months to detect and block nude imagery of minors on smartphones and tablets. This regulatory measure aims to enhance online child safety through mandatory technical solutions.",
       "date": "2026-06-08T20:24:00.000Z",
       "link": "https://therecord.media/uk-gives-big-tech-3-months-to-create-device-controls-kid-images",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fcba8bf4-ce9b-434d-b640-cfa7c1bacae5",
@@ -703,7 +736,7 @@
       "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables component allows local unprivileged users to gain root access and escape containers. Publicly available exploit code increases the risk of exploitation for unpatched systems.",
       "date": "2026-06-08T20:17:39.000Z",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "954ead27-ad6d-45f4-8f6f-f0dc05c2526d",
@@ -5466,39 +5499,6 @@
       "summary": "Checksum has released its Continuous Quality Agent, an autonomous tool designed to automatically generate, maintain, and heal software tests. The system aims to address the bottleneck of manual testing and test maintenance in fast-paced AI-driven development environments.",
       "date": "2026-05-28T07:22:04.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/28/checksum-continuous-quality-agent/",
-      "isTopTen": false
-    },
-    {
-      "id": "9b89c56a-cac4-4c13-bc4c-5152433ba82c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "XM Cyber enhances identity risk visibility with continuous exposure management capabilities",
-      "summary": "XM Cyber has introduced new continuous exposure management capabilities to help organizations mitigate identity-based risks and prevent lateral movement in hybrid-cloud environments. The updates focus on identifying and right-sizing excessive permissions to reduce the overall attack surface against AI-enhanced threats.",
-      "date": "2026-05-28T07:14:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/xm-cyber-continuous-exposure-management-for-identities/",
-      "isTopTen": false
-    },
-    {
-      "id": "d0b1b0f3-4284-4770-a669-e304ed4f8751",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Police arrest suspect in Ajax football club hack that exposed 300,000 fan records",
-      "summary": "Dutch police have arrested a 35-year-old man for repeatedly hacking into AFC Ajax's computer systems, resulting in the exposure of 300,000 fan records.",
-      "date": "2026-05-28T07:10:30.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/dutch-police-arrest-suspect-afc-ajax-hacking/",
-      "isTopTen": false
-    },
-    {
-      "id": "3d3eb531-ad1d-437c-a2bf-e71e45e23d57",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Company CEO flooded file share with smut, called for help after he deleted it",
-      "summary": "A CEO accidentally compromised company infrastructure by flooding a file share with inappropriate content, while a separate incident involved a school-issued iPad being recovered after being misused by a staff member's children.",
-      "date": "2026-05-28T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/05/28/company-ceo-flooded-file-share-with-smut-called-for-help-after-he-deleted-it/5247502",
       "isTopTen": false
     }
   ]
