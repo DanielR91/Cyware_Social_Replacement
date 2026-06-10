@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-06-09T22:28:18.922Z",
+  "lastUpdated": "2026-06-10T04:12:24.097Z",
   "articles": [
+    {
+      "id": "87bf5de5-0469-4032-a681-369d102d1fe9",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Scams now operate like real businesses with budgets and targets",
+      "summary": "Service busy.",
+      "date": "2026-06-10T04:00:52.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/bitdefender-global-scam-trends-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "e02633e0-1034-4b5d-be47-87da2bef21f9",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
+      "summary": "Service busy.",
+      "date": "2026-06-10T02:03:31.000Z",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/",
+      "isTopTen": false
+    },
+    {
+      "id": "fdf5db79-7870-4b67-836d-261efeb1a1dd",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
+      "summary": "A zero-day vulnerability dubbed 'RoguePlanet' in Microsoft Defender allows unauthorized actors to escalate privileges to SYSTEM level. This flaw poses a significant risk to affected Windows systems by granting attackers full administrative control.",
+      "date": "2026-06-09T23:11:18.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
+      "isTopTen": true
+    },
+    {
+      "id": "9da99468-c1c0-43cf-b0df-8fa4c593a2f5",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Releases Record-Breaking Patch Tuesday With 208 CVEs",
+      "summary": "Microsoft's June 2026 Patch Tuesday sets a record by addressing 208 vulnerabilities, including an actively exploited zero-day and various critical remote code execution flaws across its software ecosystem.",
+      "date": "2026-06-09T22:55:48.000Z",
+      "link": "https://securityaffairs.com/193417/security/microsoft-releases-record-breaking-patch-tuesday-with-208-cves.html",
+      "isTopTen": false
+    },
+    {
+      "id": "895e5602-c461-4c97-9706-9bf1fd6275ea",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI is making Patch Tuesday (kinda) fun again",
+      "summary": "AI tools are being utilized to streamline and assist with the complexities of Patch Tuesday, though the increasing volume and speed of vulnerability disclosure continue to overwhelm security administrators. This evolution highlights a double-edged sword where automated assistance struggles to keep pace with the systemic burden of vulnerability management.",
+      "date": "2026-06-09T22:49:16.000Z",
+      "link": "https://www.theregister.com/patches/2026/06/09/ai-is-making-patch-tuesday-kinda-fun-again/5253225",
+      "isTopTen": false
+    },
     {
       "id": "b0263bcc-accf-42eb-baba-d49324dc6158",
       "source": "Unit 42",
@@ -10,7 +65,7 @@
       "summary": "Palo Alto Networks' Unit 42 research details how attackers manipulate cloud logging services to hide malicious activity and evade detection. The report provides defensive strategies to mitigate log tampering and maintain operational visibility.",
       "date": "2026-06-09T22:00:21.000Z",
       "link": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "776a22c1-e5b9-412e-9bde-48db22de15d3",
@@ -21,7 +76,7 @@
       "summary": "ServiceNow reported a security breach where attackers exploited an unauthenticated API vulnerability to access and query sensitive customer instance data. The company is actively notifying affected customers and addressing the flaw.",
       "date": "2026-06-09T21:34:09.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad237566-06df-414b-86fe-adf0653ed65b",
@@ -109,7 +164,7 @@
       "summary": "Microsoft's June 2026 Patch Tuesday addressed 200 security vulnerabilities, including three zero-day flaws that were publicly disclosed. These updates are essential for protecting systems against potential exploitation.",
       "date": "2026-06-09T17:57:59.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "149020a3-bcd0-4823-8187-2a686d4b39c0",
@@ -153,7 +208,7 @@
       "summary": "Veeam has patched a critical remote code execution vulnerability, CVE-2026-44963, which allows low-privileged domain users to compromise Backup & Replication servers. The flaw carries a CVSS score of 9.4 and impacts version 12.x.",
       "date": "2026-06-09T16:51:20.000Z",
       "link": "https://securityaffairs.com/193385/uncategorized/critical-veeam-rce-flaw-lets-low-privilege-users-take-over-backup-servers.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8aca3e6c-1c12-42ce-9984-7eff6d349483",
@@ -274,7 +329,7 @@
       "summary": "Cisco SD-WAN customers are facing an actively exploited zero-day vulnerability, marking the seventh such incident this year for the product line without a current patch available.",
       "date": "2026-06-09T14:03:30.000Z",
       "link": "https://cyberscoop.com/cisco-sdwan-zero-day-vulnerability-exploited-cve202620245/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4fd82c3f-1162-4b3b-93e2-07b64be883a4",
@@ -384,7 +439,7 @@
       "summary": "CISA has added a critical command injection vulnerability in the LiteLLM AI gateway (CVE-2026-42271) to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw impacts users of the open-source library that facilitates unified access to various large language model APIs.",
       "date": "2026-06-09T11:37:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/litellm-vulnerability-under-active-attack-cisa-warns-cve-2026-42271/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b858a5a1-1389-4c24-9223-ffba3be4bf5e",
@@ -494,7 +549,7 @@
       "summary": "Anthropic research reveals that the Mythos Preview AI tool can weaponize disclosed N-day vulnerabilities within hours, significantly accelerating the threat window for unpatched systems. This capability highlights the heightened danger posed by existing vulnerabilities that remain unpatched after disclosure.",
       "date": "2026-06-09T09:19:53.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c072ff6d-0e2b-490b-8576-f71d53305519",
@@ -725,7 +780,7 @@
       "summary": "The UK government has mandated that tech companies implement device-level controls within three months to detect and block nude imagery of minors on smartphones and tablets. This regulatory measure aims to enhance online child safety through mandatory technical solutions.",
       "date": "2026-06-08T20:24:00.000Z",
       "link": "https://therecord.media/uk-gives-big-tech-3-months-to-create-device-controls-kid-images",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fcba8bf4-ce9b-434d-b640-cfa7c1bacae5",
@@ -736,7 +791,7 @@
       "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables component allows local unprivileged users to gain root access and escape containers. Publicly available exploit code increases the risk of exploitation for unpatched systems.",
       "date": "2026-06-08T20:17:39.000Z",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "954ead27-ad6d-45f4-8f6f-f0dc05c2526d",
@@ -5444,61 +5499,6 @@
       "summary": "A Canadian man was sentenced to 33 years in prison for orchestrating a long-term sextortion campaign that targeted over 145 children, some as young as six. The case highlights the severe consequences of online child exploitation.",
       "date": "2026-05-28T09:25:59.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/",
-      "isTopTen": false
-    },
-    {
-      "id": "65a45f7d-5ca2-46be-a8ad-aa4de438e3ad",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Oil shipments, drone makers, and a poisoned code library targeted in recent APT campaigns",
-      "summary": "ESET's report highlights an uptick in state-sponsored APT campaigns between late 2025 and early 2026, driven by geopolitical objectives and targeting critical sectors such as government, technology, and industry. These campaigns notably utilized supply chain attacks like poisoned code libraries to achieve espionage and strategic goals.",
-      "date": "2026-05-28T09:00:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/eset-apt-activity-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "e08cb48d-7dc9-43ae-a89b-321637b51311",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-      "summary": "A previously unknown threat actor dubbed JINX-0164 is targeting cryptocurrency firms using recruitment-themed social engineering to deploy custom macOS malware and compromise CI/CD infrastructure. The campaign aims to facilitate the theft of digital assets from targeted organizations.",
-      "date": "2026-05-28T07:54:48.000Z",
-      "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6b30209a-fb7f-4a48-806f-b9f53ab9447f",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "19.6 Billion Files Are Sitting Open on the Internet. No Password Required",
-      "summary": "Researchers discovered nearly 20 billion files, including sensitive credentials and database dumps, exposed online due to misconfigured cloud storage buckets. This highlights a massive security gap regarding how companies protect user data stored in the cloud.",
-      "date": "2026-05-28T07:48:32.000Z",
-      "link": "https://securityaffairs.com/192787/security/19-6-billion-files-are-sitting-open-on-the-internet-no-password-required.html",
-      "isTopTen": false
-    },
-    {
-      "id": "af0d0bb6-b002-444a-94b7-860b61b5351b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Ketch brings multi-agent AI orchestration to enterprise privacy programs",
-      "summary": "Service busy.",
-      "date": "2026-05-28T07:34:18.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/ketch-brings-multi-agent-ai-orchestration-to-enterprise-privacy-programs/",
-      "isTopTen": false
-    },
-    {
-      "id": "405b68bc-0094-47fb-aab1-ba8da008b3bb",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Checksum introduces Continuous Quality Agent for automated test generation and healing",
-      "summary": "Checksum has released its Continuous Quality Agent, an autonomous tool designed to automatically generate, maintain, and heal software tests. The system aims to address the bottleneck of manual testing and test maintenance in fast-paced AI-driven development environments.",
-      "date": "2026-05-28T07:22:04.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/checksum-continuous-quality-agent/",
       "isTopTen": false
     }
   ]
