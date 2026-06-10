@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-10T20:39:35.148Z",
+  "lastUpdated": "2026-06-10T22:55:14.751Z",
   "articles": [
+    {
+      "id": "f5a3cf3c-0e18-45e7-a0e7-72deb747443c",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
+      "summary": "Attackers are actively exploiting a high-severity path traversal vulnerability (CVE-2026-5027) in the Langflow AI platform to write arbitrary files on vulnerable servers.",
+      "date": "2026-06-10T21:23:44.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "13e55c5e-e4a5-4b9d-a1e3-0de77890111d",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "FBI Seizes China-Linked Fake Consulting Sites Targeting US Clearance Holders",
+      "summary": "The FBI and Justice Department seized 13 fraudulent consulting websites operated by Chinese-linked actors aimed at compromising US security clearance holders to harvest sensitive government data.",
+      "date": "2026-06-10T20:53:52.000Z",
+      "link": "https://hackread.com/fbi-seizes-china-fake-consulting-sites-us-clearance/",
+      "isTopTen": true
+    },
     {
       "id": "7c289393-20fa-487c-864b-2e24fc032421",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "The source code for the Miasma credential-stealing framework was inadvertently exposed on GitHub, potentially providing malicious actors with the tools to conduct supply-chain attacks. The exposure was brief, but it risks broader distribution of the attack code.",
       "date": "2026-06-10T20:27:08.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3cc2d4b4-03cd-490a-aa11-8fac7383c043",
@@ -65,7 +87,7 @@
       "summary": "The ShinyHunters extortion gang is actively targeting Oracle PeopleSoft servers in a large-scale data theft campaign, claiming to have compromised over 100 organizations.",
       "date": "2026-06-10T18:31:57.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dcf405b9-a3d1-4d2d-98a3-7dd501b33e07",
@@ -120,7 +142,7 @@
       "summary": "Australia's second-largest sugar producer has suffered a cyberattack that halted mill operations and disrupted the harvest. The company is currently working with cybersecurity experts and authorities to investigate the incident and restore its systems.",
       "date": "2026-06-10T15:18:00.000Z",
       "link": "https://therecord.media/cyberattack-shuts-down-major-australian-sugar-producer",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9760bcfb-e016-4e3f-b59d-e874dd01b2a3",
@@ -208,7 +230,7 @@
       "summary": "Microsoft has released a patch for an actively exploited Exchange Server zero-day vulnerability that enables cross-site scripting (XSS) attacks against Outlook Web Access users. The flaw allows attackers to execute arbitrary JavaScript code within the context of the target's browser.",
       "date": "2026-06-10T13:44:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad8d8c69-d059-4591-ba3c-b59babd0de78",
@@ -274,7 +296,7 @@
       "summary": "Ivanti has patched two critical vulnerabilities in its Sentry gateway that could allow for remote code execution at the root level. While no active exploitation is currently reported, technical details for CVE-2026-10520 have been disclosed, increasing the risk of potential attacks.",
       "date": "2026-06-10T13:02:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/10/ivanti-sentry-cve-2026-10520-cve-2026-10523/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eb04a4fc-0d75-4f00-85c4-07fff65a05a6",
@@ -307,7 +329,7 @@
       "summary": "A sophisticated Browser-in-the-Browser phishing campaign is targeting Microsoft 365 users by using realistic, fake login popups to harvest authentication credentials. The attack leverages deceptive UI elements to mimic legitimate browser windows, tricking users into providing their login information.",
       "date": "2026-06-10T12:53:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/10/browser-in-the-browser-phishing-microsoft-365-users/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fbbb19b3-7fd6-448c-962b-481a77fc2853",
@@ -472,7 +494,7 @@
       "summary": "A new mathematical proof from NIST suggests that all AI guardrails have inherent limitations, demonstrating that any defensive system can eventually be bypassed by specifically crafted prompts. This highlights a fundamental challenge in securing generative AI against malicious or restricted content.",
       "date": "2026-06-10T08:27:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/10/broken-ai-guardrails-research/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "57641272-c0bb-4a72-8e4b-660bd452c115",
@@ -593,7 +615,7 @@
       "summary": "A zero-day vulnerability dubbed 'RoguePlanet' in Microsoft Defender allows unauthorized actors to escalate privileges to SYSTEM level. This flaw poses a significant risk to affected Windows systems by granting attackers full administrative control.",
       "date": "2026-06-09T23:11:18.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0d14f140-afcd-4839-98c5-139c7c6dd306",
@@ -604,7 +626,7 @@
       "summary": "The UK government has diluted proposed cybersecurity requirements for telecom networks following industry lobbying efforts, despite the measures being intended to counter espionage threats like the Salt Typhoon campaign.",
       "date": "2026-06-09T23:00:00.000Z",
       "link": "https://therecord.media/uk-weakens-telecoms-defenses-after-industry-lobbying",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9da99468-c1c0-43cf-b0df-8fa4c593a2f5",
@@ -5477,28 +5499,6 @@
       "summary": "The ShinyHunters hacking group compromised the personal data of 4.9 million Charter Communications customers in an early April data breach. The incident was identified through the monitoring service Have I Been Pwned.",
       "date": "2026-05-29T08:29:40.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-      "isTopTen": false
-    },
-    {
-      "id": "f2e3c012-4304-4ba7-9b5b-67cd1f85a0ee",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "BTMOB RAT Gives Criminals a Point-and-Click Kit to Take Over Your Android Phone",
-      "summary": "BTMOB is a new Android Remote Access Trojan (RAT) sold as an easy-to-use kit that allows non-technical criminals to perform full-device takeovers and data theft. By offering a built-in APK builder for a one-time fee, it significantly lowers the barrier to entry for mobile cyberattacks.",
-      "date": "2026-05-29T08:22:04.000Z",
-      "link": "https://securityaffairs.com/192846/malware/btmob-rat-gives-criminals-a-point-and-click-kit-to-take-over-your-android-phone.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8ffb4cfa-d347-4479-874f-32f8230d2b0b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic launches Claude Opus 4.8, prepares Mythos-class models for all customers",
-      "summary": "Anthropic has released the Claude Opus 4.8 model, focusing on improved output honesty, and announced plans to expand access to its Mythos-class models to all customers.",
-      "date": "2026-05-29T07:36:14.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/",
       "isTopTen": false
     }
   ]
