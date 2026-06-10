@@ -1,6 +1,259 @@
 {
-  "lastUpdated": "2026-06-10T10:22:09.260Z",
+  "lastUpdated": "2026-06-10T15:55:21.545Z",
   "articles": [
+    {
+      "id": "b85102ab-ecf9-4216-bf2c-df431f45d51d",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Cyberattack shuts down major Australian sugar mills, disrupting harvest",
+      "summary": "Australia's second-largest sugar producer has suffered a cyberattack that halted mill operations and disrupted the harvest. The company is currently working with cybersecurity experts and authorities to investigate the incident and restore its systems.",
+      "date": "2026-06-10T15:18:00.000Z",
+      "link": "https://therecord.media/cyberattack-shuts-down-major-australian-sugar-producer",
+      "isTopTen": true
+    },
+    {
+      "id": "9760bcfb-e016-4e3f-b59d-e874dd01b2a3",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "ServiceNow Discloses Security Incident Exposing Customer Data",
+      "summary": "ServiceNow disclosed a security incident involving an API access vulnerability that led to the unauthorized exposure of customer data. The company has since implemented a security update and notified all affected organizations.",
+      "date": "2026-06-10T15:16:09.000Z",
+      "link": "https://hackread.com/servicenow-security-incident-exposing-customer-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "6dd4206a-0bf5-46d1-95e9-b77f6b323792",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
+      "summary": "Ivanti, Fortinet, and SAP have released critical patches to address severe security vulnerabilities, including a high-severity command injection flaw in FortiSandbox, that could allow for arbitrary code execution and information disclosure.",
+      "date": "2026-06-10T15:10:59.000Z",
+      "link": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8263f17e-ea1d-4ae0-a2ea-4b38a3ca286a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+      "summary": "An unpatched path traversal vulnerability (CVE-2026-5027) in the Langflow AI platform is being actively exploited to achieve unauthenticated remote code execution. Attackers can leverage this flaw to write malicious files to arbitrary locations on affected systems.",
+      "date": "2026-06-10T15:00:59.000Z",
+      "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+      "isTopTen": true
+    },
+    {
+      "id": "03974c11-6e64-41ff-a8fb-20aa9c888bae",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "China-linked JDY botnet expands targeting of U.S. military networks",
+      "summary": "The China-linked JDY botnet has intensified its reconnaissance and expanded its reach against U.S. military networks, indicating a broader strategic threat. This development suggests a significant escalation in persistent malicious activity attributed to state-sponsored actors.",
+      "date": "2026-06-10T15:00:00.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+      "isTopTen": true
+    },
+    {
+      "id": "6ea1aef6-2afd-4745-aa19-98424d400617",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
+      "summary": "CISA has added vulnerabilities affecting Cisco, Chrome, and Arista products to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active real-world exploitation. Organizations are urged to apply necessary patches to mitigate these identified security risks.",
+      "date": "2026-06-10T14:44:29.000Z",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+      "isTopTen": false
+    },
+    {
+      "id": "47b02110-689c-4c12-bc50-7cdb8d015bfe",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Identity theft is turning into a chain reaction for victims",
+      "summary": "Recent data reveals that identity theft is increasingly becoming a recurring issue, with over 25% of victims experiencing multiple, compounding incidents. The Identity Theft Resource Center highlights this trend as a shift from isolated events to a persistent chain reaction for victims.",
+      "date": "2026-06-10T14:23:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/identity-theft-incidents-itrc-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "c63c3745-902b-4431-8794-343abebf07ca",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The 5 Best Practices for Secure Identity Verification",
+      "summary": "This article outlines five essential best practices to strengthen identity verification and access security against evolving threats like phishing, MFA fatigue, and social engineering. It serves as a guide for organizations to move beyond weak authentication methods.",
+      "date": "2026-06-10T14:05:15.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "isTopTen": false
+    },
+    {
+      "id": "653af8e8-a0e8-49af-85bc-1f91e1d839ad",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
+      "summary": "Microsoft has released a patch for an actively exploited Exchange Server zero-day vulnerability that enables cross-site scripting (XSS) attacks against Outlook Web Access users. The flaw allows attackers to execute arbitrary JavaScript code within the context of the target's browser.",
+      "date": "2026-06-10T13:44:19.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
+      "isTopTen": true
+    },
+    {
+      "id": "ad8d8c69-d059-4591-ba3c-b59babd0de78",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "AISLE Snapshot keeps source code under enterprise control during vulnerability scanning",
+      "summary": "AISLE has launched AISLE Snapshot, a vulnerability scanning tool that allows enterprises to analyze their source code and security data locally to maintain data sovereignty. This solution aims to address the rising volume of CVEs while ensuring sensitive intellectual property does not leave the organization's infrastructure.",
+      "date": "2026-06-10T13:41:59.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/aisle-snapshot-keeps-source-code-under-enterprise-control-during-vulnerability-scanning/",
+      "isTopTen": false
+    },
+    {
+      "id": "cfcb1ef6-d8e4-4f5e-94b3-f78ee488ace1",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Russian APTs Still Exploiting Patched WinRAR Flaw CVE-2025-8088",
+      "summary": "Russian-linked threat actors continue to exploit the patched path traversal vulnerability CVE-2025-8088 in WinRAR to deploy malware through malicious archives. Despite a fix being available since July 2025, attackers are successfully targeting systems that have not been updated.",
+      "date": "2026-06-10T13:34:45.000Z",
+      "link": "https://securityaffairs.com/193476/apt/russian-apts-still-exploiting-patched-winrar-flaw-cve-2025-8088.html",
+      "isTopTen": false
+    },
+    {
+      "id": "49b8de7b-08b2-4e13-9646-b9f6312d310a",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Drata brings visibility, control and auditability to enterprise AI agents",
+      "summary": "Drata has launched a new security category called AI Agent Governance to provide visibility and control over autonomous enterprise AI systems. The initiative aims to reduce governance friction and help organizations securely adopt AI technology.",
+      "date": "2026-06-10T13:31:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/drata-ai-agent-governance/",
+      "isTopTen": false
+    },
+    {
+      "id": "7b38672d-a9ee-483e-a537-215838f683d8",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New Intel 471 assessment helps organizations measure CTI program maturity",
+      "summary": "Intel 471 has launched a free, lightweight self-assessment tool based on the CTI-CMM framework to help security teams evaluate the maturity of their cyber threat intelligence programs.",
+      "date": "2026-06-10T13:19:56.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/intel-471-cti-maturity-pulse-check/",
+      "isTopTen": false
+    },
+    {
+      "id": "e2db444e-e918-49e5-8390-e29ec5bbb9d5",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "GitHub pulls pin on npm's auto-run scripts",
+      "summary": "GitHub has officially disabled npm's auto-run scripts to prevent the exploitation of package installation processes by malicious software. This change aims to mitigate risks demonstrated by the Shai-Hulud worm.",
+      "date": "2026-06-10T13:11:14.000Z",
+      "link": "https://www.theregister.com/devops/2026/06/10/github-pulls-pin-on-npms-auto-run-scripts/5253453",
+      "isTopTen": false
+    },
+    {
+      "id": "25364829-aaa1-4189-931b-22ac7be21754",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Ivanti Sentry flaw allows root-level remote code execution (CVE-2026-10520)",
+      "summary": "Ivanti has patched two critical vulnerabilities in its Sentry gateway that could allow for remote code execution at the root level. While no active exploitation is currently reported, technical details for CVE-2026-10520 have been disclosed, increasing the risk of potential attacks.",
+      "date": "2026-06-10T13:02:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/ivanti-sentry-cve-2026-10520-cve-2026-10523/",
+      "isTopTen": false
+    },
+    {
+      "id": "eb04a4fc-0d75-4f00-85c4-07fff65a05a6",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cloud Security Report Finds Fragmented Tools Widening the Cloud Complexity Gap",
+      "summary": "A new industry report highlights that the use of fragmented security tools is exacerbating the complexity gap within cloud environments. This operational challenge poses significant risks to consistent cloud infrastructure protection.",
+      "date": "2026-06-10T13:00:20.000Z",
+      "link": "https://hackread.com/cloud-security-report-finds-fragmented-tools-widening-the-cloud-complexity-gap/",
+      "isTopTen": false
+    },
+    {
+      "id": "8cfc3e42-4396-47fc-8707-c23dc6092f7a",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft ships largest Patch Tuesday on record, with one bug under active attack",
+      "summary": "Microsoft has released its largest Patch Tuesday update on record, which includes a fix for a vulnerability that is currently being exploited in the wild. This surge in vulnerability reporting is attributed in part to the increased use of AI-driven tools in security research.",
+      "date": "2026-06-10T13:00:00.000Z",
+      "link": "https://therecord.media/microsoft-ships-largest-patch-tuesday-on-record",
+      "isTopTen": false
+    },
+    {
+      "id": "3dbd58a3-2d71-4e24-b932-8370fe6eeff3",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "New Browser-in-the-Browser phishing uses fake login popups to steal Microsoft 365 credentials",
+      "summary": "A sophisticated Browser-in-the-Browser phishing campaign is targeting Microsoft 365 users by using realistic, fake login popups to harvest authentication credentials. The attack leverages deceptive UI elements to mimic legitimate browser windows, tricking users into providing their login information.",
+      "date": "2026-06-10T12:53:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/browser-in-the-browser-phishing-microsoft-365-users/",
+      "isTopTen": false
+    },
+    {
+      "id": "fbbb19b3-7fd6-448c-962b-481a77fc2853",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Building reusable workflows with custom agents in Copilot CLI",
+      "summary": "GitHub has introduced custom agents for the Copilot CLI, allowing developers to automate and reuse terminal workflows to improve productivity. This feature enables users to encapsulate repeated command sequences and context into reusable task agents.",
+      "date": "2026-06-10T11:34:59.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/10/uilding-reusable-workflows-copilot-cli-custom-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "6196fd48-c1d7-46a9-b1d2-459302c78c7b",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
+      "summary": "Microsoft has issued a warning regarding installation failures for recent monthly updates on Windows 11 24H2 and 25H2 systems. This issue prevents certain devices from successfully applying the latest security and performance patches.",
+      "date": "2026-06-10T11:33:32.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
+      "isTopTen": false
+    },
+    {
+      "id": "a63ac557-9417-4382-81bd-a2f22779ebf9",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Cisco Catalyst SD-WAN, Arista Extensible Operating System (EOS), and Google Chromium V8 flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include multiple flaws affecting Cisco, Arista, Google Chromium, BerriAI, and Check Point products. Organizations are urged to patch these vulnerabilities to mitigate risks of active exploitation.",
+      "date": "2026-06-10T11:14:57.000Z",
+      "link": "https://securityaffairs.com/193464/security/u-s-cisa-adds-cisco-catalyst-sd-wan-arista-extensible-operating-system-eos-and-google-chromium-v8-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e83a3cc0-018a-414d-8c29-d20ee4a949e5",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ivanti tells Sentry customers to patch now as critical bugs hit 10.0 and 9.9",
+      "summary": "Ivanti has issued an urgent patch for critical remote code execution vulnerabilities affecting Sentry versions 10.0 and 9.9 that allow unauthenticated attackers to gain root-level access. Customers are advised to update their systems immediately to mitigate the risk of compromise.",
+      "date": "2026-06-10T11:04:53.000Z",
+      "link": "https://www.theregister.com/patches/2026/06/10/ivanti-urges-sentry-users-to-patch-two-critical-bugs/5253428",
+      "isTopTen": false
+    },
+    {
+      "id": "2eb90a27-3328-41a7-85f7-e6cfea666ef7",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
+      "summary": "This article highlights the risks of relying solely on automated penetration testing, which may provide a false sense of security as detection rates decline over time. It promotes an upcoming expert webinar intended to address the security gaps that automated tools frequently miss.",
+      "date": "2026-06-10T10:27:49.000Z",
+      "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
+      "isTopTen": false
+    },
     {
       "id": "25293429-4b54-462d-b010-38acb61f46ca",
       "source": "BleepingComputer",
@@ -11,6 +264,28 @@
       "date": "2026-06-10T09:57:33.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
       "isTopTen": false
+    },
+    {
+      "id": "ee1ccb9c-007c-4e89-8b74-7223123565e6",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Chaotic Eclipse Unveils RoguePlanet Exploit Targeting Fully Patched Windows",
+      "summary": "Researcher Chaotic Eclipse has released a proof-of-concept for a zero-day exploit named RoguePlanet, which leverages a race condition in Microsoft Defender to achieve SYSTEM-level privileges on fully patched Windows systems.",
+      "date": "2026-06-10T09:45:00.000Z",
+      "link": "https://securityaffairs.com/193436/security/chaotic-eclipse-unveils-rogueplanet-exploit-targeting-fully-patched-windows.html",
+      "isTopTen": false
+    },
+    {
+      "id": "60929059-67c1-439a-b14f-929df350b545",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
+      "summary": "Microsoft has released patches for a record-breaking 206 security vulnerabilities, including three zero-day exploits and 39 critical flaws involving remote code execution and privilege escalation.",
+      "date": "2026-06-10T09:38:13.000Z",
+      "link": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
+      "isTopTen": true
     },
     {
       "id": "00984054-5bc1-403e-88da-dd99bb19b760",
@@ -76,7 +351,7 @@
       "summary": "Researchers at the University of Toronto have demonstrated that open-source AI models can be used to develop autonomous worms capable of adapting their attacks across various platforms including Windows, Linux, and IoT devices.",
       "date": "2026-06-10T08:30:50.000Z",
       "link": "https://securityaffairs.com/193405/malware/ai-worms-researchers-demonstrate-autonomous-malware-capable-of-adapting-to-any-online-device.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a931510-6c56-49f7-ad26-c6d5792f95b9",
@@ -164,7 +439,7 @@
       "summary": "A security researcher known as Chaotic Eclipse has released a proof-of-concept exploit for a zero-day vulnerability in Microsoft Defender dubbed 'RoguePlanet,' which allows for SYSTEM-level access via a race condition. The exploit targets updated Windows systems, posing a significant risk due to the potential for privilege escalation.",
       "date": "2026-06-10T05:22:01.000Z",
       "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "39b2110f-c227-499c-aa04-e60bc86c2e32",
@@ -395,7 +670,7 @@
       "summary": "Veeam has patched a critical remote code execution vulnerability, CVE-2026-44963, which allows low-privileged domain users to compromise Backup & Replication servers. The flaw carries a CVSS score of 9.4 and impacts version 12.x.",
       "date": "2026-06-09T16:51:20.000Z",
       "link": "https://securityaffairs.com/193385/uncategorized/critical-veeam-rce-flaw-lets-low-privilege-users-take-over-backup-servers.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8aca3e6c-1c12-42ce-9984-7eff6d349483",
@@ -472,7 +747,7 @@
       "summary": "The Miasma worm infected 73 Microsoft GitHub repositories by targeting AI coding tools, resulting in the theft of cloud credentials and the temporary disabling of core Azure infrastructure. The incident highlights a supply chain compromise affecting developer environments and CI/CD pipelines.",
       "date": "2026-06-09T15:57:16.000Z",
       "link": "https://securityaffairs.com/193367/malware/miasma-worm-compromises-73-microsoft-github-repositories.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b4d8c94d-0807-4352-90a7-1f810a173059",
@@ -5224,281 +5499,6 @@
       "summary": "Foreign adversaries have been exploiting commercial location tracking data from the smartphones of military personnel to pinpoint their positions. Consequently, lawmakers are urging the Department of Defense to implement stricter security controls regarding mobile device usage.",
       "date": "2026-05-28T21:35:36.000Z",
       "link": "https://www.theregister.com/security/2026/05/28/troops-phones-leaked-location-data-to-foreign-adversaries/5248108",
-      "isTopTen": false
-    },
-    {
-      "id": "0521a9a9-dcb5-4c36-b0b6-0cbf10f8c777",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "BTMOB Android malware service generates custom phishing payloads",
-      "summary": "BTMOB is a new Android remote access trojan that provides cybercriminals with a builder interface to create customized phishing payloads. This service lowers the barrier for attackers to deploy targeted mobile malware.",
-      "date": "2026-05-28T21:10:11.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-      "isTopTen": false
-    },
-    {
-      "id": "b10ac3dc-b3cf-42d1-b615-6c5cc9388956",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Disgruntled 0-day hunter 'humiliated' by Microsoft pledges 'bone shattering drop' as Redmond calls cops",
-      "summary": "A disgruntled security researcher who claims to possess several zero-day vulnerabilities, including some under active exploitation, has threatened to release them publicly after Microsoft involved law enforcement. The researcher intends to potentially dump these exploits on July 14.",
-      "date": "2026-05-28T20:19:09.000Z",
-      "link": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
-      "isTopTen": false
-    },
-    {
-      "id": "ab8c8966-3f62-4e5a-b0bb-54d6e2ff2d00",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Snowflake buys Natoma to help freeze out rogue agents",
-      "summary": "Snowflake has acquired the company Natoma, marking its sixth acquisition since June 2025 as part of an effort to enhance security against malicious actors. This move reflects the company's ongoing strategy to bolster its database protection capabilities.",
-      "date": "2026-05-28T19:52:47.000Z",
-      "link": "https://www.theregister.com/ai-ml/2026/05/28/snowflake-buys-natoma-to-help-freeze-out-rogue-agents/5248062",
-      "isTopTen": false
-    },
-    {
-      "id": "07496978-1cd7-4189-aa79-5db317d36e79",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Carnival Data Breach Exposes Personal Data of Nearly 6 Million Customers",
-      "summary": "Carnival Corporation disclosed a data breach resulting from a social engineering attack that compromised employee accounts, exposing the personal information of nearly 6 million customers. The company is currently in the process of notifying all affected individuals.",
-      "date": "2026-05-28T19:32:55.000Z",
-      "link": "https://securityaffairs.com/192833/uncategorized/carnival-data-breach-exposes-personal-data-of-nearly-6-million-customers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bce7848f-b8bd-4304-be25-ca2ca1116ac7",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
-      "summary": "The FBI has issued an alert regarding fraudulent websites impersonating FIFA to steal financial data and distribute fake World Cup tickets. These schemes leverage the upcoming 2026 event to target unsuspecting fans through phishing and illicit sales.",
-      "date": "2026-05-28T19:08:10.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
-      "isTopTen": false
-    },
-    {
-      "id": "24bc64c8-efbd-432f-be69-53e0ca208b00",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "House panel poised to hold hearing centered on AI impact on cyber",
-      "summary": "The House Homeland Security Committee is scheduled to host a public hearing to examine the impact of artificial intelligence on cybersecurity. This event is part of an ongoing series of congressional reviews regarding emerging tech threats.",
-      "date": "2026-05-28T18:54:35.000Z",
-      "link": "https://cyberscoop.com/house-hearing-frontier-ai-cybersecurity-threats/",
-      "isTopTen": false
-    },
-    {
-      "id": "bab8b0b7-fd6a-4dc1-87d4-2cc616c93d7c",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Google security engineer accused of turning confidential search trends into $1.2M win on Polymarket",
-      "summary": "A Google security engineer has been accused of leveraging unauthorized access to confidential internal search trend data to execute profitable trades on the prediction market Polymarket. The individual allegedly generated $1.2 million in illicit gains using nonpublic information.",
-      "date": "2026-05-28T18:13:35.000Z",
-      "link": "https://cyberscoop.com/google-security-engineer-insider-trading-polymarket/",
-      "isTopTen": false
-    },
-    {
-      "id": "a000dd4b-ac11-44a7-8e43-ef840e73ea54",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
-      "summary": "Hackers are actively exploiting an authentication bypass vulnerability in FortiClient EMS to distribute a new credential-stealing malware known as EKZ. The campaign leverages CVE-2026-35616 to compromise enterprise management servers.",
-      "date": "2026-05-28T17:25:43.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "5228960e-fb20-4306-aaf7-bc90902cf317",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
-      "summary": "A critical RCE vulnerability in Gogs, rated 9.4 on the CVSS scale, allows authenticated users to execute arbitrary code on affected servers. The flaw currently lacks an official CVE identifier.",
-      "date": "2026-05-28T17:24:44.000Z",
-      "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3ba3f2cf-8682-4482-a7bc-b83ec640f22d",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "The CISO Whisperer’s Watch List For The Gartner Security & Risk Management Summit 2026",
-      "summary": "This article highlights key focus areas and recommendations for CISOs attending the upcoming 2026 Gartner Security & Risk Management Summit. It serves as a strategic guide for industry leaders navigating the evolving threat landscape.",
-      "date": "2026-05-28T16:43:58.000Z",
-      "link": "https://hackread.com/the-ciso-whisperers-watch-list-for-the-gartner-security-risk-management-summit-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "29b9db7e-0867-49a2-b22f-901719a42bc9",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Microsoft tests the 15-character limit of Windows Server admins' patience",
-      "summary": "Microsoft's May security update introduced a bug that causes issues for Windows Server hostnames exactly 15 characters long. This flaw disrupts system operations for administrators using specific naming conventions.",
-      "date": "2026-05-28T16:30:00.000Z",
-      "link": "https://www.theregister.com/oses/2026/05/28/microsoft-tests-the-15-character-limit-of-windows-server-admins-patience/5247943",
-      "isTopTen": false
-    },
-    {
-      "id": "303c3432-3370-4ef9-83fe-5e9980993b1e",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CVE-2026-35616: FortiClient EMS Flaw Actively Exploited in Malware Attacks",
-      "summary": "FortiClient EMS is currently being targeted by threat actors exploiting a critical, unauthenticated remote code execution vulnerability (CVE-2026-35616) to deploy information-stealing malware. Security teams are urged to ensure systems are patched against this high-severity flaw.",
-      "date": "2026-05-28T16:05:32.000Z",
-      "link": "https://securityaffairs.com/192817/malware/cve-2026-35616-forticlient-ems-flaw-actively-exploited-in-malware-attacks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c0a64195-412d-4b80-8693-37f7941d3d06",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Resecurity Supports Microsoft DCU in Disrupting Fox Tempest ’s Cybercriminal Code-Signing Ecosystem",
-      "summary": "Resecurity assisted Microsoft's Digital Crimes Unit in disrupting Fox Tempest, a malware-signing-as-a-service operation that utilized fraudulent certificates to legitimize malicious software.",
-      "date": "2026-05-28T15:29:24.000Z",
-      "link": "https://securityaffairs.com/192818/security/resecurity-supports-microsoft-dcu-in-disrupting-fox-tempest-cybercriminal-code-signing-ecosystem.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8c32a606-c49d-4b61-bdd1-baf0e9d0ee80",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "summary": "Threat actors are actively exploiting a critical vulnerability in FortiClient Endpoint Management Server (EMS) to distribute credential-stealing malware across managed endpoints. Although a patch is available, attackers are leveraging the infrastructure to masquerade malicious payloads as legitimate Fortinet updates.",
-      "date": "2026-05-28T15:26:04.000Z",
-      "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2d0f8ac4-e392-48f9-89a0-c9bd9ce6b3a7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "IBM and Red Hat are betting $5 billion that open source needs a security guard",
-      "summary": "IBM and Red Hat have launched Project Lightwell, a $5 billion initiative utilizing AI and a dedicated engineering workforce to identify and remediate security vulnerabilities within open source software for enterprise environments.",
-      "date": "2026-05-28T14:45:09.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/ibm-red-hat-project-lightwell/",
-      "isTopTen": false
-    },
-    {
-      "id": "2b21f019-a294-4146-98f3-2b080a8aebb4",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New Gogs zero-day flaw lets hackers get remote code execution",
-      "summary": "An unpatched zero-day vulnerability in Gogs self-hosted Git services exposes internet-facing instances to remote code execution attacks. This flaw allows unauthorized actors to execute arbitrary commands, posing a significant security risk.",
-      "date": "2026-05-28T14:25:43.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
-      "isTopTen": false
-    },
-    {
-      "id": "75b297bf-2308-4eea-9842-69fc952b7781",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cybercriminals sail away with data from 6 million Carnival customers",
-      "summary": "Carnival Corporation confirmed a data breach affecting 6 million customers after a phishing attack allowed unauthorized access to an employee's account. The ShinyHunters hacking group claimed responsibility for the incident.",
-      "date": "2026-05-28T14:04:03.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/carnival-corporation-data-breach/",
-      "isTopTen": false
-    },
-    {
-      "id": "cc4de3be-2618-4d29-8404-95ffe77ab817",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": " How SIEM helps MSPs reduce noise and stop threats faster",
-      "summary": "This article explores how SIEM solutions assist Managed Service Providers (MSPs) in managing alert fatigue by filtering noise and increasing visibility to accelerate threat response.",
-      "date": "2026-05-28T14:01:11.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/",
-      "isTopTen": false
-    },
-    {
-      "id": "3c825e43-1105-4523-a51e-c122fbf90087",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cruise giant Carnival confirms data breach affecting nearly 6 million people",
-      "summary": "Carnival Corporation disclosed a data breach involving unauthorized access to an employee account, resulting in the theft of personal information for approximately 6 million individuals. The incident occurred after attackers compromised internal systems in April.",
-      "date": "2026-05-28T14:01:00.000Z",
-      "link": "https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million",
-      "isTopTen": false
-    },
-    {
-      "id": "55537d47-43de-4287-b520-25d0817b148f",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-      "summary": "Microsoft is advocating for Coordinated Vulnerability Disclosure (CVD) following the unauthorized public release of zero-day vulnerabilities by a security researcher. This stance highlights the ongoing tension between researchers practicing full disclosure and vendors preferring structured reporting processes.",
-      "date": "2026-05-28T13:53:52.000Z",
-      "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6e64dfc5-7a48-4310-b066-fff75ef8df4f",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Microsoft’s Copilot trust test: Zero findings, more models, wider oversight",
-      "summary": "Microsoft 365 Copilot has successfully achieved recertification under the ISO/IEC 42001:2023 standard for AI management systems for the second consecutive year with zero non-conformities. The certification validates Microsoft's adherence to rigorous frameworks regarding AI governance, data management, and human oversight.",
-      "date": "2026-05-28T13:53:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/05/28/microsoft-365-copilot-iso-42001-certification/",
-      "isTopTen": false
-    },
-    {
-      "id": "98670346-7be1-4a58-9e55-24db6e00843a",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Critical",
-      "title": "Canadian man gets 33 years for using social media to coerce US children into sending sexual content",
-      "summary": "A Canadian man was sentenced to 33 years in prison for using fraudulent social media profiles to coerce American minors into sharing sexually explicit materials. The case highlights the severe consequences for individuals engaging in the sexual exploitation of children through online manipulation.",
-      "date": "2026-05-28T13:42:00.000Z",
-      "link": "https://therecord.media/canadian-man-gets-33-years-social-media-luring-kids",
-      "isTopTen": false
-    },
-    {
-      "id": "1ba8752b-c53b-48f7-a024-21858bb1e982",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-      "summary": "This bulletin covers a diverse range of current cyber threats, including newly discovered vulnerabilities in Azure, bypasses for MFA systems, and ongoing social engineering campaigns targeting global events. It highlights the persistent issue of insecure infrastructure and high-impact privilege escalation techniques across the threat landscape.",
-      "date": "2026-05-28T13:33:16.000Z",
-      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4458f183-9e62-46c3-822d-bce18bcd4bf5",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Chinese-speaking fraud gang could be stealing millions from 2026 World Cup fans",
-      "summary": "A Chinese-speaking cybercriminal group has registered over 4,300 fraudulent domains mimicking FIFA to target and defraud 2026 World Cup fans. These malicious activities indicate a large-scale phishing campaign designed to steal financial information from unsuspecting attendees.",
-      "date": "2026-05-28T13:26:00.000Z",
-      "link": "https://therecord.media/chinese-speaking-fraud-gang-fifa-world-cup-scam",
-      "isTopTen": false
-    },
-    {
-      "id": "52962693-b644-4181-a04f-c6b856f366f2",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Russia conducting daily attacks on UK 'from seabed to cyberspace,' spy chief warns",
-      "summary": "GCHQ director Anne Keast-Butler warned that Russia is executing daily, multifaceted attacks against the UK ranging from physical sabotage of subsea infrastructure to cyber operations. The agency is actively working to counter these threats, including technology smuggling networks and assassination attempts.",
-      "date": "2026-05-28T13:20:00.000Z",
-      "link": "https://therecord.media/russia-conducting-attacks-on-uk-gchq-briefing",
       "isTopTen": false
     }
   ]
