@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-10T22:55:14.751Z",
+  "lastUpdated": "2026-06-11T04:24:03.343Z",
   "articles": [
+    {
+      "id": "3c4172b5-045f-4e91-a808-082d775f281e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Organizations can’t see much of their mobile AI activity",
+      "summary": "Enterprises struggle with limited visibility into mobile AI activity, leaving over half of mobile AI traffic unmonitored across both corporate and BYOD devices. This gap persists despite executive confidence in existing AI governance frameworks.",
+      "date": "2026-06-11T04:00:06.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/11/lookout-mobile-ai-governance-risks-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "dc81bf7c-6ccb-4c96-ac09-8fa569c1a258",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Chinese agents caught rebuilding botnets and stirring the pot on AI datacenter debate",
+      "summary": "Chinese state-sponsored actors are actively reconstructing botnet infrastructure while simultaneously engaging in influence operations regarding the regulation and development of AI datacenters. These activities indicate a multifaceted approach to both strategic cyber-espionage and geopolitical disruption.",
+      "date": "2026-06-11T00:00:45.000Z",
+      "link": "https://www.theregister.com/security/2026/06/11/china-linked-operators-revive-botnet-stir-ai-datacenter-debate/5253873",
+      "isTopTen": false
+    },
     {
       "id": "f5a3cf3c-0e18-45e7-a0e7-72deb747443c",
       "source": "BleepingComputer",
@@ -175,7 +197,7 @@
       "summary": "An unpatched path traversal vulnerability (CVE-2026-5027) in the Langflow AI platform is being actively exploited to achieve unauthenticated remote code execution. Attackers can leverage this flaw to write malicious files to arbitrary locations on affected systems.",
       "date": "2026-06-10T15:00:59.000Z",
       "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "03974c11-6e64-41ff-a8fb-20aa9c888bae",
@@ -197,7 +219,7 @@
       "summary": "CISA has added vulnerabilities affecting Cisco, Chrome, and Arista products to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active real-world exploitation. Organizations are urged to apply necessary patches to mitigate these identified security risks.",
       "date": "2026-06-10T14:44:29.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "47b02110-689c-4c12-bc50-7cdb8d015bfe",
@@ -406,7 +428,7 @@
       "summary": "Researcher Chaotic Eclipse has released a proof-of-concept for a zero-day exploit named RoguePlanet, which leverages a race condition in Microsoft Defender to achieve SYSTEM-level privileges on fully patched Windows systems.",
       "date": "2026-06-10T09:45:00.000Z",
       "link": "https://securityaffairs.com/193436/security/chaotic-eclipse-unveils-rogueplanet-exploit-targeting-fully-patched-windows.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "60929059-67c1-439a-b14f-929df350b545",
@@ -615,7 +637,7 @@
       "summary": "A zero-day vulnerability dubbed 'RoguePlanet' in Microsoft Defender allows unauthorized actors to escalate privileges to SYSTEM level. This flaw poses a significant risk to affected Windows systems by granting attackers full administrative control.",
       "date": "2026-06-09T23:11:18.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0d14f140-afcd-4839-98c5-139c7c6dd306",
@@ -5477,28 +5499,6 @@
       "summary": "Microsoft has redesigned its 365 Copilot AI assistant to feature a unified workspace that surfaces relevant actions and contextual information through a progressive disclosure interface.",
       "date": "2026-05-29T09:14:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/05/29/microsoft-365-copilot-redesign/",
-      "isTopTen": false
-    },
-    {
-      "id": "df16cc02-db8f-4dd5-8710-2c23e76455d0",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-      "summary": "Service busy.",
-      "date": "2026-05-29T09:11:25.000Z",
-      "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-      "isTopTen": false
-    },
-    {
-      "id": "507bdf85-795c-425b-a69b-d71d19903bbb",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Charter Communications data breach affects 4.9 million accounts",
-      "summary": "The ShinyHunters hacking group compromised the personal data of 4.9 million Charter Communications customers in an early April data breach. The incident was identified through the monitoring service Have I Been Pwned.",
-      "date": "2026-05-29T08:29:40.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
       "isTopTen": false
     }
   ]
