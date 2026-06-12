@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-12T20:21:55.720Z",
+  "lastUpdated": "2026-06-12T22:29:09.523Z",
   "articles": [
+    {
+      "id": "e694cd6f-ca52-4071-b283-c18b3e1d3467",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered",
+      "summary": "Unit 42 researchers have identified a new macOS artifact called Tahoe 26 that logs user menu selections, providing new capabilities for digital forensics. This discovery enables investigators to better trace user activity across the operating system.",
+      "date": "2026-06-12T22:00:14.000Z",
+      "link": "https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/",
+      "isTopTen": false
+    },
+    {
+      "id": "682b3c11-f434-4a0f-8a76-1888c846df6c",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FBI takes down massive China-based cybercrime network that caused $1.9B in losses",
+      "summary": "The FBI dismantled a China-based cybercrime network responsible for $1.9 billion in financial losses through a phishing infrastructure that impersonated delivery and government services. The operation targeted victims with deceptive lures regarding unpaid tolls, parking violations, and missed packages.",
+      "date": "2026-06-12T21:56:29.000Z",
+      "link": "https://cyberscoop.com/outsider-cybercrime-network-takedown-china-fbi-google-lumen/",
+      "isTopTen": true
+    },
+    {
+      "id": "a530221f-4b6e-441d-97d3-f44d086f68da",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Iran-Linked Handala Breached a California Water Utility. It Could Have Done Worse, and It Knows That.",
+      "summary": "The Iran-linked threat group Handala breached California Water Service through an exposed GPS tool, resulting in the unauthorized access and leakage of billing data for 2 million customers. The attackers published 5GB of stolen data as proof of the compromise.",
+      "date": "2026-06-12T21:34:22.000Z",
+      "link": "https://securityaffairs.com/193565/uncategorized/iran-linked-handala-breached-a-california-water-utility-it-could-have-done-worse-and-it-knows-that.html",
+      "isTopTen": true
+    },
     {
       "id": "da2ed7b8-9702-460b-aec8-3565770a272f",
       "source": "BleepingComputer",
@@ -13,6 +46,17 @@
       "isTopTen": false
     },
     {
+      "id": "9cb5043a-45f8-4b6e-9cbb-4f05035bc12f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
+      "summary": "Over 400 Arch Linux AUR packages were compromised by attackers who injected build scripts to deploy a credential-stealing Rust binary and an eBPF rootkit. This supply chain attack specifically targets developers building software from the community repository.",
+      "date": "2026-06-12T19:33:25.000Z",
+      "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
+      "isTopTen": true
+    },
+    {
       "id": "2bc2beac-fa7c-41d4-a2b2-ecc303cf70f8",
       "source": "The Hacker News",
       "tag": "Malware and Vulnerabilities",
@@ -21,7 +65,7 @@
       "summary": "Attackers compromised over 400 Arch Linux AUR packages by injecting malicious build scripts that install a Rust-based credential stealer and an optional eBPF rootkit. This supply chain attack targets developers by executing the malware during the software build process.",
       "date": "2026-06-12T19:24:50.000Z",
       "link": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f93781bc-35aa-4d0b-9dcb-c291ae25a523",
@@ -32,7 +76,7 @@
       "summary": "Google has initiated legal action against a Chinese cybercrime network that allegedly leveraged its Gemini AI to develop and facilitate a phishing-as-a-service platform called Outsider. The operation targeted U.S. citizens through automated SMS-based phishing attacks.",
       "date": "2026-06-12T18:59:32.000Z",
       "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c8cad9fa-5b7a-408f-bf25-43b7995fc79b",
@@ -65,7 +109,7 @@
       "summary": "Authorities from the US, France, and Italy collaborated to dismantle a prominent website that distributed non-consensual deepfake pornography targeting high-profile individuals. The operation marks a significant international effort to combat the weaponization of synthetic media for harassment.",
       "date": "2026-06-12T18:21:05.000Z",
       "link": "https://cyberscoop.com/us-international-authorities-shutdown-deepfake-porn-site/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e09ba8c7-4446-40f7-8085-2aa72432418b",
@@ -109,7 +153,7 @@
       "summary": "A Ukrainian national extradited to the U.S. has pleaded guilty to conspiracy charges related to their involvement in the Conti ransomware group. This development marks a significant legal action against a member of one of the most prominent cybercriminal syndicates.",
       "date": "2026-06-12T17:54:28.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dedb2fae-337b-4b77-ad36-ad0e603fde9d",
@@ -164,7 +208,7 @@
       "summary": "The hacking group ShinyHunters is leveraging an unpatched vulnerability in Oracle software to target and extort universities. This exploit has been active since late May, as the vulnerability remains unresolved by the vendor.",
       "date": "2026-06-12T16:12:34.000Z",
       "link": "https://cyberscoop.com/oracle-peoplesoft-zero-day-vulnerability-shinyhunters-extortion/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2ee9f33a-ecee-47c5-a138-2c9ee133517a",
@@ -186,7 +230,7 @@
       "summary": "The threat group ShinyHunters exploited a zero-day vulnerability in Oracle PeopleSoft to exfiltrate data from over 100 organizations, predominantly targeting universities. Google security researchers identified the campaign, which underscores the significant risk posed by unpatched software flaws.",
       "date": "2026-06-12T14:06:24.000Z",
       "link": "https://hackread.com/shinyhunters-universities-oracle-peoplesoft-zero-day-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "05545b14-d627-4e4c-a621-be478088cf75",
@@ -384,7 +428,7 @@
       "summary": "Federal authorities have seized the domains AudiA6 and Dark2Web as part of a $389 million cryptocurrency money laundering investigation that resulted in the arrest of two suspects. The operation highlights ongoing efforts by law enforcement to dismantle illicit financial networks utilizing digital assets.",
       "date": "2026-06-12T10:00:00.000Z",
       "link": "https://hackread.com/feds-seize-audia6-dark2web-crypto-laundering-case/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6b6cf295-c697-4d59-b360-7fe06435767e",
@@ -5455,50 +5499,6 @@
       "summary": "A threat actor known as DriveSurge is compromising thousands of websites to distribute malware via ClickFix and FakeUpdate social engineering techniques. The campaign relies on deceptive browser pop-ups to trick users into executing malicious code.",
       "date": "2026-06-01T22:14:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "076632ad-bdaa-4e85-87ff-991c6eb45a7b",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Shai-Hulud malware worms Red Hat npm package versions downloaded 80K times a week",
-      "summary": "Malicious 'Shai-Hulud' malware has been discovered embedded in multiple Red Hat-related npm packages, accumulating 80,000 weekly downloads. The campaign involves worm-like propagation tactics targeting developer environments.",
-      "date": "2026-06-01T21:54:07.000Z",
-      "link": "https://www.theregister.com/security/2026/06/01/shai-hulud-malware-infects-red-hat-npm-packages-downloaded-80k-times-weekly/5249803",
-      "isTopTen": false
-    },
-    {
-      "id": "11eabda6-eaf9-4e0f-b9ca-d3a8aec32a82",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Red Hat npm packages compromised to steal developer credentials",
-      "summary": "Attackers compromised over 30 npm packages within the '@redhat-cloud-services' namespace to distribute the Miasma credential-stealing malware. This supply-chain attack specifically targeted developer credentials.",
-      "date": "2026-06-01T21:38:29.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-      "isTopTen": false
-    },
-    {
-      "id": "01ffc406-c78d-4542-b907-0401019dd1df",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Spain arrests doxer leaking sensitive data of govt employees",
-      "summary": "Spanish authorities have arrested a suspect for leaking sensitive information belonging to government employees, including personnel from the National Cybersecurity Institute (INCIBE).",
-      "date": "2026-06-01T21:28:41.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
-      "isTopTen": false
-    },
-    {
-      "id": "81ca0dc0-c2d3-4341-bd44-c5d85ad41aaf",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Inspector general finds NIST mistakes have made vulnerability database ineffective",
-      "summary": "An inspector general report highlights that massive backlogs in NIST's National Vulnerability Database have significantly diminished the platform's reliability and utility for security professionals. This operational failure has left tens of thousands of vulnerabilities unprocessed, creating significant gaps in public security intelligence.",
-      "date": "2026-06-01T20:28:00.000Z",
-      "link": "https://therecord.media/nist-mistakes-vulnerability-database-inspector-general",
       "isTopTen": false
     }
   ]
