@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-06-13T09:24:11.145Z",
+  "lastUpdated": "2026-06-13T14:11:44.365Z",
   "articles": [
+    {
+      "id": "1ccc814d-a965-4d07-893e-fc46ff1c31d0",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
+      "summary": "Chinese state-sponsored threat actors maintained unauthorized access to a victim's authentication infrastructure for ten years, allowing them to monitor administrative activities and persist within the target's isolated network. The breach highlights a significant, long-term intelligence-gathering operation focused on compromising secure identity management systems.",
+      "date": "2026-06-13T14:06:42.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+      "isTopTen": true
+    },
+    {
+      "id": "f5163d7a-01af-4d87-8120-d15ebcf4e117",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+      "summary": "Splunk has released patches for a critical 9.8 CVSS-rated vulnerability (CVE-2026-20253) that allows unauthenticated attackers to perform arbitrary file operations and remote code execution. Users are urged to update to versions 10.2.4 or 10.0.7 to remediate the flaw.",
+      "date": "2026-06-13T13:23:03.000Z",
+      "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "isTopTen": true
+    },
+    {
+      "id": "97a978f0-3c69-4fc4-90bb-ee58c99fa989",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
+      "summary": "The US government has ordered Anthropic to restrict foreign national access to its Fable 5 and Mythos 5 AI models, leading to a worldwide suspension of these tools. Anthropic is complying with the directive while contesting the government's justification for the restriction.",
+      "date": "2026-06-13T10:01:32.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+      "isTopTen": true
+    },
+    {
+      "id": "2779d24f-05f9-4c86-8767-c87afb3d2166",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Oracle PeopleSoft Enterprise PeopleTools flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the critical Oracle PeopleSoft Enterprise PeopleTools vulnerability, CVE-2026-35273, to its Known Exploited Vulnerabilities catalog due to active exploitation. This vulnerability carries a CVSS score of 9.8, indicating a high risk of potential system compromise.",
+      "date": "2026-06-13T09:19:14.000Z",
+      "link": "https://securityaffairs.com/193574/security/u-s-cisa-adds-oracle-peoplesoft-enterprise-peopletools-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
     {
       "id": "754c0ad8-8ea9-422b-83f2-739270959284",
       "source": "The Hacker News",
@@ -10,7 +54,7 @@
       "summary": "The U.S. government has ordered Anthropic to suspend access to its advanced AI models, Claude Fable 5 and Mythos 5, for foreign nationals due to national security concerns. Consequently, Anthropic will disable access to these models for all users.",
       "date": "2026-06-13T05:42:50.000Z",
       "link": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5bff882d-020d-4ea1-b018-9830141bc693",
@@ -98,7 +142,7 @@
       "summary": "Google has initiated legal action against a Chinese cybercrime network that allegedly leveraged its Gemini AI to develop and facilitate a phishing-as-a-service platform called Outsider. The operation targeted U.S. citizens through automated SMS-based phishing attacks.",
       "date": "2026-06-12T18:59:32.000Z",
       "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c8cad9fa-5b7a-408f-bf25-43b7995fc79b",
@@ -208,7 +252,7 @@
       "summary": "The US surveillance program authorized under Section 702 of the Foreign Intelligence Surveillance Act has lapsed for the first time due to a legislative deadlock in Congress. This expiration interrupts the government's ability to conduct warrantless electronic surveillance on foreign targets.",
       "date": "2026-06-12T17:08:00.000Z",
       "link": "https://therecord.media/major-us-surveillance-program-set-to-lapse-702-fisa",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a93f9bd-4f4d-4ab9-9877-5a535b3a69fd",
@@ -450,7 +494,7 @@
       "summary": "Federal authorities have seized the domains AudiA6 and Dark2Web as part of a $389 million cryptocurrency money laundering investigation that resulted in the arrest of two suspects. The operation highlights ongoing efforts by law enforcement to dismantle illicit financial networks utilizing digital assets.",
       "date": "2026-06-12T10:00:00.000Z",
       "link": "https://hackread.com/feds-seize-audia6-dark2web-crypto-laundering-case/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6b6cf295-c697-4d59-b360-7fe06435767e",
@@ -703,7 +747,7 @@
       "summary": "A zero-day vulnerability affecting BitLocker encryption has been identified, potentially allowing unauthorized access to encrypted Windows data. This security flaw represents a significant risk to data privacy and system integrity.",
       "date": "2026-06-11T17:51:52.000Z",
       "link": "https://www.theregister.com/security/2026/06/11/nightmare-eclipse-drops-claimed-bitlocker-bypass-for-microsoft-windows/5254371",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f4836e29-6220-4e31-9246-01d7d05cbf6b",
@@ -5455,50 +5499,6 @@
       "summary": "GoDaddy researchers identified a malware campaign infecting nearly 2,000 WordPress sites that utilizes Steam community profile comments as an unconventional command-and-control infrastructure. The malware retrieves hidden instructions from these profiles using invisible Unicode characters to execute malicious payloads.",
       "date": "2026-06-02T05:38:31.000Z",
       "link": "https://securityaffairs.com/192990/breaking-news/godaddy-found-malware-on-1980-wordpress-sites-using-steam-as-c2-infrastructure.html",
-      "isTopTen": false
-    },
-    {
-      "id": "10db5452-f77e-4091-a218-93e971a3f399",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cybersecurity jobs available right now: June 2, 2026",
-      "summary": "Google is seeking an Agentic Safety and Ecosystem Architect to develop security controls, permission models, and monitoring mechanisms for autonomous agents on the Android platform.",
-      "date": "2026-06-02T04:00:00.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/02/cybersecurity-jobs-available-right-now-june-2-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "1710e20f-65b4-4a99-adeb-05303f1561f2",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
-      "summary": "Dashlane reported that fewer than 20 personal user accounts were compromised after an external threat actor conducted a brute-force attack targeting two-factor authentication. The attacker successfully downloaded the encrypted vaults of the affected accounts.",
-      "date": "2026-06-02T03:55:25.000Z",
-      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-      "isTopTen": false
-    },
-    {
-      "id": "66ef3d2a-b0bf-4c8c-a6f1-0a8d33459e55",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Spain arrests suspected hacker for publishing personal data of police, prosecutors and cyber officials",
-      "summary": "Spanish authorities arrested a suspected hacker for publicly disclosing the sensitive personal information of law enforcement and cybersecurity officials across various online platforms. The breach is considered a significant threat to the security of both the targeted individuals and the government institutions they represent.",
-      "date": "2026-06-01T23:00:00.000Z",
-      "link": "https://therecord.media/spain-arrests-suspected-hacker-for-publishing-data-on-sensitive-government-workers",
-      "isTopTen": false
-    },
-    {
-      "id": "c144745e-ddf2-4185-be14-67dcaf483196",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Why Encrypted File Sharing Is Essential for Modern Businesses",
-      "summary": "Encrypted file sharing is presented as a critical defense mechanism for modern businesses to protect sensitive data and prevent corporate scandals. It emphasizes the necessity of securing digital communications to mitigate risks associated with data exposure.",
-      "date": "2026-06-01T22:40:45.000Z",
-      "link": "https://hackread.com/encrypted-file-sharing-essential-modern-businesses/",
       "isTopTen": false
     }
   ]
