@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-14T04:41:39.290Z",
+  "lastUpdated": "2026-06-14T09:44:38.384Z",
   "articles": [
+    {
+      "id": "98a8aca9-bec4-4dfd-83e8-a398caf45a7c",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Week in review: Exploited Check Point VPN zero-day, Oracle PeopleSoft servers under attack",
+      "summary": "This week's cybersecurity landscape highlighted active exploitation of a Check Point VPN zero-day and ongoing attacks against Oracle PeopleSoft servers. Additionally, a new open-source AI-powered tool called DockSec was introduced to enhance Docker container security.",
+      "date": "2026-06-14T08:00:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/14/week-in-review-exploited-check-point-vpn-zero-day-oracle-peoplesoft-servers-under-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "04a94491-3579-4e10-b4e7-4d5bb98d271e",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Ukrainian Extradited from Ireland Pleads Guilty Over Role in Conti Ransomware Scheme",
+      "summary": "Ukrainian national Oleksii Lytvynenko has pleaded guilty in a U.S. court to conspiracy charges related to his participation in the notorious Conti ransomware operation. He was extradited from Ireland to face charges for his role in global cyberattacks.",
+      "date": "2026-06-14T05:58:21.000Z",
+      "link": "https://securityaffairs.com/193590/uncategorized/ukrainian-extradited-from-ireland-pleads-guilty-over-role-in-conti-ransomware-scheme.html",
+      "isTopTen": true
+    },
     {
       "id": "38c31038-c347-43e5-8978-aa7db488b53b",
       "source": "BleepingComputer",
@@ -43,7 +65,7 @@
       "summary": "Ukrainian national Oleksii Lytvynenko has pleaded guilty in the US to his role in the Conti ransomware operation, which caused over $150 million in damages. The prosecution stems from a global campaign targeting more than 1,000 victims.",
       "date": "2026-06-13T14:31:38.000Z",
       "link": "https://hackread.com/extradited-ukrainian-admits-conti-ransomware-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1ccc814d-a965-4d07-893e-fc46ff1c31d0",
@@ -241,7 +263,7 @@
       "summary": "A China-linked threat actor known as Velvet Ant compromised Linux PAM and OpenSSH components to maintain persistent, long-term backdoor access for nearly a decade. By targeting core authentication systems, the group successfully avoided detection during standard security cleanups.",
       "date": "2026-06-12T18:17:55.000Z",
       "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c1b67635-502e-4b59-acc4-f929b099dd37",
@@ -340,7 +362,7 @@
       "summary": "The threat group ShinyHunters exploited a zero-day vulnerability in Oracle PeopleSoft to exfiltrate data from over 100 organizations, predominantly targeting universities. Google security researchers identified the campaign, which underscores the significant risk posed by unpatched software flaws.",
       "date": "2026-06-12T14:06:24.000Z",
       "link": "https://hackread.com/shinyhunters-universities-oracle-peoplesoft-zero-day-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "05545b14-d627-4e4c-a621-be478088cf75",
@@ -483,7 +505,7 @@
       "summary": "The ShinyHunters threat group exploited a critical zero-day vulnerability in Oracle PeopleSoft to compromise over 100 organizations, primarily universities, prior to the release of an official patch. This campaign highlights the significant risk posed by exploitation gaps between the discovery of a zero-day and the availability of vendor mitigations.",
       "date": "2026-06-12T10:49:15.000Z",
       "link": "https://securityaffairs.com/193543/cyber-crime/oracle-peoplesoft-rce-flaw-used-as-zero-day-in-ongoing-shinyhunters-campaign.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f2a6a2e9-3277-47c7-b995-c91685812239",
@@ -703,7 +725,7 @@
       "summary": "Kyushu Electric Power Co. reported a data breach involving a missing physical drive containing the personal information of approximately 10.9 million customers.",
       "date": "2026-06-11T23:14:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "438ff5f8-a2aa-4d69-a74e-8917a76e0a6d",
@@ -5477,28 +5499,6 @@
       "summary": "The Pakistan-aligned threat group SideCopy is conducting a spear-phishing campaign targeting the Afghanistan Ministry of Finance using the Xeno RAT. The attack utilizes malicious LNK files delivered within ZIP archives to compromise government systems.",
       "date": "2026-06-02T09:05:40.000Z",
       "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b1da2333-7051-442a-a92e-414d932cca6e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "KDE Linux security audit cuts kernel modules and unused packages",
-      "summary": "The KDE community conducted a security audit of its Linux distribution, resulting in the removal of unused packages and kernel modules to minimize the attack surface. This move follows recent security vulnerabilities discovered in the upstream Linux kernel.",
-      "date": "2026-06-02T08:45:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/02/kde-linux-security-audit-update/",
-      "isTopTen": false
-    },
-    {
-      "id": "2aca1b17-39ac-4266-8636-1ce523119b04",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cybanetix unveils Managed AI Service to secure users, models, and agents",
-      "summary": "Cybanetix has launched a Managed AI Service that integrates multiple security technologies to protect enterprise AI usage, governance, and embedded models. The service is supported by 24/7 SOC monitoring to provide rapid incident response for AI-related security threats.",
-      "date": "2026-06-02T08:38:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/02/cybanetix-managed-ai-service/",
       "isTopTen": false
     }
   ]
