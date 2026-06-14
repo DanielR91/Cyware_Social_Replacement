@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-14T16:28:16.425Z",
+  "lastUpdated": "2026-06-14T19:44:08.521Z",
   "articles": [
+    {
+      "id": "393a0ac6-0009-4b85-b542-21fe7859de8c",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hackers Hide New Argamal Malware Inside Working Hentai Games",
+      "summary": "Researchers discovered the new Argamal malware embedded within functional hentai game installers distributed on adult websites and torrent platforms. The malware grants attackers remote access to compromised systems while masquerading as legitimate entertainment software.",
+      "date": "2026-06-14T17:46:03.000Z",
+      "link": "https://hackread.com/hackers-hide-argamal-malware-hentai-games/",
+      "isTopTen": false
+    },
     {
       "id": "d5b0ed7a-c372-4898-92a6-d59ee0f2700a",
       "source": "BleepingComputer",
@@ -10,7 +21,7 @@
       "summary": "The FBI, in collaboration with Google and Black Lotus Labs, successfully dismantled the 'Outsider Enterprise' phishing-as-a-service operation that utilized AI-driven tactics and thousands of malicious websites to steal user credentials and financial information.",
       "date": "2026-06-14T14:36:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "21e24678-432e-4f1f-8d02-7b9e939df93c",
@@ -87,7 +98,7 @@
       "summary": "Anthropic has disabled its new Fable 5 and Mythos 5 models globally following a Commerce Department decree citing national security concerns. The move has triggered significant pushback from industry experts and researchers.",
       "date": "2026-06-13T18:29:36.000Z",
       "link": "https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f83cd1ad-ba55-420c-986f-219a7da2f59c",
@@ -98,7 +109,7 @@
       "summary": "The U.S. Commerce Department has restricted the release of Anthropic’s Fable 5 and Mythos 5 AI models, prompting the company to challenge the decision due to a lack of transparency and technical evidence. The move has garnered significant international attention regarding AI regulatory oversight.",
       "date": "2026-06-13T14:32:09.000Z",
       "link": "https://securityaffairs.com/193579/ai/washington-pulled-the-plug-on-anthropic-fable-5-and-mythos-5-models.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "439c721f-f4cc-40a4-924a-0cc68fabad31",
@@ -120,7 +131,7 @@
       "summary": "Chinese state-sponsored threat actors maintained unauthorized access to a victim's authentication infrastructure for ten years, allowing them to monitor administrative activities and persist within the target's isolated network. The breach highlights a significant, long-term intelligence-gathering operation focused on compromising secure identity management systems.",
       "date": "2026-06-13T14:06:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f5163d7a-01af-4d87-8120-d15ebcf4e117",
@@ -208,7 +219,7 @@
       "summary": "The Iran-linked threat group Handala breached California Water Service through an exposed GPS tool, resulting in the unauthorized access and leakage of billing data for 2 million customers. The attackers published 5GB of stolen data as proof of the compromise.",
       "date": "2026-06-12T21:34:22.000Z",
       "link": "https://securityaffairs.com/193565/uncategorized/iran-linked-handala-breached-a-california-water-utility-it-could-have-done-worse-and-it-knows-that.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "da2ed7b8-9702-460b-aec8-3565770a272f",
@@ -230,7 +241,7 @@
       "summary": "Over 400 Arch Linux AUR packages were compromised by attackers who injected build scripts to deploy a credential-stealing Rust binary and an eBPF rootkit. This supply chain attack specifically targets developers building software from the community repository.",
       "date": "2026-06-12T19:33:25.000Z",
       "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2bc2beac-fa7c-41d4-a2b2-ecc303cf70f8",
@@ -263,7 +274,7 @@
       "summary": "CISA has added a critical vulnerability (CVE-2026-10520) in Ivanti Sentry to its Known Exploited Vulnerabilities catalog, requiring federal agencies to apply patches by June 14. The flaw carries a maximum CVSS score of 10.0 and is actively being exploited in the wild.",
       "date": "2026-06-12T18:47:49.000Z",
       "link": "https://securityaffairs.com/193557/security/u-s-cisa-adds-ivanti-sentry-flaw-to-its-known-exploited-vulnerabilities-catalog-and-urges-patching-by-june-14.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de76a915-cd0e-4102-a65c-509e6038270f",
@@ -307,7 +318,7 @@
       "summary": "A China-linked threat actor known as Velvet Ant compromised Linux PAM and OpenSSH components to maintain persistent, long-term backdoor access for nearly a decade. By targeting core authentication systems, the group successfully avoided detection during standard security cleanups.",
       "date": "2026-06-12T18:17:55.000Z",
       "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c1b67635-502e-4b59-acc4-f929b099dd37",
@@ -351,7 +362,7 @@
       "summary": "A bankruptcy administrator has approved a $47 million settlement fund to compensate approximately 7 million 23andMe customers impacted by a 2023 data breach. The incident involved the theft and exposure of sensitive genetic and personal information on the dark web.",
       "date": "2026-06-12T17:12:00.000Z",
       "link": "https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6eeca1a1-3538-471f-a1e2-6b39edb40c1e",
@@ -362,7 +373,7 @@
       "summary": "The US surveillance program authorized under Section 702 of the Foreign Intelligence Surveillance Act has lapsed for the first time due to a legislative deadlock in Congress. This expiration interrupts the government's ability to conduct warrantless electronic surveillance on foreign targets.",
       "date": "2026-06-12T17:08:00.000Z",
       "link": "https://therecord.media/major-us-surveillance-program-set-to-lapse-702-fisa",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0a93f9bd-4f4d-4ab9-9877-5a535b3a69fd",
@@ -373,7 +384,7 @@
       "summary": "Over 400 packages in the Arch User Repository (AUR) have been compromised to distribute a Linux rootkit and infostealer malware designed to harvest user credentials and access tokens. This incident highlights a significant supply chain threat affecting users who rely on community-contributed software.",
       "date": "2026-06-12T17:03:55.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "68b24e3f-245b-4083-88b1-8fbd513e7d59",
@@ -395,7 +406,7 @@
       "summary": "South Korea has imposed a record $409 million fine on e-commerce giant Coupang for a major personal data breach. This penalty is the largest ever issued by the country's commission for such an incident.",
       "date": "2026-06-12T15:56:00.000Z",
       "link": "https://therecord.media/south-korea-data-breach-record-fine-coupang",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0b486061-6a57-4c79-ae95-c8f1b3cb737e",
@@ -659,7 +670,7 @@
       "summary": "CISA has issued a binding directive requiring federal agencies to remediate an actively exploited vulnerability in Ivanti Sentry within three days. This emergency order aims to mitigate significant security risks posed by ongoing exploitation of the flaw.",
       "date": "2026-06-12T08:26:55.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "03d60581-115f-44bb-81db-da0ba2197b3a",
@@ -769,7 +780,7 @@
       "summary": "Kyushu Electric Power Co. reported a data breach involving a missing physical drive containing the personal information of approximately 10.9 million customers.",
       "date": "2026-06-11T23:14:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "438ff5f8-a2aa-4d69-a74e-8917a76e0a6d",
@@ -5488,17 +5499,6 @@
       "summary": "Organizations are moving beyond basic endpoint protection toward EDR to gain continuous visibility and improve operational resilience against sophisticated, fast-moving threats. This shift emphasizes that traditional prevention is no longer sufficient in the modern threat landscape.",
       "date": "2026-06-02T10:30:00.000Z",
       "link": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c8ce5485-9aa5-4da9-b023-91016415bb2f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft Entra pushes passkeys, tightens identity security",
-      "summary": "Microsoft has expanded its Entra identity suite by introducing phishing-resistant MFA for Linux desktops and furthering the adoption of passkeys to enhance zero-trust security. These updates aim to strengthen authentication processes across diverse operating environments.",
-      "date": "2026-06-02T10:27:54.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/02/microsoft-entra-latest-security-updates/",
       "isTopTen": false
     }
   ]
