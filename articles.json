@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-14T09:44:38.384Z",
+  "lastUpdated": "2026-06-14T14:14:43.667Z",
   "articles": [
+    {
+      "id": "21e24678-432e-4f1f-8d02-7b9e939df93c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 101",
+      "summary": "The Security Affairs Malware Newsletter, round 101, provides an overview of emerging threats including the IronWorm Rust-based malware, the Miasma npm worm, and a new variant of the Gafgyt botnet. It also covers techniques for leveraging AI agents to assist in malware analysis.",
+      "date": "2026-06-14T13:23:29.000Z",
+      "link": "https://securityaffairs.com/193609/breaking-news/security-affairs-malware-newsletter-round-101.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ab635082-ce79-48d7-a7e1-77424cec32c1",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Security Affairs newsletter Round 581 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The latest edition of the Security Affairs newsletter covers curated industry news, including a report on the U.S. government halting the release of Anthropic's Fable 5 and Mythos 5 AI models.",
+      "date": "2026-06-14T13:03:56.000Z",
+      "link": "https://securityaffairs.com/193600/security/security-affairs-newsletter-round-581-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "53ee28d4-96f3-4ed4-8e66-58eee6c2e4d2",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AI is code – and can't be prompted into being smarter",
+      "summary": "The article argues that AI models are fundamentally limited by their training data and code, dismissing the notion that they can be prompted to achieve a higher level of intelligence. It highlights that current AI systems are prone to blindly processing input, which can lead to unpredictable or undesirable outputs.",
+      "date": "2026-06-14T12:30:00.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "isTopTen": false
+    },
     {
       "id": "98a8aca9-bec4-4dfd-83e8-a398caf45a7c",
       "source": "Help Net Security",
@@ -164,7 +197,7 @@
       "summary": "The Iran-linked threat group Handala breached California Water Service through an exposed GPS tool, resulting in the unauthorized access and leakage of billing data for 2 million customers. The attackers published 5GB of stolen data as proof of the compromise.",
       "date": "2026-06-12T21:34:22.000Z",
       "link": "https://securityaffairs.com/193565/uncategorized/iran-linked-handala-breached-a-california-water-utility-it-could-have-done-worse-and-it-knows-that.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "da2ed7b8-9702-460b-aec8-3565770a272f",
@@ -351,7 +384,7 @@
       "summary": "South Korea has imposed a record $409 million fine on e-commerce giant Coupang for a major personal data breach. This penalty is the largest ever issued by the country's commission for such an incident.",
       "date": "2026-06-12T15:56:00.000Z",
       "link": "https://therecord.media/south-korea-data-breach-record-fine-coupang",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b486061-6a57-4c79-ae95-c8f1b3cb737e",
@@ -439,7 +472,7 @@
       "summary": "Security researchers have released technical details and a Proof-of-Concept for CVE-2026-50751, a previously exploited authentication bypass vulnerability in Check Point VPNs, heightening the risk of widespread opportunistic attacks.",
       "date": "2026-06-12T12:14:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/12/cve-2026-50751-poc-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cf71cf61-c876-4fb8-b328-d2c2b906cd26",
@@ -725,7 +758,7 @@
       "summary": "Kyushu Electric Power Co. reported a data breach involving a missing physical drive containing the personal information of approximately 10.9 million customers.",
       "date": "2026-06-11T23:14:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "438ff5f8-a2aa-4d69-a74e-8917a76e0a6d",
@@ -5466,39 +5499,6 @@
       "summary": "Sophos has identified a sophisticated threat actor utilizing an AI-powered framework to develop and test malware specifically designed to evade endpoint detection and response (EDR) systems. The framework includes techniques like Cobalt Strike profile manipulation to disguise malicious traffic as legitimate network activity.",
       "date": "2026-06-02T10:13:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/02/ai-agents-edr-evasion-techniques/",
-      "isTopTen": false
-    },
-    {
-      "id": "ff1e04d0-06e5-44b7-81f9-f8341b3e46bb",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor",
-      "summary": "Operation FlutterBridge is a malvertising campaign targeting macOS users that distributes a new backdoor called FlutterShell developed using the Flutter framework.",
-      "date": "2026-06-02T10:00:31.000Z",
-      "link": "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
-      "isTopTen": false
-    },
-    {
-      "id": "7eb9e561-49ac-4f47-adc3-8fce014c51be",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Red Hat npm packages compromised in new Mini Shai-Hulud malware wave",
-      "summary": "Attackers compromised over 30 Red Hat Cloud Services npm packages by hijacking a developer's GitHub account to inject malicious credential-stealing code. The incident represents a significant supply chain attack targeting developer environments.",
-      "date": "2026-06-02T09:38:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/02/red-hat-npm-packages-compromised-mini-shai-hulud/",
-      "isTopTen": false
-    },
-    {
-      "id": "e6c9e358-6245-4e15-81ff-e342332d5c6f",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
-      "summary": "The Pakistan-aligned threat group SideCopy is conducting a spear-phishing campaign targeting the Afghanistan Ministry of Finance using the Xeno RAT. The attack utilizes malicious LNK files delivered within ZIP archives to compromise government systems.",
-      "date": "2026-06-02T09:05:40.000Z",
-      "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
       "isTopTen": false
     }
   ]
