@@ -1,6 +1,105 @@
 {
-  "lastUpdated": "2026-06-15T19:14:40.302Z",
+  "lastUpdated": "2026-06-15T23:08:26.070Z",
   "articles": [
+    {
+      "id": "5ccb3123-b255-4eb5-842a-360948eb2a20",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Inside the Modern SOC: The 72-Minute Race",
+      "summary": "Modern security operations centers must accelerate response times to counter attackers who can complete exfiltration in just 72 minutes, leveraging AI-driven automation and MDR. This highlights the critical need for speed in threat detection and mitigation.",
+      "date": "2026-06-15T23:00:19.000Z",
+      "link": "https://unit42.paloaltonetworks.com/soc-72-minute-race/",
+      "isTopTen": false
+    },
+    {
+      "id": "b2340ced-1d2a-4356-a758-e7c29a96d489",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
+      "summary": "The U.S. Department of Justice seized two websites, CFAKE.com and SOCFAKE.com, for hosting nonconsensual AI-generated explicit content, marking the first enforcement action under the TAKE IT DOWN Act.",
+      "date": "2026-06-15T21:56:55.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
+      "isTopTen": false
+    },
+    {
+      "id": "31b66e9c-f32a-4873-a617-8d9d9c7f376f",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco SD-WAN make-me-root bug under attack",
+      "summary": "Cisco's Catalyst SD-WAN Manager is facing active exploitation of a 'make-me-root' vulnerability, marking the second zero-day flaw targeting the platform this month.",
+      "date": "2026-06-15T21:48:25.000Z",
+      "link": "https://www.theregister.com/patches/2026/06/15/cisco-sd-wan-make-me-root-bug-under-attack/5255916",
+      "isTopTen": true
+    },
+    {
+      "id": "1c5a9eed-edc3-4069-9987-8817aae2b42e",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak, says researcher",
+      "summary": "A researcher claims federal authorities overreacted to a report involving Fable 5, noting that the incident stemmed from a simple code correction prompt rather than a malicious jailbreak attempt.",
+      "date": "2026-06-15T21:07:26.000Z",
+      "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+      "isTopTen": false
+    },
+    {
+      "id": "f22d10e4-0396-4c49-8838-f0654a29c587",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Google exposes China espionage group that’s been lurking in networks undetected since 2023",
+      "summary": "Google has uncovered a Chinese state-sponsored espionage group that has been covertly operating within critical infrastructure networks since 2023. The actors utilized backdoors to facilitate data theft and intelligence gathering.",
+      "date": "2026-06-15T20:11:48.000Z",
+      "link": "https://cyberscoop.com/google-unc6508-china-espionage-threat/",
+      "isTopTen": true
+    },
+    {
+      "id": "7ed31e18-3fe3-4255-881a-228c8ff8b411",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SimpleHelp bug lets hackers create rogue remote support accounts",
+      "summary": "A vulnerability in SimpleHelp remote management software permits unauthenticated attackers to create unauthorized, privileged technician accounts by exploiting the OpenID Connect protocol. This flaw exposes servers to full remote control by malicious actors.",
+      "date": "2026-06-15T20:06:52.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
+      "isTopTen": false
+    },
+    {
+      "id": "895d1786-85ed-4cb4-9013-42e0bf1a7c3e",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+      "summary": "A China-linked espionage group compromised North American research and military networks by exploiting REDCap server vulnerabilities to steal credentials. The attackers subsequently manipulated Google Workspace forwarding rules to covertly exfiltrate sensitive research and defense emails.",
+      "date": "2026-06-15T19:44:06.000Z",
+      "link": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4dd888ef-6fa6-46a9-b921-be2ed65238a1",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+      "summary": "North Korean threat actors known as Contagious Interview are leveraging developer-focused phishing campaigns to distribute malware. The attacks utilize recruitment and code review themes to compromise software development environments.",
+      "date": "2026-06-15T19:32:52.000Z",
+      "link": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+      "isTopTen": false
+    },
+    {
+      "id": "82f3825f-c407-428a-a50a-78fb9d4c3fc0",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Australian Sugar Producer Mackay Sugar Reports Cyber Incident",
+      "summary": "Mackay Sugar, Australia's second-largest sugar manufacturer, has reported a cyberattack that may have disrupted its primary processing operations. The company is currently investigating the incident to determine the extent of the impact on its systems.",
+      "date": "2026-06-15T18:51:17.000Z",
+      "link": "https://securityaffairs.com/193657/data-breach/australian-sugar-producer-mackay-sugar-reports-cyber-incident.html",
+      "isTopTen": false
+    },
     {
       "id": "65b71baf-5ac5-4b8f-9e45-deb5c5de8509",
       "source": "Help Net Security",
@@ -43,7 +142,7 @@
       "summary": "The OptinMonster, TrustPulse, and PushEngage WordPress plugins were compromised through a supply-chain attack involving the Awesome Motive content distribution network. The incident allowed unauthorized code injection, potentially affecting users of these widely installed plugins.",
       "date": "2026-06-15T17:37:07.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8397578e-fd60-469d-bb25-fbacaa631ae3",
@@ -54,7 +153,7 @@
       "summary": "Cisco has released security patches to address a critical vulnerability, tracked as CVE-2026-20262, in its Catalyst SD-WAN Manager that was actively exploited by attackers to achieve root privilege escalation.",
       "date": "2026-06-15T17:12:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7256a77c-094f-4981-959d-5bc05a60bb37",
@@ -178,6 +277,17 @@
       "isTopTen": false
     },
     {
+      "id": "001b4914-4cc1-413f-9475-9a9332ccbfe5",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "PRC-linked spies hid inside medical and military networks for more than a year, snooping through Gmail and stealing data",
+      "summary": "PRC-linked threat actors maintained persistent unauthorized access to medical and military networks for over a year, exfiltrating sensitive data and monitoring Gmail communications. The attackers specifically targeted intellectual property related to drone technology and biological research.",
+      "date": "2026-06-15T14:00:00.000Z",
+      "link": "https://www.theregister.com/research/2026/06/15/google-says-prc-linked-spies-hid-in-medical-research-networks-for-more-than-a-year/5254547",
+      "isTopTen": false
+    },
+    {
       "id": "9ac0c0b3-fa4f-40f5-9e8c-adca22c6cf4b",
       "source": "BleepingComputer",
       "tag": "Breaches and Incidents",
@@ -187,17 +297,6 @@
       "date": "2026-06-15T14:00:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
       "isTopTen": false
-    },
-    {
-      "id": "001b4914-4cc1-413f-9475-9a9332ccbfe5",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "PRC-linked spies hid inside medical and military networks for more than a year, snooping through Gmail and stealing data",
-      "summary": "PRC-linked threat actors maintained persistent unauthorized access to medical and military networks for over a year, exfiltrating sensitive data and monitoring Gmail communications. The attackers specifically targeted intellectual property related to drone technology and biological research.",
-      "date": "2026-06-15T14:00:00.000Z",
-      "link": "https://www.theregister.com/research/2026/06/15/google-says-prc-linked-spies-hid-in-medical-research-networks-for-more-than-a-year/5254547",
-      "isTopTen": true
     },
     {
       "id": "30417109-9b12-494c-8b62-2186540fedc6",
@@ -241,7 +340,7 @@
       "summary": "Finnish prosecutors have charged cargo ship officers with damaging subsea telecommunications cables and attempting to compromise additional connections. The incident highlights the growing concern over the physical security of critical digital infrastructure.",
       "date": "2026-06-15T13:30:00.000Z",
       "link": "https://therecord.media/finland-brings-charges-against-cargo-ship-undersea-cables",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fc8eec01-5567-442d-96d4-167cefb36c5e",
@@ -692,7 +791,7 @@
       "summary": "Splunk has released patches for a critical 9.8 CVSS-rated vulnerability (CVE-2026-20253) that allows unauthenticated attackers to perform arbitrary file operations and remote code execution. Users are urged to update to versions 10.2.4 or 10.0.7 to remediate the flaw.",
       "date": "2026-06-13T13:23:03.000Z",
       "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "97a978f0-3c69-4fc4-90bb-ee58c99fa989",
@@ -758,7 +857,7 @@
       "summary": "The FBI dismantled a China-based cybercrime network responsible for $1.9 billion in financial losses through a phishing infrastructure that impersonated delivery and government services. The operation targeted victims with deceptive lures regarding unpaid tolls, parking violations, and missed packages.",
       "date": "2026-06-12T21:56:29.000Z",
       "link": "https://cyberscoop.com/outsider-cybercrime-network-takedown-china-fbi-google-lumen/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a530221f-4b6e-441d-97d3-f44d086f68da",
@@ -769,7 +868,7 @@
       "summary": "The Iran-linked threat group Handala breached California Water Service through an exposed GPS tool, resulting in the unauthorized access and leakage of billing data for 2 million customers. The attackers published 5GB of stolen data as proof of the compromise.",
       "date": "2026-06-12T21:34:22.000Z",
       "link": "https://securityaffairs.com/193565/uncategorized/iran-linked-handala-breached-a-california-water-utility-it-could-have-done-worse-and-it-knows-that.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "da2ed7b8-9702-460b-aec8-3565770a272f",
@@ -5400,105 +5499,6 @@
       "summary": "The U.S. CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include multiple security flaws impacting Android, the Linux Kernel, Windows Shell, and ConnectWise ScreenConnect. These additions mandate that federal agencies remediate the vulnerabilities within specified timeframes to mitigate active exploitation risks.",
       "date": "2026-06-03T10:43:39.000Z",
       "link": "https://securityaffairs.com/193067/security/u-s-cisa-adds-android-and-linux-kernel-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "958a8ac8-a84c-42f0-b2ca-f41fd0fb59ff",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
-      "summary": "An unpatched vulnerability in the Windows search: URI handler allows attackers to potentially steal user NTLMv2 hashes, mirroring similar exploits found in other Windows URI handlers.",
-      "date": "2026-06-03T10:18:52.000Z",
-      "link": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
-      "isTopTen": false
-    },
-    {
-      "id": "88abce04-9fa3-48e5-87ee-16d3a6c96b03",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
-      "summary": "European and international law enforcement agencies dismantled nine organized crime groups and arrested 29 suspects involved in large-scale illegal streaming operations.",
-      "date": "2026-06-03T10:12:24.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
-      "isTopTen": false
-    },
-    {
-      "id": "318b9e78-5940-494c-b210-9d0490bd72a7",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "New cyber force would cost up to $11 billion to start, commission says",
-      "summary": "A commission report estimates that establishing a new dedicated military cyber force would cost up to $11 billion and require 18 months to become operational. The proposed branch would integrate thousands of National Guard members and civilian personnel to bolster national cyber defense capabilities.",
-      "date": "2026-06-03T10:01:00.000Z",
-      "link": "https://therecord.media/new-cyber-force-would-cost-11-billion-commission",
-      "isTopTen": false
-    },
-    {
-      "id": "f755821d-5216-43a9-bfd5-7231c48e5f8d",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Google Patches Actively Exploited Android Flaw Affecting Millions of Devices",
-      "summary": "Google has released June 2026 security updates addressing 124 vulnerabilities, including CVE-2025-48595, a high-severity privilege escalation flaw currently being exploited in targeted attacks.",
-      "date": "2026-06-03T09:44:47.000Z",
-      "link": "https://securityaffairs.com/193057/breaking-news/google-patches-actively-exploited-android-flaw-affecting-millions-of-devices.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e1f48ab0-9a0e-4ce5-ab10-d49a02ae3e94",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Google adds Android protection against AI deepfake scam calls",
-      "summary": "Google is implementing a new Android security feature designed to detect and flag AI-generated deepfake scam calls that impersonate known contacts. This proactive measure aims to protect users from increasingly sophisticated social engineering and impersonation attacks.",
-      "date": "2026-06-03T09:02:11.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
-      "isTopTen": false
-    },
-    {
-      "id": "5b9a077e-464e-42f3-81de-a758157cea76",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New Android feature promises to spot deepfake scam calls",
-      "summary": "Google is rolling out a new Android feature that utilizes AI to detect and flag suspected deepfake and impersonation scam calls in real-time. The tool will be available globally on devices running Android 12 or later, beginning with Pixel phones.",
-      "date": "2026-06-03T08:37:23.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/03/android-fake-call-detection-feature/",
-      "isTopTen": false
-    },
-    {
-      "id": "ca3769e2-9ec7-4981-9815-430b1771c83a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
-      "summary": "A newly discovered 'HTTP/2 Bomb' vulnerability allows remote attackers to trigger denial-of-service conditions on major web servers like NGINX, Apache, and IIS due to default configuration flaws. The exploit was identified by utilizing OpenAI Codex to chain vulnerabilities within standard HTTP/2 implementations.",
-      "date": "2026-06-03T08:33:35.000Z",
-      "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e988e238-f4b0-401c-a6de-7324cbd6603b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft Scout agent opens a new category of always-on Autopilots",
-      "summary": "Microsoft has introduced Scout, a new category of 'Autopilot' AI agents designed to operate continuously in the background of Office applications rather than waiting for user prompts. This shift represents a transition from reactive AI assistants to proactive, always-on autonomous agents.",
-      "date": "2026-06-03T08:28:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/03/microsoft-scout-personal-agent/",
-      "isTopTen": false
-    },
-    {
-      "id": "e5ca6c90-33b2-49f4-af9b-1f13a99d9c25",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic expands Project Glasswing to 150 organizations in more than 15 countries",
-      "summary": "Anthropic has expanded its Project Glasswing cybersecurity initiative to 150 organizations across 15 countries, utilizing its Claude Mythos Preview model to strengthen security across critical infrastructure sectors.",
-      "date": "2026-06-03T08:23:13.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/03/anthropic-project-glasswing-expansion/",
       "isTopTen": false
     }
   ]
