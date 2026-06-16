@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-16T21:02:03.434Z",
+  "lastUpdated": "2026-06-16T22:57:33.608Z",
   "articles": [
+    {
+      "id": "b2939cad-0402-4a38-8ab4-fa32533011b6",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
+      "summary": "At least 15 malicious plugins identified on the JetBrains Marketplace have been found exfiltrating sensitive AI API keys from developer environments. This supply chain compromise poses a significant risk to the security of developer credentials and integrated AI services.",
+      "date": "2026-06-16T21:54:50.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
+      "isTopTen": true
+    },
+    {
+      "id": "2c1b2d62-9c2a-4d7a-9ede-c6ea016b1e00",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Lawmakers leary about Trump administration’s Anthropic order",
+      "summary": "Members of Congress have expressed skepticism and requested further clarification regarding the Trump administration's directive involving AI company Anthropic. Responses from lawmakers emphasize a cautious approach to the executive action.",
+      "date": "2026-06-16T21:03:33.000Z",
+      "link": "https://cyberscoop.com/congress-reacts-anthropic-ai-export-controls/",
+      "isTopTen": false
+    },
     {
       "id": "f75629db-12d7-42dd-8fff-bfcdaa23e530",
       "source": "CyberScoop",
@@ -43,7 +65,7 @@
       "summary": "Digital healthcare provider iRhythm suffered a data breach involving the theft of patient and proprietary information via third-party apps, resulting in a ransom demand. The incident impacts sensitive cardiac monitoring data collected through the company's Zio wearable technology.",
       "date": "2026-06-16T19:19:54.000Z",
       "link": "https://securityaffairs.com/193721/data-breach/irhythm-hit-by-cyberattack-patient-data-stolen-and-ransom-demanded.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "efd31eb8-e4b2-42df-a9b1-847c45ab73e8",
@@ -98,7 +120,7 @@
       "summary": "Amos Stealer is a malicious campaign targeting macOS users that utilizes deceptive downloads to exfiltrate sensitive data, including Keychain files, browser credentials, and developer configuration files. It represents a significant threat to user privacy and system security by harvesting high-value authentication information.",
       "date": "2026-06-16T16:27:00.000Z",
       "link": "https://hackread.com/amos-stealer-macos-keychain-files-browser-passwords/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e0613e36-22c8-43c4-a4bd-39ec4135bd90",
@@ -428,7 +450,7 @@
       "summary": "Cybersecurity researchers have identified two new Windows-based variants of the previously Linux-exclusive SprySOCKS backdoor, which utilize driver-based techniques to enhance stealth. These variants feature hard-coded command-and-control configurations and support multiple communication protocols.",
       "date": "2026-06-16T09:44:34.000Z",
       "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8c84d6df-c885-404f-b9bd-116f7a02e08b",
@@ -494,7 +516,7 @@
       "summary": "The North Korean hacking group APT37 is utilizing spear-phishing emails that impersonate Microsoft security alerts to deploy the NarwhalRAT malware. The campaign targets users by leveraging fake account security concerns to gain unauthorized access.",
       "date": "2026-06-16T08:14:55.000Z",
       "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bf5624b1-d87e-4f3e-b173-5645d787357a",
@@ -758,7 +780,7 @@
       "summary": "The OptinMonster, TrustPulse, and PushEngage WordPress plugins were compromised through a supply-chain attack involving the Awesome Motive content distribution network. The incident allowed unauthorized code injection, potentially affecting users of these widely installed plugins.",
       "date": "2026-06-15T17:37:07.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8397578e-fd60-469d-bb25-fbacaa631ae3",
@@ -5477,28 +5499,6 @@
       "summary": "Security researcher Ammar Askar publicly released a GitHub token-stealing exploit with minimal notice, citing dissatisfaction with Microsoft's vulnerability disclosure process.",
       "date": "2026-06-04T13:37:00.000Z",
       "link": "https://therecord.media/researcher-publishes-github-token-stealing-exploit-microsoft",
-      "isTopTen": false
-    },
-    {
-      "id": "a6c575ac-5af9-4bf6-9977-5e072756e52e",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Five Eyes warn Chinese spies are using job sites to recruit insiders",
-      "summary": "The Five Eyes alliance has issued a warning regarding Chinese intelligence officers using professional networking sites and front companies to recruit insiders with access to classified government or military information. This espionage campaign specifically targets individuals holding privileged access to sensitive data.",
-      "date": "2026-06-04T13:34:00.000Z",
-      "link": "https://therecord.media/five-eyes-warns-chinese-spies-are-using-job-sites-to-recruit-insiders",
-      "isTopTen": false
-    },
-    {
-      "id": "a817db0c-d195-4d27-99c8-cd3c2a111dc3",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Cisco Unified CM Bug Patched as Public Exploit Code Emerges",
-      "summary": "Cisco has released patches for a critical server-side request forgery (SSRF) vulnerability in its Unified Communications Manager, which is currently being targeted by public proof-of-concept exploit code. The flaw allows unauthenticated remote attackers to exploit improper HTTP request validation.",
-      "date": "2026-06-04T13:10:12.000Z",
-      "link": "https://securityaffairs.com/193142/hacking/critical-cisco-unified-cm-bug-patched-as-public-exploit-code-emerges.html",
       "isTopTen": false
     }
   ]
