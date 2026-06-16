@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-06-16T17:10:54.059Z",
+  "lastUpdated": "2026-06-16T21:02:03.434Z",
   "articles": [
+    {
+      "id": "f75629db-12d7-42dd-8fff-bfcdaa23e530",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI’s constant patching treadmill can be a security problem",
+      "summary": "Rapid release cycles for AI models are forcing developers to choose between performance and security, potentially creating silent vulnerabilities. This creates an ongoing maintenance burden that may compromise overall system integrity.",
+      "date": "2026-06-16T20:32:30.000Z",
+      "link": "https://cyberscoop.com/claude-code-security-vulnerabilities-ai-patches-backslash-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "dbb52116-ec5a-4583-a734-5abde4382e22",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Python dev saved from disaster by intuition...and AI",
+      "summary": "A developer avoided a potentially destructive repository installation after an AI tool intervened and warned of the risks. This highlights the growing role of AI in identifying and preventing malicious code execution during the development lifecycle.",
+      "date": "2026-06-16T20:15:06.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/16/python-dev-saved-from-disaster-by-intuitionand-ai/5256632",
+      "isTopTen": false
+    },
+    {
+      "id": "c972b7a4-7d97-4d34-ad62-22ad664befc6",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
+      "summary": "The newly discovered Rokarolla Android banking trojan is actively targeting 217 financial and cryptocurrency applications through a robust suite of 137 distinct commands. This malware poses a significant threat to mobile users by attempting to compromise sensitive banking and digital asset credentials.",
+      "date": "2026-06-16T20:04:11.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
+      "isTopTen": true
+    },
+    {
+      "id": "be484ce0-c938-4ab1-b696-bb274d8f24c1",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "iRhythm Hit by Cyberattack, Patient Data Stolen and Ransom Demanded",
+      "summary": "Digital healthcare provider iRhythm suffered a data breach involving the theft of patient and proprietary information via third-party apps, resulting in a ransom demand. The incident impacts sensitive cardiac monitoring data collected through the company's Zio wearable technology.",
+      "date": "2026-06-16T19:19:54.000Z",
+      "link": "https://securityaffairs.com/193721/data-breach/irhythm-hit-by-cyberattack-patient-data-stolen-and-ransom-demanded.html",
+      "isTopTen": false
+    },
+    {
+      "id": "efd31eb8-e4b2-42df-a9b1-847c45ab73e8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
+      "summary": "A vulnerability in the Google Cloud Vertex AI SDK for Python allowed unauthorized attackers to hijack model uploads and execute arbitrary code via a bucket squatting technique dubbed 'Pickle in the Middle'.",
+      "date": "2026-06-16T19:05:41.000Z",
+      "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+      "isTopTen": true
+    },
+    {
+      "id": "12b8131c-5192-4a85-acde-11ae45b0a437",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
+      "summary": "Threat actors are exploiting Valve's Steam Workshop to distribute malicious software disguised as wallpaper packages for the Wallpaper Engine app. This campaign leverages the platform's trusted ecosystem to infect unsuspecting users through community-shared content.",
+      "date": "2026-06-16T18:27:55.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
+      "isTopTen": false
+    },
+    {
+      "id": "63b6b338-616b-4c1f-a202-a7040c9eeafe",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Three critical Fortinet sandbox bugs splattered by unknown attackers",
+      "summary": "Unknown attackers are exploiting three critical vulnerabilities in Fortinet's sandbox technology. Users are strongly advised to update to the latest patched versions to mitigate the risk.",
+      "date": "2026-06-16T18:27:12.000Z",
+      "link": "https://www.theregister.com/security/2026/06/16/three-critical-fortinet-sandbox-bugs-splattered-by-unknown-attackers/5256461",
+      "isTopTen": true
+    },
+    {
+      "id": "cd1d3095-935b-4294-9d19-487ce9ae59c9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
+      "summary": "Multiple ClickFix campaigns are actively distributing three new malware loaders—BabaDeda, Lorem Ipsum, and Potemkin—targeting sectors including education and finance. These attacks utilize deceptive fake update lures to compromise systems.",
+      "date": "2026-06-16T17:41:28.000Z",
+      "link": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+      "isTopTen": false
+    },
     {
       "id": "7354675a-1ed7-4ef6-8ffd-db5764ef3ed1",
       "source": "HackRead",
@@ -76,7 +164,7 @@
       "summary": "The UK government will mandate age verification via ID or facial scans for new social media accounts starting in 2027 to restrict access for those under 16. Security experts have raised concerns that these measures may be easily bypassed and introduce significant data privacy and security risks.",
       "date": "2026-06-16T14:38:49.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eb3deadb-7b29-4017-9803-d1b5da1d958b",
@@ -109,7 +197,7 @@
       "summary": "The GhostTree attack leverages recursive NTFS junctions to create an infinite file path structure, effectively trapping Microsoft Defender in a scanning loop to hide malicious files. This technique allows malware to bypass detection by causing security software to hang indefinitely during folder scans.",
       "date": "2026-06-16T14:17:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "68d58b0d-ffc4-4e0a-bb91-3c269d916e30",
@@ -142,7 +230,7 @@
       "summary": "A critical authentication bypass vulnerability (CVE-2026-48558) in SimpleHelp RMM allows unauthenticated attackers to create unauthorized technician accounts and gain full remote control over managed endpoints. This flaw impacts deployments using OpenID Connect and persists even when MFA is enabled.",
       "date": "2026-06-16T13:33:52.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/16/simplehelp-rmm-cve-2026-48558/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "99903510-dc6d-447e-a35f-422e492481d1",
@@ -186,7 +274,7 @@
       "summary": "Zimperium researchers have identified a new Android Trojan named Rokarolla that hijacks clipboards, intercepts banking calls, and gains full device control to target 217 financial and cryptocurrency applications. The malware poses a significant threat to mobile banking security by enabling comprehensive unauthorized access.",
       "date": "2026-06-16T13:00:00.000Z",
       "link": "https://hackread.com/rokarolla-android-trojan-crypto-and-banking-apps/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ea104a7f-0a04-4036-9cf6-36679950aac6",
@@ -318,7 +406,7 @@
       "summary": "The FBI has issued a warning regarding a rise in cryptocurrency investment scams where perpetrators dispatch physical couriers to collect cash from victims. This tactic is used to bypass financial institution monitoring and security blocks on fraudulent transfers.",
       "date": "2026-06-16T10:05:09.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/16/crypto-scammers-couriers-cash-pickups-fbi-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f85255a5-badd-4725-ba70-f779aae33aca",
@@ -340,7 +428,7 @@
       "summary": "Cybersecurity researchers have identified two new Windows-based variants of the previously Linux-exclusive SprySOCKS backdoor, which utilize driver-based techniques to enhance stealth. These variants feature hard-coded command-and-control configurations and support multiple communication protocols.",
       "date": "2026-06-16T09:44:34.000Z",
       "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8c84d6df-c885-404f-b9bd-116f7a02e08b",
@@ -384,7 +472,7 @@
       "summary": "CISA has added two critical vulnerabilities in Cisco Catalyst and the LiteSpeed cPanel plugin to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
       "date": "2026-06-16T08:53:24.000Z",
       "link": "https://securityaffairs.com/193684/security/u-s-cisa-adds-cisco-catalyst-and-litespeed-cpanel-plugin-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "caa0a6ca-572e-4446-9d3a-b502724ba6ec",
@@ -406,7 +494,7 @@
       "summary": "The North Korean hacking group APT37 is utilizing spear-phishing emails that impersonate Microsoft security alerts to deploy the NarwhalRAT malware. The campaign targets users by leveraging fake account security concerns to gain unauthorized access.",
       "date": "2026-06-16T08:14:55.000Z",
       "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bf5624b1-d87e-4f3e-b173-5645d787357a",
@@ -417,7 +505,7 @@
       "summary": "A China-linked threat actor known as UNC6508 maintained undetected access to North American medical and military research networks for two years to exfiltrate sensitive data. The group utilized stealthy techniques, including credential theft and email forwarding, to sustain their long-term espionage campaign.",
       "date": "2026-06-16T07:32:17.000Z",
       "link": "https://securityaffairs.com/193667/apt/china-linked-actor-unc6508-spent-two-years-inside-medical-research-networks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d22a6a37-a079-466a-8eae-2ee8a598318e",
@@ -472,7 +560,7 @@
       "summary": "CISA has added the CVE-2026-54420 vulnerability in the LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities catalog due to active exploitation for root privilege escalation. Federal agencies are mandated to remediate the flaw by June 18, 2026.",
       "date": "2026-06-16T05:41:52.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "40725201-d084-4c27-95d1-542e65c61bef",
@@ -582,7 +670,7 @@
       "summary": "Google has uncovered a Chinese state-sponsored espionage group that has been covertly operating within critical infrastructure networks since 2023. The actors utilized backdoors to facilitate data theft and intelligence gathering.",
       "date": "2026-06-15T20:11:48.000Z",
       "link": "https://cyberscoop.com/google-unc6508-china-espionage-threat/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7ed31e18-3fe3-4255-881a-228c8ff8b411",
@@ -681,7 +769,7 @@
       "summary": "Cisco has released security patches to address a critical vulnerability, tracked as CVE-2026-20262, in its Catalyst SD-WAN Manager that was actively exploited by attackers to achieve root privilege escalation.",
       "date": "2026-06-15T17:12:42.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7256a77c-094f-4981-959d-5bc05a60bb37",
@@ -769,7 +857,7 @@
       "summary": "Researchers discovered a 'SearchLeak' vulnerability in Microsoft 365 Copilot that allows attackers to exfiltrate sensitive data via a single, trusted link. By chaining three bugs, attackers could bypass security filters to steal emails, files, and multi-factor authentication codes.",
       "date": "2026-06-15T15:09:05.000Z",
       "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "53e1ece5-4e79-4485-9867-661e22b3f0d3",
@@ -5411,94 +5499,6 @@
       "summary": "Cisco has released patches for a critical server-side request forgery (SSRF) vulnerability in its Unified Communications Manager, which is currently being targeted by public proof-of-concept exploit code. The flaw allows unauthenticated remote attackers to exploit improper HTTP request validation.",
       "date": "2026-06-04T13:10:12.000Z",
       "link": "https://securityaffairs.com/193142/hacking/critical-cisco-unified-cm-bug-patched-as-public-exploit-code-emerges.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4a4d4884-4e04-44cd-b7e5-6867363fe785",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Lazarus Group Uses npm Brandjacking Campaign to Target Developers",
-      "summary": "The North Korean-linked Lazarus Group is conducting a brandjacking campaign on the npm registry by distributing malicious packages that mimic legitimate developer tools. This attack vector aims to compromise developer environments, exfiltrate credentials, and deploy malware.",
-      "date": "2026-06-04T12:35:11.000Z",
-      "link": "https://hackread.com/lazarus-group-npm-brandjacking-target-developers/",
-      "isTopTen": false
-    },
-    {
-      "id": "1b6bfc03-cab9-438e-9808-143f16d325e8",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Police dismantles fake ID marketplace used by migrant smugglers",
-      "summary": "French and Spanish law enforcement authorities collaborated to shut down an illicit online marketplace that provided fraudulent identity documents to migrant smuggling networks. This operation highlights the use of cyber infrastructure to facilitate organized criminal activities across the European Union.",
-      "date": "2026-06-04T12:29:12.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/",
-      "isTopTen": false
-    },
-    {
-      "id": "dc0f3d52-e667-49cd-9130-9d9476ade4ae",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa",
-      "summary": "The China-linked threat actor TA4922 is broadening its phishing operations to target organizations in the UK, Germany, Italy, and South Africa using an evolving arsenal of malware including ValleyRAT and Atlas RAT.",
-      "date": "2026-06-04T12:22:25.000Z",
-      "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
-      "isTopTen": false
-    },
-    {
-      "id": "01ff9e3f-4da4-473e-8966-3860cc1f86d5",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OAuth marketplace apps keep access after publishers vanish",
-      "summary": "Research reveals that OAuth marketplace apps retain persistent access to enterprise systems even after their original publishers have disappeared or removed the app. This creates a security risk where orphaned tokens continue to hold permissions to sensitive company data, code, and CI workflows.",
-      "date": "2026-06-04T12:00:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/04/oauth-marketplace-apps-audit/",
-      "isTopTen": false
-    },
-    {
-      "id": "82b59903-c4a1-43fd-9cd0-f3c194581f7d",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Five Eyes: Watch out for odd LinkedIn connection requests, China's back on the hunt for state secrets",
-      "summary": "The Five Eyes intelligence alliance has warned that Chinese state-backed actors are increasingly using LinkedIn to recruit individuals for the trade of state secrets. The campaign highlights a persistent trend of using professional platforms to facilitate human intelligence gathering and espionage.",
-      "date": "2026-06-04T11:57:22.000Z",
-      "link": "https://www.theregister.com/security/2026/06/04/five-eyes-china-expanding-state-secret-recruitment-campaign/5250978",
-      "isTopTen": false
-    },
-    {
-      "id": "511b7355-8571-440d-950b-6fe2bb9040cb",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
-      "summary": "A new macOS malvertising campaign, dubbed Operation FlutterBridge, is distributing a backdoor called FlutterShell via malicious Google and YouTube advertisements. The campaign is linked to the previously identified JSCoreRunner activity cluster.",
-      "date": "2026-06-04T11:19:53.000Z",
-      "link": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2b196600-49f3-4fed-a09f-fc72b4d2fda1",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Duo who sold car crash victims' data must repay £118k",
-      "summary": "Two former RAC employees were ordered to pay £118,000 in confiscation orders after previously being convicted for illegally selling the personal data of thousands of car crash victims. This legal action serves as an additional penalty following their initial criminal sentencing.",
-      "date": "2026-06-04T11:13:05.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/04/duo-who-sold-car-crash-victims-data-must-repay-118k/5251075",
-      "isTopTen": false
-    },
-    {
-      "id": "66adb6e1-77a4-4100-afbb-baabadf88843",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco warns of critical Unified CM flaw with PoC exploit code",
-      "summary": "Cisco has issued security patches for a critical-severity vulnerability in its Unified Communications Manager that could allow unauthorized actors to obtain root-level access. The flaw is considered especially dangerous due to the availability of proof-of-concept exploit code.",
-      "date": "2026-06-04T11:09:50.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
       "isTopTen": false
     }
   ]
