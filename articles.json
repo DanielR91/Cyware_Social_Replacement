@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-17T20:22:50.551Z",
+  "lastUpdated": "2026-06-17T22:50:29.767Z",
   "articles": [
+    {
+      "id": "3af5d015-f32f-48f5-bd84-b2563baa5686",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Google to use UK and EU user IP addresses for ad personalization",
+      "summary": "Google has announced plans to utilize IP addresses from UK, EEA, and Switzerland users for ad personalization and measurement starting in August 2026. This move highlights a shift in policy that faces scrutiny amid ongoing regulatory discussions regarding privacy and consent.",
+      "date": "2026-06-17T21:02:42.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
+      "isTopTen": true
+    },
     {
       "id": "b2d554a3-d431-411e-a841-77d4f2319d91",
       "source": "The Hacker News",
@@ -43,7 +54,7 @@
       "summary": "Approximately 75,000 Fortinet firewall devices have been targeted in a massive campaign designed to steal administrative credentials. Security experts urge immediate password rotation to mitigate the risk of unauthorized access.",
       "date": "2026-06-17T17:27:40.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/17/massive-password-stealing-attack-hits-75k-fortinet-firewalls/5257877",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "57a42665-9615-46f1-85bf-cd780a44fd0f",
@@ -241,7 +252,7 @@
       "summary": "A SpyCloud report reveals that 86% of Fortune 100 companies have suffered exposed employee data, directly contributing to an increase in phishing attacks. This underscores significant vulnerabilities in enterprise identity security.",
       "date": "2026-06-17T13:00:14.000Z",
       "link": "https://hackread.com/spycloud-report-finds-phishing-attacks-surge-as-employee-data-is-exposed-at-86-of-fortune-100-companies/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f7fb06e2-07c3-4df7-b03e-fc5e390154f1",
@@ -384,7 +395,7 @@
       "summary": "CISA has issued an emergency directive requiring federal agencies to remediate a critical, actively exploited vulnerability in the Widget Factory Joomla Content Editor (JCE) plugin by the end of the week. This order aims to prevent potential compromises stemming from the ongoing exploitation of the maximum-severity security flaw.",
       "date": "2026-06-17T10:09:24.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cb43994e-043e-4d6c-b604-3b79d75bb5ee",
@@ -406,7 +417,7 @@
       "summary": "A coordinated malware campaign has compromised the JetBrains Marketplace, deploying 15 malicious plugins designed to steal AI API keys and capture sensitive chatbot data. These plugins masquerade as legitimate AI coding assistants to deceive developers into compromising their development environments.",
       "date": "2026-06-17T09:38:46.000Z",
       "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "def3ebef-77a4-4ea4-990b-1552ed09d0e5",
@@ -692,7 +703,7 @@
       "summary": "A vulnerability in the Google Cloud Vertex AI SDK for Python allowed unauthorized attackers to hijack model uploads and execute arbitrary code via a bucket squatting technique dubbed 'Pickle in the Middle'.",
       "date": "2026-06-16T19:05:41.000Z",
       "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "12b8131c-5192-4a85-acde-11ae45b0a437",
@@ -4160,6 +4171,17 @@
       "isTopTen": false
     },
     {
+      "id": "9d788307-d503-46cf-8e21-d0c25856797b",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
+      "summary": "Unit 42 reports active exploitation of a critical vulnerability in Palo Alto Networks' PAN-OS, identified as CVE-2026-0257. The brief provides essential indicators of compromise and mitigation strategies to help organizations secure their infrastructure.",
+      "date": "2026-06-09T14:05:42.000Z",
+      "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+      "isTopTen": false
+    },
+    {
       "id": "13b71073-bb9d-4902-a7b8-398554aba592",
       "source": "Help Net Security",
       "tag": "Breaches and Incidents",
@@ -5477,28 +5499,6 @@
       "summary": "A California man received a 26-year prison sentence for distributing fentanyl and methamphetamine via the dark web marketplace Nemesis Market. This highlights ongoing federal efforts to dismantle illicit operations on major dark web platforms.",
       "date": "2026-06-05T17:50:58.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-      "isTopTen": false
-    },
-    {
-      "id": "2da42a7e-4cbf-4800-b621-e9c01118610e",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Yet another Cisco SD-WAN 0-day under attack, and no patch in sight",
-      "summary": "Cisco SD-WAN systems are currently being exploited by a zero-day vulnerability for which no security patch is yet available. This situation leaves administrators without an immediate remediation path to secure their environments.",
-      "date": "2026-06-05T17:27:42.000Z",
-      "link": "https://www.theregister.com/security/2026/06/05/yet-another-cisco-sd-wan-0-day-under-attack-and-no-patch-in-sight/5251855",
-      "isTopTen": false
-    },
-    {
-      "id": "1a971f3c-ced5-42df-abf7-8602902ea719",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Atlas Menu Data Breach Exposes 64,000 GTA V and CS2 Cheat Service Users",
-      "summary": "A data breach involving the cheat service provider Atlas Menu has compromised the personal information of 64,000 users, including emails, IP addresses, and hashed passwords. The exposed data relates to individuals using unauthorized software for Grand Theft Auto V and Counter-Strike 2.",
-      "date": "2026-06-05T17:16:02.000Z",
-      "link": "https://hackread.com/atlas-menu-data-breach-exposes-gta-v-cs2-cheat-users/",
       "isTopTen": false
     }
   ]
