@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-16T22:57:33.608Z",
+  "lastUpdated": "2026-06-17T04:43:33.625Z",
   "articles": [
+    {
+      "id": "cd3553c5-768e-4d31-a537-0062d4a7947e",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Navigating SEC, NIS2, and DORA incident disclosure timelines under pressure",
+      "summary": "This video discusses the operational challenges of managing overlapping incident disclosure requirements under SEC, NIS2, and DORA regulations during a potential data breach. It highlights the complexities global organizations face when navigating differing regulatory reporting timelines.",
+      "date": "2026-06-17T04:30:23.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/17/incident-disclosure-timelines-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "d0b7f439-cf0b-4416-9a31-6223f2614597",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "The checklist problem behind critical infrastructure cyber safety",
+      "summary": "New research from George Mason University highlights that meeting federal cybersecurity compliance standards does not guarantee protection against physical system failures or cyberattacks in critical infrastructure. The study argues that current policies treat compliance as a proxy for safety, leaving operational technology vulnerable despite meeting regulatory checklists.",
+      "date": "2026-06-17T04:00:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/17/usa-critical-infrastructure-cyber-safety/",
+      "isTopTen": false
+    },
+    {
+      "id": "caf40f01-5834-460f-a5df-47e3f1b435af",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Cyberattack sees crops kept in the ground",
+      "summary": "Australian sugar producer Mackay Sugar experienced a cyberattack during its peak cane crushing season, resulting in operational delays that forced crops to remain unharvested. The incident highlights the significant impact of digital disruptions on critical agricultural supply chains.",
+      "date": "2026-06-17T02:16:00.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/06/17/cyberattack-sees-crops-kept-in-the-ground/5256321",
+      "isTopTen": true
+    },
     {
       "id": "b2939cad-0402-4a38-8ab4-fa32533011b6",
       "source": "BleepingComputer",
@@ -65,7 +98,7 @@
       "summary": "Digital healthcare provider iRhythm suffered a data breach involving the theft of patient and proprietary information via third-party apps, resulting in a ransom demand. The incident impacts sensitive cardiac monitoring data collected through the company's Zio wearable technology.",
       "date": "2026-06-16T19:19:54.000Z",
       "link": "https://securityaffairs.com/193721/data-breach/irhythm-hit-by-cyberattack-patient-data-stolen-and-ransom-demanded.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "efd31eb8-e4b2-42df-a9b1-847c45ab73e8",
@@ -120,7 +153,7 @@
       "summary": "Amos Stealer is a malicious campaign targeting macOS users that utilizes deceptive downloads to exfiltrate sensitive data, including Keychain files, browser credentials, and developer configuration files. It represents a significant threat to user privacy and system security by harvesting high-value authentication information.",
       "date": "2026-06-16T16:27:00.000Z",
       "link": "https://hackread.com/amos-stealer-macos-keychain-files-browser-passwords/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e0613e36-22c8-43c4-a4bd-39ec4135bd90",
@@ -362,7 +395,7 @@
       "summary": "Cisco has confirmed that CVE-2026-20262, an arbitrary file write vulnerability in its Catalyst SD-WAN Manager, is currently being exploited in the wild.",
       "date": "2026-06-16T10:53:08.000Z",
       "link": "https://securityaffairs.com/193693/security/cve-2026-20262-cisco-catalyst-sd-wan-flaw-under-active-targeted-exploitation.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "12f4a1d5-0cee-4116-9335-5bbbb3a2c2fc",
@@ -384,7 +417,7 @@
       "summary": "CISA has issued an emergency directive requiring federal agencies to secure their servers against an actively exploited vulnerability in the LiteSpeed cPanel plugin within three days.",
       "date": "2026-06-16T10:47:59.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "018251a4-f9f3-427a-83be-e274eb8aece7",
@@ -494,7 +527,7 @@
       "summary": "CISA has added two critical vulnerabilities in Cisco Catalyst and the LiteSpeed cPanel plugin to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
       "date": "2026-06-16T08:53:24.000Z",
       "link": "https://securityaffairs.com/193684/security/u-s-cisa-adds-cisco-catalyst-and-litespeed-cpanel-plugin-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "caa0a6ca-572e-4446-9d3a-b502724ba6ec",
@@ -5466,39 +5499,6 @@
       "summary": "This bulletin covers a broad range of emerging cyber threats including malicious AI agents, compromised C2 tools, and various web-based attack vectors. It highlights the increasing sophistication of low-tier hackers and the persistence of legacy software vulnerabilities.",
       "date": "2026-06-04T14:00:49.000Z",
       "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
-      "isTopTen": false
-    },
-    {
-      "id": "574fe257-b112-439d-9465-a05760423c25",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "UN food agency investigates breach exposing data of Gaza aid recipients",
-      "summary": "The World Food Programme is investigating a data breach where unauthorized parties gained access to the personal information of aid recipients in Gaza stored on its self-registration application.",
-      "date": "2026-06-04T13:44:00.000Z",
-      "link": "https://therecord.media/un-food-agency-investigates-gaza-aid-breach",
-      "isTopTen": false
-    },
-    {
-      "id": "9958d12d-99a9-4bb5-a092-da5d5685c3ca",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Microsoft blames unexpected Windows driver updates on caching issue",
-      "summary": "Microsoft resolved a bug where Windows devices were automatically installing driver updates in violation of configured user policies due to a caching error. The issue caused unintended system modifications, bypassing established update management controls.",
-      "date": "2026-06-04T13:41:42.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/",
-      "isTopTen": false
-    },
-    {
-      "id": "0ef2496d-4e34-4634-82c9-6ecc8f34dd83",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Researcher publishes GitHub token-stealing exploit, blames Microsoft’s disclosure process",
-      "summary": "Security researcher Ammar Askar publicly released a GitHub token-stealing exploit with minimal notice, citing dissatisfaction with Microsoft's vulnerability disclosure process.",
-      "date": "2026-06-04T13:37:00.000Z",
-      "link": "https://therecord.media/researcher-publishes-github-token-stealing-exploit-microsoft",
       "isTopTen": false
     }
   ]
