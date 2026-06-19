@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-06-19T15:35:10.408Z",
+  "lastUpdated": "2026-06-19T19:56:39.946Z",
   "articles": [
+    {
+      "id": "b5207a36-75cd-45d5-8671-a5112239d0a7",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
+      "summary": "Security researchers have discovered an unpatchable exploit called 'usbliter8' affecting the SecureROM of Apple's A12 and A13 chips, allowing for arbitrary code execution. Because the vulnerability is tied to the hardware, it cannot be mitigated via software updates.",
+      "date": "2026-06-19T18:37:41.000Z",
+      "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+      "isTopTen": true
+    },
+    {
+      "id": "272c5540-75df-44cb-baca-d00d38636cf1",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
+      "summary": "The Gentlemen ransomware-as-a-service (RaaS) group is distributing a sophisticated framework called GentleKiller, which enables affiliates to terminate over 400 security processes to bypass endpoint detection. This development highlights the growing trend of threat actors utilizing specialized EDR-killing tools to facilitate ransomware deployment.",
+      "date": "2026-06-19T18:33:07.000Z",
+      "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a1fbc059-2f1d-47aa-9611-0c851314d20d",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Meteor 3.0 Migration Helped Rocket.Chat Move Off End-of-Life Node.js Runtime",
+      "summary": "Rocket.Chat migrated to Meteor 3.0 to upgrade its underlying Node.js runtime from version 14 to 20. This update effectively resolves technical debt associated with the removal of Fibers and mitigates supply-chain security risks for federal users.",
+      "date": "2026-06-19T16:57:09.000Z",
+      "link": "https://hackread.com/meteor-3-0-migration-rocket-chat-node-js-runtime/",
+      "isTopTen": false
+    },
+    {
+      "id": "e670ab5c-877e-4940-9dcb-197aa1a9f284",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
+      "summary": "The Texas Parks and Wildlife Department suffered a data breach involving a third-party vendor, resulting in the exposure of personal information for over three million driver's license holders. The incident highlights the risks associated with supply chain security for government entities.",
+      "date": "2026-06-19T16:12:41.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "isTopTen": true
+    },
+    {
+      "id": "b814514b-c754-40f8-a2ba-be3ddcb86856",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
+      "summary": "Microsoft researchers discovered AutoJack, a vulnerability that allows malicious web pages to exploit AI browsing agents to execute arbitrary code on a host machine. The attack bypasses authentication and requires no user interaction after the initial page load.",
+      "date": "2026-06-19T15:30:47.000Z",
+      "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+      "isTopTen": true
+    },
     {
       "id": "c7d96101-ba68-4c62-b475-006462b389b3",
       "source": "The Hacker News",
@@ -76,7 +131,7 @@
       "summary": "AI agents now possess significant operational capabilities within corporate environments, yet they often lack the robust identity management and governance protocols required to secure them. This creates a critical security gap as these autonomous systems become high-value targets for attackers.",
       "date": "2026-06-19T13:10:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d84bf8a9-d376-40d0-baa8-41aabc0e97a4",
@@ -87,7 +142,7 @@
       "summary": "A data breach involving Texas hunting and fishing licenses has exposed the personal information of approximately 3 million residents. The incident highlights a significant security failure affecting a large portion of the state's population.",
       "date": "2026-06-19T13:01:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/19/texas-gov-vendor-breach-exposes-data-of-3m-hunters-anglers/5258815",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f2886b0b-acb1-48ec-9bf3-85ade07310a1",
@@ -98,7 +153,7 @@
       "summary": "A security breach at market intelligence platform Klue led to the compromise of integration credentials, resulting in unauthorized access and data theft from connected services like Salesforce for companies including Huntress. The incident highlights the risks of a supply chain attack cascading through third-party integrations.",
       "date": "2026-06-19T12:57:39.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "32cc5f45-28c4-4c01-a5a7-bc3a70817a9c",
@@ -307,7 +362,7 @@
       "summary": "A New York man has been charged with cyberstalking for creating and distributing AI-generated non-consensual sexual imagery and fake messages to harass a college student. The case highlights the rising misuse of generative AI tools in targeted harassment and digital abuse.",
       "date": "2026-06-19T08:44:08.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c2f6c985-ef6f-442c-b50d-d359ede15ce1",
@@ -417,7 +472,7 @@
       "summary": "The Gentlemen ransomware-as-a-service group is enhancing its attack capabilities by deploying multiple specialized tools designed to disable endpoint detection and response (EDR) software. This development allows their affiliates to bypass security defenses and remain undetected during operations.",
       "date": "2026-06-18T22:31:52.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "411b0482-9f9c-488e-bc19-a969ff327bad",
@@ -527,7 +582,7 @@
       "summary": "Cisco has patched a critical command execution vulnerability, CVE-2026-20181, in its Identity Services Engine (ISE) that allows authenticated administrators to escalate privileges and gain root access.",
       "date": "2026-06-18T16:11:00.000Z",
       "link": "https://securityaffairs.com/193849/uncategorized/cisco-fixed-a-critical-ise-vulnerability-that-lets-attackers-to-gain-root-access.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e18ab432-8c7c-4472-873c-2ed31adcdde7",
@@ -5444,61 +5499,6 @@
       "summary": "Google has issued an emergency update for Chrome to address the fifth zero-day vulnerability exploited in the wild this year. Users are urged to update their browsers immediately to mitigate potential security risks.",
       "date": "2026-06-09T06:56:27.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-      "isTopTen": false
-    },
-    {
-      "id": "54f0b50b-8f3c-4153-bc0d-cc305c096aab",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
-      "summary": "CISA has added the high-severity command injection vulnerability CVE-2026-42271 in BerriAI LiteLLM to its Known Exploited Vulnerabilities catalog due to reports of active in-the-wild exploitation. This flaw allows authenticated users to execute arbitrary commands, posing a significant risk to affected systems.",
-      "date": "2026-06-09T06:26:14.000Z",
-      "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-      "isTopTen": false
-    },
-    {
-      "id": "021f7995-1737-4d29-a34e-46af388893df",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic",
-      "summary": "The article argues that reactive patching is no longer sufficient against AI-driven threats and suggests a shift toward an 'architecture of subtraction' to eliminate vulnerabilities entirely. This approach focuses on reducing attack surfaces by removing unnecessary complexity rather than just addressing known security flaws.",
-      "date": "2026-06-09T06:00:23.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/subtractive-security-attack-path-erasure/",
-      "isTopTen": false
-    },
-    {
-      "id": "79dee0fc-38a4-4459-bf77-480e91355673",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Treating AI agents like service accounts for federated query security",
-      "summary": "The article discusses Starburst's approach to data governance in federated query environments, specifically focusing on treating AI agents as service accounts to secure autonomous data access. It highlights strategies for managing access controls, audit trails, and mitigating prompt injection risks in AI-driven SQL generation.",
-      "date": "2026-06-09T05:30:14.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/paras-malhotra-starburst-federated-query-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "0ccdfdc8-8969-4be9-a13c-798ccc47f70b",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Malware ships with bugs that defenders could use against it",
-      "summary": "Researchers analyzing leaked malware samples found that approximately 90 percent of the projects contain exploitable software vulnerabilities that defenders could potentially leverage. This highlights that malicious code often suffers from the same quality control issues as legitimate software.",
-      "date": "2026-06-09T05:00:48.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/malware-source-code-bugs-research/",
-      "isTopTen": false
-    },
-    {
-      "id": "9544fd91-557e-47fc-b74f-9183adc415c0",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The security questions around Chinese AI coding models in U.S. software",
-      "summary": "Booz Allen Hamilton research indicates that U.S. developers using Chinese-made AI coding models face significant security risks, particularly regarding potential data exposure and supply chain vulnerabilities. The testing revealed that these models may behave differently when prompted with government-related contexts, raising concerns about the integrity of U.S. software.",
-      "date": "2026-06-09T04:30:46.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/chinese-ai-coding-models-security/",
       "isTopTen": false
     }
   ]
