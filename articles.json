@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-19T19:56:39.946Z",
+  "lastUpdated": "2026-06-19T22:09:45.635Z",
   "articles": [
+    {
+      "id": "a787a9e9-4008-4c16-8734-e87f4ab72dad",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
+      "summary": "Hackers are actively exploiting an unauthenticated information disclosure vulnerability within the Gravity SMTP WordPress plugin, which is installed on over 100,000 websites.",
+      "date": "2026-06-19T20:25:02.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "isTopTen": false
+    },
     {
       "id": "b5207a36-75cd-45d5-8671-a5112239d0a7",
       "source": "The Hacker News",
@@ -65,7 +76,7 @@
       "summary": "International law enforcement agencies collaborated in Operation Endgame to dismantle SocGholish malicious infrastructure, resulting in the cleanup of nearly 15,000 compromised WordPress websites.",
       "date": "2026-06-19T15:07:54.000Z",
       "link": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6cd905d9-614d-41f6-8588-af7638983159",
@@ -131,7 +142,7 @@
       "summary": "AI agents now possess significant operational capabilities within corporate environments, yet they often lack the robust identity management and governance protocols required to secure them. This creates a critical security gap as these autonomous systems become high-value targets for attackers.",
       "date": "2026-06-19T13:10:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d84bf8a9-d376-40d0-baa8-41aabc0e97a4",
@@ -153,7 +164,7 @@
       "summary": "A security breach at market intelligence platform Klue led to the compromise of integration credentials, resulting in unauthorized access and data theft from connected services like Salesforce for companies including Huntress. The incident highlights the risks of a supply chain attack cascading through third-party integrations.",
       "date": "2026-06-19T12:57:39.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "32cc5f45-28c4-4c01-a5a7-bc3a70817a9c",
@@ -582,7 +593,7 @@
       "summary": "Cisco has patched a critical command execution vulnerability, CVE-2026-20181, in its Identity Services Engine (ISE) that allows authenticated administrators to escalate privileges and gain root access.",
       "date": "2026-06-18T16:11:00.000Z",
       "link": "https://securityaffairs.com/193849/uncategorized/cisco-fixed-a-critical-ise-vulnerability-that-lets-attackers-to-gain-root-access.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e18ab432-8c7c-4472-873c-2ed31adcdde7",
@@ -5488,17 +5499,6 @@
       "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables framework allows local users to achieve privilege escalation to root. The flaw was identified by Exodus Intelligence researcher Oliver Sieber and stems from a minor logic error.",
       "date": "2026-06-09T07:27:39.000Z",
       "link": "https://securityaffairs.com/193352/hacking/cve-2026-23111-linux-nf_tables-flaw-enables-root-exploits.html",
-      "isTopTen": false
-    },
-    {
-      "id": "beff7445-f378-4e95-83e8-df642cb7c5e7",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
-      "summary": "Google has issued an emergency update for Chrome to address the fifth zero-day vulnerability exploited in the wild this year. Users are urged to update their browsers immediately to mitigate potential security risks.",
-      "date": "2026-06-09T06:56:27.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
       "isTopTen": false
     }
   ]
