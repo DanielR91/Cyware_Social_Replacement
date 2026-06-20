@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-20T09:26:22.981Z",
+  "lastUpdated": "2026-06-20T14:14:39.599Z",
   "articles": [
+    {
+      "id": "08eaed9b-e257-4cef-96ef-6ec80f6609db",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "MDR Provider Comparison: Time to Discover and Respond to Threats",
+      "summary": "This guide provides a comprehensive comparison of Managed Detection and Response (MDR) providers, focusing on key performance metrics like response speed and threat intelligence capabilities to assist organizations in vendor selection.",
+      "date": "2026-06-20T12:31:16.000Z",
+      "link": "https://hackread.com/mdr-provider-comparison-discover-respond-threats/",
+      "isTopTen": false
+    },
+    {
+      "id": "2ee16c6a-8f2e-4e6f-8280-1996010793ed",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+      "summary": "Hackers are actively exploiting a medium-severity vulnerability in the Gravity SMTP WordPress plugin to extract sensitive information, including API keys and OAuth tokens. Users are advised to update their installations to mitigate the risk of data exposure.",
+      "date": "2026-06-20T09:56:04.000Z",
+      "link": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "isTopTen": false
+    },
     {
       "id": "96c2e206-096a-44fa-a3f1-dc82e00198cf",
       "source": "Security Affairs",
@@ -54,7 +76,7 @@
       "summary": "Hackers are actively exploiting an unauthenticated information disclosure vulnerability within the Gravity SMTP WordPress plugin, which is installed on over 100,000 websites.",
       "date": "2026-06-19T20:25:02.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b5207a36-75cd-45d5-8671-a5112239d0a7",
@@ -65,7 +87,7 @@
       "summary": "Security researchers have discovered an unpatchable exploit called 'usbliter8' affecting the SecureROM of Apple's A12 and A13 chips, allowing for arbitrary code execution. Because the vulnerability is tied to the hardware, it cannot be mitigated via software updates.",
       "date": "2026-06-19T18:37:41.000Z",
       "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "272c5540-75df-44cb-baca-d00d38636cf1",
@@ -87,7 +109,7 @@
       "summary": "Rocket.Chat migrated to Meteor 3.0 to upgrade its underlying Node.js runtime from version 14 to 20. This update effectively resolves technical debt associated with the removal of Fibers and mitigates supply-chain security risks for federal users.",
       "date": "2026-06-19T16:57:09.000Z",
       "link": "https://hackread.com/meteor-3-0-migration-rocket-chat-node-js-runtime/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e670ab5c-877e-4940-9dcb-197aa1a9f284",
@@ -98,7 +120,7 @@
       "summary": "The Texas Parks and Wildlife Department suffered a data breach involving a third-party vendor, resulting in the exposure of personal information for over three million driver's license holders. The incident highlights the risks associated with supply chain security for government entities.",
       "date": "2026-06-19T16:12:41.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fd17ef98-7a47-4997-8178-018c4f16cab2",
@@ -109,7 +131,7 @@
       "summary": "Security researchers have released a permanent, unpatchable BootROM exploit affecting A12 and A13 chipsets in certain iPhone models. Because the flaw exists at the hardware level, it cannot be fixed via software updates.",
       "date": "2026-06-19T16:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b814514b-c754-40f8-a2ba-be3ddcb86856",
@@ -120,7 +142,7 @@
       "summary": "Microsoft researchers discovered AutoJack, a vulnerability that allows malicious web pages to exploit AI browsing agents to execute arbitrary code on a host machine. The attack bypasses authentication and requires no user interaction after the initial page load.",
       "date": "2026-06-19T15:30:47.000Z",
       "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c7d96101-ba68-4c62-b475-006462b389b3",
@@ -131,7 +153,7 @@
       "summary": "International law enforcement agencies collaborated in Operation Endgame to dismantle SocGholish malicious infrastructure, resulting in the cleanup of nearly 15,000 compromised WordPress websites.",
       "date": "2026-06-19T15:07:54.000Z",
       "link": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6cd905d9-614d-41f6-8588-af7638983159",
@@ -153,7 +175,7 @@
       "summary": "CISA has issued an urgent warning to Fortinet customers regarding the 'FortiBleed' campaign, which has compromised over 86,000 internet-accessible FortiGate devices. The campaign is attributed to Russian-speaking threat actors, prompting authorities to advise immediate patching and security measures.",
       "date": "2026-06-19T14:00:21.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6bd393d2-e8e4-4752-be8b-b2138753980b",
@@ -164,7 +186,7 @@
       "summary": "The hacker group Shadowbyt3 breached the employee engagement platform TinyPulse, resulting in the exposure of sensitive HR and financial records belonging to Nintendo of America staff. The compromised data includes tax forms, banking details, and internal survey responses.",
       "date": "2026-06-19T13:49:50.000Z",
       "link": "https://hackread.com/nintendo-america-employee-data-shadowbyt3-tinypulse/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2b105fd0-8f72-4e53-909c-8c2072ff3226",
@@ -549,7 +571,7 @@
       "summary": "Authorities and cybersecurity researchers dismantled the SocGholish botnet associated with Evil Corp by taking down 106 servers and cleaning 15,000 infected websites.",
       "date": "2026-06-18T22:03:32.000Z",
       "link": "https://cyberscoop.com/socgholish-malware-botnet-takedown-evilcorp/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cdead4ec-be6f-469d-8070-56c62e5b7616",
@@ -593,7 +615,7 @@
       "summary": "International law enforcement successfully dismantled the SocGholish malware infrastructure, seizing over 100 command-and-control servers and securing 15,000 compromised websites.",
       "date": "2026-06-18T18:59:16.000Z",
       "link": "https://hackread.com/operation-endgame-disrupts-socgholish-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "966fb365-ac66-4ecf-bed9-96f63cc64c73",
@@ -747,7 +769,7 @@
       "summary": "Market intelligence firm Klue experienced an OAuth token breach exploited by the 'Icarus' threat actor group to exfiltrate sensitive Salesforce CRM data across multiple organizations. The attack is part of an ongoing extortion campaign targeting cloud-based information platforms.",
       "date": "2026-06-18T14:19:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9ba82107-0c0b-4f7c-ab48-044c1ef7b0a7",
@@ -5477,28 +5499,6 @@
       "summary": "The hacker group Handala claimed a significant cyberattack against Israeli radar systems, but investigation revealed the evidence actually displayed a simple administrative panel for a mobile device. This suggests the group is employing misleading claims for psychological impact rather than executing a high-level military breach.",
       "date": "2026-06-09T10:23:25.000Z",
       "link": "https://hackread.com/handala-israeli-radar-hack-evidence-phone-admin-panel/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d6120d1-c510-47f7-8a5c-48feb1c3c9ae",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
-      "summary": "Researchers have discovered a side-channel attack called FROST that uses SSD timing and JavaScript to track a user's browsing activity and opened applications without requiring special permissions. The attack exploits storage contention to monitor system activity stealthily.",
-      "date": "2026-06-09T09:50:41.000Z",
-      "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3ebb8a14-f23a-4101-aa19-f773fcddbf85",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Mythos Preview can weaponize N-day vulnerabilities in hours",
-      "summary": "Anthropic research reveals that the Mythos Preview AI tool can weaponize disclosed N-day vulnerabilities within hours, significantly accelerating the threat window for unpatched systems. This capability highlights the heightened danger posed by existing vulnerabilities that remain unpatched after disclosure.",
-      "date": "2026-06-09T09:19:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows/",
       "isTopTen": false
     }
   ]
