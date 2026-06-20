@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-20T04:08:17.892Z",
+  "lastUpdated": "2026-06-20T09:26:22.981Z",
   "articles": [
+    {
+      "id": "96c2e206-096a-44fa-a3f1-dc82e00198cf",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FortiBleed Exposes Global Credential-Spraying Operation",
+      "summary": "A massive industrial-scale credential-spraying campaign targeted global Fortinet VPN devices, resulting in widespread organizational compromises. The attack was discovered by security researcher Volodymyr Diachenko due to the threat actors' operational negligence.",
+      "date": "2026-06-20T08:37:49.000Z",
+      "link": "https://securityaffairs.com/193931/hacking/fortibleed-exposes-global-credential-spraying-operation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "887fa046-b90d-40ac-b6af-229b0f15171d",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "CISA Warns of Active Exploitation Following FortiBleed Leak",
+      "summary": "CISA has issued an emergency alert following the leak of credentials for approximately 74,000 Fortinet devices, which are currently being actively exploited by threat actors. This security incident, dubbed 'FortiBleed,' affects various firewalls and VPN gateways worldwide.",
+      "date": "2026-06-20T08:10:50.000Z",
+      "link": "https://securityaffairs.com/193902/hacking/cisa-warns-of-active-exploitation-following-fortibleed-leak.html",
+      "isTopTen": false
+    },
     {
       "id": "63f72c43-62e2-4896-b622-a296b4b5bf50",
       "source": "Unit 42",
@@ -21,7 +43,7 @@
       "summary": "Market intelligence platform Klue confirmed a security incident involving the theft of OAuth tokens connected to customer Salesforce environments, with the Icarus extortion group claiming responsibility. The breach has led to an expanding list of affected organizations.",
       "date": "2026-06-19T22:31:04.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a787a9e9-4008-4c16-8734-e87f4ab72dad",
@@ -77,6 +99,17 @@
       "date": "2026-06-19T16:12:41.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
       "isTopTen": true
+    },
+    {
+      "id": "fd17ef98-7a47-4997-8178-018c4f16cab2",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Researchers drop checkm8-style BootROM exploit for A12 and A13 iPhones",
+      "summary": "Security researchers have released a permanent, unpatchable BootROM exploit affecting A12 and A13 chipsets in certain iPhone models. Because the flaw exists at the hardware level, it cannot be fixed via software updates.",
+      "date": "2026-06-19T16:02:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
+      "isTopTen": false
     },
     {
       "id": "b814514b-c754-40f8-a2ba-be3ddcb86856",
@@ -285,7 +318,7 @@
       "summary": "CISA has added a critical, actively exploited unauthenticated remote code execution (RCE) vulnerability in Splunk Enterprise (CVE-2026-20253) to its Known Exploited Vulnerabilities catalog, requiring immediate patching.",
       "date": "2026-06-19T10:50:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ca1137f0-c26c-4791-956d-257c6e002206",
@@ -318,7 +351,7 @@
       "summary": "CISA has added the critical CVE-2026-20253 authentication vulnerability in Splunk Enterprise to its Known Exploited Vulnerabilities (KEV) catalog, mandating that federal agencies patch the flaw by Sunday.",
       "date": "2026-06-19T10:34:37.000Z",
       "link": "https://securityaffairs.com/193888/security/u-s-cisa-adds-splunk-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog-and-urges-agencies-to-fix-it-by-sunday.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "51f0bc89-a7b1-4cde-b52f-3aa11462bab4",
@@ -714,7 +747,7 @@
       "summary": "Market intelligence firm Klue experienced an OAuth token breach exploited by the 'Icarus' threat actor group to exfiltrate sensitive Salesforce CRM data across multiple organizations. The attack is part of an ongoing extortion campaign targeting cloud-based information platforms.",
       "date": "2026-06-18T14:19:50.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9ba82107-0c0b-4f7c-ab48-044c1ef7b0a7",
@@ -5466,39 +5499,6 @@
       "summary": "Anthropic research reveals that the Mythos Preview AI tool can weaponize disclosed N-day vulnerabilities within hours, significantly accelerating the threat window for unpatched systems. This capability highlights the heightened danger posed by existing vulnerabilities that remain unpatched after disclosure.",
       "date": "2026-06-09T09:19:53.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows/",
-      "isTopTen": false
-    },
-    {
-      "id": "c072ff6d-0e2b-490b-8576-f71d53305519",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Qilin NHS breach tally grows as Essex trust confirms stolen records",
-      "summary": "The Qilin ransomware attack on the NHS continues to impact patients two years later as the Essex Partnership University Trust confirms additional records were stolen. Authorities are currently working to identify and notify affected individuals.",
-      "date": "2026-06-09T09:15:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/09/qilin-nhs-breach-tally-grows-as-essex-trust-confirms-stolen-records/5252663",
-      "isTopTen": false
-    },
-    {
-      "id": "8ce0c398-7162-4f28-830c-b390e7f23cd0",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
-      "summary": "The Hades supply chain attack involves 19 malicious PyPI packages that utilize a *-setup.pth file to automatically execute a credential-stealing payload. This campaign is part of the ongoing Miasma series targeting Python developers.",
-      "date": "2026-06-09T09:13:32.000Z",
-      "link": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5d350e94-85d5-4c5a-851d-dacf322c8b99",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Critical",
-      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
-      "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a critical Check Point VPN vulnerability within three days due to its exploitation by Qilin ransomware affiliates. This action aims to secure government networks against active zero-day attacks targeting remote access infrastructure.",
-      "date": "2026-06-09T08:18:39.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
       "isTopTen": false
     }
   ]
