@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-19T22:09:45.635Z",
+  "lastUpdated": "2026-06-20T04:08:17.892Z",
   "articles": [
+    {
+      "id": "63f72c43-62e2-4896-b622-a296b4b5bf50",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
+      "summary": "Unit 42 provides strategic guidance for defending against large-scale credential stuffing attacks, specifically addressing recent campaigns that target security vendor infrastructure.",
+      "date": "2026-06-20T02:05:33.000Z",
+      "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "a3f079a5-e1bb-45a7-bc98-e55ac04a97d3",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "summary": "Market intelligence platform Klue confirmed a security incident involving the theft of OAuth tokens connected to customer Salesforce environments, with the Icarus extortion group claiming responsibility. The breach has led to an expanding list of affected organizations.",
+      "date": "2026-06-19T22:31:04.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "isTopTen": true
+    },
     {
       "id": "a787a9e9-4008-4c16-8734-e87f4ab72dad",
       "source": "BleepingComputer",
@@ -142,7 +164,7 @@
       "summary": "AI agents now possess significant operational capabilities within corporate environments, yet they often lack the robust identity management and governance protocols required to secure them. This creates a critical security gap as these autonomous systems become high-value targets for attackers.",
       "date": "2026-06-19T13:10:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d84bf8a9-d376-40d0-baa8-41aabc0e97a4",
@@ -164,7 +186,7 @@
       "summary": "A security breach at market intelligence platform Klue led to the compromise of integration credentials, resulting in unauthorized access and data theft from connected services like Salesforce for companies including Huntress. The incident highlights the risks of a supply chain attack cascading through third-party integrations.",
       "date": "2026-06-19T12:57:39.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "32cc5f45-28c4-4c01-a5a7-bc3a70817a9c",
@@ -538,7 +560,7 @@
       "summary": "International law enforcement successfully dismantled the SocGholish malware infrastructure, seizing over 100 command-and-control servers and securing 15,000 compromised websites.",
       "date": "2026-06-18T18:59:16.000Z",
       "link": "https://hackread.com/operation-endgame-disrupts-socgholish-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "966fb365-ac66-4ecf-bed9-96f63cc64c73",
@@ -5477,28 +5499,6 @@
       "summary": "CISA has issued an emergency directive requiring U.S. federal agencies to patch a critical Check Point VPN vulnerability within three days due to its exploitation by Qilin ransomware affiliates. This action aims to secure government networks against active zero-day attacks targeting remote access infrastructure.",
       "date": "2026-06-09T08:18:39.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-      "isTopTen": false
-    },
-    {
-      "id": "f909b589-3018-475f-b864-87d62d119df9",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds BerriAI LiteLLM and Check Point Security Gateway flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added critical vulnerabilities identified in BerriAI LiteLLM and Check Point Security Gateway to its Known Exploited Vulnerabilities (KEV) catalog, requiring immediate attention from federal agencies and affected organizations.",
-      "date": "2026-06-09T08:11:40.000Z",
-      "link": "https://securityaffairs.com/193343/security/u-s-cisa-adds-berriai-litellm-and-check-point-security-gateway-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e7251113-01d3-4ec4-994f-db5a0518ca72",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CVE-2026-23111: Linux nf_tables Flaw Enables Root Exploits",
-      "summary": "A critical use-after-free vulnerability in the Linux kernel's nf_tables framework allows local users to achieve privilege escalation to root. The flaw was identified by Exodus Intelligence researcher Oliver Sieber and stems from a minor logic error.",
-      "date": "2026-06-09T07:27:39.000Z",
-      "link": "https://securityaffairs.com/193352/hacking/cve-2026-23111-linux-nf_tables-flaw-enables-root-exploits.html",
       "isTopTen": false
     }
   ]
