@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-06-20T14:14:39.599Z",
+  "lastUpdated": "2026-06-20T16:25:44.151Z",
   "articles": [
+    {
+      "id": "93609cf8-145d-4eef-a47c-b76a66c10f0d",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Inside GentleKiller: The EDR-Killer Powering The Gentlemen",
+      "summary": "The cybercrime group known as The Gentlemen is utilizing a sophisticated EDR-killer tool called GentleKiller to neutralize security software via BYOVD exploits prior to launching ransomware attacks. ESET researchers recently detailed the group's infrastructure, which was further confirmed by internal data leaks.",
+      "date": "2026-06-20T15:30:22.000Z",
+      "link": "https://securityaffairs.com/193941/uncategorized/inside-gentlekiller-the-edr-killer-powering-the-gentlemen.html",
+      "isTopTen": true
+    },
+    {
+      "id": "68574b72-517a-4eff-b09a-627d90d06e7b",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
+      "summary": "The Prinz Eugen ransomware is a newly identified operation that targets recently modified files for encryption while notably omitting ransom notes. This stealthy behavior suggests a focus on rapid data impact during active intrusions.",
+      "date": "2026-06-20T15:23:46.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "isTopTen": false
+    },
+    {
+      "id": "b2541d0b-e20c-4f3a-9a25-4d0b6174a06c",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Why Amazon hates 'human-in-the-loop' AI governance",
+      "summary": "Amazon VP Eric Brandwine argues that human-in-the-loop AI governance is inefficient because human decision-making is prone to error and scalability issues. The perspective suggests a shift toward more automated oversight mechanisms within corporate AI policy.",
+      "date": "2026-06-20T14:25:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639",
+      "isTopTen": false
+    },
+    {
+      "id": "c6ad7abf-f9f9-4e81-bd71-47f9f79cf042",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "summary": "Microsoft has attributed a supply chain attack involving over 140 compromised npm packages to the North Korean state-sponsored threat group Sapphire Sleet. The incident highlights the ongoing risk of malicious software packages being used for unauthorized system access.",
+      "date": "2026-06-20T14:09:19.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "isTopTen": true
+    },
     {
       "id": "08eaed9b-e257-4cef-96ef-6ec80f6609db",
       "source": "HackRead",
@@ -43,7 +87,7 @@
       "summary": "CISA has issued an emergency alert following the leak of credentials for approximately 74,000 Fortinet devices, which are currently being actively exploited by threat actors. This security incident, dubbed 'FortiBleed,' affects various firewalls and VPN gateways worldwide.",
       "date": "2026-06-20T08:10:50.000Z",
       "link": "https://securityaffairs.com/193902/hacking/cisa-warns-of-active-exploitation-following-fortibleed-leak.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "63f72c43-62e2-4896-b622-a296b4b5bf50",
@@ -76,7 +120,7 @@
       "summary": "Hackers are actively exploiting an unauthenticated information disclosure vulnerability within the Gravity SMTP WordPress plugin, which is installed on over 100,000 websites.",
       "date": "2026-06-19T20:25:02.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b5207a36-75cd-45d5-8671-a5112239d0a7",
@@ -87,7 +131,7 @@
       "summary": "Security researchers have discovered an unpatchable exploit called 'usbliter8' affecting the SecureROM of Apple's A12 and A13 chips, allowing for arbitrary code execution. Because the vulnerability is tied to the hardware, it cannot be mitigated via software updates.",
       "date": "2026-06-19T18:37:41.000Z",
       "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "272c5540-75df-44cb-baca-d00d38636cf1",
@@ -109,7 +153,7 @@
       "summary": "Rocket.Chat migrated to Meteor 3.0 to upgrade its underlying Node.js runtime from version 14 to 20. This update effectively resolves technical debt associated with the removal of Fibers and mitigates supply-chain security risks for federal users.",
       "date": "2026-06-19T16:57:09.000Z",
       "link": "https://hackread.com/meteor-3-0-migration-rocket-chat-node-js-runtime/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e670ab5c-877e-4940-9dcb-197aa1a9f284",
@@ -131,7 +175,7 @@
       "summary": "Security researchers have released a permanent, unpatchable BootROM exploit affecting A12 and A13 chipsets in certain iPhone models. Because the flaw exists at the hardware level, it cannot be fixed via software updates.",
       "date": "2026-06-19T16:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b814514b-c754-40f8-a2ba-be3ddcb86856",
@@ -142,7 +186,7 @@
       "summary": "Microsoft researchers discovered AutoJack, a vulnerability that allows malicious web pages to exploit AI browsing agents to execute arbitrary code on a host machine. The attack bypasses authentication and requires no user interaction after the initial page load.",
       "date": "2026-06-19T15:30:47.000Z",
       "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c7d96101-ba68-4c62-b475-006462b389b3",
@@ -175,7 +219,7 @@
       "summary": "CISA has issued an urgent warning to Fortinet customers regarding the 'FortiBleed' campaign, which has compromised over 86,000 internet-accessible FortiGate devices. The campaign is attributed to Russian-speaking threat actors, prompting authorities to advise immediate patching and security measures.",
       "date": "2026-06-19T14:00:21.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6bd393d2-e8e4-4752-be8b-b2138753980b",
@@ -186,7 +230,7 @@
       "summary": "The hacker group Shadowbyt3 breached the employee engagement platform TinyPulse, resulting in the exposure of sensitive HR and financial records belonging to Nintendo of America staff. The compromised data includes tax forms, banking details, and internal survey responses.",
       "date": "2026-06-19T13:49:50.000Z",
       "link": "https://hackread.com/nintendo-america-employee-data-shadowbyt3-tinypulse/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2b105fd0-8f72-4e53-909c-8c2072ff3226",
@@ -340,7 +384,7 @@
       "summary": "CISA has added a critical, actively exploited unauthenticated remote code execution (RCE) vulnerability in Splunk Enterprise (CVE-2026-20253) to its Known Exploited Vulnerabilities catalog, requiring immediate patching.",
       "date": "2026-06-19T10:50:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ca1137f0-c26c-4791-956d-257c6e002206",
@@ -373,7 +417,7 @@
       "summary": "CISA has added the critical CVE-2026-20253 authentication vulnerability in Splunk Enterprise to its Known Exploited Vulnerabilities (KEV) catalog, mandating that federal agencies patch the flaw by Sunday.",
       "date": "2026-06-19T10:34:37.000Z",
       "link": "https://securityaffairs.com/193888/security/u-s-cisa-adds-splunk-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog-and-urges-agencies-to-fix-it-by-sunday.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "51f0bc89-a7b1-4cde-b52f-3aa11462bab4",
@@ -571,7 +615,7 @@
       "summary": "Authorities and cybersecurity researchers dismantled the SocGholish botnet associated with Evil Corp by taking down 106 servers and cleaning 15,000 infected websites.",
       "date": "2026-06-18T22:03:32.000Z",
       "link": "https://cyberscoop.com/socgholish-malware-botnet-takedown-evilcorp/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cdead4ec-be6f-469d-8070-56c62e5b7616",
@@ -648,7 +692,7 @@
       "summary": "F5 has released security updates to address two critical remote code execution vulnerabilities in NGINX Open Source, including a use-after-free flaw in the HTTP/3 module. These patches are essential to prevent unauthenticated remote attackers from compromising affected systems.",
       "date": "2026-06-18T17:32:14.000Z",
       "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbd0777d-2a41-44bc-8524-d11c72d9b92c",
@@ -5455,50 +5499,6 @@
       "summary": "Google has released an urgent update for Chrome to patch a high-severity, actively exploited zero-day vulnerability tracked as CVE-2026-11645. The fix is currently rolling out across Windows, macOS, and Linux platforms.",
       "date": "2026-06-09T11:24:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/",
-      "isTopTen": false
-    },
-    {
-      "id": "4e7ef476-b487-4da3-87f6-c233e6ec22a4",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Apple Intelligence can now replace weak passwords without user intervention",
-      "summary": "Apple is enhancing its Passwords app by integrating Apple Intelligence to automatically identify and replace weak, reused, or compromised passwords. This feature streamlines security management by reducing manual user intervention for credential updates.",
-      "date": "2026-06-09T11:19:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/apple-intelligence-automated-passwords-security-updates/",
-      "isTopTen": false
-    },
-    {
-      "id": "39193276-5eff-4bb5-b089-00f2e3a5ae1c",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "French govt messaging service breached in account hijacking attack",
-      "summary": "The French government's encrypted messaging platform, Tchap, was breached after hackers compromised a legitimate user account to gain unauthorized access. DINUM confirmed the incident and warned users following the security lapse.",
-      "date": "2026-06-09T10:53:00.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "88bd5a0e-bda8-4ab3-9c6a-8e15e593d26c",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Google fixes the fifth actively exploited Chrome zero-day of 2026",
-      "summary": "Google has released an emergency patch for CVE-2026-11645, a critical zero-day vulnerability in the Chrome V8 engine that is currently being exploited in the wild.",
-      "date": "2026-06-09T10:38:32.000Z",
-      "link": "https://securityaffairs.com/193371/hacking/google-fixes-fifth-actively-exploited-chrome-zero-day-of-2026.html",
-      "isTopTen": false
-    },
-    {
-      "id": "72b1848d-eb52-466e-a9c3-0776365f7239",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Handala Claims Israeli Radar Hack, But Evidence Shows Phone Admin Panel",
-      "summary": "The hacker group Handala claimed a significant cyberattack against Israeli radar systems, but investigation revealed the evidence actually displayed a simple administrative panel for a mobile device. This suggests the group is employing misleading claims for psychological impact rather than executing a high-level military breach.",
-      "date": "2026-06-09T10:23:25.000Z",
-      "link": "https://hackread.com/handala-israeli-radar-hack-evidence-phone-admin-panel/",
       "isTopTen": false
     }
   ]
