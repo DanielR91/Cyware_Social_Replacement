@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-21T19:51:07.149Z",
+  "lastUpdated": "2026-06-21T22:18:24.789Z",
   "articles": [
+    {
+      "id": "166be74c-42be-4d3e-90c3-4c5147947447",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 102",
+      "summary": "The Security Affairs Malware Newsletter summarizes recent cyber threats, including a major supply chain attack on OptinMonster affecting 1.2 million sites and ongoing espionage campaigns by China-nexus actors targeting research sectors.",
+      "date": "2026-06-21T20:15:22.000Z",
+      "link": "https://securityaffairs.com/193960/security/security-affairs-malware-newsletter-round-102.html",
+      "isTopTen": true
+    },
     {
       "id": "de69cb39-e2a0-46f3-af87-b3e11b7a3dda",
       "source": "Security Affairs",
@@ -43,7 +54,7 @@
       "summary": "The cybercrime group known as The Gentlemen is utilizing a sophisticated EDR-killer tool called GentleKiller to neutralize security software via BYOVD exploits prior to launching ransomware attacks. ESET researchers recently detailed the group's infrastructure, which was further confirmed by internal data leaks.",
       "date": "2026-06-20T15:30:22.000Z",
       "link": "https://securityaffairs.com/193941/uncategorized/inside-gentlekiller-the-edr-killer-powering-the-gentlemen.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "68574b72-517a-4eff-b09a-627d90d06e7b",
@@ -120,7 +131,7 @@
       "summary": "CISA has issued an emergency alert following the leak of credentials for approximately 74,000 Fortinet devices, which are currently being actively exploited by threat actors. This security incident, dubbed 'FortiBleed,' affects various firewalls and VPN gateways worldwide.",
       "date": "2026-06-20T08:10:50.000Z",
       "link": "https://securityaffairs.com/193902/hacking/cisa-warns-of-active-exploitation-following-fortibleed-leak.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "63f72c43-62e2-4896-b622-a296b4b5bf50",
@@ -175,7 +186,7 @@
       "summary": "The Gentlemen ransomware-as-a-service (RaaS) group is distributing a sophisticated framework called GentleKiller, which enables affiliates to terminate over 400 security processes to bypass endpoint detection. This development highlights the growing trend of threat actors utilizing specialized EDR-killing tools to facilitate ransomware deployment.",
       "date": "2026-06-19T18:33:07.000Z",
       "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a1fbc059-2f1d-47aa-9611-0c851314d20d",
@@ -197,7 +208,7 @@
       "summary": "The Texas Parks and Wildlife Department suffered a data breach involving a third-party vendor, resulting in the exposure of personal information for over three million driver's license holders. The incident highlights the risks associated with supply chain security for government entities.",
       "date": "2026-06-19T16:12:41.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fd17ef98-7a47-4997-8178-018c4f16cab2",
@@ -219,7 +230,7 @@
       "summary": "Microsoft researchers discovered AutoJack, a vulnerability that allows malicious web pages to exploit AI browsing agents to execute arbitrary code on a host machine. The attack bypasses authentication and requires no user interaction after the initial page load.",
       "date": "2026-06-19T15:30:47.000Z",
       "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c7d96101-ba68-4c62-b475-006462b389b3",
@@ -230,7 +241,7 @@
       "summary": "International law enforcement agencies collaborated in Operation Endgame to dismantle SocGholish malicious infrastructure, resulting in the cleanup of nearly 15,000 compromised WordPress websites.",
       "date": "2026-06-19T15:07:54.000Z",
       "link": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6cd905d9-614d-41f6-8588-af7638983159",
@@ -252,7 +263,7 @@
       "summary": "CISA has issued an urgent warning to Fortinet customers regarding the 'FortiBleed' campaign, which has compromised over 86,000 internet-accessible FortiGate devices. The campaign is attributed to Russian-speaking threat actors, prompting authorities to advise immediate patching and security measures.",
       "date": "2026-06-19T14:00:21.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6bd393d2-e8e4-4752-be8b-b2138753980b",
@@ -318,7 +329,7 @@
       "summary": "A security breach at market intelligence platform Klue led to the compromise of integration credentials, resulting in unauthorized access and data theft from connected services like Salesforce for companies including Huntress. The incident highlights the risks of a supply chain attack cascading through third-party integrations.",
       "date": "2026-06-19T12:57:39.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "32cc5f45-28c4-4c01-a5a7-bc3a70817a9c",
@@ -538,7 +549,7 @@
       "summary": "A website vulnerability in Peter Thiel's private Dialog network exposed sensitive member data, including political profiles and personal information. This breach poses significant risks for potential espionage, influence operations, and blackmail against the organization's high-profile members.",
       "date": "2026-06-19T07:42:00.000Z",
       "link": "https://securityaffairs.com/193880/intelligence/peter-thiel-secret-society-leak-creates-a-perfect-target-list-for-espionage-influence-operations-and-blackmail.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d9f34693-f787-4bf5-b9fa-bd61bc3b33a0",
@@ -692,7 +703,7 @@
       "summary": "International law enforcement successfully dismantled the SocGholish malware infrastructure, seizing over 100 command-and-control servers and securing 15,000 compromised websites.",
       "date": "2026-06-18T18:59:16.000Z",
       "link": "https://hackread.com/operation-endgame-disrupts-socgholish-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "966fb365-ac66-4ecf-bed9-96f63cc64c73",
@@ -725,7 +736,7 @@
       "summary": "F5 has released security updates to address two critical remote code execution vulnerabilities in NGINX Open Source, including a use-after-free flaw in the HTTP/3 module. These patches are essential to prevent unauthenticated remote attackers from compromising affected systems.",
       "date": "2026-06-18T17:32:14.000Z",
       "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbd0777d-2a41-44bc-8524-d11c72d9b92c",
@@ -5488,17 +5499,6 @@
       "summary": "CISA has added a critical command injection vulnerability in the LiteLLM AI gateway (CVE-2026-42271) to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw impacts users of the open-source library that facilitates unified access to various large language model APIs.",
       "date": "2026-06-09T11:37:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/09/litellm-vulnerability-under-active-attack-cisa-warns-cve-2026-42271/",
-      "isTopTen": false
-    },
-    {
-      "id": "b858a5a1-1389-4c24-9223-ffba3be4bf5e",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The Hidden Security Risk in Modern Networks: The Work Between Tools",
-      "summary": "Organizations are struggling with operational outages and incident response delays despite implementing advanced AI and automated security tools. The article highlights that gaps between disparate security systems remain a critical vulnerability for modern networks.",
-      "date": "2026-06-09T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
       "isTopTen": false
     }
   ]
