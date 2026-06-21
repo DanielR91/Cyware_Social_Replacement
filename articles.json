@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-21T14:21:48.043Z",
+  "lastUpdated": "2026-06-21T16:49:11.262Z",
   "articles": [
+    {
+      "id": "8e6e60b3-2086-4ed0-9d76-3c50ecf1950f",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "summary": "The newly discovered AryStinger botnet has compromised over 4,000 outdated D-Link routers, repurposing them as proxies for malicious traffic. These devices are being exploited due to their lack of current security patches.",
+      "date": "2026-06-21T14:14:22.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "isTopTen": false
+    },
     {
       "id": "69290588-2f0a-44be-90d2-81147d66937d",
       "source": "Help Net Security",
@@ -21,7 +32,7 @@
       "summary": "The cybercrime group known as The Gentlemen is utilizing a sophisticated EDR-killer tool called GentleKiller to neutralize security software via BYOVD exploits prior to launching ransomware attacks. ESET researchers recently detailed the group's infrastructure, which was further confirmed by internal data leaks.",
       "date": "2026-06-20T15:30:22.000Z",
       "link": "https://securityaffairs.com/193941/uncategorized/inside-gentlekiller-the-edr-killer-powering-the-gentlemen.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "68574b72-517a-4eff-b09a-627d90d06e7b",
@@ -98,7 +109,7 @@
       "summary": "CISA has issued an emergency alert following the leak of credentials for approximately 74,000 Fortinet devices, which are currently being actively exploited by threat actors. This security incident, dubbed 'FortiBleed,' affects various firewalls and VPN gateways worldwide.",
       "date": "2026-06-20T08:10:50.000Z",
       "link": "https://securityaffairs.com/193902/hacking/cisa-warns-of-active-exploitation-following-fortibleed-leak.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "63f72c43-62e2-4896-b622-a296b4b5bf50",
@@ -153,7 +164,7 @@
       "summary": "The Gentlemen ransomware-as-a-service (RaaS) group is distributing a sophisticated framework called GentleKiller, which enables affiliates to terminate over 400 security processes to bypass endpoint detection. This development highlights the growing trend of threat actors utilizing specialized EDR-killing tools to facilitate ransomware deployment.",
       "date": "2026-06-19T18:33:07.000Z",
       "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a1fbc059-2f1d-47aa-9611-0c851314d20d",
@@ -703,7 +714,7 @@
       "summary": "F5 has released security updates to address two critical remote code execution vulnerabilities in NGINX Open Source, including a use-after-free flaw in the HTTP/3 module. These patches are essential to prevent unauthenticated remote attackers from compromising affected systems.",
       "date": "2026-06-18T17:32:14.000Z",
       "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbd0777d-2a41-44bc-8524-d11c72d9b92c",
@@ -5488,17 +5499,6 @@
       "summary": "French authorities are investigating a security breach involving the compromise of a government messaging platform that may have exposed more data than initially reported by officials. The investigation follows claims by an attacker that sensitive information beyond public chat rooms was accessed.",
       "date": "2026-06-09T11:27:55.000Z",
       "link": "https://www.theregister.com/security/2026/06/09/france-probes-compromise-of-gov-messaging-platform-after-account-hijack/5252717",
-      "isTopTen": false
-    },
-    {
-      "id": "b671b28b-c801-44c6-bdec-77c795c800a3",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Maine Govt Portal Lists 10M Discord Data Breach Notice, But Filing Shows Red Flags",
-      "summary": "The Maine Attorney General's portal features a notice claiming a Discord data breach affecting 10 million users, though inconsistencies in the filing have led experts to question its legitimacy. Discord has not confirmed the incident, casting doubt on the report's accuracy.",
-      "date": "2026-06-09T11:25:21.000Z",
-      "link": "https://hackread.com/maine-govt-portal-discord-data-breach-notice/",
       "isTopTen": false
     }
   ]
