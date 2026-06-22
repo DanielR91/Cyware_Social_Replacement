@@ -1,6 +1,127 @@
 {
-  "lastUpdated": "2026-06-22T18:55:58.131Z",
+  "lastUpdated": "2026-06-22T22:52:59.503Z",
   "articles": [
+    {
+      "id": "fec4d6b5-3ec6-4026-9337-6f6affe5a1ea",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
+      "summary": "A sophisticated malware campaign is targeting WhatsApp users by sending deceptive messages containing malicious VBScript files disguised as business documents. Once executed, these files grant attackers unauthorized remote access to the victim's computer.",
+      "date": "2026-06-22T22:42:21.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+      "isTopTen": false
+    },
+    {
+      "id": "fd24d413-b7cc-49ea-aee9-0b0831cd06a1",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Court rules SAVE database illegal, orders it dismantled",
+      "summary": "A judge has ordered the dismantling of the government's SAVE database after ruling that its operations violated multiple federal statutes, including the Privacy Act. The court concluded that the database's data collection and usage procedures were illegal.",
+      "date": "2026-06-22T22:07:46.000Z",
+      "link": "https://cyberscoop.com/court-rules-save-database-illegal-orders-dismantling/",
+      "isTopTen": true
+    },
+    {
+      "id": "613dc2f9-5eb4-4c4e-92ca-0b66a5f2ef92",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration",
+      "summary": "Unit 42 researchers have identified a vulnerability where the global uniqueness of cloud storage namespaces allows attackers to perform bucket hijacking, enabling the redirection and exfiltration of data across major cloud service providers.",
+      "date": "2026-06-22T22:00:04.000Z",
+      "link": "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
+      "isTopTen": true
+    },
+    {
+      "id": "ed7942c7-fc69-4330-8cd0-2644c97036fe",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
+      "summary": "The infamous JaredFromSubway Ethereum MEV bot was exploited for $15 million after an attacker tricked its detection logic with fake trading opportunities. The incident highlights the inherent risks of automated high-frequency trading bots in the decentralized finance space.",
+      "date": "2026-06-22T21:52:18.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+      "isTopTen": false
+    },
+    {
+      "id": "6d883487-7382-4341-a30e-781bd5ee958e",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "summary": "The PixelSmash vulnerability in the widely used FFmpeg library allows for remote code execution and denial-of-service attacks across several popular media and cloud applications. Developers have released a fix to address the flaw and mitigate potential exploitation.",
+      "date": "2026-06-22T21:05:01.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "isTopTen": false
+    },
+    {
+      "id": "79c0f248-a6b0-4215-a7e4-46a5d1bf80a7",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "WhatsApp Malware Campaign Hijacks Trust, Installs Legitimate Admin Tools",
+      "summary": "Attackers are hijacking WhatsApp accounts to distribute fake debt notices that install remote access tools, granting them unauthorized control over victims' computers. The campaign is actively ongoing and relies on the deployment of legitimate administrative software to bypass security detection.",
+      "date": "2026-06-22T20:25:55.000Z",
+      "link": "https://securityaffairs.com/194031/malware/whatsapp-malware-campaign-hijacks-trust-installs-legitimate-admin-tools.html",
+      "isTopTen": false
+    },
+    {
+      "id": "640866b0-ae88-4707-b23e-6e4c2495712c",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cloudflare teams up with big browsers to help websites tell welcome from unwelcome visitors",
+      "summary": "Cloudflare has collaborated with major browser developers to implement Private Access Control Tokens, a mechanism designed to differentiate between human users and malicious bots. This initiative aims to reduce automated fraud by verifying device legitimacy without compromising user privacy.",
+      "date": "2026-06-22T20:02:52.000Z",
+      "link": "https://www.theregister.com/software/2026/06/22/cloudflare-teams-up-with-big-browsers-to-help-websites-tell-welcome-from-unwelcome-visitors/5259782",
+      "isTopTen": false
+    },
+    {
+      "id": "be0484ea-ab38-4192-8c0c-e9610e716c2a",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "summary": "The FortiBleed campaign leveraged custom sniffer tools on compromised Fortinet FortiGate firewalls to harvest authentication credentials. This large-scale operation highlights a targeted effort to compromise network infrastructure to steal sensitive access data.",
+      "date": "2026-06-22T20:01:02.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "isTopTen": false
+    },
+    {
+      "id": "d75ffaf3-6452-40b7-a9ee-36f1c16a9722",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Trump executive orders speed up post-quantum migration, boost industry",
+      "summary": "Recent executive orders signed by Donald Trump aim to accelerate the U.S. federal government's migration to post-quantum encryption while fostering the growth of the domestic quantum computing sector.",
+      "date": "2026-06-22T19:56:46.000Z",
+      "link": "https://cyberscoop.com/trump-executive-order-post-quantum-encryption-deadline/",
+      "isTopTen": false
+    },
+    {
+      "id": "85ec1fc1-379d-4e09-ab66-6b11f8cb6b16",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Security shops among the 'hundreds' of Klue hack victims",
+      "summary": "Hundreds of organizations using Klue have been compromised by the Icarus extortion group, which is actively exploiting vulnerabilities within Salesforce-linked integrations. The breach highlights significant supply chain risks associated with third-party software integrations.",
+      "date": "2026-06-22T19:50:54.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/06/22/security-shops-among-the-hundreds-of-klue-hack-victims/5259743",
+      "isTopTen": false
+    },
+    {
+      "id": "0892b86d-7f20-45ca-a6a3-8cc8ef46792e",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Texas Parks & Wildlife (TPWD) Data Breach impacts 3 Million People",
+      "summary": "The Texas Parks and Wildlife Department (TPWD) experienced a data breach affecting 3 million individuals after a third-party vendor used for license processing was compromised, exposing sensitive personal information.",
+      "date": "2026-06-22T18:13:20.000Z",
+      "link": "https://securityaffairs.com/194023/data-breach/texas-parks-wildlife-tpwd-data-breach-impacts-3-million-people.html",
+      "isTopTen": true
+    },
     {
       "id": "3715d759-de15-4723-aecd-c85a07e4ea81",
       "source": "The Hacker News",
@@ -10,7 +131,7 @@
       "summary": "ShapedPlugin's WordPress Pro plugins were compromised in a supply chain attack where attackers injected backdoor code into official release channels. This allowed malicious updates to be pushed directly to users via licensed distribution paths.",
       "date": "2026-06-22T18:00:48.000Z",
       "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7331c733-8bb7-4d1c-aadf-004f9a878b94",
@@ -65,7 +186,7 @@
       "summary": "Intelligence agencies from the Five Eyes alliance have issued a joint warning that frontier AI models are accelerating changes to the cybersecurity landscape more rapidly than previously anticipated. This advisory underscores growing global concerns regarding the dual-use nature of advanced artificial intelligence technologies.",
       "date": "2026-06-22T15:25:00.000Z",
       "link": "https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-away/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c8932f54-b555-4abc-80be-c5d70baa430c",
@@ -76,7 +197,7 @@
       "summary": "A third-party vendor breach has exposed the sensitive personal data, including driver's license and passport numbers, of approximately 3 million Texas Parks and Wildlife customers.",
       "date": "2026-06-22T15:20:13.000Z",
       "link": "https://hackread.com/texas-parks-wildlife-data-breach-3m-license-customers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3e34a5ac-21c7-41bd-973f-fe95768b7d08",
@@ -87,7 +208,7 @@
       "summary": "A 29-year-old heap over-read vulnerability dubbed 'Squidbleed' allows local attackers to intercept cleartext HTTP requests, including sensitive credentials, from other users on the same Squid proxy. The flaw, originating from a 1997 code change, remains present in default configurations.",
       "date": "2026-06-22T14:29:46.000Z",
       "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6c2575d3-21ff-4897-910d-d9dab527a89a",
@@ -483,7 +604,7 @@
       "summary": "Microsoft has attributed a supply chain attack involving over 140 compromised npm packages to the North Korean state-sponsored threat group Sapphire Sleet. The incident highlights the ongoing risk of malicious software packages being used for unauthorized system access.",
       "date": "2026-06-20T14:09:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "08eaed9b-e257-4cef-96ef-6ec80f6609db",
@@ -527,7 +648,7 @@
       "summary": "CISA has issued an emergency alert following the leak of credentials for approximately 74,000 Fortinet devices, which are currently being actively exploited by threat actors. This security incident, dubbed 'FortiBleed,' affects various firewalls and VPN gateways worldwide.",
       "date": "2026-06-20T08:10:50.000Z",
       "link": "https://securityaffairs.com/193902/hacking/cisa-warns-of-active-exploitation-following-fortibleed-leak.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "63f72c43-62e2-4896-b622-a296b4b5bf50",
@@ -736,7 +857,7 @@
       "summary": "An international law enforcement operation has successfully targeted the SocGholish botnet, a malware distribution network associated with the Russian-based cybercrime organization Evil Corp.",
       "date": "2026-06-19T12:57:00.000Z",
       "link": "https://therecord.media/socgholish-botnet-disrupted",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06408497-e1aa-4f8b-9dcc-42d52707ca53",
@@ -5378,127 +5499,6 @@
       "summary": "ServiceNow has issued an advisory confirming that threat actors exploited a security vulnerability to gain unauthorized access to hosted customer instances. The company has since deployed a patch to address the underlying flaw.",
       "date": "2026-06-10T07:02:08.000Z",
       "link": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
-      "isTopTen": false
-    },
-    {
-      "id": "060e7af3-4aad-4a66-baa3-3febca537696",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
-      "summary": "Ivanti has released patches for two critical vulnerabilities in its Sentry mobile gateway, including a maximum-severity flaw that permits unauthorized remote code execution with root privileges.",
-      "date": "2026-06-10T06:26:28.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
-      "isTopTen": false
-    },
-    {
-      "id": "11969209-d3f6-4e4e-93fa-a3d7c3b34eba",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "The security in smartphones is helping send them to landfills",
-      "summary": "Stringent smartphone security measures and software update policies are inadvertently shortening device lifespans, contributing to significant global electronic waste. Many functional handsets are discarded prematurely due to security-related obsolescence rather than hardware failure.",
-      "date": "2026-06-10T06:00:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/10/secure-smartphone-reuse-landfills/",
-      "isTopTen": false
-    },
-    {
-      "id": "566eb802-b1bf-42b2-bc8d-78e3981508e6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "NOVA microhypervisor brings AMD DMA isolation to shared AI infrastructure",
-      "summary": "BlueRock's NOVA microhypervisor has been updated to include DMA remapping for AMD platforms, enhancing hardware-level security isolation for shared AI environments. This update ensures stronger protection for virtual machines and devices by utilizing IOMMU hardware virtualization.",
-      "date": "2026-06-10T05:30:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/10/nova-microhypervisor-amd-dma/",
-      "isTopTen": false
-    },
-    {
-      "id": "0c8160e3-393e-4092-87dd-c53a0f25fa5d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
-      "summary": "A security researcher known as Chaotic Eclipse has released a proof-of-concept exploit for a zero-day vulnerability in Microsoft Defender dubbed 'RoguePlanet,' which allows for SYSTEM-level access via a race condition. The exploit targets updated Windows systems, posing a significant risk due to the potential for privilege escalation.",
-      "date": "2026-06-10T05:22:01.000Z",
-      "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
-      "isTopTen": false
-    },
-    {
-      "id": "39b2110f-c227-499c-aa04-e60bc86c2e32",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
-      "summary": "Six vulnerabilities identified in the protobuf.js library could allow remote attackers to execute arbitrary code or trigger denial-of-service conditions in Node.js applications. These flaws are triggered by processing malicious schemas or payloads.",
-      "date": "2026-06-10T05:08:35.000Z",
-      "link": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
-      "isTopTen": false
-    },
-    {
-      "id": "87bf5de5-0469-4032-a681-369d102d1fe9",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Scams now operate like real businesses with budgets and targets",
-      "summary": "Service busy.",
-      "date": "2026-06-10T04:00:52.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/10/bitdefender-global-scam-trends-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "e02633e0-1034-4b5d-be47-87da2bef21f9",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
-      "summary": "Service busy.",
-      "date": "2026-06-10T02:03:31.000Z",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/",
-      "isTopTen": false
-    },
-    {
-      "id": "fdf5db79-7870-4b67-836d-261efeb1a1dd",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
-      "summary": "A zero-day vulnerability dubbed 'RoguePlanet' in Microsoft Defender allows unauthorized actors to escalate privileges to SYSTEM level. This flaw poses a significant risk to affected Windows systems by granting attackers full administrative control.",
-      "date": "2026-06-09T23:11:18.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
-      "isTopTen": false
-    },
-    {
-      "id": "0d14f140-afcd-4839-98c5-139c7c6dd306",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "UK weakens proposed telecoms defenses against Chinese hackers after industry pushback",
-      "summary": "The UK government has diluted proposed cybersecurity requirements for telecom networks following industry lobbying efforts, despite the measures being intended to counter espionage threats like the Salt Typhoon campaign.",
-      "date": "2026-06-09T23:00:00.000Z",
-      "link": "https://therecord.media/uk-weakens-telecoms-defenses-after-industry-lobbying",
-      "isTopTen": false
-    },
-    {
-      "id": "9da99468-c1c0-43cf-b0df-8fa4c593a2f5",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft Releases Record-Breaking Patch Tuesday With 208 CVEs",
-      "summary": "Microsoft's June 2026 Patch Tuesday sets a record by addressing 208 vulnerabilities, including an actively exploited zero-day and various critical remote code execution flaws across its software ecosystem.",
-      "date": "2026-06-09T22:55:48.000Z",
-      "link": "https://securityaffairs.com/193417/security/microsoft-releases-record-breaking-patch-tuesday-with-208-cves.html",
-      "isTopTen": false
-    },
-    {
-      "id": "895e5602-c461-4c97-9706-9bf1fd6275ea",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI is making Patch Tuesday (kinda) fun again",
-      "summary": "AI tools are being utilized to streamline and assist with the complexities of Patch Tuesday, though the increasing volume and speed of vulnerability disclosure continue to overwhelm security administrators. This evolution highlights a double-edged sword where automated assistance struggles to keep pace with the systemic burden of vulnerability management.",
-      "date": "2026-06-09T22:49:16.000Z",
-      "link": "https://www.theregister.com/patches/2026/06/09/ai-is-making-patch-tuesday-kinda-fun-again/5253225",
       "isTopTen": false
     }
   ]
