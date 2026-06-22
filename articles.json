@@ -1,6 +1,127 @@
 {
-  "lastUpdated": "2026-06-22T04:57:41.486Z",
+  "lastUpdated": "2026-06-22T12:23:09.798Z",
   "articles": [
+    {
+      "id": "a8e92438-8fba-4d8d-ad00-87e3b12ab60e",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Salesforce Disables Klue Integration After OAuth Token Theft Hits Customer Data",
+      "summary": "The Icarus extortion group exploited a legacy Klue credential to perform an OAuth token theft, resulting in unauthorized access to Salesforce data. In response, Salesforce has disabled the Klue integration to prevent further exfiltration.",
+      "date": "2026-06-22T11:00:33.000Z",
+      "link": "https://hackread.com/salesforce-disables-klue-integration-oauth-token-data/",
+      "isTopTen": true
+    },
+    {
+      "id": "08fa689c-31f1-4c56-8640-b69151acdbd8",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FortiBleed: The Most Detailed Breakdown Yet of an Active Russian Credential-Harvesting Operation",
+      "summary": "The FortiBleed campaign has compromised over 430,000 FortiGate devices to harvest 110 million credentials, marking a major, ongoing Russian-linked cyber espionage operation. A comprehensive report from SOCRadar provides new technical insights into the scale and impact of this widespread credential-harvesting activity.",
+      "date": "2026-06-22T10:25:33.000Z",
+      "link": "https://securityaffairs.com/194004/hacking/fortibleed-the-most-detailed-breakdown-yet-of-an-active-russian-credential-harvesting-operation.html",
+      "isTopTen": true
+    },
+    {
+      "id": "21e18fcd-61d7-487e-b182-9e3cf1bcd99b",
+      "source": "The Hacker News",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
+      "summary": "The Canadian Security Intelligence Service successfully obtained a judicial warrant to remotely neutralize foreign-run botnets by modifying infected local servers, routers, and IoT devices. This marks the first time the agency has utilized threat reduction powers to directly intervene in compromised civilian infrastructure.",
+      "date": "2026-06-22T09:11:37.000Z",
+      "link": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "isTopTen": true
+    },
+    {
+      "id": "cf120209-f6fe-4983-8cfb-5d0e8728c44c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "4,300+ Outdated Routers Hijacked in Stealthy Spy Infrastructure by AryStinger malware",
+      "summary": "The AryStinger malware has compromised over 4,300 outdated routers by exploiting long-standing vulnerabilities to establish a stealthy infrastructure for reconnaissance and cyber-espionage. Security researchers identified the campaign after tracking a binary spreading through flaws dating back to 2013 and 2016.",
+      "date": "2026-06-22T08:26:07.000Z",
+      "link": "https://securityaffairs.com/193987/security/4300-outdated-routers-hijacked-in-stealthy-spy-infrastructure-by-arystinger-malware.html",
+      "isTopTen": true
+    },
+    {
+      "id": "145d3cd1-8d62-484e-84c4-7bd63c6f4678",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "23 ClawHub plugins squatting official scopes expose AI registry security gaps",
+      "summary": "Twenty-three malicious plugins were discovered using official 'ClawHub' and 'OpenClaw' scopes to execute unauthorized code, highlighting significant security vulnerabilities in AI agent plugin registries. The incident underscores a lack of scope reservation controls that allows attackers to impersonate official publishers.",
+      "date": "2026-06-22T08:00:11.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/22/clawhub-code-executing-plugins-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "5a0830d3-a489-4517-bfc9-8d73a7d5cdf7",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "usbliter8 Brings Unpatchable BootROM Exploit to Apple A12 and A13 Devices",
+      "summary": "Security researchers have released usbliter8, an unpatchable BootROM exploit targeting Apple's A12 and A13 chips that enables arbitrary code execution within the SecureROM. This vulnerability extends critical security risks similar to the checkm8 exploit to a wider range of newer iPhone devices.",
+      "date": "2026-06-22T07:12:16.000Z",
+      "link": "https://securityaffairs.com/193965/hacking/usbliter8-brings-unpatchable-bootrom-exploit-to-apple-a12-and-a13-devices.html",
+      "isTopTen": true
+    },
+    {
+      "id": "1b264f38-3a5d-47e4-864d-3e899f8c7e14",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
+      "summary": "A new malware family called AryStinger has compromised over 4,300 legacy routers to establish a distributed reconnaissance and proxy network for pre-attack staging. Unlike typical router botnets, this strain focuses on stealthy network intelligence rather than DDoS operations.",
+      "date": "2026-06-22T06:57:44.000Z",
+      "link": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4600bd82-830b-4241-97f1-520fdf023417",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+      "summary": "INTERPOL's latest report identifies a significant surge in cybercrime across the Asia-Pacific region, driven by rapid digital transformation and the exploitation of emerging technologies like AI. Phishing, ransomware, and AI-enabled scams are highlighted as the primary threats facing the area.",
+      "date": "2026-06-22T06:06:53.000Z",
+      "link": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6786f15d-9300-4f2b-96be-94755f1d9d8a",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Who pays when you gate cyber-capable AI models?",
+      "summary": "Jaya Baloo discusses the debate over restricting access to cyber-capable AI models, arguing that policymakers fail to consider how such gates may disadvantage security teams and widen the capability gap between attackers and defenders.",
+      "date": "2026-06-22T06:00:22.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/22/jaya-baloo-aisle-gating-cyber-capable-ai-models/",
+      "isTopTen": false
+    },
+    {
+      "id": "c223b055-dd5b-4319-bdac-4e43899183e6",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Agent Beacon: Open-source telemetry layer for AI agents",
+      "summary": "Agent Beacon is a new open-source telemetry tool designed to monitor and normalize activity logs for AI coding agents running across local, CI, and cloud environments. It aims to improve visibility into the actions, commands, and tool calls executed by AI development agents.",
+      "date": "2026-06-22T05:30:26.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/22/agent-beacon-open-source-telemetry-layer-ai-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "272da595-5137-488b-a44c-8f198992861a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Encrypted DNS still tells an eavesdropper where to look",
+      "summary": "While encrypted DNS protocols protect the contents of queries, researchers highlight that plaintext packet headers still expose user browsing habits to network eavesdroppers. The study specifically evaluates this information leakage within Internet of Things (IoT) environments.",
+      "date": "2026-06-22T05:00:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/22/research-encrypted-dns-privacy/",
+      "isTopTen": false
+    },
     {
       "id": "fc2b0088-a5f6-412d-b0da-784393db7efc",
       "source": "Help Net Security",
@@ -21,7 +142,7 @@
       "summary": "Researchers at Wake Forest University discovered that 282 out of 444 analyzed iOS apps with AI features leaked exploitable LLM API credentials through network traffic. This vulnerability exposes backend access mechanisms across numerous application categories.",
       "date": "2026-06-22T04:00:05.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/22/llm-api-credential-leakage-ios-apps/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe2f61f6-9530-4a8b-881b-87155f1ad43c",
@@ -43,7 +164,7 @@
       "summary": "The Security Affairs Malware Newsletter summarizes recent cyber threats, including a major supply chain attack on OptinMonster affecting 1.2 million sites and ongoing espionage campaigns by China-nexus actors targeting research sectors.",
       "date": "2026-06-21T20:15:22.000Z",
       "link": "https://securityaffairs.com/193960/security/security-affairs-malware-newsletter-round-102.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de69cb39-e2a0-46f3-af87-b3e11b7a3dda",
@@ -76,6 +197,17 @@
       "summary": "Recent cybersecurity news highlights the theft of 74,000 Fortinet firewall credentials, active exploitation of a Splunk Enterprise RCE vulnerability, and the discovery of a hardware-level backdoor attack named HAMLOCK.",
       "date": "2026-06-21T08:00:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "9eb50550-1db2-427e-b417-2ea0972031e8",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Inside GentleKiller: The EDR-Killer Powering The Gentlemen",
+      "summary": "The cybercriminal group 'The Gentlemen' is utilizing a sophisticated EDR-killing tool called 'GentleKiller' that leverages BYOVD exploits to disable security software before deploying ransomware. This technical infrastructure was detailed in an ESET investigation following a significant internal data leak.",
+      "date": "2026-06-20T15:30:22.000Z",
+      "link": "https://securityaffairs.com/193941/malware/inside-gentlekiller-the-edr-killer-powering-the-gentlemen.html",
       "isTopTen": false
     },
     {
@@ -208,7 +340,7 @@
       "summary": "Security researchers have discovered an unpatchable exploit called 'usbliter8' affecting the SecureROM of Apple's A12 and A13 chips, allowing for arbitrary code execution. Because the vulnerability is tied to the hardware, it cannot be mitigated via software updates.",
       "date": "2026-06-19T18:37:41.000Z",
       "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "272c5540-75df-44cb-baca-d00d38636cf1",
@@ -274,7 +406,7 @@
       "summary": "International law enforcement agencies collaborated in Operation Endgame to dismantle SocGholish malicious infrastructure, resulting in the cleanup of nearly 15,000 compromised WordPress websites.",
       "date": "2026-06-19T15:07:54.000Z",
       "link": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6cd905d9-614d-41f6-8588-af7638983159",
@@ -461,7 +593,7 @@
       "summary": "CISA has added a critical, actively exploited unauthenticated remote code execution (RCE) vulnerability in Splunk Enterprise (CVE-2026-20253) to its Known Exploited Vulnerabilities catalog, requiring immediate patching.",
       "date": "2026-06-19T10:50:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ca1137f0-c26c-4791-956d-257c6e002206",
@@ -494,7 +626,7 @@
       "summary": "CISA has added the critical CVE-2026-20253 authentication vulnerability in Splunk Enterprise to its Known Exploited Vulnerabilities (KEV) catalog, mandating that federal agencies patch the flaw by Sunday.",
       "date": "2026-06-19T10:34:37.000Z",
       "link": "https://securityaffairs.com/193888/security/u-s-cisa-adds-splunk-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog-and-urges-agencies-to-fix-it-by-sunday.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "51f0bc89-a7b1-4cde-b52f-3aa11462bab4",
@@ -637,7 +769,7 @@
       "summary": "Researchers discovered an exposed Elasticsearch cluster containing 24 billion records, including stolen credentials from infostealers and previous data breaches. The massive dataset poses a significant risk of large-scale account takeovers.",
       "date": "2026-06-19T05:09:13.000Z",
       "link": "https://securityaffairs.com/193864/security/24-billion-stolen-credentials-exposed-in-massive-data-leak.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "959b204d-a81e-4ec4-aec0-c7a3d8c235d7",
@@ -5367,138 +5499,6 @@
       "summary": "The Miasma worm infected 73 Microsoft GitHub repositories by targeting AI coding tools, resulting in the theft of cloud credentials and the temporary disabling of core Azure infrastructure. The incident highlights a supply chain compromise affecting developer environments and CI/CD pipelines.",
       "date": "2026-06-09T15:57:16.000Z",
       "link": "https://securityaffairs.com/193367/malware/miasma-worm-compromises-73-microsoft-github-repositories.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b4d8c94d-0807-4352-90a7-1f810a173059",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
-      "summary": "Microsoft removed 73 GitHub repositories from its official organizations after discovering they were being used to distribute password-stealing malware through compromised continuous integration pipelines.",
-      "date": "2026-06-09T15:42:40.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "c501b459-61b3-4a92-92a5-f492498095fd",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
-      "summary": "Veeam has issued security patches for a critical vulnerability in its Backup & Replication software that could allow attackers to achieve remote code execution on domain-joined backup servers.",
-      "date": "2026-06-09T14:27:56.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d788307-d503-46cf-8e21-d0c25856797b",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
-      "summary": "Unit 42 reports active exploitation of a critical vulnerability in Palo Alto Networks' PAN-OS, identified as CVE-2026-0257. The brief provides essential indicators of compromise and mitigation strategies to help organizations secure their infrastructure.",
-      "date": "2026-06-09T14:05:42.000Z",
-      "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "isTopTen": false
-    },
-    {
-      "id": "13b71073-bb9d-4902-a7b8-398554aba592",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "French government messaging platform breached through account hijacking",
-      "summary": "The French government's secure messaging platform, Tchap, was breached after attackers hijacked a user account to access public chat rooms. Authorities are currently investigating the incident involving this state-managed communication service.",
-      "date": "2026-06-09T14:04:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/tchap-french-government-secure-messaging-platform-breach/",
-      "isTopTen": false
-    },
-    {
-      "id": "ab4b8f84-5cca-42ab-bd30-cedc6fb003a7",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco customers encounter another SD-WAN zero-day under attack",
-      "summary": "Cisco SD-WAN customers are facing an actively exploited zero-day vulnerability, marking the seventh such incident this year for the product line without a current patch available.",
-      "date": "2026-06-09T14:03:30.000Z",
-      "link": "https://cyberscoop.com/cisco-sdwan-zero-day-vulnerability-exploited-cve202620245/",
-      "isTopTen": false
-    },
-    {
-      "id": "4fd82c3f-1162-4b3b-93e2-07b64be883a4",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Elastic brings AI-driven incident investigation to Kubernetes and observability tools",
-      "summary": "Elastic has introduced AI-driven, agentic Kubernetes investigation workflows designed to automatically diagnose incidents and identify root causes the moment an alert triggers. This tool aims to reduce the time spent by SREs on manual troubleshooting and incident resolution.",
-      "date": "2026-06-09T13:55:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/elastic-observability-agentic-kubernetes-investigation-workflow/",
-      "isTopTen": false
-    },
-    {
-      "id": "d09e7bbc-61c7-4e29-9c59-2b60d2ba6999",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Hackers pose as women seeking romance to spy on Russian soldiers",
-      "summary": "The hacker group SiribClone is using romantic decoys to conduct espionage operations against Russian military personnel in border and combat zones. The campaign has been active since mid-2025 and targets service members via social engineering tactics.",
-      "date": "2026-06-09T13:52:00.000Z",
-      "link": "https://therecord.media/hackers-pose-as-women-seeking-romance-russian-military",
-      "isTopTen": false
-    },
-    {
-      "id": "5b669ddb-093a-49a1-ae7b-b80d4b9144f0",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Filigran launches XTM One to automate CTEM with AI agents",
-      "summary": "Filigran has introduced XTM One, an AI-native orchestration layer designed to automate Continuous Threat Exposure Management (CTEM) workflows by integrating threat intelligence and attack simulation tools. The solution aims to reduce manual security operations by coordinating AI agents across the threat management lifecycle.",
-      "date": "2026-06-09T13:31:47.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/filigran-xtm-one/",
-      "isTopTen": false
-    },
-    {
-      "id": "3ddf0b2d-2848-4d90-90d3-e7f4c192b772",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Rockwell Automation adds AI-powered security tools to SecureOT Suite",
-      "summary": "Rockwell Automation has expanded its SecureOT suite with AI-powered assessment, managed services, and remote access tools to help industrial enterprises improve OT visibility and threat response. These enhancements aim to bolster operational resilience without requiring additional specialized infrastructure or staff.",
-      "date": "2026-06-09T13:11:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/09/rockwell-automation-secureot-expansion/",
-      "isTopTen": false
-    },
-    {
-      "id": "133ca697-b33a-4769-b981-0c3f179023a5",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Signal says UK plan to scan devices for nude images 'endangers us all'",
-      "summary": "Signal has publicly criticized a UK government proposal to implement device-level scanning for illicit images, arguing that the technology threatens user privacy and could be exploited for mass surveillance or censorship. The messaging service warns that such measures undermine end-to-end encryption and expose all users to potential misuse.",
-      "date": "2026-06-09T12:41:03.000Z",
-      "link": "https://www.theregister.com/security/2026/06/09/signal-uks-child-nude-block-threat-wont-protect-children/5252761",
-      "isTopTen": false
-    },
-    {
-      "id": "6e273316-c5b3-429e-b079-061c83fb8f70",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
-      "summary": "Russia-aligned threat actors Earth Dahu and SHADOW-EARTH-066 are actively exploiting a known WinRAR path traversal vulnerability, CVE-2025-8088, to deploy info-stealing malware against Ukrainian organizations. This exploitation persists despite the availability of security patches for the flaw.",
-      "date": "2026-06-09T12:26:10.000Z",
-      "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3ecca48e-6d6a-48bf-98fe-61188f723e83",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Chrome's zero-day Whac-A-Mole continues with fifth exploited bug of the year",
-      "summary": "Service busy.",
-      "date": "2026-06-09T12:15:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/09/chromes-zero-day-whac-a-mole-continues-with-fifth-exploited-bug-of-the-year/5252689",
       "isTopTen": false
     }
   ]
