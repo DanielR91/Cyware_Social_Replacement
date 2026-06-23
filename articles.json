@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-22T22:52:59.503Z",
+  "lastUpdated": "2026-06-23T03:58:59.384Z",
   "articles": [
+    {
+      "id": "c0a7c610-5dca-4ab3-b35e-896e9479405e",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Sniff out stale AI override advice with this open source CLI",
+      "summary": "A new open-source CLI tool has been released to help developers identify and remediate stale AI override advice and insecure package dependencies. The tool focuses on mitigating vulnerabilities that are often difficult to detect within software supply chains.",
+      "date": "2026-06-23T00:17:13.000Z",
+      "link": "https://www.theregister.com/security/2026/06/23/sniff-out-stale-ai-override-advice-with-this-open-source-cli/5259853",
+      "isTopTen": false
+    },
+    {
+      "id": "95076e06-f6d7-48dc-b448-ae25888a613f",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI: Yoo-hoo, look over here, we do that security stuff too!",
+      "summary": "OpenAI has announced new security initiatives, including a 'Patch The Planet' pledge, aimed at strengthening their vulnerability management and cybersecurity posture. This move highlights the company's commitment to proactive security measures as part of their broader development strategy.",
+      "date": "2026-06-22T23:34:34.000Z",
+      "link": "https://www.theregister.com/security/2026/06/23/openai-yoo-hoo-look-over-here-we-do-that-security-stuff-too/5259842",
+      "isTopTen": false
+    },
     {
       "id": "fec4d6b5-3ec6-4026-9337-6f6affe5a1ea",
       "source": "BleepingComputer",
@@ -109,7 +131,7 @@
       "summary": "Hundreds of organizations using Klue have been compromised by the Icarus extortion group, which is actively exploiting vulnerabilities within Salesforce-linked integrations. The breach highlights significant supply chain risks associated with third-party software integrations.",
       "date": "2026-06-22T19:50:54.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/22/security-shops-among-the-hundreds-of-klue-hack-victims/5259743",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0892b86d-7f20-45ca-a6a3-8cc8ef46792e",
@@ -186,7 +208,7 @@
       "summary": "Intelligence agencies from the Five Eyes alliance have issued a joint warning that frontier AI models are accelerating changes to the cybersecurity landscape more rapidly than previously anticipated. This advisory underscores growing global concerns regarding the dual-use nature of advanced artificial intelligence technologies.",
       "date": "2026-06-22T15:25:00.000Z",
       "link": "https://cyberscoop.com/five-eyes-alliance-say-advanced-ai-hacking-models-months-away/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c8932f54-b555-4abc-80be-c5d70baa430c",
@@ -208,7 +230,7 @@
       "summary": "A 29-year-old heap over-read vulnerability dubbed 'Squidbleed' allows local attackers to intercept cleartext HTTP requests, including sensitive credentials, from other users on the same Squid proxy. The flaw, originating from a 1997 code change, remains present in default configurations.",
       "date": "2026-06-22T14:29:46.000Z",
       "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6c2575d3-21ff-4897-910d-d9dab527a89a",
@@ -604,7 +626,7 @@
       "summary": "Microsoft has attributed a supply chain attack involving over 140 compromised npm packages to the North Korean state-sponsored threat group Sapphire Sleet. The incident highlights the ongoing risk of malicious software packages being used for unauthorized system access.",
       "date": "2026-06-20T14:09:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "08eaed9b-e257-4cef-96ef-6ec80f6609db",
@@ -5477,28 +5499,6 @@
       "summary": "The French government's encrypted messaging app, Tchap, suffered a data breach after a single compromised account allowed unauthorized access to public channels. French cybersecurity agency ANSSI identified the intrusion shortly after it occurred on June 7.",
       "date": "2026-06-10T08:14:15.000Z",
       "link": "https://securityaffairs.com/193393/security/frances-government-messaging-app-tchap-got-breached.html",
-      "isTopTen": false
-    },
-    {
-      "id": "af21af0c-d41f-456f-a970-3cb1ea33f7ab",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
-      "summary": "Anthropic has released its new AI model, Claude Fable 5, alongside a restricted version named Mythos 5 that removes safety guardrails for vetted cybersecurity professionals.",
-      "date": "2026-06-10T07:37:59.000Z",
-      "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0f4a8149-93bc-4cf2-b911-9659001de49f",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
-      "summary": "ServiceNow has issued an advisory confirming that threat actors exploited a security vulnerability to gain unauthorized access to hosted customer instances. The company has since deployed a patch to address the underlying flaw.",
-      "date": "2026-06-10T07:02:08.000Z",
-      "link": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
       "isTopTen": false
     }
   ]
