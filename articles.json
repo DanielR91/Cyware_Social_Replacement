@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-23T22:20:54.676Z",
+  "lastUpdated": "2026-06-24T04:00:11.507Z",
   "articles": [
+    {
+      "id": "27614785-cb3e-4794-874b-4da9da967ce3",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Samsung KNOX Kernel UAF Exposes Millions of Galaxy Devices",
+      "summary": "A kernel use-after-free vulnerability (CVE-2026-20971) within Samsung's KNOX security stack allowed potential exploitation through memory corruption, affecting millions of Galaxy devices before a patch was released in January 2026.",
+      "date": "2026-06-23T23:00:16.000Z",
+      "link": "https://securityaffairs.com/194090/security/samsung-knox-kernel-uaf-exposes-millions-of-galaxy-devices.html",
+      "isTopTen": true
+    },
     {
       "id": "0b822393-d16c-4bec-8422-5fc654c46f35",
       "source": "Unit 42",
@@ -21,7 +32,7 @@
       "summary": "Cisco Unified Communications Manager is under active exploitation due to a high-severity server-side request forgery (SSRF) vulnerability designated as CVE-2026-20230.",
       "date": "2026-06-23T21:48:32.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "42f63852-b12c-4a5d-ac6b-a5d7b0c439c9",
@@ -54,7 +65,7 @@
       "summary": "Healthtech firm Xsolis confirmed a data breach affecting 1.4 million individuals resulting from a successful phishing attack on their network.",
       "date": "2026-06-23T19:59:12.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ca22672-11e2-4604-b6b5-721fd8fdfe55",
@@ -153,7 +164,7 @@
       "summary": "President Trump signed an executive order requiring federal agencies to transition to post-quantum cryptography to secure sensitive data against future quantum computing capabilities.",
       "date": "2026-06-23T17:10:00.000Z",
       "link": "https://therecord.media/trump-directs-federal-agencies-quantum-cryptography",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "121a997f-bdfb-4815-b024-4345f552da3f",
@@ -164,7 +175,7 @@
       "summary": "Researchers at Zafran Labs discovered four vulnerabilities, including two critical flaws, in the open-source Dify platform that potentially expose sensitive data across over one million AI applications. These security gaps could allow unauthorized access to cross-tenant data, internal documents, and private AI conversations.",
       "date": "2026-06-23T17:01:44.000Z",
       "link": "https://securityaffairs.com/194081/hacking/difytap-four-bugs-put-over-1-million-ai-apps-at-risk.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "86950a33-0334-4acb-bbf6-1bc64787c192",
@@ -637,7 +648,7 @@
       "summary": "The PixelSmash vulnerability in the widely used FFmpeg library allows for remote code execution and denial-of-service attacks across several popular media and cloud applications. Developers have released a fix to address the flaw and mitigate potential exploitation.",
       "date": "2026-06-22T21:05:01.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "79c0f248-a6b0-4215-a7e4-46a5d1bf80a7",
@@ -5488,17 +5499,6 @@
       "summary": "GitHub is disabling install scripts by default in npm version 12 to mitigate software supply chain attacks that exploit malicious code execution during package installation.",
       "date": "2026-06-11T06:23:03.000Z",
       "link": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ec2d96e1-e973-409b-ae27-c470791634b9",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
-      "summary": "A critical, maximum-severity vulnerability in Ivanti Sentry is currently being exploited in the wild, allowing attackers to gain root-level remote code execution on exposed devices. Users are urged to apply the available patches immediately to mitigate the risk.",
-      "date": "2026-06-11T06:20:22.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
       "isTopTen": false
     }
   ]
