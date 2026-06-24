@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-24T14:49:48.966Z",
+  "lastUpdated": "2026-06-24T17:15:25.200Z",
   "articles": [
+    {
+      "id": "a90a8da8-4fcb-46e5-9fbc-6e494c45201a",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "New GhostShell Hacking Group Targets Ukraine’s Drone Defense Sector",
+      "summary": "The GhostShell hacking group is conducting a cyber espionage campaign against Ukraine's drone defense sector by distributing malicious files disguised as official drone documentation to exfiltrate sensitive credentials. The attack leverages social engineering tactics to compromise defense personnel and gain access to classified information.",
+      "date": "2026-06-24T15:11:28.000Z",
+      "link": "https://hackread.com/ghostshell-hacking-group-ukraine-drone-defense-sector/",
+      "isTopTen": false
+    },
+    {
+      "id": "24959c11-6ff1-4678-98b1-98fed6149b80",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Law enforcement hits StealC and Amadey malware networks",
+      "summary": "International law enforcement, supported by private sector partners, successfully dismantled the infrastructure for the StealC and Amadey malware networks. This operation targeted the delivery mechanisms used by these criminal groups to harvest sensitive data.",
+      "date": "2026-06-24T15:05:36.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/24/operation-endgame-stealc-amadey-malware-disrupted/",
+      "isTopTen": false
+    },
     {
       "id": "02cde9b4-1b5e-4f96-8c28-bcd6b2e3519d",
       "source": "BleepingComputer",
@@ -10,7 +32,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of critical vulnerabilities in Ubiquiti UniFi OS and Lantronix serial-to-ethernet devices. Users are advised to patch these flaws immediately to prevent potential unauthorized access.",
       "date": "2026-06-24T14:35:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15ad44f1-5856-4b5a-9b65-c1b19981b1f8",
@@ -21,7 +43,7 @@
       "summary": "Microsoft and international law enforcement agencies have successfully disrupted the infrastructure supporting the Amadey and StealC malware operations under the multi-national Operation Endgame initiative.",
       "date": "2026-06-24T14:35:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cfddd156-37bb-42c6-8abc-5f60044c881e",
@@ -87,7 +109,7 @@
       "summary": "Malicious npm packages disguised as the PostCSS tool are infecting Windows systems with remote access trojans to exfiltrate stored Chrome browser passwords. The campaign utilizes a staged infection process to stealthily deploy malware onto developer environments.",
       "date": "2026-06-24T13:26:36.000Z",
       "link": "https://hackread.com/fake-npm-packages-postcss-tool-steal-chrome-password/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "026773fc-5781-48e1-8a12-39b61f8fce1b",
@@ -109,7 +131,7 @@
       "summary": "Cisco Unified Communications Manager is currently being exploited in the wild via CVE-2026-20230, a high-severity vulnerability that allows unauthenticated remote attackers to achieve root access through SSRF and arbitrary file writes.",
       "date": "2026-06-24T13:10:57.000Z",
       "link": "https://securityaffairs.com/194153/uncategorized/cisco-unified-cm-flaw-cve-2026-20230-actively-exploited-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "65d0a033-a744-471e-ba9a-bfe62c15d78d",
@@ -120,7 +142,7 @@
       "summary": "Researchers discovered a critical CI/CD workflow vulnerability dubbed 'Cordyceps' that exposes over 300 GitHub repositories to potential supply-chain attacks. This flaw allows unauthorized actors to hijack workflows and gain full control over major organizational repositories.",
       "date": "2026-06-24T12:48:11.000Z",
       "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d0ce7cc8-12aa-4e55-97b3-055123f10bb5",
@@ -142,7 +164,7 @@
       "summary": "Healthcare technology firm Xsolis confirmed that a targeted phishing attack led to unauthorized network access, affecting approximately 1.4 million individuals. The incident, which occurred in January 2026, compromised sensitive data managed by the company's AI-powered healthcare software.",
       "date": "2026-06-24T12:00:23.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/24/xsolis-data-breach-phishing-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f666c1e3-2def-403c-837e-cc4d36a8144b",
@@ -219,7 +241,7 @@
       "summary": "LastPass customer data was exposed after attackers leveraged OAuth tokens compromised during a supply chain attack on the third-party platform Klue. The breach allowed unauthorized access to LastPass's Salesforce environment through integrated systems.",
       "date": "2026-06-24T09:59:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/24/lastpass-klue-data-breach-salesforce-environment/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "33d5ca9a-c2fb-4f7d-b242-c1eaf6f51ea4",
@@ -230,7 +252,7 @@
       "summary": "A researcher discovered a publicly exposed server containing valid login credentials for over 73,000 Fortinet firewalls, highlighting a significant access-brokering operation. This data leak, dubbed FortiBleed, compromises the security of thousands of global organizations.",
       "date": "2026-06-24T09:35:59.000Z",
       "link": "https://securityaffairs.com/194132/cyber-crime/fortibleed-the-broker-who-turned-73000-firewalls-into-a-product-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "90de3393-40f1-49bd-bead-6bb29a49f2b9",
@@ -373,7 +395,7 @@
       "summary": "Japanese telecommunications company KDDI suffered a massive data breach, exposing the managed email credentials of 14.2 million users across five different ISPs. The incident highlights significant security gaps in the management of user account information.",
       "date": "2026-06-24T04:56:48.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/24/you-have-got-to-be-kddi-ng-japanese-telco-exposes-142-million-managed-email-credentials/5260555",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "27614785-cb3e-4794-874b-4da9da967ce3",
@@ -461,7 +483,7 @@
       "summary": "The Five Eyes intelligence alliance has issued a joint warning that artificial intelligence is rapidly escalating cybersecurity threats, with significant impacts expected within months rather than years.",
       "date": "2026-06-23T18:45:00.000Z",
       "link": "https://therecord.media/five-eyes-alert-artificial-intelligence",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "956cd8d0-03a7-4f7e-89fa-e46bafc12638",
@@ -5477,28 +5499,6 @@
       "summary": "Security researcher Chaotic Eclipse has disclosed a new exploit named GreatXML that leverages Windows recovery partition XML files to bypass BitLocker disk encryption. This vulnerability was discovered shortly after the researcher released a separate exploit targeting Microsoft Defender.",
       "date": "2026-06-11T17:43:52.000Z",
       "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
-      "isTopTen": false
-    },
-    {
-      "id": "547d0006-9648-434b-b354-05c3665fa40d",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Russian national charged in connection with Void Blizzard espionage campaign",
-      "summary": "Russian national Denis Obrezko has been charged for his role in the Void Blizzard espionage campaign, which compromised at least 11 U.S. companies. The operation is linked to Kremlin-backed actors targeting various domestic organizations.",
-      "date": "2026-06-11T17:11:12.000Z",
-      "link": "https://cyberscoop.com/russian-national-charged-void-blizzard-cyber-espionage/",
-      "isTopTen": false
-    },
-    {
-      "id": "5e7dfc80-0a5e-47cf-a60d-88f5e96ece71",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
-      "summary": "The Gentlemen ransomware group, previously a RaaS affiliate, has evolved into an independent operation that has impacted 478 victims and exhibits worm-like self-propagation capabilities. The group utilizes tactics learned from major RaaS schemes such as LockBit, Qilin, and Medusa to conduct double extortion attacks.",
-      "date": "2026-06-11T16:50:47.000Z",
-      "link": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
       "isTopTen": false
     }
   ]
