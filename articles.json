@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-06-24T19:55:52.970Z",
+  "lastUpdated": "2026-06-24T22:24:34.515Z",
   "articles": [
+    {
+      "id": "a5f2ac66-8538-4129-87bb-cb4d1b67165f",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
+      "summary": "A 21-year-old hacker known as 'Snoopy' has been sentenced to 18 months in prison for his involvement in the November 2022 cyberattack on DraftKings user accounts.",
+      "date": "2026-06-24T21:55:43.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
+      "isTopTen": false
+    },
+    {
+      "id": "0bfa29dc-e699-40ed-b0ee-ed23da8bfe07",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
+      "summary": "Mandiant discovered that attackers exploited a Cisco Catalyst SD-WAN zero-day vulnerability, tracked as CVE-2026-20245, to establish unauthorized root access on compromised devices. This revelation provides critical insight into the methods used to gain deep persistence within network infrastructure.",
+      "date": "2026-06-24T21:29:10.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
+      "isTopTen": true
+    },
+    {
+      "id": "5363c6e3-86b0-4258-8752-8de7cf5e9b87",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
+      "summary": "A malicious Microsoft Edge extension named 'Edgecution' exploits the browser's Native Messaging feature to bypass sandbox protections and deliver a Python-based ransomware payload. This technique demonstrates a critical bridge between browser-based extensions and host-level execution.",
+      "date": "2026-06-24T20:58:22.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
+      "isTopTen": false
+    },
+    {
+      "id": "677b7795-41f5-430e-bf2a-14344f5d9e5c",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Operation Endgame Disrupts StealC, Amadey and SocGholish Malware Networks",
+      "summary": "Operation Endgame successfully dismantled critical infrastructure for major malware families, including StealC, Amadey, and SocGholish, leading to the seizure of millions of stolen credentials. This international law enforcement effort aims to cripple global cybercrime networks that facilitate data theft and unauthorized access.",
+      "date": "2026-06-24T20:42:27.000Z",
+      "link": "https://hackread.com/operation-endgame-stealc-amadey-socgholish-malware/",
+      "isTopTen": true
+    },
+    {
+      "id": "529e854f-9b47-428a-b8db-86307915578d",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Three ‘cybercrime as a service’ operations undercut by Microsoft, law enforcement",
+      "summary": "Microsoft and international law enforcement agencies collaborated to disrupt the infrastructure of three cybercrime-as-a-service operations. The initiative targeted over 300 servers, aiming to dismantle the underlying supply chain of malware distribution.",
+      "date": "2026-06-24T20:00:00.000Z",
+      "link": "https://therecord.media/stealc-amadey-socgholish-malware-takedown-europol-microsoft",
+      "isTopTen": false
+    },
     {
       "id": "84a1764e-10f1-4bee-9679-3c37b71633be",
       "source": "CyberScoop",
@@ -10,7 +65,7 @@
       "summary": "Mandiant identified that malicious actors exploited a Cisco zero-day vulnerability to obtain root-level access within a communications service provider's network. The full extent of the intrusion and the identity of the attackers remain under investigation.",
       "date": "2026-06-24T18:47:17.000Z",
       "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "afec8620-5473-4f7d-a38e-9a1bd504f717",
@@ -43,7 +98,7 @@
       "summary": "CISA has issued an alert regarding the active exploitation of a critical code injection vulnerability (CVE-2025-67038) in Lantronix EDS5000 Series devices. Federal agencies are mandated to implement security patches by June 26, 2026.",
       "date": "2026-06-24T17:19:18.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "67d7e6d1-da0d-4543-9381-c8c071855934",
@@ -197,7 +252,7 @@
       "summary": "Researchers discovered a critical CI/CD workflow vulnerability dubbed 'Cordyceps' that exposes over 300 GitHub repositories to potential supply-chain attacks. This flaw allows unauthorized actors to hijack workflows and gain full control over major organizational repositories.",
       "date": "2026-06-24T12:48:11.000Z",
       "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d0ce7cc8-12aa-4e55-97b3-055123f10bb5",
@@ -263,7 +318,7 @@
       "summary": "The shift toward autonomous agentic threats is ending the era of human-speed cybersecurity, necessitating a transition to real-time, automated defense mechanisms. This evolution renders traditional manual patch cycles and response timelines dangerously obsolete.",
       "date": "2026-06-24T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e6142d38-44a3-41d4-9efb-c9cfb77dcf9e",
@@ -285,7 +340,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Ubiquiti UniFi OS and Lantronix EDS5000 devices to its Known Exploited Vulnerabilities (KEV) catalog due to active exploitation. This mandate requires U.S. federal agencies to address these security gaps within a specified timeframe to mitigate ongoing risks.",
       "date": "2026-06-24T10:00:09.000Z",
       "link": "https://securityaffairs.com/194142/security/u-s-cisa-adds-ubiquiti-unifi-os-and-lantronix-eds5000-plugin-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6907ef59-9ee5-4b28-a30d-e37f78a5de3c",
@@ -307,7 +362,7 @@
       "summary": "A researcher discovered a publicly exposed server containing valid login credentials for over 73,000 Fortinet firewalls, highlighting a significant access-brokering operation. This data leak, dubbed FortiBleed, compromises the security of thousands of global organizations.",
       "date": "2026-06-24T09:35:59.000Z",
       "link": "https://securityaffairs.com/194132/cyber-crime/fortibleed-the-broker-who-turned-73000-firewalls-into-a-product-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "90de3393-40f1-49bd-bead-6bb29a49f2b9",
@@ -538,7 +593,7 @@
       "summary": "The Five Eyes intelligence alliance has issued a joint warning that artificial intelligence is rapidly escalating cybersecurity threats, with significant impacts expected within months rather than years.",
       "date": "2026-06-23T18:45:00.000Z",
       "link": "https://therecord.media/five-eyes-alert-artificial-intelligence",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "956cd8d0-03a7-4f7e-89fa-e46bafc12638",
@@ -582,7 +637,7 @@
       "summary": "A Russian-speaking threat actor is conducting a massive credential-harvesting campaign dubbed FortiBleed, affecting over 430,000 global FortiGate firewall installations. The operation leverages brute-forcing and service exploitation to compromise systems for financial gain.",
       "date": "2026-06-23T18:20:49.000Z",
       "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bea79c07-ca3a-42fa-afe5-08bc15c50f16",
@@ -626,7 +681,7 @@
       "summary": "Researchers at Zafran Labs discovered four vulnerabilities, including two critical flaws, in the open-source Dify platform that potentially expose sensitive data across over one million AI applications. These security gaps could allow unauthorized access to cross-tenant data, internal documents, and private AI conversations.",
       "date": "2026-06-23T17:01:44.000Z",
       "link": "https://securityaffairs.com/194081/hacking/difytap-four-bugs-put-over-1-million-ai-apps-at-risk.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "86950a33-0334-4acb-bbf6-1bc64787c192",
@@ -637,7 +692,7 @@
       "summary": "A CI/CD vulnerability dubbed 'Cordyceps' allows anonymous actors to exploit GitHub Actions workflows, potentially leading to build poisoning and the exposure of sensitive tokens in major projects. The flaw impacts critical infrastructure providers including Microsoft, Google, and Apache.",
       "date": "2026-06-23T16:31:16.000Z",
       "link": "https://hackread.com/cordyceps-ci-cd-flaw-microsoft-google-apache-repos-hijack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "28e6c9e4-74f5-4a4d-87f5-4532b7c95432",
@@ -5444,61 +5499,6 @@
       "summary": "Kyushu Electric Power Co. reported a data breach involving a missing physical drive containing the personal information of approximately 10.9 million customers.",
       "date": "2026-06-11T23:14:16.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "isTopTen": false
-    },
-    {
-      "id": "438ff5f8-a2aa-4d69-a74e-8917a76e0a6d",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Maine breach portal abused to publish fake data breach disclosures",
-      "summary": "Threat actors exploited Maine's official data breach reporting portal to publish fraudulent disclosure notices, forcing targeted organizations to issue public denials. The incident highlights a weakness in the verification process for public-facing government reporting systems.",
-      "date": "2026-06-11T22:44:58.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
-      "isTopTen": false
-    },
-    {
-      "id": "daf3bc30-6ad7-430b-84fa-162b97c5b4d9",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
-      "summary": "The threat group UNC6240, identified as ShinyHunters, exploited a zero-day vulnerability in Oracle PeopleSoft to exfiltrate data from universities between late May and early June 2026.",
-      "date": "2026-06-11T20:29:23.000Z",
-      "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-      "isTopTen": false
-    },
-    {
-      "id": "82dce365-cc6d-4b58-b08d-7365e6873d40",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShinyHunters Leak 40GB of University of Nottingham Student Data",
-      "summary": "The hacker group ShinyHunters has leaked 40GB of sensitive personal and financial data belonging to approximately 450,000 students and staff from the University of Nottingham. This massive data breach highlights significant security lapses regarding institutional records.",
-      "date": "2026-06-11T20:05:18.000Z",
-      "link": "https://hackread.com/shinyhunters-university-of-nottingham-student-data-leak/",
-      "isTopTen": false
-    },
-    {
-      "id": "7df2bbfb-281c-4714-9ad4-e6622d0805a3",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Oracle mitigates PeopleSoft zero-day exploited in data theft attacks",
-      "summary": "Oracle has released a patch for a critical zero-day vulnerability in PeopleSoft Suite, identified as CVE-2026-35273, which is currently being exploited by the ShinyHunters threat group for unauthorized data exfiltration.",
-      "date": "2026-06-11T19:39:53.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "2e3f6f98-c2bf-45a0-a68b-17a42681c0e0",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShinyHunters claims it hacked 100 orgs by exploiting an Oracle PeopleSoft 0-day",
-      "summary": "The threat actor ShinyHunters claims to have compromised approximately 100 organizations by exploiting a zero-day vulnerability in Oracle PeopleSoft. The University of Nottingham has been identified as one of the affected targets.",
-      "date": "2026-06-11T19:01:16.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/11/shinyhunters-claims-oracle-peoplesoft-0-day-hit-100-orgs/5254443",
       "isTopTen": false
     }
   ]
