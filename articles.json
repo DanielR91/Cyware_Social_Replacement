@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-24T22:24:34.515Z",
+  "lastUpdated": "2026-06-25T04:08:25.811Z",
   "articles": [
+    {
+      "id": "471e47da-87fc-405e-bf24-8491a74cf2da",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Google releases new privacy controls for activity history, personalization",
+      "summary": "Google has introduced updated privacy settings for Search and Google Play, allowing users to better manage their activity history and personalized recommendations. This update aims to provide individuals with more granular control over how their data is stored and utilized for personalization.",
+      "date": "2026-06-24T23:46:17.000Z",
+      "link": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
+      "isTopTen": false
+    },
     {
       "id": "a5f2ac66-8538-4129-87bb-cb4d1b67165f",
       "source": "BleepingComputer",
@@ -21,7 +32,7 @@
       "summary": "Mandiant discovered that attackers exploited a Cisco Catalyst SD-WAN zero-day vulnerability, tracked as CVE-2026-20245, to establish unauthorized root access on compromised devices. This revelation provides critical insight into the methods used to gain deep persistence within network infrastructure.",
       "date": "2026-06-24T21:29:10.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5363c6e3-86b0-4258-8752-8de7cf5e9b87",
@@ -65,7 +76,7 @@
       "summary": "Mandiant identified that malicious actors exploited a Cisco zero-day vulnerability to obtain root-level access within a communications service provider's network. The full extent of the intrusion and the identity of the attackers remain under investigation.",
       "date": "2026-06-24T18:47:17.000Z",
       "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "afec8620-5473-4f7d-a38e-9a1bd504f717",
@@ -120,7 +131,7 @@
       "summary": "The GhostShell hacking group is conducting a cyber espionage campaign against Ukraine's drone defense sector by distributing malicious files disguised as official drone documentation to exfiltrate sensitive credentials. The attack leverages social engineering tactics to compromise defense personnel and gain access to classified information.",
       "date": "2026-06-24T15:11:28.000Z",
       "link": "https://hackread.com/ghostshell-hacking-group-ukraine-drone-defense-sector/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "24959c11-6ff1-4678-98b1-98fed6149b80",
@@ -252,7 +263,7 @@
       "summary": "Researchers discovered a critical CI/CD workflow vulnerability dubbed 'Cordyceps' that exposes over 300 GitHub repositories to potential supply-chain attacks. This flaw allows unauthorized actors to hijack workflows and gain full control over major organizational repositories.",
       "date": "2026-06-24T12:48:11.000Z",
       "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d0ce7cc8-12aa-4e55-97b3-055123f10bb5",
@@ -340,7 +351,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Ubiquiti UniFi OS and Lantronix EDS5000 devices to its Known Exploited Vulnerabilities (KEV) catalog due to active exploitation. This mandate requires U.S. federal agencies to address these security gaps within a specified timeframe to mitigate ongoing risks.",
       "date": "2026-06-24T10:00:09.000Z",
       "link": "https://securityaffairs.com/194142/security/u-s-cisa-adds-ubiquiti-unifi-os-and-lantronix-eds5000-plugin-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6907ef59-9ee5-4b28-a30d-e37f78a5de3c",
@@ -362,7 +373,7 @@
       "summary": "A researcher discovered a publicly exposed server containing valid login credentials for over 73,000 Fortinet firewalls, highlighting a significant access-brokering operation. This data leak, dubbed FortiBleed, compromises the security of thousands of global organizations.",
       "date": "2026-06-24T09:35:59.000Z",
       "link": "https://securityaffairs.com/194132/cyber-crime/fortibleed-the-broker-who-turned-73000-firewalls-into-a-product-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "90de3393-40f1-49bd-bead-6bb29a49f2b9",
@@ -593,7 +604,7 @@
       "summary": "The Five Eyes intelligence alliance has issued a joint warning that artificial intelligence is rapidly escalating cybersecurity threats, with significant impacts expected within months rather than years.",
       "date": "2026-06-23T18:45:00.000Z",
       "link": "https://therecord.media/five-eyes-alert-artificial-intelligence",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "956cd8d0-03a7-4f7e-89fa-e46bafc12638",
@@ -637,7 +648,7 @@
       "summary": "A Russian-speaking threat actor is conducting a massive credential-harvesting campaign dubbed FortiBleed, affecting over 430,000 global FortiGate firewall installations. The operation leverages brute-forcing and service exploitation to compromise systems for financial gain.",
       "date": "2026-06-23T18:20:49.000Z",
       "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bea79c07-ca3a-42fa-afe5-08bc15c50f16",
@@ -681,7 +692,7 @@
       "summary": "Researchers at Zafran Labs discovered four vulnerabilities, including two critical flaws, in the open-source Dify platform that potentially expose sensitive data across over one million AI applications. These security gaps could allow unauthorized access to cross-tenant data, internal documents, and private AI conversations.",
       "date": "2026-06-23T17:01:44.000Z",
       "link": "https://securityaffairs.com/194081/hacking/difytap-four-bugs-put-over-1-million-ai-apps-at-risk.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "86950a33-0334-4acb-bbf6-1bc64787c192",
@@ -692,7 +703,7 @@
       "summary": "A CI/CD vulnerability dubbed 'Cordyceps' allows anonymous actors to exploit GitHub Actions workflows, potentially leading to build poisoning and the exposure of sensitive tokens in major projects. The flaw impacts critical infrastructure providers including Microsoft, Google, and Apache.",
       "date": "2026-06-23T16:31:16.000Z",
       "link": "https://hackread.com/cordyceps-ci-cd-flaw-microsoft-google-apache-repos-hijack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "28e6c9e4-74f5-4a4d-87f5-4532b7c95432",
@@ -736,7 +747,7 @@
       "summary": "Security firm AIR demonstrated a significant supply chain vulnerability by successfully deploying a fake AI agent skill that bypassed all security scanners and reached 26,000 corporate and individual accounts. The experiment highlights a critical gap in the security vetting processes of popular AI agent marketplaces.",
       "date": "2026-06-23T15:16:43.000Z",
       "link": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6a2c3fb7-c6a9-48c9-82de-159ef0aaa786",
@@ -747,7 +758,7 @@
       "summary": "President Trump signed an executive order mandating that federal agencies migrate high-value systems to post-quantum cryptography by 2030 and 2031 to mitigate future quantum-computing threats. National security systems are excluded from this timeline and will follow a separate regulatory path.",
       "date": "2026-06-23T15:16:40.000Z",
       "link": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b366643b-5437-44d0-8258-f62b63ce0fde",
@@ -5488,17 +5499,6 @@
       "summary": "Avast One has introduced a feature that analyzes scam screenshots to provide users with actionable security advice and protection. This tool integrates identity monitoring, privacy settings, and device configuration checks into a unified security platform.",
       "date": "2026-06-12T04:30:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/12/product-showcase-avast-one-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "b9158eb9-d0d8-47ec-8ed2-f2bd5370919d",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Japanese energy firm loses drive with data of 10.9 million clients",
-      "summary": "Kyushu Electric Power Co. reported a data breach involving a missing physical drive containing the personal information of approximately 10.9 million customers.",
-      "date": "2026-06-11T23:14:16.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
       "isTopTen": false
     }
   ]
