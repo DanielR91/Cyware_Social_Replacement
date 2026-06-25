@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-06-25T17:17:43.295Z",
+  "lastUpdated": "2026-06-25T20:09:36.509Z",
   "articles": [
+    {
+      "id": "c0aa12a1-4a02-48ca-96e9-ad9d159465b5",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "FCC passes new cybersecurity rules for emergency systems, undersea cables",
+      "summary": "The FCC has approved updated cybersecurity regulations aimed at securing national emergency communication systems against hijacking and strengthening security review requirements for undersea cable providers.",
+      "date": "2026-06-25T19:55:16.000Z",
+      "link": "https://cyberscoop.com/fcc-undersea-cable-regulations-national-security/",
+      "isTopTen": true
+    },
+    {
+      "id": "73d6fe1b-ac68-45f3-bd5d-52946f98ee91",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Order-tracking app Shop abused to push callback phishing attacks",
+      "summary": "Threat actors are exploiting the Shopify Shop order-tracking app by injecting fake purchase receipts into user histories to conduct callback phishing attacks. These campaigns aim to deceive users into disclosing sensitive information or installing malicious remote access software.",
+      "date": "2026-06-25T19:45:48.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "e58b8a52-4e6c-49f6-a04a-a0afb7276250",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Curl Fixes a 25-Year-Old Bug in Its Largest CVE Release Yet",
+      "summary": "The Curl project released a significant update addressing 18 vulnerabilities in libcurl, including a critical memory safety bug that has persisted for 25 years. The patch covers a range of security flaws, including authentication bypass and host validation issues.",
+      "date": "2026-06-25T19:20:27.000Z",
+      "link": "https://securityaffairs.com/194220/security/curl-fixes-a-25-year-old-bug-in-its-largest-cve-release-yet.html",
+      "isTopTen": true
+    },
+    {
+      "id": "dcf8bcd1-98db-4f38-8053-8a8044659e54",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "DHS chief says president has met with potential CISA nominee; agency plans to hire 600",
+      "summary": "The Department of Homeland Security is preparing to fill the vacant CISA director position and subsequently expand the agency's workforce by 600 employees. The White House is currently evaluating potential candidates to lead the agency.",
+      "date": "2026-06-25T18:47:51.000Z",
+      "link": "https://therecord.media/cisa-director-nominee-workforce-hires-mullin-house-hearing",
+      "isTopTen": false
+    },
+    {
+      "id": "036d7b78-641a-4a51-873e-1545b569a426",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+      "summary": "Microsoft has extended its free Extended Security Updates (ESU) program for Windows 10 consumers by one year, now providing security support until October 12, 2027.",
+      "date": "2026-06-25T18:29:20.000Z",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+      "isTopTen": false
+    },
     {
       "id": "d629a10a-46b1-4280-8b00-aee823bdb7af",
       "source": "HackRead",
@@ -21,7 +76,7 @@
       "summary": "A new macOS malware named Gaslight employs prompt injection techniques and fake debugging data to deliberately deceive AI-based security analysis tools. This strategy aims to evade detection by causing confusion during the automated malware inspection process.",
       "date": "2026-06-25T16:23:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "09a060db-583f-441c-b6a5-d8c1c00e11e2",
@@ -87,6 +142,17 @@
       "summary": "Reports indicate that Russian authorities continued to use Cellebrite forensic technology to access the phone of activist Andrey Pivovarov despite the company's publicly announced termination of its contract with the country.",
       "date": "2026-06-25T14:52:06.000Z",
       "link": "https://cyberscoop.com/russia-cellebrite-activist-phone-hacking/",
+      "isTopTen": false
+    },
+    {
+      "id": "d2390817-c39b-468a-a2ee-bd288714af6e",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Another Russian dairy company reportedly disrupted by cyberattack",
+      "summary": "A dairy manufacturer in Russia's Bashkortostan region has experienced operational disruptions following a cyberattack, marking another incident targeting the country's dairy sector.",
+      "date": "2026-06-25T14:45:00.000Z",
+      "link": "https://therecord.media/russia-dairy-producter-cyberattack-ufa",
       "isTopTen": false
     },
     {
@@ -296,7 +362,7 @@
       "summary": "An unknown threat actor exploited a Cisco Catalyst SD-WAN zero-day vulnerability, CVE-2026-20245, for at least two months prior to its public disclosure, allowing for privileged command execution. The flaw, which holds a CVSS score of 7.8, highlights a significant lag between active exploitation and vendor patching.",
       "date": "2026-06-25T09:17:31.000Z",
       "link": "https://securityaffairs.com/194200/hacking/cisco-catalyst-sd-wan-zero-day-cve-2026-20245-exploited-months-before-disclosure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f6a20728-e970-434f-9a12-3c554dbd957a",
@@ -417,7 +483,7 @@
       "summary": "Mandiant discovered that a high-severity zero-day vulnerability in Cisco Catalyst SD-WAN, tracked as CVE-2026-20245, was exploited by a threat actor to achieve root access months before public disclosure. The flaw enables an authenticated attacker to execute arbitrary commands with elevated privileges.",
       "date": "2026-06-25T05:46:54.000Z",
       "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bb86b3a9-19b2-4774-bc73-d6d26344b30b",
@@ -494,7 +560,7 @@
       "summary": "Operation Endgame successfully dismantled critical infrastructure for major malware families, including StealC, Amadey, and SocGholish, leading to the seizure of millions of stolen credentials. This international law enforcement effort aims to cripple global cybercrime networks that facilitate data theft and unauthorized access.",
       "date": "2026-06-24T20:42:27.000Z",
       "link": "https://hackread.com/operation-endgame-stealc-amadey-socgholish-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "529e854f-9b47-428a-b8db-86307915578d",
@@ -560,7 +626,7 @@
       "summary": "Law enforcement agencies and private tech partners collaborated to dismantle the command-and-control infrastructure of the Amadey and StealC botnets, successfully recovering 27 million stolen credentials. This operation aimed to cripple the distribution networks used for ransomware, fraud, and attacks on critical infrastructure.",
       "date": "2026-06-24T15:59:50.000Z",
       "link": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a90a8da8-4fcb-46e5-9fbc-6e494c45201a",
@@ -571,7 +637,7 @@
       "summary": "The GhostShell hacking group is conducting a cyber espionage campaign against Ukraine's drone defense sector by distributing malicious files disguised as official drone documentation to exfiltrate sensitive credentials. The attack leverages social engineering tactics to compromise defense personnel and gain access to classified information.",
       "date": "2026-06-24T15:11:28.000Z",
       "link": "https://hackread.com/ghostshell-hacking-group-ukraine-drone-defense-sector/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "24959c11-6ff1-4678-98b1-98fed6149b80",
@@ -593,7 +659,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of critical vulnerabilities in Ubiquiti UniFi OS and Lantronix serial-to-ethernet devices. Users are advised to patch these flaws immediately to prevent potential unauthorized access.",
       "date": "2026-06-24T14:35:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15ad44f1-5856-4b5a-9b65-c1b19981b1f8",
@@ -725,7 +791,7 @@
       "summary": "Healthcare technology firm Xsolis confirmed that a targeted phishing attack led to unauthorized network access, affecting approximately 1.4 million individuals. The incident, which occurred in January 2026, compromised sensitive data managed by the company's AI-powered healthcare software.",
       "date": "2026-06-24T12:00:23.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/24/xsolis-data-breach-phishing-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f666c1e3-2def-403c-837e-cc4d36a8144b",
@@ -5433,72 +5499,6 @@
       "summary": "Google has initiated legal action against a Chinese cybercrime network that allegedly leveraged its Gemini AI to develop and facilitate a phishing-as-a-service platform called Outsider. The operation targeted U.S. citizens through automated SMS-based phishing attacks.",
       "date": "2026-06-12T18:59:32.000Z",
       "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c8cad9fa-5b7a-408f-bf25-43b7995fc79b",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Ivanti Sentry flaw to its Known Exploited Vulnerabilities catalog and urges patching by June 14",
-      "summary": "CISA has added a critical vulnerability (CVE-2026-10520) in Ivanti Sentry to its Known Exploited Vulnerabilities catalog, requiring federal agencies to apply patches by June 14. The flaw carries a maximum CVSS score of 10.0 and is actively being exploited in the wild.",
-      "date": "2026-06-12T18:47:49.000Z",
-      "link": "https://securityaffairs.com/193557/security/u-s-cisa-adds-ivanti-sentry-flaw-to-its-known-exploited-vulnerabilities-catalog-and-urges-patching-by-june-14.html",
-      "isTopTen": false
-    },
-    {
-      "id": "de76a915-cd0e-4102-a65c-509e6038270f",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Fired IT worker jailed for 21 months after sabotaging old school district",
-      "summary": "A former IT employee in Iowa was sentenced to 21 months in prison for sabotaging his previous school district's computer systems. The perpetrator was caught after confiding in a former colleague about his malicious activities.",
-      "date": "2026-06-12T18:21:24.000Z",
-      "link": "https://www.theregister.com/security/2026/06/12/fired-it-worker-jailed-for-21-months-after-sabotaging-old-school-district/5254983",
-      "isTopTen": false
-    },
-    {
-      "id": "775d315a-a1c9-4f1e-b743-0483244338f6",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "US, France, and Italian authorities shut down massive deepfake porn site",
-      "summary": "Authorities from the US, France, and Italy collaborated to dismantle a prominent website that distributed non-consensual deepfake pornography targeting high-profile individuals. The operation marks a significant international effort to combat the weaponization of synthetic media for harassment.",
-      "date": "2026-06-12T18:21:05.000Z",
-      "link": "https://cyberscoop.com/us-international-authorities-shutdown-deepfake-porn-site/",
-      "isTopTen": false
-    },
-    {
-      "id": "e09ba8c7-4446-40f7-8085-2aa72432418b",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "phpBB forum fixes auth bypass bug lurking for a decade",
-      "summary": "The phpBB forum software has patched a decade-old authentication bypass vulnerability that permitted unauthorized access to user and administrator accounts. The flaw was identified and addressed, effectively eliminating a long-standing security risk for forum administrators.",
-      "date": "2026-06-12T18:19:34.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
-      "isTopTen": false
-    },
-    {
-      "id": "20d8e365-3425-4435-a8fd-d51aa172fb95",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
-      "summary": "A China-linked threat actor known as Velvet Ant compromised Linux PAM and OpenSSH components to maintain persistent, long-term backdoor access for nearly a decade. By targeting core authentication systems, the group successfully avoided detection during standard security cleanups.",
-      "date": "2026-06-12T18:17:55.000Z",
-      "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c1b67635-502e-4b59-acc4-f929b099dd37",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Atomic Arch Campaign Hijacks 20+ Linux AUR Packages to Deliver Malware",
-      "summary": "The 'Atomic Arch' campaign compromised over 20 Linux AUR packages by exploiting ownership transfers to distribute rootkit-like malware to users. This supply chain attack poses a significant threat to Arch Linux users by facilitating unauthorized access through tainted software packages.",
-      "date": "2026-06-12T18:17:16.000Z",
-      "link": "https://hackread.com/atomic-arch-hijacks-linux-aur-packages-malware/",
       "isTopTen": false
     }
   ]
