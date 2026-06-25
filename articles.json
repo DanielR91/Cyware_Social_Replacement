@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-25T20:09:36.509Z",
+  "lastUpdated": "2026-06-25T22:25:03.758Z",
   "articles": [
+    {
+      "id": "328aafac-1a4c-4ccd-b127-90aa7443bbf7",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+      "summary": "The threat actor group CL-STA-1062 is conducting espionage operations against Southeast Asian government agencies and critical infrastructure using a hybrid toolkit featuring the custom TinyRCT backdoor.",
+      "date": "2026-06-25T22:00:52.000Z",
+      "link": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+      "isTopTen": true
+    },
+    {
+      "id": "671f52c0-7b8c-4aee-841d-1f56fd5b16a5",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Tata Electronics Confirms Data Breach After 630GB Leak Claim Targets Apple and Tesla",
+      "summary": "Tata Electronics has confirmed a significant data breach involving 630GB of stolen information, including sensitive documents related to its supply chain partnerships with Apple and Tesla. The incident follows claims made on a hacker forum regarding unauthorized access to the company's IT systems.",
+      "date": "2026-06-25T20:41:16.000Z",
+      "link": "https://securityaffairs.com/194237/data-breach/tata-electronics-confirms-data-breach-after-630gb-leak-claim-targets-apple-and-tesla.html",
+      "isTopTen": true
+    },
+    {
+      "id": "6f95f456-008b-4bbd-9ec3-f5232fc8e044",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ex-Huntress analyst claims company insider fed info to a ransomware crim. Social media drama ensues",
+      "summary": "A former Huntress analyst has publicly alleged that an internal employee leaked sensitive information to ransomware actors, further claiming the company prioritized its impending IPO over addressing security concerns. The accusations have sparked significant controversy on social media, raising questions about internal security protocols.",
+      "date": "2026-06-25T20:36:22.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/06/25/ex-huntress-analyst-claims-company-insider-fed-info-to-a-ransomware-crim-social-media-drama-ensues/5262538",
+      "isTopTen": false
+    },
     {
       "id": "c0aa12a1-4a02-48ca-96e9-ad9d159465b5",
       "source": "CyberScoop",
@@ -10,7 +43,7 @@
       "summary": "The FCC has approved updated cybersecurity regulations aimed at securing national emergency communication systems against hijacking and strengthening security review requirements for undersea cable providers.",
       "date": "2026-06-25T19:55:16.000Z",
       "link": "https://cyberscoop.com/fcc-undersea-cable-regulations-national-security/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "73d6fe1b-ac68-45f3-bd5d-52946f98ee91",
@@ -76,7 +109,7 @@
       "summary": "A new macOS malware named Gaslight employs prompt injection techniques and fake debugging data to deliberately deceive AI-based security analysis tools. This strategy aims to evade detection by causing confusion during the automated malware inspection process.",
       "date": "2026-06-25T16:23:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "09a060db-583f-441c-b6a5-d8c1c00e11e2",
@@ -351,7 +384,7 @@
       "summary": "The newly discovered Gaslight macOS malware leverages prompt injection techniques to manipulate AI-powered analysis tools into ignoring or misinterpreting its malicious payload. This tactic represents an emerging trend of adversarial attacks specifically targeting AI-assisted cybersecurity workflows.",
       "date": "2026-06-25T09:23:03.000Z",
       "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "32e5eae1-7f97-4c67-b0db-20a305504910",
@@ -659,7 +692,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of critical vulnerabilities in Ubiquiti UniFi OS and Lantronix serial-to-ethernet devices. Users are advised to patch these flaws immediately to prevent potential unauthorized access.",
       "date": "2026-06-24T14:35:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "15ad44f1-5856-4b5a-9b65-c1b19981b1f8",
@@ -758,7 +791,7 @@
       "summary": "Cisco Unified Communications Manager is currently being exploited in the wild via CVE-2026-20230, a high-severity vulnerability that allows unauthenticated remote attackers to achieve root access through SSRF and arbitrary file writes.",
       "date": "2026-06-24T13:10:57.000Z",
       "link": "https://securityaffairs.com/194153/uncategorized/cisco-unified-cm-flaw-cve-2026-20230-actively-exploited-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "65d0a033-a744-471e-ba9a-bfe62c15d78d",
@@ -769,7 +802,7 @@
       "summary": "Researchers discovered a critical CI/CD workflow vulnerability dubbed 'Cordyceps' that exposes over 300 GitHub repositories to potential supply-chain attacks. This flaw allows unauthorized actors to hijack workflows and gain full control over major organizational repositories.",
       "date": "2026-06-24T12:48:11.000Z",
       "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d0ce7cc8-12aa-4e55-97b3-055123f10bb5",
@@ -5466,39 +5499,6 @@
       "summary": "The state of Maine took its public data breach portal offline following the submission of fraudulent breach reports. The state is currently reviewing its authentication and submission procedures to prevent further abuse of the system.",
       "date": "2026-06-12T19:33:32.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
-      "isTopTen": false
-    },
-    {
-      "id": "9cb5043a-45f8-4b6e-9cbb-4f05035bc12f",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
-      "summary": "Over 400 Arch Linux AUR packages were compromised by attackers who injected build scripts to deploy a credential-stealing Rust binary and an eBPF rootkit. This supply chain attack specifically targets developers building software from the community repository.",
-      "date": "2026-06-12T19:33:25.000Z",
-      "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2bc2beac-fa7c-41d4-a2b2-ecc303cf70f8",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "400+ Arch Linux AUR Packages Hijacked to Install Rust Credential Stealer",
-      "summary": "Attackers compromised over 400 Arch Linux AUR packages by injecting malicious build scripts that install a Rust-based credential stealer and an optional eBPF rootkit. This supply chain attack targets developers by executing the malware during the software build process.",
-      "date": "2026-06-12T19:24:50.000Z",
-      "link": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f93781bc-35aa-4d0b-9dcb-c291ae25a523",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
-      "summary": "Google has initiated legal action against a Chinese cybercrime network that allegedly leveraged its Gemini AI to develop and facilitate a phishing-as-a-service platform called Outsider. The operation targeted U.S. citizens through automated SMS-based phishing attacks.",
-      "date": "2026-06-12T18:59:32.000Z",
-      "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
       "isTopTen": false
     }
   ]
