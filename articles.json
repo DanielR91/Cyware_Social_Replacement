@@ -1,6 +1,237 @@
 {
-  "lastUpdated": "2026-06-26T09:39:11.973Z",
+  "lastUpdated": "2026-06-26T14:40:29.848Z",
   "articles": [
+    {
+      "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
+      "source": "BleepingComputer",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
+      "summary": "This article explores the implementation of an AI-driven GRC agent designed to automate control monitoring, evidence gap identification, and remediation task management for compliance professionals.",
+      "date": "2026-06-26T14:01:11.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+      "isTopTen": false
+    },
+    {
+      "id": "f94df2f4-f976-42ba-8eb1-ea566c165f83",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+      "summary": "A critical local privilege escalation vulnerability in the Linux kernel's traffic-control subsystem allows unprivileged users to gain root access via an out-of-bounds write. A public exploit for this flaw, dubbed 'pedit COW,' is already available, posing an immediate risk to affected systems.",
+      "date": "2026-06-26T13:57:55.000Z",
+      "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+      "isTopTen": true
+    },
+    {
+      "id": "872159b7-3b35-45b0-99e1-ee379a57a01a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+      "summary": "A high-severity vulnerability in Amazon Q Developer allowed attackers to execute arbitrary code and steal cloud credentials by exploiting the application's handling of Model Context Protocol (MCP) servers. Amazon has since released a patch to address the security flaw.",
+      "date": "2026-06-26T13:53:00.000Z",
+      "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "isTopTen": true
+    },
+    {
+      "id": "334ad8bd-05ef-47aa-9a94-c227e82208ca",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Russia accuses Apple of ‘political censorship’ after VK apps removed from App Store",
+      "summary": "Apple removed several major Russian applications, including VKontakte, from its App Store, prompting accusations of political censorship from the Russian government.",
+      "date": "2026-06-26T13:42:00.000Z",
+      "link": "https://therecord.media/russia-accuses-apple-of-political-censorship-after-vk-removal",
+      "isTopTen": false
+    },
+    {
+      "id": "7f5a3ebc-18cb-4d12-b087-b01d4efcafd1",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Turla group adds more malware to Russia’s espionage efforts against Ukraine",
+      "summary": "Google researchers have identified a new piece of malware called StockStay, which is being utilized by the Russian threat actor group Turla in its ongoing espionage campaigns against Ukraine.",
+      "date": "2026-06-26T13:30:00.000Z",
+      "link": "https://therecord.media/russia-turla-espionage-ukraine-stockstay-malware",
+      "isTopTen": true
+    },
+    {
+      "id": "9a5fad29-ea63-4bbd-a297-c1c7cf12d6e0",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Russia used social engineering to breach prominent messaging accounts, Ukraine says",
+      "summary": "The Ukrainian Security Service reported that Russian operatives successfully compromised high-profile messaging accounts by masquerading as technical support staff to steal user credentials. The campaign relied on social engineering tactics rather than software exploits to gain unauthorized access.",
+      "date": "2026-06-26T13:10:00.000Z",
+      "link": "https://therecord.media/russia-ukraine-social-engineering-messaging-accounts",
+      "isTopTen": false
+    },
+    {
+      "id": "99ceab45-f852-424f-99e4-15d89f7f1984",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "macOS Flaw Allowed Standard Users to Disable CrowdStrike and Kandji Security Tools",
+      "summary": "A macOS XPC vulnerability allowed unprivileged users to disable security software like CrowdStrike and Kandji. The vendors have since released patches to address the issue discovered by XM Cyber.",
+      "date": "2026-06-26T12:43:05.000Z",
+      "link": "https://hackread.com/macos-flaw-users-disable-crowdstrike-kandji-security-tools/",
+      "isTopTen": true
+    },
+    {
+      "id": "ddec1304-7826-4f51-916e-e09634d48a7b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+      "summary": "CISA has added a critical remote code execution vulnerability in PTC Windchill software to its Known Exploited Vulnerabilities (KEV) catalog due to ongoing active exploitation. The flaw is being leveraged by attackers to deploy web shells.",
+      "date": "2026-06-26T12:31:56.000Z",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5a5653e4-e6dc-4efb-bbaf-94d7891c9bfa",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Miasma campaign poisons 20-plus npm packages, hunts for developer secrets",
+      "summary": "The Miasma supply chain attack has compromised over 20 npm packages, including Leo Platform and RStreams, to steal developer credentials and target software maintainers. Microsoft has identified the campaign, which focuses on harvesting secrets through malicious package injections.",
+      "date": "2026-06-26T12:18:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/26/miasma-campaign-poisons-20-plus-npm-packages-hunts-for-developer-secrets/5262886",
+      "isTopTen": true
+    },
+    {
+      "id": "efa7b838-c066-44ba-ae82-0278da7a163a",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "FCC votes to toughen rules in bid to better protect undersea cables",
+      "summary": "The FCC has approved stricter regulations for undersea cable infrastructure, including a new requirement for submarine line terminal equipment operators to obtain licenses. This initiative aims to strengthen the security and oversight of critical telecommunications infrastructure.",
+      "date": "2026-06-26T12:10:00.000Z",
+      "link": "https://therecord.media/fcc-votes-to-toughen-rules-undersea-cables",
+      "isTopTen": false
+    },
+    {
+      "id": "2d6c752f-5138-47b2-88a1-b4c5abb1c98b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Proof’s x401 establishes an open protocol for AI agent identity and authorization",
+      "summary": "Proof has introduced x401, an open and issuer-neutral protocol designed to verify the identity and authorization of AI agents interacting with websites and APIs. The framework allows services to validate agent claims, such as organizational affiliation or signing authority, to ensure secure and trusted AI interactions.",
+      "date": "2026-06-26T12:08:46.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/26/proofs-x401-establishes-an-open-protocol-for-ai-agent-identity-and-authorization/",
+      "isTopTen": false
+    },
+    {
+      "id": "bcf3a0d1-060a-41f8-b772-bb881fe3d494",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+      "summary": "The DirtyClone Linux kernel vulnerability allows local attackers to achieve root-level privilege escalation by corrupting file-backed memory through cloned network packets. Identified as CVE-2026-43503, the flaw has a CVSS score of 8.8 and is part of the DirtyFrag family.",
+      "date": "2026-06-26T11:51:35.000Z",
+      "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b0ef8047-919c-4b59-bd19-148cfc6b84b6",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Critical open-source projects get a new security framework",
+      "summary": "The Linux Foundation has launched Akrites, a new industry initiative designed to streamline the remediation and disclosure process for vulnerabilities in critical open-source software. This framework addresses the increased risk posed by AI-accelerated exploitation timelines.",
+      "date": "2026-06-26T11:41:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/26/akrites-open-source-security-framework/",
+      "isTopTen": false
+    },
+    {
+      "id": "b54808a7-c1fb-4b73-b8ef-62095002b469",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Guardian Agents: The Next Layer of Identity Governance",
+      "summary": "The rapid integration of autonomous AI agents in enterprise environments is creating significant security gaps, as traditional identity governance frameworks are ill-equipped to manage machine-speed access. The headline highlights the urgent need for new governance structures to oversee these non-human actors.",
+      "date": "2026-06-26T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f66be4bb-a891-4a4b-8a8a-36c74bfced3c",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Activist Phone Hacked With Cellebrite After Russia Contract Cancellation",
+      "summary": "Russian authorities utilized Cellebrite forensic tools to bypass security measures on an activist's confiscated iPhone 12, despite the company's prior public commitment to terminate contracts with the country. This incident highlights ongoing concerns regarding the potential for forensic software misuse against political targets.",
+      "date": "2026-06-26T11:09:39.000Z",
+      "link": "https://securityaffairs.com/194302/security/activist-phone-hacked-with-cellebrite-after-russia-contract-cancellation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a6a0ad90-1e68-4dfb-8307-813e25f74740",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
+      "summary": "The Miasma malware family has expanded its supply chain attack campaign to compromise additional npm packages and GitHub Actions, while also extending its reach into the Go ecosystem.",
+      "date": "2026-06-26T11:05:45.000Z",
+      "link": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+      "isTopTen": false
+    },
+    {
+      "id": "49139934-ec66-4062-991d-4f9e917020bb",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Synology issues critical fix for MailPlus Server vulnerabilities",
+      "summary": "Synology has released a critical security update for its MailPlus Server to address three vulnerabilities that could allow remote attackers to conduct unauthorized file operations, access internal services, and trigger denial-of-service attacks. Users are advised to apply the patch immediately to secure their private email infrastructure.",
+      "date": "2026-06-26T10:57:37.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/26/synology-mailplus-server-vulnerabilities/",
+      "isTopTen": false
+    },
+    {
+      "id": "51a680bd-2927-4dc3-b16d-dd442072254d",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Cisco and PTC Windchill and FlexPLM flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Cisco, PTC Windchill, and FlexPLM products. Organizations are urged to address these vulnerabilities to mitigate the risk of exploitation.",
+      "date": "2026-06-26T10:35:38.000Z",
+      "link": "https://securityaffairs.com/194290/security/u-s-cisa-adds-cisco-and-ptc-windchill-and-flexplm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "eb77ab63-9047-4beb-a864-1631f22ac04b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ransomware gangs find Europe’s weakest link in third-party suppliers",
+      "summary": "A 2026 report by Black Kite reveals that ransomware attacks against European organizations are rising, with threat actors increasingly targeting supply chains as their primary entry point. The study highlights the convergence of rising ransomware activity, vulnerable third-party suppliers, and complex regulatory landscapes.",
+      "date": "2026-06-26T09:49:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/26/black-kite-european-cyber-threats-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "7eab60eb-5653-4a5a-ad7d-2431d4999353",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "A decade of infrastructure development, one new name: Coinspaid Dev",
+      "summary": "The team behind Coinspaid Solutions has rebranded as Coinspaid Dev to focus on positioning themselves as a prominent voice in blockchain infrastructure engineering.",
+      "date": "2026-06-26T09:41:03.000Z",
+      "link": "https://hackread.com/decade-infrastructure-development-coinspaid-dev/",
+      "isTopTen": false
+    },
+    {
+      "id": "6d5b6648-790d-4bb1-80bf-8155cfff4070",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
+      "summary": "Microsoft is tracking an ongoing phishing campaign targeting hospitality organizations across Europe and Asia that uses malicious ZIP files to deploy a Node.js implant. The threat actors remain unidentified, and their ultimate objectives for compromising front-desk systems are currently unknown.",
+      "date": "2026-06-26T09:27:12.000Z",
+      "link": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
+      "isTopTen": false
+    },
     {
       "id": "e38f4acb-c477-4ca1-8a35-18f4085dd807",
       "source": "Help Net Security",
@@ -10,7 +241,7 @@
       "summary": "Fortra researchers have identified Mirage2FA, a sophisticated phishing kit that uses HTML smuggling and obfuscated JavaScript to bypass security filters and steal Microsoft 365 credentials during MFA processes. The campaign utilizes business-themed lures like fake invoices and payment requests to target users via email.",
       "date": "2026-06-26T09:26:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "47963faa-7116-4b2d-88f1-e625fb52a90a",
@@ -87,7 +318,7 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
@@ -98,7 +329,7 @@
       "summary": "Google Threat Intelligence has identified a new .NET backdoor named STOCKSTAY, developed by the Russian-linked threat actor Turla for use in espionage operations against Ukrainian government and military entities. The malware is part of an ongoing campaign targeting organizations with interests in Italian foreign policy.",
       "date": "2026-06-26T07:15:46.000Z",
       "link": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1cb2ed91-6154-431c-81ad-b600ff5d6647",
@@ -120,7 +351,7 @@
       "summary": "A security executive chose to bypass multi-factor authentication (MFA) protocols for leadership, citing concerns over excessive security despite enforcing them for the rest of the workforce. This decision highlights a hypocritical 'rules for thee, not for me' approach that undermines organizational security posture.",
       "date": "2026-06-26T06:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/26/security-boss-thought-mfa-would-be-too-much-security/5261934",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5dcaf6b5-d1c2-4d3d-99e7-37db9917c03b",
@@ -153,7 +384,7 @@
       "summary": "Qihoo 360, a Chinese cybersecurity firm restricted by the US, claims to have developed an automated vulnerability discovery tool that surpasses Mythos, positioning it as a countermeasure against AI-driven cyber weaponization.",
       "date": "2026-06-26T01:49:35.000Z",
       "link": "https://www.theregister.com/security/2026/06/26/chinese-cybersecurity-company-claims-its-built-a-better-than-mythos-bug-finder/5262642",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3b6302b5-952b-4d18-ac43-e4f13e7908a0",
@@ -252,7 +483,7 @@
       "summary": "The Curl project released a significant update addressing 18 vulnerabilities in libcurl, including a critical memory safety bug that has persisted for 25 years. The patch covers a range of security flaws, including authentication bypass and host validation issues.",
       "date": "2026-06-25T19:20:27.000Z",
       "link": "https://securityaffairs.com/194220/security/curl-fixes-a-25-year-old-bug-in-its-largest-cve-release-yet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dcf8bcd1-98db-4f38-8053-8a8044659e54",
@@ -571,7 +802,7 @@
       "summary": "The newly discovered Gaslight macOS malware leverages prompt injection techniques to manipulate AI-powered analysis tools into ignoring or misinterpreting its malicious payload. This tactic represents an emerging trend of adversarial attacks specifically targeting AI-assisted cybersecurity workflows.",
       "date": "2026-06-25T09:23:03.000Z",
       "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "32e5eae1-7f97-4c67-b0db-20a305504910",
@@ -582,7 +813,7 @@
       "summary": "An unknown threat actor exploited a Cisco Catalyst SD-WAN zero-day vulnerability, CVE-2026-20245, for at least two months prior to its public disclosure, allowing for privileged command execution. The flaw, which holds a CVSS score of 7.8, highlights a significant lag between active exploitation and vendor patching.",
       "date": "2026-06-25T09:17:31.000Z",
       "link": "https://securityaffairs.com/194200/hacking/cisco-catalyst-sd-wan-zero-day-cve-2026-20245-exploited-months-before-disclosure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6a20728-e970-434f-9a12-3c554dbd957a",
@@ -714,7 +945,7 @@
       "summary": "Nation-state actors successfully infiltrated critical Australian infrastructure to establish the capability for future sabotage. Australian intelligence agencies disrupted the operation by coordinating with international counterparts to expose the threat.",
       "date": "2026-06-25T04:31:01.000Z",
       "link": "https://www.theregister.com/security/2026/06/25/nation-state-actors-cracked-critical-australian-infrastructure-to-cripple-it-at-a-time-of-their-choosing/5261877",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "471e47da-87fc-405e-bf24-8491a74cf2da",
@@ -5268,237 +5499,6 @@
       "summary": "The rapid adoption of AI-driven vulnerability discovery tools is significantly accelerating the identification of software flaws, leading to a projected record of 66,000 CVEs for 2026. This surge in automated reporting suggests a fundamental shift in how security vulnerabilities are uncovered at scale.",
       "date": "2026-06-15T12:00:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/15/first-2026-cve-forecast/",
-      "isTopTen": false
-    },
-    {
-      "id": "509146f4-17c5-4d5c-b1e8-03d5120d64ea",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
-      "summary": "The common IT practice of providing new employees with temporary, insecure first-day passwords creates significant security vulnerabilities. These credentials are often transmitted via unencrypted channels and frequently remain in use, increasing the risk of unauthorized access.",
-      "date": "2026-06-15T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5e85d8fe-5829-432f-9bc1-cccaba272de6",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Palo Alto Warns of Exploitation of VPN Bypass Exploits (CVE-2026-0257) in PAN-OS Flaw",
-      "summary": "Palo Alto Networks has confirmed that attackers are actively exploiting a critical authentication bypass vulnerability (CVE-2026-0257) affecting GlobalProtect VPN gateways, despite a patch being released on May 13.",
-      "date": "2026-06-15T11:11:13.000Z",
-      "link": "https://securityaffairs.com/193638/security/palo-alto-warns-of-exploitation-of-vpn-bypass-exploits-cve-2026-0257-in-pan-os-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8e0edd01-56d5-471d-9189-da2635f6765d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
-      "summary": "Researchers identified 152 malicious Chrome extensions masquerading as wallpaper add-ons that have infected over 105,000 users with adware and fake traffic generators. These extensions were distributed across 38 separate developer accounts to avoid detection.",
-      "date": "2026-06-15T11:07:50.000Z",
-      "link": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b8ad4b96-5831-40c8-995e-41debe63632f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "PhishLumos: Exposing phishing campaigns that evade detection by hiding content",
-      "summary": "PhishLumos is a research initiative designed to expose phishing campaigns that utilize cloaking techniques to bypass automated security detection systems. The tool addresses the growing sophistication of attackers who hide malicious content to evade interception.",
-      "date": "2026-06-15T10:52:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/phishlumos-phishing-campaign-detection/",
-      "isTopTen": false
-    },
-    {
-      "id": "6a0f0e4b-db2d-4d6c-9094-402e502bcc1c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Modat enhances Magnify with Passive DNS for faster threat hunting and infrastructure analysis",
-      "summary": "Modat has integrated native Passive DNS intelligence into its Magnify platform, allowing security teams to consolidate IP, device, and certificate data into a single investigation workflow. This update aims to streamline threat hunting and infrastructure analysis by uncovering data often missed by conventional scanners.",
-      "date": "2026-06-15T10:35:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/modat-enhances-magnify-with-passive-dns-for-faster-threat-hunting-and-infrastructure-analysis/",
-      "isTopTen": false
-    },
-    {
-      "id": "b7d63c98-ceb0-4aef-a536-420d0443a29d",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Microsoft’s workplace check-in via Wi-Fi tracks who’s in the office, and not everyone’s happy",
-      "summary": "Microsoft is introducing a Wi-Fi-based workplace check-in feature for Teams and Microsoft Places that automatically tracks employee office presence. While Microsoft claims the data is not stored as location history, the feature is controlled at the employer level, sparking privacy and surveillance concerns among labor advocates.",
-      "date": "2026-06-15T10:19:06.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/microsoft-teams-workplace-wi-fi-check-in/",
-      "isTopTen": false
-    },
-    {
-      "id": "fa76ac37-b3b0-4efd-b9d2-87ef6c4a5592",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "LTM’s BlueVerse for iRun applies agentic AI to managed IT operations",
-      "summary": "LTM has launched BlueVerse for iRun, a managed services platform that leverages agentic AI to automate and optimize complex IT operations in hybrid cloud and SaaS environments. The solution aims to transition IT management from traditional, labor-intensive models to an outcome-driven, platform-led approach.",
-      "date": "2026-06-15T10:07:18.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/ltms-blueverse-for-irun-applies-agentic-ai-to-managed-it-operations/",
-      "isTopTen": false
-    },
-    {
-      "id": "2878c082-9185-4080-8537-4632e3f30e27",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Over 50 Android Apps Found Spreading MagicAd Trojan via Official Stores",
-      "summary": "Researchers discovered over 50 malicious Android applications on official stores that deploy the MagicAd trojan to display intrusive background advertisements. These apps utilize sophisticated system-level techniques to maintain ad activity even when the applications are not actively running.",
-      "date": "2026-06-15T10:02:35.000Z",
-      "link": "https://hackread.com/android-apps-magicad-trojan-official-stores/",
-      "isTopTen": false
-    },
-    {
-      "id": "94776477-6133-4a3a-8368-288b3c56e9f5",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
-      "summary": "Attackers injected malicious code into legitimate JavaScript files for popular WordPress plugins, allowing them to create unauthorized admin accounts and install backdoors when administrators logged in. This supply-chain attack specifically targeted sites using PushEngage, OptinMonster, and TrustPulse.",
-      "date": "2026-06-15T09:59:38.000Z",
-      "link": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0f7b019a-1687-43c7-88fa-a5c34c4f358b",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Supply Chain Attack Hits Popular WordPress Plugins Through Awesome Motive CDN",
-      "summary": "Attackers compromised the Awesome Motive CDN to inject malicious JavaScript into popular WordPress plugins, impacting sites using OptinMonster, TrustPulse, and PushEngage. The attack enabled remote backdooring of affected websites without compromising the victims' servers directly.",
-      "date": "2026-06-15T08:34:02.000Z",
-      "link": "https://securityaffairs.com/193616/malware/supply-chain-attack-hits-popular-wordpress-plugins-through-awesome-motive-cdn.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1c7ebac3-5b60-4078-8f2c-532f8609259c",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Infostealers, AI, and a 90% Affiliate Cut Fuel The Gentlemen group’s Rise",
-      "summary": "The Gentlemen ransomware gang has rapidly scaled their operations to target 483 victims globally by leveraging infostealer-acquired credentials, AI automation, and an aggressive 90% affiliate revenue-sharing model. The group has demonstrated significant activity, with the vast majority of these attacks occurring within the first half of 2026.",
-      "date": "2026-06-15T06:58:21.000Z",
-      "link": "https://securityaffairs.com/193622/uncategorized/infostealers-ai-and-a-90-affiliate-cut-fuel-the-gentlemen-groups-rise.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2d6fccd6-161e-44e6-9538-9d720a6f9dd4",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
-      "summary": "The threat actor Sniper Dz is targeting MENA users through fraudulent Facebook impersonation accounts that lure victims with fake subsidies and internet offers. These scams utilize deceptive social engineering tactics to compromise user information via browser alerts and malicious links.",
-      "date": "2026-06-15T06:30:22.000Z",
-      "link": "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2793d9ae-7557-46b2-aab1-22dd7a4cedb4",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
-      "summary": "Palo Alto Networks has confirmed that the CVE-2026-0257 authentication bypass vulnerability in its PAN-OS GlobalProtect software is being actively exploited by unknown attackers. This flaw allows unauthorized access to portals and gateways, posing a significant risk to affected organizations.",
-      "date": "2026-06-15T06:17:32.000Z",
-      "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a536bda5-c2cb-4e4c-8ad5-4011d05858d7",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Onspring CISO on where automated GRC systems fall short",
-      "summary": "Onspring CISO Nichole Windholz highlights the limitations of automated GRC systems, noting that simplified dashboards often overlook complex risks like insider behavior and vendor concentration. She emphasizes the need for deeper data validation to avoid the pitfalls of superficial risk monitoring.",
-      "date": "2026-06-15T06:00:23.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/nichole-windholz-onspring-automated-grc-systems/",
-      "isTopTen": false
-    },
-    {
-      "id": "1b44aa29-ebfb-43db-be74-34300283ca9e",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Proving what a military AI model will do is the real problem",
-      "summary": "Defense contractors are integrating frontier AI models into autonomous military systems, raising concerns about the difficulty of verifying and predicting model behavior in combat scenarios. This unpredictability poses a significant security challenge that existing arms control frameworks fail to address.",
-      "date": "2026-06-15T04:30:35.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/military-ai-verification-problem/",
-      "isTopTen": false
-    },
-    {
-      "id": "fe0cb071-7481-42b0-a107-46eced19ea0d",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Senior engineers are spending their week cleaning up AI-generated code",
-      "summary": "While AI tools are generating code that appears high-quality and bug-free during initial submission, senior engineers are reporting that this code frequently leads to increased production incidents and operational instability. This shift reflects a growing concern regarding the reliability of automated code generation in enterprise environments.",
-      "date": "2026-06-15T04:00:46.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/ai-generated-code-review-issues/",
-      "isTopTen": false
-    },
-    {
-      "id": "c9772104-8ad7-41fc-b96b-b8d2c96d59c9",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Belarus-linked hackers target Gmail accounts of Polish public figures and their families",
-      "summary": "The Belarus-linked hacker group Ghostwriter is actively targeting the personal Gmail accounts of Polish public officials and their family members through expanded phishing operations. This development represents a concerning escalation in the group's efforts to compromise sensitive information held by high-profile political figures.",
-      "date": "2026-06-14T23:00:00.000Z",
-      "link": "https://therecord.media/ghostwriter-targets-personal-gmail-accounts-in-poland",
-      "isTopTen": false
-    },
-    {
-      "id": "393a0ac6-0009-4b85-b542-21fe7859de8c",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hackers Hide New Argamal Malware Inside Working Hentai Games",
-      "summary": "Researchers discovered the new Argamal malware embedded within functional hentai game installers distributed on adult websites and torrent platforms. The malware grants attackers remote access to compromised systems while masquerading as legitimate entertainment software.",
-      "date": "2026-06-14T17:46:03.000Z",
-      "link": "https://hackread.com/hackers-hide-argamal-malware-hentai-games/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5b0ed7a-c372-4898-92a6-d59ee0f2700a",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
-      "summary": "The FBI, in collaboration with Google and Black Lotus Labs, successfully dismantled the 'Outsider Enterprise' phishing-as-a-service operation that utilized AI-driven tactics and thousands of malicious websites to steal user credentials and financial information.",
-      "date": "2026-06-14T14:36:23.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-      "isTopTen": false
-    },
-    {
-      "id": "21e24678-432e-4f1f-8d02-7b9e939df93c",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 101",
-      "summary": "The Security Affairs Malware Newsletter, round 101, provides an overview of emerging threats including the IronWorm Rust-based malware, the Miasma npm worm, and a new variant of the Gafgyt botnet. It also covers techniques for leveraging AI agents to assist in malware analysis.",
-      "date": "2026-06-14T13:23:29.000Z",
-      "link": "https://securityaffairs.com/193609/breaking-news/security-affairs-malware-newsletter-round-101.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ab635082-ce79-48d7-a7e1-77424cec32c1",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Security Affairs newsletter Round 581 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "summary": "The latest edition of the Security Affairs newsletter covers curated industry news, including a report on the U.S. government halting the release of Anthropic's Fable 5 and Mythos 5 AI models.",
-      "date": "2026-06-14T13:03:56.000Z",
-      "link": "https://securityaffairs.com/193600/security/security-affairs-newsletter-round-581-by-pierluigi-paganini-international-edition.html",
       "isTopTen": false
     }
   ]
