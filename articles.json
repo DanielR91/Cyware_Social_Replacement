@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-25T22:25:03.758Z",
+  "lastUpdated": "2026-06-26T04:10:08.015Z",
   "articles": [
+    {
+      "id": "7f435d34-223a-4b02-9e09-2686bbc2534a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New infosec products of the month: June 2026",
+      "summary": "This article highlights several new cybersecurity product releases for June 2026, including Asimily's new Segmentation Orchestration tool for automated device risk management. It provides a roundup of updates from various vendors aimed at enhancing security operations and asset visibility.",
+      "date": "2026-06-26T04:00:46.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/06/26/new-infosec-products-of-the-month-june-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "3b6302b5-952b-4d18-ac43-e4f13e7908a0",
+      "source": "BleepingComputer",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
+      "summary": "Anthropic is testing a 'Claude Cowork' feature for mobile devices, enabling users to manage long-running AI tasks directly from their phones. This expansion increases the accessibility and mobile integration of their AI agent capabilities.",
+      "date": "2026-06-25T22:53:32.000Z",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
+      "isTopTen": false
+    },
+    {
+      "id": "9d74cf0b-5ec2-44ed-86bb-bf6f490bff04",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+      "summary": "Polish authorities have arrested four individuals involved in a cybercrime group that utilized SIM-swapping and email hijacking to steal millions in cryptocurrency. The operation focused on compromising telecommunications partners to facilitate these fraudulent attacks.",
+      "date": "2026-06-25T22:37:42.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+      "isTopTen": false
+    },
     {
       "id": "328aafac-1a4c-4ccd-b127-90aa7443bbf7",
       "source": "Unit 42",
@@ -109,7 +142,7 @@
       "summary": "A new macOS malware named Gaslight employs prompt injection techniques and fake debugging data to deliberately deceive AI-based security analysis tools. This strategy aims to evade detection by causing confusion during the automated malware inspection process.",
       "date": "2026-06-25T16:23:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "09a060db-583f-441c-b6a5-d8c1c00e11e2",
@@ -384,7 +417,7 @@
       "summary": "The newly discovered Gaslight macOS malware leverages prompt injection techniques to manipulate AI-powered analysis tools into ignoring or misinterpreting its malicious payload. This tactic represents an emerging trend of adversarial attacks specifically targeting AI-assisted cybersecurity workflows.",
       "date": "2026-06-25T09:23:03.000Z",
       "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "32e5eae1-7f97-4c67-b0db-20a305504910",
@@ -395,7 +428,7 @@
       "summary": "An unknown threat actor exploited a Cisco Catalyst SD-WAN zero-day vulnerability, CVE-2026-20245, for at least two months prior to its public disclosure, allowing for privileged command execution. The flaw, which holds a CVSS score of 7.8, highlights a significant lag between active exploitation and vendor patching.",
       "date": "2026-06-25T09:17:31.000Z",
       "link": "https://securityaffairs.com/194200/hacking/cisco-catalyst-sd-wan-zero-day-cve-2026-20245-exploited-months-before-disclosure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6a20728-e970-434f-9a12-3c554dbd957a",
@@ -615,7 +648,7 @@
       "summary": "Mandiant identified that malicious actors exploited a Cisco zero-day vulnerability to obtain root-level access within a communications service provider's network. The full extent of the intrusion and the identity of the attackers remain under investigation.",
       "date": "2026-06-24T18:47:17.000Z",
       "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "afec8620-5473-4f7d-a38e-9a1bd504f717",
@@ -648,7 +681,7 @@
       "summary": "CISA has issued an alert regarding the active exploitation of a critical code injection vulnerability (CVE-2025-67038) in Lantronix EDS5000 Series devices. Federal agencies are mandated to implement security patches by June 26, 2026.",
       "date": "2026-06-24T17:19:18.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "67d7e6d1-da0d-4543-9381-c8c071855934",
@@ -692,7 +725,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of critical vulnerabilities in Ubiquiti UniFi OS and Lantronix serial-to-ethernet devices. Users are advised to patch these flaws immediately to prevent potential unauthorized access.",
       "date": "2026-06-24T14:35:15.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15ad44f1-5856-4b5a-9b65-c1b19981b1f8",
@@ -5466,39 +5499,6 @@
       "summary": "Unit 42 researchers have identified a new macOS artifact called Tahoe 26 that logs user menu selections, providing new capabilities for digital forensics. This discovery enables investigators to better trace user activity across the operating system.",
       "date": "2026-06-12T22:00:14.000Z",
       "link": "https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/",
-      "isTopTen": false
-    },
-    {
-      "id": "682b3c11-f434-4a0f-8a76-1888c846df6c",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "FBI takes down massive China-based cybercrime network that caused $1.9B in losses",
-      "summary": "The FBI dismantled a China-based cybercrime network responsible for $1.9 billion in financial losses through a phishing infrastructure that impersonated delivery and government services. The operation targeted victims with deceptive lures regarding unpaid tolls, parking violations, and missed packages.",
-      "date": "2026-06-12T21:56:29.000Z",
-      "link": "https://cyberscoop.com/outsider-cybercrime-network-takedown-china-fbi-google-lumen/",
-      "isTopTen": false
-    },
-    {
-      "id": "a530221f-4b6e-441d-97d3-f44d086f68da",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Iran-Linked Handala Breached a California Water Utility. It Could Have Done Worse, and It Knows That.",
-      "summary": "The Iran-linked threat group Handala breached California Water Service through an exposed GPS tool, resulting in the unauthorized access and leakage of billing data for 2 million customers. The attackers published 5GB of stolen data as proof of the compromise.",
-      "date": "2026-06-12T21:34:22.000Z",
-      "link": "https://securityaffairs.com/193565/uncategorized/iran-linked-handala-breached-a-california-water-utility-it-could-have-done-worse-and-it-knows-that.html",
-      "isTopTen": false
-    },
-    {
-      "id": "da2ed7b8-9702-460b-aec8-3565770a272f",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Maine disables data breach notification portal after fake disclosures",
-      "summary": "The state of Maine took its public data breach portal offline following the submission of fraudulent breach reports. The state is currently reviewing its authentication and submission procedures to prevent further abuse of the system.",
-      "date": "2026-06-12T19:33:32.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
       "isTopTen": false
     }
   ]
