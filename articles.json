@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-06-26T14:40:29.848Z",
+  "lastUpdated": "2026-06-26T17:05:07.331Z",
   "articles": [
+    {
+      "id": "bf7c466e-33dc-4335-8da0-3de2d1747653",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "summary": "A Chinese-speaking APT actor identified as CL-STA-1062 is targeting Southeast Asian government and energy entities using a new custom backdoor named TinyRCT. The campaign represents a focused effort against critical infrastructure in the region.",
+      "date": "2026-06-26T16:21:25.000Z",
+      "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "isTopTen": true
+    },
+    {
+      "id": "5b5bdcac-7075-4d04-9428-504d9d8e3734",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Amazon Q flaw let booby-trapped Git repos execute code, swipe cloud creds",
+      "summary": "A security vulnerability in Amazon Q allowed attackers to execute malicious code and steal cloud credentials through booby-trapped Git repository configurations. This flaw highlights broader security concerns regarding the execution of commands by AI coding assistants.",
+      "date": "2026-06-26T15:34:00.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
+      "isTopTen": true
+    },
     {
       "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
       "source": "BleepingComputer",
@@ -32,7 +54,7 @@
       "summary": "A high-severity vulnerability in Amazon Q Developer allowed attackers to execute arbitrary code and steal cloud credentials by exploiting the application's handling of Model Context Protocol (MCP) servers. Amazon has since released a patch to address the security flaw.",
       "date": "2026-06-26T13:53:00.000Z",
       "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "334ad8bd-05ef-47aa-9a94-c227e82208ca",
@@ -76,7 +98,7 @@
       "summary": "A macOS XPC vulnerability allowed unprivileged users to disable security software like CrowdStrike and Kandji. The vendors have since released patches to address the issue discovered by XM Cyber.",
       "date": "2026-06-26T12:43:05.000Z",
       "link": "https://hackread.com/macos-flaw-users-disable-crowdstrike-kandji-security-tools/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ddec1304-7826-4f51-916e-e09634d48a7b",
@@ -208,7 +230,7 @@
       "summary": "A 2026 report by Black Kite reveals that ransomware attacks against European organizations are rising, with threat actors increasingly targeting supply chains as their primary entry point. The study highlights the convergence of rising ransomware activity, vulnerable third-party suppliers, and complex regulatory landscapes.",
       "date": "2026-06-26T09:49:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/black-kite-european-cyber-threats-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7eab60eb-5653-4a5a-ad7d-2431d4999353",
@@ -241,7 +263,7 @@
       "summary": "Fortra researchers have identified Mirage2FA, a sophisticated phishing kit that uses HTML smuggling and obfuscated JavaScript to bypass security filters and steal Microsoft 365 credentials during MFA processes. The campaign utilizes business-themed lures like fake invoices and payment requests to target users via email.",
       "date": "2026-06-26T09:26:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "47963faa-7116-4b2d-88f1-e625fb52a90a",
@@ -318,7 +340,7 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
@@ -626,7 +648,7 @@
       "summary": "A popular Chrome extension with over 10 million installs, 'Adblock for YouTube', was found to contain a dormant script injection capability that allows for arbitrary JavaScript execution. The extension, which carried a Google-verified 'Featured' badge, poses a significant supply chain risk to its large user base.",
       "date": "2026-06-25T14:12:52.000Z",
       "link": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9fd801eb-eaa7-4844-a1c6-b85bae9f1e88",
@@ -5477,28 +5499,6 @@
       "summary": "This webinar discusses how behavioral AI technology can enhance email security by automating the detection and remediation of phishing and account takeover attacks to alleviate operational strain. It focuses on modernizing defense strategies against sophisticated threats that circumvent traditional security controls.",
       "date": "2026-06-15T12:12:20.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
-      "isTopTen": false
-    },
-    {
-      "id": "4c214ea0-fca8-4f86-8c8f-89ecf1bb0783",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Handala Hacking Group Claims Breach of California Water Service",
-      "summary": "The Handala hacking group claims to have breached California Water Service, resulting in the exposure of 5GB of customer data and infrastructure files. This incident highlights an ongoing threat to critical infrastructure sectors.",
-      "date": "2026-06-15T12:07:11.000Z",
-      "link": "https://hackread.com/handala-hacking-group-california-water-service-breach/",
-      "isTopTen": false
-    },
-    {
-      "id": "2247bb6f-9969-4600-99d6-30bc1adab793",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI vulnerability discovery is pushing 2026 CVEs toward 66,000",
-      "summary": "The rapid adoption of AI-driven vulnerability discovery tools is significantly accelerating the identification of software flaws, leading to a projected record of 66,000 CVEs for 2026. This surge in automated reporting suggests a fundamental shift in how security vulnerabilities are uncovered at scale.",
-      "date": "2026-06-15T12:00:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/first-2026-cve-forecast/",
       "isTopTen": false
     }
   ]
