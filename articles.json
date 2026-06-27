@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-27T13:54:02.272Z",
+  "lastUpdated": "2026-06-27T16:10:25.179Z",
   "articles": [
+    {
+      "id": "1f5fb678-9c75-457c-b453-7e8fe6eb8d58",
+      "source": "BleepingComputer",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Clean GitHub repo tricks AI coding agents into running malware",
+      "summary": "Malicious actors are embedding hidden payloads in GitHub repositories that exploit automated AI coding agents to execute malware during routine repository setup. This supply chain attack technique evades both traditional security scanners and human oversight.",
+      "date": "2026-06-27T14:22:36.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "isTopTen": true
+    },
     {
       "id": "4e92c584-602d-4e11-b364-64fedd4685ba",
       "source": "The Hacker News",
@@ -21,7 +32,7 @@
       "summary": "Researchers have discovered a critical Linux kernel privilege escalation flaw, dubbed DirtyClone, that allows attackers to rewrite memory executables without leaving disk traces. This vulnerability is the fourth in the DirtyFrag family and carries a high CVSS score of 8.8.",
       "date": "2026-06-27T09:12:26.000Z",
       "link": "https://securityaffairs.com/194338/uncategorized/dirtyclone-fourth-linux-kernel-flaw-in-six-weeks-escalates-to-root.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6feddb69-7937-4dbc-9a20-b7a6b5303fbc",
@@ -32,7 +43,7 @@
       "summary": "The integration of AI into vulnerability discovery is rapidly uncovering vast numbers of previously unknown security flaws, placing significant strain on cybersecurity teams. This surge in identified vulnerabilities is expected to create a challenging and resource-intensive summer for security operations.",
       "date": "2026-06-27T06:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "620bee93-99a3-4038-bb82-f6475b73dbcc",
@@ -43,7 +54,7 @@
       "summary": "Russian intelligence services are utilizing phishing campaigns to harvest Signal Backup Recovery Keys, enabling the decryption and unauthorized access of users' historical messages. This evolution in tactics poses a significant risk to the privacy of encrypted communications.",
       "date": "2026-06-26T22:06:17.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f9f247af-884b-4617-8723-5f497ab03405",
@@ -54,7 +65,7 @@
       "summary": "This article evaluates eight leading Static Application Security Testing (SAST) tools optimized for handling complex, multi-language monorepos and large-scale platform engineering environments in 2026. It focuses on features like incremental scanning, automated ownership, and custom rule management.",
       "date": "2026-06-26T21:54:40.000Z",
       "link": "https://hackread.com/top-sast-tools-polyglot-monorepos-platform-engineering/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7cedd5ae-d0ff-41b6-b47b-aad7ce4a5385",
@@ -76,7 +87,7 @@
       "summary": "CISA has issued an urgent directive requiring federal agencies to patch an actively exploited vulnerability in Cisco Unified Communications Manager Server by this Sunday. The mandate aims to mitigate risks posed by ongoing attacks targeting the flaw.",
       "date": "2026-06-26T19:43:06.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "937a8b75-2836-4b83-87ce-c36b21a471e3",
@@ -87,7 +98,7 @@
       "summary": "The FBI and CISA have issued an alert regarding Russian intelligence actors who are phishing Signal users to obtain their backup recovery keys, enabling unauthorized access to message history and account takeovers.",
       "date": "2026-06-26T19:38:29.000Z",
       "link": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d3a0fc04-010a-4166-a1c0-231372154f71",
@@ -142,7 +153,7 @@
       "summary": "Threat actors are impersonating legitimate organizations through fraudulent OpenAI invites to harvest sensitive corporate information from employees. This social engineering campaign exploits trust in AI platforms to gain unauthorized access to internal data.",
       "date": "2026-06-26T17:49:07.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9fc5b348-f1cd-494f-82e8-1d7c2c1d8795",
@@ -153,7 +164,7 @@
       "summary": "Chinese-speaking threat actor CL-STA-1062 is conducting persistent cyber espionage operations targeting critical infrastructure in Southeast Asia using custom malware and a new backdoor dubbed TinyRCT.",
       "date": "2026-06-26T17:16:09.000Z",
       "link": "https://securityaffairs.com/194312/intelligence/chinese-apt-cl-sta-1062-expands-attacks-on-southeast-asian-critical-infrastructure-with-custom-malware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bf7c466e-33dc-4335-8da0-3de2d1747653",
@@ -164,7 +175,7 @@
       "summary": "A Chinese-speaking APT actor identified as CL-STA-1062 is targeting Southeast Asian government and energy entities using a new custom backdoor named TinyRCT. The campaign represents a focused effort against critical infrastructure in the region.",
       "date": "2026-06-26T16:21:25.000Z",
       "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5b5bdcac-7075-4d04-9428-504d9d8e3734",
@@ -175,7 +186,7 @@
       "summary": "A security vulnerability in Amazon Q allowed attackers to execute malicious code and steal cloud credentials through booby-trapped Git repository configurations. This flaw highlights broader security concerns regarding the execution of commands by AI coding assistants.",
       "date": "2026-06-26T15:34:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
@@ -186,7 +197,7 @@
       "summary": "This article explores the implementation of an AI-driven GRC agent designed to automate control monitoring, evidence gap identification, and remediation task management for compliance professionals.",
       "date": "2026-06-26T14:01:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f94df2f4-f976-42ba-8eb1-ea566c165f83",
@@ -197,7 +208,7 @@
       "summary": "A critical local privilege escalation vulnerability in the Linux kernel's traffic-control subsystem allows unprivileged users to gain root access via an out-of-bounds write. A public exploit for this flaw, dubbed 'pedit COW,' is already available, posing an immediate risk to affected systems.",
       "date": "2026-06-26T13:57:55.000Z",
       "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "872159b7-3b35-45b0-99e1-ee379a57a01a",
@@ -274,7 +285,7 @@
       "summary": "The Miasma supply chain attack has compromised over 20 npm packages, including Leo Platform and RStreams, to steal developer credentials and target software maintainers. Microsoft has identified the campaign, which focuses on harvesting secrets through malicious package injections.",
       "date": "2026-06-26T12:18:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/26/miasma-campaign-poisons-20-plus-npm-packages-hunts-for-developer-secrets/5262886",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "efa7b838-c066-44ba-ae82-0278da7a163a",
@@ -285,7 +296,7 @@
       "summary": "The FCC has approved stricter regulations for undersea cable infrastructure, including a new requirement for submarine line terminal equipment operators to obtain licenses. This initiative aims to strengthen the security and oversight of critical telecommunications infrastructure.",
       "date": "2026-06-26T12:10:00.000Z",
       "link": "https://therecord.media/fcc-votes-to-toughen-rules-undersea-cables",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2d6c752f-5138-47b2-88a1-b4c5abb1c98b",
@@ -373,7 +384,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Cisco, PTC Windchill, and FlexPLM products. Organizations are urged to address these vulnerabilities to mitigate the risk of exploitation.",
       "date": "2026-06-26T10:35:38.000Z",
       "link": "https://securityaffairs.com/194290/security/u-s-cisa-adds-cisco-and-ptc-windchill-and-flexplm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "eb77ab63-9047-4beb-a864-1631f22ac04b",
@@ -494,7 +505,7 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
@@ -659,7 +670,7 @@
       "summary": "The Curl project released a significant update addressing 18 vulnerabilities in libcurl, including a critical memory safety bug that has persisted for 25 years. The patch covers a range of security flaws, including authentication bypass and host validation issues.",
       "date": "2026-06-25T19:20:27.000Z",
       "link": "https://securityaffairs.com/194220/security/curl-fixes-a-25-year-old-bug-in-its-largest-cve-release-yet.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dcf8bcd1-98db-4f38-8053-8a8044659e54",
@@ -5488,17 +5499,6 @@
       "summary": "The rise of AI-driven 'vibe coding' by employees is creating significant shadow IT and governance challenges for CISOs. Organizations are struggling to maintain security oversight as staff deploy automated tools and applications outside traditional corporate controls.",
       "date": "2026-06-15T14:01:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
-      "isTopTen": false
-    },
-    {
-      "id": "001b4914-4cc1-413f-9475-9a9332ccbfe5",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "PRC-linked spies hid inside medical and military networks for more than a year, snooping through Gmail and stealing data",
-      "summary": "PRC-linked threat actors maintained persistent unauthorized access to medical and military networks for over a year, exfiltrating sensitive data and monitoring Gmail communications. The attackers specifically targeted intellectual property related to drone technology and biological research.",
-      "date": "2026-06-15T14:00:00.000Z",
-      "link": "https://www.theregister.com/research/2026/06/15/google-says-prc-linked-spies-hid-in-medical-research-networks-for-more-than-a-year/5254547",
       "isTopTen": false
     }
   ]
