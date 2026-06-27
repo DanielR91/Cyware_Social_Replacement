@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-27T03:54:16.456Z",
+  "lastUpdated": "2026-06-27T08:43:45.635Z",
   "articles": [
+    {
+      "id": "6feddb69-7937-4dbc-9a20-b7a6b5303fbc",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "It's looking like a hot, messy summer for security teams as AI finds countless previously hidden vulns",
+      "summary": "The integration of AI into vulnerability discovery is rapidly uncovering vast numbers of previously unknown security flaws, placing significant strain on cybersecurity teams. This surge in identified vulnerabilities is expected to create a challenging and resource-intensive summer for security operations.",
+      "date": "2026-06-27T06:59:00.000Z",
+      "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
+      "isTopTen": true
+    },
     {
       "id": "620bee93-99a3-4038-bb82-f6475b73dbcc",
       "source": "BleepingComputer",
@@ -384,7 +395,7 @@
       "summary": "Fortra researchers have identified Mirage2FA, a sophisticated phishing kit that uses HTML smuggling and obfuscated JavaScript to bypass security filters and steal Microsoft 365 credentials during MFA processes. The campaign utilizes business-themed lures like fake invoices and payment requests to target users via email.",
       "date": "2026-06-26T09:26:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "47963faa-7116-4b2d-88f1-e625fb52a90a",
@@ -461,7 +472,7 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
@@ -769,7 +780,7 @@
       "summary": "A popular Chrome extension with over 10 million installs, 'Adblock for YouTube', was found to contain a dormant script injection capability that allows for arbitrary JavaScript execution. The extension, which carried a Google-verified 'Featured' badge, poses a significant supply chain risk to its large user base.",
       "date": "2026-06-25T14:12:52.000Z",
       "link": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9fd801eb-eaa7-4844-a1c6-b85bae9f1e88",
@@ -5488,17 +5499,6 @@
       "summary": "The weekly recap highlights recurring cybersecurity threats, including critical Chrome zero-days, exposed legacy infrastructure, and the exploitation of abandoned software components. It emphasizes that persistent vulnerabilities and negligence remain the primary entry points for modern cyber attacks.",
       "date": "2026-06-15T13:49:29.000Z",
       "link": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
-      "isTopTen": false
-    },
-    {
-      "id": "67116cc4-762c-4972-918b-76bfad80bf12",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Feds Seize CFAKE and SOCFAKE Over Explicit Deepfakes of Famous Women",
-      "summary": "U.S. federal authorities seized the domains CFAKE.com and SOCFAKE.com for hosting nonconsensual, AI-generated deepfake explicit imagery of famous women. This action highlights ongoing legal efforts to combat the proliferation of synthetic sexual abuse material.",
-      "date": "2026-06-15T13:44:46.000Z",
-      "link": "https://hackread.com/feds-seize-cfake-and-socfake-explicit-deepfakes-women/",
       "isTopTen": false
     }
   ]
