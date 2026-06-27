@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-27T08:43:45.635Z",
+  "lastUpdated": "2026-06-27T11:02:46.712Z",
   "articles": [
+    {
+      "id": "7412a12e-85ab-42d4-9525-a0940e79196e",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "DirtyClone: Fourth Linux Kernel Flaw in Six Weeks Escalates to Root",
+      "summary": "Researchers have discovered a critical Linux kernel privilege escalation flaw, dubbed DirtyClone, that allows attackers to rewrite memory executables without leaving disk traces. This vulnerability is the fourth in the DirtyFrag family and carries a high CVSS score of 8.8.",
+      "date": "2026-06-27T09:12:26.000Z",
+      "link": "https://securityaffairs.com/194338/uncategorized/dirtyclone-fourth-linux-kernel-flaw-in-six-weeks-escalates-to-root.html",
+      "isTopTen": true
+    },
     {
       "id": "6feddb69-7937-4dbc-9a20-b7a6b5303fbc",
       "source": "The Register",
@@ -109,7 +120,7 @@
       "summary": "Polymarket suffered a $3 million loss after a third-party vendor breach allowed attackers to inject a malicious script into the platform's frontend. The company has committed to fully reimbursing all affected customers.",
       "date": "2026-06-26T18:04:12.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "29cc3e3a-f80e-4250-982e-60c136b10b2a",
@@ -153,7 +164,7 @@
       "summary": "A security vulnerability in Amazon Q allowed attackers to execute malicious code and steal cloud credentials through booby-trapped Git repository configurations. This flaw highlights broader security concerns regarding the execution of commands by AI coding assistants.",
       "date": "2026-06-26T15:34:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
@@ -241,7 +252,7 @@
       "summary": "CISA has added a critical remote code execution vulnerability in PTC Windchill software to its Known Exploited Vulnerabilities (KEV) catalog due to ongoing active exploitation. The flaw is being leveraged by attackers to deploy web shells.",
       "date": "2026-06-26T12:31:56.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a5653e4-e6dc-4efb-bbaf-94d7891c9bfa",
@@ -395,7 +406,7 @@
       "summary": "Fortra researchers have identified Mirage2FA, a sophisticated phishing kit that uses HTML smuggling and obfuscated JavaScript to bypass security filters and steal Microsoft 365 credentials during MFA processes. The campaign utilizes business-themed lures like fake invoices and payment requests to target users via email.",
       "date": "2026-06-26T09:26:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "47963faa-7116-4b2d-88f1-e625fb52a90a",
@@ -472,7 +483,7 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
@@ -5488,17 +5499,6 @@
       "summary": "Chinese-linked threat actors compromised vulnerable REDCap servers at a North American medical institution to deploy InfiniteRed malware and exfiltrate sensitive research data.",
       "date": "2026-06-15T14:00:00.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
-      "isTopTen": false
-    },
-    {
-      "id": "30417109-9b12-494c-8b62-2186540fedc6",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
-      "summary": "The weekly recap highlights recurring cybersecurity threats, including critical Chrome zero-days, exposed legacy infrastructure, and the exploitation of abandoned software components. It emphasizes that persistent vulnerabilities and negligence remain the primary entry points for modern cyber attacks.",
-      "date": "2026-06-15T13:49:29.000Z",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
       "isTopTen": false
     }
   ]
