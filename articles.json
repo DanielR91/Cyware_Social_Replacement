@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-27T16:10:25.179Z",
+  "lastUpdated": "2026-06-27T19:28:59.981Z",
   "articles": [
+    {
+      "id": "7b3bc052-d3b0-456d-8c32-905168c270d2",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+      "summary": "The SSU and FBI have exposed a coordinated Russian intelligence campaign using fraudulent support messages to compromise the accounts of government officials, military personnel, and activists globally. The operation aimed to gain unauthorized access to sensitive messaging credentials to facilitate espionage.",
+      "date": "2026-06-27T17:27:11.000Z",
+      "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9b909d57-aee3-42f8-8d60-f7f1829ea778",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "New FBI Alert: Russian Intelligence Uses Signal Recovery Keys to Access Messages",
+      "summary": "The FBI and CISA have issued an updated advisory warning that Russian intelligence services are exploiting Signal Backup Recovery Keys to compromise user message history and gain unauthorized account access. This campaign represents a shift in strategy toward long-term surveillance through advanced phishing tactics.",
+      "date": "2026-06-27T16:08:57.000Z",
+      "link": "https://securityaffairs.com/194360/intelligence/new-fbi-alert-russian-intelligence-uses-signal-recovery-keys-to-access-messages.html",
+      "isTopTen": true
+    },
+    {
+      "id": "5295868e-3e02-4864-b26b-10ef460f39cb",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Hospitality Sector Hit by Phishing Campaign Using Fake Guest Complaint Emails",
+      "summary": "Microsoft has identified a long-running phishing campaign targeting the hospitality sector that deploys TonRAT malware using persistent techniques. The attacks, active since April 2026, specifically exploit guest communication channels to compromise organizational environments.",
+      "date": "2026-06-27T15:20:56.000Z",
+      "link": "https://securityaffairs.com/194349/uncategorized/hospitality-sector-hit-by-phishing-campaign-using-fake-guest-complaint-emails.html",
+      "isTopTen": false
+    },
     {
       "id": "1f5fb678-9c75-457c-b453-7e8fe6eb8d58",
       "source": "BleepingComputer",
@@ -43,7 +76,7 @@
       "summary": "The integration of AI into vulnerability discovery is rapidly uncovering vast numbers of previously unknown security flaws, placing significant strain on cybersecurity teams. This surge in identified vulnerabilities is expected to create a challenging and resource-intensive summer for security operations.",
       "date": "2026-06-27T06:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "620bee93-99a3-4038-bb82-f6475b73dbcc",
@@ -54,7 +87,7 @@
       "summary": "Russian intelligence services are utilizing phishing campaigns to harvest Signal Backup Recovery Keys, enabling the decryption and unauthorized access of users' historical messages. This evolution in tactics poses a significant risk to the privacy of encrypted communications.",
       "date": "2026-06-26T22:06:17.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f9f247af-884b-4617-8723-5f497ab03405",
@@ -76,7 +109,7 @@
       "summary": "The U.S. Secret Service is facing scrutiny for security failures, including the use of personal cell phones for sensitive missions and a lack of threat detection capabilities on government-issued devices. These operational lapses highlight significant vulnerabilities in the agency's mobile security infrastructure.",
       "date": "2026-06-26T21:50:47.000Z",
       "link": "https://www.theregister.com/security/2026/06/26/even-the-secret-service-wont-use-company-issued-phones/5263356",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "88d580c4-05e9-4d14-acc2-f4e630bf8cf3",
@@ -87,7 +120,7 @@
       "summary": "CISA has issued an urgent directive requiring federal agencies to patch an actively exploited vulnerability in Cisco Unified Communications Manager Server by this Sunday. The mandate aims to mitigate risks posed by ongoing attacks targeting the flaw.",
       "date": "2026-06-26T19:43:06.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "937a8b75-2836-4b83-87ce-c36b21a471e3",
@@ -131,7 +164,7 @@
       "summary": "Researchers have identified a new malware family named SharkLoader, which is being utilized in the StrikeShark campaign to deploy Cobalt Strike Beacons against government and diplomatic targets. The attack highlights a sophisticated threat actor targeting specific geopolitical entities.",
       "date": "2026-06-26T18:17:46.000Z",
       "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d8014b4d-f649-4203-baab-ad7ff4f26739",
@@ -186,7 +219,7 @@
       "summary": "A security vulnerability in Amazon Q allowed attackers to execute malicious code and steal cloud credentials through booby-trapped Git repository configurations. This flaw highlights broader security concerns regarding the execution of commands by AI coding assistants.",
       "date": "2026-06-26T15:34:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
@@ -208,7 +241,7 @@
       "summary": "A critical local privilege escalation vulnerability in the Linux kernel's traffic-control subsystem allows unprivileged users to gain root access via an out-of-bounds write. A public exploit for this flaw, dubbed 'pedit COW,' is already available, posing an immediate risk to affected systems.",
       "date": "2026-06-26T13:57:55.000Z",
       "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "872159b7-3b35-45b0-99e1-ee379a57a01a",
@@ -241,7 +274,7 @@
       "summary": "Google researchers have identified a new piece of malware called StockStay, which is being utilized by the Russian threat actor group Turla in its ongoing espionage campaigns against Ukraine.",
       "date": "2026-06-26T13:30:00.000Z",
       "link": "https://therecord.media/russia-turla-espionage-ukraine-stockstay-malware",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a5fad29-ea63-4bbd-a297-c1c7cf12d6e0",
@@ -384,7 +417,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Cisco, PTC Windchill, and FlexPLM products. Organizations are urged to address these vulnerabilities to mitigate the risk of exploitation.",
       "date": "2026-06-26T10:35:38.000Z",
       "link": "https://securityaffairs.com/194290/security/u-s-cisa-adds-cisco-and-ptc-windchill-and-flexplm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eb77ab63-9047-4beb-a864-1631f22ac04b",
@@ -626,7 +659,7 @@
       "summary": "Tata Electronics has confirmed a significant data breach involving 630GB of stolen information, including sensitive documents related to its supply chain partnerships with Apple and Tesla. The incident follows claims made on a hacker forum regarding unauthorized access to the company's IT systems.",
       "date": "2026-06-25T20:41:16.000Z",
       "link": "https://securityaffairs.com/194237/data-breach/tata-electronics-confirms-data-breach-after-630gb-leak-claim-targets-apple-and-tesla.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6f95f456-008b-4bbd-9ec3-f5232fc8e044",
@@ -670,7 +703,7 @@
       "summary": "The Curl project released a significant update addressing 18 vulnerabilities in libcurl, including a critical memory safety bug that has persisted for 25 years. The patch covers a range of security flaws, including authentication bypass and host validation issues.",
       "date": "2026-06-25T19:20:27.000Z",
       "link": "https://securityaffairs.com/194220/security/curl-fixes-a-25-year-old-bug-in-its-largest-cve-release-yet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dcf8bcd1-98db-4f38-8053-8a8044659e54",
@@ -5466,39 +5499,6 @@
       "summary": "Researchers discovered a 'SearchLeak' vulnerability in Microsoft 365 Copilot that allows attackers to exfiltrate sensitive data via a single, trusted link. By chaining three bugs, attackers could bypass security filters to steal emails, files, and multi-factor authentication codes.",
       "date": "2026-06-15T15:09:05.000Z",
       "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "53e1ece5-4e79-4485-9867-661e22b3f0d3",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cyberattack on Russian tech firm Astral disrupts business, government services for week",
-      "summary": "A cyberattack on the Russian technology firm Astral caused week-long service outages, significantly impacting business operations, regulatory compliance systems, and government-linked services. The disruption hindered essential functions such as digital document management, point-of-sale systems, and authentication protocols.",
-      "date": "2026-06-15T15:07:00.000Z",
-      "link": "https://therecord.media/cyberattack-on-russian-tech-firm-astral-disrupts-business-government-services",
-      "isTopTen": false
-    },
-    {
-      "id": "355ece2d-34d1-41c9-9936-ae78288bb706",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Delinea and Cyera integrate for data-aware identity security",
-      "summary": "Delinea and Cyera have integrated their platforms to correlate privileged identity access with sensitive data exposure, enabling better risk prioritization for human and machine identities. This partnership aims to help security teams govern access paths in environments increasingly populated by AI agents.",
-      "date": "2026-06-15T15:06:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/delinea-cyera-product-integration/",
-      "isTopTen": false
-    },
-    {
-      "id": "d4d511cb-2411-40e9-b31e-2563f57bb583",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Vibe coders are gonna vibe code: How CISOs are tackling code sprawl",
-      "summary": "The rise of AI-driven 'vibe coding' by employees is creating significant shadow IT and governance challenges for CISOs. Organizations are struggling to maintain security oversight as staff deploy automated tools and applications outside traditional corporate controls.",
-      "date": "2026-06-15T14:01:11.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
       "isTopTen": false
     }
   ]
