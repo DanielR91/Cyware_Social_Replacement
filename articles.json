@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-28T19:29:57.654Z",
+  "lastUpdated": "2026-06-28T22:07:00.080Z",
   "articles": [
+    {
+      "id": "a1ead69d-0825-4c88-9666-878ae6888808",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "KDDI Data Breach Impacts up to 14.2 Million Email Accounts at Six ISPs",
+      "summary": "KDDI Corporation reported a data breach affecting up to 14.2 million email accounts across six Japanese internet service providers, caused by a vulnerability in third-party software.",
+      "date": "2026-06-28T19:11:57.000Z",
+      "link": "https://securityaffairs.com/194387/data-breach/kddi-data-breach-impacts-up-to-14-2-million-email-accounts-at-six-isps.html",
+      "isTopTen": true
+    },
     {
       "id": "28e94b1d-61a6-4865-bd59-7fc9ef2043c9",
       "source": "Security Affairs",
@@ -43,7 +54,7 @@
       "summary": "Japanese telecommunications giant KDDI Corporation suffered a data breach impacting an email system shared by five other ISPs, resulting in the exposure of up to 14.2 million user credentials.",
       "date": "2026-06-28T14:13:46.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f798cbb0-b7ac-43b0-ad5f-78b841f1f18d",
@@ -65,7 +76,7 @@
       "summary": "The SSU and FBI have exposed a coordinated Russian intelligence campaign using fraudulent support messages to compromise the accounts of government officials, military personnel, and activists globally. The operation aimed to gain unauthorized access to sensitive messaging credentials to facilitate espionage.",
       "date": "2026-06-27T17:27:11.000Z",
       "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9b909d57-aee3-42f8-8d60-f7f1829ea778",
@@ -296,7 +307,7 @@
       "summary": "A critical local privilege escalation vulnerability in the Linux kernel's traffic-control subsystem allows unprivileged users to gain root access via an out-of-bounds write. A public exploit for this flaw, dubbed 'pedit COW,' is already available, posing an immediate risk to affected systems.",
       "date": "2026-06-26T13:57:55.000Z",
       "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "872159b7-3b35-45b0-99e1-ee379a57a01a",
@@ -5488,17 +5499,6 @@
       "summary": "A chain of three vulnerabilities in the LiteLLM proxy allows low-privilege users to escalate privileges to administrator status and execute arbitrary code on AI gateway servers. This exploit poses a significant risk as it grants unauthorized access to all API keys and secrets managed by the proxy.",
       "date": "2026-06-15T16:39:01.000Z",
       "link": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
-      "isTopTen": false
-    },
-    {
-      "id": "72433323-e63a-417c-ba5c-ddae4732d108",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Council of Europe investigates ShinyHunters data breach claims",
-      "summary": "The Council of Europe is investigating claims made by the threat actor group ShinyHunters regarding a potential data breach. The intergovernmental organization is currently working to verify the legitimacy of these extortion-related allegations.",
-      "date": "2026-06-15T16:37:11.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
       "isTopTen": false
     }
   ]
