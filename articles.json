@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T09:24:20.784Z",
+  "lastUpdated": "2026-06-28T13:58:35.746Z",
   "articles": [
     {
       "id": "f798cbb0-b7ac-43b0-ad5f-78b841f1f18d",
@@ -32,7 +32,7 @@
       "summary": "The FBI and CISA have issued an updated advisory warning that Russian intelligence services are exploiting Signal Backup Recovery Keys to compromise user message history and gain unauthorized account access. This campaign represents a shift in strategy toward long-term surveillance through advanced phishing tactics.",
       "date": "2026-06-27T16:08:57.000Z",
       "link": "https://securityaffairs.com/194360/intelligence/new-fbi-alert-russian-intelligence-uses-signal-recovery-keys-to-access-messages.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5295868e-3e02-4864-b26b-10ef460f39cb",
@@ -76,7 +76,7 @@
       "summary": "Researchers have discovered a critical Linux kernel privilege escalation flaw, dubbed DirtyClone, that allows attackers to rewrite memory executables without leaving disk traces. This vulnerability is the fourth in the DirtyFrag family and carries a high CVSS score of 8.8.",
       "date": "2026-06-27T09:12:26.000Z",
       "link": "https://securityaffairs.com/194338/uncategorized/dirtyclone-fourth-linux-kernel-flaw-in-six-weeks-escalates-to-root.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6feddb69-7937-4dbc-9a20-b7a6b5303fbc",
@@ -87,7 +87,7 @@
       "summary": "The integration of AI into vulnerability discovery is rapidly uncovering vast numbers of previously unknown security flaws, placing significant strain on cybersecurity teams. This surge in identified vulnerabilities is expected to create a challenging and resource-intensive summer for security operations.",
       "date": "2026-06-27T06:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "620bee93-99a3-4038-bb82-f6475b73dbcc",
@@ -208,7 +208,7 @@
       "summary": "Chinese-speaking threat actor CL-STA-1062 is conducting persistent cyber espionage operations targeting critical infrastructure in Southeast Asia using custom malware and a new backdoor dubbed TinyRCT.",
       "date": "2026-06-26T17:16:09.000Z",
       "link": "https://securityaffairs.com/194312/intelligence/chinese-apt-cl-sta-1062-expands-attacks-on-southeast-asian-critical-infrastructure-with-custom-malware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bf7c466e-33dc-4335-8da0-3de2d1747653",
@@ -230,7 +230,7 @@
       "summary": "A security vulnerability in Amazon Q allowed attackers to execute malicious code and steal cloud credentials through booby-trapped Git repository configurations. This flaw highlights broader security concerns regarding the execution of commands by AI coding assistants.",
       "date": "2026-06-26T15:34:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
@@ -252,7 +252,7 @@
       "summary": "A critical local privilege escalation vulnerability in the Linux kernel's traffic-control subsystem allows unprivileged users to gain root access via an out-of-bounds write. A public exploit for this flaw, dubbed 'pedit COW,' is already available, posing an immediate risk to affected systems.",
       "date": "2026-06-26T13:57:55.000Z",
       "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "872159b7-3b35-45b0-99e1-ee379a57a01a",
@@ -329,7 +329,7 @@
       "summary": "The Miasma supply chain attack has compromised over 20 npm packages, including Leo Platform and RStreams, to steal developer credentials and target software maintainers. Microsoft has identified the campaign, which focuses on harvesting secrets through malicious package injections.",
       "date": "2026-06-26T12:18:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/26/miasma-campaign-poisons-20-plus-npm-packages-hunts-for-developer-secrets/5262886",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "efa7b838-c066-44ba-ae82-0278da7a163a",
@@ -428,7 +428,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Cisco, PTC Windchill, and FlexPLM products. Organizations are urged to address these vulnerabilities to mitigate the risk of exploitation.",
       "date": "2026-06-26T10:35:38.000Z",
       "link": "https://securityaffairs.com/194290/security/u-s-cisa-adds-cisco-and-ptc-windchill-and-flexplm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "eb77ab63-9047-4beb-a864-1631f22ac04b",
@@ -549,7 +549,7 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
@@ -670,7 +670,7 @@
       "summary": "Tata Electronics has confirmed a significant data breach involving 630GB of stolen information, including sensitive documents related to its supply chain partnerships with Apple and Tesla. The incident follows claims made on a hacker forum regarding unauthorized access to the company's IT systems.",
       "date": "2026-06-25T20:41:16.000Z",
       "link": "https://securityaffairs.com/194237/data-breach/tata-electronics-confirms-data-breach-after-630gb-leak-claim-targets-apple-and-tesla.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6f95f456-008b-4bbd-9ec3-f5232fc8e044",
