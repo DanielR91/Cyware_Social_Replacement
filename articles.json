@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-28T13:58:35.746Z",
+  "lastUpdated": "2026-06-28T16:17:06.953Z",
   "articles": [
+    {
+      "id": "982341c7-6442-433e-a572-7632d61c685b",
+      "source": "BleepingComputer",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+      "summary": "Japanese telecommunications giant KDDI Corporation suffered a data breach impacting an email system shared by five other ISPs, resulting in the exposure of up to 14.2 million user credentials.",
+      "date": "2026-06-28T14:13:46.000Z",
+      "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "isTopTen": true
+    },
     {
       "id": "f798cbb0-b7ac-43b0-ad5f-78b841f1f18d",
       "source": "Help Net Security",
@@ -54,7 +65,7 @@
       "summary": "Malicious actors are embedding hidden payloads in GitHub repositories that exploit automated AI coding agents to execute malware during routine repository setup. This supply chain attack technique evades both traditional security scanners and human oversight.",
       "date": "2026-06-27T14:22:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4e92c584-602d-4e11-b364-64fedd4685ba",
@@ -87,7 +98,7 @@
       "summary": "The integration of AI into vulnerability discovery is rapidly uncovering vast numbers of previously unknown security flaws, placing significant strain on cybersecurity teams. This surge in identified vulnerabilities is expected to create a challenging and resource-intensive summer for security operations.",
       "date": "2026-06-27T06:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "620bee93-99a3-4038-bb82-f6475b73dbcc",
@@ -252,7 +263,7 @@
       "summary": "A critical local privilege escalation vulnerability in the Linux kernel's traffic-control subsystem allows unprivileged users to gain root access via an out-of-bounds write. A public exploit for this flaw, dubbed 'pedit COW,' is already available, posing an immediate risk to affected systems.",
       "date": "2026-06-26T13:57:55.000Z",
       "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "872159b7-3b35-45b0-99e1-ee379a57a01a",
@@ -428,7 +439,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Cisco, PTC Windchill, and FlexPLM products. Organizations are urged to address these vulnerabilities to mitigate the risk of exploitation.",
       "date": "2026-06-26T10:35:38.000Z",
       "link": "https://securityaffairs.com/194290/security/u-s-cisa-adds-cisco-and-ptc-windchill-and-flexplm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eb77ab63-9047-4beb-a864-1631f22ac04b",
@@ -439,7 +450,7 @@
       "summary": "A 2026 report by Black Kite reveals that ransomware attacks against European organizations are rising, with threat actors increasingly targeting supply chains as their primary entry point. The study highlights the convergence of rising ransomware activity, vulnerable third-party suppliers, and complex regulatory landscapes.",
       "date": "2026-06-26T09:49:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/black-kite-european-cyber-threats-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7eab60eb-5653-4a5a-ad7d-2431d4999353",
@@ -5488,17 +5499,6 @@
       "summary": "The FBI has issued a warning regarding a rise in cryptocurrency scams where fraudsters dispatch physical couriers to collect cash directly from victims. These schemes are frequently associated with pig butchering and romance baiting tactics.",
       "date": "2026-06-15T15:30:23.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
-      "isTopTen": false
-    },
-    {
-      "id": "44c58eef-4771-4eaf-b63b-0277e157dde2",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "China-linked spies backdoored authentication stack to stay hidden for years",
-      "summary": "A China-linked threat actor known as Velvet Ant maintained long-term, stealthy access to an unnamed organization's network by compromising the entire authentication stack. The group remained undetected for nearly a decade, highlighting their sophisticated persistence capabilities.",
-      "date": "2026-06-15T15:27:11.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/15/velvet-ant-backdoored-authentication-persistence/",
       "isTopTen": false
     }
   ]
