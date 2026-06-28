@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-28T16:17:06.953Z",
+  "lastUpdated": "2026-06-28T19:29:57.654Z",
   "articles": [
+    {
+      "id": "28e94b1d-61a6-4865-bd59-7fc9ef2043c9",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 103",
+      "summary": "This newsletter highlights recent malware campaigns, including the compromise of 4,000 legacy routers for proxy attacks, a VBScript-based WhatsApp distribution scheme, and a new loader for CASTLESTEALER. It provides a curated overview of ongoing global cyber threats and technical research.",
+      "date": "2026-06-28T18:05:59.000Z",
+      "link": "https://securityaffairs.com/194383/malware/security-affairs-malware-newsletter-round-103.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f1613454-d5a2-413c-93d0-d1101fa22376",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Anonymous-Linked Hacktivist Aubrey Cottle Jailed Over Texas GOP Cyberattack",
+      "summary": "Canadian hacktivist Aubrey Cottle has been sentenced to 18 months in prison for his role in a 2021 cyberattack targeting the Texas GOP website. The incident highlights the legal consequences for individuals involved in politically motivated hacking activities.",
+      "date": "2026-06-28T16:47:13.000Z",
+      "link": "https://hackread.com/anonymous-hacktivist-aubrey-cottle-gop-cyberattack/",
+      "isTopTen": false
+    },
+    {
+      "id": "56f86bb2-a412-4b5c-bfd8-cbc75846df72",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 583 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "This Security Affairs newsletter highlights recent cybersecurity developments, including a new FBI warning regarding Russian intelligence exploiting Signal recovery keys and ongoing attacks against the hospitality sector.",
+      "date": "2026-06-28T15:29:10.000Z",
+      "link": "https://securityaffairs.com/194372/security/security-affairs-newsletter-round-583-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "982341c7-6442-433e-a572-7632d61c685b",
       "source": "BleepingComputer",
@@ -263,7 +296,7 @@
       "summary": "A critical local privilege escalation vulnerability in the Linux kernel's traffic-control subsystem allows unprivileged users to gain root access via an out-of-bounds write. A public exploit for this flaw, dubbed 'pedit COW,' is already available, posing an immediate risk to affected systems.",
       "date": "2026-06-26T13:57:55.000Z",
       "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "872159b7-3b35-45b0-99e1-ee379a57a01a",
@@ -439,7 +472,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Cisco, PTC Windchill, and FlexPLM products. Organizations are urged to address these vulnerabilities to mitigate the risk of exploitation.",
       "date": "2026-06-26T10:35:38.000Z",
       "link": "https://securityaffairs.com/194290/security/u-s-cisa-adds-cisco-and-ptc-windchill-and-flexplm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "eb77ab63-9047-4beb-a864-1631f22ac04b",
@@ -450,7 +483,7 @@
       "summary": "A 2026 report by Black Kite reveals that ransomware attacks against European organizations are rising, with threat actors increasingly targeting supply chains as their primary entry point. The study highlights the convergence of rising ransomware activity, vulnerable third-party suppliers, and complex regulatory landscapes.",
       "date": "2026-06-26T09:49:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/black-kite-european-cyber-threats-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7eab60eb-5653-4a5a-ad7d-2431d4999353",
@@ -560,7 +593,7 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
@@ -5466,39 +5499,6 @@
       "summary": "The Council of Europe is investigating claims made by the threat actor group ShinyHunters regarding a potential data breach. The intergovernmental organization is currently working to verify the legitimacy of these extortion-related allegations.",
       "date": "2026-06-15T16:37:11.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-      "isTopTen": false
-    },
-    {
-      "id": "04652523-abf1-47bb-a41f-d2dc1d98e486",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Cybersecurity experts don’t think Anthropic’s Fable 5 presents a unique threat ",
-      "summary": "Cybersecurity experts argue that Anthropic's Fable 5 model does not offer unique hacking capabilities, viewing recent export controls on the technology as misguided.",
-      "date": "2026-06-15T16:07:47.000Z",
-      "link": "https://cyberscoop.com/cybersecurity-experts-anthropic-fable-5-not-unique-ai-threat/",
-      "isTopTen": false
-    },
-    {
-      "id": "806aeb93-e894-4af0-9fc2-50c7c12568e8",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Microsoft site throwing warnings after someone forgot to renew cert",
-      "summary": "Microsoft's connectivity checker service triggered browser security warnings due to an expired SSL certificate. The issue was caused by an administrative oversight regarding the renewal of security credentials.",
-      "date": "2026-06-15T15:33:35.000Z",
-      "link": "https://www.theregister.com/security/2026/06/15/microsoft-site-throwing-warnings-after-someone-forgot-to-renew-cert/5255597",
-      "isTopTen": false
-    },
-    {
-      "id": "707e0489-11cd-4628-b796-9a2831953c22",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
-      "summary": "The FBI has issued a warning regarding a rise in cryptocurrency scams where fraudsters dispatch physical couriers to collect cash directly from victims. These schemes are frequently associated with pig butchering and romance baiting tactics.",
-      "date": "2026-06-15T15:30:23.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
       "isTopTen": false
     }
   ]
