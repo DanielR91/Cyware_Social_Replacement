@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-06-29T20:07:52.096Z",
+  "lastUpdated": "2026-06-29T22:14:26.101Z",
   "articles": [
+    {
+      "id": "d7c52aa8-7561-4a75-bf66-b8cf24ad8d2f",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Four years into Ukraine invasion, Russia turns influence-ops back to US and Europe",
+      "summary": "Russia has resumed focused influence operations targeting the United States and Europe, four years into the ongoing invasion of Ukraine. These campaigns aim to sway public opinion and leverage geopolitical tensions within Western nations.",
+      "date": "2026-06-29T22:10:16.000Z",
+      "link": "https://www.theregister.com/security/2026/06/29/four-years-into-ukraine-invasion-russia-turns-influence-ops-back-to-us-and-europe/5264011",
+      "isTopTen": false
+    },
+    {
+      "id": "de10c8bb-c886-48a1-9cdd-7450792a96f2",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Warner bill would create federally vetted list for secure, trustworthy AI agents",
+      "summary": "Senator Mark Warner has introduced legislation that would authorize the FTC to establish a federally vetted registry for AI agent software to ensure verified cybersecurity and privacy standards. This move aims to increase trust and accountability for AI developers and vendors.",
+      "date": "2026-06-29T21:29:06.000Z",
+      "link": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+      "isTopTen": false
+    },
+    {
+      "id": "149d5d3b-8557-46a1-905e-efb96ce178d3",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "212 New Venezuela Earthquake Domains Prompt Donation Scam Warnings",
+      "summary": "Security researchers identified 212 newly registered domains linked to the Venezuela earthquake that are likely intended for fraudulent donation campaigns. Users are advised to exercise caution and verify the authenticity of relief websites before donating.",
+      "date": "2026-06-29T21:19:57.000Z",
+      "link": "https://hackread.com/venezuela-earthquake-domains-donation-scam-warnings/",
+      "isTopTen": false
+    },
+    {
+      "id": "1eba6d19-7b69-4641-9a7d-4121734bf775",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Anonymous researcher drops 0-day 'exploitarium' repo",
+      "summary": "An anonymous researcher has published a repository containing multiple zero-day vulnerabilities, at least two of which are already being actively exploited in the wild.",
+      "date": "2026-06-29T20:29:35.000Z",
+      "link": "https://www.theregister.com/security/2026/06/29/anonymous-researcher-drops-0-day-exploitarium-repo/5263961",
+      "isTopTen": true
+    },
     {
       "id": "718b4088-d252-41dc-ac44-7d08b5cb3eec",
       "source": "The Record",
@@ -43,7 +87,7 @@
       "summary": "The Supreme Court issued a ruling in the Chatrie case that strengthens tech privacy protections, drawing concerns from dissenting justices over potential long-term impacts on the Fourth Amendment.",
       "date": "2026-06-29T17:12:09.000Z",
       "link": "https://cyberscoop.com/supreme-court-geofence-warrant-ruling-phone-privacy-chatrie/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4fd2c6ef-7bba-4db4-9cc2-f35ea0512c52",
@@ -65,7 +109,7 @@
       "summary": "CISA has added a vulnerability in PTC Windchill and FlexPLM to its Known Exploited Vulnerabilities catalog after reports confirmed attackers are deploying JSP webshells on unpatched systems. Federal agencies are now under mandate to remediate these systems to mitigate the active threat.",
       "date": "2026-06-29T16:18:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/29/ptc-windchill-cve-2026-12569-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0fbdbc1e-c2c6-49e7-9b58-6d1e9d257c8e",
@@ -186,7 +230,7 @@
       "summary": "Infoblox researchers discovered over 236,000 fraudulent websites leveraging the DCloud Uni-App framework to conduct large-scale cryptocurrency scams, phishing, and wallet-draining operations.",
       "date": "2026-06-29T11:57:40.000Z",
       "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "324a4efc-bb27-4fed-957f-6459a5532817",
@@ -197,7 +241,7 @@
       "summary": "As quantum computing technology advances, existing public-key encryption methods protecting sensitive credentials face an inevitable risk of decryption. Organizations are encouraged to prioritize the transition to post-quantum cryptography to prevent future unauthorized access to captured data.",
       "date": "2026-06-29T11:42:16.000Z",
       "link": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ae259f9b-ecfa-45d6-a2ec-0bcdffd0784d",
@@ -285,7 +329,7 @@
       "summary": "The SSU and FBI have exposed a long-running Russian intelligence campaign that compromised the messaging accounts of government officials, military members, and activists across Ukraine, Europe, and the U.S.",
       "date": "2026-06-29T08:57:25.000Z",
       "link": "https://securityaffairs.com/194399/intelligence/ssu-and-fbi-uncover-russian-cyber-espionage-operation-against-officials-and-military-personnel.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a5fa7387-adee-4b7a-96ad-444a989c14bc",
@@ -307,7 +351,7 @@
       "summary": "A critical memory corruption vulnerability, CVE-2026-55200, has been identified in the libssh2 client library, allowing an attacker-controlled server to potentially execute code on a connecting client without user interaction. A public proof-of-concept is currently available for this high-severity flaw.",
       "date": "2026-06-29T07:06:34.000Z",
       "link": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1e5d3de3-41ca-4370-88c3-ffbeaad3e601",
@@ -461,7 +505,7 @@
       "summary": "The FBI and CISA have issued an updated advisory warning that Russian intelligence services are exploiting Signal Backup Recovery Keys to compromise user message history and gain unauthorized account access. This campaign represents a shift in strategy toward long-term surveillance through advanced phishing tactics.",
       "date": "2026-06-27T16:08:57.000Z",
       "link": "https://securityaffairs.com/194360/intelligence/new-fbi-alert-russian-intelligence-uses-signal-recovery-keys-to-access-messages.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5295868e-3e02-4864-b26b-10ef460f39cb",
@@ -560,7 +604,7 @@
       "summary": "CISA has issued an urgent directive requiring federal agencies to patch an actively exploited vulnerability in Cisco Unified Communications Manager Server by this Sunday. The mandate aims to mitigate risks posed by ongoing attacks targeting the flaw.",
       "date": "2026-06-26T19:43:06.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "937a8b75-2836-4b83-87ce-c36b21a471e3",
@@ -659,7 +703,7 @@
       "summary": "A security vulnerability in Amazon Q allowed attackers to execute malicious code and steal cloud credentials through booby-trapped Git repository configurations. This flaw highlights broader security concerns regarding the execution of commands by AI coding assistants.",
       "date": "2026-06-26T15:34:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
@@ -5455,50 +5499,6 @@
       "summary": "Threat intelligence firm Defused Cyber reports that attackers are actively exploiting three vulnerabilities in Fortinet FortiSandbox, including one that was recently patched.",
       "date": "2026-06-16T10:30:41.000Z",
       "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1df17483-d7e8-400f-9c5e-e0c9c3f59429",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco discloses second exploited SD-WAN vulnerability in two weeks (CVE-2026-20262)",
-      "summary": "Cisco has disclosed a critical, actively exploited vulnerability (CVE-2026-20262) affecting its Catalyst SD-WAN Manager, marking the second such exploit reported within two weeks. The situation is notable as Cisco claims the flaw was identified through internal testing, yet evidence indicates attackers were already leveraging it prior to public disclosure.",
-      "date": "2026-06-16T10:20:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/16/cisco-sd-wan-cve-2026-20262-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "a9feb63e-9c80-45b5-a1dd-3d1e88f4187d",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
-      "summary": "The DragonForce ransomware group is utilizing a custom backdoor to mask malicious command-and-control traffic by routing it through Microsoft Teams relay infrastructure. This technique allows attackers to bypass security monitoring by blending in with legitimate corporate communications.",
-      "date": "2026-06-16T10:18:48.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
-      "isTopTen": false
-    },
-    {
-      "id": "cc0fb8ee-5cb0-4fc5-a24a-86e8307fcfbf",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Crypto scammers are sending couriers to victims’ homes to collect cash",
-      "summary": "The FBI has issued a warning regarding a rise in cryptocurrency investment scams where perpetrators dispatch physical couriers to collect cash from victims. This tactic is used to bypass financial institution monitoring and security blocks on fraudulent transfers.",
-      "date": "2026-06-16T10:05:09.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/16/crypto-scammers-couriers-cash-pickups-fbi-warning/",
-      "isTopTen": false
-    },
-    {
-      "id": "f85255a5-badd-4725-ba70-f779aae33aca",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE",
-      "summary": "Unit 42 identified a vulnerability in the Vertex AI Python SDK that enables remote code execution through bucket squatting. This flaw allows attackers to compromise cross-tenant model uploads.",
-      "date": "2026-06-16T10:00:29.000Z",
-      "link": "https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/",
       "isTopTen": false
     }
   ]
