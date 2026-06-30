@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-06-30T17:11:56.642Z",
+  "lastUpdated": "2026-06-30T20:06:59.066Z",
   "articles": [
+    {
+      "id": "ace32c7a-1141-4277-9207-99996d846232",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "CIA chief highlights major shifts in agency’s tech approach",
+      "summary": "CIA Director John Ratcliffe emphasized the strategic importance of artificial intelligence, comparing its potential impact and power to digital nuclear weapons. This highlights the agency's shifting priority toward integrating advanced AI capabilities into their intelligence framework.",
+      "date": "2026-06-30T19:05:00.000Z",
+      "link": "https://therecord.media/cia-chief-ratcliffe-highlights-major-shifts-in-agencys-tech-approach",
+      "isTopTen": true
+    },
+    {
+      "id": "23b9e940-b064-4bdd-bb8f-83bc9cc0a224",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+      "summary": "Microsoft researchers have discovered a vulnerability where malicious, poisoned tool descriptions can manipulate AI agents into exfiltrating sensitive company data without triggering security alerts. The exploit functions by tricking the agent into performing unauthorized actions that appear legitimate, bypassing standard security oversight.",
+      "date": "2026-06-30T17:46:07.000Z",
+      "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "isTopTen": true
+    },
+    {
+      "id": "70cd3600-d2c7-42bb-8a69-b149b06d5cdd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
+      "summary": "The RustDuck botnet is utilizing the Rust programming language to rapidly evolve its infrastructure, targeting IoT devices and servers for large-scale DDoS attacks. Researchers highlight the botnet's concerning growth rate and frequent tactical updates.",
+      "date": "2026-06-30T17:45:25.000Z",
+      "link": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "53678923-a7e9-4cd7-aae2-d7232dfcdfbb",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "New EvilTokens Attack Exposes Browser Visibility Gap in Enterprise SOCs",
+      "summary": "The EvilTokens phishing attack exploits a visibility gap by delaying takeover indicators until browser execution, complicating threat detection for enterprise SOC teams. Organizations must enhance monitoring to validate these threats and mitigate account compromise risks.",
+      "date": "2026-06-30T17:27:27.000Z",
+      "link": "https://hackread.com/eviltokens-attack-browser-visibility-gap-enterprise-socs/",
+      "isTopTen": false
+    },
     {
       "id": "4e5aedac-f419-49f5-b6fe-0fe7d342fce9",
       "source": "The Register",
@@ -43,6 +87,17 @@
       "summary": "Hackers exfiltrated the personal data of 4.38 million Aflac Japan customers and agents after maintaining unauthorized access to company systems for a 10-day period in June.",
       "date": "2026-06-30T15:54:17.000Z",
       "link": "https://securityaffairs.com/194488/data-breach/hackers-steal-data-of-4-38-million-aflac-japan-customers.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b472c838-8202-4e1b-ac2c-61468da0b7cd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+      "summary": "Threat actors are actively exploiting a critical unauthenticated RCE vulnerability, CVE-2026-33017, in Langflow to deploy Monero cryptocurrency miners on exposed AI application endpoints. This campaign highlights the growing targeting of AI infrastructure by malicious actors.",
+      "date": "2026-06-30T15:47:20.000Z",
+      "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
       "isTopTen": true
     },
     {
@@ -109,7 +164,7 @@
       "summary": "Researchers discovered 'GuardFall,' a vulnerability affecting most open-source AI coding agents that allows attackers to bypass security filters using legacy shell injection techniques. The flaw enables malicious commands to be executed despite the presence of safety checks.",
       "date": "2026-06-30T14:26:15.000Z",
       "link": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c7d41f90-8e7e-4094-a5bc-d805f13599e7",
@@ -164,7 +219,7 @@
       "summary": "A study of 444 iOS AI apps revealed that 282 exposed sensitive API keys and backend credentials in plaintext, allowing unauthorized users to exploit developer accounts. This massive security oversight affects approximately two-thirds of the tested applications.",
       "date": "2026-06-30T13:49:34.000Z",
       "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1829fa52-3cb4-4421-93ae-06ff888d7ba2",
@@ -307,7 +362,7 @@
       "summary": "Modern ransomware groups are increasingly adopting corporate operational structures, utilizing outsourced labor and tiered pricing models to function like large, professionalized organizations. This transition reflects a shift in cybercriminal strategy toward highly organized, business-like enterprise operations.",
       "date": "2026-06-30T09:00:00.000Z",
       "link": "https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cbdc476d-c7bc-45dc-ae22-c8d778e611f0",
@@ -318,7 +373,7 @@
       "summary": "Security researchers at LayerX discovered 'BioShocking,' a technique that exploits AI browsers and assistants by manipulating them into exfiltrating user credentials. The vulnerability affects several major platforms, including ChatGPT, Perplexity, and Claude extensions.",
       "date": "2026-06-30T08:37:19.000Z",
       "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "89181c15-94d3-48db-88c8-119a60f5c4ef",
@@ -395,7 +450,7 @@
       "summary": "Security researchers successfully bypassed LLM safety guardrails using prompt injection techniques that leverage role-play scenarios to elicit restricted information. This highlights ongoing challenges in securing AI models against manipulative inputs.",
       "date": "2026-06-29T23:33:09.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc25be01-d9a9-4819-99b8-d50c7c43aa34",
@@ -428,7 +483,7 @@
       "summary": "The U.S. government is offering a $10 million reward for information leading to the identification of Russian hackers from groups UNC5792 and UNC4221 who target the Signal and WhatsApp accounts of officials and journalists.",
       "date": "2026-06-29T21:49:25.000Z",
       "link": "https://securityaffairs.com/194441/security/u-s-offers-10-million-reward-for-russian-hackers-behind-signal-and-whatsapp-phishing.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de10c8bb-c886-48a1-9cdd-7450792a96f2",
@@ -472,7 +527,7 @@
       "summary": "The U.S. Supreme Court has ruled that police are required to obtain a warrant to access cellphone geofence data, strengthening privacy protections under the Fourth Amendment.",
       "date": "2026-06-29T18:50:00.000Z",
       "link": "https://therecord.media/supreme-court-geofencing-ruling-fourth-amendment",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4533e6de-bd2f-4f04-b5f3-843961b50476",
@@ -527,7 +582,7 @@
       "summary": "CISA has added a vulnerability in PTC Windchill and FlexPLM to its Known Exploited Vulnerabilities catalog after reports confirmed attackers are deploying JSP webshells on unpatched systems. Federal agencies are now under mandate to remediate these systems to mitigate the active threat.",
       "date": "2026-06-29T16:18:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/29/ptc-windchill-cve-2026-12569-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0fbdbc1e-c2c6-49e7-9b58-6d1e9d257c8e",
@@ -659,7 +714,7 @@
       "summary": "As quantum computing technology advances, existing public-key encryption methods protecting sensitive credentials face an inevitable risk of decryption. Organizations are encouraged to prioritize the transition to post-quantum cryptography to prevent future unauthorized access to captured data.",
       "date": "2026-06-29T11:42:16.000Z",
       "link": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ae259f9b-ecfa-45d6-a2ec-0bcdffd0784d",
@@ -5444,61 +5499,6 @@
       "summary": "CISA has added a critical-severity vulnerability in the Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities catalog due to confirmed active exploitation. The flaw allows for arbitrary PHP code execution through improper access control.",
       "date": "2026-06-17T05:50:46.000Z",
       "link": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7e75cb41-a4e0-4812-bf8b-88e776970c6c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft AntiSSRF open-source library helps block server-side request forgery",
-      "summary": "Microsoft has released an open-source library called AntiSSRF to help developers mitigate server-side request forgery vulnerabilities by validating URLs and network connections in .NET and Node.js applications.",
-      "date": "2026-06-17T05:30:35.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/microsoft-antissrf-open-source-library/",
-      "isTopTen": false
-    },
-    {
-      "id": "cd3553c5-768e-4d31-a537-0062d4a7947e",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Navigating SEC, NIS2, and DORA incident disclosure timelines under pressure",
-      "summary": "This video discusses the operational challenges of managing overlapping incident disclosure requirements under SEC, NIS2, and DORA regulations during a potential data breach. It highlights the complexities global organizations face when navigating differing regulatory reporting timelines.",
-      "date": "2026-06-17T04:30:23.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/incident-disclosure-timelines-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "d0b7f439-cf0b-4416-9a31-6223f2614597",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "The checklist problem behind critical infrastructure cyber safety",
-      "summary": "New research from George Mason University highlights that meeting federal cybersecurity compliance standards does not guarantee protection against physical system failures or cyberattacks in critical infrastructure. The study argues that current policies treat compliance as a proxy for safety, leaving operational technology vulnerable despite meeting regulatory checklists.",
-      "date": "2026-06-17T04:00:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/usa-critical-infrastructure-cyber-safety/",
-      "isTopTen": false
-    },
-    {
-      "id": "caf40f01-5834-460f-a5df-47e3f1b435af",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cyberattack sees crops kept in the ground",
-      "summary": "Australian sugar producer Mackay Sugar experienced a cyberattack during its peak cane crushing season, resulting in operational delays that forced crops to remain unharvested. The incident highlights the significant impact of digital disruptions on critical agricultural supply chains.",
-      "date": "2026-06-17T02:16:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/17/cyberattack-sees-crops-kept-in-the-ground/5256321",
-      "isTopTen": false
-    },
-    {
-      "id": "962b926e-8567-4cff-b2c3-9b67a19717c5",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "India's Telegram ban draws criticism from Durov as company challenges order in court",
-      "summary": "Indian authorities have ordered a nationwide restriction on Telegram to prevent exam malpractice, prompting a legal challenge and public criticism from the platform's founder, Pavel Durov.",
-      "date": "2026-06-16T23:00:00.000Z",
-      "link": "https://therecord.media/india-telegram-ban-challenged-in-court",
       "isTopTen": false
     }
   ]
