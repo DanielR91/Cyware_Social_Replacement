@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-06-30T20:06:59.066Z",
+  "lastUpdated": "2026-06-30T22:19:57.554Z",
   "articles": [
+    {
+      "id": "b50e0908-f3bd-479b-87b3-a6cda2b4034b",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Citrix patches a new NetScaler flaw with echoes of CitrixBleed",
+      "summary": "Citrix has released patches for six vulnerabilities in NetScaler, including a high-severity flaw that shares concerning similarities with the previously exploited CitrixBleed vulnerability.",
+      "date": "2026-06-30T21:46:38.000Z",
+      "link": "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/",
+      "isTopTen": true
+    },
+    {
+      "id": "bd213816-cb7c-43ab-9d6a-8971b26a9813",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Trump budget boss Russell Vought open to re-staffing CISA",
+      "summary": "Potential plans to restore 600 staff positions at CISA, which were previously reduced under the Trump administration, are currently being discussed by officials. This move suggests a potential shift in federal cybersecurity workforce policy.",
+      "date": "2026-06-30T20:51:07.000Z",
+      "link": "https://cyberscoop.com/russell-vought-cisa-staffing-trump-budget-cuts/",
+      "isTopTen": false
+    },
+    {
+      "id": "691dd851-2e60-4545-8cc4-6828eac73fd9",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "U.S. CISA adds SimpleHelp flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added a critical authentication bypass vulnerability in SimpleHelp (CVE-2026-48558) to its Known Exploited Vulnerabilities catalog. The flaw affects versions 5.5.15 and earlier and holds a CVSS score of 10.0.",
+      "date": "2026-06-30T19:47:35.000Z",
+      "link": "https://securityaffairs.com/194503/security/u-s-cisa-adds-simplehelp-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "ace32c7a-1141-4277-9207-99996d846232",
       "source": "The Record",
@@ -10,7 +43,7 @@
       "summary": "CIA Director John Ratcliffe emphasized the strategic importance of artificial intelligence, comparing its potential impact and power to digital nuclear weapons. This highlights the agency's shifting priority toward integrating advanced AI capabilities into their intelligence framework.",
       "date": "2026-06-30T19:05:00.000Z",
       "link": "https://therecord.media/cia-chief-ratcliffe-highlights-major-shifts-in-agencys-tech-approach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "23b9e940-b064-4bdd-bb8f-83bc9cc0a224",
@@ -32,7 +65,7 @@
       "summary": "The RustDuck botnet is utilizing the Rust programming language to rapidly evolve its infrastructure, targeting IoT devices and servers for large-scale DDoS attacks. Researchers highlight the botnet's concerning growth rate and frequent tactical updates.",
       "date": "2026-06-30T17:45:25.000Z",
       "link": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "53678923-a7e9-4cd7-aae2-d7232dfcdfbb",
@@ -98,7 +131,7 @@
       "summary": "Threat actors are actively exploiting a critical unauthenticated RCE vulnerability, CVE-2026-33017, in Langflow to deploy Monero cryptocurrency miners on exposed AI application endpoints. This campaign highlights the growing targeting of AI infrastructure by malicious actors.",
       "date": "2026-06-30T15:47:20.000Z",
       "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "792ec2cb-b41d-4074-be3c-1b5e2317a590",
@@ -186,7 +219,7 @@
       "summary": "Threat intelligence firm Defused reported active in-the-wild exploitation of a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite Payments module. The attacks were detected approximately six weeks after the release of the official security patch.",
       "date": "2026-06-30T13:58:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/30/oracle-payments-cve-2026-46817-exploitation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b8bf61f3-1e39-4707-81d0-2efa7799a0a5",
@@ -219,7 +252,7 @@
       "summary": "A study of 444 iOS AI apps revealed that 282 exposed sensitive API keys and backend credentials in plaintext, allowing unauthorized users to exploit developer accounts. This massive security oversight affects approximately two-thirds of the tested applications.",
       "date": "2026-06-30T13:49:34.000Z",
       "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1829fa52-3cb4-4421-93ae-06ff888d7ba2",
@@ -351,7 +384,7 @@
       "summary": "Oracle E-Business Suite is currently under active exploitation due to a critical remote code execution vulnerability identified as CVE-2026-46817. This flaw allows unauthenticated attackers to fully compromise Oracle Payments systems.",
       "date": "2026-06-30T09:01:43.000Z",
       "link": "https://securityaffairs.com/194463/security/attackers-actively-exploit-the-oracle-e-business-suite-flaw-cve-2026-46817.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f98ee16a-116d-43e8-bcc4-23b58ac33913",
@@ -362,7 +395,7 @@
       "summary": "Modern ransomware groups are increasingly adopting corporate operational structures, utilizing outsourced labor and tiered pricing models to function like large, professionalized organizations. This transition reflects a shift in cybercriminal strategy toward highly organized, business-like enterprise operations.",
       "date": "2026-06-30T09:00:00.000Z",
       "link": "https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cbdc476d-c7bc-45dc-ae22-c8d778e611f0",
@@ -450,7 +483,7 @@
       "summary": "Security researchers successfully bypassed LLM safety guardrails using prompt injection techniques that leverage role-play scenarios to elicit restricted information. This highlights ongoing challenges in securing AI models against manipulative inputs.",
       "date": "2026-06-29T23:33:09.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bc25be01-d9a9-4819-99b8-d50c7c43aa34",
@@ -494,7 +527,7 @@
       "summary": "Senator Mark Warner has introduced legislation that would authorize the FTC to establish a federally vetted registry for AI agent software to ensure verified cybersecurity and privacy standards. This move aims to increase trust and accountability for AI developers and vendors.",
       "date": "2026-06-29T21:29:06.000Z",
       "link": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "149d5d3b-8557-46a1-905e-efb96ce178d3",
@@ -582,7 +615,7 @@
       "summary": "CISA has added a vulnerability in PTC Windchill and FlexPLM to its Known Exploited Vulnerabilities catalog after reports confirmed attackers are deploying JSP webshells on unpatched systems. Federal agencies are now under mandate to remediate these systems to mitigate the active threat.",
       "date": "2026-06-29T16:18:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/29/ptc-windchill-cve-2026-12569-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0fbdbc1e-c2c6-49e7-9b58-6d1e9d257c8e",
@@ -626,7 +659,7 @@
       "summary": "The China-linked espionage group Mustang Panda is targeting Indian government and hydropower sectors by utilizing Zoho WorkDrive as a command-and-control channel for new malware. Researchers have identified active compromises within networks belonging to senior administrative staff.",
       "date": "2026-06-29T15:03:40.000Z",
       "link": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "08748e1e-debf-4a73-a8dd-f7b200d2fc09",
@@ -703,7 +736,7 @@
       "summary": "Infoblox researchers discovered over 236,000 fraudulent websites leveraging the DCloud Uni-App framework to conduct large-scale cryptocurrency scams, phishing, and wallet-draining operations.",
       "date": "2026-06-29T11:57:40.000Z",
       "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "324a4efc-bb27-4fed-957f-6459a5532817",
@@ -5466,39 +5499,6 @@
       "summary": "Fortinet has launched FortiSOC, a unified SaaS platform that integrates SIEM, SOAR, threat intelligence, and agentic AI to streamline security operations and autonomous incident response. The platform aims to simplify SecOps management by consolidating multiple functions into a single, cloud-delivered console.",
       "date": "2026-06-17T07:31:14.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/17/fortinet-fortisoc-unifies-siem-soar-threat-intelligence-and-ai-in-one-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "50669c63-0650-4adc-96e8-1d81539c3c90",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
-      "summary": "Kodak is investigating a data breach after the ShinyHunters extortion gang claimed to have compromised some of the company's internal data.",
-      "date": "2026-06-17T07:07:56.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "isTopTen": false
-    },
-    {
-      "id": "0eeee358-69d5-442b-adb1-bc8bca638bef",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "The SOC’s visibility gap comes down to staffing",
-      "summary": "While AI adoption in security operations centers is widespread, a significant portion of teams lack the structured governance and standardized workflows necessary to effectively utilize these tools. This inconsistent implementation creates a visibility gap that stems from inadequate staffing and strategic planning.",
-      "date": "2026-06-17T06:00:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/sans-ai-in-the-soc/",
-      "isTopTen": false
-    },
-    {
-      "id": "3efa1ef3-e57a-4916-9e0d-133c359b3a84",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
-      "summary": "CISA has added a critical-severity vulnerability in the Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities catalog due to confirmed active exploitation. The flaw allows for arbitrary PHP code execution through improper access control.",
-      "date": "2026-06-17T05:50:46.000Z",
-      "link": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
       "isTopTen": false
     }
   ]
