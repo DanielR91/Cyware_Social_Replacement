@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-06-30T04:04:42.298Z",
+  "lastUpdated": "2026-06-30T09:50:26.198Z",
   "articles": [
+    {
+      "id": "0f797b0a-ae64-4a7d-aa5f-d5ffc1804c64",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers actively exploit the Oracle E-Business Suite flaw CVE-2026-46817",
+      "summary": "Oracle E-Business Suite is currently under active exploitation due to a critical remote code execution vulnerability identified as CVE-2026-46817. This flaw allows unauthenticated attackers to fully compromise Oracle Payments systems.",
+      "date": "2026-06-30T09:01:43.000Z",
+      "link": "https://securityaffairs.com/194463/security/attackers-actively-exploit-the-oracle-e-business-suite-flaw-cve-2026-46817.html",
+      "isTopTen": true
+    },
+    {
+      "id": "f98ee16a-116d-43e8-bcc4-23b58ac33913",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "How ransomware syndicates weaponize corporate-style organization",
+      "summary": "Modern ransomware groups are increasingly adopting corporate operational structures, utilizing outsourced labor and tiered pricing models to function like large, professionalized organizations. This transition reflects a shift in cybercriminal strategy toward highly organized, business-like enterprise operations.",
+      "date": "2026-06-30T09:00:00.000Z",
+      "link": "https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/",
+      "isTopTen": false
+    },
+    {
+      "id": "cbdc476d-c7bc-45dc-ae22-c8d778e611f0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+      "summary": "Security researchers at LayerX discovered 'BioShocking,' a technique that exploits AI browsers and assistants by manipulating them into exfiltrating user credentials. The vulnerability affects several major platforms, including ChatGPT, Perplexity, and Claude extensions.",
+      "date": "2026-06-30T08:37:19.000Z",
+      "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "isTopTen": true
+    },
+    {
+      "id": "89181c15-94d3-48db-88c8-119a60f5c4ef",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+      "summary": "A critical pre-authentication remote command execution vulnerability, tracked as CVE-2026-8037, affects Progress Kemp LoadMaster appliances with the API enabled. Users are urged to apply the available security patch immediately to prevent unauthorized root access.",
+      "date": "2026-06-30T07:38:07.000Z",
+      "link": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+      "isTopTen": true
+    },
+    {
+      "id": "c6ba51fe-1184-47c8-9160-598fe5571672",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+      "summary": "Apple has issued security updates for iOS, macOS, and Safari to remediate over 30 vulnerabilities, including four WebKit flaws identified through the use of AI tools.",
+      "date": "2026-06-30T07:15:07.000Z",
+      "link": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e5784da7-7641-44fb-b838-71dfdffeca82",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft builds a bouncer to keep bots out of Teams meetings",
+      "summary": "Microsoft is introducing a new authentication mechanism for Microsoft Teams that allows independent software vendors to verify their bots, ensuring legitimate automated tools can access meetings while blocking unauthorized ones.",
+      "date": "2026-06-30T06:11:03.000Z",
+      "link": "https://www.theregister.com/software/2026/06/30/microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings/5264199",
+      "isTopTen": false
+    },
+    {
+      "id": "7a8271ab-b47e-445f-9ea4-c135ccef18c1",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+      "summary": "A critical privilege management and authentication flaw in Oracle E-Business Suite (CVE-2026-46817) is being actively exploited in the wild, posing a severe risk of full system takeover.",
+      "date": "2026-06-30T05:04:06.000Z",
+      "link": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+      "isTopTen": false
+    },
     {
       "id": "27af699c-9758-4686-a8dc-98ffa4471b96",
       "source": "Help Net Security",
@@ -32,7 +109,7 @@
       "summary": "Security researchers successfully bypassed LLM safety guardrails using prompt injection techniques that leverage role-play scenarios to elicit restricted information. This highlights ongoing challenges in securing AI models against manipulative inputs.",
       "date": "2026-06-29T23:33:09.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc25be01-d9a9-4819-99b8-d50c7c43aa34",
@@ -109,7 +186,7 @@
       "summary": "The U.S. Supreme Court has ruled that police are required to obtain a warrant to access cellphone geofence data, strengthening privacy protections under the Fourth Amendment.",
       "date": "2026-06-29T18:50:00.000Z",
       "link": "https://therecord.media/supreme-court-geofencing-ruling-fourth-amendment",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4533e6de-bd2f-4f04-b5f3-843961b50476",
@@ -285,7 +362,7 @@
       "summary": "Infoblox researchers discovered over 236,000 fraudulent websites leveraging the DCloud Uni-App framework to conduct large-scale cryptocurrency scams, phishing, and wallet-draining operations.",
       "date": "2026-06-29T11:57:40.000Z",
       "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "324a4efc-bb27-4fed-957f-6459a5532817",
@@ -351,7 +428,7 @@
       "summary": "Bluekit is a new phishing-as-a-service platform that utilizes browser-in-the-middle attacks to bypass security detection and compromise user accounts. This technique allows attackers to intercept session tokens, effectively bypassing multi-factor authentication.",
       "date": "2026-06-29T09:42:12.000Z",
       "link": "https://hackread.com/bluekit-phishing-uses-browser-in-the-middle-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "926573c7-8321-4ac8-a610-2b27c993a2a6",
@@ -406,7 +483,7 @@
       "summary": "A critical memory corruption vulnerability, CVE-2026-55200, has been identified in the libssh2 client library, allowing an attacker-controlled server to potentially execute code on a connecting client without user interaction. A public proof-of-concept is currently available for this high-severity flaw.",
       "date": "2026-06-29T07:06:34.000Z",
       "link": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1e5d3de3-41ca-4370-88c3-ffbeaad3e601",
@@ -483,7 +560,7 @@
       "summary": "KDDI Corporation reported a data breach affecting up to 14.2 million email accounts across six Japanese internet service providers, caused by a vulnerability in third-party software.",
       "date": "2026-06-28T19:11:57.000Z",
       "link": "https://securityaffairs.com/194387/data-breach/kddi-data-breach-impacts-up-to-14-2-million-email-accounts-at-six-isps.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "28e94b1d-61a6-4865-bd59-7fc9ef2043c9",
@@ -582,7 +659,7 @@
       "summary": "Malicious actors are embedding hidden payloads in GitHub repositories that exploit automated AI coding agents to execute malware during routine repository setup. This supply chain attack technique evades both traditional security scanners and human oversight.",
       "date": "2026-06-27T14:22:36.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4e92c584-602d-4e11-b364-64fedd4685ba",
@@ -659,7 +736,7 @@
       "summary": "CISA has issued an urgent directive requiring federal agencies to patch an actively exploited vulnerability in Cisco Unified Communications Manager Server by this Sunday. The mandate aims to mitigate risks posed by ongoing attacks targeting the flaw.",
       "date": "2026-06-26T19:43:06.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "937a8b75-2836-4b83-87ce-c36b21a471e3",
@@ -758,7 +835,7 @@
       "summary": "A security vulnerability in Amazon Q allowed attackers to execute malicious code and steal cloud credentials through booby-trapped Git repository configurations. This flaw highlights broader security concerns regarding the execution of commands by AI coding assistants.",
       "date": "2026-06-26T15:34:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "010ae02b-1fa3-49c0-8e08-81d5ca9bfe56",
@@ -5422,83 +5499,6 @@
       "summary": "Rokarolla is a sophisticated Android banking trojan that grants attackers extensive control over infected devices, enabling the theft of credentials, SMS codes, and cryptocurrency assets. It actively targets hundreds of financial applications while maintaining persistent access by disabling security features like Google Play Protect.",
       "date": "2026-06-16T13:10:17.000Z",
       "link": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
-      "isTopTen": false
-    },
-    {
-      "id": "99ce40f9-1e2e-4a94-ac78-398bc95f401c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AppViewX extends machine identity security to AI agents and post-quantum environments",
-      "summary": "AppViewX has launched a new Agent Identity Security solution designed to manage and secure AI agents and prepare enterprise environments for post-quantum cryptographic challenges. The platform provides a centralized control plane for governing machine and agent identities to mitigate risks from emerging technologies.",
-      "date": "2026-06-16T13:00:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/16/appviewx-agent-identity-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "c3ccf89c-a209-4fbd-999c-84a0d9fcfc7a",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AppViewX Launches Agent Identity Security to Govern Agents for the AI and Quantum Era",
-      "summary": "AppViewX has introduced Agent Identity Security, a new solution designed to manage and govern AI agents and machine identities to prepare for the evolving security challenges of the AI and quantum computing era.",
-      "date": "2026-06-16T13:00:15.000Z",
-      "link": "https://hackread.com/appviewx-launches-agent-identity-security-to-govern-agents-for-the-ai-and-quantum-era/",
-      "isTopTen": false
-    },
-    {
-      "id": "e02272ff-ace4-4295-a244-ca88185838ee",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New Rokarolla Android Trojan Found Targeting 217 Crypto and Banking Apps",
-      "summary": "Zimperium researchers have identified a new Android Trojan named Rokarolla that hijacks clipboards, intercepts banking calls, and gains full device control to target 217 financial and cryptocurrency applications. The malware poses a significant threat to mobile banking security by enabling comprehensive unauthorized access.",
-      "date": "2026-06-16T13:00:00.000Z",
-      "link": "https://hackread.com/rokarolla-android-trojan-crypto-and-banking-apps/",
-      "isTopTen": false
-    },
-    {
-      "id": "ea104a7f-0a04-4036-9cf6-36679950aac6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Teleport adds LLM Proxy and Delegated Identity to secure AI agent actions and access",
-      "summary": "Teleport has introduced LLM Proxy and Delegated Identity features in its Beams beta to enhance security, access control, and auditability for AI agent workflows. These tools aim to bridge critical gaps in managing what AI agents are permitted to access and how they execute tasks.",
-      "date": "2026-06-16T12:56:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/16/llm-proxy-and-delegated-identity/",
-      "isTopTen": false
-    },
-    {
-      "id": "e6c73da7-3c11-4bb1-88f8-a03bd89bd7cc",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Radware AI Xploit Shield delivers virtual patching for newly identified application and API flaws",
-      "summary": "Radware has introduced AI Xploit Shield, a service designed to provide virtual patching for applications and APIs to counter the rapid exploitation of newly discovered vulnerabilities accelerated by AI models. It aims to bridge the security gap between vulnerability identification and traditional remediation timelines.",
-      "date": "2026-06-16T12:47:46.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/16/radware-ai-xploit-shield-delivers-virtual-patching-for-newly-identified-application-and-api-flaws/",
-      "isTopTen": false
-    },
-    {
-      "id": "21c528ab-7f34-4f68-849f-1d8463808120",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Developer laptops are the credential store attackers are picking through in 2026, GitGuardian announces Endpoint Protection",
-      "summary": "GitGuardian has launched an Endpoint Protection solution designed to secure developer laptops, which have become a primary target for attackers seeking sensitive credentials. This development addresses the rising trend of threat actors exploiting unsecured developer workstations to gain unauthorized access to production environments.",
-      "date": "2026-06-16T12:00:30.000Z",
-      "link": "https://hackread.com/developer-laptops-are-the-credential-store-attackers-are-picking-through-in-2026-gitguardian-announces-endpoint-protection/",
-      "isTopTen": false
-    },
-    {
-      "id": "e720745c-5ffc-4bd0-b8d9-63000ab0f364",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cardiac monitor maker's security skips a beat as data thieves go for the jugular",
-      "summary": "Attackers gained unauthorized access to patient data by leveraging social engineering tactics to compromise third-party business applications used by a cardiac monitor manufacturer.",
-      "date": "2026-06-16T11:45:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/16/cardiac-monitor-makers-security-skips-a-beat-as-data-thieves-go-for-the-jugular/5256038",
       "isTopTen": false
     }
   ]
