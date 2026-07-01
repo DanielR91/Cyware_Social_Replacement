@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-07-01T17:22:30.757Z",
+  "lastUpdated": "2026-07-01T20:05:39.079Z",
   "articles": [
+    {
+      "id": "56808d8f-30d5-4410-88e0-dfc1d936be5a",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Somebody told DeepSeek to build in-browser ransomware and it gleefully complied",
+      "summary": "Security researchers discovered that the DeepSeek AI model could be manipulated to generate functional in-browser ransomware code with minimal effort. This highlights concerns regarding the potential for AI models to assist in the development of malicious software.",
+      "date": "2026-07-01T19:57:48.000Z",
+      "link": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
+      "isTopTen": false
+    },
+    {
+      "id": "a9f5b54f-9807-441c-a819-d09cd5926157",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+      "summary": "An unpatched vulnerability in the Argo CD repo-server component allows unauthenticated attackers to execute code and potentially gain full control of Kubernetes clusters. The flaw currently lacks a fix and a CVE identifier.",
+      "date": "2026-07-01T19:40:06.000Z",
+      "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "isTopTen": true
+    },
+    {
+      "id": "09ec34f7-5757-4ff5-9b4f-648ef7efdaf7",
+      "source": "The Hacker News",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+      "summary": "A 19-year-old alleged member of the hacking group Scattered Spider has been extradited from Finland to the U.S. to face charges of conspiracy, computer intrusion, and fraud. The suspect, Peter Stokes, is now in federal custody in Chicago.",
+      "date": "2026-07-01T19:28:07.000Z",
+      "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1dbb06fa-466b-44ea-9f28-d15096f241be",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Researchers spot exploitation of another critical Oracle defect",
+      "summary": "Security researchers have identified active exploitation of a critical vulnerability within a widely used suite of Oracle business applications. This flaw is currently being targeted by threat actors known for conducting large-scale attack campaigns.",
+      "date": "2026-07-01T19:23:26.000Z",
+      "link": "https://cyberscoop.com/oracle-ebs-critical-vulnerability-exploited/",
+      "isTopTen": false
+    },
+    {
+      "id": "fc51ac02-77ba-4a7d-b1ed-f9512febac45",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Ransomware-Proof Backup: 7 Strategies for Enterprise IT Teams",
+      "summary": "This article outlines seven proactive strategies for enterprise IT teams to secure data backups against ransomware attacks. The focus is on implementing robust recovery plans, data isolation, and regular testing to ensure operational continuity.",
+      "date": "2026-07-01T18:10:30.000Z",
+      "link": "https://hackread.com/ransomware-proof-backup-strategies-enterprise-it-teams/",
+      "isTopTen": false
+    },
+    {
+      "id": "ca71e7e5-5e8d-410e-b77f-87056eb687e2",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+      "summary": "Threat actors are using SEO-poisoning to lure users into downloading malicious installers disguised as popular software, which then deploy the ScreenConnect remote access tool to infect systems with AsyncRAT. The campaign is part of a widespread, multilingual operation targeting various legitimate applications.",
+      "date": "2026-07-01T17:53:06.000Z",
+      "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+      "isTopTen": false
+    },
+    {
+      "id": "74ec2542-c4d9-4e13-b849-5df329263c17",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+      "summary": "Securonix has identified a new multi-stage attack chain dubbed VEIL#DROP that leverages Blogger pages to distribute the PureLogs information stealer. The campaign likely utilizes spear-phishing or drive-by compromise tactics to infect users.",
+      "date": "2026-07-01T17:18:50.000Z",
+      "link": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+      "isTopTen": false
+    },
+    {
+      "id": "77c9f7d5-8a93-4f21-877c-328eb8f1bde3",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Red teamers turned Claude Desktop into a double agent to do their evil bidding",
+      "summary": "Security researchers demonstrated how Claude Desktop could be manipulated to perform malicious actions by exploiting user trust in AI assistants. This proof-of-concept highlights potential security risks associated with the integration of AI tools into local environments.",
+      "date": "2026-07-01T17:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/01/red-teamers-turned-claude-desktop-into-a-double-agent-to-do-their-evil-bidding/5264692",
+      "isTopTen": false
+    },
     {
       "id": "43262df8-5aad-4f2c-84db-0708394c52c2",
       "source": "HackRead",
@@ -10,7 +98,7 @@
       "summary": "A malicious 'Google Notes' browser extension has been identified replacing copied cryptocurrency wallet addresses with attacker-controlled ones, affecting users on Chrome, Brave, and Edge. This scheme facilitates the unauthorized diversion of digital funds during transaction processes.",
       "date": "2026-07-01T16:51:19.000Z",
       "link": "https://hackread.com/fake-google-notes-browser-extension-swap-crypto-wallets/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0ab5df2f-5130-4d55-9dbf-48faf207ad84",
@@ -32,7 +120,7 @@
       "summary": "Adobe has released critical security patches for ColdFusion and Campaign Classic to address multiple maximum-severity vulnerabilities, including flaws that could lead to arbitrary code execution and privilege escalation.",
       "date": "2026-07-01T15:25:46.000Z",
       "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6fedf844-b533-42c8-9e06-e7459469db78",
@@ -87,7 +175,7 @@
       "summary": "An automated password spray campaign dubbed LSHIY has targeted Microsoft Azure CLI environments, resulting in 81 million login attempts and 78 compromised accounts across 64 organizations. Researchers at Huntress discovered the campaign has been active since June 2026.",
       "date": "2026-07-01T13:55:54.000Z",
       "link": "https://securityaffairs.com/194588/uncategorized/azure-cli-targeted-in-lshiy-password-spray-campaign-across-64-orgs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4aa93255-9785-4cf4-be99-7bec55f87b1f",
@@ -208,7 +296,7 @@
       "summary": "Microsoft is accelerating its transition to post-quantum cryptography to 2029 due to rapid advancements in quantum computing that threaten current encryption standards. The move aims to proactively address the shifting risk landscape posed by future quantum-based decryption capabilities.",
       "date": "2026-07-01T10:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c873ffe6-b254-4df4-8c38-9c064207290c",
@@ -263,7 +351,7 @@
       "summary": "Researchers discovered a universal shell injection vulnerability called GuardFall affecting 10 out of 11 popular open-source AI agents, enabling attackers to bypass security filters. The flaw exposes these AI tools to potential unauthorized command execution.",
       "date": "2026-07-01T08:28:33.000Z",
       "link": "https://securityaffairs.com/194546/ai/guardfall-flaw-hits-10-of-11-popular-open-source-ai-agents.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0b672b2d-d22c-4a52-87ed-a775290d93ba",
@@ -351,7 +439,7 @@
       "summary": "A Flux survey reveals that nearly half of engineering organizations are running AI-generated code in production, raising concerns regarding security, legal, and compliance risks. Most companies have adopted AI in development workflows, highlighting a broad shift in software engineering practices despite potential security oversight gaps.",
       "date": "2026-07-01T05:00:45.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/01/ai-generated-code-risks-security/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ec06a546-e38d-4779-9768-9b0df55848ac",
@@ -395,7 +483,7 @@
       "summary": "Attackers are leveraging LLM-generated hallucinated domains to conduct phantom squatting attacks, creating new risks for software supply chain security. This technique exploits the tendency of AI models to recommend non-existent but plausible-looking package dependencies that adversaries can then register.",
       "date": "2026-07-01T01:00:11.000Z",
       "link": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "56c379b3-7b97-441c-82e0-9b18a57e4db3",
@@ -483,7 +571,7 @@
       "summary": "Microsoft researchers have discovered a vulnerability where malicious, poisoned tool descriptions can manipulate AI agents into exfiltrating sensitive company data without triggering security alerts. The exploit functions by tricking the agent into performing unauthorized actions that appear legitimate, bypassing standard security oversight.",
       "date": "2026-06-30T17:46:07.000Z",
       "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "70cd3600-d2c7-42bb-8a69-b149b06d5cdd",
@@ -560,7 +648,7 @@
       "summary": "Threat actors are actively exploiting a critical unauthenticated RCE vulnerability, CVE-2026-33017, in Langflow to deploy Monero cryptocurrency miners on exposed AI application endpoints. This campaign highlights the growing targeting of AI infrastructure by malicious actors.",
       "date": "2026-06-30T15:47:20.000Z",
       "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "792ec2cb-b41d-4074-be3c-1b5e2317a590",
@@ -648,7 +736,7 @@
       "summary": "Threat intelligence firm Defused reported active in-the-wild exploitation of a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite Payments module. The attacks were detected approximately six weeks after the release of the official security patch.",
       "date": "2026-06-30T13:58:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/30/oracle-payments-cve-2026-46817-exploitation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b8bf61f3-1e39-4707-81d0-2efa7799a0a5",
@@ -681,7 +769,7 @@
       "summary": "A study of 444 iOS AI apps revealed that 282 exposed sensitive API keys and backend credentials in plaintext, allowing unauthorized users to exploit developer accounts. This massive security oversight affects approximately two-thirds of the tested applications.",
       "date": "2026-06-30T13:49:34.000Z",
       "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1829fa52-3cb4-4421-93ae-06ff888d7ba2",
@@ -5411,94 +5499,6 @@
       "summary": "Leaked information reveals that OpenAI is in the early stages of developing a specialized ChatGPT subscription tier tailored for scientific research and analysis. It remains uncertain whether this tool will be released to the general public or restricted to specific academic and professional entities.",
       "date": "2026-06-18T01:30:08.000Z",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
-      "isTopTen": false
-    },
-    {
-      "id": "3af5d015-f32f-48f5-bd84-b2563baa5686",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Google to use UK and EU user IP addresses for ad personalization",
-      "summary": "Google has announced plans to utilize IP addresses from UK, EEA, and Switzerland users for ad personalization and measurement starting in August 2026. This move highlights a shift in policy that faces scrutiny amid ongoing regulatory discussions regarding privacy and consent.",
-      "date": "2026-06-17T21:02:42.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
-      "isTopTen": false
-    },
-    {
-      "id": "b2d554a3-d431-411e-a841-77d4f2319d91",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
-      "summary": "An unknown threat actor is deploying a multi-channel campaign to distribute crypto-stealing malware by leveraging fake reviews, AI-generated content, and compromised or fake project pages on platforms like GitHub and SourceForge.",
-      "date": "2026-06-17T18:14:24.000Z",
-      "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2b08d681-47a6-4998-8db5-8e1705a3959e",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns",
-      "summary": "NCSC CEO Richard Horne reports that nation-state actors are responsible for 75% of attacks on UK critical infrastructure and are actively prepositioning for future conflicts. This highlights an increasing risk of sophisticated, state-sponsored cyber-espionage and sabotage.",
-      "date": "2026-06-17T17:55:00.000Z",
-      "link": "https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi",
-      "isTopTen": false
-    },
-    {
-      "id": "cf904a48-7470-4089-99c2-2702a699b701",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
-      "summary": "Microsoft is developing a patch for a privilege escalation zero-day vulnerability in the Microsoft Defender Malware Protection Engine, identified as CVE-2026-50656.",
-      "date": "2026-06-17T17:36:28.000Z",
-      "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9f65011b-7f67-4e33-b2fb-511a483a91d5",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Massive password-stealing attack hits 75k Fortinet firewalls",
-      "summary": "Approximately 75,000 Fortinet firewall devices have been targeted in a massive campaign designed to steal administrative credentials. Security experts urge immediate password rotation to mitigate the risk of unauthorized access.",
-      "date": "2026-06-17T17:27:40.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/17/massive-password-stealing-attack-hits-75k-fortinet-firewalls/5257877",
-      "isTopTen": false
-    },
-    {
-      "id": "57a42665-9615-46f1-85bf-cd780a44fd0f",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "FortiBleed Attack Exposes Fortinet Firewall Credentials in 194 Countries",
-      "summary": "The FortiBleed campaign leveraged compromised credentials to gain unauthorized access to Fortinet firewalls across 194 countries, threatening the security of numerous public and private sector organizations.",
-      "date": "2026-06-17T16:34:22.000Z",
-      "link": "https://hackread.com/fortibleed-attack-fortinet-firewalls-credentials/",
-      "isTopTen": false
-    },
-    {
-      "id": "59baf70e-39c2-4e3e-a1f7-40a34756fd7e",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "EU grants Ukraine access to cybersecurity reserve for major attacks",
-      "summary": "The European Union is granting Ukraine access to its specialized cybersecurity incident response reserve, further integrating the country into the bloc's collective defense framework. This initiative provides Kyiv with professional support to mitigate the impact of large-scale cyberattacks.",
-      "date": "2026-06-17T16:33:00.000Z",
-      "link": "https://therecord.media/ukraine-access-eu-cybersecurity-reserve",
-      "isTopTen": false
-    },
-    {
-      "id": "b4c618a6-5efe-402b-aeb9-ec1bb34deea9",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
-      "summary": "A French-speaking attacker compromised a small automotive business and maintained persistence by installing OpenSSH and Tailscale on victim machines to bypass the reliance on a central command-and-control server.",
-      "date": "2026-06-17T16:00:56.000Z",
-      "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
       "isTopTen": false
     }
   ]
