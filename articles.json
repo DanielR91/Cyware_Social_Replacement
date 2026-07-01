@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-01T20:05:39.079Z",
+  "lastUpdated": "2026-07-01T22:23:40.303Z",
   "articles": [
+    {
+      "id": "878fc658-216d-4e77-81f3-58feca75a4fb",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "EvilTokens device-code phishing kit totally more evil than we all thought",
+      "summary": "Cisco Talos researchers have identified the EvilTokens phishing kit as a comprehensive environment for Business Email Compromise (BEC) operations. The tool utilizes sophisticated device-code phishing techniques to facilitate unauthorized access to corporate accounts.",
+      "date": "2026-07-01T21:50:25.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/07/01/eviltokens-device-code-phishing-kit-totally-more-evil-than-we-all-thought/5265409",
+      "isTopTen": false
+    },
+    {
+      "id": "4f91f224-994a-4e46-a095-5d04247622f0",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
+      "summary": "Anthropic has released Claude Sonnet 3.5, focusing on safety and cost-efficiency while maintaining no direct relevance to cybersecurity operations.",
+      "date": "2026-07-01T21:33:44.000Z",
+      "link": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
+      "isTopTen": false
+    },
+    {
+      "id": "ce3badd0-5ae0-4236-8a2b-7298b296745e",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "The Cost of Non-Compliance: Why AI Governance Is the New Enterprise Imperative",
+      "summary": "As organizational AI adoption outpaces policy, implementing robust AI governance is essential for enterprises to mitigate compliance risks, protect sensitive data, and avoid regulatory penalties.",
+      "date": "2026-07-01T20:52:10.000Z",
+      "link": "https://hackread.com/non-compliance-ai-governance-enterprise-imperative/",
+      "isTopTen": false
+    },
+    {
+      "id": "5f5e84ec-01b4-4f0d-adf6-a796fdb22deb",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Teen suspect in Scattered Spider hacks is extradited to US",
+      "summary": "A 19-year-old suspect linked to the Scattered Spider hacking group has been extradited to the United States to face charges regarding their involvement in multiple cyber incidents, including a 2025 breach of a luxury retailer.",
+      "date": "2026-07-01T20:13:00.000Z",
+      "link": "https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us",
+      "isTopTen": false
+    },
     {
       "id": "56808d8f-30d5-4410-88e0-dfc1d936be5a",
       "source": "The Register",
@@ -11,6 +55,17 @@
       "date": "2026-07-01T19:57:48.000Z",
       "link": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
       "isTopTen": false
+    },
+    {
+      "id": "5a313e79-197b-4dca-8679-9f2a56b5f125",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Oracle E-Business Suite Flaw Under Active Attack, 950 Systems Exposed",
+      "summary": "A critical vulnerability (CVE-2026-46817) in Oracle E-Business Suite is being actively exploited, leaving approximately 950 internet-facing systems at risk of unauthenticated takeover.",
+      "date": "2026-07-01T19:49:05.000Z",
+      "link": "https://securityaffairs.com/194599/security/oracle-e-business-suite-flaw-under-active-attack-950-systems-exposed.html",
+      "isTopTen": true
     },
     {
       "id": "a9f5b54f-9807-441c-a819-d09cd5926157",
@@ -120,7 +175,7 @@
       "summary": "Adobe has released critical security patches for ColdFusion and Campaign Classic to address multiple maximum-severity vulnerabilities, including flaws that could lead to arbitrary code execution and privilege escalation.",
       "date": "2026-07-01T15:25:46.000Z",
       "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6fedf844-b533-42c8-9e06-e7459469db78",
@@ -131,7 +186,7 @@
       "summary": "Researchers discovered two critical vulnerabilities, dubbed DuneSlide, in the Cursor AI code editor that allow attackers to bypass sandbox protections and execute arbitrary commands on a user's system without interaction. These flaws represent a severe security risk, carrying a CVSS score of 9.8.",
       "date": "2026-07-01T14:42:54.000Z",
       "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b17df4fd-38e4-4189-af50-6f9f29d345f8",
@@ -296,7 +351,7 @@
       "summary": "Microsoft is accelerating its transition to post-quantum cryptography to 2029 due to rapid advancements in quantum computing that threaten current encryption standards. The move aims to proactively address the shifting risk landscape posed by future quantum-based decryption capabilities.",
       "date": "2026-07-01T10:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c873ffe6-b254-4df4-8c38-9c064207290c",
@@ -351,7 +406,7 @@
       "summary": "Researchers discovered a universal shell injection vulnerability called GuardFall affecting 10 out of 11 popular open-source AI agents, enabling attackers to bypass security filters. The flaw exposes these AI tools to potential unauthorized command execution.",
       "date": "2026-07-01T08:28:33.000Z",
       "link": "https://securityaffairs.com/194546/ai/guardfall-flaw-hits-10-of-11-popular-open-source-ai-agents.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b672b2d-d22c-4a52-87ed-a775290d93ba",
@@ -439,7 +494,7 @@
       "summary": "A Flux survey reveals that nearly half of engineering organizations are running AI-generated code in production, raising concerns regarding security, legal, and compliance risks. Most companies have adopted AI in development workflows, highlighting a broad shift in software engineering practices despite potential security oversight gaps.",
       "date": "2026-07-01T05:00:45.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/01/ai-generated-code-risks-security/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ec06a546-e38d-4779-9768-9b0df55848ac",
@@ -538,7 +593,7 @@
       "summary": "CISA has added a critical authentication bypass vulnerability in SimpleHelp (CVE-2026-48558) to its Known Exploited Vulnerabilities catalog. The flaw affects versions 5.5.15 and earlier and holds a CVSS score of 10.0.",
       "date": "2026-06-30T19:47:35.000Z",
       "link": "https://securityaffairs.com/194503/security/u-s-cisa-adds-simplehelp-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a7ca0618-bd6a-4a7f-a38c-98e5c1f941d4",
@@ -571,7 +626,7 @@
       "summary": "Microsoft researchers have discovered a vulnerability where malicious, poisoned tool descriptions can manipulate AI agents into exfiltrating sensitive company data without triggering security alerts. The exploit functions by tricking the agent into performing unauthorized actions that appear legitimate, bypassing standard security oversight.",
       "date": "2026-06-30T17:46:07.000Z",
       "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70cd3600-d2c7-42bb-8a69-b149b06d5cdd",
@@ -637,7 +692,7 @@
       "summary": "Hackers exfiltrated the personal data of 4.38 million Aflac Japan customers and agents after maintaining unauthorized access to company systems for a 10-day period in June.",
       "date": "2026-06-30T15:54:17.000Z",
       "link": "https://securityaffairs.com/194488/data-breach/hackers-steal-data-of-4-38-million-aflac-japan-customers.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b472c838-8202-4e1b-ac2c-61468da0b7cd",
@@ -648,7 +703,7 @@
       "summary": "Threat actors are actively exploiting a critical unauthenticated RCE vulnerability, CVE-2026-33017, in Langflow to deploy Monero cryptocurrency miners on exposed AI application endpoints. This campaign highlights the growing targeting of AI infrastructure by malicious actors.",
       "date": "2026-06-30T15:47:20.000Z",
       "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "792ec2cb-b41d-4074-be3c-1b5e2317a590",
@@ -5444,61 +5499,6 @@
       "summary": "Alysia Johnson of the Car Connectivity Consortium discusses the evolution of the CCC Digital Key standard, highlighting advancements in interoperability, security, and credential management in Version 4. The interview addresses how cross-industry standards are being implemented to ensure secure digital vehicle access across various platforms.",
       "date": "2026-06-18T06:00:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/18/alysia-johnson-car-connectivity-consortium-securing-digital-keys/",
-      "isTopTen": false
-    },
-    {
-      "id": "6c8608e8-50a9-4301-b248-022f8b397020",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google’s open standard for AI agents to discover and verify tools",
-      "summary": "Google has introduced Agentic Resource Discovery, an open specification designed to help AI agents locate, verify, and interoperate with tools across diverse platforms and organizations. This initiative aims to standardize how AI capabilities are shared in fragmented computing environments.",
-      "date": "2026-06-18T05:45:00.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/google-agentic-resource-discovery/",
-      "isTopTen": false
-    },
-    {
-      "id": "f3b01a1a-ce09-474e-ad72-1d4178d42aca",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "How security teams are getting credential visibility into developer endpoints",
-      "summary": "Security teams are increasingly focusing on gaining visibility into developer endpoints to mitigate the risk of exposed credentials being exploited by supply chain attackers. This shift follows a series of widespread automated attacks targeting code repositories and package managers.",
-      "date": "2026-06-18T05:30:46.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/gitguardian-developer-endpoint-protection/",
-      "isTopTen": false
-    },
-    {
-      "id": "3e5d512d-cc5d-4188-aab1-887929a6bc98",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Most agentic AI projects in production have stalled over data problems",
-      "summary": "Enterprises are experiencing stalls in agentic AI production deployments primarily due to significant challenges with data quality and governance. Despite increased adoption, these foundational data issues are hindering the transition of AI agents from experimental phases to fully operational production environments.",
-      "date": "2026-06-18T04:00:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/report-agentic-ai-in-production/",
-      "isTopTen": false
-    },
-    {
-      "id": "b029f808-6e19-47b9-a523-c765ab321ff0",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Cyber offenses now account for around a third of all crime across Asia and South Pacific",
-      "summary": "Interpol reports that cyber-enabled crimes, particularly scams, now constitute approximately one-third of all criminal activity in the Asia-Pacific region. The findings highlight the growing challenge posed by AI-driven threats, especially for regions with limited financial resources for cybersecurity.",
-      "date": "2026-06-18T02:00:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/18/cyber-offenses-now-account-for-around-a-third-of-all-crime-across-asia-and-south-pacific/5257716",
-      "isTopTen": false
-    },
-    {
-      "id": "cd509f18-396e-475b-8d54-3636c98b6f3c",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
-      "summary": "Leaked information reveals that OpenAI is in the early stages of developing a specialized ChatGPT subscription tier tailored for scientific research and analysis. It remains uncertain whether this tool will be released to the general public or restricted to specific academic and professional entities.",
-      "date": "2026-06-18T01:30:08.000Z",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
       "isTopTen": false
     }
   ]
