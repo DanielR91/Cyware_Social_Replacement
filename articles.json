@@ -1,6 +1,127 @@
 {
-  "lastUpdated": "2026-07-01T04:20:10.851Z",
+  "lastUpdated": "2026-07-01T10:01:34.989Z",
   "articles": [
+    {
+      "id": "9e2ef81d-d500-426b-b571-573f01172311",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Claude Sonnet 5 includes safeguards against dangerous cyber use",
+      "summary": "Anthropic has released Claude Sonnet 5, which features enhanced autonomous capabilities and improved reasoning while incorporating updated safety measures to prevent misuse for cyberattacks.",
+      "date": "2026-07-01T08:45:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/anthropic-claude-sonnet-5/",
+      "isTopTen": false
+    },
+    {
+      "id": "70e75104-a8ad-443b-a164-a29315e29fa8",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "GuardFall Flaw Hits 10 of 11 Popular Open-Source AI Agents",
+      "summary": "Researchers discovered a universal shell injection vulnerability called GuardFall affecting 10 out of 11 popular open-source AI agents, enabling attackers to bypass security filters. The flaw exposes these AI tools to potential unauthorized command execution.",
+      "date": "2026-07-01T08:28:33.000Z",
+      "link": "https://securityaffairs.com/194546/ai/guardfall-flaw-hits-10-of-11-popular-open-source-ai-agents.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0b672b2d-d22c-4a52-87ed-a775290d93ba",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+      "summary": "Attackers are exploiting AI-generated hallucinations by registering non-existent domains suggested by large language models to host phishing and malware campaigns. This emerging technique, known as phantom squatting, leverages the trust users place in AI-provided resources.",
+      "date": "2026-07-01T07:20:51.000Z",
+      "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+      "isTopTen": true
+    },
+    {
+      "id": "eaa499d3-4fc9-4b76-8118-94b55dbfe5a6",
+      "source": "The Hacker News",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+      "summary": "Anthropic has restored access to its Claude Fable 5 model worldwide following the U.S. Commerce Department's decision to lift export controls that were originally imposed due to jailbreak-related security concerns.",
+      "date": "2026-07-01T06:46:17.000Z",
+      "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+      "isTopTen": false
+    },
+    {
+      "id": "29117e17-7734-4896-a203-fbd8b17aa98e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "What a financial planner taught me about cybersecurity",
+      "summary": "A cybersecurity speaker observes that financial professionals are often overwhelmed and fearful when confronted with the realities of cyber threats. The article highlights the importance of effective security awareness training for high-stakes industries.",
+      "date": "2026-07-01T06:30:21.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/raising-cybersecurity-awareness-for-non-experts/",
+      "isTopTen": false
+    },
+    {
+      "id": "fd83449b-0a73-42d0-bdb1-2ad1e82daf53",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Nika: Open-source code analysis tool",
+      "summary": "PhonePe has released Nika, an open-source code analysis tool designed to identify complex security vulnerabilities in Java microservices by performing multi-file path analysis. This approach overcomes the limitations of single-file scanners by tracking data flows across different layers of an application.",
+      "date": "2026-07-01T06:00:15.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/nika-open-source-code-analysis-tool/",
+      "isTopTen": false
+    },
+    {
+      "id": "015f3a8d-dd80-47de-a7ec-8bd789ac713b",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
+      "summary": "An ongoing automated password spray attack targeting Microsoft's Azure CLI has successfully compromised at least 78 accounts after over 81 million attempts. The malicious activity has been traced to a specific IPv6 address range operated by infrastructure provider LSHIY LLC.",
+      "date": "2026-07-01T05:46:03.000Z",
+      "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+      "isTopTen": true
+    },
+    {
+      "id": "69d86356-318e-4945-963e-c189afb55576",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+      "summary": "Researchers have discovered that ClickFix campaigns are now utilizing API-driven infrastructure to dynamically serve unique malware payloads, while also introducing new techniques to evade Windows script scanning.",
+      "date": "2026-07-01T05:32:12.000Z",
+      "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a42d8355-74f7-4fb4-a00a-03985a22a56c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "This supercomputer encrypts your data even while it’s running it",
+      "summary": "A new supercomputer technology has been developed to maintain data encryption while it is actively being processed in memory, closing a critical security gap where data is traditionally exposed. This advancement mitigates risks associated with memory-scraping attacks and unauthorized access during computation.",
+      "date": "2026-07-01T05:30:32.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/confidential-computing-hpc-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "826d2465-aa72-446f-b83b-4348a7ed7026",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "AI-generated code risks reach security, legal, and compliance teams",
+      "summary": "A Flux survey reveals that nearly half of engineering organizations are running AI-generated code in production, raising concerns regarding security, legal, and compliance risks. Most companies have adopted AI in development workflows, highlighting a broad shift in software engineering practices despite potential security oversight gaps.",
+      "date": "2026-07-01T05:00:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/ai-generated-code-risks-security/",
+      "isTopTen": true
+    },
+    {
+      "id": "ec06a546-e38d-4779-9768-9b0df55848ac",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Microsoft wants to stop unwanted bots from entering Teams meetings",
+      "summary": "Microsoft is introducing a new admin policy for Teams that enhances visibility and control over external bots, allowing administrators to implement specific safeguards for meeting access. This change aims to replace the legacy CAPTCHA-based verification with more deliberate, policy-driven bot management.",
+      "date": "2026-07-01T04:30:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/microsoft-teams-bot-detection-and-protection/",
+      "isTopTen": false
+    },
     {
       "id": "13c85883-8f19-4e57-971b-8bd0336d2223",
       "source": "Help Net Security",
@@ -13,6 +134,17 @@
       "isTopTen": false
     },
     {
+      "id": "cdaf61d4-1779-49d4-a213-a499299a66d5",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
+      "summary": "Citrix has released security updates to patch six vulnerabilities in NetScaler ADC and Gateway that could allow attackers to perform arbitrary file reads or cause denial-of-service conditions.",
+      "date": "2026-07-01T03:54:22.000Z",
+      "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+      "isTopTen": false
+    },
+    {
       "id": "30089a07-2710-49d0-9c1e-3cbbc391570e",
       "source": "Unit 42",
       "tag": "Threat Intel & Info Sharing",
@@ -21,7 +153,7 @@
       "summary": "Attackers are leveraging LLM-generated hallucinated domains to conduct phantom squatting attacks, creating new risks for software supply chain security. This technique exploits the tendency of AI models to recommend non-existent but plausible-looking package dependencies that adversaries can then register.",
       "date": "2026-07-01T01:00:11.000Z",
       "link": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "56c379b3-7b97-441c-82e0-9b18a57e4db3",
@@ -175,7 +307,7 @@
       "summary": "Hackers exfiltrated the personal data of 4.38 million Aflac Japan customers and agents after maintaining unauthorized access to company systems for a 10-day period in June.",
       "date": "2026-06-30T15:54:17.000Z",
       "link": "https://securityaffairs.com/194488/data-breach/hackers-steal-data-of-4-38-million-aflac-japan-customers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b472c838-8202-4e1b-ac2c-61468da0b7cd",
@@ -307,7 +439,7 @@
       "summary": "A study of 444 iOS AI apps revealed that 282 exposed sensitive API keys and backend credentials in plaintext, allowing unauthorized users to exploit developer accounts. This massive security oversight affects approximately two-thirds of the tested applications.",
       "date": "2026-06-30T13:49:34.000Z",
       "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1829fa52-3cb4-4421-93ae-06ff888d7ba2",
@@ -450,7 +582,7 @@
       "summary": "Modern ransomware groups are increasingly adopting corporate operational structures, utilizing outsourced labor and tiered pricing models to function like large, professionalized organizations. This transition reflects a shift in cybercriminal strategy toward highly organized, business-like enterprise operations.",
       "date": "2026-06-30T09:00:00.000Z",
       "link": "https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cbdc476d-c7bc-45dc-ae22-c8d778e611f0",
@@ -461,7 +593,7 @@
       "summary": "Security researchers at LayerX discovered 'BioShocking,' a technique that exploits AI browsers and assistants by manipulating them into exfiltrating user credentials. The vulnerability affects several major platforms, including ChatGPT, Perplexity, and Claude extensions.",
       "date": "2026-06-30T08:37:19.000Z",
       "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "89181c15-94d3-48db-88c8-119a60f5c4ef",
@@ -538,7 +670,7 @@
       "summary": "Security researchers successfully bypassed LLM safety guardrails using prompt injection techniques that leverage role-play scenarios to elicit restricted information. This highlights ongoing challenges in securing AI models against manipulative inputs.",
       "date": "2026-06-29T23:33:09.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bc25be01-d9a9-4819-99b8-d50c7c43aa34",
@@ -571,7 +703,7 @@
       "summary": "The U.S. government is offering a $10 million reward for information leading to the identification of Russian hackers from groups UNC5792 and UNC4221 who target the Signal and WhatsApp accounts of officials and journalists.",
       "date": "2026-06-29T21:49:25.000Z",
       "link": "https://securityaffairs.com/194441/security/u-s-offers-10-million-reward-for-russian-hackers-behind-signal-and-whatsapp-phishing.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de10c8bb-c886-48a1-9cdd-7450792a96f2",
@@ -615,7 +747,7 @@
       "summary": "The U.S. Supreme Court has ruled that police are required to obtain a warrant to access cellphone geofence data, strengthening privacy protections under the Fourth Amendment.",
       "date": "2026-06-29T18:50:00.000Z",
       "link": "https://therecord.media/supreme-court-geofencing-ruling-fourth-amendment",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4533e6de-bd2f-4f04-b5f3-843961b50476",
@@ -5367,138 +5499,6 @@
       "summary": "The newly discovered Rokarolla Android trojan exploits malicious websites to infect devices, enabling attackers to steal financial credentials, intercept communications, and disable security features across 217 banking and crypto applications.",
       "date": "2026-06-17T11:20:39.000Z",
       "link": "https://securityaffairs.com/193745/cyber-crime/new-rokarolla-android-trojan-targets-217-banking-and-crypto-apps.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c541df2a-5374-4442-b937-5543750afd00",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "ESET MDR vs Sophos MDR: Compared Time to discover and respond to a threat",
-      "summary": "This article provides a comparative analysis of ESET MDR and Sophos MDR services, focusing on performance metrics like response speed, threat intelligence, and service tiers. It serves as a guide for organizations evaluating managed detection and response solutions.",
-      "date": "2026-06-17T10:52:33.000Z",
-      "link": "https://hackread.com/eset-mdr-vs-sophos-mdr/",
-      "isTopTen": false
-    },
-    {
-      "id": "9689a803-e993-4b38-95e4-6f7338431edf",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "What’s new in Android 17? Anti-theft tools, scam detection, and parental controls",
-      "summary": "Android 17 has launched with enhanced security features, including new anti-theft tools, real-time scam detection, and improved location privacy controls for users. These updates focus on strengthening OS-level protections and user control over sensitive data.",
-      "date": "2026-06-17T10:40:38.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/android-17-security-and-privacy-features/",
-      "isTopTen": false
-    },
-    {
-      "id": "aedcf3fc-c63f-483e-a87e-390e0548046c",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Helpdesk scammers are making house calls to make their lies feel more real",
-      "summary": "Dutch authorities arrested six individuals, including a teenager, linked to a fraudulent call center that escalates cyber-enabled bank scams by conducting in-person 'house calls' to victims. This tactic highlights a concerning evolution in social engineering where physical presence is used to increase the perceived legitimacy of scams.",
-      "date": "2026-06-17T10:38:35.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/17/helpdesk-scammers-are-making-house-calls-to-make-their-lies-feel-more-real/5257454",
-      "isTopTen": false
-    },
-    {
-      "id": "f46983c5-714c-4a10-af81-7c26fbbc8d7a",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Warner warns of CISA cuts, staffing gaps in letter to acting chief",
-      "summary": "Senator Mark Warner has urged the DHS to address funding shortages and staffing gaps at CISA, specifically highlighting the need to secure financial support for the Multi-State Information Sharing and Analysis Center (MS-ISAC).",
-      "date": "2026-06-17T10:30:00.000Z",
-      "link": "https://therecord.media/warner-warns-of-cisa-cuts-staffing-shortages",
-      "isTopTen": false
-    },
-    {
-      "id": "0bd0035f-c225-48e0-9538-f9e99e923ca6",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The Top 10 Attack Surface Exposures in 2026",
-      "summary": "The article highlights how internet-facing attack surface exposures, ranging from exposed admin panels to zero-day vulnerabilities like MongoBleed, significantly increase the risk of rapid exploitation. It emphasizes that attackers are increasingly reducing the time between vulnerability disclosure and successful exploitation.",
-      "date": "2026-06-17T10:30:00.000Z",
-      "link": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6ea0fa2c-d3c4-4a0a-ad0c-75ad9da63a71",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
-      "summary": "CISA has issued an emergency directive requiring federal agencies to remediate a critical, actively exploited vulnerability in the Widget Factory Joomla Content Editor (JCE) plugin by the end of the week. This order aims to prevent potential compromises stemming from the ongoing exploitation of the maximum-severity security flaw.",
-      "date": "2026-06-17T10:09:24.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-      "isTopTen": false
-    },
-    {
-      "id": "cb43994e-043e-4d6c-b604-3b79d75bb5ee",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "The Chainguard Athena coalition already shipped 2,000 patches across 500 open source projects",
-      "summary": "Chainguard has launched the Athena coalition, an industry group that identifies and patches vulnerabilities in open source projects under embargo before public disclosure. The initiative has already remediated 2,000 vulnerabilities across 500 projects with the support of major member organizations.",
-      "date": "2026-06-17T09:42:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/chainguard-athena-coalition-fix-open-source-vulnerabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "f46cf916-0690-49f3-8b28-205c8adf6dfa",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
-      "summary": "A coordinated malware campaign has compromised the JetBrains Marketplace, deploying 15 malicious plugins designed to steal AI API keys and capture sensitive chatbot data. These plugins masquerade as legitimate AI coding assistants to deceive developers into compromising their development environments.",
-      "date": "2026-06-17T09:38:46.000Z",
-      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "isTopTen": false
-    },
-    {
-      "id": "def3ebef-77a4-4ea4-990b-1552ed09d0e5",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "EdTech Faces a Cybersecurity Crisis: Data Breaches Surge",
-      "summary": "The EdTech sector is facing an increasing frequency of cyberattacks from threat actors like ShinyHunters and FulcrumSec, leading to significant data breaches and service disruptions. Resecurity warns that educational institutions and their platforms are currently prime targets for malicious cyber activity.",
-      "date": "2026-06-17T09:16:23.000Z",
-      "link": "https://securityaffairs.com/193777/data-breach/edtech-faces-a-cybersecurity-crisis-data-breaches-surge.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d9a47c7c-df64-4d6a-9095-6ffd748243ed",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Ukraine can now tap EU cyber support during major attacks",
-      "summary": "Ukraine has been added to the EU Cybersecurity Reserve, allowing the country to access emergency incident response services from trusted private-sector providers during major cyberattacks. This integration enhances Ukraine's resilience by leveraging the resources of the European Union Agency for Cybersecurity (ENISA).",
-      "date": "2026-06-17T08:47:02.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/ukraine-eu-cybersecurity-reserve-support/",
-      "isTopTen": false
-    },
-    {
-      "id": "960aca8f-3657-4f3a-ba64-613bbe881875",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "FulcrumSec Targets Novo Nordisk, Leaks Clinical and Research Data",
-      "summary": "The extortion group FulcrumSec leaked 1.3TB of stolen data, including clinical and AI research records, from Novo Nordisk after the company refused a $25 million ransom demand.",
-      "date": "2026-06-17T08:45:05.000Z",
-      "link": "https://securityaffairs.com/193763/security/fulcrumsec-targets-novo-nordisk-leaks-clinical-and-research-data.html",
-      "isTopTen": false
-    },
-    {
-      "id": "43766414-eb14-412d-9226-485b60d2b6e6",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
-      "summary": "Microsoft is actively developing a security patch to address the RoguePlanet zero-day vulnerability affecting its Defender software. The flaw was disclosed one week ago, prompting an official response from the company.",
-      "date": "2026-06-17T08:32:29.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
       "isTopTen": false
     }
   ]
