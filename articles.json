@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-06-30T22:19:57.554Z",
+  "lastUpdated": "2026-07-01T04:20:10.851Z",
   "articles": [
+    {
+      "id": "13c85883-8f19-4e57-971b-8bd0336d2223",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Getting boards to fund ERM means speaking their currency",
+      "summary": "Greg Young explains that cybersecurity leaders can secure funding for Enterprise Risk Management by framing it in terms of business value and risk intelligence rather than mere governance. The strategy emphasizes aligning security initiatives with board-level decision-making processes.",
+      "date": "2026-07-01T04:00:09.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/erm-the-board-funds-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "30089a07-2710-49d0-9c1e-3cbbc391570e",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
+      "summary": "Attackers are leveraging LLM-generated hallucinated domains to conduct phantom squatting attacks, creating new risks for software supply chain security. This technique exploits the tendency of AI models to recommend non-existent but plausible-looking package dependencies that adversaries can then register.",
+      "date": "2026-07-01T01:00:11.000Z",
+      "link": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+      "isTopTen": true
+    },
+    {
+      "id": "56c379b3-7b97-441c-82e0-9b18a57e4db3",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "XSS.is, The Forum That Ran the Ransomware Supply Chain Is Down. The Market Isn’t",
+      "summary": "French and Ukrainian law enforcement authorities arrested the alleged administrator of XSS.is and seized the influential Russian-language cybercrime forum. Despite the takedown, experts indicate the broader cybercriminal market remains active.",
+      "date": "2026-06-30T23:09:24.000Z",
+      "link": "https://securityaffairs.com/194524/security/xss-is-the-forum-that-ran-the-ransomware-supply-chain-is-down-the-market-isnt.html",
+      "isTopTen": false
+    },
+    {
+      "id": "508fd04a-2879-44b0-86d3-031ed1ca0db4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Proton’s pitch for Lumo 2.0: Frontier AI without the data grab",
+      "summary": "Proton has launched Lumo 2.0, a privacy-focused AI assistant that utilizes zero-access encryption to provide advanced multimodal capabilities and enterprise features without compromising user data.",
+      "date": "2026-06-30T22:15:13.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/01/proton-lumo-2-0-ai/",
+      "isTopTen": false
+    },
     {
       "id": "b50e0908-f3bd-479b-87b3-a6cda2b4034b",
       "source": "CyberScoop",
@@ -10,7 +54,7 @@
       "summary": "Citrix has released patches for six vulnerabilities in NetScaler, including a high-severity flaw that shares concerning similarities with the previously exploited CitrixBleed vulnerability.",
       "date": "2026-06-30T21:46:38.000Z",
       "link": "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bd213816-cb7c-43ab-9d6a-8971b26a9813",
@@ -33,6 +77,17 @@
       "date": "2026-06-30T19:47:35.000Z",
       "link": "https://securityaffairs.com/194503/security/u-s-cisa-adds-simplehelp-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
       "isTopTen": true
+    },
+    {
+      "id": "a7ca0618-bd6a-4a7f-a38c-98e5c1f941d4",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Infosec professionals sour on automated pentesting tools",
+      "summary": "Recent data indicates a significant decline in industry confidence toward fully autonomous penetration testing tools among security professionals. The drop from 29% to 9% suggests a growing skepticism regarding the effectiveness or reliability of complete automation in security assessments.",
+      "date": "2026-06-30T19:38:07.000Z",
+      "link": "https://www.theregister.com/security/2026/06/30/infosec-professionals-sour-on-automated-pentesting-tools/5264571",
+      "isTopTen": false
     },
     {
       "id": "ace32c7a-1141-4277-9207-99996d846232",
@@ -65,7 +120,7 @@
       "summary": "The RustDuck botnet is utilizing the Rust programming language to rapidly evolve its infrastructure, targeting IoT devices and servers for large-scale DDoS attacks. Researchers highlight the botnet's concerning growth rate and frequent tactical updates.",
       "date": "2026-06-30T17:45:25.000Z",
       "link": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "53678923-a7e9-4cd7-aae2-d7232dfcdfbb",
@@ -219,7 +274,7 @@
       "summary": "Threat intelligence firm Defused reported active in-the-wild exploitation of a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite Payments module. The attacks were detected approximately six weeks after the release of the official security patch.",
       "date": "2026-06-30T13:58:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/30/oracle-payments-cve-2026-46817-exploitation/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b8bf61f3-1e39-4707-81d0-2efa7799a0a5",
@@ -252,7 +307,7 @@
       "summary": "A study of 444 iOS AI apps revealed that 282 exposed sensitive API keys and backend credentials in plaintext, allowing unauthorized users to exploit developer accounts. This massive security oversight affects approximately two-thirds of the tested applications.",
       "date": "2026-06-30T13:49:34.000Z",
       "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1829fa52-3cb4-4421-93ae-06ff888d7ba2",
@@ -384,7 +439,7 @@
       "summary": "Oracle E-Business Suite is currently under active exploitation due to a critical remote code execution vulnerability identified as CVE-2026-46817. This flaw allows unauthenticated attackers to fully compromise Oracle Payments systems.",
       "date": "2026-06-30T09:01:43.000Z",
       "link": "https://securityaffairs.com/194463/security/attackers-actively-exploit-the-oracle-e-business-suite-flaw-cve-2026-46817.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f98ee16a-116d-43e8-bcc4-23b58ac33913",
@@ -406,7 +461,7 @@
       "summary": "Security researchers at LayerX discovered 'BioShocking,' a technique that exploits AI browsers and assistants by manipulating them into exfiltrating user credentials. The vulnerability affects several major platforms, including ChatGPT, Perplexity, and Claude extensions.",
       "date": "2026-06-30T08:37:19.000Z",
       "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "89181c15-94d3-48db-88c8-119a60f5c4ef",
@@ -483,7 +538,7 @@
       "summary": "Security researchers successfully bypassed LLM safety guardrails using prompt injection techniques that leverage role-play scenarios to elicit restricted information. This highlights ongoing challenges in securing AI models against manipulative inputs.",
       "date": "2026-06-29T23:33:09.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc25be01-d9a9-4819-99b8-d50c7c43aa34",
@@ -516,7 +571,7 @@
       "summary": "The U.S. government is offering a $10 million reward for information leading to the identification of Russian hackers from groups UNC5792 and UNC4221 who target the Signal and WhatsApp accounts of officials and journalists.",
       "date": "2026-06-29T21:49:25.000Z",
       "link": "https://securityaffairs.com/194441/security/u-s-offers-10-million-reward-for-russian-hackers-behind-signal-and-whatsapp-phishing.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "de10c8bb-c886-48a1-9cdd-7450792a96f2",
@@ -527,7 +582,7 @@
       "summary": "Senator Mark Warner has introduced legislation that would authorize the FTC to establish a federally vetted registry for AI agent software to ensure verified cybersecurity and privacy standards. This move aims to increase trust and accountability for AI developers and vendors.",
       "date": "2026-06-29T21:29:06.000Z",
       "link": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "149d5d3b-8557-46a1-905e-efb96ce178d3",
@@ -560,7 +615,7 @@
       "summary": "The U.S. Supreme Court has ruled that police are required to obtain a warrant to access cellphone geofence data, strengthening privacy protections under the Fourth Amendment.",
       "date": "2026-06-29T18:50:00.000Z",
       "link": "https://therecord.media/supreme-court-geofencing-ruling-fourth-amendment",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4533e6de-bd2f-4f04-b5f3-843961b50476",
@@ -659,7 +714,7 @@
       "summary": "The China-linked espionage group Mustang Panda is targeting Indian government and hydropower sectors by utilizing Zoho WorkDrive as a command-and-control channel for new malware. Researchers have identified active compromises within networks belonging to senior administrative staff.",
       "date": "2026-06-29T15:03:40.000Z",
       "link": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "08748e1e-debf-4a73-a8dd-f7b200d2fc09",
@@ -5444,61 +5499,6 @@
       "summary": "Microsoft is actively developing a security patch to address the RoguePlanet zero-day vulnerability affecting its Defender software. The flaw was disclosed one week ago, prompting an official response from the company.",
       "date": "2026-06-17T08:32:29.000Z",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-      "isTopTen": false
-    },
-    {
-      "id": "d94eeb80-4d44-44a6-b73c-5b1c9101934a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Apple is bringing Hide My Email and Sign in with Apple under one domain",
-      "summary": "Apple is consolidating the email domains for its 'Sign in with Apple' and 'Hide My Email' services under a single domain, private.icloud.com, starting this summer. This update aims to unify infrastructure for these privacy-focused email forwarding features.",
-      "date": "2026-06-17T08:29:25.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/apple-hide-my-email-domain-change/",
-      "isTopTen": false
-    },
-    {
-      "id": "4cad8490-9970-4b86-9622-aa8aaba16bb6",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "15 Malicious JetBrains Plugins Caught Stealing DeepSeek, OpenAI API Keys",
-      "summary": "Threat actors have uploaded 15 malicious JetBrains plugins disguised as AI coding assistants to exfiltrate sensitive API keys, including those for OpenAI and DeepSeek. This campaign specifically targets software developers to compromise their development environments.",
-      "date": "2026-06-17T08:18:32.000Z",
-      "link": "https://hackread.com/malicious-jetbrains-plugins-steal-deepseek-openai-api-keys/",
-      "isTopTen": false
-    },
-    {
-      "id": "16a26416-5ea0-4fa2-b43a-f1a28f62ffe3",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "China-Linked FishMonger Ports SprySOCKS to Windows With Kernel-Level Stealth and UEFI Bootkit Hints",
-      "summary": "China-linked threat actor FishMonger has expanded its arsenal by deploying new Windows-based variants of the SprySOCKS backdoor, which utilize kernel-level drivers and print spooler vulnerabilities to target government entities. Previously known only as a Linux threat, this malware now incorporates advanced persistence mechanisms including potential UEFI bootkit integration.",
-      "date": "2026-06-17T08:10:45.000Z",
-      "link": "https://securityaffairs.com/193728/apt/china-linked-fishmonger-ports-sprysocks-to-windows-with-kernel-level-stealth-and-uefi-bootkit-hints.html",
-      "isTopTen": false
-    },
-    {
-      "id": "09e95f68-3e6f-44e2-a458-d9833495223d",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
-      "summary": "144 Mastra npm packages were compromised after a contributor's account was hijacked to distribute malicious code through a supply chain attack dubbed easy-day-js. Security researchers confirmed the incident, highlighting a significant vulnerability within the AI framework's ecosystem.",
-      "date": "2026-06-17T07:38:24.000Z",
-      "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bd1ec827-52a6-45b2-b9aa-0a3045659397",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Fortinet FortiSOC unifies SIEM, SOAR, threat intelligence, and AI in one platform",
-      "summary": "Fortinet has launched FortiSOC, a unified SaaS platform that integrates SIEM, SOAR, threat intelligence, and agentic AI to streamline security operations and autonomous incident response. The platform aims to simplify SecOps management by consolidating multiple functions into a single, cloud-delivered console.",
-      "date": "2026-06-17T07:31:14.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/fortinet-fortisoc-unifies-siem-soar-threat-intelligence-and-ai-in-one-platform/",
       "isTopTen": false
     }
   ]
