@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-01T14:51:25.297Z",
+  "lastUpdated": "2026-07-01T17:22:30.757Z",
   "articles": [
+    {
+      "id": "43262df8-5aad-4f2c-84db-0708394c52c2",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake “Google Notes” Browser Extension Caught Swapping Crypto Wallet Addresses",
+      "summary": "A malicious 'Google Notes' browser extension has been identified replacing copied cryptocurrency wallet addresses with attacker-controlled ones, affecting users on Chrome, Brave, and Edge. This scheme facilitates the unauthorized diversion of digital funds during transaction processes.",
+      "date": "2026-07-01T16:51:19.000Z",
+      "link": "https://hackread.com/fake-google-notes-browser-extension-swap-crypto-wallets/",
+      "isTopTen": true
+    },
+    {
+      "id": "0ab5df2f-5130-4d55-9dbf-48faf207ad84",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
+      "summary": "The Ousaban banking trojan is targeting users in Spain and Portugal through phishing campaigns that use fake PDF lures and steganography to steal banking credentials. This malicious campaign was identified by FortiGuard Labs in May 2026.",
+      "date": "2026-07-01T15:26:55.000Z",
+      "link": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+      "isTopTen": false
+    },
+    {
+      "id": "dce52091-c917-4b8e-818f-883b641b5947",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
+      "summary": "Adobe has released critical security patches for ColdFusion and Campaign Classic to address multiple maximum-severity vulnerabilities, including flaws that could lead to arbitrary code execution and privilege escalation.",
+      "date": "2026-07-01T15:25:46.000Z",
+      "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
+      "isTopTen": true
+    },
+    {
+      "id": "6fedf844-b533-42c8-9e06-e7459469db78",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+      "summary": "Researchers discovered two critical vulnerabilities, dubbed DuneSlide, in the Cursor AI code editor that allow attackers to bypass sandbox protections and execute arbitrary commands on a user's system without interaction. These flaws represent a severe security risk, carrying a CVSS score of 9.8.",
+      "date": "2026-07-01T14:42:54.000Z",
+      "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+      "isTopTen": false
+    },
     {
       "id": "b17df4fd-38e4-4189-af50-6f9f29d345f8",
       "source": "HackRead",
@@ -43,7 +87,7 @@
       "summary": "An automated password spray campaign dubbed LSHIY has targeted Microsoft Azure CLI environments, resulting in 81 million login attempts and 78 compromised accounts across 64 organizations. Researchers at Huntress discovered the campaign has been active since June 2026.",
       "date": "2026-07-01T13:55:54.000Z",
       "link": "https://securityaffairs.com/194588/uncategorized/azure-cli-targeted-in-lshiy-password-spray-campaign-across-64-orgs.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4aa93255-9785-4cf4-be99-7bec55f87b1f",
@@ -164,7 +208,7 @@
       "summary": "Microsoft is accelerating its transition to post-quantum cryptography to 2029 due to rapid advancements in quantum computing that threaten current encryption standards. The move aims to proactively address the shifting risk landscape posed by future quantum-based decryption capabilities.",
       "date": "2026-07-01T10:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c873ffe6-b254-4df4-8c38-9c064207290c",
@@ -428,7 +472,7 @@
       "summary": "CIA Director John Ratcliffe emphasized the strategic importance of artificial intelligence, comparing its potential impact and power to digital nuclear weapons. This highlights the agency's shifting priority toward integrating advanced AI capabilities into their intelligence framework.",
       "date": "2026-06-30T19:05:00.000Z",
       "link": "https://therecord.media/cia-chief-ratcliffe-highlights-major-shifts-in-agencys-tech-approach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "23b9e940-b064-4bdd-bb8f-83bc9cc0a224",
@@ -439,7 +483,7 @@
       "summary": "Microsoft researchers have discovered a vulnerability where malicious, poisoned tool descriptions can manipulate AI agents into exfiltrating sensitive company data without triggering security alerts. The exploit functions by tricking the agent into performing unauthorized actions that appear legitimate, bypassing standard security oversight.",
       "date": "2026-06-30T17:46:07.000Z",
       "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70cd3600-d2c7-42bb-8a69-b149b06d5cdd",
@@ -516,7 +560,7 @@
       "summary": "Threat actors are actively exploiting a critical unauthenticated RCE vulnerability, CVE-2026-33017, in Langflow to deploy Monero cryptocurrency miners on exposed AI application endpoints. This campaign highlights the growing targeting of AI infrastructure by malicious actors.",
       "date": "2026-06-30T15:47:20.000Z",
       "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "792ec2cb-b41d-4074-be3c-1b5e2317a590",
@@ -637,7 +681,7 @@
       "summary": "A study of 444 iOS AI apps revealed that 282 exposed sensitive API keys and backend credentials in plaintext, allowing unauthorized users to exploit developer accounts. This massive security oversight affects approximately two-thirds of the tested applications.",
       "date": "2026-06-30T13:49:34.000Z",
       "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1829fa52-3cb4-4421-93ae-06ff888d7ba2",
@@ -5455,50 +5499,6 @@
       "summary": "A French-speaking attacker compromised a small automotive business and maintained persistence by installing OpenSSH and Tailscale on victim machines to bypass the reliance on a central command-and-control server.",
       "date": "2026-06-17T16:00:56.000Z",
       "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-      "isTopTen": false
-    },
-    {
-      "id": "247b6dd1-9317-427f-8d1f-d029bcfbbcc5",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "DragonForce Hid Inside Microsoft Teams and Nobody Noticed for Two Months",
-      "summary": "The DragonForce ransomware group successfully evaded detection for two months by utilizing Microsoft Teams infrastructure to route command-and-control traffic. By leveraging legitimate service relays, the attackers managed to mask malicious activity during an intrusion at a major U.S. services firm.",
-      "date": "2026-06-17T15:55:10.000Z",
-      "link": "https://securityaffairs.com/193801/security/dragonforce-hid-inside-microsoft-teams-and-nobody-noticed-for-two-months.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b6607155-8caf-4001-b8fd-8ec226dbef1a",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Low-skilled attacker used Claude, Codex to breach 14 companies",
-      "summary": "OALABS researchers discovered that a low-skilled attacker successfully compromised 14 companies by leveraging AI coding assistants Claude and Codex to bypass safety guardrails. The findings confirm that AI-driven tools are effectively lowering the barrier to entry for conducting sophisticated offensive cyber operations.",
-      "date": "2026-06-17T15:43:00.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/17/ai-agents-offensive-cyber-operations-claude-codex/",
-      "isTopTen": false
-    },
-    {
-      "id": "c0b993ca-0077-4345-a04b-0cca515b1d78",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers hit pair of critical Fortinet vulnerabilities the vendor disclosed in April",
-      "summary": "Multiple organizations are actively exploiting two critical vulnerabilities in FortiSandbox that were initially disclosed by Fortinet in April. The attacks are coming from various sources, indicating a widespread campaign rather than a single threat actor.",
-      "date": "2026-06-17T15:42:46.000Z",
-      "link": "https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/",
-      "isTopTen": false
-    },
-    {
-      "id": "918b430b-479f-44db-b581-f67a311b7706",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Widget Factory Joomla Content Editor flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added the critical CVE-2026-48907 vulnerability affecting Widget Factory's Joomla Content Editor to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
-      "date": "2026-06-17T15:18:04.000Z",
-      "link": "https://securityaffairs.com/193775/hacking/u-s-cisa-adds-widget-factory-joomla-content-editor-jce-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
       "isTopTen": false
     }
   ]
