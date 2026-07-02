@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-07-02T14:15:20.911Z",
+  "lastUpdated": "2026-07-02T16:56:08.114Z",
   "articles": [
+    {
+      "id": "5769da0b-47c1-4c44-a922-f9aa61711ebe",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "FortiBleed Credential Theft Connected to INC and Lynx Ransomware",
+      "summary": "The FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware groups. Security teams are also investigating a related zero-day vulnerability in Nextcloud.",
+      "date": "2026-07-02T16:31:37.000Z",
+      "link": "https://hackread.com/fortibleed-credential-theft-in-lynx-ransomware/",
+      "isTopTen": false
+    },
+    {
+      "id": "2e2f90b1-d25f-4dfa-b5c0-f7ffbe287b45",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "U.S. CISA adds a Microsoft SharePoint Server flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the Microsoft SharePoint Server vulnerability CVE-2026-45659, which carries a CVSS score of 8.8, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
+      "date": "2026-07-02T15:56:54.000Z",
+      "link": "https://securityaffairs.com/194654/security/u-s-cisa-adds-a-microsoft-sharepoint-server-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a38d3380-795a-44ea-a4b0-46834fc41056",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ctrl+Alt+Oops: FortiBleed criminal's logins stitch two gangs together",
+      "summary": "Security researchers discovered operational security failures by a threat actor who used FortiBleed credentials to facilitate activities for both the INC and Lynx cybercriminal gangs. This overlap provides evidence of collaboration or shared personnel between these two distinct threat groups.",
+      "date": "2026-07-02T15:32:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/02/ctrlaltoops-fortibleed-criminals-logins-stitch-two-gangs-together/5265912",
+      "isTopTen": false
+    },
+    {
+      "id": "e5b09f44-1193-4b8e-af8d-013b04c7c1b6",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Alleged longstanding member of Scattered Spider extradited to US",
+      "summary": "Peter Stokes, an alleged member of the Scattered Spider cybercrime group, has been extradited to the United States following his arrest. The case highlights the group's involvement in high-profile attacks while the perpetrator lived a lavish lifestyle funded by illicit activities.",
+      "date": "2026-07-02T15:28:25.000Z",
+      "link": "https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/",
+      "isTopTen": false
+    },
+    {
+      "id": "67ea1deb-fab7-4855-9abb-3276fe4695cf",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+      "summary": "This week's cybersecurity landscape is characterized by diverse vulnerabilities in browsers, AI systems, and email infrastructure, highlighting how attackers exploit seemingly minor permission and configuration gaps. These fragmented security weaknesses demonstrate a trend of leveraging legitimate tools and minor oversight to facilitate broader threats.",
+      "date": "2026-07-02T15:24:18.000Z",
+      "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4f56b3b0-cabb-40ab-a287-7556aebe196e",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft said exploitation was 'less likely' ... but CISA just added SharePoint RCE to KEV list",
+      "summary": "CISA has added a SharePoint remote code execution vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, contradicting Microsoft's earlier assessment that exploitation was unlikely. The flaw allows attackers with valid account credentials to execute arbitrary code on vulnerable on-premises servers.",
+      "date": "2026-07-02T14:40:30.000Z",
+      "link": "https://www.theregister.com/security/2026/07/02/microsoft-said-exploitation-was-less-likely-but-cisa-just-added-sharepoint-rce-to-kev-list/5265886",
+      "isTopTen": true
+    },
     {
       "id": "a64d5164-14df-47cd-b43f-df5b0b8d765c",
       "source": "Help Net Security",
@@ -32,7 +98,7 @@
       "summary": "Medical device manufacturer Medtronic has notified patients that their health data was compromised following a cyberattack attributed to the group ShinyHunters. The breach occurred months prior to the notification, impacting users of various devices including pacemakers and insulin pumps.",
       "date": "2026-07-02T12:54:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/02/pacemaker-manufacturer-medtronic-warns-patients-cybercrooks-may-have-swiped-health-data/5265768",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "578e8516-2062-4fa0-a1d3-3bd385117f90",
@@ -98,7 +164,7 @@
       "summary": "Attackers exploited a critical vulnerability in Oracle E-Business Suite by reverse-engineering an available patch before the official public exploit code was released. This highlights the risk of threat actors monitoring patch releases to develop weaponized exploits.",
       "date": "2026-07-02T10:35:16.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/07/02/oracle-e-business-suite-was-under-attack-via-critical-flaw-before-the-public-exploit-code-was-even-released/5265710",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9e33ec83-4a3d-484e-b83b-a3235504ee50",
@@ -109,7 +175,7 @@
       "summary": "Sysdig researchers have identified JADEPUFFER, the first documented instance of agentic ransomware where an LLM agent exploited a Langflow vulnerability to compromise production systems and destroy data.",
       "date": "2026-07-02T10:22:21.000Z",
       "link": "https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "87d37836-c2b0-4f71-9d98-875d7b33b858",
@@ -131,7 +197,7 @@
       "summary": "Security researchers have identified the first end-to-end ransomware attack orchestrated by an AI agent, which utilized a Langflow remote code execution vulnerability to infiltrate and compromise a production database. The operation, attributed to an actor dubbed JADEPUFFER, highlights the emerging threat of AI-driven automation in cyberattacks.",
       "date": "2026-07-02T09:13:13.000Z",
       "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "864de8c5-95de-4eed-afd1-a63a25d595c6",
@@ -318,7 +384,7 @@
       "summary": "A critical vulnerability (CVE-2026-46817) in Oracle E-Business Suite is being actively exploited, leaving approximately 950 internet-facing systems at risk of unauthenticated takeover.",
       "date": "2026-07-01T19:49:05.000Z",
       "link": "https://securityaffairs.com/194599/security/oracle-e-business-suite-flaw-under-active-attack-950-systems-exposed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a9f5b54f-9807-441c-a819-d09cd5926157",
@@ -329,7 +395,7 @@
       "summary": "An unpatched vulnerability in the Argo CD repo-server component allows unauthenticated attackers to execute code and potentially gain full control of Kubernetes clusters. The flaw currently lacks a fix and a CVE identifier.",
       "date": "2026-07-01T19:40:06.000Z",
       "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "09ec34f7-5757-4ff5-9b4f-648ef7efdaf7",
@@ -428,7 +494,7 @@
       "summary": "Adobe has released critical security patches for ColdFusion and Campaign Classic to address multiple maximum-severity vulnerabilities, including flaws that could lead to arbitrary code execution and privilege escalation.",
       "date": "2026-07-01T15:25:46.000Z",
       "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6fedf844-b533-42c8-9e06-e7459469db78",
@@ -439,7 +505,7 @@
       "summary": "Researchers discovered two critical vulnerabilities, dubbed DuneSlide, in the Cursor AI code editor that allow attackers to bypass sandbox protections and execute arbitrary commands on a user's system without interaction. These flaws represent a severe security risk, carrying a CVSS score of 9.8.",
       "date": "2026-07-01T14:42:54.000Z",
       "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b17df4fd-38e4-4189-af50-6f9f29d345f8",
@@ -483,7 +549,7 @@
       "summary": "An automated password spray campaign dubbed LSHIY has targeted Microsoft Azure CLI environments, resulting in 81 million login attempts and 78 compromised accounts across 64 organizations. Researchers at Huntress discovered the campaign has been active since June 2026.",
       "date": "2026-07-01T13:55:54.000Z",
       "link": "https://securityaffairs.com/194588/uncategorized/azure-cli-targeted-in-lshiy-password-spray-campaign-across-64-orgs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4aa93255-9785-4cf4-be99-7bec55f87b1f",
@@ -604,7 +670,7 @@
       "summary": "Microsoft is accelerating its transition to post-quantum cryptography to 2029 due to rapid advancements in quantum computing that threaten current encryption standards. The move aims to proactively address the shifting risk landscape posed by future quantum-based decryption capabilities.",
       "date": "2026-07-01T10:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c873ffe6-b254-4df4-8c38-9c064207290c",
@@ -659,7 +725,7 @@
       "summary": "Researchers discovered a universal shell injection vulnerability called GuardFall affecting 10 out of 11 popular open-source AI agents, enabling attackers to bypass security filters. The flaw exposes these AI tools to potential unauthorized command execution.",
       "date": "2026-07-01T08:28:33.000Z",
       "link": "https://securityaffairs.com/194546/ai/guardfall-flaw-hits-10-of-11-popular-open-source-ai-agents.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b672b2d-d22c-4a52-87ed-a775290d93ba",
@@ -5433,72 +5499,6 @@
       "summary": "Google reportedly praised a security researcher for discovering a vulnerability but subsequently refused to pay a bounty, claiming the behavior was 'working as intended' despite the flaw remaining unpatched.",
       "date": "2026-06-18T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/18/google-told-researcher-nice-catch-then-denied-bug-bounty-for-flaw-it-still-hasnt-fixed/5258076",
-      "isTopTen": false
-    },
-    {
-      "id": "1ec6fe07-a897-491c-a70b-11ac3167c3ab",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
-      "summary": "Microsoft identified a persistent cryptocurrency clipper campaign that utilizes USB LNK worms, Windows Script Host, and Tor-based command-and-control infrastructure to steal assets. The malware has been active since February 2026 and employs ActiveX logic to maintain persistence.",
-      "date": "2026-06-18T14:30:42.000Z",
-      "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f45ecea9-7267-4e79-ba98-b7663edeab39",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Law enforcement hits SocGholish: 106 servers down, 15,000 sites cleaned",
-      "summary": "An international law enforcement coalition successfully dismantled 106 servers and remediated nearly 15,000 compromised websites associated with the SocGholish malware distribution operation. This action significantly disrupts the infrastructure used to deliver malicious fake software updates to victims.",
-      "date": "2026-06-18T14:21:23.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/law-enforcement-socgholish-operation-endgame/",
-      "isTopTen": false
-    },
-    {
-      "id": "720461f9-c5d5-43bb-94ab-c1974939a38c",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Australian sugar producer works to restore operations as ransomware group claims attack",
-      "summary": "Australian sugar producer Mackay Sugar has suspended harvesting and milling operations following a ransomware attack. The company is currently verifying claims made by a cybercriminal group regarding the incident.",
-      "date": "2026-06-18T14:20:00.000Z",
-      "link": "https://therecord.media/mackay-sugar-cyberattack-claimed-gentlemen",
-      "isTopTen": false
-    },
-    {
-      "id": "2bf14737-7726-4a86-b806-f5cf69c068c7",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
-      "summary": "Market intelligence firm Klue experienced an OAuth token breach exploited by the 'Icarus' threat actor group to exfiltrate sensitive Salesforce CRM data across multiple organizations. The attack is part of an ongoing extortion campaign targeting cloud-based information platforms.",
-      "date": "2026-06-18T14:19:50.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "9ba82107-0c0b-4f7c-ab48-044c1ef7b0a7",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
-      "summary": "INC Ransomware has become a dominant RaaS operation, infecting over 830 victims since 2023 by absorbing affiliates from dismantled groups like LockBit and BlackCat.",
-      "date": "2026-06-18T14:12:48.000Z",
-      "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
-      "isTopTen": false
-    },
-    {
-      "id": "321a1524-2e76-4111-8ee0-739ed0342ac9",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "F5 Patches Critical NGINX Vulnerabilities Enabling Unauthenticated Code Execution",
-      "summary": "F5 has released emergency patches to address two critical, remotely exploitable memory corruption vulnerabilities in NGINX, identified as CVE-2026-42530 and CVE-2026-42055, which allow for unauthenticated code execution.",
-      "date": "2026-06-18T14:07:14.000Z",
-      "link": "https://securityaffairs.com/193842/security/f5-patches-critical-nginx-vulnerabilities-enabling-unauthenticated-code-execution.html",
       "isTopTen": false
     }
   ]
