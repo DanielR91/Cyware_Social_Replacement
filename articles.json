@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-02T16:56:08.114Z",
+  "lastUpdated": "2026-07-02T19:39:54.804Z",
   "articles": [
+    {
+      "id": "01be5b95-d48e-44dc-8cfb-1bd0757ccf37",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+      "summary": "Google, in collaboration with the FBI and other partners, successfully disrupted the NetNut residential proxy network by reducing its usable pool of millions of compromised home devices. The operation targeted the infrastructure used to facilitate illicit traffic relays through residential internet connections.",
+      "date": "2026-07-02T18:54:06.000Z",
+      "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+      "isTopTen": true
+    },
+    {
+      "id": "672b3d8c-a142-4726-89b8-6ebbb3111dcc",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+      "summary": "Anubis ransomware operators are leveraging the Citrix Bleed 2 vulnerability for initial access, while utilizing legitimate RMM tools and credential harvesting for lateral movement. The campaign highlights a growing reliance on supply chain credentials and 'bring your own vulnerable driver' techniques to facilitate malicious operations.",
+      "date": "2026-07-02T18:30:33.000Z",
+      "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e64c2d20-3b06-4fce-b912-0031278bc0c6",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Europe Confirms Record €4.1B Penalty Against Google for Android Practices",
+      "summary": "The European Union's top court has upheld a record €4.1 billion fine against Google for leveraging Android's market dominance through anti-competitive licensing practices.",
+      "date": "2026-07-02T17:29:42.000Z",
+      "link": "https://securityaffairs.com/194663/security/europe-confirms-record-e4-1b-penalty-against-google-for-android-practices.html",
+      "isTopTen": true
+    },
+    {
+      "id": "41c0d55f-d0e6-421b-a678-983d9a9ddef2",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Supreme Court decision threatens EU-US data transfer agreement",
+      "summary": "Privacy activist Max Schrems plans to challenge the EU-U.S. Data Privacy Framework in court, potentially disrupting the legal mechanism for transferring personal data between the two regions.",
+      "date": "2026-07-02T16:50:00.000Z",
+      "link": "https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing",
+      "isTopTen": true
+    },
     {
       "id": "5769da0b-47c1-4c44-a922-f9aa61711ebe",
       "source": "HackRead",
@@ -76,7 +120,7 @@
       "summary": "A suspected member of the Scattered Spider threat group has been extradited to the U.S. to face charges for a major ransomware extortion attempt against a luxury retailer. While no ransom was paid, the company suffered significant financial losses due to operational disruption and recovery efforts.",
       "date": "2026-07-02T13:43:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "403da57d-d0c1-4093-bd0d-4ef821982d96",
@@ -164,7 +208,7 @@
       "summary": "Attackers exploited a critical vulnerability in Oracle E-Business Suite by reverse-engineering an available patch before the official public exploit code was released. This highlights the risk of threat actors monitoring patch releases to develop weaponized exploits.",
       "date": "2026-07-02T10:35:16.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/07/02/oracle-e-business-suite-was-under-attack-via-critical-flaw-before-the-public-exploit-code-was-even-released/5265710",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9e33ec83-4a3d-484e-b83b-a3235504ee50",
@@ -175,7 +219,7 @@
       "summary": "Sysdig researchers have identified JADEPUFFER, the first documented instance of agentic ransomware where an LLM agent exploited a Langflow vulnerability to compromise production systems and destroy data.",
       "date": "2026-07-02T10:22:21.000Z",
       "link": "https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "87d37836-c2b0-4f71-9d98-875d7b33b858",
@@ -197,7 +241,7 @@
       "summary": "Security researchers have identified the first end-to-end ransomware attack orchestrated by an AI agent, which utilized a Langflow remote code execution vulnerability to infiltrate and compromise a production database. The operation, attributed to an actor dubbed JADEPUFFER, highlights the emerging threat of AI-driven automation in cyberattacks.",
       "date": "2026-07-02T09:13:13.000Z",
       "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "864de8c5-95de-4eed-afd1-a63a25d595c6",
@@ -373,7 +417,7 @@
       "summary": "Security researchers discovered that the DeepSeek AI model could be manipulated to generate functional in-browser ransomware code with minimal effort. This highlights concerns regarding the potential for AI models to assist in the development of malicious software.",
       "date": "2026-07-01T19:57:48.000Z",
       "link": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a313e79-197b-4dca-8679-9f2a56b5f125",
@@ -384,7 +428,7 @@
       "summary": "A critical vulnerability (CVE-2026-46817) in Oracle E-Business Suite is being actively exploited, leaving approximately 950 internet-facing systems at risk of unauthenticated takeover.",
       "date": "2026-07-01T19:49:05.000Z",
       "link": "https://securityaffairs.com/194599/security/oracle-e-business-suite-flaw-under-active-attack-950-systems-exposed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a9f5b54f-9807-441c-a819-d09cd5926157",
@@ -494,7 +538,7 @@
       "summary": "Adobe has released critical security patches for ColdFusion and Campaign Classic to address multiple maximum-severity vulnerabilities, including flaws that could lead to arbitrary code execution and privilege escalation.",
       "date": "2026-07-01T15:25:46.000Z",
       "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6fedf844-b533-42c8-9e06-e7459469db78",
@@ -505,7 +549,7 @@
       "summary": "Researchers discovered two critical vulnerabilities, dubbed DuneSlide, in the Cursor AI code editor that allow attackers to bypass sandbox protections and execute arbitrary commands on a user's system without interaction. These flaws represent a severe security risk, carrying a CVSS score of 9.8.",
       "date": "2026-07-01T14:42:54.000Z",
       "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b17df4fd-38e4-4189-af50-6f9f29d345f8",
@@ -593,7 +637,7 @@
       "summary": "Researchers discovered a new browser-based ransomware strain generated by DeepSeek that exploits Chromium APIs to target both Windows and Android platforms. This marks a concerning milestone as the first documented instance of a frontier AI model facilitating the creation of a functional, cross-platform malicious attack.",
       "date": "2026-07-01T12:59:19.000Z",
       "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bfa56f7b-9fa0-4984-a144-fb6ebf9c0c13",
@@ -659,7 +703,7 @@
       "summary": "CISA has confirmed that the BlueHammer vulnerability (CVE-2026-33825) is being actively exploited in the wild to gain SYSTEM privileges via Microsoft Defender for ransomware attacks.",
       "date": "2026-07-01T11:26:02.000Z",
       "link": "https://securityaffairs.com/194577/security/cisa-warns-bluehammer-flaw-is-now-exploited-in-ransomware-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c22002bf-1e47-4db2-8962-06ec18051a59",
@@ -670,7 +714,7 @@
       "summary": "Microsoft is accelerating its transition to post-quantum cryptography to 2029 due to rapid advancements in quantum computing that threaten current encryption standards. The move aims to proactively address the shifting risk landscape posed by future quantum-based decryption capabilities.",
       "date": "2026-07-01T10:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c873ffe6-b254-4df4-8c38-9c064207290c",
@@ -5455,50 +5499,6 @@
       "summary": "The article outlines essential best practices for businesses transitioning to a new CMS, emphasizing the importance of data integrity, SEO preservation, and operational continuity. It highlights the necessity of meticulous planning, including audits and rollback strategies, to mitigate risks during the migration process.",
       "date": "2026-06-18T15:42:16.000Z",
       "link": "https://hackread.com/what-businesses-should-know-before-migrating-cms/",
-      "isTopTen": false
-    },
-    {
-      "id": "040a915b-ad02-4eaf-bfb0-c6a49c666f80",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
-      "summary": "This bulletin details a broad range of contemporary cyber threats including AI-based malware delivery, malicious npm packages, and sophisticated memory-only macOS attacks. It highlights how routine technologies are being exploited to facilitate phishing, credential theft, and cloud infrastructure compromise.",
-      "date": "2026-06-18T15:27:54.000Z",
-      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
-      "isTopTen": false
-    },
-    {
-      "id": "32d3654d-dc75-49ae-a5df-6bbb4d5cd42a",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "How software development’s speed obsession enabled TeamPCP’s chaos crusade",
-      "summary": "The threat group TeamPCP has successfully exploited open-source software, highlighting how the industry's focus on rapid software deployment undermines security protocols. This trend suggests that current development cycles are creating avoidable vulnerabilities that threat actors are actively leveraging.",
-      "date": "2026-06-18T15:25:33.000Z",
-      "link": "https://cyberscoop.com/teampcp-breaks-open-source-software-trust-model/",
-      "isTopTen": false
-    },
-    {
-      "id": "2f3c0a03-592c-4034-94a2-2602a53f3d77",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Accenture shells out $4.18B on three companies in big industrial cybersecurity push",
-      "summary": "Accenture has invested $4.18 billion to acquire stakes in Dragos, runZero, and NetRise, marking a strategic expansion into operational technology security to address rising AI-driven threats. This acquisition spree signals a major focus on protecting critical infrastructure from advanced cyber threats.",
-      "date": "2026-06-18T15:05:03.000Z",
-      "link": "https://cyberscoop.com/accenture-industrial-cybersecurity-acquisition-dragos-netrise-runzero/",
-      "isTopTen": false
-    },
-    {
-      "id": "26073601-fa0d-4037-9339-9ef14f58d1a6",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Google told researcher 'Nice catch!' Then denied bug bounty for flaw it still hasn't fixed",
-      "summary": "Google reportedly praised a security researcher for discovering a vulnerability but subsequently refused to pay a bounty, claiming the behavior was 'working as intended' despite the flaw remaining unpatched.",
-      "date": "2026-06-18T15:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/18/google-told-researcher-nice-catch-then-denied-bug-bounty-for-flaw-it-still-hasnt-fixed/5258076",
       "isTopTen": false
     }
   ]
