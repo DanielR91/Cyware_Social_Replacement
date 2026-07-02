@@ -1,6 +1,138 @@
 {
-  "lastUpdated": "2026-07-02T03:59:20.014Z",
+  "lastUpdated": "2026-07-02T09:24:05.340Z",
   "articles": [
+    {
+      "id": "fa2e34bd-b5f7-459a-8ae9-9ba686d03b8b",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+      "summary": "Security researchers have identified the first end-to-end ransomware attack orchestrated by an AI agent, which utilized a Langflow remote code execution vulnerability to infiltrate and compromise a production database. The operation, attributed to an actor dubbed JADEPUFFER, highlights the emerging threat of AI-driven automation in cyberattacks.",
+      "date": "2026-07-02T09:13:13.000Z",
+      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "864de8c5-95de-4eed-afd1-a63a25d595c6",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Alleged Scattered Spider Hacker Extradited to U.S. to Face Cybercrime Charges",
+      "summary": "Nineteen-year-old Peter Stokes, an alleged member of the Scattered Spider hacking group, has been extradited from Finland to the U.S. to face charges involving fraud, extortion, and cyberattacks.",
+      "date": "2026-07-02T08:03:46.000Z",
+      "link": "https://securityaffairs.com/194613/security/alleged-scattered-spider-hacker-extradited-to-u-s-to-face-cybercrime-charges.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1f9d977c-77af-4c98-9379-021523c1de09",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+      "summary": "The FortiBleed campaign, involving mass theft of FortiGate credentials, has been linked to INC and Lynx ransomware operations, facilitating subsequent network intrusions. An operator managing negotiation panels for both groups confirms a direct connection between the credential theft and active ransomware deployment.",
+      "date": "2026-07-02T08:00:49.000Z",
+      "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d1c4f41d-5a08-49f3-b83f-0f0f0daa6a6d",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Opera blocks ClickFix attacks with new clipboard protection feature",
+      "summary": "Opera has introduced a new feature called Paste Protect that automatically safeguards users against clipboard-based attacks, including the prevalent ClickFix malware-delivery method. The feature is enabled by default across all desktop versions of the browser to enhance security without requiring user configuration.",
+      "date": "2026-07-02T08:00:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/",
+      "isTopTen": false
+    },
+    {
+      "id": "d3a486fe-1c67-410f-97a7-e5fd1bb403a1",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+      "summary": "Attackers are distributing a data-stealing trojan named ChocoPoC via fake proof-of-concept exploit repositories on GitHub targeting security researchers. The malware exfiltrates sensitive browser data and grants attackers remote shell access to infected machines.",
+      "date": "2026-07-02T07:24:23.000Z",
+      "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cb579318-fc51-4047-a5dc-898e7ae8b60c",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers shoveled snow for company, were rewarded with network admin access",
+      "summary": "Professional red teamers were hired to test a company's physical and digital security, successfully gaining full network administrator access during their engagement.",
+      "date": "2026-07-02T07:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/02/hackers-shoveled-snow-for-company-were-rewarded-with-network-admin-access/5265240",
+      "isTopTen": false
+    },
+    {
+      "id": "e2f21ba1-75ab-48e6-a1ef-cefd981b796d",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The endpoint recovery gap many teams discover during an incident",
+      "summary": "IGEL CTO Matthias Haas highlights the critical vulnerability organizations face when they rely solely on backups for endpoint recovery, emphasizing the need for comprehensive strategies to restore user access during large-scale incidents. He provides insights into overcoming recovery bottlenecks and effectively communicating the necessity of these measures to executive leadership.",
+      "date": "2026-07-02T06:00:32.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/02/matthias-haas-igel-endpoint-recovery-gap/",
+      "isTopTen": false
+    },
+    {
+      "id": "0de6c9c8-e92a-458a-a279-878e7400c7cb",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
+      "summary": "CISA has added a high-severity remote code execution vulnerability (CVE-2026-45659) affecting Microsoft SharePoint Server to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw, which involves deserialization of untrusted data, carries a CVSS score of 8.8.",
+      "date": "2026-07-02T05:46:45.000Z",
+      "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a959a632-0ac0-4e10-81f4-e372c108c5a4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Review: CTRL+ALT+PWN",
+      "summary": "This article reviews the book 'CTRL+ALT+PWN' by Frank Riccardi, which aims to educate non-technical readers on modern hacking tools and defense strategies. It highlights the increasing accessibility of advanced cyberattack gear to the general public.",
+      "date": "2026-07-02T05:30:40.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/02/review-ctrl-alt-pwn-the-hackers-playbook/",
+      "isTopTen": false
+    },
+    {
+      "id": "9c29f274-a342-4d49-a1b6-2c9843621b5c",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Catching ransomware on the wire before it locks the file server",
+      "summary": "This article discusses the vulnerability of shared network drives to ransomware and proposes monitoring network traffic to detect encryption activity before it affects central file servers. It highlights the limitations of traditional endpoint protection when ransomware attacks originate from a compromised remote device.",
+      "date": "2026-07-02T05:00:12.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/02/shared-storage-ransomware-detection-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "6c160390-7fca-4e50-9d0b-2666f76ae5bf",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "What the AI patch gap means for enterprise security",
+      "summary": "The rapid increase in AI-generated vulnerability reports is outpacing the capacity of open-source maintainers to patch them, creating a significant security gap. This imbalance risks leaving verified vulnerabilities unaddressed as human reviewers struggle to process high-volume findings.",
+      "date": "2026-07-02T04:30:52.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/02/open-source-ai-patch-gap/",
+      "isTopTen": false
+    },
+    {
+      "id": "74d6db33-0d36-4636-9948-afaff96d90cc",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "GitHub’s new tool helps prevent costly open-source license violations",
+      "summary": "GitHub has introduced a new License Compliance feature for Advanced Security customers to help organizations track open-source dependencies and ensure they meet internal licensing policies. This tool aims to mitigate legal and financial risks by automating the review and approval process for software licenses within pull requests.",
+      "date": "2026-07-02T04:00:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/",
+      "isTopTen": false
+    },
     {
       "id": "878fc658-216d-4e77-81f3-58feca75a4fb",
       "source": "The Register",
@@ -175,7 +307,7 @@
       "summary": "Adobe has released critical security patches for ColdFusion and Campaign Classic to address multiple maximum-severity vulnerabilities, including flaws that could lead to arbitrary code execution and privilege escalation.",
       "date": "2026-07-01T15:25:46.000Z",
       "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6fedf844-b533-42c8-9e06-e7459469db78",
@@ -219,7 +351,7 @@
       "summary": "The critical CVE-2026-8037 vulnerability in Progress Kemp LoadMaster is currently being actively exploited by attackers to perform OS command injection. Security researchers advise organizations to monitor for exploitation attempts against this high-severity flaw.",
       "date": "2026-07-01T13:56:18.000Z",
       "link": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8def889f-6f86-4f33-8eb7-19f002acc8e0",
@@ -351,7 +483,7 @@
       "summary": "Microsoft is accelerating its transition to post-quantum cryptography to 2029 due to rapid advancements in quantum computing that threaten current encryption standards. The move aims to proactively address the shifting risk landscape posed by future quantum-based decryption capabilities.",
       "date": "2026-07-01T10:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c873ffe6-b254-4df4-8c38-9c064207290c",
@@ -417,7 +549,7 @@
       "summary": "Attackers are exploiting AI-generated hallucinations by registering non-existent domains suggested by large language models to host phishing and malware campaigns. This emerging technique, known as phantom squatting, leverages the trust users place in AI-provided resources.",
       "date": "2026-07-01T07:20:51.000Z",
       "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "eaa499d3-4fc9-4b76-8118-94b55dbfe5a6",
@@ -538,7 +670,7 @@
       "summary": "Attackers are leveraging LLM-generated hallucinated domains to conduct phantom squatting attacks, creating new risks for software supply chain security. This technique exploits the tendency of AI models to recommend non-existent but plausible-looking package dependencies that adversaries can then register.",
       "date": "2026-07-01T01:00:11.000Z",
       "link": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "56c379b3-7b97-441c-82e0-9b18a57e4db3",
@@ -626,7 +758,7 @@
       "summary": "Microsoft researchers have discovered a vulnerability where malicious, poisoned tool descriptions can manipulate AI agents into exfiltrating sensitive company data without triggering security alerts. The exploit functions by tricking the agent into performing unauthorized actions that appear legitimate, bypassing standard security oversight.",
       "date": "2026-06-30T17:46:07.000Z",
       "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70cd3600-d2c7-42bb-8a69-b149b06d5cdd",
@@ -5367,138 +5499,6 @@
       "summary": "A cybercriminal group inadvertently exposed a dataset containing credentials for nearly 74,000 Fortinet firewall and VPN gateway configuration files. The leak was discovered by a security researcher, prompting investigations into the compromised systems globally.",
       "date": "2026-06-18T12:10:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/18/fortinet-fortibleed-data-leak/",
-      "isTopTen": false
-    },
-    {
-      "id": "1b85c44f-6c57-45f1-ac55-8debe29e0738",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
-      "summary": "The rapid adoption of autonomous AI agents has created significant security risks, specifically 'orphaned' agents with standing privileges that lack clear ownership or oversight. This administrative debt creates potential vectors for unauthorized access to core intellectual property.",
-      "date": "2026-06-18T11:58:00.000Z",
-      "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0952a5ea-7823-41e9-9f9a-79d3cc1d48f2",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Microsoft fixes Windows Server 2016 security update failures",
-      "summary": "Microsoft has resolved a known issue that prevented June 2026 security updates from installing correctly on Windows Server 2016 systems. This fix ensures that devices not previously up to date can now successfully apply necessary security patches.",
-      "date": "2026-06-18T10:14:20.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
-      "isTopTen": false
-    },
-    {
-      "id": "fa0d79a7-ab9c-42de-b958-64ba0dbd748d",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Agentjacking: Researchers Show How One Fake Bug Report Can Hijack AI Coding Agents",
-      "summary": "Researchers discovered an 'Agentjacking' vulnerability where malicious bug reports can manipulate AI coding agents into executing unauthorized, harmful code. This risk highlights a new vector for compromising developer environments through automated software development tools.",
-      "date": "2026-06-18T10:08:14.000Z",
-      "link": "https://hackread.com/agentjacking-fake-bug-report-hijack-ai-coding-agents/",
-      "isTopTen": false
-    },
-    {
-      "id": "8f62ceef-abef-4190-9ed1-9fd49fedd17b",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Confirms RoguePlanet Zero-Day in Defender, Patch Under Development",
-      "summary": "Microsoft is developing a patch for the RoguePlanet zero-day vulnerability (CVE-2026-50656) in the Microsoft Defender Malware Protection Engine, which allows for privilege escalation. The flaw carries a CVSS score of 7.8.",
-      "date": "2026-06-18T09:21:15.000Z",
-      "link": "https://securityaffairs.com/193830/security/microsoft-confirms-rogueplanet-zero-day-in-defender-patch-under-development.html",
-      "isTopTen": false
-    },
-    {
-      "id": "53d1666b-4a1d-4113-8b02-e0a342532d8c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "GentleKiller targets more than 400 security processes across 48 products",
-      "summary": "The Gentlemen ransomware gang provides their affiliates with specialized tools called GentleKiller to systematically disable endpoint detection and response (EDR) software. Internal data leaks have confirmed that these tools are designed to target over 400 security processes across 48 different products.",
-      "date": "2026-06-18T09:00:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/eset-gentlemen-edr-killers/",
-      "isTopTen": false
-    },
-    {
-      "id": "d991c5a6-bd0a-44ba-9274-4e0897238f3f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Barracuda introduces AI-powered email security with automated threat response",
-      "summary": "Barracuda Networks has launched an AI-driven email security solution designed to automatically detect and remediate sophisticated threats within Microsoft 365 and Google Workspace environments. The platform integrates cross-domain telemetry to provide rapid response capabilities for managed service providers and organizations.",
-      "date": "2026-06-18T07:54:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/barracuda-integrated-email-protection/",
-      "isTopTen": false
-    },
-    {
-      "id": "13b5a29b-9d73-41c9-a263-23ddbe4f88af",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "New 42Crunch plugin helps developers find and fix API vulnerabilities in GitHub Copilot",
-      "summary": "42Crunch has released a new plugin for GitHub Copilot that allows developers to identify and resolve API security vulnerabilities directly within their AI-assisted coding environment. This tool aims to help organizations secure their API infrastructure against increasing cyber threats.",
-      "date": "2026-06-18T07:44:54.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/42crunch-api-security-testing-plugin-for-github-copilot/",
-      "isTopTen": false
-    },
-    {
-      "id": "24a1b0ce-dda9-4d16-b004-18010454db5a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Blue Planet helps service providers reduce risk with unified network change governance",
-      "summary": "Blue Planet has launched Configuration and Change Management (CCM) software designed to mitigate operational risks by unifying network configuration and automating lifecycle management. The tool aims to reduce human error and system outages in complex, multi-vendor network environments through AI-driven workflows.",
-      "date": "2026-06-18T07:37:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/blue-planet-configuration-and-change-management-ccm/",
-      "isTopTen": false
-    },
-    {
-      "id": "9bae89de-aac6-490a-bc6f-26f4934ebe38",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "FortiBleed Exposes Admin Passwords for 75,000 Fortinet Firewalls",
-      "summary": "Security researcher Bob Diachenko discovered an exposed server containing plaintext VPN credentials for 75,000 Fortinet firewalls, potentially impacting half of the internet-facing devices worldwide. The breach includes usernames, email addresses, and passwords for tens of thousands of organizations.",
-      "date": "2026-06-18T07:31:49.000Z",
-      "link": "https://securityaffairs.com/193817/hacking/fortibleed-exposes-admin-passwords-for-75000-fortinet-firewalls.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d5a59422-e1a4-4bc5-8a54-d632e0e933d3",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Major US carrier stored credit card info in the clear, employee learned on first day",
-      "summary": "A major US telecommunications company was discovered storing customer credit card information in plaintext, a vulnerability that was identified by a new employee on their first day. The incident highlights the risks associated with improper data handling practices in the early 2000s.",
-      "date": "2026-06-18T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/18/major-us-carrier-stored-credit-card-info-in-the-clear-employee-learned-on-first-day/5257932",
-      "isTopTen": false
-    },
-    {
-      "id": "59bae917-6e2f-4536-bf72-24f928046717",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Welcome to your new telco job – here's sudo access to a database with full customer info stored in the clear",
-      "summary": "A major US telecommunications company in the early 2000s inadvertently granted a new employee unrestricted root-level access to a database containing sensitive customer information stored in plaintext.",
-      "date": "2026-06-18T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/18/welcome-to-your-new-telco-job-heres-sudo-access-to-a-database-with-full-customer-info-stored-in-the-clear/5257932",
-      "isTopTen": false
-    },
-    {
-      "id": "aa1a4606-c0a3-4757-977e-772c24e91937",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Securing digital keys when your phone unlocks the car",
-      "summary": "Alysia Johnson of the Car Connectivity Consortium discusses the evolution of the CCC Digital Key standard, highlighting advancements in interoperability, security, and credential management in Version 4. The interview addresses how cross-industry standards are being implemented to ensure secure digital vehicle access across various platforms.",
-      "date": "2026-06-18T06:00:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/18/alysia-johnson-car-connectivity-consortium-securing-digital-keys/",
       "isTopTen": false
     }
   ]
