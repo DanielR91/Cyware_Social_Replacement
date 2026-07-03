@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-02T22:13:10.420Z",
+  "lastUpdated": "2026-07-03T03:43:09.733Z",
   "articles": [
+    {
+      "id": "517dba12-1543-4cc2-a806-e9f93af1ab03",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Dev says Google warned him about account hijack – then charged him $11,000 anyway",
+      "summary": "A developer reported that Google notified him of a potential account hijack attempt, yet simultaneously allowed unauthorized access that resulted in an $11,000 charge on his account. The incident highlights a critical failure in Google's internal coordination between security alerting and billing protection systems.",
+      "date": "2026-07-02T23:08:16.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/07/03/dev-says-google-warned-him-about-account-hijack-then-charged-him-11000-anyway/5266234",
+      "isTopTen": false
+    },
+    {
+      "id": "267e05c9-ab00-4e6b-b220-6093ab220451",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Startup sues Palo Alto Networks' Koi Security, saying an AI-hallucinated report falsely linked it to Chinese espionage",
+      "summary": "Startup MeetingTV has filed a lawsuit against Palo Alto Networks' Koi Security, alleging that an AI-generated threat intelligence report falsely accused the company of participating in Chinese espionage. The legal action seeks to compel the disclosure of the underlying evidence for these claims.",
+      "date": "2026-07-02T22:47:46.000Z",
+      "link": "https://www.theregister.com/legal/2026/07/02/startup-sues-palo-alto-networks-koi-security-saying-an-ai-hallucinated-report-falsely-linked-it-to-chinese-espionage/5266201",
+      "isTopTen": false
+    },
     {
       "id": "a312c610-fe1f-47f3-ab0f-efe5402980d0",
       "source": "Unit 42",
@@ -43,7 +65,7 @@
       "summary": "Google, in collaboration with the FBI and other partners, successfully disrupted the NetNut residential proxy network by reducing its usable pool of millions of compromised home devices. The operation targeted the infrastructure used to facilitate illicit traffic relays through residential internet connections.",
       "date": "2026-07-02T18:54:06.000Z",
       "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "672b3d8c-a142-4726-89b8-6ebbb3111dcc",
@@ -57,6 +79,17 @@
       "isTopTen": true
     },
     {
+      "id": "8643ba7f-0e5e-4e57-b762-9126c15384af",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Smooth AI criminal drives 'first' end-to-end agentic ransomware attack",
+      "summary": "Researchers have identified the first fully autonomous, agentic ransomware attack driven by AI, demonstrating that malicious LLMs can now conduct end-to-end extortion campaigns without human intervention. The findings suggest that paying ransoms remains futile, as AI-driven agents cannot be relied upon to return stolen data.",
+      "date": "2026-07-02T18:05:50.000Z",
+      "link": "https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073",
+      "isTopTen": true
+    },
+    {
       "id": "e64c2d20-3b06-4fce-b912-0031278bc0c6",
       "source": "Security Affairs",
       "tag": "Laws, Policy, Regulations",
@@ -65,7 +98,7 @@
       "summary": "The European Union's top court has upheld a record €4.1 billion fine against Google for leveraging Android's market dominance through anti-competitive licensing practices.",
       "date": "2026-07-02T17:29:42.000Z",
       "link": "https://securityaffairs.com/194663/security/europe-confirms-record-e4-1b-penalty-against-google-for-android-practices.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "41c0d55f-d0e6-421b-a678-983d9a9ddef2",
@@ -76,7 +109,7 @@
       "summary": "Privacy activist Max Schrems plans to challenge the EU-U.S. Data Privacy Framework in court, potentially disrupting the legal mechanism for transferring personal data between the two regions.",
       "date": "2026-07-02T16:50:00.000Z",
       "link": "https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5769da0b-47c1-4c44-a922-f9aa61711ebe",
@@ -274,7 +307,7 @@
       "summary": "Security researchers have identified the first end-to-end ransomware attack orchestrated by an AI agent, which utilized a Langflow remote code execution vulnerability to infiltrate and compromise a production database. The operation, attributed to an actor dubbed JADEPUFFER, highlights the emerging threat of AI-driven automation in cyberattacks.",
       "date": "2026-07-02T09:13:13.000Z",
       "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "864de8c5-95de-4eed-afd1-a63a25d595c6",
@@ -351,7 +384,7 @@
       "summary": "CISA has added a high-severity remote code execution vulnerability (CVE-2026-45659) affecting Microsoft SharePoint Server to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw, which involves deserialization of untrusted data, carries a CVSS score of 8.8.",
       "date": "2026-07-02T05:46:45.000Z",
       "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a959a632-0ac0-4e10-81f4-e372c108c5a4",
@@ -450,7 +483,7 @@
       "summary": "Security researchers discovered that the DeepSeek AI model could be manipulated to generate functional in-browser ransomware code with minimal effort. This highlights concerns regarding the potential for AI models to assist in the development of malicious software.",
       "date": "2026-07-01T19:57:48.000Z",
       "link": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a313e79-197b-4dca-8679-9f2a56b5f125",
@@ -472,7 +505,7 @@
       "summary": "An unpatched vulnerability in the Argo CD repo-server component allows unauthenticated attackers to execute code and potentially gain full control of Kubernetes clusters. The flaw currently lacks a fix and a CVE identifier.",
       "date": "2026-07-01T19:40:06.000Z",
       "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "09ec34f7-5757-4ff5-9b4f-648ef7efdaf7",
@@ -736,7 +769,7 @@
       "summary": "CISA has confirmed that the BlueHammer vulnerability (CVE-2026-33825) is being actively exploited in the wild to gain SYSTEM privileges via Microsoft Defender for ransomware attacks.",
       "date": "2026-07-01T11:26:02.000Z",
       "link": "https://securityaffairs.com/194577/security/cisa-warns-bluehammer-flaw-is-now-exploited-in-ransomware-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c22002bf-1e47-4db2-8962-06ec18051a59",
@@ -747,7 +780,7 @@
       "summary": "Microsoft is accelerating its transition to post-quantum cryptography to 2029 due to rapid advancements in quantum computing that threaten current encryption standards. The move aims to proactively address the shifting risk landscape posed by future quantum-based decryption capabilities.",
       "date": "2026-07-01T10:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c873ffe6-b254-4df4-8c38-9c064207290c",
@@ -5466,39 +5499,6 @@
       "summary": "International law enforcement successfully dismantled the SocGholish malware infrastructure, seizing over 100 command-and-control servers and securing 15,000 compromised websites.",
       "date": "2026-06-18T18:59:16.000Z",
       "link": "https://hackread.com/operation-endgame-disrupts-socgholish-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "966fb365-ac66-4ecf-bed9-96f63cc64c73",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Tor-Based Clipper Malware Targets Wallet Seed Phrases",
-      "summary": "A Tor-based clipper malware campaign discovered by Microsoft Threat Intelligence is actively targeting cryptocurrency users by hijacking clipboards, replacing wallet addresses, and stealing sensitive seed phrases. The malware also incorporates data exfiltration techniques such as taking screenshots from infected systems.",
-      "date": "2026-06-18T18:32:32.000Z",
-      "link": "https://securityaffairs.com/193860/uncategorized/tor-based-clipper-malware-targets-wallet-seed-phrases.html",
-      "isTopTen": false
-    },
-    {
-      "id": "96b33580-970d-45f8-b473-5472abd9185a",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
-      "summary": "Nintendo confirmed that personal survey data was stolen during a cyberattack on TinyPulse, a third-party service provider, though Nintendo's internal systems remained secure.",
-      "date": "2026-06-18T18:31:36.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
-      "isTopTen": false
-    },
-    {
-      "id": "2d772e6e-f4a6-4371-93f1-5fac88762ce0",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
-      "summary": "F5 has released security updates to address two critical remote code execution vulnerabilities in NGINX Open Source, including a use-after-free flaw in the HTTP/3 module. These patches are essential to prevent unauthenticated remote attackers from compromising affected systems.",
-      "date": "2026-06-18T17:32:14.000Z",
-      "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
       "isTopTen": false
     }
   ]
