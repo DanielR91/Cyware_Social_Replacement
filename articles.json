@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-07-03T09:28:41.150Z",
+  "lastUpdated": "2026-07-03T14:21:41.066Z",
   "articles": [
+    {
+      "id": "a1fe780c-4576-4926-8159-706b380e22a4",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
+      "summary": "A newly identified threat actor dubbed Armored Likho is targeting government agencies and the energy sector in Russia, Brazil, and Kazakhstan using the BusySnake stealer for both espionage and financial gain.",
+      "date": "2026-07-03T13:36:33.000Z",
+      "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+      "isTopTen": false
+    },
+    {
+      "id": "97bab5d8-0852-4154-bb0b-388a23c78b23",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New PamStealer Malware Targets macOS Users via Fake Maccy Clipboard App",
+      "summary": "A new malware strain called PamStealer is targeting macOS users by masquerading as the legitimate Maccy clipboard utility to steal sensitive credentials and browser data. It poses a significant threat by exfiltrating passwords and clipboard contents from compromised systems.",
+      "date": "2026-07-03T13:35:08.000Z",
+      "link": "https://hackread.com/pamstealer-malware-macos-fake-maccy-clipboard-app/",
+      "isTopTen": false
+    },
+    {
+      "id": "75ea1a75-9306-4309-a595-537a9bb28d9b",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "NetNut cracked as Google and FBI target 2 million-device botnet",
+      "summary": "Google and the FBI have dismantled a massive 2 million-device botnet infrastructure operated by NetNut, raising concerns that other residential proxy services may share similar compromised network vulnerabilities.",
+      "date": "2026-07-03T12:03:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/03/netnut-cracked-as-google-and-fbi-target-2-million-device-botnet/5266414",
+      "isTopTen": true
+    },
+    {
+      "id": "2c14ad51-d998-47f6-98ce-736ab9c0e5e1",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "JADEPUFFER: First End-to-End AI-Driven Ransomware Operation",
+      "summary": "Sysdig researchers have identified JADEPUFFER, the first documented ransomware operation conducted entirely by an AI agent using an LLM to perform end-to-end attack steps. This development marks a significant shift in threat actor capabilities, as the agent successfully navigated the environment and encrypted data without human intervention.",
+      "date": "2026-07-03T11:29:03.000Z",
+      "link": "https://securityaffairs.com/194713/ai/jadepuffer-first-end-to-end-ai-driven-ransomware-operation.html",
+      "isTopTen": true
+    },
+    {
+      "id": "49fa02dd-60e9-4b90-b144-f40fccc0a029",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
+      "summary": "Former MEP Stelios Kouloglou was repeatedly targeted with Pegasus spyware while serving on a committee investigating the abuse of commercial surveillance tools. Forensic evidence confirms his device was compromised, highlighting a direct attack on a European official tasked with oversight.",
+      "date": "2026-07-03T11:05:43.000Z",
+      "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a8f29576-0280-4fe8-96d3-3649f083503b",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "The Anatomy of a Shadow AI Supply-Chain Breach: Lessons from the 2026 Vercel Incident",
+      "summary": "The 2026 Vercel incident occurred after an employee utilized an unvetted AI tool, allowing attackers to exploit it as a trusted gateway to access systems, exfiltrate data, and demand a $2 million ransom.",
+      "date": "2026-07-03T10:34:14.000Z",
+      "link": "https://securityaffairs.com/194709/hacking/the-anatomy-of-a-shadow-ai-supply-chain-breach-lessons-from-the-2026-vercel-incident.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e7697f46-6ad9-4bd2-94f2-bbb31c18548e",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Law enforcememt operation disrupted Malicious Residential Proxy Networks NetNut",
+      "summary": "Google and the FBI successfully disrupted NetNut, a massive residential proxy network exploited by cybercriminals to obfuscate their activities using compromised home devices.",
+      "date": "2026-07-03T09:02:17.000Z",
+      "link": "https://securityaffairs.com/194690/cyber-crime/law-enforcememt-operation-disrupted-malicious-residential-proxy-networks-netnut.html",
+      "isTopTen": false
+    },
     {
       "id": "4ed8c77c-d85d-4adf-8964-55a8c7b8ee65",
       "source": "The Hacker News",
@@ -21,7 +98,7 @@
       "summary": "A study by Comparitech reveals that government and healthcare sectors have significant email security vulnerabilities due to widespread failure to implement standard authentication protocols like SPF, DMARC, DKIM, and MTA-STS. This oversight leaves these critical sectors highly susceptible to phishing attacks.",
       "date": "2026-07-03T08:01:37.000Z",
       "link": "https://securityaffairs.com/194677/security/government-and-healthcare-are-the-weakest-links-in-global-email-security.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "afcd51f1-0bcc-42d9-85d3-66ee3a3e49fe",
@@ -76,7 +153,7 @@
       "summary": "A member of the European Parliament's PEGA committee, which investigates spyware abuse, was targeted and infected twice by NSO Group's Pegasus spyware. This incident highlights the significant risks faced by individuals overseeing surveillance technology oversight.",
       "date": "2026-07-03T05:00:00.000Z",
       "link": "https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a4b9b594-4960-423e-ac02-d9edf7e48016",
@@ -120,7 +197,7 @@
       "summary": "A developer reported that Google notified him of a potential account hijack attempt, yet simultaneously allowed unauthorized access that resulted in an $11,000 charge on his account. The incident highlights a critical failure in Google's internal coordination between security alerting and billing protection systems.",
       "date": "2026-07-02T23:08:16.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/07/03/dev-says-google-warned-him-about-account-hijack-then-charged-him-11000-anyway/5266234",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "267e05c9-ab00-4e6b-b220-6093ab220451",
@@ -131,7 +208,7 @@
       "summary": "Startup MeetingTV has filed a lawsuit against Palo Alto Networks' Koi Security, alleging that an AI-generated threat intelligence report falsely accused the company of participating in Chinese espionage. The legal action seeks to compel the disclosure of the underlying evidence for these claims.",
       "date": "2026-07-02T22:47:46.000Z",
       "link": "https://www.theregister.com/legal/2026/07/02/startup-sues-palo-alto-networks-koi-security-saying-an-ai-hallucinated-report-falsely-linked-it-to-chinese-espionage/5266201",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a312c610-fe1f-47f3-ab0f-efe5402980d0",
@@ -197,7 +274,7 @@
       "summary": "Researchers have identified the first fully autonomous, agentic ransomware attack driven by AI, demonstrating that malicious LLMs can now conduct end-to-end extortion campaigns without human intervention. The findings suggest that paying ransoms remains futile, as AI-driven agents cannot be relied upon to return stolen data.",
       "date": "2026-07-02T18:05:50.000Z",
       "link": "https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e64c2d20-3b06-4fce-b912-0031278bc0c6",
@@ -241,7 +318,7 @@
       "summary": "CISA has added the Microsoft SharePoint Server vulnerability CVE-2026-45659, which carries a CVSS score of 8.8, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
       "date": "2026-07-02T15:56:54.000Z",
       "link": "https://securityaffairs.com/194654/security/u-s-cisa-adds-a-microsoft-sharepoint-server-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a38d3380-795a-44ea-a4b0-46834fc41056",
@@ -263,7 +340,7 @@
       "summary": "Peter Stokes, an alleged member of the Scattered Spider cybercrime group, has been extradited to the United States following his arrest. The case highlights the group's involvement in high-profile attacks while the perpetrator lived a lavish lifestyle funded by illicit activities.",
       "date": "2026-07-02T15:28:25.000Z",
       "link": "https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "67ea1deb-fab7-4855-9abb-3276fe4695cf",
@@ -318,7 +395,7 @@
       "summary": "Medical device manufacturer Medtronic has notified patients that their health data was compromised following a cyberattack attributed to the group ShinyHunters. The breach occurred months prior to the notification, impacting users of various devices including pacemakers and insulin pumps.",
       "date": "2026-07-02T12:54:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/02/pacemaker-manufacturer-medtronic-warns-patients-cybercrooks-may-have-swiped-health-data/5265768",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "578e8516-2062-4fa0-a1d3-3bd385117f90",
@@ -362,7 +439,7 @@
       "summary": "Traditional identity governance systems are failing to account for the unique characteristics of autonomous AI agents, leading to significant security visibility gaps. Organizations need to rethink how they manage and govern these non-human digital entities within enterprise environments.",
       "date": "2026-07-02T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fbd0d0eb-c099-4790-9546-4b728154698d",
@@ -593,7 +670,7 @@
       "summary": "Security researchers discovered that the DeepSeek AI model could be manipulated to generate functional in-browser ransomware code with minimal effort. This highlights concerns regarding the potential for AI models to assist in the development of malicious software.",
       "date": "2026-07-01T19:57:48.000Z",
       "link": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a313e79-197b-4dca-8679-9f2a56b5f125",
@@ -725,7 +802,7 @@
       "summary": "Researchers discovered two critical vulnerabilities, dubbed DuneSlide, in the Cursor AI code editor that allow attackers to bypass sandbox protections and execute arbitrary commands on a user's system without interaction. These flaws represent a severe security risk, carrying a CVSS score of 9.8.",
       "date": "2026-07-01T14:42:54.000Z",
       "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b17df4fd-38e4-4189-af50-6f9f29d345f8",
@@ -758,7 +835,7 @@
       "summary": "The critical CVE-2026-8037 vulnerability in Progress Kemp LoadMaster is currently being actively exploited by attackers to perform OS command injection. Security researchers advise organizations to monitor for exploitation attempts against this high-severity flaw.",
       "date": "2026-07-01T13:56:18.000Z",
       "link": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8def889f-6f86-4f33-8eb7-19f002acc8e0",
@@ -5422,83 +5499,6 @@
       "summary": "Accenture is acquiring stakes in Dragos, runZero, and NetRise for $4.2 billion to strengthen its end-to-end operational technology and critical infrastructure security capabilities.",
       "date": "2026-06-19T09:06:42.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/accenture-dragos-runzero-netrise-acquisition/",
-      "isTopTen": false
-    },
-    {
-      "id": "9ca18377-6dc2-4775-aa71-c7ae36a60aea",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
-      "summary": "Salesforce has disabled the Klue Battlecards integration following a security incident that resulted in the unauthorized use of OAuth tokens to access customer data. The integration will remain suspended until further notice while the situation is addressed.",
-      "date": "2026-06-19T09:03:57.000Z",
-      "link": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ae131c34-23b3-4b60-941e-9405a952420d",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "NY man charged after harassing college student with AI-generated nudes",
-      "summary": "A New York man has been charged with cyberstalking for creating and distributing AI-generated non-consensual sexual imagery and fake messages to harass a college student. The case highlights the rising misuse of generative AI tools in targeted harassment and digital abuse.",
-      "date": "2026-06-19T08:44:08.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
-      "isTopTen": false
-    },
-    {
-      "id": "c2f6c985-ef6f-442c-b50d-d359ede15ce1",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Peter Thiel ‘s Secret Society Leak Creates a Perfect Target List for Espionage, Influence Operations, and Blackmail",
-      "summary": "A website vulnerability in Peter Thiel's private Dialog network exposed sensitive member data, including political profiles and personal information. This breach poses significant risks for potential espionage, influence operations, and blackmail against the organization's high-profile members.",
-      "date": "2026-06-19T07:42:00.000Z",
-      "link": "https://securityaffairs.com/193880/intelligence/peter-thiel-secret-society-leak-creates-a-perfect-target-list-for-espionage-influence-operations-and-blackmail.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d9f34693-f787-4bf5-b9fa-bd61bc3b33a0",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "BlackFog brings shadow AI visibility to macOS endpoints with ADX Vision",
-      "summary": "BlackFog has expanded its ADX Vision platform to macOS, enabling organizations to monitor and prevent unauthorized AI data usage across both Windows and Apple endpoints. This update aims to close security gaps by enforcing consistent AI data-loss policies to prevent sensitive information leakage via unsanctioned LLMs.",
-      "date": "2026-06-19T07:15:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/19/blackfog-adx-vision-macos/",
-      "isTopTen": false
-    },
-    {
-      "id": "cf28f017-2113-4c06-9b19-3b520254d3bc",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
-      "summary": "CISA has issued an alert to Fortinet users to secure their devices following a significant data leak that exposed approximately 74,000 firewall and VPN credentials.",
-      "date": "2026-06-19T06:47:55.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d731de8-a5db-4f0b-99fb-18f0895d45e9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-      "summary": "Apple has patched a high-severity vulnerability (CVE-2025-20701) in Beats Studio Buds that allowed unauthorized pairing and microphone eavesdropping via the Airoha Bluetooth audio SDK. Users are advised to update their devices to mitigate the risk of nearby attackers exploiting this flaw.",
-      "date": "2026-06-19T06:36:09.000Z",
-      "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "958f7395-ff94-4d43-bcb3-3f2b90a35310",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Your browser tab could become encrypted storage for someone else’s files",
-      "summary": "Researchers have proposed Safecloud, a decentralized storage system designed to ensure user privacy by storing only encrypted data on nodes and separating encryption keys from data routing. This architecture aims to prevent storage nodes from accessing or reading the content of the files they host.",
-      "date": "2026-06-19T05:30:47.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/19/safecloud-browser-based-encrypted-storage/",
       "isTopTen": false
     }
   ]
