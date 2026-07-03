@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-03T19:36:45.180Z",
+  "lastUpdated": "2026-07-03T22:09:58.414Z",
   "articles": [
+    {
+      "id": "d20a24ec-b201-4a37-b461-ee95abca7417",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+      "summary": "Security firm runZero discovered seven unpatched vulnerabilities in FatFs, a widely used filesystem library integrated into millions of embedded devices such as drones, cameras, and industrial controllers. These flaws pose a significant supply chain risk due to the library's ubiquity in hardware firmware.",
+      "date": "2026-07-03T20:19:31.000Z",
+      "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "isTopTen": true
+    },
+    {
+      "id": "1c6ebf56-a014-4ebd-a768-dfb43e628f2e",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Pegasus Used Against MEP Investigating Pegasus, Citizen Lab Finds",
+      "summary": "Former MEP Stelios Kouloglou was targeted and repeatedly infected with NSO Group's Pegasus spyware while actively investigating the tool's use. This discovery highlights the ongoing misuse of advanced surveillance technology against political figures and oversight bodies.",
+      "date": "2026-07-03T20:18:32.000Z",
+      "link": "https://securityaffairs.com/194728/malware/pegasus-used-against-mep-investigating-pegasus-citizen-lab-finds.html",
+      "isTopTen": true
+    },
+    {
+      "id": "37a20af6-d369-4203-83e7-c408d1cdde43",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "FBI Seizes NetNut Domains as Google Disrupts 2M Device Proxy Network",
+      "summary": "The FBI and Google have disrupted the NetNut proxy network by seizing domains linked to a scheme that hijacked 2 million smart TVs and streaming devices. This operation successfully dismantled a global infrastructure used to facilitate cybercriminal activity.",
+      "date": "2026-07-03T20:12:42.000Z",
+      "link": "https://hackread.com/fbi-seizes-netnut-domains-google-disrupts-proxy-network/",
+      "isTopTen": true
+    },
+    {
+      "id": "d9b9e8e3-cff6-47eb-9104-699965155fba",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "summary": "A critical Linux kernel vulnerability named 'Bad Epoll' (CVE-2026-46242) enables unprivileged users to achieve root access across desktop, server, and Android platforms. A patch has been released to address this flaw, which was identified in a kernel region recently highlighted by AI-driven analysis.",
+      "date": "2026-07-03T19:40:01.000Z",
+      "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "isTopTen": true
+    },
     {
       "id": "968a9c5d-b1b5-41d5-a5f1-9943c3500eed",
       "source": "The Hacker News",
@@ -10,7 +54,7 @@
       "summary": "Researchers have identified a new modular malware framework called Avalon, which utilizes multi-stage phishing to deploy diverse capabilities including credential theft, lateral movement, and ransomware execution. Its ability to bypass traditional security controls poses a significant risk to organizational environments.",
       "date": "2026-07-03T18:55:24.000Z",
       "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d2fe0827-fd00-489a-9541-2af522a57af3",
@@ -65,7 +109,7 @@
       "summary": "Google and the FBI have dismantled a massive 2 million-device botnet infrastructure operated by NetNut, raising concerns that other residential proxy services may share similar compromised network vulnerabilities.",
       "date": "2026-07-03T12:03:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/03/netnut-cracked-as-google-and-fbi-target-2-million-device-botnet/5266414",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2c14ad51-d998-47f6-98ce-736ab9c0e5e1",
@@ -87,7 +131,7 @@
       "summary": "Former MEP Stelios Kouloglou was repeatedly targeted with Pegasus spyware while serving on a committee investigating the abuse of commercial surveillance tools. Forensic evidence confirms his device was compromised, highlighting a direct attack on a European official tasked with oversight.",
       "date": "2026-07-03T11:05:43.000Z",
       "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a8f29576-0280-4fe8-96d3-3649f083503b",
@@ -329,7 +373,7 @@
       "summary": "Privacy activist Max Schrems plans to challenge the EU-U.S. Data Privacy Framework in court, potentially disrupting the legal mechanism for transferring personal data between the two regions.",
       "date": "2026-07-02T16:50:00.000Z",
       "link": "https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5769da0b-47c1-4c44-a922-f9aa61711ebe",
@@ -351,7 +395,7 @@
       "summary": "CISA has added the Microsoft SharePoint Server vulnerability CVE-2026-45659, which carries a CVSS score of 8.8, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation.",
       "date": "2026-07-02T15:56:54.000Z",
       "link": "https://securityaffairs.com/194654/security/u-s-cisa-adds-a-microsoft-sharepoint-server-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a38d3380-795a-44ea-a4b0-46834fc41056",
@@ -428,7 +472,7 @@
       "summary": "Medical device manufacturer Medtronic has notified patients that their health data was compromised following a cyberattack attributed to the group ShinyHunters. The breach occurred months prior to the notification, impacting users of various devices including pacemakers and insulin pumps.",
       "date": "2026-07-02T12:54:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/02/pacemaker-manufacturer-medtronic-warns-patients-cybercrooks-may-have-swiped-health-data/5265768",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "578e8516-2062-4fa0-a1d3-3bd385117f90",
@@ -703,7 +747,7 @@
       "summary": "Security researchers discovered that the DeepSeek AI model could be manipulated to generate functional in-browser ransomware code with minimal effort. This highlights concerns regarding the potential for AI models to assist in the development of malicious software.",
       "date": "2026-07-01T19:57:48.000Z",
       "link": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a313e79-197b-4dca-8679-9f2a56b5f125",
@@ -725,7 +769,7 @@
       "summary": "An unpatched vulnerability in the Argo CD repo-server component allows unauthenticated attackers to execute code and potentially gain full control of Kubernetes clusters. The flaw currently lacks a fix and a CVE identifier.",
       "date": "2026-07-01T19:40:06.000Z",
       "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "09ec34f7-5757-4ff5-9b4f-648ef7efdaf7",
@@ -5455,50 +5499,6 @@
       "summary": "Google has introduced hand gesture verification as a new reCAPTCHA method within its Cloud Fraud Defense platform to better distinguish human users from automated bots. This feature adds an additional layer of challenge-based verification to prevent fraud and account abuse across various web forms.",
       "date": "2026-06-19T10:46:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/google-recaptcha-hand-gesture-verification/",
-      "isTopTen": false
-    },
-    {
-      "id": "61be4444-7ac1-4bdb-b14e-3c0a2410d52e",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
-      "summary": "CISA has issued an emergency directive for federal agencies to patch a critical, actively exploited vulnerability in Splunk Enterprise by this Sunday. The mandate aims to mitigate ongoing attacks targeting the identified security flaw.",
-      "date": "2026-06-19T10:39:58.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
-      "isTopTen": false
-    },
-    {
-      "id": "bd68b41d-7860-4148-b9c0-745c32616c9c",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Splunk Enterprise flaw to its Known Exploited Vulnerabilities catalog and urges agencies to fix it by Sunday",
-      "summary": "CISA has added the critical CVE-2026-20253 authentication vulnerability in Splunk Enterprise to its Known Exploited Vulnerabilities (KEV) catalog, mandating that federal agencies patch the flaw by Sunday.",
-      "date": "2026-06-19T10:34:37.000Z",
-      "link": "https://securityaffairs.com/193888/security/u-s-cisa-adds-splunk-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog-and-urges-agencies-to-fix-it-by-sunday.html",
-      "isTopTen": false
-    },
-    {
-      "id": "51f0bc89-a7b1-4cde-b52f-3aa11462bab4",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
-      "summary": "The focus of enterprise security regarding Shadow AI is shifting from data leakage to the risks associated with unauthorized access control. Organizations must move beyond basic usage policies to address how AI tools gain access to sensitive internal systems.",
-      "date": "2026-06-19T10:30:00.000Z",
-      "link": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cd66f425-6169-46a7-80b0-c25cc3cd3bfd",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "FIFA World Cup 2026: Hackers Target Football Fans With Fake Tickets Sites",
-      "summary": "Cybercriminals are launching phishing campaigns targeting FIFA World Cup 2026 fans through fraudulent ticket sites, fake hotel bookings, and malicious live chat features. These coordinated efforts aim to steal sensitive information and funds from unsuspecting event attendees.",
-      "date": "2026-06-19T09:56:33.000Z",
-      "link": "https://hackread.com/fifa-world-cup-2026-hackers-football-fake-tickets-sites/",
       "isTopTen": false
     }
   ]
