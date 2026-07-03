@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-03T14:21:41.066Z",
+  "lastUpdated": "2026-07-03T16:39:58.483Z",
   "articles": [
+    {
+      "id": "d2fe0827-fd00-489a-9541-2af522a57af3",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
+      "summary": "North Korean-linked threat actors are distributing malicious npm packages that masquerade as legitimate Rollup polyfill tools to exfiltrate developer data and gain remote access. The packages mimic the metadata of the authentic 'rollup-plugin-polyfill-node' library to deceive developers.",
+      "date": "2026-07-03T16:07:15.000Z",
+      "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+      "isTopTen": true
+    },
+    {
+      "id": "196c1eb1-6e22-4ae9-9eaf-f25c574cd1da",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "AdaptHealth says attackers sweet-talked their way into cloud systems and stole patient data",
+      "summary": "AdaptHealth experienced a data breach after threat actors used social engineering against a third-party contractor to gain unauthorized access to cloud systems containing patient information and credentials. The incident resulted in the compromise of sensitive health data and insurance billing passwords.",
+      "date": "2026-07-03T14:29:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/03/adapthealth-crooks-stole-our-passwords-patient-health-data/5266512",
+      "isTopTen": false
+    },
     {
       "id": "a1fe780c-4576-4926-8159-706b380e22a4",
       "source": "The Hacker News",
@@ -65,7 +87,7 @@
       "summary": "The 2026 Vercel incident occurred after an employee utilized an unvetted AI tool, allowing attackers to exploit it as a trusted gateway to access systems, exfiltrate data, and demand a $2 million ransom.",
       "date": "2026-07-03T10:34:14.000Z",
       "link": "https://securityaffairs.com/194709/hacking/the-anatomy-of-a-shadow-ai-supply-chain-breach-lessons-from-the-2026-vercel-incident.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e7697f46-6ad9-4bd2-94f2-bbb31c18548e",
@@ -208,7 +230,7 @@
       "summary": "Startup MeetingTV has filed a lawsuit against Palo Alto Networks' Koi Security, alleging that an AI-generated threat intelligence report falsely accused the company of participating in Chinese espionage. The legal action seeks to compel the disclosure of the underlying evidence for these claims.",
       "date": "2026-07-02T22:47:46.000Z",
       "link": "https://www.theregister.com/legal/2026/07/02/startup-sues-palo-alto-networks-koi-security-saying-an-ai-hallucinated-report-falsely-linked-it-to-chinese-espionage/5266201",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a312c610-fe1f-47f3-ab0f-efe5402980d0",
@@ -296,7 +318,7 @@
       "summary": "Privacy activist Max Schrems plans to challenge the EU-U.S. Data Privacy Framework in court, potentially disrupting the legal mechanism for transferring personal data between the two regions.",
       "date": "2026-07-02T16:50:00.000Z",
       "link": "https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5769da0b-47c1-4c44-a922-f9aa61711ebe",
@@ -340,7 +362,7 @@
       "summary": "Peter Stokes, an alleged member of the Scattered Spider cybercrime group, has been extradited to the United States following his arrest. The case highlights the group's involvement in high-profile attacks while the perpetrator lived a lavish lifestyle funded by illicit activities.",
       "date": "2026-07-02T15:28:25.000Z",
       "link": "https://cyberscoop.com/scattered-spider-peter-stokes-cybercrime-extradition/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "67ea1deb-fab7-4855-9abb-3276fe4695cf",
@@ -439,7 +461,7 @@
       "summary": "Traditional identity governance systems are failing to account for the unique characteristics of autonomous AI agents, leading to significant security visibility gaps. Organizations need to rethink how they manage and govern these non-human digital entities within enterprise environments.",
       "date": "2026-07-02T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fbd0d0eb-c099-4790-9546-4b728154698d",
@@ -5477,28 +5499,6 @@
       "summary": "Mastodon version 4.6 introduces new profile management features and empowers server administrators to mandate two-factor authentication for user accounts. This update enhances platform security and administrative oversight for instance operators.",
       "date": "2026-06-19T09:54:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/mastodon-4-6-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "1cce2588-7fa1-4c32-bf88-6a6d89f1d55b",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Google sets timeline for Android developer verification enforcement",
-      "summary": "Google has established a timeline for mandatory Android developer verification, beginning in select markets on September 30, 2026, before a global rollout in 2027 to enhance app security. The initiative requires developers on multiple major app stores to verify their identities to combat malicious app distribution.",
-      "date": "2026-06-19T09:10:13.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/19/android-developer-verification-rollout-markets/",
-      "isTopTen": false
-    },
-    {
-      "id": "e0e842cd-2f71-45a0-bb97-b86d6a80726a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Accenture to buy Dragos, runZero, and NetRise in $4.2 billion cybersecurity deal",
-      "summary": "Accenture is acquiring stakes in Dragos, runZero, and NetRise for $4.2 billion to strengthen its end-to-end operational technology and critical infrastructure security capabilities.",
-      "date": "2026-06-19T09:06:42.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/19/accenture-dragos-runzero-netrise-acquisition/",
       "isTopTen": false
     }
   ]
