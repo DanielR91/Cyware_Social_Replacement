@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-04T08:44:30.126Z",
+  "lastUpdated": "2026-07-04T10:58:40.208Z",
   "articles": [
+    {
+      "id": "442af526-e8f6-40dc-9c74-2a6e944ac816",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Confidential computing's core trust mechanism is broken. The fix may not exist",
+      "summary": "A fundamental vulnerability in Attested TLS compromises the core trust mechanism of confidential computing by preventing secure verification of endpoint identities. Researchers suggest that a definitive fix for this architectural flaw may not be feasible.",
+      "date": "2026-07-04T10:03:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
+      "isTopTen": true
+    },
+    {
+      "id": "f92be3ed-c631-4336-ba4b-e78a219f3b39",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "FBI: TeamPCP Compromised Dev Tools to Steal Cloud Credentials",
+      "summary": "The FBI issued a FLASH alert regarding the criminal group TeamPCP, which compromised widely-used developer tools to steal cloud credentials and distribute malware. The group utilizes these compromised tools to gain unauthorized access to victim environments for extortion purposes.",
+      "date": "2026-07-04T07:55:14.000Z",
+      "link": "https://securityaffairs.com/194741/uncategorized/fbi-teampcp-compromised-dev-tools-to-steal-cloud-credentials.html",
+      "isTopTen": true
+    },
     {
       "id": "d20a24ec-b201-4a37-b461-ee95abca7417",
       "source": "The Hacker News",
@@ -54,7 +76,7 @@
       "summary": "Researchers have identified a new modular malware framework called Avalon, which utilizes multi-stage phishing to deploy diverse capabilities including credential theft, lateral movement, and ransomware execution. Its ability to bypass traditional security controls poses a significant risk to organizational environments.",
       "date": "2026-07-03T18:55:24.000Z",
       "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d2fe0827-fd00-489a-9541-2af522a57af3",
@@ -65,7 +87,7 @@
       "summary": "North Korean-linked threat actors are distributing malicious npm packages that masquerade as legitimate Rollup polyfill tools to exfiltrate developer data and gain remote access. The packages mimic the metadata of the authentic 'rollup-plugin-polyfill-node' library to deceive developers.",
       "date": "2026-07-03T16:07:15.000Z",
       "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "196c1eb1-6e22-4ae9-9eaf-f25c574cd1da",
@@ -285,7 +307,7 @@
       "summary": "Startup MeetingTV has filed a lawsuit against Palo Alto Networks' Koi Security, alleging that an AI-generated threat intelligence report falsely accused the company of participating in Chinese espionage. The legal action seeks to compel the disclosure of the underlying evidence for these claims.",
       "date": "2026-07-02T22:47:46.000Z",
       "link": "https://www.theregister.com/legal/2026/07/02/startup-sues-palo-alto-networks-koi-security-saying-an-ai-hallucinated-report-falsely-linked-it-to-chinese-espionage/5266201",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a312c610-fe1f-47f3-ab0f-efe5402980d0",
@@ -340,7 +362,7 @@
       "summary": "Anubis ransomware operators are leveraging the Citrix Bleed 2 vulnerability for initial access, while utilizing legitimate RMM tools and credential harvesting for lateral movement. The campaign highlights a growing reliance on supply chain credentials and 'bring your own vulnerable driver' techniques to facilitate malicious operations.",
       "date": "2026-07-02T18:30:33.000Z",
       "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8643ba7f-0e5e-4e57-b762-9126c15384af",
@@ -5477,28 +5499,6 @@
       "summary": "Rights groups are criticizing the UK Home Office's implementation of AI-based age verification technology for asylum seekers, citing concerns over systemic bias and technical inaccuracy. Critics argue the tool cannot reliably differentiate between minors and adults at the critical age thresholds required for processing.",
       "date": "2026-06-19T11:02:46.000Z",
       "link": "https://www.theregister.com/security/2026/06/19/rights-groups-brand-home-offices-ai-age-guesser-for-asylum-seekers-as-biased-and-inaccurate/5258892",
-      "isTopTen": false
-    },
-    {
-      "id": "99aad511-d10a-4849-a685-83215023b204",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Unauthenticated RCE in Splunk Enterprise under active attack (CVE-2026-20253)",
-      "summary": "CISA has added a critical, actively exploited unauthenticated remote code execution (RCE) vulnerability in Splunk Enterprise (CVE-2026-20253) to its Known Exploited Vulnerabilities catalog, requiring immediate patching.",
-      "date": "2026-06-19T10:50:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "ca1137f0-c26c-4791-956d-257c6e002206",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Forget traffic lights, Google’s reCAPTCHA may ask for hand gestures",
-      "summary": "Google has introduced hand gesture verification as a new reCAPTCHA method within its Cloud Fraud Defense platform to better distinguish human users from automated bots. This feature adds an additional layer of challenge-based verification to prevent fraud and account abuse across various web forms.",
-      "date": "2026-06-19T10:46:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/19/google-recaptcha-hand-gesture-verification/",
       "isTopTen": false
     }
   ]
