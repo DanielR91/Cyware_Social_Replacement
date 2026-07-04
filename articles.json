@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-04T16:08:39.713Z",
+  "lastUpdated": "2026-07-04T19:22:20.183Z",
   "articles": [
+    {
+      "id": "dc01fc4d-03c1-437a-97dc-429fd1a6c767",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "U.S. Government Agency Paid $1M to Data Extortion Group Kairos",
+      "summary": "A U.S. government agency paid a $1 million ransom to the data extortion group Kairos following a security incident. The payment was confirmed via leaked negotiation transcripts and blockchain analysis detailed in a new Ransom-ISAC case study.",
+      "date": "2026-07-04T16:53:35.000Z",
+      "link": "https://securityaffairs.com/194750/security/u-s-government-agency-paid-1m-to-data-extortion-group-kairos.html",
+      "isTopTen": true
+    },
     {
       "id": "f8839d57-0f6a-4ae9-940c-9a39f89d0f45",
       "source": "The Hacker News",
@@ -46,6 +57,17 @@
       "isTopTen": true
     },
     {
+      "id": "4ce34e85-72b4-48ee-a004-55a8f2612a4f",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "FBI: TeamPCP Compromised Dev Tools to Steal Cloud Credentials",
+      "summary": "The FBI has issued a FLASH alert warning that the threat group TeamPCP is compromising developer tools and security software to exfiltrate cloud credentials and deploy malware. This campaign involves large-scale supply chain attacks aimed at both data theft and victim extortion.",
+      "date": "2026-07-04T07:55:14.000Z",
+      "link": "https://securityaffairs.com/194741/cyber-crime/fbi-teampcp-compromised-dev-tools-to-steal-cloud-credentials.html",
+      "isTopTen": true
+    },
+    {
       "id": "f92be3ed-c631-4336-ba4b-e78a219f3b39",
       "source": "Security Affairs",
       "tag": "Threat Intel & Info Sharing",
@@ -54,7 +76,7 @@
       "summary": "The FBI issued a FLASH alert regarding the criminal group TeamPCP, which compromised widely-used developer tools to steal cloud credentials and distribute malware. The group utilizes these compromised tools to gain unauthorized access to victim environments for extortion purposes.",
       "date": "2026-07-04T07:55:14.000Z",
       "link": "https://securityaffairs.com/194741/uncategorized/fbi-teampcp-compromised-dev-tools-to-steal-cloud-credentials.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d20a24ec-b201-4a37-b461-ee95abca7417",
@@ -76,7 +98,7 @@
       "summary": "Former MEP Stelios Kouloglou was targeted and repeatedly infected with NSO Group's Pegasus spyware while actively investigating the tool's use. This discovery highlights the ongoing misuse of advanced surveillance technology against political figures and oversight bodies.",
       "date": "2026-07-03T20:18:32.000Z",
       "link": "https://securityaffairs.com/194728/malware/pegasus-used-against-mep-investigating-pegasus-citizen-lab-finds.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "37a20af6-d369-4203-83e7-c408d1cdde43",
@@ -87,7 +109,7 @@
       "summary": "The FBI and Google have disrupted the NetNut proxy network by seizing domains linked to a scheme that hijacked 2 million smart TVs and streaming devices. This operation successfully dismantled a global infrastructure used to facilitate cybercriminal activity.",
       "date": "2026-07-03T20:12:42.000Z",
       "link": "https://hackread.com/fbi-seizes-netnut-domains-google-disrupts-proxy-network/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9b9e8e3-cff6-47eb-9104-699965155fba",
@@ -439,7 +461,7 @@
       "summary": "The FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware groups. Security teams are also investigating a related zero-day vulnerability in Nextcloud.",
       "date": "2026-07-02T16:31:37.000Z",
       "link": "https://hackread.com/fortibleed-credential-theft-in-lynx-ransomware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2e2f90b1-d25f-4dfa-b5c0-f7ffbe287b45",
@@ -582,7 +604,7 @@
       "summary": "A massive credential-harvesting campaign dubbed 'FortiBleed' has exposed 430,000 FortiGate firewalls to exploitation by the INC Ransom and Lynx ransomware groups, leading to domain compromise and multiple attacks. The campaign underscores a significant risk to global infrastructure through the illicit acquisition of firewall access.",
       "date": "2026-07-02T10:37:36.000Z",
       "link": "https://securityaffairs.com/194645/security/430000-fortigate-devices-exposed-in-fortibleed-ransomware-link.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4dc04706-3ca0-4786-8fb6-9490f788360e",
@@ -593,7 +615,7 @@
       "summary": "Attackers exploited a critical vulnerability in Oracle E-Business Suite by reverse-engineering an available patch before the official public exploit code was released. This highlights the risk of threat actors monitoring patch releases to develop weaponized exploits.",
       "date": "2026-07-02T10:35:16.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/07/02/oracle-e-business-suite-was-under-attack-via-critical-flaw-before-the-public-exploit-code-was-even-released/5265710",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9e33ec83-4a3d-484e-b83b-a3235504ee50",
@@ -5477,28 +5499,6 @@
       "summary": "Cybercriminals are using a multi-platform campaign on GitHub, YouTube, and VirusTotal to distribute crypto-stealing malware disguised as legitimate trading and gambling tools. By manipulating platform metrics and feedback, the attackers successfully built a false sense of trust to deceive users.",
       "date": "2026-06-19T12:11:44.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/fake-github-stars-crypto-stealing-malware/",
-      "isTopTen": false
-    },
-    {
-      "id": "92ad8806-5a6f-4cd0-9d89-ea9bc179657c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "From Assistive to Agentic: The AI Shift That's Redefining Threat Management",
-      "summary": "The shift from assistive to agentic AI is being proposed as a solution to address enterprise security tool fatigue, data siloes, and slow incident response times. By automating triage, these AI agents aim to reduce analyst burnout and shorten breach dwell times.",
-      "date": "2026-06-19T11:58:00.000Z",
-      "link": "https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8949436b-39d2-40d9-b209-bd707661dedd",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
-      "summary": "Microsoft has acknowledged a bug in the June 2026 Windows updates that displays incorrect filenames during the Recycle Bin file deletion confirmation process. The issue causes confusion for users but does not appear to pose a security threat.",
-      "date": "2026-06-19T11:32:34.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
       "isTopTen": false
     }
   ]
