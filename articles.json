@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-05T13:50:53.132Z",
+  "lastUpdated": "2026-07-05T16:20:27.956Z",
   "articles": [
+    {
+      "id": "6aa48e38-b9e6-41af-a745-dde71ab143f2",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "MFA-optional banks leave safe doors (and accounts) wide open for thieves to pillage",
+      "summary": "Financial institutions are exposing client accounts to unauthorized access by failing to mandate Multi-Factor Authentication (MFA). This prioritization of user convenience over security creates significant vulnerabilities that threat actors can exploit.",
+      "date": "2026-07-05T15:01:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/05/mfa-optional-banks-leave-safe-doors-and-accounts-wide-open-for-thieves-to-pillage/5266161",
+      "isTopTen": false
+    },
     {
       "id": "61b7de7e-05aa-4f41-83b6-55dcf16fc508",
       "source": "Help Net Security",
@@ -32,7 +43,7 @@
       "summary": "A U.S. government agency paid a $1 million ransom to the data extortion group Kairos following a security incident. The payment was confirmed via leaked negotiation transcripts and blockchain analysis detailed in a new Ransom-ISAC case study.",
       "date": "2026-07-04T16:53:35.000Z",
       "link": "https://securityaffairs.com/194750/security/u-s-government-agency-paid-1m-to-data-extortion-group-kairos.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f8839d57-0f6a-4ae9-940c-9a39f89d0f45",
@@ -65,7 +76,7 @@
       "summary": "North Korean threat actors are actively distributing 108 malicious packages and extensions across multiple platforms as part of the ongoing PolinRider campaign. The attackers are compromising maintainer accounts to infect software supply chains.",
       "date": "2026-07-04T11:17:24.000Z",
       "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "442af526-e8f6-40dc-9c74-2a6e944ac816",
@@ -76,7 +87,7 @@
       "summary": "A fundamental vulnerability in Attested TLS compromises the core trust mechanism of confidential computing by preventing secure verification of endpoint identities. Researchers suggest that a definitive fix for this architectural flaw may not be feasible.",
       "date": "2026-07-04T10:03:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ce34e85-72b4-48ee-a004-55a8f2612a4f",
@@ -109,7 +120,7 @@
       "summary": "Security firm runZero discovered seven unpatched vulnerabilities in FatFs, a widely used filesystem library integrated into millions of embedded devices such as drones, cameras, and industrial controllers. These flaws pose a significant supply chain risk due to the library's ubiquity in hardware firmware.",
       "date": "2026-07-03T20:19:31.000Z",
       "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1c6ebf56-a014-4ebd-a768-dfb43e628f2e",
@@ -120,7 +131,7 @@
       "summary": "Former MEP Stelios Kouloglou was targeted and repeatedly infected with NSO Group's Pegasus spyware while actively investigating the tool's use. This discovery highlights the ongoing misuse of advanced surveillance technology against political figures and oversight bodies.",
       "date": "2026-07-03T20:18:32.000Z",
       "link": "https://securityaffairs.com/194728/malware/pegasus-used-against-mep-investigating-pegasus-citizen-lab-finds.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "37a20af6-d369-4203-83e7-c408d1cdde43",
@@ -131,7 +142,7 @@
       "summary": "The FBI and Google have disrupted the NetNut proxy network by seizing domains linked to a scheme that hijacked 2 million smart TVs and streaming devices. This operation successfully dismantled a global infrastructure used to facilitate cybercriminal activity.",
       "date": "2026-07-03T20:12:42.000Z",
       "link": "https://hackread.com/fbi-seizes-netnut-domains-google-disrupts-proxy-network/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9b9e8e3-cff6-47eb-9104-699965155fba",
@@ -142,7 +153,7 @@
       "summary": "A critical Linux kernel vulnerability named 'Bad Epoll' (CVE-2026-46242) enables unprivileged users to achieve root access across desktop, server, and Android platforms. A patch has been released to address this flaw, which was identified in a kernel region recently highlighted by AI-driven analysis.",
       "date": "2026-07-03T19:40:01.000Z",
       "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "968a9c5d-b1b5-41d5-a5f1-9943c3500eed",
@@ -219,7 +230,7 @@
       "summary": "Sysdig researchers have identified JADEPUFFER, the first documented ransomware operation conducted entirely by an AI agent using an LLM to perform end-to-end attack steps. This development marks a significant shift in threat actor capabilities, as the agent successfully navigated the environment and encrypted data without human intervention.",
       "date": "2026-07-03T11:29:03.000Z",
       "link": "https://securityaffairs.com/194713/ai/jadepuffer-first-end-to-end-ai-driven-ransomware-operation.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "49fa02dd-60e9-4b90-b144-f40fccc0a029",
@@ -626,7 +637,7 @@
       "summary": "A massive credential-harvesting campaign dubbed 'FortiBleed' has exposed 430,000 FortiGate firewalls to exploitation by the INC Ransom and Lynx ransomware groups, leading to domain compromise and multiple attacks. The campaign underscores a significant risk to global infrastructure through the illicit acquisition of firewall access.",
       "date": "2026-07-02T10:37:36.000Z",
       "link": "https://securityaffairs.com/194645/security/430000-fortigate-devices-exposed-in-fortibleed-ransomware-link.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4dc04706-3ca0-4786-8fb6-9490f788360e",
@@ -747,7 +758,7 @@
       "summary": "CISA has added a high-severity remote code execution vulnerability (CVE-2026-45659) affecting Microsoft SharePoint Server to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw, which involves deserialization of untrusted data, carries a CVSS score of 8.8.",
       "date": "2026-07-02T05:46:45.000Z",
       "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a959a632-0ac0-4e10-81f4-e372c108c5a4",
@@ -5488,17 +5499,6 @@
       "summary": "A security breach at market intelligence platform Klue led to the compromise of integration credentials, resulting in unauthorized access and data theft from connected services like Salesforce for companies including Huntress. The incident highlights the risks of a supply chain attack cascading through third-party integrations.",
       "date": "2026-06-19T12:57:39.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/",
-      "isTopTen": false
-    },
-    {
-      "id": "32cc5f45-28c4-4c01-a5a7-bc3a70817a9c",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Police raid malware network tied to Russia's Evil Corp hacker group",
-      "summary": "An international law enforcement operation has successfully targeted the SocGholish botnet, a malware distribution network associated with the Russian-based cybercrime organization Evil Corp.",
-      "date": "2026-06-19T12:57:00.000Z",
-      "link": "https://therecord.media/socgholish-botnet-disrupted",
       "isTopTen": false
     }
   ]
