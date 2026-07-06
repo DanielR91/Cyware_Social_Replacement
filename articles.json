@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-06T20:06:10.081Z",
+  "lastUpdated": "2026-07-06T22:19:53.197Z",
   "articles": [
+    {
+      "id": "392ae30a-0303-4cfb-a055-0a233eec1b7c",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Canadian spy agency reports hacking three criminal groups in 2025",
+      "summary": "Canada's Communications Security Establishment conducted offensive cyber operations against three distinct criminal organizations in 2025, including a ransomware-as-a-service gang. These actions represent a targeted disruption of illicit activities by a national intelligence agency.",
+      "date": "2026-07-06T20:55:00.000Z",
+      "link": "https://therecord.media/canada-cse-2025-cyber-operations-ransomware-drugs-extremism",
+      "isTopTen": false
+    },
+    {
+      "id": "dcef62c1-ea6f-4424-8a8f-ccbb38966056",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Attackers vote themselves $20 million in BONK cryptocurrency",
+      "summary": "Attackers exploited a governance mechanism in BonkDAO to fraudulently approve a proposal that transferred $20 million worth of BONK cryptocurrency to their wallets. This incident highlights a significant vulnerability in decentralized governance structures.",
+      "date": "2026-07-06T20:35:00.000Z",
+      "link": "https://therecord.media/attackers-vote-themselves-20-million-bonk-crypto",
+      "isTopTen": false
+    },
     {
       "id": "b984ecb0-2f73-48c6-a978-88ee066dd6e3",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "A critical path traversal vulnerability in Adobe ColdFusion, tracked as CVE-2026-48282, is being actively exploited in the wild to achieve unauthenticated remote code execution. The flaw affects versions 2025.9, 2023.20, and earlier.",
       "date": "2026-07-06T19:53:10.000Z",
       "link": "https://securityaffairs.com/194837/hacking/adobe-coldfusion-flaw-cve-2026-48282-now-exploited-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cc8cf6a3-3dcc-4e92-95ca-7b30191b8317",
@@ -21,6 +43,17 @@
       "summary": "An Iranian state-affiliated hacking group is utilizing a newly discovered modular C2 framework called Cavern to target Israeli IT and government sectors. The activity, tracked by Check Point Research, highlights evolving tactics used by the Ministry of Intelligence and Security to conduct targeted espionage.",
       "date": "2026-07-06T18:34:26.000Z",
       "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9e37a5a8-13c6-4de2-acc7-de5f34896e83",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Major medical device manufacturer notifies nearly 4 million of breach",
+      "summary": "A major medical device manufacturer suffered a data breach affecting nearly 4 million individuals, resulting in the unauthorized access of sensitive data such as Social Security numbers and health information. Although the company reported no evidence of data exposure on the public internet, the incident remains a significant compromise of protected personal health information.",
+      "date": "2026-07-06T18:03:00.000Z",
+      "link": "https://therecord.media/medical-device-maker-notifies-nearly-4-million-of-breach",
       "isTopTen": false
     },
     {
@@ -44,6 +77,28 @@
       "date": "2026-07-06T17:37:01.000Z",
       "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
       "isTopTen": true
+    },
+    {
+      "id": "01122cd0-a00a-457a-9ab2-c3ce08ca900e",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Critical",
+      "title": "EU urged to act after Pegasus infects phone of spyware inquiry MEP",
+      "summary": "EU officials and campaigners are calling for immediate regulatory action following the discovery of Pegasus spyware on the device of a member of the European Parliament. The incident highlights ongoing security concerns regarding surveillance technology and underscores the need to implement recommendations from the PEGA Committee.",
+      "date": "2026-07-06T17:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/06/eus-latest-spyware-scandal-prompts-calls-for-urgent-action/5267054",
+      "isTopTen": true
+    },
+    {
+      "id": "bfee09d2-dcf1-4b87-98ba-23498d98d435",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Japanese teen arrested over cyberattack that disrupted anime streaming service",
+      "summary": "A Japanese teenager was arrested for exploiting a vulnerability in an anime streaming platform to perform unauthorized cancellations of over 46,000 user subscriptions. The incident highlights the impact of service-specific flaws on business operations and user account integrity.",
+      "date": "2026-07-06T16:40:00.000Z",
+      "link": "https://therecord.media/japanese-teen-arrested-over-attack-disrupted-streaming-service",
+      "isTopTen": false
     },
     {
       "id": "5f7f0634-e40b-4f70-bae7-a3ed107791c9",
@@ -219,7 +274,7 @@
       "summary": "Generative AI is enabling the rapid creation of sophisticated fraudulent documents, necessitating stricter verification protocols for file integrity and provenance. Security teams must move beyond visual inspection to automated validation methods to combat this evolving threat.",
       "date": "2026-07-06T10:28:11.000Z",
       "link": "https://hackread.com/ai-forge-documents-minutes-looks-right-not-enough/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f5f3144-f68c-4358-9447-933b06e034ce",
@@ -263,7 +318,7 @@
       "summary": "Researchers have discovered 'TrojPix,' a technique that exfiltrates data from air-gapped systems by modulating video cable electromagnetic emissions. The method requires prior malware infection on the target machine to manipulate pixel patterns for data transmission.",
       "date": "2026-07-06T08:50:54.000Z",
       "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9b2a0053-453b-4f08-a931-5ceacc802b07",
@@ -516,7 +571,7 @@
       "summary": "The FBI has issued a FLASH alert warning that the threat group TeamPCP is compromising developer tools and security software to exfiltrate cloud credentials and deploy malware. This campaign involves large-scale supply chain attacks aimed at both data theft and victim extortion.",
       "date": "2026-07-04T07:55:14.000Z",
       "link": "https://securityaffairs.com/194741/cyber-crime/fbi-teampcp-compromised-dev-tools-to-steal-cloud-credentials.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f92be3ed-c631-4336-ba4b-e78a219f3b39",
@@ -549,7 +604,7 @@
       "summary": "Former MEP Stelios Kouloglou was targeted and repeatedly infected with NSO Group's Pegasus spyware while actively investigating the tool's use. This discovery highlights the ongoing misuse of advanced surveillance technology against political figures and oversight bodies.",
       "date": "2026-07-03T20:18:32.000Z",
       "link": "https://securityaffairs.com/194728/malware/pegasus-used-against-mep-investigating-pegasus-citizen-lab-finds.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "37a20af6-d369-4203-83e7-c408d1cdde43",
@@ -560,7 +615,7 @@
       "summary": "The FBI and Google have disrupted the NetNut proxy network by seizing domains linked to a scheme that hijacked 2 million smart TVs and streaming devices. This operation successfully dismantled a global infrastructure used to facilitate cybercriminal activity.",
       "date": "2026-07-03T20:12:42.000Z",
       "link": "https://hackread.com/fbi-seizes-netnut-domains-google-disrupts-proxy-network/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9b9e8e3-cff6-47eb-9104-699965155fba",
@@ -670,7 +725,7 @@
       "summary": "The 2026 Vercel incident occurred after an employee utilized an unvetted AI tool, allowing attackers to exploit it as a trusted gateway to access systems, exfiltrate data, and demand a $2 million ransom.",
       "date": "2026-07-03T10:34:14.000Z",
       "link": "https://securityaffairs.com/194709/hacking/the-anatomy-of-a-shadow-ai-supply-chain-breach-lessons-from-the-2026-vercel-incident.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e7697f46-6ad9-4bd2-94f2-bbb31c18548e",
@@ -5444,61 +5499,6 @@
       "summary": "The FortiBleed campaign has compromised over 430,000 FortiGate devices to harvest 110 million credentials, marking a major, ongoing Russian-linked cyber espionage operation. A comprehensive report from SOCRadar provides new technical insights into the scale and impact of this widespread credential-harvesting activity.",
       "date": "2026-06-22T10:25:33.000Z",
       "link": "https://securityaffairs.com/194004/hacking/fortibleed-the-most-detailed-breakdown-yet-of-an-active-russian-credential-harvesting-operation.html",
-      "isTopTen": false
-    },
-    {
-      "id": "92af816e-90b8-49bb-9527-b34a74d11080",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Gizmodo readers hit with ClickFix malware prompts after account compromise",
-      "summary": "Gizmodo readers were targeted by a ClickFix malware campaign following a website account compromise that prompted Windows users to run malicious files. While Windows systems were at high risk, Mac users appeared to be unaffected by the specific payload.",
-      "date": "2026-06-22T09:56:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/22/gizmodo-readers-hit-with-clickfix-malware-prompts-after-account-compromise/5259226",
-      "isTopTen": false
-    },
-    {
-      "id": "21e18fcd-61d7-487e-b182-9e3cf1bcd99b",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
-      "summary": "The Canadian Security Intelligence Service successfully obtained a judicial warrant to remotely neutralize foreign-run botnets by modifying infected local servers, routers, and IoT devices. This marks the first time the agency has utilized threat reduction powers to directly intervene in compromised civilian infrastructure.",
-      "date": "2026-06-22T09:11:37.000Z",
-      "link": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cf120209-f6fe-4983-8cfb-5d0e8728c44c",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "4,300+ Outdated Routers Hijacked in Stealthy Spy Infrastructure by AryStinger malware",
-      "summary": "The AryStinger malware has compromised over 4,300 outdated routers by exploiting long-standing vulnerabilities to establish a stealthy infrastructure for reconnaissance and cyber-espionage. Security researchers identified the campaign after tracking a binary spreading through flaws dating back to 2013 and 2016.",
-      "date": "2026-06-22T08:26:07.000Z",
-      "link": "https://securityaffairs.com/193987/security/4300-outdated-routers-hijacked-in-stealthy-spy-infrastructure-by-arystinger-malware.html",
-      "isTopTen": false
-    },
-    {
-      "id": "145d3cd1-8d62-484e-84c4-7bd63c6f4678",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "23 ClawHub plugins squatting official scopes expose AI registry security gaps",
-      "summary": "Twenty-three malicious plugins were discovered using official 'ClawHub' and 'OpenClaw' scopes to execute unauthorized code, highlighting significant security vulnerabilities in AI agent plugin registries. The incident underscores a lack of scope reservation controls that allows attackers to impersonate official publishers.",
-      "date": "2026-06-22T08:00:11.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/22/clawhub-code-executing-plugins-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "5a0830d3-a489-4517-bfc9-8d73a7d5cdf7",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "usbliter8 Brings Unpatchable BootROM Exploit to Apple A12 and A13 Devices",
-      "summary": "Security researchers have released usbliter8, an unpatchable BootROM exploit targeting Apple's A12 and A13 chips that enables arbitrary code execution within the SecureROM. This vulnerability extends critical security risks similar to the checkm8 exploit to a wider range of newer iPhone devices.",
-      "date": "2026-06-22T07:12:16.000Z",
-      "link": "https://securityaffairs.com/193965/hacking/usbliter8-brings-unpatchable-bootrom-exploit-to-apple-a12-and-a13-devices.html",
       "isTopTen": false
     }
   ]
