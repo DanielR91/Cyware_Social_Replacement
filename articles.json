@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-05T22:06:29.088Z",
+  "lastUpdated": "2026-07-06T04:04:05.020Z",
   "articles": [
+    {
+      "id": "1e0a02af-8064-407b-a23c-ecf91fa8c61e",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New ClamAV security patch closes seven scanner bugs dating back two decades",
+      "summary": "Cisco Talos has released security patches for ClamAV versions 1.5.3 and 1.4.5 to address seven vulnerabilities, including long-standing flaws in executable file parsing.",
+      "date": "2026-07-05T22:30:13.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/",
+      "isTopTen": false
+    },
     {
       "id": "9775bf7f-361d-4290-b983-322e06e545bd",
       "source": "Security Affairs",
@@ -32,7 +43,7 @@
       "summary": "Financial institutions are exposing client accounts to unauthorized access by failing to mandate Multi-Factor Authentication (MFA). This prioritization of user convenience over security creates significant vulnerabilities that threat actors can exploit.",
       "date": "2026-07-05T15:01:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/05/mfa-optional-banks-leave-safe-doors-and-accounts-wide-open-for-thieves-to-pillage/5266161",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "61b7de7e-05aa-4f41-83b6-55dcf16fc508",
@@ -65,7 +76,7 @@
       "summary": "A U.S. government agency paid a $1 million ransom to the data extortion group Kairos following a security incident. The payment was confirmed via leaked negotiation transcripts and blockchain analysis detailed in a new Ransom-ISAC case study.",
       "date": "2026-07-04T16:53:35.000Z",
       "link": "https://securityaffairs.com/194750/security/u-s-government-agency-paid-1m-to-data-extortion-group-kairos.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f8839d57-0f6a-4ae9-940c-9a39f89d0f45",
@@ -120,7 +131,7 @@
       "summary": "The FBI has issued a FLASH alert warning that the threat group TeamPCP is compromising developer tools and security software to exfiltrate cloud credentials and deploy malware. This campaign involves large-scale supply chain attacks aimed at both data theft and victim extortion.",
       "date": "2026-07-04T07:55:14.000Z",
       "link": "https://securityaffairs.com/194741/cyber-crime/fbi-teampcp-compromised-dev-tools-to-steal-cloud-credentials.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f92be3ed-c631-4336-ba4b-e78a219f3b39",
@@ -164,7 +175,7 @@
       "summary": "The FBI and Google have disrupted the NetNut proxy network by seizing domains linked to a scheme that hijacked 2 million smart TVs and streaming devices. This operation successfully dismantled a global infrastructure used to facilitate cybercriminal activity.",
       "date": "2026-07-03T20:12:42.000Z",
       "link": "https://hackread.com/fbi-seizes-netnut-domains-google-disrupts-proxy-network/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9b9e8e3-cff6-47eb-9104-699965155fba",
@@ -571,7 +582,7 @@
       "summary": "CISA has added a SharePoint remote code execution vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, contradicting Microsoft's earlier assessment that exploitation was unlikely. The flaw allows attackers with valid account credentials to execute arbitrary code on vulnerable on-premises servers.",
       "date": "2026-07-02T14:40:30.000Z",
       "link": "https://www.theregister.com/security/2026/07/02/microsoft-said-exploitation-was-less-likely-but-cisa-just-added-sharepoint-rce-to-kev-list/5265886",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a64d5164-14df-47cd-b43f-df5b0b8d765c",
@@ -659,7 +670,7 @@
       "summary": "A massive credential-harvesting campaign dubbed 'FortiBleed' has exposed 430,000 FortiGate firewalls to exploitation by the INC Ransom and Lynx ransomware groups, leading to domain compromise and multiple attacks. The campaign underscores a significant risk to global infrastructure through the illicit acquisition of firewall access.",
       "date": "2026-07-02T10:37:36.000Z",
       "link": "https://securityaffairs.com/194645/security/430000-fortigate-devices-exposed-in-fortibleed-ransomware-link.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4dc04706-3ca0-4786-8fb6-9490f788360e",
@@ -5488,17 +5499,6 @@
       "summary": "eFAQ has released an investigative report detailing allegations of scam operations and orchestrated campaigns designed to damage reputations. The report highlights the impact of coordinated disinformation efforts on digital trust.",
       "date": "2026-06-19T13:27:52.000Z",
       "link": "https://hackread.com/efaq-publishes-investigation-into-alleged-scam-activity-and-coordinated-reputation-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "2f9e0e7b-c694-459e-9ecb-d9a77127a236",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
-      "summary": "AI agents now possess significant operational capabilities within corporate environments, yet they often lack the robust identity management and governance protocols required to secure them. This creates a critical security gap as these autonomous systems become high-value targets for attackers.",
-      "date": "2026-06-19T13:10:19.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
       "isTopTen": false
     }
   ]
