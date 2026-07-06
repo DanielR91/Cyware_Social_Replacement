@@ -1,6 +1,171 @@
 {
-  "lastUpdated": "2026-07-06T04:04:05.020Z",
+  "lastUpdated": "2026-07-06T10:50:37.648Z",
   "articles": [
+    {
+      "id": "dfabc388-faaf-453d-932c-b87fc10fb3cc",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI Can Forge Documents in Minutes – “Looks Right” Is No Longer Enough",
+      "summary": "Generative AI is enabling the rapid creation of sophisticated fraudulent documents, necessitating stricter verification protocols for file integrity and provenance. Security teams must move beyond visual inspection to automated validation methods to combat this evolving threat.",
+      "date": "2026-07-06T10:28:11.000Z",
+      "link": "https://hackread.com/ai-forge-documents-minutes-looks-right-not-enough/",
+      "isTopTen": true
+    },
+    {
+      "id": "db1e61bc-741c-4b89-a90a-629d2031cba8",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Secure Unix ancestor KSOS did type safety before Rust made it cool",
+      "summary": "Source code for the KSOS operating system, a Unix ancestor designed for high security and type safety, has been recovered after nearly 40 years. The project highlights early industry efforts to enforce memory safety through language design long before modern languages like Rust popularized the concept.",
+      "date": "2026-07-06T09:30:00.000Z",
+      "link": "https://www.theregister.com/os-platforms/2026/07/06/secure-unix-ancestor-ksos-did-type-safety-before-rust-made-it-cool/5266458",
+      "isTopTen": false
+    },
+    {
+      "id": "5a4f86e5-4a3e-48c5-ab17-b638e4703aaf",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Finding vulnerabilities was never the hard part",
+      "summary": "The rapid increase in AI-generated vulnerability discovery is overwhelming organizations, making it difficult to prioritize and manage significant security risks. The industry faces a challenge in distinguishing critical threats from noise at scale.",
+      "date": "2026-07-06T09:00:00.000Z",
+      "link": "https://cyberscoop.com/ai-cybersecurity-vulnerability-prioritization-op-ed/",
+      "isTopTen": false
+    },
+    {
+      "id": "4abc3a14-249a-4037-9ce7-1ecf826f3e89",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
+      "summary": "Researchers have discovered 'TrojPix,' a technique that exfiltrates data from air-gapped systems by modulating video cable electromagnetic emissions. The method requires prior malware infection on the target machine to manipulate pixel patterns for data transmission.",
+      "date": "2026-07-06T08:50:54.000Z",
+      "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9b2a0053-453b-4f08-a931-5ceacc802b07",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Bad Epoll Flaw Gives Attackers Root Access on Linux and Android",
+      "summary": "A critical Linux kernel vulnerability named Bad Epoll (CVE-2026-46242) allows local, unprivileged attackers to gain full root access on Linux systems and Android devices. The flaw, which evaded AI detection, requires immediate patching.",
+      "date": "2026-07-06T08:24:22.000Z",
+      "link": "https://securityaffairs.com/194795/hacking/bad-epoll-flaw-gives-attackers-root-access-on-linux-and-android.html",
+      "isTopTen": true
+    },
+    {
+      "id": "711d3be2-4e80-48b1-b37a-b3751aa177b7",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
+      "summary": "Security researchers have identified QuimaRAT, a cross-platform Java-based remote access trojan offered as a malware-as-a-service (MaaS) that targets Windows, Linux, and macOS systems. The malware is currently being sold on subscription tiers ranging from $150 to $1,200.",
+      "date": "2026-07-06T08:13:33.000Z",
+      "link": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a84cda09-0c86-4325-bdc2-c90de34f4735",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
+      "summary": "A security vulnerability in the Opera GX browser allowed malicious websites to silently install unauthorized extensions to exfiltrate user data. The flaw has since been patched by Opera.",
+      "date": "2026-07-06T07:27:50.000Z",
+      "link": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
+      "isTopTen": false
+    },
+    {
+      "id": "03769717-2293-433b-bdca-543241040b1a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
+      "summary": "Researchers discovered that a technique called SkillCloak uses self-extracting packing to help malicious AI coding agent add-ons evade detection by static security scanners. The study highlights a significant vulnerability in current security tools, which failed to detect the obfuscated malware in over 90% of tests.",
+      "date": "2026-07-06T06:33:56.000Z",
+      "link": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+      "isTopTen": true
+    },
+    {
+      "id": "1c54e1ec-2898-4f1f-ad1c-b237222a0296",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "How to prioritize AI agent security by business impact",
+      "summary": "This article outlines a framework for prioritizing AI agent security by assessing business impact following an incident involving unauthorized access to a finance application. It highlights the risks posed by improper lifecycle management of OAuth grants for autonomous agents.",
+      "date": "2026-07-06T06:30:39.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/prioritize-ai-agent-security-business-impact/",
+      "isTopTen": false
+    },
+    {
+      "id": "b12849e0-cb25-446f-a7b3-e4f99dbafc90",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Securing the inbox: Where identity, brand and security meet",
+      "summary": "Red Sift and GlobalSign have partnered to streamline the setup of DMARC, BIMI, and Verified Mark Certificates into a single package to simplify email brand authentication. This integration reduces the complexity and time required for organizations to verify their sender identity.",
+      "date": "2026-07-06T06:00:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/ciso-email-security-strategy/",
+      "isTopTen": false
+    },
+    {
+      "id": "f75698b9-77fb-4172-8e11-a94d8bd0ea6e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Omnigent: Open-source AI agent framework and meta-harness",
+      "summary": "Omnigent is an open-source framework designed to unify diverse AI coding agents, addressing governance, credential management, and cost oversight challenges for development teams. It acts as a meta-harness to standardize operations across fragmented AI development tools.",
+      "date": "2026-07-06T05:30:53.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/omnigent-open-source-ai-agent-framework/",
+      "isTopTen": false
+    },
+    {
+      "id": "ba3dcda4-b431-4a92-8114-9e69d430bf85",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: Is that text a scam? Malwarebytes Mobile Security can help you find out",
+      "summary": "Malwarebytes has released an updated mobile security application that integrates scam prevention, privacy protection, and identity monitoring across multiple operating systems. The tool aims to help users identify fraudulent text messages and improve their overall device security posture.",
+      "date": "2026-07-06T05:00:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/product-showcase-malwarebytes-mobile-security-ios/",
+      "isTopTen": false
+    },
+    {
+      "id": "e2ba2d34-37c8-470b-8603-17543450dbfc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Flipper Zero firmware development gets a fresh set of community rules",
+      "summary": "Flipper Devices has resumed active maintenance of the Flipper Zero firmware, implementing a new set of community guidelines for code contributions and feature requests. This move addresses recent concerns regarding the project's development inactivity.",
+      "date": "2026-07-06T04:57:15.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/flipper-zero-firmware-development-update/",
+      "isTopTen": false
+    },
+    {
+      "id": "68a725d7-92a5-4aa5-97ad-319b619b6b8b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OAuth, guest accounts, and weak MFA drive SaaS risk",
+      "summary": "The over-provisioning and poor management of guest accounts, combined with insecure OAuth configurations and weak MFA, are creating significant security risks within SaaS environments. These overlooked access paths now account for the majority of SaaS identities, expanding the corporate attack surface.",
+      "date": "2026-07-06T04:30:05.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/saas-environments-security-risks-report/",
+      "isTopTen": true
+    },
+    {
+      "id": "aa15ecb1-545d-41d5-8a1a-cb0844aebc5a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The future of payment fraud could be automated",
+      "summary": "Criminal groups are increasingly utilizing organized operations and agentic AI to automate payment fraud stages, such as credential theft and password cracking. As a result, consumers are prioritizing enhanced fraud protection when selecting financial service providers.",
+      "date": "2026-07-06T04:00:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/06/key-payment-fraud-trends-report/",
+      "isTopTen": false
+    },
     {
       "id": "1e0a02af-8064-407b-a23c-ecf91fa8c61e",
       "source": "Help Net Security",
@@ -21,7 +186,7 @@
       "summary": "Medtronic has notified over 3.8 million individuals that their personal and medical data was compromised following a cyberattack by the ShinyHunters extortion group on its corporate IT systems.",
       "date": "2026-07-05T18:31:18.000Z",
       "link": "https://securityaffairs.com/194788/cyber-crime/medtronic-notifies-3-8-million-after-shinyhunters-data-breach.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e5f80928-d94b-4916-9afa-988cc309b7bf",
@@ -43,7 +208,7 @@
       "summary": "Financial institutions are exposing client accounts to unauthorized access by failing to mandate Multi-Factor Authentication (MFA). This prioritization of user convenience over security creates significant vulnerabilities that threat actors can exploit.",
       "date": "2026-07-05T15:01:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/05/mfa-optional-banks-leave-safe-doors-and-accounts-wide-open-for-thieves-to-pillage/5266161",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "61b7de7e-05aa-4f41-83b6-55dcf16fc508",
@@ -76,7 +241,7 @@
       "summary": "A U.S. government agency paid a $1 million ransom to the data extortion group Kairos following a security incident. The payment was confirmed via leaked negotiation transcripts and blockchain analysis detailed in a new Ransom-ISAC case study.",
       "date": "2026-07-04T16:53:35.000Z",
       "link": "https://securityaffairs.com/194750/security/u-s-government-agency-paid-1m-to-data-extortion-group-kairos.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8839d57-0f6a-4ae9-940c-9a39f89d0f45",
@@ -109,7 +274,7 @@
       "summary": "North Korean threat actors are actively distributing 108 malicious packages and extensions across multiple platforms as part of the ongoing PolinRider campaign. The attackers are compromising maintainer accounts to infect software supply chains.",
       "date": "2026-07-04T11:17:24.000Z",
       "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "442af526-e8f6-40dc-9c74-2a6e944ac816",
@@ -186,7 +351,7 @@
       "summary": "A critical Linux kernel vulnerability named 'Bad Epoll' (CVE-2026-46242) enables unprivileged users to achieve root access across desktop, server, and Android platforms. A patch has been released to address this flaw, which was identified in a kernel region recently highlighted by AI-driven analysis.",
       "date": "2026-07-03T19:40:01.000Z",
       "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "968a9c5d-b1b5-41d5-a5f1-9943c3500eed",
@@ -428,7 +593,7 @@
       "summary": "Startup MeetingTV has filed a lawsuit against Palo Alto Networks' Koi Security, alleging that an AI-generated threat intelligence report falsely accused the company of participating in Chinese espionage. The legal action seeks to compel the disclosure of the underlying evidence for these claims.",
       "date": "2026-07-02T22:47:46.000Z",
       "link": "https://www.theregister.com/legal/2026/07/02/startup-sues-palo-alto-networks-koi-security-saying-an-ai-hallucinated-report-falsely-linked-it-to-chinese-espionage/5266201",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a312c610-fe1f-47f3-ab0f-efe5402980d0",
@@ -582,7 +747,7 @@
       "summary": "CISA has added a SharePoint remote code execution vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, contradicting Microsoft's earlier assessment that exploitation was unlikely. The flaw allows attackers with valid account credentials to execute arbitrary code on vulnerable on-premises servers.",
       "date": "2026-07-02T14:40:30.000Z",
       "link": "https://www.theregister.com/security/2026/07/02/microsoft-said-exploitation-was-less-likely-but-cisa-just-added-sharepoint-rce-to-kev-list/5265886",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a64d5164-14df-47cd-b43f-df5b0b8d765c",
@@ -670,7 +835,7 @@
       "summary": "A massive credential-harvesting campaign dubbed 'FortiBleed' has exposed 430,000 FortiGate firewalls to exploitation by the INC Ransom and Lynx ransomware groups, leading to domain compromise and multiple attacks. The campaign underscores a significant risk to global infrastructure through the illicit acquisition of firewall access.",
       "date": "2026-07-02T10:37:36.000Z",
       "link": "https://securityaffairs.com/194645/security/430000-fortigate-devices-exposed-in-fortibleed-ransomware-link.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4dc04706-3ca0-4786-8fb6-9490f788360e",
@@ -5334,171 +5499,6 @@
       "summary": "CISA has issued an emergency alert following the leak of credentials for approximately 74,000 Fortinet devices, which are currently being actively exploited by threat actors. This security incident, dubbed 'FortiBleed,' affects various firewalls and VPN gateways worldwide.",
       "date": "2026-06-20T08:10:50.000Z",
       "link": "https://securityaffairs.com/193902/hacking/cisa-warns-of-active-exploitation-following-fortibleed-leak.html",
-      "isTopTen": false
-    },
-    {
-      "id": "63f72c43-62e2-4896-b622-a296b4b5bf50",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
-      "summary": "Unit 42 provides strategic guidance for defending against large-scale credential stuffing attacks, specifically addressing recent campaigns that target security vendor infrastructure.",
-      "date": "2026-06-20T02:05:33.000Z",
-      "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "a3f079a5-e1bb-45a7-bc98-e55ac04a97d3",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
-      "summary": "Market intelligence platform Klue confirmed a security incident involving the theft of OAuth tokens connected to customer Salesforce environments, with the Icarus extortion group claiming responsibility. The breach has led to an expanding list of affected organizations.",
-      "date": "2026-06-19T22:31:04.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "a787a9e9-4008-4c16-8734-e87f4ab72dad",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-      "summary": "Hackers are actively exploiting an unauthenticated information disclosure vulnerability within the Gravity SMTP WordPress plugin, which is installed on over 100,000 websites.",
-      "date": "2026-06-19T20:25:02.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "isTopTen": false
-    },
-    {
-      "id": "b5207a36-75cd-45d5-8671-a5112239d0a7",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
-      "summary": "Security researchers have discovered an unpatchable exploit called 'usbliter8' affecting the SecureROM of Apple's A12 and A13 chips, allowing for arbitrary code execution. Because the vulnerability is tied to the hardware, it cannot be mitigated via software updates.",
-      "date": "2026-06-19T18:37:41.000Z",
-      "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "272c5540-75df-44cb-baca-d00d38636cf1",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
-      "summary": "The Gentlemen ransomware-as-a-service (RaaS) group is distributing a sophisticated framework called GentleKiller, which enables affiliates to terminate over 400 security processes to bypass endpoint detection. This development highlights the growing trend of threat actors utilizing specialized EDR-killing tools to facilitate ransomware deployment.",
-      "date": "2026-06-19T18:33:07.000Z",
-      "link": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a1fbc059-2f1d-47aa-9611-0c851314d20d",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Meteor 3.0 Migration Helped Rocket.Chat Move Off End-of-Life Node.js Runtime",
-      "summary": "Rocket.Chat migrated to Meteor 3.0 to upgrade its underlying Node.js runtime from version 14 to 20. This update effectively resolves technical debt associated with the removal of Fibers and mitigates supply-chain security risks for federal users.",
-      "date": "2026-06-19T16:57:09.000Z",
-      "link": "https://hackread.com/meteor-3-0-migration-rocket-chat-node-js-runtime/",
-      "isTopTen": false
-    },
-    {
-      "id": "e670ab5c-877e-4940-9dcb-197aa1a9f284",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
-      "summary": "The Texas Parks and Wildlife Department suffered a data breach involving a third-party vendor, resulting in the exposure of personal information for over three million driver's license holders. The incident highlights the risks associated with supply chain security for government entities.",
-      "date": "2026-06-19T16:12:41.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "isTopTen": false
-    },
-    {
-      "id": "fd17ef98-7a47-4997-8178-018c4f16cab2",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Researchers drop checkm8-style BootROM exploit for A12 and A13 iPhones",
-      "summary": "Security researchers have released a permanent, unpatchable BootROM exploit affecting A12 and A13 chipsets in certain iPhone models. Because the flaw exists at the hardware level, it cannot be fixed via software updates.",
-      "date": "2026-06-19T16:02:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
-      "isTopTen": false
-    },
-    {
-      "id": "b814514b-c754-40f8-a2ba-be3ddcb86856",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
-      "summary": "Microsoft researchers discovered AutoJack, a vulnerability that allows malicious web pages to exploit AI browsing agents to execute arbitrary code on a host machine. The attack bypasses authentication and requires no user interaction after the initial page load.",
-      "date": "2026-06-19T15:30:47.000Z",
-      "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c7d96101-ba68-4c62-b475-006462b389b3",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
-      "summary": "International law enforcement agencies collaborated in Operation Endgame to dismantle SocGholish malicious infrastructure, resulting in the cleanup of nearly 15,000 compromised WordPress websites.",
-      "date": "2026-06-19T15:07:54.000Z",
-      "link": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6cd905d9-614d-41f6-8588-af7638983159",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Gcore Helps Ucom Safeguard Public Live Broadcast Infrastructure During Armenia’s Parliamentary Elections",
-      "summary": "Gcore provided infrastructure protection services to Ucom to secure public live broadcasting during Armenia's parliamentary elections. The collaboration focused on safeguarding critical communications against potential cyber disruptions during a sensitive political event.",
-      "date": "2026-06-19T14:42:44.000Z",
-      "link": "https://hackread.com/gcore-helps-ucom-safeguard-public-live-broadcast-infrastructure-during-armenias-parliamentary-elections/",
-      "isTopTen": false
-    },
-    {
-      "id": "2bb5f138-f79c-4006-9762-ff0bfcd7d9da",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
-      "summary": "CISA has issued an urgent warning to Fortinet customers regarding the 'FortiBleed' campaign, which has compromised over 86,000 internet-accessible FortiGate devices. The campaign is attributed to Russian-speaking threat actors, prompting authorities to advise immediate patching and security measures.",
-      "date": "2026-06-19T14:00:21.000Z",
-      "link": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6bd393d2-e8e4-4752-be8b-b2138753980b",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Nintendo America Employee Data Exposed After Shadowbyt3$ Targets TinyPulse",
-      "summary": "The hacker group Shadowbyt3 breached the employee engagement platform TinyPulse, resulting in the exposure of sensitive HR and financial records belonging to Nintendo of America staff. The compromised data includes tax forms, banking details, and internal survey responses.",
-      "date": "2026-06-19T13:49:50.000Z",
-      "link": "https://hackread.com/nintendo-america-employee-data-shadowbyt3-tinypulse/",
-      "isTopTen": false
-    },
-    {
-      "id": "2b105fd0-8f72-4e53-909c-8c2072ff3226",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "14,971 WordPress Sites Cleaned in Global SocGholish Takedown",
-      "summary": "Law enforcement agencies from four countries conducted Operation EndGame, successfully dismantling the SocGholish malware infrastructure and cleaning nearly 15,000 infected WordPress sites.",
-      "date": "2026-06-19T13:41:56.000Z",
-      "link": "https://securityaffairs.com/193893/malware/14971-wordpress-sites-cleaned-in-global-socgholish-takedown.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fa2a720f-5dea-4fc5-89a4-5fb7f29e297f",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "eFAQ Publishes Investigation Into Alleged Scam Activity and Coordinated Reputation Attacks",
-      "summary": "eFAQ has released an investigative report detailing allegations of scam operations and orchestrated campaigns designed to damage reputations. The report highlights the impact of coordinated disinformation efforts on digital trust.",
-      "date": "2026-06-19T13:27:52.000Z",
-      "link": "https://hackread.com/efaq-publishes-investigation-into-alleged-scam-activity-and-coordinated-reputation-attacks/",
       "isTopTen": false
     }
   ]
