@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-07T20:04:07.362Z",
+  "lastUpdated": "2026-07-07T22:15:54.471Z",
   "articles": [
+    {
+      "id": "5e409080-4d95-42ca-bb3b-94a0bfa0377b",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
+      "summary": "The Vidar Stealer campaign employs advanced evasion techniques, including code signing abuse and a custom Go-based loader that utilizes DLL sideloading to infect systems. This combination of a loader-as-a-service framework and file inflation represents a sophisticated evolution in threat actor methodology.",
+      "date": "2026-07-07T22:00:21.000Z",
+      "link": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/",
+      "isTopTen": false
+    },
+    {
+      "id": "2fd4a678-aeec-439d-abee-ee44d72664e6",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Spain arrests suspected hacker linked to Russian hacktivist campaign",
+      "summary": "Spanish authorities have arrested a suspected hacker allegedly involved in cyberattacks orchestrated by the Russian hacktivist groups Cyber Army of Russia Reborn and NoName. The individual is currently being investigated for their role in these hostile campaigns.",
+      "date": "2026-07-07T21:57:05.000Z",
+      "link": "https://cyberscoop.com/spain-arrests-alleged-cyber-army-of-russia-reborn-member/",
+      "isTopTen": false
+    },
+    {
+      "id": "210f9f66-afa4-4f68-801e-f9a5ebf19159",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Gitea Docker Bug Under Active Exploitation Exposes Repositories and Secrets",
+      "summary": "Attackers are actively exploiting a critical authentication bypass vulnerability (CVE-2026-20896) in Gitea Docker images that allows unauthorized access to sensitive repositories and secrets. Users are urged to upgrade to version 1.26.3 or later to remediate the flaw.",
+      "date": "2026-07-07T21:16:29.000Z",
+      "link": "https://securityaffairs.com/194902/hacking/critical-gitea-docker-bug-under-active-exploitation-exposes-repositories-and-secrets.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b1961493-df77-4e37-afec-adb88d89cb6c",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Critical",
+      "title": "Deepfake CSAM lawsuit against xAI, Grok expands",
+      "summary": "A lawsuit involving the generation of non-consensual deepfake sexual images of minors using xAI's Grok and Stability AI has expanded to include additional victims and defendants. The case highlights the legal and ethical challenges surrounding generative AI tools and child safety.",
+      "date": "2026-07-07T20:17:55.000Z",
+      "link": "https://cyberscoop.com/deepfake-csam-lawsuit-grok-xai-expands-stability-ai/",
+      "isTopTen": false
+    },
     {
       "id": "be29639c-0b85-4ff0-b8ca-0a2597825542",
       "source": "The Register",
@@ -32,7 +76,7 @@
       "summary": "A new cloud-based worm dubbed CAI is infecting environments not only to steal credentials and mine cryptocurrency but also to actively remove competing malware from the compromised systems. This behavior highlights an emerging trend of malicious actors sabotaging one another to maximize their control over infected infrastructure.",
       "date": "2026-07-07T17:15:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/07/07/cai-cloud-worm-gives-competitors-malware-the-boot-then-steals-secrets-and-mines-for-coin/5267856",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "71dfecbc-27c6-4202-ad61-768af20fd92e",
@@ -219,7 +263,7 @@
       "summary": "Enterprises are experiencing a high frequency of security incidents and vulnerabilities as a result of rapidly adopting artificial intelligence without adequate security considerations. A majority of organizations surveyed report issues directly stemming from their AI deployments.",
       "date": "2026-07-07T13:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/07/enterprise-ai-still-smarting-from-leaping-before-looking/5267353",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d6ee918d-ed23-4cc8-a6ac-07ab432d4541",
@@ -241,7 +285,7 @@
       "summary": "Attackers are actively exploiting a critical vulnerability in Adobe ColdFusion (CVE-2026-48282) shortly after technical analysis was published. Honeypot sensors detected exploitation attempts just two days after Adobe released the patch.",
       "date": "2026-07-07T12:03:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/07/adobe-coldfusion-cve-2026-48282-exploitation-detected/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e7ce0233-49be-41e6-bf74-05dd247c936d",
@@ -494,7 +538,7 @@
       "summary": "Attackers exploited a governance mechanism in BonkDAO to fraudulently approve a proposal that transferred $20 million worth of BONK cryptocurrency to their wallets. This incident highlights a significant vulnerability in decentralized governance structures.",
       "date": "2026-07-06T20:35:00.000Z",
       "link": "https://therecord.media/attackers-vote-themselves-20-million-bonk-crypto",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b984ecb0-2f73-48c6-a978-88ee066dd6e3",
@@ -747,7 +791,7 @@
       "summary": "Generative AI is enabling the rapid creation of sophisticated fraudulent documents, necessitating stricter verification protocols for file integrity and provenance. Security teams must move beyond visual inspection to automated validation methods to combat this evolving threat.",
       "date": "2026-07-06T10:28:11.000Z",
       "link": "https://hackread.com/ai-forge-documents-minutes-looks-right-not-enough/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f5f3144-f68c-4358-9447-933b06e034ce",
@@ -5455,50 +5499,6 @@
       "summary": "Omada has launched Omada Identity Sovereign to help regulated European organizations meet strict digital sovereignty and compliance requirements for identity governance. The solution is designed to align with evolving regulatory frameworks like DORA and NIS2.",
       "date": "2026-06-23T09:25:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/23/omada-identity-sovereign-targets-europes-growing-digital-sovereignty-demands/",
-      "isTopTen": false
-    },
-    {
-      "id": "740738a7-99a5-4245-b685-6705e2baa955",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Hack The Box adds crisis simulations and SOC training to strengthen cyber readiness",
-      "summary": "Hack The Box has expanded its platform with new SOC training, crisis simulations, and AI-driven tools to help organizations improve cybersecurity team readiness and operational resilience. These additions aim to help security leaders identify skill gaps and better prepare for evolving AI-based cyber threats.",
-      "date": "2026-06-23T09:15:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/hack-the-box-expands-cyber-readiness-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "97eae5f4-c89e-4b13-81d5-595b8799f72d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Mavenir turns NOC knowledge into automation for autonomous networks",
-      "summary": "Mavenir has launched an Agentic Service Assurance Framework designed to automate complex network operations across 5G and cloud-native environments using a multi-agent AI system. The platform aims to streamline fault detection and resolution without requiring the replacement of existing infrastructure.",
-      "date": "2026-06-23T09:05:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/mavenir-turns-noc-knowledge-into-automation-for-autonomous-networks/",
-      "isTopTen": false
-    },
-    {
-      "id": "fed2efd7-cdb5-49e7-a53e-0937930ae583",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
-      "summary": "Researchers discovered malicious npm packages masquerading as PostCSS tools to infect Windows systems with a remote access trojan. The packages were recently published and have recorded several hundred downloads.",
-      "date": "2026-06-23T08:54:32.000Z",
-      "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
-      "isTopTen": false
-    },
-    {
-      "id": "843426db-7422-477f-b531-813978fcaf4d",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "OpenAI wants AI to fix vulnerabilities, not just find them",
-      "summary": "OpenAI has expanded its Daybreak initiative to integrate AI models and security tools designed to not only identify software vulnerabilities but also facilitate their automated remediation. This effort aims to alleviate industry pressure by streamlining the patching process for developers and security teams.",
-      "date": "2026-06-23T08:49:01.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/openai-expanded-daybreak-cybersecurity-initiative/",
       "isTopTen": false
     }
   ]
