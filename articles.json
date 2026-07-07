@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-07T17:23:53.576Z",
+  "lastUpdated": "2026-07-07T20:04:07.362Z",
   "articles": [
+    {
+      "id": "be29639c-0b85-4ff0-b8ca-0a2597825542",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "GitHub AI agent leaks private repos when asked nicely",
+      "summary": "A security vulnerability nicknamed GitLost in a GitHub AI agent allows unauthorized users to access private repositories through simple prompt injection techniques. Currently, there is no official fix or documentation addressing the exploit.",
+      "date": "2026-07-07T19:49:01.000Z",
+      "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
+      "isTopTen": true
+    },
+    {
+      "id": "14cd1679-678b-4959-8de4-4b0eb5bccbef",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Spanish Police Arrest Man Linked to CARR, Z-Pentest, and NoName057(16)",
+      "summary": "Spanish police, in collaboration with the FBI, arrested a suspect in Palencia for providing coordination and financial support to pro-Russian hacking groups including CARR, Z-Pentest, and NoName057(16). The individual faces charges related to terrorism and cyberattacks.",
+      "date": "2026-07-07T18:36:55.000Z",
+      "link": "https://securityaffairs.com/194894/hacktivism/spanish-police-arrest-man-linked-to-carr-z-pentest-and-noname05716.html",
+      "isTopTen": false
+    },
     {
       "id": "0af502c0-2341-4ad2-93bf-46bb3cc91dc5",
       "source": "The Register",
@@ -13,6 +35,17 @@
       "isTopTen": true
     },
     {
+      "id": "71dfecbc-27c6-4202-ad61-768af20fd92e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+      "summary": "The RedWing Android banking malware is being distributed as a Malware-as-a-Service (MaaS) subscription on Telegram, enabling low-skill threat actors to steal banking credentials and intercept 2FA codes. Researchers believe this operation is a new variant of the previously identified Oblivion malware.",
+      "date": "2026-07-07T17:10:15.000Z",
+      "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+      "isTopTen": false
+    },
+    {
       "id": "46d4f000-7f80-4ef3-8f87-6c9831bd2f53",
       "source": "HackRead",
       "tag": "Laws, Policy, Regulations",
@@ -21,6 +54,17 @@
       "summary": "Vietnamese authorities, in collaboration with US law enforcement and the Alliance for Creativity and Entertainment, arrested seven individuals linked to the operation of the major anime piracy platform HiAnime, which generated $12.85 million in advertising revenue.",
       "date": "2026-07-07T16:45:42.000Z",
       "link": "https://hackread.com/7-arrested-top-anime-piracy-site-hianime/",
+      "isTopTen": false
+    },
+    {
+      "id": "574dbe88-82b9-4f1d-8b01-0d9711bc8184",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+      "summary": "A critical vulnerability in Google Dialogflow CX allowed attackers with restricted access to hijack other chatbots within the same cloud project. This flaw enabled unauthorized access to sensitive user data and the ability to manipulate chatbot responses for phishing purposes.",
+      "date": "2026-07-07T16:37:33.000Z",
+      "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
       "isTopTen": false
     },
     {
@@ -164,7 +208,7 @@
       "summary": "Noma Labs identified a prompt injection vulnerability called GitLost that allowed unauthorized access to private GitHub repository data by exploiting the platform's AI agent and insufficient guardrails. This flaw demonstrates a significant security risk where manipulated public interactions can bypass access controls for sensitive information.",
       "date": "2026-07-07T13:00:20.000Z",
       "link": "https://hackread.com/gitlost-github-ai-agent-leaking-repository-data/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7e6685dc-2aad-45f8-bdd5-5c822de25d5b",
@@ -175,7 +219,7 @@
       "summary": "Enterprises are experiencing a high frequency of security incidents and vulnerabilities as a result of rapidly adopting artificial intelligence without adequate security considerations. A majority of organizations surveyed report issues directly stemming from their AI deployments.",
       "date": "2026-07-07T13:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/07/enterprise-ai-still-smarting-from-leaping-before-looking/5267353",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d6ee918d-ed23-4cc8-a6ac-07ab432d4541",
@@ -461,7 +505,7 @@
       "summary": "A critical path traversal vulnerability in Adobe ColdFusion, tracked as CVE-2026-48282, is being actively exploited in the wild to achieve unauthenticated remote code execution. The flaw affects versions 2025.9, 2023.20, and earlier.",
       "date": "2026-07-06T19:53:10.000Z",
       "link": "https://securityaffairs.com/194837/hacking/adobe-coldfusion-flaw-cve-2026-48282-now-exploited-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cc8cf6a3-3dcc-4e92-95ca-7b30191b8317",
@@ -703,7 +747,7 @@
       "summary": "Generative AI is enabling the rapid creation of sophisticated fraudulent documents, necessitating stricter verification protocols for file integrity and provenance. Security teams must move beyond visual inspection to automated validation methods to combat this evolving threat.",
       "date": "2026-07-06T10:28:11.000Z",
       "link": "https://hackread.com/ai-forge-documents-minutes-looks-right-not-enough/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f5f3144-f68c-4358-9447-933b06e034ce",
@@ -758,7 +802,7 @@
       "summary": "A critical Linux kernel vulnerability named Bad Epoll (CVE-2026-46242) allows local, unprivileged attackers to gain full root access on Linux systems and Android devices. The flaw, which evaded AI detection, requires immediate patching.",
       "date": "2026-07-06T08:24:22.000Z",
       "link": "https://securityaffairs.com/194795/hacking/bad-epoll-flaw-gives-attackers-root-access-on-linux-and-android.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "711d3be2-4e80-48b1-b37a-b3751aa177b7",
@@ -5455,50 +5499,6 @@
       "summary": "OpenAI has expanded its Daybreak initiative to integrate AI models and security tools designed to not only identify software vulnerabilities but also facilitate their automated remediation. This effort aims to alleviate industry pressure by streamlining the patching process for developers and security teams.",
       "date": "2026-06-23T08:49:01.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/23/openai-expanded-daybreak-cybersecurity-initiative/",
-      "isTopTen": false
-    },
-    {
-      "id": "bb575fc1-b067-48cf-9885-5517a19c2484",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "F5 launches AI Security Platform to uncover and secure shadow AI",
-      "summary": "F5 has launched an AI Security Platform to provide visibility and governance for enterprise AI deployments, bolstered by the acquisition of SurePath AI. The platform aims to mitigate risks associated with shadow AI by continuously monitoring and protecting AI models, agents, and their connecting APIs.",
-      "date": "2026-06-23T08:47:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/f5-launches-ai-security-platform-to-uncover-and-secure-shadow-ai/",
-      "isTopTen": false
-    },
-    {
-      "id": "041d44d2-5a26-4b7e-ae72-3e2103fbe3bb",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Phishing hides in routine Microsoft 365 workflows",
-      "summary": "Attackers are exploiting Microsoft 365 collaboration tools and Outlook Groups to disguise phishing attempts as routine, trusted productivity workflows. This technique bypasses traditional security filters by embedding malicious actions within legitimate-looking notifications.",
-      "date": "2026-06-23T08:26:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/microsoft-365-collaboration-features-phishing/",
-      "isTopTen": false
-    },
-    {
-      "id": "76eaffc0-3665-4b36-83fd-a3b66d73426f",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShapedPlugin Supply Chain Attack Backdoors Pro Plugin Updates",
-      "summary": "Attackers compromised the software supply chain of ShapedPlugin to inject backdoors into plugin updates, allowing for credential theft and unauthorized site access. Users who updated these plugins between April and June 2026 are at risk of a full system compromise.",
-      "date": "2026-06-23T08:22:12.000Z",
-      "link": "https://securityaffairs.com/194059/hacking/shapedplugin-supply-chain-attack-backdoors-pro-plugin-updates.html",
-      "isTopTen": false
-    },
-    {
-      "id": "da153378-1fae-4027-9c0b-e9208cf8740f",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Squidbleed: 29-Year-Old Squid Bug Leaks User Credentials",
-      "summary": "Researchers discovered a long-standing memory leak vulnerability in Squid Proxy, dubbed Squidbleed, that has existed since 1997 and allows for the exposure of sensitive user credentials and HTTP data. The flaw is identified as CVE-2026-47729.",
-      "date": "2026-06-23T07:09:42.000Z",
-      "link": "https://securityaffairs.com/194041/hacking/squidbleed-29-year-old-squid-bug-leaks-user-credentials.html",
       "isTopTen": false
     }
   ]
