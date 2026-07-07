@@ -1,6 +1,149 @@
 {
-  "lastUpdated": "2026-07-07T03:51:22.376Z",
+  "lastUpdated": "2026-07-07T09:54:00.391Z",
   "articles": [
+    {
+      "id": "c208fe01-e30e-49d0-8e7f-ec095881352c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "summary": "Suspected China-aligned threat actors are exploiting critical vulnerabilities in Roundcube webmail software to target U.S. and Canadian university departments. The campaign focuses on siphoning credentials by leveraging security flaws like CVE-2024-42009.",
+      "date": "2026-07-07T09:10:51.000Z",
+      "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "isTopTen": true
+    },
+    {
+      "id": "3ab515bc-3659-4b7a-add6-93e45e8f83f3",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities",
+      "summary": "A suspected Chinese espionage group is actively exploiting a chain of vulnerabilities in Roundcube webmail to target university physics and engineering departments. Researchers warn that the campaign remains ongoing and poses a significant risk to academic institutions.",
+      "date": "2026-07-07T09:00:00.000Z",
+      "link": "https://cyberscoop.com/china-espionage-attacks-us-canada-universities-proofpoint/",
+      "isTopTen": false
+    },
+    {
+      "id": "786200ba-d2d1-4789-85bb-e693bfc20fa7",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "AI-Generated Malware Powers New Armored Likho APT Campaign",
+      "summary": "The newly identified APT group Armored Likho is targeting government and infrastructure sectors in Russia, Kazakhstan, and Brazil using AI-generated malware and the BusySnake Stealer. The campaign exhibits a dual focus on both state-sponsored espionage and financial theft.",
+      "date": "2026-07-07T08:28:02.000Z",
+      "link": "https://securityaffairs.com/194854/apt/ai-generated-malware-powers-new-armored-likho-apt-campaign.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a069594a-43ab-43a8-be3d-dcc4ff643a94",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Januscape: 16-Year-Old Linux KVM Bug Enables Cloud VM Escape Attacks",
+      "summary": "A 16-year-old use-after-free vulnerability in the Linux KVM hypervisor, dubbed Januscape, allows guest virtual machines to corrupt host kernel memory and potentially perform escape attacks. The flaw impacts both Intel and AMD systems.",
+      "date": "2026-07-07T07:07:10.000Z",
+      "link": "https://securityaffairs.com/194868/security/januscape-16-year-old-linux-kvm-bug-enables-cloud-vm-escape-attacks.html",
+      "isTopTen": true
+    },
+    {
+      "id": "23ad90e5-ef59-471b-bc2d-28444d217892",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "summary": "CERT/CC has issued an advisory regarding an undocumented authentication backdoor in Tenda router firmware that allows attackers to bypass password verification. This vulnerability, tracked as CVE-2026-11405, grants unauthorized administrative access to the web management interface of affected devices.",
+      "date": "2026-07-07T06:40:47.000Z",
+      "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "isTopTen": false
+    },
+    {
+      "id": "048018f7-4b4e-4c3f-8135-e12dc5d7e595",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Researchers make the case for a cybersecurity AI scientist",
+      "summary": "Researchers from the Chinese Academy of Sciences are proposing a 'Cybersecurity AI Scientist' to automate security research, aiming to move beyond manual experimentation and address the scarcity of human expertise. This initiative seeks to apply autonomous AI agents to scientific discovery, mirroring their emerging success in practical penetration testing and vulnerability analysis.",
+      "date": "2026-07-07T06:30:18.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/07/cybersecurity-ai-scientist-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "9fc9eefb-4b0c-4bc0-aedc-d560f170db1a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Review: Building Machine Learning Systems with a Feature Store",
+      "summary": "This article reviews Jim Dowling's book on building machine learning systems using feature stores, focusing on transitioning models from static datasets to real-time production environments. It highlights practical strategies for deploying robust, data-driven machine learning infrastructure.",
+      "date": "2026-07-07T06:00:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/07/review-building-machine-learning-systems-with-a-feature-store/",
+      "isTopTen": false
+    },
+    {
+      "id": "de159c5b-c2ee-433f-97b4-dd7079553943",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Your company already adopted AI and nobody is governing access",
+      "summary": "The rapid and unmonitored adoption of AI tools in the workplace is creating significant security risks, including unauthorized OAuth access and inherited permissions that lack corporate governance. CTO Antoine Berton warns that these shadow AI integrations expand the enterprise attack surface beyond current IT oversight.",
+      "date": "2026-07-07T05:30:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/07/ai-attack-surface-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "67e0797d-5d14-4701-b6ec-8fb3e61c4d5f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+      "summary": "BeyondTrust has released critical security patches for Remote Support and Privileged Remote Access to mitigate authentication bypass vulnerabilities that could allow unauthenticated attackers to gain control of affected devices.",
+      "date": "2026-07-07T05:16:51.000Z",
+      "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3803af3a-1fea-4b22-a359-0da36afb1a41",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Apple Container: Open-source tool for Linux containers on the Mac",
+      "summary": "Apple has released an open-source tool called Container that allows developers to run Linux containers on Apple silicon Macs using individual, lightweight virtual machines. The tool is compatible with standard OCI images, enabling seamless integration with existing container registries.",
+      "date": "2026-07-07T05:00:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/07/apple-container-open-source-linux-mac/",
+      "isTopTen": false
+    },
+    {
+      "id": "10cc03de-eca9-4454-aee5-65c113f285f8",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft wants to keep your AI agents from going rogue",
+      "summary": "Microsoft has introduced Microsoft Execution Containers (MXC) to provide a policy-driven security layer that restricts AI agent behavior and prevents them from performing unauthorized actions. This new tool simplifies the implementation of isolation controls for developers by enforcing runtime constraints on Windows and WSL.",
+      "date": "2026-07-07T04:45:37.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/07/microsoft-execution-containers-ai-agents-constraints/",
+      "isTopTen": false
+    },
+    {
+      "id": "f5323f41-1e81-4466-b50f-1247bc48c981",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Power shortages could slow AI data center expansion",
+      "summary": "AI data center expansion is increasingly constrained by power shortages and infrastructure limitations, making electricity access a primary factor in project development. This operational bottleneck is impacting how quickly new AI capacity can be deployed globally.",
+      "date": "2026-07-07T04:30:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/07/ai-data-centers-demand-expansion/",
+      "isTopTen": false
+    },
+    {
+      "id": "38031137-10b9-44a4-99d2-06542174e997",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cybersecurity jobs available right now: July 7, 2026",
+      "summary": "Help Net Security lists current job openings for cybersecurity professionals, including roles in application security and analysis for companies like Gett and Cynet Security.",
+      "date": "2026-07-07T04:00:21.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/07/cybersecurity-jobs-available-right-now-july-7-2026/",
+      "isTopTen": false
+    },
     {
       "id": "61384ab3-90c6-409f-b151-c7b95bc9a045",
       "source": "HackRead",
@@ -32,7 +175,7 @@
       "summary": "Attackers exploited a governance mechanism in BonkDAO to fraudulently approve a proposal that transferred $20 million worth of BONK cryptocurrency to their wallets. This incident highlights a significant vulnerability in decentralized governance structures.",
       "date": "2026-07-06T20:35:00.000Z",
       "link": "https://therecord.media/attackers-vote-themselves-20-million-bonk-crypto",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b984ecb0-2f73-48c6-a978-88ee066dd6e3",
@@ -43,7 +186,7 @@
       "summary": "A critical path traversal vulnerability in Adobe ColdFusion, tracked as CVE-2026-48282, is being actively exploited in the wild to achieve unauthenticated remote code execution. The flaw affects versions 2025.9, 2023.20, and earlier.",
       "date": "2026-07-06T19:53:10.000Z",
       "link": "https://securityaffairs.com/194837/hacking/adobe-coldfusion-flaw-cve-2026-48282-now-exploited-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cc8cf6a3-3dcc-4e92-95ca-7b30191b8317",
@@ -65,7 +208,7 @@
       "summary": "A major medical device manufacturer suffered a data breach affecting nearly 4 million individuals, resulting in the unauthorized access of sensitive data such as Social Security numbers and health information. Although the company reported no evidence of data exposure on the public internet, the incident remains a significant compromise of protected personal health information.",
       "date": "2026-07-06T18:03:00.000Z",
       "link": "https://therecord.media/medical-device-maker-notifies-nearly-4-million-of-breach",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9b023eb7-9f97-47e2-ade5-9ef0ea0dac94",
@@ -87,7 +230,7 @@
       "summary": "A 16-year-old use-after-free vulnerability, dubbed 'Januscape' (CVE-2026-53359), in the Linux KVM hypervisor allows guest virtual machines to compromise the host kernel on Intel and AMD systems. The flaw resides in the shared shadow MMU code and is capable of causing host system panics.",
       "date": "2026-07-06T17:37:01.000Z",
       "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "01122cd0-a00a-457a-9ab2-c3ce08ca900e",
@@ -98,7 +241,7 @@
       "summary": "EU officials and campaigners are calling for immediate regulatory action following the discovery of Pegasus spyware on the device of a member of the European Parliament. The incident highlights ongoing security concerns regarding surveillance technology and underscores the need to implement recommendations from the PEGA Committee.",
       "date": "2026-07-06T17:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/06/eus-latest-spyware-scandal-prompts-calls-for-urgent-action/5267054",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bfee09d2-dcf1-4b87-98ba-23498d98d435",
@@ -131,7 +274,7 @@
       "summary": "Security researchers have identified the first documented instance of an AI-driven agentic ransomware attack, which enabled attackers to accelerate their operations and reduce the complexity of the exploit. This marks a notable evolution in how threat actors utilize autonomous AI agents to conduct malicious campaigns.",
       "date": "2026-07-06T15:17:37.000Z",
       "link": "https://cyberscoop.com/sysdig-judepuffer-ai-agentic-ransomware-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f4943f0a-2a33-4ba7-887d-df7f08fde9ba",
@@ -197,7 +340,7 @@
       "summary": "Researchers have identified active campaigns using indirect prompt injection to manipulate AI agents into executing unauthorized financial transactions. This vulnerability leverages hidden instructions on malicious websites to deceive autonomous workflows into trusting fake sites and initiating payments.",
       "date": "2026-07-06T13:03:25.000Z",
       "link": "https://securityaffairs.com/194822/ai/hidden-web-prompts-trick-ai-agents-into-sending-money.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "79dfbb5f-3bb2-4eab-8947-43d0b8887a5d",
@@ -527,7 +670,7 @@
       "summary": "A U.S. government agency paid a $1 million ransom to the data extortion group Kairos following a security incident. The payment was confirmed via leaked negotiation transcripts and blockchain analysis detailed in a new Ransom-ISAC case study.",
       "date": "2026-07-04T16:53:35.000Z",
       "link": "https://securityaffairs.com/194750/security/u-s-government-agency-paid-1m-to-data-extortion-group-kairos.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f8839d57-0f6a-4ae9-940c-9a39f89d0f45",
@@ -560,7 +703,7 @@
       "summary": "North Korean threat actors are actively distributing 108 malicious packages and extensions across multiple platforms as part of the ongoing PolinRider campaign. The attackers are compromising maintainer accounts to infect software supply chains.",
       "date": "2026-07-04T11:17:24.000Z",
       "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "442af526-e8f6-40dc-9c74-2a6e944ac816",
@@ -714,7 +857,7 @@
       "summary": "Sysdig researchers have identified JADEPUFFER, the first documented ransomware operation conducted entirely by an AI agent using an LLM to perform end-to-end attack steps. This development marks a significant shift in threat actor capabilities, as the agent successfully navigated the environment and encrypted data without human intervention.",
       "date": "2026-07-03T11:29:03.000Z",
       "link": "https://securityaffairs.com/194713/ai/jadepuffer-first-end-to-end-ai-driven-ransomware-operation.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "49fa02dd-60e9-4b90-b144-f40fccc0a029",
@@ -5356,149 +5499,6 @@
       "summary": "A 29-year-old heap over-read vulnerability dubbed 'Squidbleed' allows local attackers to intercept cleartext HTTP requests, including sensitive credentials, from other users on the same Squid proxy. The flaw, originating from a 1997 code change, remains present in default configurations.",
       "date": "2026-06-22T14:29:46.000Z",
       "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6c2575d3-21ff-4897-910d-d9dab527a89a",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Canadian utility fesses up to data breach, but key details remain off-grid",
-      "summary": "London Hydro has confirmed a data breach potentially compromising customer names, addresses, and account details, though specific details regarding the incident remain undisclosed. The utility company is currently investigating the scope and nature of the intrusion.",
-      "date": "2026-06-22T14:24:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/22/canadian-utility-fesses-up-to-data-breach-but-key-details-remain-off-grid/5259309",
-      "isTopTen": false
-    },
-    {
-      "id": "92f771ec-60c1-42a1-b785-1397e3ec9b10",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Threat Hunting Beyond Alerts: Finding the Activity Detection Misses",
-      "summary": "This article explores proactive threat hunting strategies designed to uncover malicious activity that automated security alerts and traditional detection systems often fail to identify.",
-      "date": "2026-06-22T14:20:08.000Z",
-      "link": "https://hackread.com/threat-hunting-alerts-finding-activity-detection-misses/",
-      "isTopTen": false
-    },
-    {
-      "id": "6ac29a38-3aab-49c7-a7d0-38807f0a9b45",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Suspected cyberattack triggers false emergency alerts across parts of Brazil",
-      "summary": "Unauthorized actors compromised Brazil's Civil Defense Alert system, resulting in the dissemination of false emergency notifications to the public. The incident highlights a security breach within a critical national infrastructure platform.",
-      "date": "2026-06-22T14:10:00.000Z",
-      "link": "https://therecord.media/suspected-cyberattack-triggers-false-emergency-alerts-brazil",
-      "isTopTen": false
-    },
-    {
-      "id": "942079ae-02b8-413c-acac-64ad715aedd6",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
-      "summary": "The emergence of an underground market allows attackers to outsource the time-consuming process of searching large credential dumps for specific target data. This service lowers the barrier to entry for cybercriminals looking to acquire actionable intelligence on specific organizations.",
-      "date": "2026-06-22T14:05:15.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-      "isTopTen": false
-    },
-    {
-      "id": "0baca390-19ad-4b13-80b0-4e8e22c77806",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Anthropic’s Mythos AI broke into almost all NSA classified systems in hours",
-      "summary": "The Trump administration has ordered Anthropic to restrict access to its most powerful AI models, Mythos 5 and Fable 5, to U.S. citizens following allegations that the systems successfully breached NSA and Cyber Command networks. The move highlights the challenges of enforcing strict nationality-based access controls on rapidly evolving AI technologies.",
-      "date": "2026-06-22T13:50:27.000Z",
-      "link": "https://securityaffairs.com/194016/ai/anthropics-mythos-ai-broke-into-almost-all-nsa-classified-systems-in-hours.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2912b223-458e-43c6-916a-45ecc6da7554",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
-      "summary": "Cybersecurity researchers have identified a new malware loader called OXLOADER that uses malicious Google Ads to distribute the CastleStealer infostealer. The campaign is attributed to a likely Russian-speaking, financially motivated threat actor.",
-      "date": "2026-06-22T13:20:12.000Z",
-      "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-      "isTopTen": false
-    },
-    {
-      "id": "84d7f048-16ce-408e-b1e3-e5cd1cfd5753",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Brazil probes emergency warning system after nationwide rogue alert",
-      "summary": "Brazilian authorities are investigating a security failure in the national emergency warning system that caused devices across the country to display the unauthorized word 'misanthropy'. The incident highlights a potential vulnerability in the country's public alert infrastructure.",
-      "date": "2026-06-22T12:49:58.000Z",
-      "link": "https://www.theregister.com/security/2026/06/22/brazil-begins-investigating-emergency-alert-system-breach/5259421",
-      "isTopTen": false
-    },
-    {
-      "id": "2a80dbf3-ac3f-41d6-b3d8-d87c4458cd58",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Scammers Use Fake GitHub Stars, VirusTotal Reviews to Spread Crypto Clipper",
-      "summary": "Cybercriminals are distributing a multi-platform crypto clipper malware by manipulating social proof metrics like fake GitHub stars and VirusTotal reviews to deceive Windows and Mac users. The malicious campaign embeds over 15,000 attacker-controlled wallets to facilitate the theft of cryptocurrency.",
-      "date": "2026-06-22T12:47:25.000Z",
-      "link": "https://hackread.com/scammers-fake-github-virustotal-crypto-clipper/",
-      "isTopTen": false
-    },
-    {
-      "id": "d6c79d54-65ff-46d4-8278-d8c02bba6161",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
-      "summary": "Google will begin enforcing mandatory developer identity verification for Android apps in Brazil, Indonesia, Singapore, and Thailand starting September 30, 2026. Apps from unverified developers will be blocked from installation on certified devices in these regions.",
-      "date": "2026-06-22T12:45:08.000Z",
-      "link": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2ca03cd0-ea02-49ce-918d-812c01cc7139",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
-      "summary": "Security researchers are warning that attackers are bypassing modern AI security protocols by exploiting vulnerabilities within outdated legacy infrastructure. This emerging attack vector allows threat actors to hijack AI agents, highlighting a critical gap in current organizational security programs.",
-      "date": "2026-06-22T11:58:00.000Z",
-      "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
-      "isTopTen": false
-    },
-    {
-      "id": "acf3b33f-0f8c-4277-9a8b-70be09ccda2d",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Health board apologizes for phishing staff with with bogus vacation day",
-      "summary": "A Canadian health board issued an apology after conducting a phishing simulation that used a fake offer of extra vacation time to test employees. The incident drew criticism for exploiting the stress of medical workers during a sensitive period.",
-      "date": "2026-06-22T11:27:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/22/canadian-health-board-sorry-after-tasteless-phishing-test/5259320",
-      "isTopTen": false
-    },
-    {
-      "id": "a8e92438-8fba-4d8d-ad00-87e3b12ab60e",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Salesforce Disables Klue Integration After OAuth Token Theft Hits Customer Data",
-      "summary": "The Icarus extortion group exploited a legacy Klue credential to perform an OAuth token theft, resulting in unauthorized access to Salesforce data. In response, Salesforce has disabled the Klue integration to prevent further exfiltration.",
-      "date": "2026-06-22T11:00:33.000Z",
-      "link": "https://hackread.com/salesforce-disables-klue-integration-oauth-token-data/",
-      "isTopTen": false
-    },
-    {
-      "id": "1b7f57e7-3577-4717-9eb2-a8234d6de772",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
-      "summary": "This weekly recap highlights a persistent landscape of cyber threats, including browser exploits, EDR evasion techniques, and mobile malware targeting users through deceptive downloads and weak security hygiene.",
-      "date": "2026-06-22T10:55:10.000Z",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
       "isTopTen": false
     }
   ]
