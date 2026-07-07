@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-07-07T14:51:54.160Z",
+  "lastUpdated": "2026-07-07T17:23:53.576Z",
   "articles": [
+    {
+      "id": "0af502c0-2341-4ad2-93bf-46bb3cc91dc5",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CAI cloud worm gives competitors' malware the boot, then steals secrets and mines for coin",
+      "summary": "A new cloud-based worm dubbed CAI is infecting environments not only to steal credentials and mine cryptocurrency but also to actively remove competing malware from the compromised systems. This behavior highlights an emerging trend of malicious actors sabotaging one another to maximize their control over infected infrastructure.",
+      "date": "2026-07-07T17:15:00.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/07/07/cai-cloud-worm-gives-competitors-malware-the-boot-then-steals-secrets-and-mines-for-coin/5267856",
+      "isTopTen": true
+    },
+    {
+      "id": "46d4f000-7f80-4ef3-8f87-6c9831bd2f53",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "7 Arrested Over World’s Top Anime Piracy Site HiAnime",
+      "summary": "Vietnamese authorities, in collaboration with US law enforcement and the Alliance for Creativity and Entertainment, arrested seven individuals linked to the operation of the major anime piracy platform HiAnime, which generated $12.85 million in advertising revenue.",
+      "date": "2026-07-07T16:45:42.000Z",
+      "link": "https://hackread.com/7-arrested-top-anime-piracy-site-hianime/",
+      "isTopTen": false
+    },
+    {
+      "id": "fad3aeb0-f385-477b-aaee-8b98d0f5e1f8",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Supreme Court allows Texas app law requiring age verification to take effect",
+      "summary": "The U.S. Supreme Court has permitted the Texas App Store Accountability Act to take effect, allowing the state to enforce age verification requirements on app stores. This decision denies an emergency request to stay the law while ongoing legal challenges proceed in lower courts.",
+      "date": "2026-07-07T16:05:00.000Z",
+      "link": "https://therecord.media/supreme-court-allows-texas-app-law-age-verification-to-take-effect",
+      "isTopTen": false
+    },
+    {
+      "id": "570a9670-487f-48d0-a626-09a3c9dc92b2",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Predatorgate snoopfest victims launch €8M sueball at spyware maker",
+      "summary": "Victims of the 'Predator' spyware have initiated an €8 million lawsuit against the spyware developer in Greece. This legal action coincides with increased pressure from human rights organizations for the EU to implement stricter regulations against spyware abuse.",
+      "date": "2026-07-07T15:59:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/07/predatorgate-victims-launch-8m-sueball-at-spyware-maker/5267766",
+      "isTopTen": false
+    },
+    {
+      "id": "dd8565c4-743c-4dde-b165-3f8b0694ef27",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Britain plans to build autonomous AI 'Cyber Shield' to defend nation",
+      "summary": "The British government is developing an autonomous 'Cyber Shield' to combat large-scale, machine-speed cyber threats identified by the National Cyber Security Centre. This initiative aims to enhance national defense by enabling automated detection and rapid response to sophisticated digital attacks.",
+      "date": "2026-07-07T15:31:00.000Z",
+      "link": "https://therecord.media/britain-plans-autonomous-ai-cyber-shield",
+      "isTopTen": false
+    },
+    {
+      "id": "53e31f8a-cfc7-4685-be32-aee83f935d96",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+      "summary": "The DEBULL phishing campaign exploits the legitimate Microsoft 365 device-code authentication flow by using social engineering lures to hijack user accounts. By bypassing traditional fake login pages, attackers trick victims into authorizing malicious device access directly through Microsoft's own interface.",
+      "date": "2026-07-07T15:14:14.000Z",
+      "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "isTopTen": true
+    },
+    {
+      "id": "3bcccc69-0d5b-468e-9669-68859ff6f95d",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Major Japanese telco says cyberattack exposed 12 million emails",
+      "summary": "A major Japanese telecommunications company reported a cyberattack that exposed 12 million emails across five of its internet service providers. The breach compromised systems managing customer accounts, webmail services, and email storage.",
+      "date": "2026-07-07T14:45:00.000Z",
+      "link": "https://therecord.media/major-japanese-telco-cyberattack-12-million-emails",
+      "isTopTen": false
+    },
+    {
+      "id": "f15ab1f2-8c99-4ebc-b58f-7cdd744ac7ca",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+      "summary": "Researchers discovered a vulnerability where malicious actors can manipulate GitHub Agentic Workflows via public issues to exfiltrate data from an organization's private repositories. The attack requires no authentication or prior access, exploiting overly permissive agent configurations.",
+      "date": "2026-07-07T14:04:50.000Z",
+      "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "isTopTen": false
+    },
     {
       "id": "989f4725-217f-4b56-ae6a-4d600cf639d4",
       "source": "Help Net Security",
@@ -76,7 +164,7 @@
       "summary": "Noma Labs identified a prompt injection vulnerability called GitLost that allowed unauthorized access to private GitHub repository data by exploiting the platform's AI agent and insufficient guardrails. This flaw demonstrates a significant security risk where manipulated public interactions can bypass access controls for sensitive information.",
       "date": "2026-07-07T13:00:20.000Z",
       "link": "https://hackread.com/gitlost-github-ai-agent-leaking-repository-data/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7e6685dc-2aad-45f8-bdd5-5c822de25d5b",
@@ -109,7 +197,7 @@
       "summary": "Attackers are actively exploiting a critical vulnerability in Adobe ColdFusion (CVE-2026-48282) shortly after technical analysis was published. Honeypot sensors detected exploitation attempts just two days after Adobe released the patch.",
       "date": "2026-07-07T12:03:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/07/adobe-coldfusion-cve-2026-48282-exploitation-detected/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e7ce0233-49be-41e6-bf74-05dd247c936d",
@@ -186,7 +274,7 @@
       "summary": "CERT/CC has issued an alert regarding an unpatched authentication backdoor in multiple Tenda router models that allows attackers to gain full administrative access. There is currently no patch available to remediate this vulnerability, tracked as CVE-2026-11405.",
       "date": "2026-07-07T09:45:42.000Z",
       "link": "https://securityaffairs.com/194878/security/hidden-tenda-router-backdoor-grants-admin-access-no-patch-available.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c208fe01-e30e-49d0-8e7f-ec095881352c",
@@ -197,7 +285,7 @@
       "summary": "Suspected China-aligned threat actors are exploiting critical vulnerabilities in Roundcube webmail software to target U.S. and Canadian university departments. The campaign focuses on siphoning credentials by leveraging security flaws like CVE-2024-42009.",
       "date": "2026-07-07T09:10:51.000Z",
       "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3ab515bc-3659-4b7a-add6-93e45e8f83f3",
@@ -362,7 +450,7 @@
       "summary": "Attackers exploited a governance mechanism in BonkDAO to fraudulently approve a proposal that transferred $20 million worth of BONK cryptocurrency to their wallets. This incident highlights a significant vulnerability in decentralized governance structures.",
       "date": "2026-07-06T20:35:00.000Z",
       "link": "https://therecord.media/attackers-vote-themselves-20-million-bonk-crypto",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b984ecb0-2f73-48c6-a978-88ee066dd6e3",
@@ -373,7 +461,7 @@
       "summary": "A critical path traversal vulnerability in Adobe ColdFusion, tracked as CVE-2026-48282, is being actively exploited in the wild to achieve unauthenticated remote code execution. The flaw affects versions 2025.9, 2023.20, and earlier.",
       "date": "2026-07-06T19:53:10.000Z",
       "link": "https://securityaffairs.com/194837/hacking/adobe-coldfusion-flaw-cve-2026-48282-now-exploited-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cc8cf6a3-3dcc-4e92-95ca-7b30191b8317",
@@ -395,7 +483,7 @@
       "summary": "A major medical device manufacturer suffered a data breach affecting nearly 4 million individuals, resulting in the unauthorized access of sensitive data such as Social Security numbers and health information. Although the company reported no evidence of data exposure on the public internet, the incident remains a significant compromise of protected personal health information.",
       "date": "2026-07-06T18:03:00.000Z",
       "link": "https://therecord.media/medical-device-maker-notifies-nearly-4-million-of-breach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9b023eb7-9f97-47e2-ade5-9ef0ea0dac94",
@@ -659,7 +747,7 @@
       "summary": "Researchers have discovered 'TrojPix,' a technique that exfiltrates data from air-gapped systems by modulating video cable electromagnetic emissions. The method requires prior malware infection on the target machine to manipulate pixel patterns for data transmission.",
       "date": "2026-07-06T08:50:54.000Z",
       "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9b2a0053-453b-4f08-a931-5ceacc802b07",
@@ -5411,94 +5499,6 @@
       "summary": "Researchers discovered a long-standing memory leak vulnerability in Squid Proxy, dubbed Squidbleed, that has existed since 1997 and allows for the exposure of sensitive user credentials and HTTP data. The flaw is identified as CVE-2026-47729.",
       "date": "2026-06-23T07:09:42.000Z",
       "link": "https://securityaffairs.com/194041/hacking/squidbleed-29-year-old-squid-bug-leaks-user-credentials.html",
-      "isTopTen": false
-    },
-    {
-      "id": "971948c4-7662-46d4-aa3a-d4b168190591",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-      "summary": "Attackers are distributing malicious VBScript files via WhatsApp Desktop and Web to install legitimate ManageEngine RMM software, enabling unauthorized remote access. The campaign is currently targeting users across multiple global regions.",
-      "date": "2026-06-23T05:38:40.000Z",
-      "link": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-      "isTopTen": false
-    },
-    {
-      "id": "68ded75c-8343-434a-8452-0d5a799e14f3",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "A $1,400 experiment in AI security auditing outperformed OpenAI’s Codex Security",
-      "summary": "Researchers developed EVOHUNT, a system that utilizes an optimized external playbook to enable AI agents to identify software vulnerabilities more effectively than OpenAI’s commercial Codex model at a significantly lower cost. This highlights the potential for cost-effective, specialized open-source AI tools in automated security auditing.",
-      "date": "2026-06-23T05:30:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/codex-security-ai-security-auditing/",
-      "isTopTen": false
-    },
-    {
-      "id": "9a87a58d-1282-433d-9557-302872a0242b",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Five Eyes spooks warn AI means infosec incidents can become ‘major operational and financial crises’",
-      "summary": "The Five Eyes intelligence alliance has warned that AI-driven cyber threats are escalating, potentially transforming routine security incidents into severe operational and financial crises. Executives are urged to prioritize robust cybersecurity measures to mitigate these emerging risks.",
-      "date": "2026-06-23T05:29:41.000Z",
-      "link": "https://www.theregister.com/security/2026/06/23/five-eyes-spooks-warn-ai-means-infosec-incidents-can-become-major-operational-and-financial-crises/5259916",
-      "isTopTen": false
-    },
-    {
-      "id": "90a906ab-8428-41f6-b194-b35dfe3ee10b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-      "summary": "OpenAI has launched an enhanced version of its GPT-5.5-Cyber model as part of the Daybreak initiative to assist cybersecurity defenders in identifying and patching complex software vulnerabilities. This tool is designed to perform deep code analysis to help secure large codebases.",
-      "date": "2026-06-23T03:56:58.000Z",
-      "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c0a7c610-5dca-4ab3-b35e-896e9479405e",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Sniff out stale AI override advice with this open source CLI",
-      "summary": "A new open-source CLI tool has been released to help developers identify and remediate stale AI override advice and insecure package dependencies. The tool focuses on mitigating vulnerabilities that are often difficult to detect within software supply chains.",
-      "date": "2026-06-23T00:17:13.000Z",
-      "link": "https://www.theregister.com/security/2026/06/23/sniff-out-stale-ai-override-advice-with-this-open-source-cli/5259853",
-      "isTopTen": false
-    },
-    {
-      "id": "95076e06-f6d7-48dc-b448-ae25888a613f",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI: Yoo-hoo, look over here, we do that security stuff too!",
-      "summary": "OpenAI has announced new security initiatives, including a 'Patch The Planet' pledge, aimed at strengthening their vulnerability management and cybersecurity posture. This move highlights the company's commitment to proactive security measures as part of their broader development strategy.",
-      "date": "2026-06-22T23:34:34.000Z",
-      "link": "https://www.theregister.com/security/2026/06/23/openai-yoo-hoo-look-over-here-we-do-that-security-stuff-too/5259842",
-      "isTopTen": false
-    },
-    {
-      "id": "fec4d6b5-3ec6-4026-9337-6f6affe5a1ea",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
-      "summary": "A sophisticated malware campaign is targeting WhatsApp users by sending deceptive messages containing malicious VBScript files disguised as business documents. Once executed, these files grant attackers unauthorized remote access to the victim's computer.",
-      "date": "2026-06-22T22:42:21.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
-      "isTopTen": false
-    },
-    {
-      "id": "fd24d413-b7cc-49ea-aee9-0b0831cd06a1",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Court rules SAVE database illegal, orders it dismantled",
-      "summary": "A judge has ordered the dismantling of the government's SAVE database after ruling that its operations violated multiple federal statutes, including the Privacy Act. The court concluded that the database's data collection and usage procedures were illegal.",
-      "date": "2026-06-22T22:07:46.000Z",
-      "link": "https://cyberscoop.com/court-rules-save-database-illegal-orders-dismantling/",
       "isTopTen": false
     }
   ]
