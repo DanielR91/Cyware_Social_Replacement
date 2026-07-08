@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-08T14:30:25.427Z",
+  "lastUpdated": "2026-07-08T16:45:21.187Z",
   "articles": [
+    {
+      "id": "0b09a51b-54ee-4a52-8500-1cba3d1073ba",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+      "summary": "Researchers discovered 'HalluSquatting,' a technique where attackers register non-existent package names recommended by AI coding assistants to trick developers into downloading malicious botnet code. This exploits the tendency of AI models to hallucinate software libraries, turning those fabrications into a supply chain attack vector.",
+      "date": "2026-07-08T15:07:24.000Z",
+      "link": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "isTopTen": true
+    },
+    {
+      "id": "5bd5c184-6479-4598-990d-47a6b650facf",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+      "summary": "Ubiquiti has released critical security patches for multiple UniFi applications and OS components to address vulnerabilities that could allow for privilege escalation and arbitrary command execution. A notable flaw, CVE-2026-50746, carries a maximum CVSS score of 10.0 due to improper access controls.",
+      "date": "2026-07-08T14:38:05.000Z",
+      "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0edd7377-cbc3-420e-8dfc-458c0622d14f",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Armored Likho Hits Government, Energy Sectors With BusySnake Stealer",
+      "summary": "The Armored Likho APT group is targeting government and energy sectors using AI-generated loaders and the BusySnake information stealer. The campaign relies on sophisticated phishing tactics to compromise sensitive infrastructure.",
+      "date": "2026-07-08T14:29:23.000Z",
+      "link": "https://hackread.com/armored-likho-government-energy-busysnake-stealer/",
+      "isTopTen": false
+    },
+    {
+      "id": "edabc702-d598-405c-b123-403be753e4af",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Former UK privacy chief preparing legal action against woman who reported him, minister says",
+      "summary": "The UK's Science Secretary expressed outrage after an investigation confirmed sexual harassment and bullying at the Information Commissioner’s Office, where the former chief is now pursuing legal action against his accuser.",
+      "date": "2026-07-08T14:20:00.000Z",
+      "link": "https://therecord.media/former-uk-privacy-chief-preparing-legal-action-against-woman-who-reported-him",
+      "isTopTen": false
+    },
     {
       "id": "df01e1c3-77df-4532-a5e7-8377395de350",
       "source": "Help Net Security",
@@ -175,7 +219,7 @@
       "summary": "Researchers discovered that Git commit hashes can be rewritten while maintaining a valid signature, allowing attackers to create deceptive commits that GitHub erroneously marks as 'Verified'. This vulnerability undermines the integrity of code review processes by allowing for the generation of valid-looking but technically distinct commits.",
       "date": "2026-07-08T11:51:24.000Z",
       "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "444d5d1a-0397-4a01-af5d-32202d69be18",
@@ -197,7 +241,7 @@
       "summary": "Researchers found that AI coding assistants like GitHub Copilot can be manipulated into generating malicious code by breaking dangerous requests into smaller, innocuous steps within the code editor. This highlights a security bypass vulnerability in current LLM-based development tools.",
       "date": "2026-07-08T11:21:07.000Z",
       "link": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ac176158-2150-4d11-8852-19d9abb31295",
@@ -208,7 +252,7 @@
       "summary": "The RedWing Android banking trojan is being distributed as a subscription-based malware-as-a-service model via Telegram, showing potential ties to the Oblivion malware family and Russian threat actors. It lowers the barrier to entry for cybercriminals by providing comprehensive tutorials and documentation for its spyware capabilities.",
       "date": "2026-07-08T11:09:44.000Z",
       "link": "https://securityaffairs.com/194942/malware/telegram-hosted-redwing-malware-lets-anyone-rent-android-spyware-tools.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d83dd403-666e-4bc3-855d-4fb65c5eb2ae",
@@ -285,7 +329,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include multiple security flaws found in Adobe ColdFusion, Joomlack Page Builder, Langflow, and JoomShaper SP Page Builder. Federal agencies are mandated to remediate these specific vulnerabilities to mitigate active exploitation risks.",
       "date": "2026-07-08T08:38:09.000Z",
       "link": "https://securityaffairs.com/194927/hacking/u-s-cisa-adds-adobe-coldfusion-joomlack-page-builder-langflow-and-joomshaper-sp-page-builder-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cf54ee78-75ab-49e3-9ead-eeb5444b3ed5",
@@ -571,7 +615,7 @@
       "summary": "The DEBULL phishing campaign exploits the legitimate Microsoft 365 device-code authentication flow by using social engineering lures to hijack user accounts. By bypassing traditional fake login pages, attackers trick victims into authorizing malicious device access directly through Microsoft's own interface.",
       "date": "2026-07-07T15:14:14.000Z",
       "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3bcccc69-0d5b-468e-9669-68859ff6f95d",
@@ -582,7 +626,7 @@
       "summary": "A major Japanese telecommunications company reported a cyberattack that exposed 12 million emails across five of its internet service providers. The breach compromised systems managing customer accounts, webmail services, and email storage.",
       "date": "2026-07-07T14:45:00.000Z",
       "link": "https://therecord.media/major-japanese-telco-cyberattack-12-million-emails",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f15ab1f2-8c99-4ebc-b58f-7cdd744ac7ca",
@@ -5455,50 +5499,6 @@
       "summary": "Threat actors are actively exploiting a critical improper input validation vulnerability in Cisco Unified Communications Manager, designated as CVE-2026-20230, which allows for remote, unauthenticated file-write access to the root directory.",
       "date": "2026-06-24T06:50:38.000Z",
       "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9dd15ef8-6a8a-429b-913b-06e1c6530de0",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Where IT meets OT and railway cybersecurity gets harder",
-      "summary": "This interview explores the cybersecurity challenges of integrating legacy operational technology with modern IT in railway systems, focusing on increased attack surfaces, regulatory compliance, and risk management. It discusses how technical teams handle patching vulnerabilities while maintaining critical service availability and addressing liability concerns.",
-      "date": "2026-06-24T06:00:09.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/24/jorge-aldegunde-dnv-railway-cybersecurity/",
-      "isTopTen": false
-    },
-    {
-      "id": "d8edd268-a6d8-4610-9b7f-88b6a1e30b41",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "You have got to be KDDI-ng – Japanese telco exposes 14.2 million managed email credentials",
-      "summary": "Japanese telecommunications company KDDI suffered a massive data breach, exposing the managed email credentials of 14.2 million users across five different ISPs. The incident highlights significant security gaps in the management of user account information.",
-      "date": "2026-06-24T04:56:48.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/06/24/you-have-got-to-be-kddi-ng-japanese-telco-exposes-142-million-managed-email-credentials/5260555",
-      "isTopTen": false
-    },
-    {
-      "id": "27614785-cb3e-4794-874b-4da9da967ce3",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Samsung KNOX Kernel UAF Exposes Millions of Galaxy Devices",
-      "summary": "A kernel use-after-free vulnerability (CVE-2026-20971) within Samsung's KNOX security stack allowed potential exploitation through memory corruption, affecting millions of Galaxy devices before a patch was released in January 2026.",
-      "date": "2026-06-23T23:00:16.000Z",
-      "link": "https://securityaffairs.com/194090/security/samsung-knox-kernel-uaf-exposes-millions-of-galaxy-devices.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0b822393-d16c-4bec-8422-5fc654c46f35",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat",
-      "summary": "Unit 42 researchers identified that the ClawHub marketplace hosts malicious AI skills capable of bypassing security scanners to deliver infostealers and conduct financial fraud. This highlights an emerging supply chain threat targeting AI-integrated platforms.",
-      "date": "2026-06-23T22:00:51.000Z",
-      "link": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
       "isTopTen": false
     }
   ]
