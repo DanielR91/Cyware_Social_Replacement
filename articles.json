@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-07-08T16:45:21.187Z",
+  "lastUpdated": "2026-07-08T19:42:05.407Z",
   "articles": [
+    {
+      "id": "d92341f2-2575-4fc4-a1b3-dcbac382181e",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "GitHub Copilot: Sorry Dave, I can't do that harmful thing - unless you ask me in code",
+      "summary": "Researchers discovered an AI jailbreak vulnerability in GitHub Copilot that allows users to bypass safety filters by embedding malicious requests within code contexts. This flaw highlights persistent security challenges in regulating generative AI workflows.",
+      "date": "2026-07-08T19:19:35.000Z",
+      "link": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654",
+      "isTopTen": true
+    },
+    {
+      "id": "51736d48-db55-45e0-a4de-13f3eca256c6",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "A Hacker Claims 35 GB of Accenture Source Code. The Company discloses the data breach",
+      "summary": "Accenture has confirmed a significant data breach after a threat actor claimed to have stolen and offered for sale 35 GB of the company's source code, encryption keys, and Azure credentials. The stolen data reportedly includes sensitive internal information obtained during an incident in July.",
+      "date": "2026-07-08T18:33:43.000Z",
+      "link": "https://securityaffairs.com/194962/data-breach/a-hacker-claims-35-gb-of-accenture-source-code-the-company-discloses-the-data-breach.html",
+      "isTopTen": true
+    },
+    {
+      "id": "885d1c44-61c4-45bf-97bd-448904d75c97",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "DuckDuckGo Now Blocks Most YouTube Ads Right Inside Its Browser",
+      "summary": "DuckDuckGo has updated its browser to include native ad-blocking capabilities for YouTube, providing users with a more streamlined and private viewing experience. This feature is now available by default across supported platforms with specific functional limitations.",
+      "date": "2026-07-08T18:22:10.000Z",
+      "link": "https://hackread.com/duckduckgo-blocks-youtube-ads-inside-browser/",
+      "isTopTen": false
+    },
+    {
+      "id": "783ec6c2-9a9e-4c57-9f36-97f74683b83d",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "French nonprofit starts global intelligence and research hub for AI cyber threats ",
+      "summary": "A French nonprofit has launched a global intelligence hub designed to coordinate rapid international responses to AI-driven cyber threats among governments, businesses, and experts.",
+      "date": "2026-07-08T18:15:29.000Z",
+      "link": "https://cyberscoop.com/paris-peace-forum-intaic-ai-cyber-threats/",
+      "isTopTen": false
+    },
+    {
+      "id": "af33e09c-8d41-4e8f-b785-088140bb4f6c",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+      "summary": "AI coding agents like Cursor and Claude Code are inadvertently triggering endpoint security alerts by performing behavioral patterns that mimic common malicious activities, such as credential access. Security teams must differentiate these benign automated processes from actual threats to avoid alert fatigue.",
+      "date": "2026-07-08T17:02:12.000Z",
+      "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "isTopTen": false
+    },
+    {
+      "id": "39988678-3593-4b60-b52a-61b12ded62de",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Taiwan charges two businessmen over alleged role in Chinese espionage campaign",
+      "summary": "Taiwanese prosecutors have charged two businessmen for allegedly facilitating a Chinese espionage operation by leasing LINE messaging accounts to foreign intelligence agents. The scheme highlights a tactical effort by state-sponsored actors to bypass security measures via compromised commercial communication platforms.",
+      "date": "2026-07-08T16:55:00.000Z",
+      "link": "https://therecord.media/taiwan-charges-businessmen-china-cyber-espionage-campaign",
+      "isTopTen": false
+    },
     {
       "id": "0b09a51b-54ee-4a52-8500-1cba3d1073ba",
       "source": "The Hacker News",
@@ -21,7 +87,7 @@
       "summary": "Ubiquiti has released critical security patches for multiple UniFi applications and OS components to address vulnerabilities that could allow for privilege escalation and arbitrary command execution. A notable flaw, CVE-2026-50746, carries a maximum CVSS score of 10.0 due to improper access controls.",
       "date": "2026-07-08T14:38:05.000Z",
       "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0edd7377-cbc3-420e-8dfc-458c0622d14f",
@@ -65,7 +131,7 @@
       "summary": "A vulnerability dubbed 'GhostApproval' in AI coding agents exposes critical weaknesses in human-in-the-loop workflows, mirroring historical Unix security flaws. This issue allows unauthorized code changes to bypass human verification processes, potentially leading to supply chain compromise.",
       "date": "2026-07-08T14:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/08/bug-in-top-ai-coding-agents-shows-that-unix-era-security-headaches-never-really-die/5268025",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b4f7ac94-2fca-44e7-b55f-5070134743dd",
@@ -241,7 +307,7 @@
       "summary": "Researchers found that AI coding assistants like GitHub Copilot can be manipulated into generating malicious code by breaking dangerous requests into smaller, innocuous steps within the code editor. This highlights a security bypass vulnerability in current LLM-based development tools.",
       "date": "2026-07-08T11:21:07.000Z",
       "link": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ac176158-2150-4d11-8852-19d9abb31295",
@@ -329,7 +395,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include multiple security flaws found in Adobe ColdFusion, Joomlack Page Builder, Langflow, and JoomShaper SP Page Builder. Federal agencies are mandated to remediate these specific vulnerabilities to mitigate active exploitation risks.",
       "date": "2026-07-08T08:38:09.000Z",
       "link": "https://securityaffairs.com/194927/hacking/u-s-cisa-adds-adobe-coldfusion-joomlack-page-builder-langflow-and-joomshaper-sp-page-builder-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cf54ee78-75ab-49e3-9ead-eeb5444b3ed5",
@@ -516,7 +582,7 @@
       "summary": "A security vulnerability nicknamed GitLost in a GitHub AI agent allows unauthorized users to access private repositories through simple prompt injection techniques. Currently, there is no official fix or documentation addressing the exploit.",
       "date": "2026-07-07T19:49:01.000Z",
       "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "14cd1679-678b-4959-8de4-4b0eb5bccbef",
@@ -615,7 +681,7 @@
       "summary": "The DEBULL phishing campaign exploits the legitimate Microsoft 365 device-code authentication flow by using social engineering lures to hijack user accounts. By bypassing traditional fake login pages, attackers trick victims into authorizing malicious device access directly through Microsoft's own interface.",
       "date": "2026-07-07T15:14:14.000Z",
       "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3bcccc69-0d5b-468e-9669-68859ff6f95d",
@@ -5433,72 +5499,6 @@
       "summary": "This article provides a comparative overview of cryptocurrency payment gateways and tools designed to facilitate digital currency transactions for e-commerce platforms. It focuses on the functional features of financial technology integration rather than specific security threats.",
       "date": "2026-06-24T07:50:17.000Z",
       "link": "https://hackread.com/best-crypto-payment-solutions-e-commerce-businesses/",
-      "isTopTen": false
-    },
-    {
-      "id": "d2b3b5e2-601f-446f-830c-f10eb945c248",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Qodo expands platform to help teams govern AI-generated code and engineering standards",
-      "summary": "Qodo has introduced three new governance capabilities—Cross-Repo Code Review, Custom Rules Miner, and Skill Review Standards—to help enterprises manage the security and quality of AI-generated code. These tools aim to mitigate risks associated with the increasing autonomy of AI agents in the software development lifecycle.",
-      "date": "2026-06-24T07:46:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/24/qodo-ai-generated-code-governance/",
-      "isTopTen": false
-    },
-    {
-      "id": "581ec157-2fb1-45cd-82e4-f53610b26294",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Brinqa BYOAI lets organizations use any AI platform with trusted risk data",
-      "summary": "Brinqa has introduced a 'Bring Your Own AI' (BYOAI) capability that allows enterprises to integrate various AI models and agents with its exposure intelligence platform. This integration ensures that AI-driven risk analysis is based on consistent, accurate, and up-to-date security data.",
-      "date": "2026-06-24T07:31:37.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/24/brinqa-byoai/",
-      "isTopTen": false
-    },
-    {
-      "id": "ea1ad7f0-61ef-45ac-ba3d-423f28281c43",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cequence introduces behavioral bot detection and biometric verification without CAPTCHAs",
-      "summary": "Cequence Security has launched Intent Graph and Biometric Check to provide bot defense across web, mobile, and AI traffic, eliminating the need for traditional CAPTCHAs. These new capabilities utilize behavioral architecture to detect sophisticated bots that typically bypass standard client-side signals.",
-      "date": "2026-06-24T07:22:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/24/cequence-intent-graph-biometric-check/",
-      "isTopTen": false
-    },
-    {
-      "id": "b3dcef58-314e-4b3d-9c1a-a0121154429f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New Secure Code Warrior framework helps CISOs govern AI-driven software development",
-      "summary": "Secure Code Warrior has launched the SCW AI Adoption Model, a framework designed to help CISOs manage and govern the integration of AI in software development as it scales toward autonomous agentic systems. It provides guidance on necessary training and security controls based on an organization's specific level of AI adoption.",
-      "date": "2026-06-24T07:12:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/24/secure-code-warrior-ai-adoption-model/",
-      "isTopTen": false
-    },
-    {
-      "id": "f2d2ab94-3a34-4ae7-9818-a1d1509b0547",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "DigiCert brings independent trust validation to confidential computing environments",
-      "summary": "DigiCert has partnered with Google Cloud to provide independent PKI-based cryptographic verification for confidential computing environments. This initiative aims to ensure the authenticity and integrity of sensitive cloud-hosted workloads and infrastructure.",
-      "date": "2026-06-24T07:03:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/24/digicert-independent-trust-validation/",
-      "isTopTen": false
-    },
-    {
-      "id": "bb0de875-7ecd-430b-b39e-5f00244d480b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
-      "summary": "Threat actors are actively exploiting a critical improper input validation vulnerability in Cisco Unified Communications Manager, designated as CVE-2026-20230, which allows for remote, unauthenticated file-write access to the root directory.",
-      "date": "2026-06-24T06:50:38.000Z",
-      "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
       "isTopTen": false
     }
   ]
