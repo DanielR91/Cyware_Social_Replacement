@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-08T19:42:05.407Z",
+  "lastUpdated": "2026-07-08T22:14:08.414Z",
   "articles": [
+    {
+      "id": "71059b70-aabc-491e-be04-994f6cadbc8d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Suspected Chinese snoops caught breaking into universities' Roundcube mailservers",
+      "summary": "Suspected Chinese state-sponsored actors are exploiting vulnerabilities in Roundcube mail servers to target academic institutions. Researchers estimate that the campaign has impacted several dozen individual targets.",
+      "date": "2026-07-08T21:35:13.000Z",
+      "link": "https://www.theregister.com/security/2026/07/08/suspected-chinese-snoops-caught-breaking-into-universities-roundcube-mailservers/5268778",
+      "isTopTen": false
+    },
+    {
+      "id": "45b24790-6719-4d52-8460-0b4029aea70d",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ubiquiti Patches Critical UniFi OS Flaws Allowing Command Injection and Privilege Escalation",
+      "summary": "Ubiquiti has released security updates to address seven critical vulnerabilities in UniFi OS, most notably a maximum-severity command injection flaw tracked as CVE-2026-50746. This critical vulnerability, which carries a CVSS score of 10.0, affects the UniFi Connect Application and could allow unauthorized command execution and privilege escalation.",
+      "date": "2026-07-08T20:20:39.000Z",
+      "link": "https://securityaffairs.com/194978/security/ubiquiti-patches-critical-unifi-os-flaws-allowing-command-injection-and-privilege-escalation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "688f8425-f3a9-43ac-9336-81d42cc66a62",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Greek victims file lawsuit against Intellexa over Predator spyware",
+      "summary": "Greek victims have filed a lawsuit against Intellexa regarding the unauthorized use of Predator spyware, which previously triggered a major political scandal in 2022. The case highlights ongoing accountability efforts following the discovery of the spyware on numerous devices.",
+      "date": "2026-07-08T20:20:00.000Z",
+      "link": "https://therecord.media/greek-victims-file-lawsuit-against-intellexa-spyware",
+      "isTopTen": false
+    },
+    {
+      "id": "f63d5fc0-b2b4-4525-95f2-39e2acc91d11",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Cash App owner to pay $45 million to settle allegations of lax security",
+      "summary": "Block, Inc. has agreed to a $45 million settlement with state attorneys general following allegations that it misled users regarding the security protections provided by Cash App. The case centered on claims that the platform failed to maintain adequate security standards and misrepresented its safety protocols.",
+      "date": "2026-07-08T20:14:00.000Z",
+      "link": "https://therecord.media/cash-app-owner-to-pay-45-million-security-allegations",
+      "isTopTen": false
+    },
     {
       "id": "d92341f2-2575-4fc4-a1b3-dcbac382181e",
       "source": "The Register",
@@ -10,7 +54,7 @@
       "summary": "Researchers discovered an AI jailbreak vulnerability in GitHub Copilot that allows users to bypass safety filters by embedding malicious requests within code contexts. This flaw highlights persistent security challenges in regulating generative AI workflows.",
       "date": "2026-07-08T19:19:35.000Z",
       "link": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "51736d48-db55-45e0-a4de-13f3eca256c6",
@@ -87,7 +131,7 @@
       "summary": "Ubiquiti has released critical security patches for multiple UniFi applications and OS components to address vulnerabilities that could allow for privilege escalation and arbitrary command execution. A notable flaw, CVE-2026-50746, carries a maximum CVSS score of 10.0 due to improper access controls.",
       "date": "2026-07-08T14:38:05.000Z",
       "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0edd7377-cbc3-420e-8dfc-458c0622d14f",
@@ -230,7 +274,7 @@
       "summary": "A sophisticated 'ghost phishing' campaign known as EvilTokens is bypassing traditional email security by obfuscating malicious content until it executes within the victim's browser. This technique poses a significant risk to organizations by potentially compromising Microsoft 365 credentials and sensitive data.",
       "date": "2026-07-08T13:00:00.000Z",
       "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9cb8be51-443f-461c-beff-c750a99a6ff1",
@@ -285,7 +329,7 @@
       "summary": "Researchers discovered that Git commit hashes can be rewritten while maintaining a valid signature, allowing attackers to create deceptive commits that GitHub erroneously marks as 'Verified'. This vulnerability undermines the integrity of code review processes by allowing for the generation of valid-looking but technically distinct commits.",
       "date": "2026-07-08T11:51:24.000Z",
       "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "444d5d1a-0397-4a01-af5d-32202d69be18",
@@ -395,7 +439,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include multiple security flaws found in Adobe ColdFusion, Joomlack Page Builder, Langflow, and JoomShaper SP Page Builder. Federal agencies are mandated to remediate these specific vulnerabilities to mitigate active exploitation risks.",
       "date": "2026-07-08T08:38:09.000Z",
       "link": "https://securityaffairs.com/194927/hacking/u-s-cisa-adds-adobe-coldfusion-joomlack-page-builder-langflow-and-joomshaper-sp-page-builder-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cf54ee78-75ab-49e3-9ead-eeb5444b3ed5",
@@ -571,7 +615,7 @@
       "summary": "A lawsuit involving the generation of non-consensual deepfake sexual images of minors using xAI's Grok and Stability AI has expanded to include additional victims and defendants. The case highlights the legal and ethical challenges surrounding generative AI tools and child safety.",
       "date": "2026-07-07T20:17:55.000Z",
       "link": "https://cyberscoop.com/deepfake-csam-lawsuit-grok-xai-expands-stability-ai/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be29639c-0b85-4ff0-b8ca-0a2597825542",
@@ -582,7 +626,7 @@
       "summary": "A security vulnerability nicknamed GitLost in a GitHub AI agent allows unauthorized users to access private repositories through simple prompt injection techniques. Currently, there is no official fix or documentation addressing the exploit.",
       "date": "2026-07-07T19:49:01.000Z",
       "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "14cd1679-678b-4959-8de4-4b0eb5bccbef",
@@ -681,7 +725,7 @@
       "summary": "The DEBULL phishing campaign exploits the legitimate Microsoft 365 device-code authentication flow by using social engineering lures to hijack user accounts. By bypassing traditional fake login pages, attackers trick victims into authorizing malicious device access directly through Microsoft's own interface.",
       "date": "2026-07-07T15:14:14.000Z",
       "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3bcccc69-0d5b-468e-9669-68859ff6f95d",
@@ -692,7 +736,7 @@
       "summary": "A major Japanese telecommunications company reported a cyberattack that exposed 12 million emails across five of its internet service providers. The breach compromised systems managing customer accounts, webmail services, and email storage.",
       "date": "2026-07-07T14:45:00.000Z",
       "link": "https://therecord.media/major-japanese-telco-cyberattack-12-million-emails",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f15ab1f2-8c99-4ebc-b58f-7cdd744ac7ca",
@@ -703,7 +747,7 @@
       "summary": "Researchers discovered a vulnerability where malicious actors can manipulate GitHub Agentic Workflows via public issues to exfiltrate data from an organization's private repositories. The attack requires no authentication or prior access, exploiting overly permissive agent configurations.",
       "date": "2026-07-07T14:04:50.000Z",
       "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "989f4725-217f-4b56-ae6a-4d600cf639d4",
@@ -5455,50 +5499,6 @@
       "summary": "Google is expanding its Workspace alert system to notify administrators whenever any administrative account password is reset, enhancing visibility and security for privileged accounts. This update helps organizations more effectively monitor and respond to potential unauthorized access attempts.",
       "date": "2026-06-24T09:07:01.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/24/google-workspace-admin-password-reset-alerts/",
-      "isTopTen": false
-    },
-    {
-      "id": "1e3e4f70-df52-4092-806c-876481422d70",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Open-source security is posing challenges governments can’t easily solve",
-      "summary": "The widespread and decentralized nature of open-source software, combined with insufficient corporate oversight and emerging AI threats, is creating complex security challenges that current government strategies struggle to address.",
-      "date": "2026-06-24T09:00:00.000Z",
-      "link": "https://cyberscoop.com/open-source-software-security-crisis/",
-      "isTopTen": false
-    },
-    {
-      "id": "bccf86e7-9c28-4e3e-a0ec-11ccad33688a",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
-      "summary": "The U.S. Department of Justice seized a cloud computing account used by Cambodia-based Huione Group subsidiaries for laundering cyber scam proceeds. This action coincided with new U.S. Treasury sanctions targeting entities linked to the Prince Group for their role in illicit financial activities.",
-      "date": "2026-06-24T08:55:12.000Z",
-      "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "65378f76-59c0-4dd4-be82-9fcbb7e3c1a2",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "One Railway Radio Outage Stopped Trains Across Germany and Nobody Knew Why",
-      "summary": "A nationwide GSM-R network failure in Germany forced Deutsche Bahn to halt all train operations across the country. The incident highlights critical vulnerabilities and reliability issues within aging railway communications infrastructure.",
-      "date": "2026-06-24T08:29:21.000Z",
-      "link": "https://securityaffairs.com/194117/security/one-railway-radio-outage-stopped-trains-across-germany-and-nobody-knew-why.html",
-      "isTopTen": false
-    },
-    {
-      "id": "028cc10d-2d09-4145-97bc-08dda4f4e70b",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Best Crypto Payment Solutions for E-Commerce Businesses",
-      "summary": "This article provides a comparative overview of cryptocurrency payment gateways and tools designed to facilitate digital currency transactions for e-commerce platforms. It focuses on the functional features of financial technology integration rather than specific security threats.",
-      "date": "2026-06-24T07:50:17.000Z",
-      "link": "https://hackread.com/best-crypto-payment-solutions-e-commerce-businesses/",
       "isTopTen": false
     }
   ]
