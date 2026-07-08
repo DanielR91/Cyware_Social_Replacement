@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-07T22:15:54.471Z",
+  "lastUpdated": "2026-07-08T03:18:56.067Z",
   "articles": [
+    {
+      "id": "9bdbed9e-8b85-4715-86b9-a707461f5f0f",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Why Unity Remains the Most Popular Engine for Mobile Games",
+      "summary": "This article discusses the technical advantages and industry-standard features that make the Unity game engine a preferred choice for mobile game development. It focuses on development efficiency and scalability rather than security risks.",
+      "date": "2026-07-07T22:24:26.000Z",
+      "link": "https://hackread.com/unity-remains-popular-mobile-games-engine/",
+      "isTopTen": false
+    },
     {
       "id": "5e409080-4d95-42ca-bb3b-94a0bfa0377b",
       "source": "Unit 42",
@@ -35,6 +46,17 @@
       "isTopTen": true
     },
     {
+      "id": "6b5f4e14-8829-4a77-bb17-80fb79dd1a11",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Windows is watching: Anti-piracy tool fingers Scattered Spider suspect",
+      "summary": "Microsoft's Windows GDID telemetry tool has been utilized to identify a suspect associated with the Scattered Spider cybercriminal group. This case highlights how pervasive OS-level tracking can be leveraged by law enforcement to trace malicious online activity.",
+      "date": "2026-07-07T20:47:09.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/07/07/windows-is-watching-anti-piracy-tool-fingers-scattered-spider-suspect/5267953",
+      "isTopTen": false
+    },
+    {
       "id": "b1961493-df77-4e37-afec-adb88d89cb6c",
       "source": "CyberScoop",
       "tag": "Laws, Policy, Regulations",
@@ -43,7 +65,7 @@
       "summary": "A lawsuit involving the generation of non-consensual deepfake sexual images of minors using xAI's Grok and Stability AI has expanded to include additional victims and defendants. The case highlights the legal and ethical challenges surrounding generative AI tools and child safety.",
       "date": "2026-07-07T20:17:55.000Z",
       "link": "https://cyberscoop.com/deepfake-csam-lawsuit-grok-xai-expands-stability-ai/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be29639c-0b85-4ff0-b8ca-0a2597825542",
@@ -54,7 +76,7 @@
       "summary": "A security vulnerability nicknamed GitLost in a GitHub AI agent allows unauthorized users to access private repositories through simple prompt injection techniques. Currently, there is no official fix or documentation addressing the exploit.",
       "date": "2026-07-07T19:49:01.000Z",
       "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "14cd1679-678b-4959-8de4-4b0eb5bccbef",
@@ -109,7 +131,7 @@
       "summary": "A critical vulnerability in Google Dialogflow CX allowed attackers with restricted access to hijack other chatbots within the same cloud project. This flaw enabled unauthorized access to sensitive user data and the ability to manipulate chatbot responses for phishing purposes.",
       "date": "2026-07-07T16:37:33.000Z",
       "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fad3aeb0-f385-477b-aaee-8b98d0f5e1f8",
@@ -285,7 +307,7 @@
       "summary": "Attackers are actively exploiting a critical vulnerability in Adobe ColdFusion (CVE-2026-48282) shortly after technical analysis was published. Honeypot sensors detected exploitation attempts just two days after Adobe released the patch.",
       "date": "2026-07-07T12:03:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/07/adobe-coldfusion-cve-2026-48282-exploitation-detected/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e7ce0233-49be-41e6-bf74-05dd247c936d",
@@ -384,7 +406,7 @@
       "summary": "A suspected Chinese espionage group is actively exploiting a chain of vulnerabilities in Roundcube webmail to target university physics and engineering departments. Researchers warn that the campaign remains ongoing and poses a significant risk to academic institutions.",
       "date": "2026-07-07T09:00:00.000Z",
       "link": "https://cyberscoop.com/china-espionage-attacks-us-canada-universities-proofpoint/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "786200ba-d2d1-4789-85bb-e693bfc20fa7",
@@ -395,7 +417,7 @@
       "summary": "The newly identified APT group Armored Likho is targeting government and infrastructure sectors in Russia, Kazakhstan, and Brazil using AI-generated malware and the BusySnake Stealer. The campaign exhibits a dual focus on both state-sponsored espionage and financial theft.",
       "date": "2026-07-07T08:28:02.000Z",
       "link": "https://securityaffairs.com/194854/apt/ai-generated-malware-powers-new-armored-likho-apt-campaign.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a069594a-43ab-43a8-be3d-dcc4ff643a94",
@@ -406,7 +428,7 @@
       "summary": "A 16-year-old use-after-free vulnerability in the Linux KVM hypervisor, dubbed Januscape, allows guest virtual machines to corrupt host kernel memory and potentially perform escape attacks. The flaw impacts both Intel and AMD systems.",
       "date": "2026-07-07T07:07:10.000Z",
       "link": "https://securityaffairs.com/194868/security/januscape-16-year-old-linux-kvm-bug-enables-cloud-vm-escape-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "23ad90e5-ef59-471b-bc2d-28444d217892",
@@ -538,7 +560,7 @@
       "summary": "Attackers exploited a governance mechanism in BonkDAO to fraudulently approve a proposal that transferred $20 million worth of BONK cryptocurrency to their wallets. This incident highlights a significant vulnerability in decentralized governance structures.",
       "date": "2026-07-06T20:35:00.000Z",
       "link": "https://therecord.media/attackers-vote-themselves-20-million-bonk-crypto",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b984ecb0-2f73-48c6-a978-88ee066dd6e3",
@@ -549,7 +571,7 @@
       "summary": "A critical path traversal vulnerability in Adobe ColdFusion, tracked as CVE-2026-48282, is being actively exploited in the wild to achieve unauthenticated remote code execution. The flaw affects versions 2025.9, 2023.20, and earlier.",
       "date": "2026-07-06T19:53:10.000Z",
       "link": "https://securityaffairs.com/194837/hacking/adobe-coldfusion-flaw-cve-2026-48282-now-exploited-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cc8cf6a3-3dcc-4e92-95ca-7b30191b8317",
@@ -593,7 +615,7 @@
       "summary": "A 16-year-old use-after-free vulnerability, dubbed 'Januscape' (CVE-2026-53359), in the Linux KVM hypervisor allows guest virtual machines to compromise the host kernel on Intel and AMD systems. The flaw resides in the shared shadow MMU code and is capable of causing host system panics.",
       "date": "2026-07-06T17:37:01.000Z",
       "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01122cd0-a00a-457a-9ab2-c3ce08ca900e",
@@ -5477,28 +5499,6 @@
       "summary": "Two teenagers associated with the Scattered Spider group have pleaded guilty to orchestrating a major cyberattack against Transport for London and various US healthcare organizations, resulting in millions of pounds of damages. The individuals are currently awaiting sentencing for their roles in the breaches.",
       "date": "2026-06-23T10:11:00.000Z",
       "link": "https://hackread.com/scattered-spider-hackers-guilty-tfl-cyberattack/",
-      "isTopTen": false
-    },
-    {
-      "id": "e25dae3b-cf1f-4c39-b024-0340f504f3a6",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Two Scattered Spider hackers plead guilty over Transport for London cyberattack",
-      "summary": "Two members of the Scattered Spider hacker group have pleaded guilty to charges linked to a 2024 cyberattack on Transport for London that incurred £29 million in costs. The defendants face sentencing in July for their violations of the UK's Computer Misuse Act.",
-      "date": "2026-06-23T09:59:48.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/transport-london-cyberattack-scattered-spider-members-plead-guilty/",
-      "isTopTen": false
-    },
-    {
-      "id": "cbf37f42-6284-4db3-b495-23291b91959f",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Omada Identity Sovereign targets Europe’s growing digital sovereignty demands",
-      "summary": "Omada has launched Omada Identity Sovereign to help regulated European organizations meet strict digital sovereignty and compliance requirements for identity governance. The solution is designed to align with evolving regulatory frameworks like DORA and NIS2.",
-      "date": "2026-06-23T09:25:19.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/23/omada-identity-sovereign-targets-europes-growing-digital-sovereignty-demands/",
       "isTopTen": false
     }
   ]
