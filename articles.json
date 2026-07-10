@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-10T17:01:52.910Z",
+  "lastUpdated": "2026-07-10T19:41:24.306Z",
   "articles": [
+    {
+      "id": "30c599e2-8f4b-424b-b41f-7403414888fb",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "CISA looks to remedy ailments from big May credential leak",
+      "summary": "CISA has released a forensic report detailing its efforts to enhance security protocols and vulnerability reporting following a significant credential leak in May. The agency is implementing new protections to prevent future unauthorized access to its sensitive data.",
+      "date": "2026-07-10T18:54:28.000Z",
+      "link": "https://cyberscoop.com/cisa-credential-leak-forensic-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "17dba1b9-1959-4fef-8587-bb11eac93ad4",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Destructive Windows backdoor stuffs multiple wipers and ransomware code into a single package",
+      "summary": "Microsoft has identified a new modular backdoor called GigaWiper that integrates multiple malware families, including wipers and ransomware, into a single destructive package. This tool demonstrates an evolution in multi-functional threat payloads designed to maximize damage during a compromise.",
+      "date": "2026-07-10T17:35:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
+      "isTopTen": false
+    },
+    {
+      "id": "c80f931b-21ee-4bb2-93cf-316f5f737840",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
+      "summary": "Two individuals linked to major ransomware groups, Ryuk and Blackcat/AlphV, have faced significant legal consequences, with one pleading guilty and the other receiving a 70-month prison sentence.",
+      "date": "2026-07-10T17:01:00.000Z",
+      "link": "https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced",
+      "isTopTen": false
+    },
     {
       "id": "d5b28e75-4b43-46eb-8aa2-5cb484050f9e",
       "source": "The Record",
@@ -10,6 +43,39 @@
       "summary": "Recent Supreme Court rulings on location tracking have sparked discussions regarding the potential requirement of warrants for Automated License Plate Reader (ALPR) data. This shift could significantly alter law enforcement surveillance capabilities and data collection practices.",
       "date": "2026-07-10T16:50:00.000Z",
       "link": "https://therecord.media/license-plate-cameras-may-be-next-target-after-supreme-court-reins-in-location-tracking",
+      "isTopTen": false
+    },
+    {
+      "id": "d376a1e7-584f-4ee2-9f03-547798402e1a",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+      "summary": "Progress Software has advised ShareFile customers to shut down their Storage Zone Controllers due to a credible external security threat. The company has temporarily disabled access to impacted accounts while investigating the issue.",
+      "date": "2026-07-10T16:30:00.000Z",
+      "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7e17074c-2233-483a-af75-7841681ee950",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+      "summary": "Threat actors compromised the Injective Labs GitHub repository to distribute a malicious version of the @injectivelabs/sdk-ts npm package designed to steal cryptocurrency wallet credentials. This supply chain attack used fake telemetry functionality to exfiltrate private keys and mnemonic phrases from affected users.",
+      "date": "2026-07-10T16:29:00.000Z",
+      "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+      "isTopTen": true
+    },
+    {
+      "id": "60a59b51-469d-48c4-a973-e44ca25ca9ec",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+      "summary": "Researchers discovered six vulnerabilities in the U-Boot bootloader that could allow attackers to crash affected devices or execute arbitrary code during the boot process. The flaws impact a wide range of hardware, including routers, cameras, and server management chips.",
+      "date": "2026-07-10T15:57:14.000Z",
+      "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
       "isTopTen": true
     },
     {
@@ -21,7 +87,7 @@
       "summary": "Security researchers discovered a hardware-level vulnerability in Tangem crypto wallets that allows an attacker to reset passwords using a precise laser pulse. Because the physical vulnerability cannot be patched, affected devices remain permanently susceptible to unauthorized access if physical possession is obtained.",
       "date": "2026-07-10T14:51:49.000Z",
       "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e5b3788a-21ff-4569-9ce4-a4de496e1ec0",
@@ -76,7 +142,7 @@
       "summary": "Between 2018 and 2026, over 9,000 verified ransomware attacks have occurred globally, with the United States remaining the primary target and Qilin identified as a leading threat actor. The data highlights a persistent trend of over 1,400 annual attacks since 2023.",
       "date": "2026-07-10T12:37:05.000Z",
       "link": "https://securityaffairs.com/195117/cyber-crime/ransomware-never-stopped-over-9000-confirmed-attacks-since-2018.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d4aaab39-e925-4d86-9b14-f8467d1b3b2f",
@@ -153,7 +219,7 @@
       "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
       "date": "2026-07-10T10:30:20.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
@@ -285,7 +351,7 @@
       "summary": "Microsoft is urging organizations to shorten their Windows patch deployment timelines, citing that AI-driven exploitation is significantly reducing the window of opportunity for defenders. The company recommends reevaluating update policies to ensure critical security fixes are applied faster to mitigate emerging threats.",
       "date": "2026-07-10T06:00:26.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/10/microsoft-windows-update-deployment-timelines/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "efa8ada4-6ed7-4946-a26f-a7f865e6476d",
@@ -329,7 +395,7 @@
       "summary": "Former DigitalMint employee Angelo Martino was sentenced to 70 months in prison for leaking confidential information to ransomware actors to extort $75.3 million from clients. He abused his position as a negotiator to facilitate the criminal schemes of his co-conspirators.",
       "date": "2026-07-10T00:16:13.000Z",
       "link": "https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c9eab8ee-b775-4e21-8a49-d57e9db83ca1",
@@ -406,7 +472,7 @@
       "summary": "Microsoft has identified GigaWiper, a new modular Windows backdoor that combines disk-wiping capabilities, destructive fake ransomware, and spyware into a single malicious toolkit. The malware allows attackers to choose from multiple destructive methods to permanently compromise target systems.",
       "date": "2026-07-09T18:08:07.000Z",
       "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e37f91ca-7815-412f-baf3-c5bef312f578",
@@ -439,7 +505,7 @@
       "summary": "npm version 12 improves supply chain security by disabling automatic execution of install scripts by default and deprecating tokens that bypass two-factor authentication. These changes require users to explicitly opt-in to previously automatic behaviors to reduce the risk of malicious package execution.",
       "date": "2026-07-09T16:49:02.000Z",
       "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6545b788-96b4-4b19-9ca0-5193a2d10afd",
@@ -549,7 +615,7 @@
       "summary": "The European Commission has initiated legal action against Ireland, Spain, France, and the Netherlands for failing to transpose the NIS2 cybersecurity directive within the required timeframe. These member states are over 20 months behind schedule in implementing regulations intended to secure critical infrastructure.",
       "date": "2026-07-09T13:10:02.000Z",
       "link": "https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a108d363-a4d3-42ec-bb91-984dff7981dd",
@@ -560,7 +626,7 @@
       "summary": "AssuranceAmerica suffered a major data breach after hackers compromised an employee account, exposing the driver's license information of nearly 7 million individuals. This incident marks one of the most significant thefts of sensitive personal identification data recorded in 2026.",
       "date": "2026-07-09T12:40:16.000Z",
       "link": "https://securityaffairs.com/195027/data-breach/assuranceamerica-breach-exposes-7-million-drivers-licenses-after-employee-account-hack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "abe64ba7-1998-42f2-9c80-5dcb004da035",
@@ -703,7 +769,7 @@
       "summary": "Meta has enabled a feature by default that allows users to incorporate public Instagram content into AI-generated images using its Muse model. This move has raised significant privacy concerns regarding the unauthorized use of personal data for generative AI training and content creation.",
       "date": "2026-07-09T07:21:06.000Z",
       "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "75a458ca-7325-4c9f-8f22-033bef470b78",
@@ -5433,72 +5499,6 @@
       "summary": "The FCC has approved updated cybersecurity regulations aimed at securing national emergency communication systems against hijacking and strengthening security review requirements for undersea cable providers.",
       "date": "2026-06-25T19:55:16.000Z",
       "link": "https://cyberscoop.com/fcc-undersea-cable-regulations-national-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "73d6fe1b-ac68-45f3-bd5d-52946f98ee91",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Order-tracking app Shop abused to push callback phishing attacks",
-      "summary": "Threat actors are exploiting the Shopify Shop order-tracking app by injecting fake purchase receipts into user histories to conduct callback phishing attacks. These campaigns aim to deceive users into disclosing sensitive information or installing malicious remote access software.",
-      "date": "2026-06-25T19:45:48.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "e58b8a52-4e6c-49f6-a04a-a0afb7276250",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Curl Fixes a 25-Year-Old Bug in Its Largest CVE Release Yet",
-      "summary": "The Curl project released a significant update addressing 18 vulnerabilities in libcurl, including a critical memory safety bug that has persisted for 25 years. The patch covers a range of security flaws, including authentication bypass and host validation issues.",
-      "date": "2026-06-25T19:20:27.000Z",
-      "link": "https://securityaffairs.com/194220/security/curl-fixes-a-25-year-old-bug-in-its-largest-cve-release-yet.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dcf8bcd1-98db-4f38-8053-8a8044659e54",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "DHS chief says president has met with potential CISA nominee; agency plans to hire 600",
-      "summary": "The Department of Homeland Security is preparing to fill the vacant CISA director position and subsequently expand the agency's workforce by 600 employees. The White House is currently evaluating potential candidates to lead the agency.",
-      "date": "2026-06-25T18:47:51.000Z",
-      "link": "https://therecord.media/cisa-director-nominee-workforce-hires-mullin-house-hearing",
-      "isTopTen": false
-    },
-    {
-      "id": "036d7b78-641a-4a51-873e-1545b569a426",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
-      "summary": "Microsoft has extended its free Extended Security Updates (ESU) program for Windows 10 consumers by one year, now providing security support until October 12, 2027.",
-      "date": "2026-06-25T18:29:20.000Z",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
-      "isTopTen": false
-    },
-    {
-      "id": "d629a10a-46b1-4280-8b00-aee823bdb7af",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Fake GTA 6 Early Access Websites Target Gamers with Malware and Crypto Scams",
-      "summary": "Cybercriminals are exploiting high anticipation for GTA 6 by creating fraudulent websites that deliver malware and solicit cryptocurrency payments under the guise of early access. These campaigns primarily target PC and Android users through deceptive promotional tactics.",
-      "date": "2026-06-25T17:11:58.000Z",
-      "link": "https://hackread.com/gta-6-early-access-websites-gamers-malware-crypto-scam/",
-      "isTopTen": false
-    },
-    {
-      "id": "2cfe3659-e025-4134-a19d-01c86939dee0",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
-      "summary": "A new macOS malware named Gaslight employs prompt injection techniques and fake debugging data to deliberately deceive AI-based security analysis tools. This strategy aims to evade detection by causing confusion during the automated malware inspection process.",
-      "date": "2026-06-25T16:23:19.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
       "isTopTen": false
     }
   ]
