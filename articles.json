@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-10T14:41:36.528Z",
+  "lastUpdated": "2026-07-10T17:01:52.910Z",
   "articles": [
+    {
+      "id": "d5b28e75-4b43-46eb-8aa2-5cb484050f9e",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "License plate cameras may be next target after Supreme Court reins in location tracking",
+      "summary": "Recent Supreme Court rulings on location tracking have sparked discussions regarding the potential requirement of warrants for Automated License Plate Reader (ALPR) data. This shift could significantly alter law enforcement surveillance capabilities and data collection practices.",
+      "date": "2026-07-10T16:50:00.000Z",
+      "link": "https://therecord.media/license-plate-cameras-may-be-next-target-after-supreme-court-reins-in-location-tracking",
+      "isTopTen": true
+    },
+    {
+      "id": "f13237a2-f579-448f-a368-605631c5d08a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
+      "summary": "Security researchers discovered a hardware-level vulnerability in Tangem crypto wallets that allows an attacker to reset passwords using a precise laser pulse. Because the physical vulnerability cannot be patched, affected devices remain permanently susceptible to unauthorized access if physical possession is obtained.",
+      "date": "2026-07-10T14:51:49.000Z",
+      "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e5b3788a-21ff-4569-9ce4-a4de496e1ec0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+      "summary": "Three high-severity security vulnerabilities in the OpenClaw AI assistant have been disclosed, which could allow attackers to perform credential theft, privilege escalation, and arbitrary code execution. These flaws have since been addressed through patches.",
+      "date": "2026-07-10T14:19:50.000Z",
+      "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+      "isTopTen": false
+    },
     {
       "id": "fefb59db-5e8a-46c4-b399-6dd565d658e3",
       "source": "The Record",
@@ -10,7 +43,7 @@
       "summary": "Chinese and Indian state-sponsored actors concurrently compromised the same Pakistani police force systems between February 2024 and April 2026, specifically targeting operations in a region affected by separatist insurgency.",
       "date": "2026-07-10T13:20:00.000Z",
       "link": "https://therecord.media/china-india-ran-separate-spy-campaigns-against-same-police-force",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "173a6aeb-b439-4ebc-a010-708dc3931f24",
@@ -43,7 +76,7 @@
       "summary": "Between 2018 and 2026, over 9,000 verified ransomware attacks have occurred globally, with the United States remaining the primary target and Qilin identified as a leading threat actor. The data highlights a persistent trend of over 1,400 annual attacks since 2023.",
       "date": "2026-07-10T12:37:05.000Z",
       "link": "https://securityaffairs.com/195117/cyber-crime/ransomware-never-stopped-over-9000-confirmed-attacks-since-2018.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d4aaab39-e925-4d86-9b14-f8467d1b3b2f",
@@ -186,7 +219,7 @@
       "summary": "Microsoft discovered GigaWiper, a sophisticated modular Go-based backdoor that integrates espionage, remote control, and data-wiping capabilities by combining three distinct malware families. This threat was identified during investigations into destructive wiping activities within compromised enterprise environments.",
       "date": "2026-07-10T08:25:48.000Z",
       "link": "https://securityaffairs.com/195068/malware/gigawiper-merges-three-malware-families-into-one-destructive-backdoor.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "edc4a8c7-803d-471f-ae68-b7c6b90c3eec",
@@ -230,7 +263,7 @@
       "summary": "The reliance of modern software stacks on open-source libraries maintained by individuals creates significant security risks due to potential lack of support and oversight. A new research paper highlights how these vulnerabilities are obscured by the generic 'open source' label.",
       "date": "2026-07-10T07:00:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/10/open-source-software-library-types/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3ef07ebf-72c0-4aab-aaf8-4b516b7cb24a",
@@ -252,7 +285,7 @@
       "summary": "Microsoft is urging organizations to shorten their Windows patch deployment timelines, citing that AI-driven exploitation is significantly reducing the window of opportunity for defenders. The company recommends reevaluating update policies to ensure critical security fixes are applied faster to mitigate emerging threats.",
       "date": "2026-07-10T06:00:26.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/10/microsoft-windows-update-deployment-timelines/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "efa8ada4-6ed7-4946-a26f-a7f865e6476d",
@@ -362,7 +395,7 @@
       "summary": "The newly identified GodDamn ransomware, a successor to the Beast family, utilizes a signed driver called PoisonX to effectively disable security software and evade detection. First appearing in May 2026, the malware demonstrates an advanced approach to neutralizing host-based defenses during attacks.",
       "date": "2026-07-09T18:11:37.000Z",
       "link": "https://securityaffairs.com/195042/malware/goddamn-ransomware-uses-poisonx-to-blind-security-software.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "374173b4-dff4-451f-99da-c0ef67b5a311",
@@ -406,7 +439,7 @@
       "summary": "npm version 12 improves supply chain security by disabling automatic execution of install scripts by default and deprecating tokens that bypass two-factor authentication. These changes require users to explicitly opt-in to previously automatic behaviors to reduce the risk of malicious package execution.",
       "date": "2026-07-09T16:49:02.000Z",
       "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6545b788-96b4-4b19-9ca0-5193a2d10afd",
@@ -417,7 +450,7 @@
       "summary": "The European Union's controversial 'Chat Control' proposal remains active as opponents failed to secure the necessary parliamentary majority to block the extension of interim CSAM-scanning regulations. The decision continues the debate over the balance between child protection initiatives and individual privacy rights.",
       "date": "2026-07-09T15:51:59.000Z",
       "link": "https://www.theregister.com/security/2026/07/09/meps-fail-to-prevent-chat-control-snoopfest-revival/5269379",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7abf0ab4-fcd8-4b91-ae89-0f603714c00b",
@@ -516,7 +549,7 @@
       "summary": "The European Commission has initiated legal action against Ireland, Spain, France, and the Netherlands for failing to transpose the NIS2 cybersecurity directive within the required timeframe. These member states are over 20 months behind schedule in implementing regulations intended to secure critical infrastructure.",
       "date": "2026-07-09T13:10:02.000Z",
       "link": "https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a108d363-a4d3-42ec-bb91-984dff7981dd",
@@ -527,7 +560,7 @@
       "summary": "AssuranceAmerica suffered a major data breach after hackers compromised an employee account, exposing the driver's license information of nearly 7 million individuals. This incident marks one of the most significant thefts of sensitive personal identification data recorded in 2026.",
       "date": "2026-07-09T12:40:16.000Z",
       "link": "https://securityaffairs.com/195027/data-breach/assuranceamerica-breach-exposes-7-million-drivers-licenses-after-employee-account-hack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "abe64ba7-1998-42f2-9c80-5dcb004da035",
@@ -560,7 +593,7 @@
       "summary": "Wiz researchers discovered 'GhostApproval' symlink vulnerabilities in popular AI coding assistants that allow attackers to bypass security checks and gain unauthorized system access. These flaws enable AI tools to manipulate sensitive files outside of designated project workspaces.",
       "date": "2026-07-09T11:37:05.000Z",
       "link": "https://hackread.com/ghostapproval-flaws-ai-coding-tools-outside-workspace/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "374a11d1-b68d-47dc-b79c-e5a163116da2",
@@ -670,7 +703,7 @@
       "summary": "Meta has enabled a feature by default that allows users to incorporate public Instagram content into AI-generated images using its Muse model. This move has raised significant privacy concerns regarding the unauthorized use of personal data for generative AI training and content creation.",
       "date": "2026-07-09T07:21:06.000Z",
       "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "75a458ca-7325-4c9f-8f22-033bef470b78",
@@ -5466,39 +5499,6 @@
       "summary": "A new macOS malware named Gaslight employs prompt injection techniques and fake debugging data to deliberately deceive AI-based security analysis tools. This strategy aims to evade detection by causing confusion during the automated malware inspection process.",
       "date": "2026-06-25T16:23:19.000Z",
       "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-      "isTopTen": false
-    },
-    {
-      "id": "09a060db-583f-441c-b6a5-d8c1c00e11e2",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Federal court rules Trump election-focused executive order illegal",
-      "summary": "A federal court has struck down an executive order that mandated the creation of federal voter lists and restricted USPS mail ballot operations, ruling the provisions unconstitutional.",
-      "date": "2026-06-25T16:16:20.000Z",
-      "link": "https://cyberscoop.com/judge-strikes-down-trump-election-executive-order/",
-      "isTopTen": false
-    },
-    {
-      "id": "224d5f03-e952-49a3-8bae-b57cfff0eb82",
-      "source": "BleepingComputer",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
-      "summary": "Authorities have disrupted the PirloTV sports piracy network by seizing 44 domains linked to the illegal streaming operation.",
-      "date": "2026-06-25T15:36:56.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
-      "isTopTen": false
-    },
-    {
-      "id": "667fa09f-4309-44c9-81c1-e75406bbd918",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Upwind Security Brings AI Visibility to the Endpoint, Unifying Cloud and Device Security",
-      "summary": "Upwind Security has launched an AI-powered sensor that integrates endpoint activity with cloud security data to improve visibility into AI-related risks and developer activities. The platform aims to unify security monitoring across both cloud environments and endpoint devices.",
-      "date": "2026-06-25T15:27:28.000Z",
-      "link": "https://hackread.com/upwind-security-ai-endpoint-cloud-device-security/",
       "isTopTen": false
     }
   ]
