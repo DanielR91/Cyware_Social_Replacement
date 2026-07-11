@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-11T16:01:02.826Z",
+  "lastUpdated": "2026-07-11T19:12:37.534Z",
   "articles": [
+    {
+      "id": "97d82c74-abb4-4f13-a10c-0723e4b08773",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+      "summary": "The jscrambler npm package version 8.14.0 was compromised to include a malicious preinstall hook that automatically deploys a cross-platform Rust-based infostealer upon installation. The incident highlights the risks of supply chain attacks where malicious code executes immediately without requiring explicit user interaction.",
+      "date": "2026-07-11T17:59:26.000Z",
+      "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+      "isTopTen": true
+    },
+    {
+      "id": "56ae1d19-f71c-4b8b-a628-11c0db2faefb",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+      "summary": "State-aligned threat actors from China and India conducted multi-group espionage campaigns targeting the Balochistan Police portal and other Pakistani law enforcement agencies to access sensitive citizen and criminal data. The attacks occurred between February 2024 and April 2026, leveraging compromised web application servers.",
+      "date": "2026-07-11T17:49:31.000Z",
+      "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5900277b-6216-4687-a249-a57212d05160",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical U-Boot Bugs Undermine Secure Boot on Millions of Devices",
+      "summary": "Security researchers at Binarly discovered six critical vulnerabilities in the U-Boot open-source bootloader that could allow attackers to execute arbitrary code during the boot process on millions of embedded devices. These flaws significantly compromise the integrity of secure boot mechanisms across various hardware sectors, including routers and smart cameras.",
+      "date": "2026-07-11T17:45:43.000Z",
+      "link": "https://securityaffairs.com/195150/security/critical-u-boot-bugs-undermine-secure-boot-on-millions-of-devices.html",
+      "isTopTen": true
+    },
     {
       "id": "f4d8df05-7749-40a5-b8a3-f7d8e6115498",
       "source": "The Hacker News",
@@ -76,7 +109,7 @@
       "summary": "Microsoft has identified a new modular backdoor called GigaWiper that integrates multiple malware families, including wipers and ransomware, into a single destructive package. This tool demonstrates an evolution in multi-functional threat payloads designed to maximize damage during a compromise.",
       "date": "2026-07-10T17:35:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c80f931b-21ee-4bb2-93cf-316f5f737840",
@@ -120,7 +153,7 @@
       "summary": "Threat actors compromised the Injective Labs GitHub repository to distribute a malicious version of the @injectivelabs/sdk-ts npm package designed to steal cryptocurrency wallet credentials. This supply chain attack used fake telemetry functionality to exfiltrate private keys and mnemonic phrases from affected users.",
       "date": "2026-07-10T16:29:00.000Z",
       "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "60a59b51-469d-48c4-a973-e44ca25ca9ec",
@@ -142,7 +175,7 @@
       "summary": "Security researchers discovered a hardware-level vulnerability in Tangem crypto wallets that allows an attacker to reset passwords using a precise laser pulse. Because the physical vulnerability cannot be patched, affected devices remain permanently susceptible to unauthorized access if physical possession is obtained.",
       "date": "2026-07-10T14:51:49.000Z",
       "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e5b3788a-21ff-4569-9ce4-a4de496e1ec0",
@@ -175,7 +208,7 @@
       "summary": "Former ransomware negotiator Angelo Martino has been sentenced to 70 months in prison for facilitating BlackCat extortion schemes and misusing confidential client data. The case highlights the legal consequences for individuals who collaborate with ransomware gangs.",
       "date": "2026-07-10T13:18:03.000Z",
       "link": "https://hackread.com/cybersecurity-negotiator-blackcat-extort-victims/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "44c93a22-80cd-47a9-8938-dd431a003a67",
@@ -252,7 +285,7 @@
       "summary": "A misconfigured server belonging to a cybercrime group has exposed the operational details of a large-scale campaign that compromised thousands of WordPress sites using the WP-SHELLSTORM backdoor. The discovery provides researchers with unique visibility into the internal tools, logs, and target lists used in the mass-hacking operation.",
       "date": "2026-07-10T11:30:02.000Z",
       "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9ce333fd-aff8-4c40-9bab-f45267ff09de",
@@ -274,7 +307,7 @@
       "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
       "date": "2026-07-10T10:30:20.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
@@ -329,7 +362,7 @@
       "summary": "Attackers are exploiting a vulnerability dubbed 'Ill Bloom,' which stems from weak randomness in cryptocurrency wallet recovery phrase generation, resulting in $3.1 million in stolen assets. Security firm Coinspect identified the flaw, which allows attackers to derive private keys and drain funds from affected wallets.",
       "date": "2026-07-10T09:00:05.000Z",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9cf580b6-0b7d-403e-8ea6-b4559f191473",
@@ -747,7 +780,7 @@
       "summary": "Research from the Alan Turing Institute reveals that AI coding agents like GitHub Copilot can bypass safety filters by executing harmful code even when they refuse to generate it in chat interactions. The findings suggest that current chatbot-focused safety testing is insufficient for autonomous coding assistants capable of multi-turn file editing and script execution.",
       "date": "2026-07-09T10:44:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/09/github-coding-agent-jailbreak/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "94a9a579-ec26-4868-b6fe-e7ca683f5f4e",
@@ -5466,39 +5499,6 @@
       "summary": "This article highlights several new cybersecurity product releases for June 2026, including Asimily's new Segmentation Orchestration tool for automated device risk management. It provides a roundup of updates from various vendors aimed at enhancing security operations and asset visibility.",
       "date": "2026-06-26T04:00:46.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/new-infosec-products-of-the-month-june-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "529dfbef-dbbb-49b6-8047-221c4181987b",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Chinese cybersecurity company claims it’s built a better-than-Mythos bug finder",
-      "summary": "Qihoo 360, a Chinese cybersecurity firm restricted by the US, claims to have developed an automated vulnerability discovery tool that surpasses Mythos, positioning it as a countermeasure against AI-driven cyber weaponization.",
-      "date": "2026-06-26T01:49:35.000Z",
-      "link": "https://www.theregister.com/security/2026/06/26/chinese-cybersecurity-company-claims-its-built-a-better-than-mythos-bug-finder/5262642",
-      "isTopTen": false
-    },
-    {
-      "id": "3b6302b5-952b-4d18-ac43-e4f13e7908a0",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
-      "summary": "Anthropic is testing a 'Claude Cowork' feature for mobile devices, enabling users to manage long-running AI tasks directly from their phones. This expansion increases the accessibility and mobile integration of their AI agent capabilities.",
-      "date": "2026-06-25T22:53:32.000Z",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d74cf0b-5ec2-44ed-86bb-bf6f490bff04",
-      "source": "BleepingComputer",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
-      "summary": "Polish authorities have arrested four individuals involved in a cybercrime group that utilized SIM-swapping and email hijacking to steal millions in cryptocurrency. The operation focused on compromising telecommunications partners to facilitate these fraudulent attacks.",
-      "date": "2026-06-25T22:37:42.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
       "isTopTen": false
     }
   ]
