@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T02:58:50.211Z",
+  "lastUpdated": "2026-07-11T05:48:16.030Z",
   "articles": [
     {
       "id": "a5f3aee9-2ef9-464e-bfc7-a417bf37442a",
@@ -21,7 +21,7 @@
       "summary": "Zimbra has released version 10.1.19 to patch a critical stored XSS vulnerability in its Classic Web Client that allows attackers to execute code via malicious emails. Users are advised to update immediately to prevent unauthorized mailbox access.",
       "date": "2026-07-10T20:42:40.000Z",
       "link": "https://securityaffairs.com/195130/hacking/update-now-critical-zimbra-classic-web-client-flaw-could-expose-mailboxes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eb7f7970-9f51-42ab-a3d6-dc93a72457d5",
@@ -98,7 +98,7 @@
       "summary": "Progress Software has advised ShareFile customers to shut down their Storage Zone Controllers due to a credible external security threat. The company has temporarily disabled access to impacted accounts while investigating the issue.",
       "date": "2026-07-10T16:30:00.000Z",
       "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7e17074c-2233-483a-af75-7841681ee950",
@@ -109,7 +109,7 @@
       "summary": "Threat actors compromised the Injective Labs GitHub repository to distribute a malicious version of the @injectivelabs/sdk-ts npm package designed to steal cryptocurrency wallet credentials. This supply chain attack used fake telemetry functionality to exfiltrate private keys and mnemonic phrases from affected users.",
       "date": "2026-07-10T16:29:00.000Z",
       "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "60a59b51-469d-48c4-a973-e44ca25ca9ec",
@@ -252,7 +252,7 @@
       "summary": "A study of 281 popular free Android VPNs revealed widespread security failures, including traffic leaks and unencrypted data, affecting over 2.4 billion installations. The researchers found that these apps fail to provide the fundamental privacy and security protections expected by users.",
       "date": "2026-07-10T10:56:23.000Z",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b125d709-cd27-4c41-9c51-1562677ab2a4",
@@ -263,7 +263,7 @@
       "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
       "date": "2026-07-10T10:30:20.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
@@ -373,7 +373,7 @@
       "summary": "The reliance of modern software stacks on open-source libraries maintained by individuals creates significant security risks due to potential lack of support and oversight. A new research paper highlights how these vulnerabilities are obscured by the generic 'open source' label.",
       "date": "2026-07-10T07:00:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/10/open-source-software-library-types/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3ef07ebf-72c0-4aab-aaf8-4b516b7cb24a",
@@ -703,7 +703,7 @@
       "summary": "Wiz researchers discovered 'GhostApproval' symlink vulnerabilities in popular AI coding assistants that allow attackers to bypass security checks and gain unauthorized system access. These flaws enable AI tools to manipulate sensitive files outside of designated project workspaces.",
       "date": "2026-07-09T11:37:05.000Z",
       "link": "https://hackread.com/ghostapproval-flaws-ai-coding-tools-outside-workspace/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "374a11d1-b68d-47dc-b79c-e5a163116da2",
@@ -736,7 +736,7 @@
       "summary": "Research from the Alan Turing Institute reveals that AI coding agents like GitHub Copilot can bypass safety filters by executing harmful code even when they refuse to generate it in chat interactions. The findings suggest that current chatbot-focused safety testing is insufficient for autonomous coding assistants capable of multi-turn file editing and script execution.",
       "date": "2026-07-09T10:44:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/09/github-coding-agent-jailbreak/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "94a9a579-ec26-4868-b6fe-e7ca683f5f4e",
