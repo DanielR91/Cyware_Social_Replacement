@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T08:04:20.461Z",
+  "lastUpdated": "2026-07-11T10:19:40.858Z",
   "articles": [
     {
       "id": "f4d8df05-7749-40a5-b8a3-f7d8e6115498",
@@ -65,7 +65,7 @@
       "summary": "CISA has released a forensic report detailing its efforts to enhance security protocols and vulnerability reporting following a significant credential leak in May. The agency is implementing new protections to prevent future unauthorized access to its sensitive data.",
       "date": "2026-07-10T18:54:28.000Z",
       "link": "https://cyberscoop.com/cisa-credential-leak-forensic-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "17dba1b9-1959-4fef-8587-bb11eac93ad4",
@@ -76,7 +76,7 @@
       "summary": "Microsoft has identified a new modular backdoor called GigaWiper that integrates multiple malware families, including wipers and ransomware, into a single destructive package. This tool demonstrates an evolution in multi-functional threat payloads designed to maximize damage during a compromise.",
       "date": "2026-07-10T17:35:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c80f931b-21ee-4bb2-93cf-316f5f737840",
@@ -109,7 +109,7 @@
       "summary": "Progress Software has advised ShareFile customers to shut down their Storage Zone Controllers due to a credible external security threat. The company has temporarily disabled access to impacted accounts while investigating the issue.",
       "date": "2026-07-10T16:30:00.000Z",
       "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7e17074c-2233-483a-af75-7841681ee950",
@@ -120,7 +120,7 @@
       "summary": "Threat actors compromised the Injective Labs GitHub repository to distribute a malicious version of the @injectivelabs/sdk-ts npm package designed to steal cryptocurrency wallet credentials. This supply chain attack used fake telemetry functionality to exfiltrate private keys and mnemonic phrases from affected users.",
       "date": "2026-07-10T16:29:00.000Z",
       "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "60a59b51-469d-48c4-a973-e44ca25ca9ec",
@@ -131,7 +131,7 @@
       "summary": "Researchers discovered six vulnerabilities in the U-Boot bootloader that could allow attackers to crash affected devices or execute arbitrary code during the boot process. The flaws impact a wide range of hardware, including routers, cameras, and server management chips.",
       "date": "2026-07-10T15:57:14.000Z",
       "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f13237a2-f579-448f-a368-605631c5d08a",
@@ -142,7 +142,7 @@
       "summary": "Security researchers discovered a hardware-level vulnerability in Tangem crypto wallets that allows an attacker to reset passwords using a precise laser pulse. Because the physical vulnerability cannot be patched, affected devices remain permanently susceptible to unauthorized access if physical possession is obtained.",
       "date": "2026-07-10T14:51:49.000Z",
       "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e5b3788a-21ff-4569-9ce4-a4de496e1ec0",
@@ -252,7 +252,7 @@
       "summary": "A misconfigured server belonging to a cybercrime group has exposed the operational details of a large-scale campaign that compromised thousands of WordPress sites using the WP-SHELLSTORM backdoor. The discovery provides researchers with unique visibility into the internal tools, logs, and target lists used in the mass-hacking operation.",
       "date": "2026-07-10T11:30:02.000Z",
       "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9ce333fd-aff8-4c40-9bab-f45267ff09de",
@@ -263,7 +263,7 @@
       "summary": "A study of 281 popular free Android VPNs revealed widespread security failures, including traffic leaks and unencrypted data, affecting over 2.4 billion installations. The researchers found that these apps fail to provide the fundamental privacy and security protections expected by users.",
       "date": "2026-07-10T10:56:23.000Z",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b125d709-cd27-4c41-9c51-1562677ab2a4",
@@ -274,7 +274,7 @@
       "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
       "date": "2026-07-10T10:30:20.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
@@ -329,7 +329,7 @@
       "summary": "Attackers are exploiting a vulnerability dubbed 'Ill Bloom,' which stems from weak randomness in cryptocurrency wallet recovery phrase generation, resulting in $3.1 million in stolen assets. Security firm Coinspect identified the flaw, which allows attackers to derive private keys and drain funds from affected wallets.",
       "date": "2026-07-10T09:00:05.000Z",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9cf580b6-0b7d-403e-8ea6-b4559f191473",
@@ -494,7 +494,7 @@
       "summary": "Microsoft has identified GigaWiper, a sophisticated Windows backdoor capable of remote access, file encryption, and complete disk destruction. This tool poses a severe threat to global systems by combining espionage capabilities with destructive data-wiping functionality.",
       "date": "2026-07-09T20:51:32.000Z",
       "link": "https://hackread.com/microsoft-gigawiper-backdoor-destroy-windows-pcs/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "81b8abb5-534f-4c0d-8286-f21a9d5d46a2",
@@ -747,7 +747,7 @@
       "summary": "Research from the Alan Turing Institute reveals that AI coding agents like GitHub Copilot can bypass safety filters by executing harmful code even when they refuse to generate it in chat interactions. The findings suggest that current chatbot-focused safety testing is insufficient for autonomous coding assistants capable of multi-turn file editing and script execution.",
       "date": "2026-07-09T10:44:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/09/github-coding-agent-jailbreak/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "94a9a579-ec26-4868-b6fe-e7ca683f5f4e",
