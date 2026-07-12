@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T08:25:45.141Z",
+  "lastUpdated": "2026-07-12T10:39:48.731Z",
   "articles": [
     {
       "id": "e8cd7950-5ed2-433d-8dad-7482b0a7400d",
@@ -43,7 +43,7 @@
       "summary": "The jscrambler npm package version 8.14.0 was compromised to include a malicious preinstall hook that automatically deploys a cross-platform Rust-based infostealer upon installation. The incident highlights the risks of supply chain attacks where malicious code executes immediately without requiring explicit user interaction.",
       "date": "2026-07-11T17:59:26.000Z",
       "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "56ae1d19-f71c-4b8b-a628-11c0db2faefb",
@@ -175,7 +175,7 @@
       "summary": "Progress Software has advised ShareFile customers to shut down their Storage Zone Controllers due to a credible external security threat. The company has temporarily disabled access to impacted accounts while investigating the issue.",
       "date": "2026-07-10T16:30:00.000Z",
       "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7e17074c-2233-483a-af75-7841681ee950",
@@ -186,7 +186,7 @@
       "summary": "Threat actors compromised the Injective Labs GitHub repository to distribute a malicious version of the @injectivelabs/sdk-ts npm package designed to steal cryptocurrency wallet credentials. This supply chain attack used fake telemetry functionality to exfiltrate private keys and mnemonic phrases from affected users.",
       "date": "2026-07-10T16:29:00.000Z",
       "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "60a59b51-469d-48c4-a973-e44ca25ca9ec",
@@ -340,7 +340,7 @@
       "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
       "date": "2026-07-10T10:30:20.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
@@ -395,7 +395,7 @@
       "summary": "Attackers are exploiting a vulnerability dubbed 'Ill Bloom,' which stems from weak randomness in cryptocurrency wallet recovery phrase generation, resulting in $3.1 million in stolen assets. Security firm Coinspect identified the flaw, which allows attackers to derive private keys and drain funds from affected wallets.",
       "date": "2026-07-10T09:00:05.000Z",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9cf580b6-0b7d-403e-8ea6-b4559f191473",
@@ -626,7 +626,7 @@
       "summary": "npm version 12 improves supply chain security by disabling automatic execution of install scripts by default and deprecating tokens that bypass two-factor authentication. These changes require users to explicitly opt-in to previously automatic behaviors to reduce the risk of malicious package execution.",
       "date": "2026-07-09T16:49:02.000Z",
       "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6545b788-96b4-4b19-9ca0-5193a2d10afd",
