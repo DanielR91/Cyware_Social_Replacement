@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-12T19:12:32.023Z",
+  "lastUpdated": "2026-07-12T21:57:50.711Z",
   "articles": [
+    {
+      "id": "bf2b99b5-0d8f-4716-85cd-269de2721371",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Ryuk Ransomware Member Pleads Guilty Over Attacks on U.S. Organizations",
+      "summary": "An Armenian national has pleaded guilty in the U.S. for his role in deploying Ryuk ransomware attacks against American organizations between 2019 and 2020. He now faces a potential sentence of up to 15 years in prison following his extradition from Ukraine.",
+      "date": "2026-07-12T20:48:04.000Z",
+      "link": "https://securityaffairs.com/195216/uncategorized/ryuk-ransomware-member-pleads-guilty-over-attacks-on-u-s-organizations.html",
+      "isTopTen": false
+    },
     {
       "id": "33bf0bc5-665b-4b85-94c4-e904d9957ec9",
       "source": "Security Affairs",
@@ -54,7 +65,7 @@
       "summary": "CISA has added security vulnerabilities found in iCagenda and Balbooa Forms, both popular Joomla extensions, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation. Organizations are urged to patch these systems to mitigate potential compromise.",
       "date": "2026-07-11T19:31:19.000Z",
       "link": "https://securityaffairs.com/195164/security/u-s-cisa-adds-icagenda-and-balbooa-forms-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "97d82c74-abb4-4f13-a10c-0723e4b08773",
@@ -65,7 +76,7 @@
       "summary": "The jscrambler npm package version 8.14.0 was compromised to include a malicious preinstall hook that automatically deploys a cross-platform Rust-based infostealer upon installation. The incident highlights the risks of supply chain attacks where malicious code executes immediately without requiring explicit user interaction.",
       "date": "2026-07-11T17:59:26.000Z",
       "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "56ae1d19-f71c-4b8b-a628-11c0db2faefb",
@@ -98,7 +109,7 @@
       "summary": "Zimbra is warning users of a critical stored cross-site scripting (XSS) vulnerability in its Classic Web Client that enables arbitrary code execution via malicious emails. Users are urged to apply the latest security updates immediately, as the flaw currently lacks a CVE identifier.",
       "date": "2026-07-11T06:45:55.000Z",
       "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a5f3aee9-2ef9-464e-bfc7-a417bf37442a",
@@ -142,7 +153,7 @@
       "summary": "The European Parliament has approved 'Chat Control 2.0,' a legislative measure that enables technology companies to scan user messages for child sexual abuse material (CSAM). This mandate forces platforms like Google, Meta, and Microsoft to implement scanning mechanisms, raising significant debates regarding user privacy and encryption.",
       "date": "2026-07-10T19:30:00.000Z",
       "link": "https://therecord.media/chat-control-2-csam-scans-european-parliament-passage",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "30c599e2-8f4b-424b-b41f-7403414888fb",
@@ -340,7 +351,7 @@
       "summary": "A misconfigured server belonging to a cybercrime group has exposed the operational details of a large-scale campaign that compromised thousands of WordPress sites using the WP-SHELLSTORM backdoor. The discovery provides researchers with unique visibility into the internal tools, logs, and target lists used in the mass-hacking operation.",
       "date": "2026-07-10T11:30:02.000Z",
       "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9ce333fd-aff8-4c40-9bab-f45267ff09de",
@@ -351,7 +362,7 @@
       "summary": "A study of 281 popular free Android VPNs revealed widespread security failures, including traffic leaks and unencrypted data, affecting over 2.4 billion installations. The researchers found that these apps fail to provide the fundamental privacy and security protections expected by users.",
       "date": "2026-07-10T10:56:23.000Z",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b125d709-cd27-4c41-9c51-1562677ab2a4",
@@ -417,7 +428,7 @@
       "summary": "Attackers are exploiting a vulnerability dubbed 'Ill Bloom,' which stems from weak randomness in cryptocurrency wallet recovery phrase generation, resulting in $3.1 million in stolen assets. Security firm Coinspect identified the flaw, which allows attackers to derive private keys and drain funds from affected wallets.",
       "date": "2026-07-10T09:00:05.000Z",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9cf580b6-0b7d-403e-8ea6-b4559f191473",
@@ -604,7 +615,7 @@
       "summary": "The newly identified GodDamn ransomware, a successor to the Beast family, utilizes a signed driver called PoisonX to effectively disable security software and evade detection. First appearing in May 2026, the malware demonstrates an advanced approach to neutralizing host-based defenses during attacks.",
       "date": "2026-07-09T18:11:37.000Z",
       "link": "https://securityaffairs.com/195042/malware/goddamn-ransomware-uses-poisonx-to-blind-security-software.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "374173b4-dff4-451f-99da-c0ef67b5a311",
@@ -648,7 +659,7 @@
       "summary": "npm version 12 improves supply chain security by disabling automatic execution of install scripts by default and deprecating tokens that bypass two-factor authentication. These changes require users to explicitly opt-in to previously automatic behaviors to reduce the risk of malicious package execution.",
       "date": "2026-07-09T16:49:02.000Z",
       "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6545b788-96b4-4b19-9ca0-5193a2d10afd",
@@ -769,7 +780,7 @@
       "summary": "AssuranceAmerica suffered a major data breach after hackers compromised an employee account, exposing the driver's license information of nearly 7 million individuals. This incident marks one of the most significant thefts of sensitive personal identification data recorded in 2026.",
       "date": "2026-07-09T12:40:16.000Z",
       "link": "https://securityaffairs.com/195027/data-breach/assuranceamerica-breach-exposes-7-million-drivers-licenses-after-employee-account-hack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "abe64ba7-1998-42f2-9c80-5dcb004da035",
@@ -5488,17 +5499,6 @@
       "summary": "ThreatModeler has launched Nexus, an agentic threat modeling platform that leverages AI governance to automate security architecture analysis throughout the software development lifecycle.",
       "date": "2026-06-26T07:23:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/threatmodeler-introduces-nexus-to-automate-threat-modeling-with-ai-governance/",
-      "isTopTen": false
-    },
-    {
-      "id": "d35a814a-cbd3-43fa-8a4f-95b73f1d7c35",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "macOS.Gaslight: North Korea-Linked Malware That Tries to Gaslight the Analyst",
-      "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
-      "date": "2026-06-26T07:18:36.000Z",
-      "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
       "isTopTen": false
     }
   ]
