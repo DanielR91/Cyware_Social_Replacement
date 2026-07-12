@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-12T03:24:32.478Z",
+  "lastUpdated": "2026-07-12T08:25:45.141Z",
   "articles": [
+    {
+      "id": "e8cd7950-5ed2-433d-8dad-7482b0a7400d",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Week in review: Accenture data breach, great open-source cybersecurity tools",
+      "summary": "This weekly review covers a significant data breach at Accenture alongside insights on securing email through DMARC and BIMI implementations. It also features a curated list of open-source cybersecurity tools for industry professionals.",
+      "date": "2026-07-12T08:00:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/",
+      "isTopTen": false
+    },
+    {
+      "id": "e6911c75-2cb7-4aa8-ba71-5c7c8c579fe6",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 585 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The latest edition of the Security Affairs newsletter highlights CISA's addition of iCagenda and Balbooa Forms vulnerabilities to its Known Exploited Vulnerabilities catalog. The update covers critical security developments and international cyber news.",
+      "date": "2026-07-12T04:58:08.000Z",
+      "link": "https://securityaffairs.com/195175/breaking-news/security-affairs-newsletter-round-585-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "a55d6ece-5150-47a1-b46b-5d238fd6f67c",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "CISA has added security vulnerabilities found in iCagenda and Balbooa Forms, both popular Joomla extensions, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation. Organizations are urged to patch these systems to mitigate potential compromise.",
       "date": "2026-07-11T19:31:19.000Z",
       "link": "https://securityaffairs.com/195164/security/u-s-cisa-adds-icagenda-and-balbooa-forms-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "97d82c74-abb4-4f13-a10c-0723e4b08773",
@@ -21,7 +43,7 @@
       "summary": "The jscrambler npm package version 8.14.0 was compromised to include a malicious preinstall hook that automatically deploys a cross-platform Rust-based infostealer upon installation. The incident highlights the risks of supply chain attacks where malicious code executes immediately without requiring explicit user interaction.",
       "date": "2026-07-11T17:59:26.000Z",
       "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "56ae1d19-f71c-4b8b-a628-11c0db2faefb",
@@ -164,7 +186,7 @@
       "summary": "Threat actors compromised the Injective Labs GitHub repository to distribute a malicious version of the @injectivelabs/sdk-ts npm package designed to steal cryptocurrency wallet credentials. This supply chain attack used fake telemetry functionality to exfiltrate private keys and mnemonic phrases from affected users.",
       "date": "2026-07-10T16:29:00.000Z",
       "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "60a59b51-469d-48c4-a973-e44ca25ca9ec",
@@ -318,7 +340,7 @@
       "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
       "date": "2026-07-10T10:30:20.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
@@ -428,7 +450,7 @@
       "summary": "The reliance of modern software stacks on open-source libraries maintained by individuals creates significant security risks due to potential lack of support and oversight. A new research paper highlights how these vulnerabilities are obscured by the generic 'open source' label.",
       "date": "2026-07-10T07:00:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/10/open-source-software-library-types/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3ef07ebf-72c0-4aab-aaf8-4b516b7cb24a",
@@ -527,7 +549,7 @@
       "summary": "INTERPOL's Operation First Light 2026 successfully concluded with 5,811 arrests and the seizure of $293 million in illicit assets across 97 countries. The operation focused on dismantling large-scale global fraud and money laundering networks.",
       "date": "2026-07-09T21:29:15.000Z",
       "link": "https://securityaffairs.com/195056/security/interpol-operation-first-light-nets-5811-arrests-and-seizes-293-million.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3a5a22f-91b8-4a29-9215-ce72da85d381",
@@ -5477,28 +5499,6 @@
       "summary": "Microsoft has extended the Extended Security Updates (ESU) program for Windows 10 consumers by an additional year, providing security coverage until October 12, 2027. This update allows users to maintain device security longer than previously anticipated without immediate forced upgrades.",
       "date": "2026-06-26T06:32:57.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/26/microsoft-windows-10-free-security-updates-esu-program/",
-      "isTopTen": false
-    },
-    {
-      "id": "9a85540e-8d97-4587-bd0a-50f8730ea5ed",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Security boss thought MFA would be too much security",
-      "summary": "A security executive chose to bypass multi-factor authentication (MFA) protocols for leadership, citing concerns over excessive security despite enforcing them for the rest of the workforce. This decision highlights a hypocritical 'rules for thee, not for me' approach that undermines organizational security posture.",
-      "date": "2026-06-26T06:30:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/26/security-boss-thought-mfa-would-be-too-much-security/5261934",
-      "isTopTen": false
-    },
-    {
-      "id": "5dcaf6b5-d1c2-4d3d-99e7-37db9917c03b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "A privacy-first take on local malware analysis",
-      "summary": "The article discusses the privacy risks of uploading suspicious files to public malware repositories, where attackers can track the distribution of their own tools. It advocates for local malware analysis techniques to maintain operational security.",
-      "date": "2026-06-26T06:00:14.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/26/burnyard-local-malware-analysis/",
       "isTopTen": false
     }
   ]
