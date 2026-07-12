@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-12T13:37:46.298Z",
+  "lastUpdated": "2026-07-12T16:04:38.102Z",
   "articles": [
+    {
+      "id": "33bf0bc5-665b-4b85-94c4-e904d9957ec9",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Progress Told ShareFile Customers to Pull the Plug on Their Servers. Here’s What We Know.",
+      "summary": "Progress Software has issued an urgent directive for ShareFile Storage Zone customers to disconnect internet-facing servers due to an active, credible security threat. Users are required to take immediate action to mitigate potential exploitation of their infrastructure.",
+      "date": "2026-07-12T14:39:10.000Z",
+      "link": "https://securityaffairs.com/195194/hacking/progress-told-sharefile-customers-to-pull-the-plug-on-their-servers-heres-what-we-know.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a4bea2b1-ff92-4c66-9150-17b89b16c1c4",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 105",
+      "summary": "This newsletter highlights recent malware research, including the emergence of the cross-platform QuimaRAT, Avalon ransomware developments, and the BusySnake stealer campaign.",
+      "date": "2026-07-12T13:57:19.000Z",
+      "link": "https://securityaffairs.com/195187/breaking-news/security-affairs-malware-newsletter-round-105.html",
+      "isTopTen": false
+    },
     {
       "id": "e8cd7950-5ed2-433d-8dad-7482b0a7400d",
       "source": "Help Net Security",
@@ -32,7 +54,7 @@
       "summary": "CISA has added security vulnerabilities found in iCagenda and Balbooa Forms, both popular Joomla extensions, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation. Organizations are urged to patch these systems to mitigate potential compromise.",
       "date": "2026-07-11T19:31:19.000Z",
       "link": "https://securityaffairs.com/195164/security/u-s-cisa-adds-icagenda-and-balbooa-forms-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "97d82c74-abb4-4f13-a10c-0723e4b08773",
@@ -175,7 +197,7 @@
       "summary": "Progress Software has advised ShareFile customers to shut down their Storage Zone Controllers due to a credible external security threat. The company has temporarily disabled access to impacted accounts while investigating the issue.",
       "date": "2026-07-10T16:30:00.000Z",
       "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7e17074c-2233-483a-af75-7841681ee950",
@@ -318,7 +340,7 @@
       "summary": "A misconfigured server belonging to a cybercrime group has exposed the operational details of a large-scale campaign that compromised thousands of WordPress sites using the WP-SHELLSTORM backdoor. The discovery provides researchers with unique visibility into the internal tools, logs, and target lists used in the mass-hacking operation.",
       "date": "2026-07-10T11:30:02.000Z",
       "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9ce333fd-aff8-4c40-9bab-f45267ff09de",
@@ -329,7 +351,7 @@
       "summary": "A study of 281 popular free Android VPNs revealed widespread security failures, including traffic leaks and unencrypted data, affecting over 2.4 billion installations. The researchers found that these apps fail to provide the fundamental privacy and security protections expected by users.",
       "date": "2026-07-10T10:56:23.000Z",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b125d709-cd27-4c41-9c51-1562677ab2a4",
@@ -340,7 +362,7 @@
       "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
       "date": "2026-07-10T10:30:20.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
@@ -5477,28 +5499,6 @@
       "summary": "North Korean threat actors have developed a Rust-based macOS implant called macOS.Gaslight that utilizes prompt injection payloads to deceive AI-driven security analysis tools. The malware was discovered after an Apple XProtect update and represents a novel tactic in anti-forensic techniques.",
       "date": "2026-06-26T07:18:36.000Z",
       "link": "https://securityaffairs.com/194256/malware/macos-gaslight-north-korea-linked-malware-that-tries-to-gaslight-the-analyst.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2193c434-13b8-4c43-9f3a-05c0438168bf",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-      "summary": "Google Threat Intelligence has identified a new .NET backdoor named STOCKSTAY, developed by the Russian-linked threat actor Turla for use in espionage operations against Ukrainian government and military entities. The malware is part of an ongoing campaign targeting organizations with interests in Italian foreign policy.",
-      "date": "2026-06-26T07:15:46.000Z",
-      "link": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1cb2ed91-6154-431c-81ad-b600ff5d6647",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Microsoft gives Windows 10 users an unexpected extra year of free security updates",
-      "summary": "Microsoft has extended the Extended Security Updates (ESU) program for Windows 10 consumers by an additional year, providing security coverage until October 12, 2027. This update allows users to maintain device security longer than previously anticipated without immediate forced upgrades.",
-      "date": "2026-06-26T06:32:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/26/microsoft-windows-10-free-security-updates-esu-program/",
       "isTopTen": false
     }
   ]
