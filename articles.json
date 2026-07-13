@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-07-13T17:19:36.443Z",
+  "lastUpdated": "2026-07-13T19:30:32.712Z",
   "articles": [
+    {
+      "id": "862c6c6b-f29c-42a6-9fbf-9efa8749a32d",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Lidl Notified Online Shop Customers in Germany, Belgium, and the Netherlands of a Data Breach",
+      "summary": "Lidl informed online customers in Germany, Belgium, and the Netherlands that their personal data was compromised following a security incident at a third-party IT service provider. The company confirmed that customer payment information was not affected by the breach.",
+      "date": "2026-07-13T19:21:42.000Z",
+      "link": "https://securityaffairs.com/195270/data-breach/lidl-notified-online-shop-customers-in-germany-belgium-and-the-netherlands-of-a-data-breach.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c47cdc42-6020-48e8-aa08-48400a117e0e",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "VPN service favored by ransomware groups is sanctioned by US",
+      "summary": "The U.S. Treasury has sanctioned First VPN Service and its administrator for facilitating ransomware operations, alongside a Belarusian individual linked to malware development.",
+      "date": "2026-07-13T18:50:00.000Z",
+      "link": "https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups",
+      "isTopTen": true
+    },
+    {
+      "id": "927380fd-6044-4773-aaee-9cc641c14a7b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "U.S. CISA adds a Cisco IOS flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has officially added CVE-2008-4128, a CSRF vulnerability affecting Cisco IOS 12.4 on Cisco 871 routers, to its Known Exploited Vulnerabilities catalog.",
+      "date": "2026-07-13T18:05:08.000Z",
+      "link": "https://securityaffairs.com/195262/security/u-s-cisa-adds-a-cisco-ios-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0f070299-7dd7-4551-b24a-c580f384da24",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+      "summary": "Researchers discovered a new macOS information stealer called CrashStealer that utilizes a notarized dropper to bypass Apple's Gatekeeper security checks. The malware is written in native C++ and performs local password validation to exfiltrate sensitive data from infected systems.",
+      "date": "2026-07-13T17:36:12.000Z",
+      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4bafdf6b-9f1d-4cab-8865-9d0387e92068",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
+      "summary": "Google and Microsoft removed the popular ModHeader extension from their stores after discovering a hidden, dormant browsing-history collector. While the malicious feature was inactive and no data exfiltration was confirmed, the extension was pulled as a proactive security measure.",
+      "date": "2026-07-13T17:17:24.000Z",
+      "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+      "isTopTen": false
+    },
+    {
+      "id": "bbd59533-8de1-4966-8c86-fdb979d4119b",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach",
+      "summary": "Russian journalist Ksenia Sobchak reported that her Telegram channels were compromised through an email-based breach, resulting in the unauthorized release of potentially fabricated private correspondence. The incident highlights the risks associated with account takeovers involving linked third-party email services.",
+      "date": "2026-07-13T17:15:00.000Z",
+      "link": "https://therecord.media/ksenia-sobchak-russian-hackers-leak",
+      "isTopTen": false
+    },
     {
       "id": "148ce8f6-3b39-450b-8b4a-3fb52ee04b08",
       "source": "Help Net Security",
@@ -32,7 +98,7 @@
       "summary": "The EU and UK have formally attributed a cyberattack on Poland's power grid to Russian state-sponsored actors, resulting in coordinated international sanctions. The incident, which occurred during winter, threatened to disrupt energy services for half a million citizens.",
       "date": "2026-07-13T15:39:52.000Z",
       "link": "https://www.theregister.com/security/2026/07/13/uk-eu-officially-pin-poland-energy-cyberattack-on-russia/5270458",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a4cf434-6b06-43ae-a244-d6374799aec3",
@@ -153,7 +219,7 @@
       "summary": "A former ransomware negotiator has been sentenced to 70 months in prison for leaking confidential client data to the BlackCat ransomware group and participating in subsequent attacks. The individual exploited his position at an incident response firm to provide attackers with sensitive victim information and negotiating leverage.",
       "date": "2026-07-13T12:22:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e13fd004-6272-4200-a9ae-cfbda20ebb55",
@@ -186,7 +252,7 @@
       "summary": "Meta has filed a patent for an AI system designed to continuously record audio, analyze emotional states, and log location and behavioral metadata. This raises significant privacy and surveillance concerns regarding user data collection and tracking.",
       "date": "2026-07-13T11:54:46.000Z",
       "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0396183d-772e-4c14-a8b9-9cb29745c5c1",
@@ -197,7 +263,7 @@
       "summary": "Progress Software has directed customers to shut down their on-premises ShareFile Storage Zone Controllers due to a credible external security threat. As a precautionary measure, the company has disabled affected ShareFile accounts.",
       "date": "2026-07-13T11:45:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/13/progress-sharefile-security-threat/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "82c33207-53c0-419e-80c6-cf6c13fde6ff",
@@ -285,7 +351,7 @@
       "summary": "The rapid adoption of AI-generated code is exacerbating security debt, forcing CISOs to transition from simple tool approvals to comprehensive governance frameworks to manage software risks. This shift is necessary to address the increasing velocity of vulnerabilities introduced by automated coding practices.",
       "date": "2026-07-13T09:00:00.000Z",
       "link": "https://cyberscoop.com/governing-ai-code-security-risks-op-ed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "45e9666e-ebb0-4607-a3e7-73fb49f64cb1",
@@ -340,7 +406,7 @@
       "summary": "CISA has added two critical-severity, actively exploited zero-day vulnerabilities affecting iCagenda and Balbooa Joomla extensions to its Known Exploited Vulnerabilities catalog. Both vulnerabilities hold a maximum CVSS score of 10.0, indicating the highest level of risk.",
       "date": "2026-07-13T05:36:02.000Z",
       "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3c8968d0-abd1-4926-ae27-1a9bfa0f4f02",
@@ -384,7 +450,7 @@
       "summary": "The UK and EU have issued their first joint cyber sanctions against Russia's FSB, specifically the Center 16 unit, for orchestrating sabotage attempts on Poland's energy and water infrastructure. This action marks a coordinated international response to escalating state-sponsored malicious cyber activities.",
       "date": "2026-07-12T23:00:00.000Z",
       "link": "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5ffd7f0d-cc06-46f7-a9ca-ba6b3a9514ae",
@@ -472,7 +538,7 @@
       "summary": "The jscrambler npm package version 8.14.0 was compromised to include a malicious preinstall hook that automatically deploys a cross-platform Rust-based infostealer upon installation. The incident highlights the risks of supply chain attacks where malicious code executes immediately without requiring explicit user interaction.",
       "date": "2026-07-11T17:59:26.000Z",
       "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "56ae1d19-f71c-4b8b-a628-11c0db2faefb",
@@ -571,7 +637,7 @@
       "summary": "Microsoft has identified a new modular backdoor called GigaWiper that integrates multiple malware families, including wipers and ransomware, into a single destructive package. This tool demonstrates an evolution in multi-functional threat payloads designed to maximize damage during a compromise.",
       "date": "2026-07-10T17:35:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c80f931b-21ee-4bb2-93cf-316f5f737840",
@@ -604,7 +670,7 @@
       "summary": "Progress Software has advised ShareFile customers to shut down their Storage Zone Controllers due to a credible external security threat. The company has temporarily disabled access to impacted accounts while investigating the issue.",
       "date": "2026-07-10T16:30:00.000Z",
       "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7e17074c-2233-483a-af75-7841681ee950",
@@ -758,7 +824,7 @@
       "summary": "A study of 281 popular free Android VPNs revealed widespread security failures, including traffic leaks and unencrypted data, affecting over 2.4 billion installations. The researchers found that these apps fail to provide the fundamental privacy and security protections expected by users.",
       "date": "2026-07-10T10:56:23.000Z",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b125d709-cd27-4c41-9c51-1562677ab2a4",
@@ -5433,72 +5499,6 @@
       "summary": "The integration of AI into vulnerability discovery is rapidly uncovering vast numbers of previously unknown security flaws, placing significant strain on cybersecurity teams. This surge in identified vulnerabilities is expected to create a challenging and resource-intensive summer for security operations.",
       "date": "2026-06-27T06:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-      "isTopTen": false
-    },
-    {
-      "id": "620bee93-99a3-4038-bb82-f6475b73dbcc",
-      "source": "BleepingComputer",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI: Russian hackers now target Signal backup recovery keys",
-      "summary": "Russian intelligence services are utilizing phishing campaigns to harvest Signal Backup Recovery Keys, enabling the decryption and unauthorized access of users' historical messages. This evolution in tactics poses a significant risk to the privacy of encrypted communications.",
-      "date": "2026-06-26T22:06:17.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
-      "isTopTen": false
-    },
-    {
-      "id": "f9f247af-884b-4617-8723-5f497ab03405",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "8 Top SAST Tools for Polyglot Monorepos and Platform Engineering in 2026",
-      "summary": "This article evaluates eight leading Static Application Security Testing (SAST) tools optimized for handling complex, multi-language monorepos and large-scale platform engineering environments in 2026. It focuses on features like incremental scanning, automated ownership, and custom rule management.",
-      "date": "2026-06-26T21:54:40.000Z",
-      "link": "https://hackread.com/top-sast-tools-polyglot-monorepos-platform-engineering/",
-      "isTopTen": false
-    },
-    {
-      "id": "7cedd5ae-d0ff-41b6-b47b-aad7ce4a5385",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Even the Secret Service won't use company-issued phones",
-      "summary": "The U.S. Secret Service is facing scrutiny for security failures, including the use of personal cell phones for sensitive missions and a lack of threat detection capabilities on government-issued devices. These operational lapses highlight significant vulnerabilities in the agency's mobile security infrastructure.",
-      "date": "2026-06-26T21:50:47.000Z",
-      "link": "https://www.theregister.com/security/2026/06/26/even-the-secret-service-wont-use-company-issued-phones/5263356",
-      "isTopTen": false
-    },
-    {
-      "id": "88d580c4-05e9-4d14-acc2-f4e630bf8cf3",
-      "source": "BleepingComputer",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-      "summary": "CISA has issued an urgent directive requiring federal agencies to patch an actively exploited vulnerability in Cisco Unified Communications Manager Server by this Sunday. The mandate aims to mitigate risks posed by ongoing attacks targeting the flaw.",
-      "date": "2026-06-26T19:43:06.000Z",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "937a8b75-2836-4b83-87ce-c36b21a471e3",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-      "summary": "The FBI and CISA have issued an alert regarding Russian intelligence actors who are phishing Signal users to obtain their backup recovery keys, enabling unauthorized access to message history and account takeovers.",
-      "date": "2026-06-26T19:38:29.000Z",
-      "link": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d3a0fc04-010a-4166-a1c0-231372154f71",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Woodgnat Hackers Use Mistic RAT to Broker Access for Ransomware Gangs",
-      "summary": "The Woodgnat hacking group is utilizing the Mistic RAT to compromise corporate networks, acting as initial access brokers for various ransomware syndicates. This operational model significantly increases the risk of downstream ransomware attacks for the victimized organizations.",
-      "date": "2026-06-26T19:38:14.000Z",
-      "link": "https://hackread.com/woodgnat-hackers-mistic-rat-access-ransomware-gangs/",
       "isTopTen": false
     }
   ]
