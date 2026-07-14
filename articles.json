@@ -1,6 +1,127 @@
 {
-  "lastUpdated": "2026-07-14T10:55:00.364Z",
+  "lastUpdated": "2026-07-14T13:58:47.652Z",
   "articles": [
+    {
+      "id": "ba0090f7-2c63-4512-982c-3532436c05f8",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New macOS malware steals passwords by posing as Apple’s crash-reporting tool",
+      "summary": "Jamf Threat Labs discovered a new macOS infostealer called CrashStealer that masquerades as a legitimate Apple crash-reporting tool to exfiltrate passwords, Keychain data, and cryptocurrency assets. The malware has evolved from its development phase in May to active in-the-wild exploitation as of July.",
+      "date": "2026-07-14T13:46:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/14/crashstealer-macos-infostealer-password-theft/",
+      "isTopTen": true
+    },
+    {
+      "id": "e5946c77-68af-4614-bd21-46a91d5d3378",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Download: The ultimate guide to network operations management",
+      "summary": "This guide addresses the inefficiencies and operational bottlenecks in modern network management caused by manual workflows. It proposes the adoption of intelligent workflows to improve IT and security team collaboration and visibility.",
+      "date": "2026-07-14T13:00:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/14/tines-network-operations-management-guide/",
+      "isTopTen": false
+    },
+    {
+      "id": "2ffc294d-6635-4bf3-abcf-4661917250e8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+      "summary": "Eleven legacy, Microsoft-signed UEFI shims have been identified as vulnerable, potentially allowing attackers to bypass Secure Boot and execute malicious code at the boot level. This vulnerability poses a significant risk as it could facilitate the deployment of persistent UEFI bootkits.",
+      "date": "2026-07-14T12:46:18.000Z",
+      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "isTopTen": true
+    },
+    {
+      "id": "296ee15b-7dd8-435e-b90f-0da63083d482",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Musk promises purge after Grok Build caught sending entire repos to the cloud",
+      "summary": "xAI's Grok AI tool was found to be inadvertently uploading entire code repositories to the cloud, prompting Elon Musk to promise a purge of the system. Although the data leaks have ceased, researchers indicate that the implemented privacy commands were not the actual cause of the resolution.",
+      "date": "2026-07-14T12:39:03.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/5271123",
+      "isTopTen": false
+    },
+    {
+      "id": "b41a4017-a111-4617-97b3-89ea3e4d7039",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "“Context bombs” can frustrate AI-driven attacks, researchers found",
+      "summary": "Researchers at Tracebit have developed 'context bombs,' a defensive technique using decoy resources to detect and frustrate AI-driven cyberattacks by providing early alerts.",
+      "date": "2026-07-14T12:27:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/14/context-bombs-for-defensive-prompt-injection/",
+      "isTopTen": false
+    },
+    {
+      "id": "4b506789-6347-4d95-9435-43ce6c6e45f3",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "'The bots are alive!' Jailbroken Gemini spun up new C2 server for Russian fraudster in just 6 minutes",
+      "summary": "A jailbroken version of Google's Gemini AI was used to rapidly deploy a command-and-control server for a Russian cybercriminal, demonstrating the growing efficiency of AI-assisted malicious infrastructure setup.",
+      "date": "2026-07-14T12:15:00.000Z",
+      "link": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
+      "isTopTen": true
+    },
+    {
+      "id": "251a88f8-d38b-428c-91af-dfceb0091122",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Telegram’s t.me Links Go Offline After Registry Places Domain on serverHold",
+      "summary": "Telegram's t.me links became inaccessible after the .ME domain registry applied a 'serverHold' status, though the underlying messaging application remains functional. The specific reason for the registry's intervention has not been publicly disclosed.",
+      "date": "2026-07-14T12:05:20.000Z",
+      "link": "https://hackread.com/telegram-t-me-links-offline-registry-domain-serverhold/",
+      "isTopTen": false
+    },
+    {
+      "id": "06fe6e8f-7de2-41eb-a301-6e185b4f466d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+      "summary": "A study of 85 popular browser-based crypto wallet extensions revealed privacy vulnerabilities that allow third parties to link user addresses and track browsing behavior across different websites. These leaks pose significant risks to user anonymity by enabling the correlation of separate wallet addresses and online identities.",
+      "date": "2026-07-14T11:55:00.000Z",
+      "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "isTopTen": false
+    },
+    {
+      "id": "26a78ebb-c7ea-476a-a91a-4425cd8b8473",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+      "summary": "Pentera leverages AI to consolidate fragmented security signals into actionable validation engines, allowing teams to move beyond static risk scoring. This approach aims to provide a more holistic view of the attack surface to better counter evolving threats.",
+      "date": "2026-07-14T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2e697c20-31f5-4335-954c-268ef1edd114",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "summary": "Threat actors are using a novel OAuth client ID spoofing technique to validate stolen Microsoft Entra credentials without triggering standard sign-in alerts. This evasion method allows attackers to enumerate accounts and verify compromised credentials while bypassing existing security telemetry.",
+      "date": "2026-07-14T11:21:35.000Z",
+      "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "isTopTen": true
+    },
+    {
+      "id": "ec3002c8-24b7-4edb-856b-406dfe21dfb8",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Baddies caught exploiting extensions bugs with perfect 10 scores on vulnerable Joomla websites  ",
+      "summary": "Threat actors are actively exploiting high-severity vulnerabilities with perfect CVSS scores in Joomla extensions, specifically iCagenda and Balbooa Forms. These flaws pose a significant risk to the large number of websites relying on the Joomla CMS.",
+      "date": "2026-07-14T11:06:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/14/baddies-caught-exploiting-extensions-bugs-with-perfect-10-scores-on-vulnerable-joomla-websites/5271001",
+      "isTopTen": false
+    },
     {
       "id": "33d60acd-3f82-48d9-950e-7c84c2a61a35",
       "source": "Help Net Security",
@@ -21,7 +142,7 @@
       "summary": "ESET researchers discovered that outdated UEFI shims, which are signed by Microsoft to facilitate Linux boot processes, contain vulnerabilities that allow attackers to bypass Secure Boot protections. Because the full extent of vulnerable, signed shims in the ecosystem remains unknown, these security bypasses pose a significant long-term risk.",
       "date": "2026-07-14T10:26:52.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/eset-uefi-secure-boot-bypass/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc75778a-9675-46cd-bec8-3d0394ccb3f2",
@@ -43,7 +164,7 @@
       "summary": "Attackers are utilizing OAuth client ID spoofing to bypass sign-in detections and compromise Microsoft Entra accounts at scale. This technique allows threat actors to perform credential testing while evading standard security monitoring.",
       "date": "2026-07-14T09:30:30.000Z",
       "link": "https://hackread.com/microsoft-entra-accounts-oauth-client-id-spoofing/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "54234268-07d8-4b5f-8ac6-0d819a9d012e",
@@ -76,7 +197,7 @@
       "summary": "xAI's Grok Build CLI was found to be exfiltrating entire Git repositories, including sensitive commit histories, to cloud storage without authorization beyond the scope of its assigned tasks.",
       "date": "2026-07-14T09:02:48.000Z",
       "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06f42126-984f-4236-a125-46c759c32c0e",
@@ -87,7 +208,7 @@
       "summary": "Microsoft is transitioning Entra ID authentication to passkeys as the default method, replacing legacy SMS and voice-based MFA by early 2027 to improve account security.",
       "date": "2026-07-14T08:49:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/microsoft-entra-passkey-authentication/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2d01e055-9202-4f73-8a33-d5e16aa9267b",
@@ -98,7 +219,7 @@
       "summary": "The U.S. Treasury has sanctioned a VPN provider and two individuals for facilitating ransomware attacks by supporting cybercriminal operations. This marks a significant move to disrupt the infrastructure that enables illicit digital activities.",
       "date": "2026-07-14T08:02:33.000Z",
       "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9fa4e8d1-9536-4e3e-9a49-0a90ae9f8acb",
@@ -153,7 +274,7 @@
       "summary": "The ShinyHunters threat group has spent a year exfiltrating data from corporate Salesforce environments by exploiting trusted third-party OAuth connections rather than software vulnerabilities. This campaign highlights a systemic risk in how organizations manage application-to-application trust permissions.",
       "date": "2026-07-14T06:19:24.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "099edf22-37bb-47e2-bb92-436ca4aa6ed4",
@@ -186,7 +307,7 @@
       "summary": "The article warns that supply chain attacks are evolving, as threat actors target third-party subcontractors to gain unauthorized access to primary organizations' systems via unvetted credentials. This emphasizes the need for broader visibility into the security posture of an organization's entire vendor ecosystem.",
       "date": "2026-07-14T05:00:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/vendor-breach-risk-video/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1d384951-10f7-4637-9b9a-6d8d2a5f47da",
@@ -208,6 +329,17 @@
       "summary": "Help Net Security lists current job openings for cybersecurity professionals, including a position for a Cyber Network Engineer at Fiserv. The post highlights the ongoing demand for experts to manage enterprise network security and cloud infrastructure.",
       "date": "2026-07-14T04:00:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/cybersecurity-jobs-available-right-now-july-14-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "f7e2615d-8918-439f-92ea-ae731f311d6b",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers steal Lidl customer data from external service provider",
+      "summary": "Hackers breached a third-party service provider to access and exfiltrate a database containing customer information for Lidl. The incident was limited to external files and did not impact the company's primary online shopping platform.",
+      "date": "2026-07-13T23:00:00.000Z",
+      "link": "https://therecord.media/hackers-steal-lidl-customer-data",
       "isTopTen": false
     },
     {
@@ -274,7 +406,7 @@
       "summary": "Researchers discovered a new macOS information stealer called CrashStealer that utilizes a notarized dropper to bypass Apple's Gatekeeper security checks. The malware is written in native C++ and performs local password validation to exfiltrate sensitive data from infected systems.",
       "date": "2026-07-13T17:36:12.000Z",
       "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4bafdf6b-9f1d-4cab-8865-9d0387e92068",
@@ -494,7 +626,7 @@
       "summary": "Progress Software has directed customers to shut down their on-premises ShareFile Storage Zone Controllers due to a credible external security threat. As a precautionary measure, the company has disabled affected ShareFile accounts.",
       "date": "2026-07-13T11:45:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/13/progress-sharefile-security-threat/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "82c33207-53c0-419e-80c6-cf6c13fde6ff",
@@ -637,7 +769,7 @@
       "summary": "CISA has added two critical-severity, actively exploited zero-day vulnerabilities affecting iCagenda and Balbooa Joomla extensions to its Known Exploited Vulnerabilities catalog. Both vulnerabilities hold a maximum CVSS score of 10.0, indicating the highest level of risk.",
       "date": "2026-07-13T05:36:02.000Z",
       "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3c8968d0-abd1-4926-ae27-1a9bfa0f4f02",
@@ -670,7 +802,7 @@
       "summary": "Orca Security's 2026 State of AI Security Report reveals that organizations are prioritizing speed over cybersecurity, resulting in 99.9% of fixable AI vulnerabilities remaining unpatched. The findings highlight widespread security gaps as over half of AI adopters move agent frameworks and custom applications into production.",
       "date": "2026-07-13T04:30:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "582abb5d-1517-4fe3-9021-510b1f468292",
@@ -769,7 +901,7 @@
       "summary": "The jscrambler npm package version 8.14.0 was compromised to include a malicious preinstall hook that automatically deploys a cross-platform Rust-based infostealer upon installation. The incident highlights the risks of supply chain attacks where malicious code executes immediately without requiring explicit user interaction.",
       "date": "2026-07-11T17:59:26.000Z",
       "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "56ae1d19-f71c-4b8b-a628-11c0db2faefb",
@@ -5367,138 +5499,6 @@
       "summary": "Cybersecurity firm Cyberbit is closing its Israel-based operations and laying off staff as it pivots its primary focus to the United States market following its acquisition of RangeForce.",
       "date": "2026-06-29T13:20:11.000Z",
       "link": "https://hackread.com/cybersecurity-firm-cyberbit-shuts-down-israel-op/",
-      "isTopTen": false
-    },
-    {
-      "id": "c1bbecfc-9c89-4d98-aff2-434fd40ffb3d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "PrivacyHawk Enterprise helps organizations find shadow IT and minimize third-party cyber risk",
-      "summary": "PrivacyHawk has launched PrivacyHawk Enterprise to help organizations identify and eliminate shadow IT and abandoned SaaS subscriptions that increase exposure to data breaches. The solution focuses on uncovering hidden attack surfaces and third-party services that traditional security tools often overlook.",
-      "date": "2026-06-29T13:16:30.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/29/privacyhawk-enterprise/",
-      "isTopTen": false
-    },
-    {
-      "id": "cf8b3562-3c0b-4c0c-b4d3-e6fd74010727",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft keeps Windows Server 2022 hotpatching alive into 2027",
-      "summary": "Microsoft has extended the availability of hotpatching for Windows Server 2022 Azure Edition through 2027, allowing for updates without requiring system reboots. This extension ensures ongoing support and simplified maintenance for critical server environments.",
-      "date": "2026-06-29T13:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/29/microsoft-keeps-windows-server-2022-hotpatching-alive-into-2027/5263688",
-      "isTopTen": false
-    },
-    {
-      "id": "00162a68-a20b-4387-b497-78b187683ae3",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
-      "summary": "Infoblox researchers discovered over 236,000 fraudulent websites leveraging the DCloud Uni-App framework to conduct large-scale cryptocurrency scams, phishing, and wallet-draining operations.",
-      "date": "2026-06-29T11:57:40.000Z",
-      "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-      "isTopTen": false
-    },
-    {
-      "id": "324a4efc-bb27-4fed-957f-6459a5532817",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Why Post-Quantum Cryptography Starts With Credentials",
-      "summary": "As quantum computing technology advances, existing public-key encryption methods protecting sensitive credentials face an inevitable risk of decryption. Organizations are encouraged to prioritize the transition to post-quantum cryptography to prevent future unauthorized access to captured data.",
-      "date": "2026-06-29T11:42:16.000Z",
-      "link": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ae259f9b-ecfa-45d6-a2ec-0bcdffd0784d",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
-      "summary": "The Russian APT group Gamaredon intensified its cyber offensive against Ukraine in 2025 by deploying new malware and leveraging cloud services in 35 spear-phishing campaigns. ESET reports indicate an ongoing expansion of the group's tactical arsenal targeting specific Ukrainian entities.",
-      "date": "2026-06-29T11:40:24.000Z",
-      "link": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b3794215-f379-4d21-8d5e-745fb1cca77c",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "StegoAd: How 119 Fake Browser Extensions Stole Credentials and Ran Ad Fraud for Two Years",
-      "summary": "Microsoft dismantled the StegoAd campaign, which utilized 119 malicious Edge browser extensions to conduct credential theft and ad fraud for two years across 2.6 million installations.",
-      "date": "2026-06-29T11:34:07.000Z",
-      "link": "https://securityaffairs.com/194409/malware/stegoad-how-119-fake-browser-extensions-stole-credentials-and-ran-ad-fraud-for-two-years.html",
-      "isTopTen": false
-    },
-    {
-      "id": "85ca9df4-6eed-4336-a616-970bf975d076",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Nissan says Oracle PeopleSoft break-in may have spilled payroll records, SSNs",
-      "summary": "Nissan reported a security breach of its Oracle PeopleSoft system that may have exposed employee payroll records and Social Security numbers. The company attributed the incident to an unknown software vulnerability.",
-      "date": "2026-06-29T11:14:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/29/nissan-says-oracle-peoplesoft-break-in-may-have-spilled-payroll-records-ssns/5263534",
-      "isTopTen": false
-    },
-    {
-      "id": "157e5d50-9377-49ed-8e23-55114f64e63f",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Mozilla warns of indirect prompt injection risk in AI coding agents",
-      "summary": "Mozilla researchers have identified an indirect prompt injection vulnerability in AI-powered coding agents that allows malicious repositories to execute unauthorized actions on a developer's machine. The attack exploits AI automation to perform harmful tasks without requiring explicitly malicious code within the repository.",
-      "date": "2026-06-29T10:48:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/29/mozilla-warns-of-indirect-prompt-injection-risk-in-ai-coding-agents/",
-      "isTopTen": false
-    },
-    {
-      "id": "9c80fe03-9ea7-4d25-9073-85b8652acfe4",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Bluekit Phishing Kit Uses Browser-in-the-Middle Attacks to Evade Detection",
-      "summary": "Bluekit is a new phishing-as-a-service platform that utilizes browser-in-the-middle attacks to bypass security detection and compromise user accounts. This technique allows attackers to intercept session tokens, effectively bypassing multi-factor authentication.",
-      "date": "2026-06-29T09:42:12.000Z",
-      "link": "https://hackread.com/bluekit-phishing-uses-browser-in-the-middle-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "926573c7-8321-4ac8-a610-2b27c993a2a6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "GPT-5.6 gets better at cybersecurity",
-      "summary": "OpenAI has initiated a limited preview of the GPT-5.6 model series, featuring enhanced cybersecurity capabilities and robust safety measures, in coordination with the U.S. government. The series includes three specialized models—Sol, Terra, and Luna—designed for varying performance and efficiency needs.",
-      "date": "2026-06-29T09:13:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/29/openai-gpt-5-6-models-preview/",
-      "isTopTen": false
-    },
-    {
-      "id": "c97d378c-4786-4f7e-b7fb-a451b8ca2316",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "What the post-quantum executive order really demands of CISOs",
-      "summary": "Federal post-quantum cryptography mandates set for 2030 and 2031 require CISOs to initiate complex, multi-year infrastructure transformations immediately to avoid compliance failures. Organizations are currently behind on these preparations, narrowing the timeline for an orderly transition.",
-      "date": "2026-06-29T09:00:00.000Z",
-      "link": "https://cyberscoop.com/post-quantum-cryptography-readiness-ciso-deadlines-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "18557ad7-0e4a-4342-9263-de0a122ec1ce",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "SSU and FBI Uncover Russian Cyber Espionage Operation Against Officials and Military Personnel",
-      "summary": "The SSU and FBI have exposed a long-running Russian intelligence campaign that compromised the messaging accounts of government officials, military members, and activists across Ukraine, Europe, and the U.S.",
-      "date": "2026-06-29T08:57:25.000Z",
-      "link": "https://securityaffairs.com/194399/intelligence/ssu-and-fbi-uncover-russian-cyber-espionage-operation-against-officials-and-military-personnel.html",
       "isTopTen": false
     }
   ]
