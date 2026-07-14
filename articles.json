@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-07-14T16:21:57.837Z",
+  "lastUpdated": "2026-07-14T19:28:04.138Z",
   "articles": [
+    {
+      "id": "f5abbfbe-aca4-4d03-bb1a-67d867dbad55",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410)",
+      "summary": "SonicWall has released patches for two actively exploited zero-day vulnerabilities in its SMA 1000 Series appliances and advises users to check for compromises, reset credentials, and re-deploy affected systems.",
+      "date": "2026-07-14T17:40:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/",
+      "isTopTen": true
+    },
+    {
+      "id": "62049a12-0159-48a3-b9a5-bb99c3e954a3",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Upwind Finds Coordinated Supply Chain Campaign Compromising Multiple AsyncAPI npm Packages",
+      "summary": "Upwind has identified a coordinated supply chain attack that successfully compromised several AsyncAPI npm packages. The campaign spanned multiple vectors, including developer systems and publishing pipelines, posing a significant risk to the software supply chain.",
+      "date": "2026-07-14T17:31:15.000Z",
+      "link": "https://hackread.com/upwind-supply-chain-compromise-asyncapi-npm-packages/",
+      "isTopTen": true
+    },
+    {
+      "id": "6c07546e-bcc8-42c4-a0e4-8cc18ba2880c",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Finland issues wanted notice for hacker behind massive psychotherapy data breach",
+      "summary": "Finnish authorities have issued a wanted notice for Julius Kivimäki, the primary suspect in the massive 2020 Vastaamo psychotherapy clinic data breach. His current location remains unknown, though his legal counsel suggests he is likely outside of Finland.",
+      "date": "2026-07-14T17:28:00.000Z",
+      "link": "https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach",
+      "isTopTen": false
+    },
+    {
+      "id": "ad4f2186-f1ca-4df6-ba23-7a196a114833",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+      "summary": "Researchers have discovered a new Rust-based remote access trojan called LabubaRAT that disguises itself as legitimate NVIDIA software to gain persistent control over Windows hosts. The malware enables attackers to profile compromised systems and perform unauthorized hands-on activity.",
+      "date": "2026-07-14T16:52:37.000Z",
+      "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b56ea6c7-7619-4fd8-9425-c6c1b0670493",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions",
+      "summary": "Security researchers at Tego AI have discovered a vulnerability in the Claude Slack integration that allows unauthorized execution of enterprise actions. This flaw poses a significant risk to organizational data integrity and automated workflows.",
+      "date": "2026-07-14T16:47:00.000Z",
+      "link": "https://hackread.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
+      "isTopTen": false
+    },
     {
       "id": "8e943412-aad5-45b4-9038-91411aabff4d",
       "source": "The Register",
@@ -21,7 +76,7 @@
       "summary": "The U.S. Treasury Department has sanctioned a VPN service and two individuals accused of facilitating ransomware operations by providing infrastructure and obfuscation tools. This action aims to disrupt the digital ecosystem supporting cybercriminal syndicates.",
       "date": "2026-07-14T15:41:19.000Z",
       "link": "https://cyberscoop.com/us-sanctions-first-vpn-ransomware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0dccaad5-c489-4cc9-a7f7-fabe589d67cd",
@@ -186,7 +241,7 @@
       "summary": "ESET researchers discovered that outdated UEFI shims, which are signed by Microsoft to facilitate Linux boot processes, contain vulnerabilities that allow attackers to bypass Secure Boot protections. Because the full extent of vulnerable, signed shims in the ecosystem remains unknown, these security bypasses pose a significant long-term risk.",
       "date": "2026-07-14T10:26:52.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/eset-uefi-secure-boot-bypass/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc75778a-9675-46cd-bec8-3d0394ccb3f2",
@@ -318,7 +373,7 @@
       "summary": "The ShinyHunters threat group has spent a year exfiltrating data from corporate Salesforce environments by exploiting trusted third-party OAuth connections rather than software vulnerabilities. This campaign highlights a systemic risk in how organizations manage application-to-application trust permissions.",
       "date": "2026-07-14T06:19:24.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "099edf22-37bb-47e2-bb92-436ca4aa6ed4",
@@ -395,7 +450,7 @@
       "summary": "State election officials are increasingly establishing independent cybersecurity defense networks due to a lack of trust in federal directives and declining support. This shift reflects growing friction between local election administration and federal oversight.",
       "date": "2026-07-13T20:59:31.000Z",
       "link": "https://cyberscoop.com/trump-administration-eac-firings-doj-election-officials-threat/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "af43e22c-5304-49c5-89d6-eb92a8b91ba6",
@@ -670,7 +725,7 @@
       "summary": "Progress Software has directed customers to shut down their on-premises ShareFile Storage Zone Controllers due to a credible external security threat. As a precautionary measure, the company has disabled affected ShareFile accounts.",
       "date": "2026-07-13T11:45:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/13/progress-sharefile-security-threat/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "82c33207-53c0-419e-80c6-cf6c13fde6ff",
@@ -714,7 +769,7 @@
       "summary": "Progress Software has directed ShareFile customers to shut down their servers immediately due to an unidentified security threat, despite stating there is currently no evidence of a data breach. The company is taking this proactive measure while it continues to investigate the potential vulnerability.",
       "date": "2026-07-13T10:31:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/13/progress-orders-emergency-sharefile-server-shutdown-over-mystery-security-threat/5270281",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0e48be89-b6eb-4719-987a-729754490312",
@@ -5444,61 +5499,6 @@
       "summary": "U.S. authorities, in collaboration with FIFA and NBC Universal, successfully seized approximately 400 domains used for illegal streaming of World Cup matches. This coordinated enforcement action aimed to curb copyright infringement and protect broadcasting rights.",
       "date": "2026-06-29T17:10:00.000Z",
       "link": "https://therecord.media/us-takes-down-hundreds-world-cup-streaming-sites",
-      "isTopTen": false
-    },
-    {
-      "id": "e83f94a4-7663-4374-9374-942bb47dad8a",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "JSP webshells being dropped on unpatched PTC Windchill instances",
-      "summary": "CISA has added a vulnerability in PTC Windchill and FlexPLM to its Known Exploited Vulnerabilities catalog after reports confirmed attackers are deploying JSP webshells on unpatched systems. Federal agencies are now under mandate to remediate these systems to mitigate the active threat.",
-      "date": "2026-06-29T16:18:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/06/29/ptc-windchill-cve-2026-12569-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "0fbdbc1e-c2c6-49e7-9b58-6d1e9d257c8e",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
-      "summary": "WhatsApp is introducing an optional username feature to allow users to connect without sharing their phone numbers, enhancing personal privacy. This rollout aims to better protect the platform's three billion users by reducing the need for direct contact information sharing.",
-      "date": "2026-06-29T16:09:21.000Z",
-      "link": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bc98cbe4-42e2-45e7-b9f5-e05f06c243ee",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Amazon Kindle E-Reader: Worth It, and How to Afford More Books? ",
-      "summary": "This article discusses the consumer value and cost-effectiveness of Amazon Kindle e-readers. It does not contain information regarding cybersecurity threats or vulnerabilities.",
-      "date": "2026-06-29T15:20:46.000Z",
-      "link": "https://hackread.com/amazon-kindle-e-reader-worth-afford-books/",
-      "isTopTen": false
-    },
-    {
-      "id": "cfa60a2c-4a8c-4c5a-a0c7-9d89d96321ec",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "US posts $10 million reward over Russian cyber campaign targeting Signal, WhatsApp",
-      "summary": "The US government is offering a $10 million reward for information regarding Russian-linked hacking groups UNC5792 and UNC4221, which compromised government officials' messaging accounts via social engineering.",
-      "date": "2026-06-29T15:20:00.000Z",
-      "link": "https://therecord.media/10million-reward-us-russian-hackers-unc4221-unc5792",
-      "isTopTen": false
-    },
-    {
-      "id": "4a70f403-1e71-43f8-96d5-861904337e6c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
-      "summary": "The China-linked espionage group Mustang Panda is targeting Indian government and hydropower sectors by utilizing Zoho WorkDrive as a command-and-control channel for new malware. Researchers have identified active compromises within networks belonging to senior administrative staff.",
-      "date": "2026-06-29T15:03:40.000Z",
-      "link": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
       "isTopTen": false
     }
   ]
