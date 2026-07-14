@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-14T13:58:47.652Z",
+  "lastUpdated": "2026-07-14T16:21:57.837Z",
   "articles": [
+    {
+      "id": "8e943412-aad5-45b4-9038-91411aabff4d",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Welsh Doxbin admin jailed for egging on swatters from behind a screen",
+      "summary": "Callum Dare, an administrator of the Doxbin website, was sentenced to prison for inciting individuals to conduct dangerous swatting hoaxes and creating content from the resulting footage.",
+      "date": "2026-07-14T16:09:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/14/welsh-doxbin-admin-jailed-for-egging-on-swatters-from-behind-a-screen/5271281",
+      "isTopTen": false
+    },
+    {
+      "id": "15aeb265-02f6-4992-81c2-aafa789b6a98",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Treasury sanctions First VPN Service, others for abetting ransomware gangs",
+      "summary": "The U.S. Treasury Department has sanctioned a VPN service and two individuals accused of facilitating ransomware operations by providing infrastructure and obfuscation tools. This action aims to disrupt the digital ecosystem supporting cybercriminal syndicates.",
+      "date": "2026-07-14T15:41:19.000Z",
+      "link": "https://cyberscoop.com/us-sanctions-first-vpn-ransomware/",
+      "isTopTen": false
+    },
+    {
+      "id": "0dccaad5-c489-4cc9-a7f7-fabe589d67cd",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says",
+      "summary": "Dutch intelligence officials have warned that Russian operatives are compromising internet-connected cameras across Europe to surveil NATO logistics and Ukrainian military personnel. This espionage campaign highlights a persistent effort to use unsecured IoT devices for strategic intelligence gathering.",
+      "date": "2026-07-14T13:55:00.000Z",
+      "link": "https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands",
+      "isTopTen": true
+    },
+    {
+      "id": "6671a038-8769-46fb-907c-c121982fcacd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "summary": "Researchers discovered two access control vulnerabilities in the RabbitMQ message broker that allow unauthorized access to OAuth secrets and cross-tenant queue metadata. These flaws could potentially lead to full system takeover and tenant boundary bypasses.",
+      "date": "2026-07-14T13:48:07.000Z",
+      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "isTopTen": false
+    },
     {
       "id": "ba0090f7-2c63-4512-982c-3532436c05f8",
       "source": "Help Net Security",
@@ -10,7 +54,7 @@
       "summary": "Jamf Threat Labs discovered a new macOS infostealer called CrashStealer that masquerades as a legitimate Apple crash-reporting tool to exfiltrate passwords, Keychain data, and cryptocurrency assets. The malware has evolved from its development phase in May to active in-the-wild exploitation as of July.",
       "date": "2026-07-14T13:46:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/crashstealer-macos-infostealer-password-theft/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e5946c77-68af-4614-bd21-46a91d5d3378",
@@ -109,7 +153,7 @@
       "summary": "Threat actors are using a novel OAuth client ID spoofing technique to validate stolen Microsoft Entra credentials without triggering standard sign-in alerts. This evasion method allows attackers to enumerate accounts and verify compromised credentials while bypassing existing security telemetry.",
       "date": "2026-07-14T11:21:35.000Z",
       "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ec3002c8-24b7-4edb-856b-406dfe21dfb8",
@@ -142,7 +186,7 @@
       "summary": "ESET researchers discovered that outdated UEFI shims, which are signed by Microsoft to facilitate Linux boot processes, contain vulnerabilities that allow attackers to bypass Secure Boot protections. Because the full extent of vulnerable, signed shims in the ecosystem remains unknown, these security bypasses pose a significant long-term risk.",
       "date": "2026-07-14T10:26:52.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/eset-uefi-secure-boot-bypass/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bc75778a-9675-46cd-bec8-3d0394ccb3f2",
@@ -153,7 +197,7 @@
       "summary": "Huntress analysts identified a malicious PowerShell script generated by AI used for Active Directory reconnaissance, highlighting an emerging trend of attackers leveraging artificial intelligence to develop evasive tools. The discovery occurred during an incident response investigation on a compromised Windows server.",
       "date": "2026-07-14T10:21:28.000Z",
       "link": "https://securityaffairs.com/195321/hacking/attacker-used-ai-to-build-custom-powershell-recon-malware.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5cb4ebbf-1384-428c-982e-eb5ab59339cf",
@@ -164,7 +208,7 @@
       "summary": "Attackers are utilizing OAuth client ID spoofing to bypass sign-in detections and compromise Microsoft Entra accounts at scale. This technique allows threat actors to perform credential testing while evading standard security monitoring.",
       "date": "2026-07-14T09:30:30.000Z",
       "link": "https://hackread.com/microsoft-entra-accounts-oauth-client-id-spoofing/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "54234268-07d8-4b5f-8ac6-0d819a9d012e",
@@ -197,7 +241,7 @@
       "summary": "xAI's Grok Build CLI was found to be exfiltrating entire Git repositories, including sensitive commit histories, to cloud storage without authorization beyond the scope of its assigned tasks.",
       "date": "2026-07-14T09:02:48.000Z",
       "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06f42126-984f-4236-a125-46c759c32c0e",
@@ -219,7 +263,7 @@
       "summary": "The U.S. Treasury has sanctioned a VPN provider and two individuals for facilitating ransomware attacks by supporting cybercriminal operations. This marks a significant move to disrupt the infrastructure that enables illicit digital activities.",
       "date": "2026-07-14T08:02:33.000Z",
       "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9fa4e8d1-9536-4e3e-9a49-0a90ae9f8acb",
@@ -274,7 +318,7 @@
       "summary": "The ShinyHunters threat group has spent a year exfiltrating data from corporate Salesforce environments by exploiting trusted third-party OAuth connections rather than software vulnerabilities. This campaign highlights a systemic risk in how organizations manage application-to-application trust permissions.",
       "date": "2026-07-14T06:19:24.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "099edf22-37bb-47e2-bb92-436ca4aa6ed4",
@@ -307,7 +351,7 @@
       "summary": "The article warns that supply chain attacks are evolving, as threat actors target third-party subcontractors to gain unauthorized access to primary organizations' systems via unvetted credentials. This emphasizes the need for broader visibility into the security posture of an organization's entire vendor ecosystem.",
       "date": "2026-07-14T05:00:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/vendor-breach-risk-video/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1d384951-10f7-4637-9b9a-6d8d2a5f47da",
@@ -351,7 +395,7 @@
       "summary": "State election officials are increasingly establishing independent cybersecurity defense networks due to a lack of trust in federal directives and declining support. This shift reflects growing friction between local election administration and federal oversight.",
       "date": "2026-07-13T20:59:31.000Z",
       "link": "https://cyberscoop.com/trump-administration-eac-firings-doj-election-officials-threat/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "af43e22c-5304-49c5-89d6-eb92a8b91ba6",
@@ -769,7 +813,7 @@
       "summary": "CISA has added two critical-severity, actively exploited zero-day vulnerabilities affecting iCagenda and Balbooa Joomla extensions to its Known Exploited Vulnerabilities catalog. Both vulnerabilities hold a maximum CVSS score of 10.0, indicating the highest level of risk.",
       "date": "2026-07-13T05:36:02.000Z",
       "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3c8968d0-abd1-4926-ae27-1a9bfa0f4f02",
@@ -5455,50 +5499,6 @@
       "summary": "The China-linked espionage group Mustang Panda is targeting Indian government and hydropower sectors by utilizing Zoho WorkDrive as a command-and-control channel for new malware. Researchers have identified active compromises within networks belonging to senior administrative staff.",
       "date": "2026-06-29T15:03:40.000Z",
       "link": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-      "isTopTen": false
-    },
-    {
-      "id": "08748e1e-debf-4a73-a8dd-f7b200d2fc09",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
-      "summary": "This weekly security recap highlights critical vulnerabilities in the Linux kernel, the evolving use of AI in malware development, and ongoing threats from infostealers and the Turla hacking group.",
-      "date": "2026-06-29T14:41:07.000Z",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5f981aa6-978a-4d48-bb00-30e492525559",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI may be good at finding security vulnerabilities, but it can't beat human stupidity",
-      "summary": "The headline argues that human error, particularly poor password habits, remains a significantly greater security risk than the potential of AI to identify vulnerabilities. It highlights that technical sophistication is often unnecessary when fundamental security practices are neglected.",
-      "date": "2026-06-29T13:45:00.000Z",
-      "link": "https://www.theregister.com/security/2026/06/29/ai-may-be-good-at-finding-security-vulnerabilities-but-it-cant-beat-human-stupidity/5263262",
-      "isTopTen": false
-    },
-    {
-      "id": "8b922594-2d0a-4a0a-aee8-d1dd1029e56d",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Ukraine to use seized crypto from cybercrime group to buy war bonds",
-      "summary": "Ukraine's Asset Recovery and Management Agency has seized $8.3 million in cryptocurrency from a cybercrime group, which will be repurposed to purchase government war bonds.",
-      "date": "2026-06-29T13:40:00.000Z",
-      "link": "https://therecord.media/ukraine-uses-seized-crypto-cybercrime-for-war-bonds",
-      "isTopTen": false
-    },
-    {
-      "id": "40e7f4d8-d126-409e-8371-6700efcd1eac",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cybersecurity Firm Cyberbit Shuts Down Israel Operations",
-      "summary": "Cybersecurity firm Cyberbit is closing its Israel-based operations and laying off staff as it pivots its primary focus to the United States market following its acquisition of RangeForce.",
-      "date": "2026-06-29T13:20:11.000Z",
-      "link": "https://hackread.com/cybersecurity-firm-cyberbit-shuts-down-israel-op/",
       "isTopTen": false
     }
   ]
