@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T22:05:47.884Z",
+  "lastUpdated": "2026-07-15T02:49:45.440Z",
   "articles": [
     {
       "id": "9b00762e-29ae-4348-b1b3-cf881790a040",
@@ -10,6 +10,17 @@
       "summary": "The White House has launched 'Gold Eagle,' a new intelligence clearinghouse designed to track vulnerabilities in AI systems and accelerate the prioritization of security patches. This initiative serves as a central hub for sharing actionable threat intelligence to bolster the nation's AI infrastructure.",
       "date": "2026-07-14T21:44:31.000Z",
       "link": "https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/",
+      "isTopTen": false
+    },
+    {
+      "id": "9d949962-faff-490e-a2fc-42ea4cb65479",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Patch Tuesday security updates for July 2026, the largest update ever. 621 CVEs in one month",
+      "summary": "Microsoft's July 2026 Patch Tuesday sets a record with 621 addressed CVEs, including two actively exploited zero-days and critical vulnerabilities in key infrastructure services. This represents the largest single-month security update in the company's history.",
+      "date": "2026-07-14T21:33:05.000Z",
+      "link": "https://securityaffairs.com/195347/security/patch-tuesday-security-updates-for-july-2026-the-largest-update-ever-621-cves-in-one-month.html",
       "isTopTen": false
     },
     {
@@ -43,7 +54,7 @@
       "summary": "Microsoft has reported a record-breaking surge in vulnerability disclosures, tripling the figures from June and validating predictions that AI-driven discovery would significantly accelerate the identification of software flaws. The report highlights an exponential increase in identified defects, prompting urgent warnings for security teams to bolster their patching efforts.",
       "date": "2026-07-14T20:05:46.000Z",
       "link": "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c2d92fe0-e308-4086-a15b-d3121cab4dce",
@@ -98,7 +109,7 @@
       "summary": "Upwind has identified a coordinated supply chain attack that successfully compromised several AsyncAPI npm packages. The campaign spanned multiple vectors, including developer systems and publishing pipelines, posing a significant risk to the software supply chain.",
       "date": "2026-07-14T17:31:15.000Z",
       "link": "https://hackread.com/upwind-supply-chain-compromise-asyncapi-npm-packages/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6c07546e-bcc8-42c4-a0e4-8cc18ba2880c",
@@ -439,7 +450,7 @@
       "summary": "Researchers discovered 148 malicious npm packages disguised as student proxy tools that infected browsers to participate in a DDoS botnet for two weeks in May. The campaign leveraged the npm registry to host harmful code, specifically targeting end-users visiting student-focused proxy sites.",
       "date": "2026-07-14T07:08:36.000Z",
       "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4bf577ab-4937-45a2-b06b-def4edc732b0",
@@ -461,7 +472,7 @@
       "summary": "The ShinyHunters threat group has spent a year exfiltrating data from corporate Salesforce environments by exploiting trusted third-party OAuth connections rather than software vulnerabilities. This campaign highlights a systemic risk in how organizations manage application-to-application trust permissions.",
       "date": "2026-07-14T06:19:24.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "099edf22-37bb-47e2-bb92-436ca4aa6ed4",
@@ -604,7 +615,7 @@
       "summary": "Google and Microsoft removed the popular ModHeader extension from their stores after discovering a hidden, dormant browsing-history collector. While the malicious feature was inactive and no data exfiltration was confirmed, the extension was pulled as a proactive security measure.",
       "date": "2026-07-13T17:17:24.000Z",
       "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bbd59533-8de1-4966-8c86-fdb979d4119b",
@@ -703,7 +714,7 @@
       "summary": "The MemGhost attack exploits AI agents by injecting malicious, persistent false memories through a single email, allowing attackers to manipulate the assistant's future behavior and responses. This technique enables subtle, stealthy tampering that persists across sessions without alerting the user.",
       "date": "2026-07-13T13:49:48.000Z",
       "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7b9d7088-324f-4780-bda2-eb7efe3242db",
@@ -5488,17 +5499,6 @@
       "summary": "Russia has resumed focused influence operations targeting the United States and Europe, four years into the ongoing invasion of Ukraine. These campaigns aim to sway public opinion and leverage geopolitical tensions within Western nations.",
       "date": "2026-06-29T22:10:16.000Z",
       "link": "https://www.theregister.com/security/2026/06/29/four-years-into-ukraine-invasion-russia-turns-influence-ops-back-to-us-and-europe/5264011",
-      "isTopTen": false
-    },
-    {
-      "id": "aaefe21e-6dea-449c-9c89-ff400c48187e",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "U.S. Targets Russian Cyber Spies With $10M Bounty Over Messaging App Attacks",
-      "summary": "The U.S. government is offering a $10 million reward for information leading to the identification of Russian hackers from groups UNC5792 and UNC4221 who target the Signal and WhatsApp accounts of officials and journalists.",
-      "date": "2026-06-29T21:49:25.000Z",
-      "link": "https://securityaffairs.com/194441/security/u-s-offers-10-million-reward-for-russian-hackers-behind-signal-and-whatsapp-phishing.html",
       "isTopTen": false
     }
   ]
