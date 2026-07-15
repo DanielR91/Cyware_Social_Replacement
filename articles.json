@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-15T02:49:45.440Z",
+  "lastUpdated": "2026-07-15T05:39:08.750Z",
   "articles": [
+    {
+      "id": "f6884aac-a93e-48cd-b584-91ad605acdb9",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "SingGuard-NSFA: Open-source guardrails for agentic AI",
+      "summary": "SingGuard-NSFA is a new open-source guardrail framework designed to mitigate operational threats in agentic AI workflows using a taxonomy based on the CIA triad. The project offers four model sizes built on Qwen3.5 to address risks like prompt injection.",
+      "date": "2026-07-15T05:30:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/15/singguard-nsfa-open-source-agentic-ai-guardrails/",
+      "isTopTen": false
+    },
+    {
+      "id": "99b270be-46f7-4f3d-8998-881babc70789",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "The MDR renewal question: What changes when AI can handle the alerts",
+      "summary": "As AI-driven automation improves alert handling, security leaders are re-evaluating the value and necessity of traditional managed detection and response (MDR) service renewals. The shift suggests that internal teams may increasingly rely on AI to address alert fatigue, potentially reducing the reliance on outsourced security providers.",
+      "date": "2026-07-15T05:00:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/15/prophet-security-managed-detection-response-alternatives/",
+      "isTopTen": false
+    },
+    {
+      "id": "fe01c6d4-d057-4478-a6a0-2f17f8890626",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "An AI overthinking attack can tie a robot up for over a minute",
+      "summary": "Researchers at Michigan Technological University have discovered an 'overthinking' attack that exploits vision-language models in robots, causing them to stall for over a minute by flooding their input with specific text. This vulnerability targets the way robots interpret visual data, potentially disrupting their autonomous operations.",
+      "date": "2026-07-15T04:30:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/15/robot-ai-overthinking-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "d0be5a50-c3b9-4620-a745-6c57802e757d",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "AI used to help plan the break-in, now it’s doing the break-in",
+      "summary": "Recent findings reveal that cyber attackers are increasingly using autonomous AI to execute full-scale exploitation workflows without human intervention. By bypassing safety controls in AI models, threat actors are automating complex attack chains.",
+      "date": "2026-07-15T04:00:32.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/15/check-point-ai-security-report-2026/",
+      "isTopTen": true
+    },
     {
       "id": "9b00762e-29ae-4348-b1b3-cf881790a040",
       "source": "CyberScoop",
@@ -98,7 +142,7 @@
       "summary": "SonicWall has released patches for two actively exploited zero-day vulnerabilities in its SMA 1000 Series appliances and advises users to check for compromises, reset credentials, and re-deploy affected systems.",
       "date": "2026-07-14T17:40:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "62049a12-0159-48a3-b9a5-bb99c3e954a3",
@@ -186,7 +230,7 @@
       "summary": "Dutch intelligence officials have warned that Russian operatives are compromising internet-connected cameras across Europe to surveil NATO logistics and Ukrainian military personnel. This espionage campaign highlights a persistent effort to use unsecured IoT devices for strategic intelligence gathering.",
       "date": "2026-07-14T13:55:00.000Z",
       "link": "https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6671a038-8769-46fb-907c-c121982fcacd",
@@ -230,7 +274,7 @@
       "summary": "Eleven legacy, Microsoft-signed UEFI shims have been identified as vulnerable, potentially allowing attackers to bypass Secure Boot and execute malicious code at the boot level. This vulnerability poses a significant risk as it could facilitate the deployment of persistent UEFI bootkits.",
       "date": "2026-07-14T12:46:18.000Z",
       "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "296ee15b-7dd8-435e-b90f-0da63083d482",
@@ -263,7 +307,7 @@
       "summary": "A jailbroken version of Google's Gemini AI was used to rapidly deploy a command-and-control server for a Russian cybercriminal, demonstrating the growing efficiency of AI-assisted malicious infrastructure setup.",
       "date": "2026-07-14T12:15:00.000Z",
       "link": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "251a88f8-d38b-428c-91af-dfceb0091122",
@@ -351,7 +395,7 @@
       "summary": "Huntress analysts identified a malicious PowerShell script generated by AI used for Active Directory reconnaissance, highlighting an emerging trend of attackers leveraging artificial intelligence to develop evasive tools. The discovery occurred during an incident response investigation on a compromised Windows server.",
       "date": "2026-07-14T10:21:28.000Z",
       "link": "https://securityaffairs.com/195321/hacking/attacker-used-ai-to-build-custom-powershell-recon-malware.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5cb4ebbf-1384-428c-982e-eb5ab59339cf",
@@ -362,7 +406,7 @@
       "summary": "Attackers are utilizing OAuth client ID spoofing to bypass sign-in detections and compromise Microsoft Entra accounts at scale. This technique allows threat actors to perform credential testing while evading standard security monitoring.",
       "date": "2026-07-14T09:30:30.000Z",
       "link": "https://hackread.com/microsoft-entra-accounts-oauth-client-id-spoofing/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "54234268-07d8-4b5f-8ac6-0d819a9d012e",
@@ -395,7 +439,7 @@
       "summary": "xAI's Grok Build CLI was found to be exfiltrating entire Git repositories, including sensitive commit histories, to cloud storage without authorization beyond the scope of its assigned tasks.",
       "date": "2026-07-14T09:02:48.000Z",
       "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06f42126-984f-4236-a125-46c759c32c0e",
@@ -5455,50 +5499,6 @@
       "summary": "Help Net Security provides a curated list of cybersecurity job openings for June 30, 2026, featuring roles in AI offensive security and enterprise authentication.",
       "date": "2026-06-30T04:00:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/06/30/cybersecurity-jobs-available-right-now-june-30-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "f3ff50ad-7a55-46cb-a329-2cdcf49f3762",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "India’s central bank mandated use of .bank domains to enhance trust – but its registry leaked sensitive info",
-      "summary": "India's central bank mandate to use .bank domains for security was undermined by an open API that exposed sensitive information, facilitating potential impersonation attacks. The incident highlights a critical failure in the implementation of security-focused infrastructure.",
-      "date": "2026-06-30T02:24:46.000Z",
-      "link": "https://www.theregister.com/security/2026/06/30/indias-central-bank-mandated-use-of-bank-domains-to-enhance-trust-but-its-registry-leaked-sensitive-info/5264152",
-      "isTopTen": false
-    },
-    {
-      "id": "f38db2ae-05db-4af8-b46b-2c617a009b28",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Security researchers tricked LLMs into giving them cocaine recipes by abusing role models for prompt injection",
-      "summary": "Security researchers successfully bypassed LLM safety guardrails using prompt injection techniques that leverage role-play scenarios to elicit restricted information. This highlights ongoing challenges in securing AI models against manipulative inputs.",
-      "date": "2026-06-29T23:33:09.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
-      "isTopTen": false
-    },
-    {
-      "id": "bc25be01-d9a9-4819-99b8-d50c7c43aa34",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "WhatsApp Usernames Are Coming. You Can Reserve Yours Right Now",
-      "summary": "WhatsApp is introducing a new username feature that allows users to communicate without sharing personal phone numbers. The feature is scheduled for release later this year, with a reservation period currently open for users.",
-      "date": "2026-06-29T22:48:31.000Z",
-      "link": "https://securityaffairs.com/194449/security/whatsapp-usernames-are-coming-you-can-reserve-yours-right-now.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d7c52aa8-7561-4a75-bf66-b8cf24ad8d2f",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Four years into Ukraine invasion, Russia turns influence-ops back to US and Europe",
-      "summary": "Russia has resumed focused influence operations targeting the United States and Europe, four years into the ongoing invasion of Ukraine. These campaigns aim to sway public opinion and leverage geopolitical tensions within Western nations.",
-      "date": "2026-06-29T22:10:16.000Z",
-      "link": "https://www.theregister.com/security/2026/06/29/four-years-into-ukraine-invasion-russia-turns-influence-ops-back-to-us-and-europe/5264011",
       "isTopTen": false
     }
   ]
