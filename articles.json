@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-07-16T05:47:05.467Z",
+  "lastUpdated": "2026-07-16T08:23:23.563Z",
   "articles": [
+    {
+      "id": "c8d3faf3-137f-4934-8c0c-0b713c013bfc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "VS Code agent host runs Copilot, Claude, and Codex in a dedicated process",
+      "summary": "Visual Studio Code version 1.129 introduces a dedicated agent host process to manage AI coding assistants like Copilot, Claude, and Codex, improving stability by isolating them from the main editor session.",
+      "date": "2026-07-16T07:45:47.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/16/vs-visual-studio-code-agent-host/",
+      "isTopTen": false
+    },
+    {
+      "id": "b448be8e-57ce-4379-a1b8-7c879083e90a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
+      "summary": "Zoom has released security updates to address a critical vulnerability (CVE-2026-53412) in its Windows applications that could allow attackers to perform account takeovers. The flaw stems from improper input validation and carries a CVSS score of 9.8.",
+      "date": "2026-07-16T07:22:44.000Z",
+      "link": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
+      "isTopTen": true
+    },
+    {
+      "id": "12974d67-ca49-4762-8d43-d0799bf2a206",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Law firm insisted on one password to rule them all",
+      "summary": "A law firm maintained a massive security vulnerability by using a single administrative password for all user accounts, allowing unrestricted access to all sensitive data. This poor credential management practice effectively bypassed authentication controls, posing a critical risk to client confidentiality.",
+      "date": "2026-07-16T07:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/16/law-firm-insisted-on-one-password-to-rule-them-all/5269484",
+      "isTopTen": false
+    },
+    {
+      "id": "b5c26dfd-5b38-48b0-93d4-71c7d37f559e",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Tech support scam caused massive data breach at Australian airline Qantas",
+      "summary": "Australian airline Qantas suffered a significant data breach affecting 5.7 million individuals due to a tech support scam. The incident highlights vulnerabilities in organizational security protocols regarding personally identifiable information.",
+      "date": "2026-07-16T06:27:47.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/07/16/tech-support-scam-caused-massive-data-breach-at-australian-airline-qantas/5272267",
+      "isTopTen": false
+    },
+    {
+      "id": "aeedc5f1-2f87-4cf2-88cf-a6923ee9d2fb",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Reading between the lines of a cyber insurance policy",
+      "summary": "As cyber insurance adoption grows to meet regulatory and contractual demands, companies face increasing uncertainty regarding coverage gaps and unpredictable payout structures. The global cyber protection gap remains a significant challenge, with an estimated $900 billion disparity between exposure and coverage.",
+      "date": "2026-07-16T06:00:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/16/cyber-insurance-coverage-gap/",
+      "isTopTen": false
+    },
     {
       "id": "79b47ede-e154-4afb-8dba-fdcded157a22",
       "source": "Help Net Security",
@@ -43,7 +98,7 @@
       "summary": "OpenAI has developed GPT-Red, an automated red-teaming model that uses reinforcement learning to identify prompt injection vulnerabilities in GPT models more effectively than human testers. The system improves by iterating through attack scenarios against defender models to find weaknesses like data exfiltration.",
       "date": "2026-07-16T03:49:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/openai-gpt-red-prompt-injection-test/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d6f6f234-3281-4a21-a700-3bd74e0cd96c",
@@ -109,7 +164,7 @@
       "summary": "US and allied governments have issued a warning regarding Russian state-sponsored APT groups actively exploiting vulnerabilities in network devices and routers to infiltrate global critical infrastructure. Organizations are advised to secure these devices to prevent unauthorized access by groups such as Berserk Bear and Energetic Bear.",
       "date": "2026-07-15T18:59:09.000Z",
       "link": "https://securityaffairs.com/195448/apt/us-and-allied-governments-recommendations-securing-network-devices-against-russian-apt-groups.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f786aaf-34ae-4b30-88d2-3d248ba180d6",
@@ -164,7 +219,7 @@
       "summary": "23andMe has agreed to pay an $18 million settlement to a coalition of 42 state attorneys general following a massive data breach attributed to cybersecurity negligence. The agreement addresses failures to protect sensitive genetic and personal information of its users.",
       "date": "2026-07-15T17:45:00.000Z",
       "link": "https://therecord.media/genetic-testing-settlement-data-breach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c87eb947-ad7d-4825-8c6f-74599b56130b",
@@ -406,7 +461,7 @@
       "summary": "Microsoft's July 2026 Patch Tuesday addressed 622 vulnerabilities, including two actively exploited zero-day flaws in AD FS and SharePoint. Additionally, a critical BitLocker bypass was disclosed, requiring immediate attention from users.",
       "date": "2026-07-15T11:56:59.000Z",
       "link": "https://hackread.com/microsoft-july-2026-patch-tuesday-fixes-zero-days/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6725c9df-2c2a-4c6f-9ee7-50ef8d0bac1f",
@@ -450,7 +505,7 @@
       "summary": "The shift toward browser-based workflows and the widespread adoption of generative AI have rendered traditional cloud proxy and packet inspection methods insufficient for securing modern enterprise environments. Organizations now face increased risks as employees integrate unsanctioned AI tools and extensions that bypass conventional perimeter defenses.",
       "date": "2026-07-15T11:50:01.000Z",
       "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ed0bc7e5-6eaa-4286-92dc-472cd30a16f5",
@@ -472,7 +527,7 @@
       "summary": "A security researcher released a proof-of-concept exploit for a Windows User Profile Service (ProfSvc) privilege escalation vulnerability shortly after Microsoft's Patch Tuesday. The flaw, dubbed LegacyHive, targets a core component responsible for managing user environments.",
       "date": "2026-07-15T11:07:07.000Z",
       "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6d1bc304-be18-4ba5-8e36-9bad77a3f9db",
@@ -516,7 +571,7 @@
       "summary": "ClickFix is an emerging social engineering technique that bypasses traditional security tools by manipulating users into manually executing malicious commands via system dialogs. This method has evolved into an industrialized attack ecosystem that avoids exploits and vulnerabilities, posing a significant challenge to endpoint defense systems.",
       "date": "2026-07-15T10:44:03.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/15/clickfix-social-engineering-attacks-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4b08eab7-078b-48a9-917e-e55b0d976357",
@@ -626,7 +681,7 @@
       "summary": "SonicWall has issued a warning regarding two actively exploited zero-day vulnerabilities in its SMA 1000 series appliances, including a critical-rated flaw that allows for arbitrary command execution.",
       "date": "2026-07-15T05:30:21.000Z",
       "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "99b270be-46f7-4f3d-8998-881babc70789",
@@ -714,7 +769,7 @@
       "summary": "Microsoft has reported a record-breaking surge in vulnerability disclosures, tripling the figures from June and validating predictions that AI-driven discovery would significantly accelerate the identification of software flaws. The report highlights an exponential increase in identified defects, prompting urgent warnings for security teams to bolster their patching efforts.",
       "date": "2026-07-14T20:05:46.000Z",
       "link": "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c2d92fe0-e308-4086-a15b-d3121cab4dce",
@@ -725,7 +780,7 @@
       "summary": "The U.S. Treasury sanctioned a VPN provider and a cryptor seller for facilitating ransomware operations that caused billions in losses. These sanctions target the infrastructure and tooling enabling global cybercriminal activities against critical infrastructure.",
       "date": "2026-07-14T19:47:53.000Z",
       "link": "https://securityaffairs.com/195336/security/u-s-treasury-sanctions-vpn-provider-and-cryptor-seller-behind-billions-in-ransomware-losses.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc49c567-e440-433e-9b5b-d78f12c2e871",
@@ -758,7 +813,7 @@
       "summary": "SonicWall has released patches for two actively exploited zero-day vulnerabilities in its SMA 1000 Series appliances and advises users to check for compromises, reset credentials, and re-deploy affected systems.",
       "date": "2026-07-14T17:40:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "62049a12-0159-48a3-b9a5-bb99c3e954a3",
@@ -5444,61 +5499,6 @@
       "summary": "RustDuck is an emerging DDoS botnet that leverages the Rust programming language, advanced anti-analysis techniques, and known IoT vulnerabilities to hijack various devices for large-scale attacks. Researchers are monitoring its development as it expands its operational capabilities.",
       "date": "2026-07-01T10:25:04.000Z",
       "link": "https://securityaffairs.com/194556/malware/rustduck-the-botnet-thats-still-small-but-engineering-like-it-plans-to-grow.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1e978c12-87ae-4f2a-b82a-854f993ebcef",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The ARToken phishing panel targets Microsoft 365 accounts",
-      "summary": "The ARToken phishing operation is actively targeting Microsoft 365 accounts by sending deceptive invoice-related emails to accounts-payable staff. These highly targeted social engineering lures impersonate legitimate vendors to compromise corporate financial information.",
-      "date": "2026-07-01T10:00:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/01/artoken-phishing-panel-microsoft-365-accounts/",
-      "isTopTen": false
-    },
-    {
-      "id": "6d969014-7aa2-4ca9-8ce7-33247afb2684",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "This phishing kit looks more like BEC-as-a-service",
-      "summary": "Cisco Talos research highlights the evolution of phishing-as-a-service platforms, specifically focusing on the ARToken kit and its operational similarities to Business Email Compromise (BEC) tactics. The report underscores how these kits are becoming increasingly sophisticated to facilitate large-scale credential harvesting.",
-      "date": "2026-07-01T10:00:00.000Z",
-      "link": "https://cyberscoop.com/artoken-bec-platform-cisco-talos/",
-      "isTopTen": false
-    },
-    {
-      "id": "9e2ef81d-d500-426b-b571-573f01172311",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Claude Sonnet 5 includes safeguards against dangerous cyber use",
-      "summary": "Anthropic has released Claude Sonnet 5, which features enhanced autonomous capabilities and improved reasoning while incorporating updated safety measures to prevent misuse for cyberattacks.",
-      "date": "2026-07-01T08:45:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/01/anthropic-claude-sonnet-5/",
-      "isTopTen": false
-    },
-    {
-      "id": "70e75104-a8ad-443b-a164-a29315e29fa8",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "GuardFall Flaw Hits 10 of 11 Popular Open-Source AI Agents",
-      "summary": "Researchers discovered a universal shell injection vulnerability called GuardFall affecting 10 out of 11 popular open-source AI agents, enabling attackers to bypass security filters. The flaw exposes these AI tools to potential unauthorized command execution.",
-      "date": "2026-07-01T08:28:33.000Z",
-      "link": "https://securityaffairs.com/194546/ai/guardfall-flaw-hits-10-of-11-popular-open-source-ai-agents.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0b672b2d-d22c-4a52-87ed-a775290d93ba",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
-      "summary": "Attackers are exploiting AI-generated hallucinations by registering non-existent domains suggested by large language models to host phishing and malware campaigns. This emerging technique, known as phantom squatting, leverages the trust users place in AI-provided resources.",
-      "date": "2026-07-01T07:20:51.000Z",
-      "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
       "isTopTen": false
     }
   ]
