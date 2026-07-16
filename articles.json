@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-16T19:21:05.169Z",
+  "lastUpdated": "2026-07-16T22:07:59.010Z",
   "articles": [
+    {
+      "id": "d6464184-3321-4d57-bf42-68adf9b4b0c9",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researcher poisons open-weight AI model for under $100",
+      "summary": "A security researcher demonstrated that an open-weight AI model can be successfully poisoned for less than $100, highlighting a critical lack of verification mechanisms in current AI deployment. This research exposes the inherent trust issues and vulnerability of open-source models to malicious manipulation.",
+      "date": "2026-07-16T20:25:00.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880",
+      "isTopTen": true
+    },
+    {
+      "id": "e3c9fd01-ae02-4c86-a952-0a4685b18415",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Program to rotate cyber personnel through federal agencies saw little use",
+      "summary": "A GAO report revealed that the Federal Rotational Cyber Workforce program has seen minimal participation, with fewer than ten people approved for the initiative. The program's inability to attract personnel highlights challenges in federal cyber staffing efforts.",
+      "date": "2026-07-16T19:18:19.000Z",
+      "link": "https://cyberscoop.com/opm-federal-rotational-cyber-workforce-program-gao/",
+      "isTopTen": false
+    },
     {
       "id": "95d654ea-10e5-4dc6-92f8-8edee269742a",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "Two members of the Scattered Spider hacking group, Thalha Jubair and Owen Flowers, have been sentenced to prison for their involvement in a 2024 cyberattack against Transport for London. The breach resulted in significant operational impact and reportedly caused £29 million in damages.",
       "date": "2026-07-16T17:34:13.000Z",
       "link": "https://securityaffairs.com/195501/cyber-crime/two-scattered-spider-members-sentenced-to-prison-over-29-million-tfl-cyberattack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f4c3c1f-e1dc-4938-8b05-84ee74e3edf6",
@@ -98,7 +120,7 @@
       "summary": "Russian state-sponsored group Sandworm is targeting Ukrainians by using a malicious CAPTCHA that tricks users into executing harmful PowerShell commands on their systems. This social engineering tactic is designed to bypass security defenses by disguising malware execution as a human verification process.",
       "date": "2026-07-16T13:50:00.000Z",
       "link": "https://therecord.media/ukraine-sandworm-hacks-captcha-powershell",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc2271c8-5245-4010-83ac-5d21edf1dec5",
@@ -186,7 +208,7 @@
       "summary": "A Russian-speaking threat actor leveraged a jailbroken Gemini CLI tool to rapidly rebuild and manage C2 botnet infrastructure, resulting in a data breach at a dental clinic. The incident highlights the growing risk of AI-assisted automation in cyberattack operations.",
       "date": "2026-07-16T12:08:46.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/jailbroken-google-gemini-cli-botnet/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "28cf0207-2c57-4d5b-b84d-78e031c5df39",
@@ -263,7 +285,7 @@
       "summary": "A significant portion of Windows 10 devices remain in operation despite the approaching end-of-support deadline, posing a major security risk for users who fail to migrate. The continued reliance on an aging operating system increases the likelihood of unpatched vulnerabilities as security updates cease.",
       "date": "2026-07-16T11:25:20.000Z",
       "link": "https://www.theregister.com/os-platforms/2026/07/16/windows-10-refuses-to-die-and-the-security-bill-is-coming-due/5271987",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "becba2b3-b70f-42a1-81d5-dc4fdd881e01",
@@ -351,7 +373,7 @@
       "summary": "Chinese state-sponsored actors are leveraging AI tools Claude Code and DeepSeek to automate cyber espionage attacks targeting government systems and financial institutions. Researchers identified the campaign by tracking TencShell command-and-control infrastructure back to servers in Hong Kong.",
       "date": "2026-07-16T09:16:08.000Z",
       "link": "https://securityaffairs.com/195474/ai/claude-code-and-deepseek-powered-chinese-cyber-espionage-campaign.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e9861e55-38b5-4904-a79c-6eda50f23040",
@@ -395,7 +417,7 @@
       "summary": "Dutch police, in coordination with Europol and Belgian authorities, dismantled a global investment fraud network operating 20 call centers that siphoned €100 million per month. A key suspect has been arrested following a multi-jurisdictional investigation into the elaborate financial scam.",
       "date": "2026-07-16T08:30:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/dutch-police-investment-fraud-ring-dismantled/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c8d3faf3-137f-4934-8c0c-0b713c013bfc",
@@ -439,7 +461,7 @@
       "summary": "A law firm maintained a massive security vulnerability by using a single administrative password for all user accounts, allowing unrestricted access to all sensitive data. This poor credential management practice effectively bypassed authentication controls, posing a critical risk to client confidentiality.",
       "date": "2026-07-16T07:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/16/law-firm-insisted-on-one-password-to-rule-them-all/5269484",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b5c26dfd-5b38-48b0-93d4-71c7d37f559e",
@@ -450,7 +472,7 @@
       "summary": "Australian airline Qantas suffered a significant data breach affecting 5.7 million individuals due to a tech support scam. The incident highlights vulnerabilities in organizational security protocols regarding personally identifiable information.",
       "date": "2026-07-16T06:27:47.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/07/16/tech-support-scam-caused-massive-data-breach-at-australian-airline-qantas/5272267",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aeedc5f1-2f87-4cf2-88cf-a6923ee9d2fb",
@@ -472,7 +494,7 @@
       "summary": "This article explores the systemic risks inherent in corporate reliance on open-source software, highlighting how significant security incidents like the Log4j and XZ Utils flaws exposed critical vulnerabilities in global supply chains. It discusses the potential impact and implications of public funding for open-source maintenance.",
       "date": "2026-07-16T05:30:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d5a837b-dec5-4d40-9f44-c7ebec4538c0",
@@ -549,7 +571,7 @@
       "summary": "A cyberattack on Japan's Nichirei Logistics Group has disrupted the supply chain for major food retailers, including KFC and various supermarket chains. The incident has caused significant logistical challenges in ingredient distribution across the country.",
       "date": "2026-07-15T23:00:00.000Z",
       "link": "https://therecord.media/cyberattack-japan-nichirei-logistics-impacts-kfc",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1e7e7663-87a9-4b2c-b237-5391750ce1c7",
@@ -725,7 +747,7 @@
       "summary": "A financially motivated threat actor is using hundreds of fraudulent GitHub repositories to impersonate major brands and distribute infostealer malware disguised as legitimate software. Researchers identified 292 malicious repositories spanning across sectors like fintech, security, and gaming.",
       "date": "2026-07-15T13:52:39.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "07053682-5676-45b6-a8fb-3c766556f857",
@@ -5477,28 +5499,6 @@
       "summary": "Attackers are distributing a data-stealing trojan named ChocoPoC via fake proof-of-concept exploit repositories on GitHub targeting security researchers. The malware exfiltrates sensitive browser data and grants attackers remote shell access to infected machines.",
       "date": "2026-07-02T07:24:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cb579318-fc51-4047-a5dc-898e7ae8b60c",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers shoveled snow for company, were rewarded with network admin access",
-      "summary": "Professional red teamers were hired to test a company's physical and digital security, successfully gaining full network administrator access during their engagement.",
-      "date": "2026-07-02T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/02/hackers-shoveled-snow-for-company-were-rewarded-with-network-admin-access/5265240",
-      "isTopTen": false
-    },
-    {
-      "id": "e2f21ba1-75ab-48e6-a1ef-cefd981b796d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The endpoint recovery gap many teams discover during an incident",
-      "summary": "IGEL CTO Matthias Haas highlights the critical vulnerability organizations face when they rely solely on backups for endpoint recovery, emphasizing the need for comprehensive strategies to restore user access during large-scale incidents. He provides insights into overcoming recovery bottlenecks and effectively communicating the necessity of these measures to executive leadership.",
-      "date": "2026-07-02T06:00:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/02/matthias-haas-igel-endpoint-recovery-gap/",
       "isTopTen": false
     }
   ]
