@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-07-16T02:55:58.822Z",
+  "lastUpdated": "2026-07-16T05:47:05.467Z",
   "articles": [
+    {
+      "id": "79b47ede-e154-4afb-8dba-fdcded157a22",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "What public money does to open-source projects",
+      "summary": "This article explores the systemic risks inherent in corporate reliance on open-source software, highlighting how significant security incidents like the Log4j and XZ Utils flaws exposed critical vulnerabilities in global supply chains. It discusses the potential impact and implications of public funding for open-source maintenance.",
+      "date": "2026-07-16T05:30:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/",
+      "isTopTen": true
+    },
+    {
+      "id": "4d5a837b-dec5-4d40-9f44-c7ebec4538c0",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ransom demands are down, email is the top way attackers get in",
+      "summary": "Recent data indicates that while ransomware demands have decreased, phishing and malicious emails remain the primary entry point for cyberattacks. These tactics account for half of all security incidents by exploiting employee credentials to gain network access.",
+      "date": "2026-07-16T05:00:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/16/sophos-state-of-ransomware-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "e58341c6-99ce-405c-84c9-f6c704f4ff83",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Companies keep getting breached by vulnerabilities they already knew about",
+      "summary": "Despite advanced scanning tools, organizations are failing to address identified vulnerabilities due to inefficiencies in the remediation process. This gap between discovery and deployment leaves companies susceptible to known security weaknesses.",
+      "date": "2026-07-16T04:30:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/16/ciso-vulnerability-remediation-gap/",
+      "isTopTen": false
+    },
+    {
+      "id": "0bef711d-5c4b-4cb0-bd8b-3fa936248ab9",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "GPT-Red beat human red teamers on a prompt injection test",
+      "summary": "OpenAI has developed GPT-Red, an automated red-teaming model that uses reinforcement learning to identify prompt injection vulnerabilities in GPT models more effectively than human testers. The system improves by iterating through attack scenarios against defender models to find weaknesses like data exfiltration.",
+      "date": "2026-07-16T03:49:41.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/16/openai-gpt-red-prompt-injection-test/",
+      "isTopTen": false
+    },
+    {
+      "id": "d6f6f234-3281-4a21-a700-3bd74e0cd96c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Finance phishing works because it sounds boringly normal",
+      "summary": "Attackers are successfully using mundane, business-related phishing emails that mimic standard financial workflows to bypass AI-based security gateways. This strategy exploits the high volume of routine invoice and procurement communication to gain initial access to organizations.",
+      "date": "2026-07-16T03:30:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/16/cofense-finance-phishing-tactics-report/",
+      "isTopTen": false
+    },
     {
       "id": "b4dd1c72-5176-497a-b38f-fe2bba874073",
       "source": "The Register",
@@ -76,7 +131,7 @@
       "summary": "Researchers identified a new IoT botnet framework, TuxBot v3 Evolution, which exhibits signs of being developed using large language models despite having limited functional success. The findings highlight the growing intersection between generative AI and malicious cyber activity.",
       "date": "2026-07-15T18:43:08.000Z",
       "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "04ef9aa4-f4cb-4ac4-b230-539e981422a9",
@@ -109,7 +164,7 @@
       "summary": "23andMe has agreed to pay an $18 million settlement to a coalition of 42 state attorneys general following a massive data breach attributed to cybersecurity negligence. The agreement addresses failures to protect sensitive genetic and personal information of its users.",
       "date": "2026-07-15T17:45:00.000Z",
       "link": "https://therecord.media/genetic-testing-settlement-data-breach",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c87eb947-ad7d-4825-8c6f-74599b56130b",
@@ -120,7 +175,7 @@
       "summary": "Security researcher Nightmare Eclipse released a zero-day proof-of-concept called LegacyHive that targets the Windows User Profile Service to achieve privilege escalation on fully patched systems. The exploit was disclosed shortly after the July 2026 Microsoft Patch Tuesday update.",
       "date": "2026-07-15T16:57:55.000Z",
       "link": "https://securityaffairs.com/195418/hacking/chaotic-eclipse-unveils-legacyhive-exploit-affecting-fully-patched-windows-systems.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c94d7cca-8889-4c63-9e5e-980b0bc06221",
@@ -351,7 +406,7 @@
       "summary": "Microsoft's July 2026 Patch Tuesday addressed 622 vulnerabilities, including two actively exploited zero-day flaws in AD FS and SharePoint. Additionally, a critical BitLocker bypass was disclosed, requiring immediate attention from users.",
       "date": "2026-07-15T11:56:59.000Z",
       "link": "https://hackread.com/microsoft-july-2026-patch-tuesday-fixes-zero-days/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6725c9df-2c2a-4c6f-9ee7-50ef8d0bac1f",
@@ -417,7 +472,7 @@
       "summary": "A security researcher released a proof-of-concept exploit for a Windows User Profile Service (ProfSvc) privilege escalation vulnerability shortly after Microsoft's Patch Tuesday. The flaw, dubbed LegacyHive, targets a core component responsible for managing user environments.",
       "date": "2026-07-15T11:07:07.000Z",
       "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6d1bc304-be18-4ba5-8e36-9bad77a3f9db",
@@ -450,7 +505,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities catalog to include specific security flaws discovered in SonicWall and Microsoft products. These additions follow reports of active exploitation of these vulnerabilities in the wild.",
       "date": "2026-07-15T10:49:45.000Z",
       "link": "https://securityaffairs.com/195383/security/u-s-cisa-adds-sonicwall-and-microsoft-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dedb786a-2410-4746-8a70-6ce72c012c16",
@@ -461,7 +516,7 @@
       "summary": "ClickFix is an emerging social engineering technique that bypasses traditional security tools by manipulating users into manually executing malicious commands via system dialogs. This method has evolved into an industrialized attack ecosystem that avoids exploits and vulnerabilities, posing a significant challenge to endpoint defense systems.",
       "date": "2026-07-15T10:44:03.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/15/clickfix-social-engineering-attacks-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b08eab7-078b-48a9-917e-e55b0d976357",
@@ -571,7 +626,7 @@
       "summary": "SonicWall has issued a warning regarding two actively exploited zero-day vulnerabilities in its SMA 1000 series appliances, including a critical-rated flaw that allows for arbitrary command execution.",
       "date": "2026-07-15T05:30:21.000Z",
       "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "99b270be-46f7-4f3d-8998-881babc70789",
@@ -659,7 +714,7 @@
       "summary": "Microsoft has reported a record-breaking surge in vulnerability disclosures, tripling the figures from June and validating predictions that AI-driven discovery would significantly accelerate the identification of software flaws. The report highlights an exponential increase in identified defects, prompting urgent warnings for security teams to bolster their patching efforts.",
       "date": "2026-07-14T20:05:46.000Z",
       "link": "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c2d92fe0-e308-4086-a15b-d3121cab4dce",
@@ -670,7 +725,7 @@
       "summary": "The U.S. Treasury sanctioned a VPN provider and a cryptor seller for facilitating ransomware operations that caused billions in losses. These sanctions target the infrastructure and tooling enabling global cybercriminal activities against critical infrastructure.",
       "date": "2026-07-14T19:47:53.000Z",
       "link": "https://securityaffairs.com/195336/security/u-s-treasury-sanctions-vpn-provider-and-cryptor-seller-behind-billions-in-ransomware-losses.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bc49c567-e440-433e-9b5b-d78f12c2e871",
@@ -703,7 +758,7 @@
       "summary": "SonicWall has released patches for two actively exploited zero-day vulnerabilities in its SMA 1000 Series appliances and advises users to check for compromises, reset credentials, and re-deploy affected systems.",
       "date": "2026-07-14T17:40:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "62049a12-0159-48a3-b9a5-bb99c3e954a3",
@@ -5444,61 +5499,6 @@
       "summary": "Attackers are exploiting AI-generated hallucinations by registering non-existent domains suggested by large language models to host phishing and malware campaigns. This emerging technique, known as phantom squatting, leverages the trust users place in AI-provided resources.",
       "date": "2026-07-01T07:20:51.000Z",
       "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-      "isTopTen": false
-    },
-    {
-      "id": "eaa499d3-4fc9-4b76-8118-94b55dbfe5a6",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
-      "summary": "Anthropic has restored access to its Claude Fable 5 model worldwide following the U.S. Commerce Department's decision to lift export controls that were originally imposed due to jailbreak-related security concerns.",
-      "date": "2026-07-01T06:46:17.000Z",
-      "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
-      "isTopTen": false
-    },
-    {
-      "id": "29117e17-7734-4896-a203-fbd8b17aa98e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "What a financial planner taught me about cybersecurity",
-      "summary": "A cybersecurity speaker observes that financial professionals are often overwhelmed and fearful when confronted with the realities of cyber threats. The article highlights the importance of effective security awareness training for high-stakes industries.",
-      "date": "2026-07-01T06:30:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/01/raising-cybersecurity-awareness-for-non-experts/",
-      "isTopTen": false
-    },
-    {
-      "id": "fd83449b-0a73-42d0-bdb1-2ad1e82daf53",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Nika: Open-source code analysis tool",
-      "summary": "PhonePe has released Nika, an open-source code analysis tool designed to identify complex security vulnerabilities in Java microservices by performing multi-file path analysis. This approach overcomes the limitations of single-file scanners by tracking data flows across different layers of an application.",
-      "date": "2026-07-01T06:00:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/01/nika-open-source-code-analysis-tool/",
-      "isTopTen": false
-    },
-    {
-      "id": "015f3a8d-dd80-47de-a7ec-8bd789ac713b",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-      "summary": "An ongoing automated password spray attack targeting Microsoft's Azure CLI has successfully compromised at least 78 accounts after over 81 million attempts. The malicious activity has been traced to a specific IPv6 address range operated by infrastructure provider LSHIY LLC.",
-      "date": "2026-07-01T05:46:03.000Z",
-      "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-      "isTopTen": false
-    },
-    {
-      "id": "69d86356-318e-4945-963e-c189afb55576",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
-      "summary": "Researchers have discovered that ClickFix campaigns are now utilizing API-driven infrastructure to dynamically serve unique malware payloads, while also introducing new techniques to evade Windows script scanning.",
-      "date": "2026-07-01T05:32:12.000Z",
-      "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
       "isTopTen": false
     }
   ]
