@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-17T05:49:46.273Z",
+  "lastUpdated": "2026-07-17T08:18:44.238Z",
   "articles": [
+    {
+      "id": "84a0b63d-01d1-428b-be72-adcbc36fd2ef",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ransomware attack halts Coca-Cola’s Fairlife US milk production",
+      "summary": "Coca-Cola has temporarily suspended U.S. milk production at its Fairlife brand following a ransomware attack disclosed in an SEC filing. The company confirmed that product quality and safety remain unaffected by the incident.",
+      "date": "2026-07-17T08:04:22.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/",
+      "isTopTen": true
+    },
+    {
+      "id": "86517bc1-8636-4683-962c-edf88254170f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+      "summary": "CISA has added a critical SharePoint deserialization vulnerability (CVE-2026-58644) to its Known Exploited Vulnerabilities (KEV) catalog, mandating that FCEB agencies apply patches by July 19, 2026.",
+      "date": "2026-07-17T06:42:23.000Z",
+      "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4b7664c9-d985-4546-8c1a-61fc8df9e122",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Prompt injection is becoming the XSS of the web agent era",
+      "summary": "Researchers at UC Berkeley have identified 'Cross-Site Prompting' (XSP) as an emerging threat where autonomous web agents are manipulated by untrusted content, drawing parallels to traditional Cross-Site Scripting vulnerabilities.",
+      "date": "2026-07-17T06:00:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/",
+      "isTopTen": true
+    },
     {
       "id": "8aa1ee06-3f13-439e-ba69-f76be995d3c7",
       "source": "Help Net Security",
@@ -131,7 +164,7 @@
       "summary": "Three Russian nationals and their hosting companies have been indicted for operating bulletproof hosting services that facilitated global cyberattacks and caused over $62 million in damages. The infrastructure supported malicious activity across 21 U.S. states and multiple other countries.",
       "date": "2026-07-16T17:24:04.000Z",
       "link": "https://cyberscoop.com/russian-nationals-medialand-mlcloud-indicted-bulletproof-hosting/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2848e876-1a80-4089-b728-3d29e87260e3",
@@ -219,7 +252,7 @@
       "summary": "Two members of the Scattered Spider hacking collective have been sentenced to over five years in prison for a cyberattack on Transport for London that caused £29 million in damages. The incident led to significant service disruptions for commuters and involved a successful prosecution by the National Crime Agency.",
       "date": "2026-07-16T13:48:57.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f0746e46-1def-4219-8a4f-5a77ce5715a5",
@@ -373,7 +406,7 @@
       "summary": "A significant portion of Windows 10 devices remain in operation despite the approaching end-of-support deadline, posing a major security risk for users who fail to migrate. The continued reliance on an aging operating system increases the likelihood of unpatched vulnerabilities as security updates cease.",
       "date": "2026-07-16T11:25:20.000Z",
       "link": "https://www.theregister.com/os-platforms/2026/07/16/windows-10-refuses-to-die-and-the-security-bill-is-coming-due/5271987",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "becba2b3-b70f-42a1-81d5-dc4fdd881e01",
@@ -384,7 +417,7 @@
       "summary": "The China-linked Daxin rootkit has resurfaced in a targeted attack against a Taiwanese manufacturing firm, accompanied by a new, previously undocumented backdoor named Stupig. This development highlights the continued evolution of sophisticated kernel-mode malware utilized in strategic cyber espionage.",
       "date": "2026-07-16T11:17:23.000Z",
       "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce572005-cbdc-4457-857d-02c719629dea",
@@ -450,7 +483,7 @@
       "summary": "A researcher disclosed a vulnerability in Shark robot vacuums that allows attackers to execute root commands on other devices within the same AWS region, potentially exposing cameras, home maps, and Wi-Fi credentials. The flaw stems from improper certificate implementation, enabling unauthorized remote access to vacuum functions and user data.",
       "date": "2026-07-16T09:23:19.000Z",
       "link": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6560d715-d4f5-4a36-a8bf-dbf0ea6ea6a4",
@@ -461,7 +494,7 @@
       "summary": "Chinese state-sponsored actors are leveraging AI tools Claude Code and DeepSeek to automate cyber espionage attacks targeting government systems and financial institutions. Researchers identified the campaign by tracking TencShell command-and-control infrastructure back to servers in Hong Kong.",
       "date": "2026-07-16T09:16:08.000Z",
       "link": "https://securityaffairs.com/195474/ai/claude-code-and-deepseek-powered-chinese-cyber-espionage-campaign.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e9861e55-38b5-4904-a79c-6eda50f23040",
@@ -538,7 +571,7 @@
       "summary": "Zoom has released security updates to address a critical vulnerability (CVE-2026-53412) in its Windows applications that could allow attackers to perform account takeovers. The flaw stems from improper input validation and carries a CVSS score of 9.8.",
       "date": "2026-07-16T07:22:44.000Z",
       "link": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "12974d67-ca49-4762-8d43-d0799bf2a206",
@@ -582,7 +615,7 @@
       "summary": "This article explores the systemic risks inherent in corporate reliance on open-source software, highlighting how significant security incidents like the Log4j and XZ Utils flaws exposed critical vulnerabilities in global supply chains. It discusses the potential impact and implications of public funding for open-source maintenance.",
       "date": "2026-07-16T05:30:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d5a837b-dec5-4d40-9f44-c7ebec4538c0",
@@ -659,7 +692,7 @@
       "summary": "A cyberattack on Japan's Nichirei Logistics Group has disrupted the supply chain for major food retailers, including KFC and various supermarket chains. The incident has caused significant logistical challenges in ingredient distribution across the country.",
       "date": "2026-07-15T23:00:00.000Z",
       "link": "https://therecord.media/cyberattack-japan-nichirei-logistics-impacts-kfc",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1e7e7663-87a9-4b2c-b237-5391750ce1c7",
@@ -692,7 +725,7 @@
       "summary": "US and allied governments have issued a warning regarding Russian state-sponsored APT groups actively exploiting vulnerabilities in network devices and routers to infiltrate global critical infrastructure. Organizations are advised to secure these devices to prevent unauthorized access by groups such as Berserk Bear and Energetic Bear.",
       "date": "2026-07-15T18:59:09.000Z",
       "link": "https://securityaffairs.com/195448/apt/us-and-allied-governments-recommendations-securing-network-devices-against-russian-apt-groups.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3f786aaf-34ae-4b30-88d2-3d248ba180d6",
@@ -703,7 +736,7 @@
       "summary": "SonicWall customers are facing threats from attackers chaining two zero-day vulnerabilities that were actively exploited weeks before the vendor released patches. The discovery highlights a significant window of exposure prior to disclosure.",
       "date": "2026-07-15T18:51:59.000Z",
       "link": "https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "46a2710c-464c-4e7c-90fd-46da2464e6c6",
@@ -5466,39 +5499,6 @@
       "summary": "Cloudflare has introduced new granular controls that allow website owners to manage or restrict AI crawlers across three distinct categories: Search, Agent, and Training. These tools enable users to protect their content from being used by AI models without authorization.",
       "date": "2026-07-02T12:21:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/",
-      "isTopTen": false
-    },
-    {
-      "id": "38cf117f-bd1f-4dd7-a245-0bf015f71c24",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "India gives WhatsApp three days to defend username rollout amid security fears",
-      "summary": "The Indian government has issued a three-day ultimatum to Meta to address security concerns regarding the rollout of usernames on WhatsApp, specifically demanding an explanation on how the platform intends to prevent impersonation. The government has requested a pause on the feature's deployment until these safety measures are clarified.",
-      "date": "2026-07-02T11:50:41.000Z",
-      "link": "https://www.theregister.com/security/2026/07/02/india-writes-to-whatsapp-over-usernames-security-concerns/5265744",
-      "isTopTen": false
-    },
-    {
-      "id": "f2618986-24dd-4684-9756-d88c49dd302d",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Identity Lifecycle Management Wasn't Built for AI Agents ",
-      "summary": "Traditional identity governance systems are failing to account for the unique characteristics of autonomous AI agents, leading to significant security visibility gaps. Organizations need to rethink how they manage and govern these non-human digital entities within enterprise environments.",
-      "date": "2026-07-02T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fbd0d0eb-c099-4790-9546-4b728154698d",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "430,000 FortiGate Devices Exposed in FortiBleed Ransomware Link",
-      "summary": "A massive credential-harvesting campaign dubbed 'FortiBleed' has exposed 430,000 FortiGate firewalls to exploitation by the INC Ransom and Lynx ransomware groups, leading to domain compromise and multiple attacks. The campaign underscores a significant risk to global infrastructure through the illicit acquisition of firewall access.",
-      "date": "2026-07-02T10:37:36.000Z",
-      "link": "https://securityaffairs.com/194645/security/430000-fortigate-devices-exposed-in-fortibleed-ransomware-link.html",
       "isTopTen": false
     }
   ]
