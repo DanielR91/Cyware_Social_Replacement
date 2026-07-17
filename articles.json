@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-17T16:20:32.538Z",
+  "lastUpdated": "2026-07-17T19:18:51.275Z",
   "articles": [
+    {
+      "id": "a0e6dc53-1497-44bf-b39e-ed68ddb2892f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "summary": "Researchers discovered seven malicious npm packages targeting the Vite ecosystem that utilize a complex, four-tier blockchain-based infrastructure for command-and-control operations. This campaign, dubbed ViteVenom, demonstrates an evolving supply chain attack strategy using decentralized technology for malware communication.",
+      "date": "2026-07-17T18:54:51.000Z",
+      "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0d65673c-3ce5-442d-a116-98de16be6acd",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "A cyberattack hit Nichirei, one of Japan’s largest food companies",
+      "summary": "Japanese food giant Nichirei suffered a cyberattack that caused disruptions to its logistics and shipment operations. The company is currently in the process of restoring its systems.",
+      "date": "2026-07-17T17:52:06.000Z",
+      "link": "https://securityaffairs.com/195543/security/a-cyberattack-hit-nichirei-one-of-japans-largest-food-companies.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a6bd11f0-a36c-4f7f-9392-93f1e2267c09",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
+      "date": "2026-07-17T17:12:23.000Z",
+      "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+      "isTopTen": false
+    },
+    {
+      "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+      "summary": "Cybersecurity researchers have linked the April 2026 DigiCert data breach and subsequent theft of code-signing certificates to CylindricalCanine, a subgroup of the Chinese cybercrime organization GoldenEyeDog.",
+      "date": "2026-07-17T16:39:16.000Z",
+      "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+      "isTopTen": true
+    },
     {
       "id": "ab86b995-c0e3-48b4-a5e4-1e2e858e2dd2",
       "source": "The Register",
@@ -32,7 +76,7 @@
       "summary": "Two leading members of the Scattered Spider threat group, Thalha Jubair and Owen Flowers, have been sentenced to 66 months in jail in the UK for their roles in numerous cyberattacks. The duo was responsible for leading operations targeting various organizations, with Jubair alone linked to at least 120 attacks.",
       "date": "2026-07-17T14:12:59.000Z",
       "link": "https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "08b6e305-842e-4d61-be78-f9bbc1c01b3f",
@@ -252,7 +296,7 @@
       "summary": "Researchers at UC Berkeley have identified 'Cross-Site Prompting' (XSP) as an emerging threat where autonomous web agents are manipulated by untrusted content, drawing parallels to traditional Cross-Site Scripting vulnerabilities.",
       "date": "2026-07-17T06:00:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8aa1ee06-3f13-439e-ba69-f76be995d3c7",
@@ -549,7 +593,7 @@
       "summary": "A Russian-speaking threat actor leveraged a jailbroken Gemini CLI tool to rapidly rebuild and manage C2 botnet infrastructure, resulting in a data breach at a dental clinic. The incident highlights the growing risk of AI-assisted automation in cyberattack operations.",
       "date": "2026-07-16T12:08:46.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/jailbroken-google-gemini-cli-botnet/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "28cf0207-2c57-4d5b-b84d-78e031c5df39",
@@ -560,7 +604,7 @@
       "summary": "Two key members of the Scattered Spider hacking group have been sentenced to over five years in prison for their involvement in the 2024 cyberattack on Transport for London that caused £29 million in damages.",
       "date": "2026-07-16T12:00:00.000Z",
       "link": "https://therecord.media/scattered-spider-hackers-tfl-sentenced",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a40add7-16cb-4b60-bd4c-6001468ab600",
@@ -604,7 +648,7 @@
       "summary": "A new data injection vulnerability allows attackers to manipulate AI agents by planting malicious instructions in trusted data sources, causing the AI to perform unauthorized actions. This exploit subverts the agent's decision-making process without hijacking the underlying task.",
       "date": "2026-07-16T11:32:28.000Z",
       "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e273df5-be3d-4993-9234-7122a3afe46f",
@@ -637,7 +681,7 @@
       "summary": "The China-linked Daxin rootkit has resurfaced in a targeted attack against a Taiwanese manufacturing firm, accompanied by a new, previously undocumented backdoor named Stupig. This development highlights the continued evolution of sophisticated kernel-mode malware utilized in strategic cyber espionage.",
       "date": "2026-07-16T11:17:23.000Z",
       "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce572005-cbdc-4457-857d-02c719629dea",
@@ -5455,50 +5499,6 @@
       "summary": "A member of the European Parliament's PEGA committee, which investigates spyware abuse, was targeted and infected twice by NSO Group's Pegasus spyware. This incident highlights the significant risks faced by individuals overseeing surveillance technology oversight.",
       "date": "2026-07-03T05:00:00.000Z",
       "link": "https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/",
-      "isTopTen": false
-    },
-    {
-      "id": "a4b9b594-4960-423e-ac02-d9edf7e48016",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Spyware found on phone of European Parliament member probing it",
-      "summary": "Stelios Kouloglou, a former member of the European Parliament committee investigating commercial spyware, was confirmed to have been infected with Pegasus spyware twice during his tenure. This incident highlights the targeted use of advanced surveillance tools against high-profile political figures involved in cybersecurity oversight.",
-      "date": "2026-07-03T05:00:00.000Z",
-      "link": "https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member",
-      "isTopTen": false
-    },
-    {
-      "id": "edea3591-59cb-4e48-8511-c7e458bd316f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Organizations struggle to prioritize known cyber risks",
-      "summary": "Organizations are finding it difficult to effectively prioritize known cyber risks due to fragmented data across disconnected security tools and systems. Despite an abundance of risk information, the lack of a unified exposure view hinders comprehensive threat management.",
-      "date": "2026-07-03T04:30:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "34f2a6d2-094f-4717-9ec6-48c89689f33c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the week: July 3, 2026",
-      "summary": "This article highlights recent cybersecurity product releases, specifically focusing on Digi International's new AI-powered network diagnostics agent, DANI. The agent is integrated into the Digi Remote Manager platform to streamline network operations and device management.",
-      "date": "2026-07-03T04:00:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "517dba12-1543-4cc2-a806-e9f93af1ab03",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Dev says Google warned him about account hijack – then charged him $11,000 anyway",
-      "summary": "A developer reported that Google notified him of a potential account hijack attempt, yet simultaneously allowed unauthorized access that resulted in an $11,000 charge on his account. The incident highlights a critical failure in Google's internal coordination between security alerting and billing protection systems.",
-      "date": "2026-07-02T23:08:16.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/07/03/dev-says-google-warned-him-about-account-hijack-then-charged-him-11000-anyway/5266234",
       "isTopTen": false
     }
   ]
