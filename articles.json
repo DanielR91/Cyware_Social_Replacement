@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-17T19:18:51.275Z",
+  "lastUpdated": "2026-07-17T21:59:37.593Z",
   "articles": [
+    {
+      "id": "0a07e02d-675f-4be6-90df-126ec1b2b569",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ernst & Young (EY) Investigates Data Breach Involving Third-Party Support Tickets",
+      "summary": "Ernst & Young (EY) has reported a data breach resulting from unauthorized access to a third-party IT support system that contained sensitive client documents and tax information.",
+      "date": "2026-07-17T21:34:26.000Z",
+      "link": "https://securityaffairs.com/195550/data-breach/ernst-young-ey-investigates-data-breach-involving-third-party-support-tickets.html",
+      "isTopTen": false
+    },
+    {
+      "id": "404131ec-36ce-4af1-a29a-e9580924991e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "summary": "A critical vulnerability in WordPress core, dubbed wp2shell, allows unauthenticated attackers to execute arbitrary code on affected sites. WordPress has issued patches in versions 6.9.5 and 7.0.2 and initiated forced auto-updates to mitigate the risk.",
+      "date": "2026-07-17T21:20:10.000Z",
+      "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "isTopTen": true
+    },
+    {
+      "id": "2f6e6275-7cf6-47ed-822c-e7c056e24a5e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "summary": "A previously undisclosed OpenSSL vulnerability named 'HollowByte' allows attackers to induce a persistent memory-exhaustion denial-of-service attack using only 11-byte TLS requests. The flaw affects unpatched servers on glibc systems and requires a process restart to recover the leaked memory.",
+      "date": "2026-07-17T20:20:53.000Z",
+      "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "isTopTen": true
+    },
     {
       "id": "a0e6dc53-1497-44bf-b39e-ed68ddb2892f",
       "source": "The Hacker News",
@@ -10,7 +43,7 @@
       "summary": "Researchers discovered seven malicious npm packages targeting the Vite ecosystem that utilize a complex, four-tier blockchain-based infrastructure for command-and-control operations. This campaign, dubbed ViteVenom, demonstrates an evolving supply chain attack strategy using decentralized technology for malware communication.",
       "date": "2026-07-17T18:54:51.000Z",
       "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0d65673c-3ce5-442d-a116-98de16be6acd",
@@ -32,7 +65,7 @@
       "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
       "date": "2026-07-17T17:12:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
@@ -296,7 +329,7 @@
       "summary": "Researchers at UC Berkeley have identified 'Cross-Site Prompting' (XSP) as an emerging threat where autonomous web agents are manipulated by untrusted content, drawing parallels to traditional Cross-Site Scripting vulnerabilities.",
       "date": "2026-07-17T06:00:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8aa1ee06-3f13-439e-ba69-f76be995d3c7",
@@ -428,7 +461,7 @@
       "summary": "Three Russian nationals and their hosting companies have been indicted for operating bulletproof hosting services that facilitated global cyberattacks and caused over $62 million in damages. The infrastructure supported malicious activity across 21 U.S. states and multiple other countries.",
       "date": "2026-07-16T17:24:04.000Z",
       "link": "https://cyberscoop.com/russian-nationals-medialand-mlcloud-indicted-bulletproof-hosting/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2848e876-1a80-4089-b728-3d29e87260e3",
@@ -593,7 +626,7 @@
       "summary": "A Russian-speaking threat actor leveraged a jailbroken Gemini CLI tool to rapidly rebuild and manage C2 botnet infrastructure, resulting in a data breach at a dental clinic. The incident highlights the growing risk of AI-assisted automation in cyberattack operations.",
       "date": "2026-07-16T12:08:46.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/jailbroken-google-gemini-cli-botnet/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "28cf0207-2c57-4d5b-b84d-78e031c5df39",
@@ -604,7 +637,7 @@
       "summary": "Two key members of the Scattered Spider hacking group have been sentenced to over five years in prison for their involvement in the 2024 cyberattack on Transport for London that caused £29 million in damages.",
       "date": "2026-07-16T12:00:00.000Z",
       "link": "https://therecord.media/scattered-spider-hackers-tfl-sentenced",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a40add7-16cb-4b60-bd4c-6001468ab600",
@@ -648,7 +681,7 @@
       "summary": "A new data injection vulnerability allows attackers to manipulate AI agents by planting malicious instructions in trusted data sources, causing the AI to perform unauthorized actions. This exploit subverts the agent's decision-making process without hijacking the underlying task.",
       "date": "2026-07-16T11:32:28.000Z",
       "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2e273df5-be3d-4993-9234-7122a3afe46f",
@@ -758,7 +791,7 @@
       "summary": "Chinese state-sponsored actors are leveraging AI tools Claude Code and DeepSeek to automate cyber espionage attacks targeting government systems and financial institutions. Researchers identified the campaign by tracking TencShell command-and-control infrastructure back to servers in Hong Kong.",
       "date": "2026-07-16T09:16:08.000Z",
       "link": "https://securityaffairs.com/195474/ai/claude-code-and-deepseek-powered-chinese-cyber-espionage-campaign.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e9861e55-38b5-4904-a79c-6eda50f23040",
@@ -5466,39 +5499,6 @@
       "summary": "A user erroneously believed their computer had been compromised by a hacker named 'General Failure', likely misinterpreting a standard system error message. The incident highlights the confusion between technical error codes and actual security threats.",
       "date": "2026-07-03T06:30:00.000Z",
       "link": "https://www.theregister.com/personal-tech/2026/07/03/user-swore-hacker-called-general-failure-had-invaded-his-pc/5265548",
-      "isTopTen": false
-    },
-    {
-      "id": "ad251ae6-4439-49ed-9a62-7c0df670a239",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Non-interactive SSH attacks dominate after login",
-      "summary": "Research using eleven honeypots reveals that the majority of post-login SSH attacks are automated and non-interactive rather than manual, human-led intrusions. This indicates a shift toward scripted malicious activity following initial server access.",
-      "date": "2026-07-03T05:30:42.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "c251be73-2a00-4977-80e1-6d0fc8ae9bb8",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Geopolitical cyber threats are turning HR into a security front line",
-      "summary": "Geopolitical tensions are expanding the threat landscape, forcing organizations to treat departments like HR as primary targets for new, non-traditional adversaries. Security teams are encouraged to widen their threat models to account for these evolving global risks.",
-      "date": "2026-07-03T05:00:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "cb23df8d-a417-49da-a86c-4f06774344cc",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Someone infected a spyware probe overseer with spyware",
-      "summary": "A member of the European Parliament's PEGA committee, which investigates spyware abuse, was targeted and infected twice by NSO Group's Pegasus spyware. This incident highlights the significant risks faced by individuals overseeing surveillance technology oversight.",
-      "date": "2026-07-03T05:00:00.000Z",
-      "link": "https://cyberscoop.com/pegasus-spyware-pega-committee-member-targeted/",
       "isTopTen": false
     }
   ]
