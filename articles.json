@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-18T13:26:04.491Z",
+  "lastUpdated": "2026-07-18T16:02:15.696Z",
   "articles": [
+    {
+      "id": "386ec1b0-12ee-46fc-8a6a-d3c1d02313a8",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Two new high severity WordPress vulnerabilities, patch immediately!",
+      "summary": "WordPress has released version 7.0.2 to patch two severe vulnerabilities, including an SQL injection and a REST API flaw that could lead to Remote Code Execution. Users are urged to update immediately to protect against these exploits.",
+      "date": "2026-07-18T14:57:20.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/",
+      "isTopTen": true
+    },
+    {
+      "id": "645af145-3053-418d-8145-3af595c430f3",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Daxin: 13-Year-Old China-Linked Malware Found Still Active on Manufacturer’s Network",
+      "summary": "Security researchers discovered the China-linked Daxin rootkit and a new Stupig backdoor active within the network of a Taiwan-based tech manufacturer, revealing a stealthy intrusion that may have persisted since 2013.",
+      "date": "2026-07-18T14:01:03.000Z",
+      "link": "https://securityaffairs.com/195577/malware/daxin-13-year-old-china-linked-malware-found-still-active-on-manufacturers-network.html",
+      "isTopTen": false
+    },
     {
       "id": "efc4a90c-9128-462a-9d51-4894c4e270dc",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Fortinet FortiSandbox and Microsoft SharePoint to its Known Exploited Vulnerabilities catalog due to active exploitation. Organizations are urged to prioritize patching these flaws to secure their infrastructure.",
       "date": "2026-07-18T11:49:16.000Z",
       "link": "https://securityaffairs.com/195569/security/u-s-cisa-adds-fortinet-fortisandbox-and-microsoft-sharepoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0a07e02d-675f-4be6-90df-126ec1b2b569",
@@ -186,7 +208,7 @@
       "summary": "CISA has issued an emergency directive requiring agencies to patch critical command injection vulnerabilities in FortiSandbox after detecting active exploitation by attackers. These flaws have now been added to the agency's Known Exploited Vulnerabilities catalog.",
       "date": "2026-07-17T11:58:10.000Z",
       "link": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c4e0b417-ce5f-4e7d-a403-ed8ff42cef9b",
@@ -307,7 +329,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in KNX Association protocols and Oracle products, mandating attention from federal agencies. These additions reflect ongoing efforts to mitigate active threats targeting common software and industrial control systems.",
       "date": "2026-07-17T08:13:15.000Z",
       "link": "https://securityaffairs.com/195516/security/u-s-cisa-adds-knx-association-knx-protocol-connection-authorization-option-1-and-oracle-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "84a0b63d-01d1-428b-be72-adcbc36fd2ef",
@@ -340,7 +362,7 @@
       "summary": "Researchers at UC Berkeley have identified 'Cross-Site Prompting' (XSP) as an emerging threat where autonomous web agents are manipulated by untrusted content, drawing parallels to traditional Cross-Site Scripting vulnerabilities.",
       "date": "2026-07-17T06:00:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8aa1ee06-3f13-439e-ba69-f76be995d3c7",
@@ -472,7 +494,7 @@
       "summary": "Three Russian nationals and their hosting companies have been indicted for operating bulletproof hosting services that facilitated global cyberattacks and caused over $62 million in damages. The infrastructure supported malicious activity across 21 U.S. states and multiple other countries.",
       "date": "2026-07-16T17:24:04.000Z",
       "link": "https://cyberscoop.com/russian-nationals-medialand-mlcloud-indicted-bulletproof-hosting/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2848e876-1a80-4089-b728-3d29e87260e3",
@@ -714,7 +736,7 @@
       "summary": "A significant portion of Windows 10 devices remain in operation despite the approaching end-of-support deadline, posing a major security risk for users who fail to migrate. The continued reliance on an aging operating system increases the likelihood of unpatched vulnerabilities as security updates cease.",
       "date": "2026-07-16T11:25:20.000Z",
       "link": "https://www.theregister.com/os-platforms/2026/07/16/windows-10-refuses-to-die-and-the-security-bill-is-coming-due/5271987",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "becba2b3-b70f-42a1-81d5-dc4fdd881e01",
@@ -725,7 +747,7 @@
       "summary": "The China-linked Daxin rootkit has resurfaced in a targeted attack against a Taiwanese manufacturing firm, accompanied by a new, previously undocumented backdoor named Stupig. This development highlights the continued evolution of sophisticated kernel-mode malware utilized in strategic cyber espionage.",
       "date": "2026-07-16T11:17:23.000Z",
       "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce572005-cbdc-4457-857d-02c719629dea",
@@ -5477,28 +5499,6 @@
       "summary": "PamStealer is a newly discovered macOS information stealer disguised as the clipboard manager Maccy that uses malicious PAM configuration checks to compromise user login credentials. The malware is distributed via fake websites as a malicious AppleScript file.",
       "date": "2026-07-03T08:03:37.000Z",
       "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-      "isTopTen": false
-    },
-    {
-      "id": "975a0976-a8fa-4854-be2f-2ecde2f20673",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Government and Healthcare Are the Weakest Links in Global Email Security",
-      "summary": "A study by Comparitech reveals that government and healthcare sectors have significant email security vulnerabilities due to widespread failure to implement standard authentication protocols like SPF, DMARC, DKIM, and MTA-STS. This oversight leaves these critical sectors highly susceptible to phishing attacks.",
-      "date": "2026-07-03T08:01:37.000Z",
-      "link": "https://securityaffairs.com/194677/security/government-and-healthcare-are-the-weakest-links-in-global-email-security.html",
-      "isTopTen": false
-    },
-    {
-      "id": "afcd51f1-0bcc-42d9-85d3-66ee3a3e49fe",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Intezer helps SOC teams automate custom security tasks",
-      "summary": "Intezer has launched Custom Agents, enabling security operations teams to build and deploy personalized AI agents within its platform to automate triage and investigation tasks. This initiative aims to address the scalability challenges of managing modern security threats by shifting from manual processes to AI-supervised automation.",
-      "date": "2026-07-03T06:39:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/",
       "isTopTen": false
     }
   ]
