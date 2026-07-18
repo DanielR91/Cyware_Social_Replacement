@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-18T16:02:15.696Z",
+  "lastUpdated": "2026-07-18T19:12:03.369Z",
   "articles": [
+    {
+      "id": "3cdd56fe-c0e9-4d46-b517-662221854e22",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenSSL Fixes HollowByte Memory Exhaustion Bug",
+      "summary": "Okta's security team identified a vulnerability named HollowByte in OpenSSL that allows an unauthenticated remote attacker to cause memory exhaustion and denial-of-service. The attack requires only an 11-byte payload to trigger significant memory allocation on affected servers.",
+      "date": "2026-07-18T18:24:32.000Z",
+      "link": "https://securityaffairs.com/195588/hacking/openssl-fixes-hollowbyte-memory-exhaustion-bug.html",
+      "isTopTen": true
+    },
     {
       "id": "386ec1b0-12ee-46fc-8a6a-d3c1d02313a8",
       "source": "Help Net Security",
@@ -10,7 +21,7 @@
       "summary": "WordPress has released version 7.0.2 to patch two severe vulnerabilities, including an SQL injection and a REST API flaw that could lead to Remote Code Execution. Users are urged to update immediately to protect against these exploits.",
       "date": "2026-07-18T14:57:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "645af145-3053-418d-8145-3af595c430f3",
@@ -21,7 +32,7 @@
       "summary": "Security researchers discovered the China-linked Daxin rootkit and a new Stupig backdoor active within the network of a Taiwan-based tech manufacturer, revealing a stealthy intrusion that may have persisted since 2013.",
       "date": "2026-07-18T14:01:03.000Z",
       "link": "https://securityaffairs.com/195577/malware/daxin-13-year-old-china-linked-malware-found-still-active-on-manufacturers-network.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "efc4a90c-9128-462a-9d51-4894c4e270dc",
@@ -32,7 +43,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Fortinet FortiSandbox and Microsoft SharePoint to its Known Exploited Vulnerabilities catalog due to active exploitation. Organizations are urged to prioritize patching these flaws to secure their infrastructure.",
       "date": "2026-07-18T11:49:16.000Z",
       "link": "https://securityaffairs.com/195569/security/u-s-cisa-adds-fortinet-fortisandbox-and-microsoft-sharepoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a07e02d-675f-4be6-90df-126ec1b2b569",
@@ -98,7 +109,7 @@
       "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
       "date": "2026-07-17T17:12:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
@@ -208,7 +219,7 @@
       "summary": "CISA has issued an emergency directive requiring agencies to patch critical command injection vulnerabilities in FortiSandbox after detecting active exploitation by attackers. These flaws have now been added to the agency's Known Exploited Vulnerabilities catalog.",
       "date": "2026-07-17T11:58:10.000Z",
       "link": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c4e0b417-ce5f-4e7d-a403-ed8ff42cef9b",
@@ -263,7 +274,7 @@
       "summary": "Researchers discovered a chain of three zero-day vulnerabilities in Siemens ROX II OT switches that enable unauthorized privilege escalation and persistent root access. These flaws pose significant risks to industrial control systems by allowing attackers to gain full control over the affected hardware.",
       "date": "2026-07-17T10:00:24.000Z",
       "link": "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "44a6876f-930c-4369-8de4-64a9caa8d396",
@@ -329,7 +340,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in KNX Association protocols and Oracle products, mandating attention from federal agencies. These additions reflect ongoing efforts to mitigate active threats targeting common software and industrial control systems.",
       "date": "2026-07-17T08:13:15.000Z",
       "link": "https://securityaffairs.com/195516/security/u-s-cisa-adds-knx-association-knx-protocol-connection-authorization-option-1-and-oracle-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "84a0b63d-01d1-428b-be72-adcbc36fd2ef",
@@ -340,7 +351,7 @@
       "summary": "Coca-Cola has temporarily suspended U.S. milk production at its Fairlife brand following a ransomware attack disclosed in an SEC filing. The company confirmed that product quality and safety remain unaffected by the incident.",
       "date": "2026-07-17T08:04:22.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "86517bc1-8636-4683-962c-edf88254170f",
@@ -483,7 +494,7 @@
       "summary": "Two members of the Scattered Spider hacking group, Thalha Jubair and Owen Flowers, have been sentenced to prison for their involvement in a 2024 cyberattack against Transport for London. The breach resulted in significant operational impact and reportedly caused £29 million in damages.",
       "date": "2026-07-16T17:34:13.000Z",
       "link": "https://securityaffairs.com/195501/cyber-crime/two-scattered-spider-members-sentenced-to-prison-over-29-million-tfl-cyberattack.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f4c3c1f-e1dc-4938-8b05-84ee74e3edf6",
@@ -571,7 +582,7 @@
       "summary": "Russian state-sponsored group Sandworm is targeting Ukrainians by using a malicious CAPTCHA that tricks users into executing harmful PowerShell commands on their systems. This social engineering tactic is designed to bypass security defenses by disguising malware execution as a human verification process.",
       "date": "2026-07-16T13:50:00.000Z",
       "link": "https://therecord.media/ukraine-sandworm-hacks-captcha-powershell",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc2271c8-5245-4010-83ac-5d21edf1dec5",
@@ -714,7 +725,7 @@
       "summary": "A new data injection vulnerability allows attackers to manipulate AI agents by planting malicious instructions in trusted data sources, causing the AI to perform unauthorized actions. This exploit subverts the agent's decision-making process without hijacking the underlying task.",
       "date": "2026-07-16T11:32:28.000Z",
       "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2e273df5-be3d-4993-9234-7122a3afe46f",
@@ -5488,17 +5499,6 @@
       "summary": "Google and the FBI successfully disrupted NetNut, a massive residential proxy network exploited by cybercriminals to obfuscate their activities using compromised home devices.",
       "date": "2026-07-03T09:02:17.000Z",
       "link": "https://securityaffairs.com/194690/cyber-crime/law-enforcememt-operation-disrupted-malicious-residential-proxy-networks-netnut.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4ed8c77c-d85d-4adf-8964-55a8c7b8ee65",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
-      "summary": "PamStealer is a newly discovered macOS information stealer disguised as the clipboard manager Maccy that uses malicious PAM configuration checks to compromise user login credentials. The malware is distributed via fake websites as a malicious AppleScript file.",
-      "date": "2026-07-03T08:03:37.000Z",
-      "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
       "isTopTen": false
     }
   ]
