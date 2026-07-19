@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-19T03:20:47.211Z",
+  "lastUpdated": "2026-07-19T08:26:48.366Z",
   "articles": [
+    {
+      "id": "a2759c50-1d71-4512-b06b-064477a5e567",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Week in review: High severity WordPress vulnerabilities, fake OAuth IDs bypass sign-in logs",
+      "summary": "This week's security news highlights critical and high severity vulnerabilities in WordPress alongside research into the risks of utilizing autonomous LLM agents for cloud security auditing.",
+      "date": "2026-07-19T07:09:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/19/week-in-review-oauth-client-ids-spoofed-sonicwall-sma-appliances-targeted-in-zero-day-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "8571b286-932b-46d8-8efa-dec78ba20bb0",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Can Take Over WordPress Sites Using Newly Released wp2shell Exploits",
+      "summary": "Public exploits for critical vulnerabilities CVE-2026-63030 and CVE-2026-60137 allow unauthenticated attackers to achieve remote code execution on WordPress installations. These flaws can be chained to gain full control over affected websites.",
+      "date": "2026-07-19T05:04:03.000Z",
+      "link": "https://securityaffairs.com/195597/hacking/attackers-can-take-over-wordpress-sites-using-newly-released-wp2shell-exploits.html",
+      "isTopTen": true
+    },
     {
       "id": "3cdd56fe-c0e9-4d46-b517-662221854e22",
       "source": "Security Affairs",
@@ -43,7 +65,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Fortinet FortiSandbox and Microsoft SharePoint to its Known Exploited Vulnerabilities catalog due to active exploitation. Organizations are urged to prioritize patching these flaws to secure their infrastructure.",
       "date": "2026-07-18T11:49:16.000Z",
       "link": "https://securityaffairs.com/195569/security/u-s-cisa-adds-fortinet-fortisandbox-and-microsoft-sharepoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0a07e02d-675f-4be6-90df-126ec1b2b569",
@@ -65,7 +87,7 @@
       "summary": "A critical vulnerability in WordPress core, dubbed wp2shell, allows unauthenticated attackers to execute arbitrary code on affected sites. WordPress has issued patches in versions 6.9.5 and 7.0.2 and initiated forced auto-updates to mitigate the risk.",
       "date": "2026-07-17T21:20:10.000Z",
       "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2f6e6275-7cf6-47ed-822c-e7c056e24a5e",
@@ -87,7 +109,7 @@
       "summary": "Researchers discovered seven malicious npm packages targeting the Vite ecosystem that utilize a complex, four-tier blockchain-based infrastructure for command-and-control operations. This campaign, dubbed ViteVenom, demonstrates an evolving supply chain attack strategy using decentralized technology for malware communication.",
       "date": "2026-07-17T18:54:51.000Z",
       "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0d65673c-3ce5-442d-a116-98de16be6acd",
@@ -109,7 +131,7 @@
       "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
       "date": "2026-07-17T17:12:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
@@ -340,7 +362,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include specific security flaws found in KNX Association protocols and Oracle products, mandating attention from federal agencies. These additions reflect ongoing efforts to mitigate active threats targeting common software and industrial control systems.",
       "date": "2026-07-17T08:13:15.000Z",
       "link": "https://securityaffairs.com/195516/security/u-s-cisa-adds-knx-association-knx-protocol-connection-authorization-option-1-and-oracle-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "84a0b63d-01d1-428b-be72-adcbc36fd2ef",
@@ -362,7 +384,7 @@
       "summary": "CISA has added a critical SharePoint deserialization vulnerability (CVE-2026-58644) to its Known Exploited Vulnerabilities (KEV) catalog, mandating that FCEB agencies apply patches by July 19, 2026.",
       "date": "2026-07-17T06:42:23.000Z",
       "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b7664c9-d985-4546-8c1a-61fc8df9e122",
@@ -505,7 +527,7 @@
       "summary": "Three Russian nationals and their hosting companies have been indicted for operating bulletproof hosting services that facilitated global cyberattacks and caused over $62 million in damages. The infrastructure supported malicious activity across 21 U.S. states and multiple other countries.",
       "date": "2026-07-16T17:24:04.000Z",
       "link": "https://cyberscoop.com/russian-nationals-medialand-mlcloud-indicted-bulletproof-hosting/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2848e876-1a80-4089-b728-3d29e87260e3",
@@ -725,7 +747,7 @@
       "summary": "A new data injection vulnerability allows attackers to manipulate AI agents by planting malicious instructions in trusted data sources, causing the AI to perform unauthorized actions. This exploit subverts the agent's decision-making process without hijacking the underlying task.",
       "date": "2026-07-16T11:32:28.000Z",
       "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2e273df5-be3d-4993-9234-7122a3afe46f",
@@ -758,7 +780,7 @@
       "summary": "The China-linked Daxin rootkit has resurfaced in a targeted attack against a Taiwanese manufacturing firm, accompanied by a new, previously undocumented backdoor named Stupig. This development highlights the continued evolution of sophisticated kernel-mode malware utilized in strategic cyber espionage.",
       "date": "2026-07-16T11:17:23.000Z",
       "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce572005-cbdc-4457-857d-02c719629dea",
@@ -5477,28 +5499,6 @@
       "summary": "Former MEP Stelios Kouloglou was repeatedly targeted with Pegasus spyware while serving on a committee investigating the abuse of commercial surveillance tools. Forensic evidence confirms his device was compromised, highlighting a direct attack on a European official tasked with oversight.",
       "date": "2026-07-03T11:05:43.000Z",
       "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a8f29576-0280-4fe8-96d3-3649f083503b",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "The Anatomy of a Shadow AI Supply-Chain Breach: Lessons from the 2026 Vercel Incident",
-      "summary": "The 2026 Vercel incident occurred after an employee utilized an unvetted AI tool, allowing attackers to exploit it as a trusted gateway to access systems, exfiltrate data, and demand a $2 million ransom.",
-      "date": "2026-07-03T10:34:14.000Z",
-      "link": "https://securityaffairs.com/194709/hacking/the-anatomy-of-a-shadow-ai-supply-chain-breach-lessons-from-the-2026-vercel-incident.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e7697f46-6ad9-4bd2-94f2-bbb31c18548e",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Law enforcememt operation disrupted Malicious Residential Proxy Networks NetNut",
-      "summary": "Google and the FBI successfully disrupted NetNut, a massive residential proxy network exploited by cybercriminals to obfuscate their activities using compromised home devices.",
-      "date": "2026-07-03T09:02:17.000Z",
-      "link": "https://securityaffairs.com/194690/cyber-crime/law-enforcememt-operation-disrupted-malicious-residential-proxy-networks-netnut.html",
       "isTopTen": false
     }
   ]
