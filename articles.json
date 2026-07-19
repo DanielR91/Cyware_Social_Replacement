@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-19T19:13:15.840Z",
+  "lastUpdated": "2026-07-19T21:59:01.862Z",
   "articles": [
+    {
+      "id": "d22b9ba3-3c43-4a9a-86b1-cf1c93e62a29",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+      "summary": "F5 has patched a critical heap buffer overflow vulnerability in NGINX that could allow unauthenticated remote attackers to trigger worker crashes or potentially achieve remote code execution. Users are urged to upgrade to the latest stable or mainline versions immediately.",
+      "date": "2026-07-19T20:42:49.000Z",
+      "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+      "isTopTen": true
+    },
     {
       "id": "89ddd9b4-3b9f-4f24-bb2d-6127fb61b60a",
       "source": "The Register",
@@ -186,7 +197,7 @@
       "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
       "date": "2026-07-17T17:12:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
@@ -428,7 +439,7 @@
       "summary": "Coca-Cola has temporarily suspended U.S. milk production at its Fairlife brand following a ransomware attack disclosed in an SEC filing. The company confirmed that product quality and safety remain unaffected by the incident.",
       "date": "2026-07-17T08:04:22.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "86517bc1-8636-4683-962c-edf88254170f",
@@ -582,7 +593,7 @@
       "summary": "Three Russian nationals and their hosting companies have been indicted for operating bulletproof hosting services that facilitated global cyberattacks and caused over $62 million in damages. The infrastructure supported malicious activity across 21 U.S. states and multiple other countries.",
       "date": "2026-07-16T17:24:04.000Z",
       "link": "https://cyberscoop.com/russian-nationals-medialand-mlcloud-indicted-bulletproof-hosting/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2848e876-1a80-4089-b728-3d29e87260e3",
@@ -5488,17 +5499,6 @@
       "summary": "North Korean-linked threat actors are distributing malicious npm packages that masquerade as legitimate Rollup polyfill tools to exfiltrate developer data and gain remote access. The packages mimic the metadata of the authentic 'rollup-plugin-polyfill-node' library to deceive developers.",
       "date": "2026-07-03T16:07:15.000Z",
       "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-      "isTopTen": false
-    },
-    {
-      "id": "196c1eb1-6e22-4ae9-9eaf-f25c574cd1da",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "AdaptHealth says attackers sweet-talked their way into cloud systems and stole patient data",
-      "summary": "AdaptHealth experienced a data breach after threat actors used social engineering against a third-party contractor to gain unauthorized access to cloud systems containing patient information and credentials. The incident resulted in the compromise of sensitive health data and insurance billing passwords.",
-      "date": "2026-07-03T14:29:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/03/adapthealth-crooks-stole-our-passwords-patient-health-data/5266512",
       "isTopTen": false
     }
   ]
