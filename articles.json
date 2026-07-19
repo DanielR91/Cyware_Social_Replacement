@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-19T16:02:50.396Z",
+  "lastUpdated": "2026-07-19T19:13:15.840Z",
   "articles": [
+    {
+      "id": "89ddd9b4-3b9f-4f24-bb2d-6127fb61b60a",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Connecting AI agents to outside services explodes the risk radius",
+      "summary": "Integrating AI agents with external services and APIs significantly expands the potential attack surface and security risk radius. This connectivity creates new vulnerabilities that could be exploited to compromise systems.",
+      "date": "2026-07-19T16:05:00.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
+      "isTopTen": false
+    },
     {
       "id": "18814156-db3f-4d47-a2bd-7de762b7f81f",
       "source": "Security Affairs",
@@ -76,7 +87,7 @@
       "summary": "Okta's security team identified a vulnerability named HollowByte in OpenSSL that allows an unauthenticated remote attacker to cause memory exhaustion and denial-of-service. The attack requires only an 11-byte payload to trigger significant memory allocation on affected servers.",
       "date": "2026-07-18T18:24:32.000Z",
       "link": "https://securityaffairs.com/195588/hacking/openssl-fixes-hollowbyte-memory-exhaustion-bug.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "386ec1b0-12ee-46fc-8a6a-d3c1d02313a8",
@@ -109,7 +120,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Fortinet FortiSandbox and Microsoft SharePoint to its Known Exploited Vulnerabilities catalog due to active exploitation. Organizations are urged to prioritize patching these flaws to secure their infrastructure.",
       "date": "2026-07-18T11:49:16.000Z",
       "link": "https://securityaffairs.com/195569/security/u-s-cisa-adds-fortinet-fortisandbox-and-microsoft-sharepoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0a07e02d-675f-4be6-90df-126ec1b2b569",
@@ -142,7 +153,7 @@
       "summary": "A previously undisclosed OpenSSL vulnerability named 'HollowByte' allows attackers to induce a persistent memory-exhaustion denial-of-service attack using only 11-byte TLS requests. The flaw affects unpatched servers on glibc systems and requires a process restart to recover the leaked memory.",
       "date": "2026-07-17T20:20:53.000Z",
       "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a0e6dc53-1497-44bf-b39e-ed68ddb2892f",
@@ -153,7 +164,7 @@
       "summary": "Researchers discovered seven malicious npm packages targeting the Vite ecosystem that utilize a complex, four-tier blockchain-based infrastructure for command-and-control operations. This campaign, dubbed ViteVenom, demonstrates an evolving supply chain attack strategy using decentralized technology for malware communication.",
       "date": "2026-07-17T18:54:51.000Z",
       "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0d65673c-3ce5-442d-a116-98de16be6acd",
@@ -428,7 +439,7 @@
       "summary": "CISA has added a critical SharePoint deserialization vulnerability (CVE-2026-58644) to its Known Exploited Vulnerabilities (KEV) catalog, mandating that FCEB agencies apply patches by July 19, 2026.",
       "date": "2026-07-17T06:42:23.000Z",
       "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b7664c9-d985-4546-8c1a-61fc8df9e122",
@@ -571,7 +582,7 @@
       "summary": "Three Russian nationals and their hosting companies have been indicted for operating bulletproof hosting services that facilitated global cyberattacks and caused over $62 million in damages. The infrastructure supported malicious activity across 21 U.S. states and multiple other countries.",
       "date": "2026-07-16T17:24:04.000Z",
       "link": "https://cyberscoop.com/russian-nationals-medialand-mlcloud-indicted-bulletproof-hosting/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2848e876-1a80-4089-b728-3d29e87260e3",
@@ -5488,17 +5499,6 @@
       "summary": "AdaptHealth experienced a data breach after threat actors used social engineering against a third-party contractor to gain unauthorized access to cloud systems containing patient information and credentials. The incident resulted in the compromise of sensitive health data and insurance billing passwords.",
       "date": "2026-07-03T14:29:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/03/adapthealth-crooks-stole-our-passwords-patient-health-data/5266512",
-      "isTopTen": false
-    },
-    {
-      "id": "a1fe780c-4576-4926-8159-706b380e22a4",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
-      "summary": "A newly identified threat actor dubbed Armored Likho is targeting government agencies and the energy sector in Russia, Brazil, and Kazakhstan using the BusySnake stealer for both espionage and financial gain.",
-      "date": "2026-07-03T13:36:33.000Z",
-      "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
       "isTopTen": false
     }
   ]
