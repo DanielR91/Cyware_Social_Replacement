@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-19T13:27:27.384Z",
+  "lastUpdated": "2026-07-19T16:02:50.396Z",
   "articles": [
+    {
+      "id": "18814156-db3f-4d47-a2bd-7de762b7f81f",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 106",
+      "summary": "This newsletter highlights recent malware threats, including the CrashStealer macOS infostealer, the exploitation of student proxies, a supply chain compromise of the AsyncAPI npm organization, and the emergence of the OkoBot cryptocurrency framework.",
+      "date": "2026-07-19T14:59:49.000Z",
+      "link": "https://securityaffairs.com/195620/malware/security-affairs-malware-newsletter-round-106.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4b3f4013-bb49-4c52-bf7c-cf7cc66ee9fc",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 586 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 586th edition of the Security Affairs newsletter covers the release of an OpenSSL patch for a memory exhaustion vulnerability and the ongoing detection of the long-active China-linked Daxin malware.",
+      "date": "2026-07-19T14:40:55.000Z",
+      "link": "https://securityaffairs.com/195611/breaking-news/security-affairs-newsletter-round-586-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "60b92d73-cb0d-42b2-b5a4-f80c044ef5b1",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+      "summary": "The Russian state-sponsored threat group UAC-0145 is utilizing ClickFix CAPTCHA lures to deceive Ukrainian users into installing data-stealing malware. The campaign is linked to the GRU-affiliated Sandworm unit.",
+      "date": "2026-07-19T13:30:55.000Z",
+      "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e9b3de05-1080-43af-ad26-251c32840a50",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "summary": "A threat actor named UTA0533 exploited zero-day vulnerabilities in SonicWall SMA 1000 series VPN appliances to gain root access prior to their public disclosure. The activity was identified by Volexity during incident response investigations.",
+      "date": "2026-07-19T13:18:56.000Z",
+      "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "isTopTen": true
+    },
     {
       "id": "a2759c50-1d71-4512-b06b-064477a5e567",
       "source": "Help Net Security",
@@ -32,7 +76,7 @@
       "summary": "Okta's security team identified a vulnerability named HollowByte in OpenSSL that allows an unauthenticated remote attacker to cause memory exhaustion and denial-of-service. The attack requires only an 11-byte payload to trigger significant memory allocation on affected servers.",
       "date": "2026-07-18T18:24:32.000Z",
       "link": "https://securityaffairs.com/195588/hacking/openssl-fixes-hollowbyte-memory-exhaustion-bug.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "386ec1b0-12ee-46fc-8a6a-d3c1d02313a8",
@@ -76,7 +120,7 @@
       "summary": "Ernst & Young (EY) has reported a data breach resulting from unauthorized access to a third-party IT support system that contained sensitive client documents and tax information.",
       "date": "2026-07-17T21:34:26.000Z",
       "link": "https://securityaffairs.com/195550/data-breach/ernst-young-ey-investigates-data-breach-involving-third-party-support-tickets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "404131ec-36ce-4af1-a29a-e9580924991e",
@@ -98,7 +142,7 @@
       "summary": "A previously undisclosed OpenSSL vulnerability named 'HollowByte' allows attackers to induce a persistent memory-exhaustion denial-of-service attack using only 11-byte TLS requests. The flaw affects unpatched servers on glibc systems and requires a process restart to recover the leaked memory.",
       "date": "2026-07-17T20:20:53.000Z",
       "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a0e6dc53-1497-44bf-b39e-ed68ddb2892f",
@@ -109,7 +153,7 @@
       "summary": "Researchers discovered seven malicious npm packages targeting the Vite ecosystem that utilize a complex, four-tier blockchain-based infrastructure for command-and-control operations. This campaign, dubbed ViteVenom, demonstrates an evolving supply chain attack strategy using decentralized technology for malware communication.",
       "date": "2026-07-17T18:54:51.000Z",
       "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0d65673c-3ce5-442d-a116-98de16be6acd",
@@ -373,7 +417,7 @@
       "summary": "Coca-Cola has temporarily suspended U.S. milk production at its Fairlife brand following a ransomware attack disclosed in an SEC filing. The company confirmed that product quality and safety remain unaffected by the incident.",
       "date": "2026-07-17T08:04:22.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "86517bc1-8636-4683-962c-edf88254170f",
@@ -527,7 +571,7 @@
       "summary": "Three Russian nationals and their hosting companies have been indicted for operating bulletproof hosting services that facilitated global cyberattacks and caused over $62 million in damages. The infrastructure supported malicious activity across 21 U.S. states and multiple other countries.",
       "date": "2026-07-16T17:24:04.000Z",
       "link": "https://cyberscoop.com/russian-nationals-medialand-mlcloud-indicted-bulletproof-hosting/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2848e876-1a80-4089-b728-3d29e87260e3",
@@ -538,7 +582,7 @@
       "summary": "Two members of the Scattered Spider hacking group received five-and-a-half-year prison sentences for a 2024 cyberattack on Transport for London that crippled 148 systems and caused significant operational disruptions. The attack forced a manual password reset process for all 27,000 employees and resulted in millions of pounds in damages.",
       "date": "2026-07-16T17:09:25.000Z",
       "link": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b583010d-67b8-422d-8f04-fed310fdafbe",
@@ -747,7 +791,7 @@
       "summary": "A new data injection vulnerability allows attackers to manipulate AI agents by planting malicious instructions in trusted data sources, causing the AI to perform unauthorized actions. This exploit subverts the agent's decision-making process without hijacking the underlying task.",
       "date": "2026-07-16T11:32:28.000Z",
       "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e273df5-be3d-4993-9234-7122a3afe46f",
@@ -5455,50 +5499,6 @@
       "summary": "A newly identified threat actor dubbed Armored Likho is targeting government agencies and the energy sector in Russia, Brazil, and Kazakhstan using the BusySnake stealer for both espionage and financial gain.",
       "date": "2026-07-03T13:36:33.000Z",
       "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-      "isTopTen": false
-    },
-    {
-      "id": "97bab5d8-0852-4154-bb0b-388a23c78b23",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New PamStealer Malware Targets macOS Users via Fake Maccy Clipboard App",
-      "summary": "A new malware strain called PamStealer is targeting macOS users by masquerading as the legitimate Maccy clipboard utility to steal sensitive credentials and browser data. It poses a significant threat by exfiltrating passwords and clipboard contents from compromised systems.",
-      "date": "2026-07-03T13:35:08.000Z",
-      "link": "https://hackread.com/pamstealer-malware-macos-fake-maccy-clipboard-app/",
-      "isTopTen": false
-    },
-    {
-      "id": "75ea1a75-9306-4309-a595-537a9bb28d9b",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "NetNut cracked as Google and FBI target 2 million-device botnet",
-      "summary": "Google and the FBI have dismantled a massive 2 million-device botnet infrastructure operated by NetNut, raising concerns that other residential proxy services may share similar compromised network vulnerabilities.",
-      "date": "2026-07-03T12:03:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/03/netnut-cracked-as-google-and-fbi-target-2-million-device-botnet/5266414",
-      "isTopTen": false
-    },
-    {
-      "id": "2c14ad51-d998-47f6-98ce-736ab9c0e5e1",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "JADEPUFFER: First End-to-End AI-Driven Ransomware Operation",
-      "summary": "Sysdig researchers have identified JADEPUFFER, the first documented ransomware operation conducted entirely by an AI agent using an LLM to perform end-to-end attack steps. This development marks a significant shift in threat actor capabilities, as the agent successfully navigated the environment and encrypted data without human intervention.",
-      "date": "2026-07-03T11:29:03.000Z",
-      "link": "https://securityaffairs.com/194713/ai/jadepuffer-first-end-to-end-ai-driven-ransomware-operation.html",
-      "isTopTen": false
-    },
-    {
-      "id": "49fa02dd-60e9-4b90-b144-f40fccc0a029",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
-      "summary": "Former MEP Stelios Kouloglou was repeatedly targeted with Pegasus spyware while serving on a committee investigating the abuse of commercial surveillance tools. Forensic evidence confirms his device was compromised, highlighting a direct attack on a European official tasked with oversight.",
-      "date": "2026-07-03T11:05:43.000Z",
-      "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
       "isTopTen": false
     }
   ]
