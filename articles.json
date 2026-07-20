@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T21:59:01.862Z",
+  "lastUpdated": "2026-07-20T03:35:16.037Z",
   "articles": [
     {
       "id": "d22b9ba3-3c43-4a9a-86b1-cf1c93e62a29",
@@ -54,7 +54,7 @@
       "summary": "The Russian state-sponsored threat group UAC-0145 is utilizing ClickFix CAPTCHA lures to deceive Ukrainian users into installing data-stealing malware. The campaign is linked to the GRU-affiliated Sandworm unit.",
       "date": "2026-07-19T13:30:55.000Z",
       "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e9b3de05-1080-43af-ad26-251c32840a50",
@@ -87,7 +87,7 @@
       "summary": "Public exploits for critical vulnerabilities CVE-2026-63030 and CVE-2026-60137 allow unauthenticated attackers to achieve remote code execution on WordPress installations. These flaws can be chained to gain full control over affected websites.",
       "date": "2026-07-19T05:04:03.000Z",
       "link": "https://securityaffairs.com/195597/hacking/attackers-can-take-over-wordpress-sites-using-newly-released-wp2shell-exploits.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3cdd56fe-c0e9-4d46-b517-662221854e22",
@@ -98,7 +98,7 @@
       "summary": "Okta's security team identified a vulnerability named HollowByte in OpenSSL that allows an unauthenticated remote attacker to cause memory exhaustion and denial-of-service. The attack requires only an 11-byte payload to trigger significant memory allocation on affected servers.",
       "date": "2026-07-18T18:24:32.000Z",
       "link": "https://securityaffairs.com/195588/hacking/openssl-fixes-hollowbyte-memory-exhaustion-bug.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "386ec1b0-12ee-46fc-8a6a-d3c1d02313a8",
@@ -120,7 +120,7 @@
       "summary": "Security researchers discovered the China-linked Daxin rootkit and a new Stupig backdoor active within the network of a Taiwan-based tech manufacturer, revealing a stealthy intrusion that may have persisted since 2013.",
       "date": "2026-07-18T14:01:03.000Z",
       "link": "https://securityaffairs.com/195577/malware/daxin-13-year-old-china-linked-malware-found-still-active-on-manufacturers-network.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "efc4a90c-9128-462a-9d51-4894c4e270dc",
@@ -131,7 +131,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Fortinet FortiSandbox and Microsoft SharePoint to its Known Exploited Vulnerabilities catalog due to active exploitation. Organizations are urged to prioritize patching these flaws to secure their infrastructure.",
       "date": "2026-07-18T11:49:16.000Z",
       "link": "https://securityaffairs.com/195569/security/u-s-cisa-adds-fortinet-fortisandbox-and-microsoft-sharepoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a07e02d-675f-4be6-90df-126ec1b2b569",
@@ -153,7 +153,7 @@
       "summary": "A critical vulnerability in WordPress core, dubbed wp2shell, allows unauthenticated attackers to execute arbitrary code on affected sites. WordPress has issued patches in versions 6.9.5 and 7.0.2 and initiated forced auto-updates to mitigate the risk.",
       "date": "2026-07-17T21:20:10.000Z",
       "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2f6e6275-7cf6-47ed-822c-e7c056e24a5e",
@@ -164,7 +164,7 @@
       "summary": "A previously undisclosed OpenSSL vulnerability named 'HollowByte' allows attackers to induce a persistent memory-exhaustion denial-of-service attack using only 11-byte TLS requests. The flaw affects unpatched servers on glibc systems and requires a process restart to recover the leaked memory.",
       "date": "2026-07-17T20:20:53.000Z",
       "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a0e6dc53-1497-44bf-b39e-ed68ddb2892f",
@@ -197,7 +197,7 @@
       "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
       "date": "2026-07-17T17:12:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
@@ -307,7 +307,7 @@
       "summary": "CISA has issued an emergency directive requiring agencies to patch critical command injection vulnerabilities in FortiSandbox after detecting active exploitation by attackers. These flaws have now been added to the agency's Known Exploited Vulnerabilities catalog.",
       "date": "2026-07-17T11:58:10.000Z",
       "link": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c4e0b417-ce5f-4e7d-a403-ed8ff42cef9b",
@@ -450,7 +450,7 @@
       "summary": "CISA has added a critical SharePoint deserialization vulnerability (CVE-2026-58644) to its Known Exploited Vulnerabilities (KEV) catalog, mandating that FCEB agencies apply patches by July 19, 2026.",
       "date": "2026-07-17T06:42:23.000Z",
       "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4b7664c9-d985-4546-8c1a-61fc8df9e122",
