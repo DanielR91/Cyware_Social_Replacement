@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-07-20T14:20:06.450Z",
+  "lastUpdated": "2026-07-20T16:30:09.423Z",
   "articles": [
+    {
+      "id": "f075bcc7-ec2f-44df-af4f-fe39905724a7",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers were inside South Korea's diplomat training system for 9 months",
+      "summary": "Unidentified hackers maintained unauthorized access to a South Korean diplomatic training system for nine months, resulting in the theft of personal data from Ministry of Foreign Affairs personnel.",
+      "date": "2026-07-20T15:15:00.000Z",
+      "link": "https://therecord.media/south-korea-cyberattack-foreign-ministry",
+      "isTopTen": true
+    },
+    {
+      "id": "b4dddd9e-f36d-4466-8745-ce28271ff605",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft 365 calendars become spy drop boxes in HOLLOWGRAPH campaign",
+      "summary": "The HOLLOWGRAPH campaign exploits Microsoft 365 calendar appointments set for the year 2050 to store malicious commands and maintain covert communication with attacker infrastructure. This technique effectively uses legitimate cloud services to bypass security monitoring.",
+      "date": "2026-07-20T14:59:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/20/microsoft-365-calendars-become-spy-drop-boxes-in-hollowgraph-campaign/5274982",
+      "isTopTen": false
+    },
+    {
+      "id": "b22c82d1-ac67-47d4-b196-dd359be1a3a8",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Paidwork breach exposes sensitive data of 23 million user",
+      "summary": "A security breach at the microtask platform Paidwork has exposed the sensitive information of over 23 million users. The incident impacts a large user base that utilizes the service for small online earning opportunities.",
+      "date": "2026-07-20T14:52:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/20/paidwork-data-breach-23-million-users/",
+      "isTopTen": false
+    },
+    {
+      "id": "1a3aae19-b05c-4636-9315-c20842952a38",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "LG Monitors Spotted Installing Adware-Like App on Windows PCs",
+      "summary": "Certain LG monitors are automatically triggering the unauthorized installation of an LG utility on Windows PCs, which subsequently runs at startup and displays unsolicited McAfee advertisements. The behavior has raised security and privacy concerns regarding the unexpected installation of software without explicit user consent.",
+      "date": "2026-07-20T14:47:57.000Z",
+      "link": "https://hackread.com/lg-monitors-install-adware-app-windows-pcs/",
+      "isTopTen": false
+    },
+    {
+      "id": "e5d7fb67-eaa5-41f0-86a2-03b866ba994e",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Romania races to restore land registry after cyberattack disrupts property market",
+      "summary": "Romania's land registry agency is struggling to restore operations following a major cyberattack that has significantly disrupted the country's property market.",
+      "date": "2026-07-20T14:45:00.000Z",
+      "link": "https://therecord.media/romania-cyberattack-land-registry",
+      "isTopTen": true
+    },
+    {
+      "id": "cb42d074-e2bb-4087-bd1e-14ba356d5200",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+      "summary": "The HollowGraph espionage malware leverages the Microsoft Graph API to covertly exfiltrate data and receive commands via calendar events set in the year 2050. By masquerading as legitimate Microsoft 365 traffic, the implant effectively evades standard detection methods.",
+      "date": "2026-07-20T14:33:43.000Z",
+      "link": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4f851bf3-be14-4573-ac43-e6c1290bfd67",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ServiceNow pre-auth RCE exploited in the wild (CVE-2026-6875)",
+      "summary": "Attackers are actively exploiting a critical pre-authentication remote code execution vulnerability (CVE-2026-6875) in the ServiceNow AI Platform that allows unauthenticated users to escape the script sandbox.",
+      "date": "2026-07-20T14:32:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/20/servicenow-cve-2026-6875-exploited/",
+      "isTopTen": true
+    },
     {
       "id": "b87bbf2c-f2ef-4bf9-9567-85b7430dcf98",
       "source": "CyberScoop",
@@ -98,7 +175,7 @@
       "summary": "Healthcare software provider Craneware confirmed that unauthorized actors accessed its systems, resulting in the theft of employee and customer data. The company has engaged forensic experts to investigate the breach affecting its operations across more than 2,000 U.S. hospitals.",
       "date": "2026-07-20T11:00:00.000Z",
       "link": "https://therecord.media/software-provider-for-us-hospitals-customer-data-breach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1d6260a4-b57f-4800-8737-8a06259165e5",
@@ -109,7 +186,7 @@
       "summary": "7-Zip has released version 26.02 to patch a critical remote code execution vulnerability that can be exploited by opening malicious XZ-compressed files. Users are advised to update their software immediately to mitigate this risk.",
       "date": "2026-07-20T10:56:46.000Z",
       "link": "https://securityaffairs.com/195688/security/critical-7-zip-flaw-allows-code-execution-by-opening-crafted-xz-compressed-files-update-it-now.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "61ec0896-0506-4226-bb97-50bba20a8732",
@@ -131,7 +208,7 @@
       "summary": "F5 has released a patch for CVE-2026-42533, a critical heap buffer overflow vulnerability in NGINX that could allow unauthenticated attackers to perform remote code execution via crafted HTTP requests.",
       "date": "2026-07-20T09:50:36.000Z",
       "link": "https://securityaffairs.com/195674/hacking/cve-2026-42533-critical-nginx-bug-could-turn-http-requests-into-server-takeovers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b3ecb7a9-16b3-4ceb-9abf-e2b963cfc925",
@@ -351,7 +428,7 @@
       "summary": "Public exploits for critical vulnerabilities CVE-2026-63030 and CVE-2026-60137 allow unauthenticated attackers to achieve remote code execution on WordPress installations. These flaws can be chained to gain full control over affected websites.",
       "date": "2026-07-19T05:04:03.000Z",
       "link": "https://securityaffairs.com/195597/hacking/attackers-can-take-over-wordpress-sites-using-newly-released-wp2shell-exploits.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3cdd56fe-c0e9-4d46-b517-662221854e22",
@@ -461,7 +538,7 @@
       "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
       "date": "2026-07-17T17:12:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
@@ -714,7 +791,7 @@
       "summary": "CISA has added a critical SharePoint deserialization vulnerability (CVE-2026-58644) to its Known Exploited Vulnerabilities (KEV) catalog, mandating that FCEB agencies apply patches by July 19, 2026.",
       "date": "2026-07-17T06:42:23.000Z",
       "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b7664c9-d985-4546-8c1a-61fc8df9e122",
@@ -725,7 +802,7 @@
       "summary": "Researchers at UC Berkeley have identified 'Cross-Site Prompting' (XSP) as an emerging threat where autonomous web agents are manipulated by untrusted content, drawing parallels to traditional Cross-Site Scripting vulnerabilities.",
       "date": "2026-07-17T06:00:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8aa1ee06-3f13-439e-ba69-f76be995d3c7",
@@ -5422,83 +5499,6 @@
       "summary": "The rapid increase in AI-generated vulnerability discovery is overwhelming organizations, making it difficult to prioritize and manage significant security risks. The industry faces a challenge in distinguishing critical threats from noise at scale.",
       "date": "2026-07-06T09:00:00.000Z",
       "link": "https://cyberscoop.com/ai-cybersecurity-vulnerability-prioritization-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "4abc3a14-249a-4037-9ce7-1ecf826f3e89",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
-      "summary": "Researchers have discovered 'TrojPix,' a technique that exfiltrates data from air-gapped systems by modulating video cable electromagnetic emissions. The method requires prior malware infection on the target machine to manipulate pixel patterns for data transmission.",
-      "date": "2026-07-06T08:50:54.000Z",
-      "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9b2a0053-453b-4f08-a931-5ceacc802b07",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Bad Epoll Flaw Gives Attackers Root Access on Linux and Android",
-      "summary": "A critical Linux kernel vulnerability named Bad Epoll (CVE-2026-46242) allows local, unprivileged attackers to gain full root access on Linux systems and Android devices. The flaw, which evaded AI detection, requires immediate patching.",
-      "date": "2026-07-06T08:24:22.000Z",
-      "link": "https://securityaffairs.com/194795/hacking/bad-epoll-flaw-gives-attackers-root-access-on-linux-and-android.html",
-      "isTopTen": false
-    },
-    {
-      "id": "711d3be2-4e80-48b1-b37a-b3751aa177b7",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
-      "summary": "Security researchers have identified QuimaRAT, a cross-platform Java-based remote access trojan offered as a malware-as-a-service (MaaS) that targets Windows, Linux, and macOS systems. The malware is currently being sold on subscription tiers ranging from $150 to $1,200.",
-      "date": "2026-07-06T08:13:33.000Z",
-      "link": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a84cda09-0c86-4325-bdc2-c90de34f4735",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
-      "summary": "A security vulnerability in the Opera GX browser allowed malicious websites to silently install unauthorized extensions to exfiltrate user data. The flaw has since been patched by Opera.",
-      "date": "2026-07-06T07:27:50.000Z",
-      "link": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
-      "isTopTen": false
-    },
-    {
-      "id": "03769717-2293-433b-bdca-543241040b1a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
-      "summary": "Researchers discovered that a technique called SkillCloak uses self-extracting packing to help malicious AI coding agent add-ons evade detection by static security scanners. The study highlights a significant vulnerability in current security tools, which failed to detect the obfuscated malware in over 90% of tests.",
-      "date": "2026-07-06T06:33:56.000Z",
-      "link": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1c54e1ec-2898-4f1f-ad1c-b237222a0296",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "How to prioritize AI agent security by business impact",
-      "summary": "This article outlines a framework for prioritizing AI agent security by assessing business impact following an incident involving unauthorized access to a finance application. It highlights the risks posed by improper lifecycle management of OAuth grants for autonomous agents.",
-      "date": "2026-07-06T06:30:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/06/prioritize-ai-agent-security-business-impact/",
-      "isTopTen": false
-    },
-    {
-      "id": "b12849e0-cb25-446f-a7b3-e4f99dbafc90",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Securing the inbox: Where identity, brand and security meet",
-      "summary": "Red Sift and GlobalSign have partnered to streamline the setup of DMARC, BIMI, and Verified Mark Certificates into a single package to simplify email brand authentication. This integration reduces the complexity and time required for organizations to verify their sender identity.",
-      "date": "2026-07-06T06:00:45.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/06/ciso-email-security-strategy/",
       "isTopTen": false
     }
   ]
