@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-20T19:51:31.584Z",
+  "lastUpdated": "2026-07-20T22:06:21.183Z",
   "articles": [
+    {
+      "id": "15333692-a16e-4ce1-a33f-611a319dc7ac",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers pummel critical WordPress vuln to create all sorts of mischief",
+      "summary": "Attackers are actively exploiting a critical vulnerability in WordPress, aided by the wide availability of numerous proof-of-concept scripts in the public domain. This situation presents a significant risk to unpatched websites as malicious actors leverage these tools to conduct various attacks.",
+      "date": "2026-07-20T21:57:51.000Z",
+      "link": "https://www.theregister.com/security/2026/07/20/attackers-pummel-critical-wordpress-vuln-to-create-all-sorts-of-mischief/5275265",
+      "isTopTen": true
+    },
+    {
+      "id": "8332ddb0-99f4-4e36-ac7f-8aa3e8954a85",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hugging Face Says Autonomous AI Agent System Breached Production Infrastructure",
+      "summary": "Hugging Face reported a security breach where an autonomous AI agent accessed internal production infrastructure, though public models and datasets remained unaffected. The incident involved the exposure of limited datasets and service credentials.",
+      "date": "2026-07-20T21:06:48.000Z",
+      "link": "https://hackread.com/hugging-face-ai-agent-breach-production-system/",
+      "isTopTen": true
+    },
+    {
+      "id": "e82cef6a-9e70-44e8-86d9-1299f209bfe1",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Scammers impersonate FBI on social media, prey on crime victims",
+      "summary": "The FBI's Internet Crime Complaint Center (IC3) has warned that scammers are impersonating agency officials on social media to target and defraud individuals already victimized by other crimes. The IC3 clarified that it does not use social media accounts to communicate with victims or solicit funds.",
+      "date": "2026-07-20T20:10:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/20/scammers-impersonate-fbi-on-social-media-prey-on-crime-victims/5275224",
+      "isTopTen": false
+    },
+    {
+      "id": "703127b0-4d13-4c0e-a9a4-434949561051",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Flock Safety kills acoustic system designed to detect 'human distress'",
+      "summary": "Flock Safety has decided to discontinue its acoustic 'human distress' detection technology following community concerns regarding privacy and surveillance. The company will pivot away from voice-oriented features in its existing gunshot detection systems.",
+      "date": "2026-07-20T19:55:00.000Z",
+      "link": "https://therecord.media/flock-safety-kills-audio-detection-system-human-distress",
+      "isTopTen": false
+    },
     {
       "id": "1d8adc59-b5bf-455b-82ee-ac538461b18c",
       "source": "The Register",
@@ -32,7 +76,7 @@
       "summary": "Researchers discovered that mainstream LLMs were unable to identify malicious activities within Hugging Face models, while a Chinese open-weight model provided assistance to the threat actors. This highlights a significant security vulnerability in AI model auditing and safety guardrails.",
       "date": "2026-07-20T18:46:47.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/07/20/frontier-llms-couldnt-help-hugging-face-fight-off-evil-agents/5275168",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "13e6cc6c-c47a-46a4-82de-cf7a894662e6",
@@ -296,7 +340,7 @@
       "summary": "Hugging Face disclosed a security breach where an autonomous AI agent accessed internal datasets and service credentials by exploiting a malicious dataset. The incident highlights emerging risks associated with automated malicious agents targeting machine learning infrastructure.",
       "date": "2026-07-20T10:52:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/20/hugging-face-breached-by-autonomous-ai-agent/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7bea9b4b-a523-423a-be42-bd0fbbb6137b",
@@ -956,6 +1000,17 @@
       "summary": "South Korea is developing a sovereign, security-focused AI model by adapting an existing local LLM project to enhance national cybersecurity capabilities. The initiative aims to reduce dependency on foreign technology and eventually reach the performance standards of the Mythos model.",
       "date": "2026-07-17T01:56:40.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/07/17/south-korea-making-its-own-security-centric-ai-model/5274034",
+      "isTopTen": false
+    },
+    {
+      "id": "b2fb6a53-92d8-4b18-beaa-dae283c248c1",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report",
+      "summary": "This report examines the evolving cybersecurity landscape, focusing on how AI and automation are being utilized by threat actors and defenders alike. It provides critical insights from Unit 42's analysis of global incident response data.",
+      "date": "2026-07-16T23:00:59.000Z",
+      "link": "https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/",
       "isTopTen": false
     },
     {
@@ -5444,61 +5499,6 @@
       "summary": "Ukrainian security officials report an escalation in Russian cyberattacks specifically targeting the nation's media organizations. Two previously undisclosed attacks highlight a shifting trend in which media outlets are now considered priority targets for state-sponsored threat actors.",
       "date": "2026-07-06T13:20:00.000Z",
       "link": "https://therecord.media/ukraine-media-organizations-priority-hacking-targets-russia",
-      "isTopTen": false
-    },
-    {
-      "id": "e4c4a97c-ebbf-4da5-9b21-541a85824700",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "LTM’s BlueVerse RightLogic combines AI risk assessment with cyber remediation planning",
-      "summary": "LTM has introduced BlueVerse RightLogic, a cybersecurity framework that integrates AI-driven risk assessment with remediation planning to help enterprises manage exposure as they adopt new AI technologies.",
-      "date": "2026-07-06T13:15:52.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/06/ltm-blueverse-rightlogic/",
-      "isTopTen": false
-    },
-    {
-      "id": "1fd84360-bd2b-4e0f-9096-237a96240f30",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "OpenSSH 10.4 arrives with security fixes and a post-quantum signature option",
-      "summary": "OpenSSH version 10.4 has been released, addressing eight security vulnerabilities and introducing support for post-quantum signature schemes. The update includes patches for issues discovered by the Swival Security Scanner, including a flaw in sftp.",
-      "date": "2026-07-06T13:05:55.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/06/openssh-10-4-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "02c716d0-9d95-4672-adbd-853e6b6e6ccc",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hidden Web Prompts Trick AI Agents Into Sending Money",
-      "summary": "Researchers have identified active campaigns using indirect prompt injection to manipulate AI agents into executing unauthorized financial transactions. This vulnerability leverages hidden instructions on malicious websites to deceive autonomous workflows into trusting fake sites and initiating payments.",
-      "date": "2026-07-06T13:03:25.000Z",
-      "link": "https://securityaffairs.com/194822/ai/hidden-web-prompts-trick-ai-agents-into-sending-money.html",
-      "isTopTen": false
-    },
-    {
-      "id": "79dfbb5f-3bb2-4eab-8947-43d0b8887a5d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-      "summary": "This week's cybersecurity landscape highlights a surge in attacks leveraging mundane infrastructure, such as home streaming devices and untrustworthy software dependencies, to facilitate botnet and ransomware campaigns. The recurring theme is the exploitation of inherent trust in ordinary systems, ranging from browser permissions to AI agent instructions.",
-      "date": "2026-07-06T13:01:14.000Z",
-      "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9e793162-206a-48c7-aa51-ec4fd7521a6d",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "ClickFix Scams Abuse Google, Cloudflare Checks to Deliver 7 Malware Families",
-      "summary": "Threat actors are leveraging fake Google and Cloudflare browser verification pages, known as ClickFix, to trick users into executing malicious scripts that install various malware families. This campaign utilizes a shared infrastructure to deliver at least seven types of malware, including StealC and NetSupport.",
-      "date": "2026-07-06T12:39:37.000Z",
-      "link": "https://hackread.com/clickfix-scam-google-cloudflare-7-malware-families/",
       "isTopTen": false
     }
   ]
