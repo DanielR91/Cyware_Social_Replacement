@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-21T19:41:14.417Z",
+  "lastUpdated": "2026-07-21T22:08:37.862Z",
   "articles": [
+    {
+      "id": "a3dc934d-52ae-4e28-82e3-d1755358ad88",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Public PoC triggers active exploitation of critical SharePoint RCE vulnerability CVE-2026-50522",
+      "summary": "A critical RCE vulnerability in Microsoft SharePoint (CVE-2026-50522) is being actively exploited following the public release of proof-of-concept exploit code. Users are urged to apply the July 2026 security patches to mitigate the risk of remote code execution.",
+      "date": "2026-07-21T21:38:37.000Z",
+      "link": "https://securityaffairs.com/195760/security/public-poc-triggers-active-exploitation-of-critical-sharepoint-rce-vulnerability-cve-2026-50522.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e67f002a-f939-4156-85b8-ed3a6082c8d0",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cisco's open-weight bug busters take on Google and OpenAI",
+      "summary": "Cisco is entering the artificial intelligence space by releasing open-weight models, positioning its technology as a specialized alternative to conversational chatbots from companies like Google and OpenAI.",
+      "date": "2026-07-21T21:17:20.000Z",
+      "link": "https://www.theregister.com/security/2026/07/21/ciscos-open-weight-bug-busters-take-on-google-and-openai/5275817",
+      "isTopTen": false
+    },
+    {
+      "id": "ace231d2-5aef-49b1-b4ed-704c37f5edab",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI's cheatin' heart will make you weep",
+      "summary": "This article discusses the inherent difficulty in verifying the outputs and reliability of AI systems, noting that traditional trust-based security models are insufficient against AI deception. It emphasizes the urgent need for new verification frameworks to counter the risks posed by AI-generated misinformation or manipulation.",
+      "date": "2026-07-21T19:45:00.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/21/ais-cheatin-heart-will-make-you-weep/5275784",
+      "isTopTen": false
+    },
     {
       "id": "6a26da58-84df-4b47-80c5-8a567112b844",
       "source": "CyberScoop",
@@ -21,6 +54,17 @@
       "summary": "The Senate Intelligence Committee has approved the nomination of Jay Clayton to serve as the Director of National Intelligence, advancing his confirmation to the full Senate.",
       "date": "2026-07-21T19:00:00.000Z",
       "link": "https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval",
+      "isTopTen": false
+    },
+    {
+      "id": "bbfcb929-6570-4144-9d51-c330c4ce5ee2",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+      "summary": "Apple has patched a long-standing vulnerability in its Hide My Email service that inadvertently exposed users' real email addresses within Mail logs. The flaw, disclosed by a researcher over a year ago, was finally addressed by the company in July 2026.",
+      "date": "2026-07-21T18:46:32.000Z",
+      "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
       "isTopTen": false
     },
     {
@@ -54,7 +98,7 @@
       "summary": "The Spanish Data Protection Agency (AEPD) has fined 23andMe nearly $3 million due to security failures that led to a massive 2023 data breach affecting millions globally, including 2,600 Spanish citizens. The penalty highlights the company's inadequate protection measures in safeguarding sensitive genetic and personal information.",
       "date": "2026-07-21T17:10:00.000Z",
       "link": "https://therecord.media/spain-fines-23andme-3-million-cyber-failings-data-breach",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "63a9e894-e094-40d1-b7e8-d1e4f7923470",
@@ -87,7 +131,7 @@
       "summary": "Qilin ransomware affiliates are actively exploiting a critical authentication bypass vulnerability (CVE-2026-0257) in Palo Alto Networks PAN-OS GlobalProtect to gain unauthorized VPN access to corporate networks.",
       "date": "2026-07-21T16:08:28.000Z",
       "link": "https://securityaffairs.com/195730/cyber-crime/qilin-ransomware-affiliates-abuse-cve-2026-0257-to-gain-unauthorized-vpn-access.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5cba90d0-00cd-4dd9-bae6-7ae52051ca1f",
@@ -186,7 +230,7 @@
       "summary": "AI music platform Suno suffered a major data breach exposing the personal information of 55 million users, a finding officially confirmed by the breach notification service Have I Been Pwned.",
       "date": "2026-07-21T13:45:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/21/breach-of-ai-music-platform-suno-affected-55m-user-accounts/5275514",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8813a38e-a09f-4897-8e3a-e0ed2503ceae",
@@ -296,7 +340,7 @@
       "summary": "The window for exploiting patched vulnerabilities is shrinking rapidly as attackers quickly reverse-engineer vendor patches to develop exploits. This trend suggests that traditional rapid patching is no longer a sufficient defense against sophisticated adversaries.",
       "date": "2026-07-21T11:42:23.000Z",
       "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ac80d5e1-fdf6-4925-9556-283d6d2182fc",
@@ -307,7 +351,7 @@
       "summary": "Researchers discovered 'Bit2Watt,' a method where cloud tenants can manipulate power consumption patterns via GPU workloads to potentially destabilize electrical grids without requiring software exploits. This technique relies on controlling data center power draw to induce physical grid disruptions.",
       "date": "2026-07-21T11:24:50.000Z",
       "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad0b9fc8-849d-491b-8b60-269da839f47e",
@@ -329,7 +373,7 @@
       "summary": "SonicWall SMA 1000 appliances were compromised by threat actors using two zero-day vulnerabilities for weeks before the flaws were publicly disclosed. The attackers utilized these exploits to install custom malware and maintain long-term, stealthy access to internal networks.",
       "date": "2026-07-21T10:35:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1393e9ba-d549-4e2f-a80e-b679f5520ee4",
@@ -417,7 +461,7 @@
       "summary": "Threat actors are actively exploiting a critical sandbox escape vulnerability, CVE-2026-6875, in the ServiceNow AI Platform that allows for unauthenticated arbitrary code execution. Security researchers have confirmed in-the-wild exploitation of the flaw, which carries a CVSS score of 9.5.",
       "date": "2026-07-21T06:29:26.000Z",
       "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b7fbda64-cb7d-448a-a496-e6da59128906",
@@ -637,7 +681,7 @@
       "summary": "Researchers have discovered HOLLOWGRAPH, a modular espionage malware that utilizes Microsoft 365 calendar appointments set for the year 2050 as a covert command-and-control channel. The campaign has been linked with high confidence to Iranian state-sponsored activity associated with the Cavern backdoor framework.",
       "date": "2026-07-20T17:20:15.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/20/hollowgraph-malware-microsoft-365-calendar/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8ce9e36-cfe3-4bc4-bc7a-7aed5248fd61",
@@ -703,7 +747,7 @@
       "summary": "Romania's land registry agency is struggling to restore operations following a major cyberattack that has significantly disrupted the country's property market.",
       "date": "2026-07-20T14:45:00.000Z",
       "link": "https://therecord.media/romania-cyberattack-land-registry",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cb42d074-e2bb-4087-bd1e-14ba356d5200",
@@ -5455,50 +5499,6 @@
       "summary": "The U.S. Supreme Court has permitted the Texas App Store Accountability Act to take effect, allowing the state to enforce age verification requirements on app stores. This decision denies an emergency request to stay the law while ongoing legal challenges proceed in lower courts.",
       "date": "2026-07-07T16:05:00.000Z",
       "link": "https://therecord.media/supreme-court-allows-texas-app-law-age-verification-to-take-effect",
-      "isTopTen": false
-    },
-    {
-      "id": "570a9670-487f-48d0-a626-09a3c9dc92b2",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Predatorgate snoopfest victims launch €8M sueball at spyware maker",
-      "summary": "Victims of the 'Predator' spyware have initiated an €8 million lawsuit against the spyware developer in Greece. This legal action coincides with increased pressure from human rights organizations for the EU to implement stricter regulations against spyware abuse.",
-      "date": "2026-07-07T15:59:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/07/predatorgate-victims-launch-8m-sueball-at-spyware-maker/5267766",
-      "isTopTen": false
-    },
-    {
-      "id": "dd8565c4-743c-4dde-b165-3f8b0694ef27",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Britain plans to build autonomous AI 'Cyber Shield' to defend nation",
-      "summary": "The British government is developing an autonomous 'Cyber Shield' to combat large-scale, machine-speed cyber threats identified by the National Cyber Security Centre. This initiative aims to enhance national defense by enabling automated detection and rapid response to sophisticated digital attacks.",
-      "date": "2026-07-07T15:31:00.000Z",
-      "link": "https://therecord.media/britain-plans-autonomous-ai-cyber-shield",
-      "isTopTen": false
-    },
-    {
-      "id": "53e31f8a-cfc7-4685-be32-aee83f935d96",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
-      "summary": "The DEBULL phishing campaign exploits the legitimate Microsoft 365 device-code authentication flow by using social engineering lures to hijack user accounts. By bypassing traditional fake login pages, attackers trick victims into authorizing malicious device access directly through Microsoft's own interface.",
-      "date": "2026-07-07T15:14:14.000Z",
-      "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3bcccc69-0d5b-468e-9669-68859ff6f95d",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Major Japanese telco says cyberattack exposed 12 million emails",
-      "summary": "A major Japanese telecommunications company reported a cyberattack that exposed 12 million emails across five of its internet service providers. The breach compromised systems managing customer accounts, webmail services, and email storage.",
-      "date": "2026-07-07T14:45:00.000Z",
-      "link": "https://therecord.media/major-japanese-telco-cyberattack-12-million-emails",
       "isTopTen": false
     }
   ]
