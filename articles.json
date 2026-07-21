@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-07-21T14:05:36.936Z",
+  "lastUpdated": "2026-07-21T16:28:57.463Z",
   "articles": [
+    {
+      "id": "f4481023-a619-4ff4-9a30-d6c95f3a744e",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Kratos phishing-as-a-service kit loses its battle with international law enforcement",
+      "summary": "International law enforcement authorities dismantled the Kratos phishing-as-a-service platform and arrested its alleged developer in Indonesia after seizing over 200 associated servers. This takedown disrupts a significant infrastructure used for malicious phishing campaigns.",
+      "date": "2026-07-21T16:17:54.000Z",
+      "link": "https://www.theregister.com/security/2026/07/21/german-authorities-lead-takedown-of-kratos-phishing-platform/5275666",
+      "isTopTen": false
+    },
+    {
+      "id": "1dcbfe9c-625c-44a3-b7b9-3861707473f9",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "North Korea’s IT worker scheme funds Russia’s war effort",
+      "summary": "North Korean IT workers are funneling salary earnings into entities sanctioned for supporting Russia's military programs. Researchers identified payment flows linking these illicit labor operations directly to the funding of the regime's defense initiatives.",
+      "date": "2026-07-21T16:00:00.000Z",
+      "link": "https://cyberscoop.com/north-korea-it-worker-scheme-funds-russia-war-ukraine/",
+      "isTopTen": false
+    },
+    {
+      "id": "a07281ae-f23d-444c-9481-d983743d535d",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Fig Expands SecOps Engineering Lifecycle as Security Teams Seek More Resilient Infrastructure",
+      "summary": "Fig has enhanced its SecOps engineering lifecycle by integrating testing, deployment, and continuous verification to ensure detection reliability amidst evolving infrastructure. This update aims to help security teams maintain more resilient systems.",
+      "date": "2026-07-21T14:59:43.000Z",
+      "link": "https://hackread.com/fig-secops-engineering-lifecycle-security-teams-infrastructure/",
+      "isTopTen": false
+    },
+    {
+      "id": "c7a9db80-40c9-4f40-8c72-a3eeff9fe08f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+      "summary": "The critical SharePoint vulnerability CVE-2026-50522 is now under active exploitation following the release of a public proof-of-concept. The flaw allows unauthenticated remote code execution via deserialization of untrusted data.",
+      "date": "2026-07-21T14:57:51.000Z",
+      "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+      "isTopTen": true
+    },
+    {
+      "id": "6adda4fa-66bb-4375-88d8-f6d5258b1751",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI agents tricked into recommending malicious GitHub repositories",
+      "summary": "Researchers discovered over 7,600 malicious GitHub repositories, including many targeting AI agents and development workflows, as part of a campaign called FakeGit. The campaign exploits automated systems by tricking them into recommending and integrating compromised code repositories.",
+      "date": "2026-07-21T14:27:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/github-repos-malware-campaign-fakegit-ai-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "1af75619-ff90-46bf-811f-860dfd0426a4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Teleport enhances Identity Security platform with new AI agent behavior controls",
+      "summary": "Teleport has introduced three new AI governance features—Session Summaries, Agentic Classifiers, and Risk Scoring—to its Identity Security platform to help enterprises monitor and control the behavior of autonomous agents within production environments.",
+      "date": "2026-07-21T14:05:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/teleport-identity-security-platform-expanded/",
+      "isTopTen": false
+    },
+    {
+      "id": "4a54866e-0a5a-4055-adca-f934f85962f8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "summary": "Qilin ransomware operators are actively exploiting a high-severity authentication bypass vulnerability, identified as CVE-2026-0257, in Palo Alto Networks PAN-OS to gain initial access and deploy malware. Security researchers observed multiple intrusions leveraging this flaw throughout June 2026.",
+      "date": "2026-07-21T14:04:57.000Z",
+      "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d63251c7-b3e5-40c9-a46c-039a6d832f3d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "AI music platform Suno hits bum note as 55M users exposed in data breach, claims infosec expert",
+      "summary": "AI music platform Suno suffered a major data breach exposing the personal information of 55 million users, a finding officially confirmed by the breach notification service Have I Been Pwned.",
+      "date": "2026-07-21T13:45:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/21/breach-of-ai-music-platform-suno-affected-55m-user-accounts/5275514",
+      "isTopTen": true
+    },
     {
       "id": "8813a38e-a09f-4897-8e3a-e0ed2503ceae",
       "source": "Help Net Security",
@@ -10,7 +98,7 @@
       "summary": "The threat actor JadePuffer has upgraded its toolkit with a new ransomware variant, ENCFORGE, specifically engineered to target AI and machine learning infrastructure.",
       "date": "2026-07-21T13:38:54.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/21/jadepuffer-encforge-ransomware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6ad75ffe-74c2-4b04-af1c-fc1a61420d9c",
@@ -35,6 +123,17 @@
       "isTopTen": false
     },
     {
+      "id": "f490e9c9-9aff-4390-a528-199ad30f8bfb",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+      "summary": "Zimbra has released patches for nine security vulnerabilities in version 10.1.20, most notably a critical command injection flaw within its SNMP monitoring component. The update also addresses four cross-site scripting (XSS) vulnerabilities alongside other security improvements.",
+      "date": "2026-07-21T13:18:31.000Z",
+      "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+      "isTopTen": false
+    },
+    {
       "id": "839671f0-51e8-46dc-b305-f0dfc95a2e41",
       "source": "Help Net Security",
       "tag": "Threat Intel & Info Sharing",
@@ -43,6 +142,17 @@
       "summary": "Cisco has released Antares, a family of small, open-weight language models designed to accelerate the vulnerability localization process for security analysts. By automating the identification of weaknesses within large codebases, the tool aims to reduce the time and expertise required for initial triage.",
       "date": "2026-07-21T13:01:57.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/21/cisco-antares-vulnerability-localization-released/",
+      "isTopTen": false
+    },
+    {
+      "id": "e6a41216-7083-4456-944f-4a7c1b2090d7",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Intel fortifies Foundry with an actual customer: Fortinet",
+      "summary": "Intel has secured Fortinet as a new customer for its foundry business to produce custom ASICs. This partnership marks a strategic move for Intel to diversify its manufacturing footprint in the hardware security sector.",
+      "date": "2026-07-21T13:00:00.000Z",
+      "link": "https://www.theregister.com/systems/2026/07/21/intel-fortifies-foundry-with-an-actual-customer-fortinet/5275374",
       "isTopTen": false
     },
     {
@@ -76,7 +186,7 @@
       "summary": "Researchers have discovered that open-source Android AI agent frameworks are susceptible to prompt injection attacks, where hidden text on a screen can manipulate the agent into executing unauthorized commands on a connected PC. This exploit highlights significant security vulnerabilities in the interaction between mobile agents and host systems.",
       "date": "2026-07-21T11:58:00.000Z",
       "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "38f5561e-60fb-4db4-a443-b2d2c274a5e9",
@@ -87,7 +197,7 @@
       "summary": "The window for exploiting patched vulnerabilities is shrinking rapidly as attackers quickly reverse-engineer vendor patches to develop exploits. This trend suggests that traditional rapid patching is no longer a sufficient defense against sophisticated adversaries.",
       "date": "2026-07-21T11:42:23.000Z",
       "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ac80d5e1-fdf6-4925-9556-283d6d2182fc",
@@ -186,7 +296,7 @@
       "summary": "Underfunded open-source maintenance is creating significant software supply chain risks, as critical project leads leave for salaried roles, leading to delayed security patches. This systemic lack of financial support threatens the integrity of software used across thousands of products.",
       "date": "2026-07-21T08:37:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/21/open-source-github-sponsors-100-million/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9f70d22c-7ba1-4ef9-82f5-d993d4e1fcab",
@@ -241,7 +351,7 @@
       "summary": "Security researchers discovered significant vulnerabilities in numerous solid-state drives using the TCG Opal2 encryption standard, revealing that the promised hardware encryption is often easily bypassed. This finding exposes millions of laptops and workstations to potential unauthorized data access due to flawed implementation by manufacturers.",
       "date": "2026-07-21T05:30:22.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/21/hdd-self-encrypting-drive-security/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d5dda406-1612-4bee-98d0-9a9b17cf8d62",
@@ -296,7 +406,7 @@
       "summary": "Cloud provider OVH implemented a forced, semi-secret patch for the Januscape hypervisor vulnerability by triggering mass reboots without customer consent. This emergency action resulted in significant downtime for affected users.",
       "date": "2026-07-21T03:52:43.000Z",
       "link": "https://www.theregister.com/virtualization/2026/07/21/ovh-reveals-semi-secret-plan-to-fix-critical-januscape-hypervisor-bug-with-mass-reboots-and-an-australian-crash-test-dummy/5275359",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "15333692-a16e-4ce1-a33f-611a319dc7ac",
@@ -318,7 +428,7 @@
       "summary": "Hugging Face reported a security breach where an autonomous AI agent accessed internal production infrastructure, though public models and datasets remained unaffected. The incident involved the exposure of limited datasets and service credentials.",
       "date": "2026-07-20T21:06:48.000Z",
       "link": "https://hackread.com/hugging-face-ai-agent-breach-production-system/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e82cef6a-9e70-44e8-86d9-1299f209bfe1",
@@ -428,7 +538,7 @@
       "summary": "Researchers have discovered HOLLOWGRAPH, a modular espionage malware that utilizes Microsoft 365 calendar appointments set for the year 2050 as a covert command-and-control channel. The campaign has been linked with high confidence to Iranian state-sponsored activity associated with the Cavern backdoor framework.",
       "date": "2026-07-20T17:20:15.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/20/hollowgraph-malware-microsoft-365-calendar/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8ce9e36-cfe3-4bc4-bc7a-7aed5248fd61",
@@ -626,7 +736,7 @@
       "summary": "7-Zip has released version 26.02 to patch a critical remote code execution vulnerability that can be exploited by opening malicious XZ-compressed files. Users are advised to update their software immediately to mitigate this risk.",
       "date": "2026-07-20T10:56:46.000Z",
       "link": "https://securityaffairs.com/195688/security/critical-7-zip-flaw-allows-code-execution-by-opening-crafted-xz-compressed-files-update-it-now.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "61ec0896-0506-4226-bb97-50bba20a8732",
@@ -648,7 +758,7 @@
       "summary": "F5 has released a patch for CVE-2026-42533, a critical heap buffer overflow vulnerability in NGINX that could allow unauthenticated attackers to perform remote code execution via crafted HTTP requests.",
       "date": "2026-07-20T09:50:36.000Z",
       "link": "https://securityaffairs.com/195674/hacking/cve-2026-42533-critical-nginx-bug-could-turn-http-requests-into-server-takeovers.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b3ecb7a9-16b3-4ceb-9abf-e2b963cfc925",
@@ -5389,116 +5499,6 @@
       "summary": "Enterprises are experiencing a high frequency of security incidents and vulnerabilities as a result of rapidly adopting artificial intelligence without adequate security considerations. A majority of organizations surveyed report issues directly stemming from their AI deployments.",
       "date": "2026-07-07T13:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/07/enterprise-ai-still-smarting-from-leaping-before-looking/5267353",
-      "isTopTen": false
-    },
-    {
-      "id": "d6ee918d-ed23-4cc8-a6ac-07ab432d4541",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Commvault measures cyber recovery readiness with AI attack simulations",
-      "summary": "Commvault has launched 'Commvault Minutes to Recovery,' a cyber resilience simulation tool that utilizes AI to help organizations test their incident response and recovery capabilities against modern attack scenarios. The initiative highlights the critical need for rapid recovery, noting that the window for exploitation has shrunk to just 29 minutes.",
-      "date": "2026-07-07T12:50:02.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/07/commvault-measures-cyber-recovery-readiness-with-ai-attack-simulations/",
-      "isTopTen": false
-    },
-    {
-      "id": "661f8895-9448-48cf-883f-036eda677626",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers exploit critical Adobe ColdFusion vulnerability (CVE-2026-48282)",
-      "summary": "Attackers are actively exploiting a critical vulnerability in Adobe ColdFusion (CVE-2026-48282) shortly after technical analysis was published. Honeypot sensors detected exploitation attempts just two days after Adobe released the patch.",
-      "date": "2026-07-07T12:03:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/07/adobe-coldfusion-cve-2026-48282-exploitation-detected/",
-      "isTopTen": false
-    },
-    {
-      "id": "e7ce0233-49be-41e6-bf74-05dd247c936d",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
-      "summary": "The integration of AI into software development pipelines introduces new security complexities, shifting the traditional supply chain focus beyond open-source dependencies to include risks associated with AI-generated code.",
-      "date": "2026-07-07T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2deccfba-00e1-41b2-aecf-6312d57de35d",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Fake IT bods on Microsoft Teams coax workers into installing malware",
-      "summary": "Attackers are impersonating IT helpdesk staff on Microsoft Teams to trick employees into granting remote access and installing the EtherRAT trojan. This social engineering campaign exploits trust to facilitate unauthorized system access and malware deployment.",
-      "date": "2026-07-07T11:21:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/07/07/fake-it-bods-on-microsoft-teams-coax-workers-into-installing-malware/5267610",
-      "isTopTen": false
-    },
-    {
-      "id": "13637aaf-2ff0-4758-a2eb-445b59174a38",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Radware updates Agentic AI Protection with AI governance and compliance capabilities",
-      "summary": "Radware has enhanced its Agentic AI Protection solution to include new governance, compliance reporting, and security features for enterprise AI agents. These updates aim to help organizations meet global AI standards while securing environments that utilize third-party tools like Anthropic Claude Code.",
-      "date": "2026-07-07T11:17:13.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/07/radware-agentic-ai-protection-enhancements/",
-      "isTopTen": false
-    },
-    {
-      "id": "749d47ee-50fe-4979-94af-9329b4195a61",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "4 Best Email Security Solutions to Keep Employee Inboxes Safe",
-      "summary": "This article provides a comparative review of top email security solutions, highlighting essential features like AI-based threat detection and phishing protection for organizational use.",
-      "date": "2026-07-07T10:39:25.000Z",
-      "link": "https://hackread.com/best-email-security-solutions-employee-inboxes-safe/",
-      "isTopTen": false
-    },
-    {
-      "id": "4e5fe591-011f-406c-964c-0dcf67090c38",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Spain collars alleged pro-Russia hacktivist after FBI tip-off",
-      "summary": "Spanish authorities arrested a man in Palencia for his suspected involvement in several pro-Russian hacktivist groups and for assisting a Ukrainian hacker in fleeing to Russia. The operation was facilitated by a tip-off from the FBI.",
-      "date": "2026-07-07T10:30:50.000Z",
-      "link": "https://www.theregister.com/security/2026/07/07/alleged-pro-russia-hacktivist-arrested-in-palencia/5267569",
-      "isTopTen": false
-    },
-    {
-      "id": "a4f2ed56-8d95-490c-b3ff-ec6ec6cfd21a",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Government's cyber pledge lands 60 signatories, including M&S and, somehow, Capita",
-      "summary": "The UK government has secured 60 corporate signatories for a new cyber hygiene pledge, featuring major retailers and Capita despite the latter's recent history of high-profile data breaches. The initiative aims to standardize security practices across the private sector through voluntary commitments.",
-      "date": "2026-07-07T10:07:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/07/governments-cyber-pledge-lands-60-signatories-including-ms-and-somehow-capita/5267554",
-      "isTopTen": false
-    },
-    {
-      "id": "014b3a0b-5a90-4239-8f63-c2b1b0908ba8",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hidden Tenda Router Backdoor Grants Admin Access, No Patch Available",
-      "summary": "CERT/CC has issued an alert regarding an unpatched authentication backdoor in multiple Tenda router models that allows attackers to gain full administrative access. There is currently no patch available to remediate this vulnerability, tracked as CVE-2026-11405.",
-      "date": "2026-07-07T09:45:42.000Z",
-      "link": "https://securityaffairs.com/194878/security/hidden-tenda-router-backdoor-grants-admin-access-no-patch-available.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c208fe01-e30e-49d0-8e7f-ec095881352c",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-      "summary": "Suspected China-aligned threat actors are exploiting critical vulnerabilities in Roundcube webmail software to target U.S. and Canadian university departments. The campaign focuses on siphoning credentials by leveraging security flaws like CVE-2024-42009.",
-      "date": "2026-07-07T09:10:51.000Z",
-      "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
       "isTopTen": false
     }
   ]
