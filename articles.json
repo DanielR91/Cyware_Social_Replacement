@@ -1,6 +1,116 @@
 {
-  "lastUpdated": "2026-07-21T03:15:58.235Z",
+  "lastUpdated": "2026-07-21T08:39:06.763Z",
   "articles": [
+    {
+      "id": "9f70d22c-7ba1-4ef9-82f5-d993d4e1fcab",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "summary": "A threat actor identified as JADEPUFFER is exploiting a remote code execution vulnerability in Langflow to deploy a new Go-based ransomware called ENCFORGE, which specifically targets AI model and infrastructure files.",
+      "date": "2026-07-21T07:34:32.000Z",
+      "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "isTopTen": false
+    },
+    {
+      "id": "bd700bbf-057a-4b51-b8a9-30121c01c459",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "summary": "Threat actors are actively exploiting a critical sandbox escape vulnerability, CVE-2026-6875, in the ServiceNow AI Platform that allows for unauthenticated arbitrary code execution. Security researchers have confirmed in-the-wild exploitation of the flaw, which carries a CVSS score of 9.5.",
+      "date": "2026-07-21T06:29:26.000Z",
+      "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b7fbda64-cb7d-448a-a496-e6da59128906",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Exploit Critical ServiceNow RCE Flaw CVE-2026-6875",
+      "summary": "Attackers are actively exploiting a critical pre-authentication remote code execution vulnerability, CVE-2026-6875, affecting self-hosted ServiceNow AI Platform instances. ServiceNow has released patches, and organizations are urged to update immediately to prevent unauthorized system access.",
+      "date": "2026-07-21T06:08:17.000Z",
+      "link": "https://securityaffairs.com/195723/ai/attackers-exploit-critical-servicenow-rce-flaw-cve-2026-6875.html",
+      "isTopTen": false
+    },
+    {
+      "id": "fe5bacfe-e331-4ba9-b75e-cae8cae68016",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The air gap is a myth and other OT security truths",
+      "summary": "Benjamin Bachmann discusses modern OT security, highlighting that air-gapped industrial systems are often vulnerable and that attackers are shifting focus from data theft to operational disruption.",
+      "date": "2026-07-21T06:00:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/benjamin-bachmann-bilfinger-ot-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "9ef09858-4055-4d4b-ba56-9c16a5f706d1",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Nobody was checking the drives that encrypt your laptop",
+      "summary": "Security researchers discovered significant vulnerabilities in numerous solid-state drives using the TCG Opal2 encryption standard, revealing that the promised hardware encryption is often easily bypassed. This finding exposes millions of laptops and workstations to potential unauthorized data access due to flawed implementation by manufacturers.",
+      "date": "2026-07-21T05:30:22.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/hdd-self-encrypting-drive-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "d5dda406-1612-4bee-98d0-9a9b17cf8d62",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "PR3TACK preemptive framework maps threats before attackers use them",
+      "summary": "PR3TACK is an open-source framework designed to help defenders proactively identify and mitigate potential cyberattack techniques before they are observed in the wild. By cataloging plausible threat vectors, it aims to reduce the gap between attacker innovation and defensive readiness.",
+      "date": "2026-07-21T04:59:51.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/first-pr3tack-preemptive-framework/",
+      "isTopTen": false
+    },
+    {
+      "id": "e088cf8d-a938-4a6e-bf96-88b38c47f36e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI agents are still logging in as humans",
+      "summary": "Large organizations are increasingly adopting diverse, multi-vendor AI platforms, often resulting in these agents accessing enterprise systems using human identity credentials. This creates significant visibility and security challenges regarding the management and tracking of automated tool activity.",
+      "date": "2026-07-21T04:30:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/report-enterprise-ai-identity-risk/",
+      "isTopTen": false
+    },
+    {
+      "id": "ba34a8bf-141e-4f7f-b24e-374012039575",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cybersecurity jobs available right now: July 21, 2026",
+      "summary": "Help Net Security provides a curated list of active cybersecurity career opportunities for July 21, 2026, including specific roles like an Application Security Analyst at Stellantis.",
+      "date": "2026-07-21T04:00:40.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/cybersecurity-jobs-available-right-now-july-21-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "4fc57a05-5103-46c6-9df5-8cf6431cbf65",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AI-generated reports push GNOME to shorten its disclosure window",
+      "summary": "The GNOME project is shortening its vulnerability disclosure window to manage an increasing influx of AI-generated security reports. The policy change aims to address the growing volume of automated submissions submitted by users often without disclosing their AI origin.",
+      "date": "2026-07-21T03:53:19.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/21/gnome-security-disclosure-update/",
+      "isTopTen": false
+    },
+    {
+      "id": "6b46ae86-7b37-4feb-9760-37638f7dad49",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OVH reveals semi-secret plan to fix critical Januscape hypervisor bug with mass reboots – and an Australian crash-test dummy",
+      "summary": "Cloud provider OVH implemented a forced, semi-secret patch for the Januscape hypervisor vulnerability by triggering mass reboots without customer consent. This emergency action resulted in significant downtime for affected users.",
+      "date": "2026-07-21T03:52:43.000Z",
+      "link": "https://www.theregister.com/virtualization/2026/07/21/ovh-reveals-semi-secret-plan-to-fix-critical-januscape-hypervisor-bug-with-mass-reboots-and-an-australian-crash-test-dummy/5275359",
+      "isTopTen": false
+    },
     {
       "id": "15333692-a16e-4ce1-a33f-611a319dc7ac",
       "source": "The Register",
@@ -10,7 +120,7 @@
       "summary": "Attackers are actively exploiting a critical vulnerability in WordPress, aided by the wide availability of numerous proof-of-concept scripts in the public domain. This situation presents a significant risk to unpatched websites as malicious actors leverage these tools to conduct various attacks.",
       "date": "2026-07-20T21:57:51.000Z",
       "link": "https://www.theregister.com/security/2026/07/20/attackers-pummel-critical-wordpress-vuln-to-create-all-sorts-of-mischief/5275265",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8332ddb0-99f4-4e36-ac7f-8aa3e8954a85",
@@ -219,7 +329,7 @@
       "summary": "Attackers are actively exploiting a critical pre-authentication remote code execution vulnerability (CVE-2026-6875) in the ServiceNow AI Platform that allows unauthenticated users to escape the script sandbox.",
       "date": "2026-07-20T14:32:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/20/servicenow-cve-2026-6875-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b87bbf2c-f2ef-4bf9-9567-85b7430dcf98",
@@ -329,7 +439,7 @@
       "summary": "7-Zip has released version 26.02 to patch a critical remote code execution vulnerability that can be exploited by opening malicious XZ-compressed files. Users are advised to update their software immediately to mitigate this risk.",
       "date": "2026-07-20T10:56:46.000Z",
       "link": "https://securityaffairs.com/195688/security/critical-7-zip-flaw-allows-code-execution-by-opening-crafted-xz-compressed-files-update-it-now.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "61ec0896-0506-4226-bb97-50bba20a8732",
@@ -571,7 +681,7 @@
       "summary": "Public exploits for critical vulnerabilities CVE-2026-63030 and CVE-2026-60137 allow unauthenticated attackers to achieve remote code execution on WordPress installations. These flaws can be chained to gain full control over affected websites.",
       "date": "2026-07-19T05:04:03.000Z",
       "link": "https://securityaffairs.com/195597/hacking/attackers-can-take-over-wordpress-sites-using-newly-released-wp2shell-exploits.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3cdd56fe-c0e9-4d46-b517-662221854e22",
@@ -615,7 +725,7 @@
       "summary": "CISA has added critical vulnerabilities affecting Fortinet FortiSandbox and Microsoft SharePoint to its Known Exploited Vulnerabilities catalog due to active exploitation. Organizations are urged to prioritize patching these flaws to secure their infrastructure.",
       "date": "2026-07-18T11:49:16.000Z",
       "link": "https://securityaffairs.com/195569/security/u-s-cisa-adds-fortinet-fortisandbox-and-microsoft-sharepoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0a07e02d-675f-4be6-90df-126ec1b2b569",
@@ -681,7 +791,7 @@
       "summary": "The NadMesh botnet is actively scanning for exposed AI and workflow automation services to harvest cloud credentials and Kubernetes tokens, reportedly securing thousands of AWS keys. The attack highlights the risks of deploying insecure AI infrastructure without proper firewall configurations.",
       "date": "2026-07-17T17:12:23.000Z",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "426743d5-130f-4324-b85a-2dbe4d7c2fef",
@@ -692,7 +802,7 @@
       "summary": "Cybersecurity researchers have linked the April 2026 DigiCert data breach and subsequent theft of code-signing certificates to CylindricalCanine, a subgroup of the Chinese cybercrime organization GoldenEyeDog.",
       "date": "2026-07-17T16:39:16.000Z",
       "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab86b995-c0e3-48b4-a5e4-1e2e858e2dd2",
@@ -5389,116 +5499,6 @@
       "summary": "An Iranian state-affiliated hacking group is utilizing a newly discovered modular C2 framework called Cavern to target Israeli IT and government sectors. The activity, tracked by Check Point Research, highlights evolving tactics used by the Ministry of Intelligence and Security to conduct targeted espionage.",
       "date": "2026-07-06T18:34:26.000Z",
       "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9e37a5a8-13c6-4de2-acc7-de5f34896e83",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Major medical device manufacturer notifies nearly 4 million of breach",
-      "summary": "A major medical device manufacturer suffered a data breach affecting nearly 4 million individuals, resulting in the unauthorized access of sensitive data such as Social Security numbers and health information. Although the company reported no evidence of data exposure on the public internet, the incident remains a significant compromise of protected personal health information.",
-      "date": "2026-07-06T18:03:00.000Z",
-      "link": "https://therecord.media/medical-device-maker-notifies-nearly-4-million-of-breach",
-      "isTopTen": false
-    },
-    {
-      "id": "9b023eb7-9f97-47e2-ade5-9ef0ea0dac94",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "US Army websites defaced with pro-Kurdish sentiments, insults to Trump",
-      "summary": "Two US Army websites were compromised via 404 hijacking to display pro-Kurdish messages and insults directed at the former president. The sites were subsequently taken offline by officials for investigation.",
-      "date": "2026-07-06T17:50:25.000Z",
-      "link": "https://cyberscoop.com/us-army-websites-defaced-404-hijacking-kurdistan/",
-      "isTopTen": false
-    },
-    {
-      "id": "95b23ba8-3b87-4442-aed6-e9a5265059fb",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
-      "summary": "A 16-year-old use-after-free vulnerability, dubbed 'Januscape' (CVE-2026-53359), in the Linux KVM hypervisor allows guest virtual machines to compromise the host kernel on Intel and AMD systems. The flaw resides in the shared shadow MMU code and is capable of causing host system panics.",
-      "date": "2026-07-06T17:37:01.000Z",
-      "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "isTopTen": false
-    },
-    {
-      "id": "01122cd0-a00a-457a-9ab2-c3ce08ca900e",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Critical",
-      "title": "EU urged to act after Pegasus infects phone of spyware inquiry MEP",
-      "summary": "EU officials and campaigners are calling for immediate regulatory action following the discovery of Pegasus spyware on the device of a member of the European Parliament. The incident highlights ongoing security concerns regarding surveillance technology and underscores the need to implement recommendations from the PEGA Committee.",
-      "date": "2026-07-06T17:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/06/eus-latest-spyware-scandal-prompts-calls-for-urgent-action/5267054",
-      "isTopTen": false
-    },
-    {
-      "id": "bfee09d2-dcf1-4b87-98ba-23498d98d435",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Japanese teen arrested over cyberattack that disrupted anime streaming service",
-      "summary": "A Japanese teenager was arrested for exploiting a vulnerability in an anime streaming platform to perform unauthorized cancellations of over 46,000 user subscriptions. The incident highlights the impact of service-specific flaws on business operations and user account integrity.",
-      "date": "2026-07-06T16:40:00.000Z",
-      "link": "https://therecord.media/japanese-teen-arrested-over-attack-disrupted-streaming-service",
-      "isTopTen": false
-    },
-    {
-      "id": "5f7f0634-e40b-4f70-bae7-a3ed107791c9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-      "summary": "Threat actors are actively exploiting a critical Gitea Docker vulnerability, CVE-2026-20896, which allows unauthenticated attackers to gain elevated access. The exploit attempts were detected just 13 days after the vulnerability's initial disclosure.",
-      "date": "2026-07-06T16:28:59.000Z",
-      "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "17f0b3b5-aded-401b-9af3-64784fa90ebe",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Sysdig clocks first documented case of agentic ransomware",
-      "summary": "Security researchers have identified the first documented instance of an AI-driven agentic ransomware attack, which enabled attackers to accelerate their operations and reduce the complexity of the exploit. This marks a notable evolution in how threat actors utilize autonomous AI agents to conduct malicious campaigns.",
-      "date": "2026-07-06T15:17:37.000Z",
-      "link": "https://cyberscoop.com/sysdig-judepuffer-ai-agentic-ransomware-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "f4943f0a-2a33-4ba7-887d-df7f08fde9ba",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "From Image-to-3D to AI Agents: How AI 3D Generation Operates in 2026",
-      "summary": "This article explores the technical advancements in AI-driven 3D generation tools that convert text, images, and video into 3D models for various creative industries. It focuses on the capabilities of Meshy AI rather than cybersecurity threats.",
-      "date": "2026-07-06T15:09:19.000Z",
-      "link": "https://hackread.com/image-to-3d-ai-agents-ai-3d-generation-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "073def6f-1f55-4d97-8b50-614d59068854",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Criminal IP integrates threat intelligence with OpenCTI for automated indicator enrichment",
-      "summary": "Criminal IP has integrated its threat intelligence services with the OpenCTI platform, allowing security teams to automatically enrich and structure infrastructure data like IP addresses, domains, and URLs. This integration enables enhanced threat visualization and improved prioritization of indicators within the OpenCTI knowledge graph.",
-      "date": "2026-07-06T13:34:55.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/06/criminal-ip-integrates-threat-intelligence-with-opencti-for-automated-indicator-enrichment/",
-      "isTopTen": false
-    },
-    {
-      "id": "1fccf8ac-36c3-4e50-88ce-453ad9dbf026",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Ukrainian media outlets now among 'priority targets' for Russian hackers",
-      "summary": "Ukrainian security officials report an escalation in Russian cyberattacks specifically targeting the nation's media organizations. Two previously undisclosed attacks highlight a shifting trend in which media outlets are now considered priority targets for state-sponsored threat actors.",
-      "date": "2026-07-06T13:20:00.000Z",
-      "link": "https://therecord.media/ukraine-media-organizations-priority-hacking-targets-russia",
       "isTopTen": false
     }
   ]
