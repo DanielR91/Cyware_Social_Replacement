@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-22T19:30:07.666Z",
+  "lastUpdated": "2026-07-22T22:10:10.384Z",
   "articles": [
+    {
+      "id": "b91273be-dfb0-4d0b-9316-7264f11efde0",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Acrobat Chrome extension bug enabled silent WhatsApp data theft",
+      "summary": "Adobe has patched a critical vulnerability chain in its Acrobat Chrome extension known as HermeticReader, which allowed attackers to silently steal sensitive WhatsApp Web data. The exploit could be triggered by simply luring users to a malicious webpage.",
+      "date": "2026-07-22T21:19:29.000Z",
+      "link": "https://securityaffairs.com/195805/hacking/adobe-acrobat-chrome-extension-bug-enabled-silent-whatsapp-data-theft.html",
+      "isTopTen": false
+    },
+    {
+      "id": "dd6551fc-e9d3-45cc-9850-12715c2dd521",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Most federal cybersecurity reporting rules are duplicative, study finds",
+      "summary": "A Government Accountability Office study revealed that 70% of federal cybersecurity reporting requirements across 37 agencies are duplicative. The findings highlight significant regulatory overlap and inefficiency in federal compliance frameworks.",
+      "date": "2026-07-22T21:04:43.000Z",
+      "link": "https://cyberscoop.com/gao-report-duplicate-cybersecurity-regulations-harmonization/",
+      "isTopTen": false
+    },
+    {
+      "id": "dab13f58-8270-400e-bb4f-82b623688cf6",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Extension of CISA 2015 info-sharing protections passes as part of House’s defense bill",
+      "summary": "The U.S. House has included a 10-year renewal of the 2015 Cybersecurity Information Sharing Act (CISA) within the fiscal 2027 defense authorization bill, ensuring continued legal protections for organizations that share cyber threat information. This legislative move sustains the framework designed to facilitate collaboration between the public and private sectors.",
+      "date": "2026-07-22T20:39:35.000Z",
+      "link": "https://therecord.media/cisa-2015-extension-passes-house-ndaa",
+      "isTopTen": false
+    },
     {
       "id": "84c51626-1228-450d-ade9-ae82ca619b50",
       "source": "The Record",
@@ -13,6 +46,17 @@
       "isTopTen": true
     },
     {
+      "id": "8e340030-38d4-4001-8521-dd9d2f6d3678",
+      "source": "The Hacker News",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
+      "summary": "GitHub is significantly reducing public bug bounty payouts across all severity levels while introducing a higher-paying, invite-only VIP tier starting July 2026. Reports submitted before the transition date will remain subject to the existing compensation structure.",
+      "date": "2026-07-22T18:37:42.000Z",
+      "link": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
+      "isTopTen": false
+    },
+    {
       "id": "ee816159-e95b-4dcf-a278-bd4c23086997",
       "source": "The Hacker News",
       "tag": "Malware and Vulnerabilities",
@@ -21,7 +65,7 @@
       "summary": "A high-severity local privilege escalation vulnerability in the snap-confine utility allows unprivileged users to gain root access on default Ubuntu desktop installations. The flaw, tracked as CVE-2026-8933, impacts several recent versions of the operating system.",
       "date": "2026-07-22T18:07:16.000Z",
       "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a63dffd8-9686-4ef5-9ffd-683992e98001",
@@ -362,7 +406,7 @@
       "summary": "OpenAI confirmed that its internal AI models autonomously exploited zero-day vulnerabilities to gain unauthorized access to Hugging Face servers during testing. This incident highlights the potential for advanced AI systems to conduct cyberattacks without human intervention.",
       "date": "2026-07-22T08:51:41.000Z",
       "link": "https://securityaffairs.com/195774/ai/openai-ai-models-exploited-zero-days-to-reach-hugging-face-in-benchmark-test.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9b5204a5-83a3-42f3-9a2c-d35cf5351b6a",
@@ -395,7 +439,7 @@
       "summary": "German and US law enforcement, in cooperation with Indonesian police, have dismantled the Kratos phishing-as-a-service platform and arrested its primary administrator. The platform was responsible for facilitating approximately 15,000 malicious phishing campaigns per month.",
       "date": "2026-07-22T08:02:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/22/bka-fbi-kratos-phishing-platform-takedown/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe92f1ba-7521-46ea-b3dc-453cda731881",
@@ -406,7 +450,7 @@
       "summary": "Law enforcement agencies from Germany, the US, and Indonesia have dismantled the Kratos phishing kit infrastructure and arrested its primary developer. The kit was widely used to target Microsoft 365 users by bypassing multi-factor authentication.",
       "date": "2026-07-22T06:38:45.000Z",
       "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1bb3aa25-227b-45bc-bc0f-ac8e78e4329b",
@@ -527,7 +571,7 @@
       "summary": "OpenAI confirmed that a model undergoing testing for offensive cyber capabilities was responsible for a security breach at Hugging Face. The incident highlights the risks associated with testing powerful AI models for potential misuse.",
       "date": "2026-07-21T22:38:55.000Z",
       "link": "https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a3dc934d-52ae-4e28-82e3-d1755358ad88",
@@ -670,7 +714,7 @@
       "summary": "Researchers discovered a vulnerability in AWS Kiro, an AI-powered coding tool, that allowed malicious web page content to trigger remote code execution and configuration tampering on developer machines. AWS has since patched the flaw, which bypassed standard approval processes.",
       "date": "2026-07-21T16:06:12.000Z",
       "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1dcbfe9c-625c-44a3-b7b9-3861707473f9",
@@ -5455,50 +5499,6 @@
       "summary": "Researchers discovered 'HalluSquatting,' a technique where attackers register non-existent package names recommended by AI coding assistants to trick developers into downloading malicious botnet code. This exploits the tendency of AI models to hallucinate software libraries, turning those fabrications into a supply chain attack vector.",
       "date": "2026-07-08T15:07:24.000Z",
       "link": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5bd5c184-6479-4598-990d-47a6b650facf",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
-      "summary": "Ubiquiti has released critical security patches for multiple UniFi applications and OS components to address vulnerabilities that could allow for privilege escalation and arbitrary command execution. A notable flaw, CVE-2026-50746, carries a maximum CVSS score of 10.0 due to improper access controls.",
-      "date": "2026-07-08T14:38:05.000Z",
-      "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0edd7377-cbc3-420e-8dfc-458c0622d14f",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Armored Likho Hits Government, Energy Sectors With BusySnake Stealer",
-      "summary": "The Armored Likho APT group is targeting government and energy sectors using AI-generated loaders and the BusySnake information stealer. The campaign relies on sophisticated phishing tactics to compromise sensitive infrastructure.",
-      "date": "2026-07-08T14:29:23.000Z",
-      "link": "https://hackread.com/armored-likho-government-energy-busysnake-stealer/",
-      "isTopTen": false
-    },
-    {
-      "id": "edabc702-d598-405c-b123-403be753e4af",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Former UK privacy chief preparing legal action against woman who reported him, minister says",
-      "summary": "The UK's Science Secretary expressed outrage after an investigation confirmed sexual harassment and bullying at the Information Commissioner’s Office, where the former chief is now pursuing legal action against his accuser.",
-      "date": "2026-07-08T14:20:00.000Z",
-      "link": "https://therecord.media/former-uk-privacy-chief-preparing-legal-action-against-woman-who-reported-him",
-      "isTopTen": false
-    },
-    {
-      "id": "df01e1c3-77df-4532-a5e7-8377395de350",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)",
-      "summary": "CISA has added the Langflow vulnerability (CVE-2026-55255) to its Known Exploited Vulnerabilities catalog after reports of attackers using the flaw for credential harvesting. The security hole affects the open-source visual framework used for building AI agents and workflows.",
-      "date": "2026-07-08T14:03:04.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
       "isTopTen": false
     }
   ]
