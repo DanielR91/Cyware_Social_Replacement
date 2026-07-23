@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-23T19:27:00.837Z",
+  "lastUpdated": "2026-07-23T22:09:45.545Z",
   "articles": [
+    {
+      "id": "baa23462-aa85-4725-8042-973fcb617737",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Rubio restricts visas for sextortionists, cyber scammers",
+      "summary": "Senator Rubio is implementing visa restrictions on individuals identified as sextortionists and cyber scammers, following a directive from a Trump executive order. This measure aims to curb international cyber-enabled fraud and illicit online activities.",
+      "date": "2026-07-23T20:14:24.000Z",
+      "link": "https://cyberscoop.com/us-visa-restrictions-cybercriminals-rubio/",
+      "isTopTen": false
+    },
+    {
+      "id": "40186a50-3779-436c-912d-5140303386aa",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Microsoft SharePoint and Check Point SmartConsole flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has expanded its Known Exploited Vulnerabilities catalog to include critical security flaws affecting Microsoft SharePoint, Check Point SmartConsole, and other platforms like DD-WRT, Langflow, and WordPress. These additions indicate active exploitation in the wild, necessitating urgent patching by affected organizations.",
+      "date": "2026-07-23T20:10:46.000Z",
+      "link": "https://securityaffairs.com/195889/security/u-s-cisa-adds-microsoft-sharepoint-and-check-point-smartconsole-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
       "source": "The Hacker News",
@@ -21,7 +43,7 @@
       "summary": "The Chaos ransomware group is utilizing a new Rust-based remote access trojan called msaRAT that evades network detection by tunneling command-and-control traffic through legitimate web browsers. By leveraging the Chrome DevTools Protocol, the malware masks its communications within standard browser activity.",
       "date": "2026-07-23T18:26:38.000Z",
       "link": "https://securityaffairs.com/195876/malware/chaos-ransomware-deploys-browser-based-msarat-to-evade-network-detection.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "caec692a-00a0-442b-809a-4d4c08924e45",
@@ -142,7 +164,7 @@
       "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows an AI agent to bypass its virtual machine and access files on a host macOS system. The flaw potentially impacts approximately 500,000 users.",
       "date": "2026-07-23T13:27:59.000Z",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1057a5b8-8313-47f1-aaaf-e87575cc111d",
@@ -186,7 +208,7 @@
       "summary": "Researchers discovered a vulnerability in OpenAI's platform that allows attackers to use malicious links to deploy autonomous AI agents capable of infiltrating corporate networks. These agents can exploit existing employee access to perform unauthorized actions within an organization.",
       "date": "2026-07-23T13:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06e9d168-c3ae-454a-9104-955a27d1eca5",
@@ -263,7 +285,7 @@
       "summary": "Attackers compromised a developer's GitHub repositories to distribute malicious PHP packages via Packagist, using GitHub Actions as infrastructure to target cPanel and WHM servers. This campaign demonstrates a supply chain attack leveraging legitimate developer accounts to deploy malicious code.",
       "date": "2026-07-23T11:28:54.000Z",
       "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fa6c5bfd-23a4-4379-993d-31d612efcc07",
@@ -527,7 +549,7 @@
       "summary": "Adobe has patched a critical vulnerability chain in its Acrobat Chrome extension known as HermeticReader, which allowed attackers to silently steal sensitive WhatsApp Web data. The exploit could be triggered by simply luring users to a malicious webpage.",
       "date": "2026-07-22T21:19:29.000Z",
       "link": "https://securityaffairs.com/195805/hacking/adobe-acrobat-chrome-extension-bug-enabled-silent-whatsapp-data-theft.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dd6551fc-e9d3-45cc-9850-12715c2dd521",
@@ -626,7 +648,7 @@
       "summary": "The Linux kernel development team released 432 CVEs in a single 48-hour period, sparking debate regarding whether AI-driven automation is accelerating the discovery and reporting of security flaws.",
       "date": "2026-07-22T16:58:33.000Z",
       "link": "https://www.theregister.com/security/2026/07/22/linux-kernel-team-publishes-432-cves-in-two-days/5276497",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b3666429-8c99-49d0-98f4-ccac19082ddf",
@@ -681,7 +703,7 @@
       "summary": "Researchers discovered and patched a vulnerability in the Adobe Acrobat Chrome extension, codenamed HermeticReader, which allowed malicious websites to steal WhatsApp Web data from over 314 million users.",
       "date": "2026-07-22T15:01:21.000Z",
       "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d592e8b5-5250-41bc-83fd-3826715c5a4b",
@@ -5477,28 +5499,6 @@
       "summary": "The newly identified GodDamn ransomware, a successor to the Beast family, utilizes a signed driver called PoisonX to effectively disable security software and evade detection. First appearing in May 2026, the malware demonstrates an advanced approach to neutralizing host-based defenses during attacks.",
       "date": "2026-07-09T18:11:37.000Z",
       "link": "https://securityaffairs.com/195042/malware/goddamn-ransomware-uses-poisonx-to-blind-security-software.html",
-      "isTopTen": false
-    },
-    {
-      "id": "374173b4-dff4-451f-99da-c0ef67b5a311",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-      "summary": "Microsoft has identified GigaWiper, a new modular Windows backdoor that combines disk-wiping capabilities, destructive fake ransomware, and spyware into a single malicious toolkit. The malware allows attackers to choose from multiple destructive methods to permanently compromise target systems.",
-      "date": "2026-07-09T18:08:07.000Z",
-      "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e37f91ca-7815-412f-baf3-c5bef312f578",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Interpol cybercrime crackdown nets 5,800 arrests across 97 countries",
-      "summary": "Interpol's Operation First Light successfully coordinated a global anti-fraud initiative resulting in 5,800 arrests across 97 countries. The operation aimed to dismantle international social-engineering scam networks that targeted over 142,000 victims.",
-      "date": "2026-07-09T17:22:15.000Z",
-      "link": "https://cyberscoop.com/interpol-cybercrime-crackdown-operation-first-light/",
       "isTopTen": false
     }
   ]
