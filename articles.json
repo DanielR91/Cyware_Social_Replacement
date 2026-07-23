@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-07-23T16:42:33.803Z",
+  "lastUpdated": "2026-07-23T19:27:00.837Z",
   "articles": [
+    {
+      "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+      "summary": "A Russian state-sponsored espionage group exploited a Zimbra zero-day vulnerability to compromise Western organizations by stealing email data, browser credentials, and two-factor authentication codes. The attack required only that the victim open a malicious message to execute the payload.",
+      "date": "2026-07-23T18:36:08.000Z",
+      "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+      "isTopTen": true
+    },
+    {
+      "id": "13ed8435-44fa-4ca7-80dc-038d20944e85",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chaos ransomware deploys browser-based msaRAT to evade network detection",
+      "summary": "The Chaos ransomware group is utilizing a new Rust-based remote access trojan called msaRAT that evades network detection by tunneling command-and-control traffic through legitimate web browsers. By leveraging the Chrome DevTools Protocol, the malware masks its communications within standard browser activity.",
+      "date": "2026-07-23T18:26:38.000Z",
+      "link": "https://securityaffairs.com/195876/malware/chaos-ransomware-deploys-browser-based-msarat-to-evade-network-detection.html",
+      "isTopTen": true
+    },
+    {
+      "id": "caec692a-00a0-442b-809a-4d4c08924e45",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries",
+      "summary": "The Russian threat group Laundry Bear has been leveraging a zero-day vulnerability in Zimbra software to exfiltrate sensitive data from Western organizations, continuing their operations even after the flaw was patched in July 2025.",
+      "date": "2026-07-23T17:33:37.000Z",
+      "link": "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/",
+      "isTopTen": false
+    },
+    {
+      "id": "ef4e979a-0114-4b30-84be-533f4f755e18",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "International alert spotlights Russia-linked attacks on Zimbra webmail",
+      "summary": "A Kremlin-backed threat actor known as Laundry Bear is utilizing zero-click phishing exploits to compromise Zimbra webmail accounts globally. Multiple nations have issued an international alert regarding this ongoing cyber espionage campaign.",
+      "date": "2026-07-23T16:58:00.000Z",
+      "link": "https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear",
+      "isTopTen": false
+    },
+    {
+      "id": "c71c48d6-3b1b-4809-bd61-ca012b5e5dc3",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Year-long Russian attacks infect users as soon as they look at an email",
+      "summary": "Russian state-sponsored actors have conducted a year-long phishing campaign that leverages sophisticated techniques to compromise user devices immediately upon viewing a malicious email. The campaign targets various sectors, highlighting a significant evolution in email-based exploit delivery.",
+      "date": "2026-07-23T16:47:02.000Z",
+      "link": "https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358",
+      "isTopTen": false
+    },
     {
       "id": "f71df27c-1282-46f3-bfe3-764fa54b82c0",
       "source": "The Register",
@@ -46,6 +101,17 @@
       "isTopTen": false
     },
     {
+      "id": "78861078-d57e-4253-a6ba-a954ef630e41",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+      "summary": "This weekly threat bulletin highlights a surge in malicious activities where threats were disguised as legitimate tools, including spyware, unauthorized remote access, and AI prompt injection attacks. It emphasizes the diversity of risks ranging from compromised applications to exploitation of open systems and weak code.",
+      "date": "2026-07-23T15:02:07.000Z",
+      "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+      "isTopTen": false
+    },
+    {
       "id": "2fe7dc0e-917f-48ac-844d-cdc12e4a1307",
       "source": "The Register",
       "tag": "Threat Intel & Info Sharing",
@@ -54,7 +120,7 @@
       "summary": "Iranian state-linked threat actors are expanding their targeting of industrial control systems, moving beyond Rockwell Automation gear to exploit various internet-facing devices within critical infrastructure. CISA has issued an updated alert warning organizations of these persistent scanning and intrusion attempts.",
       "date": "2026-07-23T14:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/iran-linked-crews-are-probing-more-flavors-of-us-industrial-kit/5277003",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "381edc03-6e4a-429b-8538-7aaf7ae1b56a",
@@ -65,7 +131,7 @@
       "summary": "Unit 42 has uncovered a Russian cyberespionage campaign that exploits Zimbra webmail servers using JavaScript injection to harvest user credentials. This operation targets global organizations, highlighting a significant threat to email security infrastructure.",
       "date": "2026-07-23T14:10:53.000Z",
       "link": "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fb1ca7f9-f190-4b0d-88fb-35ae3631745e",
@@ -120,7 +186,7 @@
       "summary": "Researchers discovered a vulnerability in OpenAI's platform that allows attackers to use malicious links to deploy autonomous AI agents capable of infiltrating corporate networks. These agents can exploit existing employee access to perform unauthorized actions within an organization.",
       "date": "2026-07-23T13:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06e9d168-c3ae-454a-9104-955a27d1eca5",
@@ -244,17 +310,6 @@
       "isTopTen": false
     },
     {
-      "id": "f6c53c71-046d-4805-b6b0-1809054a0fbe",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
-      "summary": "Google has introduced a new account recovery method that allows users to regain access to their accounts by submitting a selfie video. This feature serves as an additional verification layer alongside existing recovery options like email or phone numbers.",
-      "date": "2026-07-23T10:00:00.000Z",
-      "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
-      "isTopTen": false
-    },
-    {
       "id": "2ead5d06-db6d-42ed-b0c0-70708ac6e9c2",
       "source": "CyberScoop",
       "tag": "Laws, Policy, Regulations",
@@ -263,6 +318,17 @@
       "summary": "The ANCHOR-CI initiative aims to bridge a two-decade gap in government-industry collaboration by fostering shared responsibility for national cyber resilience. It represents a strategic shift toward integrated public-private partnerships in cybersecurity.",
       "date": "2026-07-23T10:00:00.000Z",
       "link": "https://cyberscoop.com/cisa-anchor-ci-critical-infrastructure-framework-op-ed/",
+      "isTopTen": false
+    },
+    {
+      "id": "f6c53c71-046d-4805-b6b0-1809054a0fbe",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
+      "summary": "Google has introduced a new account recovery method that allows users to regain access to their accounts by submitting a selfie video. This feature serves as an additional verification layer alongside existing recovery options like email or phone numbers.",
+      "date": "2026-07-23T10:00:00.000Z",
+      "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
       "isTopTen": false
     },
     {
@@ -318,7 +384,7 @@
       "summary": "A newly disclosed nine-year-old vulnerability in the Linux XFS filesystem allows local, unprivileged users to gain root access on default RHEL, Fedora, and Amazon Linux installations. The flaw, tracked as CVE-2026-64600, involves a race condition that enables the overwriting of root-owned files.",
       "date": "2026-07-23T08:04:35.000Z",
       "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "15551c78-200b-4eaa-a296-8cf54ba2d6a1",
@@ -461,7 +527,7 @@
       "summary": "Adobe has patched a critical vulnerability chain in its Acrobat Chrome extension known as HermeticReader, which allowed attackers to silently steal sensitive WhatsApp Web data. The exploit could be triggered by simply luring users to a malicious webpage.",
       "date": "2026-07-22T21:19:29.000Z",
       "link": "https://securityaffairs.com/195805/hacking/adobe-acrobat-chrome-extension-bug-enabled-silent-whatsapp-data-theft.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dd6551fc-e9d3-45cc-9850-12715c2dd521",
@@ -494,7 +560,7 @@
       "summary": "U.S. federal agencies have expanded an advisory regarding Iran-linked cyber threat actors actively targeting and manipulating industrial control systems, specifically HMI and SCADA displays. The alert highlights malicious project file interactions as a primary method for compromising operational technology.",
       "date": "2026-07-22T19:18:00.000Z",
       "link": "https://therecord.media/federal-agencies-broaden-alert-on-iran-linked-ot-attacks",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8e340030-38d4-4001-8521-dd9d2f6d3678",
@@ -615,7 +681,7 @@
       "summary": "Researchers discovered and patched a vulnerability in the Adobe Acrobat Chrome extension, codenamed HermeticReader, which allowed malicious websites to steal WhatsApp Web data from over 314 million users.",
       "date": "2026-07-22T15:01:21.000Z",
       "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d592e8b5-5250-41bc-83fd-3826715c5a4b",
@@ -747,7 +813,7 @@
       "summary": "Attackers are actively exploiting a critical RCE vulnerability in on-premise Microsoft SharePoint, identified as CVE-2026-50522, to steal IIS machine keys and maintain long-term unauthorized access. Users are urged to apply patches immediately and rotate their machine keys to secure their environments.",
       "date": "2026-07-22T11:47:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/22/sharepoint-cve-2026-50522-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ffaed1d4-b614-44bb-8138-5a7820caecb0",
@@ -5433,72 +5499,6 @@
       "summary": "Interpol's Operation First Light successfully coordinated a global anti-fraud initiative resulting in 5,800 arrests across 97 countries. The operation aimed to dismantle international social-engineering scam networks that targeted over 142,000 victims.",
       "date": "2026-07-09T17:22:15.000Z",
       "link": "https://cyberscoop.com/interpol-cybercrime-crackdown-operation-first-light/",
-      "isTopTen": false
-    },
-    {
-      "id": "88ce6bec-112b-457a-8682-a7814d40e690",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "AI Gateway Connected to Amazon Bedrock Hijacked for Cryptomining",
-      "summary": "An AI gateway using LiteLLM and Amazon Bedrock was compromised by attackers who leveraged exposed SSH activity to conduct cryptomining operations. The incident highlights the risks of misconfigured infrastructure when integrating AI-driven service gateways.",
-      "date": "2026-07-09T17:19:50.000Z",
-      "link": "https://hackread.com/ai-gateway-amazon-bedrock-hijacked-cryptomining/",
-      "isTopTen": false
-    },
-    {
-      "id": "791f6dd6-023b-46cd-a7fe-35db8bf84710",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
-      "summary": "npm version 12 improves supply chain security by disabling automatic execution of install scripts by default and deprecating tokens that bypass two-factor authentication. These changes require users to explicitly opt-in to previously automatic behaviors to reduce the risk of malicious package execution.",
-      "date": "2026-07-09T16:49:02.000Z",
-      "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6545b788-96b4-4b19-9ca0-5193a2d10afd",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "EU 'Chat Control' snoopfest returns after vote to kill it falls short",
-      "summary": "The European Union's controversial 'Chat Control' proposal remains active as opponents failed to secure the necessary parliamentary majority to block the extension of interim CSAM-scanning regulations. The decision continues the debate over the balance between child protection initiatives and individual privacy rights.",
-      "date": "2026-07-09T15:51:59.000Z",
-      "link": "https://www.theregister.com/security/2026/07/09/meps-fail-to-prevent-chat-control-snoopfest-revival/5269379",
-      "isTopTen": false
-    },
-    {
-      "id": "7abf0ab4-fcd8-4b91-ae89-0f603714c00b",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-      "summary": "This edition of ThreatsDay details a collection of minor operational security oversights, including cloud bucket hijacking and Windows privilege escalation, that lead to significant security consequences.",
-      "date": "2026-07-09T15:09:28.000Z",
-      "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4619a7a9-af05-4a2b-9e45-70d9e1ee9c6d",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "764 splinter group leader sentenced to 40 years in jail",
-      "summary": "Alexis Chavez, a leader within the 764 violent extremist group, was sentenced to 40 years in prison for coercing minors into self-harm and the production of child sexual abuse material.",
-      "date": "2026-07-09T14:34:31.000Z",
-      "link": "https://cyberscoop.com/764-splinter-group-leader-sentenced-alexis-chavez/",
-      "isTopTen": false
-    },
-    {
-      "id": "3816652e-82c4-48a6-9691-594bbb1f844e",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Extortion crew hijacks Microsoft 365 accounts via fake passkey setup",
-      "summary": "The Pink cyber extortion group is compromising Microsoft 365 accounts by using vishing calls to trick employees into registering attacker-controlled passkeys. This social engineering tactic allows threat actors to gain unauthorized access by masquerading as IT support during the enrollment process.",
-      "date": "2026-07-09T14:22:35.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/09/microsoft-365-fake-passkey-setup-enrollment/",
       "isTopTen": false
     }
   ]
