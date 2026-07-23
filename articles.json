@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-07-23T03:20:59.584Z",
+  "lastUpdated": "2026-07-23T08:39:27.993Z",
   "articles": [
+    {
+      "id": "15551c78-200b-4eaa-a296-8cf54ba2d6a1",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Axonius expands Asset Cloud with Cyber Assets and Exposures enhancements",
+      "summary": "Axonius has updated its Asset Cloud platform to improve asset intelligence and exposure management, specifically addressing visibility gaps in CMDBs and expanding support for IoT and OT devices.",
+      "date": "2026-07-23T07:07:42.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/23/axonius-cyber-assets-exposures/",
+      "isTopTen": false
+    },
+    {
+      "id": "fca9e437-c0d6-4404-94a6-64a7adb5adf6",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Talking smack about a doctor got him access to private medical files",
+      "summary": "An individual gained unauthorized access to private medical records by using social engineering tactics to bypass physical security measures. The incident highlights the vulnerability of physical access points to deceptive techniques rather than traditional digital hacking.",
+      "date": "2026-07-23T07:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/23/talking-smack-about-a-doctor-got-him-access-to-private-medical-files/5276604",
+      "isTopTen": false
+    },
+    {
+      "id": "cd41f663-9af7-4844-b008-dce262d67ef0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+      "summary": "Check Point has released critical security patches for an authentication bypass vulnerability, identified as CVE-2026-16232, which is currently being exploited in the wild to grant attackers full administrative access. The flaw affects SmartConsole login processes within Security Management and Multi-Domain Management products.",
+      "date": "2026-07-23T06:34:36.000Z",
+      "link": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0161f68d-da70-4fd9-8bdc-e62c4c7ce65d",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Shadow AI is becoming enterprise security’s biggest blind spot",
+      "summary": "Rapid employee adoption of unauthorized AI tools, known as Shadow AI, is creating significant security blind spots for enterprises as governance fails to keep pace. Organizations are struggling to manage the risks associated with AI integrated into daily workflows without formal oversight.",
+      "date": "2026-07-23T06:00:09.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/23/shadow-ai-security-risks/",
+      "isTopTen": true
+    },
+    {
+      "id": "e7d7c691-e219-4795-bda0-ee1f7732868c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product Showcase: AppViewX Agent Identity Security",
+      "summary": "AppViewX is introducing a new identity security solution designed to manage the surge of autonomous AI agents within enterprises, which traditional identity and access management systems are currently ill-equipped to handle.",
+      "date": "2026-07-23T05:30:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/23/product-showcase-appviewx-agent-identity-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "00b61ccd-6392-407d-a2ed-bd4e709976f5",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Multi-patch vulnerability fixes can leave open source exposed",
+      "summary": "Researchers at the University of Texas at Dallas found that multi-patch fixes in open source software often contain intermediate commits that leave systems vulnerable before the final patch is applied. This vulnerability management oversight creates security gaps when patches are not implemented as a complete, atomic sequence.",
+      "date": "2026-07-23T05:00:39.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/23/research-multi-patch-vulnerability-fixes/",
+      "isTopTen": false
+    },
+    {
+      "id": "aa461d58-3591-4757-abc8-8dc81716c479",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The AI code vulnerabilities that grow with your app",
+      "summary": "A study by Theori testing AI coding agents revealed that while models largely avoid traditional injection vulnerabilities, they tend to generate complex, application-specific security flaws that scale as the software grows. These findings suggest that AI-generated code introduces unique architectural risks that standard automated scanners may struggle to detect.",
+      "date": "2026-07-23T04:30:24.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/23/report-ai-code-vulnerabilities/",
+      "isTopTen": false
+    },
+    {
+      "id": "e5035577-4293-4d9d-a609-e352eb5f8386",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Building a defense in depth strategy for sensitive data",
+      "summary": "This article outlines a multi-layered defense-in-depth strategy for protecting sensitive data, arguing that single controls are insufficient against modern exploitation methods. The author details a four-layer approach covering the entire data life cycle to address potential security gaps.",
+      "date": "2026-07-23T04:00:12.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/23/defense-in-depth-strategy-video/",
+      "isTopTen": false
+    },
     {
       "id": "b3dee7f4-676e-494e-bb6e-c9acf3c41d8a",
       "source": "The Register",
@@ -109,7 +197,7 @@
       "summary": "A sophisticated worm is infiltrating software development environments by masquerading as routine system commands to target AI-integrated tools. The origin and specific intent of the malware remain under investigation.",
       "date": "2026-07-22T17:24:46.000Z",
       "link": "https://cyberscoop.com/sandworm-mode-malware-ai-supply-chain-crowdstrike/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "556f6298-99a0-4f01-9027-1684f834ff9c",
@@ -142,7 +230,7 @@
       "summary": "The North Korean threat group Kimsuky has launched a new campaign targeting South Korean collaborative software vendors to compromise their supply chain. Researchers warn that these vendors were specifically breached to facilitate broader downstream attacks.",
       "date": "2026-07-22T16:47:00.000Z",
       "link": "https://therecord.media/kimsuky-north-korea-espionage-groupware-companies",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15ac2d60-78cf-47c6-9d5b-32d119bac977",
@@ -461,7 +549,7 @@
       "summary": "German and US law enforcement, in cooperation with Indonesian police, have dismantled the Kratos phishing-as-a-service platform and arrested its primary administrator. The platform was responsible for facilitating approximately 15,000 malicious phishing campaigns per month.",
       "date": "2026-07-22T08:02:35.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/22/bka-fbi-kratos-phishing-platform-takedown/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fe92f1ba-7521-46ea-b3dc-453cda731881",
@@ -494,7 +582,7 @@
       "summary": "Cybersecurity researchers identified a malicious NuGet package named 'Newtonsoftt.Json.Net' that typosquats the popular Newtonsoft.Json library to inject code capable of rigging live game results. The trojanized fork specifically targets Digitain's game systems through multiple compromised versions.",
       "date": "2026-07-22T06:00:06.000Z",
       "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f9ec49f6-38b8-40f8-b248-0bceb53747e6",
@@ -725,7 +813,7 @@
       "summary": "Qilin ransomware affiliates are actively exploiting a critical authentication bypass vulnerability (CVE-2026-0257) in Palo Alto Networks PAN-OS GlobalProtect to gain unauthorized VPN access to corporate networks.",
       "date": "2026-07-21T16:08:28.000Z",
       "link": "https://securityaffairs.com/195730/cyber-crime/qilin-ransomware-affiliates-abuse-cve-2026-0257-to-gain-unauthorized-vpn-access.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5cba90d0-00cd-4dd9-bae6-7ae52051ca1f",
@@ -736,7 +824,7 @@
       "summary": "Researchers discovered a vulnerability in AWS Kiro, an AI-powered coding tool, that allowed malicious web page content to trigger remote code execution and configuration tampering on developer machines. AWS has since patched the flaw, which bypassed standard approval processes.",
       "date": "2026-07-21T16:06:12.000Z",
       "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1dcbfe9c-625c-44a3-b7b9-3861707473f9",
@@ -5411,94 +5499,6 @@
       "summary": "Suspected Chinese state-sponsored actors are exploiting vulnerabilities in Roundcube mail servers to target academic institutions. Researchers estimate that the campaign has impacted several dozen individual targets.",
       "date": "2026-07-08T21:35:13.000Z",
       "link": "https://www.theregister.com/security/2026/07/08/suspected-chinese-snoops-caught-breaking-into-universities-roundcube-mailservers/5268778",
-      "isTopTen": false
-    },
-    {
-      "id": "45b24790-6719-4d52-8460-0b4029aea70d",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Ubiquiti Patches Critical UniFi OS Flaws Allowing Command Injection and Privilege Escalation",
-      "summary": "Ubiquiti has released security updates to address seven critical vulnerabilities in UniFi OS, most notably a maximum-severity command injection flaw tracked as CVE-2026-50746. This critical vulnerability, which carries a CVSS score of 10.0, affects the UniFi Connect Application and could allow unauthorized command execution and privilege escalation.",
-      "date": "2026-07-08T20:20:39.000Z",
-      "link": "https://securityaffairs.com/194978/security/ubiquiti-patches-critical-unifi-os-flaws-allowing-command-injection-and-privilege-escalation.html",
-      "isTopTen": false
-    },
-    {
-      "id": "688f8425-f3a9-43ac-9336-81d42cc66a62",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Greek victims file lawsuit against Intellexa over Predator spyware",
-      "summary": "Greek victims have filed a lawsuit against Intellexa regarding the unauthorized use of Predator spyware, which previously triggered a major political scandal in 2022. The case highlights ongoing accountability efforts following the discovery of the spyware on numerous devices.",
-      "date": "2026-07-08T20:20:00.000Z",
-      "link": "https://therecord.media/greek-victims-file-lawsuit-against-intellexa-spyware",
-      "isTopTen": false
-    },
-    {
-      "id": "f63d5fc0-b2b4-4525-95f2-39e2acc91d11",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Cash App owner to pay $45 million to settle allegations of lax security",
-      "summary": "Block, Inc. has agreed to a $45 million settlement with state attorneys general following allegations that it misled users regarding the security protections provided by Cash App. The case centered on claims that the platform failed to maintain adequate security standards and misrepresented its safety protocols.",
-      "date": "2026-07-08T20:14:00.000Z",
-      "link": "https://therecord.media/cash-app-owner-to-pay-45-million-security-allegations",
-      "isTopTen": false
-    },
-    {
-      "id": "d92341f2-2575-4fc4-a1b3-dcbac382181e",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "GitHub Copilot: Sorry Dave, I can't do that harmful thing - unless you ask me in code",
-      "summary": "Researchers discovered an AI jailbreak vulnerability in GitHub Copilot that allows users to bypass safety filters by embedding malicious requests within code contexts. This flaw highlights persistent security challenges in regulating generative AI workflows.",
-      "date": "2026-07-08T19:19:35.000Z",
-      "link": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654",
-      "isTopTen": false
-    },
-    {
-      "id": "51736d48-db55-45e0-a4de-13f3eca256c6",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "A Hacker Claims 35 GB of Accenture Source Code. The Company discloses the data breach",
-      "summary": "Accenture has confirmed a significant data breach after a threat actor claimed to have stolen and offered for sale 35 GB of the company's source code, encryption keys, and Azure credentials. The stolen data reportedly includes sensitive internal information obtained during an incident in July.",
-      "date": "2026-07-08T18:33:43.000Z",
-      "link": "https://securityaffairs.com/194962/data-breach/a-hacker-claims-35-gb-of-accenture-source-code-the-company-discloses-the-data-breach.html",
-      "isTopTen": false
-    },
-    {
-      "id": "885d1c44-61c4-45bf-97bd-448904d75c97",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "DuckDuckGo Now Blocks Most YouTube Ads Right Inside Its Browser",
-      "summary": "DuckDuckGo has updated its browser to include native ad-blocking capabilities for YouTube, providing users with a more streamlined and private viewing experience. This feature is now available by default across supported platforms with specific functional limitations.",
-      "date": "2026-07-08T18:22:10.000Z",
-      "link": "https://hackread.com/duckduckgo-blocks-youtube-ads-inside-browser/",
-      "isTopTen": false
-    },
-    {
-      "id": "783ec6c2-9a9e-4c57-9f36-97f74683b83d",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "French nonprofit starts global intelligence and research hub for AI cyber threats ",
-      "summary": "A French nonprofit has launched a global intelligence hub designed to coordinate rapid international responses to AI-driven cyber threats among governments, businesses, and experts.",
-      "date": "2026-07-08T18:15:29.000Z",
-      "link": "https://cyberscoop.com/paris-peace-forum-intaic-ai-cyber-threats/",
-      "isTopTen": false
-    },
-    {
-      "id": "af33e09c-8d41-4e8f-b785-088140bb4f6c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-      "summary": "AI coding agents like Cursor and Claude Code are inadvertently triggering endpoint security alerts by performing behavioral patterns that mimic common malicious activities, such as credential access. Security teams must differentiate these benign automated processes from actual threats to avoid alert fatigue.",
-      "date": "2026-07-08T17:02:12.000Z",
-      "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
       "isTopTen": false
     }
   ]
