@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-24T13:56:06.097Z",
+  "lastUpdated": "2026-07-24T16:48:11.634Z",
   "articles": [
+    {
+      "id": "eef6197a-9b97-444a-a1c8-ef0bead76ad1",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "'Wrench' attacks against crypto holders appear to be on the rise",
+      "summary": "Criminal groups are increasingly using physical violence, such as home invasions and kidnappings, to force victims to surrender their cryptocurrency assets. This trend highlights a shift toward offline, high-stakes physical attacks against digital asset owners.",
+      "date": "2026-07-24T15:55:00.000Z",
+      "link": "https://therecord.media/wrench-attacks-against-cryptocurrency-holders",
+      "isTopTen": true
+    },
+    {
+      "id": "f75fcd1f-e9f7-48e5-bd37-729354d7abda",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Microsoft, tech companies throw weight behind spread of open-source AI",
+      "summary": "Major technology companies, including Microsoft, Meta, and NVIDIA, have signed a letter advocating for the continued development and expansion of open-source AI models. The coalition aims to influence policy to ensure open-source AI remains accessible amid growing regulatory scrutiny.",
+      "date": "2026-07-24T15:22:15.000Z",
+      "link": "https://cyberscoop.com/tech-leaders-open-source-ai-cybersecurity/",
+      "isTopTen": false
+    },
+    {
+      "id": "7d479fe9-f05e-4a11-a959-f2b578f792c0",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "summary": "North Korean threat actor BlueNoroff is utilizing a sophisticated phishing kit that mimics Zoom and Microsoft Teams to profile crypto wallets before deploying malware. The campaign leverages social engineering and typosquatted domains to target industry professionals.",
+      "date": "2026-07-24T15:12:35.000Z",
+      "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "isTopTen": false
+    },
+    {
+      "id": "47fe4c29-a318-410d-8b94-a7ac98835247",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "summary": "The Certighost exploit allows low-privileged Active Directory users to impersonate Domain Controllers by obtaining fraudulent certificates. This vulnerability enables attackers to perform DCSync attacks and extract the krbtgt secret, potentially leading to full domain compromise.",
+      "date": "2026-07-24T14:15:21.000Z",
+      "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "isTopTen": true
+    },
     {
       "id": "16410cc2-c0e4-4a55-a834-a097130f7a6b",
       "source": "Help Net Security",
@@ -13,6 +57,17 @@
       "isTopTen": false
     },
     {
+      "id": "158fbfb4-c36e-4911-beef-12bc635bcc04",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Uncle Sam tells overseas cybercrooks their visas are canceled",
+      "summary": "The U.S. government has implemented a new policy to revoke visas for international cybercriminals and their families to deter online fraud and sextortion. This measure aims to restrict the mobility of individuals involved in malicious cyber activities targeting U.S. citizens.",
+      "date": "2026-07-24T12:15:00.000Z",
+      "link": "https://www.theregister.com/security/2026/07/24/uncle-sam-tells-overseas-cybercrooks-their-visas-are-canceled/5278212",
+      "isTopTen": false
+    },
+    {
       "id": "7f93a7d2-058b-4437-a4b7-340755b1fb78",
       "source": "Security Affairs",
       "tag": "Breaches and Incidents",
@@ -21,7 +76,7 @@
       "summary": "Thailand's Ministry of Finance was targeted in a cyber-espionage operation utilizing the Hermes AI agent for reconnaissance and the Hades malware for persistence. Researchers uncovered the attack in real-time by identifying exposed staging servers used by the threat actors.",
       "date": "2026-07-24T12:10:28.000Z",
       "link": "https://securityaffairs.com/195941/hacking/thailands-ministry-of-finance-targeted-with-hermes-ai-agent-running-unattended-hades-implant-staged.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a792f11-6894-4895-afd1-064d2e5ace1b",
@@ -43,7 +98,7 @@
       "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
       "date": "2026-07-24T11:53:55.000Z",
       "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
@@ -5444,61 +5499,6 @@
       "summary": "Three high-severity security vulnerabilities in the OpenClaw AI assistant have been disclosed, which could allow attackers to perform credential theft, privilege escalation, and arbitrary code execution. These flaws have since been addressed through patches.",
       "date": "2026-07-10T14:19:50.000Z",
       "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fefb59db-5e8a-46c4-b399-6dd565d658e3",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "China, India ran separate spying campaigns against same Pakistani police force",
-      "summary": "Chinese and Indian state-sponsored actors concurrently compromised the same Pakistani police force systems between February 2024 and April 2026, specifically targeting operations in a region affected by separatist insurgency.",
-      "date": "2026-07-10T13:20:00.000Z",
-      "link": "https://therecord.media/china-india-ran-separate-spy-campaigns-against-same-police-force",
-      "isTopTen": false
-    },
-    {
-      "id": "173a6aeb-b439-4ebc-a010-708dc3931f24",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Cybersecurity Negotiator Gets 70 Months for Helping BlackCat Extort Victims",
-      "summary": "Former ransomware negotiator Angelo Martino has been sentenced to 70 months in prison for facilitating BlackCat extortion schemes and misusing confidential client data. The case highlights the legal consequences for individuals who collaborate with ransomware gangs.",
-      "date": "2026-07-10T13:18:03.000Z",
-      "link": "https://hackread.com/cybersecurity-negotiator-blackcat-extort-victims/",
-      "isTopTen": false
-    },
-    {
-      "id": "44c93a22-80cd-47a9-8938-dd431a003a67",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-      "summary": "The China-linked threat group Silver Fox is utilizing a new Rust-based remote access trojan called MODBEACON, which leverages gRPC streaming for encrypted command-and-control communication. The group primarily distributes this malware through SEO poisoning and counterfeit software installers.",
-      "date": "2026-07-10T13:15:23.000Z",
-      "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5b6c63fd-2bee-4a58-9029-924908001141",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Ransomware Never Stopped: Over 9,000 Confirmed Attacks Since 2018",
-      "summary": "Between 2018 and 2026, over 9,000 verified ransomware attacks have occurred globally, with the United States remaining the primary target and Qilin identified as a leading threat actor. The data highlights a persistent trend of over 1,400 annual attacks since 2023.",
-      "date": "2026-07-10T12:37:05.000Z",
-      "link": "https://securityaffairs.com/195117/cyber-crime/ransomware-never-stopped-over-9000-confirmed-attacks-since-2018.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d4aaab39-e925-4d86-9b14-f8467d1b3b2f",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Incode brings on-device processing to age estimation for privacy-focused verification",
-      "summary": "Incode has introduced an on-device age estimation tool that performs identity verification and liveness detection locally to ensure user privacy. This technology helps organizations comply with global age assurance regulations without transmitting sensitive facial data to external servers.",
-      "date": "2026-07-10T12:24:18.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/10/incode-on-device-age-estimation/",
       "isTopTen": false
     }
   ]
