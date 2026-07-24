@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-23T22:09:45.545Z",
+  "lastUpdated": "2026-07-24T02:59:36.433Z",
   "articles": [
+    {
+      "id": "229db3a2-a4f4-4015-9512-3c9d027e8915",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be",
+      "summary": "Recent security research demonstrating potential exploit chains in AI agent architectures highlights that these risks typically stem from adversarial prompting rather than inherent malice. The findings emphasize the need for robust guardrails and secure integration practices as agentic systems become more prevalent.",
+      "date": "2026-07-23T23:51:28.000Z",
+      "link": "https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881",
+      "isTopTen": false
+    },
+    {
+      "id": "cb7b5594-d5c4-4a9f-b2f4-0a55b57b9800",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researchers replace downloaded macOS apps with evil twins, Apple shrugs",
+      "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
+      "date": "2026-07-23T23:24:27.000Z",
+      "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
+      "isTopTen": true
+    },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
       "source": "CyberScoop",
@@ -21,7 +43,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities catalog to include critical security flaws affecting Microsoft SharePoint, Check Point SmartConsole, and other platforms like DD-WRT, Langflow, and WordPress. These additions indicate active exploitation in the wild, necessitating urgent patching by affected organizations.",
       "date": "2026-07-23T20:10:46.000Z",
       "link": "https://securityaffairs.com/195889/security/u-s-cisa-adds-microsoft-sharepoint-and-check-point-smartconsole-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
@@ -76,7 +98,7 @@
       "summary": "Russian state-sponsored actors have conducted a year-long phishing campaign that leverages sophisticated techniques to compromise user devices immediately upon viewing a malicious email. The campaign targets various sectors, highlighting a significant evolution in email-based exploit delivery.",
       "date": "2026-07-23T16:47:02.000Z",
       "link": "https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f71df27c-1282-46f3-bfe3-764fa54b82c0",
@@ -648,7 +670,7 @@
       "summary": "The Linux kernel development team released 432 CVEs in a single 48-hour period, sparking debate regarding whether AI-driven automation is accelerating the discovery and reporting of security flaws.",
       "date": "2026-07-22T16:58:33.000Z",
       "link": "https://www.theregister.com/security/2026/07/22/linux-kernel-team-publishes-432-cves-in-two-days/5276497",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b3666429-8c99-49d0-98f4-ccac19082ddf",
@@ -5477,28 +5499,6 @@
       "summary": "Microsoft has identified GigaWiper, a sophisticated Windows backdoor capable of remote access, file encryption, and complete disk destruction. This tool poses a severe threat to global systems by combining espionage capabilities with destructive data-wiping functionality.",
       "date": "2026-07-09T20:51:32.000Z",
       "link": "https://hackread.com/microsoft-gigawiper-backdoor-destroy-windows-pcs/",
-      "isTopTen": false
-    },
-    {
-      "id": "81b8abb5-534f-4c0d-8286-f21a9d5d46a2",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-      "summary": "Attackers are utilizing long-dormant 'ghost' GitHub accounts and compromised tokens to scrape corporate repository data and map organizational structures. This technique allows malicious actors to evade detection by blending in with legitimate activity through automated API queries.",
-      "date": "2026-07-09T18:38:49.000Z",
-      "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2cd69eef-104b-4ca0-bceb-9a4e73cac183",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "GodDamn Ransomware Uses PoisonX to Blind Security Software",
-      "summary": "The newly identified GodDamn ransomware, a successor to the Beast family, utilizes a signed driver called PoisonX to effectively disable security software and evade detection. First appearing in May 2026, the malware demonstrates an advanced approach to neutralizing host-based defenses during attacks.",
-      "date": "2026-07-09T18:11:37.000Z",
-      "link": "https://securityaffairs.com/195042/malware/goddamn-ransomware-uses-poisonx-to-blind-security-software.html",
       "isTopTen": false
     }
   ]
