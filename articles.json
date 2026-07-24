@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-07-24T11:12:31.866Z",
+  "lastUpdated": "2026-07-24T13:56:06.097Z",
   "articles": [
+    {
+      "id": "16410cc2-c0e4-4a55-a834-a097130f7a6b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Meta tackles AI-generated accounts with a free Facebook verification badge",
+      "summary": "Meta is launching a free identity verification badge for Facebook profiles to help users distinguish between authentic human accounts and AI-generated bots or impersonators. The initiative aims to increase trust across social features like Marketplace, dating profiles, and groups.",
+      "date": "2026-07-24T13:03:19.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/24/meta-facebook-verified-badge-selfie-verification/",
+      "isTopTen": false
+    },
+    {
+      "id": "7f93a7d2-058b-4437-a4b7-340755b1fb78",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Thailand’s Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
+      "summary": "Thailand's Ministry of Finance was targeted in a cyber-espionage operation utilizing the Hermes AI agent for reconnaissance and the Hades malware for persistence. Researchers uncovered the attack in real-time by identifying exposed staging servers used by the threat actors.",
+      "date": "2026-07-24T12:10:28.000Z",
+      "link": "https://securityaffairs.com/195941/hacking/thailands-ministry-of-finance-targeted-with-hermes-ai-agent-running-unattended-hades-implant-staged.html",
+      "isTopTen": true
+    },
+    {
+      "id": "5a792f11-6894-4895-afd1-064d2e5ace1b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Russian hackers exploit unpatched Zimbra servers to steal emails",
+      "summary": "State-backed Russian hacking group Laundry Bear has been targeting government and commercial networks for over a year by exploiting a vulnerability in Zimbra Collaboration Suite webmail servers. A multinational coalition of intelligence and cybersecurity agencies issued a joint advisory detailing the ongoing campaign.",
+      "date": "2026-07-24T12:09:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
+      "isTopTen": false
+    },
+    {
+      "id": "5cee48e9-4768-4736-a949-d859896ae5b3",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
+      "date": "2026-07-24T11:53:55.000Z",
+      "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "isTopTen": true
+    },
+    {
+      "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+      "summary": "A critical vulnerability in Bing's image processing allowed attackers to execute arbitrary commands as SYSTEM or root by submitting malicious SVG files. Microsoft has addressed the issue by issuing two critical CVEs.",
+      "date": "2026-07-24T11:45:17.000Z",
+      "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "isTopTen": true
+    },
+    {
+      "id": "8035fb82-07d5-4a13-bc51-7626407bba9c",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
+      "summary": "As AI agent adoption grows, security teams are shifting focus from basic visibility to implementing rigorous control mechanisms and least-privilege access to manage agent intent. This transition highlights the technical challenges of securing autonomous AI operations.",
+      "date": "2026-07-24T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+      "isTopTen": false
+    },
+    {
+      "id": "baf826f7-a12a-4fae-b6fd-9fc84dc1f82f",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Tego AI Discloses Second Claude Flaw in a Week: Hidden Link Silently Sends Files to Attackers",
+      "summary": "Tego AI researchers have uncovered a second security vulnerability in Claude within one week, involving a hidden link that exfiltrates files to attackers without user consent.",
+      "date": "2026-07-24T11:15:33.000Z",
+      "link": "https://hackread.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/",
+      "isTopTen": false
+    },
     {
       "id": "579d1be0-0d35-489f-9dee-780c5ab6a37f",
       "source": "HackRead",
@@ -21,7 +98,7 @@
       "summary": "An attacker deployed an autonomous AI agent to perform unauthorized post-exploitation activities against the Thai Ministry of Finance by bypassing security permission prompts. The AI actively scanned for vulnerabilities and sensitive data within the government network.",
       "date": "2026-07-24T10:15:29.000Z",
       "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fed346d0-8e8d-4f45-ba1f-83a31f442f4b",
@@ -230,7 +307,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -252,7 +329,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities catalog to include critical security flaws affecting Microsoft SharePoint, Check Point SmartConsole, and other platforms like DD-WRT, Langflow, and WordPress. These additions indicate active exploitation in the wild, necessitating urgent patching by affected organizations.",
       "date": "2026-07-23T20:10:46.000Z",
       "link": "https://securityaffairs.com/195889/security/u-s-cisa-adds-microsoft-sharepoint-and-check-point-smartconsole-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
@@ -274,7 +351,7 @@
       "summary": "The Chaos ransomware group is utilizing a new Rust-based remote access trojan called msaRAT that evades network detection by tunneling command-and-control traffic through legitimate web browsers. By leveraging the Chrome DevTools Protocol, the malware masks its communications within standard browser activity.",
       "date": "2026-07-23T18:26:38.000Z",
       "link": "https://securityaffairs.com/195876/malware/chaos-ransomware-deploys-browser-based-msarat-to-evade-network-detection.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "caec692a-00a0-442b-809a-4d4c08924e45",
@@ -318,7 +395,7 @@
       "summary": "Researchers discovered that millions of vehicles in California equipped with KARR/SWDS security systems are vulnerable to remote hijacking due to the use of a hardcoded, universal security key. This flaw allows unauthorized access to car functions via Bluetooth, posing a significant risk to vehicle safety and security.",
       "date": "2026-07-23T16:12:58.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "47bf332e-64dd-4e9b-9c9c-e4037dd6eb81",
@@ -395,7 +472,7 @@
       "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows an AI agent to bypass its virtual machine and access files on a host macOS system. The flaw potentially impacts approximately 500,000 users.",
       "date": "2026-07-23T13:27:59.000Z",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1057a5b8-8313-47f1-aaaf-e87575cc111d",
@@ -439,7 +516,7 @@
       "summary": "Researchers discovered a vulnerability in OpenAI's platform that allows attackers to use malicious links to deploy autonomous AI agents capable of infiltrating corporate networks. These agents can exploit existing employee access to perform unauthorized actions within an organization.",
       "date": "2026-07-23T13:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06e9d168-c3ae-454a-9104-955a27d1eca5",
@@ -516,7 +593,7 @@
       "summary": "Attackers compromised a developer's GitHub repositories to distribute malicious PHP packages via Packagist, using GitHub Actions as infrastructure to target cPanel and WHM servers. This campaign demonstrates a supply chain attack leveraging legitimate developer accounts to deploy malicious code.",
       "date": "2026-07-23T11:28:54.000Z",
       "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fa6c5bfd-23a4-4379-993d-31d612efcc07",
@@ -538,7 +615,7 @@
       "summary": "Check Point has confirmed that attackers are actively exploiting a critical authentication bypass vulnerability (CVE-2026-16232) that allows unauthenticated users to gain full administrative control over security management servers. This flaw enables attackers to modify security policies and configurations across affected firewalls.",
       "date": "2026-07-23T10:42:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/23/check-point-vulnerability-cve-2026-16232/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e025db40-510f-4c90-a073-ceaf60925cf0",
@@ -5422,83 +5499,6 @@
       "summary": "Incode has introduced an on-device age estimation tool that performs identity verification and liveness detection locally to ensure user privacy. This technology helps organizations comply with global age assurance regulations without transmitting sensitive facial data to external servers.",
       "date": "2026-07-10T12:24:18.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/10/incode-on-device-age-estimation/",
-      "isTopTen": false
-    },
-    {
-      "id": "c2c568b0-e38d-472b-87b6-1c457a47d5b0",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Fashion mart Miinto unzips breach details, warns shoppers to watch for phisherfolk",
-      "summary": "Danish fashion retailer Miinto is notifying customers of a data breach involving its order management system and advising users to remain vigilant against potential phishing attacks.",
-      "date": "2026-07-10T12:10:41.000Z",
-      "link": "https://www.theregister.com/security/2026/07/10/miinto-fesses-up-to-breach-says-customers-open-to-phishing/5269891",
-      "isTopTen": false
-    },
-    {
-      "id": "24c2331f-107d-4c8d-8401-6f83bccc4b2a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
-      "summary": "A critical, unpatched vulnerability dubbed XRING exists in Alibaba's XQUIC library, allowing remote attackers to crash HTTP/3 servers using a small amount of legitimate QPACK traffic. The flaw requires no authentication or malformed packets to exploit.",
-      "date": "2026-07-10T11:47:43.000Z",
-      "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "41d698f2-cbe0-4b44-a646-3c54504905d6",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
-      "summary": "Lumen Technologies successfully overhauled its large-scale asset exposure management strategy to address common discrepancies in enterprise asset inventory data. The case study highlights the importance of consolidating fragmented data to prevent downstream security failures.",
-      "date": "2026-07-10T11:39:40.000Z",
-      "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e91570ab-e839-44d8-bd9c-5ebdf790d328",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
-      "summary": "A misconfigured server belonging to a cybercrime group has exposed the operational details of a large-scale campaign that compromised thousands of WordPress sites using the WP-SHELLSTORM backdoor. The discovery provides researchers with unique visibility into the internal tools, logs, and target lists used in the mass-hacking operation.",
-      "date": "2026-07-10T11:30:02.000Z",
-      "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9ce333fd-aff8-4c40-9bab-f45267ff09de",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
-      "summary": "A study of 281 popular free Android VPNs revealed widespread security failures, including traffic leaks and unencrypted data, affecting over 2.4 billion installations. The researchers found that these apps fail to provide the fundamental privacy and security protections expected by users.",
-      "date": "2026-07-10T10:56:23.000Z",
-      "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b125d709-cd27-4c41-9c51-1562677ab2a4",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-      "summary": "Threat actor O-UNC-066 is using voice-based phishing to trick Microsoft 365 users into enrolling a malicious Entra passkey to facilitate data extortion. The attackers leverage a specialized phishing kit to intercept and control the enrollment process.",
-      "date": "2026-07-10T10:30:20.000Z",
-      "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9a4fd043-143f-48b4-af9c-a4834ae32322",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "222 GitHub Repositories Linked to Fake Go Package Malware Operation",
-      "summary": "Researchers identified a network of 222 malicious GitHub repositories distributing various threats, including stealers and cryptominers, hidden within fake Go programming packages.",
-      "date": "2026-07-10T10:22:59.000Z",
-      "link": "https://securityaffairs.com/195101/security/222-github-repositories-linked-to-fake-go-package-malware-operation.html",
       "isTopTen": false
     }
   ]
