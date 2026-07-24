@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-24T16:48:11.634Z",
+  "lastUpdated": "2026-07-24T19:36:38.718Z",
   "articles": [
+    {
+      "id": "b768e6a4-f594-4cb2-9eee-68852c0a5523",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Andy Burnham signals continuity on UK cyber policy, reappoints minister despite scrapping ministry",
+      "summary": "Prime Minister Andy Burnham has opted for continuity in UK cyber policy by reappointing Liz Lloyd to her role, even as the formal ministry structure is dismantled. This decision maintains stability in government cybersecurity leadership during a period of institutional transition.",
+      "date": "2026-07-24T17:14:00.000Z",
+      "link": "https://therecord.media/andy-burnham-liz-lloyd-cyber-policy-uk",
+      "isTopTen": false
+    },
     {
       "id": "eef6197a-9b97-444a-a1c8-ef0bead76ad1",
       "source": "The Record",
@@ -76,7 +87,7 @@
       "summary": "Thailand's Ministry of Finance was targeted in a cyber-espionage operation utilizing the Hermes AI agent for reconnaissance and the Hades malware for persistence. Researchers uncovered the attack in real-time by identifying exposed staging servers used by the threat actors.",
       "date": "2026-07-24T12:10:28.000Z",
       "link": "https://securityaffairs.com/195941/hacking/thailands-ministry-of-finance-targeted-with-hermes-ai-agent-running-unattended-hades-implant-staged.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a792f11-6894-4895-afd1-064d2e5ace1b",
@@ -87,7 +98,7 @@
       "summary": "State-backed Russian hacking group Laundry Bear has been targeting government and commercial networks for over a year by exploiting a vulnerability in Zimbra Collaboration Suite webmail servers. A multinational coalition of intelligence and cybersecurity agencies issued a joint advisory detailing the ongoing campaign.",
       "date": "2026-07-24T12:09:44.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5cee48e9-4768-4736-a949-d859896ae5b3",
@@ -142,7 +153,7 @@
       "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
       "date": "2026-07-24T11:04:51.000Z",
       "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
@@ -164,7 +175,7 @@
       "summary": "The new Dolphin X malware leverages an AI-based profiler to evaluate infected Windows systems and prioritize high-value targets across over 300 applications. This automation allows threat actors to more efficiently identify and exploit lucrative victims.",
       "date": "2026-07-24T10:09:52.000Z",
       "link": "https://hackread.com/dolphin-x-malware-ai-profiler-rank-victims/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "43d735ee-1ecf-48d9-8eb1-e61d8d58c143",
@@ -263,7 +274,7 @@
       "summary": "AI-powered Kimi K3 agents successfully identified multiple zero-day vulnerabilities in Redis, leading to the discovery of authenticated remote code execution (RCE) exploits. In response, Redis released seven security patches to address the underlying memory flaws across various versions.",
       "date": "2026-07-24T06:58:27.000Z",
       "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "835085cd-9ad5-45f9-94c8-2adc0f42b91a",
@@ -307,7 +318,7 @@
       "summary": "Ransomware groups are increasingly targeting the broader healthcare supply chain in the EMEA region, including diagnostic labs and telemedicine providers, rather than focusing solely on hospitals. This trend highlights a shift in attack strategy that often goes underreported despite significant operational impact.",
       "date": "2026-07-24T05:30:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/24/emea-healthcare-ransomware-activity/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8693bb96-2595-49c8-9e3d-dc1854e60433",
@@ -362,7 +373,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -384,7 +395,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities catalog to include critical security flaws affecting Microsoft SharePoint, Check Point SmartConsole, and other platforms like DD-WRT, Langflow, and WordPress. These additions indicate active exploitation in the wild, necessitating urgent patching by affected organizations.",
       "date": "2026-07-23T20:10:46.000Z",
       "link": "https://securityaffairs.com/195889/security/u-s-cisa-adds-microsoft-sharepoint-and-check-point-smartconsole-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
@@ -450,7 +461,7 @@
       "summary": "Researchers discovered that millions of vehicles in California equipped with KARR/SWDS security systems are vulnerable to remote hijacking due to the use of a hardcoded, universal security key. This flaw allows unauthorized access to car functions via Bluetooth, posing a significant risk to vehicle safety and security.",
       "date": "2026-07-23T16:12:58.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "47bf332e-64dd-4e9b-9c9c-e4037dd6eb81",
@@ -505,7 +516,7 @@
       "summary": "Iranian state-linked threat actors are expanding their targeting of industrial control systems, moving beyond Rockwell Automation gear to exploit various internet-facing devices within critical infrastructure. CISA has issued an updated alert warning organizations of these persistent scanning and intrusion attempts.",
       "date": "2026-07-23T14:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/iran-linked-crews-are-probing-more-flavors-of-us-industrial-kit/5277003",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "381edc03-6e4a-429b-8538-7aaf7ae1b56a",
@@ -527,7 +538,7 @@
       "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows an AI agent to bypass its virtual machine and access files on a host macOS system. The flaw potentially impacts approximately 500,000 users.",
       "date": "2026-07-23T13:27:59.000Z",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1057a5b8-8313-47f1-aaaf-e87575cc111d",
@@ -769,7 +780,7 @@
       "summary": "A newly disclosed nine-year-old vulnerability in the Linux XFS filesystem allows local, unprivileged users to gain root access on default RHEL, Fedora, and Amazon Linux installations. The flaw, tracked as CVE-2026-64600, involves a race condition that enables the overwriting of root-owned files.",
       "date": "2026-07-23T08:04:35.000Z",
       "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15551c78-200b-4eaa-a296-8cf54ba2d6a1",
@@ -5488,17 +5499,6 @@
       "summary": "Security researchers discovered a hardware-level vulnerability in Tangem crypto wallets that allows an attacker to reset passwords using a precise laser pulse. Because the physical vulnerability cannot be patched, affected devices remain permanently susceptible to unauthorized access if physical possession is obtained.",
       "date": "2026-07-10T14:51:49.000Z",
       "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e5b3788a-21ff-4569-9ce4-a4de496e1ec0",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
-      "summary": "Three high-severity security vulnerabilities in the OpenClaw AI assistant have been disclosed, which could allow attackers to perform credential theft, privilege escalation, and arbitrary code execution. These flaws have since been addressed through patches.",
-      "date": "2026-07-10T14:19:50.000Z",
-      "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
       "isTopTen": false
     }
   ]
