@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-24T05:57:39.392Z",
+  "lastUpdated": "2026-07-24T08:34:49.936Z",
   "articles": [
+    {
+      "id": "835085cd-9ad5-45f9-94c8-2adc0f42b91a",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+      "summary": "The Russian-aligned threat actor UAC-0099 is distributing a malicious Notepad++ plugin to deploy the MATCHBOIL.V2 malware on Windows systems. This campaign follows the group's previous history of weaponizing common software to compromise targets.",
+      "date": "2026-07-24T06:50:57.000Z",
+      "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a0383a3a-77bd-4941-bd64-e010f8754e84",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The automotive software vulnerabilities hiding in your dashboard",
+      "summary": "Modern vehicles rely heavily on complex software systems, introducing significant security risks as these components become prime targets for exploitation. This transition from mechanical to software-defined automotive architecture creates new attack surfaces that could potentially impact vehicle safety.",
+      "date": "2026-07-24T06:30:41.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/24/car-research-automotive-software-vulnerabilities/",
+      "isTopTen": false
+    },
+    {
+      "id": "6f8cd06e-3b21-4625-884b-075d9386e20a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Governing Al agents at scale: Lessons from the leaders who’ve done it",
+      "summary": "AI leaders from major enterprises discuss strategies for establishing Centers of Excellence and managing the secure governance of AI agent identities within existing infrastructure. The discussion highlights practical lessons and common pitfalls encountered while scaling AI operations.",
+      "date": "2026-07-24T06:00:28.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/24/governing-al-agents-at-scale-video/",
+      "isTopTen": false
+    },
     {
       "id": "e29a60f5-9fcf-43ce-9ba8-b213cc700ba9",
       "source": "Help Net Security",
@@ -10,7 +43,7 @@
       "summary": "Ransomware groups are increasingly targeting the broader healthcare supply chain in the EMEA region, including diagnostic labs and telemedicine providers, rather than focusing solely on hospitals. This trend highlights a shift in attack strategy that often goes underreported despite significant operational impact.",
       "date": "2026-07-24T05:30:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/24/emea-healthcare-ransomware-activity/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8693bb96-2595-49c8-9e3d-dc1854e60433",
@@ -65,7 +98,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -142,7 +175,7 @@
       "summary": "Russian state-sponsored actors have conducted a year-long phishing campaign that leverages sophisticated techniques to compromise user devices immediately upon viewing a malicious email. The campaign targets various sectors, highlighting a significant evolution in email-based exploit delivery.",
       "date": "2026-07-23T16:47:02.000Z",
       "link": "https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f71df27c-1282-46f3-bfe3-764fa54b82c0",
@@ -153,7 +186,7 @@
       "summary": "Researchers discovered that millions of vehicles in California equipped with KARR/SWDS security systems are vulnerable to remote hijacking due to the use of a hardcoded, universal security key. This flaw allows unauthorized access to car functions via Bluetooth, posing a significant risk to vehicle safety and security.",
       "date": "2026-07-23T16:12:58.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "47bf332e-64dd-4e9b-9c9c-e4037dd6eb81",
@@ -307,7 +340,7 @@
       "summary": "A China-nexus group identified as JadeProx is targeting government, healthcare, and education sectors globally using a new, undocumented malware called TriBack Loader. Researchers discovered the operation through an exposed Alibaba Cloud server that served as a command-and-control node.",
       "date": "2026-07-23T12:20:23.000Z",
       "link": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e27f626e-4976-49b7-83a5-a396b6ffef4b",
@@ -516,7 +549,7 @@
       "summary": "Rapid employee adoption of unauthorized AI tools, known as Shadow AI, is creating significant security blind spots for enterprises as governance fails to keep pace. Organizations are struggling to manage the risks associated with AI integrated into daily workflows without formal oversight.",
       "date": "2026-07-23T06:00:09.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/23/shadow-ai-security-risks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e7d7c691-e219-4795-bda0-ee1f7732868c",
@@ -615,7 +648,7 @@
       "summary": "Adobe has patched a critical vulnerability chain in its Acrobat Chrome extension known as HermeticReader, which allowed attackers to silently steal sensitive WhatsApp Web data. The exploit could be triggered by simply luring users to a malicious webpage.",
       "date": "2026-07-22T21:19:29.000Z",
       "link": "https://securityaffairs.com/195805/hacking/adobe-acrobat-chrome-extension-bug-enabled-silent-whatsapp-data-theft.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dd6551fc-e9d3-45cc-9850-12715c2dd521",
@@ -736,7 +769,7 @@
       "summary": "The White House has officially accused a Chinese entity of using distillation attacks to steal intellectual property from Anthropic's Fable AI model. This incident highlights growing concerns regarding the security of proprietary AI technologies against state-sponsored corporate espionage.",
       "date": "2026-07-22T16:45:37.000Z",
       "link": "https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "89381acf-7ecb-455a-861d-9a0451d30cf2",
@@ -5466,39 +5499,6 @@
       "summary": "Anastasia Tikhonova of Group-IB discusses moving beyond static SBOM compliance to operationalizing supply chain security as a daily practice for vulnerability management and incident response. The analysis emphasizes how modern attacks leverage inherited trust to connect phishing, ransomware, and data breaches.",
       "date": "2026-07-10T05:30:03.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/10/software-supply-chain-security-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "ce59692d-fdac-49ee-8fab-6d1666193d44",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AWS gives its ERP agent deny-by-default rules and a separate identity",
-      "summary": "AWS has enhanced its ERP automation agent by implementing deny-by-default security policies and a dedicated identity architecture to better protect sensitive financial data. These updates aim to secure automated processes like invoice matching and intercompany reconciliations within enterprise resource planning systems.",
-      "date": "2026-07-10T05:00:52.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/10/aws-agentic-ai-erp-automation/",
-      "isTopTen": false
-    },
-    {
-      "id": "699dd780-e752-44c5-9a05-cc559f02302b",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Microsoft warns customers AI will mean busier Patch Tuesdays",
-      "summary": "Microsoft anticipates that the integration of AI in software development will lead to a higher volume of software vulnerabilities, resulting in more frequent or complex updates on Patch Tuesdays. Consequently, the company is positioning its automated patching tools as a necessary solution for organizations to manage the increased workload.",
-      "date": "2026-07-10T01:56:29.000Z",
-      "link": "https://www.theregister.com/security/2026/07/10/microsoft-warns-customers-ai-will-mean-busier-patch-tuesdays/5269618",
-      "isTopTen": false
-    },
-    {
-      "id": "e03aae9b-a431-42db-a8ca-7c066e6a9b8b",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail",
-      "summary": "Former DigitalMint employee Angelo Martino was sentenced to 70 months in prison for leaking confidential information to ransomware actors to extort $75.3 million from clients. He abused his position as a negotiator to facilitate the criminal schemes of his co-conspirators.",
-      "date": "2026-07-10T00:16:13.000Z",
-      "link": "https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/",
       "isTopTen": false
     }
   ]
