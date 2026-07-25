@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-25T08:13:52.209Z",
+  "lastUpdated": "2026-07-25T10:38:32.901Z",
   "articles": [
+    {
+      "id": "1c402147-b64c-47a7-958f-0e96e02315cd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "summary": "A security researcher released a proof-of-concept for a remote code execution vulnerability in GitLab 18.11.3 that allows authenticated users to run commands as the 'git' user. The exploit requires no administrative privileges or victim interaction, relying instead on submitting specifically crafted Jupyter notebooks.",
+      "date": "2026-07-25T08:34:15.000Z",
+      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "isTopTen": false
+    },
     {
       "id": "4ddbcb73-26a4-44d6-9381-74fe002ee358",
       "source": "The Register",
@@ -32,7 +43,7 @@
       "summary": "The European Commission has fined Google €890 million for violating the Digital Markets Act by prioritizing its own services and restricting competition within the Google Play Store. The regulatory action highlights ongoing scrutiny regarding Google's search practices and AI integration.",
       "date": "2026-07-24T20:47:13.000Z",
       "link": "https://securityaffairs.com/195963/laws-and-regulations/google-fined-e890m-under-eu-digital-markets-act-over-search-and-play-store-practices.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4452d5a3-eda1-476c-aa90-4bedc2ad08f1",
@@ -208,7 +219,7 @@
       "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
       "date": "2026-07-24T11:04:51.000Z",
       "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
@@ -428,7 +439,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -461,7 +472,7 @@
       "summary": "A Russian state-sponsored espionage group exploited a Zimbra zero-day vulnerability to compromise Western organizations by stealing email data, browser credentials, and two-factor authentication codes. The attack required only that the victim open a malicious message to execute the payload.",
       "date": "2026-07-23T18:36:08.000Z",
       "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "13ed8435-44fa-4ca7-80dc-038d20944e85",
@@ -571,7 +582,7 @@
       "summary": "Iranian state-linked threat actors are expanding their targeting of industrial control systems, moving beyond Rockwell Automation gear to exploit various internet-facing devices within critical infrastructure. CISA has issued an updated alert warning organizations of these persistent scanning and intrusion attempts.",
       "date": "2026-07-23T14:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/iran-linked-crews-are-probing-more-flavors-of-us-industrial-kit/5277003",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "381edc03-6e4a-429b-8538-7aaf7ae1b56a",
@@ -593,7 +604,7 @@
       "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows an AI agent to bypass its virtual machine and access files on a host macOS system. The flaw potentially impacts approximately 500,000 users.",
       "date": "2026-07-23T13:27:59.000Z",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1057a5b8-8313-47f1-aaaf-e87575cc111d",
@@ -5488,17 +5499,6 @@
       "summary": "Microsoft has identified a new modular backdoor called GigaWiper that integrates multiple malware families, including wipers and ransomware, into a single destructive package. This tool demonstrates an evolution in multi-functional threat payloads designed to maximize damage during a compromise.",
       "date": "2026-07-10T17:35:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
-      "isTopTen": false
-    },
-    {
-      "id": "c80f931b-21ee-4bb2-93cf-316f5f737840",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
-      "summary": "Two individuals linked to major ransomware groups, Ryuk and Blackcat/AlphV, have faced significant legal consequences, with one pleading guilty and the other receiving a 70-month prison sentence.",
-      "date": "2026-07-10T17:01:00.000Z",
-      "link": "https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced",
       "isTopTen": false
     }
   ]
