@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-25T10:38:32.901Z",
+  "lastUpdated": "2026-07-25T13:46:07.503Z",
   "articles": [
+    {
+      "id": "3e29b05d-89ab-4e44-b9ea-ecbe8fc11fff",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "summary": "Attackers are actively exploiting an unpatched critical remote code execution vulnerability in Alibaba's Fastjson library, allowing unauthenticated code execution in Spring Boot applications. The flaw, tracked as CVE-2026-16723, has been assigned a CVSS score of 9.0.",
+      "date": "2026-07-25T12:52:43.000Z",
+      "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "isTopTen": true
+    },
+    {
+      "id": "66ba262c-a3eb-44b1-86b4-3adb6d69f0ca",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "summary": "Phishing campaigns targeting the insurance industry are shifting from credential harvesting to real-time account hijacking for immediate unauthorized access. This evolution highlights a move away from delayed exploitation toward instantaneous compromise.",
+      "date": "2026-07-25T10:14:21.000Z",
+      "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9e35dda2-6a53-489b-8c9e-536855c6a178",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+      "summary": "Cl0p ransomware affiliates are exploiting unauthenticated remote code execution vulnerabilities in internet-exposed PTC Windchill and FlexPLM software for data extortion. The attack involves chaining an information disclosure flaw with a server-side vulnerability to compromise systems.",
+      "date": "2026-07-25T10:14:03.000Z",
+      "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e5254f28-b015-45b2-a8b6-b7222568707f",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "summary": "The DevMan ransomware-as-a-service (RaaS) group, tracked as Funky Mantis, is operating a centralized web portal that simplifies payload generation, victim management, and affiliate financial tracking. This platform streamlines operations for cybercriminals, lowering the barrier for entry for malicious actors.",
+      "date": "2026-07-25T09:53:41.000Z",
+      "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "isTopTen": false
+    },
     {
       "id": "1c402147-b64c-47a7-958f-0e96e02315cd",
       "source": "The Hacker News",
@@ -87,7 +131,7 @@
       "summary": "Criminal groups are increasingly using physical violence, such as home invasions and kidnappings, to force victims to surrender their cryptocurrency assets. This trend highlights a shift toward offline, high-stakes physical attacks against digital asset owners.",
       "date": "2026-07-24T15:55:00.000Z",
       "link": "https://therecord.media/wrench-attacks-against-cryptocurrency-holders",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f75fcd1f-e9f7-48e5-bd37-729354d7abda",
@@ -175,7 +219,7 @@
       "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
       "date": "2026-07-24T11:53:55.000Z",
       "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
@@ -219,7 +263,7 @@
       "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
       "date": "2026-07-24T11:04:51.000Z",
       "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
@@ -263,7 +307,7 @@
       "summary": "The Russia-aligned threat actor UAC-0099 is targeting Ukrainian organizations by distributing malware through a fake Notepad++ plugin, utilizing advanced anti-analysis techniques to evade detection. The campaign, identified by CERT-UA, leverages deceptive phishing tactics to deliver a loader designed to sabotage itself if execution conditions are not met.",
       "date": "2026-07-24T09:54:53.000Z",
       "link": "https://securityaffairs.com/195923/cyber-warfare-2/uac-0099-is-now-hiding-malware-inside-a-fake-notepad-plugin-to-target-ukrainian-organizations.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "785c605e-a77d-4f7f-b73e-ba52b7a90034",
@@ -439,7 +483,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -472,7 +516,7 @@
       "summary": "A Russian state-sponsored espionage group exploited a Zimbra zero-day vulnerability to compromise Western organizations by stealing email data, browser credentials, and two-factor authentication codes. The attack required only that the victim open a malicious message to execute the payload.",
       "date": "2026-07-23T18:36:08.000Z",
       "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "13ed8435-44fa-4ca7-80dc-038d20944e85",
@@ -582,7 +626,7 @@
       "summary": "Iranian state-linked threat actors are expanding their targeting of industrial control systems, moving beyond Rockwell Automation gear to exploit various internet-facing devices within critical infrastructure. CISA has issued an updated alert warning organizations of these persistent scanning and intrusion attempts.",
       "date": "2026-07-23T14:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/iran-linked-crews-are-probing-more-flavors-of-us-industrial-kit/5277003",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "381edc03-6e4a-429b-8538-7aaf7ae1b56a",
@@ -747,7 +791,7 @@
       "summary": "Check Point has confirmed that attackers are actively exploiting a critical authentication bypass vulnerability (CVE-2026-16232) that allows unauthenticated users to gain full administrative control over security management servers. This flaw enables attackers to modify security policies and configurations across affected firewalls.",
       "date": "2026-07-23T10:42:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/23/check-point-vulnerability-cve-2026-16232/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e025db40-510f-4c90-a073-ceaf60925cf0",
@@ -5455,50 +5499,6 @@
       "summary": "Zimbra has released version 10.1.19 to patch a critical stored XSS vulnerability in its Classic Web Client that allows attackers to execute code via malicious emails. Users are advised to update immediately to prevent unauthorized mailbox access.",
       "date": "2026-07-10T20:42:40.000Z",
       "link": "https://securityaffairs.com/195130/hacking/update-now-critical-zimbra-classic-web-client-flaw-could-expose-mailboxes.html",
-      "isTopTen": false
-    },
-    {
-      "id": "eb7f7970-9f51-42ab-a3d6-dc93a72457d5",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Armenian national pleads guilty to Ryuk ransomware attacks",
-      "summary": "Karen Vardanyan, an Armenian national, has pleaded guilty to his role in orchestrating Ryuk ransomware attacks. He faces a potential 15-year prison sentence and is required to pay $1.2 million in restitution.",
-      "date": "2026-07-10T20:13:27.000Z",
-      "link": "https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/",
-      "isTopTen": false
-    },
-    {
-      "id": "de6802cb-ab01-4c34-96c8-78e2872f1b4d",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Europe revives law allowing big tech to scan for CSAM",
-      "summary": "The European Parliament has approved 'Chat Control 2.0,' a legislative measure that enables technology companies to scan user messages for child sexual abuse material (CSAM). This mandate forces platforms like Google, Meta, and Microsoft to implement scanning mechanisms, raising significant debates regarding user privacy and encryption.",
-      "date": "2026-07-10T19:30:00.000Z",
-      "link": "https://therecord.media/chat-control-2-csam-scans-european-parliament-passage",
-      "isTopTen": false
-    },
-    {
-      "id": "30c599e2-8f4b-424b-b41f-7403414888fb",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "CISA looks to remedy ailments from big May credential leak",
-      "summary": "CISA has released a forensic report detailing its efforts to enhance security protocols and vulnerability reporting following a significant credential leak in May. The agency is implementing new protections to prevent future unauthorized access to its sensitive data.",
-      "date": "2026-07-10T18:54:28.000Z",
-      "link": "https://cyberscoop.com/cisa-credential-leak-forensic-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "17dba1b9-1959-4fef-8587-bb11eac93ad4",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Destructive Windows backdoor stuffs multiple wipers and ransomware code into a single package",
-      "summary": "Microsoft has identified a new modular backdoor called GigaWiper that integrates multiple malware families, including wipers and ransomware, into a single destructive package. This tool demonstrates an evolution in multi-functional threat payloads designed to maximize damage during a compromise.",
-      "date": "2026-07-10T17:35:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
       "isTopTen": false
     }
   ]
