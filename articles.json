@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-25T13:46:07.503Z",
+  "lastUpdated": "2026-07-25T16:08:41.906Z",
   "articles": [
+    {
+      "id": "d281e868-e4e8-426d-b26c-17fbabe882e8",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Australian energy provider Origin Energy disclosed a data breach impacting customer data",
+      "summary": "Australian energy provider Origin Energy has confirmed a data breach involving the potential theft of records belonging to 2 million customers. An unidentified hacker has claimed responsibility for the incident and is threatening to leak the compromised data.",
+      "date": "2026-07-25T15:21:19.000Z",
+      "link": "https://securityaffairs.com/195973/data-breach/australian-energy-provider-origin-energy-disclosed-a-data-breach-impacting-customer-data.html",
+      "isTopTen": false
+    },
     {
       "id": "3e29b05d-89ab-4e44-b9ea-ecbe8fc11fff",
       "source": "The Hacker News",
@@ -32,7 +43,7 @@
       "summary": "Cl0p ransomware affiliates are exploiting unauthenticated remote code execution vulnerabilities in internet-exposed PTC Windchill and FlexPLM software for data extortion. The attack involves chaining an information disclosure flaw with a server-side vulnerability to compromise systems.",
       "date": "2026-07-25T10:14:03.000Z",
       "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e5254f28-b015-45b2-a8b6-b7222568707f",
@@ -197,7 +208,7 @@
       "summary": "Thailand's Ministry of Finance was targeted in a cyber-espionage operation utilizing the Hermes AI agent for reconnaissance and the Hades malware for persistence. Researchers uncovered the attack in real-time by identifying exposed staging servers used by the threat actors.",
       "date": "2026-07-24T12:10:28.000Z",
       "link": "https://securityaffairs.com/195941/hacking/thailands-ministry-of-finance-targeted-with-hermes-ai-agent-running-unattended-hades-implant-staged.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a792f11-6894-4895-afd1-064d2e5ace1b",
@@ -219,7 +230,7 @@
       "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
       "date": "2026-07-24T11:53:55.000Z",
       "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
@@ -307,7 +318,7 @@
       "summary": "The Russia-aligned threat actor UAC-0099 is targeting Ukrainian organizations by distributing malware through a fake Notepad++ plugin, utilizing advanced anti-analysis techniques to evade detection. The campaign, identified by CERT-UA, leverages deceptive phishing tactics to deliver a loader designed to sabotage itself if execution conditions are not met.",
       "date": "2026-07-24T09:54:53.000Z",
       "link": "https://securityaffairs.com/195923/cyber-warfare-2/uac-0099-is-now-hiding-malware-inside-a-fake-notepad-plugin-to-target-ukrainian-organizations.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "785c605e-a77d-4f7f-b73e-ba52b7a90034",
@@ -483,7 +494,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -648,7 +659,7 @@
       "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows an AI agent to bypass its virtual machine and access files on a host macOS system. The flaw potentially impacts approximately 500,000 users.",
       "date": "2026-07-23T13:27:59.000Z",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1057a5b8-8313-47f1-aaaf-e87575cc111d",
@@ -5488,17 +5499,6 @@
       "summary": "Unit 42 reports on the emergence and rapid expansion of The Gentlemen ransomware, highlighting its reliance on an affiliate-based business model. The analysis details how this operational structure is driving the group's increased threat level.",
       "date": "2026-07-10T22:00:39.000Z",
       "link": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
-      "isTopTen": false
-    },
-    {
-      "id": "6c3ce5e0-2e0e-4f12-9919-297bac0f03c1",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Update Now: Critical Zimbra Classic Web Client Flaw Could Expose Mailboxes",
-      "summary": "Zimbra has released version 10.1.19 to patch a critical stored XSS vulnerability in its Classic Web Client that allows attackers to execute code via malicious emails. Users are advised to update immediately to prevent unauthorized mailbox access.",
-      "date": "2026-07-10T20:42:40.000Z",
-      "link": "https://securityaffairs.com/195130/hacking/update-now-critical-zimbra-classic-web-client-flaw-could-expose-mailboxes.html",
       "isTopTen": false
     }
   ]
