@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-25T19:15:25.812Z",
+  "lastUpdated": "2026-07-25T22:01:43.900Z",
   "articles": [
+    {
+      "id": "22036cde-4226-44c7-ae7e-d8c174ed5a15",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Iran-Linked Actors Breach Are Targeting US Water and Energy Control Systems",
+      "summary": "US federal agencies have issued a warning that Iran-linked actors have successfully infiltrated and are actively manipulating critical water and energy infrastructure control systems. The advisory highlights an urgent need for security measures as these adversaries move beyond reconnaissance to unauthorized system modifications.",
+      "date": "2026-07-25T20:11:48.000Z",
+      "link": "https://securityaffairs.com/195991/apt/iran-linked-actors-breach-are-targeting-us-water-and-energy-control-systems.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7b7edc76-573d-4025-a502-5387f6a98579",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+      "summary": "The SourTrade malvertising campaign evades detection by delivering malicious payloads in fragments that are assembled into a functional Windows executable directly within the victim's browser using the Bun runtime. The operation targets retail traders by impersonating legitimate financial services like TradingView and Solana.",
+      "date": "2026-07-25T18:48:44.000Z",
+      "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+      "isTopTen": false
+    },
     {
       "id": "d281e868-e4e8-426d-b26c-17fbabe882e8",
       "source": "Security Affairs",
@@ -208,7 +230,7 @@
       "summary": "Thailand's Ministry of Finance was targeted in a cyber-espionage operation utilizing the Hermes AI agent for reconnaissance and the Hades malware for persistence. Researchers uncovered the attack in real-time by identifying exposed staging servers used by the threat actors.",
       "date": "2026-07-24T12:10:28.000Z",
       "link": "https://securityaffairs.com/195941/hacking/thailands-ministry-of-finance-targeted-with-hermes-ai-agent-running-unattended-hades-implant-staged.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a792f11-6894-4895-afd1-064d2e5ace1b",
@@ -274,7 +296,7 @@
       "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
       "date": "2026-07-24T11:04:51.000Z",
       "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
@@ -395,7 +417,7 @@
       "summary": "AI-powered Kimi K3 agents successfully identified multiple zero-day vulnerabilities in Redis, leading to the discovery of authenticated remote code execution (RCE) exploits. In response, Redis released seven security patches to address the underlying memory flaws across various versions.",
       "date": "2026-07-24T06:58:27.000Z",
       "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "835085cd-9ad5-45f9-94c8-2adc0f42b91a",
@@ -439,7 +461,7 @@
       "summary": "Ransomware groups are increasingly targeting the broader healthcare supply chain in the EMEA region, including diagnostic labs and telemedicine providers, rather than focusing solely on hospitals. This trend highlights a shift in attack strategy that often goes underreported despite significant operational impact.",
       "date": "2026-07-24T05:30:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/24/emea-healthcare-ransomware-activity/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8693bb96-2595-49c8-9e3d-dc1854e60433",
@@ -527,7 +549,7 @@
       "summary": "A Russian state-sponsored espionage group exploited a Zimbra zero-day vulnerability to compromise Western organizations by stealing email data, browser credentials, and two-factor authentication codes. The attack required only that the victim open a malicious message to execute the payload.",
       "date": "2026-07-23T18:36:08.000Z",
       "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "13ed8435-44fa-4ca7-80dc-038d20944e85",
@@ -659,7 +681,7 @@
       "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows an AI agent to bypass its virtual machine and access files on a host macOS system. The flaw potentially impacts approximately 500,000 users.",
       "date": "2026-07-23T13:27:59.000Z",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1057a5b8-8313-47f1-aaaf-e87575cc111d",
@@ -703,7 +725,7 @@
       "summary": "Researchers discovered a vulnerability in OpenAI's platform that allows attackers to use malicious links to deploy autonomous AI agents capable of infiltrating corporate networks. These agents can exploit existing employee access to perform unauthorized actions within an organization.",
       "date": "2026-07-23T13:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06e9d168-c3ae-454a-9104-955a27d1eca5",
@@ -5477,28 +5499,6 @@
       "summary": "Security researchers at Binarly discovered six critical vulnerabilities in the U-Boot open-source bootloader that could allow attackers to execute arbitrary code during the boot process on millions of embedded devices. These flaws significantly compromise the integrity of secure boot mechanisms across various hardware sectors, including routers and smart cameras.",
       "date": "2026-07-11T17:45:43.000Z",
       "link": "https://securityaffairs.com/195150/security/critical-u-boot-bugs-undermine-secure-boot-on-millions-of-devices.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f4d8df05-7749-40a5-b8a3-f7d8e6115498",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-      "summary": "Zimbra is warning users of a critical stored cross-site scripting (XSS) vulnerability in its Classic Web Client that enables arbitrary code execution via malicious emails. Users are urged to apply the latest security updates immediately, as the flaw currently lacks a CVE identifier.",
-      "date": "2026-07-11T06:45:55.000Z",
-      "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a5f3aee9-2ef9-464e-bfc7-a417bf37442a",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "No Manners Here: The Ruthless Rise of The Gentlemen Ransomware",
-      "summary": "Unit 42 reports on the emergence and rapid expansion of The Gentlemen ransomware, highlighting its reliance on an affiliate-based business model. The analysis details how this operational structure is driving the group's increased threat level.",
-      "date": "2026-07-10T22:00:39.000Z",
-      "link": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
       "isTopTen": false
     }
   ]
