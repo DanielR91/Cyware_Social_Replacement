@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-26T13:40:15.236Z",
+  "lastUpdated": "2026-07-26T16:06:34.443Z",
   "articles": [
+    {
+      "id": "18afe2b6-4063-4136-945d-00e3cd2753c2",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 107",
+      "summary": "This newsletter highlights recent malware trends, including the discovery of malicious RubyGems, a massive campaign involving fake AI skills, and the evolution of msaRAT ransomware. It serves as a compilation of the latest research on current cyber threats and compromise vectors.",
+      "date": "2026-07-26T13:30:44.000Z",
+      "link": "https://securityaffairs.com/196037/malware/security-affairs-malware-newsletter-round-107.html",
+      "isTopTen": false
+    },
     {
       "id": "7ebbac76-ef2e-4b1e-bddc-ade150d45de3",
       "source": "Security Affairs",
@@ -10,7 +21,7 @@
       "summary": "Attackers are compromising hotel Wi-Fi gateways to intercept guest traffic and redirect them to fraudulent Microsoft 365 login pages for credential harvesting. This technique bypasses traditional phishing defenses by targeting infrastructure rather than individual endpoints.",
       "date": "2026-07-26T13:04:27.000Z",
       "link": "https://securityaffairs.com/196017/security/hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-credentials.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "99e3c536-0efa-4d43-bbee-cf32d95d5cb4",
@@ -32,7 +43,7 @@
       "summary": "Recent cybersecurity news highlights the active exploitation of a ServiceNow pre-authentication remote code execution vulnerability and a security breach at Hugging Face. The report also discusses the complexities of managing multiple AI platforms in enterprise environments.",
       "date": "2026-07-26T08:00:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/26/week-in-review-servicenow-pre-auth-rce-exploited-in-the-wild-hugging-face-breached/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "22036cde-4226-44c7-ae7e-d8c174ed5a15",
@@ -54,7 +65,7 @@
       "summary": "The SourTrade malvertising campaign evades detection by delivering malicious payloads in fragments that are assembled into a functional Windows executable directly within the victim's browser using the Bun runtime. The operation targets retail traders by impersonating legitimate financial services like TradingView and Solana.",
       "date": "2026-07-25T18:48:44.000Z",
       "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d281e868-e4e8-426d-b26c-17fbabe882e8",
@@ -98,7 +109,7 @@
       "summary": "Cl0p ransomware affiliates are exploiting unauthenticated remote code execution vulnerabilities in internet-exposed PTC Windchill and FlexPLM software for data extortion. The attack involves chaining an information disclosure flaw with a server-side vulnerability to compromise systems.",
       "date": "2026-07-25T10:14:03.000Z",
       "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e5254f28-b015-45b2-a8b6-b7222568707f",
@@ -296,7 +307,7 @@
       "summary": "A critical vulnerability in Bing's image processing allowed attackers to execute arbitrary commands as SYSTEM or root by submitting malicious SVG files. Microsoft has addressed the issue by issuing two critical CVEs.",
       "date": "2026-07-24T11:45:17.000Z",
       "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8035fb82-07d5-4a13-bc51-7626407bba9c",
@@ -329,7 +340,7 @@
       "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
       "date": "2026-07-24T11:04:51.000Z",
       "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
@@ -340,7 +351,7 @@
       "summary": "An attacker deployed an autonomous AI agent to perform unauthorized post-exploitation activities against the Thai Ministry of Finance by bypassing security permission prompts. The AI actively scanned for vulnerabilities and sensitive data within the government network.",
       "date": "2026-07-24T10:15:29.000Z",
       "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fed346d0-8e8d-4f45-ba1f-83a31f442f4b",
@@ -373,7 +384,7 @@
       "summary": "The Russia-aligned threat actor UAC-0099 is targeting Ukrainian organizations by distributing malware through a fake Notepad++ plugin, utilizing advanced anti-analysis techniques to evade detection. The campaign, identified by CERT-UA, leverages deceptive phishing tactics to deliver a loader designed to sabotage itself if execution conditions are not met.",
       "date": "2026-07-24T09:54:53.000Z",
       "link": "https://securityaffairs.com/195923/cyber-warfare-2/uac-0099-is-now-hiding-malware-inside-a-fake-notepad-plugin-to-target-ukrainian-organizations.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "785c605e-a77d-4f7f-b73e-ba52b7a90034",
@@ -626,7 +637,7 @@
       "summary": "Russian state-sponsored actors have conducted a year-long phishing campaign that leverages sophisticated techniques to compromise user devices immediately upon viewing a malicious email. The campaign targets various sectors, highlighting a significant evolution in email-based exploit delivery.",
       "date": "2026-07-23T16:47:02.000Z",
       "link": "https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f71df27c-1282-46f3-bfe3-764fa54b82c0",
@@ -692,7 +703,7 @@
       "summary": "Iranian state-linked threat actors are expanding their targeting of industrial control systems, moving beyond Rockwell Automation gear to exploit various internet-facing devices within critical infrastructure. CISA has issued an updated alert warning organizations of these persistent scanning and intrusion attempts.",
       "date": "2026-07-23T14:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/iran-linked-crews-are-probing-more-flavors-of-us-industrial-kit/5277003",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "381edc03-6e4a-429b-8538-7aaf7ae1b56a",
@@ -5488,17 +5499,6 @@
       "summary": "The latest edition of the Security Affairs newsletter highlights CISA's addition of iCagenda and Balbooa Forms vulnerabilities to its Known Exploited Vulnerabilities catalog. The update covers critical security developments and international cyber news.",
       "date": "2026-07-12T04:58:08.000Z",
       "link": "https://securityaffairs.com/195175/breaking-news/security-affairs-newsletter-round-585-by-pierluigi-paganini-international-edition.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a55d6ece-5150-47a1-b46b-5d238fd6f67c",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds iCagenda and Balbooa Forms flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added security vulnerabilities found in iCagenda and Balbooa Forms, both popular Joomla extensions, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation. Organizations are urged to patch these systems to mitigate potential compromise.",
-      "date": "2026-07-11T19:31:19.000Z",
-      "link": "https://securityaffairs.com/195164/security/u-s-cisa-adds-icagenda-and-balbooa-forms-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
       "isTopTen": false
     }
   ]
