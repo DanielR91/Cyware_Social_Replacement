@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-26T10:48:31.178Z",
+  "lastUpdated": "2026-07-26T13:40:15.236Z",
   "articles": [
+    {
+      "id": "7ebbac76-ef2e-4b1e-bddc-ade150d45de3",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers Hijack Hotel Wi-Fi to Steal Microsoft 365 Credentials",
+      "summary": "Attackers are compromising hotel Wi-Fi gateways to intercept guest traffic and redirect them to fraudulent Microsoft 365 login pages for credential harvesting. This technique bypasses traditional phishing defenses by targeting infrastructure rather than individual endpoints.",
+      "date": "2026-07-26T13:04:27.000Z",
+      "link": "https://securityaffairs.com/196017/security/hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-credentials.html",
+      "isTopTen": true
+    },
+    {
+      "id": "99e3c536-0efa-4d43-bbee-cf32d95d5cb4",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 587 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The latest Security Affairs newsletter reports on Iranian-linked cyber actors targeting critical infrastructure in the US and a data breach involving Australian energy provider Origin Energy.",
+      "date": "2026-07-26T11:42:44.000Z",
+      "link": "https://securityaffairs.com/196006/security/security-affairs-newsletter-round-587-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "794b8235-2acb-4789-b60a-3ca95cc8650d",
       "source": "Help Net Security",
@@ -10,7 +32,7 @@
       "summary": "Recent cybersecurity news highlights the active exploitation of a ServiceNow pre-authentication remote code execution vulnerability and a security breach at Hugging Face. The report also discusses the complexities of managing multiple AI platforms in enterprise environments.",
       "date": "2026-07-26T08:00:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/26/week-in-review-servicenow-pre-auth-rce-exploited-in-the-wild-hugging-face-breached/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "22036cde-4226-44c7-ae7e-d8c174ed5a15",
@@ -32,7 +54,7 @@
       "summary": "The SourTrade malvertising campaign evades detection by delivering malicious payloads in fragments that are assembled into a functional Windows executable directly within the victim's browser using the Bun runtime. The operation targets retail traders by impersonating legitimate financial services like TradingView and Solana.",
       "date": "2026-07-25T18:48:44.000Z",
       "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d281e868-e4e8-426d-b26c-17fbabe882e8",
@@ -76,7 +98,7 @@
       "summary": "Cl0p ransomware affiliates are exploiting unauthenticated remote code execution vulnerabilities in internet-exposed PTC Windchill and FlexPLM software for data extortion. The attack involves chaining an information disclosure flaw with a server-side vulnerability to compromise systems.",
       "date": "2026-07-25T10:14:03.000Z",
       "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e5254f28-b015-45b2-a8b6-b7222568707f",
@@ -263,7 +285,7 @@
       "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
       "date": "2026-07-24T11:53:55.000Z",
       "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
@@ -274,7 +296,7 @@
       "summary": "A critical vulnerability in Bing's image processing allowed attackers to execute arbitrary commands as SYSTEM or root by submitting malicious SVG files. Microsoft has addressed the issue by issuing two critical CVEs.",
       "date": "2026-07-24T11:45:17.000Z",
       "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8035fb82-07d5-4a13-bc51-7626407bba9c",
@@ -307,7 +329,7 @@
       "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
       "date": "2026-07-24T11:04:51.000Z",
       "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
@@ -318,7 +340,7 @@
       "summary": "An attacker deployed an autonomous AI agent to perform unauthorized post-exploitation activities against the Thai Ministry of Finance by bypassing security permission prompts. The AI actively scanned for vulnerabilities and sensitive data within the government network.",
       "date": "2026-07-24T10:15:29.000Z",
       "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fed346d0-8e8d-4f45-ba1f-83a31f442f4b",
@@ -549,7 +571,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities catalog to include critical security flaws affecting Microsoft SharePoint, Check Point SmartConsole, and other platforms like DD-WRT, Langflow, and WordPress. These additions indicate active exploitation in the wild, necessitating urgent patching by affected organizations.",
       "date": "2026-07-23T20:10:46.000Z",
       "link": "https://securityaffairs.com/195889/security/u-s-cisa-adds-microsoft-sharepoint-and-check-point-smartconsole-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
@@ -560,7 +582,7 @@
       "summary": "A Russian state-sponsored espionage group exploited a Zimbra zero-day vulnerability to compromise Western organizations by stealing email data, browser credentials, and two-factor authentication codes. The attack required only that the victim open a malicious message to execute the payload.",
       "date": "2026-07-23T18:36:08.000Z",
       "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "13ed8435-44fa-4ca7-80dc-038d20944e85",
@@ -615,7 +637,7 @@
       "summary": "Researchers discovered that millions of vehicles in California equipped with KARR/SWDS security systems are vulnerable to remote hijacking due to the use of a hardcoded, universal security key. This flaw allows unauthorized access to car functions via Bluetooth, posing a significant risk to vehicle safety and security.",
       "date": "2026-07-23T16:12:58.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "47bf332e-64dd-4e9b-9c9c-e4037dd6eb81",
@@ -692,7 +714,7 @@
       "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows an AI agent to bypass its virtual machine and access files on a host macOS system. The flaw potentially impacts approximately 500,000 users.",
       "date": "2026-07-23T13:27:59.000Z",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1057a5b8-8313-47f1-aaaf-e87575cc111d",
@@ -5477,28 +5499,6 @@
       "summary": "CISA has added security vulnerabilities found in iCagenda and Balbooa Forms, both popular Joomla extensions, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation. Organizations are urged to patch these systems to mitigate potential compromise.",
       "date": "2026-07-11T19:31:19.000Z",
       "link": "https://securityaffairs.com/195164/security/u-s-cisa-adds-icagenda-and-balbooa-forms-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "97d82c74-abb4-4f13-a10c-0723e4b08773",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-      "summary": "The jscrambler npm package version 8.14.0 was compromised to include a malicious preinstall hook that automatically deploys a cross-platform Rust-based infostealer upon installation. The incident highlights the risks of supply chain attacks where malicious code executes immediately without requiring explicit user interaction.",
-      "date": "2026-07-11T17:59:26.000Z",
-      "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "isTopTen": false
-    },
-    {
-      "id": "56ae1d19-f71c-4b8b-a628-11c0db2faefb",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-      "summary": "State-aligned threat actors from China and India conducted multi-group espionage campaigns targeting the Balochistan Police portal and other Pakistani law enforcement agencies to access sensitive citizen and criminal data. The attacks occurred between February 2024 and April 2026, leveraging compromised web application servers.",
-      "date": "2026-07-11T17:49:31.000Z",
-      "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
       "isTopTen": false
     }
   ]
