@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-26T03:25:57.384Z",
+  "lastUpdated": "2026-07-26T08:33:39.598Z",
   "articles": [
+    {
+      "id": "794b8235-2acb-4789-b60a-3ca95cc8650d",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Week in review: ServiceNow pre-auth RCE exploited in the wild, Hugging Face breached",
+      "summary": "Recent cybersecurity news highlights the active exploitation of a ServiceNow pre-authentication remote code execution vulnerability and a security breach at Hugging Face. The report also discusses the complexities of managing multiple AI platforms in enterprise environments.",
+      "date": "2026-07-26T08:00:34.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/26/week-in-review-servicenow-pre-auth-rce-exploited-in-the-wild-hugging-face-breached/",
+      "isTopTen": true
+    },
     {
       "id": "22036cde-4226-44c7-ae7e-d8c174ed5a15",
       "source": "Security Affairs",
@@ -32,7 +43,7 @@
       "summary": "Australian energy provider Origin Energy has confirmed a data breach involving the potential theft of records belonging to 2 million customers. An unidentified hacker has claimed responsibility for the incident and is threatening to leak the compromised data.",
       "date": "2026-07-25T15:21:19.000Z",
       "link": "https://securityaffairs.com/195973/data-breach/australian-energy-provider-origin-energy-disclosed-a-data-breach-impacting-customer-data.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3e29b05d-89ab-4e44-b9ea-ecbe8fc11fff",
@@ -516,7 +527,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -538,7 +549,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities catalog to include critical security flaws affecting Microsoft SharePoint, Check Point SmartConsole, and other platforms like DD-WRT, Langflow, and WordPress. These additions indicate active exploitation in the wild, necessitating urgent patching by affected organizations.",
       "date": "2026-07-23T20:10:46.000Z",
       "link": "https://securityaffairs.com/195889/security/u-s-cisa-adds-microsoft-sharepoint-and-check-point-smartconsole-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
@@ -5488,17 +5499,6 @@
       "summary": "State-aligned threat actors from China and India conducted multi-group espionage campaigns targeting the Balochistan Police portal and other Pakistani law enforcement agencies to access sensitive citizen and criminal data. The attacks occurred between February 2024 and April 2026, leveraging compromised web application servers.",
       "date": "2026-07-11T17:49:31.000Z",
       "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5900277b-6216-4687-a249-a57212d05160",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical U-Boot Bugs Undermine Secure Boot on Millions of Devices",
-      "summary": "Security researchers at Binarly discovered six critical vulnerabilities in the U-Boot open-source bootloader that could allow attackers to execute arbitrary code during the boot process on millions of embedded devices. These flaws significantly compromise the integrity of secure boot mechanisms across various hardware sectors, including routers and smart cameras.",
-      "date": "2026-07-11T17:45:43.000Z",
-      "link": "https://securityaffairs.com/195150/security/critical-u-boot-bugs-undermine-secure-boot-on-millions-of-devices.html",
       "isTopTen": false
     }
   ]
