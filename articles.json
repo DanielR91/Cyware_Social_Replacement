@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-27T19:43:25.696Z",
+  "lastUpdated": "2026-07-27T22:13:31.333Z",
   "articles": [
+    {
+      "id": "3498cb66-3424-4327-8a9d-bce4c7fe285b",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Fixes Certighost Flaw That Allowed Domain Controller Impersonation",
+      "summary": "Microsoft addressed the Certighost vulnerability, which permitted low-privilege users to impersonate Domain Controllers by obtaining unauthorized certificates via Active Directory Certificate Services. The flaw was resolved as part of the company's July security update cycle.",
+      "date": "2026-07-27T20:49:40.000Z",
+      "link": "https://hackread.com/microsoft-certighost-flaw-domain-controller-impersonation/",
+      "isTopTen": true
+    },
+    {
+      "id": "1338d21e-d866-4de0-812d-fd9909df1c58",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Outdated VPNs should be purged from federal agencies, senator says",
+      "summary": "Senator Ron Wyden has urged federal oversight agencies to eliminate obsolete VPN technologies from government infrastructure to reduce security risks. The initiative aims to strengthen the federal cybersecurity posture by retiring vulnerable legacy networking tools.",
+      "date": "2026-07-27T20:45:00.000Z",
+      "link": "https://therecord.media/federal-purge-outdated-vpns-wyden-letter",
+      "isTopTen": false
+    },
     {
       "id": "44b81ec3-3e46-4277-ab94-674b794f1039",
       "source": "Help Net Security",
@@ -10,6 +32,17 @@
       "summary": "Microsoft has introduced MAI-Cyber-1-Flash, a specialized AI model integrated into its MDASH system designed to identify and remediate vulnerabilities at a lower cost. The model has undergone rigorous adversarial testing to address the growing threat of AI-assisted code exploitation.",
       "date": "2026-07-27T19:23:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/27/microsoft-mai-cyber-1-flash-ai-model/",
+      "isTopTen": false
+    },
+    {
+      "id": "bd6d38bb-5a19-4e27-9512-126bae7f80e6",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+      "summary": "NVIDIA and a coalition of 36 technology organizations have launched the Open Secure AI Alliance to collaboratively develop open-source frameworks for securing artificial intelligence agents and software. This initiative includes the release of the NOOA framework to standardize security practices across the AI ecosystem.",
+      "date": "2026-07-27T18:10:05.000Z",
+      "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
       "isTopTen": false
     },
     {
@@ -131,7 +164,7 @@
       "summary": "A public exploit has been released for a pre-authentication remote code execution vulnerability in vBulletin versions 6.2.1 and earlier, allowing unauthenticated attackers to execute arbitrary code. Users are urged to patch immediately as the exploit requires no user interaction or administrative privileges.",
       "date": "2026-07-27T14:40:00.000Z",
       "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2ce2c338-6a5a-4fd5-b959-af802fe8186f",
@@ -175,7 +208,7 @@
       "summary": "A recent Microsoft Defender for Endpoint update introduced bugs that caused security services to fail upon restart and prevented installations on hardened RHEL systems. These defects temporarily left affected Linux endpoints without active protection.",
       "date": "2026-07-27T13:45:00.000Z",
       "link": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "70fa8274-21e8-4a7b-941b-7b5a22ea9341",
@@ -296,7 +329,7 @@
       "summary": "Researchers discovered a critical remote code execution vulnerability in GitLab caused by chaining two memory corruption bugs in the Oj Ruby JSON parser. Users are strongly advised to patch their systems to prevent exploitation via Jupyter notebook diffs.",
       "date": "2026-07-27T11:20:35.000Z",
       "link": "https://securityaffairs.com/196062/hacking/gitlab-users-urged-to-patch-after-research-reveals-critical-rce-chain.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f14dbc2c-92ed-4bd3-9817-0bf4ba5e4ab5",
@@ -571,7 +604,7 @@
       "summary": "Cl0p ransomware affiliates are exploiting unauthenticated remote code execution vulnerabilities in internet-exposed PTC Windchill and FlexPLM software for data extortion. The attack involves chaining an information disclosure flaw with a server-side vulnerability to compromise systems.",
       "date": "2026-07-25T10:14:03.000Z",
       "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e5254f28-b015-45b2-a8b6-b7222568707f",
@@ -703,7 +736,7 @@
       "summary": "The Certighost exploit allows low-privileged Active Directory users to impersonate Domain Controllers by obtaining fraudulent certificates. This vulnerability enables attackers to perform DCSync attacks and extract the krbtgt secret, potentially leading to full domain compromise.",
       "date": "2026-07-24T14:15:21.000Z",
       "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "16410cc2-c0e4-4a55-a834-a097130f7a6b",
@@ -758,7 +791,7 @@
       "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
       "date": "2026-07-24T11:53:55.000Z",
       "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
@@ -769,7 +802,7 @@
       "summary": "A critical vulnerability in Bing's image processing allowed attackers to execute arbitrary commands as SYSTEM or root by submitting malicious SVG files. Microsoft has addressed the issue by issuing two critical CVEs.",
       "date": "2026-07-24T11:45:17.000Z",
       "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8035fb82-07d5-4a13-bc51-7626407bba9c",
@@ -5466,39 +5499,6 @@
       "summary": "The U.S. Treasury has sanctioned First VPN Service and its administrator for facilitating ransomware operations, alongside a Belarusian individual linked to malware development.",
       "date": "2026-07-13T18:50:00.000Z",
       "link": "https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups",
-      "isTopTen": false
-    },
-    {
-      "id": "927380fd-6044-4773-aaee-9cc641c14a7b",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "U.S. CISA adds a Cisco IOS flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has officially added CVE-2008-4128, a CSRF vulnerability affecting Cisco IOS 12.4 on Cisco 871 routers, to its Known Exploited Vulnerabilities catalog.",
-      "date": "2026-07-13T18:05:08.000Z",
-      "link": "https://securityaffairs.com/195262/security/u-s-cisa-adds-a-cisco-ios-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0f070299-7dd7-4551-b24a-c580f384da24",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-      "summary": "Researchers discovered a new macOS information stealer called CrashStealer that utilizes a notarized dropper to bypass Apple's Gatekeeper security checks. The malware is written in native C++ and performs local password validation to exfiltrate sensitive data from infected systems.",
-      "date": "2026-07-13T17:36:12.000Z",
-      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4bafdf6b-9f1d-4cab-8865-9d0387e92068",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
-      "summary": "Google and Microsoft removed the popular ModHeader extension from their stores after discovering a hidden, dormant browsing-history collector. While the malicious feature was inactive and no data exfiltration was confirmed, the extension was pulled as a proactive security measure.",
-      "date": "2026-07-13T17:17:24.000Z",
-      "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
       "isTopTen": false
     }
   ]
