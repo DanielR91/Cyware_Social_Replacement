@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-27T14:55:04.119Z",
+  "lastUpdated": "2026-07-27T17:03:56.986Z",
   "articles": [
+    {
+      "id": "a3a07cf1-4703-46f9-86ab-9699346ac05d",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Daylight Security Launches Detection Program Visibility",
+      "summary": "Daylight Security has introduced a new Detection Program Visibility feature designed to unify security detections and map them to the MITRE ATT&CK framework. This tool aims to assist MDR customers in identifying security gaps and enhancing their overall detection performance.",
+      "date": "2026-07-27T16:40:31.000Z",
+      "link": "https://hackread.com/daylight-security-detection-program-visibility/",
+      "isTopTen": false
+    },
+    {
+      "id": "35a79747-a265-4ebd-8777-fa038036e285",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
+      "summary": "The Open Security AI Alliance argues that the recent security incidents involving OpenAI and Hugging Face demonstrate that frontier AI labs cannot be trusted to independently secure sensitive systems. In response, major tech companies are coalescing to advocate for the security and adoption of open-source AI models.",
+      "date": "2026-07-27T16:17:30.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
+      "isTopTen": true
+    },
+    {
+      "id": "7199e286-3152-408b-b0f5-27f17ef27297",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Telegram phishing campaign targeted exiled Belarusian activist, Russians and Kazakhstanis",
+      "summary": "A sophisticated, highly personalized Telegram-based phishing campaign has been identified targeting an exiled Belarusian activist and various users across Russia and Kazakhstan to hijack their accounts.",
+      "date": "2026-07-27T16:00:00.000Z",
+      "link": "https://therecord.media/telegram-belarus-activist-russia-cyberattack",
+      "isTopTen": false
+    },
     {
       "id": "dab18a23-f2f3-4f83-87fb-24ba6ed8205f",
       "source": "HackRead",
@@ -10,7 +43,7 @@
       "summary": "Attackers are exploiting compromised hotel Wi-Fi gateways to redirect business travelers to fraudulent Microsoft 365 login pages, facilitating the theft of credentials and session tokens. This campaign specifically targets corporate users to gain unauthorized access to their accounts.",
       "date": "2026-07-27T14:43:57.000Z",
       "link": "https://hackread.com/hackers-hotel-wi-fi-gateways-hijack-microsoft-365-accounts/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c810ba23-4a2c-4d93-b436-535095ce78e8",
@@ -21,6 +54,17 @@
       "summary": "Major tech companies, led by NVIDIA, have established the Open Secure AI Alliance to promote the development and use of open AI models for cybersecurity defense. This initiative emerges shortly after OpenAI reported an internal security breach involving one of its own models.",
       "date": "2026-07-27T14:43:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/27/nvidia-open-secure-ai-alliance/",
+      "isTopTen": false
+    },
+    {
+      "id": "a66dc034-72a3-4a18-9eba-fc5a1606e1ee",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+      "summary": "A public exploit has been released for a pre-authentication remote code execution vulnerability in vBulletin versions 6.2.1 and earlier, allowing unauthenticated attackers to execute arbitrary code. Users are urged to patch immediately as the exploit requires no user interaction or administrative privileges.",
+      "date": "2026-07-27T14:40:00.000Z",
+      "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
       "isTopTen": false
     },
     {
@@ -186,7 +230,7 @@
       "summary": "Researchers discovered a critical remote code execution vulnerability in GitLab caused by chaining two memory corruption bugs in the Oj Ruby JSON parser. Users are strongly advised to patch their systems to prevent exploitation via Jupyter notebook diffs.",
       "date": "2026-07-27T11:20:35.000Z",
       "link": "https://securityaffairs.com/196062/hacking/gitlab-users-urged-to-patch-after-research-reveals-critical-rce-chain.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f14dbc2c-92ed-4bd3-9817-0bf4ba5e4ab5",
@@ -373,7 +417,7 @@
       "summary": "Attackers are compromising hotel Wi-Fi gateways to intercept guest traffic and redirect them to fraudulent Microsoft 365 login pages for credential harvesting. This technique bypasses traditional phishing defenses by targeting infrastructure rather than individual endpoints.",
       "date": "2026-07-26T13:04:27.000Z",
       "link": "https://securityaffairs.com/196017/security/hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-credentials.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "99e3c536-0efa-4d43-bbee-cf32d95d5cb4",
@@ -461,7 +505,7 @@
       "summary": "Cl0p ransomware affiliates are exploiting unauthenticated remote code execution vulnerabilities in internet-exposed PTC Windchill and FlexPLM software for data extortion. The attack involves chaining an information disclosure flaw with a server-side vulnerability to compromise systems.",
       "date": "2026-07-25T10:14:03.000Z",
       "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e5254f28-b015-45b2-a8b6-b7222568707f",
@@ -648,7 +692,7 @@
       "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
       "date": "2026-07-24T11:53:55.000Z",
       "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
@@ -5455,50 +5499,6 @@
       "summary": "This week's security landscape highlights ongoing risks from Citrix and ShareFile vulnerabilities, while noting the accelerating threat of AI-driven cyberattacks. Organizations are struggling to keep pace with patching cycles as attackers increasingly leverage automation to exploit unpatched flaws.",
       "date": "2026-07-13T15:05:57.000Z",
       "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fd202366-ef01-4a24-aa44-c201aafb7258",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "EU and UK blacklist Russia’s cyber operators over efforts to destabilize Europe",
-      "summary": "The EU and UK have imposed joint sanctions on dozens of Russian individuals and entities, alleging they are part of a malicious cyber ecosystem designed to destabilize European nations. The measures target state-linked actors, hacktivists, and private companies involved in cyber operations against international partners.",
-      "date": "2026-07-13T14:52:51.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/13/eu-uk-russia-cyber-activity-sanctions/",
-      "isTopTen": false
-    },
-    {
-      "id": "a3d9fce4-5919-43c8-bbe2-cfd58ebcb992",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Torq and Criminal IP Partner to Deliver Decision-Ready Threat Intelligence for Autonomous SOC Operations",
-      "summary": "Torq and Criminal IP have announced a partnership to integrate threat intelligence into autonomous Security Operations Center (SOC) workflows. This collaboration aims to provide automated, decision-ready data to improve security response efficiency.",
-      "date": "2026-07-13T14:00:50.000Z",
-      "link": "https://hackread.com/torq-and-criminal-ip-partner-to-deliver-decision-ready-threat-intelligence-for-autonomous-soc-operations/",
-      "isTopTen": false
-    },
-    {
-      "id": "b7de2272-ee81-404a-a217-9a59bc64af8f",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-      "summary": "The MemGhost attack exploits AI agents by injecting malicious, persistent false memories through a single email, allowing attackers to manipulate the assistant's future behavior and responses. This technique enables subtle, stealthy tampering that persists across sessions without alerting the user.",
-      "date": "2026-07-13T13:49:48.000Z",
-      "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7b9d7088-324f-4780-bda2-eb7efe3242db",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Tidal Cyber connects assets, vulnerabilities, and threats through Threat-Led Defense",
-      "summary": "Tidal Cyber has expanded its Threat-Led Defense platform to integrate asset visibility and vulnerability prioritization based on real-world adversary behavior. This shift focuses on an execution-centric model that links threats, assets, and vulnerabilities to improve defensive strategies.",
-      "date": "2026-07-13T13:44:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/13/tidal-cyber-threat-led-asset-visibility/",
       "isTopTen": false
     }
   ]
