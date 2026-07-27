@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-07-27T17:03:56.986Z",
+  "lastUpdated": "2026-07-27T19:43:25.696Z",
   "articles": [
+    {
+      "id": "44b81ec3-3e46-4277-ab94-674b794f1039",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Microsoft unveils MAI-Cyber-1-Flash, promises cybersecurity AI at half the cost",
+      "summary": "Microsoft has introduced MAI-Cyber-1-Flash, a specialized AI model integrated into its MDASH system designed to identify and remediate vulnerabilities at a lower cost. The model has undergone rigorous adversarial testing to address the growing threat of AI-assisted code exploitation.",
+      "date": "2026-07-27T19:23:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/27/microsoft-mai-cyber-1-flash-ai-model/",
+      "isTopTen": false
+    },
+    {
+      "id": "35b8f234-63c9-45a2-a588-58bf424bd56f",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "MedusaHVNC Trojan Creates Hidden Desktops to Hijack Browsers and Steal Data",
+      "summary": "The MedusaHVNC Trojan utilizes hidden Windows desktops to remotely hijack browsers and exfiltrate sensitive data while evading detection by leveraging legitimate system features. This technique allows attackers to maintain stealthy, persistent control over a user's environment.",
+      "date": "2026-07-27T17:53:10.000Z",
+      "link": "https://securityaffairs.com/196111/malware/medusahvnc-trojan-creates-hidden-desktops-to-hijack-browsers-and-steal-data.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8692fbfe-8a7f-4874-8a1b-0604d9782585",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "UK court rejects Bahrain immunity claim in spyware case",
+      "summary": "A UK court has ruled that Bahrain cannot claim state immunity in a lawsuit involving the alleged use of spyware to surveil and exfiltrate data from activists' devices. The decision allows the legal case to proceed, addressing the misuse of surveillance technology by foreign officials.",
+      "date": "2026-07-27T17:52:00.000Z",
+      "link": "https://therecord.media/uk-court-rejects-bahrain-immunity-claim-spyware-case",
+      "isTopTen": false
+    },
+    {
+      "id": "dfc4d163-5aa3-43d0-838b-5d6831d1fecc",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Health system in South Carolina, Georgia closes offices after malware affects networks",
+      "summary": "AnMed, a health system operating in South Carolina and Georgia, has closed offices following a malware attack that disrupted its network operations.",
+      "date": "2026-07-27T17:38:00.000Z",
+      "link": "https://therecord.media/health-system-south-carolina-georgia-disruptions-malware",
+      "isTopTen": true
+    },
+    {
+      "id": "e2b8f300-8acf-49d6-b0a7-f697a50b1001",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google’s solution to hacker name confusion? Yet another naming system",
+      "summary": "Google has introduced a new cryptonym-based naming system for threat actors to replace its previous numerical conventions, aiming to reduce confusion despite adding complexity for security teams. The move reflects an industry-wide struggle to standardize how persistent threats are identified and tracked.",
+      "date": "2026-07-27T17:17:26.000Z",
+      "link": "https://cyberscoop.com/google-threat-actor-naming-system/",
+      "isTopTen": false
+    },
+    {
+      "id": "08425eee-1aa5-4db0-bb6b-c6cff080dea2",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+      "summary": "The Dysphoria IoT botnet has evolved by incorporating blockchain-based command-and-control mechanisms and victim relays to improve its resilience against law enforcement disruptions. This architectural change follows the recent takedown of the JackSkid infrastructure.",
+      "date": "2026-07-27T17:16:28.000Z",
+      "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "isTopTen": false
+    },
     {
       "id": "a3a07cf1-4703-46f9-86ab-9699346ac05d",
       "source": "HackRead",
@@ -21,7 +87,7 @@
       "summary": "The Open Security AI Alliance argues that the recent security incidents involving OpenAI and Hugging Face demonstrate that frontier AI labs cannot be trusted to independently secure sensitive systems. In response, major tech companies are coalescing to advocate for the security and adoption of open-source AI models.",
       "date": "2026-07-27T16:17:30.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7199e286-3152-408b-b0f5-27f17ef27297",
@@ -43,7 +109,7 @@
       "summary": "Attackers are exploiting compromised hotel Wi-Fi gateways to redirect business travelers to fraudulent Microsoft 365 login pages, facilitating the theft of credentials and session tokens. This campaign specifically targets corporate users to gain unauthorized access to their accounts.",
       "date": "2026-07-27T14:43:57.000Z",
       "link": "https://hackread.com/hackers-hotel-wi-fi-gateways-hijack-microsoft-365-accounts/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c810ba23-4a2c-4d93-b436-535095ce78e8",
@@ -109,7 +175,7 @@
       "summary": "A recent Microsoft Defender for Endpoint update introduced bugs that caused security services to fail upon restart and prevented installations on hardened RHEL systems. These defects temporarily left affected Linux endpoints without active protection.",
       "date": "2026-07-27T13:45:00.000Z",
       "link": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "70fa8274-21e8-4a7b-941b-7b5a22ea9341",
@@ -417,7 +483,7 @@
       "summary": "Attackers are compromising hotel Wi-Fi gateways to intercept guest traffic and redirect them to fraudulent Microsoft 365 login pages for credential harvesting. This technique bypasses traditional phishing defenses by targeting infrastructure rather than individual endpoints.",
       "date": "2026-07-26T13:04:27.000Z",
       "link": "https://securityaffairs.com/196017/security/hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-credentials.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "99e3c536-0efa-4d43-bbee-cf32d95d5cb4",
@@ -736,7 +802,7 @@
       "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
       "date": "2026-07-24T11:04:51.000Z",
       "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
@@ -5433,72 +5499,6 @@
       "summary": "Google and Microsoft removed the popular ModHeader extension from their stores after discovering a hidden, dormant browsing-history collector. While the malicious feature was inactive and no data exfiltration was confirmed, the extension was pulled as a proactive security measure.",
       "date": "2026-07-13T17:17:24.000Z",
       "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bbd59533-8de1-4966-8c86-fdb979d4119b",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach",
-      "summary": "Russian journalist Ksenia Sobchak reported that her Telegram channels were compromised through an email-based breach, resulting in the unauthorized release of potentially fabricated private correspondence. The incident highlights the risks associated with account takeovers involving linked third-party email services.",
-      "date": "2026-07-13T17:15:00.000Z",
-      "link": "https://therecord.media/ksenia-sobchak-russian-hackers-leak",
-      "isTopTen": false
-    },
-    {
-      "id": "148ce8f6-3b39-450b-8b4a-3fb52ee04b08",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers breach Lidl’s IT service provider, steal customer data",
-      "summary": "Lidl notified customers in Germany, Belgium, and the Netherlands that their personal data was stolen after an unidentified group breached one of the supermarket chain's IT service providers. The company confirmed that a specific file containing customer information was briefly accessed and exfiltrated.",
-      "date": "2026-07-13T16:34:55.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/13/lidl-data-breach-customer-data/",
-      "isTopTen": false
-    },
-    {
-      "id": "69402f1a-156b-4ebf-83e3-4413c18a4c35",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Europe strikes out against Russia’s Turla over espionage, ‘destructive attacks’",
-      "summary": "The EU and U.K. have issued sanctions and formal attribution against Russian FSB officials for orchestrating espionage campaigns and destructive cyberattacks, including strikes against Poland’s energy grid.",
-      "date": "2026-07-13T16:28:10.000Z",
-      "link": "https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/",
-      "isTopTen": false
-    },
-    {
-      "id": "fe92e398-959c-4c34-9fb1-b6ebf2fe730d",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "EU and UK officially blame Russian spies for cyberattack on Poland's power grid",
-      "summary": "The EU and UK have formally attributed a cyberattack on Poland's power grid to Russian state-sponsored actors, resulting in coordinated international sanctions. The incident, which occurred during winter, threatened to disrupt energy services for half a million citizens.",
-      "date": "2026-07-13T15:39:52.000Z",
-      "link": "https://www.theregister.com/security/2026/07/13/uk-eu-officially-pin-poland-energy-cyberattack-on-russia/5270458",
-      "isTopTen": false
-    },
-    {
-      "id": "0a4cf434-6b06-43ae-a244-d6374799aec3",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Officials once again warn defenders that Russian hackers are targeting network devices",
-      "summary": "State-sponsored Russian hackers are actively targeting network infrastructure across multiple critical sectors, prompting renewed security warnings for organizations. The campaign focuses on compromising essential services including energy, finance, and government systems.",
-      "date": "2026-07-13T15:23:46.000Z",
-      "link": "https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/",
-      "isTopTen": false
-    },
-    {
-      "id": "45789860-438e-4382-ad05-c5b2048b44ee",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-      "summary": "This week's security landscape highlights ongoing risks from Citrix and ShareFile vulnerabilities, while noting the accelerating threat of AI-driven cyberattacks. Organizations are struggling to keep pace with patching cycles as attackers increasingly leverage automation to exploit unpatched flaws.",
-      "date": "2026-07-13T15:05:57.000Z",
-      "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
       "isTopTen": false
     }
   ]
