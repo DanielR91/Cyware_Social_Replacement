@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-26T22:03:38.214Z",
+  "lastUpdated": "2026-07-27T03:35:50.842Z",
   "articles": [
+    {
+      "id": "acbd4a33-98cd-4236-8df9-d5a8e1f60b6e",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Claude Opus 5 sharpens coding and cybersecurity work on AWS",
+      "summary": "Anthropic has launched Claude Opus 5 on Amazon Bedrock, featuring enhanced coding and cybersecurity capabilities with an automated fallback mechanism to Opus 4.8 for high-risk requests. This update enables AWS users to leverage improved AI performance for security-related tasks with integrated safety guardrails.",
+      "date": "2026-07-26T22:30:24.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/27/claude-opus-5-aws-coding-cybersecurity-work/",
+      "isTopTen": false
+    },
     {
       "id": "18afe2b6-4063-4136-945d-00e3cd2753c2",
       "source": "Security Affairs",
@@ -65,7 +76,7 @@
       "summary": "The SourTrade malvertising campaign evades detection by delivering malicious payloads in fragments that are assembled into a functional Windows executable directly within the victim's browser using the Bun runtime. The operation targets retail traders by impersonating legitimate financial services like TradingView and Solana.",
       "date": "2026-07-25T18:48:44.000Z",
       "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d281e868-e4e8-426d-b26c-17fbabe882e8",
@@ -274,7 +285,7 @@
       "summary": "Thailand's Ministry of Finance was targeted in a cyber-espionage operation utilizing the Hermes AI agent for reconnaissance and the Hades malware for persistence. Researchers uncovered the attack in real-time by identifying exposed staging servers used by the threat actors.",
       "date": "2026-07-24T12:10:28.000Z",
       "link": "https://securityaffairs.com/195941/hacking/thailands-ministry-of-finance-targeted-with-hermes-ai-agent-running-unattended-hades-implant-staged.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a792f11-6894-4895-afd1-064d2e5ace1b",
@@ -307,7 +318,7 @@
       "summary": "A critical vulnerability in Bing's image processing allowed attackers to execute arbitrary commands as SYSTEM or root by submitting malicious SVG files. Microsoft has addressed the issue by issuing two critical CVEs.",
       "date": "2026-07-24T11:45:17.000Z",
       "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8035fb82-07d5-4a13-bc51-7626407bba9c",
@@ -351,7 +362,7 @@
       "summary": "An attacker deployed an autonomous AI agent to perform unauthorized post-exploitation activities against the Thai Ministry of Finance by bypassing security permission prompts. The AI actively scanned for vulnerabilities and sensitive data within the government network.",
       "date": "2026-07-24T10:15:29.000Z",
       "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fed346d0-8e8d-4f45-ba1f-83a31f442f4b",
@@ -560,7 +571,7 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "baa23462-aa85-4725-8042-973fcb617737",
@@ -648,7 +659,7 @@
       "summary": "Researchers discovered that millions of vehicles in California equipped with KARR/SWDS security systems are vulnerable to remote hijacking due to the use of a hardcoded, universal security key. This flaw allows unauthorized access to car functions via Bluetooth, posing a significant risk to vehicle safety and security.",
       "date": "2026-07-23T16:12:58.000Z",
       "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "47bf332e-64dd-4e9b-9c9c-e4037dd6eb81",
@@ -5488,17 +5499,6 @@
       "summary": "This weekly review covers a significant data breach at Accenture alongside insights on securing email through DMARC and BIMI implementations. It also features a curated list of open-source cybersecurity tools for industry professionals.",
       "date": "2026-07-12T08:00:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/",
-      "isTopTen": false
-    },
-    {
-      "id": "e6911c75-2cb7-4aa8-ba71-5c7c8c579fe6",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Security Affairs newsletter Round 585 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "summary": "The latest edition of the Security Affairs newsletter highlights CISA's addition of iCagenda and Balbooa Forms vulnerabilities to its Known Exploited Vulnerabilities catalog. The update covers critical security developments and international cyber news.",
-      "date": "2026-07-12T04:58:08.000Z",
-      "link": "https://securityaffairs.com/195175/breaking-news/security-affairs-newsletter-round-585-by-pierluigi-paganini-international-edition.html",
       "isTopTen": false
     }
   ]
