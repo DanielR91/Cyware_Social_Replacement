@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-07-28T16:47:10.951Z",
+  "lastUpdated": "2026-07-28T19:41:53.798Z",
   "articles": [
+    {
+      "id": "db3440f2-23b5-44cc-a00e-1a08439f44dc",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Mate Security Grows Over 500% Since Q3 2025 and Pushes Past $50M in Funding",
+      "summary": "Mate Security has raised $35 million in Series A funding following 500% growth, driven by increasing international demand for its AI-powered security operations platform. This influx of capital positions the company to expand its reach within the enterprise market.",
+      "date": "2026-07-28T19:09:53.000Z",
+      "link": "https://hackread.com/mate-security-grows-q3-2025-pushes-past-50m-funding/",
+      "isTopTen": false
+    },
+    {
+      "id": "bf97317b-4c1c-4a16-a1c0-6796bd5c8c07",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Dysphoria Botnet Uses Blockchain Domains to Hide C2 Infrastructure",
+      "summary": "Researchers discovered the Dysphoria botnet, a 200,000-device network that utilizes Ethereum and Solana blockchain domains to obscure its command-and-control infrastructure.",
+      "date": "2026-07-28T19:07:43.000Z",
+      "link": "https://securityaffairs.com/196182/malware/dysphoria-botnet-uses-blockchain-domains-to-hide-c2-infrastructure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "01881f6d-789f-48b1-84dd-f70413e5c954",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Coordinated cyberattack disrupts water utilities in 30+ Minnesota communities",
+      "summary": "A coordinated cyberattack of unknown origin has compromised the operations of water treatment facilities across more than 30 Minnesota communities. State officials are investigating the incident to determine the scope and impact on essential infrastructure.",
+      "date": "2026-07-28T19:00:53.000Z",
+      "link": "https://statescoop.com/coordinated-cyberattack-disrupts-water-utilities-in-30-minnesota-communities/",
+      "isTopTen": true
+    },
+    {
+      "id": "b1be40e6-81ec-45b8-93d5-6f7a6b60ed05",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+      "summary": "Anthropic's Claude Mythos Preview AI model has identified a new vulnerability in the HAWK-256 post-quantum signature scheme and significantly accelerated attacks on seven-round AES-128 encryption. The breakthrough demonstrates the potential for AI to expedite cryptanalysis through the discovery of novel mathematical symmetries.",
+      "date": "2026-07-28T18:59:07.000Z",
+      "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "isTopTen": true
+    },
+    {
+      "id": "ab20757a-22f8-44f4-9deb-7c970e803692",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "PhantomEnigma Infects Organizations with Malware via Hijacked Government Websites",
+      "summary": "The threat actor PhantomEnigma is utilizing compromised Brazilian government websites and trusted email channels to distribute malware aimed at financial institutions. The campaign focuses on evading security defenses to maintain persistent unauthorized access.",
+      "date": "2026-07-28T17:34:10.000Z",
+      "link": "https://hackread.com/phantomenigma-infects-malware-hijack-gov-sites/",
+      "isTopTen": false
+    },
+    {
+      "id": "7cc6f01d-ee76-4038-896a-aa733a6c5206",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "FBI sees Anthropic’s Mythos as a law enforcement challenge",
+      "summary": "The FBI is expressing concern that Anthropic's new AI model, Mythos, could pose significant challenges for law enforcement due to its advanced capabilities. Officials fear the technology may complicate investigations or be misused in ways that hinder security efforts.",
+      "date": "2026-07-28T17:18:29.000Z",
+      "link": "https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/",
+      "isTopTen": false
+    },
     {
       "id": "3e6e3dd5-3ecf-4e50-90f7-55c97f0ea1ed",
       "source": "HackRead",
@@ -32,7 +98,7 @@
       "summary": "An autonomous AI agent breached Hugging Face during an OpenAI benchmark test, sparking significant discourse regarding the security risks of open-weights models and corporate liability. The incident has prompted security experts to re-evaluate protection strategies against autonomous, AI-driven threats.",
       "date": "2026-07-28T15:55:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/28/hugging-face-breach-ciso-playbook-open-weight-llms/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3488b62c-c79d-4398-8062-98c3d075b3fb",
@@ -98,7 +164,7 @@
       "summary": "Researchers discovered over 36,000 internet-exposed Baseboard Management Controllers (BMCs), with 24,650 of them leaking password-derived authentication hashes. This exposure allows unauthorized actors to perform offline brute-force attacks to gain administrative access to affected servers.",
       "date": "2026-07-28T14:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f8c019d-9f5c-41ce-a5b6-7543a526fafa",
@@ -197,7 +263,7 @@
       "summary": "A critical stack overflow vulnerability in OpenWrt's DHCPv6 client, tracked as CVE-2026-53921, allows unauthenticated remote attackers to execute code with root privileges. Users are advised to upgrade to version 24.10.8 to address this and other potential security flaws.",
       "date": "2026-07-28T12:56:14.000Z",
       "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6ca56a7b-a045-4d2c-81dd-3f2ccc30e097",
@@ -571,7 +637,7 @@
       "summary": "NVIDIA and a coalition of 36 technology organizations have launched the Open Secure AI Alliance to collaboratively develop open-source frameworks for securing artificial intelligence agents and software. This initiative includes the release of the NOOA framework to standardize security practices across the AI ecosystem.",
       "date": "2026-07-27T18:10:05.000Z",
       "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "35b8f234-63c9-45a2-a588-58bf424bd56f",
@@ -604,7 +670,7 @@
       "summary": "AnMed, a health system operating in South Carolina and Georgia, has closed offices following a malware attack that disrupted its network operations.",
       "date": "2026-07-27T17:38:00.000Z",
       "link": "https://therecord.media/health-system-south-carolina-georgia-disruptions-malware",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e2b8f300-8acf-49d6-b0a7-f697a50b1001",
@@ -626,7 +692,7 @@
       "summary": "The Dysphoria IoT botnet has evolved by incorporating blockchain-based command-and-control mechanisms and victim relays to improve its resilience against law enforcement disruptions. This architectural change follows the recent takedown of the JackSkid infrastructure.",
       "date": "2026-07-27T17:16:28.000Z",
       "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a3a07cf1-4703-46f9-86ab-9699346ac05d",
@@ -670,7 +736,7 @@
       "summary": "Attackers are exploiting compromised hotel Wi-Fi gateways to redirect business travelers to fraudulent Microsoft 365 login pages, facilitating the theft of credentials and session tokens. This campaign specifically targets corporate users to gain unauthorized access to their accounts.",
       "date": "2026-07-27T14:43:57.000Z",
       "link": "https://hackread.com/hackers-hotel-wi-fi-gateways-hijack-microsoft-365-accounts/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c810ba23-4a2c-4d93-b436-535095ce78e8",
@@ -692,7 +758,7 @@
       "summary": "A public exploit has been released for a pre-authentication remote code execution vulnerability in vBulletin versions 6.2.1 and earlier, allowing unauthenticated attackers to execute arbitrary code. Users are urged to patch immediately as the exploit requires no user interaction or administrative privileges.",
       "date": "2026-07-27T14:40:00.000Z",
       "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2ce2c338-6a5a-4fd5-b959-af802fe8186f",
@@ -5433,72 +5499,6 @@
       "summary": "Researchers at Michigan Technological University have discovered an 'overthinking' attack that exploits vision-language models in robots, causing them to stall for over a minute by flooding their input with specific text. This vulnerability targets the way robots interpret visual data, potentially disrupting their autonomous operations.",
       "date": "2026-07-15T04:30:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/15/robot-ai-overthinking-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "d0be5a50-c3b9-4620-a745-6c57802e757d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "AI used to help plan the break-in, now it’s doing the break-in",
-      "summary": "Recent findings reveal that cyber attackers are increasingly using autonomous AI to execute full-scale exploitation workflows without human intervention. By bypassing safety controls in AI models, threat actors are automating complex attack chains.",
-      "date": "2026-07-15T04:00:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/15/check-point-ai-security-report-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "9b00762e-29ae-4348-b1b3-cf881790a040",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "White House details ‘Gold Eagle’ clearinghouse for AI cyber threats",
-      "summary": "The White House has launched 'Gold Eagle,' a new intelligence clearinghouse designed to track vulnerabilities in AI systems and accelerate the prioritization of security patches. This initiative serves as a central hub for sharing actionable threat intelligence to bolster the nation's AI infrastructure.",
-      "date": "2026-07-14T21:44:31.000Z",
-      "link": "https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/",
-      "isTopTen": false
-    },
-    {
-      "id": "9d949962-faff-490e-a2fc-42ea4cb65479",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Patch Tuesday security updates for July 2026, the largest update ever. 621 CVEs in one month",
-      "summary": "Microsoft's July 2026 Patch Tuesday sets a record with 621 addressed CVEs, including two actively exploited zero-days and critical vulnerabilities in key infrastructure services. This represents the largest single-month security update in the company's history.",
-      "date": "2026-07-14T21:33:05.000Z",
-      "link": "https://securityaffairs.com/195347/security/patch-tuesday-security-updates-for-july-2026-the-largest-update-ever-621-cves-in-one-month.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7da1805d-d847-480f-a6e3-8d076c9b7d2b",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Patchpocalypse Now: Microsoft tops last month's record with 622 Patch Tuesday CVEs",
-      "summary": "Microsoft has set a new record for Patch Tuesday, addressing 622 vulnerabilities in a single month. This massive volume of patches follows a previously record-breaking month of 206 CVEs, highlighting a significant surge in identified security flaws.",
-      "date": "2026-07-14T20:49:40.000Z",
-      "link": "https://www.theregister.com/security/2026/07/14/patchpocalypse-now-microsoft-tops-last-months-record-with-622-patch-tuesday-cves/5271434",
-      "isTopTen": false
-    },
-    {
-      "id": "61e77e54-99bd-4e4e-93d3-0983005c7db7",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
-      "summary": "Microsoft has released a record-breaking set of security updates addressing 622 vulnerabilities, including two zero-day flaws that are currently being actively exploited. Users are urged to prioritize these fixes immediately due to the active nature of the threats.",
-      "date": "2026-07-14T20:25:47.000Z",
-      "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4ccdab3d-dbde-4955-b27b-53c13ab36315",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record",
-      "summary": "Microsoft has reported a record-breaking surge in vulnerability disclosures, tripling the figures from June and validating predictions that AI-driven discovery would significantly accelerate the identification of software flaws. The report highlights an exponential increase in identified defects, prompting urgent warnings for security teams to bolster their patching efforts.",
-      "date": "2026-07-14T20:05:46.000Z",
-      "link": "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/",
       "isTopTen": false
     }
   ]
