@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-28T05:53:21.195Z",
+  "lastUpdated": "2026-07-28T08:42:38.874Z",
   "articles": [
+    {
+      "id": "79375d11-59e2-4017-9bc8-f1e3b233edbf",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+      "summary": "Microsoft introduced MAI-Cyber-1-Flash, a new cybersecurity-specific AI model integrated into its MDASH platform, achieving a 95.95% accuracy rate on CyberGym at half the previous operational cost. This development signifies a shift toward more efficient, specialized AI tools for vulnerability identification and remediation.",
+      "date": "2026-07-28T06:07:22.000Z",
+      "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+      "isTopTen": false
+    },
+    {
+      "id": "492c83f0-36c3-4345-9753-35dcd0a4ad53",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Shadow AI incident response begins with logs that may already be gone",
+      "summary": "The use of shadow AI often leads to security gaps, as critical logs and traffic records are frequently deleted before incident responders can investigate. Organizations struggle to bridge the divide between theoretical AI policies and actual technical enforcement, impacting their ability to meet regulatory standards.",
+      "date": "2026-07-28T06:00:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/28/brandy-wityak-levelblue-shadow-ai-incident-response/",
+      "isTopTen": true
+    },
     {
       "id": "1490ccac-1abb-4fde-972b-d6ddcc6140ee",
       "source": "Help Net Security",
@@ -32,7 +54,7 @@
       "summary": "Attackers are actively exploiting a critical command injection vulnerability (CVE-2026-16812) in on-premises versions of Arista VeloCloud Orchestrator that allows for arbitrary code execution.",
       "date": "2026-07-28T04:43:53.000Z",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b99026a5-f04d-47ad-8bf0-76ee30f3aca1",
@@ -153,7 +175,7 @@
       "summary": "NVIDIA and a coalition of 36 technology organizations have launched the Open Secure AI Alliance to collaboratively develop open-source frameworks for securing artificial intelligence agents and software. This initiative includes the release of the NOOA framework to standardize security practices across the AI ecosystem.",
       "date": "2026-07-27T18:10:05.000Z",
       "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "35b8f234-63c9-45a2-a588-58bf424bd56f",
@@ -274,7 +296,7 @@
       "summary": "A public exploit has been released for a pre-authentication remote code execution vulnerability in vBulletin versions 6.2.1 and earlier, allowing unauthenticated attackers to execute arbitrary code. Users are urged to patch immediately as the exploit requires no user interaction or administrative privileges.",
       "date": "2026-07-27T14:40:00.000Z",
       "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2ce2c338-6a5a-4fd5-b959-af802fe8186f",
@@ -329,7 +351,7 @@
       "summary": "Zenity has expanded its AI security platform by introducing Runtime Boundaries and Exposure Management to govern autonomous AI agents' decisions in real-time. This new architecture aims to secure long-horizon AI workflows by enforcing controls at the critical point of action.",
       "date": "2026-07-27T13:41:59.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/27/zenity-exposure-management-runtime-boundaries/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "95d11924-3cb1-428a-9f30-805142cece86",
@@ -439,7 +461,7 @@
       "summary": "Researchers discovered a critical remote code execution vulnerability in GitLab caused by chaining two memory corruption bugs in the Oj Ruby JSON parser. Users are strongly advised to patch their systems to prevent exploitation via Jupyter notebook diffs.",
       "date": "2026-07-27T11:20:35.000Z",
       "link": "https://securityaffairs.com/196062/hacking/gitlab-users-urged-to-patch-after-research-reveals-critical-rce-chain.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f14dbc2c-92ed-4bd3-9817-0bf4ba5e4ab5",
@@ -505,7 +527,7 @@
       "summary": "A threat actor linked to East Asia is targeting Middle East government entities using previously unreported malware families named TELESHIM, MIXEDKEY, and BINDCLOAK, which leverage Telegram for command-and-control operations.",
       "date": "2026-07-27T08:48:47.000Z",
       "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9fd881a7-f6f5-4ce8-b3de-0ca1e1de5d1e",
@@ -648,7 +670,7 @@
       "summary": "Recent cybersecurity news highlights the active exploitation of a ServiceNow pre-authentication remote code execution vulnerability and a security breach at Hugging Face. The report also discusses the complexities of managing multiple AI platforms in enterprise environments.",
       "date": "2026-07-26T08:00:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/26/week-in-review-servicenow-pre-auth-rce-exploited-in-the-wild-hugging-face-breached/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "22036cde-4226-44c7-ae7e-d8c174ed5a15",
@@ -5477,28 +5499,6 @@
       "summary": "Researchers discovered 148 malicious npm packages disguised as student proxy tools that infected browsers to participate in a DDoS botnet for two weeks in May. The campaign leveraged the npm registry to host harmful code, specifically targeting end-users visiting student-focused proxy sites.",
       "date": "2026-07-14T07:08:36.000Z",
       "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4bf577ab-4937-45a2-b06b-def4edc732b0",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "New tutorials on underground hacking forums have roughly doubled",
-      "summary": "Recent data reveals a twofold increase in unique, original hacking and financial fraud tutorials appearing on underground forums, with a specific focus on payment card theft and cash-out schemes. This shift indicates a growing sophistication in the educational resources available to cybercriminals.",
-      "date": "2026-07-14T06:30:19.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/14/underground-hacking-forums-tutorials-research/",
-      "isTopTen": false
-    },
-    {
-      "id": "ee4b0495-8d8b-4e88-b40f-0f4007ef0ed8",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Data Theft Across Three Paths",
-      "summary": "The ShinyHunters threat group has spent a year exfiltrating data from corporate Salesforce environments by exploiting trusted third-party OAuth connections rather than software vulnerabilities. This campaign highlights a systemic risk in how organizations manage application-to-application trust permissions.",
-      "date": "2026-07-14T06:19:24.000Z",
-      "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
       "isTopTen": false
     }
   ]
