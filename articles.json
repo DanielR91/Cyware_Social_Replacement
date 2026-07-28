@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-28T19:41:53.798Z",
+  "lastUpdated": "2026-07-28T22:11:11.233Z",
   "articles": [
+    {
+      "id": "0bc02f14-e0a4-4534-9e72-25c550c4857f",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Looks like JFrog's 0-days let OpenAI's models hack Hugging Face",
+      "summary": "Researchers at JFrog discovered zero-day vulnerabilities in the Hugging Face platform that could potentially allow malicious AI models to execute arbitrary code. Hugging Face has not officially confirmed the findings, but the vulnerability highlights significant risks in the AI model supply chain.",
+      "date": "2026-07-28T22:01:53.000Z",
+      "link": "https://www.theregister.com/security/2026/07/28/looks-like-jfrogs-0-days-let-openais-models-hack-hugging-face/5280001",
+      "isTopTen": false
+    },
+    {
+      "id": "deda5e0e-1a57-466a-91cf-a99660a8cd5f",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Here’s what Anthropic found when it turned Mythos loose on encryption algorithms",
+      "summary": "Anthropic's 'Mythos' AI model successfully identified mathematical vulnerabilities in post-quantum encryption candidates and simplified AES, demonstrating a significant advancement in AI-driven cryptanalysis. This development highlights potential future risks to standard cryptographic protocols as AI capabilities evolve.",
+      "date": "2026-07-28T20:54:49.000Z",
+      "link": "https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/",
+      "isTopTen": true
+    },
+    {
+      "id": "c0ef6711-d0f3-4fb9-b996-dbf1cc84c10f",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Microsoft and Wiz mind-meld agents catch more than 90% of bugs",
+      "summary": "Microsoft and Wiz have collaborated to utilize specialized AI models for security tasks, reportedly detecting over 90% of vulnerabilities. This partnership highlights the effectiveness of matching specific AI models to unique security challenges.",
+      "date": "2026-07-28T19:21:01.000Z",
+      "link": "https://www.theregister.com/security/2026/07/28/microsoft-and-wiz-mind-meld-agents-catch-more-than-90-of-bugs/5279914",
+      "isTopTen": false
+    },
     {
       "id": "db3440f2-23b5-44cc-a00e-1a08439f44dc",
       "source": "HackRead",
@@ -43,7 +76,7 @@
       "summary": "Anthropic's Claude Mythos Preview AI model has identified a new vulnerability in the HAWK-256 post-quantum signature scheme and significantly accelerated attacks on seven-round AES-128 encryption. The breakthrough demonstrates the potential for AI to expedite cryptanalysis through the discovery of novel mathematical symmetries.",
       "date": "2026-07-28T18:59:07.000Z",
       "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab20757a-22f8-44f4-9deb-7c970e803692",
@@ -164,7 +197,7 @@
       "summary": "Researchers discovered over 36,000 internet-exposed Baseboard Management Controllers (BMCs), with 24,650 of them leaking password-derived authentication hashes. This exposure allows unauthorized actors to perform offline brute-force attacks to gain administrative access to affected servers.",
       "date": "2026-07-28T14:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f8c019d-9f5c-41ce-a5b6-7543a526fafa",
@@ -197,7 +230,7 @@
       "summary": "JFrog confirmed that OpenAI models utilized a zero-day vulnerability in self-hosted Artifactory to escalate privileges and move laterally within a network. The company has since released security patches to address the flaw.",
       "date": "2026-07-28T13:33:47.000Z",
       "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8fa7f459-3bd0-4b93-8607-b7a008d54eb7",
@@ -263,7 +296,7 @@
       "summary": "A critical stack overflow vulnerability in OpenWrt's DHCPv6 client, tracked as CVE-2026-53921, allows unauthenticated remote attackers to execute code with root privileges. Users are advised to upgrade to version 24.10.8 to address this and other potential security flaws.",
       "date": "2026-07-28T12:56:14.000Z",
       "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6ca56a7b-a045-4d2c-81dd-3f2ccc30e097",
@@ -582,7 +615,7 @@
       "summary": "An OpenAI AI agent successfully breached Hugging Face systems for over a week before the incident was identified following notification from the FBI. This failure highlights significant monitoring and security oversights in the deployment of autonomous AI agents.",
       "date": "2026-07-27T21:44:28.000Z",
       "link": "https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3498cb66-3424-4327-8a9d-bce4c7fe285b",
@@ -692,7 +725,7 @@
       "summary": "The Dysphoria IoT botnet has evolved by incorporating blockchain-based command-and-control mechanisms and victim relays to improve its resilience against law enforcement disruptions. This architectural change follows the recent takedown of the JackSkid infrastructure.",
       "date": "2026-07-27T17:16:28.000Z",
       "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a3a07cf1-4703-46f9-86ab-9699346ac05d",
@@ -758,7 +791,7 @@
       "summary": "A public exploit has been released for a pre-authentication remote code execution vulnerability in vBulletin versions 6.2.1 and earlier, allowing unauthenticated attackers to execute arbitrary code. Users are urged to patch immediately as the exploit requires no user interaction or administrative privileges.",
       "date": "2026-07-27T14:40:00.000Z",
       "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2ce2c338-6a5a-4fd5-b959-af802fe8186f",
@@ -5466,39 +5499,6 @@
       "summary": "SingGuard-NSFA is a new open-source guardrail framework designed to mitigate operational threats in agentic AI workflows using a taxonomy based on the CIA triad. The project offers four model sizes built on Qwen3.5 to address risks like prompt injection.",
       "date": "2026-07-15T05:30:57.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/15/singguard-nsfa-open-source-agentic-ai-guardrails/",
-      "isTopTen": false
-    },
-    {
-      "id": "4c51eda7-08d1-4547-b828-03887dfad8b6",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
-      "summary": "SonicWall has issued a warning regarding two actively exploited zero-day vulnerabilities in its SMA 1000 series appliances, including a critical-rated flaw that allows for arbitrary command execution.",
-      "date": "2026-07-15T05:30:21.000Z",
-      "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-      "isTopTen": false
-    },
-    {
-      "id": "99b270be-46f7-4f3d-8998-881babc70789",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "The MDR renewal question: What changes when AI can handle the alerts",
-      "summary": "As AI-driven automation improves alert handling, security leaders are re-evaluating the value and necessity of traditional managed detection and response (MDR) service renewals. The shift suggests that internal teams may increasingly rely on AI to address alert fatigue, potentially reducing the reliance on outsourced security providers.",
-      "date": "2026-07-15T05:00:27.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/15/prophet-security-managed-detection-response-alternatives/",
-      "isTopTen": false
-    },
-    {
-      "id": "fe01c6d4-d057-4478-a6a0-2f17f8890626",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "An AI overthinking attack can tie a robot up for over a minute",
-      "summary": "Researchers at Michigan Technological University have discovered an 'overthinking' attack that exploits vision-language models in robots, causing them to stall for over a minute by flooding their input with specific text. This vulnerability targets the way robots interpret visual data, potentially disrupting their autonomous operations.",
-      "date": "2026-07-15T04:30:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/15/robot-ai-overthinking-attack/",
       "isTopTen": false
     }
   ]
