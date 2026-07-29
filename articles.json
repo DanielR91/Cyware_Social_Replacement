@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-29T19:25:28.280Z",
+  "lastUpdated": "2026-07-29T22:07:17.127Z",
   "articles": [
+    {
+      "id": "cf6755a3-f754-4576-a6e1-0b2b3ede1558",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Claude Mythos Shows AI Can Outpace Human Cryptography Research",
+      "summary": "Anthropic's Claude Mythos model has autonomously identified significant cryptographic vulnerabilities in the HAWK signature scheme and accelerated attacks on reduced-round AES. This development demonstrates that AI systems are capable of independently advancing cryptographic research, potentially impacting future security standards.",
+      "date": "2026-07-29T21:10:02.000Z",
+      "link": "https://securityaffairs.com/196265/ai/claude-mythos-shows-ai-can-outpace-human-cryptography-research.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0b097f7f-ed72-4779-9e82-784ab8499f3d",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "A little-known npm package was North Korea’s warm-up act for the axios hack",
+      "summary": "Amazon's threat intelligence team linked a supply chain attack involving a minor npm package to a broader campaign by a North Korean threat actor, identifying it as a precursor to the axios hack.",
+      "date": "2026-07-29T21:09:57.000Z",
+      "link": "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
+      "isTopTen": true
+    },
+    {
+      "id": "dd20d3e3-6267-4023-b040-f8a5ef21bbc8",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Supply chain challenges loom large in quantum race, White House official says",
+      "summary": "A White House official highlighted significant supply chain vulnerabilities and the future need for post-quantum encryption as primary hurdles in the ongoing global quantum computing race.",
+      "date": "2026-07-29T20:22:10.000Z",
+      "link": "https://cyberscoop.com/white-house-quantum-supply-chain-challenges/",
+      "isTopTen": false
+    },
+    {
+      "id": "3fc89291-7297-4c2d-893b-7e031fae149b",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers Strike Minnesota Water Utilities, One Plant Briefly Offline",
+      "summary": "Coordinated cyberattacks targeted operational technology at over 30 Minnesota water utilities, resulting in one plant going briefly offline. Effective backup procedures successfully prevented significant disruptions to water services.",
+      "date": "2026-07-29T19:26:12.000Z",
+      "link": "https://securityaffairs.com/196246/hacking/hackers-strike-minnesota-water-utilities-one-plant-briefly-offline.html",
+      "isTopTen": false
+    },
     {
       "id": "4dcfb086-44d3-4b17-949e-0e1ca36fe5bf",
       "source": "The Register",
@@ -21,7 +65,7 @@
       "summary": "A critical vulnerability in Ruby on Rails, tracked as CVE-2026-66066, allows unauthenticated attackers to read sensitive server files, including environment secrets, via malicious image uploads. The flaw carries a CVSS score of 9.5 and necessitates immediate patching.",
       "date": "2026-07-29T18:10:00.000Z",
       "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a8ce8f83-67cd-4f30-a1d4-0381be07b5f1",
@@ -43,7 +87,7 @@
       "summary": "OpenAI disclosed that a threat actor involved in the recent Hugging Face breach also targeted four additional, unnamed organizations. The incident highlights a coordinated campaign of unauthorized access across multiple service providers.",
       "date": "2026-07-29T17:22:00.000Z",
       "link": "https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "85b1d89f-732f-48fe-8e8b-264e8aa12bfa",
@@ -54,7 +98,7 @@
       "summary": "A security researcher has identified a 'word worm' exploit targeting Microsoft Copilot, noting that Microsoft has yet to implement a effective fix after months of disclosure. The vulnerability poses a significant risk as it could allow for automated spreading of malicious content through the AI platform.",
       "date": "2026-07-29T16:43:54.000Z",
       "link": "https://www.theregister.com/security/2026/07/29/word-worm-crawls-into-copilot-spreads-chaos/5280588",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6b094398-d3d4-41d4-abbf-5d85c4e427bb",
@@ -98,7 +142,7 @@
       "summary": "Ruflo has patched a critical CVSS 10.0 vulnerability that allowed unauthenticated attackers to hijack the MCP bridge and access sensitive AI provider keys and chat data. The flaw posed a severe risk by exposing persistent agent memory and credentials.",
       "date": "2026-07-29T14:58:15.000Z",
       "link": "https://hackread.com/rufroot-vulnerability-attackers-hijack-ruflo-login/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f8d04a6a-ca31-40e7-859d-0992a0712f08",
@@ -241,7 +285,7 @@
       "summary": "Angola's primary telecommunications provider, Unitel, experienced a massive cyberattack resulting in widespread service disruptions across the country just before its initial public offering. The incident has effectively cut off millions of users from voice, data, and internet services.",
       "date": "2026-07-29T12:15:00.000Z",
       "link": "https://therecord.media/angola-unitel-cyberattack-outage",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c5c015a3-f35e-43cf-a41f-46b4f3bb46a1",
@@ -252,7 +296,7 @@
       "summary": "A high-severity JIT vulnerability in Firefox, identified as CVE-2026-10702, allows for arbitrary code execution in the browser's renderer process simply by visiting a malicious webpage, impacting both Firefox and the Tor Browser. Mozilla has released a patch to address this flaw, which requires no user interaction to trigger.",
       "date": "2026-07-29T11:57:00.000Z",
       "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9c2220f4-75ec-455f-93cb-a80217992f1e",
@@ -329,7 +373,7 @@
       "summary": "The recent Hugging Face breach highlights a significant gap in federal policy regarding autonomous AI systems. The article argues that existing governance frameworks must be formally applied to mitigate risks posed by rogue AI agents.",
       "date": "2026-07-29T10:00:00.000Z",
       "link": "https://cyberscoop.com/openai-rogue-agent-federal-rules-autonomous-ai/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c237d8e0-cb4a-4411-932b-4aeaf876c7d9",
@@ -373,7 +417,7 @@
       "summary": "A public proof-of-concept has been released for a critical authentication bypass vulnerability (CVE-2026-16232) in Check Point SmartConsole, which is currently being exploited in the wild.",
       "date": "2026-07-29T08:58:27.000Z",
       "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9963e4d4-3fcf-4bf1-864b-cb63e6d2d774",
@@ -406,7 +450,7 @@
       "summary": "A VPN provider known as SplitVPN suffered a significant data breach exposing 58 million user connection logs and personal records, despite marketing itself as a 'no-logs' service. The stolen 17 GB database is currently being circulated on a cybercrime forum.",
       "date": "2026-07-29T08:28:52.000Z",
       "link": "https://securityaffairs.com/196197/security/vpn-breach-exposes-58-million-connection-logs-despite-no-logs-claims.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d54cecc3-dfcc-42df-9190-2eca947867ed",
@@ -461,7 +505,7 @@
       "summary": "Security researcher Elad Meged demonstrated that AI agents can be manipulated to execute unauthorized shell commands and leak sensitive data even when operating within vendor-defined safety parameters. This highlights a significant security vulnerability in the automated workflows utilized by code repository management systems.",
       "date": "2026-07-29T06:00:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/29/ai-agent-security-safety-check/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "223d85ac-d2ca-431c-a16e-5e3c035f7b71",
@@ -472,7 +516,7 @@
       "summary": "The energy sector is facing a critical cybersecurity staffing crisis as expert personnel retire faster than they can be replaced, leaving legacy operational technology systems vulnerable to prolonged ransomware impacts. This talent gap increases the risk of extended outages and significant supply chain disruptions following security incidents.",
       "date": "2026-07-29T05:30:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/29/ot-cybersecurity-in-energy/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "59dc4803-6398-4963-993b-e3f9ae049114",
@@ -516,6 +560,17 @@
       "summary": "Popular machine learning-based Android malware detectors are experiencing high false-positive rates, incorrectly flagging legitimate apps due to their permissions-based context. This research highlights significant limitations in current automated security scanning tools.",
       "date": "2026-07-29T04:00:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/29/android-malware-detection-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "50fdfc43-05fb-48d4-9541-907b86899da0",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "FTC sues Hims & Hers for allegedly sharing patient information with third-party platforms",
+      "summary": "The FTC has filed a lawsuit against telehealth provider Hims & Hers, alleging the company illegally shared sensitive patient health data with third-party advertising platforms like Meta and Snap. This legal action highlights a significant breach of patient privacy promises.",
+      "date": "2026-07-29T04:00:00.000Z",
+      "link": "https://therecord.media/hims-hers-privacy-lawsuit-ftc",
       "isTopTen": false
     },
     {
@@ -637,7 +692,7 @@
       "summary": "Anthropic's Claude Mythos Preview AI model has identified a new vulnerability in the HAWK-256 post-quantum signature scheme and significantly accelerated attacks on seven-round AES-128 encryption. The breakthrough demonstrates the potential for AI to expedite cryptanalysis through the discovery of novel mathematical symmetries.",
       "date": "2026-07-28T18:59:07.000Z",
       "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab20757a-22f8-44f4-9deb-7c970e803692",
@@ -5444,61 +5499,6 @@
       "summary": "This article explores the systemic risks inherent in corporate reliance on open-source software, highlighting how significant security incidents like the Log4j and XZ Utils flaws exposed critical vulnerabilities in global supply chains. It discusses the potential impact and implications of public funding for open-source maintenance.",
       "date": "2026-07-16T05:30:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/",
-      "isTopTen": false
-    },
-    {
-      "id": "4d5a837b-dec5-4d40-9f44-c7ebec4538c0",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Ransom demands are down, email is the top way attackers get in",
-      "summary": "Recent data indicates that while ransomware demands have decreased, phishing and malicious emails remain the primary entry point for cyberattacks. These tactics account for half of all security incidents by exploiting employee credentials to gain network access.",
-      "date": "2026-07-16T05:00:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/16/sophos-state-of-ransomware-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "e58341c6-99ce-405c-84c9-f6c704f4ff83",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Companies keep getting breached by vulnerabilities they already knew about",
-      "summary": "Despite advanced scanning tools, organizations are failing to address identified vulnerabilities due to inefficiencies in the remediation process. This gap between discovery and deployment leaves companies susceptible to known security weaknesses.",
-      "date": "2026-07-16T04:30:01.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/16/ciso-vulnerability-remediation-gap/",
-      "isTopTen": false
-    },
-    {
-      "id": "0bef711d-5c4b-4cb0-bd8b-3fa936248ab9",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "GPT-Red beat human red teamers on a prompt injection test",
-      "summary": "OpenAI has developed GPT-Red, an automated red-teaming model that uses reinforcement learning to identify prompt injection vulnerabilities in GPT models more effectively than human testers. The system improves by iterating through attack scenarios against defender models to find weaknesses like data exfiltration.",
-      "date": "2026-07-16T03:49:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/16/openai-gpt-red-prompt-injection-test/",
-      "isTopTen": false
-    },
-    {
-      "id": "d6f6f234-3281-4a21-a700-3bd74e0cd96c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Finance phishing works because it sounds boringly normal",
-      "summary": "Attackers are successfully using mundane, business-related phishing emails that mimic standard financial workflows to bypass AI-based security gateways. This strategy exploits the high volume of routine invoice and procurement communication to gain initial access to organizations.",
-      "date": "2026-07-16T03:30:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/16/cofense-finance-phishing-tactics-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "b4dd1c72-5176-497a-b38f-fe2bba874073",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cyberattack threatens utterly critical infrastructure in Japan: KFC",
-      "summary": "KFC Japan suspended its online ordering system and faces potential store closures following a cyberattack on its logistics partner. The incident has disrupted supply chain operations, impacting the company's ability to fulfill customer orders.",
-      "date": "2026-07-16T02:01:01.000Z",
-      "link": "https://www.theregister.com/security/2026/07/16/cyberattack-threatens-utterly-critical-infrastructure-in-japan-kfc/5272220",
       "isTopTen": false
     }
   ]
