@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-30T19:42:51.972Z",
+  "lastUpdated": "2026-07-30T22:12:00.383Z",
   "articles": [
+    {
+      "id": "2eb8ad51-4679-4d82-8060-6241f3b43ed1",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Top 7 Enterprise IT Asset Management Software for 2027",
+      "summary": "This article evaluates seven enterprise IT asset management platforms to help organizations optimize security, compliance, and lifecycle tracking for 2027. It serves as a guide for businesses looking to enhance infrastructure management and operational efficiency.",
+      "date": "2026-07-30T20:59:02.000Z",
+      "link": "https://hackread.com/top-it-asset-management-software-2027/",
+      "isTopTen": false
+    },
+    {
+      "id": "a3606289-d35c-49ad-a5df-e8de3a3f2282",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Okta’s deal for Permiso aims to close gaps in identity threat detection",
+      "summary": "Okta has acquired Permiso to enhance its identity threat detection capabilities and gain better visibility into AI agent activities within enterprise environments.",
+      "date": "2026-07-30T20:47:37.000Z",
+      "link": "https://cyberscoop.com/okta-acquires-permiso-security-ai-identity-threat-detection/",
+      "isTopTen": false
+    },
+    {
+      "id": "7de113c4-de46-45c6-92af-15e132ffb324",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Why brand impersonation is becoming an initial access vector",
+      "summary": "Brand impersonation is evolving into a primary initial access vector as attackers leverage fake websites and malicious applications to deliver malware, as evidenced by recent large-scale poisoning of over 700 reputable domains. This trend necessitates rapid incident response and takedown capabilities to mitigate the effectiveness of social engineering campaigns like ClickFix.",
+      "date": "2026-07-30T19:32:42.000Z",
+      "link": "https://securityaffairs.com/196359/hacking/why-brand-impersonation-is-becoming-an-initial-access-vector.html",
+      "isTopTen": false
+    },
     {
       "id": "a25c456d-d5ac-4c88-9ed5-60e365a364a8",
       "source": "The Record",
@@ -109,7 +142,7 @@
       "summary": "The article highlights that despite the existence of proven technological solutions to secure military telecommunications against attacks, these defenses are not being implemented. It calls for urgent institutional action to address this gap in national security.",
       "date": "2026-07-30T15:23:58.000Z",
       "link": "https://defensescoop.com/2026/07/30/we-know-how-to-protect-our-troops-from-telecom-attacks-were-just-not-doing-it/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ebe6b087-a6c9-4c28-a3cb-bce0e091334c",
@@ -120,7 +153,7 @@
       "summary": "Microsoft patched a critical vulnerability called CosmosEscape in Azure's Gremlin API that could have allowed unauthorized access to any Cosmos DB account. Researchers identified the flaw, and Microsoft confirmed that no customer data was compromised.",
       "date": "2026-07-30T15:17:42.000Z",
       "link": "https://hackread.com/microsoft-cosmosescape-flaw-cosmos-db-takeover/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "62ebd132-8229-4f7e-ac37-64bcfd8539ca",
@@ -153,7 +186,7 @@
       "summary": "The cyber espionage group Laundry Bear is actively exploiting a cross-site scripting vulnerability (CVE-2026-42897) in Microsoft Exchange to target government and private sector organizations via malicious email lures. Proofpoint reports that the exploit triggers upon opening the email, allowing the attackers to compromise targeted systems.",
       "date": "2026-07-30T14:23:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/cve-2026-42897-microsoft-exchange-email-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a009e91e-7e18-4d3b-aeaa-10c3b0e9ec78",
@@ -164,7 +197,7 @@
       "summary": "South Korean agencies have identified that North Korea's Lazarus Group is collaborating with ransomware gangs by sharing attack infrastructure and tools. This development highlights an increasing integration between state-sponsored threat actors and profit-driven cybercriminals.",
       "date": "2026-07-30T14:00:00.000Z",
       "link": "https://therecord.media/north-korea-hackers-ransomware",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "890ec255-1404-48d3-9dbb-f03a0465b52a",
@@ -175,7 +208,7 @@
       "summary": "A vulnerability in Azure Cosmos DB known as 'CosmosEscape' allowed attackers to escape the Gremlin query sandbox and gain unauthorized read and write access to customer databases across the platform. The flaw has since been patched by Microsoft.",
       "date": "2026-07-30T13:34:09.000Z",
       "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a8db5f18-3979-4d8d-a62d-2166ccf2ebe4",
@@ -274,7 +307,7 @@
       "summary": "CISA has warned that attackers are actively exploiting a static credentials vulnerability (CVE-2026-20316) in Cisco Secure Firewall Management Center (FMC) that allows unauthorized access to the web interface.",
       "date": "2026-07-30T10:44:09.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/cisco-fmc-cve-2026-20316-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2a29aaa5-816b-4918-83ad-33a6c630cbd3",
@@ -329,7 +362,7 @@
       "summary": "Russian state-sponsored actors are targeting Microsoft Outlook with a new 'half-click' email exploit that installs persistent, platform-agnostic browser implants. The malware is capable of maintaining access even after password resets or full device re-imaging.",
       "date": "2026-07-30T10:29:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/30/russian-spies-take-their-half-click-email-attack-from-zimbra-to-outlook/5281033",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0ddde670-76f4-4146-a621-6c3f4db44d80",
@@ -538,7 +571,7 @@
       "summary": "Anthropic's Claude Mythos model has autonomously identified significant cryptographic vulnerabilities in the HAWK signature scheme and accelerated attacks on reduced-round AES. This development demonstrates that AI systems are capable of independently advancing cryptographic research, potentially impacting future security standards.",
       "date": "2026-07-29T21:10:02.000Z",
       "link": "https://securityaffairs.com/196265/ai/claude-mythos-shows-ai-can-outpace-human-cryptography-research.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b097f7f-ed72-4779-9e82-784ab8499f3d",
@@ -5466,39 +5499,6 @@
       "summary": "Backblaze's Q1 2026 report analyzes the reliability and annualized failure rates of over 341,000 hard drives ranging from 4TB to 20TB capacities. The data provides insights into drive performance and durability for continuous cloud storage operations.",
       "date": "2026-07-17T04:30:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/17/hard-drive-reliability-2026-4tb-20tb/",
-      "isTopTen": false
-    },
-    {
-      "id": "06ef8a9a-133e-4a42-a6c2-9eae1904ca2f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the week: July 17, 2026",
-      "summary": "Polygraf AI has launched Meeting Guard, a real-time deepfake detection tool designed to secure enterprise virtual meetings by identifying fraud during live sessions.",
-      "date": "2026-07-17T04:00:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/17/new-infosec-products-of-the-week-july-17-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "1ef02bc8-feea-48bd-a8da-85f36763664d",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "South Korea making its own security-centric AI model",
-      "summary": "South Korea is developing a sovereign, security-focused AI model by adapting an existing local LLM project to enhance national cybersecurity capabilities. The initiative aims to reduce dependency on foreign technology and eventually reach the performance standards of the Mythos model.",
-      "date": "2026-07-17T01:56:40.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/17/south-korea-making-its-own-security-centric-ai-model/5274034",
-      "isTopTen": false
-    },
-    {
-      "id": "b2fb6a53-92d8-4b18-beaa-dae283c248c1",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report",
-      "summary": "This report examines the evolving cybersecurity landscape, focusing on how AI and automation are being utilized by threat actors and defenders alike. It provides critical insights from Unit 42's analysis of global incident response data.",
-      "date": "2026-07-16T23:00:59.000Z",
-      "link": "https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/",
       "isTopTen": false
     }
   ]
