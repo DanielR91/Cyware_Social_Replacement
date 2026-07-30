@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-29T22:07:17.127Z",
+  "lastUpdated": "2026-07-30T02:44:04.168Z",
   "articles": [
+    {
+      "id": "c58631d6-fd2a-43d5-a381-1f680d1f4a59",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "LeakNet Claims 11TB of Data Stolen in NYC Health + Hospitals Breach",
+      "summary": "The hacking group LeakNet alleges it has stolen 11TB of data from NYC Health + Hospitals, compromising the sensitive medical and biometric information of over 12 million individuals.",
+      "date": "2026-07-30T00:12:04.000Z",
+      "link": "https://hackread.com/leaknet-11tb-stolen-nyc-health-hospitals-data-breach/",
+      "isTopTen": true
+    },
     {
       "id": "cf6755a3-f754-4576-a6e1-0b2b3ede1558",
       "source": "Security Affairs",
@@ -87,7 +98,7 @@
       "summary": "OpenAI disclosed that a threat actor involved in the recent Hugging Face breach also targeted four additional, unnamed organizations. The incident highlights a coordinated campaign of unauthorized access across multiple service providers.",
       "date": "2026-07-29T17:22:00.000Z",
       "link": "https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "85b1d89f-732f-48fe-8e8b-264e8aa12bfa",
@@ -142,7 +153,7 @@
       "summary": "Ruflo has patched a critical CVSS 10.0 vulnerability that allowed unauthenticated attackers to hijack the MCP bridge and access sensitive AI provider keys and chat data. The flaw posed a severe risk by exposing persistent agent memory and credentials.",
       "date": "2026-07-29T14:58:15.000Z",
       "link": "https://hackread.com/rufroot-vulnerability-attackers-hijack-ruflo-login/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8d04a6a-ca31-40e7-859d-0992a0712f08",
@@ -175,7 +186,7 @@
       "summary": "State officials are investigating a coordinated cyberattack that disrupted operations at over 30 Minnesota water facilities, with the Iran-linked group CyberAv3ngers identified as a primary suspect. The incident highlights ongoing security concerns regarding critical infrastructure and state-sponsored cyber threats.",
       "date": "2026-07-29T13:49:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/29/iran-linked-cyberav3ngers-suspected-in-attacks-on-minnesota-water-systems/5280357",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ba97d12c-99c3-4fa4-9ed4-e341dd3f5428",
@@ -186,7 +197,7 @@
       "summary": "A coordinated cyberattack targeted operational technology across over 30 Minnesota water systems, resulting in plant outages and the loss of automated controls. The incident prompted a statewide response to manage the disruption and restore operations.",
       "date": "2026-07-29T13:48:36.000Z",
       "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8e4b6ca7-6c12-45f6-ae9b-e38a945b8372",
@@ -296,7 +307,7 @@
       "summary": "A high-severity JIT vulnerability in Firefox, identified as CVE-2026-10702, allows for arbitrary code execution in the browser's renderer process simply by visiting a malicious webpage, impacting both Firefox and the Tor Browser. Mozilla has released a patch to address this flaw, which requires no user interaction to trigger.",
       "date": "2026-07-29T11:57:00.000Z",
       "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9c2220f4-75ec-455f-93cb-a80217992f1e",
@@ -373,7 +384,7 @@
       "summary": "The recent Hugging Face breach highlights a significant gap in federal policy regarding autonomous AI systems. The article argues that existing governance frameworks must be formally applied to mitigate risks posed by rogue AI agents.",
       "date": "2026-07-29T10:00:00.000Z",
       "link": "https://cyberscoop.com/openai-rogue-agent-federal-rules-autonomous-ai/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c237d8e0-cb4a-4411-932b-4aeaf876c7d9",
@@ -450,7 +461,7 @@
       "summary": "A VPN provider known as SplitVPN suffered a significant data breach exposing 58 million user connection logs and personal records, despite marketing itself as a 'no-logs' service. The stolen 17 GB database is currently being circulated on a cybercrime forum.",
       "date": "2026-07-29T08:28:52.000Z",
       "link": "https://securityaffairs.com/196197/security/vpn-breach-exposes-58-million-connection-logs-despite-no-logs-claims.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d54cecc3-dfcc-42df-9190-2eca947867ed",
@@ -516,7 +527,7 @@
       "summary": "The energy sector is facing a critical cybersecurity staffing crisis as expert personnel retire faster than they can be replaced, leaving legacy operational technology systems vulnerable to prolonged ransomware impacts. This talent gap increases the risk of extended outages and significant supply chain disruptions following security incidents.",
       "date": "2026-07-29T05:30:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/29/ot-cybersecurity-in-energy/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "59dc4803-6398-4963-993b-e3f9ae049114",
@@ -549,7 +560,7 @@
       "summary": "Two beta versions of npm packages under the @joyfill namespace were compromised to include an import-time JavaScript implant that executes a RAT from the DEV#POPPER malware family. This incident highlights a supply chain attack targeting Node.js environments via malicious dependency injections.",
       "date": "2026-07-29T04:20:57.000Z",
       "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6130dc47-a1e9-4006-97ed-a04602a646fd",
@@ -5488,17 +5499,6 @@
       "summary": "As cyber insurance adoption grows to meet regulatory and contractual demands, companies face increasing uncertainty regarding coverage gaps and unpredictable payout structures. The global cyber protection gap remains a significant challenge, with an estimated $900 billion disparity between exposure and coverage.",
       "date": "2026-07-16T06:00:55.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/16/cyber-insurance-coverage-gap/",
-      "isTopTen": false
-    },
-    {
-      "id": "79b47ede-e154-4afb-8dba-fdcded157a22",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "What public money does to open-source projects",
-      "summary": "This article explores the systemic risks inherent in corporate reliance on open-source software, highlighting how significant security incidents like the Log4j and XZ Utils flaws exposed critical vulnerabilities in global supply chains. It discusses the potential impact and implications of public funding for open-source maintenance.",
-      "date": "2026-07-16T05:30:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/",
       "isTopTen": false
     }
   ]
