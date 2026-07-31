@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-31T14:22:52.369Z",
+  "lastUpdated": "2026-07-31T16:51:07.907Z",
   "articles": [
+    {
+      "id": "912d21e2-aebd-41ac-8061-f42f3c35d382",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
+      "summary": "Researchers discovered that inexpensive Android TV boxes are being pre-installed with malware that mimics mobile hardware to facilitate ad fraud and turn user broadband connections into illicit proxies. The operation, dubbed Fuyao, is linked to a China-based company.",
+      "date": "2026-07-31T14:45:01.000Z",
+      "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+      "isTopTen": false
+    },
     {
       "id": "a7f90605-df20-43e3-9c9f-eafcb7518c7f",
       "source": "The Register",
@@ -10,6 +21,17 @@
       "summary": "CAF Bank customers, including 14,000 charities, remain unable to access their online accounts a week after a service shutdown, causing significant operational disruptions. The lack of a restoration timeline has hindered the organizations' ability to process essential payments like staff salaries.",
       "date": "2026-07-31T13:55:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/31/charities-remain-locked-out-of-caf-bank-online-accounts/5281711",
+      "isTopTen": false
+    },
+    {
+      "id": "32de4fcc-8a52-4bac-b445-2c2b149029e9",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Google AI Supercharges Chrome Security, Fixing 1,072 Bugs",
+      "summary": "Google has successfully integrated AI models into its security pipeline, allowing for the identification and remediation of 1,072 vulnerabilities within two Chrome releases. This implementation demonstrates a significant advancement in automated vulnerability management and software patching efficiency.",
+      "date": "2026-07-31T13:46:45.000Z",
+      "link": "https://securityaffairs.com/196408/ai/google-ai-supercharges-chrome-security-fixing-1072-bugs.html",
       "isTopTen": false
     },
     {
@@ -35,6 +57,17 @@
       "isTopTen": true
     },
     {
+      "id": "49e0ad76-b0d3-4af5-b837-61980d8c26aa",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
+      "summary": "Google recently addressed 1,442 security vulnerabilities across three Chrome releases, marking a significant increase in patch volume compared to previous update cycles. A large portion of these flaws were identified through internal Google security reporting.",
+      "date": "2026-07-31T12:51:52.000Z",
+      "link": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+      "isTopTen": false
+    },
+    {
       "id": "33b13f47-8c65-4c06-8470-de3ae2fee021",
       "source": "Security Affairs",
       "tag": "Malware and Vulnerabilities",
@@ -54,7 +87,7 @@
       "summary": "Security researchers uncovered a multimillion-dollar ad fraud operation called Fuyao, which leverages preinstalled malware on Android TV boxes, AI-generated content, and residential proxies to siphon revenue. The sophisticated campaign utilizes both children's coding software and device spoofing to remain undetected for years.",
       "date": "2026-07-31T12:19:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/31/fuyao-ad-fraud-botnet-android-tv-boxes/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7c085b84-6295-4729-898e-edb291dd30a0",
@@ -79,6 +112,17 @@
       "isTopTen": false
     },
     {
+      "id": "146deace-907c-46d5-8d89-49c7fe0b44b3",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+      "summary": "Researchers from Nanyang Technological University discovered 84 vulnerabilities in 4G and 5G core networks that could enable denial-of-service attacks and session hijacking. These flaws represent a widespread systemic issue within mobile infrastructure security.",
+      "date": "2026-07-31T11:55:00.000Z",
+      "link": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+      "isTopTen": true
+    },
+    {
       "id": "53549293-3c68-420d-8f97-bed891b4dbce",
       "source": "The Hacker News",
       "tag": "Threat Intel & Info Sharing",
@@ -98,7 +142,7 @@
       "summary": "A threat actor identified as knaithe is utilizing the DeepSeek AI model integrated into the Hermes Agent framework to execute autonomous, self-directed cyberattacks. This development signifies a shift toward AI-driven exploit selection without requiring constant manual operator input.",
       "date": "2026-07-31T11:21:27.000Z",
       "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7cd41ac7-47c9-4005-8bf1-6026fc36057b",
@@ -120,7 +164,7 @@
       "summary": "The Hugging Face breach highlights the emerging threat of autonomous AI agents being utilized to execute end-to-end cyberattacks against production infrastructure. This incident underscores a shift toward automated, agent-driven exploitation methods that security defenses must now counter.",
       "date": "2026-07-31T10:00:00.000Z",
       "link": "https://cyberscoop.com/hugging-face-breach-agentic-ai-security-op-ed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "00e78b9b-2c68-446f-8d4c-300b2f86f40f",
@@ -395,7 +439,7 @@
       "summary": "Autonomous AI offensive agents are lowering the barrier to entry for cyberattacks, significantly accelerating the threat landscape for vulnerability identification and exploitation. Security researchers warn that these tools are shifting the balance of power, forcing defenders into an increasingly rapid technological arms race.",
       "date": "2026-07-30T17:16:56.000Z",
       "link": "https://securityaffairs.com/196331/ai/cybercriminals-are-leveraging-autonomous-ai-offensive-security-agents.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7278ae60-363b-41c3-b650-53aab13bc37f",
@@ -461,7 +505,7 @@
       "summary": "Microsoft patched a critical vulnerability called CosmosEscape in Azure's Gremlin API that could have allowed unauthorized access to any Cosmos DB account. Researchers identified the flaw, and Microsoft confirmed that no customer data was compromised.",
       "date": "2026-07-30T15:17:42.000Z",
       "link": "https://hackread.com/microsoft-cosmosescape-flaw-cosmos-db-takeover/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "62ebd132-8229-4f7e-ac37-64bcfd8539ca",
@@ -505,7 +549,7 @@
       "summary": "South Korean agencies have identified that North Korea's Lazarus Group is collaborating with ransomware gangs by sharing attack infrastructure and tools. This development highlights an increasing integration between state-sponsored threat actors and profit-driven cybercriminals.",
       "date": "2026-07-30T14:00:00.000Z",
       "link": "https://therecord.media/north-korea-hackers-ransomware",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "890ec255-1404-48d3-9dbb-f03a0465b52a",
@@ -516,7 +560,7 @@
       "summary": "A vulnerability in Azure Cosmos DB known as 'CosmosEscape' allowed attackers to escape the Gremlin query sandbox and gain unauthorized read and write access to customer databases across the platform. The flaw has since been patched by Microsoft.",
       "date": "2026-07-30T13:34:09.000Z",
       "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a8db5f18-3979-4d8d-a62d-2166ccf2ebe4",
@@ -571,7 +615,7 @@
       "summary": "Security researcher Håkon Måløy discovered that Microsoft 365 Copilot can be exploited to embed and propagate hidden prompts within Word documents, causing the tool to replicate malicious or unauthorized instructions across subsequent files. The vulnerability allows these hidden prompts to persist and trigger unintended actions in future drafting sessions.",
       "date": "2026-07-30T11:54:49.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5e7a7daa-bf6f-4673-9a79-1cfcb585d174",
@@ -604,7 +648,7 @@
       "summary": "Threat actors are bypassing phishing detection by leveraging legitimate Microsoft authentication infrastructure to host malicious login flows, making it difficult for users to identify fraudulent requests. This campaign has impacted over 120 organizations globally by masquerading as routine Microsoft Planner notifications.",
       "date": "2026-07-30T11:22:45.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/microsoft-authentication-system-phishing/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "eb5dcd7e-c955-4e27-ac29-7a336b72b7c2",
@@ -5455,50 +5499,6 @@
       "summary": "Ernst & Young (EY) has reported a data breach resulting from unauthorized access to a third-party IT support system that contained sensitive client documents and tax information.",
       "date": "2026-07-17T21:34:26.000Z",
       "link": "https://securityaffairs.com/195550/data-breach/ernst-young-ey-investigates-data-breach-involving-third-party-support-tickets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "404131ec-36ce-4af1-a29a-e9580924991e",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-      "summary": "A critical vulnerability in WordPress core, dubbed wp2shell, allows unauthenticated attackers to execute arbitrary code on affected sites. WordPress has issued patches in versions 6.9.5 and 7.0.2 and initiated forced auto-updates to mitigate the risk.",
-      "date": "2026-07-17T21:20:10.000Z",
-      "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2f6e6275-7cf6-47ed-822c-e7c056e24a5e",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
-      "summary": "A previously undisclosed OpenSSL vulnerability named 'HollowByte' allows attackers to induce a persistent memory-exhaustion denial-of-service attack using only 11-byte TLS requests. The flaw affects unpatched servers on glibc systems and requires a process restart to recover the leaked memory.",
-      "date": "2026-07-17T20:20:53.000Z",
-      "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a0e6dc53-1497-44bf-b39e-ed68ddb2892f",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-      "summary": "Researchers discovered seven malicious npm packages targeting the Vite ecosystem that utilize a complex, four-tier blockchain-based infrastructure for command-and-control operations. This campaign, dubbed ViteVenom, demonstrates an evolving supply chain attack strategy using decentralized technology for malware communication.",
-      "date": "2026-07-17T18:54:51.000Z",
-      "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0d65673c-3ce5-442d-a116-98de16be6acd",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "A cyberattack hit Nichirei, one of Japan’s largest food companies",
-      "summary": "Japanese food giant Nichirei suffered a cyberattack that caused disruptions to its logistics and shipment operations. The company is currently in the process of restoring its systems.",
-      "date": "2026-07-17T17:52:06.000Z",
-      "link": "https://securityaffairs.com/195543/security/a-cyberattack-hit-nichirei-one-of-japans-largest-food-companies.html",
       "isTopTen": false
     }
   ]
