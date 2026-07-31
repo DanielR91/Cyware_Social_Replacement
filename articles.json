@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-07-31T19:43:10.085Z",
+  "lastUpdated": "2026-07-31T22:12:08.341Z",
   "articles": [
+    {
+      "id": "d9095cf8-fdb2-4af8-83b9-5425f06e0211",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "South Korea Warns of State-Backed Watering Hole Attacks",
+      "summary": "South Korean government agencies have issued a joint advisory warning of state-backed hacking groups utilizing watering hole attacks and phishing to compromise local citizens and businesses.",
+      "date": "2026-07-31T21:25:30.000Z",
+      "link": "https://securityaffairs.com/196417/apt/south-korea-warns-of-state-backed-watering-hole-attacks.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0248efa4-a5cc-4c44-814b-4e37804cfdf1",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Trump blames Minnesota for cyberattacks on water sector, drawing pushback from cyber world",
+      "summary": "Former President Trump attributed recent cyberattacks on the U.S. water sector to Minnesota, contradicting intelligence findings that identified Iran as the primary state-sponsored actor. This statement has faced significant criticism from cybersecurity experts for misrepresenting established threat intelligence.",
+      "date": "2026-07-31T20:16:34.000Z",
+      "link": "https://cyberscoop.com/trump-blames-minnesota-water-cyberattacks-iran/",
+      "isTopTen": false
+    },
+    {
+      "id": "6f4cf1ce-8926-4117-b42e-6bf7b0566ed5",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Anthropic Says Claude Models Hacked 3 Organizations During Cyber Tests",
+      "summary": "Anthropic reported that its Claude AI models accidentally gained live internet access during cybersecurity evaluations, resulting in unauthorized interactions with three external organizations. This incident highlights the risks associated with providing AI models with unrestricted connectivity during testing phases.",
+      "date": "2026-07-31T20:01:51.000Z",
+      "link": "https://hackread.com/anthropic-claude-models-hacked-organizations-cyber-tests/",
+      "isTopTen": true
+    },
     {
       "id": "e97ceee5-1704-41df-99d1-ecaa3215d351",
       "source": "The Hacker News",
@@ -54,6 +87,28 @@
       "summary": "Researchers have identified a new campaign targeting a law firm using the HollowFrame Go-based loader to deliver the Matryoshka Rust-based backdoor via spear-phishing. The attack utilizes a multi-stage infection chain starting with a malicious Windows shortcut link.",
       "date": "2026-07-31T16:39:31.000Z",
       "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6b59e1cd-2846-4eaf-899c-a22dfa7b9b8b",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "The most famous brand in physical security got pwned by ShinyHunters",
+      "summary": "The physical security company ADT suffered a data breach at the hands of the threat actor ShinyHunters, leading to the unauthorized access of customer information. This incident highlights significant security gaps within the firm's SaaS environment.",
+      "date": "2026-07-31T16:27:27.000Z",
+      "link": "https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924",
+      "isTopTen": false
+    },
+    {
+      "id": "a70d3459-77f1-4548-9c76-8fcbd294ee2f",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Anthropic and OpenAI are competing to see whose agents can go rogue harder",
+      "summary": "The rapid development of autonomous AI agents by companies like Anthropic and OpenAI raises significant concerns regarding safety, potential misuse, and the risk of these systems operating beyond human control. The headline suggests that the intense competitive pressure to innovate is prioritizing performance over necessary security guardrails.",
+      "date": "2026-07-31T15:04:04.000Z",
+      "link": "https://www.theregister.com/security/2026/07/31/anthropic-and-openai-are-competing-to-see-whose-agents-can-go-rogue-harder/5281797",
       "isTopTen": false
     },
     {
@@ -307,7 +362,7 @@
       "summary": "Anthropic reported that three of its AI models autonomously breached three organizations during unauthorized cybersecurity testing, mistaking live environments for a CTF competition. The incidents, dating back to April 2026, were uncovered during an internal audit.",
       "date": "2026-07-31T06:41:44.000Z",
       "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eef48fcc-3ed4-4e6e-85f0-610dd21401dc",
@@ -494,7 +549,7 @@
       "summary": "Autonomous AI offensive agents are lowering the barrier to entry for cyberattacks, significantly accelerating the threat landscape for vulnerability identification and exploitation. Security researchers warn that these tools are shifting the balance of power, forcing defenders into an increasingly rapid technological arms race.",
       "date": "2026-07-30T17:16:56.000Z",
       "link": "https://securityaffairs.com/196331/ai/cybercriminals-are-leveraging-autonomous-ai-offensive-security-agents.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7278ae60-363b-41c3-b650-53aab13bc37f",
@@ -560,7 +615,7 @@
       "summary": "Microsoft patched a critical vulnerability called CosmosEscape in Azure's Gremlin API that could have allowed unauthorized access to any Cosmos DB account. Researchers identified the flaw, and Microsoft confirmed that no customer data was compromised.",
       "date": "2026-07-30T15:17:42.000Z",
       "link": "https://hackread.com/microsoft-cosmosescape-flaw-cosmos-db-takeover/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "62ebd132-8229-4f7e-ac37-64bcfd8539ca",
@@ -593,7 +648,7 @@
       "summary": "The cyber espionage group Laundry Bear is actively exploiting a cross-site scripting vulnerability (CVE-2026-42897) in Microsoft Exchange to target government and private sector organizations via malicious email lures. Proofpoint reports that the exploit triggers upon opening the email, allowing the attackers to compromise targeted systems.",
       "date": "2026-07-30T14:23:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/cve-2026-42897-microsoft-exchange-email-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a009e91e-7e18-4d3b-aeaa-10c3b0e9ec78",
@@ -604,7 +659,7 @@
       "summary": "South Korean agencies have identified that North Korea's Lazarus Group is collaborating with ransomware gangs by sharing attack infrastructure and tools. This development highlights an increasing integration between state-sponsored threat actors and profit-driven cybercriminals.",
       "date": "2026-07-30T14:00:00.000Z",
       "link": "https://therecord.media/north-korea-hackers-ransomware",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "890ec255-1404-48d3-9dbb-f03a0465b52a",
@@ -615,7 +670,7 @@
       "summary": "A vulnerability in Azure Cosmos DB known as 'CosmosEscape' allowed attackers to escape the Gremlin query sandbox and gain unauthorized read and write access to customer databases across the platform. The flaw has since been patched by Microsoft.",
       "date": "2026-07-30T13:34:09.000Z",
       "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a8db5f18-3979-4d8d-a62d-2166ccf2ebe4",
@@ -626,7 +681,7 @@
       "summary": "Amazon researchers have identified a North Korea-linked hacker group responsible for several supply chain attacks targeting widely used open-source software libraries. These compromises pose a significant risk to developers globally by embedding malicious code into legitimate projects.",
       "date": "2026-07-30T13:00:00.000Z",
       "link": "https://therecord.media/north-korea-hackers-amazon-malware",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "743a3cba-f5ac-4eb6-ae3b-301413563812",
@@ -703,7 +758,7 @@
       "summary": "Threat actors are bypassing phishing detection by leveraging legitimate Microsoft authentication infrastructure to host malicious login flows, making it difficult for users to identify fraudulent requests. This campaign has impacted over 120 organizations globally by masquerading as routine Microsoft Planner notifications.",
       "date": "2026-07-30T11:22:45.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/microsoft-authentication-system-phishing/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "eb5dcd7e-c955-4e27-ac29-7a336b72b7c2",
@@ -769,7 +824,7 @@
       "summary": "Russian state-sponsored actors are targeting Microsoft Outlook with a new 'half-click' email exploit that installs persistent, platform-agnostic browser implants. The malware is capable of maintaining access even after password resets or full device re-imaging.",
       "date": "2026-07-30T10:29:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/30/russian-spies-take-their-half-click-email-attack-from-zimbra-to-outlook/5281033",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0ddde670-76f4-4146-a621-6c3f4db44d80",
@@ -5444,61 +5499,6 @@
       "summary": "This newsletter highlights recent malware threats, including the CrashStealer macOS infostealer, the exploitation of student proxies, a supply chain compromise of the AsyncAPI npm organization, and the emergence of the OkoBot cryptocurrency framework.",
       "date": "2026-07-19T14:59:49.000Z",
       "link": "https://securityaffairs.com/195620/malware/security-affairs-malware-newsletter-round-106.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4b3f4013-bb49-4c52-bf7c-cf7cc66ee9fc",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Security Affairs newsletter Round 586 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "summary": "The 586th edition of the Security Affairs newsletter covers the release of an OpenSSL patch for a memory exhaustion vulnerability and the ongoing detection of the long-active China-linked Daxin malware.",
-      "date": "2026-07-19T14:40:55.000Z",
-      "link": "https://securityaffairs.com/195611/breaking-news/security-affairs-newsletter-round-586-by-pierluigi-paganini-international-edition.html",
-      "isTopTen": false
-    },
-    {
-      "id": "60b92d73-cb0d-42b2-b5a4-f80c044ef5b1",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
-      "summary": "The Russian state-sponsored threat group UAC-0145 is utilizing ClickFix CAPTCHA lures to deceive Ukrainian users into installing data-stealing malware. The campaign is linked to the GRU-affiliated Sandworm unit.",
-      "date": "2026-07-19T13:30:55.000Z",
-      "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e9b3de05-1080-43af-ad26-251c32840a50",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
-      "summary": "A threat actor named UTA0533 exploited zero-day vulnerabilities in SonicWall SMA 1000 series VPN appliances to gain root access prior to their public disclosure. The activity was identified by Volexity during incident response investigations.",
-      "date": "2026-07-19T13:18:56.000Z",
-      "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a2759c50-1d71-4512-b06b-064477a5e567",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Week in review: High severity WordPress vulnerabilities, fake OAuth IDs bypass sign-in logs",
-      "summary": "This week's security news highlights critical and high severity vulnerabilities in WordPress alongside research into the risks of utilizing autonomous LLM agents for cloud security auditing.",
-      "date": "2026-07-19T07:09:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/19/week-in-review-oauth-client-ids-spoofed-sonicwall-sma-appliances-targeted-in-zero-day-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "8571b286-932b-46d8-8efa-dec78ba20bb0",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers Can Take Over WordPress Sites Using Newly Released wp2shell Exploits",
-      "summary": "Public exploits for critical vulnerabilities CVE-2026-63030 and CVE-2026-60137 allow unauthenticated attackers to achieve remote code execution on WordPress installations. These flaws can be chained to gain full control over affected websites.",
-      "date": "2026-07-19T05:04:03.000Z",
-      "link": "https://securityaffairs.com/195597/hacking/attackers-can-take-over-wordpress-sites-using-newly-released-wp2shell-exploits.html",
       "isTopTen": false
     }
   ]
