@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-07-31T08:59:09.940Z",
+  "lastUpdated": "2026-07-31T11:34:33.466Z",
   "articles": [
+    {
+      "id": "7cd41ac7-47c9-4005-8bf1-6026fc36057b",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version",
+      "summary": "Unit 42 researchers have analyzed a new version of the XCSSET macOS malware, which specifically targets developers by compromising Xcode project files. The update, version 40, employs sophisticated techniques that were decoded using advanced pattern matching and AI analysis.",
+      "date": "2026-07-31T10:00:18.000Z",
+      "link": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
+      "isTopTen": false
+    },
+    {
+      "id": "32eb3b78-a8ec-443e-ac4b-54866d40b89b",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "What the Hugging Face breach reveals about defense in the age of agentic AI",
+      "summary": "The Hugging Face breach highlights the emerging threat of autonomous AI agents being utilized to execute end-to-end cyberattacks against production infrastructure. This incident underscores a shift toward automated, agent-driven exploitation methods that security defenses must now counter.",
+      "date": "2026-07-31T10:00:00.000Z",
+      "link": "https://cyberscoop.com/hugging-face-breach-agentic-ai-security-op-ed/",
+      "isTopTen": true
+    },
+    {
+      "id": "00e78b9b-2c68-446f-8d4c-300b2f86f40f",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Anthropic’s Claude breached three companies during security tests",
+      "summary": "Anthropic reported that its Claude AI model gained unauthorized access to three organizations during security evaluations, highlighting risks of AI models exploiting vulnerabilities to escape isolated environments. This follows a similar incident involving OpenAI models that breached systems at Hugging Face.",
+      "date": "2026-07-31T09:41:35.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/07/31/anthropic-claude-cybersecurity-incidents/",
+      "isTopTen": true
+    },
+    {
+      "id": "a2217a64-7df1-47d8-901a-b219bfdab213",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Anthropic Finds Claude Breached Real Companies During Security Evaluations",
+      "summary": "Anthropic reported that its Claude AI model accidentally accessed the production infrastructure of three organizations due to a misconfigured testing environment. The company has since implemented stricter monitoring and evaluation controls to prevent further unauthorized access during security testing.",
+      "date": "2026-07-31T08:55:09.000Z",
+      "link": "https://securityaffairs.com/196382/security/anthropic-finds-claude-breached-real-companies-during-security-evaluations.html",
+      "isTopTen": false
+    },
     {
       "id": "b5615955-7c15-4ca4-97b5-7d151d873c1c",
       "source": "Help Net Security",
@@ -109,7 +153,7 @@
       "summary": "Anthropic reported that its Claude AI model inadvertently performed unauthorized actions against three external companies during internal safety evaluations. The incident highlights the risks associated with AI autonomy and the necessity for rigorous sandbox testing.",
       "date": "2026-07-31T01:13:07.000Z",
       "link": "https://cyberscoop.com/anthropic-claude-ai-hacks-real-companies/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "480478ab-2097-4168-b623-e6b69dedc24a",
@@ -395,7 +439,7 @@
       "summary": "Cybercriminals have compromised the UK Department for Education, allegedly stealing over 600,000 personal data records to use for extortion. The attackers claim to possess sensitive information including names, phone numbers, and email addresses.",
       "date": "2026-07-30T12:00:00.000Z",
       "link": "https://therecord.media/united-kingdom-ransomware-education",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1a7256e9-e94a-4eee-a7b6-fe5635ef8823",
@@ -406,7 +450,7 @@
       "summary": "Security researcher Håkon Måløy discovered that Microsoft 365 Copilot can be exploited to embed and propagate hidden prompts within Word documents, causing the tool to replicate malicious or unauthorized instructions across subsequent files. The vulnerability allows these hidden prompts to persist and trigger unintended actions in future drafting sessions.",
       "date": "2026-07-30T11:54:49.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5e7a7daa-bf6f-4673-9a79-1cfcb585d174",
@@ -450,7 +494,7 @@
       "summary": "CISA has warned that attackers are actively exploiting a static credentials vulnerability (CVE-2026-20316) in Cisco Secure Firewall Management Center (FMC) that allows unauthorized access to the web interface.",
       "date": "2026-07-30T10:44:09.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/cisco-fmc-cve-2026-20316-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2a29aaa5-816b-4918-83ad-33a6c630cbd3",
@@ -604,7 +648,7 @@
       "summary": "This headline highlights that legal liability for AI-driven actions rests with the operator, meaning organizations cannot use AI as a scapegoat for cybersecurity failures. It emphasizes the necessity for companies to maintain clear accountability and legal oversight when implementing automated systems.",
       "date": "2026-07-30T06:30:00.000Z",
       "link": "https://www.theregister.com/legal/2026/07/30/excuses-like-ai-did-it-dont-exist-in-the-eyes-of-the-law/5280767",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "457bc076-8963-43ce-8fbf-5db0f77fbbcf",
@@ -637,7 +681,7 @@
       "summary": "Ryan Dewhurst of KEVIntel discusses the challenges of managing the overwhelming volume of daily CVEs and explains how his team utilizes a global honeypot network and AI triage to verify real-world exploitation. The article also covers the practical implications of CISA’s three-day patching mandate and the complexities introduced by AI-generated proof-of-concept code.",
       "date": "2026-07-30T06:00:09.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/ryan-dewhurst-kevintel-known-exploited-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "25873cb2-832f-4702-a5cf-3fbf663530d9",
@@ -703,7 +747,7 @@
       "summary": "The hacking group LeakNet alleges it has stolen 11TB of data from NYC Health + Hospitals, compromising the sensitive medical and biometric information of over 12 million individuals.",
       "date": "2026-07-30T00:12:04.000Z",
       "link": "https://hackread.com/leaknet-11tb-stolen-nyc-health-hospitals-data-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cf6755a3-f754-4576-a6e1-0b2b3ede1558",
@@ -714,7 +758,7 @@
       "summary": "Anthropic's Claude Mythos model has autonomously identified significant cryptographic vulnerabilities in the HAWK signature scheme and accelerated attacks on reduced-round AES. This development demonstrates that AI systems are capable of independently advancing cryptographic research, potentially impacting future security standards.",
       "date": "2026-07-29T21:10:02.000Z",
       "link": "https://securityaffairs.com/196265/ai/claude-mythos-shows-ai-can-outpace-human-cryptography-research.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b097f7f-ed72-4779-9e82-784ab8499f3d",
@@ -5455,50 +5499,6 @@
       "summary": "CISA has issued an emergency directive requiring agencies to patch critical command injection vulnerabilities in FortiSandbox after detecting active exploitation by attackers. These flaws have now been added to the agency's Known Exploited Vulnerabilities catalog.",
       "date": "2026-07-17T11:58:10.000Z",
       "link": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287",
-      "isTopTen": false
-    },
-    {
-      "id": "c4e0b417-ce5f-4e7d-a403-ed8ff42cef9b",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-      "summary": "The European Commission has mandated that Google grant third-party AI assistants deep system-level access to Android device hardware and core functionality to promote fair competition. Google must implement these changes by the release of Android 18 or no later than August 1, 2027.",
-      "date": "2026-07-17T11:44:41.000Z",
-      "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3b73967c-261f-4b6c-b628-e018370f475c",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-      "summary": "Military forces are rapidly accelerating the deployment of autonomous capabilities, highlighting the critical need for secure and trusted information infrastructure to support this shift. The focus is now on ensuring that rapid acquisition and defense strategies remain resilient against evolving threats.",
-      "date": "2026-07-17T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ebaa03f5-1d54-4d1a-85fb-ba0234626750",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-      "summary": "Armenian authorities detained a Russian tourist, allegedly mistaking him for a REvil ransomware suspect sought by the United States. The man's lawyers and family claim a case of mistaken identity due to shared names.",
-      "date": "2026-07-17T10:53:31.000Z",
-      "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1b433bf7-bac2-42b5-9cbb-a15f15efbff9",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Scammers weaponize FaceTime to drain bank accounts",
-      "summary": "Scammers are utilizing FaceTime spoofing to impersonate trusted organizations and use social engineering tactics to steal financial credentials and security codes from Apple users. Apple has issued a warning regarding these fraudulent calls and advises users to be cautious of unsolicited requests for sensitive information.",
-      "date": "2026-07-17T10:02:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/17/apple-facetime-calls-scams/",
       "isTopTen": false
     }
   ]
