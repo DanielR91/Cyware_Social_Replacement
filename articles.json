@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-01T08:28:55.085Z",
+  "lastUpdated": "2026-08-01T10:45:35.988Z",
   "articles": [
+    {
+      "id": "c2528299-7643-4091-83cb-e9f4c6c8595c",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+      "summary": "Hackers compromised an Adform JavaScript file to redirect cryptocurrency transactions by swapping wallet addresses on various customer websites. The malicious script was identified and removed by Adform on July 27, 2026, following the breach of their advertising infrastructure.",
+      "date": "2026-08-01T09:03:07.000Z",
+      "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+      "isTopTen": false
+    },
     {
       "id": "406c4bec-64b1-4fa7-bc75-8c235f4bb937",
       "source": "The Hacker News",
@@ -186,7 +197,7 @@
       "summary": "Cybercrime has evolved into a commercialized 'as-a-service' ecosystem, enabling even low-skilled actors to launch sophisticated attacks using AI and on-demand infrastructure. This trend increases the scale and efficiency of cyber threats while complicating detection and attribution efforts.",
       "date": "2026-07-31T13:00:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/31/infoblox-domain-abuse-campaigns-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "49e0ad76-b0d3-4af5-b837-61980d8c26aa",
@@ -571,7 +582,7 @@
       "summary": "Autonomous AI offensive agents are lowering the barrier to entry for cyberattacks, significantly accelerating the threat landscape for vulnerability identification and exploitation. Security researchers warn that these tools are shifting the balance of power, forcing defenders into an increasingly rapid technological arms race.",
       "date": "2026-07-30T17:16:56.000Z",
       "link": "https://securityaffairs.com/196331/ai/cybercriminals-are-leveraging-autonomous-ai-offensive-security-agents.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7278ae60-363b-41c3-b650-53aab13bc37f",
@@ -637,7 +648,7 @@
       "summary": "Microsoft patched a critical vulnerability called CosmosEscape in Azure's Gremlin API that could have allowed unauthorized access to any Cosmos DB account. Researchers identified the flaw, and Microsoft confirmed that no customer data was compromised.",
       "date": "2026-07-30T15:17:42.000Z",
       "link": "https://hackread.com/microsoft-cosmosescape-flaw-cosmos-db-takeover/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "62ebd132-8229-4f7e-ac37-64bcfd8539ca",
@@ -681,7 +692,7 @@
       "summary": "South Korean agencies have identified that North Korea's Lazarus Group is collaborating with ransomware gangs by sharing attack infrastructure and tools. This development highlights an increasing integration between state-sponsored threat actors and profit-driven cybercriminals.",
       "date": "2026-07-30T14:00:00.000Z",
       "link": "https://therecord.media/north-korea-hackers-ransomware",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "890ec255-1404-48d3-9dbb-f03a0465b52a",
@@ -692,7 +703,7 @@
       "summary": "A vulnerability in Azure Cosmos DB known as 'CosmosEscape' allowed attackers to escape the Gremlin query sandbox and gain unauthorized read and write access to customer databases across the platform. The flaw has since been patched by Microsoft.",
       "date": "2026-07-30T13:34:09.000Z",
       "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a8db5f18-3979-4d8d-a62d-2166ccf2ebe4",
@@ -747,7 +758,7 @@
       "summary": "Security researcher Håkon Måløy discovered that Microsoft 365 Copilot can be exploited to embed and propagate hidden prompts within Word documents, causing the tool to replicate malicious or unauthorized instructions across subsequent files. The vulnerability allows these hidden prompts to persist and trigger unintended actions in future drafting sessions.",
       "date": "2026-07-30T11:54:49.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5e7a7daa-bf6f-4673-9a79-1cfcb585d174",
@@ -5488,17 +5499,6 @@
       "summary": "Mozilla's 2026 report reveals that nearly 50% of open-source AI projects fail to reach production due to significant challenges in governance, infrastructure, and operational tooling. This highlights a critical barrier to the sustainable adoption and security of open-source AI systems.",
       "date": "2026-07-20T04:00:26.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/20/mozilla-open-source-ai-adoption-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "d22b9ba3-3c43-4a9a-86b1-cf1c93e62a29",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
-      "summary": "F5 has patched a critical heap buffer overflow vulnerability in NGINX that could allow unauthenticated remote attackers to trigger worker crashes or potentially achieve remote code execution. Users are urged to upgrade to the latest stable or mainline versions immediately.",
-      "date": "2026-07-19T20:42:49.000Z",
-      "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
       "isTopTen": false
     }
   ]
