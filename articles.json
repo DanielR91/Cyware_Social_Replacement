@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-01T03:24:23.401Z",
+  "lastUpdated": "2026-08-01T08:28:55.085Z",
   "articles": [
+    {
+      "id": "406c4bec-64b1-4fa7-bc75-8c235f4bb937",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+      "summary": "Adobe has released a critical security patch for Campaign Classic to address a maximum-severity authorization vulnerability that allows for unauthenticated arbitrary code execution.",
+      "date": "2026-08-01T07:12:42.000Z",
+      "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+      "isTopTen": true
+    },
+    {
+      "id": "3b65e3a1-808e-47b4-b235-df5421839e75",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+      "summary": "Threat actors linked to Midnight Blizzard are using hijacked hotel Wi-Fi networks to distribute the CornFlake remote access trojan via fake browser update prompts. This malware allows attackers to surveil victims by capturing webcam images, microphone audio, and keystrokes.",
+      "date": "2026-08-01T06:29:05.000Z",
+      "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+      "isTopTen": false
+    },
     {
       "id": "d9095cf8-fdb2-4af8-83b9-5425f06e0211",
       "source": "Security Affairs",
@@ -197,7 +219,7 @@
       "summary": "Security researchers uncovered a multimillion-dollar ad fraud operation called Fuyao, which leverages preinstalled malware on Android TV boxes, AI-generated content, and residential proxies to siphon revenue. The sophisticated campaign utilizes both children's coding software and device spoofing to remain undetected for years.",
       "date": "2026-07-31T12:19:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/31/fuyao-ad-fraud-botnet-android-tv-boxes/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7c085b84-6295-4729-898e-edb291dd30a0",
@@ -241,7 +263,7 @@
       "summary": "Device code phishing is rapidly escalating from a niche technique into a major cybersecurity threat by exploiting OAuth 2.0 device authorization flows. This method targets the trust mechanisms intended for input-constrained devices to steal access tokens on an industrial scale.",
       "date": "2026-07-31T11:24:59.000Z",
       "link": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c78a2c05-e152-482f-9ab3-002c1cf3d20c",
@@ -714,7 +736,7 @@
       "summary": "Cybercriminals have compromised the UK Department for Education, allegedly stealing over 600,000 personal data records to use for extortion. The attackers claim to possess sensitive information including names, phone numbers, and email addresses.",
       "date": "2026-07-30T12:00:00.000Z",
       "link": "https://therecord.media/united-kingdom-ransomware-education",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1a7256e9-e94a-4eee-a7b6-fe5635ef8823",
@@ -5477,28 +5499,6 @@
       "summary": "F5 has patched a critical heap buffer overflow vulnerability in NGINX that could allow unauthenticated remote attackers to trigger worker crashes or potentially achieve remote code execution. Users are urged to upgrade to the latest stable or mainline versions immediately.",
       "date": "2026-07-19T20:42:49.000Z",
       "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
-      "isTopTen": false
-    },
-    {
-      "id": "89ddd9b4-3b9f-4f24-bb2d-6127fb61b60a",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Connecting AI agents to outside services explodes the risk radius",
-      "summary": "Integrating AI agents with external services and APIs significantly expands the potential attack surface and security risk radius. This connectivity creates new vulnerabilities that could be exploited to compromise systems.",
-      "date": "2026-07-19T16:05:00.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
-      "isTopTen": false
-    },
-    {
-      "id": "18814156-db3f-4d47-a2bd-7de762b7f81f",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 106",
-      "summary": "This newsletter highlights recent malware threats, including the CrashStealer macOS infostealer, the exploitation of student proxies, a supply chain compromise of the AsyncAPI npm organization, and the emergence of the OkoBot cryptocurrency framework.",
-      "date": "2026-07-19T14:59:49.000Z",
-      "link": "https://securityaffairs.com/195620/malware/security-affairs-malware-newsletter-round-106.html",
       "isTopTen": false
     }
   ]
