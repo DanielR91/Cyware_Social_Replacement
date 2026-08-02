@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-02T16:05:18.227Z",
+  "lastUpdated": "2026-08-02T19:20:15.544Z",
   "articles": [
+    {
+      "id": "520c4430-ee11-47b1-865b-100ef3249f0c",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 108",
+      "summary": "This newsletter provides an overview of recent malware campaigns and research, covering topics ranging from modular MaaS ecosystems and DPRK-linked social engineering kits to advanced browser-based malware delivery.",
+      "date": "2026-08-02T17:53:23.000Z",
+      "link": "https://securityaffairs.com/196475/security/security-affairs-malware-newsletter-round-108.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c2b3b273-10ea-49f1-8b0d-33ec07cbdf78",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 588 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The Security Affairs newsletter highlights recent cybersecurity developments, including a Russian hacking campaign targeting hotel Wi-Fi to steal Microsoft 365 tokens and a critical vulnerability fix from Adobe.",
+      "date": "2026-08-02T17:14:10.000Z",
+      "link": "https://securityaffairs.com/196466/security/security-affairs-newsletter-round-588-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "47e0bbea-6abf-4937-8d41-bd5cfe622d0f",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "SabPaisa Partners with AccuKnox for Zero Trust AI-Powered Cloud Security to Secure Its Payments Platform",
+      "summary": "SabPaisa has entered into a strategic partnership with AccuKnox to integrate Zero Trust AI-powered cloud security protocols into its payment platform. This collaboration aims to bolster the infrastructure's resilience against evolving cybersecurity threats.",
+      "date": "2026-08-02T17:00:57.000Z",
+      "link": "https://hackread.com/sabpaisa-partners-with-accuknox-for-zero-trust-ai-powered-cloud-security-to-secure-its-payments-platform/",
+      "isTopTen": false
+    },
     {
       "id": "79578e89-5946-46b1-bc83-57b5ea9e7b7e",
       "source": "Help Net Security",
@@ -21,7 +54,7 @@
       "summary": "CISA has issued a directive for utility providers to secure operational technology by removing internet-exposed programmable logic controllers (PLCs) following a coordinated cyberattack on over 30 Minnesota water systems.",
       "date": "2026-08-02T05:06:33.000Z",
       "link": "https://securityaffairs.com/196453/ics-scada/cisa-urges-utilities-to-remove-internet-exposed-plcs-after-minnesota-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "43dff530-c482-4aef-8b45-ffd93808f4ef",
@@ -43,7 +76,7 @@
       "summary": "Russian state-linked threat actor Storm-2945 is using compromised hotel Wi-Fi portals to launch DNS manipulation attacks that distribute malware and harvest Microsoft 365 authentication tokens. The campaign, dubbed CaptiveCrunch, specifically targets travelers to gain unauthorized access to corporate accounts.",
       "date": "2026-08-01T14:11:37.000Z",
       "link": "https://securityaffairs.com/196441/apt/russian-hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-tokens.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e0538b38-f8a9-4866-9345-2b0f0b301226",
@@ -54,7 +87,7 @@
       "summary": "Adobe has patched a critical CVSS 10.0 remote code execution vulnerability in its Campaign Classic platform caused by improper authorization. Attackers could potentially exploit this flaw to execute code remotely without requiring user interaction.",
       "date": "2026-08-01T12:31:34.000Z",
       "link": "https://securityaffairs.com/196429/security/adobe-fixed-a-maximum-severity-vulnerability-flaw-in-campaign-classic.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c2528299-7643-4091-83cb-e9f4c6c8595c",
@@ -65,7 +98,7 @@
       "summary": "Hackers compromised an Adform JavaScript file to redirect cryptocurrency transactions by swapping wallet addresses on various customer websites. The malicious script was identified and removed by Adform on July 27, 2026, following the breach of their advertising infrastructure.",
       "date": "2026-08-01T09:03:07.000Z",
       "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "406c4bec-64b1-4fa7-bc75-8c235f4bb937",
@@ -76,7 +109,7 @@
       "summary": "Adobe has released a critical security patch for Campaign Classic to address a maximum-severity authorization vulnerability that allows for unauthenticated arbitrary code execution.",
       "date": "2026-08-01T07:12:42.000Z",
       "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3b65e3a1-808e-47b4-b235-df5421839e75",
@@ -208,7 +241,7 @@
       "summary": "Researchers discovered that inexpensive Android TV boxes are being pre-installed with malware that mimics mobile hardware to facilitate ad fraud and turn user broadband connections into illicit proxies. The operation, dubbed Fuyao, is linked to a China-based company.",
       "date": "2026-07-31T14:45:01.000Z",
       "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a7f90605-df20-43e3-9c9f-eafcb7518c7f",
@@ -329,7 +362,7 @@
       "summary": "Device code phishing is rapidly escalating from a niche technique into a major cybersecurity threat by exploiting OAuth 2.0 device authorization flows. This method targets the trust mechanisms intended for input-constrained devices to steal access tokens on an industrial scale.",
       "date": "2026-07-31T11:24:59.000Z",
       "link": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c78a2c05-e152-482f-9ab3-002c1cf3d20c",
@@ -340,7 +373,7 @@
       "summary": "A threat actor identified as knaithe is utilizing the DeepSeek AI model integrated into the Hermes Agent framework to execute autonomous, self-directed cyberattacks. This development signifies a shift toward AI-driven exploit selection without requiring constant manual operator input.",
       "date": "2026-07-31T11:21:27.000Z",
       "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7cd41ac7-47c9-4005-8bf1-6026fc36057b",
@@ -362,7 +395,7 @@
       "summary": "The Hugging Face breach highlights the emerging threat of autonomous AI agents being utilized to execute end-to-end cyberattacks against production infrastructure. This incident underscores a shift toward automated, agent-driven exploitation methods that security defenses must now counter.",
       "date": "2026-07-31T10:00:00.000Z",
       "link": "https://cyberscoop.com/hugging-face-breach-agentic-ai-security-op-ed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "00e78b9b-2c68-446f-8d4c-300b2f86f40f",
@@ -769,7 +802,7 @@
       "summary": "Amazon researchers have identified a North Korea-linked hacker group responsible for several supply chain attacks targeting widely used open-source software libraries. These compromises pose a significant risk to developers globally by embedding malicious code into legitimate projects.",
       "date": "2026-07-30T13:00:00.000Z",
       "link": "https://therecord.media/north-korea-hackers-amazon-malware",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "743a3cba-f5ac-4eb6-ae3b-301413563812",
@@ -5466,39 +5499,6 @@
       "summary": "Hugging Face reported that an autonomous AI agent successfully breached its production infrastructure, compromising internal data and service credentials. This incident highlights the emerging risks associated with malicious autonomous AI agents.",
       "date": "2026-07-20T08:21:07.000Z",
       "link": "https://securityaffairs.com/195658/ai/ai-agents-turned-into-attackers-hugging-face-reveals-autonomous-intrusion-campaign.html",
-      "isTopTen": false
-    },
-    {
-      "id": "820a7759-9c66-44a1-a218-cfe6ec10696b",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Volexity Uncovers Zero-Day Campaign Targeting SonicWall VPN Appliances",
-      "summary": "Volexity identified a threat actor exploiting two zero-day vulnerabilities in SonicWall SMA 1000 series VPN appliances to achieve root access. The campaign highlights a critical security risk where attackers bypassed defenses before patches were available.",
-      "date": "2026-07-20T07:29:26.000Z",
-      "link": "https://securityaffairs.com/195626/hacking/volexity-uncovers-zero-day-campaign-targeting-sonicwall-vpn-appliances.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5b1f13a9-b72e-42c4-9e7c-5364f7b639ef",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meet Dusseldorf, Microsoft’s open-source out-of-band security platform",
-      "summary": "Microsoft has introduced Dusseldorf, an open-source out-of-band application security testing platform designed to capture and analyze network traffic for validating security vulnerabilities. It enables researchers to deploy infrastructure within private environments to automate response workflows during security testing.",
-      "date": "2026-07-20T06:00:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/20/microsoft-dusseldorf-out-of-band-application-security-testing-oast-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "db508e08-784f-4a74-a5ce-82dd739c370e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "More alerts are making your team slower, and an outcome-based SOC fixes that",
-      "summary": "Rapid7's Thom Langford explains that high volumes of security alerts hinder SOC efficiency and proposes an outcome-based approach to combat rapid attack timelines. He highlights how adversaries now prioritize credential theft and legitimate tool abuse over custom malware to achieve compromise within hours.",
-      "date": "2026-07-20T05:30:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/20/outcome-based-soc-video/",
       "isTopTen": false
     }
   ]
