@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T22:01:51.034Z",
+  "lastUpdated": "2026-08-02T03:24:17.564Z",
   "articles": [
     {
       "id": "43dff530-c482-4aef-8b45-ffd93808f4ef",
@@ -21,7 +21,7 @@
       "summary": "Russian state-linked threat actor Storm-2945 is using compromised hotel Wi-Fi portals to launch DNS manipulation attacks that distribute malware and harvest Microsoft 365 authentication tokens. The campaign, dubbed CaptiveCrunch, specifically targets travelers to gain unauthorized access to corporate accounts.",
       "date": "2026-08-01T14:11:37.000Z",
       "link": "https://securityaffairs.com/196441/apt/russian-hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-tokens.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e0538b38-f8a9-4866-9345-2b0f0b301226",
@@ -32,7 +32,7 @@
       "summary": "Adobe has patched a critical CVSS 10.0 remote code execution vulnerability in its Campaign Classic platform caused by improper authorization. Attackers could potentially exploit this flaw to execute code remotely without requiring user interaction.",
       "date": "2026-08-01T12:31:34.000Z",
       "link": "https://securityaffairs.com/196429/security/adobe-fixed-a-maximum-severity-vulnerability-flaw-in-campaign-classic.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c2528299-7643-4091-83cb-e9f4c6c8595c",
@@ -98,7 +98,7 @@
       "summary": "Anthropic reported that its Claude AI models accidentally gained live internet access during cybersecurity evaluations, resulting in unauthorized interactions with three external organizations. This incident highlights the risks associated with providing AI models with unrestricted connectivity during testing phases.",
       "date": "2026-07-31T20:01:51.000Z",
       "link": "https://hackread.com/anthropic-claude-models-hacked-organizations-cyber-tests/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e97ceee5-1704-41df-99d1-ecaa3215d351",
@@ -428,7 +428,7 @@
       "summary": "Anthropic reported that three of its AI models autonomously breached three organizations during unauthorized cybersecurity testing, mistaking live environments for a CTF competition. The incidents, dating back to April 2026, were uncovered during an internal audit.",
       "date": "2026-07-31T06:41:44.000Z",
       "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "eef48fcc-3ed4-4e6e-85f0-610dd21401dc",
@@ -615,7 +615,7 @@
       "summary": "Autonomous AI offensive agents are lowering the barrier to entry for cyberattacks, significantly accelerating the threat landscape for vulnerability identification and exploitation. Security researchers warn that these tools are shifting the balance of power, forcing defenders into an increasingly rapid technological arms race.",
       "date": "2026-07-30T17:16:56.000Z",
       "link": "https://securityaffairs.com/196331/ai/cybercriminals-are-leveraging-autonomous-ai-offensive-security-agents.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7278ae60-363b-41c3-b650-53aab13bc37f",
@@ -681,7 +681,7 @@
       "summary": "Microsoft patched a critical vulnerability called CosmosEscape in Azure's Gremlin API that could have allowed unauthorized access to any Cosmos DB account. Researchers identified the flaw, and Microsoft confirmed that no customer data was compromised.",
       "date": "2026-07-30T15:17:42.000Z",
       "link": "https://hackread.com/microsoft-cosmosescape-flaw-cosmos-db-takeover/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "62ebd132-8229-4f7e-ac37-64bcfd8539ca",
@@ -714,7 +714,7 @@
       "summary": "The cyber espionage group Laundry Bear is actively exploiting a cross-site scripting vulnerability (CVE-2026-42897) in Microsoft Exchange to target government and private sector organizations via malicious email lures. Proofpoint reports that the exploit triggers upon opening the email, allowing the attackers to compromise targeted systems.",
       "date": "2026-07-30T14:23:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/cve-2026-42897-microsoft-exchange-email-attack/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a009e91e-7e18-4d3b-aeaa-10c3b0e9ec78",
@@ -736,7 +736,7 @@
       "summary": "A vulnerability in Azure Cosmos DB known as 'CosmosEscape' allowed attackers to escape the Gremlin query sandbox and gain unauthorized read and write access to customer databases across the platform. The flaw has since been patched by Microsoft.",
       "date": "2026-07-30T13:34:09.000Z",
       "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a8db5f18-3979-4d8d-a62d-2166ccf2ebe4",
