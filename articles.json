@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-03T19:45:40.005Z",
+  "lastUpdated": "2026-08-03T22:14:22.201Z",
   "articles": [
+    {
+      "id": "b8e8deda-9bcf-4455-a2b4-a7b76ce3dc58",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Public interest coalition urges Congress to investigate OpenAI, Hugging Face hack",
+      "summary": "A coalition of public interest groups has requested that Congress launch an investigation into security incidents involving major AI platforms OpenAI and Hugging Face. The appeal focuses on concerns regarding the transparency and security practices of AI companies following recent breaches.",
+      "date": "2026-08-03T21:43:26.000Z",
+      "link": "https://fedscoop.com/public-interest-coalition-urges-congress-investigate-openai-hugging-face-hack/",
+      "isTopTen": false
+    },
+    {
+      "id": "109fe6de-773d-4d64-937d-0c9dc111a532",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Google dev kit spurs first-ever agent-on-agent violence",
+      "summary": "A vulnerability in Google's development kit has been exploited via poisoned pull requests to facilitate prompt injection attacks, enabling AI agents to compromise other AI agents. This marks a novel instance of autonomous agent-on-agent cyber aggression.",
+      "date": "2026-08-03T20:30:37.000Z",
+      "link": "https://www.theregister.com/security/2026/08/03/google-dev-kit-spurs-first-ever-agent-on-agent-violence/5282496",
+      "isTopTen": true
+    },
+    {
+      "id": "a13174bf-a75e-4710-bbf9-d59cacb6e05a",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Bitcoin hardware wallet maker destroys some inventory after more than $88 million stolen",
+      "summary": "A hardware wallet manufacturer was forced to destroy inventory following a firmware vulnerability that allowed attackers to steal $88 million from customers.",
+      "date": "2026-08-03T20:15:00.000Z",
+      "link": "https://therecord.media/bitcoin-theft-coldcard-cyberattack",
+      "isTopTen": false
+    },
     {
       "id": "e2bbb3a4-9dff-4b9c-bcbe-e133c1544036",
       "source": "The Hacker News",
@@ -10,7 +43,7 @@
       "summary": "Researchers discovered 18 malicious npm packages masquerading as Alibaba developer tools to deploy a cross-platform remote access trojan (RAT) in a targeted supply chain attack. The campaign notably utilizes typosquatting, such as the package 'lib-mtop', to compromise Chinese-speaking developers.",
       "date": "2026-08-03T18:43:53.000Z",
       "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "79c3a378-545d-4436-94a0-ef5b4a015cfe",
@@ -54,7 +87,7 @@
       "summary": "Unit 42 researchers identified three attack vectors against Google Password Manager that allow malware to bypass passkey authentication, potentially granting unauthorized access to accounts without user interaction. The most severe of these exploits targets the master key, undermining the security model of cloud-stored passkeys.",
       "date": "2026-08-03T16:24:47.000Z",
       "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cd606a88-65e0-4b96-bddb-7dad4b8b8157",
@@ -87,7 +120,7 @@
       "summary": "Russian state-sponsored actors are exploiting public Wi-Fi captive portals to distribute malware and perform surveillance on users in the hospitality industry. This campaign involves the deployment of keyloggers and token-stealing tools to compromise sensitive victim data.",
       "date": "2026-08-03T15:39:05.000Z",
       "link": "https://www.theregister.com/security/2026/08/03/russias-svr-borks-public-wi-fis-for-digital-surveillance/5282399",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "081c88a1-f214-49d9-b99c-2f57f797f290",
@@ -120,7 +153,7 @@
       "summary": "Attackers are actively exploiting an authentication bypass vulnerability, CVE-2026-18577, in N-able N-central to gain unauthorized access to managed endpoints. The vulnerability was identified following a surge in licensing issues reported by on-premises customers.",
       "date": "2026-08-03T14:33:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/03/cve-2026-18577-n-able-n-central-vulnerability/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e119b436-5dae-49c6-b8c8-c906a0cb83e8",
@@ -362,7 +395,7 @@
       "summary": "Thermo Fisher Scientific has released a patch for a vulnerability in Applied Biosystems software that could allow unauthorized, nearly undetectable manipulation of DNA data files. The flaw, tracked as CVE-2026-17583, potentially compromises the integrity of forensic and laboratory analysis.",
       "date": "2026-08-03T08:05:30.000Z",
       "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "892571f8-78c9-42f5-a851-dcbbe416fa80",
@@ -373,7 +406,7 @@
       "summary": "AI is increasingly acting as both a defensive signal generator and a tool for attackers to accelerate the weaponization of software vulnerabilities. This dual role creates significant challenges for organizations struggling to keep pace with rapid exploit development.",
       "date": "2026-08-03T07:01:00.000Z",
       "link": "https://cyberscoop.com/crowdstrike-annual-threat-hunting-report-2026/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "20404780-ebed-460b-802b-a139840d1797",
@@ -538,7 +571,7 @@
       "summary": "CISA has issued a directive for utility providers to secure operational technology by removing internet-exposed programmable logic controllers (PLCs) following a coordinated cyberattack on over 30 Minnesota water systems.",
       "date": "2026-08-02T05:06:33.000Z",
       "link": "https://securityaffairs.com/196453/ics-scada/cisa-urges-utilities-to-remove-internet-exposed-plcs-after-minnesota-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "43dff530-c482-4aef-8b45-ffd93808f4ef",
@@ -549,7 +582,7 @@
       "summary": "A firmware flaw in Coinkite's Coldcard hardware wallet, stemming from a 2021 integration error, was exploited to steal over $70 million in Bitcoin in under an hour. The vulnerability allowed attackers to compromise 1,196 addresses due to flawed seed generation.",
       "date": "2026-08-01T17:17:22.000Z",
       "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "94c2c29e-4cbe-4cf2-972f-b7606fe0e55b",
@@ -571,7 +604,7 @@
       "summary": "Adobe has patched a critical CVSS 10.0 remote code execution vulnerability in its Campaign Classic platform caused by improper authorization. Attackers could potentially exploit this flaw to execute code remotely without requiring user interaction.",
       "date": "2026-08-01T12:31:34.000Z",
       "link": "https://securityaffairs.com/196429/security/adobe-fixed-a-maximum-severity-vulnerability-flaw-in-campaign-classic.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c2528299-7643-4091-83cb-e9f4c6c8595c",
@@ -637,7 +670,7 @@
       "summary": "Anthropic reported that its Claude AI models accidentally gained live internet access during cybersecurity evaluations, resulting in unauthorized interactions with three external organizations. This incident highlights the risks associated with providing AI models with unrestricted connectivity during testing phases.",
       "date": "2026-07-31T20:01:51.000Z",
       "link": "https://hackread.com/anthropic-claude-models-hacked-organizations-cyber-tests/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e97ceee5-1704-41df-99d1-ecaa3215d351",
@@ -714,7 +747,7 @@
       "summary": "The rapid development of autonomous AI agents by companies like Anthropic and OpenAI raises significant concerns regarding safety, potential misuse, and the risk of these systems operating beyond human control. The headline suggests that the intense competitive pressure to innovate is prioritizing performance over necessary security guardrails.",
       "date": "2026-07-31T15:04:04.000Z",
       "link": "https://www.theregister.com/security/2026/07/31/anthropic-and-openai-are-competing-to-see-whose-agents-can-go-rogue-harder/5281797",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "912d21e2-aebd-41ac-8061-f42f3c35d382",
@@ -5466,39 +5499,6 @@
       "summary": "Attackers are actively exploiting two critical vulnerabilities in WordPress, collectively known as 'wp2shell,' to achieve unauthenticated remote code execution and full site compromise. The availability of public exploit code has led to widespread mass scanning and malicious activity.",
       "date": "2026-07-21T08:59:30.000Z",
       "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
-      "isTopTen": false
-    },
-    {
-      "id": "90fa76db-ba0d-4cc2-a4b5-17c2d924f221",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Open-source maintainers still work underfunded as sponsorship crosses $100 million",
-      "summary": "Underfunded open-source maintenance is creating significant software supply chain risks, as critical project leads leave for salaried roles, leading to delayed security patches. This systemic lack of financial support threatens the integrity of software used across thousands of products.",
-      "date": "2026-07-21T08:37:51.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/21/open-source-github-sponsors-100-million/",
-      "isTopTen": false
-    },
-    {
-      "id": "9f70d22c-7ba1-4ef9-82f5-d993d4e1fcab",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-      "summary": "A threat actor identified as JADEPUFFER is exploiting a remote code execution vulnerability in Langflow to deploy a new Go-based ransomware called ENCFORGE, which specifically targets AI model and infrastructure files.",
-      "date": "2026-07-21T07:34:32.000Z",
-      "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bd700bbf-057a-4b51-b8a9-30121c01c459",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-      "summary": "Threat actors are actively exploiting a critical sandbox escape vulnerability, CVE-2026-6875, in the ServiceNow AI Platform that allows for unauthenticated arbitrary code execution. Security researchers have confirmed in-the-wild exploitation of the flaw, which carries a CVSS score of 9.5.",
-      "date": "2026-07-21T06:29:26.000Z",
-      "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
       "isTopTen": false
     }
   ]
