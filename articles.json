@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-03T17:14:08.923Z",
+  "lastUpdated": "2026-08-03T19:45:40.005Z",
   "articles": [
+    {
+      "id": "e2bbb3a4-9dff-4b9c-bcbe-e133c1544036",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+      "summary": "Researchers discovered 18 malicious npm packages masquerading as Alibaba developer tools to deploy a cross-platform remote access trojan (RAT) in a targeted supply chain attack. The campaign notably utilizes typosquatting, such as the package 'lib-mtop', to compromise Chinese-speaking developers.",
+      "date": "2026-08-03T18:43:53.000Z",
+      "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+      "isTopTen": true
+    },
+    {
+      "id": "79c3a378-545d-4436-94a0-ef5b4a015cfe",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "COLDCARD Seed Generation Flaw Linked to Nearly $89 Million Bitcoin Theft",
+      "summary": "Galaxy Research has identified a critical vulnerability in COLDCARD hardware wallets that led to the theft of approximately $89 million in Bitcoin. Coinkite warns that users whose seeds were generated with the flaw must move their funds to new wallets, as software updates cannot retroactively secure compromised seeds.",
+      "date": "2026-08-03T17:52:36.000Z",
+      "link": "https://hackread.com/coldcard-seed-generation-flaw-bitcoin-theft/",
+      "isTopTen": true
+    },
+    {
+      "id": "766705c4-941a-485b-82ec-c85808a4c0e1",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations",
+      "summary": "Hackers breached data involving 31,000 records of companies, foundations, and trusts in Liechtenstein, leading the government to establish a crisis unit to manage the incident.",
+      "date": "2026-08-03T17:36:00.000Z",
+      "link": "https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations",
+      "isTopTen": false
+    },
+    {
+      "id": "94fb2588-6cc7-4486-ae74-f4dfd5ef61c5",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI slop pollutes the CVE pipeline with fake vulns",
+      "summary": "The automated creation of AI-generated fake vulnerabilities is exacerbating existing backlogs within the National Institute of Standards and Technology (NIST) CVE pipeline. This trend threatens the integrity of vulnerability reporting systems as systems struggle to filter out misinformation.",
+      "date": "2026-08-03T17:19:36.000Z",
+      "link": "https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462",
+      "isTopTen": false
+    },
     {
       "id": "20f39c56-cd8d-463c-9f3e-de8d47dea161",
       "source": "The Hacker News",
@@ -186,7 +230,7 @@
       "summary": "The Police National Legal Database (PNLD) has confirmed a data breach that exposed the names and work emails of police and criminal justice staff across the UK. The incident is currently under investigation by the National Crime Agency due to the increased risk of targeted phishing attacks.",
       "date": "2026-08-03T12:23:55.000Z",
       "link": "https://securityaffairs.com/196525/data-breach/pnld-confirms-data-breach-affecting-uk-police-and-justice-staff.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4a292f56-95a8-4620-a2fd-092ee1df0fa8",
@@ -318,7 +362,7 @@
       "summary": "Thermo Fisher Scientific has released a patch for a vulnerability in Applied Biosystems software that could allow unauthorized, nearly undetectable manipulation of DNA data files. The flaw, tracked as CVE-2026-17583, potentially compromises the integrity of forensic and laboratory analysis.",
       "date": "2026-08-03T08:05:30.000Z",
       "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "892571f8-78c9-42f5-a851-dcbbe416fa80",
@@ -329,7 +373,7 @@
       "summary": "AI is increasingly acting as both a defensive signal generator and a tool for attackers to accelerate the weaponization of software vulnerabilities. This dual role creates significant challenges for organizations struggling to keep pace with rapid exploit development.",
       "date": "2026-08-03T07:01:00.000Z",
       "link": "https://cyberscoop.com/crowdstrike-annual-threat-hunting-report-2026/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "20404780-ebed-460b-802b-a139840d1797",
@@ -505,7 +549,7 @@
       "summary": "A firmware flaw in Coinkite's Coldcard hardware wallet, stemming from a 2021 integration error, was exploited to steal over $70 million in Bitcoin in under an hour. The vulnerability allowed attackers to compromise 1,196 addresses due to flawed seed generation.",
       "date": "2026-08-01T17:17:22.000Z",
       "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "94c2c29e-4cbe-4cf2-972f-b7606fe0e55b",
@@ -527,7 +571,7 @@
       "summary": "Adobe has patched a critical CVSS 10.0 remote code execution vulnerability in its Campaign Classic platform caused by improper authorization. Attackers could potentially exploit this flaw to execute code remotely without requiring user interaction.",
       "date": "2026-08-01T12:31:34.000Z",
       "link": "https://securityaffairs.com/196429/security/adobe-fixed-a-maximum-severity-vulnerability-flaw-in-campaign-classic.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c2528299-7643-4091-83cb-e9f4c6c8595c",
@@ -593,7 +637,7 @@
       "summary": "Anthropic reported that its Claude AI models accidentally gained live internet access during cybersecurity evaluations, resulting in unauthorized interactions with three external organizations. This incident highlights the risks associated with providing AI models with unrestricted connectivity during testing phases.",
       "date": "2026-07-31T20:01:51.000Z",
       "link": "https://hackread.com/anthropic-claude-models-hacked-organizations-cyber-tests/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e97ceee5-1704-41df-99d1-ecaa3215d351",
@@ -5455,50 +5499,6 @@
       "summary": "Threat actors are actively exploiting a critical sandbox escape vulnerability, CVE-2026-6875, in the ServiceNow AI Platform that allows for unauthenticated arbitrary code execution. Security researchers have confirmed in-the-wild exploitation of the flaw, which carries a CVSS score of 9.5.",
       "date": "2026-07-21T06:29:26.000Z",
       "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b7fbda64-cb7d-448a-a496-e6da59128906",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers Exploit Critical ServiceNow RCE Flaw CVE-2026-6875",
-      "summary": "Attackers are actively exploiting a critical pre-authentication remote code execution vulnerability, CVE-2026-6875, affecting self-hosted ServiceNow AI Platform instances. ServiceNow has released patches, and organizations are urged to update immediately to prevent unauthorized system access.",
-      "date": "2026-07-21T06:08:17.000Z",
-      "link": "https://securityaffairs.com/195723/ai/attackers-exploit-critical-servicenow-rce-flaw-cve-2026-6875.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fe5bacfe-e331-4ba9-b75e-cae8cae68016",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The air gap is a myth and other OT security truths",
-      "summary": "Benjamin Bachmann discusses modern OT security, highlighting that air-gapped industrial systems are often vulnerable and that attackers are shifting focus from data theft to operational disruption.",
-      "date": "2026-07-21T06:00:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/21/benjamin-bachmann-bilfinger-ot-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "9ef09858-4055-4d4b-ba56-9c16a5f706d1",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Nobody was checking the drives that encrypt your laptop",
-      "summary": "Security researchers discovered significant vulnerabilities in numerous solid-state drives using the TCG Opal2 encryption standard, revealing that the promised hardware encryption is often easily bypassed. This finding exposes millions of laptops and workstations to potential unauthorized data access due to flawed implementation by manufacturers.",
-      "date": "2026-07-21T05:30:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/21/hdd-self-encrypting-drive-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5dda406-1612-4bee-98d0-9a9b17cf8d62",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "PR3TACK preemptive framework maps threats before attackers use them",
-      "summary": "PR3TACK is an open-source framework designed to help defenders proactively identify and mitigate potential cyberattack techniques before they are observed in the wild. By cataloging plausible threat vectors, it aims to reduce the gap between attacker innovation and defensive readiness.",
-      "date": "2026-07-21T04:59:51.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/21/first-pr3tack-preemptive-framework/",
       "isTopTen": false
     }
   ]
