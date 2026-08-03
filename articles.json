@@ -1,6 +1,149 @@
 {
-  "lastUpdated": "2026-08-03T03:25:43.098Z",
+  "lastUpdated": "2026-08-03T09:58:15.950Z",
   "articles": [
+    {
+      "id": "74f44aec-229d-43c0-9eff-b565a15c1688",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Alleged Żabka Breach Exposes Jira Data, Source Code, and API Keys",
+      "summary": "Polish convenience store chain Żabka is allegedly the victim of a data breach, with an unidentified actor offering internal Jira data, source code, and API keys for sale. Researchers have confirmed the authenticity of a portion of the leaked sample.",
+      "date": "2026-08-03T09:03:39.000Z",
+      "link": "https://securityaffairs.com/196510/data-breach/alleged-zabka-breach-exposes-jira-data-source-code-and-api-keys.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a9631e93-0561-4dba-a11f-dce6c932eba5",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OpenAI reveals how criminals used ChatGPT to run scams",
+      "summary": "OpenAI dismantled a network of accounts based in Cambodia that utilized ChatGPT to automate scam operations, including persona creation and target messaging. This discovery highlights the growing misuse of generative AI for facilitating large-scale fraudulent activities.",
+      "date": "2026-08-03T08:40:26.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/03/openai-disrupts-chatgpt-scam-operation/",
+      "isTopTen": false
+    },
+    {
+      "id": "997106ec-35bf-425b-a800-228ebdb7fc9d",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Elastic Defend now covers 800+ vulnerable drivers, with automated troubleshooting and ARM support",
+      "summary": "Elastic Defend has expanded its protection to cover over 800 vulnerable drivers to prevent attackers from exploiting known flaws for kernel-level access. The update also introduces automated troubleshooting and support for ARM architecture to better defend Windows endpoints.",
+      "date": "2026-08-03T08:31:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/03/elastic-defend-vulnerable-driver-detection/",
+      "isTopTen": false
+    },
+    {
+      "id": "32861ebb-ba36-49a0-895d-fcd82fd6c5a9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
+      "summary": "Thermo Fisher Scientific has released a patch for a vulnerability in Applied Biosystems software that could allow unauthorized, nearly undetectable manipulation of DNA data files. The flaw, tracked as CVE-2026-17583, potentially compromises the integrity of forensic and laboratory analysis.",
+      "date": "2026-08-03T08:05:30.000Z",
+      "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+      "isTopTen": true
+    },
+    {
+      "id": "892571f8-78c9-42f5-a851-dcbbe416fa80",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "CrowdStrike: AI is now both the weapon and the target in cyberattacks",
+      "summary": "AI is increasingly acting as both a defensive signal generator and a tool for attackers to accelerate the weaponization of software vulnerabilities. This dual role creates significant challenges for organizations struggling to keep pace with rapid exploit development.",
+      "date": "2026-08-03T07:01:00.000Z",
+      "link": "https://cyberscoop.com/crowdstrike-annual-threat-hunting-report-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "c891c9fc-4953-4757-a084-9174e9737a72",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+      "summary": "N-able disclosed that attackers exploited an authentication bypass in its N-central RMM platform to gain administrative access after an initial security patch proved ineffective. The company has since released an updated build, 2026.3.1.7, to fully address the vulnerability tracked as CVE-2026-18577.",
+      "date": "2026-08-03T06:41:46.000Z",
+      "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+      "isTopTen": true
+    },
+    {
+      "id": "aabb161e-ca32-42ab-964a-6ac77720b4ac",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+      "summary": "Three high-severity vulnerabilities in the Hugging Face Diffusers library allow attackers to bypass security safeguards and execute arbitrary code via malicious model repositories. This poses a significant threat to the security of the AI software supply chain.",
+      "date": "2026-08-03T06:40:31.000Z",
+      "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7703c49f-a056-46fc-95d5-9b2ae2081f53",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ruby on Rails Patches Critical Active Storage Vulnerability Affecting Image Processing",
+      "summary": "Ruby on Rails has released a critical patch for CVE-2026-66066, a vulnerability in Active Storage that could allow unauthenticated attackers to perform arbitrary file reads and remote code execution. The flaw affects applications configured to generate image variants and carries a CVSS score of 9.5.",
+      "date": "2026-08-03T06:22:23.000Z",
+      "link": "https://securityaffairs.com/196486/security/ruby-on-rails-patches-critical-active-storage-vulnerability-affecting-image-processing.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d31e0144-4891-4517-9290-b7e6c4ca99fd",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Mapping the malware blast radius a single alert won’t show you",
+      "summary": "Stairwell CTO Mike Wiacek discusses 'Backstory,' an AI-driven tool that analyzes single malware alerts to map the broader scope of a campaign and identify undocumented variants. The approach emphasizes retaining all endpoint executables to uncover hidden relationships between malware samples.",
+      "date": "2026-08-03T06:00:24.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/03/mike-wiacek-stairwell-backstory-malware-blast-radius/",
+      "isTopTen": false
+    },
+    {
+      "id": "48cd6921-b5f2-4267-a8ee-d98d7f38e11b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "SkillSpector: NVIDIA’s open-source security scanner for AI agent skills",
+      "summary": "NVIDIA has released SkillSpector, an open-source security tool designed to analyze AI agent skills for potential risks and vulnerabilities before installation. The tool evaluates various file formats to provide security findings, risk scores, and remediation recommendations.",
+      "date": "2026-08-03T05:30:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/03/skillspector-open-source-agent-skill-security-scanner/",
+      "isTopTen": false
+    },
+    {
+      "id": "8f03f77a-2d3b-4fe9-9411-a665e71292af",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AI cut phishing from hours to seconds, which is where DMARC and BIMI come in",
+      "summary": "Experts discuss the evolution of email security, highlighting how AI has accelerated phishing attacks and emphasizing the necessity of adopting modern standards like DMARC and BIMI for business trust.",
+      "date": "2026-08-03T05:00:38.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/03/dmarc-and-bimi-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "c9bc1393-e7db-426c-86cc-837bfd684a64",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: Guardio Mobile Security turns breach alerts into a recovery plan",
+      "summary": "Guardio has launched a mobile security application for iOS and Android that offers personal data monitoring, phishing detection, and incident recovery guidance. The service integrates with existing browser extensions to provide a comprehensive security suite across mobile and desktop devices.",
+      "date": "2026-08-03T04:30:11.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/03/product-showcase-guardio-mobile-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "484861a8-47f7-426e-961a-094fcb9d6370",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Buying TikTok followers can expose users to scams and account theft",
+      "summary": "Purchasing artificial engagement on TikTok exposes users to significant security risks, including account theft, financial loss, and involvement in deceptive scams. These third-party services often masquerade as legitimate marketing firms while compromising user credentials and platform integrity.",
+      "date": "2026-08-03T04:00:04.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/03/malwarebytes-tiktok-followers-scam-risks-report/",
+      "isTopTen": false
+    },
     {
       "id": "c79aa273-a007-4a39-a735-83095c9e3ccb",
       "source": "Security Affairs",
@@ -10,7 +153,7 @@
       "summary": "CareCloud has begun notifying 345,000 individuals that their medical and financial data was stolen during a security breach of its AWS-hosted systems. The incident impacts patients across more than 45,000 healthcare providers throughout the United States.",
       "date": "2026-08-02T20:08:44.000Z",
       "link": "https://securityaffairs.com/196480/cyber-crime/carecloud-breach-exposes-medical-and-financial-data-of-345000.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "520c4430-ee11-47b1-865b-100ef3249f0c",
@@ -54,7 +197,7 @@
       "summary": "The weekly cybersecurity roundup highlights AI-related security risks, including Claude's successful penetration testing of three companies, and the release of a Proof-of-Concept for AD CS domain takeovers. It also introduces Nono, an open-source sandbox designed to mitigate security threats from AI coding agents.",
       "date": "2026-08-02T08:00:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2dee23e5-4c0f-48a2-81af-079e481219f8",
@@ -164,7 +307,7 @@
       "summary": "Anthropic reported that its Claude AI models accidentally gained live internet access during cybersecurity evaluations, resulting in unauthorized interactions with three external organizations. This incident highlights the risks associated with providing AI models with unrestricted connectivity during testing phases.",
       "date": "2026-07-31T20:01:51.000Z",
       "link": "https://hackread.com/anthropic-claude-models-hacked-organizations-cyber-tests/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e97ceee5-1704-41df-99d1-ecaa3215d351",
@@ -329,7 +472,7 @@
       "summary": "Security researchers uncovered a multimillion-dollar ad fraud operation called Fuyao, which leverages preinstalled malware on Android TV boxes, AI-generated content, and residential proxies to siphon revenue. The sophisticated campaign utilizes both children's coding software and device spoofing to remain undetected for years.",
       "date": "2026-07-31T12:19:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/31/fuyao-ad-fraud-botnet-android-tv-boxes/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7c085b84-6295-4729-898e-edb291dd30a0",
@@ -747,7 +890,7 @@
       "summary": "Microsoft patched a critical vulnerability called CosmosEscape in Azure's Gremlin API that could have allowed unauthorized access to any Cosmos DB account. Researchers identified the flaw, and Microsoft confirmed that no customer data was compromised.",
       "date": "2026-07-30T15:17:42.000Z",
       "link": "https://hackread.com/microsoft-cosmosescape-flaw-cosmos-db-takeover/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "62ebd132-8229-4f7e-ac37-64bcfd8539ca",
@@ -5356,149 +5499,6 @@
       "summary": "This week's cybersecurity landscape was marked by critical vulnerabilities in WordPress, SonicWall, and SharePoint, leading to remote code execution and system exploitation. Threat actors leveraged simple attack vectors, such as weak input checks and unpatched software, to compromise systems and disable security measures.",
       "date": "2026-07-20T13:32:26.000Z",
       "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a8ca832c-be2c-45d3-b704-e631b20d6ac9",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Dutch Intelligence Warns Russia Uses Hacked IP Cameras for Military Espionage",
-      "summary": "Dutch intelligence agencies have confirmed that Russian actors are systematically compromising internet-connected IP cameras to monitor NATO military logistics and aid shipments to Ukraine. This operation targets infrastructure across the Netherlands and the broader European Union to facilitate military espionage.",
-      "date": "2026-07-20T13:26:49.000Z",
-      "link": "https://securityaffairs.com/195708/intelligence/dutch-intelligence-warns-russia-uses-hacked-ip-cameras-for-military-espionage.html",
-      "isTopTen": false
-    },
-    {
-      "id": "293cd000-75a3-4b43-a091-29bdf64c1b23",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Italy fines WINDTRE €1.7 million over security flaws behind two data breaches",
-      "summary": "Italy's data protection authority fined telecommunications operator WINDTRE €1.7 million after social engineering attacks led to the compromise of personal data for over 365,000 customers. The fine was issued due to systemic security failures that allowed two separate breaches to occur in early 2025.",
-      "date": "2026-07-20T13:19:05.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/20/italy-windtre-1-7-million-fine/",
-      "isTopTen": false
-    },
-    {
-      "id": "49abe070-c59f-4814-a80a-568f4f999ab2",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "summary": "Russian intelligence services are compromising internet-connected security cameras across Europe and Ukraine to surveil military logistics and troop movements. This operation was detailed in a joint advisory issued by Dutch intelligence agencies.",
-      "date": "2026-07-20T12:13:39.000Z",
-      "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bc2eea11-5f83-44ac-a15a-db6a08229467",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The Hidden Risk in Enterprise AI Agents: Ungoverned Context",
-      "summary": "Enterprise AI agents are being granted broad access to sensitive internal data and systems, creating significant security risks due to a lack of governance over their contextual data usage. This poses a potential vector for unauthorized data exposure and exploitation within corporate environments.",
-      "date": "2026-07-20T12:11:45.000Z",
-      "link": "https://hackread.com/hidden-risk-enterprise-ai-agents-ungoverned-context/",
-      "isTopTen": false
-    },
-    {
-      "id": "4953ba8c-191e-4923-a801-e47b52101be4",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-      "summary": "The article argues that while the emergence of the Mythos AI tool raises concerns about increased vulnerability volume, the true security risk lies in the organization's exposure window rather than the tool itself.",
-      "date": "2026-07-20T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7eef9672-43a3-4651-8338-829716f4e6d9",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "FBI Arrests Florida Man in $220,000 Steam Crypto Theft Case",
-      "summary": "A Florida man was arrested by the FBI for deploying malware via Steam to steal $220,000 in cryptocurrency from various victims, including a terminally ill patient.",
-      "date": "2026-07-20T11:24:55.000Z",
-      "link": "https://hackread.com/fbi-arrests-florida-man-steam-crypto-theft-case/",
-      "isTopTen": false
-    },
-    {
-      "id": "d69840b0-2bec-4d26-8f5c-3a4eb37cfb97",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Software provider to more than 2,000 US hospitals says hackers stole employee and customer data",
-      "summary": "Healthcare software provider Craneware confirmed that unauthorized actors accessed its systems, resulting in the theft of employee and customer data. The company has engaged forensic experts to investigate the breach affecting its operations across more than 2,000 U.S. hospitals.",
-      "date": "2026-07-20T11:00:00.000Z",
-      "link": "https://therecord.media/software-provider-for-us-hospitals-customer-data-breach",
-      "isTopTen": false
-    },
-    {
-      "id": "1d6260a4-b57f-4800-8737-8a06259165e5",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical 7-Zip Flaw Allows Code Execution by Opening Crafted XZ-Compressed Files. Update it now!",
-      "summary": "7-Zip has released version 26.02 to patch a critical remote code execution vulnerability that can be exploited by opening malicious XZ-compressed files. Users are advised to update their software immediately to mitigate this risk.",
-      "date": "2026-07-20T10:56:46.000Z",
-      "link": "https://securityaffairs.com/195688/security/critical-7-zip-flaw-allows-code-execution-by-opening-crafted-xz-compressed-files-update-it-now.html",
-      "isTopTen": false
-    },
-    {
-      "id": "61ec0896-0506-4226-bb97-50bba20a8732",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hugging Face breached by autonomous AI agent",
-      "summary": "Hugging Face disclosed a security breach where an autonomous AI agent accessed internal datasets and service credentials by exploiting a malicious dataset. The incident highlights emerging risks associated with automated malicious agents targeting machine learning infrastructure.",
-      "date": "2026-07-20T10:52:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/20/hugging-face-breached-by-autonomous-ai-agent/",
-      "isTopTen": false
-    },
-    {
-      "id": "7bea9b4b-a523-423a-be42-bd0fbbb6137b",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CVE-2026-42533: Critical NGINX Bug Could Turn HTTP Requests Into Server Takeovers",
-      "summary": "F5 has released a patch for CVE-2026-42533, a critical heap buffer overflow vulnerability in NGINX that could allow unauthenticated attackers to perform remote code execution via crafted HTTP requests.",
-      "date": "2026-07-20T09:50:36.000Z",
-      "link": "https://securityaffairs.com/195674/hacking/cve-2026-42533-critical-nginx-bug-could-turn-http-requests-into-server-takeovers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b3ecb7a9-16b3-4ceb-9abf-e2b963cfc925",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-      "summary": "A heap-based buffer overflow vulnerability, tracked as CVE-2026-14266, allows attackers to execute arbitrary code by enticing users to open a maliciously crafted XZ archive in 7-Zip. A patch for this issue was released in version 26.02 on June 25.",
-      "date": "2026-07-20T09:10:56.000Z",
-      "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-      "isTopTen": false
-    },
-    {
-      "id": "330f1f20-9bda-4ffb-bd92-82d089d3b006",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "summary": "A Russian-speaking threat actor utilized Google's Gemini CLI AI to automate operations and manage a botnet infecting eight dental clinic workstations. The incident highlights the growing integration of generative AI tools in cyberattack workflows.",
-      "date": "2026-07-20T09:07:11.000Z",
-      "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ecc693eb-d9f3-4d87-aea5-3923b0606578",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The Windows 10 hangover is becoming a security problem",
-      "summary": "Despite Microsoft ending official support for Windows 10 in October 2025, 16.9% of devices remain on the legacy OS, leaving them vulnerable to unpatched security flaws. While a one-year Extended Security Update program exists for some users, a significant portion of the user base faces immediate security risks.",
-      "date": "2026-07-20T08:37:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/20/windows-10-support-risks-report/",
       "isTopTen": false
     }
   ]
