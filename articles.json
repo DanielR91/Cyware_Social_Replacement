@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-04T02:54:59.171Z",
+  "lastUpdated": "2026-08-04T05:54:58.235Z",
   "articles": [
+    {
+      "id": "87984209-2a98-4905-89fa-8516a4c5335b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OWASP’s subtractive security project measures the attack paths you erased",
+      "summary": "The OWASP Subtractive Security project introduces a new methodology focused on reducing the attack surface by actively deleting unnecessary system capabilities and attack paths rather than solely relying on detection. It provides organizations with an engineering standard, the Path Erasure Rate, to quantify and minimize potential vectors before they can be exploited.",
+      "date": "2026-08-04T05:30:02.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/04/owasp-subtractive-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "714a368c-6d02-4ebc-a0c0-e3ec08f527ad",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Analysts got 19 minutes back every hour in Stellar Cyber’s agentic auto triage trials",
+      "summary": "Stellar Cyber's new Agentic Auto Triage feature successfully automated the closure of 64% of false-positive tickets, saving analysts 19 minutes of work per hour during field trials.",
+      "date": "2026-08-04T05:00:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/04/stellar-cyber-agentic-auto-triage/",
+      "isTopTen": false
+    },
+    {
+      "id": "31e0961d-42a4-48d6-8d51-8741fdc7c7b2",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cloudflare has mostly ditched third party security tools, suggests not trying that at home",
+      "summary": "Cloudflare has replaced expensive third-party security tools with internal automation and custom AI solutions to streamline bug bounty triage and security operations. The company advises others to exercise caution before attempting similar transitions due to the complexity involved.",
+      "date": "2026-08-04T04:50:53.000Z",
+      "link": "https://www.theregister.com/security/2026/08/04/cloudflare-has-mostly-ditched-third-party-security-tools-suggests-not-trying-that-at-home/5282600",
+      "isTopTen": false
+    },
+    {
+      "id": "398fa877-f04d-46e6-9b12-487a87268a65",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Fake IRS letters direct crypto holders to bogus compliance portal",
+      "summary": "Scammers are distributing physical letters impersonating the IRS to lure cryptocurrency holders into providing information via a fraudulent compliance portal. This social engineering campaign aims to deceive victims into believing they face penalties if they do not comply with the bogus request.",
+      "date": "2026-08-04T04:30:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/04/fake-irs-crypto-letters-compliance-portal-scam/",
+      "isTopTen": false
+    },
+    {
+      "id": "e9b2c8f3-5481-46b9-b243-9e3c348bf3bb",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cybersecurity jobs available right now: August 4, 2026",
+      "summary": "This article provides a curated list of current cybersecurity job opportunities, including a specific focus on an Application Security Engineer role at Arcadia.",
+      "date": "2026-08-04T04:00:34.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/04/cybersecurity-jobs-available-right-now-august-4-2026/",
+      "isTopTen": false
+    },
     {
       "id": "b8e8deda-9bcf-4455-a2b4-a7b76ce3dc58",
       "source": "CyberScoop",
@@ -43,7 +98,7 @@
       "summary": "Researchers discovered 18 malicious npm packages masquerading as Alibaba developer tools to deploy a cross-platform remote access trojan (RAT) in a targeted supply chain attack. The campaign notably utilizes typosquatting, such as the package 'lib-mtop', to compromise Chinese-speaking developers.",
       "date": "2026-08-03T18:43:53.000Z",
       "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "79c3a378-545d-4436-94a0-ef5b4a015cfe",
@@ -76,7 +131,7 @@
       "summary": "The automated creation of AI-generated fake vulnerabilities is exacerbating existing backlogs within the National Institute of Standards and Technology (NIST) CVE pipeline. This trend threatens the integrity of vulnerability reporting systems as systems struggle to filter out misinformation.",
       "date": "2026-08-03T17:19:36.000Z",
       "link": "https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "20f39c56-cd8d-463c-9f3e-de8d47dea161",
@@ -87,7 +142,7 @@
       "summary": "Unit 42 researchers identified three attack vectors against Google Password Manager that allow malware to bypass passkey authentication, potentially granting unauthorized access to accounts without user interaction. The most severe of these exploits targets the master key, undermining the security model of cloud-stored passkeys.",
       "date": "2026-08-03T16:24:47.000Z",
       "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cd606a88-65e0-4b96-bddb-7dad4b8b8157",
@@ -120,7 +175,7 @@
       "summary": "Russian state-sponsored actors are exploiting public Wi-Fi captive portals to distribute malware and perform surveillance on users in the hospitality industry. This campaign involves the deployment of keyloggers and token-stealing tools to compromise sensitive victim data.",
       "date": "2026-08-03T15:39:05.000Z",
       "link": "https://www.theregister.com/security/2026/08/03/russias-svr-borks-public-wi-fis-for-digital-surveillance/5282399",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "081c88a1-f214-49d9-b99c-2f57f797f290",
@@ -219,7 +274,7 @@
       "summary": "Water infrastructure systems in Georgia and Michigan have been targeted by cyberattacks amid rising tensions between the United States and Iran. While the attacks are reported as part of a broader conflict, political officials have offered conflicting attributions regarding the source of the incidents.",
       "date": "2026-08-03T13:33:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/03/georgia-michigan-say-water-systems-hacked-by-iran-tied-crew/5282262",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f054e6a1-6558-4aa2-a03e-bb3f6f700ce7",
@@ -340,7 +395,7 @@
       "summary": "The article discusses a vulnerability in passkey implementations where relying parties fail to validate the User Verified flag, effectively downgrading multi-factor authentication to a single-factor process. This oversight creates a novel attack surface that undermines the security benefits of passwordless authentication.",
       "date": "2026-08-03T10:00:35.000Z",
       "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "670923aa-2505-49c9-9baa-923c48b8e8ac",
@@ -395,7 +450,7 @@
       "summary": "Thermo Fisher Scientific has released a patch for a vulnerability in Applied Biosystems software that could allow unauthorized, nearly undetectable manipulation of DNA data files. The flaw, tracked as CVE-2026-17583, potentially compromises the integrity of forensic and laboratory analysis.",
       "date": "2026-08-03T08:05:30.000Z",
       "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "892571f8-78c9-42f5-a851-dcbbe416fa80",
@@ -428,7 +483,7 @@
       "summary": "N-able disclosed that attackers exploited an authentication bypass in its N-central RMM platform to gain administrative access after an initial security patch proved ineffective. The company has since released an updated build, 2026.3.1.7, to fully address the vulnerability tracked as CVE-2026-18577.",
       "date": "2026-08-03T06:41:46.000Z",
       "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "aabb161e-ca32-42ab-964a-6ac77720b4ac",
@@ -450,7 +505,7 @@
       "summary": "Ruby on Rails has released a critical patch for CVE-2026-66066, a vulnerability in Active Storage that could allow unauthenticated attackers to perform arbitrary file reads and remote code execution. The flaw affects applications configured to generate image variants and carries a CVSS score of 9.5.",
       "date": "2026-08-03T06:22:23.000Z",
       "link": "https://securityaffairs.com/196486/security/ruby-on-rails-patches-critical-active-storage-vulnerability-affecting-image-processing.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d31e0144-4891-4517-9290-b7e6c4ca99fd",
@@ -571,7 +626,7 @@
       "summary": "CISA has issued a directive for utility providers to secure operational technology by removing internet-exposed programmable logic controllers (PLCs) following a coordinated cyberattack on over 30 Minnesota water systems.",
       "date": "2026-08-02T05:06:33.000Z",
       "link": "https://securityaffairs.com/196453/ics-scada/cisa-urges-utilities-to-remove-internet-exposed-plcs-after-minnesota-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "43dff530-c482-4aef-8b45-ffd93808f4ef",
@@ -593,7 +648,7 @@
       "summary": "Russian state-linked threat actor Storm-2945 is using compromised hotel Wi-Fi portals to launch DNS manipulation attacks that distribute malware and harvest Microsoft 365 authentication tokens. The campaign, dubbed CaptiveCrunch, specifically targets travelers to gain unauthorized access to corporate accounts.",
       "date": "2026-08-01T14:11:37.000Z",
       "link": "https://securityaffairs.com/196441/apt/russian-hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-tokens.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e0538b38-f8a9-4866-9345-2b0f0b301226",
@@ -615,7 +670,7 @@
       "summary": "Hackers compromised an Adform JavaScript file to redirect cryptocurrency transactions by swapping wallet addresses on various customer websites. The malicious script was identified and removed by Adform on July 27, 2026, following the breach of their advertising infrastructure.",
       "date": "2026-08-01T09:03:07.000Z",
       "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "406c4bec-64b1-4fa7-bc75-8c235f4bb937",
@@ -5444,61 +5499,6 @@
       "summary": "SonicWall SMA 1000 appliances were compromised by threat actors using two zero-day vulnerabilities for weeks before the flaws were publicly disclosed. The attackers utilized these exploits to install custom malware and maintain long-term, stealthy access to internal networks.",
       "date": "2026-07-21T10:35:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/",
-      "isTopTen": false
-    },
-    {
-      "id": "1393e9ba-d549-4e2f-a80e-b679f5520ee4",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Fake FBI agents target people who already got scammed",
-      "summary": "Scammers are impersonating FBI and IC3 officials to target and revictimize individuals who have previously fallen for other scams. The perpetrators are increasingly using sophisticated tactics, such as AI-generated video and spoofed websites, to deceive their victims.",
-      "date": "2026-07-21T10:21:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/21/fbi-ic3-impersonation-scam-warning/",
-      "isTopTen": false
-    },
-    {
-      "id": "dc0f4ccd-cc62-4bd9-b53c-cfd9603b3c69",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "What the World Cup can teach us about cybersecurity resilience",
-      "summary": "The article emphasizes that cybersecurity resilience for major global events requires proactive, long-term planning that extends beyond immediate physical perimeters. It argues that relying on outdated security strategies is insufficient for modern large-scale threats.",
-      "date": "2026-07-21T10:00:00.000Z",
-      "link": "https://cyberscoop.com/world-cup-2026-major-event-cybersecurity-resilience-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "738d5fdb-7c9a-4ea7-9ca3-5e02ace06e9c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AWS wants GuardDuty to automate the first steps of threat investigations",
-      "summary": "AWS has launched a public preview of its new GuardDuty investigation agent, which utilizes AI to automate initial threat analysis for security teams. This feature aims to decrease incident response times by streamlining the investigation of findings across AWS accounts and organizations.",
-      "date": "2026-07-21T09:14:25.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/21/amazon-guardduty-investigation-agent-on-demand/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5808625-7aae-4ff1-af72-05b10a667050",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Estée Lauder discloses data breach tied to Oracle EBS vulnerability",
-      "summary": "Estée Lauder disclosed a data breach resulting from a security vulnerability in its Oracle E-Business Suite system used for HR operations. The incident highlights the risks associated with unpatched software in enterprise environments.",
-      "date": "2026-07-21T09:01:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/21/estee-lauder-data-breach-oracle-ebs/",
-      "isTopTen": false
-    },
-    {
-      "id": "6957f6c3-da97-4f62-a388-7c1c7057b149",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-      "summary": "Attackers are actively exploiting two critical vulnerabilities in WordPress, collectively known as 'wp2shell,' to achieve unauthenticated remote code execution and full site compromise. The availability of public exploit code has led to widespread mass scanning and malicious activity.",
-      "date": "2026-07-21T08:59:30.000Z",
-      "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
       "isTopTen": false
     }
   ]
