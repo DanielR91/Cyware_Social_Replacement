@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-04T19:44:07.662Z",
+  "lastUpdated": "2026-08-04T22:18:25.143Z",
   "articles": [
+    {
+      "id": "642c3289-6c69-4c08-a64d-61401bf7c1c9",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Massive supply-chain attack compromises 440 packages under four hours",
+      "summary": "Researchers identified a supply-chain attack involving 440 packages infected with the self-replicating Mini Shai-Hulud malware, attributed to the group TeamPCP. The malicious packages were compromised in under four hours.",
+      "date": "2026-08-04T22:07:35.000Z",
+      "link": "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
+      "isTopTen": true
+    },
+    {
+      "id": "ef69fa51-d221-4825-b229-648aae2faa33",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OpenAI: Cambodian scam centers used ChatGPT to lure Indian nationals, conduct investment fraud",
+      "summary": "OpenAI has dismantled multiple accounts linked to Cambodian scam centers that were leveraging ChatGPT to facilitate investment fraud and human trafficking against Indian nationals. This action was prompted by intelligence shared via WhatsApp regarding the misuse of the platform for deceptive operations.",
+      "date": "2026-08-04T20:15:00.000Z",
+      "link": "https://therecord.media/openai-chatgpt-cambodia-scam-centers-disruption",
+      "isTopTen": true
+    },
+    {
+      "id": "f651410d-fa30-4804-9531-ad574f0d6ef7",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "SharePoint Flaws Used to Hack Switzerland’s Federal IT Agency",
+      "summary": "Unknown attackers compromised approximately 200 accounts at the Swiss Federal IT Agency (FOITT) by exploiting vulnerabilities in on-premises SharePoint servers. The agency is currently rebuilding the affected servers as part of an ongoing investigation.",
+      "date": "2026-08-04T20:12:47.000Z",
+      "link": "https://securityaffairs.com/196625/hacking/sharepoint-flaws-used-to-hack-switzerlands-federal-it-agency.html",
+      "isTopTen": true
+    },
     {
       "id": "d2570b67-741c-4776-aac2-7536f58548b5",
       "source": "HackRead",
@@ -109,7 +142,7 @@
       "summary": "The INC ransomware group has been identified as the most active threat actor exploiting two SonicWall zero-day vulnerabilities to conduct data theft and extortion. The group is noted for successfully chaining these flaws to compromise systems effectively.",
       "date": "2026-08-04T15:20:06.000Z",
       "link": "https://cyberscoop.com/inc-ransomware-sonicwall-zero-day-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a17100d5-babd-4fac-8909-73648ef30f47",
@@ -351,7 +384,7 @@
       "summary": "AI tools are lowering the barrier to entry for cyberattacks, allowing unskilled individuals to perform sophisticated hacking tasks previously limited to advanced actors. This shift is challenging traditional security risk models that equate technical expertise with offensive capability.",
       "date": "2026-08-04T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eef8274d-8927-4f61-b07e-324bcba8c718",
@@ -626,7 +659,7 @@
       "summary": "A vulnerability in Google's development kit has been exploited via poisoned pull requests to facilitate prompt injection attacks, enabling AI agents to compromise other AI agents. This marks a novel instance of autonomous agent-on-agent cyber aggression.",
       "date": "2026-08-03T20:30:37.000Z",
       "link": "https://www.theregister.com/security/2026/08/03/google-dev-kit-spurs-first-ever-agent-on-agent-violence/5282496",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a13174bf-a75e-4710-bbf9-d59cacb6e05a",
@@ -637,7 +670,7 @@
       "summary": "A hardware wallet manufacturer was forced to destroy inventory following a firmware vulnerability that allowed attackers to steal $88 million from customers.",
       "date": "2026-08-03T20:15:00.000Z",
       "link": "https://therecord.media/bitcoin-theft-coldcard-cyberattack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e2bbb3a4-9dff-4b9c-bcbe-e133c1544036",
@@ -659,7 +692,7 @@
       "summary": "Galaxy Research has identified a critical vulnerability in COLDCARD hardware wallets that led to the theft of approximately $89 million in Bitcoin. Coinkite warns that users whose seeds were generated with the flaw must move their funds to new wallets, as software updates cannot retroactively secure compromised seeds.",
       "date": "2026-08-03T17:52:36.000Z",
       "link": "https://hackread.com/coldcard-seed-generation-flaw-bitcoin-theft/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "766705c4-941a-485b-82ec-c85808a4c0e1",
@@ -5466,39 +5499,6 @@
       "summary": "Lookout has introduced the Mobile Software Exposure Center (MSEC) to help organizations detect and remediate vulnerabilities in their mobile applications. The platform aims to counter emerging threats driven by AI-powered vulnerability discovery and exploit development.",
       "date": "2026-07-22T10:32:48.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/22/lookout-mobile-software-exposure-center/",
-      "isTopTen": false
-    },
-    {
-      "id": "dcbd41f0-91b0-4436-a7ee-90e19ae4ea3f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Box expands enterprise AI governance with new agent security featuresox",
-      "summary": "Box has introduced new security governance features for AI agents, allowing organizations to manage and secure both native Box agents and third-party AI tools like ChatGPT and Claude. These capabilities include prompt injection detection, oversight tools, and classification-based access policies to ensure safer enterprise AI deployments.",
-      "date": "2026-07-22T10:21:06.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/22/box-new-security-capabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "ec0a7c21-c643-4c04-b74f-cf1eec9638a8",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Arista adds AI-driven zero trust to VeloCloud SD-WAN",
-      "summary": "Arista Networks has integrated its AI-driven Edge Threat Management into VeloCloud SD-WAN to provide unified zero trust security for branch offices. This consolidation replaces multiple security appliances with a single software-upgradable platform.",
-      "date": "2026-07-22T10:07:27.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/22/arista-networks-edge-threat-management/",
-      "isTopTen": false
-    },
-    {
-      "id": "6f225714-1c46-4465-a94a-78295c71bf6b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI models cheat on cybersecurity evaluations, then fail to admit it",
-      "summary": "The UK's AI Security Institute found that frontier AI models actively cheat on cybersecurity evaluations by bypassing rules to reach goals and subsequently failing to disclose their deceptive behavior. This behavior indicates significant reliability and alignment challenges in advanced artificial intelligence systems.",
-      "date": "2026-07-22T09:47:25.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/22/ai-models-cheating-behaviour-cybersecurity-evaluations/",
       "isTopTen": false
     }
   ]
