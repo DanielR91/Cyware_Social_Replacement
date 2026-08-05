@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-05T05:53:11.248Z",
+  "lastUpdated": "2026-08-05T08:44:07.812Z",
   "articles": [
+    {
+      "id": "463a0171-08a0-47a2-806a-9d5024565e91",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cloudflare gives AI agents wallets with built-in spending controls",
+      "summary": "Cloudflare is introducing digital wallets for AI agents, allowing them to autonomously pay for APIs and content within pre-defined spending limits. The service includes both Account and Virtual wallets to manage financial transactions on behalf of automated agents.",
+      "date": "2026-08-05T07:54:17.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/05/cloudflare-wallets-for-ai-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "e5939e7f-07b9-4ef9-bbef-b9e8409af0f0",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Kali365 Exploits Microsoft Device Login to Access US Corporate Data",
+      "summary": "The threat actor Kali365 is targeting US corporations by abusing Microsoft device login processes to harvest OAuth tokens for unauthorized data access. The report provides guidance for security operations teams on detecting and mitigating these phishing-based credential attacks.",
+      "date": "2026-08-05T07:39:25.000Z",
+      "link": "https://hackread.com/kali365-exploit-microsoft-device-login-access-us-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "471e27b0-19e0-4d26-9c1b-74e2dc2b6a34",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SMOKE#SCREEN Campaign Abuses ScreenConnect to Give Attackers Remote Control Access",
+      "summary": "The SMOKE#SCREEN campaign utilizes social engineering, such as fake software updates, to deploy ScreenConnect RMM tools for persistent unauthorized remote access. This active, multi-wave campaign is designed to stealthily compromise systems and bypass existing security defenses.",
+      "date": "2026-08-05T05:52:28.000Z",
+      "link": "https://securityaffairs.com/196637/uncategorized/smokescreen-campaign-abuses-screenconnect-to-give-attackers-remote-control-access.html",
+      "isTopTen": false
+    },
+    {
+      "id": "bfe06604-0e2b-43bd-a1b9-012155aac4d0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+      "summary": "Researchers discovered a long-standing supply chain attack on the QuickFox VPN tool that distributes the FDMTP backdoor via a trojanized Windows installer. The campaign, active since August 2025, highlights a targeted compromise of software delivery mechanisms.",
+      "date": "2026-08-05T05:47:19.000Z",
+      "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+      "isTopTen": false
+    },
     {
       "id": "8dfc72ab-b19a-45ac-8866-b63df75d795e",
       "source": "Help Net Security",
@@ -87,7 +131,7 @@
       "summary": "Researchers identified a supply-chain attack involving 440 packages infected with the self-replicating Mini Shai-Hulud malware, attributed to the group TeamPCP. The malicious packages were compromised in under four hours.",
       "date": "2026-08-04T22:07:35.000Z",
       "link": "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ef69fa51-d221-4825-b229-648aae2faa33",
@@ -417,7 +461,7 @@
       "summary": "A critical vulnerability in cPanel (CVE-2026-58048) with a CVSS score of 9.4 allows authenticated users to execute SQL commands as root, necessitating an immediate update. This flaw poses a significant risk to shared hosting environments by enabling privilege escalation.",
       "date": "2026-08-04T12:29:41.000Z",
       "link": "https://securityaffairs.com/196595/security/cve-2026-58048-cpanel-bug-enables-full-database-administrator-access.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be45b2ba-ad86-43c7-af2e-d8b717eb25b9",
@@ -736,7 +780,7 @@
       "summary": "A vulnerability in Google's development kit has been exploited via poisoned pull requests to facilitate prompt injection attacks, enabling AI agents to compromise other AI agents. This marks a novel instance of autonomous agent-on-agent cyber aggression.",
       "date": "2026-08-03T20:30:37.000Z",
       "link": "https://www.theregister.com/security/2026/08/03/google-dev-kit-spurs-first-ever-agent-on-agent-violence/5282496",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a13174bf-a75e-4710-bbf9-d59cacb6e05a",
@@ -747,7 +791,7 @@
       "summary": "A hardware wallet manufacturer was forced to destroy inventory following a firmware vulnerability that allowed attackers to steal $88 million from customers.",
       "date": "2026-08-03T20:15:00.000Z",
       "link": "https://therecord.media/bitcoin-theft-coldcard-cyberattack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e2bbb3a4-9dff-4b9c-bcbe-e133c1544036",
@@ -5455,50 +5499,6 @@
       "summary": "A new Windows information stealer dubbed 'Dophin X' has been identified targeting over 300 applications while utilizing AI-driven profiling to help cybercriminals maximize financial gains. The malware represents an evolving threat to credential security and data privacy.",
       "date": "2026-07-22T13:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/07/22/sneaky-windows-stealer-targets-300-apps-gives-crims-an-ai-profiler-to-maximize-profits/5275962",
-      "isTopTen": false
-    },
-    {
-      "id": "f569efa4-1f1b-4b18-a63c-81f035e457e0",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
-      "summary": "The open-source platform Windmill is facing active exploitation of CVE-2026-29059, an unauthenticated path traversal vulnerability that allows attackers to read arbitrary files from the server.",
-      "date": "2026-07-22T12:36:36.000Z",
-      "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9c6d86d8-9d4f-4dc7-8e14-28b960c819f9",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "OpenAI models behind breach of Hugging Face systems, companies say",
-      "summary": "OpenAI confirmed that its models were utilized in an automated attack against the AI platform Hugging Face. The incident highlights the growing threat of autonomous agents being weaponized to exploit system vulnerabilities.",
-      "date": "2026-07-22T12:00:00.000Z",
-      "link": "https://therecord.media/openai-cyberattack-hugging-face",
-      "isTopTen": false
-    },
-    {
-      "id": "aa947f3c-737b-4c26-a58b-73fa36202ee8",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "The Fastest Path to AI Adoption Runs Through Security",
-      "summary": "Security leaders who prioritize proactive AI governance can effectively balance organizational security requirements with employee productivity demands. By facilitating secure AI adoption, CISOs can enhance their strategic influence and organizational value.",
-      "date": "2026-07-22T11:58:00.000Z",
-      "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3a134dbc-d2f8-4363-99f7-15cedddcbfdb",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Greedy ransomware crews return for seconds after victims cough up first extortion payments",
-      "summary": "Proofpoint researchers report that cybercriminals are increasingly targeting ransomware victims for follow-up extortion payments even after the initial ransom has been paid. In many cases, victims do not recover access to their data despite meeting the attackers' demands.",
-      "date": "2026-07-22T11:49:12.000Z",
-      "link": "https://www.theregister.com/security/2026/07/22/over-a-third-of-ransomware-victims-re-extorted-after-paying/5276218",
       "isTopTen": false
     }
   ]
