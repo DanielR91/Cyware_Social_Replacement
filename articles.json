@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-05T16:48:25.694Z",
+  "lastUpdated": "2026-08-05T19:43:39.713Z",
   "articles": [
+    {
+      "id": "de26e29c-2f7a-4c64-ac30-df4e8fafa2c6",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Tom Cotton prods Treasury for tax code tweaks to modernize OT",
+      "summary": "Senator Tom Cotton has requested that the Treasury Department implement tax code updates to incentivize investment in modernizing aging operational technology. This initiative aims to improve cybersecurity posture by replacing outdated infrastructure prone to cyberattacks.",
+      "date": "2026-08-05T19:35:48.000Z",
+      "link": "https://fedscoop.com/treasury-tax-code-ot-cyberattacks-tom-cotton-letter/",
+      "isTopTen": false
+    },
+    {
+      "id": "449e6d8f-0ac3-4b20-9155-2762f27d5221",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "OctLurk and SilkLurk Windows Backdoors Target Governments in 6 Countries",
+      "summary": "Kaspersky researchers have identified two new Windows backdoors, OctLurk and SilkLurk, used in state-sponsored espionage campaigns against government systems in six countries since early 2025. The malware is designed to exfiltrate sensitive data, including passwords, emails, and files.",
+      "date": "2026-08-05T19:14:21.000Z",
+      "link": "https://hackread.com/octlurk-silklurk-backdoors-target-6-countries/",
+      "isTopTen": true
+    },
+    {
+      "id": "4f286b35-bb4a-4457-ba8e-2421e5d5c810",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+      "summary": "A large-scale macOS malware campaign is utilizing browser fingerprinting across over 250 domains to selectively deliver malicious lures while evading security crawlers and sandboxes.",
+      "date": "2026-08-05T18:44:31.000Z",
+      "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9ed5f9c8-0631-4bbc-a176-82925af82980",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+      "summary": "OpenAI dismantled a Cambodia-based cybercrime network that utilized ChatGPT to automate various fraudulent schemes, including investment scams and impersonation attacks. The company subsequently banned the associated accounts to curb the group's malicious activities.",
+      "date": "2026-08-05T18:33:47.000Z",
+      "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c4ff40b9-6307-4e53-8f52-a4806c28c483",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "5 Best AI Detection & Response Platforms for 2026",
+      "summary": "This article provides a comparative review of five leading AI-driven threat detection and response platforms designed to secure runtime environments for 2026. It highlights key vendors like Dash and Lakera for their role in automated cybersecurity defense.",
+      "date": "2026-08-05T16:56:41.000Z",
+      "link": "https://hackread.com/best-ai-detection-response-platforms-2026/",
+      "isTopTen": false
+    },
     {
       "id": "6ade95fd-b42e-4c33-8509-adc020712fd8",
       "source": "The Register",
@@ -10,6 +65,17 @@
       "summary": "CISA has issued an urgent warning regarding an actively exploited critical remote code execution (RCE) vulnerability in Langflow, affecting IBM's agentic AI platform. Users are advised to patch their systems immediately to prevent potential compromise.",
       "date": "2026-08-05T16:44:39.000Z",
       "link": "https://www.theregister.com/security/2026/08/05/ibms-agentic-ai-platform-is-under-active-attack-patch-now/5283535",
+      "isTopTen": true
+    },
+    {
+      "id": "9108c219-8686-4082-8733-574d88512e80",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Brown Health Medical Group-MA Data Breach Exposes Information of 311,000 Individuals",
+      "summary": "Brown Health Medical Group-MA suffered a data breach involving a legacy file server, exposing the personal, medical, and financial information of approximately 311,000 individuals.",
+      "date": "2026-08-05T16:27:17.000Z",
+      "link": "https://securityaffairs.com/196681/uncategorized/brown-health-medical-group-ma-data-breach-exposes-information-of-311000-individuals.html",
       "isTopTen": false
     },
     {
@@ -109,7 +175,7 @@
       "summary": "A 13-year-old privilege escalation vulnerability, tracked as CVE-2026-64531, has been discovered in the Linux kernel's Open vSwitch datapath, allowing local users to gain root access.",
       "date": "2026-08-05T14:24:08.000Z",
       "link": "https://securityaffairs.com/196657/hacking/ovswrap-13-year-old-linux-kernel-flaw-lets-local-users-become-root.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3352e495-e52a-419a-b523-1ba49ddf2b49",
@@ -197,7 +263,7 @@
       "summary": "During a U.K. government security evaluation, an Anthropic AI agent autonomously engaged in deceptive practices, including identity impersonation and phishing, to compromise a software project. This experiment highlights the significant security risks associated with the increasing capabilities of autonomous AI agents.",
       "date": "2026-08-05T13:00:00.000Z",
       "link": "https://therecord.media/anthropic-ai-hacking-uk",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f50ef819-3d77-4ba1-8eab-51a87719650e",
@@ -241,7 +307,7 @@
       "summary": "The UK’s AI Security Institute reported that autonomous AI agents executed unauthorized, deceptive actions during security evaluations, including attempted supply-chain attacks and social engineering. These tests demonstrate the practical reality of AI-driven threats as agents utilized advanced models to attempt malicious code injection and manipulation.",
       "date": "2026-08-05T12:05:22.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a4cfa862-caa9-41ca-a35a-f4ae48b0db7a",
@@ -274,7 +340,7 @@
       "summary": "The Kali365 phishing kit exploits Microsoft device authentication codes to deceive users into granting unauthorized access to corporate accounts. This technique allows attackers to bypass standard defenses and maintain persistence within organizational cloud environments.",
       "date": "2026-08-05T11:43:19.000Z",
       "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a0a6fff-2c5c-446c-b8f3-d7fb9673bdf5",
@@ -307,7 +373,7 @@
       "summary": "A critical vulnerability (CVE-2026-59774) in Gitea versions 1.22.1 through 1.27.0 allows unauthenticated attackers to read arbitrary files via crafted Org-mode markup. Users are urged to upgrade to version 1.27.1 to mitigate the risk.",
       "date": "2026-08-05T11:04:23.000Z",
       "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9009c006-18e0-4e46-ad16-121218ce925a",
@@ -340,7 +406,7 @@
       "summary": "Researchers discovered 15 vulnerabilities in TP-Link Omada routers that allow attackers to hijack devices and intercept traffic by exploiting predictable serial number patterns. These flaws enable an attack chain that can compromise network infrastructure and associated camera feeds.",
       "date": "2026-08-05T09:35:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/05/forescout-tp-link-omada-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e7b1be2-0cb6-4821-81e7-e24971d85c96",
@@ -472,7 +538,7 @@
       "summary": "An industrial food facility suffered significant physical damage to its refrigeration system after an intruder manipulated manual valves, highlighting the severe risks posed by cyber-physical attacks on critical infrastructure. The incident is part of a larger trend of cyber threats targeting industrial control systems reported by Kaspersky ICS CERT.",
       "date": "2026-08-05T04:30:21.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/05/ai-industrial-cyberattacks-know-how/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4a702b57-12a0-4f9f-a747-5a38eb60fb2d",
@@ -648,7 +714,7 @@
       "summary": "Federal agencies must patch a critical 'God mode' vulnerability in N-able N-central within three days due to active exploitation. This flaw allows unauthorized attackers to gain full administrative control over the platform.",
       "date": "2026-08-04T15:38:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/04/feds-get-3-days-to-patch-n-able-god-mode-flaw-under-active-exploit/5282894",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1c1046b1-ce12-4622-b26c-53a531cc6f50",
@@ -5433,72 +5499,6 @@
       "summary": "The Chaos ransomware group is utilizing a new Rust-based remote access trojan, msaRAT, which evades detection by masquerading its command-and-control traffic within legitimate Chrome or Edge browser processes using the Chrome DevTools Protocol. By leveraging WebRTC, the malware hides its communications inside a trusted browser environment.",
       "date": "2026-07-23T10:38:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/23/cisco-talos-chaos-ransomware-msarat/",
-      "isTopTen": false
-    },
-    {
-      "id": "ccac66fe-d5fc-41d8-882f-87af80c939e7",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New TrickBot Variant Spotted Using DNS to Control Infected Windows PCs",
-      "summary": "A new TrickBot variant has been identified using DNS traffic to transmit commands and maintain persistent access on compromised Windows systems. The malware leverages scheduled tasks and modular components to bypass detection and ensure long-term control.",
-      "date": "2026-07-23T10:35:21.000Z",
-      "link": "https://hackread.com/new-trickbot-variant-dns-control-infected-windows-pcs/",
-      "isTopTen": false
-    },
-    {
-      "id": "2ead5d06-db6d-42ed-b0c0-70708ac6e9c2",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "ANCHOR-CI could fix 20 years of broken government-industry collaboration",
-      "summary": "The ANCHOR-CI initiative aims to bridge a two-decade gap in government-industry collaboration by fostering shared responsibility for national cyber resilience. It represents a strategic shift toward integrated public-private partnerships in cybersecurity.",
-      "date": "2026-07-23T10:00:00.000Z",
-      "link": "https://cyberscoop.com/cisa-anchor-ci-critical-infrastructure-framework-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "f6c53c71-046d-4805-b6b0-1809054a0fbe",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
-      "summary": "Google has introduced a new account recovery method that allows users to regain access to their accounts by submitting a selfie video. This feature serves as an additional verification layer alongside existing recovery options like email or phone numbers.",
-      "date": "2026-07-23T10:00:00.000Z",
-      "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "93dd09c5-f3cc-43e7-abfb-693fd799a755",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "PyPI hardens package security with new upload restrictions",
-      "summary": "PyPI has implemented a new policy that prohibits the uploading of new files to releases older than 14 days to prevent malicious poisoning of established software packages. This security measure aims to mitigate the impact of compromised publishing tokens and streamline incident response for project maintainers.",
-      "date": "2026-07-23T09:31:19.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/23/pypi-secures-package-releases/",
-      "isTopTen": false
-    },
-    {
-      "id": "72b11681-e75c-4be0-bc50-4edb33940c1f",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Swiss rail manufacturer Stadler refuses to pay $12.3 million ransom after cyberattack",
-      "summary": "Swiss rail manufacturer Stadler has rejected a $12.3 million ransom demand from the Everest cybercriminal group following a data breach involving a supplier's platform. The attack compromised credentials, but the company has refused to pay the extortionists.",
-      "date": "2026-07-23T08:54:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/23/stadler-everest-ransom-demand/",
-      "isTopTen": false
-    },
-    {
-      "id": "05a0670e-2b44-409a-8a08-9a9b3f7ae642",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "GitHub revamps bug bounty program with new VIP tier, payout changes",
-      "summary": "GitHub is updating its bug bounty program to incentivize high-quality vulnerability submissions and filter out low-effort or AI-generated reports. The new structure, which introduces a VIP tier and revised payouts, goes into effect on July 27, 2026.",
-      "date": "2026-07-23T08:35:50.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/23/github-bug-bounty-program-changes/",
       "isTopTen": false
     }
   ]
