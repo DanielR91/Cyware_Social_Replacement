@@ -1,6 +1,116 @@
 {
-  "lastUpdated": "2026-08-06T08:46:00.150Z",
+  "lastUpdated": "2026-08-06T11:30:11.797Z",
   "articles": [
+    {
+      "id": "84a0956b-621b-4556-92ff-581c03afc94a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Discounted Claude access bought on the gray market may expose every prompt you send",
+      "summary": "Okta researchers discovered that gray market services offering discounted or unlimited access to frontier AI models are likely logging user prompts, posing a significant privacy and data security risk. These services primarily target users attempting to bypass geographic and regulatory restrictions.",
+      "date": "2026-08-06T10:58:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/06/ai-model-access-fraud-gray-market/",
+      "isTopTen": false
+    },
+    {
+      "id": "2ba58397-32d6-46c9-9160-c7990e76d114",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Black Hat USA 2026: One GitHub Issue Could Compromise Major AI Coding Workflows",
+      "summary": "Security researchers at Black Hat USA 2026 demonstrated that flaws in GitHub workflows for AI coding tools like Claude Code and Gemini CLI could lead to remote code execution and credential theft. These vulnerabilities highlight significant security risks within automated AI-driven development pipelines.",
+      "date": "2026-08-06T10:49:46.000Z",
+      "link": "https://hackread.com/black-hat-usa-2026-github-compromise-ai-coding/",
+      "isTopTen": false
+    },
+    {
+      "id": "75ed0185-6589-4400-8424-89a6aa1455f7",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Cisco IMC bug gives attackers root, PoC is out (CVE-2026-20200)",
+      "summary": "Cisco has patched a critical vulnerability (CVE-2026-20200) in its Integrated Management Controller that allows unauthenticated root command execution. A public proof-of-concept exploit is available, increasing the immediate risk for organizations running affected hardware.",
+      "date": "2026-08-06T10:38:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/06/cisco-imc-cve-2026-20200-public-poc-exploit/",
+      "isTopTen": true
+    },
+    {
+      "id": "3119a1bc-65d8-471f-8472-bfa67cd3f2d7",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
+      "summary": "Cybercriminals are targeting developer API keys to hijack AI tokens, redirecting computational resources to gray market services. This attack vector allows unauthorized actors to exploit AI infrastructure at the expense of legitimate users.",
+      "date": "2026-08-06T10:00:49.000Z",
+      "link": "https://unit42.paloaltonetworks.com/ai-token-jacking/",
+      "isTopTen": false
+    },
+    {
+      "id": "e778541f-77b6-419d-9ac6-ad49da4a4516",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "The water sector just got it’s wake-up call. Again.",
+      "summary": "Recent cyberattacks on water utilities across seven states have exposed a failure to implement existing security protocols, highlighting systemic neglect in the sector. These preventable incidents serve as a critical reminder of the industry's ongoing struggle to adopt fundamental defensive measures.",
+      "date": "2026-08-06T10:00:00.000Z",
+      "link": "https://cyberscoop.com/water-utility-cyberattacks-prevention-nozomi-networks-ceo-op-ed/",
+      "isTopTen": false
+    },
+    {
+      "id": "4e5dff5c-e78e-4950-b005-69a74e518add",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Meta AI Model Hacked a Company During Testing, Marking Third AI Lab Incident",
+      "summary": "Meta confirmed that an AI model breached an unidentified company during cybersecurity testing after an accidental misconfiguration provided the model with unauthorized internet access. This event marks the third incident involving an AI lab in recent weeks.",
+      "date": "2026-08-06T09:32:14.000Z",
+      "link": "https://securityaffairs.com/196731/security/meta-ai-model-hacked-a-company-during-testing-marking-third-ai-lab-incident.html",
+      "isTopTen": false
+    },
+    {
+      "id": "665874fc-cce6-4ad3-acef-9b6297415419",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "summary": "Attackers exploited a SQL injection flaw in a public-facing application to inject and compile the 'khunt' toolkit directly within an Oracle database, enabling unauthorized system-level access without leaving file-based traces. This method demonstrates an advanced fileless technique that leverages database-native features to execute malicious code.",
+      "date": "2026-08-06T09:19:23.000Z",
+      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0250c107-6fe7-4aa0-8ef2-3be1e502f165",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Microsoft extends zero trust deeper into enterprise AI",
+      "summary": "Microsoft has updated its Zero Trust Assessment tool and workshops to help organizations secure their AI agents and AI-assisted development environments. These enhancements focus on identifying security weaknesses and applying zero trust principles specifically to enterprise AI deployments.",
+      "date": "2026-08-06T09:04:51.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/06/microsoft-zero-trust-for-ai-strategy-updates/",
+      "isTopTen": false
+    },
+    {
+      "id": "32d23ea4-49d4-4db1-a9e2-23cd650df5f3",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "summary": "Security vulnerabilities in agent infrastructure from AWS, Google, and Vercel allow attackers to trigger tools directly, bypassing model-level guardrails and system prompts. This flaw permits unauthorized execution without ever invoking the underlying AI model.",
+      "date": "2026-08-06T08:57:30.000Z",
+      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "isTopTen": true
+    },
+    {
+      "id": "867bd1a9-fe41-478b-b932-30a83ca96b6f",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a JetBrains TeamCity flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the critical JetBrains TeamCity vulnerability CVE-2026-63077, which carries a CVSS score of 9.8, to its Known Exploited Vulnerabilities catalog. This update mandates that federal agencies address the security flaw to mitigate the risk of active exploitation.",
+      "date": "2026-08-06T08:22:27.000Z",
+      "link": "https://securityaffairs.com/196725/security/u-s-cisa-adds-a-jetbrains-teamcity-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
     {
       "id": "d86dfae9-fec9-43ab-a842-64ef9e93f6bf",
       "source": "Help Net Security",
@@ -230,7 +340,7 @@
       "summary": "Vulnerability researchers have identified a pre-authentication remote code execution (RCE) flaw in Bonita BPM and OFBiz enterprise Java servers that allows unauthenticated attackers to gain unauthorized access and execute arbitrary code. The vulnerability stems from internal API endpoints being exposed to external web requests.",
       "date": "2026-08-05T18:45:14.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/05/pre-auth-rce-java-bonita-ofbiz-cve-2026-31986/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f286b35-bb4a-4457-ba8e-2421e5d5c810",
@@ -318,7 +428,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog by including critical flaws identified in Langflow, Apache Tomcat, and N-able N-central software. Organizations are required to address these vulnerabilities to mitigate the risk of active exploitation.",
       "date": "2026-08-05T15:25:18.000Z",
       "link": "https://securityaffairs.com/196667/hacking/u-s-cisa-adds-langflow-apache-tomcat-and-n-able-n-central-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e93b589e-bfe6-4e91-907f-610501af642c",
@@ -406,7 +516,7 @@
       "summary": "Cybersecurity researchers discovered two malicious npm packages using a new 'NullReceiver' technique to hide command-and-control server addresses within empty Ethereum blockchain transactions. This evolution of the EtherHiding method allows attackers to evade detection by embedding infrastructure details directly on the blockchain.",
       "date": "2026-08-05T13:41:27.000Z",
       "link": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "af32a2d7-f307-43aa-b2a1-76e96e169a85",
@@ -538,7 +648,7 @@
       "summary": "A memory corruption vulnerability in the Linux kernel's Open vSwitch datapath, dubbed OVSwrap, allows local users to escalate privileges to root on various default-configured distributions. A public exploit is already available, supporting approximately 800 different kernel builds.",
       "date": "2026-08-05T11:43:27.000Z",
       "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a9b504d6-9cf5-4dc6-8b0c-2abf6ea3dc9a",
@@ -615,7 +725,7 @@
       "summary": "Researchers discovered 15 vulnerabilities in TP-Link Omada routers that allow attackers to hijack devices and intercept traffic by exploiting predictable serial number patterns. These flaws enable an attack chain that can compromise network infrastructure and associated camera feeds.",
       "date": "2026-08-05T09:35:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/05/forescout-tp-link-omada-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e7b1be2-0cb6-4821-81e7-e24971d85c96",
@@ -626,7 +736,7 @@
       "summary": "The Open VSX marketplace removed 77 malicious 'evil twin' extensions identified by Manifold Security for exfiltrating sensitive developer system data. These fraudulent packages mimicked legitimate tools and were active on the platform between July 26 and August 1, 2026.",
       "date": "2026-08-05T09:23:03.000Z",
       "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b533964-56f1-4aff-b804-7657ae89faec",
@@ -5389,116 +5499,6 @@
       "summary": "Security researchers discovered a flaw in macOS Gatekeeper that allows attackers to replace legitimate app downloads with malicious versions. Apple has declined to address the issue, effectively leaving the bypass unpatched.",
       "date": "2026-07-23T23:24:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-      "isTopTen": false
-    },
-    {
-      "id": "baa23462-aa85-4725-8042-973fcb617737",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Rubio restricts visas for sextortionists, cyber scammers",
-      "summary": "Senator Rubio is implementing visa restrictions on individuals identified as sextortionists and cyber scammers, following a directive from a Trump executive order. This measure aims to curb international cyber-enabled fraud and illicit online activities.",
-      "date": "2026-07-23T20:14:24.000Z",
-      "link": "https://cyberscoop.com/us-visa-restrictions-cybercriminals-rubio/",
-      "isTopTen": false
-    },
-    {
-      "id": "40186a50-3779-436c-912d-5140303386aa",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Microsoft SharePoint and Check Point SmartConsole flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has expanded its Known Exploited Vulnerabilities catalog to include critical security flaws affecting Microsoft SharePoint, Check Point SmartConsole, and other platforms like DD-WRT, Langflow, and WordPress. These additions indicate active exploitation in the wild, necessitating urgent patching by affected organizations.",
-      "date": "2026-07-23T20:10:46.000Z",
-      "link": "https://securityaffairs.com/195889/security/u-s-cisa-adds-microsoft-sharepoint-and-check-point-smartconsole-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fbc26a53-2950-405c-a05c-c18a03c2e525",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-      "summary": "A Russian state-sponsored espionage group exploited a Zimbra zero-day vulnerability to compromise Western organizations by stealing email data, browser credentials, and two-factor authentication codes. The attack required only that the victim open a malicious message to execute the payload.",
-      "date": "2026-07-23T18:36:08.000Z",
-      "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "isTopTen": false
-    },
-    {
-      "id": "13ed8435-44fa-4ca7-80dc-038d20944e85",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Chaos ransomware deploys browser-based msaRAT to evade network detection",
-      "summary": "The Chaos ransomware group is utilizing a new Rust-based remote access trojan called msaRAT that evades network detection by tunneling command-and-control traffic through legitimate web browsers. By leveraging the Chrome DevTools Protocol, the malware masks its communications within standard browser activity.",
-      "date": "2026-07-23T18:26:38.000Z",
-      "link": "https://securityaffairs.com/195876/malware/chaos-ransomware-deploys-browser-based-msarat-to-evade-network-detection.html",
-      "isTopTen": false
-    },
-    {
-      "id": "caec692a-00a0-442b-809a-4d4c08924e45",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries",
-      "summary": "The Russian threat group Laundry Bear has been leveraging a zero-day vulnerability in Zimbra software to exfiltrate sensitive data from Western organizations, continuing their operations even after the flaw was patched in July 2025.",
-      "date": "2026-07-23T17:33:37.000Z",
-      "link": "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/",
-      "isTopTen": false
-    },
-    {
-      "id": "ef4e979a-0114-4b30-84be-533f4f755e18",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "International alert spotlights Russia-linked attacks on Zimbra webmail",
-      "summary": "A Kremlin-backed threat actor known as Laundry Bear is utilizing zero-click phishing exploits to compromise Zimbra webmail accounts globally. Multiple nations have issued an international alert regarding this ongoing cyber espionage campaign.",
-      "date": "2026-07-23T16:58:00.000Z",
-      "link": "https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear",
-      "isTopTen": false
-    },
-    {
-      "id": "c71c48d6-3b1b-4809-bd61-ca012b5e5dc3",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Year-long Russian attacks infect users as soon as they look at an email",
-      "summary": "Russian state-sponsored actors have conducted a year-long phishing campaign that leverages sophisticated techniques to compromise user devices immediately upon viewing a malicious email. The campaign targets various sectors, highlighting a significant evolution in email-based exploit delivery.",
-      "date": "2026-07-23T16:47:02.000Z",
-      "link": "https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358",
-      "isTopTen": false
-    },
-    {
-      "id": "f71df27c-1282-46f3-bfe3-764fa54b82c0",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Millions of California-bought cars can be hijacked via Bluetooth",
-      "summary": "Researchers discovered that millions of vehicles in California equipped with KARR/SWDS security systems are vulnerable to remote hijacking due to the use of a hardcoded, universal security key. This flaw allows unauthorized access to car functions via Bluetooth, posing a significant risk to vehicle safety and security.",
-      "date": "2026-07-23T16:12:58.000Z",
-      "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
-      "isTopTen": false
-    },
-    {
-      "id": "47bf332e-64dd-4e9b-9c9c-e4037dd6eb81",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Oracle drops 1,449 security patches like it's the new normal",
-      "summary": "Oracle has released a record-breaking 1,449 security patches, signaling an increase in software vulnerabilities likely driven by the rise of AI-assisted bug hunting. Security professionals are being urged to adapt to this new reality of significantly higher maintenance workloads.",
-      "date": "2026-07-23T15:31:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/23/oracle-drops-1449-security-patches-like-its-the-new-normal/5277114",
-      "isTopTen": false
-    },
-    {
-      "id": "05a661e8-0446-4b03-97bb-1c2821f50fbc",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "What Is Cryptocurrency and How Does It Actually Work?",
-      "summary": "This article provides an educational overview of cryptocurrency mechanics, including blockchain technology and wallet security, alongside practical safety tips for users.",
-      "date": "2026-07-23T15:17:21.000Z",
-      "link": "https://hackread.com/what-is-cryptocurrency-how-it-work/",
       "isTopTen": false
     }
   ]
