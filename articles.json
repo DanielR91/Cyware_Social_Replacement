@@ -1,6 +1,171 @@
 {
-  "lastUpdated": "2026-08-06T14:26:34.777Z",
+  "lastUpdated": "2026-08-07T00:11:00.526Z",
   "articles": [
+    {
+      "id": "628b0b67-16f9-4251-8abe-b9f87d9b94ca",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "How the famed USENIX Security conf is managing a flood of papers in the AI era",
+      "summary": "The USENIX Security conference is adapting its peer-review and submission processes to handle an increasing volume of research papers driven by AI tools. Organizers report that while AI usage is growing, it has not yet reached a level that compromises the integrity or quality of the submissions.",
+      "date": "2026-08-06T23:40:23.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/07/how-the-famed-usenix-security-conf-is-managing-a-flood-of-papers-in-the-ai-era/5284374",
+      "isTopTen": false
+    },
+    {
+      "id": "a7ae77b2-20b2-46d8-ab5b-8b7d2b425999",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ChainDrop: Inside a Self-Propagating npm Worm",
+      "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
+      "date": "2026-08-06T22:26:39.000Z",
+      "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
+      "isTopTen": true
+    },
+    {
+      "id": "811d065f-f222-4511-99b9-c7a109201975",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Capitol Hill wants to know if executive branch, foreign allies coordinated enough to combat scams",
+      "summary": "The Senate Foreign Relations Committee is investigating the level of coordination between U.S. federal agencies and international allies to combat rising global scam operations. The hearing aims to evaluate the effectiveness of current interagency and cross-border collaborative strategies.",
+      "date": "2026-08-06T20:27:31.000Z",
+      "link": "https://cyberscoop.com/senate-hearing-transnational-scam-task-force/",
+      "isTopTen": false
+    },
+    {
+      "id": "ca28b7ae-bc28-41cc-94cf-30185a27f506",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Despite federal warnings, thousands of U.S. industrial controllers used in water systems remain exposed online",
+      "summary": "Recent scans reveal that 4,400 industrial controllers in U.S. water systems remain exposed to the public internet despite federal warnings. This exposure includes systems in municipalities previously targeted by cyberattacks, highlighting a significant risk to critical infrastructure.",
+      "date": "2026-08-06T19:10:21.000Z",
+      "link": "https://cyberscoop.com/exposed-rockwell-controllers-water-system-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "484c0e05-2cd3-45c3-a545-5efff3400231",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI struggles to patch vulns without adult supervision",
+      "summary": "Autonomous AI systems frequently fail to fully remediate security vulnerabilities when left without human oversight. This highlights a persistent gap in the reliability of automated patching tools.",
+      "date": "2026-08-06T19:04:30.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/ai-struggles-to-patch-vulns-without-adult-supervision/5284319",
+      "isTopTen": false
+    },
+    {
+      "id": "ab15f010-233d-4fee-9f8c-ea0b90a6d947",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Ransom Cartel creator sentenced to 16 years in prison",
+      "summary": "Maksim Silnikau, the mastermind behind the Ransom Cartel ransomware operation, has been sentenced to 16 years in federal prison. The sentencing follows a long history of cybercriminal activity dating back to 2005.",
+      "date": "2026-08-06T18:16:56.000Z",
+      "link": "https://cyberscoop.com/ransom-cartel-creator-sentenced-to-16-years-in-prison/",
+      "isTopTen": false
+    },
+    {
+      "id": "7a4eaccf-695d-4c0d-ae50-9b2657ea4623",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+      "summary": "CVE-2026-64561 is a critical vulnerability in the KVM shadow MMU that allows an attacker with guest kernel privileges to escape to the host system when nested virtualization is enabled. This flaw impacts KVM/x86 configurations by potentially enabling unauthorized code execution on the underlying Linux host.",
+      "date": "2026-08-06T17:58:30.000Z",
+      "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+      "isTopTen": true
+    },
+    {
+      "id": "5a60132e-058e-42b6-ad66-9c8b8f123d22",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Photos: Black Hat USA 2026, part two",
+      "summary": "This post provides a photo gallery from the Black Hat USA 2026 conference, highlighting various security vendors and a keynote by Kate Silverstein regarding crowd-sourced protection against LLM attacks.",
+      "date": "2026-08-06T17:50:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/06/black-hat-usa-2026-business-hall-photos/",
+      "isTopTen": false
+    },
+    {
+      "id": "b2b9ce92-63e2-4ef4-b458-e5798c04a7cb",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Cyberattack on North Carolina Ports ‘contained’ as Coast Guard, state officials investigate",
+      "summary": "North Carolina Ports is transitioning to manual operations following a cyberattack that compromised their IT systems. Federal and state officials are currently investigating the incident to determine the extent of the breach.",
+      "date": "2026-08-06T17:15:00.000Z",
+      "link": "https://therecord.media/cyberattack-north-carolina-ports",
+      "isTopTen": false
+    },
+    {
+      "id": "027df8fa-9116-4f54-8c0d-e61419710f72",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+      "summary": "Cisco has released security updates to fix 12 vulnerabilities in its Catalyst SD-WAN and IOS XE software, including three critical bugs with a 9.8 CVSS score.",
+      "date": "2026-08-06T17:13:15.000Z",
+      "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2c9d69b0-d8c9-46ad-b327-971b3dc9836b",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Humans in the loop miss a third of dangerous AI coding agent requests",
+      "summary": "Research indicates that human reviewers fail to detect approximately one-third of malicious requests generated by AI coding agents, highlighting a critical oversight in human-in-the-loop security protocols. This vulnerability poses significant risks, such as the accidental exposure of sensitive credentials or infrastructure configurations.",
+      "date": "2026-08-06T16:44:29.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236",
+      "isTopTen": false
+    },
+    {
+      "id": "c8f054eb-3772-4d65-91df-9e6b92d05534",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Exposed SISVISA Database Leaks 102,000 Brazilian Health Surveillance Records",
+      "summary": "A misconfigured database belonging to Brazil's Health Surveillance Information System (SISVISA) exposed over 102,000 personal and regulatory health records to the public internet.",
+      "date": "2026-08-06T16:44:26.000Z",
+      "link": "https://securityaffairs.com/196766/data-breach/exposed-sisvisa-database-leaks-102000-brazilian-health-surveillance-records.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c93a49cc-cf6a-4a84-a105-931644e8fc05",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+      "summary": "MIT researchers have discovered a new 'INTERRUPT INJECTION' attack that allows unprivileged programs to bypass Spectre v2 mitigations on Intel and AMD CPUs by re-poisoning the branch predictor. This technique exploits a timing gap during interrupt handling to circumvent existing hardware defenses.",
+      "date": "2026-08-06T16:17:13.000Z",
+      "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+      "isTopTen": true
+    },
+    {
+      "id": "93caf33e-56c5-4f87-a3b7-8bf7638e587c",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Ransom Cartel Leader Sentenced to 16 Years in U.S.",
+      "summary": "Maksim Silnikau, the founder of the Ransom Cartel ransomware-as-a-service operation, has been sentenced to 16 years in U.S. federal prison for orchestrating large-scale cybercriminal activities. Silnikau operated his ransomware business using a franchise-like model, enabling numerous affiliates to conduct attacks while he remained distant from the crime scenes.",
+      "date": "2026-08-06T15:25:21.000Z",
+      "link": "https://securityaffairs.com/196746/cyber-crime/ransom-cartel-leader-sentenced-to-16-years-in-u-s.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a03f43e1-68ab-4a95-8338-b64e8410ace3",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+      "summary": "This report highlights a diverse range of security threats including remote code execution vulnerabilities in software and operating systems, as well as weaponized files and misconfigured server exploits. The analysis emphasizes that modern attacks increasingly rely on exploiting trusted defaults and simple, low-effort entry vectors.",
+      "date": "2026-08-06T15:24:31.000Z",
+      "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+      "isTopTen": false
+    },
     {
       "id": "20c6aae8-9fe2-4ac9-85d5-b8851de1bcac",
       "source": "Help Net Security",
@@ -79,6 +244,17 @@
       "isTopTen": true
     },
     {
+      "id": "d12fd4f3-037a-4598-b8fd-4dffec86c013",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "IT department put sticky notes on the laptops to help employees log in",
+      "summary": "An IT department compromised security by placing sticky notes with login credentials directly on employee laptops, leading to unauthorized access. This poor security practice exposed sensitive systems and data to potential intruders.",
+      "date": "2026-08-06T12:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/06/it-department-put-sticky-notes-on-the-laptops-to-help-employees-log-in/5283662",
+      "isTopTen": false
+    },
+    {
       "id": "6059158d-0994-4441-a6cf-252c092046b2",
       "source": "The Hacker News",
       "tag": "Malware and Vulnerabilities",
@@ -142,7 +318,7 @@
       "summary": "Cisco has patched a critical vulnerability (CVE-2026-20200) in its Integrated Management Controller that allows unauthenticated root command execution. A public proof-of-concept exploit is available, increasing the immediate risk for organizations running affected hardware.",
       "date": "2026-08-06T10:38:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/cisco-imc-cve-2026-20200-public-poc-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3119a1bc-65d8-471f-8472-bfa67cd3f2d7",
@@ -208,7 +384,7 @@
       "summary": "Security vulnerabilities in agent infrastructure from AWS, Google, and Vercel allow attackers to trigger tools directly, bypassing model-level guardrails and system prompts. This flaw permits unauthorized execution without ever invoking the underlying AI model.",
       "date": "2026-08-06T08:57:30.000Z",
       "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "867bd1a9-fe41-478b-b932-30a83ca96b6f",
@@ -241,7 +417,7 @@
       "summary": "Researchers discovered a persistent backdoor in 20 Zbtlink router models that provides unauthenticated root access and beacons to external servers. The vulnerability has been present in the company's firmware for over two years.",
       "date": "2026-08-06T08:05:22.000Z",
       "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "902af8c7-32bc-4195-844e-f228575e8e0f",
@@ -351,6 +527,28 @@
       "summary": "Cloudflare has open-sourced its agent platform, Cloudflare OS, which integrates a granular auditing mechanism that records all data accessed by AI agents to ensure security and access control compliance. This platform validates that any user viewing output generated by an agent has the appropriate permissions to access the underlying source data.",
       "date": "2026-08-06T04:27:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/cloudflare-os-open-source/",
+      "isTopTen": false
+    },
+    {
+      "id": "bfd477e5-d488-4ee1-bd90-d4148e98d7e5",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "State Department says Trump raised cyber scam compound issue with Xi",
+      "summary": "The U.S. State Department confirmed that former President Trump discussed the issue of Southeast Asian cyber scam compounds with Chinese President Xi Jinping. The conversation highlights international diplomatic efforts to address transnational organized crime linked to cyber fraud.",
+      "date": "2026-08-06T04:00:00.000Z",
+      "link": "https://therecord.media/trump-xi-southeast-asia-cyber-scam-compounds",
+      "isTopTen": false
+    },
+    {
+      "id": "8d81d381-f3e8-4ed5-8732-ca8e47f5309d",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Republic of Georgia alleges foreign disinfo campaign sought to scare off Russian tourists",
+      "summary": "Georgia's State Security Service is investigating allegations that foreign actors launched a disinformation campaign to falsely portray the mistreatment of Russian tourists. The operation aims to deter tourism through the dissemination of fabricated stories.",
+      "date": "2026-08-06T04:00:00.000Z",
+      "link": "https://therecord.media/georgia-alleges-foreign-disinformation-scare-russian-tourists",
       "isTopTen": false
     },
     {
@@ -615,7 +813,7 @@
       "summary": "Cyberattacks targeting operational technology at water utilities have spread to 12 states, with recent incidents reported in South Dakota and Georgia. The campaign is reportedly associated with Iranian-linked threat actors.",
       "date": "2026-08-05T14:00:00.000Z",
       "link": "https://therecord.media/iran-cyberattacks-water-treatment",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10a38297-5e97-4b15-ac84-0c5a21fcadfc",
@@ -758,7 +956,7 @@
       "summary": "A memory corruption vulnerability in the Linux kernel's Open vSwitch datapath, dubbed OVSwrap, allows local users to escalate privileges to root on various default-configured distributions. A public exploit is already available, supporting approximately 800 different kernel builds.",
       "date": "2026-08-05T11:43:27.000Z",
       "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a9b504d6-9cf5-4dc6-8b0c-2abf6ea3dc9a",
@@ -5301,204 +5499,6 @@
       "summary": "Meta is launching a free identity verification badge for Facebook profiles to help users distinguish between authentic human accounts and AI-generated bots or impersonators. The initiative aims to increase trust across social features like Marketplace, dating profiles, and groups.",
       "date": "2026-07-24T13:03:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/24/meta-facebook-verified-badge-selfie-verification/",
-      "isTopTen": false
-    },
-    {
-      "id": "158fbfb4-c36e-4911-beef-12bc635bcc04",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Uncle Sam tells overseas cybercrooks their visas are canceled",
-      "summary": "The U.S. government has implemented a new policy to revoke visas for international cybercriminals and their families to deter online fraud and sextortion. This measure aims to restrict the mobility of individuals involved in malicious cyber activities targeting U.S. citizens.",
-      "date": "2026-07-24T12:15:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/24/uncle-sam-tells-overseas-cybercrooks-their-visas-are-canceled/5278212",
-      "isTopTen": false
-    },
-    {
-      "id": "7f93a7d2-058b-4437-a4b7-340755b1fb78",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Thailand’s Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
-      "summary": "Thailand's Ministry of Finance was targeted in a cyber-espionage operation utilizing the Hermes AI agent for reconnaissance and the Hades malware for persistence. Researchers uncovered the attack in real-time by identifying exposed staging servers used by the threat actors.",
-      "date": "2026-07-24T12:10:28.000Z",
-      "link": "https://securityaffairs.com/195941/hacking/thailands-ministry-of-finance-targeted-with-hermes-ai-agent-running-unattended-hades-implant-staged.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5a792f11-6894-4895-afd1-064d2e5ace1b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Russian hackers exploit unpatched Zimbra servers to steal emails",
-      "summary": "State-backed Russian hacking group Laundry Bear has been targeting government and commercial networks for over a year by exploiting a vulnerability in Zimbra Collaboration Suite webmail servers. A multinational coalition of intelligence and cybersecurity agencies issued a joint advisory detailing the ongoing campaign.",
-      "date": "2026-07-24T12:09:44.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
-      "isTopTen": false
-    },
-    {
-      "id": "5cee48e9-4768-4736-a949-d859896ae5b3",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "summary": "Researchers identified a critical vulnerability dubbed AgentForger in OpenAI's ChatGPT Workspace that allowed attackers to deploy unauthorized AI agents via malicious phishing links. The issue has been patched by OpenAI as of June 8.",
-      "date": "2026-07-24T11:53:55.000Z",
-      "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5f808c4b-aa3d-4916-9a2e-cb230e691e6b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-      "summary": "A critical vulnerability in Bing's image processing allowed attackers to execute arbitrary commands as SYSTEM or root by submitting malicious SVG files. Microsoft has addressed the issue by issuing two critical CVEs.",
-      "date": "2026-07-24T11:45:17.000Z",
-      "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8035fb82-07d5-4a13-bc51-7626407bba9c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-      "summary": "As AI agent adoption grows, security teams are shifting focus from basic visibility to implementing rigorous control mechanisms and least-privilege access to manage agent intent. This transition highlights the technical challenges of securing autonomous AI operations.",
-      "date": "2026-07-24T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
-      "isTopTen": false
-    },
-    {
-      "id": "baf826f7-a12a-4fae-b6fd-9fc84dc1f82f",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Tego AI Discloses Second Claude Flaw in a Week: Hidden Link Silently Sends Files to Attackers",
-      "summary": "Tego AI researchers have uncovered a second security vulnerability in Claude within one week, involving a hidden link that exfiltrates files to attackers without user consent.",
-      "date": "2026-07-24T11:15:33.000Z",
-      "link": "https://hackread.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/",
-      "isTopTen": false
-    },
-    {
-      "id": "579d1be0-0d35-489f-9dee-780c5ab6a37f",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Russian Hackers Used a Zimbra Zero-Day to Steal Emails Without Link Clicks",
-      "summary": "The TA488 Russian hacking group exploited a zero-day vulnerability in Zimbra webmail to exfiltrate email data and credentials simply by having victims preview or open malicious messages. This exploit bypassed the need for traditional link-clicking, facilitating unauthorized access to up to 90 days of victim communications.",
-      "date": "2026-07-24T11:04:51.000Z",
-      "link": "https://hackread.com/russian-hackers-zimbra-0-day-steal-emails-link-clicks/",
-      "isTopTen": false
-    },
-    {
-      "id": "f6d9a4b0-c8e7-457f-85b3-cf9bbf724b49",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-      "summary": "An attacker deployed an autonomous AI agent to perform unauthorized post-exploitation activities against the Thai Ministry of Finance by bypassing security permission prompts. The AI actively scanned for vulnerabilities and sensitive data within the government network.",
-      "date": "2026-07-24T10:15:29.000Z",
-      "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fed346d0-8e8d-4f45-ba1f-83a31f442f4b",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Dolphin X Malware Uses AI Profiler to Rank High-Value Victims",
-      "summary": "The new Dolphin X malware leverages an AI-based profiler to evaluate infected Windows systems and prioritize high-value targets across over 300 applications. This automation allows threat actors to more efficiently identify and exploit lucrative victims.",
-      "date": "2026-07-24T10:09:52.000Z",
-      "link": "https://hackread.com/dolphin-x-malware-ai-profiler-rank-victims/",
-      "isTopTen": false
-    },
-    {
-      "id": "43d735ee-1ecf-48d9-8eb1-e61d8d58c143",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-      "summary": "The Golden Chickens malware-as-a-service operators have returned with four new malware families, including modular implants and credential-stealing tools. This development demonstrates the ongoing activity and expansion of the threat group despite previous security disclosures.",
-      "date": "2026-07-24T10:09:24.000Z",
-      "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5bed975b-5b79-464a-b955-22807014dc85",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "UAC-0099 Is Now Hiding Malware Inside a Fake Notepad++ Plugin to Target Ukrainian Organizations",
-      "summary": "The Russia-aligned threat actor UAC-0099 is targeting Ukrainian organizations by distributing malware through a fake Notepad++ plugin, utilizing advanced anti-analysis techniques to evade detection. The campaign, identified by CERT-UA, leverages deceptive phishing tactics to deliver a loader designed to sabotage itself if execution conditions are not met.",
-      "date": "2026-07-24T09:54:53.000Z",
-      "link": "https://securityaffairs.com/195923/cyber-warfare-2/uac-0099-is-now-hiding-malware-inside-a-fake-notepad-plugin-to-target-ukrainian-organizations.html",
-      "isTopTen": false
-    },
-    {
-      "id": "785c605e-a77d-4f7f-b73e-ba52b7a90034",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Microsoft tightens Windows enterprise activation security",
-      "summary": "Microsoft is transitioning its Windows Key Management Service (KMS) to require hardware-backed TPM attestation for enterprise activations. This update replaces the existing software-only trust model to enhance security and prevent unauthorized volume license activations.",
-      "date": "2026-07-24T09:52:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/24/microsoft-kms-tpm-security-update/",
-      "isTopTen": false
-    },
-    {
-      "id": "e1378ff8-7403-4705-bfd8-afc91b9b7132",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Google gives developers an AI bug hunter that also writes patches",
-      "summary": "Google has introduced CodeMender, an AI-powered agent designed to detect security vulnerabilities and automatically generate patches to expedite remediation. The tool aims to help developers counter the threat of AI-driven cyberattacks by shifting from passive scanning to active, automated defense.",
-      "date": "2026-07-24T08:53:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "585657fd-9cfc-4208-8c96-70637a7ffc41",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "The AI Trust Paradox: Businesses Are Racing Ahead, but Consumers Are Hesitating",
-      "summary": "While businesses are rapidly integrating artificial intelligence, a significant trust deficit exists as only 23% of consumers feel comfortable with how companies handle their data via AI. Bridging this gap requires improved transparency, human oversight, and clearly defined use cases.",
-      "date": "2026-07-24T08:52:38.000Z",
-      "link": "https://securityaffairs.com/195915/ai/the-ai-trust-paradox-businesses-are-racing-ahead-but-consumers-are-hesitating.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7f4ae3aa-2d74-40ce-b32d-bbf8794a023c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google’s newest sign-in method asks you to look at the camera",
-      "summary": "Google has introduced an optional selfie video verification sign-in method to confirm user authenticity and prevent automated bot abuse. The feature is currently limited to specific regions, devices, and account types.",
-      "date": "2026-07-24T08:33:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/24/google-selfie-video-sign-in-verification/",
-      "isTopTen": false
-    },
-    {
-      "id": "97733a06-64be-42e7-9945-64e7d354d3e8",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "US Agencies Warn of Laundry Bear Campaign Targeting Unpatched Zimbra Servers",
-      "summary": "U.S. and international agencies have issued a joint advisory warning that the Russian-linked threat actor Laundry Bear is actively exploiting unpatched vulnerabilities in Zimbra servers to compromise email accounts. Organizations are urged to apply patches immediately to mitigate the risk of exploitation.",
-      "date": "2026-07-24T08:31:42.000Z",
-      "link": "https://securityaffairs.com/195901/apt/us-agencies-warn-of-laundry-bear-campaign-targeting-unpatched-zimbra-servers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f4b6dd65-b71b-43ce-95bd-63cabbc2eaa7",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-      "summary": "NodeBB has released patches for eight high-severity vulnerabilities that could expose administrative access and private chats, all of which were discovered by AI-driven security testing. Administrators are urged to update to version 4.14.2 to mitigate these risks.",
-      "date": "2026-07-24T07:41:06.000Z",
-      "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
       "isTopTen": false
     }
   ]
