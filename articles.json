@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-07T07:24:13.076Z",
+  "lastUpdated": "2026-08-07T10:06:47.545Z",
   "articles": [
+    {
+      "id": "1fbc3f34-569d-4d6a-9ae4-dffecceb5568",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "'Asimov was right' about rules for robots, says ex-US Cyber Director",
+      "summary": "Former US Cyber Director Chris Inglis emphasizes the necessity of ethical governance for AI models, referencing Isaac Asimov's laws of robotics to highlight that human influence determines the outcomes of artificial intelligence development.",
+      "date": "2026-08-07T10:03:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/07/asimov-was-right-about-rules-for-robots-says-ex-us-cyber-director/5284397",
+      "isTopTen": false
+    },
+    {
+      "id": "aa25fdf1-9aab-4eb0-bbef-43d10c6f9fa9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "summary": "Security researcher Malcolm Stagg has uncovered NatJack, a novel attack technique that exploits NAT table manipulation to hijack TCP sessions and perform DNS spoofing. The vulnerability affects multiple operating systems, including Windows, and poses a significant risk to network connection integrity.",
+      "date": "2026-08-07T09:32:57.000Z",
+      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e2d55728-747f-4688-ac44-2b2988c398d1",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI drops ChatGPT text chat limits for free users, adds new safeguards for teens",
+      "summary": "OpenAI has removed text chat limits for free ChatGPT users and introduced a new model, GPT-5.6 Luna, while implementing additional safety measures for teen users.",
+      "date": "2026-08-07T08:52:52.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/07/openai-gpt-5-6-sol-luna-chatgpt-free-limits/",
+      "isTopTen": false
+    },
+    {
+      "id": "97b4aa2f-de9f-4f0c-8369-98d3dee1cdcd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+      "summary": "Security researcher Malcolm Stagg introduced 'NatJack,' a technique that exploits network address translation (NAT) to hijack TCP sessions and manipulate network traffic. This attack allows for DNS spoofing and connection state manipulation across network infrastructure devices.",
+      "date": "2026-08-07T08:52:11.000Z",
+      "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+      "isTopTen": false
+    },
+    {
+      "id": "fc99375c-c9f4-4bf6-9a64-e328d3556e0a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "summary": "Security researchers discovered critical vulnerabilities in Claude Code and Gemini CLI that allow unauthorized users to execute code on CI runners or hijack agent workflows via malicious GitHub issues. These flaws highlight significant supply chain risks in default-configured AI coding agents.",
+      "date": "2026-08-07T08:18:35.000Z",
+      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+      "isTopTen": true
+    },
     {
       "id": "01275ef3-a00c-4f28-8ec9-9a6cce78f33c",
       "source": "Help Net Security",
@@ -10,6 +65,28 @@
       "summary": "Keepit has launched AI Truth Cloud, a platform designed to provide a secure, immutable, and verifiable data foundation for enterprise AI applications. It aims to ensure that AI agents operate on trustworthy and tamper-proof data sets.",
       "date": "2026-08-07T07:10:26.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/07/keepit-ai-truth-cloud-data-protection/",
+      "isTopTen": false
+    },
+    {
+      "id": "f0aa948d-8e85-486f-8e53-d172af0bd1c5",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "AI Deepfakes Used to Impersonate OnlyFans Creators in New Scam",
+      "summary": "Scammers are utilizing AI-generated deepfakes to impersonate OnlyFans creators on social media platforms, deceiving followers into paying for fraudulent services. Once payment is received, the criminals vanish, highlighting a growing trend in social engineering and digital identity theft.",
+      "date": "2026-08-07T06:55:17.000Z",
+      "link": "https://securityaffairs.com/196772/ai/ai-deepfakes-used-to-impersonate-onlyfans-creators-in-new-scam.html",
+      "isTopTen": false
+    },
+    {
+      "id": "81de1119-2f6a-4427-aa62-af5be8fe6585",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+      "summary": "Recent analysis reveals that the threat actor TeamPCP has been targeting internet-facing infrastructure since 2020, with their activity recently expanding to include software supply chain attacks. The group's long-term operations are evidenced by consistent overlaps in infrastructure, staging techniques, and malware deployment.",
+      "date": "2026-08-07T06:50:05.000Z",
+      "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
       "isTopTen": false
     },
     {
@@ -153,7 +230,7 @@
       "summary": "CVE-2026-64561 is a critical vulnerability in the KVM shadow MMU that allows an attacker with guest kernel privileges to escape to the host system when nested virtualization is enabled. This flaw impacts KVM/x86 configurations by potentially enabling unauthorized code execution on the underlying Linux host.",
       "date": "2026-08-06T17:58:30.000Z",
       "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a60132e-058e-42b6-ad66-9c8b8f123d22",
@@ -296,7 +373,7 @@
       "summary": "Research by 1Password reveals that 75% of AI-generated vulnerability patches are flawed, often introducing new issues or failing to provide a complete fix. The study suggests that while AI-generated code may appear correct, it frequently lacks the necessary reliability for security-critical applications.",
       "date": "2026-08-06T12:45:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/1password-ai-generated-vulnerability-patches/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "422b6f24-361e-4898-b7ed-e3a98d869217",
@@ -307,7 +384,7 @@
       "summary": "Canadian national Connor Riley Moucka has pleaded guilty to hacking over 165 organizations via Snowflake, facing up to 32 years in federal prison. He admitted to multiple charges including computer fraud, wire fraud, and aggravated identity theft.",
       "date": "2026-08-06T12:30:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/snowflake-canadian-hacker-pleaded-guilty/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f6a75efd-0b91-4382-b49b-342d43a887b9",
@@ -395,7 +472,7 @@
       "summary": "Cisco has patched a critical vulnerability (CVE-2026-20200) in its Integrated Management Controller that allows unauthenticated root command execution. A public proof-of-concept exploit is available, increasing the immediate risk for organizations running affected hardware.",
       "date": "2026-08-06T10:38:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/cisco-imc-cve-2026-20200-public-poc-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3119a1bc-65d8-471f-8472-bfa67cd3f2d7",
@@ -472,7 +549,7 @@
       "summary": "CISA has added the critical JetBrains TeamCity vulnerability CVE-2026-63077, which carries a CVSS score of 9.8, to its Known Exploited Vulnerabilities catalog. This update mandates that federal agencies address the security flaw to mitigate the risk of active exploitation.",
       "date": "2026-08-06T08:22:27.000Z",
       "link": "https://securityaffairs.com/196725/security/u-s-cisa-adds-a-jetbrains-teamcity-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d86dfae9-fec9-43ab-a842-64ef9e93f6bf",
@@ -494,7 +571,7 @@
       "summary": "Researchers discovered a persistent backdoor in 20 Zbtlink router models that provides unauthenticated root access and beacons to external servers. The vulnerability has been present in the company's firmware for over two years.",
       "date": "2026-08-06T08:05:22.000Z",
       "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "902af8c7-32bc-4195-844e-f228575e8e0f",
@@ -516,7 +593,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of a critical remote code execution vulnerability (CVE-2026-63077) in on-premise versions of JetBrains TeamCity. The flaw, which involves deserialization of untrusted data, carries a CVSS score of 9.8.",
       "date": "2026-08-06T06:51:43.000Z",
       "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1da32dd2-ba52-4c09-92da-1071423292c7",
@@ -549,7 +626,7 @@
       "summary": "Connor Riley Moucka has pleaded guilty to a massive hacking campaign that targeted 165 organizations, resulting in the theft of billions of records and millions of dollars in extortion. The breach campaign utilized stolen credentials to compromise customer accounts across the Snowflake cloud platform.",
       "date": "2026-08-06T05:39:46.000Z",
       "link": "https://securityaffairs.com/196714/security/snowflake-hacker-pleads-guilty-after-breaching-165-companies-and-stealing-billions-of-records.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ad9ccfe0-c6e3-45dc-977e-49c0d9c9d983",
@@ -714,7 +791,7 @@
       "summary": "Kaspersky researchers have identified two new Windows backdoors, OctLurk and SilkLurk, used in state-sponsored espionage campaigns against government systems in six countries since early 2025. The malware is designed to exfiltrate sensitive data, including passwords, emails, and files.",
       "date": "2026-08-05T19:14:21.000Z",
       "link": "https://hackread.com/octlurk-silklurk-backdoors-target-6-countries/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f3cd551-b3fa-4e24-861e-e0086b715241",
@@ -5422,83 +5499,6 @@
       "summary": "Phishing campaigns targeting the insurance industry are shifting from credential harvesting to real-time account hijacking for immediate unauthorized access. This evolution highlights a move away from delayed exploitation toward instantaneous compromise.",
       "date": "2026-07-25T10:14:21.000Z",
       "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9e35dda2-6a53-489b-8c9e-536855c6a178",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-      "summary": "Cl0p ransomware affiliates are exploiting unauthenticated remote code execution vulnerabilities in internet-exposed PTC Windchill and FlexPLM software for data extortion. The attack involves chaining an information disclosure flaw with a server-side vulnerability to compromise systems.",
-      "date": "2026-07-25T10:14:03.000Z",
-      "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e5254f28-b015-45b2-a8b6-b7222568707f",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-      "summary": "The DevMan ransomware-as-a-service (RaaS) group, tracked as Funky Mantis, is operating a centralized web portal that simplifies payload generation, victim management, and affiliate financial tracking. This platform streamlines operations for cybercriminals, lowering the barrier for entry for malicious actors.",
-      "date": "2026-07-25T09:53:41.000Z",
-      "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1c402147-b64c-47a7-958f-0e96e02315cd",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "summary": "A security researcher released a proof-of-concept for a remote code execution vulnerability in GitLab 18.11.3 that allows authenticated users to run commands as the 'git' user. The exploit requires no administrative privileges or victim interaction, relying instead on submitting specifically crafted Jupyter notebooks.",
-      "date": "2026-07-25T08:34:15.000Z",
-      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4ddbcb73-26a4-44d6-9381-74fe002ee358",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Pope's official prayer app commits cardinal sin, leaks 700K+ users' info",
-      "summary": "The official prayer app of the Pope suffered a significant data leak, exposing the personal information of over 700,000 users due to a security vulnerability. The incident resulted in the unauthorized exposure of sensitive user data.",
-      "date": "2026-07-24T22:19:16.000Z",
-      "link": "https://www.theregister.com/security/2026/07/24/popes-official-prayer-app-commits-cardinal-sin-leaks-700k-users-info/5278603",
-      "isTopTen": false
-    },
-    {
-      "id": "0fce66a4-9e8d-476a-96b8-df1551cf0e3e",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Industry’s message on CIRCIA: Please ask us fewer questions about cyberattacks",
-      "summary": "Industry stakeholders are expressing concern over the upcoming CIRCIA reporting requirements, urging the administration to minimize the administrative burden of cyberattack disclosure. CISA faces pressure to finalize these rules by September while industry players remain uncertain about the specific regulatory expectations.",
-      "date": "2026-07-24T20:58:35.000Z",
-      "link": "https://cyberscoop.com/cisa-circia-cyber-incident-reporting-rule-feedback/",
-      "isTopTen": false
-    },
-    {
-      "id": "31600b50-d761-4214-93e1-5dff9919110c",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Google Fined €890M Under EU Digital Markets Act Over Search and Play Store Practices",
-      "summary": "The European Commission has fined Google €890 million for violating the Digital Markets Act by prioritizing its own services and restricting competition within the Google Play Store. The regulatory action highlights ongoing scrutiny regarding Google's search practices and AI integration.",
-      "date": "2026-07-24T20:47:13.000Z",
-      "link": "https://securityaffairs.com/195963/laws-and-regulations/google-fined-e890m-under-eu-digital-markets-act-over-search-and-play-store-practices.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4452d5a3-eda1-476c-aa90-4bedc2ad08f1",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Europol flags 4,340 'horrific' URLs linked to The Com",
-      "summary": "Europol has identified and flagged over 4,300 URLs associated with The Com, a violent online network involved in extremist propaganda and recruitment. The operation aims to disrupt the digital distribution of harmful content linked to these groups.",
-      "date": "2026-07-24T20:20:57.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/07/24/europol-flags-4340-horrific-urls-linked-to-the-com/5278556",
       "isTopTen": false
     }
   ]
