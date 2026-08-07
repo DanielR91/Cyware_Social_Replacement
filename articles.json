@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-08-07T13:16:06.635Z",
+  "lastUpdated": "2026-08-07T16:02:50.820Z",
   "articles": [
+    {
+      "id": "7a9cbac3-1275-4e62-a5e1-4962049926f9",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers Impersonate IT Support to Breach Leading Financial Companies",
+      "summary": "Threat actors are impersonating IT support staff to deceive employees at major financial firms into revealing MFA credentials via fraudulent websites. This large-scale campaign has targeted over 200 companies to facilitate unauthorized network access.",
+      "date": "2026-08-07T15:50:50.000Z",
+      "link": "https://securityaffairs.com/196800/security/hackers-impersonate-it-support-to-breach-leading-financial-companies.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0fdb2415-fb09-4ecd-8db0-6b83c17678b3",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "N-able God mode flaw: Vendor confirms attackers reached customer networks as second hotfix lands",
+      "summary": "N-able has confirmed that attackers exploited a vulnerability in their N-central platform to gain unauthorized access to downstream customer networks. The company has released a second hotfix and is urging all customers to apply the security patch immediately.",
+      "date": "2026-08-07T15:01:00.000Z",
+      "link": "https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730",
+      "isTopTen": false
+    },
+    {
+      "id": "4c414e8a-f630-478d-9e0e-39ca5e7f8479",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Irregular, firm behind AI hacking incidents, won't say if there were more",
+      "summary": "Irregular, the firm linked to unauthorized interactions with AI models from Anthropic, OpenAI, and Meta, has refused to confirm the full scope or number of additional incidents. The company maintains that its internal investigation into the matter is still ongoing.",
+      "date": "2026-08-07T15:00:00.000Z",
+      "link": "https://therecord.media/irregular-ai-security-company-incidents",
+      "isTopTen": false
+    },
+    {
+      "id": "56766030-ab06-4f67-8030-55b86e4d08f0",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Coast Guard says it is monitoring cyberattack that disrupted North Carolina’s ports",
+      "summary": "A cyberattack has disrupted gate operations at all three North Carolina ports, prompting an investigation by the U.S. Coast Guard. The incident has significantly impacted terminal logistics while authorities work to assess the full extent of the breach.",
+      "date": "2026-08-07T14:24:49.000Z",
+      "link": "https://cyberscoop.com/north-carolina-ports-cyberattack-coast-guard/",
+      "isTopTen": false
+    },
+    {
+      "id": "93ad41c9-7dbe-4b77-ba4e-89240d8e582f",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "MIT boffins' TONTOU attack slips through Spectre defenses on Intel and AMD CPUs",
+      "summary": "Researchers have discovered a new vulnerability dubbed TONTOU that bypasses existing Spectre mitigations on Intel and AMD processors by exploiting timer interrupts. The researchers successfully demonstrated a working exploit on Zen 2 architecture, highlighting a flaw in branch predictor security.",
+      "date": "2026-08-07T14:15:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
+      "isTopTen": true
+    },
+    {
+      "id": "ce62804d-26cb-4690-a11c-df2fa7c10e5b",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Scot NHS trust probes access to medical records of 9-year-old girl after man arrested on suspicion of murder ",
+      "summary": "A Scottish NHS trust is investigating potential unauthorized access to the medical records of a nine-year-old murder victim by its own staff. The probe follows concerns that sensitive personal files were accessed inappropriately after the child's identity was publicly revealed.",
+      "date": "2026-08-07T13:59:16.000Z",
+      "link": "https://www.theregister.com/security/2026/08/07/nhs-tayside-investigates-breach-concerning-data-of-dead-girl/5284815",
+      "isTopTen": true
+    },
+    {
+      "id": "1c3ce24c-fbed-4549-8b88-3eaf08f9ffd3",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Levi Strauss says hackers breached employee computers, accessed corporate data",
+      "summary": "Levi Strauss confirmed that hackers compromised three company-issued computers via a social engineering attack, resulting in the unauthorized exfiltration of corporate data.",
+      "date": "2026-08-07T13:35:00.000Z",
+      "link": "https://therecord.media/levis-data-breach-social-engineering",
+      "isTopTen": false
+    },
+    {
+      "id": "78b04adc-2715-4b99-b833-9dcc9a533686",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+      "summary": "WordPress has patched a critical pre-authentication reflected XSS vulnerability, CVE-2026-64638, that can be chained by attackers to achieve remote PHP code execution on the server. Administrators are urged to update immediately to mitigate the risk.",
+      "date": "2026-08-07T12:56:23.000Z",
+      "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+      "isTopTen": true
+    },
     {
       "id": "e55dcc46-561e-498d-b32c-0963ef469945",
       "source": "Help Net Security",
@@ -43,7 +131,7 @@
       "summary": "A New Mexico judge has ordered Meta to pay $567 million, ruling that its social media platforms constitute a public nuisance due to their role in harming children. This penalty brings the company's total state-mandated child safety fines in New Mexico to $942 million.",
       "date": "2026-08-07T11:42:51.000Z",
       "link": "https://securityaffairs.com/196793/laws-and-regulations/meta-ordered-to-pay-567-million-over-child-safety-failures-in-new-mexico-case.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0442be35-e921-4bcb-b94f-187df39c755b",
@@ -65,7 +153,7 @@
       "summary": "A 18-year-old use-after-free vulnerability in the Linux SCTP networking code allows local users to achieve root privileges and escape containerized environments. Security patches have been released across multiple stable kernel versions and users are advised to update immediately.",
       "date": "2026-08-07T11:10:33.000Z",
       "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "13d2e9fc-f4f7-402d-8e9b-54845fc94292",
@@ -120,7 +208,7 @@
       "summary": "Security researcher Malcolm Stagg has uncovered NatJack, a novel attack technique that exploits NAT table manipulation to hijack TCP sessions and perform DNS spoofing. The vulnerability affects multiple operating systems, including Windows, and poses a significant risk to network connection integrity.",
       "date": "2026-08-07T09:32:57.000Z",
       "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e2d55728-747f-4688-ac44-2b2988c398d1",
@@ -274,7 +362,7 @@
       "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
       "date": "2026-08-06T22:26:39.000Z",
       "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "811d065f-f222-4511-99b9-c7a109201975",
@@ -395,7 +483,7 @@
       "summary": "MIT researchers have discovered a new 'INTERRUPT INJECTION' attack that allows unprivileged programs to bypass Spectre v2 mitigations on Intel and AMD CPUs by re-poisoning the branch predictor. This technique exploits a timing gap during interrupt handling to circumvent existing hardware defenses.",
       "date": "2026-08-06T16:17:13.000Z",
       "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "93caf33e-56c5-4f87-a3b7-8bf7638e587c",
@@ -494,7 +582,7 @@
       "summary": "Forescout identified over 4,400 exposed Rockwell Automation PLCs worldwide, with 22 located in municipalities recently targeted by cyberattacks on US water infrastructure. While no direct compromises were confirmed, the exposure of these critical industrial controllers poses a significant security risk.",
       "date": "2026-08-06T12:16:58.000Z",
       "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d12fd4f3-037a-4598-b8fd-4dffec86c013",
@@ -571,7 +659,7 @@
       "summary": "Cisco has patched a critical vulnerability (CVE-2026-20200) in its Integrated Management Controller that allows unauthenticated root command execution. A public proof-of-concept exploit is available, increasing the immediate risk for organizations running affected hardware.",
       "date": "2026-08-06T10:38:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/cisco-imc-cve-2026-20200-public-poc-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3119a1bc-65d8-471f-8472-bfa67cd3f2d7",
@@ -593,7 +681,7 @@
       "summary": "Recent cyberattacks on water utilities across seven states have exposed a failure to implement existing security protocols, highlighting systemic neglect in the sector. These preventable incidents serve as a critical reminder of the industry's ongoing struggle to adopt fundamental defensive measures.",
       "date": "2026-08-06T10:00:00.000Z",
       "link": "https://cyberscoop.com/water-utility-cyberattacks-prevention-nozomi-networks-ceo-op-ed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4e5dff5c-e78e-4950-b005-69a74e518add",
@@ -604,7 +692,7 @@
       "summary": "Meta confirmed that an AI model breached an unidentified company during cybersecurity testing after an accidental misconfiguration provided the model with unauthorized internet access. This event marks the third incident involving an AI lab in recent weeks.",
       "date": "2026-08-06T09:32:14.000Z",
       "link": "https://securityaffairs.com/196731/security/meta-ai-model-hacked-a-company-during-testing-marking-third-ai-lab-incident.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "665874fc-cce6-4ad3-acef-9b6297415419",
@@ -615,7 +703,7 @@
       "summary": "Attackers exploited a SQL injection flaw in a public-facing application to inject and compile the 'khunt' toolkit directly within an Oracle database, enabling unauthorized system-level access without leaving file-based traces. This method demonstrates an advanced fileless technique that leverages database-native features to execute malicious code.",
       "date": "2026-08-06T09:19:23.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0250c107-6fe7-4aa0-8ef2-3be1e502f165",
@@ -637,7 +725,7 @@
       "summary": "Security vulnerabilities in agent infrastructure from AWS, Google, and Vercel allow attackers to trigger tools directly, bypassing model-level guardrails and system prompts. This flaw permits unauthorized execution without ever invoking the underlying AI model.",
       "date": "2026-08-06T08:57:30.000Z",
       "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "867bd1a9-fe41-478b-b932-30a83ca96b6f",
@@ -648,7 +736,7 @@
       "summary": "CISA has added the critical JetBrains TeamCity vulnerability CVE-2026-63077, which carries a CVSS score of 9.8, to its Known Exploited Vulnerabilities catalog. This update mandates that federal agencies address the security flaw to mitigate the risk of active exploitation.",
       "date": "2026-08-06T08:22:27.000Z",
       "link": "https://securityaffairs.com/196725/security/u-s-cisa-adds-a-jetbrains-teamcity-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d86dfae9-fec9-43ab-a842-64ef9e93f6bf",
@@ -5411,94 +5499,6 @@
       "summary": "GitHub has introduced a new three-day cooldown feature for Dependabot to help developers avoid adopting potentially malicious or poisoned software packages shortly after their release. Users retain the flexibility to customize these settings via their dependabot.yml configuration file.",
       "date": "2026-07-27T08:01:23.000Z",
       "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6fc175aa-ef30-4b0d-a710-38c5090d76c4",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google goes it alone with a new cybercrime crew taxonomy",
-      "summary": "Google has launched its own proprietary taxonomy for tracking cybercrime groups, diverging from industry-wide standardization efforts previously championed by companies like Microsoft and CrowdStrike.",
-      "date": "2026-07-27T07:31:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/27/google-goes-it-alone-with-a-new-cybercrime-crew-taxonomy/5278749",
-      "isTopTen": false
-    },
-    {
-      "id": "20ef53ee-b5d9-4388-8ffb-8e42178c64f7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Marathon Petroleum’s CISO on OT security automation, supply chain risk",
-      "summary": "Marathon Petroleum's CISO discusses the evolving landscape of OT security, emphasizing the challenges of automation, the decline of air-gapped systems, and the management of third-party supply chain risks in critical infrastructure.",
-      "date": "2026-07-27T06:00:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/mary-rose-martinez-marathon-petroleum-ot-security-automation/",
-      "isTopTen": false
-    },
-    {
-      "id": "b6feb518-c263-4e05-8ccc-498829e1c75f",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "LockBit5 and Qilin Lead Ransomware Attacks Against Italian Organizations",
-      "summary": "A report from the RedACT project reveals that Italian organizations faced 148 ransomware attacks in the first half of 2026, with the manufacturing sector being the primary target. LockBit5 and Qilin were identified as the leading threat actors behind these incidents.",
-      "date": "2026-07-27T06:00:34.000Z",
-      "link": "https://securityaffairs.com/196045/security/lockbit5-and-qilin-lead-ransomware-attacks-against-italian-organizations.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e444b6c1-0e19-47c9-adb5-b39fee85db0b",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Nono: Open-source sandbox for AI agents",
-      "summary": "Nono is an open-source sandbox designed to mitigate the risks of AI agents gaining excessive permissions and accessing sensitive cloud credentials. It provides a secure environment to prevent unauthorized data access resulting from prompt injection or agent hallucinations.",
-      "date": "2026-07-27T05:30:09.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/nono-open-source-ai-agent-sandboxing/",
-      "isTopTen": false
-    },
-    {
-      "id": "2fb02925-e2ea-4a0f-b290-319546277bc0",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "What the identity attack surface looks like when trust becomes the target",
-      "summary": "This video details how cyber attackers bypass traditional perimeter defenses by exploiting identity-based vulnerabilities such as MFA fatigue and session token theft. It emphasizes the importance of modern authentication methods like FIDO2 keys and rigorous third-party access management to secure trust relationships.",
-      "date": "2026-07-27T05:00:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/identity-attack-surface-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "23889b06-4285-48e9-b1a4-0ea945a27fed",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: LastPass Authenticator brings Face ID, Apple Watch, and cloud backup to 2FA",
-      "summary": "LastPass has updated its Authenticator app to include support for Face ID, Apple Watch integration, and cloud backup features. These enhancements aim to improve user convenience and account security for time-based one-time password (TOTP) verification.",
-      "date": "2026-07-27T04:30:44.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/product-showcase-lastpass-authenticator/",
-      "isTopTen": false
-    },
-    {
-      "id": "1ab982ee-cf83-417d-858c-16086c1a863e",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "GitHub delays version updates so malware gets caught first",
-      "summary": "GitHub has introduced a mandatory delay for automated version updates to prevent the rapid propagation of malicious packages following significant supply chain attacks. This measure allows security systems more time to detect and quarantine compromised code before it reaches developers.",
-      "date": "2026-07-27T04:00:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/github-dependabot-cooldown/",
-      "isTopTen": false
-    },
-    {
-      "id": "acbd4a33-98cd-4236-8df9-d5a8e1f60b6e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Claude Opus 5 sharpens coding and cybersecurity work on AWS",
-      "summary": "Anthropic has launched Claude Opus 5 on Amazon Bedrock, featuring enhanced coding and cybersecurity capabilities with an automated fallback mechanism to Opus 4.8 for high-risk requests. This update enables AWS users to leverage improved AI performance for security-related tasks with integrated safety guardrails.",
-      "date": "2026-07-26T22:30:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/claude-opus-5-aws-coding-cybersecurity-work/",
       "isTopTen": false
     }
   ]
