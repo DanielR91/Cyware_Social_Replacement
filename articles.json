@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-07T00:11:00.526Z",
+  "lastUpdated": "2026-08-07T04:59:33.657Z",
   "articles": [
+    {
+      "id": "ea1700bc-f21e-49eb-bed3-cb19bfe20706",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "ShieldFont fights AI scraping by handing crawlers the wrong words",
+      "summary": "ShieldFont is a new typeface technology that visually displays readable text to humans while obfuscating the underlying HTML source code to mislead AI scrapers. This tool aims to protect digital content creators from unauthorized data harvesting by delivering corrupted or incorrect text to automated crawlers.",
+      "date": "2026-08-07T04:30:47.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/07/shieldfont-ai-scraping-protection/",
+      "isTopTen": false
+    },
+    {
+      "id": "d0e06a2b-6e68-43a3-acb6-5f035a7aadc1",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "China launches mysterious probe into security of Palo Alto Networks' products",
+      "summary": "The Chinese government has initiated an unspecified security investigation into Palo Alto Networks products, mirroring previous regulatory actions taken against Micron. The lack of stated reasons for the probe has raised concerns regarding potential geopolitical retaliation or cybersecurity scrutiny.",
+      "date": "2026-08-07T04:24:37.000Z",
+      "link": "https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453",
+      "isTopTen": false
+    },
+    {
+      "id": "744a63d2-1b84-4009-b37f-cd415d66c01f",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Gut feeling does nothing against AI spear phishing texts",
+      "summary": "Recent findings demonstrate that AI-generated spear phishing messages are sophisticated enough to deceive even experienced professionals by perfectly mimicking legitimate institutional alerts. This highlights the limitations of relying on intuition to detect highly personalized social engineering attacks.",
+      "date": "2026-08-07T04:00:11.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/07/ai-spear-phishing-research/",
+      "isTopTen": false
+    },
     {
       "id": "628b0b67-16f9-4251-8abe-b9f87d9b94ca",
       "source": "The Register",
@@ -21,7 +54,7 @@
       "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
       "date": "2026-08-06T22:26:39.000Z",
       "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "811d065f-f222-4511-99b9-c7a109201975",
@@ -43,7 +76,7 @@
       "summary": "Recent scans reveal that 4,400 industrial controllers in U.S. water systems remain exposed to the public internet despite federal warnings. This exposure includes systems in municipalities previously targeted by cyberattacks, highlighting a significant risk to critical infrastructure.",
       "date": "2026-08-06T19:10:21.000Z",
       "link": "https://cyberscoop.com/exposed-rockwell-controllers-water-system-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "484c0e05-2cd3-45c3-a545-5efff3400231",
@@ -241,7 +274,7 @@
       "summary": "Forescout identified over 4,400 exposed Rockwell Automation PLCs worldwide, with 22 located in municipalities recently targeted by cyberattacks on US water infrastructure. While no direct compromises were confirmed, the exposure of these critical industrial controllers poses a significant security risk.",
       "date": "2026-08-06T12:16:58.000Z",
       "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d12fd4f3-037a-4598-b8fd-4dffec86c013",
@@ -296,7 +329,7 @@
       "summary": "Okta researchers discovered that gray market services offering discounted or unlimited access to frontier AI models are likely logging user prompts, posing a significant privacy and data security risk. These services primarily target users attempting to bypass geographic and regulatory restrictions.",
       "date": "2026-08-06T10:58:30.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/ai-model-access-fraud-gray-market/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2ba58397-32d6-46c9-9160-c7990e76d114",
@@ -318,7 +351,7 @@
       "summary": "Cisco has patched a critical vulnerability (CVE-2026-20200) in its Integrated Management Controller that allows unauthenticated root command execution. A public proof-of-concept exploit is available, increasing the immediate risk for organizations running affected hardware.",
       "date": "2026-08-06T10:38:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/cisco-imc-cve-2026-20200-public-poc-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3119a1bc-65d8-471f-8472-bfa67cd3f2d7",
@@ -637,7 +670,7 @@
       "summary": "Kaspersky researchers have identified two new Windows backdoors, OctLurk and SilkLurk, used in state-sponsored espionage campaigns against government systems in six countries since early 2025. The malware is designed to exfiltrate sensitive data, including passwords, emails, and files.",
       "date": "2026-08-05T19:14:21.000Z",
       "link": "https://hackread.com/octlurk-silklurk-backdoors-target-6-countries/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f3cd551-b3fa-4e24-861e-e0086b715241",
@@ -5466,39 +5499,6 @@
       "summary": "Major technology companies, including Microsoft, Meta, and NVIDIA, have signed a letter advocating for the continued development and expansion of open-source AI models. The coalition aims to influence policy to ensure open-source AI remains accessible amid growing regulatory scrutiny.",
       "date": "2026-07-24T15:22:15.000Z",
       "link": "https://cyberscoop.com/tech-leaders-open-source-ai-cybersecurity/",
-      "isTopTen": false
-    },
-    {
-      "id": "7d479fe9-f05e-4a11-a959-f2b578f792c0",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-      "summary": "North Korean threat actor BlueNoroff is utilizing a sophisticated phishing kit that mimics Zoom and Microsoft Teams to profile crypto wallets before deploying malware. The campaign leverages social engineering and typosquatted domains to target industry professionals.",
-      "date": "2026-07-24T15:12:35.000Z",
-      "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-      "isTopTen": false
-    },
-    {
-      "id": "47fe4c29-a318-410d-8b94-a7ac98835247",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-      "summary": "The Certighost exploit allows low-privileged Active Directory users to impersonate Domain Controllers by obtaining fraudulent certificates. This vulnerability enables attackers to perform DCSync attacks and extract the krbtgt secret, potentially leading to full domain compromise.",
-      "date": "2026-07-24T14:15:21.000Z",
-      "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "isTopTen": false
-    },
-    {
-      "id": "16410cc2-c0e4-4a55-a834-a097130f7a6b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meta tackles AI-generated accounts with a free Facebook verification badge",
-      "summary": "Meta is launching a free identity verification badge for Facebook profiles to help users distinguish between authentic human accounts and AI-generated bots or impersonators. The initiative aims to increase trust across social features like Marketplace, dating profiles, and groups.",
-      "date": "2026-07-24T13:03:19.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/24/meta-facebook-verified-badge-selfie-verification/",
       "isTopTen": false
     }
   ]
