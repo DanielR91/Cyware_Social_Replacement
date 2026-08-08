@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T15:35:32.566Z",
+  "lastUpdated": "2026-08-08T18:43:41.103Z",
   "articles": [
     {
       "id": "422625ae-49ee-4343-9905-d6022c0679cc",
@@ -43,7 +43,7 @@
       "summary": "CISA has added the Progress LoadMaster CVE-2026-8037 vulnerability, a critical OS command injection flaw, to its Known Exploited Vulnerabilities catalog. Federal agencies are now required to patch this issue to mitigate the risk of remote code execution.",
       "date": "2026-08-08T11:00:08.000Z",
       "link": "https://securityaffairs.com/196863/hacking/u-s-cisa-adds-a-progress-loadmaster-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8bc9de3b-747e-4245-ad78-139946628d8b",
@@ -109,7 +109,7 @@
       "summary": "CISA has added a critical command injection vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities catalog following reports of active exploitation in the wild.",
       "date": "2026-08-08T06:52:16.000Z",
       "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "71f726ed-3ac4-4673-a0f4-7e92663937fc",
@@ -164,7 +164,7 @@
       "summary": "Nearly 800 malicious npm packages have been discovered targeting Windows, macOS, and Linux systems with cross-platform RATs and infostealers. The campaign utilizes typo-squatting and AI-generated names to deceive developers into downloading the malicious code.",
       "date": "2026-08-07T18:48:17.000Z",
       "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "968863a5-3efa-4b98-aa89-43c6c6c56874",
@@ -241,7 +241,7 @@
       "summary": "A vulnerability chain dubbed 'XSS2Shell' in WordPress allows attackers to escalate a simple login-page reflected XSS flaw into a full remote code execution and server takeover. Users are advised to update their WordPress installations immediately to mitigate this threat.",
       "date": "2026-08-07T16:48:22.000Z",
       "link": "https://securityaffairs.com/196820/hacking/wordpress-xss2shell-flaw-turns-simple-login-bug-into-full-server-takeover.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dbe35f94-42f9-4f8d-b07e-4b0d6bc1858d",
@@ -296,7 +296,7 @@
       "summary": "A cyberattack has disrupted gate operations at all three North Carolina ports, prompting an investigation by the U.S. Coast Guard. The incident has significantly impacted terminal logistics while authorities work to assess the full extent of the breach.",
       "date": "2026-08-07T14:24:49.000Z",
       "link": "https://cyberscoop.com/north-carolina-ports-cyberattack-coast-guard/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "93ad41c9-7dbe-4b77-ba4e-89240d8e582f",
@@ -307,7 +307,7 @@
       "summary": "Researchers have discovered a new vulnerability dubbed TONTOU that bypasses existing Spectre mitigations on Intel and AMD processors by exploiting timer interrupts. The researchers successfully demonstrated a working exploit on Zen 2 architecture, highlighting a flaw in branch predictor security.",
       "date": "2026-08-07T14:15:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce62804d-26cb-4690-a11c-df2fa7c10e5b",
@@ -406,7 +406,7 @@
       "summary": "A 18-year-old use-after-free vulnerability in the Linux SCTP networking code allows local users to achieve root privileges and escape containerized environments. Security patches have been released across multiple stable kernel versions and users are advised to update immediately.",
       "date": "2026-08-07T11:10:33.000Z",
       "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "13d2e9fc-f4f7-402d-8e9b-54845fc94292",
@@ -428,7 +428,7 @@
       "summary": "Researchers at VulnCheck discovered a hardcoded backdoor in 20 Zbtlink router models that grants attackers remote root access to execute arbitrary commands. This vulnerability exposes affected networking devices to potential full system compromise.",
       "date": "2026-08-07T10:17:38.000Z",
       "link": "https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a24fcc7-617f-4ea9-9026-1faca220af85",
@@ -615,7 +615,7 @@
       "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
       "date": "2026-08-06T22:26:39.000Z",
       "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "811d065f-f222-4511-99b9-c7a109201975",
@@ -736,7 +736,7 @@
       "summary": "MIT researchers have discovered a new 'INTERRUPT INJECTION' attack that allows unprivileged programs to bypass Spectre v2 mitigations on Intel and AMD CPUs by re-poisoning the branch predictor. This technique exploits a timing gap during interrupt handling to circumvent existing hardware defenses.",
       "date": "2026-08-06T16:17:13.000Z",
       "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "93caf33e-56c5-4f87-a3b7-8bf7638e587c",
