@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T04:14:07.290Z",
+  "lastUpdated": "2026-08-08T07:00:29.918Z",
   "articles": [
     {
       "id": "71f726ed-3ac4-4673-a0f4-7e92663937fc",
@@ -43,7 +43,7 @@
       "summary": "The National Rural Water Association has partnered with a cybersecurity group to launch a dedicated center aimed at protecting resource-constrained water utilities from increasing digital threats.",
       "date": "2026-08-07T18:55:00.000Z",
       "link": "https://therecord.media/water-watch-center-utilities-def-con-franklin-nrwa",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f255762d-97ea-41fa-bb20-b15150431a9c",
@@ -54,7 +54,7 @@
       "summary": "Nearly 800 malicious npm packages have been discovered targeting Windows, macOS, and Linux systems with cross-platform RATs and infostealers. The campaign utilizes typo-squatting and AI-generated names to deceive developers into downloading the malicious code.",
       "date": "2026-08-07T18:48:17.000Z",
       "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "968863a5-3efa-4b98-aa89-43c6c6c56874",
@@ -65,7 +65,7 @@
       "summary": "Attackers are utilizing ClickFix-style social engineering to deploy a Go-based macOS stealer malware that exfiltrates cryptocurrency, browser passwords, and iCloud Keychain data. The malware dynamically adapts to the host's CPU architecture to ensure successful execution.",
       "date": "2026-08-07T18:29:08.000Z",
       "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ae908f7e-33f5-4cb8-87fa-e35757f4eb6b",
@@ -109,7 +109,7 @@
       "summary": "A New Mexico judge has ordered Meta to pay $567 million to address the negative impacts of its platforms on youth, with a significant portion dedicated to treatment services. This ruling marks a major legal outcome regarding social media safety and corporate accountability for online harms.",
       "date": "2026-08-07T16:58:00.000Z",
       "link": "https://therecord.media/new-mexico-judge-orders-meta-567-million-kids-safety",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06f46dc9-d0f5-41ee-a39b-2bac960512d0",
@@ -131,7 +131,7 @@
       "summary": "A vulnerability chain dubbed 'XSS2Shell' in WordPress allows attackers to escalate a simple login-page reflected XSS flaw into a full remote code execution and server takeover. Users are advised to update their WordPress installations immediately to mitigate this threat.",
       "date": "2026-08-07T16:48:22.000Z",
       "link": "https://securityaffairs.com/196820/hacking/wordpress-xss2shell-flaw-turns-simple-login-bug-into-full-server-takeover.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dbe35f94-42f9-4f8d-b07e-4b0d6bc1858d",
@@ -153,7 +153,7 @@
       "summary": "Threat actors are impersonating IT support staff to deceive employees at major financial firms into revealing MFA credentials via fraudulent websites. This large-scale campaign has targeted over 200 companies to facilitate unauthorized network access.",
       "date": "2026-08-07T15:50:50.000Z",
       "link": "https://securityaffairs.com/196800/security/hackers-impersonate-it-support-to-breach-leading-financial-companies.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0fdb2415-fb09-4ecd-8db0-6b83c17678b3",
@@ -186,7 +186,7 @@
       "summary": "A cyberattack has disrupted gate operations at all three North Carolina ports, prompting an investigation by the U.S. Coast Guard. The incident has significantly impacted terminal logistics while authorities work to assess the full extent of the breach.",
       "date": "2026-08-07T14:24:49.000Z",
       "link": "https://cyberscoop.com/north-carolina-ports-cyberattack-coast-guard/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "93ad41c9-7dbe-4b77-ba4e-89240d8e582f",
@@ -230,7 +230,7 @@
       "summary": "WordPress has patched a critical pre-authentication reflected XSS vulnerability, CVE-2026-64638, that can be chained by attackers to achieve remote PHP code execution on the server. Administrators are urged to update immediately to mitigate the risk.",
       "date": "2026-08-07T12:56:23.000Z",
       "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e55dcc46-561e-498d-b32c-0963ef469945",
@@ -296,7 +296,7 @@
       "summary": "A 18-year-old use-after-free vulnerability in the Linux SCTP networking code allows local users to achieve root privileges and escape containerized environments. Security patches have been released across multiple stable kernel versions and users are advised to update immediately.",
       "date": "2026-08-07T11:10:33.000Z",
       "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "13d2e9fc-f4f7-402d-8e9b-54845fc94292",
@@ -307,7 +307,7 @@
       "summary": "An active phishing campaign is leveraging adversary-in-the-middle (AitM) techniques and residential proxies to compromise Microsoft 365 accounts. The attackers specifically target financial personnel to intercept sensitive payroll and finance-related communications.",
       "date": "2026-08-07T10:38:27.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "709de226-4152-4359-ae6d-f7efcae303c4",
@@ -318,7 +318,7 @@
       "summary": "Researchers at VulnCheck discovered a hardcoded backdoor in 20 Zbtlink router models that grants attackers remote root access to execute arbitrary commands. This vulnerability exposes affected networking devices to potential full system compromise.",
       "date": "2026-08-07T10:17:38.000Z",
       "link": "https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a24fcc7-617f-4ea9-9026-1faca220af85",
@@ -373,7 +373,7 @@
       "summary": "Security researcher Malcolm Stagg introduced 'NatJack,' a technique that exploits network address translation (NAT) to hijack TCP sessions and manipulate network traffic. This attack allows for DNS spoofing and connection state manipulation across network infrastructure devices.",
       "date": "2026-08-07T08:52:11.000Z",
       "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fc99375c-c9f4-4bf6-9a64-e328d3556e0a",
@@ -483,7 +483,7 @@
       "summary": "Recent findings demonstrate that AI-generated spear phishing messages are sophisticated enough to deceive even experienced professionals by perfectly mimicking legitimate institutional alerts. This highlights the limitations of relying on intuition to detect highly personalized social engineering attacks.",
       "date": "2026-08-07T04:00:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/07/ai-spear-phishing-research/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "628b0b67-16f9-4251-8abe-b9f87d9b94ca",
@@ -527,7 +527,7 @@
       "summary": "Recent scans reveal that 4,400 industrial controllers in U.S. water systems remain exposed to the public internet despite federal warnings. This exposure includes systems in municipalities previously targeted by cyberattacks, highlighting a significant risk to critical infrastructure.",
       "date": "2026-08-06T19:10:21.000Z",
       "link": "https://cyberscoop.com/exposed-rockwell-controllers-water-system-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "484c0e05-2cd3-45c3-a545-5efff3400231",
@@ -538,7 +538,7 @@
       "summary": "Autonomous AI systems frequently fail to fully remediate security vulnerabilities when left without human oversight. This highlights a persistent gap in the reliability of automated patching tools.",
       "date": "2026-08-06T19:04:30.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/08/06/ai-struggles-to-patch-vulns-without-adult-supervision/5284319",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ab15f010-233d-4fee-9f8c-ea0b90a6d947",
@@ -626,7 +626,7 @@
       "summary": "MIT researchers have discovered a new 'INTERRUPT INJECTION' attack that allows unprivileged programs to bypass Spectre v2 mitigations on Intel and AMD CPUs by re-poisoning the branch predictor. This technique exploits a timing gap during interrupt handling to circumvent existing hardware defenses.",
       "date": "2026-08-06T16:17:13.000Z",
       "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "93caf33e-56c5-4f87-a3b7-8bf7638e587c",
@@ -703,7 +703,7 @@
       "summary": "Research by 1Password reveals that 75% of AI-generated vulnerability patches are flawed, often introducing new issues or failing to provide a complete fix. The study suggests that while AI-generated code may appear correct, it frequently lacks the necessary reliability for security-critical applications.",
       "date": "2026-08-06T12:45:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/1password-ai-generated-vulnerability-patches/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "422b6f24-361e-4898-b7ed-e3a98d869217",
@@ -714,7 +714,7 @@
       "summary": "Canadian national Connor Riley Moucka has pleaded guilty to hacking over 165 organizations via Snowflake, facing up to 32 years in federal prison. He admitted to multiple charges including computer fraud, wire fraud, and aggravated identity theft.",
       "date": "2026-08-06T12:30:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/snowflake-canadian-hacker-pleaded-guilty/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f6a75efd-0b91-4382-b49b-342d43a887b9",
