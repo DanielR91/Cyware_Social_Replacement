@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-08T09:43:49.815Z",
+  "lastUpdated": "2026-08-08T12:57:36.526Z",
   "articles": [
+    {
+      "id": "fce2cdda-eabf-437a-8f85-d7b0fe2c2244",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Metabase Zero-Day Exploited in the Wild, Exposing Admin Access and Sensitive Data",
+      "summary": "Attackers exploited a critical CVSS 10 zero-day vulnerability in Metabase to gain unauthorized administrative access and compromise sensitive data within Metabase Cloud. The flaw was actively used in the wild before a patch was available, affecting high-profile victims like Framework.",
+      "date": "2026-08-08T11:50:21.000Z",
+      "link": "https://securityaffairs.com/196874/hacking/metabase-zero-day-exploited-in-the-wild-exposing-admin-access-and-sensitive-data.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a34c6adc-1447-4ee9-82e7-d438e42eb7e0",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a Progress LoadMaster flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the Progress LoadMaster CVE-2026-8037 vulnerability, a critical OS command injection flaw, to its Known Exploited Vulnerabilities catalog. Federal agencies are now required to patch this issue to mitigate the risk of remote code execution.",
+      "date": "2026-08-08T11:00:08.000Z",
+      "link": "https://securityaffairs.com/196863/hacking/u-s-cisa-adds-a-progress-loadmaster-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "8bc9de3b-747e-4245-ad78-139946628d8b",
       "source": "The Hacker News",
@@ -43,7 +65,7 @@
       "summary": "Metabase has disclosed a critical zero-day vulnerability that allows unauthenticated remote attackers to execute arbitrary SQL commands and gain administrative access. The flaw is currently being exploited in the wild.",
       "date": "2026-08-08T06:58:31.000Z",
       "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dc53fa7d-7f88-471f-81d9-4070a0131b02",
@@ -54,7 +76,7 @@
       "summary": "N-able has released an emergency hotfix for its N-central RMM platform to address ongoing exploitation by threat actors attempting to establish persistent access. The update follows evidence of attackers actively evolving their methods to leverage a previously disclosed security vulnerability.",
       "date": "2026-08-08T06:57:43.000Z",
       "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d40f8b0-32be-45ed-b556-73da96f6a30b",
@@ -98,7 +120,7 @@
       "summary": "Following suspected cyberattacks linked to Iran, a former NSA chief warned that industrial water system controllers must be disconnected from the public internet to prevent further vulnerabilities. The incident highlights the urgent need for better security practices in critical infrastructure.",
       "date": "2026-08-07T19:53:10.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "341d1d8d-bacd-4aae-93ca-60edb1c270a1",
@@ -219,7 +241,7 @@
       "summary": "Threat actors are impersonating IT support staff to deceive employees at major financial firms into revealing MFA credentials via fraudulent websites. This large-scale campaign has targeted over 200 companies to facilitate unauthorized network access.",
       "date": "2026-08-07T15:50:50.000Z",
       "link": "https://securityaffairs.com/196800/security/hackers-impersonate-it-support-to-breach-leading-financial-companies.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0fdb2415-fb09-4ecd-8db0-6b83c17678b3",
@@ -230,7 +252,7 @@
       "summary": "N-able has confirmed that attackers exploited a vulnerability in their N-central platform to gain unauthorized access to downstream customer networks. The company has released a second hotfix and is urging all customers to apply the security patch immediately.",
       "date": "2026-08-07T15:01:00.000Z",
       "link": "https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4c414e8a-f630-478d-9e0e-39ca5e7f8479",
@@ -384,7 +406,7 @@
       "summary": "Researchers at VulnCheck discovered a hardcoded backdoor in 20 Zbtlink router models that grants attackers remote root access to execute arbitrary commands. This vulnerability exposes affected networking devices to potential full system compromise.",
       "date": "2026-08-07T10:17:38.000Z",
       "link": "https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a24fcc7-617f-4ea9-9026-1faca220af85",
@@ -571,7 +593,7 @@
       "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
       "date": "2026-08-06T22:26:39.000Z",
       "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "811d065f-f222-4511-99b9-c7a109201975",
@@ -593,7 +615,7 @@
       "summary": "Recent scans reveal that 4,400 industrial controllers in U.S. water systems remain exposed to the public internet despite federal warnings. This exposure includes systems in municipalities previously targeted by cyberattacks, highlighting a significant risk to critical infrastructure.",
       "date": "2026-08-06T19:10:21.000Z",
       "link": "https://cyberscoop.com/exposed-rockwell-controllers-water-system-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "484c0e05-2cd3-45c3-a545-5efff3400231",
@@ -626,7 +648,7 @@
       "summary": "CVE-2026-64561 is a critical vulnerability in the KVM shadow MMU that allows an attacker with guest kernel privileges to escape to the host system when nested virtualization is enabled. This flaw impacts KVM/x86 configurations by potentially enabling unauthorized code execution on the underlying Linux host.",
       "date": "2026-08-06T17:58:30.000Z",
       "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a60132e-058e-42b6-ad66-9c8b8f123d22",
@@ -692,7 +714,7 @@
       "summary": "MIT researchers have discovered a new 'INTERRUPT INJECTION' attack that allows unprivileged programs to bypass Spectre v2 mitigations on Intel and AMD CPUs by re-poisoning the branch predictor. This technique exploits a timing gap during interrupt handling to circumvent existing hardware defenses.",
       "date": "2026-08-06T16:17:13.000Z",
       "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "93caf33e-56c5-4f87-a3b7-8bf7638e587c",
@@ -5477,28 +5499,6 @@
       "summary": "The weekly recap highlights emerging cybersecurity threats including rogue AI agent activity, Check Point vulnerabilities, and deceptive attack vectors like slopsquatting and ClickFix. These incidents emphasize the growing challenge of attackers blending malicious activities into legitimate services.",
       "date": "2026-07-27T14:10:54.000Z",
       "link": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1cc46774-eeb1-4ac0-8ca9-74206d858759",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Security Risk Advisors Named a Finalist in CRN’s 2026 Best of the Channel Awards",
-      "summary": "Security Risk Advisors has been recognized as a finalist for the 2026 CRN Best of the Channel Awards, highlighting their professional contributions to the industry.",
-      "date": "2026-07-27T13:55:53.000Z",
-      "link": "https://hackread.com/security-risk-advisors-named-a-finalist-in-crns-2026-best-of-the-channel-awards/",
-      "isTopTen": false
-    },
-    {
-      "id": "2f41ea15-f31f-4781-8834-63ea55fc42d0",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Dynatrace Intelligence automates incident triage and remediation with AI agents",
-      "summary": "Dynatrace has introduced new autonomous AI agents designed to automate incident triage and remediation processes while maintaining human oversight. The update also includes no-code tools for custom agent creation and expanded ecosystem integrations.",
-      "date": "2026-07-27T13:49:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/dynatrace-intelligence/",
       "isTopTen": false
     }
   ]
