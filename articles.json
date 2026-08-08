@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-07T21:44:26.026Z",
+  "lastUpdated": "2026-08-08T01:55:59.573Z",
   "articles": [
+    {
+      "id": "71f726ed-3ac4-4673-a0f4-7e92663937fc",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI pledges to add Astra security as Anthropic loosens Fable's leash",
+      "summary": "OpenAI and Anthropic are adjusting their safety protocols and deployment strategies as both companies navigate the balance between rapid AI innovation and risk mitigation. These developments highlight the ongoing industry focus on securing advanced AI models against potential misuse.",
+      "date": "2026-08-07T23:41:07.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
+      "isTopTen": false
+    },
+    {
+      "id": "113a63f5-fa14-47c4-ba41-6887cd3324eb",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Inside the Modern SOC: The Identity Front Door",
+      "summary": "This article explores the prevalence of identity-based attacks in modern security incidents and provides strategic guidance for Security Operations Center (SOC) leaders to mitigate these risks. It highlights that 90% of security incidents originate from exploited identities.",
+      "date": "2026-08-07T23:00:01.000Z",
+      "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
+      "isTopTen": false
+    },
+    {
+      "id": "c46a329b-10f3-4210-941a-413d144d9e9b",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Water system controllers don't belong on the internet, says ex-NSA chief after suspected Iran attacks",
+      "summary": "Following suspected cyberattacks linked to Iran, a former NSA chief warned that industrial water system controllers must be disconnected from the public internet to prevent further vulnerabilities. The incident highlights the urgent need for better security practices in critical infrastructure.",
+      "date": "2026-08-07T19:53:10.000Z",
+      "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "isTopTen": true
+    },
     {
       "id": "341d1d8d-bacd-4aae-93ca-60edb1c270a1",
       "source": "The Record",
@@ -76,7 +109,7 @@
       "summary": "A New Mexico judge has ordered Meta to pay $567 million to address the negative impacts of its platforms on youth, with a significant portion dedicated to treatment services. This ruling marks a major legal outcome regarding social media safety and corporate accountability for online harms.",
       "date": "2026-08-07T16:58:00.000Z",
       "link": "https://therecord.media/new-mexico-judge-orders-meta-567-million-kids-safety",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06f46dc9-d0f5-41ee-a39b-2bac960512d0",
@@ -98,6 +131,17 @@
       "summary": "A vulnerability chain dubbed 'XSS2Shell' in WordPress allows attackers to escalate a simple login-page reflected XSS flaw into a full remote code execution and server takeover. Users are advised to update their WordPress installations immediately to mitigate this threat.",
       "date": "2026-08-07T16:48:22.000Z",
       "link": "https://securityaffairs.com/196820/hacking/wordpress-xss2shell-flaw-turns-simple-login-bug-into-full-server-takeover.html",
+      "isTopTen": false
+    },
+    {
+      "id": "dbe35f94-42f9-4f8d-b07e-4b0d6bc1858d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ransomware attacks spike as world distracted by AI",
+      "summary": "Ransomware activity has surged as cybercriminal gangs capitalize on the global focus shifting toward artificial intelligence. The report suggests that threat actors are exploiting this distraction to increase their malicious operations.",
+      "date": "2026-08-07T16:45:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/07/ransomware-attacks-spike-as-world-distracted-by-ai/5284934",
       "isTopTen": true
     },
     {
@@ -120,7 +164,7 @@
       "summary": "N-able has confirmed that attackers exploited a vulnerability in their N-central platform to gain unauthorized access to downstream customer networks. The company has released a second hotfix and is urging all customers to apply the security patch immediately.",
       "date": "2026-08-07T15:01:00.000Z",
       "link": "https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4c414e8a-f630-478d-9e0e-39ca5e7f8479",
@@ -153,7 +197,7 @@
       "summary": "Researchers have discovered a new vulnerability dubbed TONTOU that bypasses existing Spectre mitigations on Intel and AMD processors by exploiting timer interrupts. The researchers successfully demonstrated a working exploit on Zen 2 architecture, highlighting a flaw in branch predictor security.",
       "date": "2026-08-07T14:15:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce62804d-26cb-4690-a11c-df2fa7c10e5b",
@@ -263,7 +307,7 @@
       "summary": "An active phishing campaign is leveraging adversary-in-the-middle (AitM) techniques and residential proxies to compromise Microsoft 365 accounts. The attackers specifically target financial personnel to intercept sensitive payroll and finance-related communications.",
       "date": "2026-08-07T10:38:27.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "709de226-4152-4359-ae6d-f7efcae303c4",
@@ -274,7 +318,7 @@
       "summary": "Researchers at VulnCheck discovered a hardcoded backdoor in 20 Zbtlink router models that grants attackers remote root access to execute arbitrary commands. This vulnerability exposes affected networking devices to potential full system compromise.",
       "date": "2026-08-07T10:17:38.000Z",
       "link": "https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a24fcc7-617f-4ea9-9026-1faca220af85",
@@ -439,7 +483,7 @@
       "summary": "Recent findings demonstrate that AI-generated spear phishing messages are sophisticated enough to deceive even experienced professionals by perfectly mimicking legitimate institutional alerts. This highlights the limitations of relying on intuition to detect highly personalized social engineering attacks.",
       "date": "2026-08-07T04:00:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/07/ai-spear-phishing-research/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "628b0b67-16f9-4251-8abe-b9f87d9b94ca",
@@ -549,7 +593,7 @@
       "summary": "Cisco has released security updates to fix 12 vulnerabilities in its Catalyst SD-WAN and IOS XE software, including three critical bugs with a 9.8 CVSS score.",
       "date": "2026-08-06T17:13:15.000Z",
       "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2c9d69b0-d8c9-46ad-b327-971b3dc9836b",
@@ -582,7 +626,7 @@
       "summary": "MIT researchers have discovered a new 'INTERRUPT INJECTION' attack that allows unprivileged programs to bypass Spectre v2 mitigations on Intel and AMD CPUs by re-poisoning the branch predictor. This technique exploits a timing gap during interrupt handling to circumvent existing hardware defenses.",
       "date": "2026-08-06T16:17:13.000Z",
       "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "93caf33e-56c5-4f87-a3b7-8bf7638e587c",
@@ -703,7 +747,7 @@
       "summary": "A 12-year-old flaw in the CryptoJS library's random number generator has been exploited to drain $5.7 million from five cryptocurrency wallet applications. The vulnerability allowed attackers to predict recovery phrases due to weak entropy generation.",
       "date": "2026-08-06T11:49:48.000Z",
       "link": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "35ea131b-b7d9-4e15-8442-5e17b1828cb4",
@@ -5455,50 +5499,6 @@
       "summary": "Google has unified its threat actor naming conventions following the merger of Mandiant and the Google Threat Analysis Group to eliminate confusion caused by overlapping tracking systems. This transition creates a singular, standardized framework for identifying and categorizing cyber threat actors tracked by Google's intelligence teams.",
       "date": "2026-07-27T13:08:23.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/27/google-threat-actors-naming-system/",
-      "isTopTen": false
-    },
-    {
-      "id": "d5bc6080-0d68-430c-ac31-1763d51fcd1b",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "DentaQuest disclosed a data breach that impacted +23 million individuals",
-      "summary": "DentaQuest has reported a significant data breach occurring in May 2026 that potentially exposed the personal and dental health information of over 23 million individuals.",
-      "date": "2026-07-27T13:05:49.000Z",
-      "link": "https://securityaffairs.com/196100/data-breach/dentaquest-disclosed-a-data-breach-that-impacted-23-million-individuals.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e6fdc639-30e4-46e7-83a8-a1d7f6d1c3b5",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
-      "summary": "A high-severity sandbox escape vulnerability in n8n allows authenticated workflow editors to execute arbitrary operating system commands on the host server. The issue, identified following a bypass of a previous patch, has been addressed in versions 2.31.5 and 2.32.1.",
-      "date": "2026-07-27T13:05:15.000Z",
-      "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
-      "isTopTen": false
-    },
-    {
-      "id": "187a1a78-eecd-4e4e-baea-a63e13c30496",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Sen. Wyden urges feds to discard older, insecure, public-facing VPNs",
-      "summary": "Senator Ron Wyden is urging federal agencies to decommission outdated and insecure VPNs that have left government networks vulnerable to devastating cyberattacks. The call to action follows reports of persistent security risks associated with legacy remote access technology.",
-      "date": "2026-07-27T13:00:00.000Z",
-      "link": "https://cyberscoop.com/wyden-calls-for-federal-legacy-vpn-purge-zero-trust/",
-      "isTopTen": false
-    },
-    {
-      "id": "7054567e-44db-4c8c-9512-ef6f5a56b104",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-      "summary": "The 'Operation BlueDash' phishing campaign uses fake Microsoft Teams update notifications to trick users into installing legitimate remote monitoring tools. This allows attackers to gain unauthorized remote access to compromised systems.",
-      "date": "2026-07-27T12:37:49.000Z",
-      "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
       "isTopTen": false
     }
   ]
