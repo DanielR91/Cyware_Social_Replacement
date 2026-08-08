@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-08-08T07:00:29.918Z",
+  "lastUpdated": "2026-08-08T09:43:49.815Z",
   "articles": [
+    {
+      "id": "8bc9de3b-747e-4245-ad78-139946628d8b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "summary": "Atlassian's Rovo AI assistant is susceptible to prompt injection attacks that allow unauthorized exfiltration of sensitive Jira and Confluence data to external servers. While one attack vector has been mitigated, researchers warn that the AI can still be manipulated through malicious instructions hidden in accessible content.",
+      "date": "2026-08-08T08:54:50.000Z",
+      "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e3435158-43b4-4158-a94f-899a52b0fecd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+      "summary": "Researchers discovered CSS-based injection vulnerabilities across major webmail platforms that allow attackers to bypass security boundaries, steal credentials, and hijack user sessions. These techniques enable unauthorized actions ranging from account takeovers to the manipulation of AI email integration tools.",
+      "date": "2026-08-08T08:03:57.000Z",
+      "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a6929f46-72c3-4677-b414-b207bd5d3c46",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Unlimited Technology Systems Data Breach Exposes Data of 3.8 Million Healthcare Patients",
+      "summary": "Unlimited Technology Systems reported a data breach involving a commercial data center that exposed the personal, medical, and insurance records of 3.8 million healthcare patients. The unauthorized access occurred over a five-day period in October 2025.",
+      "date": "2026-08-08T07:25:10.000Z",
+      "link": "https://securityaffairs.com/196843/data-breach/unlimited-technology-systems-data-breach-exposes-data-of-3-8-million-healthcare-patients.html",
+      "isTopTen": true
+    },
+    {
+      "id": "f24692a6-0e5c-4de7-bc4b-86586deb1e59",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "summary": "Metabase has disclosed a critical zero-day vulnerability that allows unauthenticated remote attackers to execute arbitrary SQL commands and gain administrative access. The flaw is currently being exploited in the wild.",
+      "date": "2026-08-08T06:58:31.000Z",
+      "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "isTopTen": true
+    },
+    {
+      "id": "dc53fa7d-7f88-471f-81d9-4070a0131b02",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+      "summary": "N-able has released an emergency hotfix for its N-central RMM platform to address ongoing exploitation by threat actors attempting to establish persistent access. The update follows evidence of attackers actively evolving their methods to leverage a previously disclosed security vulnerability.",
+      "date": "2026-08-08T06:57:43.000Z",
+      "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3d40f8b0-32be-45ed-b556-73da96f6a30b",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+      "summary": "CISA has added a critical command injection vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities catalog following reports of active exploitation in the wild.",
+      "date": "2026-08-08T06:52:16.000Z",
+      "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "isTopTen": false
+    },
     {
       "id": "71f726ed-3ac4-4673-a0f4-7e92663937fc",
       "source": "The Register",
@@ -21,7 +87,7 @@
       "summary": "This article explores the prevalence of identity-based attacks in modern security incidents and provides strategic guidance for Security Operations Center (SOC) leaders to mitigate these risks. It highlights that 90% of security incidents originate from exploited identities.",
       "date": "2026-08-07T23:00:01.000Z",
       "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c46a329b-10f3-4210-941a-413d144d9e9b",
@@ -131,7 +197,7 @@
       "summary": "A vulnerability chain dubbed 'XSS2Shell' in WordPress allows attackers to escalate a simple login-page reflected XSS flaw into a full remote code execution and server takeover. Users are advised to update their WordPress installations immediately to mitigate this threat.",
       "date": "2026-08-07T16:48:22.000Z",
       "link": "https://securityaffairs.com/196820/hacking/wordpress-xss2shell-flaw-turns-simple-login-bug-into-full-server-takeover.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dbe35f94-42f9-4f8d-b07e-4b0d6bc1858d",
@@ -164,7 +230,7 @@
       "summary": "N-able has confirmed that attackers exploited a vulnerability in their N-central platform to gain unauthorized access to downstream customer networks. The company has released a second hotfix and is urging all customers to apply the security patch immediately.",
       "date": "2026-08-07T15:01:00.000Z",
       "link": "https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4c414e8a-f630-478d-9e0e-39ca5e7f8479",
@@ -186,7 +252,7 @@
       "summary": "A cyberattack has disrupted gate operations at all three North Carolina ports, prompting an investigation by the U.S. Coast Guard. The incident has significantly impacted terminal logistics while authorities work to assess the full extent of the breach.",
       "date": "2026-08-07T14:24:49.000Z",
       "link": "https://cyberscoop.com/north-carolina-ports-cyberattack-coast-guard/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "93ad41c9-7dbe-4b77-ba4e-89240d8e582f",
@@ -197,7 +263,7 @@
       "summary": "Researchers have discovered a new vulnerability dubbed TONTOU that bypasses existing Spectre mitigations on Intel and AMD processors by exploiting timer interrupts. The researchers successfully demonstrated a working exploit on Zen 2 architecture, highlighting a flaw in branch predictor security.",
       "date": "2026-08-07T14:15:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ce62804d-26cb-4690-a11c-df2fa7c10e5b",
@@ -318,7 +384,7 @@
       "summary": "Researchers at VulnCheck discovered a hardcoded backdoor in 20 Zbtlink router models that grants attackers remote root access to execute arbitrary commands. This vulnerability exposes affected networking devices to potential full system compromise.",
       "date": "2026-08-07T10:17:38.000Z",
       "link": "https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a24fcc7-617f-4ea9-9026-1faca220af85",
@@ -373,7 +439,7 @@
       "summary": "Security researcher Malcolm Stagg introduced 'NatJack,' a technique that exploits network address translation (NAT) to hijack TCP sessions and manipulate network traffic. This attack allows for DNS spoofing and connection state manipulation across network infrastructure devices.",
       "date": "2026-08-07T08:52:11.000Z",
       "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc99375c-c9f4-4bf6-9a64-e328d3556e0a",
@@ -505,7 +571,7 @@
       "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
       "date": "2026-08-06T22:26:39.000Z",
       "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "811d065f-f222-4511-99b9-c7a109201975",
@@ -560,7 +626,7 @@
       "summary": "CVE-2026-64561 is a critical vulnerability in the KVM shadow MMU that allows an attacker with guest kernel privileges to escape to the host system when nested virtualization is enabled. This flaw impacts KVM/x86 configurations by potentially enabling unauthorized code execution on the underlying Linux host.",
       "date": "2026-08-06T17:58:30.000Z",
       "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a60132e-058e-42b6-ad66-9c8b8f123d22",
@@ -626,7 +692,7 @@
       "summary": "MIT researchers have discovered a new 'INTERRUPT INJECTION' attack that allows unprivileged programs to bypass Spectre v2 mitigations on Intel and AMD CPUs by re-poisoning the branch predictor. This technique exploits a timing gap during interrupt handling to circumvent existing hardware defenses.",
       "date": "2026-08-06T16:17:13.000Z",
       "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "93caf33e-56c5-4f87-a3b7-8bf7638e587c",
@@ -703,7 +769,7 @@
       "summary": "Research by 1Password reveals that 75% of AI-generated vulnerability patches are flawed, often introducing new issues or failing to provide a complete fix. The study suggests that while AI-generated code may appear correct, it frequently lacks the necessary reliability for security-critical applications.",
       "date": "2026-08-06T12:45:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/1password-ai-generated-vulnerability-patches/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "422b6f24-361e-4898-b7ed-e3a98d869217",
@@ -714,7 +780,7 @@
       "summary": "Canadian national Connor Riley Moucka has pleaded guilty to hacking over 165 organizations via Snowflake, facing up to 32 years in federal prison. He admitted to multiple charges including computer fraud, wire fraud, and aggravated identity theft.",
       "date": "2026-08-06T12:30:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/snowflake-canadian-hacker-pleaded-guilty/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f6a75efd-0b91-4382-b49b-342d43a887b9",
@@ -5433,72 +5499,6 @@
       "summary": "Dynatrace has introduced new autonomous AI agents designed to automate incident triage and remediation processes while maintaining human oversight. The update also includes no-code tools for custom agent creation and expanded ecosystem integrations.",
       "date": "2026-07-27T13:49:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/27/dynatrace-intelligence/",
-      "isTopTen": false
-    },
-    {
-      "id": "60a74545-2e0b-482b-b1bf-e64d5877c934",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Microsoft Defender for Endpoint leaves some Linux boxes defenseless after update",
-      "summary": "A recent Microsoft Defender for Endpoint update introduced bugs that caused security services to fail upon restart and prevented installations on hardened RHEL systems. These defects temporarily left affected Linux endpoints without active protection.",
-      "date": "2026-07-27T13:45:00.000Z",
-      "link": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
-      "isTopTen": false
-    },
-    {
-      "id": "70fa8274-21e8-4a7b-941b-7b5a22ea9341",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Zenity advances AI governance with Runtime Boundaries",
-      "summary": "Zenity has expanded its AI security platform by introducing Runtime Boundaries and Exposure Management to govern autonomous AI agents' decisions in real-time. This new architecture aims to secure long-horizon AI workflows by enforcing controls at the critical point of action.",
-      "date": "2026-07-27T13:41:59.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/zenity-exposure-management-runtime-boundaries/",
-      "isTopTen": false
-    },
-    {
-      "id": "95d11924-3cb1-428a-9f30-805142cece86",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "JetStream Security enables on-demand shutdown of compromised AI agents",
-      "summary": "JetStream Security has introduced an AI Kill Switch that allows organizations to selectively shut down compromised or malfunctioning AI agents without disrupting overall operations. This tool provides a granular control mechanism for managing security risks, costs, and compliance requirements within AI environments.",
-      "date": "2026-07-27T13:32:58.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/jetstream-ai-kill-switch/",
-      "isTopTen": false
-    },
-    {
-      "id": "9654b7c3-6f4d-47bf-b0ae-0840bcc4d801",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "7AI expands platform with Federated SIEM and AI workflow builder",
-      "summary": "7AI has launched a Federated SIEM for decentralized data querying and an AI workflow builder to enable the creation of custom agentic security services. These features aim to address customer demand for reducing data ingestion requirements in traditional SIEM systems.",
-      "date": "2026-07-27T13:27:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/7ai-expands-platform-with-federated-siem-and-ai-workflow-builder/",
-      "isTopTen": false
-    },
-    {
-      "id": "41bdd70a-6ad5-4bb6-8371-a73f4c231d64",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "C1 adds shadow AI discovery to its identity governance platform",
-      "summary": "C1 has integrated shadow AI discovery into its identity governance platform to automatically identify and manage unauthorized AI agents, tools, and credentials. This feature aims to mitigate security blind spots by mapping AI-adjacent identities across cloud and local environments.",
-      "date": "2026-07-27T13:19:35.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/c1-adds-shadow-ai-discovery-to-its-identity-governance-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "7c0b6bfb-0181-4921-8e4a-5dcc27fe6c0a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google changes how it names cyber threat actors",
-      "summary": "Google has unified its threat actor naming conventions following the merger of Mandiant and the Google Threat Analysis Group to eliminate confusion caused by overlapping tracking systems. This transition creates a singular, standardized framework for identifying and categorizing cyber threat actors tracked by Google's intelligence teams.",
-      "date": "2026-07-27T13:08:23.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/google-threat-actors-naming-system/",
       "isTopTen": false
     }
   ]
