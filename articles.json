@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-09T15:37:03.434Z",
+  "lastUpdated": "2026-08-09T18:48:33.339Z",
   "articles": [
+    {
+      "id": "be655be6-2fda-4521-a56d-c669aedc001a",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "U.S. Defense Manufacturer IEH Hit by Phishing Attack, Exposing Potentially Export-Controlled Data",
+      "summary": "U.S. defense manufacturer IEH Corporation suffered a phishing attack that compromised its Microsoft 365 inbox, leading to the potential exposure of sensitive, export-controlled military data. The breach affects a supplier of critical electrical components used in aerospace and defense environments.",
+      "date": "2026-08-09T16:44:40.000Z",
+      "link": "https://securityaffairs.com/196890/cyber-crime/u-s-defense-manufacturer-ieh-hit-by-phishing-attack-exposing-potentially-export-controlled-data.html",
+      "isTopTen": true
+    },
     {
       "id": "7c8ad51b-c3ef-4fc8-8c27-8ffcfd7170ec",
       "source": "Security Affairs",
@@ -109,7 +120,7 @@
       "summary": "Atlassian's Rovo AI assistant is susceptible to prompt injection attacks that allow unauthorized exfiltration of sensitive Jira and Confluence data to external servers. While one attack vector has been mitigated, researchers warn that the AI can still be manipulated through malicious instructions hidden in accessible content.",
       "date": "2026-08-08T08:54:50.000Z",
       "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e3435158-43b4-4158-a94f-899a52b0fecd",
@@ -120,7 +131,7 @@
       "summary": "Researchers discovered CSS-based injection vulnerabilities across major webmail platforms that allow attackers to bypass security boundaries, steal credentials, and hijack user sessions. These techniques enable unauthorized actions ranging from account takeovers to the manipulation of AI email integration tools.",
       "date": "2026-08-08T08:03:57.000Z",
       "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a6929f46-72c3-4677-b414-b207bd5d3c46",
@@ -131,7 +142,7 @@
       "summary": "Unlimited Technology Systems reported a data breach involving a commercial data center that exposed the personal, medical, and insurance records of 3.8 million healthcare patients. The unauthorized access occurred over a five-day period in October 2025.",
       "date": "2026-08-08T07:25:10.000Z",
       "link": "https://securityaffairs.com/196843/data-breach/unlimited-technology-systems-data-breach-exposes-data-of-3-8-million-healthcare-patients.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f24692a6-0e5c-4de7-bc4b-86586deb1e59",
@@ -197,7 +208,7 @@
       "summary": "Following suspected cyberattacks linked to Iran, a former NSA chief warned that industrial water system controllers must be disconnected from the public internet to prevent further vulnerabilities. The incident highlights the urgent need for better security practices in critical infrastructure.",
       "date": "2026-08-07T19:53:10.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "341d1d8d-bacd-4aae-93ca-60edb1c270a1",
@@ -296,7 +307,7 @@
       "summary": "A vulnerability chain dubbed 'XSS2Shell' in WordPress allows attackers to escalate a simple login-page reflected XSS flaw into a full remote code execution and server takeover. Users are advised to update their WordPress installations immediately to mitigate this threat.",
       "date": "2026-08-07T16:48:22.000Z",
       "link": "https://securityaffairs.com/196820/hacking/wordpress-xss2shell-flaw-turns-simple-login-bug-into-full-server-takeover.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dbe35f94-42f9-4f8d-b07e-4b0d6bc1858d",
@@ -362,7 +373,7 @@
       "summary": "Researchers have discovered a new vulnerability dubbed TONTOU that bypasses existing Spectre mitigations on Intel and AMD processors by exploiting timer interrupts. The researchers successfully demonstrated a working exploit on Zen 2 architecture, highlighting a flaw in branch predictor security.",
       "date": "2026-08-07T14:15:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ce62804d-26cb-4690-a11c-df2fa7c10e5b",
@@ -461,7 +472,7 @@
       "summary": "A 18-year-old use-after-free vulnerability in the Linux SCTP networking code allows local users to achieve root privileges and escape containerized environments. Security patches have been released across multiple stable kernel versions and users are advised to update immediately.",
       "date": "2026-08-07T11:10:33.000Z",
       "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "13d2e9fc-f4f7-402d-8e9b-54845fc94292",
@@ -670,7 +681,7 @@
       "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
       "date": "2026-08-06T22:26:39.000Z",
       "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "811d065f-f222-4511-99b9-c7a109201975",
@@ -725,7 +736,7 @@
       "summary": "CVE-2026-64561 is a critical vulnerability in the KVM shadow MMU that allows an attacker with guest kernel privileges to escape to the host system when nested virtualization is enabled. This flaw impacts KVM/x86 configurations by potentially enabling unauthorized code execution on the underlying Linux host.",
       "date": "2026-08-06T17:58:30.000Z",
       "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a60132e-058e-42b6-ad66-9c8b8f123d22",
@@ -5488,17 +5499,6 @@
       "summary": "Google has introduced a new cryptonym-based naming system for threat actors to replace its previous numerical conventions, aiming to reduce confusion despite adding complexity for security teams. The move reflects an industry-wide struggle to standardize how persistent threats are identified and tracked.",
       "date": "2026-07-27T17:17:26.000Z",
       "link": "https://cyberscoop.com/google-threat-actor-naming-system/",
-      "isTopTen": false
-    },
-    {
-      "id": "08425eee-1aa5-4db0-bb6b-c6cff080dea2",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-      "summary": "The Dysphoria IoT botnet has evolved by incorporating blockchain-based command-and-control mechanisms and victim relays to improve its resilience against law enforcement disruptions. This architectural change follows the recent takedown of the JackSkid infrastructure.",
-      "date": "2026-07-27T17:16:28.000Z",
-      "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
       "isTopTen": false
     }
   ]
