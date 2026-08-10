@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-10T04:43:04.439Z",
+  "lastUpdated": "2026-08-10T07:50:41.523Z",
   "articles": [
+    {
+      "id": "05677b7a-6cdf-494d-924c-3e92894e207c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OpenAI locks down Astra over potential critical cyber capabilities",
+      "summary": "OpenAI has restricted the release of its Astra AI model after internal assessments indicated it possesses advanced capabilities that could pose significant cybersecurity risks. The company is applying its Preparedness Framework to ensure necessary safeguards are in place before further deployment.",
+      "date": "2026-08-10T07:09:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/10/openai-astra-critical-cyber-capabilities/",
+      "isTopTen": true
+    },
+    {
+      "id": "9bfdb01f-831a-4972-9eaa-ed6fb24b090b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "GitHub Dependabot malware alerts now cover eight ecosystems",
+      "summary": "GitHub has expanded its Dependabot malware detection capabilities from solely npm to cover eight major ecosystems by integrating threat intelligence from the OpenSSF malicious-packages repository. This upgrade allows GitHub to automatically alert users to malicious packages, such as typosquats and dependency-confusion attacks, across a much broader range of development environments.",
+      "date": "2026-08-10T07:01:11.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/10/github-dependabot-malware-alerts/",
+      "isTopTen": false
+    },
+    {
+      "id": "315419a8-f971-48e6-8550-a79aa5818f5b",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+      "summary": "OpenAI has paused internal development of its upcoming Astra model after assessments revealed advanced, potentially risky capabilities in agentic coding and cybersecurity. The company is now implementing stricter security controls to manage the risks associated with these high-capability autonomous features.",
+      "date": "2026-08-10T05:50:03.000Z",
+      "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0f688aeb-4aec-4ae4-82e8-c4eb650eaa67",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Chainloop: Open-source evidence store and policy engine for the software supply chain",
+      "summary": "Chainloop is an open-source tool that automates the collection of build evidence and policy enforcement within software supply chain pipelines using in-toto attestations. It provides security and compliance teams with a centralized control plane to verify the integrity of the build process.",
+      "date": "2026-08-10T05:30:26.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/10/chainloop-open-source-supply-chain-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "19d0e3f0-80e1-4d28-af69-c982b917803b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: Enpass Password Manager breaks away from the proprietary cloud model",
+      "summary": "Enpass Password Manager is promoting its cloud-agnostic architecture, which allows users to store encrypted vaults on their own devices or chosen cloud storage services rather than a proprietary cloud. This approach emphasizes user control and data sovereignty over sensitive credentials.",
+      "date": "2026-08-10T05:00:23.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/10/product-showcase-enpass-password-manager/",
+      "isTopTen": false
+    },
     {
       "id": "158a1493-dea2-44b4-a510-95f0e0fd54d3",
       "source": "Help Net Security",
@@ -197,7 +252,7 @@
       "summary": "N-able has released an emergency hotfix for its N-central RMM platform to address ongoing exploitation by threat actors attempting to establish persistent access. The update follows evidence of attackers actively evolving their methods to leverage a previously disclosed security vulnerability.",
       "date": "2026-08-08T06:57:43.000Z",
       "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3d40f8b0-32be-45ed-b556-73da96f6a30b",
@@ -340,7 +395,7 @@
       "summary": "A vulnerability chain dubbed 'XSS2Shell' in WordPress allows attackers to escalate a simple login-page reflected XSS flaw into a full remote code execution and server takeover. Users are advised to update their WordPress installations immediately to mitigate this threat.",
       "date": "2026-08-07T16:48:22.000Z",
       "link": "https://securityaffairs.com/196820/hacking/wordpress-xss2shell-flaw-turns-simple-login-bug-into-full-server-takeover.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "dbe35f94-42f9-4f8d-b07e-4b0d6bc1858d",
@@ -351,7 +406,7 @@
       "summary": "Ransomware activity has surged as cybercriminal gangs capitalize on the global focus shifting toward artificial intelligence. The report suggests that threat actors are exploiting this distraction to increase their malicious operations.",
       "date": "2026-08-07T16:45:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/ransomware-attacks-spike-as-world-distracted-by-ai/5284934",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7a9cbac3-1275-4e62-a5e1-4962049926f9",
@@ -373,7 +428,7 @@
       "summary": "N-able has confirmed that attackers exploited a vulnerability in their N-central platform to gain unauthorized access to downstream customer networks. The company has released a second hotfix and is urging all customers to apply the security patch immediately.",
       "date": "2026-08-07T15:01:00.000Z",
       "link": "https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4c414e8a-f630-478d-9e0e-39ca5e7f8479",
@@ -395,7 +450,7 @@
       "summary": "A cyberattack has disrupted gate operations at all three North Carolina ports, prompting an investigation by the U.S. Coast Guard. The incident has significantly impacted terminal logistics while authorities work to assess the full extent of the breach.",
       "date": "2026-08-07T14:24:49.000Z",
       "link": "https://cyberscoop.com/north-carolina-ports-cyberattack-coast-guard/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "93ad41c9-7dbe-4b77-ba4e-89240d8e582f",
@@ -439,7 +494,7 @@
       "summary": "WordPress has patched a critical pre-authentication reflected XSS vulnerability, CVE-2026-64638, that can be chained by attackers to achieve remote PHP code execution on the server. Administrators are urged to update immediately to mitigate the risk.",
       "date": "2026-08-07T12:56:23.000Z",
       "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e55dcc46-561e-498d-b32c-0963ef469945",
@@ -505,7 +560,7 @@
       "summary": "A 18-year-old use-after-free vulnerability in the Linux SCTP networking code allows local users to achieve root privileges and escape containerized environments. Security patches have been released across multiple stable kernel versions and users are advised to update immediately.",
       "date": "2026-08-07T11:10:33.000Z",
       "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "13d2e9fc-f4f7-402d-8e9b-54845fc94292",
@@ -5444,61 +5499,6 @@
       "summary": "Microsoft addressed the Certighost vulnerability, which permitted low-privilege users to impersonate Domain Controllers by obtaining unauthorized certificates via Active Directory Certificate Services. The flaw was resolved as part of the company's July security update cycle.",
       "date": "2026-07-27T20:49:40.000Z",
       "link": "https://hackread.com/microsoft-certighost-flaw-domain-controller-impersonation/",
-      "isTopTen": false
-    },
-    {
-      "id": "1338d21e-d866-4de0-812d-fd9909df1c58",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Outdated VPNs should be purged from federal agencies, senator says",
-      "summary": "Senator Ron Wyden has urged federal oversight agencies to eliminate obsolete VPN technologies from government infrastructure to reduce security risks. The initiative aims to strengthen the federal cybersecurity posture by retiring vulnerable legacy networking tools.",
-      "date": "2026-07-27T20:45:00.000Z",
-      "link": "https://therecord.media/federal-purge-outdated-vpns-wyden-letter",
-      "isTopTen": false
-    },
-    {
-      "id": "3681d9c9-ae48-433b-907f-1dbcd58bc495",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft's solution to AI security: more AI and more acronyms",
-      "summary": "Microsoft is expanding its AI-driven security framework by integrating new specialized AI tools and acronym-heavy diagnostic systems into its product ecosystem. This strategy aims to bolster defense through automation and advanced machine learning models.",
-      "date": "2026-07-27T19:50:27.000Z",
-      "link": "https://www.theregister.com/security/2026/07/27/microsofts-solution-to-ai-security-more-ai-and-more-acronyms/5279140",
-      "isTopTen": false
-    },
-    {
-      "id": "44b81ec3-3e46-4277-ab94-674b794f1039",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Microsoft unveils MAI-Cyber-1-Flash, promises cybersecurity AI at half the cost",
-      "summary": "Microsoft has introduced MAI-Cyber-1-Flash, a specialized AI model integrated into its MDASH system designed to identify and remediate vulnerabilities at a lower cost. The model has undergone rigorous adversarial testing to address the growing threat of AI-assisted code exploitation.",
-      "date": "2026-07-27T19:23:07.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/27/microsoft-mai-cyber-1-flash-ai-model/",
-      "isTopTen": false
-    },
-    {
-      "id": "bd6d38bb-5a19-4e27-9512-126bae7f80e6",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-      "summary": "NVIDIA and a coalition of 36 technology organizations have launched the Open Secure AI Alliance to collaboratively develop open-source frameworks for securing artificial intelligence agents and software. This initiative includes the release of the NOOA framework to standardize security practices across the AI ecosystem.",
-      "date": "2026-07-27T18:10:05.000Z",
-      "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-      "isTopTen": false
-    },
-    {
-      "id": "35b8f234-63c9-45a2-a588-58bf424bd56f",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "MedusaHVNC Trojan Creates Hidden Desktops to Hijack Browsers and Steal Data",
-      "summary": "The MedusaHVNC Trojan utilizes hidden Windows desktops to remotely hijack browsers and exfiltrate sensitive data while evading detection by leveraging legitimate system features. This technique allows attackers to maintain stealthy, persistent control over a user's environment.",
-      "date": "2026-07-27T17:53:10.000Z",
-      "link": "https://securityaffairs.com/196111/malware/medusahvnc-trojan-creates-hidden-desktops-to-hijack-browsers-and-steal-data.html",
       "isTopTen": false
     }
   ]
