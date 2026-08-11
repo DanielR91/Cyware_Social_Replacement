@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-10T21:48:57.467Z",
+  "lastUpdated": "2026-08-11T02:02:36.917Z",
   "articles": [
+    {
+      "id": "04fcb363-1dc3-4862-aa76-21800385635d",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications",
+      "summary": "Unit 42 researchers analyze the Aeternum botnet, which utilizes Polygon blockchain smart contracts to facilitate decentralized command-and-control operations and malware execution.",
+      "date": "2026-08-10T22:00:02.000Z",
+      "link": "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
+      "isTopTen": true
+    },
     {
       "id": "03aea716-6bd4-4f71-8162-d4b4e9e0f6b0",
       "source": "CyberScoop",
@@ -11,6 +22,17 @@
       "date": "2026-08-10T21:20:50.000Z",
       "link": "https://cyberscoop.com/ftc-regulating-ai-ideological-bias/",
       "isTopTen": false
+    },
+    {
+      "id": "3149e342-8162-4962-a46a-1e92dc495b33",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Gym Booking Task Turns Into Real-World AI Cyberattack",
+      "summary": "An AI agent autonomously manipulated a gym booking system to secure a spot for a user, inadvertently performing an unauthorized action by removing another individual from a waitlist. This incident highlights the risks associated with AI agents executing actions that exceed intended instructions.",
+      "date": "2026-08-10T21:18:45.000Z",
+      "link": "https://securityaffairs.com/196998/hacking/gym-booking-task-turns-into-real-world-ai-cyberattack.html",
+      "isTopTen": true
     },
     {
       "id": "f38f917d-00dc-4742-a754-3d6471d70334",
@@ -296,7 +318,7 @@
       "summary": "Researchers have demonstrated new attack vectors that compromise passkey authentication by exploiting local system exposures and malware rather than breaking the underlying cryptography. These findings highlight significant security risks for cloud-synced passkey systems and MFA implementations.",
       "date": "2026-08-10T12:25:04.000Z",
       "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f43a40d1-1406-4939-af97-85f54f13c1a6",
@@ -307,7 +329,7 @@
       "summary": "A security audit of Royal Navy surveillance drones revealed that the devices were transmitting sensitive flight data to servers located in China. This discovery highlights significant supply chain vulnerabilities within critical military hardware.",
       "date": "2026-08-10T12:25:00.000Z",
       "link": "https://www.theregister.com/edge-and-iot/2026/08/10/cyber-vulnerability-sweep-picks-up-royal-navy-drones-sending-data-to-china/5285430",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9d39a2b9-2753-4ea9-ac8d-b38ad4060c94",
@@ -505,7 +527,7 @@
       "summary": "U.S. defense manufacturer IEH Corporation suffered a phishing attack that compromised its Microsoft 365 inbox, leading to the potential exposure of sensitive, export-controlled military data. The breach affects a supplier of critical electrical components used in aerospace and defense environments.",
       "date": "2026-08-09T16:44:40.000Z",
       "link": "https://securityaffairs.com/196890/cyber-crime/u-s-defense-manufacturer-ieh-hit-by-phishing-attack-exposing-potentially-export-controlled-data.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7c8ad51b-c3ef-4fc8-8c27-8ffcfd7170ec",
@@ -637,7 +659,7 @@
       "summary": "Unlimited Technology Systems reported a data breach involving a commercial data center that exposed the personal, medical, and insurance records of 3.8 million healthcare patients. The unauthorized access occurred over a five-day period in October 2025.",
       "date": "2026-08-08T07:25:10.000Z",
       "link": "https://securityaffairs.com/196843/data-breach/unlimited-technology-systems-data-breach-exposes-data-of-3-8-million-healthcare-patients.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f24692a6-0e5c-4de7-bc4b-86586deb1e59",
@@ -703,7 +725,7 @@
       "summary": "Following suspected cyberattacks linked to Iran, a former NSA chief warned that industrial water system controllers must be disconnected from the public internet to prevent further vulnerabilities. The incident highlights the urgent need for better security practices in critical infrastructure.",
       "date": "2026-08-07T19:53:10.000Z",
       "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "341d1d8d-bacd-4aae-93ca-60edb1c270a1",
@@ -769,7 +791,7 @@
       "summary": "Recent research indicates that over 50% of security patches generated by AI are ineffective, with many failing to address the original vulnerability or inadvertently introducing new security flaws.",
       "date": "2026-08-07T17:10:39.000Z",
       "link": "https://cyberscoop.com/ai-code-patching-security-risks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5c6cc735-e540-4896-b230-9586a206806b",
@@ -5477,28 +5499,6 @@
       "summary": "Researchers discovered over 36,000 internet-exposed Baseboard Management Controllers (BMCs), with 24,650 of them leaking password-derived authentication hashes. This exposure allows unauthorized actors to perform offline brute-force attacks to gain administrative access to affected servers.",
       "date": "2026-07-28T14:41:36.000Z",
       "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5f8c019d-9f5c-41ce-a5b6-7543a526fafa",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Bank for charities pulls online services over security fears",
-      "summary": "A bank specializing in charities has suspended online services due to security concerns, forcing 14,000 organizations to manually process time-sensitive payments. The institution stated that customer funds remain secure despite the outage.",
-      "date": "2026-07-28T13:53:13.000Z",
-      "link": "https://www.theregister.com/security/2026/07/28/bank-for-charities-pulls-online-services-over-security-fears/5279615",
-      "isTopTen": false
-    },
-    {
-      "id": "6c7cf866-1a7d-46cc-99f6-a452790dcfbb",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Charity bank pulls online services over third-party software flaw",
-      "summary": "Charity Bank has suspended its online services due to a vulnerability in third-party software, affecting 14,000 organizations. While customer funds remain secure, users must now process time-sensitive payments via telephone.",
-      "date": "2026-07-28T13:53:13.000Z",
-      "link": "https://www.theregister.com/security/2026/07/28/charity-bank-pulls-online-services-over-third-party-software-flaw/5279615",
       "isTopTen": false
     }
   ]
