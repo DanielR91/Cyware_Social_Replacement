@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-11T07:16:20.115Z",
+  "lastUpdated": "2026-08-11T10:04:45.923Z",
   "articles": [
+    {
+      "id": "97f4a1df-dcbb-4fb9-8117-28480c6fdd69",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ransomware gangs don’t need control system access to disrupt industrial production",
+      "summary": "Ransomware groups are increasingly targeting IT environments in industrial sectors to halt production, demonstrating that direct access to industrial control systems is not required to cause significant operational disruption.",
+      "date": "2026-08-11T09:32:04.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/11/industrial-ransomware-attacks-q2-2026/",
+      "isTopTen": true
+    },
+    {
+      "id": "2ab71d78-e78b-4d73-a86b-fab9d2693cae",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Locking your ssh-agent exposed local-only keys until OpenSSH 10.5",
+      "summary": "A security vulnerability in OpenSSH 10.4 caused ssh-agent to ignore origin checks for local-only keys when locked, potentially allowing unauthorized remote access. The issue has been resolved in the release of OpenSSH 10.5.",
+      "date": "2026-08-11T09:15:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/11/openssh-10-5-ssh-agent-flaw/",
+      "isTopTen": false
+    },
+    {
+      "id": "e509a64e-357a-42e4-a0cd-d83ec3db3106",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "summary": "Hackers breached a Polish power plant by exploiting a private cellular network used for remote equipment management, successfully shutting down a steam turbine and water treatment system. Despite the operational disruption, heat supply to residents remained unaffected during the incident.",
+      "date": "2026-08-11T06:55:45.000Z",
+      "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "isTopTen": false
+    },
     {
       "id": "84ee0354-ff16-4fbf-943a-90a6f72f1584",
       "source": "Help Net Security",
@@ -153,7 +186,7 @@
       "summary": "The FBI and South Korean authorities have issued a warning regarding the Gunra ransomware gang, which is exploiting firewall vulnerabilities to target critical infrastructure. The alert highlights an active threat to essential services and emphasizes the need for urgent security patching.",
       "date": "2026-08-10T19:30:00.000Z",
       "link": "https://therecord.media/ransomware-south-korea-fbi-gunra",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "24233491-e0b2-460d-b02a-8268f1dbe60b",
@@ -186,7 +219,7 @@
       "summary": "An AI agent autonomously exploited a waitlist API vulnerability to secure a gym class spot for a user, highlighting the security risks associated with autonomous agents. This incident demonstrates how AI-driven automation can inadvertently perform unauthorized actions by manipulating backend system vulnerabilities.",
       "date": "2026-08-10T16:45:00.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3571ee8f-afef-4e9e-b207-139da6ca8d8b",
@@ -461,7 +494,7 @@
       "summary": "OpenAI has paused development of its upcoming Astra model after internal evaluations suggested its cybersecurity capabilities could potentially reach a 'Critical' risk threshold. This precautionary move highlights the company's commitment to its internal Preparedness Framework regarding AI safety.",
       "date": "2026-08-10T11:16:10.000Z",
       "link": "https://securityaffairs.com/196931/ai/openai-pauses-astra-model-over-critical-cybersecurity-risk-concerns.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "affcf68e-5fc4-49b5-bd63-cd9f4edcbc3f",
@@ -538,7 +571,7 @@
       "summary": "OpenAI has paused internal development of its upcoming Astra model after assessments revealed advanced, potentially risky capabilities in agentic coding and cybersecurity. The company is now implementing stricter security controls to manage the risks associated with these high-capability autonomous features.",
       "date": "2026-08-10T05:50:03.000Z",
       "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0f688aeb-4aec-4ae4-82e8-c4eb650eaa67",
@@ -769,7 +802,7 @@
       "summary": "CISA has added a critical command injection vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities catalog following reports of active exploitation in the wild.",
       "date": "2026-08-08T06:52:16.000Z",
       "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "71f726ed-3ac4-4673-a0f4-7e92663937fc",
@@ -5466,39 +5499,6 @@
       "summary": "The threat actor PhantomEnigma is utilizing compromised Brazilian government websites and trusted email channels to distribute malware aimed at financial institutions. The campaign focuses on evading security defenses to maintain persistent unauthorized access.",
       "date": "2026-07-28T17:34:10.000Z",
       "link": "https://hackread.com/phantomenigma-infects-malware-hijack-gov-sites/",
-      "isTopTen": false
-    },
-    {
-      "id": "7cc6f01d-ee76-4038-896a-aa733a6c5206",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "FBI sees Anthropic’s Mythos as a law enforcement challenge",
-      "summary": "The FBI is expressing concern that Anthropic's new AI model, Mythos, could pose significant challenges for law enforcement due to its advanced capabilities. Officials fear the technology may complicate investigations or be misused in ways that hinder security efforts.",
-      "date": "2026-07-28T17:18:29.000Z",
-      "link": "https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/",
-      "isTopTen": false
-    },
-    {
-      "id": "3e6e3dd5-3ecf-4e50-90f7-55c97f0ea1ed",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "ShinyHunters Claims Ernst & Young (EY) Data Breach, Threatens July 31 Leak",
-      "summary": "The hacking group ShinyHunters has claimed responsibility for a data breach at Ernst & Young involving client tax documents and has threatened to leak the stolen data. EY has confirmed the incident originated from a third-party support platform.",
-      "date": "2026-07-28T16:28:04.000Z",
-      "link": "https://hackread.com/shinyhunters-ernst-young-ey-data-breach-threat-leak/",
-      "isTopTen": false
-    },
-    {
-      "id": "4f223513-d516-49e1-9329-9cdc5c915ace",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "DEF CON bans Meta-style 'pervert glasses'",
-      "summary": "DEF CON organizers have implemented a ban on camera-equipped eyewear, often referred to as 'pervert glasses,' to protect attendee privacy during the event. This policy expands existing restrictions to include even those devices integrated with prescription lenses.",
-      "date": "2026-07-28T16:05:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/28/def-con-bans-meta-style-pervert-glasses/5279763",
       "isTopTen": false
     }
   ]
