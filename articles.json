@@ -1,6 +1,105 @@
 {
-  "lastUpdated": "2026-08-12T10:14:36.054Z",
+  "lastUpdated": "2026-08-12T13:21:50.278Z",
   "articles": [
+    {
+      "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Akira ransomware scum blocked victim's security tools – and broke their own encryptor",
+      "summary": "The Akira ransomware group accidentally crippled their own encryption process after successfully disabling the victim's security software. This operational error effectively halted the attack, leaving the targeted system's data intact.",
+      "date": "2026-08-12T13:00:00.000Z",
+      "link": "https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515",
+      "isTopTen": false
+    },
+    {
+      "id": "aaa86488-77c7-4191-abc1-c76b3ccebd59",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Three intrusions at UK criminal records office went undetected for two years",
+      "summary": "Britain's ACRO criminal records office suffered three data breaches over two years due to ignored antivirus alerts and unpatched software. The incident resulted in a formal reprimand due to the significant delay in detecting the unauthorized access.",
+      "date": "2026-08-12T13:00:00.000Z",
+      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
+      "isTopTen": false
+    },
+    {
+      "id": "2260c7f2-65ba-4864-ada4-0b6e5b1b9f5e",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft’s massive Patch Tuesday releases continue as AI reshapes bug discovery",
+      "summary": "Microsoft has significantly increased its Patch Tuesday volume, releasing five times the usual number of security updates due to the integration of AI-assisted vulnerability discovery. This shift highlights a new era of accelerated bug identification and patching cycles.",
+      "date": "2026-08-12T12:38:00.000Z",
+      "link": "https://therecord.media/microsoft-massive-patch-tuesday-releases-continue-ai",
+      "isTopTen": false
+    },
+    {
+      "id": "c7ac2bb8-f6a5-4fc8-b0e8-df0a27e30921",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Critical",
+      "title": "CISA gives federal agencies two weeks to patch Microsoft bug exploited in DPRK campaign",
+      "summary": "CISA has mandated that federal agencies address a Microsoft vulnerability within two weeks following its exploitation by North Korean actors targeting job application processes.",
+      "date": "2026-08-12T12:06:00.000Z",
+      "link": "https://therecord.media/cisa-gives-federal-agencies-two-weeks-to-patch-dprk-microsoft-bug",
+      "isTopTen": false
+    },
+    {
+      "id": "08053627-f9b3-49f2-ae04-59657263bd33",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Lazarus hackers pair fake job offers with Windows zero-day exploit",
+      "summary": "The Lazarus group is targeting the defense sector by distributing trojanized software and a Windows zero-day exploit disguised as legitimate job offers from companies like Lockheed Martin. This ongoing campaign, known as Operation Dream Job, leverages social engineering to deliver malicious payloads.",
+      "date": "2026-08-12T11:48:17.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/",
+      "isTopTen": true
+    },
+    {
+      "id": "ed8f9eb4-cd28-475c-b806-27cbc86d1749",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
+      "date": "2026-08-12T11:47:38.000Z",
+      "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "isTopTen": false
+    },
+    {
+      "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+      "summary": "The Picus Labs Blue Report 2026 reveals that while enterprise perimeter defenses are successfully blocking noisy attacks, organizations remain vulnerable to stealthy, silent threats operating within their internal environments. Data suggests that attackers are increasingly succeeding by avoiding detection mechanisms that rely on high-volume alerts.",
+      "date": "2026-08-12T11:41:34.000Z",
+      "link": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+      "isTopTen": false
+    },
+    {
+      "id": "92ae252c-f1ae-4f28-a166-423c3df519be",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Brit rail cops bring live facial recognition to the London Underground",
+      "summary": "British Transport Police have implemented live facial recognition technology at Victoria station, marking the start of its deployment across the London Underground. This expansion has drawn criticism from privacy advocates concerned about the normalization of mass surveillance.",
+      "date": "2026-08-12T11:19:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/12/brit-rail-cops-bring-live-facial-recognition-to-the-london-underground/5286697",
+      "isTopTen": false
+    },
+    {
+      "id": "fe669afd-a1b3-42f8-9d82-0b17b2865501",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+      "summary": "Adobe has released critical security patches for ColdFusion, Commerce, and Campaign Classic to address vulnerabilities, including three flaws rated with a maximum CVSS score of 10.0, which could lead to arbitrary code execution. These updates are essential to prevent potential exploitation of command injection and privilege escalation risks.",
+      "date": "2026-08-12T11:13:03.000Z",
+      "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+      "isTopTen": false
+    },
     {
       "id": "b3834798-16ff-4fe6-86d1-16aba867c34d",
       "source": "Help Net Security",
@@ -87,7 +186,7 @@
       "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day vulnerability in Microsoft Defender that bypasses the patch for the RoguePlanet (CVE-2026-50656) race condition and enables SYSTEM-level code execution.",
       "date": "2026-08-12T08:07:15.000Z",
       "link": "https://securityaffairs.com/197063/hacking/shieldbreak-new-windows-zero-day-bypasses-microsofts-rogueplanet-patch.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "71ca95cf-0f30-4665-992a-eaca9ea18381",
@@ -252,7 +351,7 @@
       "summary": "Microsoft's latest Patch Tuesday release addresses 421 vulnerabilities, with at least one already being actively exploited by North Korean state-sponsored actors. System administrators are urged to prioritize patching to mitigate these widespread security risks.",
       "date": "2026-08-11T21:31:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/11/421-bugs-in-microsofts-patch-tuesday-release-and-the-norks-have-already-attacked-one/5286483",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e2e755ef-b927-42a2-b87c-79e921f21b79",
@@ -318,7 +417,7 @@
       "summary": "Russian threat actor UAC-0145 is targeting Ukrainian IT professionals with a social engineering campaign involving fake job interviews to deploy a malicious VPN client capable of remote command execution. The activity has been attributed to the Sandworm group.",
       "date": "2026-08-11T18:36:47.000Z",
       "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b1babab9-5969-4b36-8a4f-4381b570377b",
@@ -340,7 +439,7 @@
       "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
       "date": "2026-08-11T17:48:01.000Z",
       "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
@@ -703,7 +802,7 @@
       "summary": "Researchers used AI agents to uncover 84 previously unknown security vulnerabilities in 4G and 5G network software, with 23 flaws currently lacking a patch. The most severe vulnerability identified allows attackers to intercept and reroute a subscriber's data traffic.",
       "date": "2026-08-11T05:30:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/11/5g-core-network-vulnerabilities-research/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7980264-7050-4eb5-bc54-415b1ba337f0",
@@ -5400,105 +5499,6 @@
       "summary": "Dashlane Password Manager offers a comprehensive suite of security features, including password generation, dark web monitoring, and phishing protection, positioning it as a broad security toolkit rather than just a credential vault.",
       "date": "2026-07-30T04:30:39.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/product-showcase-dashlane-password-manager/",
-      "isTopTen": false
-    },
-    {
-      "id": "2f918e0c-f28a-4e23-b30a-08108c84a3ce",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Exposed credentials are giving attackers a head start many organizations don’t see",
-      "summary": "The 2026 Credential Risk Report reveals that despite widespread MFA adoption, organizations struggle to identify and secure exposed employee credentials before attackers exploit them. A significant 73% of surveyed organizations reported finding their credentials within breach data, highlighting a major gap in monitoring and response capabilities.",
-      "date": "2026-07-30T04:00:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/enzoic-credential-exposure-risks-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "c58631d6-fd2a-43d5-a381-1f680d1f4a59",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "LeakNet Claims 11TB of Data Stolen in NYC Health + Hospitals Breach",
-      "summary": "The hacking group LeakNet alleges it has stolen 11TB of data from NYC Health + Hospitals, compromising the sensitive medical and biometric information of over 12 million individuals.",
-      "date": "2026-07-30T00:12:04.000Z",
-      "link": "https://hackread.com/leaknet-11tb-stolen-nyc-health-hospitals-data-breach/",
-      "isTopTen": false
-    },
-    {
-      "id": "cf6755a3-f754-4576-a6e1-0b2b3ede1558",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Claude Mythos Shows AI Can Outpace Human Cryptography Research",
-      "summary": "Anthropic's Claude Mythos model has autonomously identified significant cryptographic vulnerabilities in the HAWK signature scheme and accelerated attacks on reduced-round AES. This development demonstrates that AI systems are capable of independently advancing cryptographic research, potentially impacting future security standards.",
-      "date": "2026-07-29T21:10:02.000Z",
-      "link": "https://securityaffairs.com/196265/ai/claude-mythos-shows-ai-can-outpace-human-cryptography-research.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0b097f7f-ed72-4779-9e82-784ab8499f3d",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "A little-known npm package was North Korea’s warm-up act for the axios hack",
-      "summary": "Amazon's threat intelligence team linked a supply chain attack involving a minor npm package to a broader campaign by a North Korean threat actor, identifying it as a precursor to the axios hack.",
-      "date": "2026-07-29T21:09:57.000Z",
-      "link": "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "dd20d3e3-6267-4023-b040-f8a5ef21bbc8",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Supply chain challenges loom large in quantum race, White House official says",
-      "summary": "A White House official highlighted significant supply chain vulnerabilities and the future need for post-quantum encryption as primary hurdles in the ongoing global quantum computing race.",
-      "date": "2026-07-29T20:22:10.000Z",
-      "link": "https://cyberscoop.com/white-house-quantum-supply-chain-challenges/",
-      "isTopTen": false
-    },
-    {
-      "id": "3fc89291-7297-4c2d-893b-7e031fae149b",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers Strike Minnesota Water Utilities, One Plant Briefly Offline",
-      "summary": "Coordinated cyberattacks targeted operational technology at over 30 Minnesota water utilities, resulting in one plant going briefly offline. Effective backup procedures successfully prevented significant disruptions to water services.",
-      "date": "2026-07-29T19:26:12.000Z",
-      "link": "https://securityaffairs.com/196246/hacking/hackers-strike-minnesota-water-utilities-one-plant-briefly-offline.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4dcfb086-44d3-4b17-949e-0e1ca36fe5bf",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Closed models refuse to help researcher swat Linux bug",
-      "summary": "A cybersecurity researcher was unable to use closed-source AI models to assist in patching a Linux vulnerability due to the models' restrictive safety policies. This incident highlights the limitations of proprietary AI in security research and advocates for open-source alternatives.",
-      "date": "2026-07-29T18:33:16.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/29/closed-models-refuse-to-help-researcher-swat-linux-bug/5280647",
-      "isTopTen": false
-    },
-    {
-      "id": "da44f92a-3ffe-4a5f-b0f3-0e902902b8ba",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-      "summary": "A critical vulnerability in Ruby on Rails, tracked as CVE-2026-66066, allows unauthenticated attackers to read sensitive server files, including environment secrets, via malicious image uploads. The flaw carries a CVSS score of 9.5 and necessitates immediate patching.",
-      "date": "2026-07-29T18:10:00.000Z",
-      "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a8ce8f83-67cd-4f30-a1d4-0381be07b5f1",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Why Authentication UX Deserves More Attention on B2B Platforms ",
-      "summary": "This article highlights the critical importance of optimizing authentication user experience on B2B platforms to improve security adoption, reduce user fatigue, and streamline account management. By prioritizing intuitive design, businesses can better protect sensitive data while maintaining high levels of user engagement.",
-      "date": "2026-07-29T17:34:51.000Z",
-      "link": "https://hackread.com/authentication-ux-deserves-attention-b2b-platforms/",
       "isTopTen": false
     }
   ]
