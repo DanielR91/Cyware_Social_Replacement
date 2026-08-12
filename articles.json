@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-12T04:52:04.643Z",
+  "lastUpdated": "2026-08-12T07:40:52.155Z",
   "articles": [
+    {
+      "id": "5c0bd6e3-e4da-435b-96a2-ee7a468a0803",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "summary": "SAP has released a patch for a critical 10.0 CVSS rated vulnerability in the Commerce Cloud Data Hub Adapter that allows unauthenticated attackers to perform remote code execution. The flaw stems from insufficient authorization and input validation mechanisms.",
+      "date": "2026-08-12T07:31:40.000Z",
+      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "isTopTen": true
+    },
+    {
+      "id": "1d5b25a6-5908-4bfa-ae2b-dd7892899413",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Patch Tuesday for August 2026 Fixed a Zero-Day and Wormable RCE",
+      "summary": "Microsoft's August 2026 Patch Tuesday addressed 398 vulnerabilities, headlined by an actively exploited zero-day and a wormable remote code execution flaw in DNS. The update encompasses a broad range of products including Windows, Azure, and Office.",
+      "date": "2026-08-12T06:49:55.000Z",
+      "link": "https://securityaffairs.com/197048/security/microsoft-patch-tuesday-for-august-2026-fixed-a-zero-day-and-wormable-rce.html",
+      "isTopTen": true
+    },
+    {
+      "id": "988cd2ac-0f3e-498e-ad7c-86d5618fcdaa",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "summary": "A security researcher known as Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day exploit that bypasses a patch for a previous Microsoft Defender vulnerability to gain SYSTEM-level access.",
+      "date": "2026-08-12T06:41:38.000Z",
+      "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3685b716-22bb-40f8-816d-3e5a1399acc4",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "summary": "Cisco has confirmed that a high-severity vulnerability, CVE-2026-20349, in its ASA and FTD software is being actively exploited to cause remote denial-of-service conditions. Unauthenticated attackers can trigger this flaw by sending specially crafted HTTP requests to the target devices.",
+      "date": "2026-08-12T06:15:58.000Z",
+      "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+      "isTopTen": false
+    },
+    {
+      "id": "02680fb2-49d7-4ac1-99ac-095c8fda4796",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Post-quantum migration gets harder when every user holds a key",
+      "summary": "Post-quantum migration is complicated by decentralized key management, where outdated cryptographic inventories and embedded user keys create significant technical challenges for upgrading protocols like SSH and TLS. The article emphasizes that legacy vulnerabilities, such as unmanaged admin keys and password hygiene, further impede the transition to quantum-resistant standards.",
+      "date": "2026-08-12T06:00:53.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/christopher-smith-quantus-post-quantum-migration/",
+      "isTopTen": false
+    },
+    {
+      "id": "7b59a121-9162-4b79-bc8b-c8455c84e2dc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "PentestGPT: Open-source automated penetration testing agentic framework",
+      "summary": "PentestGPT is an automated, agentic framework that utilizes large language models to perform end-to-end penetration testing, including recon, exploitation, and reporting without human intervention.",
+      "date": "2026-08-12T05:30:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/pentestgpt-open-source/",
+      "isTopTen": false
+    },
+    {
+      "id": "e037934d-54ed-4322-bbc1-9adb565063f7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "338 million attack simulations reveal the state of enterprise defense",
+      "summary": "Picus Labs' Blue Report 2026 indicates that while enterprise defenses are improving against loud, overt attacks, they remain largely ineffective at detecting stealthy, quiet cyber threats. The report is based on insights gained from 338 million simulated attacks conducted in production environments.",
+      "date": "2026-08-12T05:00:24.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/picus-security-blue-report-2026/",
+      "isTopTen": false
+    },
     {
       "id": "3ef56cba-7269-47b4-a247-78ff4310d989",
       "source": "Help Net Security",
@@ -120,7 +197,7 @@
       "summary": "A critical vulnerability in Zoom's annotation feature allowed meeting participants to remotely hijack the computers of other attendees without any user interaction. The flaw enabled unauthorized control over both screen-sharers and viewers simply by participating in a call.",
       "date": "2026-08-11T19:08:47.000Z",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "298b4a8b-57ff-45c5-991c-b069f71a44ae",
@@ -153,7 +230,7 @@
       "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
       "date": "2026-08-11T17:48:01.000Z",
       "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
@@ -274,7 +351,7 @@
       "summary": "OpenAI has introduced GPT-5.6-Cyber, a specialized model designed for cybersecurity tasks like vulnerability research and exploit development with relaxed safety restrictions. This release aims to aid security professionals but raises concerns regarding the potential for misuse in creating cyberattacks.",
       "date": "2026-08-11T13:11:23.000Z",
       "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a4c9812d-32fb-4539-b6c3-4fff6353b70b",
@@ -395,7 +472,7 @@
       "summary": "Researchers discovered a vulnerability in the Windows Plug and Play feature that allows attackers to gain SYSTEM-level privileges by emulating a USB device, even remotely via Remote Desktop. The exploit chains the automated fetching of signed vendor software to execute malicious components on fully updated Windows 11 systems.",
       "date": "2026-08-11T10:48:26.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c40347fc-3821-4582-bb4d-3bd3586c0835",
@@ -472,7 +549,7 @@
       "summary": "Hackers breached a Polish power plant by exploiting a private cellular network used for remote equipment management, successfully shutting down a steam turbine and water treatment system. Despite the operational disruption, heat supply to residents remained unaffected during the incident.",
       "date": "2026-08-11T06:55:45.000Z",
       "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "84ee0354-ff16-4fbf-943a-90a6f72f1584",
@@ -681,7 +758,7 @@
       "summary": "Hackers breached a Polish CHP plant by pivoting from IT to OT systems via a private APN and a Fortinet device, leading to disruptions in turbine and water treatment operations. The incident highlights the critical security risks associated with interconnected network architectures in industrial environments.",
       "date": "2026-08-10T16:17:48.000Z",
       "link": "https://securityaffairs.com/196955/security/hackers-cross-from-it-to-ot-through-a-private-apn-in-poland.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5df908a1-2052-4c94-a9aa-f7714e87c1e1",
@@ -5422,83 +5499,6 @@
       "summary": "A coordinated cyberattack targeted operational technology across over 30 Minnesota water systems, resulting in plant outages and the loss of automated controls. The incident prompted a statewide response to manage the disruption and restore operations.",
       "date": "2026-07-29T13:48:36.000Z",
       "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8e4b6ca7-6c12-45f6-ae9b-e38a945b8372",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
-      "summary": "For over nine years, threat actors have operated a large-scale fraud campaign by creating cloned websites of major Russian industrial companies to deceive international firms into making fraudulent advance payments.",
-      "date": "2026-07-29T13:42:57.000Z",
-      "link": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
-      "isTopTen": false
-    },
-    {
-      "id": "14c5ab58-dcc2-40c9-af83-a4b9c928ae64",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "ShinyHunters Claims Ernst & Young Data Breach, Threatens to Leak Stolen Data",
-      "summary": "The cybercrime group ShinyHunters has claimed responsibility for a data breach at Ernst & Young, threatening to publish stolen tax records if the firm fails to meet their demands by July 31.",
-      "date": "2026-07-29T13:40:46.000Z",
-      "link": "https://securityaffairs.com/196239/data-breach/shinyhunters-claims-ernst-young-data-breach-threatens-to-leak-stolen-data.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ae08ae5d-313e-47e8-b551-2d6a076da2bb",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Broadcom Patches Critical VMware ESXi Vulnerability Enabling Host Code Execution",
-      "summary": "Broadcom has released security patches for five vulnerabilities across VMware products, including a critical VM escape flaw (CVE-2026-47876) that allows host-level code execution.",
-      "date": "2026-07-29T13:02:49.000Z",
-      "link": "https://securityaffairs.com/196231/security/broadcom-patches-critical-vmware-esxi-vulnerability-enabling-host-code-execution.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a1706bd8-ad25-48fb-8b27-e98544503e1c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Stairwell launches Backstory, pioneering agentic investigation for malware blast radius",
-      "summary": "Stairwell has launched Backstory, an AI-driven platform designed to automate malware investigation by mapping blast radiuses and identifying affected systems in real-time. This tool aims to combat the surge in AI-generated malware variants that often bypass traditional, alert-based security systems.",
-      "date": "2026-07-29T13:01:52.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/29/stairwell-backstory-agentic-investigation/",
-      "isTopTen": false
-    },
-    {
-      "id": "7efd24f0-5ada-4d93-b728-fa0996ccc699",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Sweet Security Brings Autonomous Protection to the AI Enterprise with New Blocking Capabilities",
-      "summary": "Sweet Security has launched new autonomous protection features designed to provide real-time blocking capabilities for enterprise AI environments. This update aims to secure AI-driven infrastructure against emerging threats.",
-      "date": "2026-07-29T13:00:57.000Z",
-      "link": "https://hackread.com/sweet-security-brings-autonomous-protection-to-the-ai-enterprise-with-new-blocking-capabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "fd1e94fb-cec3-4d12-acb8-6ed000bf1278",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "ShutterGap: Aryon Security finds 3.7M AWS cloud resources exposed beyond CSPM/CNAPP visibility",
-      "summary": "Aryon Security discovered that over 3.7 million short-lived AWS resources are frequently exposed publicly, bypassing traditional CSPM and CNAPP monitoring due to their fleeting nature. This creates a window of opportunity for attackers to exfiltrate sensitive data before security tools detect the misconfiguration.",
-      "date": "2026-07-29T13:00:01.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/29/cspm-blind-spot-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "a557646e-890f-49d4-9d64-c1f223063dcd",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Russia accuses Telegram founder of aiding terrorism, seeks international arrest",
-      "summary": "Russia is seeking an international arrest warrant for Telegram founder Pavel Durov, alleging the platform facilitated espionage and terrorist activities by Ukrainian intelligence. This move highlights increasing geopolitical tensions involving encrypted communication platforms and state-led legal actions.",
-      "date": "2026-07-29T12:45:00.000Z",
-      "link": "https://therecord.media/russia-telegram-durov-arrest",
       "isTopTen": false
     }
   ]
