@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-12T02:17:30.304Z",
+  "lastUpdated": "2026-08-12T04:52:04.643Z",
   "articles": [
+    {
+      "id": "3ef56cba-7269-47b4-a247-78ff4310d989",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ready-made $500 kit puts a crypto scam within anyone’s reach",
+      "summary": "A $500 ready-made scam kit found on a cybercrime forum enables attackers to conduct sophisticated cryptocurrency fraud through fake account balances and wallet tracking. This development highlights the increasing accessibility of complex financial scams through affordable, pre-packaged tools.",
+      "date": "2026-08-12T04:30:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/crypto-scam-kit-cybercrime-forum/",
+      "isTopTen": false
+    },
+    {
+      "id": "dace8088-cac3-4c68-8140-154495ad4bed",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI deployments are stretching enterprise security to its limits",
+      "summary": "Enterprise security teams are struggling with visibility and governance as AI deployments expand, with leaders anticipating a 14% increase in their organization's attack surface. The widespread use of unapproved AI tools poses a significant risk to organizational security postures.",
+      "date": "2026-08-12T04:00:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/netfoundry-securing-ai-deployments-report/",
+      "isTopTen": false
+    },
     {
       "id": "c748f8fd-f4dd-48bc-8168-0835cb489815",
       "source": "CyberScoop",
@@ -98,7 +120,7 @@
       "summary": "A critical vulnerability in Zoom's annotation feature allowed meeting participants to remotely hijack the computers of other attendees without any user interaction. The flaw enabled unauthorized control over both screen-sharers and viewers simply by participating in a call.",
       "date": "2026-08-11T19:08:47.000Z",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "298b4a8b-57ff-45c5-991c-b069f71a44ae",
@@ -131,7 +153,7 @@
       "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
       "date": "2026-08-11T17:48:01.000Z",
       "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
@@ -142,7 +164,7 @@
       "summary": "Security researchers have identified a critical unauthenticated remote code execution exploit chain affecting multiple versions of Microsoft SharePoint, facilitated by the use of AI agents. The vulnerability is tracked as CVE-2026-55040 with a CVSS score of 9.1.",
       "date": "2026-08-11T16:47:44.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a2d4709-a12f-4918-8473-2b5bb41fc9cd",
@@ -329,7 +351,7 @@
       "summary": "Researchers discovered that malicious SIM cards can exploit cellular modules in IoT devices, such as EV chargers and industrial routers, to execute arbitrary code and gain full system control. The vulnerability affects multiple hardware components, posing a significant risk to connected infrastructure.",
       "date": "2026-08-11T12:05:03.000Z",
       "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1cab7a8e-a2ac-4e21-a1af-280cb77e84a5",
@@ -406,7 +428,7 @@
       "summary": "Researchers have discovered that standards-compliant SIM card functionality can be exploited to hijack modems, downgrade network security, and execute malicious code on mobile devices. This vulnerability poses a significant risk by allowing attackers to compromise phone functionality and intercept communications.",
       "date": "2026-08-11T09:37:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/11/malicious-sims-can-shut-down-phones-steal-files-and-drag-5g-back-to-2g/5285482",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "97f4a1df-dcbb-4fb9-8117-28480c6fdd69",
@@ -450,7 +472,7 @@
       "summary": "Hackers breached a Polish power plant by exploiting a private cellular network used for remote equipment management, successfully shutting down a steam turbine and water treatment system. Despite the operational disruption, heat supply to residents remained unaffected during the incident.",
       "date": "2026-08-11T06:55:45.000Z",
       "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "84ee0354-ff16-4fbf-943a-90a6f72f1584",
@@ -494,7 +516,7 @@
       "summary": "Researchers used AI agents to uncover 84 previously unknown security vulnerabilities in 4G and 5G network software, with 23 flaws currently lacking a patch. The most severe vulnerability identified allows attackers to intercept and reroute a subscriber's data traffic.",
       "date": "2026-08-11T05:30:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/11/5g-core-network-vulnerabilities-research/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7980264-7050-4eb5-bc54-415b1ba337f0",
@@ -659,7 +681,7 @@
       "summary": "Hackers breached a Polish CHP plant by pivoting from IT to OT systems via a private APN and a Fortinet device, leading to disruptions in turbine and water treatment operations. The incident highlights the critical security risks associated with interconnected network architectures in industrial environments.",
       "date": "2026-08-10T16:17:48.000Z",
       "link": "https://securityaffairs.com/196955/security/hackers-cross-from-it-to-ot-through-a-private-apn-in-poland.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5df908a1-2052-4c94-a9aa-f7714e87c1e1",
@@ -5477,28 +5499,6 @@
       "summary": "Russia is seeking an international arrest warrant for Telegram founder Pavel Durov, alleging the platform facilitated espionage and terrorist activities by Ukrainian intelligence. This move highlights increasing geopolitical tensions involving encrypted communication platforms and state-led legal actions.",
       "date": "2026-07-29T12:45:00.000Z",
       "link": "https://therecord.media/russia-telegram-durov-arrest",
-      "isTopTen": false
-    },
-    {
-      "id": "56d94f25-fa33-4ad8-b3c5-aa30cd80f4fc",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cyberattack hits Angola’s largest telco hours before landmark stock debut",
-      "summary": "Angola's primary telecommunications provider, Unitel, experienced a massive cyberattack resulting in widespread service disruptions across the country just before its initial public offering. The incident has effectively cut off millions of users from voice, data, and internet services.",
-      "date": "2026-07-29T12:15:00.000Z",
-      "link": "https://therecord.media/angola-unitel-cyberattack-outage",
-      "isTopTen": false
-    },
-    {
-      "id": "6fe3b7f2-93fb-4d2c-9d23-9839c2e21e20",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-      "summary": "The emergence of AI-driven tools like Mythos is drastically accelerating exploit timelines, necessitating a critical reevaluation of existing vulnerability management strategies. Organizations are urged to identify fundamental flaws in their current processes rather than just questioning the need for change.",
-      "date": "2026-07-29T12:15:00.000Z",
-      "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
       "isTopTen": false
     }
   ]
