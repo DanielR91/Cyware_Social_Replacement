@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-12T19:08:08.761Z",
+  "lastUpdated": "2026-08-12T21:52:52.446Z",
   "articles": [
+    {
+      "id": "7ea0485d-dcb0-4c62-9ffd-ab693f78695d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "'Near-autonomous' AI agents attack Taiwan's nuclear safety agency",
+      "summary": "Taiwan's Nuclear Safety Commission was targeted by 'near-autonomous' AI-driven agents, marking a sophisticated evolution in cyber warfare tactics. The incident highlights the growing threat posed by agentic swarms capable of executing complex attacks with minimal human oversight.",
+      "date": "2026-08-12T21:45:16.000Z",
+      "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
+      "isTopTen": true
+    },
+    {
+      "id": "e75d448a-ef91-46bd-9347-1db39f33ff16",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "CEVA Logistics Cyberattack Disrupts European Warehouses and Shipments",
+      "summary": "CEVA Logistics experienced a cyberattack on July 29 that resulted in the suspension of operations across eight European warehouses. The company is currently working to restore services impacted by the incident.",
+      "date": "2026-08-12T20:05:35.000Z",
+      "link": "https://securityaffairs.com/197086/data-breach/ceva-logistics-cyberattack-disrupts-european-warehouses-and-shipments.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5d0ad189-f9dd-4240-8aa9-5acb974e414c",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Spectre rears its ugly head again as researchers show some RISC-V chips are susceptible",
+      "summary": "Researchers have discovered that certain RISC-V processor architectures are susceptible to Spectre-class speculative execution attacks, demonstrating that the vulnerability continues to impact new hardware designs eight years after its initial disclosure.",
+      "date": "2026-08-12T19:42:57.000Z",
+      "link": "https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978",
+      "isTopTen": false
+    },
     {
       "id": "b1a18cf6-d8e0-4fc1-aa00-b7a3d716b72c",
       "source": "Security Affairs",
@@ -10,7 +43,7 @@
       "summary": "China-linked hackers reportedly conducted the first fully autonomous, AI-driven cyberattack against a Taiwanese government network, successfully breaching systems and stealing data with minimal human intervention. This operation marks a significant escalation in the use of autonomous agents for end-to-end cyber espionage.",
       "date": "2026-08-12T17:58:44.000Z",
       "link": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1614b2b0-76b0-47cd-a775-e7b5ea7019a4",
@@ -241,7 +274,7 @@
       "summary": "Threat actors are actively exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter that allows for arbitrary code execution and persistent remote access. Security teams are urged to apply the recently released patches immediately to mitigate the risk.",
       "date": "2026-08-12T09:01:54.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3f750677-7dd9-4315-81bb-b95bbc74fc03",
@@ -527,7 +560,7 @@
       "summary": "A critical vulnerability in Zoom's annotation feature allowed meeting participants to remotely hijack the computers of other attendees without any user interaction. The flaw enabled unauthorized control over both screen-sharers and viewers simply by participating in a call.",
       "date": "2026-08-11T19:08:47.000Z",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "298b4a8b-57ff-45c5-991c-b069f71a44ae",
@@ -571,7 +604,7 @@
       "summary": "Security researchers have identified a critical unauthenticated remote code execution exploit chain affecting multiple versions of Microsoft SharePoint, facilitated by the use of AI agents. The vulnerability is tracked as CVE-2026-55040 with a CVSS score of 9.1.",
       "date": "2026-08-11T16:47:44.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a2d4709-a12f-4918-8473-2b5bb41fc9cd",
@@ -747,7 +780,7 @@
       "summary": "Researchers discovered that the 'Proactive SIM' feature in cellular specifications can be exploited by malicious SIM cards to hijack smartphones, exfiltrate data, and force insecure 2G connections. This vulnerability allows attackers to execute code and disrupt communications by leveraging a legitimate built-in function.",
       "date": "2026-08-11T12:10:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/11/malicious-sim-cards-hijack-phones-ev-chargers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bf2dca25-9645-4160-9ee8-2b44416448ec",
@@ -5466,39 +5499,6 @@
       "summary": "Unit 42 researchers identified a Chinese-speaking threat actor utilizing AI models to automate vulnerability scanning across seven distinct security flaws. This activity combines autonomous AI-driven reconnaissance with targeted manual exploitation efforts.",
       "date": "2026-07-30T10:00:52.000Z",
       "link": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
-      "isTopTen": false
-    },
-    {
-      "id": "c4903420-7a1d-406a-aa42-870f5f6d8de6",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "U.S. CISA adds a Cisco Secure Firewall Management Center (FMC) flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added a vulnerability in Cisco Secure Firewall Management Center, tracked as CVE-2026-20316, to its Known Exploited Vulnerabilities catalog. The flaw carries a CVSS score of 5.3 and is currently being targeted in the wild.",
-      "date": "2026-07-30T09:06:54.000Z",
-      "link": "https://securityaffairs.com/196289/security/u-s-cisa-adds-a-cisco-secure-firewall-management-center-fmc-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7b6a2c9e-3e4c-4edf-816f-4b60e94129ca",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Coordinated cyberattack hits more than 30 Minnesota water utilities",
-      "summary": "More than 30 Minnesota water utilities were targeted in a coordinated cyberattack affecting their operational technology systems. Minnesota IT Services has activated incident response protocols to contain the threat and is collaborating with partners to address the breach.",
-      "date": "2026-07-30T08:59:20.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/minnesota-water-utilities-coordinated-cyberattack/",
-      "isTopTen": false
-    },
-    {
-      "id": "d1b450cc-5840-42d0-9e98-5eed3fa1a877",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "eSIM Plus and Nicegram Share Belarus-Linked Codebase, Analysis Finds",
-      "summary": "Security analysis reveals that popular apps eSIM Plus and Nicegram, marketed as Lithuanian, share a Belarus-linked codebase and route data through Russian infrastructure. This raises significant privacy and geopolitical concerns regarding the origin and data handling practices of these services.",
-      "date": "2026-07-30T08:19:53.000Z",
-      "link": "https://securityaffairs.com/196280/security/esim-plus-and-nicegram-share-belarus-linked-codebase-analysis-finds.html",
       "isTopTen": false
     }
   ]
