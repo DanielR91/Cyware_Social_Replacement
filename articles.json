@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-12T16:03:57.363Z",
+  "lastUpdated": "2026-08-12T19:08:08.761Z",
   "articles": [
+    {
+      "id": "b1a18cf6-d8e0-4fc1-aa00-b7a3d716b72c",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "China-Linked Hackers Use AI Agents in Autonomous Attack on Taiwan",
+      "summary": "China-linked hackers reportedly conducted the first fully autonomous, AI-driven cyberattack against a Taiwanese government network, successfully breaching systems and stealing data with minimal human intervention. This operation marks a significant escalation in the use of autonomous agents for end-to-end cyber espionage.",
+      "date": "2026-08-12T17:58:44.000Z",
+      "link": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
+      "isTopTen": true
+    },
+    {
+      "id": "1614b2b0-76b0-47cd-a775-e7b5ea7019a4",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+      "summary": "The Lazarus Group is utilizing a Windows zero-day vulnerability to deploy a new backdoor as part of their ongoing Operation Dream Job espionage campaign targeting the global defense and aerospace sectors.",
+      "date": "2026-08-12T17:39:27.000Z",
+      "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "603e57f7-9d1e-4d61-a892-265b47a079db",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "FBI: Hackers using social engineering to breach accounts and steal explicit content",
+      "summary": "The FBI warns that cybercriminals are utilizing social engineering, credential stuffing, and spoofed websites to access and exfiltrate private content for sale on the dark web. These tactics target individuals' personal accounts to compromise and monetize sensitive data.",
+      "date": "2026-08-12T17:28:00.000Z",
+      "link": "https://therecord.media/social-engineering-hackers-explicit-photos-fbi-alert",
+      "isTopTen": false
+    },
+    {
+      "id": "0c092c19-114d-4d7a-a7f4-56373527386b",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan",
+      "summary": "Israeli firm Dream identified a near-autonomous AI-driven cyberattack targeting a Taiwanese government entity, noting the system's ability to self-adapt and correct errors during the operation.",
+      "date": "2026-08-12T17:05:01.000Z",
+      "link": "https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/",
+      "isTopTen": false
+    },
     {
       "id": "38639f45-8ec6-420c-8203-75b4dd950d0d",
       "source": "The Register",
@@ -32,7 +76,7 @@
       "summary": "A sophisticated, ongoing campaign dubbed 'City-Forum' has been unauthorizedly accessing Salesforce and ServiceNow portals globally for 17 months by exploiting legitimate platform configurations rather than technical vulnerabilities. Researchers report that the attacker uses a repurposed legacy domain to extract sensitive records, highlighting a significant risk to enterprise SaaS security.",
       "date": "2026-08-12T13:51:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4eee629b-f072-4bf5-8c40-94b1d9386e9f",
@@ -131,7 +175,7 @@
       "summary": "The Lazarus group is targeting the defense sector by distributing trojanized software and a Windows zero-day exploit disguised as legitimate job offers from companies like Lockheed Martin. This ongoing campaign, known as Operation Dream Job, leverages social engineering to deliver malicious payloads.",
       "date": "2026-08-12T11:48:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ed8f9eb4-cd28-475c-b806-27cbc86d1749",
@@ -197,7 +241,7 @@
       "summary": "Threat actors are actively exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter that allows for arbitrary code execution and persistent remote access. Security teams are urged to apply the recently released patches immediately to mitigate the risk.",
       "date": "2026-08-12T09:01:54.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f750677-7dd9-4315-81bb-b95bbc74fc03",
@@ -516,7 +560,7 @@
       "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
       "date": "2026-08-11T17:48:01.000Z",
       "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
@@ -527,7 +571,7 @@
       "summary": "Security researchers have identified a critical unauthenticated remote code execution exploit chain affecting multiple versions of Microsoft SharePoint, facilitated by the use of AI agents. The vulnerability is tracked as CVE-2026-55040 with a CVSS score of 9.1.",
       "date": "2026-08-11T16:47:44.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a2d4709-a12f-4918-8473-2b5bb41fc9cd",
@@ -703,7 +747,7 @@
       "summary": "Researchers discovered that the 'Proactive SIM' feature in cellular specifications can be exploited by malicious SIM cards to hijack smartphones, exfiltrate data, and force insecure 2G connections. This vulnerability allows attackers to execute code and disrupt communications by leveraging a legitimate built-in function.",
       "date": "2026-08-11T12:10:17.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/11/malicious-sim-cards-hijack-phones-ev-chargers/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bf2dca25-9645-4160-9ee8-2b44416448ec",
@@ -714,7 +758,7 @@
       "summary": "Researchers discovered that malicious SIM cards can exploit cellular modules in IoT devices, such as EV chargers and industrial routers, to execute arbitrary code and gain full system control. The vulnerability affects multiple hardware components, posing a significant risk to connected infrastructure.",
       "date": "2026-08-11T12:05:03.000Z",
       "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1cab7a8e-a2ac-4e21-a1af-280cb77e84a5",
@@ -758,7 +802,7 @@
       "summary": "Researchers discovered a vulnerability in the Windows Plug and Play feature that allows attackers to gain SYSTEM-level privileges by emulating a USB device, even remotely via Remote Desktop. The exploit chains the automated fetching of signed vendor software to execute malicious components on fully updated Windows 11 systems.",
       "date": "2026-08-11T10:48:26.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c40347fc-3821-4582-bb4d-3bd3586c0835",
@@ -5455,50 +5499,6 @@
       "summary": "Security analysis reveals that popular apps eSIM Plus and Nicegram, marketed as Lithuanian, share a Belarus-linked codebase and route data through Russian infrastructure. This raises significant privacy and geopolitical concerns regarding the origin and data handling practices of these services.",
       "date": "2026-07-30T08:19:53.000Z",
       "link": "https://securityaffairs.com/196280/security/esim-plus-and-nicegram-share-belarus-linked-codebase-analysis-finds.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6fc2c823-2c48-4052-ab26-8cc31890a34e",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-      "summary": "Russian threat actors are exploiting a Microsoft OWA vulnerability to maintain persistent access to compromised mailboxes even after credential rotations. The campaign targets government, telecommunications, financial, hospitality, and aerospace sectors across the U.S. and Europe.",
-      "date": "2026-07-30T07:40:48.000Z",
-      "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9885b6e6-b9db-4674-829c-a42f4b0de055",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-      "summary": "The FCC has expanded its Covered List to include new foreign-produced mobile robots and networked power inverters, effectively banning them from future US authorization due to national security and cybersecurity concerns.",
-      "date": "2026-07-30T07:28:43.000Z",
-      "link": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-      "isTopTen": false
-    },
-    {
-      "id": "aedec7c7-f58d-4dee-8924-06e6f388263b",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Headteacher had the most guessable username-password combo you could imagine",
-      "summary": "A school headteacher utilized an extremely weak username and password combination, highlighting a widespread lack of cybersecurity awareness and prioritization within educational institutions.",
-      "date": "2026-07-30T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/30/headteacher-had-the-most-guessable-username-password-combo-you-could-imagine/5280709",
-      "isTopTen": false
-    },
-    {
-      "id": "270a3598-f93e-4531-8435-6cb270f43c30",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Excuses like 'AI did it' don't exist in the eyes of the law",
-      "summary": "This headline highlights that legal liability for AI-driven actions rests with the operator, meaning organizations cannot use AI as a scapegoat for cybersecurity failures. It emphasizes the necessity for companies to maintain clear accountability and legal oversight when implementing automated systems.",
-      "date": "2026-07-30T06:30:00.000Z",
-      "link": "https://www.theregister.com/legal/2026/07/30/excuses-like-ai-did-it-dont-exist-in-the-eyes-of-the-law/5280767",
       "isTopTen": false
     }
   ]
