@@ -1,6 +1,116 @@
 {
-  "lastUpdated": "2026-08-12T07:40:52.155Z",
+  "lastUpdated": "2026-08-12T10:14:36.054Z",
   "articles": [
+    {
+      "id": "b3834798-16ff-4fe6-86d1-16aba867c34d",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft patches 400+ vulnerabilities, one zero-day under attack (CVE-2026-68820)",
+      "summary": "Microsoft's August 2026 Patch Tuesday addressed over 400 vulnerabilities, including a zero-day flaw (CVE-2026-68820) in the Windows AFD.sys driver that enables local privilege escalation to SYSTEM.",
+      "date": "2026-08-12T09:34:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
+      "isTopTen": false
+    },
+    {
+      "id": "77f0df5d-dab5-4d56-a759-491107a223f2",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "summary": "Threat actors are actively exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter that allows for arbitrary code execution and persistent remote access. Security teams are urged to apply the recently released patches immediately to mitigate the risk.",
+      "date": "2026-08-12T09:01:54.000Z",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+      "isTopTen": true
+    },
+    {
+      "id": "3f750677-7dd9-4315-81bb-b95bbc74fc03",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "ConnectSecure helps MSPs automate Microsoft 365 security remediation",
+      "summary": "ConnectSecure has launched Microsoft 365 Auto Remediation and AI-powered Training Assessments to help MSPs automate security fixes and streamline client training. This platform update aims to improve the security posture of managed service providers through unified, proactive management.",
+      "date": "2026-08-12T09:00:29.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/connectsecure-microsoft-365-auto-remediation-training-assessments/",
+      "isTopTen": false
+    },
+    {
+      "id": "e3c1bae2-33b8-4b32-a3b2-036f0e9db9f5",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "CBTS brings continuous penetration testing to enterprise security",
+      "summary": "CBTS has introduced Penetration Testing as a Service (PTaaS), a solution designed to provide continuous security testing and risk remediation for evolving enterprise environments. This service aims to address the rapid expansion of attack surfaces, such as cloud and AI systems, by replacing traditional, periodic testing cycles.",
+      "date": "2026-08-12T08:53:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/cbts-penetration-testing-as-a-service-ptaas/",
+      "isTopTen": false
+    },
+    {
+      "id": "87147cd9-e2a6-46ed-bbd3-99cfb9a1717c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Crytica’s RDAi detects OT device tampering from within",
+      "summary": "Crytica Security has launched RDAi, a solution designed to provide rapid, deterministic threat detection for operational technology (OT) to protect critical infrastructure from tampering. This release addresses the rising urgency of securing embedded systems against increasingly sophisticated AI-driven cyberattacks.",
+      "date": "2026-08-12T08:40:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/crytica-security-rapid-detection-alert-and-isolation-rdai/",
+      "isTopTen": false
+    },
+    {
+      "id": "fb1c7a95-e52d-4009-9fbe-ec82f967371a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Chrome’s anti-abuse protections block 7 billion unwanted Android notifications daily",
+      "summary": "Google Chrome has implemented new anti-abuse measures that automatically revoke notification permissions for suspicious or inactive websites, successfully blocking 7 billion unwanted notifications daily. This initiative aims to protect Android users from phishing, scams, and deceptive content delivered through web push notifications.",
+      "date": "2026-08-12T08:36:28.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/google-chrome-abusive-web-push-notifications/",
+      "isTopTen": false
+    },
+    {
+      "id": "4736037b-d84b-4dda-b661-375e602d29f0",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Kimwolf v7 Hides DDoS Traffic Behind Chrome Fingerprints and Ethereum",
+      "summary": "Palo Alto Networks Unit 42 discovered Kimwolf v7, an upgraded Android TV botnet that now conceals its DDoS traffic using Chrome browser fingerprints and Ethereum blockchain infrastructure.",
+      "date": "2026-08-12T08:27:13.000Z",
+      "link": "https://securityaffairs.com/197070/malware/kimwolf-v7-hides-ddos-traffic-behind-chrome-fingerprints-and-ethereum.html",
+      "isTopTen": false
+    },
+    {
+      "id": "fa64f746-49bd-4dd3-ad3a-59bec6f00590",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ShieldBreak: New Windows Zero-Day Bypasses Microsoft’s RoguePlanet Patch",
+      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day vulnerability in Microsoft Defender that bypasses the patch for the RoguePlanet (CVE-2026-50656) race condition and enables SYSTEM-level code execution.",
+      "date": "2026-08-12T08:07:15.000Z",
+      "link": "https://securityaffairs.com/197063/hacking/shieldbreak-new-windows-zero-day-bypasses-microsofts-rogueplanet-patch.html",
+      "isTopTen": false
+    },
+    {
+      "id": "71ca95cf-0f30-4665-992a-eaca9ea18381",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "summary": "Two malicious releases of the LiteLLM library were uploaded to PyPI, enabling attackers to harvest sensitive cloud and infrastructure credentials from over 2,100 organizations. The breach, linked to the Trivy compromise, resulted in the exfiltration of a massive dataset containing thousands of files.",
+      "date": "2026-08-12T08:04:52.000Z",
+      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "00af7a7d-027d-40f4-9549-843e8a5e0674",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Split-second deepfake glitch blows digital certificate fraudster’s cover",
+      "summary": "Spanish police arrested a man for attempting to bypass digital identity verification checks using deepfake software to commit financial fraud. The scheme was thwarted after a technical glitch during a deepfake video session alerted authorities to the fraudulent activity.",
+      "date": "2026-08-12T07:50:56.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/deepfake-video-identity-verification-fraud-arrest-spain/",
+      "isTopTen": false
+    },
     {
       "id": "5c0bd6e3-e4da-435b-96a2-ee7a468a0803",
       "source": "The Hacker News",
@@ -10,7 +120,7 @@
       "summary": "SAP has released a patch for a critical 10.0 CVSS rated vulnerability in the Commerce Cloud Data Hub Adapter that allows unauthenticated attackers to perform remote code execution. The flaw stems from insufficient authorization and input validation mechanisms.",
       "date": "2026-08-12T07:31:40.000Z",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1d5b25a6-5908-4bfa-ae2b-dd7892899413",
@@ -142,7 +252,7 @@
       "summary": "Microsoft's latest Patch Tuesday release addresses 421 vulnerabilities, with at least one already being actively exploited by North Korean state-sponsored actors. System administrators are urged to prioritize patching to mitigate these widespread security risks.",
       "date": "2026-08-11T21:31:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/11/421-bugs-in-microsofts-patch-tuesday-release-and-the-norks-have-already-attacked-one/5286483",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e2e755ef-b927-42a2-b87c-79e921f21b79",
@@ -153,7 +263,7 @@
       "summary": "Microsoft has released a monthly security update addressing 398 vulnerabilities, including a Windows kernel driver zero-day (CVE-2026-68820) that is currently being exploited to escalate privileges to SYSTEM level.",
       "date": "2026-08-11T20:10:55.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19058d67-02ee-4984-96ba-0fa492ff90a0",
@@ -241,7 +351,7 @@
       "summary": "Security researchers have identified a critical unauthenticated remote code execution exploit chain affecting multiple versions of Microsoft SharePoint, facilitated by the use of AI agents. The vulnerability is tracked as CVE-2026-55040 with a CVSS score of 9.1.",
       "date": "2026-08-11T16:47:44.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a2d4709-a12f-4918-8473-2b5bb41fc9cd",
@@ -527,7 +637,7 @@
       "summary": "The Gunra ransomware group is actively exploiting vulnerabilities in Fortinet and Schneider Electric products to compromise critical infrastructure sectors globally. U.S. and South Korean authorities have issued a joint warning regarding these attacks on healthcare, financial, and government organizations.",
       "date": "2026-08-11T09:16:24.000Z",
       "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2ab71d78-e78b-4d73-a86b-fab9d2693cae",
@@ -549,7 +659,7 @@
       "summary": "Hackers breached a Polish power plant by exploiting a private cellular network used for remote equipment management, successfully shutting down a steam turbine and water treatment system. Despite the operational disruption, heat supply to residents remained unaffected during the incident.",
       "date": "2026-08-11T06:55:45.000Z",
       "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "84ee0354-ff16-4fbf-943a-90a6f72f1584",
@@ -593,7 +703,7 @@
       "summary": "Researchers used AI agents to uncover 84 previously unknown security vulnerabilities in 4G and 5G network software, with 23 flaws currently lacking a patch. The most severe vulnerability identified allows attackers to intercept and reroute a subscriber's data traffic.",
       "date": "2026-08-11T05:30:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/11/5g-core-network-vulnerabilities-research/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d7980264-7050-4eb5-bc54-415b1ba337f0",
@@ -758,7 +868,7 @@
       "summary": "Hackers breached a Polish CHP plant by pivoting from IT to OT systems via a private APN and a Fortinet device, leading to disruptions in turbine and water treatment operations. The incident highlights the critical security risks associated with interconnected network architectures in industrial environments.",
       "date": "2026-08-10T16:17:48.000Z",
       "link": "https://securityaffairs.com/196955/security/hackers-cross-from-it-to-ot-through-a-private-apn-in-poland.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5df908a1-2052-4c94-a9aa-f7714e87c1e1",
@@ -5389,116 +5499,6 @@
       "summary": "This article highlights the critical importance of optimizing authentication user experience on B2B platforms to improve security adoption, reduce user fatigue, and streamline account management. By prioritizing intuitive design, businesses can better protect sensitive data while maintaining high levels of user engagement.",
       "date": "2026-07-29T17:34:51.000Z",
       "link": "https://hackread.com/authentication-ux-deserves-attention-b2b-platforms/",
-      "isTopTen": false
-    },
-    {
-      "id": "34041b22-d44d-4980-a8e3-08b1d9c1feb4",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "OpenAI says rogue agent behind Hugging Face hack broke into additional services ",
-      "summary": "OpenAI disclosed that a threat actor involved in the recent Hugging Face breach also targeted four additional, unnamed organizations. The incident highlights a coordinated campaign of unauthorized access across multiple service providers.",
-      "date": "2026-07-29T17:22:00.000Z",
-      "link": "https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services",
-      "isTopTen": false
-    },
-    {
-      "id": "85b1d89f-732f-48fe-8e8b-264e8aa12bfa",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Word worm crawls into Copilot, spreads chaos",
-      "summary": "A security researcher has identified a 'word worm' exploit targeting Microsoft Copilot, noting that Microsoft has yet to implement a effective fix after months of disclosure. The vulnerability poses a significant risk as it could allow for automated spreading of malicious content through the AI platform.",
-      "date": "2026-07-29T16:43:54.000Z",
-      "link": "https://www.theregister.com/security/2026/07/29/word-worm-crawls-into-copilot-spreads-chaos/5280588",
-      "isTopTen": false
-    },
-    {
-      "id": "6b094398-d3d4-41d4-abbf-5d85c4e427bb",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Huntress warns about attack spree that hit 30 SonicWall customers in 2 days",
-      "summary": "Attackers compromised 92 SonicWall user accounts using legitimate credentials, impacting 30 organizations over a two-day period. Huntress reports that the campaign utilized valid logins to bypass traditional security perimeters.",
-      "date": "2026-07-29T16:06:32.000Z",
-      "link": "https://cyberscoop.com/sonicwall-credential-attacks-vpn-firewall/",
-      "isTopTen": false
-    },
-    {
-      "id": "80ee2d91-7c07-45ad-af5e-60b828945286",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-      "summary": "A critical remote code execution vulnerability (CVE-2026-59726) in the Ruflo agent meta-harness allows unauthenticated attackers to run arbitrary commands and compromise AI memory. Users are urged to update to version 3.16.3 or later to mitigate this maximum-severity flaw.",
-      "date": "2026-07-29T15:39:30.000Z",
-      "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d9c8faf3-eb31-40bf-9ffd-8f9f34cfe1c6",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
-      "summary": "Broadcom has released urgent security patches to address three critical vulnerabilities in VMware products, including flaws that enable authentication bypass, remote code execution, and VM escape. These vulnerabilities, led by a CVSS 9.8 rated issue in vCenter, pose a significant risk to virtualized infrastructure.",
-      "date": "2026-07-29T15:31:15.000Z",
-      "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
-      "isTopTen": false
-    },
-    {
-      "id": "aa7cfb67-b32f-4571-a9eb-d82e92fbeb79",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CVSS 10.0 RufRoot Flaw Allowed Attackers to Hijack Ruflo Without Logging In",
-      "summary": "Ruflo has patched a critical CVSS 10.0 vulnerability that allowed unauthenticated attackers to hijack the MCP bridge and access sensitive AI provider keys and chat data. The flaw posed a severe risk by exposing persistent agent memory and credentials.",
-      "date": "2026-07-29T14:58:15.000Z",
-      "link": "https://hackread.com/rufroot-vulnerability-attackers-hijack-ruflo-login/",
-      "isTopTen": false
-    },
-    {
-      "id": "f8d04a6a-ca31-40e7-859d-0992a0712f08",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Laundry Bear’s webmail hackers had more in store after February, report says",
-      "summary": "The Russian state-linked hacking group Laundry Bear is actively exploiting a vulnerability in Microsoft Outlook Web Access to conduct cyber espionage. Recent research indicates the group continued its malicious activities well beyond their February operations.",
-      "date": "2026-07-29T14:45:00.000Z",
-      "link": "https://therecord.media/russia-hackers-outlook-webmail-malware",
-      "isTopTen": false
-    },
-    {
-      "id": "faefb263-d9c4-4d2b-909f-531175163753",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Tengu botnet reboots Linux devices to survive removal",
-      "summary": "The Tengu botnet, a new Mirai-derived malware, uses a persistence mechanism that forces Linux IoT devices to reboot after the main process is terminated. It is primarily spread through Telnet brute-force attacks and was identified by machine-learning-based security systems.",
-      "date": "2026-07-29T13:52:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/29/tengu-mirai-iot-botnet-linux/",
-      "isTopTen": false
-    },
-    {
-      "id": "f7c49538-9ddd-4215-b40e-b3d9d5523a7c",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Iran-linked CyberAv3ngers suspected in attacks on Minnesota water systems",
-      "summary": "State officials are investigating a coordinated cyberattack that disrupted operations at over 30 Minnesota water facilities, with the Iran-linked group CyberAv3ngers identified as a primary suspect. The incident highlights ongoing security concerns regarding critical infrastructure and state-sponsored cyber threats.",
-      "date": "2026-07-29T13:49:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/29/iran-linked-cyberav3ngers-suspected-in-attacks-on-minnesota-water-systems/5280357",
-      "isTopTen": false
-    },
-    {
-      "id": "ba97d12c-99c3-4fa4-9ed4-e341dd3f5428",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-      "summary": "A coordinated cyberattack targeted operational technology across over 30 Minnesota water systems, resulting in plant outages and the loss of automated controls. The incident prompted a statewide response to manage the disruption and restore operations.",
-      "date": "2026-07-29T13:48:36.000Z",
-      "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
       "isTopTen": false
     }
   ]
