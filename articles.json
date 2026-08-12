@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-12T13:21:50.278Z",
+  "lastUpdated": "2026-08-12T16:03:57.363Z",
   "articles": [
+    {
+      "id": "38639f45-8ec6-420c-8203-75b4dd950d0d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Uber Freight keeps on trucking after extortion crew breaks in",
+      "summary": "The extortion group Helix claims to have stolen nearly a million files from Uber Freight, though the company states that its business operations remain unaffected. The incident highlights an ongoing data breach investigation involving sensitive logistics information.",
+      "date": "2026-08-12T14:32:58.000Z",
+      "link": "https://www.theregister.com/security/2026/08/12/uber-freight-keeps-on-trucking-after-extortion-crew-breaks-in/5286782",
+      "isTopTen": false
+    },
+    {
+      "id": "33d89a1c-1bc5-4ba9-bebc-5a4471e9efe8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+      "summary": "Over 700 malicious Chrome VPN and proxy extensions have been identified, targeting Russian-speaking users to intercept traffic and route it through a proxy infrastructure. These extensions were spread across multiple developer accounts and accumulated over 75,000 installs.",
+      "date": "2026-08-12T14:09:50.000Z",
+      "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1b5fe273-a869-4abf-955f-9f8ea60df2cc",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months",
+      "summary": "A sophisticated, ongoing campaign dubbed 'City-Forum' has been unauthorizedly accessing Salesforce and ServiceNow portals globally for 17 months by exploiting legitimate platform configurations rather than technical vulnerabilities. Researchers report that the attacker uses a repurposed legacy domain to extract sensitive records, highlighting a significant risk to enterprise SaaS security.",
+      "date": "2026-08-12T13:51:02.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/",
+      "isTopTen": false
+    },
+    {
+      "id": "4eee629b-f072-4bf5-8c40-94b1d9386e9f",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Signal’s new security feature checks if your encrypted chats were tampered with",
+      "summary": "Signal has introduced an automatic key verification feature to help users confirm the integrity of their end-to-end encrypted conversations and ensure no unauthorized parties are intercepting them.",
+      "date": "2026-08-12T13:47:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/signal-automatic-key-verification-feature/",
+      "isTopTen": false
+    },
+    {
+      "id": "54306ccd-423e-4446-bfe3-4f924230a109",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "ScienceLogic delivers secure AI deployment and smarter IT operations with Skylar AI 2.5",
+      "summary": "ScienceLogic has released Skylar AI 2.5, which enhances secure AI deployment options, operational intelligence, and performance for complex IT environments. The update focuses on meeting stringent security and compliance requirements while improving agentic AI capabilities.",
+      "date": "2026-08-12T13:42:41.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/sciencelogic-skylar-ai-2-5-secure-ai-deployment/",
+      "isTopTen": false
+    },
+    {
+      "id": "80bab636-bbc1-4276-8844-0c3f65dc4f7a",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Exposed: Woeful security at UK criminal records office that led to sensitive data leak",
+      "summary": "The UK's Criminal Records Office (ACRO) experienced a sensitive data leak due to a failure to patch its content management system and monitor security alerts. The organization remains unable to confirm whether the compromised information was exfiltrated by unauthorized actors.",
+      "date": "2026-08-12T13:40:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/12/exposed-woeful-security-at-uk-criminal-records-office-that-led-to-sensitive-data-leak/5286736",
+      "isTopTen": false
+    },
+    {
+      "id": "84e23a0c-e07c-499a-849e-1afe2ea58382",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Deloitte strengthens AI governance to support trusted enterprise adoption",
+      "summary": "Deloitte has expanded its AI Controls and Assurance services to help enterprises securely govern and deploy AI technologies throughout their lifecycle. The initiative aims to address the significant gap between corporate interest in agentic AI and current organizational readiness.",
+      "date": "2026-08-12T13:28:05.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/",
+      "isTopTen": false
+    },
     {
       "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
       "source": "The Register",
@@ -65,7 +142,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -186,7 +263,7 @@
       "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day vulnerability in Microsoft Defender that bypasses the patch for the RoguePlanet (CVE-2026-50656) race condition and enables SYSTEM-level code execution.",
       "date": "2026-08-12T08:07:15.000Z",
       "link": "https://securityaffairs.com/197063/hacking/shieldbreak-new-windows-zero-day-bypasses-microsofts-rogueplanet-patch.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "71ca95cf-0f30-4665-992a-eaca9ea18381",
@@ -417,7 +494,7 @@
       "summary": "Russian threat actor UAC-0145 is targeting Ukrainian IT professionals with a social engineering campaign involving fake job interviews to deploy a malicious VPN client capable of remote command execution. The activity has been attributed to the Sandworm group.",
       "date": "2026-08-11T18:36:47.000Z",
       "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b1babab9-5969-4b36-8a4f-4381b570377b",
@@ -439,7 +516,7 @@
       "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
       "date": "2026-08-11T17:48:01.000Z",
       "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
@@ -681,7 +758,7 @@
       "summary": "Researchers discovered a vulnerability in the Windows Plug and Play feature that allows attackers to gain SYSTEM-level privileges by emulating a USB device, even remotely via Remote Desktop. The exploit chains the automated fetching of signed vendor software to execute malicious components on fully updated Windows 11 systems.",
       "date": "2026-08-11T10:48:26.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c40347fc-3821-4582-bb4d-3bd3586c0835",
@@ -758,7 +835,7 @@
       "summary": "Hackers breached a Polish power plant by exploiting a private cellular network used for remote equipment management, successfully shutting down a steam turbine and water treatment system. Despite the operational disruption, heat supply to residents remained unaffected during the incident.",
       "date": "2026-08-11T06:55:45.000Z",
       "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "84ee0354-ff16-4fbf-943a-90a6f72f1584",
@@ -5422,83 +5499,6 @@
       "summary": "This headline highlights that legal liability for AI-driven actions rests with the operator, meaning organizations cannot use AI as a scapegoat for cybersecurity failures. It emphasizes the necessity for companies to maintain clear accountability and legal oversight when implementing automated systems.",
       "date": "2026-07-30T06:30:00.000Z",
       "link": "https://www.theregister.com/legal/2026/07/30/excuses-like-ai-did-it-dont-exist-in-the-eyes-of-the-law/5280767",
-      "isTopTen": false
-    },
-    {
-      "id": "457bc076-8963-43ce-8fbf-5db0f77fbbcf",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Data breach cost 2026 averaged $4.99 million, AI attacks ran higher",
-      "summary": "The average cost of a data breach reached $4.99 million in 2026, with incidents involving AI attacks costing approximately $1 million more than those without. Organizations are increasingly deploying AI agents in security operations to counter these threats, focusing primarily on threat hunting and automated response.",
-      "date": "2026-07-30T06:15:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/ibm-cost-of-a-data-breach-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "11880443-6fea-4912-9c3a-2f682b275834",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-      "summary": "Amazon has attributed the 2025 hijacking of popular npm packages debug and chalk, which impacted billions of downloads, to the North Korean state-sponsored actor Sapphire Sleet. The incident involved a supply chain attack initiated via phishing to facilitate crypto theft.",
-      "date": "2026-07-30T06:05:17.000Z",
-      "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a4698559-67d7-42a0-a191-996d8e9d9863",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "200 new CVEs a day and no realistic way to patch them all",
-      "summary": "Ryan Dewhurst of KEVIntel discusses the challenges of managing the overwhelming volume of daily CVEs and explains how his team utilizes a global honeypot network and AI triage to verify real-world exploitation. The article also covers the practical implications of CISA’s three-day patching mandate and the complexities introduced by AI-generated proof-of-concept code.",
-      "date": "2026-07-30T06:00:09.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/ryan-dewhurst-kevintel-known-exploited-vulnerabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "25873cb2-832f-4702-a5cf-3fbf663530d9",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Top companies to visit at Black Hat USA 2026",
-      "summary": "Black Hat USA 2026 is returning to the Mandalay Bay with a restructured six-day schedule featuring training sessions, industry briefings, and networking opportunities. The event aims to bring together global security professionals to explore new technologies and innovations.",
-      "date": "2026-07-30T05:30:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/black-hat-usa-2026-companies/",
-      "isTopTen": false
-    },
-    {
-      "id": "cb82f526-b4f7-43d9-a57b-c823bc7bd2f6",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-      "summary": "CISA has added a zero-day vulnerability (CVE-2026-20316) in Cisco Secure Firewall Management Center to its Known Exploited Vulnerabilities catalog following reports of active exploitation. The flaw utilizes static credentials, potentially allowing unauthenticated remote attackers to access sensitive data.",
-      "date": "2026-07-30T05:08:39.000Z",
-      "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-      "isTopTen": false
-    },
-    {
-      "id": "071113b3-a8b8-425a-a3b3-b5bec3b4fcda",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Impersonation protection: How to protect your executives when the truth isn’t clear",
-      "summary": "BlackCloak's leadership discusses the growing threat of AI-driven executive impersonation via voice and video, introducing their new Impersonation Protection service. The solution aims to verify digital communications to counter the increasing difficulty of establishing trust.",
-      "date": "2026-07-30T05:00:04.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/impersonation-protection-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "f4520bef-d599-40ab-859f-ab99467e502e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: Dashlane Password Manager is more security toolkit than password vault",
-      "summary": "Dashlane Password Manager offers a comprehensive suite of security features, including password generation, dark web monitoring, and phishing protection, positioning it as a broad security toolkit rather than just a credential vault.",
-      "date": "2026-07-30T04:30:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/product-showcase-dashlane-password-manager/",
       "isTopTen": false
     }
   ]
