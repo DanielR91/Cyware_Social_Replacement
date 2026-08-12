@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-11T21:56:09.990Z",
+  "lastUpdated": "2026-08-12T02:17:30.304Z",
   "articles": [
+    {
+      "id": "c748f8fd-f4dd-48bc-8168-0835cb489815",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Kimwolf botnet rebuilt to survive takedowns, researchers say",
+      "summary": "The Kimwolf botnet has been reactivated with enhanced evasion tactics, including disguising malicious traffic as Chrome activity and using the Ethereum blockchain for command-and-control operations. This resurgence occurs despite prior law enforcement efforts to seize servers and arrest key operators.",
+      "date": "2026-08-12T00:13:08.000Z",
+      "link": "https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/",
+      "isTopTen": false
+    },
+    {
+      "id": "312bf4fc-f25a-4763-8b9e-7785ab893f32",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Federal judge issues second order blocking Trump mail-in voting directive",
+      "summary": "A federal judge has issued a second order blocking a Trump administration directive regarding mail-in voting procedures. The legal conflict remains ongoing as the Supreme Court continues to weigh in on election-related policies.",
+      "date": "2026-08-11T23:26:09.000Z",
+      "link": "https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/",
+      "isTopTen": false
+    },
     {
       "id": "dc85634c-e8f9-4ff1-adf0-7354c5684675",
       "source": "The Register",
@@ -120,7 +142,7 @@
       "summary": "Security researchers have identified a critical unauthenticated remote code execution exploit chain affecting multiple versions of Microsoft SharePoint, facilitated by the use of AI agents. The vulnerability is tracked as CVE-2026-55040 with a CVSS score of 9.1.",
       "date": "2026-08-11T16:47:44.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a2d4709-a12f-4918-8473-2b5bb41fc9cd",
@@ -197,7 +219,7 @@
       "summary": "Logistics giant CEVA experienced a cyberattack that disrupted operations at eight European warehouses, causing significant downstream impacts for retailers and Steam customers. The incident highlights the vulnerability of supply chain operations to widespread service interruptions.",
       "date": "2026-08-11T15:43:45.000Z",
       "link": "https://therecord.media/ceva-logistics-cyberattack-bol-steam-debijenkorf-ace-tate",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "30c94307-2ce8-434f-883c-65c9f22e4945",
@@ -230,7 +252,7 @@
       "summary": "OpenAI has introduced GPT-5.6-Cyber, a specialized model designed for cybersecurity tasks like vulnerability research and exploit development with relaxed safety restrictions. This release aims to aid security professionals but raises concerns regarding the potential for misuse in creating cyberattacks.",
       "date": "2026-08-11T13:11:23.000Z",
       "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a4c9812d-32fb-4539-b6c3-4fff6353b70b",
@@ -307,7 +329,7 @@
       "summary": "Researchers discovered that malicious SIM cards can exploit cellular modules in IoT devices, such as EV chargers and industrial routers, to execute arbitrary code and gain full system control. The vulnerability affects multiple hardware components, posing a significant risk to connected infrastructure.",
       "date": "2026-08-11T12:05:03.000Z",
       "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1cab7a8e-a2ac-4e21-a1af-280cb77e84a5",
@@ -351,7 +373,7 @@
       "summary": "Researchers discovered a vulnerability in the Windows Plug and Play feature that allows attackers to gain SYSTEM-level privileges by emulating a USB device, even remotely via Remote Desktop. The exploit chains the automated fetching of signed vendor software to execute malicious components on fully updated Windows 11 systems.",
       "date": "2026-08-11T10:48:26.000Z",
       "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c40347fc-3821-4582-bb4d-3bd3586c0835",
@@ -384,7 +406,7 @@
       "summary": "Researchers have discovered that standards-compliant SIM card functionality can be exploited to hijack modems, downgrade network security, and execute malicious code on mobile devices. This vulnerability poses a significant risk by allowing attackers to compromise phone functionality and intercept communications.",
       "date": "2026-08-11T09:37:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/11/malicious-sims-can-shut-down-phones-steal-files-and-drag-5g-back-to-2g/5285482",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "97f4a1df-dcbb-4fb9-8117-28480c6fdd69",
@@ -428,7 +450,7 @@
       "summary": "Hackers breached a Polish power plant by exploiting a private cellular network used for remote equipment management, successfully shutting down a steam turbine and water treatment system. Despite the operational disruption, heat supply to residents remained unaffected during the incident.",
       "date": "2026-08-11T06:55:45.000Z",
       "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "84ee0354-ff16-4fbf-943a-90a6f72f1584",
@@ -637,7 +659,7 @@
       "summary": "Hackers breached a Polish CHP plant by pivoting from IT to OT systems via a private APN and a Fortinet device, leading to disruptions in turbine and water treatment operations. The incident highlights the critical security risks associated with interconnected network architectures in industrial environments.",
       "date": "2026-08-10T16:17:48.000Z",
       "link": "https://securityaffairs.com/196955/security/hackers-cross-from-it-to-ot-through-a-private-apn-in-poland.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5df908a1-2052-4c94-a9aa-f7714e87c1e1",
@@ -5477,28 +5499,6 @@
       "summary": "The emergence of AI-driven tools like Mythos is drastically accelerating exploit timelines, necessitating a critical reevaluation of existing vulnerability management strategies. Organizations are urged to identify fundamental flaws in their current processes rather than just questioning the need for change.",
       "date": "2026-07-29T12:15:00.000Z",
       "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c5c015a3-f35e-43cf-a41f-46b4f3bb46a1",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-      "summary": "A high-severity JIT vulnerability in Firefox, identified as CVE-2026-10702, allows for arbitrary code execution in the browser's renderer process simply by visiting a malicious webpage, impacting both Firefox and the Tor Browser. Mozilla has released a patch to address this flaw, which requires no user interaction to trigger.",
-      "date": "2026-07-29T11:57:00.000Z",
-      "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9c2220f4-75ec-455f-93cb-a80217992f1e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "MIND AI DLP Agents automate DLP classification, investigations and remediation",
-      "summary": "MIND has launched AI-powered Data Loss Prevention (DLP) agents that utilize autonomous workflows and the Model Context Protocol to automate the classification, investigation, and remediation of sensitive data. The solution is designed to help security teams manage data security at the speed of modern GenAI and agentic applications.",
-      "date": "2026-07-29T11:25:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/29/mind-ai-dlp-agents/",
       "isTopTen": false
     }
   ]
