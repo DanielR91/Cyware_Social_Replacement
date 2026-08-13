@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-13T02:21:15.576Z",
+  "lastUpdated": "2026-08-13T04:56:21.995Z",
   "articles": [
+    {
+      "id": "9897079e-835b-4af9-b255-7f7681abc78e",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "DDoS attacks hit record scale as 1 Tbps+ campaigns become more common",
+      "summary": "DDoS attacks reached record scales in the first half of 2026, characterized by more frequent 1 Tbps+ campaigns, increased automation, and shorter, more intense traffic floods. These hyper-volumetric network-layer attacks are leveraging multi-vector techniques to disrupt services across various sectors.",
+      "date": "2026-08-13T04:30:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/cloudflare-h1-2026-ddos-trends-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "1d219463-779f-413f-bba2-d46b20e5bbe6",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: Is this image real? Slop or Not investigates",
+      "summary": "Slop or Not is a new on-device AI detection tool for Apple devices designed to help users identify AI-generated content and scams. It addresses the growing cybersecurity challenge where the majority of individuals struggle to distinguish authentic media from AI-driven deepfakes.",
+      "date": "2026-08-13T04:00:03.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/product-showcase-slop-or-not-ai-image-detector/",
+      "isTopTen": false
+    },
+    {
+      "id": "e0397fa2-1165-41d9-9b3c-30513f7b9b30",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Wireshark 4.6.8 patches 28 security bugs, nine in file parsers",
+      "summary": "Wireshark has released version 4.6.8 to address 28 security vulnerabilities, including nine critical flaws in file parsers that can be exploited by opening a malicious capture file. These vulnerabilities allow for remote code execution or crashes without requiring the attacker to be present on the target network.",
+      "date": "2026-08-13T03:53:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/wireshark-4-6-8-patches-security-bugs/",
+      "isTopTen": false
+    },
     {
       "id": "7ea0485d-dcb0-4c62-9ffd-ab693f78695d",
       "source": "The Register",
@@ -10,7 +43,7 @@
       "summary": "Taiwan's Nuclear Safety Commission was targeted by 'near-autonomous' AI-driven agents, marking a sophisticated evolution in cyber warfare tactics. The incident highlights the growing threat posed by agentic swarms capable of executing complex attacks with minimal human oversight.",
       "date": "2026-08-12T21:45:16.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e75d448a-ef91-46bd-9347-1db39f33ff16",
@@ -32,7 +65,7 @@
       "summary": "Researchers have discovered that certain RISC-V processor architectures are susceptible to Spectre-class speculative execution attacks, demonstrating that the vulnerability continues to impact new hardware designs eight years after its initial disclosure.",
       "date": "2026-08-12T19:42:57.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b1a18cf6-d8e0-4fc1-aa00-b7a3d716b72c",
@@ -54,7 +87,7 @@
       "summary": "The Lazarus Group is utilizing a Windows zero-day vulnerability to deploy a new backdoor as part of their ongoing Operation Dream Job espionage campaign targeting the global defense and aerospace sectors.",
       "date": "2026-08-12T17:39:27.000Z",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "603e57f7-9d1e-4d61-a892-265b47a079db",
@@ -109,7 +142,7 @@
       "summary": "A sophisticated, ongoing campaign dubbed 'City-Forum' has been unauthorizedly accessing Salesforce and ServiceNow portals globally for 17 months by exploiting legitimate platform configurations rather than technical vulnerabilities. Researchers report that the attacker uses a repurposed legacy domain to extract sensitive records, highlighting a significant risk to enterprise SaaS security.",
       "date": "2026-08-12T13:51:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4eee629b-f072-4bf5-8c40-94b1d9386e9f",
@@ -274,7 +307,7 @@
       "summary": "Threat actors are actively exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter that allows for arbitrary code execution and persistent remote access. Security teams are urged to apply the recently released patches immediately to mitigate the risk.",
       "date": "2026-08-12T09:01:54.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3f750677-7dd9-4315-81bb-b95bbc74fc03",
@@ -384,7 +417,7 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed 398 vulnerabilities, headlined by an actively exploited zero-day and a wormable remote code execution flaw in DNS. The update encompasses a broad range of products including Windows, Azure, and Office.",
       "date": "2026-08-12T06:49:55.000Z",
       "link": "https://securityaffairs.com/197048/security/microsoft-patch-tuesday-for-august-2026-fixed-a-zero-day-and-wormable-rce.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "988cd2ac-0f3e-498e-ad7c-86d5618fcdaa",
@@ -516,7 +549,7 @@
       "summary": "Microsoft has released a monthly security update addressing 398 vulnerabilities, including a Windows kernel driver zero-day (CVE-2026-68820) that is currently being exploited to escalate privileges to SYSTEM level.",
       "date": "2026-08-11T20:10:55.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19058d67-02ee-4984-96ba-0fa492ff90a0",
@@ -681,7 +714,7 @@
       "summary": "Logistics giant CEVA experienced a cyberattack that disrupted operations at eight European warehouses, causing significant downstream impacts for retailers and Steam customers. The incident highlights the vulnerability of supply chain operations to widespread service interruptions.",
       "date": "2026-08-11T15:43:45.000Z",
       "link": "https://therecord.media/ceva-logistics-cyberattack-bol-steam-debijenkorf-ace-tate",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "30c94307-2ce8-434f-883c-65c9f22e4945",
@@ -5466,39 +5499,6 @@
       "summary": "The SilverFox threat group is conducting a targeted campaign against a Japanese manufacturer, utilizing a complex BYOVD chain to deploy ValleyRAT for persistent remote access. This attack demonstrates a sophisticated approach to bypassing security defenses through the abuse of legitimate, yet vulnerable, drivers.",
       "date": "2026-07-30T10:32:59.000Z",
       "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4e1a20b2-38de-4ad4-8cbd-5aed35016e60",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Russian spies take their half-click email attack from Zimbra to Outlook",
-      "summary": "Russian state-sponsored actors are targeting Microsoft Outlook with a new 'half-click' email exploit that installs persistent, platform-agnostic browser implants. The malware is capable of maintaining access even after password resets or full device re-imaging.",
-      "date": "2026-07-30T10:29:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/30/russian-spies-take-their-half-click-email-attack-from-zimbra-to-outlook/5281033",
-      "isTopTen": false
-    },
-    {
-      "id": "0ddde670-76f4-4146-a621-6c3f4db44d80",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "FCC Restricts New Foreign Robots and Inverters Over Security Risks",
-      "summary": "The FCC has expanded its Covered List to restrict the authorization of new foreign-produced advanced robotic devices and power inverters due to national security concerns, while providing a phase-out period for existing devices. This move aims to mitigate potential security risks associated with foreign-manufactured critical infrastructure hardware.",
-      "date": "2026-07-30T10:10:44.000Z",
-      "link": "https://securityaffairs.com/196308/security/fcc-restricts-new-foreign-robots-and-inverters-over-security-risks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "04808d41-1baa-4b2b-bda8-28f71941720f",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks",
-      "summary": "Unit 42 researchers identified a Chinese-speaking threat actor utilizing AI models to automate vulnerability scanning across seven distinct security flaws. This activity combines autonomous AI-driven reconnaissance with targeted manual exploitation efforts.",
-      "date": "2026-07-30T10:00:52.000Z",
-      "link": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
       "isTopTen": false
     }
   ]
