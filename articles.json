@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T19:09:10.218Z",
+  "lastUpdated": "2026-08-13T21:52:03.412Z",
   "articles": [
     {
       "id": "504b2f0d-035c-40b0-86e3-9cb6936db5f4",
@@ -10,7 +10,7 @@
       "summary": "Hackers are actively exploiting a critical unauthenticated remote code execution vulnerability in Adobe Commerce, designated as CVE-2026-71362, shortly after its public disclosure. The flaw allows attackers to hijack customer accounts and access sensitive private information.",
       "date": "2026-08-13T17:48:54.000Z",
       "link": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4a4c8daf-840f-4360-86ef-dfb7061bd5ea",
@@ -32,7 +32,7 @@
       "summary": "Advancements in mid-tier, cost-efficient AI models are significantly improving automated hacking capabilities, raising concerns among researchers beyond just frontier-level threats.",
       "date": "2026-08-13T16:55:02.000Z",
       "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "44563d0c-041e-4162-8408-95563d9ca34d",
@@ -142,7 +142,7 @@
       "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the public release of proof-of-concept code. The flaw allows unauthorized users to impersonate others to access or modify data.",
       "date": "2026-08-13T13:05:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/microsoft-sharepoint-cve-2026-55040-poc-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5b58f112-6ecf-43b2-b250-89b59152fe3b",
@@ -197,7 +197,7 @@
       "summary": "A massive 153GB data leak originating from a supply chain attack on LiteLLM has exposed sensitive credentials across thousands of corporate domains, including major tech firms. Security firm Hudson Rock is currently managing a global disclosure process to notify the affected organizations.",
       "date": "2026-08-13T10:32:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/litellm-breach-stolen-credentials-leak/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6a770f13-2667-4b12-aa0d-f6a4201b8017",
@@ -428,7 +428,7 @@
       "summary": "A sophisticated, ongoing campaign dubbed 'City-Forum' has been unauthorizedly accessing Salesforce and ServiceNow portals globally for 17 months by exploiting legitimate platform configurations rather than technical vulnerabilities. Researchers report that the attacker uses a repurposed legacy domain to extract sensitive records, highlighting a significant risk to enterprise SaaS security.",
       "date": "2026-08-12T13:51:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4eee629b-f072-4bf5-8c40-94b1d9386e9f",
@@ -538,7 +538,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -582,7 +582,7 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed over 400 vulnerabilities, including a zero-day flaw (CVE-2026-68820) in the Windows AFD.sys driver that enables local privilege escalation to SYSTEM.",
       "date": "2026-08-12T09:34:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "77f0df5d-dab5-4d56-a759-491107a223f2",
@@ -593,7 +593,7 @@
       "summary": "Threat actors are actively exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter that allows for arbitrary code execution and persistent remote access. Security teams are urged to apply the recently released patches immediately to mitigate the risk.",
       "date": "2026-08-12T09:01:54.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3f750677-7dd9-4315-81bb-b95bbc74fc03",
@@ -659,7 +659,7 @@
       "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day vulnerability in Microsoft Defender that bypasses the patch for the RoguePlanet (CVE-2026-50656) race condition and enables SYSTEM-level code execution.",
       "date": "2026-08-12T08:07:15.000Z",
       "link": "https://securityaffairs.com/197063/hacking/shieldbreak-new-windows-zero-day-bypasses-microsofts-rogueplanet-patch.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "71ca95cf-0f30-4665-992a-eaca9ea18381",
@@ -670,7 +670,7 @@
       "summary": "Two malicious releases of the LiteLLM library were uploaded to PyPI, enabling attackers to harvest sensitive cloud and infrastructure credentials from over 2,100 organizations. The breach, linked to the Trivy compromise, resulted in the exfiltration of a massive dataset containing thousands of files.",
       "date": "2026-08-12T08:04:52.000Z",
       "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "00af7a7d-027d-40f4-9549-843e8a5e0674",
