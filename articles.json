@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-13T10:12:59.245Z",
+  "lastUpdated": "2026-08-13T13:23:14.788Z",
   "articles": [
+    {
+      "id": "20fbb188-a133-4513-b55d-76d45d129612",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "A10 Networks introduces AI Gateway to secure and manage enterprise AI",
+      "summary": "A10 Networks has launched the A10 AI Gateway, a centralized platform designed to provide organizations with improved security, governance, and cost management for their various AI agents and large language models.",
+      "date": "2026-08-13T13:19:39.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/a10-networks-introduces-ai-gateway-to-secure-and-manage-enterprise-ai/",
+      "isTopTen": false
+    },
+    {
+      "id": "bf973abe-e9a5-4e7a-9444-bc6112dd651e",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers exploit critical SharePoint flaw after PoC goes public (CVE-2026-55040)",
+      "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the public release of proof-of-concept code. The flaw allows unauthorized users to impersonate others to access or modify data.",
+      "date": "2026-08-13T13:05:08.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/microsoft-sharepoint-cve-2026-55040-poc-exploit/",
+      "isTopTen": true
+    },
+    {
+      "id": "5b58f112-6ecf-43b2-b250-89b59152fe3b",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Germany moves to give spy agencies hacking and sabotage powers",
+      "summary": "Germany has approved major legislative reforms granting its intelligence agencies expanded powers to conduct offensive cyber operations, including hacking foreign systems and sabotage. This represents the most significant shift in the country's postwar espionage policy.",
+      "date": "2026-08-13T12:45:00.000Z",
+      "link": "https://therecord.media/germany-spy-agency-powers",
+      "isTopTen": false
+    },
+    {
+      "id": "4409e5d2-0570-42f7-84f5-fe19b4e0c59a",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Trump turns to private sector in offensive hacking operations memo",
+      "summary": "A new policy memo signals a significant shift in U.S. cyber strategy by authorizing the use of private sector entities in offensive hacking operations. This move has sparked debate among experts regarding the risks and implications of delegating state-level cyber aggression to private firms.",
+      "date": "2026-08-13T11:47:55.000Z",
+      "link": "https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/",
+      "isTopTen": false
+    },
+    {
+      "id": "c7cf5e74-75c1-43ce-af36-a39b67a43c47",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "AWS key exposed in JavaScript may have lit way to Beacon's charity data ",
+      "summary": "CRM provider Beacon suffered a data breach after an AWS access key was inadvertently exposed in JavaScript code, potentially allowing unauthorized access to their customer database. The company confirmed that data was likely copied and downloaded by an external actor.",
+      "date": "2026-08-13T11:34:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/13/aws-key-exposed-in-javascript-may-have-lit-way-to-beacons-charity-data/5287303",
+      "isTopTen": false
+    },
+    {
+      "id": "1338c968-7ec2-4754-a171-d17a78e25174",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Searchlight Cyber combines exposure and threat intelligence in new PTEM platform",
+      "summary": "Searchlight Cyber has launched its Preemptive Threat Exposure Management (PTEM) platform, which integrates exposure visibility with threat intelligence to help organizations proactively mitigate potential exploit risks. This platform is designed to counter the accelerated pace of cyberattacks driven by AI technologies.",
+      "date": "2026-08-13T10:34:06.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/searchlight-cyber-preemptive-threat-exposure-management-ptem-platform/",
+      "isTopTen": false
+    },
+    {
+      "id": "b553d2b4-f730-407f-8cfb-16c77394371f",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "153GB of stolen credentials surface after LiteLLM supply chain attack",
+      "summary": "A massive 153GB data leak originating from a supply chain attack on LiteLLM has exposed sensitive credentials across thousands of corporate domains, including major tech firms. Security firm Hudson Rock is currently managing a global disclosure process to notify the affected organizations.",
+      "date": "2026-08-13T10:32:51.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/litellm-breach-stolen-credentials-leak/",
+      "isTopTen": false
+    },
     {
       "id": "6a770f13-2667-4b12-aa0d-f6a4201b8017",
       "source": "Security Affairs",
@@ -10,7 +87,7 @@
       "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the release of a public proof-of-concept. The flaw allows unauthenticated attackers to impersonate any user, including administrators.",
       "date": "2026-08-13T08:36:30.000Z",
       "link": "https://securityaffairs.com/197137/hacking/sharepoint-cve-2026-55040-comes-under-attack-following-public-exploit.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c0fc0110-251b-4477-80c8-6831b7f15b26",
@@ -32,7 +109,7 @@
       "summary": "Cisco has released a fix for a high-severity vulnerability (CVE-2026-20349) that is currently being exploited to conduct denial-of-service attacks against its firewalls. The flaw has been added to CISA's Known Exploited Vulnerabilities catalog, requiring remediation for US federal agencies by August 14, 2026.",
       "date": "2026-08-13T07:30:53.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/cve-2026-20349-cisco-firewalls-dos/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "34a067bf-04ec-475d-85a1-f60b0614338c",
@@ -230,7 +307,7 @@
       "summary": "A sophisticated, ongoing campaign dubbed 'City-Forum' has been unauthorizedly accessing Salesforce and ServiceNow portals globally for 17 months by exploiting legitimate platform configurations rather than technical vulnerabilities. Researchers report that the attacker uses a repurposed legacy domain to extract sensitive records, highlighting a significant risk to enterprise SaaS security.",
       "date": "2026-08-12T13:51:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4eee629b-f072-4bf5-8c40-94b1d9386e9f",
@@ -263,7 +340,7 @@
       "summary": "The UK's Criminal Records Office (ACRO) experienced a sensitive data leak due to a failure to patch its content management system and monitor security alerts. The organization remains unable to confirm whether the compromised information was exfiltrated by unauthorized actors.",
       "date": "2026-08-12T13:40:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/exposed-woeful-security-at-uk-criminal-records-office-that-led-to-sensitive-data-leak/5286736",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "84e23a0c-e07c-499a-849e-1afe2ea58382",
@@ -277,17 +354,6 @@
       "isTopTen": false
     },
     {
-      "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Akira ransomware scum blocked victim's security tools – and broke their own encryptor",
-      "summary": "The Akira ransomware group accidentally crippled their own encryption process after successfully disabling the victim's security software. This operational error effectively halted the attack, leaving the targeted system's data intact.",
-      "date": "2026-08-12T13:00:00.000Z",
-      "link": "https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515",
-      "isTopTen": false
-    },
-    {
       "id": "aaa86488-77c7-4191-abc1-c76b3ccebd59",
       "source": "The Record",
       "tag": "Breaches and Incidents",
@@ -296,6 +362,17 @@
       "summary": "Britain's ACRO criminal records office suffered three data breaches over two years due to ignored antivirus alerts and unpatched software. The incident resulted in a formal reprimand due to the significant delay in detecting the unauthorized access.",
       "date": "2026-08-12T13:00:00.000Z",
       "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
+      "isTopTen": true
+    },
+    {
+      "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Akira ransomware scum blocked victim's security tools – and broke their own encryptor",
+      "summary": "The Akira ransomware group accidentally crippled their own encryption process after successfully disabling the victim's security software. This operational error effectively halted the attack, leaving the targeted system's data intact.",
+      "date": "2026-08-12T13:00:00.000Z",
+      "link": "https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515",
       "isTopTen": false
     },
     {
@@ -340,7 +417,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -472,7 +549,7 @@
       "summary": "Two malicious releases of the LiteLLM library were uploaded to PyPI, enabling attackers to harvest sensitive cloud and infrastructure credentials from over 2,100 organizations. The breach, linked to the Trivy compromise, resulted in the exfiltration of a massive dataset containing thousands of files.",
       "date": "2026-08-12T08:04:52.000Z",
       "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "00af7a7d-027d-40f4-9549-843e8a5e0674",
@@ -670,7 +747,7 @@
       "summary": "A ransomware group has hijacked a hospital system's Facebook page while leveraging 6 terabytes of exfiltrated, highly sensitive patient data as part of an extortion attempt. The breached information includes records concerning sexual assault, mental health, and reproductive healthcare.",
       "date": "2026-08-11T19:15:00.000Z",
       "link": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "88565715-21f4-4066-b086-83e5df3c01fe",
@@ -769,7 +846,7 @@
       "summary": "Iran-linked hackers have expanded their cyberattacks against US water infrastructure to New Jersey and Alabama, bringing the total number of affected states to at least 12 since July. While the attacks have caused only limited disruption, they represent a persistent threat to critical public utility systems.",
       "date": "2026-08-11T16:23:07.000Z",
       "link": "https://securityaffairs.com/197012/hacking/iran-linked-hackers-target-more-us-water-infrastructure-in-new-jersey-and-alabama.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe0f5d6d-56c7-4477-bf7e-879672204f34",
@@ -5422,83 +5499,6 @@
       "summary": "The cyber espionage group Laundry Bear is actively exploiting a cross-site scripting vulnerability (CVE-2026-42897) in Microsoft Exchange to target government and private sector organizations via malicious email lures. Proofpoint reports that the exploit triggers upon opening the email, allowing the attackers to compromise targeted systems.",
       "date": "2026-07-30T14:23:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/30/cve-2026-42897-microsoft-exchange-email-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "a009e91e-7e18-4d3b-aeaa-10c3b0e9ec78",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "North Korea’s Lazarus Group sharing tools with ransomware hackers, South Korean agencies warn",
-      "summary": "South Korean agencies have identified that North Korea's Lazarus Group is collaborating with ransomware gangs by sharing attack infrastructure and tools. This development highlights an increasing integration between state-sponsored threat actors and profit-driven cybercriminals.",
-      "date": "2026-07-30T14:00:00.000Z",
-      "link": "https://therecord.media/north-korea-hackers-ransomware",
-      "isTopTen": false
-    },
-    {
-      "id": "890ec255-1404-48d3-9dbb-f03a0465b52a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-      "summary": "A vulnerability in Azure Cosmos DB known as 'CosmosEscape' allowed attackers to escape the Gremlin query sandbox and gain unauthorized read and write access to customer databases across the platform. The flaw has since been patched by Microsoft.",
-      "date": "2026-07-30T13:34:09.000Z",
-      "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a8db5f18-3979-4d8d-a62d-2166ccf2ebe4",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "North Korean hackers behind major open-source supply chain attacks, Amazon says",
-      "summary": "Amazon researchers have identified a North Korea-linked hacker group responsible for several supply chain attacks targeting widely used open-source software libraries. These compromises pose a significant risk to developers globally by embedding malicious code into legitimate projects.",
-      "date": "2026-07-30T13:00:00.000Z",
-      "link": "https://therecord.media/north-korea-hackers-amazon-malware",
-      "isTopTen": false
-    },
-    {
-      "id": "743a3cba-f5ac-4eb6-ae3b-301413563812",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Analog Devices Discloses Data Breach After Unauthorized System Access",
-      "summary": "Semiconductor company Analog Devices has confirmed a data breach resulting from unauthorized access to its systems detected on June 23. The organization is currently investigating the incident to determine the scope and impact.",
-      "date": "2026-07-30T12:45:32.000Z",
-      "link": "https://securityaffairs.com/196320/data-breach/analog-devices-discloses-data-breach-after-unauthorized-system-access.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7f56d465-6460-46ec-b4f5-699f8801bcce",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "CISA sets a new SBOM baseline",
-      "summary": "CISA has released updated 2026 guidelines for Software Bill of Materials (SBOM) minimum elements, establishing a new baseline for supply chain transparency and risk management. This guidance replaces the 2021 NTIA standards to better address modern software supply chain complexities.",
-      "date": "2026-07-30T12:23:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/cisa-sbom-guidance-updated/",
-      "isTopTen": false
-    },
-    {
-      "id": "b459b38d-ca65-4d07-afd0-478e610621ce",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cyber extortionists steal data from UK Department for Education",
-      "summary": "Cybercriminals have compromised the UK Department for Education, allegedly stealing over 600,000 personal data records to use for extortion. The attackers claim to possess sensitive information including names, phone numbers, and email addresses.",
-      "date": "2026-07-30T12:00:00.000Z",
-      "link": "https://therecord.media/united-kingdom-ransomware-education",
-      "isTopTen": false
-    },
-    {
-      "id": "1a7256e9-e94a-4eee-a7b6-fe5635ef8823",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
-      "summary": "Security researcher Håkon Måløy discovered that Microsoft 365 Copilot can be exploited to embed and propagate hidden prompts within Word documents, causing the tool to replicate malicious or unauthorized instructions across subsequent files. The vulnerability allows these hidden prompts to persist and trigger unintended actions in future drafting sessions.",
-      "date": "2026-07-30T11:54:49.000Z",
-      "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
       "isTopTen": false
     }
   ]
