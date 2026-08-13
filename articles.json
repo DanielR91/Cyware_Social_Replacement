@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-13T04:56:21.995Z",
+  "lastUpdated": "2026-08-13T07:42:23.166Z",
   "articles": [
+    {
+      "id": "a5f2b5a1-c725-45bc-bd7d-0a271a957931",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Cisco fixes vulnerability exploited to DoS its firewalls (CVE-2026-20349)",
+      "summary": "Cisco has released a fix for a high-severity vulnerability (CVE-2026-20349) that is currently being exploited to conduct denial-of-service attacks against its firewalls. The flaw has been added to CISA's Known Exploited Vulnerabilities catalog, requiring remediation for US federal agencies by August 14, 2026.",
+      "date": "2026-08-13T07:30:53.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/cve-2026-20349-cisco-firewalls-dos/",
+      "isTopTen": true
+    },
+    {
+      "id": "34a067bf-04ec-475d-85a1-f60b0614338c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "North Korean Lazarus Group Uses Windows Zero-Day in Operation Dream Job",
+      "summary": "The North Korean Lazarus Group is leveraging a Windows zero-day vulnerability to target defense industry professionals through fake job offers in an updated version of their Operation Dream Job campaign. This sophisticated attack utilizes malicious lures to deploy backdoors and bypass existing security controls.",
+      "date": "2026-08-13T07:05:03.000Z",
+      "link": "https://securityaffairs.com/197098/uncategorized/north-korean-lazarus-group-uses-windows-zero-day-in-operation-dream-job.html",
+      "isTopTen": true
+    },
+    {
+      "id": "8eae157f-e67f-4e8c-bf7b-7a1ceb83959d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Passwords stored in public Google Doc then showed up in search results",
+      "summary": "Sensitive hostnames and credentials were leaked after being stored in a public Google Doc, which subsequently appeared in search engine autocomplete results. The incident highlights the risks associated with improper data storage and cloud configuration.",
+      "date": "2026-08-13T07:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/13/passwords-stored-in-public-google-doc-then-showed-up-in-search-results/5287028",
+      "isTopTen": false
+    },
+    {
+      "id": "c10a98fa-a15d-41e5-a0b0-6dd436ac389e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "summary": "Threat actors are actively exploiting a critical SharePoint authentication bypass vulnerability (CVE-2026-55040) following the public release of proof-of-concept code. Organizations are advised to ensure the July 2026 security updates are applied to mitigate this risk.",
+      "date": "2026-08-13T06:09:48.000Z",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ad4fd974-32c4-4981-9657-dd703adce699",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Four corporate investigation mistakes organizations make under pressure",
+      "summary": "This video discusses critical pitfalls in the initial hours of corporate investigations that can compromise legal privilege, chain of custody, and regulatory compliance. It emphasizes the importance of treating investigations as business events rather than solely technical issues to avoid damaging organizational outcomes.",
+      "date": "2026-08-13T05:00:13.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/13/corporate-investigation-mistakes-video/",
+      "isTopTen": false
+    },
     {
       "id": "9897079e-835b-4af9-b255-7f7681abc78e",
       "source": "Help Net Security",
@@ -35,6 +90,17 @@
       "isTopTen": false
     },
     {
+      "id": "2256198b-400f-4465-9669-19d079522bc9",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chinese Loongson processors have leaky caches, researchers find",
+      "summary": "Researchers have discovered cache-based side-channel vulnerabilities in Chinese Loongson processors that could allow attackers to extract sensitive data, even across virtual machine boundaries.",
+      "date": "2026-08-13T02:14:11.000Z",
+      "link": "https://www.theregister.com/security/2026/08/13/chinese-loongson-processors-have-leaky-caches-researchers-find/5287137",
+      "isTopTen": false
+    },
+    {
       "id": "7ea0485d-dcb0-4c62-9ffd-ab693f78695d",
       "source": "The Register",
       "tag": "Breaches and Incidents",
@@ -65,7 +131,7 @@
       "summary": "Researchers have discovered that certain RISC-V processor architectures are susceptible to Spectre-class speculative execution attacks, demonstrating that the vulnerability continues to impact new hardware designs eight years after its initial disclosure.",
       "date": "2026-08-12T19:42:57.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/spectre-rears-its-ugly-head-again-as-researchers-show-some-risc-v-chips-are-susceptible/5286978",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b1a18cf6-d8e0-4fc1-aa00-b7a3d716b72c",
@@ -87,7 +153,7 @@
       "summary": "The Lazarus Group is utilizing a Windows zero-day vulnerability to deploy a new backdoor as part of their ongoing Operation Dream Job espionage campaign targeting the global defense and aerospace sectors.",
       "date": "2026-08-12T17:39:27.000Z",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "603e57f7-9d1e-4d61-a892-265b47a079db",
@@ -189,17 +255,6 @@
       "isTopTen": false
     },
     {
-      "id": "aaa86488-77c7-4191-abc1-c76b3ccebd59",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Three intrusions at UK criminal records office went undetected for two years",
-      "summary": "Britain's ACRO criminal records office suffered three data breaches over two years due to ignored antivirus alerts and unpatched software. The incident resulted in a formal reprimand due to the significant delay in detecting the unauthorized access.",
-      "date": "2026-08-12T13:00:00.000Z",
-      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-      "isTopTen": false
-    },
-    {
       "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
       "source": "The Register",
       "tag": "Malware and Vulnerabilities",
@@ -209,6 +264,17 @@
       "date": "2026-08-12T13:00:00.000Z",
       "link": "https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515",
       "isTopTen": false
+    },
+    {
+      "id": "aaa86488-77c7-4191-abc1-c76b3ccebd59",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Three intrusions at UK criminal records office went undetected for two years",
+      "summary": "Britain's ACRO criminal records office suffered three data breaches over two years due to ignored antivirus alerts and unpatched software. The incident resulted in a formal reprimand due to the significant delay in detecting the unauthorized access.",
+      "date": "2026-08-12T13:00:00.000Z",
+      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
+      "isTopTen": true
     },
     {
       "id": "2260c7f2-65ba-4864-ada4-0b6e5b1b9f5e",
@@ -252,7 +318,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -307,7 +373,7 @@
       "summary": "Threat actors are actively exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter that allows for arbitrary code execution and persistent remote access. Security teams are urged to apply the recently released patches immediately to mitigate the risk.",
       "date": "2026-08-12T09:01:54.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3f750677-7dd9-4315-81bb-b95bbc74fc03",
@@ -626,7 +692,7 @@
       "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
       "date": "2026-08-11T17:48:01.000Z",
       "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
@@ -714,7 +780,7 @@
       "summary": "Logistics giant CEVA experienced a cyberattack that disrupted operations at eight European warehouses, causing significant downstream impacts for retailers and Steam customers. The incident highlights the vulnerability of supply chain operations to widespread service interruptions.",
       "date": "2026-08-11T15:43:45.000Z",
       "link": "https://therecord.media/ceva-logistics-cyberattack-bol-steam-debijenkorf-ace-tate",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "30c94307-2ce8-434f-883c-65c9f22e4945",
@@ -747,7 +813,7 @@
       "summary": "OpenAI has introduced GPT-5.6-Cyber, a specialized model designed for cybersecurity tasks like vulnerability research and exploit development with relaxed safety restrictions. This release aims to aid security professionals but raises concerns regarding the potential for misuse in creating cyberattacks.",
       "date": "2026-08-11T13:11:23.000Z",
       "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a4c9812d-32fb-4539-b6c3-4fff6353b70b",
@@ -5433,72 +5499,6 @@
       "summary": "The article explores how network firewalls and infrastructure are evolving to serve as the critical control plane for securing AI-driven environments. It emphasizes the need to adapt traditional network security models to accommodate the dynamic traffic patterns of modern AI applications.",
       "date": "2026-07-30T11:32:46.000Z",
       "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c06d8ce4-2675-471e-a33d-72dbae4d73b3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Attackers are using Microsoft’s legitimate login system to camouflage phishing attacks",
-      "summary": "Threat actors are bypassing phishing detection by leveraging legitimate Microsoft authentication infrastructure to host malicious login flows, making it difficult for users to identify fraudulent requests. This campaign has impacted over 120 organizations globally by masquerading as routine Microsoft Planner notifications.",
-      "date": "2026-07-30T11:22:45.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/microsoft-authentication-system-phishing/",
-      "isTopTen": false
-    },
-    {
-      "id": "eb5dcd7e-c955-4e27-ac29-7a336b72b7c2",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Cisco FMC static credentials exploited by attackers (CVE-2026-20316)",
-      "summary": "CISA has warned that attackers are actively exploiting a static credentials vulnerability (CVE-2026-20316) in Cisco Secure Firewall Management Center (FMC) that allows unauthorized access to the web interface.",
-      "date": "2026-07-30T10:44:09.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/cisco-fmc-cve-2026-20316-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "2a29aaa5-816b-4918-83ad-33a6c630cbd3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Dropzone AI turns threat hunting into a routine SOC operation",
-      "summary": "Dropzone AI has launched AI Threat Hunter, a tool designed to automate proactive threat hunting and identify hidden risks or coverage gaps. This solution aims to transition threat hunting from a complex task into a routine operation within Security Operations Centers.",
-      "date": "2026-07-30T10:43:54.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/dropzone-ai-threat-hunter/",
-      "isTopTen": false
-    },
-    {
-      "id": "d04ead14-1092-4d0b-acec-30165bc3f086",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "PortSwigger introduces Burp AT for agentic AI security testing",
-      "summary": "PortSwigger has launched Burp AT, a new tool for Burp Suite that integrates agentic AI to assist penetration testers in performing investigative security tasks while maintaining human oversight. This tool aims to enhance testing efficiency by delegating routine tasks to autonomous agents under strict permission controls.",
-      "date": "2026-07-30T10:33:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/portswigger-burp-at/",
-      "isTopTen": false
-    },
-    {
-      "id": "a7db750d-fc77-4372-bd53-71de3cd8009c",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
-      "summary": "State-sponsored actors compromised legitimate South Korean websites to exploit vulnerabilities in AnySign4PC financial software, silently installing backdoors on victims' systems. This campaign demonstrates a sophisticated supply-chain-style attack leveraging trusted local infrastructure.",
-      "date": "2026-07-30T10:33:15.000Z",
-      "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0dcb1ec4-b68d-4ea9-9a8d-a736fd118e83",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
-      "summary": "The SilverFox threat group is conducting a targeted campaign against a Japanese manufacturer, utilizing a complex BYOVD chain to deploy ValleyRAT for persistent remote access. This attack demonstrates a sophisticated approach to bypassing security defenses through the abuse of legitimate, yet vulnerable, drivers.",
-      "date": "2026-07-30T10:32:59.000Z",
-      "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
       "isTopTen": false
     }
   ]
