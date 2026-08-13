@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-13T16:08:07.994Z",
+  "lastUpdated": "2026-08-13T19:09:10.218Z",
   "articles": [
+    {
+      "id": "504b2f0d-035c-40b0-86e3-9cb6936db5f4",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Commerce CVE-2026-71362 Comes Under Attack Shortly After Public Disclosure",
+      "summary": "Hackers are actively exploiting a critical unauthenticated remote code execution vulnerability in Adobe Commerce, designated as CVE-2026-71362, shortly after its public disclosure. The flaw allows attackers to hijack customer accounts and access sensitive private information.",
+      "date": "2026-08-13T17:48:54.000Z",
+      "link": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4a4c8daf-840f-4360-86ef-dfb7061bd5ea",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Metabase, Windows, and Cisco Secure Firewall flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog to include multiple active flaws affecting Cisco Secure Firewall, Windows, and Metabase. Federal agencies are now required to address these specific vulnerabilities within a mandated timeframe to mitigate potential exploitation risks.",
+      "date": "2026-08-13T17:12:45.000Z",
+      "link": "https://securityaffairs.com/197110/uncategorized/u-s-cisa-adds-metabase-windows-and-cisco-secure-firewall-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7fe264d5-4e5b-415e-9931-d08bdb03ea02",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI’s ‘middle class’ has gotten dramatically better at hacking",
+      "summary": "Advancements in mid-tier, cost-efficient AI models are significantly improving automated hacking capabilities, raising concerns among researchers beyond just frontier-level threats.",
+      "date": "2026-08-13T16:55:02.000Z",
+      "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
+      "isTopTen": true
+    },
+    {
+      "id": "44563d0c-041e-4162-8408-95563d9ca34d",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Flock tightens privacy controls amid scandals over officer abuse",
+      "summary": "Flock Safety is implementing mandatory audit tracking and reducing its data retention policy to seven days in response to concerns regarding the misuse of its automated license plate recognition systems by law enforcement. These changes aim to enhance transparency and mitigate privacy risks associated with the platform.",
+      "date": "2026-08-13T16:47:00.000Z",
+      "link": "https://therecord.media/flock-safety-audit-assistance-police-departments",
+      "isTopTen": false
+    },
     {
       "id": "504dddfe-4ce5-47f8-820d-9a660ad39f5c",
       "source": "The Record",
@@ -98,7 +142,7 @@
       "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the public release of proof-of-concept code. The flaw allows unauthorized users to impersonate others to access or modify data.",
       "date": "2026-08-13T13:05:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/microsoft-sharepoint-cve-2026-55040-poc-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5b58f112-6ecf-43b2-b250-89b59152fe3b",
@@ -153,7 +197,7 @@
       "summary": "A massive 153GB data leak originating from a supply chain attack on LiteLLM has exposed sensitive credentials across thousands of corporate domains, including major tech firms. Security firm Hudson Rock is currently managing a global disclosure process to notify the affected organizations.",
       "date": "2026-08-13T10:32:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/litellm-breach-stolen-credentials-leak/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6a770f13-2667-4b12-aa0d-f6a4201b8017",
@@ -285,7 +329,7 @@
       "summary": "Taiwan's Nuclear Safety Commission was targeted by 'near-autonomous' AI-driven agents, marking a sophisticated evolution in cyber warfare tactics. The incident highlights the growing threat posed by agentic swarms capable of executing complex attacks with minimal human oversight.",
       "date": "2026-08-12T21:45:16.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e75d448a-ef91-46bd-9347-1db39f33ff16",
@@ -318,7 +362,7 @@
       "summary": "China-linked hackers reportedly conducted the first fully autonomous, AI-driven cyberattack against a Taiwanese government network, successfully breaching systems and stealing data with minimal human intervention. This operation marks a significant escalation in the use of autonomous agents for end-to-end cyber espionage.",
       "date": "2026-08-12T17:58:44.000Z",
       "link": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1614b2b0-76b0-47cd-a775-e7b5ea7019a4",
@@ -494,7 +538,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -626,7 +670,7 @@
       "summary": "Two malicious releases of the LiteLLM library were uploaded to PyPI, enabling attackers to harvest sensitive cloud and infrastructure credentials from over 2,100 organizations. The breach, linked to the Trivy compromise, resulted in the exfiltration of a massive dataset containing thousands of files.",
       "date": "2026-08-12T08:04:52.000Z",
       "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "00af7a7d-027d-40f4-9549-843e8a5e0674",
@@ -736,7 +780,7 @@
       "summary": "Enterprise security teams are struggling with visibility and governance as AI deployments expand, with leaders anticipating a 14% increase in their organization's attack surface. The widespread use of unapproved AI tools poses a significant risk to organizational security postures.",
       "date": "2026-08-12T04:00:55.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/netfoundry-securing-ai-deployments-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c748f8fd-f4dd-48bc-8168-0835cb489815",
@@ -5455,50 +5499,6 @@
       "summary": "North Korean-linked threat actors are targeting macOS users through a sophisticated malvertising campaign that uses fake update screens to distribute crypto-stealing malware. This attack represents an evolution of the ongoing 'Contagious Interview' operation.",
       "date": "2026-07-30T18:18:24.000Z",
       "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
-      "isTopTen": false
-    },
-    {
-      "id": "96225c66-8bcd-453f-8771-7747c58961f4",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Jscrambler launches Unified Client-Side Security Platform",
-      "summary": "Jscrambler has introduced a Unified Client-Side Security Platform designed to mitigate application risks and data harvesting threats occurring within web browsers. The platform aims to consolidate software integrity and client-side protection to address the accelerated threat landscape driven by AI.",
-      "date": "2026-07-30T17:23:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/jscrambler-unified-client-side-security-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "371b1ba4-4dbc-4183-b4b7-a916a6e423f5",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Cybercriminals Are Leveraging Autonomous AI Offensive Security Agents",
-      "summary": "Autonomous AI offensive agents are lowering the barrier to entry for cyberattacks, significantly accelerating the threat landscape for vulnerability identification and exploitation. Security researchers warn that these tools are shifting the balance of power, forcing defenders into an increasingly rapid technological arms race.",
-      "date": "2026-07-30T17:16:56.000Z",
-      "link": "https://securityaffairs.com/196331/ai/cybercriminals-are-leveraging-autonomous-ai-offensive-security-agents.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7278ae60-363b-41c3-b650-53aab13bc37f",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "AI takes on a bigger role in finding Chrome vulnerabilities",
-      "summary": "Google is integrating AI into its Chrome security workflow to automate the triaging, patching, and code review processes for software vulnerabilities. This initiative aims to significantly reduce the time required to address security flaws.",
-      "date": "2026-07-30T17:01:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/google-chrome-ai-security-workflow/",
-      "isTopTen": false
-    },
-    {
-      "id": "6bd835b7-5b06-48fd-a83c-330916a26d39",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OpenMatter Network Calls on Enterprise Leaders to Rethink AI Security Before the Next Rogue AI Crisis",
-      "summary": "OpenMatter Network urges enterprise leaders to proactively strengthen AI security frameworks to prevent potential future crises involving rogue AI. The advisory emphasizes the need for immediate strategic shifts in how organizations protect and govern their artificial intelligence systems.",
-      "date": "2026-07-30T16:13:35.000Z",
-      "link": "https://hackread.com/openmatter-network-calls-on-enterprise-leaders-to-rethink-ai-security-before-the-next-rogue-ai-crisis/",
       "isTopTen": false
     }
   ]
