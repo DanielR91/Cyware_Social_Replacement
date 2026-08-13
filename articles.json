@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-13T07:42:23.166Z",
+  "lastUpdated": "2026-08-13T10:12:59.245Z",
   "articles": [
+    {
+      "id": "6a770f13-2667-4b12-aa0d-f6a4201b8017",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SharePoint CVE-2026-55040 Comes Under Attack Following Public Exploit",
+      "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the release of a public proof-of-concept. The flaw allows unauthenticated attackers to impersonate any user, including administrators.",
+      "date": "2026-08-13T08:36:30.000Z",
+      "link": "https://securityaffairs.com/197137/hacking/sharepoint-cve-2026-55040-comes-under-attack-following-public-exploit.html",
+      "isTopTen": true
+    },
+    {
+      "id": "c0fc0110-251b-4477-80c8-6831b7f15b26",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Storm-1175 Replaces Medusa With New StormEncryptor Ransomware",
+      "summary": "The China-linked threat actor Storm-1175 has shifted its operational tactics by replacing the Medusa ransomware with a new, custom C++ strain identified as StormEncryptor.",
+      "date": "2026-08-13T08:09:08.000Z",
+      "link": "https://securityaffairs.com/197119/malware/storm-1175-replaces-medusa-with-new-stormencryptor-ransomware.html",
+      "isTopTen": false
+    },
     {
       "id": "a5f2b5a1-c725-45bc-bd7d-0a271a957931",
       "source": "Help Net Security",
@@ -109,7 +131,7 @@
       "summary": "Taiwan's Nuclear Safety Commission was targeted by 'near-autonomous' AI-driven agents, marking a sophisticated evolution in cyber warfare tactics. The incident highlights the growing threat posed by agentic swarms capable of executing complex attacks with minimal human oversight.",
       "date": "2026-08-12T21:45:16.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e75d448a-ef91-46bd-9347-1db39f33ff16",
@@ -142,7 +164,7 @@
       "summary": "China-linked hackers reportedly conducted the first fully autonomous, AI-driven cyberattack against a Taiwanese government network, successfully breaching systems and stealing data with minimal human intervention. This operation marks a significant escalation in the use of autonomous agents for end-to-end cyber espionage.",
       "date": "2026-08-12T17:58:44.000Z",
       "link": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1614b2b0-76b0-47cd-a775-e7b5ea7019a4",
@@ -241,7 +263,7 @@
       "summary": "The UK's Criminal Records Office (ACRO) experienced a sensitive data leak due to a failure to patch its content management system and monitor security alerts. The organization remains unable to confirm whether the compromised information was exfiltrated by unauthorized actors.",
       "date": "2026-08-12T13:40:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/exposed-woeful-security-at-uk-criminal-records-office-that-led-to-sensitive-data-leak/5286736",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "84e23a0c-e07c-499a-849e-1afe2ea58382",
@@ -274,7 +296,7 @@
       "summary": "Britain's ACRO criminal records office suffered three data breaches over two years due to ignored antivirus alerts and unpatched software. The incident resulted in a formal reprimand due to the significant delay in detecting the unauthorized access.",
       "date": "2026-08-12T13:00:00.000Z",
       "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2260c7f2-65ba-4864-ada4-0b6e5b1b9f5e",
@@ -318,7 +340,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -362,7 +384,7 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed over 400 vulnerabilities, including a zero-day flaw (CVE-2026-68820) in the Windows AFD.sys driver that enables local privilege escalation to SYSTEM.",
       "date": "2026-08-12T09:34:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "77f0df5d-dab5-4d56-a759-491107a223f2",
@@ -483,7 +505,7 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed 398 vulnerabilities, headlined by an actively exploited zero-day and a wormable remote code execution flaw in DNS. The update encompasses a broad range of products including Windows, Azure, and Office.",
       "date": "2026-08-12T06:49:55.000Z",
       "link": "https://securityaffairs.com/197048/security/microsoft-patch-tuesday-for-august-2026-fixed-a-zero-day-and-wormable-rce.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "988cd2ac-0f3e-498e-ad7c-86d5618fcdaa",
@@ -648,7 +670,7 @@
       "summary": "A ransomware group has hijacked a hospital system's Facebook page while leveraging 6 terabytes of exfiltrated, highly sensitive patient data as part of an extortion attempt. The breached information includes records concerning sexual assault, mental health, and reproductive healthcare.",
       "date": "2026-08-11T19:15:00.000Z",
       "link": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "88565715-21f4-4066-b086-83e5df3c01fe",
@@ -659,7 +681,7 @@
       "summary": "A critical vulnerability in Zoom's annotation feature allowed meeting participants to remotely hijack the computers of other attendees without any user interaction. The flaw enabled unauthorized control over both screen-sharers and viewers simply by participating in a call.",
       "date": "2026-08-11T19:08:47.000Z",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "298b4a8b-57ff-45c5-991c-b069f71a44ae",
@@ -5477,28 +5499,6 @@
       "summary": "Security researcher Håkon Måløy discovered that Microsoft 365 Copilot can be exploited to embed and propagate hidden prompts within Word documents, causing the tool to replicate malicious or unauthorized instructions across subsequent files. The vulnerability allows these hidden prompts to persist and trigger unintended actions in future drafting sessions.",
       "date": "2026-07-30T11:54:49.000Z",
       "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5e7a7daa-bf6f-4673-9a79-1cfcb585d174",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Orca Security secures AI-built and developer-created applications",
-      "summary": "Orca Security has introduced two AI-powered tools designed to secure both independently built AI applications and traditional software development pipelines. These new capabilities aim to provide comprehensive security coverage across the entire application development lifecycle.",
-      "date": "2026-07-30T11:40:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/30/orca-ai-appgen-security-code-security-auditor/",
-      "isTopTen": false
-    },
-    {
-      "id": "08d40e45-80dc-4e57-aa0b-eea11d0f52e1",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "The Network Has Become the Control Plane for AI Security",
-      "summary": "The article explores how network firewalls and infrastructure are evolving to serve as the critical control plane for securing AI-driven environments. It emphasizes the need to adapt traditional network security models to accommodate the dynamic traffic patterns of modern AI applications.",
-      "date": "2026-07-30T11:32:46.000Z",
-      "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
       "isTopTen": false
     }
   ]
