@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T21:52:52.446Z",
+  "lastUpdated": "2026-08-13T02:21:15.576Z",
   "articles": [
     {
       "id": "7ea0485d-dcb0-4c62-9ffd-ab693f78695d",
@@ -43,7 +43,7 @@
       "summary": "China-linked hackers reportedly conducted the first fully autonomous, AI-driven cyberattack against a Taiwanese government network, successfully breaching systems and stealing data with minimal human intervention. This operation marks a significant escalation in the use of autonomous agents for end-to-end cyber espionage.",
       "date": "2026-08-12T17:58:44.000Z",
       "link": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1614b2b0-76b0-47cd-a775-e7b5ea7019a4",
@@ -54,7 +54,7 @@
       "summary": "The Lazarus Group is utilizing a Windows zero-day vulnerability to deploy a new backdoor as part of their ongoing Operation Dream Job espionage campaign targeting the global defense and aerospace sectors.",
       "date": "2026-08-12T17:39:27.000Z",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "603e57f7-9d1e-4d61-a892-265b47a079db",
@@ -156,17 +156,6 @@
       "isTopTen": false
     },
     {
-      "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Akira ransomware scum blocked victim's security tools – and broke their own encryptor",
-      "summary": "The Akira ransomware group accidentally crippled their own encryption process after successfully disabling the victim's security software. This operational error effectively halted the attack, leaving the targeted system's data intact.",
-      "date": "2026-08-12T13:00:00.000Z",
-      "link": "https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515",
-      "isTopTen": false
-    },
-    {
       "id": "aaa86488-77c7-4191-abc1-c76b3ccebd59",
       "source": "The Record",
       "tag": "Breaches and Incidents",
@@ -175,6 +164,17 @@
       "summary": "Britain's ACRO criminal records office suffered three data breaches over two years due to ignored antivirus alerts and unpatched software. The incident resulted in a formal reprimand due to the significant delay in detecting the unauthorized access.",
       "date": "2026-08-12T13:00:00.000Z",
       "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
+      "isTopTen": false
+    },
+    {
+      "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Akira ransomware scum blocked victim's security tools – and broke their own encryptor",
+      "summary": "The Akira ransomware group accidentally crippled their own encryption process after successfully disabling the victim's security software. This operational error effectively halted the attack, leaving the targeted system's data intact.",
+      "date": "2026-08-12T13:00:00.000Z",
+      "link": "https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515",
       "isTopTen": false
     },
     {
@@ -219,7 +219,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -384,7 +384,7 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed 398 vulnerabilities, headlined by an actively exploited zero-day and a wormable remote code execution flaw in DNS. The update encompasses a broad range of products including Windows, Azure, and Office.",
       "date": "2026-08-12T06:49:55.000Z",
       "link": "https://securityaffairs.com/197048/security/microsoft-patch-tuesday-for-august-2026-fixed-a-zero-day-and-wormable-rce.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "988cd2ac-0f3e-498e-ad7c-86d5618fcdaa",
@@ -516,7 +516,7 @@
       "summary": "Microsoft has released a monthly security update addressing 398 vulnerabilities, including a Windows kernel driver zero-day (CVE-2026-68820) that is currently being exploited to escalate privileges to SYSTEM level.",
       "date": "2026-08-11T20:10:55.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "19058d67-02ee-4984-96ba-0fa492ff90a0",
@@ -560,7 +560,7 @@
       "summary": "A critical vulnerability in Zoom's annotation feature allowed meeting participants to remotely hijack the computers of other attendees without any user interaction. The flaw enabled unauthorized control over both screen-sharers and viewers simply by participating in a call.",
       "date": "2026-08-11T19:08:47.000Z",
       "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "298b4a8b-57ff-45c5-991c-b069f71a44ae",
@@ -593,7 +593,7 @@
       "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
       "date": "2026-08-11T17:48:01.000Z",
       "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
@@ -714,7 +714,7 @@
       "summary": "OpenAI has introduced GPT-5.6-Cyber, a specialized model designed for cybersecurity tasks like vulnerability research and exploit development with relaxed safety restrictions. This release aims to aid security professionals but raises concerns regarding the potential for misuse in creating cyberattacks.",
       "date": "2026-08-11T13:11:23.000Z",
       "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a4c9812d-32fb-4539-b6c3-4fff6353b70b",
