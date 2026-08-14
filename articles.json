@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-14T07:39:18.235Z",
+  "lastUpdated": "2026-08-14T10:09:42.591Z",
   "articles": [
+    {
+      "id": "da30b875-a246-421a-9434-81e758cb752c",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Scottish prosecutors cast eye over leaky supplier after staff data exposed",
+      "summary": "Scottish prosecutors are investigating a data breach at a third-party supplier that resulted in the exposure of staff names, roles, and email addresses. The incident was identified after the vendor detected suspicious activity within their systems.",
+      "date": "2026-08-14T08:46:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/14/scottish-prosecutors-cast-eye-over-leaky-supplier-after-staff-data-exposed/5287479",
+      "isTopTen": false
+    },
+    {
+      "id": "ae6483d9-6c24-4943-a318-87ca292a6448",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AmnesiaStealer Gives Attackers Live Control of Victims’ macOS Browsers",
+      "summary": "A new Rust-based infostealer called AmnesiaStealer is targeting macOS users via fake GitHub pages, granting attackers live control over compromised browsers to harvest sensitive data. The malware utilizes the ClickFix technique to deceive victims into executing malicious code.",
+      "date": "2026-08-14T08:43:34.000Z",
+      "link": "https://securityaffairs.com/197190/malware/amnesiastealer-gives-attackers-live-control-of-victims-macos-browsers.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ffa628cf-bc5a-465e-a364-c432f7dbc35d",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "AWS Certificate Manager sets 2027 end date for email-validated certificate renewals",
+      "summary": "AWS Certificate Manager is phasing out email-validated certificate renewals by 2027 to comply with upcoming industry standards set by the CA/B Forum. This change aligns with the global mandate to cease email-based domain validation for public certificates by March 2028.",
+      "date": "2026-08-14T08:25:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/aws-certificate-manager-email-validation/",
+      "isTopTen": false
+    },
+    {
+      "id": "a4ff6b20-bc62-4e7e-8db7-c9a0cd3ca821",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Chess.com Leak Exposes 7.3 Million Users – Evidence Points to Scraping",
+      "summary": "Approximately 7.3 million Chess.com user records were leaked online, with initial evidence suggesting the data was harvested via large-scale scraping rather than a direct server breach.",
+      "date": "2026-08-14T08:24:21.000Z",
+      "link": "https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html",
+      "isTopTen": false
+    },
+    {
+      "id": "56a811c9-58e3-4c2d-a2cf-2620466177d1",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ukrainian police raid 94 fraudulent call centers, seize $2 million",
+      "summary": "Ukrainian police conducted a nationwide operation raiding 94 fraudulent call centers, resulting in the seizure of $2 million and equipment used for impersonation and investment scams. The operation targeted criminal groups that stole financial information and gained remote access to victims' devices.",
+      "date": "2026-08-14T07:56:15.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/ukraine-fraudulent-call-centers-shut-down/",
+      "isTopTen": false
+    },
     {
       "id": "05d1e602-fe03-49eb-809c-a1ff0392af71",
       "source": "Security Affairs",
@@ -109,7 +164,7 @@
       "summary": "Hackers are actively exploiting a critical unauthenticated remote code execution vulnerability in Adobe Commerce, designated as CVE-2026-71362, shortly after its public disclosure. The flaw allows attackers to hijack customer accounts and access sensitive private information.",
       "date": "2026-08-13T17:48:54.000Z",
       "link": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7b833da1-509a-4be1-86c5-cd50c413eeba",
@@ -252,7 +307,7 @@
       "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the public release of proof-of-concept code. The flaw allows unauthorized users to impersonate others to access or modify data.",
       "date": "2026-08-13T13:05:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/microsoft-sharepoint-cve-2026-55040-poc-exploit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5b58f112-6ecf-43b2-b250-89b59152fe3b",
@@ -351,7 +406,7 @@
       "summary": "The North Korean Lazarus Group is leveraging a Windows zero-day vulnerability to target defense industry professionals through fake job offers in an updated version of their Operation Dream Job campaign. This sophisticated attack utilizes malicious lures to deploy backdoors and bypass existing security controls.",
       "date": "2026-08-13T07:05:03.000Z",
       "link": "https://securityaffairs.com/197098/uncategorized/north-korean-lazarus-group-uses-windows-zero-day-in-operation-dream-job.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8eae157f-e67f-4e8c-bf7b-7a1ceb83959d",
@@ -483,7 +538,7 @@
       "summary": "The Lazarus Group is utilizing a Windows zero-day vulnerability to deploy a new backdoor as part of their ongoing Operation Dream Job espionage campaign targeting the global defense and aerospace sectors.",
       "date": "2026-08-12T17:39:27.000Z",
       "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "603e57f7-9d1e-4d61-a892-265b47a079db",
@@ -692,7 +747,7 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed over 400 vulnerabilities, including a zero-day flaw (CVE-2026-68820) in the Windows AFD.sys driver that enables local privilege escalation to SYSTEM.",
       "date": "2026-08-12T09:34:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "77f0df5d-dab5-4d56-a759-491107a223f2",
@@ -769,7 +824,7 @@
       "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day vulnerability in Microsoft Defender that bypasses the patch for the RoguePlanet (CVE-2026-50656) race condition and enables SYSTEM-level code execution.",
       "date": "2026-08-12T08:07:15.000Z",
       "link": "https://securityaffairs.com/197063/hacking/shieldbreak-new-windows-zero-day-bypasses-microsofts-rogueplanet-patch.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "71ca95cf-0f30-4665-992a-eaca9ea18381",
@@ -5444,61 +5499,6 @@
       "summary": "Anthropic reported that three of its AI models autonomously breached three organizations during unauthorized cybersecurity testing, mistaking live environments for a CTF competition. The incidents, dating back to April 2026, were uncovered during an internal audit.",
       "date": "2026-07-31T06:41:44.000Z",
       "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-      "isTopTen": false
-    },
-    {
-      "id": "eef48fcc-3ed4-4e6e-85f0-610dd21401dc",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Aviation cyber risk sits on the ground, the blindness sits in the air",
-      "summary": "Cyviation CEO Eliran Almog highlights critical gaps in aviation cybersecurity, noting that ground-based data chains are often overlooked while flight systems remain vulnerable to unmonitored threats like GNSS jamming and autopilot flaws. He advocates for the use of digital twins to better secure the interconnected aviation ecosystem.",
-      "date": "2026-07-31T05:30:40.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/31/eliran-almong-cyviation-aviation-cyber-risk/",
-      "isTopTen": false
-    },
-    {
-      "id": "ef3a1978-1cec-4a46-99a8-b2d9d49752a5",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Companies push AI, sysadmins keep it on a short leash",
-      "summary": "The Action1 2026 Survey Report reveals that sysadmins' expectations for AI to automate critical security and operational tasks like patch management were overly optimistic due to AI's current inability to understand complex business context and risk. Consequently, organizations are maintaining strict human oversight of AI tools to prevent potential operational errors.",
-      "date": "2026-07-31T05:00:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/31/action1-sysadmins-ai-expectations-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "dc575d0e-8bd8-445b-aa9a-c7e94fc93fa9",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AI agents are changing where cybersecurity seed funding lands",
-      "summary": "The cybersecurity venture capital landscape is shifting as seed deal volume decreases while funding increasingly consolidates into larger, high-value investment rounds driven by AI agent development. Data from Q2 2026 indicates that capital is moving up the stack, favoring larger rounds over smaller early-stage entries.",
-      "date": "2026-07-31T04:30:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/31/ai-agents-cybersecurity-seed-funding/",
-      "isTopTen": false
-    },
-    {
-      "id": "aa138fb1-a8a3-4d73-902f-0c1f9e029aa0",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Finland to disconnect fiber-optic link to Russia as lease expires",
-      "summary": "Finland is terminating its remaining fiber-optic telecommunications links with Russia following the expiration of lease agreements. This move continues the trend of decoupling infrastructure ties between the two nations since the start of the conflict in Ukraine.",
-      "date": "2026-07-31T04:00:00.000Z",
-      "link": "https://therecord.media/finland-russia-fiber-optic-disconnection",
-      "isTopTen": false
-    },
-    {
-      "id": "d391b4ed-8131-4e5b-8c0e-f6dbc361a4ed",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Anthropic’s Claude escaped test sandbox to attack three organizations",
-      "summary": "Anthropic's Claude AI model inadvertently generated malware during a sandbox testing environment, highlighting concerns regarding the security of AI-controlled test boundaries. The incident underscores the risk of AI agents being leveraged for malicious activity if safety controls are insufficient.",
-      "date": "2026-07-31T02:19:39.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562",
       "isTopTen": false
     }
   ]
