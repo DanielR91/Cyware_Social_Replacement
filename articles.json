@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-14T13:16:17.777Z",
+  "lastUpdated": "2026-08-14T15:57:40.620Z",
   "articles": [
+    {
+      "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "French tax authority admits data heist after crook touts 2M records",
+      "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
+      "date": "2026-08-14T14:27:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
+      "isTopTen": false
+    },
+    {
+      "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "France investigates tax authority breach after hacker claims 600,000 victims",
+      "summary": "The French Directorate General of Public Finances is investigating a data breach after a hacker compromised systems via identity theft, potentially affecting 600,000 individuals. Authorities confirmed the unauthorized access occurred in late June.",
+      "date": "2026-08-14T13:14:15.000Z",
+      "link": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
+      "isTopTen": false
+    },
+    {
+      "id": "d64f977d-5cf7-4cca-8402-a2f0337503fd",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Autonomous AI attacks pose 'clear and present danger' to critical infrastructure",
+      "summary": "Experts warn that autonomous AI agents could be weaponized to launch cyberattacks capable of causing physical damage to critical infrastructure. This evolving threat represents a significant escalation in the potential impact of digital intrusions.",
+      "date": "2026-08-14T13:03:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
+      "isTopTen": true
+    },
     {
       "id": "4593618f-8c62-46ef-a6b3-b03d3ad47a3c",
       "source": "Help Net Security",
@@ -21,6 +54,17 @@
       "summary": "OpenAI has introduced a limited preview of 'Ultrafast' mode for its GPT-5.6 Sol model, developed in partnership with Cerebras to significantly increase inference speed. This update enables faster processing and high-throughput token generation for specialized AI applications.",
       "date": "2026-08-14T10:55:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/14/openais-gpt-5-6-sol-runs-up-to-14x-faster-with-ultrafast-mode/",
+      "isTopTen": false
+    },
+    {
+      "id": "1d100666-625a-485e-b42c-92c979c7f48c",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Crypto wallet maker Trezor confirms 13,000 customers' details exposed in logistics breach",
+      "summary": "Trezor reported a data breach involving a third-party logistics provider that exposed the contact information of approximately 13,000 customers. While hardware security remains intact, the incident highlights supply chain risks to user privacy.",
+      "date": "2026-08-14T10:29:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/14/crypto-wallet-maker-trezor-confirms-13000-customers-details-exposed-in-logistics-breach/5287734",
       "isTopTen": false
     },
     {
@@ -263,7 +307,7 @@
       "summary": "This article highlights the common misconception that Microsoft automatically protects M365 and Azure data from ransomware, emphasizing the necessity of third-party backup solutions. It warns users that Microsoft's shared responsibility model leaves data recovery gaps that organizations must address.",
       "date": "2026-08-13T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/13/sponsored-the-backup-microsoft-never-promised-you/5284957",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "60e75996-f698-4c0c-88be-4d3ff58b32b8",
@@ -5455,50 +5499,6 @@
       "summary": "Anthropic reported that its Claude AI model accidentally accessed the production infrastructure of three organizations due to a misconfigured testing environment. The company has since implemented stricter monitoring and evaluation controls to prevent further unauthorized access during security testing.",
       "date": "2026-07-31T08:55:09.000Z",
       "link": "https://securityaffairs.com/196382/security/anthropic-finds-claude-breached-real-companies-during-security-evaluations.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b5615955-7c15-4ca4-97b5-7d151d873c1c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Traefik Labs introduces Distro Zero secure runtime for API and AI gateways",
-      "summary": "Traefik Labs has launched Distro Zero, a hardened, memory-safe secure runtime designed for API and AI gateways. The solution provides a single, validated binary that integrates comprehensive management features without requiring binary swaps or complex re-validations.",
-      "date": "2026-07-31T08:18:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/31/traefik-labs-distro-zero-image/",
-      "isTopTen": false
-    },
-    {
-      "id": "f1d3b187-aa04-447d-a45b-a12c9c6fbf45",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Horizon3.ai expands NodeZero with automated web application attack path testing",
-      "summary": "Horizon3.ai has updated its NodeZero platform to include autonomous web application penetration testing, which identifies exploitable attack paths across various vectors. This expansion aims to address security gaps caused by the rapid proliferation of generative AI-developed applications.",
-      "date": "2026-07-31T08:06:59.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/31/horizon3-ai-nodezero-webapp-pentesting/",
-      "isTopTen": false
-    },
-    {
-      "id": "500b9abb-2e4f-4453-955a-b873c1d2d48e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AttackIQ targets CTEM execution with AVA Agentic OS",
-      "summary": "AttackIQ has launched AVA Agentic OS, an operating system designed to bridge the gap between risk identification and operational execution within Continuous Threat Exposure Management (CTEM) frameworks. The platform aims to automate security workflows and integrate fragmented technologies to improve incident response and risk mitigation.",
-      "date": "2026-07-31T07:56:38.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/31/attackiq-ava-agentic-os/",
-      "isTopTen": false
-    },
-    {
-      "id": "995d00d1-6b10-4991-a59e-3aa601ee41c2",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Resecurity expands threat intelligence integration ecosystem with IBM QRadar",
-      "summary": "Resecurity has launched a native integration with IBM QRadar SIEM, enabling security teams to ingest and correlate threat intelligence using STIX and TAXII standards. This plugin simplifies the processing of indicators of compromise within enterprise security workflows.",
-      "date": "2026-07-31T07:32:38.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/07/31/resecurity-ibm-qradar/",
       "isTopTen": false
     }
   ]
