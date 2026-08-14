@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-13T21:52:03.412Z",
+  "lastUpdated": "2026-08-14T02:18:53.175Z",
   "articles": [
+    {
+      "id": "d3a4f44d-a9e4-4904-9d61-5625f0bf81c6",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "OpenAI ditches Recall-style screenshot surveillance for friendly keylogging",
+      "summary": "OpenAI has introduced a new feature called 'Computer History' that logs user clicks and typing data to enhance ChatGPT's memory capabilities. This approach replaces previous screenshot-based tracking methods with more targeted activity logging.",
+      "date": "2026-08-14T00:27:53.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/14/openai-ditches-recall-style-screenshot-surveillance-for-friendly-keylogging/5287618",
+      "isTopTen": false
+    },
+    {
+      "id": "14cdc90b-b1d4-4b21-be76-4beb9c66af71",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "A bold new strategy or a dangerous precedent? Experts are divided on Trump’s memo.",
+      "summary": "Experts are debating the implications of a new memo from Donald Trump, which authorizes a significant philosophical shift in cybersecurity strategy. The move has prompted concerns regarding its legal, practical, and moral consequences.",
+      "date": "2026-08-13T22:19:07.000Z",
+      "link": "https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/",
+      "isTopTen": false
+    },
+    {
+      "id": "7040f783-2702-48a7-bbd3-0b7949397a24",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack",
+      "summary": "A former tech contractor for Brightly Software was sentenced to two years in prison for stealing proprietary data and sensitive employee information to extort the company. The perpetrator successfully extorted over $7,500 before facing legal consequences.",
+      "date": "2026-08-13T21:59:53.000Z",
+      "link": "https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/",
+      "isTopTen": false
+    },
     {
       "id": "504b2f0d-035c-40b0-86e3-9cb6936db5f4",
       "source": "Security Affairs",
@@ -10,6 +43,17 @@
       "summary": "Hackers are actively exploiting a critical unauthenticated remote code execution vulnerability in Adobe Commerce, designated as CVE-2026-71362, shortly after its public disclosure. The flaw allows attackers to hijack customer accounts and access sensitive private information.",
       "date": "2026-08-13T17:48:54.000Z",
       "link": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7b833da1-509a-4be1-86c5-cd50c413eeba",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Metabase, Windows, and Cisco Secure Firewall flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Metabase, Windows, and Cisco Secure Firewall. These additions indicate that these vulnerabilities are currently being actively exploited in the wild.",
+      "date": "2026-08-13T17:12:45.000Z",
+      "link": "https://securityaffairs.com/197110/hacking/u-s-cisa-adds-metabase-windows-and-cisco-secure-firewall-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
       "isTopTen": true
     },
     {
@@ -142,7 +186,7 @@
       "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the public release of proof-of-concept code. The flaw allows unauthorized users to impersonate others to access or modify data.",
       "date": "2026-08-13T13:05:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/microsoft-sharepoint-cve-2026-55040-poc-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5b58f112-6ecf-43b2-b250-89b59152fe3b",
@@ -538,7 +582,7 @@
       "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
       "date": "2026-08-12T11:47:38.000Z",
       "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
@@ -5455,50 +5499,6 @@
       "summary": "Okta has acquired Permiso to enhance its identity threat detection capabilities and gain better visibility into AI agent activities within enterprise environments.",
       "date": "2026-07-30T20:47:37.000Z",
       "link": "https://cyberscoop.com/okta-acquires-permiso-security-ai-identity-threat-detection/",
-      "isTopTen": false
-    },
-    {
-      "id": "7de113c4-de46-45c6-92af-15e132ffb324",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Why brand impersonation is becoming an initial access vector",
-      "summary": "Brand impersonation is evolving into a primary initial access vector as attackers leverage fake websites and malicious applications to deliver malware, as evidenced by recent large-scale poisoning of over 700 reputable domains. This trend necessitates rapid incident response and takedown capabilities to mitigate the effectiveness of social engineering campaigns like ClickFix.",
-      "date": "2026-07-30T19:32:42.000Z",
-      "link": "https://securityaffairs.com/196359/hacking/why-brand-impersonation-is-becoming-an-initial-access-vector.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a25c456d-d5ac-4c88-9ed5-60e365a364a8",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Semiconductor chip titan Analog Devices reports data breach",
-      "summary": "Semiconductor manufacturer Analog Devices has confirmed a data breach involving unauthorized exfiltration of network data. The company is currently investigating the full scope and impact of the incident.",
-      "date": "2026-07-30T19:10:00.000Z",
-      "link": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
-      "isTopTen": false
-    },
-    {
-      "id": "1bd1c792-8593-4069-a2fa-6689dc8c4943",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "CISA issues recommendations to federal agencies on open-source software security",
-      "summary": "CISA has released new security guidance for federal agencies regarding the use and management of open-source software, covering topics such as patch management and open-weight AI models.",
-      "date": "2026-07-30T18:24:17.000Z",
-      "link": "https://cyberscoop.com/cisa-open-source-software-security-guidance/",
-      "isTopTen": false
-    },
-    {
-      "id": "d2597bce-dad5-4e9f-9a22-f0528fc62f26",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-      "summary": "North Korean-linked threat actors are targeting macOS users through a sophisticated malvertising campaign that uses fake update screens to distribute crypto-stealing malware. This attack represents an evolution of the ongoing 'Contagious Interview' operation.",
-      "date": "2026-07-30T18:18:24.000Z",
-      "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
       "isTopTen": false
     }
   ]
