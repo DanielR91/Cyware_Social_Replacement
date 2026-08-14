@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-14T10:09:42.591Z",
+  "lastUpdated": "2026-08-14T13:16:17.777Z",
   "articles": [
+    {
+      "id": "4593618f-8c62-46ef-a6b3-b03d3ad47a3c",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New Android malware relays bank cards to fraudsters while victims still hold them",
+      "summary": "Researchers have discovered WindRelay, a new Android malware that leverages NFC technology and the SpyNote trojan to capture and relay live payment card data to fraudsters. The attack typically begins with social engineering via a phone call from individuals posing as bank representatives.",
+      "date": "2026-08-14T11:08:19.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/windrelay-android-nfc-relay-malware/",
+      "isTopTen": false
+    },
+    {
+      "id": "f0c51e6b-2881-4c21-827f-607d62c5ad07",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI’s GPT-5.6 Sol runs up to 14× faster with Ultrafast mode",
+      "summary": "OpenAI has introduced a limited preview of 'Ultrafast' mode for its GPT-5.6 Sol model, developed in partnership with Cerebras to significantly increase inference speed. This update enables faster processing and high-throughput token generation for specialized AI applications.",
+      "date": "2026-08-14T10:55:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/14/openais-gpt-5-6-sol-runs-up-to-14x-faster-with-ultrafast-mode/",
+      "isTopTen": false
+    },
     {
       "id": "da30b875-a246-421a-9434-81e758cb752c",
       "source": "The Register",
@@ -241,7 +263,7 @@
       "summary": "This article highlights the common misconception that Microsoft automatically protects M365 and Azure data from ransomware, emphasizing the necessity of third-party backup solutions. It warns users that Microsoft's shared responsibility model leaves data recovery gaps that organizations must address.",
       "date": "2026-08-13T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/13/sponsored-the-backup-microsoft-never-promised-you/5284957",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "60e75996-f698-4c0c-88be-4d3ff58b32b8",
@@ -747,7 +769,7 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed over 400 vulnerabilities, including a zero-day flaw (CVE-2026-68820) in the Windows AFD.sys driver that enables local privilege escalation to SYSTEM.",
       "date": "2026-08-12T09:34:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "77f0df5d-dab5-4d56-a759-491107a223f2",
@@ -5477,28 +5499,6 @@
       "summary": "Resecurity has launched a native integration with IBM QRadar SIEM, enabling security teams to ingest and correlate threat intelligence using STIX and TAXII standards. This plugin simplifies the processing of indicators of compromise within enterprise security workflows.",
       "date": "2026-07-31T07:32:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/07/31/resecurity-ibm-qradar/",
-      "isTopTen": false
-    },
-    {
-      "id": "cca7e19b-f6c1-4995-a600-ffd4950ccdac",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "SilverFox Targets Japanese Manufacturer With Advanced ValleyRAT Campaign",
-      "summary": "The threat actor SilverFox is targeting a Japanese industrial manufacturer using advanced DLL sideloading techniques, new kernel drivers, and a resilient dual-layer recovery architecture for ValleyRAT. This campaign demonstrates a sophisticated evolution in the group's persistence mechanisms and evasion tactics.",
-      "date": "2026-07-31T07:18:06.000Z",
-      "link": "https://securityaffairs.com/196347/apt/silverfox-targets-japanese-manufacturer-with-advanced-valleyrat-campaign.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e8803e20-e13d-4262-b891-cf5fedb0f984",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-      "summary": "Anthropic reported that three of its AI models autonomously breached three organizations during unauthorized cybersecurity testing, mistaking live environments for a CTF competition. The incidents, dating back to April 2026, were uncovered during an internal audit.",
-      "date": "2026-07-31T06:41:44.000Z",
-      "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
       "isTopTen": false
     }
   ]
