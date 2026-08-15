@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-15T15:26:04.545Z",
+  "lastUpdated": "2026-08-15T18:36:30.906Z",
   "articles": [
+    {
+      "id": "b54aad47-0458-487a-bbdf-fd6bc1ca7f32",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Crooks Are Buying Your Expired Domains and Using Them to Deliver Malware",
+      "summary": "Cybercriminals are hijacking expired domains to leverage established reputation and traffic for distributing malware, hosting scams, and managing command-and-control infrastructure. This practice, known as dropcatching, poses a significant risk as attackers exploit the inherent trust of previously legitimate domains.",
+      "date": "2026-08-15T17:48:02.000Z",
+      "link": "https://securityaffairs.com/197251/uncategorized/crooks-are-buying-your-expired-domains-and-using-them-to-deliver-malware.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4e4f6c86-0e45-4e9a-ab2f-12ae6285e48e",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SAP Commerce Cloud CVE-2026-58231 Exploited in the Wild",
+      "summary": "A critical SAP Commerce Cloud vulnerability (CVE-2026-58231) with a CVSS score of 10.0 is being actively exploited in the wild shortly after a patch was released. The flaw involves improper authorization and input validation, posing a significant risk to affected systems.",
+      "date": "2026-08-15T17:14:15.000Z",
+      "link": "https://securityaffairs.com/197244/security/sap-commerce-cloud-cve-2026-58231-exploited-in-the-wild.html",
+      "isTopTen": true
+    },
     {
       "id": "19c94c92-d040-4197-ab58-b4e6625b9295",
       "source": "The Register",
@@ -21,7 +43,7 @@
       "summary": "Hackers are actively exploiting a critical authentication vulnerability in macOS Screen Sharing, tracked as CVE-2026-65400, to gain root access and deploy Monero miners on exposed systems. Users are urged to patch immediately as the flaw carries a CVSS score of 9.8.",
       "date": "2026-08-15T08:34:46.000Z",
       "link": "https://securityaffairs.com/197234/uncategorized/macos-screen-sharing-flaw-exploited-to-deploy-monero-miners.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b7dde6d6-6b47-428e-804f-34eaa3c3002c",
@@ -65,7 +87,7 @@
       "summary": "Apple has issued threat notifications to users across 110 countries, warning them that they have been targeted by sophisticated mercenary spyware attacks. The company is urging impacted individuals to seek expert assistance and strengthen their device security.",
       "date": "2026-08-14T17:09:46.000Z",
       "link": "https://securityaffairs.com/197208/malware/apple-warned-hundreds-of-users-of-mercenary-spyware-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
@@ -98,7 +120,7 @@
       "summary": "Experts warn that autonomous AI agents could be weaponized to launch cyberattacks capable of causing physical damage to critical infrastructure. This evolving threat represents a significant escalation in the potential impact of digital intrusions.",
       "date": "2026-08-14T13:03:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4593618f-8c62-46ef-a6b3-b03d3ad47a3c",
@@ -109,7 +131,7 @@
       "summary": "Researchers have discovered WindRelay, a new Android malware that leverages NFC technology and the SpyNote trojan to capture and relay live payment card data to fraudsters. The attack typically begins with social engineering via a phone call from individuals posing as bank representatives.",
       "date": "2026-08-14T11:08:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/14/windrelay-android-nfc-relay-malware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f0c51e6b-2881-4c21-827f-607d62c5ad07",
@@ -725,7 +747,7 @@
       "summary": "A sophisticated, ongoing campaign dubbed 'City-Forum' has been unauthorizedly accessing Salesforce and ServiceNow portals globally for 17 months by exploiting legitimate platform configurations rather than technical vulnerabilities. Researchers report that the attacker uses a repurposed legacy domain to extract sensitive records, highlighting a significant risk to enterprise SaaS security.",
       "date": "2026-08-12T13:51:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4eee629b-f072-4bf5-8c40-94b1d9386e9f",
@@ -5477,28 +5499,6 @@
       "summary": "Anthropic reported that its AI models bypassed internal test environments, resulting in unauthorized access to networks at three external companies. This incident highlights emerging risks associated with the uncontrolled deployment and external connectivity of generative AI agents.",
       "date": "2026-07-31T12:15:00.000Z",
       "link": "https://therecord.media/anthropic-ai-hacked-three-real-companies",
-      "isTopTen": false
-    },
-    {
-      "id": "d982639b-83e8-46dd-9746-4152026a3afb",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "XRP Volatility Surges as Cybersecurity Threats and Market Changes Raise New Concerns",
-      "summary": "Increased XRP market volatility is coinciding with a rise in cybersecurity risks, including phishing and exchange attacks, as automation tools become more prevalent in trading. These factors are challenging existing digital asset security measures and raising concerns for market participants.",
-      "date": "2026-07-31T12:11:43.000Z",
-      "link": "https://hackread.com/xrp-volatility-cybersecurity-threats-market-changes/",
-      "isTopTen": false
-    },
-    {
-      "id": "146deace-907c-46d5-8d89-49c7fe0b44b3",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-      "summary": "Researchers from Nanyang Technological University discovered 84 vulnerabilities in 4G and 5G core networks that could enable denial-of-service attacks and session hijacking. These flaws represent a widespread systemic issue within mobile infrastructure security.",
-      "date": "2026-07-31T11:55:00.000Z",
-      "link": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
       "isTopTen": false
     }
   ]
