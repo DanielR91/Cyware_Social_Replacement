@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-15T06:44:56.984Z",
+  "lastUpdated": "2026-08-15T09:31:07.493Z",
   "articles": [
+    {
+      "id": "4e3d29b0-c05e-477c-b7cb-477af6b9fa68",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "macOS Screen Sharing Flaw Exploited to Deploy Monero Miners",
+      "summary": "Hackers are actively exploiting a critical authentication vulnerability in macOS Screen Sharing, tracked as CVE-2026-65400, to gain root access and deploy Monero miners on exposed systems. Users are urged to patch immediately as the flaw carries a CVSS score of 9.8.",
+      "date": "2026-08-15T08:34:46.000Z",
+      "link": "https://securityaffairs.com/197234/uncategorized/macos-screen-sharing-flaw-exploited-to-deploy-monero-miners.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b7dde6d6-6b47-428e-804f-34eaa3c3002c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "GeoServer Zero-Day Is Already Being Probed. That’s the Problem",
+      "summary": "An unpatched zero-day vulnerability in GeoServer, enabling SQL injection and potential remote code execution, is currently being actively probed by threat actors. Organizations using the platform are urged to monitor for exposure while awaiting a fix.",
+      "date": "2026-08-15T07:18:21.000Z",
+      "link": "https://securityaffairs.com/197216/hacking/geoserver-zero-day-is-already-being-probed-thats-the-problem.html",
+      "isTopTen": true
+    },
     {
       "id": "f5263c8a-f72e-4d42-ac93-23b38215354f",
       "source": "The Record",
@@ -43,7 +65,7 @@
       "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
       "date": "2026-08-14T14:27:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
@@ -274,7 +296,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Metabase, Windows, and Cisco Secure Firewall. These additions indicate that these vulnerabilities are currently being actively exploited in the wild.",
       "date": "2026-08-13T17:12:45.000Z",
       "link": "https://securityaffairs.com/197110/hacking/u-s-cisa-adds-metabase-windows-and-cisco-secure-firewall-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4a4c8daf-840f-4360-86ef-dfb7061bd5ea",
@@ -417,7 +439,7 @@
       "summary": "Germany has approved major legislative reforms granting its intelligence agencies expanded powers to conduct offensive cyber operations, including hacking foreign systems and sabotage. This represents the most significant shift in the country's postwar espionage policy.",
       "date": "2026-08-13T12:45:00.000Z",
       "link": "https://therecord.media/germany-spy-agency-powers",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4409e5d2-0570-42f7-84f5-fe19b4e0c59a",
@@ -549,7 +571,7 @@
       "summary": "DDoS attacks reached record scales in the first half of 2026, characterized by more frequent 1 Tbps+ campaigns, increased automation, and shorter, more intense traffic floods. These hyper-volumetric network-layer attacks are leveraging multi-vector techniques to disrupt services across various sectors.",
       "date": "2026-08-13T04:30:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/cloudflare-h1-2026-ddos-trends-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1d219463-779f-413f-bba2-d46b20e5bbe6",
@@ -593,7 +615,7 @@
       "summary": "Taiwan's Nuclear Safety Commission was targeted by 'near-autonomous' AI-driven agents, marking a sophisticated evolution in cyber warfare tactics. The incident highlights the growing threat posed by agentic swarms capable of executing complex attacks with minimal human oversight.",
       "date": "2026-08-12T21:45:16.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e75d448a-ef91-46bd-9347-1db39f33ff16",
@@ -626,7 +648,7 @@
       "summary": "China-linked hackers reportedly conducted the first fully autonomous, AI-driven cyberattack against a Taiwanese government network, successfully breaching systems and stealing data with minimal human intervention. This operation marks a significant escalation in the use of autonomous agents for end-to-end cyber espionage.",
       "date": "2026-08-12T17:58:44.000Z",
       "link": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1614b2b0-76b0-47cd-a775-e7b5ea7019a4",
@@ -5477,28 +5499,6 @@
       "summary": "Device code phishing is rapidly escalating from a niche technique into a major cybersecurity threat by exploiting OAuth 2.0 device authorization flows. This method targets the trust mechanisms intended for input-constrained devices to steal access tokens on an industrial scale.",
       "date": "2026-07-31T11:24:59.000Z",
       "link": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c78a2c05-e152-482f-9ab3-002c1cf3d20c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-      "summary": "A threat actor identified as knaithe is utilizing the DeepSeek AI model integrated into the Hermes Agent framework to execute autonomous, self-directed cyberattacks. This development signifies a shift toward AI-driven exploit selection without requiring constant manual operator input.",
-      "date": "2026-07-31T11:21:27.000Z",
-      "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7cd41ac7-47c9-4005-8bf1-6026fc36057b",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version",
-      "summary": "Unit 42 researchers have analyzed a new version of the XCSSET macOS malware, which specifically targets developers by compromising Xcode project files. The update, version 40, employs sophisticated techniques that were decoded using advanced pattern matching and AI analysis.",
-      "date": "2026-07-31T10:00:18.000Z",
-      "link": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
       "isTopTen": false
     }
   ]
