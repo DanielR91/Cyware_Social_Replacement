@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-16T15:26:38.659Z",
+  "lastUpdated": "2026-08-16T18:36:10.507Z",
   "articles": [
+    {
+      "id": "71918693-4efd-455d-954c-50ac526e37e6",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 110",
+      "summary": "This newsletter highlights recent malware trends, including the Kimsuky group's integration of AI into their attack operations and the evolution of the Kimwolf botnet. It also features security advisories from CISA and the FBI regarding emerging threats.",
+      "date": "2026-08-16T17:43:31.000Z",
+      "link": "https://securityaffairs.com/197314/malware/security-affairs-malware-newsletter-round-110.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1ed6c0c6-f044-4b2a-a041-7eb30936685f",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Mustang Panda Upgrades CoolClient With a Kernel Rootkit",
+      "summary": "The advanced persistent threat actor Mustang Panda has upgraded its CoolClient backdoor by incorporating a signed kernel-mode driver, enabling stealthier persistence and evasion. This enhancement allows the malware to hide malicious files, processes, and network activity on compromised Windows systems.",
+      "date": "2026-08-16T17:15:46.000Z",
+      "link": "https://securityaffairs.com/197274/apt/mustang-panda-upgrades-coolclient-with-a-kernel-rootkit.html",
+      "isTopTen": true
+    },
     {
       "id": "5f73a33b-ed8d-4260-80e8-7cf2b250580e",
       "source": "The Register",
@@ -57,6 +79,17 @@
       "isTopTen": false
     },
     {
+      "id": "c8f77374-889b-4e48-8340-2158911022e1",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Crooks Are Buying Your Expired Domains and Using Them to Deliver Malware",
+      "summary": "Threat actors are increasingly purchasing expired, reputable domains to host malware, scams, and command-and-control infrastructure. This technique exploits the established domain history to bypass security filters and deceive users.",
+      "date": "2026-08-15T17:48:02.000Z",
+      "link": "https://securityaffairs.com/197251/cyber-crime/crooks-are-buying-your-expired-domains-and-using-them-to-deliver-malware.html",
+      "isTopTen": false
+    },
+    {
       "id": "b54aad47-0458-487a-bbdf-fd6bc1ca7f32",
       "source": "Security Affairs",
       "tag": "Threat Intel & Info Sharing",
@@ -76,7 +109,7 @@
       "summary": "A critical SAP Commerce Cloud vulnerability (CVE-2026-58231) with a CVSS score of 10.0 is being actively exploited in the wild shortly after a patch was released. The flaw involves improper authorization and input validation, posing a significant risk to affected systems.",
       "date": "2026-08-15T17:14:15.000Z",
       "link": "https://securityaffairs.com/197244/security/sap-commerce-cloud-cve-2026-58231-exploited-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19c94c92-d040-4197-ab58-b4e6625b9295",
@@ -87,7 +120,7 @@
       "summary": "The ChainDrop worm, identified as a Shai-Hulud variant, has compromised 444 npm packages using malicious tarballs and development tool hooks to bypass standard security measures.",
       "date": "2026-08-15T10:31:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4e3d29b0-c05e-477c-b7cb-477af6b9fa68",
@@ -109,7 +142,7 @@
       "summary": "An unpatched zero-day vulnerability in GeoServer, enabling SQL injection and potential remote code execution, is currently being actively probed by threat actors. Organizations using the platform are urged to monitor for exposure while awaiting a fix.",
       "date": "2026-08-15T07:18:21.000Z",
       "link": "https://securityaffairs.com/197216/hacking/geoserver-zero-day-is-already-being-probed-thats-the-problem.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f5263c8a-f72e-4d42-ac93-23b38215354f",
@@ -142,7 +175,7 @@
       "summary": "Apple has issued threat notifications to users across 110 countries, warning them that they have been targeted by sophisticated mercenary spyware attacks. The company is urging impacted individuals to seek expert assistance and strengthen their device security.",
       "date": "2026-08-14T17:09:46.000Z",
       "link": "https://securityaffairs.com/197208/malware/apple-warned-hundreds-of-users-of-mercenary-spyware-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
@@ -252,7 +285,7 @@
       "summary": "Approximately 7.3 million Chess.com user records were leaked online, with initial evidence suggesting the data was harvested via large-scale scraping rather than a direct server breach.",
       "date": "2026-08-14T08:24:21.000Z",
       "link": "https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "56a811c9-58e3-4c2d-a2cf-2620466177d1",
@@ -516,7 +549,7 @@
       "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the public release of proof-of-concept code. The flaw allows unauthorized users to impersonate others to access or modify data.",
       "date": "2026-08-13T13:05:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/microsoft-sharepoint-cve-2026-55040-poc-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5b58f112-6ecf-43b2-b250-89b59152fe3b",
@@ -527,7 +560,7 @@
       "summary": "Germany has approved major legislative reforms granting its intelligence agencies expanded powers to conduct offensive cyber operations, including hacking foreign systems and sabotage. This represents the most significant shift in the country's postwar espionage policy.",
       "date": "2026-08-13T12:45:00.000Z",
       "link": "https://therecord.media/germany-spy-agency-powers",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4409e5d2-0570-42f7-84f5-fe19b4e0c59a",
@@ -5466,39 +5499,6 @@
       "summary": "Researchers discovered that inexpensive Android TV boxes are being pre-installed with malware that mimics mobile hardware to facilitate ad fraud and turn user broadband connections into illicit proxies. The operation, dubbed Fuyao, is linked to a China-based company.",
       "date": "2026-07-31T14:45:01.000Z",
       "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a7f90605-df20-43e3-9c9f-eafcb7518c7f",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Charities remain locked out of CAF Bank online accounts",
-      "summary": "CAF Bank customers, including 14,000 charities, remain unable to access their online accounts a week after a service shutdown, causing significant operational disruptions. The lack of a restoration timeline has hindered the organizations' ability to process essential payments like staff salaries.",
-      "date": "2026-07-31T13:55:00.000Z",
-      "link": "https://www.theregister.com/security/2026/07/31/charities-remain-locked-out-of-caf-bank-online-accounts/5281711",
-      "isTopTen": false
-    },
-    {
-      "id": "32de4fcc-8a52-4bac-b445-2c2b149029e9",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Google AI Supercharges Chrome Security, Fixing 1,072 Bugs",
-      "summary": "Google has successfully integrated AI models into its security pipeline, allowing for the identification and remediation of 1,072 vulnerabilities within two Chrome releases. This implementation demonstrates a significant advancement in automated vulnerability management and software patching efficiency.",
-      "date": "2026-07-31T13:46:45.000Z",
-      "link": "https://securityaffairs.com/196408/ai/google-ai-supercharges-chrome-security-fixing-1072-bugs.html",
-      "isTopTen": false
-    },
-    {
-      "id": "356eeeec-304d-42bd-881b-536d4079fa79",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Wordfence Finds Critical Backdoor in ARVE WordPress Plugin",
-      "summary": "Security researchers at Wordfence discovered a critical backdoor in the ARVE WordPress plugin that allowed attackers to gain unauthorized administrator access. WordPress.org intervened by blocking the distribution of the affected plugin version to prevent widespread exploitation.",
-      "date": "2026-07-31T13:07:14.000Z",
-      "link": "https://hackread.com/wordfence-critical-backdoor-arve-wordpress-plugin/",
       "isTopTen": false
     }
   ]
