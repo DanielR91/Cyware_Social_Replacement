@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-08-17T09:49:06.157Z",
+  "lastUpdated": "2026-08-17T12:54:55.724Z",
   "articles": [
+    {
+      "id": "54334d13-fd4f-4013-888a-111805fda9e1",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ukraine says cyberattack hit Russian e-commerce giant Wildberries amid drone strikes",
+      "summary": "Ukraine’s military intelligence claimed responsibility for a cyberattack against the Russian e-commerce company Wildberries, aiming to exacerbate the operational damage caused by simultaneous drone strikes.",
+      "date": "2026-08-17T12:30:00.000Z",
+      "link": "https://therecord.media/russia-wildberries-cyberattack-ukraine",
+      "isTopTen": false
+    },
+    {
+      "id": "60056fcc-cea6-458c-b786-9fe2d28859bd",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers exploit patched macOS Screen Sharing flaw to deploy cryptominer",
+      "summary": "Hackers are actively exploiting a patched authentication bypass vulnerability in macOS Screen Sharing to gain root access and deploy cryptominers. Users are urged to install the latest security updates to mitigate this risk.",
+      "date": "2026-08-17T12:23:15.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/apple-macos-screen-sharing-flaw/",
+      "isTopTen": false
+    },
+    {
+      "id": "a9e86110-3e3b-45dc-ae8a-ba9ba1b118f8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "summary": "The Model Context Protocol (MCP) introduces security risks such as plaintext configuration vulnerabilities, excessive permissions, and prompt injection, which could allow AI agents to expose sensitive enterprise data. These threats are compounded by the rapid adoption of AI agents, often occurring outside the visibility of security teams.",
+      "date": "2026-08-17T11:58:00.000Z",
+      "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "isTopTen": false
+    },
+    {
+      "id": "83af0aa0-d2ec-48ef-b00b-9bfe8f7ca6c6",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "summary": "Security researchers have identified a two-stage exploit chain targeting Unisoc modem firmware that allows attackers to gain full Android kernel access via a VoLTE video call. The vulnerability currently lacks a fix from the chipset manufacturer.",
+      "date": "2026-08-17T10:52:34.000Z",
+      "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "isTopTen": true
+    },
+    {
+      "id": "602b5e38-7088-4a17-b2e8-58a38da037a3",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "SafePal breach affects 39,798 customers, data allegedly for sale",
+      "summary": "Cryptocurrency wallet provider SafePal reported a data breach exposing the personal information of nearly 40,000 customers due to an authorization flaw in an order-tracking plug-in. The incident, spanning orders from March 2025 to April 2026, resulted in names, contact details, and purchase history being accessed and allegedly offered for sale.",
+      "date": "2026-08-17T10:29:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/safepal-data-breach-customer-order-information/",
+      "isTopTen": false
+    },
+    {
+      "id": "ecce50b3-1a87-4414-a219-6b5e1dd0b051",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+      "summary": "Evooo1Bot is a newly discovered Linux botnet that leverages Mirai source code to compromise internet-facing edge devices and repurpose them as SOCKS5 proxies. The malware exploits known vulnerabilities to establish its network, extending the capabilities of the original Mirai framework.",
+      "date": "2026-08-17T09:29:55.000Z",
+      "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "isTopTen": false
+    },
     {
       "id": "82d78c27-7afa-4cac-86e4-6dd364a9b7a1",
       "source": "Security Affairs",
@@ -21,7 +87,7 @@
       "summary": "German and Brazilian authorities dismantled an international cybercrime ring that exploited a flaw in a booking process to steal €30 million from a German financial institution. The coordinated operation resulted in four arrests in Brazil, with further suspects identified in Spain and Bulgaria.",
       "date": "2026-08-17T08:08:30.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "33bdacd4-2f3d-4ce3-ba6a-291810e4fa3b",
@@ -33,6 +99,17 @@
       "date": "2026-08-17T07:58:47.000Z",
       "link": "https://securityaffairs.com/197322/cyber-crime/mcdonalds-employee-data-appears-in-leak-seller-claims-1-7m-records-stolen.html",
       "isTopTen": false
+    },
+    {
+      "id": "7b502b73-c365-43de-9264-d68b4811b718",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+      "summary": "A suspected China-linked APT is exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter to deploy Babuk-derived ransomware. The flaw carries a CVSS score of 9.8 and allows for remote code execution.",
+      "date": "2026-08-17T07:36:19.000Z",
+      "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "isTopTen": true
     },
     {
       "id": "f3b0e2b3-1857-43f9-98d6-9d7cade7ee0f",
@@ -54,7 +131,7 @@
       "summary": "Researchers discovered a technique named 'Download More RAM' that allows attackers with existing privileged access to bypass Windows 11's security defenses by exploiting configuration chips on DIMMs.",
       "date": "2026-08-17T05:30:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7317bf20-f059-4796-8087-1a24780581c5",
@@ -142,7 +219,7 @@
       "summary": "The advanced persistent threat actor Mustang Panda has upgraded its CoolClient backdoor by incorporating a signed kernel-mode driver, enabling stealthier persistence and evasion. This enhancement allows the malware to hide malicious files, processes, and network activity on compromised Windows systems.",
       "date": "2026-08-16T17:15:46.000Z",
       "link": "https://securityaffairs.com/197274/apt/mustang-panda-upgrades-coolclient-with-a-kernel-rootkit.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f73a33b-ed8d-4260-80e8-7cf2b250580e",
@@ -164,7 +241,7 @@
       "summary": "A sophisticated cyberattack on France’s tax agency resulted in the theft of sensitive income and tax data belonging to 678,000 individuals and businesses. The incident has triggered an official criminal investigation by the national cybercrime unit.",
       "date": "2026-08-16T08:55:16.000Z",
       "link": "https://securityaffairs.com/197287/cyber-crime/sophisticated-cyberattack-exposes-data-of-678000-french-taxpayers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a436202-2aca-4ba6-9ca5-390277a7ee49",
@@ -244,6 +321,17 @@
       "isTopTen": false
     },
     {
+      "id": "a5406175-fcac-4c45-93fe-140d763a0618",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+      "summary": "SAP Commerce Cloud is facing active exploitation attempts targeting a maximum-severity, 10.0 CVSS vulnerability (CVE-2026-58231) shortly after a patch was released. The flaw allows unauthenticated attackers to bypass authorization and validation controls.",
+      "date": "2026-08-15T08:38:46.000Z",
+      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+      "isTopTen": false
+    },
+    {
       "id": "4e3d29b0-c05e-477c-b7cb-477af6b9fa68",
       "source": "Security Affairs",
       "tag": "Malware and Vulnerabilities",
@@ -252,6 +340,17 @@
       "summary": "Hackers are actively exploiting a critical authentication vulnerability in macOS Screen Sharing, tracked as CVE-2026-65400, to gain root access and deploy Monero miners on exposed systems. Users are urged to patch immediately as the flaw carries a CVSS score of 9.8.",
       "date": "2026-08-15T08:34:46.000Z",
       "link": "https://securityaffairs.com/197234/uncategorized/macos-screen-sharing-flaw-exploited-to-deploy-monero-miners.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1e5fd32c-62f5-4140-a975-8c09cbcd9b8f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
+      "summary": "A critical authentication vulnerability in Apple's macOS Screen Sharing component is being actively exploited to install unauthorized cryptocurrency miners on exposed devices. The flaw has been patched, and users are advised to update their systems to mitigate risks.",
+      "date": "2026-08-15T07:24:04.000Z",
+      "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
       "isTopTen": false
     },
     {
@@ -277,6 +376,17 @@
       "isTopTen": false
     },
     {
+      "id": "6d722821-3b8b-4f96-82e7-d43d25c435fe",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
+      "summary": "Threat actors are weaponizing expired domains by purchasing them to hijack established traffic and redirect users to malicious scams and malware campaigns. This large-scale operation exploits the reputation of previously legitimate sites to deceive victims.",
+      "date": "2026-08-14T18:48:46.000Z",
+      "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
+      "isTopTen": false
+    },
+    {
       "id": "5b66df91-0112-407e-a59b-726ddb269fdf",
       "source": "The Register",
       "tag": "Breaches and Incidents",
@@ -296,7 +406,7 @@
       "summary": "Apple has issued threat notifications to users across 110 countries, warning them that they have been targeted by sophisticated mercenary spyware attacks. The company is urging impacted individuals to seek expert assistance and strengthen their device security.",
       "date": "2026-08-14T17:09:46.000Z",
       "link": "https://securityaffairs.com/197208/malware/apple-warned-hundreds-of-users-of-mercenary-spyware-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
@@ -307,7 +417,7 @@
       "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
       "date": "2026-08-14T14:27:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
@@ -725,7 +835,7 @@
       "summary": "A massive 153GB data leak originating from a supply chain attack on LiteLLM has exposed sensitive credentials across thousands of corporate domains, including major tech firms. Security firm Hudson Rock is currently managing a global disclosure process to notify the affected organizations.",
       "date": "2026-08-13T10:32:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/litellm-breach-stolen-credentials-leak/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6a770f13-2667-4b12-aa0d-f6a4201b8017",
@@ -769,7 +879,7 @@
       "summary": "The North Korean Lazarus Group is leveraging a Windows zero-day vulnerability to target defense industry professionals through fake job offers in an updated version of their Operation Dream Job campaign. This sophisticated attack utilizes malicious lures to deploy backdoors and bypass existing security controls.",
       "date": "2026-08-13T07:05:03.000Z",
       "link": "https://securityaffairs.com/197098/uncategorized/north-korean-lazarus-group-uses-windows-zero-day-in-operation-dream-job.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8eae157f-e67f-4e8c-bf7b-7a1ceb83959d",
@@ -5389,116 +5499,6 @@
       "summary": "This newsletter provides an overview of recent malware campaigns and research, covering topics ranging from modular MaaS ecosystems and DPRK-linked social engineering kits to advanced browser-based malware delivery.",
       "date": "2026-08-02T17:53:23.000Z",
       "link": "https://securityaffairs.com/196475/security/security-affairs-malware-newsletter-round-108.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c2b3b273-10ea-49f1-8b0d-33ec07cbdf78",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Security Affairs newsletter Round 588 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "summary": "The Security Affairs newsletter highlights recent cybersecurity developments, including a Russian hacking campaign targeting hotel Wi-Fi to steal Microsoft 365 tokens and a critical vulnerability fix from Adobe.",
-      "date": "2026-08-02T17:14:10.000Z",
-      "link": "https://securityaffairs.com/196466/security/security-affairs-newsletter-round-588-by-pierluigi-paganini-international-edition.html",
-      "isTopTen": false
-    },
-    {
-      "id": "47e0bbea-6abf-4937-8d41-bd5cfe622d0f",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "SabPaisa Partners with AccuKnox for Zero Trust AI-Powered Cloud Security to Secure Its Payments Platform",
-      "summary": "SabPaisa has entered into a strategic partnership with AccuKnox to integrate Zero Trust AI-powered cloud security protocols into its payment platform. This collaboration aims to bolster the infrastructure's resilience against evolving cybersecurity threats.",
-      "date": "2026-08-02T17:00:57.000Z",
-      "link": "https://hackread.com/sabpaisa-partners-with-accuknox-for-zero-trust-ai-powered-cloud-security-to-secure-its-payments-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "79578e89-5946-46b1-bc83-57b5ea9e7b7e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Week in review: Claude breached three companies during tests, AD CS domain-takeover PoC released",
-      "summary": "The weekly cybersecurity roundup highlights AI-related security risks, including Claude's successful penetration testing of three companies, and the release of a Proof-of-Concept for AD CS domain takeovers. It also introduces Nono, an open-source sandbox designed to mitigate security threats from AI coding agents.",
-      "date": "2026-08-02T08:00:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "2dee23e5-4c0f-48a2-81af-079e481219f8",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "CISA Urges Utilities to Remove Internet-Exposed PLCs After Minnesota Attacks",
-      "summary": "CISA has issued a directive for utility providers to secure operational technology by removing internet-exposed programmable logic controllers (PLCs) following a coordinated cyberattack on over 30 Minnesota water systems.",
-      "date": "2026-08-02T05:06:33.000Z",
-      "link": "https://securityaffairs.com/196453/ics-scada/cisa-urges-utilities-to-remove-internet-exposed-plcs-after-minnesota-attacks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "43dff530-c482-4aef-8b45-ffd93808f4ef",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-      "summary": "A firmware flaw in Coinkite's Coldcard hardware wallet, stemming from a 2021 integration error, was exploited to steal over $70 million in Bitcoin in under an hour. The vulnerability allowed attackers to compromise 1,196 addresses due to flawed seed generation.",
-      "date": "2026-08-01T17:17:22.000Z",
-      "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "94c2c29e-4cbe-4cf2-972f-b7606fe0e55b",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Russian Hackers Hijack Hotel Wi-Fi to Steal Microsoft 365 Tokens",
-      "summary": "Russian state-linked threat actor Storm-2945 is using compromised hotel Wi-Fi portals to launch DNS manipulation attacks that distribute malware and harvest Microsoft 365 authentication tokens. The campaign, dubbed CaptiveCrunch, specifically targets travelers to gain unauthorized access to corporate accounts.",
-      "date": "2026-08-01T14:11:37.000Z",
-      "link": "https://securityaffairs.com/196441/apt/russian-hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-tokens.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e0538b38-f8a9-4866-9345-2b0f0b301226",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Adobe fixed a maximum-severity vulnerability flaw in Campaign Classic",
-      "summary": "Adobe has patched a critical CVSS 10.0 remote code execution vulnerability in its Campaign Classic platform caused by improper authorization. Attackers could potentially exploit this flaw to execute code remotely without requiring user interaction.",
-      "date": "2026-08-01T12:31:34.000Z",
-      "link": "https://securityaffairs.com/196429/security/adobe-fixed-a-maximum-severity-vulnerability-flaw-in-campaign-classic.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c2528299-7643-4091-83cb-e9f4c6c8595c",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "summary": "Hackers compromised an Adform JavaScript file to redirect cryptocurrency transactions by swapping wallet addresses on various customer websites. The malicious script was identified and removed by Adform on July 27, 2026, following the breach of their advertising infrastructure.",
-      "date": "2026-08-01T09:03:07.000Z",
-      "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "isTopTen": false
-    },
-    {
-      "id": "406c4bec-64b1-4fa7-bc75-8c235f4bb937",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-      "summary": "Adobe has released a critical security patch for Campaign Classic to address a maximum-severity authorization vulnerability that allows for unauthenticated arbitrary code execution.",
-      "date": "2026-08-01T07:12:42.000Z",
-      "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3b65e3a1-808e-47b4-b235-df5421839e75",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-      "summary": "Threat actors linked to Midnight Blizzard are using hijacked hotel Wi-Fi networks to distribute the CornFlake remote access trojan via fake browser update prompts. This malware allows attackers to surveil victims by capturing webcam images, microphone audio, and keystrokes.",
-      "date": "2026-08-01T06:29:05.000Z",
-      "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
       "isTopTen": false
     }
   ]
