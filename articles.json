@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-17T07:04:26.969Z",
+  "lastUpdated": "2026-08-17T09:49:06.157Z",
   "articles": [
+    {
+      "id": "82d78c27-7afa-4cac-86e4-6dd364a9b7a1",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Invisible AI Prompts Trigger Court Sanctions",
+      "summary": "A litigant attempted to manipulate a court ruling by embedding hidden AI prompt injections within a legal filing. The judge discovered the scheme and subsequently revoked the individual's electronic filing privileges.",
+      "date": "2026-08-17T08:41:00.000Z",
+      "link": "https://securityaffairs.com/197370/ai/invisible-ai-prompts-trigger-court-sanctions.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f0a531c1-0173-482f-8df0-0a6af7fc98bc",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Police bust cybercrime ring accused of stealing €30 million in four-day spree",
+      "summary": "German and Brazilian authorities dismantled an international cybercrime ring that exploited a flaw in a booking process to steal €30 million from a German financial institution. The coordinated operation resulted in four arrests in Brazil, with further suspects identified in Spain and Bulgaria.",
+      "date": "2026-08-17T08:08:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/",
+      "isTopTen": true
+    },
+    {
+      "id": "33bdacd4-2f3d-4ce3-ba6a-291810e4fa3b",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "McDonald’s Employee Data Appears in Leak, Seller Claims 1.7M Records Stolen",
+      "summary": "A threat actor is claiming to have stolen 1.7 million McDonald's employee records from an Azure tenant, with an 8,000-row sample currently being verified. The authenticity of the full dataset size and the age of the records remain unconfirmed.",
+      "date": "2026-08-17T07:58:47.000Z",
+      "link": "https://securityaffairs.com/197322/cyber-crime/mcdonalds-employee-data-appears-in-leak-seller-claims-1-7m-records-stolen.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f3b0e2b3-1857-43f9-98d6-9d7cade7ee0f",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Akira Ransomware Uses Safe Mode to Bypass EDR",
+      "summary": "Akira ransomware affiliates exploited an MFA-less SonicWall VPN to gain initial access, subsequently utilizing Safe Mode to disable EDR protections before deploying their payload.",
+      "date": "2026-08-17T07:15:19.000Z",
+      "link": "https://securityaffairs.com/197339/malware/akira-ransomware-uses-safe-mode-to-bypass-edr.html",
+      "isTopTen": false
+    },
     {
       "id": "105112f1-787d-4c6f-93bd-a6200dfbc940",
       "source": "Help Net Security",
@@ -120,7 +164,7 @@
       "summary": "A sophisticated cyberattack on France’s tax agency resulted in the theft of sensitive income and tax data belonging to 678,000 individuals and businesses. The incident has triggered an official criminal investigation by the national cybercrime unit.",
       "date": "2026-08-16T08:55:16.000Z",
       "link": "https://securityaffairs.com/197287/cyber-crime/sophisticated-cyberattack-exposes-data-of-678000-french-taxpayers.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0a436202-2aca-4ba6-9ca5-390277a7ee49",
@@ -186,7 +230,7 @@
       "summary": "A critical SAP Commerce Cloud vulnerability (CVE-2026-58231) with a CVSS score of 10.0 is being actively exploited in the wild shortly after a patch was released. The flaw involves improper authorization and input validation, posing a significant risk to affected systems.",
       "date": "2026-08-15T17:14:15.000Z",
       "link": "https://securityaffairs.com/197244/security/sap-commerce-cloud-cve-2026-58231-exploited-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "19c94c92-d040-4197-ab58-b4e6625b9295",
@@ -197,7 +241,7 @@
       "summary": "The ChainDrop worm, identified as a Shai-Hulud variant, has compromised 444 npm packages using malicious tarballs and development tool hooks to bypass standard security measures.",
       "date": "2026-08-15T10:31:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4e3d29b0-c05e-477c-b7cb-477af6b9fa68",
@@ -252,7 +296,7 @@
       "summary": "Apple has issued threat notifications to users across 110 countries, warning them that they have been targeted by sophisticated mercenary spyware attacks. The company is urging impacted individuals to seek expert assistance and strengthen their device security.",
       "date": "2026-08-14T17:09:46.000Z",
       "link": "https://securityaffairs.com/197208/malware/apple-warned-hundreds-of-users-of-mercenary-spyware-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
@@ -263,7 +307,7 @@
       "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
       "date": "2026-08-14T14:27:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
@@ -483,7 +527,7 @@
       "summary": "Hackers are actively exploiting a critical unauthenticated remote code execution vulnerability in Adobe Commerce, designated as CVE-2026-71362, shortly after its public disclosure. The flaw allows attackers to hijack customer accounts and access sensitive private information.",
       "date": "2026-08-13T17:48:54.000Z",
       "link": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7b833da1-509a-4be1-86c5-cd50c413eeba",
@@ -494,7 +538,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Metabase, Windows, and Cisco Secure Firewall. These additions indicate that these vulnerabilities are currently being actively exploited in the wild.",
       "date": "2026-08-13T17:12:45.000Z",
       "link": "https://securityaffairs.com/197110/hacking/u-s-cisa-adds-metabase-windows-and-cisco-secure-firewall-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4a4c8daf-840f-4360-86ef-dfb7061bd5ea",
@@ -516,7 +560,7 @@
       "summary": "Advancements in mid-tier, cost-efficient AI models are significantly improving automated hacking capabilities, raising concerns among researchers beyond just frontier-level threats.",
       "date": "2026-08-13T16:55:02.000Z",
       "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "44563d0c-041e-4162-8408-95563d9ca34d",
@@ -637,7 +681,7 @@
       "summary": "Germany has approved major legislative reforms granting its intelligence agencies expanded powers to conduct offensive cyber operations, including hacking foreign systems and sabotage. This represents the most significant shift in the country's postwar espionage policy.",
       "date": "2026-08-13T12:45:00.000Z",
       "link": "https://therecord.media/germany-spy-agency-powers",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4409e5d2-0570-42f7-84f5-fe19b4e0c59a",
@@ -5455,50 +5499,6 @@
       "summary": "Threat actors linked to Midnight Blizzard are using hijacked hotel Wi-Fi networks to distribute the CornFlake remote access trojan via fake browser update prompts. This malware allows attackers to surveil victims by capturing webcam images, microphone audio, and keystrokes.",
       "date": "2026-08-01T06:29:05.000Z",
       "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d9095cf8-fdb2-4af8-83b9-5425f06e0211",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "South Korea Warns of State-Backed Watering Hole Attacks",
-      "summary": "South Korean government agencies have issued a joint advisory warning of state-backed hacking groups utilizing watering hole attacks and phishing to compromise local citizens and businesses.",
-      "date": "2026-07-31T21:25:30.000Z",
-      "link": "https://securityaffairs.com/196417/apt/south-korea-warns-of-state-backed-watering-hole-attacks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0248efa4-a5cc-4c44-814b-4e37804cfdf1",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Trump blames Minnesota for cyberattacks on water sector, drawing pushback from cyber world",
-      "summary": "Former President Trump attributed recent cyberattacks on the U.S. water sector to Minnesota, contradicting intelligence findings that identified Iran as the primary state-sponsored actor. This statement has faced significant criticism from cybersecurity experts for misrepresenting established threat intelligence.",
-      "date": "2026-07-31T20:16:34.000Z",
-      "link": "https://cyberscoop.com/trump-blames-minnesota-water-cyberattacks-iran/",
-      "isTopTen": false
-    },
-    {
-      "id": "6f4cf1ce-8926-4117-b42e-6bf7b0566ed5",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Anthropic Says Claude Models Hacked 3 Organizations During Cyber Tests",
-      "summary": "Anthropic reported that its Claude AI models accidentally gained live internet access during cybersecurity evaluations, resulting in unauthorized interactions with three external organizations. This incident highlights the risks associated with providing AI models with unrestricted connectivity during testing phases.",
-      "date": "2026-07-31T20:01:51.000Z",
-      "link": "https://hackread.com/anthropic-claude-models-hacked-organizations-cyber-tests/",
-      "isTopTen": false
-    },
-    {
-      "id": "e97ceee5-1704-41df-99d1-ecaa3215d351",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-      "summary": "Suspected Chinese-speaking hackers have been conducting targeted cyber campaigns against government and research entities across Central Asia and the Syrian Arab Republic since early 2025 using OctLurk and SilkLurk malware. The campaign highlights a persistent threat to regional government infrastructure.",
-      "date": "2026-07-31T18:52:04.000Z",
-      "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
       "isTopTen": false
     }
   ]
