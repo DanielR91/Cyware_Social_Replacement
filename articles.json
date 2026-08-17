@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-17T12:54:55.724Z",
+  "lastUpdated": "2026-08-17T15:31:04.473Z",
   "articles": [
+    {
+      "id": "259b79ac-0f2f-4f9d-94f9-2bef6d07f3f3",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "France’s tax authority admits hackers made off with data on 678,000 individuals",
+      "summary": "The French tax authority confirmed a data breach involving the unauthorized access of personal information for 678,000 individuals, following claims from a hacker attempting to sell the stolen data.",
+      "date": "2026-08-17T14:20:20.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/france-tax-authority-data-breach/",
+      "isTopTen": false
+    },
+    {
+      "id": "5993c31b-4f8d-4887-a95f-55578e894247",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Fortinet expands AI security portfolio with Virtue AI acquisition",
+      "summary": "Fortinet has acquired Virtue AI to bolster its capabilities in securing AI-driven enterprise environments, including models, prompts, and autonomous agents. This move aims to address the expanded attack surface created by the integration of AI tools within corporate infrastructures.",
+      "date": "2026-08-17T13:52:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/fortinet-virtue-ai-acquisition/",
+      "isTopTen": false
+    },
+    {
+      "id": "3bd47158-1d5d-450d-93a9-9f78ccf400c9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "summary": "This week's cybersecurity landscape was defined by attackers exploiting pre-existing vulnerabilities, exposed services, and browser session weaknesses rather than novel attack methods. The trend highlights a continued reliance on fundamental security failures and supply-chain weaknesses to gain unauthorized access.",
+      "date": "2026-08-17T13:23:51.000Z",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "isTopTen": false
+    },
     {
       "id": "54334d13-fd4f-4013-888a-111805fda9e1",
       "source": "The Record",
@@ -43,7 +76,7 @@
       "summary": "Security researchers have identified a two-stage exploit chain targeting Unisoc modem firmware that allows attackers to gain full Android kernel access via a VoLTE video call. The vulnerability currently lacks a fix from the chipset manufacturer.",
       "date": "2026-08-17T10:52:34.000Z",
       "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "602b5e38-7088-4a17-b2e8-58a38da037a3",
@@ -109,7 +142,7 @@
       "summary": "A suspected China-linked APT is exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter to deploy Babuk-derived ransomware. The flaw carries a CVSS score of 9.8 and allows for remote code execution.",
       "date": "2026-08-17T07:36:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3b0e2b3-1857-43f9-98d6-9d7cade7ee0f",
@@ -219,7 +252,7 @@
       "summary": "The advanced persistent threat actor Mustang Panda has upgraded its CoolClient backdoor by incorporating a signed kernel-mode driver, enabling stealthier persistence and evasion. This enhancement allows the malware to hide malicious files, processes, and network activity on compromised Windows systems.",
       "date": "2026-08-16T17:15:46.000Z",
       "link": "https://securityaffairs.com/197274/apt/mustang-panda-upgrades-coolclient-with-a-kernel-rootkit.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f73a33b-ed8d-4260-80e8-7cf2b250580e",
@@ -307,7 +340,7 @@
       "summary": "A critical SAP Commerce Cloud vulnerability (CVE-2026-58231) with a CVSS score of 10.0 is being actively exploited in the wild shortly after a patch was released. The flaw involves improper authorization and input validation, posing a significant risk to affected systems.",
       "date": "2026-08-15T17:14:15.000Z",
       "link": "https://securityaffairs.com/197244/security/sap-commerce-cloud-cve-2026-58231-exploited-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19c94c92-d040-4197-ab58-b4e6625b9295",
@@ -406,7 +439,7 @@
       "summary": "Apple has issued threat notifications to users across 110 countries, warning them that they have been targeted by sophisticated mercenary spyware attacks. The company is urging impacted individuals to seek expert assistance and strengthen their device security.",
       "date": "2026-08-14T17:09:46.000Z",
       "link": "https://securityaffairs.com/197208/malware/apple-warned-hundreds-of-users-of-mercenary-spyware-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
@@ -417,7 +450,7 @@
       "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
       "date": "2026-08-14T14:27:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
@@ -439,7 +472,7 @@
       "summary": "Experts warn that autonomous AI agents could be weaponized to launch cyberattacks capable of causing physical damage to critical infrastructure. This evolving threat represents a significant escalation in the potential impact of digital intrusions.",
       "date": "2026-08-14T13:03:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4593618f-8c62-46ef-a6b3-b03d3ad47a3c",
@@ -538,7 +571,7 @@
       "summary": "President Trump has authorized a new program allowing vetted private cybersecurity firms to conduct government-sanctioned offensive cyber operations against transnational criminal networks. The initiative places these private entities under direct government oversight to address global criminal threats.",
       "date": "2026-08-14T07:14:57.000Z",
       "link": "https://securityaffairs.com/197161/laws-and-regulations/us-authorizes-private-cyber-firms-to-hack-transnational-criminal-networks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "822b85c0-032a-4991-ada4-9409b0370fe3",
@@ -637,7 +670,7 @@
       "summary": "Hackers are actively exploiting a critical unauthenticated remote code execution vulnerability in Adobe Commerce, designated as CVE-2026-71362, shortly after its public disclosure. The flaw allows attackers to hijack customer accounts and access sensitive private information.",
       "date": "2026-08-13T17:48:54.000Z",
       "link": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7b833da1-509a-4be1-86c5-cd50c413eeba",
@@ -648,7 +681,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Metabase, Windows, and Cisco Secure Firewall. These additions indicate that these vulnerabilities are currently being actively exploited in the wild.",
       "date": "2026-08-13T17:12:45.000Z",
       "link": "https://securityaffairs.com/197110/hacking/u-s-cisa-adds-metabase-windows-and-cisco-secure-firewall-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4a4c8daf-840f-4360-86ef-dfb7061bd5ea",
@@ -5466,39 +5499,6 @@
       "summary": "Guardio has launched a mobile security application for iOS and Android that offers personal data monitoring, phishing detection, and incident recovery guidance. The service integrates with existing browser extensions to provide a comprehensive security suite across mobile and desktop devices.",
       "date": "2026-08-03T04:30:11.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/03/product-showcase-guardio-mobile-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "484861a8-47f7-426e-961a-094fcb9d6370",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Buying TikTok followers can expose users to scams and account theft",
-      "summary": "Purchasing artificial engagement on TikTok exposes users to significant security risks, including account theft, financial loss, and involvement in deceptive scams. These third-party services often masquerade as legitimate marketing firms while compromising user credentials and platform integrity.",
-      "date": "2026-08-03T04:00:04.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/malwarebytes-tiktok-followers-scam-risks-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "c79aa273-a007-4a39-a735-83095c9e3ccb",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "CareCloud Breach Exposes Medical and Financial Data of 345,000",
-      "summary": "CareCloud has begun notifying 345,000 individuals that their medical and financial data was stolen during a security breach of its AWS-hosted systems. The incident impacts patients across more than 45,000 healthcare providers throughout the United States.",
-      "date": "2026-08-02T20:08:44.000Z",
-      "link": "https://securityaffairs.com/196480/cyber-crime/carecloud-breach-exposes-medical-and-financial-data-of-345000.html",
-      "isTopTen": false
-    },
-    {
-      "id": "520c4430-ee11-47b1-865b-100ef3249f0c",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 108",
-      "summary": "This newsletter provides an overview of recent malware campaigns and research, covering topics ranging from modular MaaS ecosystems and DPRK-linked social engineering kits to advanced browser-based malware delivery.",
-      "date": "2026-08-02T17:53:23.000Z",
-      "link": "https://securityaffairs.com/196475/security/security-affairs-malware-newsletter-round-108.html",
       "isTopTen": false
     }
   ]
