@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-08-17T18:47:32.753Z",
+  "lastUpdated": "2026-08-17T21:32:09.152Z",
   "articles": [
+    {
+      "id": "d54d1db7-fd6a-4899-8d0f-61acad533a0d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+      "summary": "A critical vulnerability in GitLab's GraphQL interface, tracked as CVE-2026-19478, allows unauthenticated attackers to remotely modify or delete public projects and user data. GitLab has released security updates to address this high-severity flaw.",
+      "date": "2026-08-17T21:03:04.000Z",
+      "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+      "isTopTen": false
+    },
+    {
+      "id": "330e2070-f6f2-4bdd-83bf-bd62f2f3c6a1",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Details emerge on BlackFile’s recent attacks on financial companies",
+      "summary": "The ransomware group BlackFile and its four affiliates are actively conducting extortion attacks against companies in the financial and medical technology sectors. New demands were reported as recently as last week, indicating ongoing threat activity.",
+      "date": "2026-08-17T20:41:00.000Z",
+      "link": "https://cyberscoop.com/blackfile-cyberattacks-financial-sector/",
+      "isTopTen": false
+    },
+    {
+      "id": "e087f942-11e6-449d-9096-1df1eed36b46",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Irregular says ‘human oversight’ responsible for AI sandbox escape incidents",
+      "summary": "AI testing company Irregular attributed recent AI sandbox escape incidents to human oversight, emphasizing that providing internet access to models is essential for evaluating their cybersecurity capabilities.",
+      "date": "2026-08-17T20:36:56.000Z",
+      "link": "https://cyberscoop.com/irregular-ai-sandbox-escape-human-oversight/",
+      "isTopTen": false
+    },
+    {
+      "id": "f7cb5e1d-87dd-4e4a-95c2-38e9b84b1507",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Nearly 750k had financial info, SSNs leaked in South Carolina loan company breach",
+      "summary": "A data breach at a South Carolina loan company exposed the financial information and Social Security numbers of approximately 750,000 individuals. The incident impacted both current loan customers and prospective applicants who inquired through third parties.",
+      "date": "2026-08-17T20:05:00.000Z",
+      "link": "https://therecord.media/financial-info-leak-debt-consolidator",
+      "isTopTen": false
+    },
+    {
+      "id": "3262b34e-955d-4737-bd78-1e9ebe839ca7",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+      "summary": "Researchers discovered a command injection vulnerability in a Snowflake GitHub repository that allowed attackers to execute unauthorized commands via crafted GitHub issues. The flaw posed a security risk by potentially exposing internal Jira credentials stored within the repository's workflow.",
+      "date": "2026-08-17T18:44:17.000Z",
+      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a20d9cf4-07cc-4f15-9e60-fbc0eec14b89",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+      "summary": "A critical vulnerability in the Forminator WordPress plugin allows unauthenticated attackers to achieve remote code execution through malicious PHP file uploads. The flaw, CVE-2026-15748, carries a CVSS score of 9.8 and impacts over 600,000 active installations.",
+      "date": "2026-08-17T18:22:09.000Z",
+      "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+      "isTopTen": false
+    },
     {
       "id": "6090f958-e85f-48c6-957e-bd638916443c",
       "source": "Security Affairs",
@@ -10,6 +76,17 @@
       "summary": "SafePal confirmed a data breach affecting 39,798 customers after a vulnerability in an order-tracking plugin was exploited by hackers. While customer order information was exposed, the company confirmed that critical assets like private keys, seed phrases, and payment details remained secure.",
       "date": "2026-08-17T17:54:46.000Z",
       "link": "https://securityaffairs.com/197391/data-breach/safepal-says-39798-customers-hit-by-data-breach.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5ea4847d-245d-477e-8d5e-255db93685f6",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+      "summary": "Iranian nation-state hackers are utilizing the evolving Cavern C2 framework, incorporating DNS and Google Apps Script to disguise malicious command-and-control traffic. The campaign has been observed targeting entities in Israel since December 2025.",
+      "date": "2026-08-17T17:41:06.000Z",
+      "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
       "isTopTen": false
     },
     {
@@ -43,7 +120,7 @@
       "summary": "An AI agent successfully identified and exploited a vulnerability in Snowflake's code as part of an authorized bug bounty program. This incident highlights the growing potential for AI-driven security testing to discover software flaws.",
       "date": "2026-08-17T16:36:21.000Z",
       "link": "https://www.theregister.com/security/2026/08/17/an-ai-broke-snowflakes-code-then-another-ai-agent-exploited-it/5288666",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ffd5a936-8395-4b85-8894-70a5c9ddbe8f",
@@ -505,7 +582,7 @@
       "summary": "An unpatched zero-day vulnerability in GeoServer, enabling SQL injection and potential remote code execution, is currently being actively probed by threat actors. Organizations using the platform are urged to monitor for exposure while awaiting a fix.",
       "date": "2026-08-15T07:18:21.000Z",
       "link": "https://securityaffairs.com/197216/hacking/geoserver-zero-day-is-already-being-probed-thats-the-problem.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f5263c8a-f72e-4d42-ac93-23b38215354f",
@@ -560,7 +637,7 @@
       "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
       "date": "2026-08-14T14:27:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
@@ -703,7 +780,7 @@
       "summary": "Weak Identity and Access Management (IAM) configurations are a prevalent issue affecting nearly all cloud environments, prompting CISA to mandate stricter security standards for federal agencies. The complexity of managing security across multiple cloud providers remains a primary driver of these misconfiguration risks.",
       "date": "2026-08-14T05:00:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ecad475-1c2e-42d4-bd10-b34d3a1db593",
@@ -5422,83 +5499,6 @@
       "summary": "Security leaders are shifting their focus from debating the use of AI in the SOC to strategically integrating platforms like Claude and Cursor to enhance detection, investigation, and automation tasks. The analysis emphasizes identifying the specific areas where generative AI provides the most operational value.",
       "date": "2026-08-03T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9e99a3b9-aa2a-4a59-a31b-f0b92140d70d",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "UK government investment arm cops to 40-hour leak of officials' contact details",
-      "summary": "The UK government's investment arm suffered a 40-hour data leak of officials' contact information due to an employee failing to follow internal security protocols. The breach occurred when an internal management file was inadvertently left accessible to the public.",
-      "date": "2026-08-03T11:02:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/03/uk-government-investment-arm-cops-to-40-hour-leak-of-officials-contact-details/5282213",
-      "isTopTen": false
-    },
-    {
-      "id": "47ce903b-8a8a-4cf5-819e-61e0bb4e30a5",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-      "summary": "An unidentified Chinese threat actor is targeting iOS users by utilizing a leaked version of the DarkSword exploit kit to deploy the GHOSTBLADE malware. The campaign involves a network of over 100 fraudulent web properties, including fake AWS login pages, to facilitate these attacks.",
-      "date": "2026-08-03T10:49:06.000Z",
-      "link": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dcf2e003-db49-4bdc-8925-aabeeea4e747",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
-      "summary": "The article discusses a vulnerability in passkey implementations where relying parties fail to validate the User Verified flag, effectively downgrading multi-factor authentication to a single-factor process. This oversight creates a novel attack surface that undermines the security benefits of passwordless authentication.",
-      "date": "2026-08-03T10:00:35.000Z",
-      "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-      "isTopTen": false
-    },
-    {
-      "id": "670923aa-2505-49c9-9baa-923c48b8e8ac",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-      "summary": "The Police National Legal Database (PNLD) suffered a data breach resulting in the exposure of contact information for police, government, and justice professionals on the dark web. The compromised data includes names, organizations, and professional email addresses.",
-      "date": "2026-08-03T09:13:56.000Z",
-      "link": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-      "isTopTen": false
-    },
-    {
-      "id": "74f44aec-229d-43c0-9eff-b565a15c1688",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Alleged Żabka Breach Exposes Jira Data, Source Code, and API Keys",
-      "summary": "Polish convenience store chain Żabka is allegedly the victim of a data breach, with an unidentified actor offering internal Jira data, source code, and API keys for sale. Researchers have confirmed the authenticity of a portion of the leaked sample.",
-      "date": "2026-08-03T09:03:39.000Z",
-      "link": "https://securityaffairs.com/196510/data-breach/alleged-zabka-breach-exposes-jira-data-source-code-and-api-keys.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a9631e93-0561-4dba-a11f-dce6c932eba5",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OpenAI reveals how criminals used ChatGPT to run scams",
-      "summary": "OpenAI dismantled a network of accounts based in Cambodia that utilized ChatGPT to automate scam operations, including persona creation and target messaging. This discovery highlights the growing misuse of generative AI for facilitating large-scale fraudulent activities.",
-      "date": "2026-08-03T08:40:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/openai-disrupts-chatgpt-scam-operation/",
-      "isTopTen": false
-    },
-    {
-      "id": "997106ec-35bf-425b-a800-228ebdb7fc9d",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Elastic Defend now covers 800+ vulnerable drivers, with automated troubleshooting and ARM support",
-      "summary": "Elastic Defend has expanded its protection to cover over 800 vulnerable drivers to prevent attackers from exploiting known flaws for kernel-level access. The update also introduces automated troubleshooting and support for ARM architecture to better defend Windows endpoints.",
-      "date": "2026-08-03T08:31:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/elastic-defend-vulnerable-driver-detection/",
       "isTopTen": false
     }
   ]
