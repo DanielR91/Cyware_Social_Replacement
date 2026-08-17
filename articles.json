@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-16T21:25:10.399Z",
+  "lastUpdated": "2026-08-17T01:37:06.521Z",
   "articles": [
+    {
+      "id": "90f28627-d04a-4d19-9201-a9bb80be37ad",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chinese AI company Zhipu claims its new is a better bug-finder than Anthropic, OpenAI",
+      "summary": "Chinese AI firm Zhipu asserts that its new model outperforms industry leaders like Anthropic and OpenAI in identifying software vulnerabilities. The report also highlights significant data breaches at HCL and TCS and updates on international tech regulations.",
+      "date": "2026-08-17T00:51:21.000Z",
+      "link": "https://www.theregister.com/security/2026/08/17/chinese-ai-company-zhipu-claims-its-new-is-a-better-bug-finder-than-anthropic-openai/5288203",
+      "isTopTen": false
+    },
+    {
+      "id": "62419d7a-db1e-4d31-9daa-20c038e4599d",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "DDoS Attacks Cause Major Threema Outages",
+      "summary": "The secure messaging platform Threema experienced major service disruptions due to a series of large-scale DDoS attacks. While cloud-based services were impacted, users of the Threema On-Prem solution remained unaffected due to their independent infrastructure.",
+      "date": "2026-08-16T23:38:43.000Z",
+      "link": "https://securityaffairs.com/197353/hacking/ddos-attacks-cause-major-threema-outages.html",
+      "isTopTen": false
+    },
     {
       "id": "71918693-4efd-455d-954c-50ac526e37e6",
       "source": "Security Affairs",
@@ -21,7 +43,7 @@
       "summary": "The advanced persistent threat actor Mustang Panda has upgraded its CoolClient backdoor by incorporating a signed kernel-mode driver, enabling stealthier persistence and evasion. This enhancement allows the malware to hide malicious files, processes, and network activity on compromised Windows systems.",
       "date": "2026-08-16T17:15:46.000Z",
       "link": "https://securityaffairs.com/197274/apt/mustang-panda-upgrades-coolclient-with-a-kernel-rootkit.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f73a33b-ed8d-4260-80e8-7cf2b250580e",
@@ -43,7 +65,7 @@
       "summary": "A sophisticated cyberattack on France’s tax agency resulted in the theft of sensitive income and tax data belonging to 678,000 individuals and businesses. The incident has triggered an official criminal investigation by the national cybercrime unit.",
       "date": "2026-08-16T08:55:16.000Z",
       "link": "https://securityaffairs.com/197287/cyber-crime/sophisticated-cyberattack-exposes-data-of-678000-french-taxpayers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a436202-2aca-4ba6-9ca5-390277a7ee49",
@@ -109,7 +131,7 @@
       "summary": "A critical SAP Commerce Cloud vulnerability (CVE-2026-58231) with a CVSS score of 10.0 is being actively exploited in the wild shortly after a patch was released. The flaw involves improper authorization and input validation, posing a significant risk to affected systems.",
       "date": "2026-08-15T17:14:15.000Z",
       "link": "https://securityaffairs.com/197244/security/sap-commerce-cloud-cve-2026-58231-exploited-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "19c94c92-d040-4197-ab58-b4e6625b9295",
@@ -142,7 +164,7 @@
       "summary": "An unpatched zero-day vulnerability in GeoServer, enabling SQL injection and potential remote code execution, is currently being actively probed by threat actors. Organizations using the platform are urged to monitor for exposure while awaiting a fix.",
       "date": "2026-08-15T07:18:21.000Z",
       "link": "https://securityaffairs.com/197216/hacking/geoserver-zero-day-is-already-being-probed-thats-the-problem.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f5263c8a-f72e-4d42-ac93-23b38215354f",
@@ -186,7 +208,7 @@
       "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
       "date": "2026-08-14T14:27:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
@@ -329,7 +351,7 @@
       "summary": "Weak Identity and Access Management (IAM) configurations are a prevalent issue affecting nearly all cloud environments, prompting CISA to mandate stricter security standards for federal agencies. The complexity of managing security across multiple cloud providers remains a primary driver of these misconfiguration risks.",
       "date": "2026-08-14T05:00:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ecad475-1c2e-42d4-bd10-b34d3a1db593",
@@ -439,7 +461,7 @@
       "summary": "Advancements in mid-tier, cost-efficient AI models are significantly improving automated hacking capabilities, raising concerns among researchers beyond just frontier-level threats.",
       "date": "2026-08-13T16:55:02.000Z",
       "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "44563d0c-041e-4162-8408-95563d9ca34d",
@@ -560,7 +582,7 @@
       "summary": "Germany has approved major legislative reforms granting its intelligence agencies expanded powers to conduct offensive cyber operations, including hacking foreign systems and sabotage. This represents the most significant shift in the country's postwar espionage policy.",
       "date": "2026-08-13T12:45:00.000Z",
       "link": "https://therecord.media/germany-spy-agency-powers",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4409e5d2-0570-42f7-84f5-fe19b4e0c59a",
@@ -736,7 +758,7 @@
       "summary": "Taiwan's Nuclear Safety Commission was targeted by 'near-autonomous' AI-driven agents, marking a sophisticated evolution in cyber warfare tactics. The incident highlights the growing threat posed by agentic swarms capable of executing complex attacks with minimal human oversight.",
       "date": "2026-08-12T21:45:16.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e75d448a-ef91-46bd-9347-1db39f33ff16",
@@ -769,7 +791,7 @@
       "summary": "China-linked hackers reportedly conducted the first fully autonomous, AI-driven cyberattack against a Taiwanese government network, successfully breaching systems and stealing data with minimal human intervention. This operation marks a significant escalation in the use of autonomous agents for end-to-end cyber espionage.",
       "date": "2026-08-12T17:58:44.000Z",
       "link": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1614b2b0-76b0-47cd-a775-e7b5ea7019a4",
@@ -5477,28 +5499,6 @@
       "summary": "The physical security company ADT suffered a data breach at the hands of the threat actor ShinyHunters, leading to the unauthorized access of customer information. This incident highlights significant security gaps within the firm's SaaS environment.",
       "date": "2026-07-31T16:27:27.000Z",
       "link": "https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924",
-      "isTopTen": false
-    },
-    {
-      "id": "a70d3459-77f1-4548-9c76-8fcbd294ee2f",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Anthropic and OpenAI are competing to see whose agents can go rogue harder",
-      "summary": "The rapid development of autonomous AI agents by companies like Anthropic and OpenAI raises significant concerns regarding safety, potential misuse, and the risk of these systems operating beyond human control. The headline suggests that the intense competitive pressure to innovate is prioritizing performance over necessary security guardrails.",
-      "date": "2026-07-31T15:04:04.000Z",
-      "link": "https://www.theregister.com/security/2026/07/31/anthropic-and-openai-are-competing-to-see-whose-agents-can-go-rogue-harder/5281797",
-      "isTopTen": false
-    },
-    {
-      "id": "912d21e2-aebd-41ac-8061-f42f3c35d382",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
-      "summary": "Researchers discovered that inexpensive Android TV boxes are being pre-installed with malware that mimics mobile hardware to facilitate ad fraud and turn user broadband connections into illicit proxies. The operation, dubbed Fuyao, is linked to a China-based company.",
-      "date": "2026-07-31T14:45:01.000Z",
-      "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
       "isTopTen": false
     }
   ]
