@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-17T03:54:35.142Z",
+  "lastUpdated": "2026-08-17T07:04:26.969Z",
   "articles": [
+    {
+      "id": "105112f1-787d-4c6f-93bd-a6200dfbc940",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Windows 11’s strongest security defenses can be bypassed without a screwdriver",
+      "summary": "Researchers discovered a technique named 'Download More RAM' that allows attackers with existing privileged access to bypass Windows 11's security defenses by exploiting configuration chips on DIMMs.",
+      "date": "2026-08-17T05:30:34.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/",
+      "isTopTen": true
+    },
+    {
+      "id": "7317bf20-f059-4796-8087-1a24780581c5",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Hazmat: Open-source containment for AI agents",
+      "summary": "Hazmat is an open-source security tool that provides sandboxed containment for AI coding agents to prevent them from accessing sensitive system files, SSH keys, and cloud credentials. It acts as a wrapper for popular agents, restricting their execution privileges by running them in isolated environments.",
+      "date": "2026-08-17T05:00:17.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/hazmat-open-source-ai-coding-agent-containment/",
+      "isTopTen": false
+    },
+    {
+      "id": "8d8b0fdb-28dc-4381-b84e-53b30a2e8bc2",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: ScamNet looks for warning signs in suspicious calls and shady links",
+      "summary": "Synaptrex Technologies has launched ScamNet, a security application designed to detect and block malicious phone calls, text messages, and web content across Apple devices. The app offers both free features and a subscription-based model to protect users from deceptive communications.",
+      "date": "2026-08-17T04:30:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/product-showcase-scamnet-consumer-security-app/",
+      "isTopTen": false
+    },
+    {
+      "id": "9b2a0560-3477-4bbd-8c47-aa9ba597f404",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "When companies get specific about AI, revenue growth looks different",
+      "summary": "Research from Carnegie Mellon and Larridin indicates that companies providing transparent, detailed evidence of their AI integration report stronger revenue growth than those with vague AI strategies. The study analyzed various data points, including financial filings and job postings, to track the correlation between AI implementation and financial performance.",
+      "date": "2026-08-17T04:00:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/ai-adoption-revenue-growth-research/",
+      "isTopTen": false
+    },
     {
       "id": "00e3de0c-53cd-468d-aa19-0d2f19250c63",
       "source": "The Register",
@@ -98,7 +142,7 @@
       "summary": "Recent cybersecurity reports highlight the exposure of Salesforce and ServiceNow portals for 17 months, the exploitation of a Metabase zero-day, and GitHub's expansion of Dependabot malware alerts to cover eight software ecosystems.",
       "date": "2026-08-16T08:00:56.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "88d44173-6ec7-4e54-a04e-33c48cc8130b",
@@ -142,7 +186,7 @@
       "summary": "A critical SAP Commerce Cloud vulnerability (CVE-2026-58231) with a CVSS score of 10.0 is being actively exploited in the wild shortly after a patch was released. The flaw involves improper authorization and input validation, posing a significant risk to affected systems.",
       "date": "2026-08-15T17:14:15.000Z",
       "link": "https://securityaffairs.com/197244/security/sap-commerce-cloud-cve-2026-58231-exploited-in-the-wild.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19c94c92-d040-4197-ab58-b4e6625b9295",
@@ -153,7 +197,7 @@
       "summary": "The ChainDrop worm, identified as a Shai-Hulud variant, has compromised 444 npm packages using malicious tarballs and development tool hooks to bypass standard security measures.",
       "date": "2026-08-15T10:31:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4e3d29b0-c05e-477c-b7cb-477af6b9fa68",
@@ -219,7 +263,7 @@
       "summary": "The French tax authority confirmed a data breach involving approximately 2 million records after an attacker began soliciting the stolen data. Government officials are currently investigating the extent of the incident while denying claims that unauthorized access remains ongoing.",
       "date": "2026-08-14T14:27:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fed21913-9691-4cc3-9f09-dff313ad7e77",
@@ -582,7 +626,7 @@
       "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability in Microsoft SharePoint, identified as CVE-2026-55040, following the public release of proof-of-concept code. The flaw allows unauthorized users to impersonate others to access or modify data.",
       "date": "2026-08-13T13:05:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/13/microsoft-sharepoint-cve-2026-55040-poc-exploit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5b58f112-6ecf-43b2-b250-89b59152fe3b",
@@ -593,7 +637,7 @@
       "summary": "Germany has approved major legislative reforms granting its intelligence agencies expanded powers to conduct offensive cyber operations, including hacking foreign systems and sabotage. This represents the most significant shift in the country's postwar espionage policy.",
       "date": "2026-08-13T12:45:00.000Z",
       "link": "https://therecord.media/germany-spy-agency-powers",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4409e5d2-0570-42f7-84f5-fe19b4e0c59a",
@@ -769,7 +813,7 @@
       "summary": "Taiwan's Nuclear Safety Commission was targeted by 'near-autonomous' AI-driven agents, marking a sophisticated evolution in cyber warfare tactics. The incident highlights the growing threat posed by agentic swarms capable of executing complex attacks with minimal human oversight.",
       "date": "2026-08-12T21:45:16.000Z",
       "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e75d448a-ef91-46bd-9347-1db39f33ff16",
@@ -5455,50 +5499,6 @@
       "summary": "Suspected Chinese-speaking hackers have been conducting targeted cyber campaigns against government and research entities across Central Asia and the Syrian Arab Republic since early 2025 using OctLurk and SilkLurk malware. The campaign highlights a persistent threat to regional government infrastructure.",
       "date": "2026-07-31T18:52:04.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "64ff3762-fce1-45ae-a61b-59d26cf33588",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "CISA warns of spike in attacks on water systems as Minnesota incidents probed",
-      "summary": "CISA has issued an alert urging water facility operators to remove internet-exposed operational technology following a series of attacks on water systems in Minnesota. The agency warns that such devices are being actively targeted by threat actors.",
-      "date": "2026-07-31T17:47:00.000Z",
-      "link": "https://therecord.media/cisa-warns-of-spike-in-water-system-attacks",
-      "isTopTen": false
-    },
-    {
-      "id": "c2063321-b758-46f4-bb91-0adccefb0a53",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Cyber Command plans Silicon Valley office to drive innovation",
-      "summary": "U.S. Cyber Command is establishing a Silicon Valley office to foster technological innovation and support its newly formed Cyber Warfare Innovation Center. The initiative aims to bridge the gap between military operations and private sector cybersecurity expertise.",
-      "date": "2026-07-31T17:35:00.000Z",
-      "link": "https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation",
-      "isTopTen": false
-    },
-    {
-      "id": "acf4d03f-a465-4aea-a31d-4723d43a4046",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "How Status Labs Helps Brands Get Cited in ChatGPT: The Data Behind AI Search Visibility",
-      "summary": "This article explores strategies used by Status Labs to improve brand visibility within ChatGPT's search results through search engine optimization techniques for AI models. It is a sponsored piece detailing how businesses can influence AI-generated citations.",
-      "date": "2026-07-31T16:56:31.000Z",
-      "link": "https://hackread.com/status-labs-brands-cited-chatgpt-data-ai-search-visibility/",
-      "isTopTen": false
-    },
-    {
-      "id": "eff23238-34aa-4502-8904-429ee490f2f2",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-      "summary": "Researchers have identified a new campaign targeting a law firm using the HollowFrame Go-based loader to deliver the Matryoshka Rust-based backdoor via spear-phishing. The attack utilizes a multi-stage infection chain starting with a malicious Windows shortcut link.",
-      "date": "2026-07-31T16:39:31.000Z",
-      "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
       "isTopTen": false
     }
   ]
