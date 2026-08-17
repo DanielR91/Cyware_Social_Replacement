@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-08-17T15:31:04.473Z",
+  "lastUpdated": "2026-08-17T18:47:32.753Z",
   "articles": [
+    {
+      "id": "6090f958-e85f-48c6-957e-bd638916443c",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "SafePal Says 39,798 Customers Hit by Data Breach",
+      "summary": "SafePal confirmed a data breach affecting 39,798 customers after a vulnerability in an order-tracking plugin was exploited by hackers. While customer order information was exposed, the company confirmed that critical assets like private keys, seed phrases, and payment details remained secure.",
+      "date": "2026-08-17T17:54:46.000Z",
+      "link": "https://securityaffairs.com/197391/data-breach/safepal-says-39798-customers-hit-by-data-breach.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f6327691-cdd8-4c1d-b5b1-b61a1cfcbb01",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "LiteLLM Supply-Chain Attack – Technology, Banking and Healthcare the Most Affected",
+      "summary": "The SANDCLOCK supply-chain attack involving LiteLLM compromised over 2,000 repositories, resulting in widespread credential theft across key industries like technology, finance, and healthcare. Security experts warn that the backdoor will have significant and long-lasting impacts on affected organizations.",
+      "date": "2026-08-17T17:09:53.000Z",
+      "link": "https://securityaffairs.com/197377/hacking/litellm-supply-chain-attack-technology-banking-and-healthcare-the-most-affected.html",
+      "isTopTen": true
+    },
+    {
+      "id": "45809451-fbbd-4785-8d32-2da44157a49c",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted",
+      "summary": "SafePal has confirmed a data breach resulting in the exposure of personal information for approximately 40,000 customers. The incident highlights ongoing security risks within the crypto hardware wallet sector.",
+      "date": "2026-08-17T17:00:00.000Z",
+      "link": "https://therecord.media/safepal-crypto-hardware-breach",
+      "isTopTen": false
+    },
+    {
+      "id": "7d80113b-572c-4767-b082-8891a07b9da2",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "An AI broke Snowflake's code. Then another AI agent exploited it",
+      "summary": "An AI agent successfully identified and exploited a vulnerability in Snowflake's code as part of an authorized bug bounty program. This incident highlights the growing potential for AI-driven security testing to discover software flaws.",
+      "date": "2026-08-17T16:36:21.000Z",
+      "link": "https://www.theregister.com/security/2026/08/17/an-ai-broke-snowflakes-code-then-another-ai-agent-exploited-it/5288666",
+      "isTopTen": true
+    },
+    {
+      "id": "ffd5a936-8395-4b85-8894-70a5c9ddbe8f",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Irregular faces criticism over ‘spin’ in AI hacking postmortem",
+      "summary": "Irregular is facing backlash from security experts for allegedly downplaying or obscuring critical details in their postmortem report regarding AI models compromising computer systems. Critics argue the report fails to address significant questions about the security incidents.",
+      "date": "2026-08-17T16:15:00.000Z",
+      "link": "https://therecord.media/irregular-ai-hacking-model-blog",
+      "isTopTen": false
+    },
+    {
+      "id": "ebcce4dd-95fc-49ec-83d5-8718a476dea4",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Poland probes MyDr healthcare software breach potentially affecting 19 million people",
+      "summary": "Polish healthcare software provider MyDr is under investigation following a data breach that may have exposed the personal information of 19 million people. The company confirmed it has mitigated the incident and implemented enhanced security protocols.",
+      "date": "2026-08-17T16:01:00.000Z",
+      "link": "https://therecord.media/poland-probes-mydr-healthcare-software-breach",
+      "isTopTen": true
+    },
     {
       "id": "259b79ac-0f2f-4f9d-94f9-2bef6d07f3f3",
       "source": "Help Net Security",
@@ -68,6 +134,17 @@
       "isTopTen": false
     },
     {
+      "id": "e9186d14-6fec-44a0-bb5d-6e1f191525d5",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Crook hawks millions of records allegedly plundered from corporate Azure tenants",
+      "summary": "A cybercriminal is selling millions of records purportedly stolen from several major corporate Azure tenants, including prominent companies like McDonald's and Vodafone. Security researchers have linked the incident to the use of compromised credentials.",
+      "date": "2026-08-17T11:43:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
+      "isTopTen": true
+    },
+    {
       "id": "83af0aa0-d2ec-48ef-b00b-9bfe8f7ca6c6",
       "source": "The Hacker News",
       "tag": "Malware and Vulnerabilities",
@@ -76,7 +153,7 @@
       "summary": "Security researchers have identified a two-stage exploit chain targeting Unisoc modem firmware that allows attackers to gain full Android kernel access via a VoLTE video call. The vulnerability currently lacks a fix from the chipset manufacturer.",
       "date": "2026-08-17T10:52:34.000Z",
       "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "602b5e38-7088-4a17-b2e8-58a38da037a3",
@@ -98,6 +175,17 @@
       "summary": "Evooo1Bot is a newly discovered Linux botnet that leverages Mirai source code to compromise internet-facing edge devices and repurpose them as SOCKS5 proxies. The malware exploits known vulnerabilities to establish its network, extending the capabilities of the original Mirai framework.",
       "date": "2026-08-17T09:29:55.000Z",
       "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "isTopTen": false
+    },
+    {
+      "id": "617e5a52-bb68-4e2c-957d-9462798f4e2e",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Code fixers have fired up the AI warp drive. Strange new worlds await",
+      "summary": "The integration of AI into software patching processes is significantly increasing the volume of code fixes being released. However, the article suggests that despite this rapid pace of remediation, software vulnerabilities remain a persistent and complex challenge.",
+      "date": "2026-08-17T09:04:00.000Z",
+      "link": "https://www.theregister.com/columnists/2026/08/17/code-fixers-have-fired-up-the-ai-warp-drive-strange-new-worlds-await/5287681",
       "isTopTen": false
     },
     {
@@ -142,6 +230,17 @@
       "summary": "A suspected China-linked APT is exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter to deploy Babuk-derived ransomware. The flaw carries a CVSS score of 9.8 and allows for remote code execution.",
       "date": "2026-08-17T07:36:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "isTopTen": true
+    },
+    {
+      "id": "2a489d6f-e0d4-44b3-8cb2-ed2825cddd42",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Black Hat and DEF CON are AI conferences now, too",
+      "summary": "The annual cybersecurity conventions Black Hat and DEF CON have shifted their primary focus toward the development and implications of agentic artificial intelligence. This trend highlights the growing integration of AI technologies within the security research and hacking communities.",
+      "date": "2026-08-17T07:30:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/17/black-hat-and-def-con-are-ai-conferences-now-too/5288076",
       "isTopTen": false
     },
     {
@@ -208,6 +307,17 @@
       "summary": "Microsoft has delayed a scheduled Exchange update, attributing the setback to an unmanageable backlog of bugs generated by their internal AI systems. The company has not provided a new timeline for the release of the promised subscription service.",
       "date": "2026-08-17T02:31:58.000Z",
       "link": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
+      "isTopTen": false
+    },
+    {
+      "id": "453a37f6-55b2-44ff-9942-1026032f10c9",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Chinese AI company Zhipu claims its new model is a better bug-finder than Anthropic, OpenAI",
+      "summary": "Chinese AI company Zhipu has developed a new model that purportedly outperforms counterparts from Anthropic and OpenAI in identifying software vulnerabilities. The report also covers significant data breaches at HCL and TCS, alongside new regulatory actions in South Korea and India.",
+      "date": "2026-08-17T00:51:21.000Z",
+      "link": "https://www.theregister.com/security/2026/08/17/chinese-ai-company-zhipu-claims-its-new-model-is-a-better-bug-finder-than-anthropic-openai/5288203",
       "isTopTen": false
     },
     {
@@ -340,7 +450,7 @@
       "summary": "A critical SAP Commerce Cloud vulnerability (CVE-2026-58231) with a CVSS score of 10.0 is being actively exploited in the wild shortly after a patch was released. The flaw involves improper authorization and input validation, posing a significant risk to affected systems.",
       "date": "2026-08-15T17:14:15.000Z",
       "link": "https://securityaffairs.com/197244/security/sap-commerce-cloud-cve-2026-58231-exploited-in-the-wild.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "19c94c92-d040-4197-ab58-b4e6625b9295",
@@ -439,7 +549,7 @@
       "summary": "Apple has issued threat notifications to users across 110 countries, warning them that they have been targeted by sophisticated mercenary spyware attacks. The company is urging impacted individuals to seek expert assistance and strengthen their device security.",
       "date": "2026-08-14T17:09:46.000Z",
       "link": "https://securityaffairs.com/197208/malware/apple-warned-hundreds-of-users-of-mercenary-spyware-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
@@ -472,7 +582,7 @@
       "summary": "Experts warn that autonomous AI agents could be weaponized to launch cyberattacks capable of causing physical damage to critical infrastructure. This evolving threat represents a significant escalation in the potential impact of digital intrusions.",
       "date": "2026-08-14T13:03:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4593618f-8c62-46ef-a6b3-b03d3ad47a3c",
@@ -593,7 +703,7 @@
       "summary": "Weak Identity and Access Management (IAM) configurations are a prevalent issue affecting nearly all cloud environments, prompting CISA to mandate stricter security standards for federal agencies. The complexity of managing security across multiple cloud providers remains a primary driver of these misconfiguration risks.",
       "date": "2026-08-14T05:00:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ecad475-1c2e-42d4-bd10-b34d3a1db593",
@@ -5389,116 +5499,6 @@
       "summary": "Elastic Defend has expanded its protection to cover over 800 vulnerable drivers to prevent attackers from exploiting known flaws for kernel-level access. The update also introduces automated troubleshooting and support for ARM architecture to better defend Windows endpoints.",
       "date": "2026-08-03T08:31:10.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/03/elastic-defend-vulnerable-driver-detection/",
-      "isTopTen": false
-    },
-    {
-      "id": "32861ebb-ba36-49a0-895d-fcd82fd6c5a9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-      "summary": "Thermo Fisher Scientific has released a patch for a vulnerability in Applied Biosystems software that could allow unauthorized, nearly undetectable manipulation of DNA data files. The flaw, tracked as CVE-2026-17583, potentially compromises the integrity of forensic and laboratory analysis.",
-      "date": "2026-08-03T08:05:30.000Z",
-      "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "isTopTen": false
-    },
-    {
-      "id": "892571f8-78c9-42f5-a851-dcbbe416fa80",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "CrowdStrike: AI is now both the weapon and the target in cyberattacks",
-      "summary": "AI is increasingly acting as both a defensive signal generator and a tool for attackers to accelerate the weaponization of software vulnerabilities. This dual role creates significant challenges for organizations struggling to keep pace with rapid exploit development.",
-      "date": "2026-08-03T07:01:00.000Z",
-      "link": "https://cyberscoop.com/crowdstrike-annual-threat-hunting-report-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "20404780-ebed-460b-802b-a139840d1797",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI is 'both the weapon and the target' in latest wave of cyberattacks",
-      "summary": "AI is increasingly being utilized as both an offensive tool for cyberattacks and a primary target, evidenced by a significant rise in machine-assisted activity and rapidly shortening patch windows. This shift requires organizations to accelerate vulnerability remediation efforts to defend against automated threats.",
-      "date": "2026-08-03T07:01:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/08/03/ai-is-both-the-weapon-and-the-target-in-latest-wave-of-cyberattacks/5281534",
-      "isTopTen": false
-    },
-    {
-      "id": "c891c9fc-4953-4757-a084-9174e9737a72",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-      "summary": "N-able disclosed that attackers exploited an authentication bypass in its N-central RMM platform to gain administrative access after an initial security patch proved ineffective. The company has since released an updated build, 2026.3.1.7, to fully address the vulnerability tracked as CVE-2026-18577.",
-      "date": "2026-08-03T06:41:46.000Z",
-      "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "isTopTen": false
-    },
-    {
-      "id": "aabb161e-ca32-42ab-964a-6ac77720b4ac",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-      "summary": "Three high-severity vulnerabilities in the Hugging Face Diffusers library allow attackers to bypass security safeguards and execute arbitrary code via malicious model repositories. This poses a significant threat to the security of the AI software supply chain.",
-      "date": "2026-08-03T06:40:31.000Z",
-      "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7703c49f-a056-46fc-95d5-9b2ae2081f53",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Ruby on Rails Patches Critical Active Storage Vulnerability Affecting Image Processing",
-      "summary": "Ruby on Rails has released a critical patch for CVE-2026-66066, a vulnerability in Active Storage that could allow unauthenticated attackers to perform arbitrary file reads and remote code execution. The flaw affects applications configured to generate image variants and carries a CVSS score of 9.5.",
-      "date": "2026-08-03T06:22:23.000Z",
-      "link": "https://securityaffairs.com/196486/security/ruby-on-rails-patches-critical-active-storage-vulnerability-affecting-image-processing.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d31e0144-4891-4517-9290-b7e6c4ca99fd",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Mapping the malware blast radius a single alert won’t show you",
-      "summary": "Stairwell CTO Mike Wiacek discusses 'Backstory,' an AI-driven tool that analyzes single malware alerts to map the broader scope of a campaign and identify undocumented variants. The approach emphasizes retaining all endpoint executables to uncover hidden relationships between malware samples.",
-      "date": "2026-08-03T06:00:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/mike-wiacek-stairwell-backstory-malware-blast-radius/",
-      "isTopTen": false
-    },
-    {
-      "id": "48cd6921-b5f2-4267-a8ee-d98d7f38e11b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "SkillSpector: NVIDIA’s open-source security scanner for AI agent skills",
-      "summary": "NVIDIA has released SkillSpector, an open-source security tool designed to analyze AI agent skills for potential risks and vulnerabilities before installation. The tool evaluates various file formats to provide security findings, risk scores, and remediation recommendations.",
-      "date": "2026-08-03T05:30:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/skillspector-open-source-agent-skill-security-scanner/",
-      "isTopTen": false
-    },
-    {
-      "id": "8f03f77a-2d3b-4fe9-9411-a665e71292af",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AI cut phishing from hours to seconds, which is where DMARC and BIMI come in",
-      "summary": "Experts discuss the evolution of email security, highlighting how AI has accelerated phishing attacks and emphasizing the necessity of adopting modern standards like DMARC and BIMI for business trust.",
-      "date": "2026-08-03T05:00:38.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/dmarc-and-bimi-video/",
-      "isTopTen": false
-    },
-    {
-      "id": "c9bc1393-e7db-426c-86cc-837bfd684a64",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: Guardio Mobile Security turns breach alerts into a recovery plan",
-      "summary": "Guardio has launched a mobile security application for iOS and Android that offers personal data monitoring, phishing detection, and incident recovery guidance. The service integrates with existing browser extensions to provide a comprehensive security suite across mobile and desktop devices.",
-      "date": "2026-08-03T04:30:11.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/product-showcase-guardio-mobile-security/",
       "isTopTen": false
     }
   ]
