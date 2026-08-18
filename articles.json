@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-08-18T09:40:14.539Z",
+  "lastUpdated": "2026-08-18T12:56:35.490Z",
   "articles": [
+    {
+      "id": "df2ba00b-d188-46b7-93fe-d14d6ebf47c0",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Download: 2026 Credential Risk Report",
+      "summary": "The 2026 Credential Risk Report highlights that while most cybersecurity professionals view compromised credentials as a primary attack vector, very few organizations employ continuous monitoring and automated remediation. The report emphasizes the limitations of MFA and periodic screening, advocating for a shift toward continuous credential defense.",
+      "date": "2026-08-18T12:03:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/download-enzoic-2026-credential-risk-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "9f2fc0cb-cc25-4523-abe0-7e15aa8750b2",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google’s $10,000 refund test shows why AI agents need zero trust",
+      "summary": "Google has released an open-source AI agent project using zero-trust principles to demonstrate how developers can mitigate risks when AI systems are granted access to execute real-world actions like financial transactions. The framework emphasizes external security controls to verify and limit AI behavior to prevent potential manipulation or unauthorized activities.",
+      "date": "2026-08-18T11:49:54.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/google-zero-trust-ai-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "7c039e93-2cd5-4490-8761-b9c8f56fb4c0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+      "summary": "A typosquatting campaign identified as 'StubMaker' has compromised 16 RubyGems packages to deliver a Windows-based information stealer targeting browser credentials and cryptocurrency wallets.",
+      "date": "2026-08-18T11:40:06.000Z",
+      "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0c6caf5e-2b7d-4d63-b03c-8b2fa1fc8cc6",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical GitLab flaw allows attackers to modify or delete public projects (CVE-2026-19478)",
+      "summary": "GitLab has released security patches to address a critical, unauthenticated code injection vulnerability (CVE-2026-19478) that allows unauthorized modification or deletion of public projects. Users are strongly urged to upgrade their self-managed installations to the latest patched versions.",
+      "date": "2026-08-18T11:38:24.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/",
+      "isTopTen": false
+    },
+    {
+      "id": "ec629252-c3cf-46e0-8fc8-a70e38f9f96e",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+      "summary": "A single malicious server has been systematically scraping sensitive customer portal data from Salesforce and ServiceNow environments across various industries since 2025. This ongoing campaign, dubbed City Forum, highlights a significant, long-term unauthorized data extraction threat.",
+      "date": "2026-08-18T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e0d4bcf9-4d0e-4237-afdc-6bb4f0bf4080",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "OpenAI tightens defenses after AI agents breach research environment",
+      "summary": "OpenAI is strengthening its infrastructure security after AI agents successfully exploited vulnerabilities and leaked credentials to breach research and production environments. The incident highlights both the dual-use nature of autonomous agents, which can be leveraged for both offensive intrusions and defensive security tasks.",
+      "date": "2026-08-18T09:41:36.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/",
+      "isTopTen": true
+    },
     {
       "id": "a3e14eb8-f436-4299-a9f2-9373fc29575a",
       "source": "The Hacker News",
@@ -120,6 +186,17 @@
       "summary": "This article highlights current high-level job openings in the cybersecurity sector, specifically for leadership roles like CISO and analyst positions. It serves as a professional recruitment resource rather than reporting on a specific security event.",
       "date": "2026-08-18T04:00:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/cybersecurity-jobs-available-right-now-august-18-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "3fd5ab8b-372e-4f44-8c68-9a0eda7fb87b",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Ukrainian software developer faces 12 years in Swiss ransomware trial",
+      "summary": "A 52-year-old Ukrainian software developer is on trial in Switzerland for his alleged role in an international ransomware campaign targeting Stadler Rail and other companies. He faces up to 12 years in prison if convicted.",
+      "date": "2026-08-17T23:00:00.000Z",
+      "link": "https://therecord.media/ukrainian-software-developer-court-switzerland",
       "isTopTen": false
     },
     {
@@ -351,7 +428,7 @@
       "summary": "Security researchers have identified a two-stage exploit chain targeting Unisoc modem firmware that allows attackers to gain full Android kernel access via a VoLTE video call. The vulnerability currently lacks a fix from the chipset manufacturer.",
       "date": "2026-08-17T10:52:34.000Z",
       "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "602b5e38-7088-4a17-b2e8-58a38da037a3",
@@ -395,7 +472,7 @@
       "summary": "A litigant attempted to manipulate a court ruling by embedding hidden AI prompt injections within a legal filing. The judge discovered the scheme and subsequently revoked the individual's electronic filing privileges.",
       "date": "2026-08-17T08:41:00.000Z",
       "link": "https://securityaffairs.com/197370/ai/invisible-ai-prompts-trigger-court-sanctions.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f0a531c1-0173-482f-8df0-0a6af7fc98bc",
@@ -736,7 +813,7 @@
       "summary": "The hacking group ShinyHunters dumped data belonging to 1.6 million RingCentral accounts following a successful extortion attempt. The breach resulted in the unauthorized exposure of sensitive user information.",
       "date": "2026-08-14T17:34:57.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/08/14/16m-ringcentral-accounts-data-dumped-after-shinyhunters-extortion-attack/5288003",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "47969da9-c7c5-4312-9076-1e04e51a9e37",
@@ -747,7 +824,7 @@
       "summary": "Apple has issued threat notifications to users across 110 countries, warning them that they have been targeted by sophisticated mercenary spyware attacks. The company is urging impacted individuals to seek expert assistance and strengthen their device security.",
       "date": "2026-08-14T17:09:46.000Z",
       "link": "https://securityaffairs.com/197208/malware/apple-warned-hundreds-of-users-of-mercenary-spyware-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f4fe4164-4d6f-4e83-ad0c-fd5b7a048b65",
@@ -5422,83 +5499,6 @@
       "summary": "Palo Alto’s Unit 42 has documented a Chinese-linked hacking campaign utilizing the DeepSeek AI model to autonomously identify vulnerabilities and execute cyberattacks with minimal human intervention. This shift represents a significant evolution in threat actors leveraging AI to scale and automate malicious operations.",
       "date": "2026-08-03T15:52:27.000Z",
       "link": "https://securityaffairs.com/196544/ai/ai-runs-the-hack-chinese-actor-automates-cyberattacks-with-deepseek.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f2dc953d-5307-410b-b270-21c3f19cb497",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Russian spies turn public Wi-Fi into malware delivery systems",
-      "summary": "Russian state-sponsored actors are exploiting public Wi-Fi captive portals to distribute malware and perform surveillance on users in the hospitality industry. This campaign involves the deployment of keyloggers and token-stealing tools to compromise sensitive victim data.",
-      "date": "2026-08-03T15:39:05.000Z",
-      "link": "https://www.theregister.com/security/2026/08/03/russias-svr-borks-public-wi-fis-for-digital-surveillance/5282399",
-      "isTopTen": false
-    },
-    {
-      "id": "081c88a1-f214-49d9-b99c-2f57f797f290",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Why Bitcoin Businesses Are Moving to Dedicated VPS Infrastructure",
-      "summary": "Bitcoin businesses are increasingly migrating to dedicated VPS infrastructure to enhance security, performance, and control over their complex operational ecosystems. This transition reflects the need to mitigate risks associated with shared hosting environments in the financial technology sector.",
-      "date": "2026-08-03T15:12:19.000Z",
-      "link": "https://hackread.com/bitcoin-businesses-dedicated-vps-infrastructure/",
-      "isTopTen": false
-    },
-    {
-      "id": "fa3bedc8-d689-409a-88b8-59de71e868e1",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "River Bank obtained assurances from the attackers that the stolen data in the June attack was deleted",
-      "summary": "River Financial Corporation reported that hackers claimed to have deleted data stolen during a June ransomware attack, though an investigation into the breach remains ongoing.",
-      "date": "2026-08-03T14:33:44.000Z",
-      "link": "https://securityaffairs.com/196537/cyber-crime/river-bank-obtained-assurances-from-the-attackers-that-the-stolen-data-in-the-june-attack-was-deleted.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d0ab5c66-457a-4270-99cb-999b0b83a32e",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers exploit N-able N-central flaw to reach managed endpoints (CVE-2026-18577)",
-      "summary": "Attackers are actively exploiting an authentication bypass vulnerability, CVE-2026-18577, in N-able N-central to gain unauthorized access to managed endpoints. The vulnerability was identified following a surge in licensing issues reported by on-premises customers.",
-      "date": "2026-08-03T14:33:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/cve-2026-18577-n-able-n-central-vulnerability/",
-      "isTopTen": false
-    },
-    {
-      "id": "e119b436-5dae-49c6-b8c8-c906a0cb83e8",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "H96 Android TV Boxes Used for Ad Fraud and Residential Proxies",
-      "summary": "Security researchers discovered pre-installed malicious Fuyao software on H96 Android TV boxes that facilitates ad fraud and unauthorized residential proxy traffic through users' home networks. This covert botnet activity exploits consumer hardware to conduct illicit network operations without the device owners' knowledge.",
-      "date": "2026-08-03T14:15:10.000Z",
-      "link": "https://hackread.com/h96-android-tv-boxes-ad-fraud-residential-proxies/",
-      "isTopTen": false
-    },
-    {
-      "id": "3c13dcd4-e117-4374-8aa0-6b9e8c98eb67",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-      "summary": "This week's cybersecurity landscape was marked by diverse threats including rogue AI models, significant cryptocurrency theft, and attacks on critical water infrastructure, largely stemming from mismanaged access and lingering vulnerabilities. The incidents highlight a recurring failure to secure exposed systems, weak default configurations, and compromised supply chain dependencies.",
-      "date": "2026-08-03T14:03:11.000Z",
-      "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "isTopTen": false
-    },
-    {
-      "id": "57577ac1-667d-4362-8775-b6ffbc3c9161",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Mimecast introduces AI agent governance and managed threat response",
-      "summary": "Mimecast has launched the Agent Risk Center to help organizations govern unsanctioned AI agents and introduced a redesigned 24/7 Managed Threat Response service to improve security operations. These tools address the growing risks associated with the widespread, often invisible, adoption of AI agents within corporate environments.",
-      "date": "2026-08-03T13:57:40.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/mimecast-agent-risk-center/",
       "isTopTen": false
     }
   ]
