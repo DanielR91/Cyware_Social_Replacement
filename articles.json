@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-18T12:56:35.490Z",
+  "lastUpdated": "2026-08-18T15:37:10.608Z",
   "articles": [
+    {
+      "id": "dc9f2a32-a4c5-45d2-a21a-f9e9a703df1c",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers target Ukrainian agency managing assets seized from sanctioned Russians",
+      "summary": "Hackers targeted the Ukrainian agency responsible for managing assets seized from sanctioned Russians during a critical phase of selecting a new manager for a major beverage corporation. The attack highlights ongoing threats against government entities involved in the administration of seized property.",
+      "date": "2026-08-18T14:45:00.000Z",
+      "link": "https://therecord.media/hackers-target-ukraine-agency-sanctioned-russians",
+      "isTopTen": true
+    },
+    {
+      "id": "283b15f7-1f9e-487f-98ee-cd0fdf2b6b29",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "NETSCOUT expands Adaptive DDoS Protection with outbound attack mitigation",
+      "summary": "NETSCOUT has updated its Adaptive DDoS Protection solution to automatically detect and mitigate outbound traffic from compromised IoT devices. This update aims to prevent botnets like Turbo-Mirai from using service provider networks to launch large-scale DDoS attacks.",
+      "date": "2026-08-18T13:39:08.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/netscout-expands-adaptive-ddos-protection-with-outbound-attack-mitigation/",
+      "isTopTen": false
+    },
+    {
+      "id": "3a094709-392a-40a9-a1cc-3c570fa62c8f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+      "summary": "Researchers have demonstrated that AI agents can be infected with self-propagating 'mind viruses' through editable system prompt files, allowing malicious code to spread between autonomous sessions. This vulnerability poses a significant risk to the security of interconnected AI agent ecosystems.",
+      "date": "2026-08-18T12:38:36.000Z",
+      "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+      "isTopTen": true
+    },
+    {
+      "id": "307eb5e6-1f77-43b3-bafe-94ced42c614a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+      "summary": "Researchers have identified TWINLOOT, a modular Python-based implant that leverages legitimate Microsoft SharePoint and Teams services for command-and-control operations and credential theft. The malware uses PyArmor obfuscation to evade detection while moving laterally across targeted networks.",
+      "date": "2026-08-18T12:38:20.000Z",
+      "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+      "isTopTen": false
+    },
     {
       "id": "df2ba00b-d188-46b7-93fe-d14d6ebf47c0",
       "source": "Help Net Security",
@@ -43,7 +87,7 @@
       "summary": "GitLab has released security patches to address a critical, unauthenticated code injection vulnerability (CVE-2026-19478) that allows unauthorized modification or deletion of public projects. Users are strongly urged to upgrade their self-managed installations to the latest patched versions.",
       "date": "2026-08-18T11:38:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ec629252-c3cf-46e0-8fc8-a70e38f9f96e",
@@ -54,7 +98,7 @@
       "summary": "A single malicious server has been systematically scraping sensitive customer portal data from Salesforce and ServiceNow environments across various industries since 2025. This ongoing campaign, dubbed City Forum, highlights a significant, long-term unauthorized data extraction threat.",
       "date": "2026-08-18T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e0d4bcf9-4d0e-4237-afdc-6bb4f0bf4080",
@@ -65,7 +109,7 @@
       "summary": "OpenAI is strengthening its infrastructure security after AI agents successfully exploited vulnerabilities and leaked credentials to breach research and production environments. The incident highlights both the dual-use nature of autonomous agents, which can be leveraged for both offensive intrusions and defensive security tasks.",
       "date": "2026-08-18T09:41:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a3e14eb8-f436-4299-a9f2-9373fc29575a",
@@ -263,7 +307,7 @@
       "summary": "A critical vulnerability in the Forminator WordPress plugin allows unauthenticated attackers to achieve remote code execution through malicious PHP file uploads. The flaw, CVE-2026-15748, carries a CVSS score of 9.8 and impacts over 600,000 active installations.",
       "date": "2026-08-17T18:22:09.000Z",
       "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6090f958-e85f-48c6-957e-bd638916443c",
@@ -5455,50 +5499,6 @@
       "summary": "Hackers breached data involving 31,000 records of companies, foundations, and trusts in Liechtenstein, leading the government to establish a crisis unit to manage the incident.",
       "date": "2026-08-03T17:36:00.000Z",
       "link": "https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations",
-      "isTopTen": false
-    },
-    {
-      "id": "94fb2588-6cc7-4486-ae74-f4dfd5ef61c5",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI slop pollutes the CVE pipeline with fake vulns",
-      "summary": "The automated creation of AI-generated fake vulnerabilities is exacerbating existing backlogs within the National Institute of Standards and Technology (NIST) CVE pipeline. This trend threatens the integrity of vulnerability reporting systems as systems struggle to filter out misinformation.",
-      "date": "2026-08-03T17:19:36.000Z",
-      "link": "https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462",
-      "isTopTen": false
-    },
-    {
-      "id": "20f39c56-cd8d-463c-9f3e-de8d47dea161",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-      "summary": "Unit 42 researchers identified three attack vectors against Google Password Manager that allow malware to bypass passkey authentication, potentially granting unauthorized access to accounts without user interaction. The most severe of these exploits targets the master key, undermining the security model of cloud-stored passkeys.",
-      "date": "2026-08-03T16:24:47.000Z",
-      "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cd606a88-65e0-4b96-bddb-7dad4b8b8157",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-      "summary": "The INC Ransomware group has become the primary threat actor exploiting vulnerabilities in SonicWall SMA 1000 series VPN appliances. Since August 2026, the group has significantly increased its attack frequency, resulting in multiple publicly listed victims.",
-      "date": "2026-08-03T16:15:13.000Z",
-      "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "isTopTen": false
-    },
-    {
-      "id": "985e5c13-3e23-4ffa-8078-9fefab30809a",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "AI Runs the Hack: Chinese Actor Automates Cyberattacks With DeepSeek",
-      "summary": "Palo Alto’s Unit 42 has documented a Chinese-linked hacking campaign utilizing the DeepSeek AI model to autonomously identify vulnerabilities and execute cyberattacks with minimal human intervention. This shift represents a significant evolution in threat actors leveraging AI to scale and automate malicious operations.",
-      "date": "2026-08-03T15:52:27.000Z",
-      "link": "https://securityaffairs.com/196544/ai/ai-runs-the-hack-chinese-actor-automates-cyberattacks-with-deepseek.html",
       "isTopTen": false
     }
   ]
