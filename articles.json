@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-18T06:51:49.713Z",
+  "lastUpdated": "2026-08-18T09:40:14.539Z",
   "articles": [
+    {
+      "id": "a3e14eb8-f436-4299-a9f2-9373fc29575a",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+      "summary": "SafePal experienced a data breach affecting nearly 40,000 customers due to an authorization flaw in an order-tracking plug-in. Exposed data includes customer contact information and purchase history.",
+      "date": "2026-08-18T09:10:45.000Z",
+      "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9aa3c79c-d5b7-4a34-abd9-d6bc3c49b738",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hacker claims millions of records stolen from corporate Azure tenants",
+      "summary": "A threat actor known as 'TheHatman' claims to have stolen millions of employee records from the Azure environments of several major global corporations, including McDonald's and Vodafone. The data is currently being shared on cybercrime forums, allegedly sourced directly from the victims' cloud tenants.",
+      "date": "2026-08-18T09:06:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/azure-data-leak-fortune-500-companies/",
+      "isTopTen": true
+    },
+    {
+      "id": "ecfafcc1-ffc5-4dd3-9b0a-7b442043ac9c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "GitLab Patches Critical Unauthenticated GraphQL Vulnerability",
+      "summary": "GitLab released an emergency patch for a critical unauthenticated GraphQL vulnerability (CVE-2026-19478) that allows remote attackers to modify or delete public projects on self-managed servers.",
+      "date": "2026-08-18T08:44:19.000Z",
+      "link": "https://securityaffairs.com/197454/hacking/gitlab-patches-critical-unauthenticated-graphql-vulnerability.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5e624652-5757-41af-9346-4397e01cebd3",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds a Ray-Project Ray flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added a critical remote code execution vulnerability (CVE-2025-62593) in the Ray framework to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw carries a high CVSS score of 9.4, necessitating urgent patching for affected systems.",
+      "date": "2026-08-18T08:02:44.000Z",
+      "link": "https://securityaffairs.com/197419/security/u-s-cisa-adds-a-ray-project-ray-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "06877ffe-1275-4bb8-a8ed-aaf006fad1ad",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Synthesized builds Test Data Agent to validate AI agents with production-like data",
+      "summary": "Synthesized has introduced a Test Data Agent that provides production-like data and system states to help enterprises safely validate and test AI agents before deployment. The tool focuses on ensuring AI reliability in complex business processes rather than controlled test environments.",
+      "date": "2026-08-18T07:38:34.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/18/synthesized-builds-test-data-agent-to-validate-ai-agents-with-production-like-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "125693b6-d5cb-4b4e-8094-5dee7aeb562e",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "New Mirai-Based Evooo1Bot Botnet Targets Linux Devices",
+      "summary": "Fortinet researchers discovered Evooo1Bot, a new Mirai-variant botnet targeting Linux-based routers and IoT devices to facilitate DDoS attacks, credential theft, and proxy services. The malware distinguishes itself by utilizing encrypted command-and-control communications and an aggressive SSH brute-force scanner.",
+      "date": "2026-08-18T07:18:49.000Z",
+      "link": "https://securityaffairs.com/197434/malware/new-mirai-based-evooo1bot-botnet-targets-linux-devices.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1f6ee602-cacd-45e8-9ef5-459864f705df",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+      "summary": "CISA has added a critical remote code execution vulnerability in the Ray distributed computing framework to its Known Exploited Vulnerabilities catalog due to active exploitation. Users are urged to address the flaw to prevent potential compromise of their AI and machine learning workloads.",
+      "date": "2026-08-18T06:34:20.000Z",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "isTopTen": false
+    },
     {
       "id": "5ea6a373-892e-4139-80bf-a69334522756",
       "source": "Help Net Security",
@@ -32,7 +109,7 @@
       "summary": "Cyber attackers are increasingly leveraging AI tools to automate complex tasks, including writing malicious code, managing infrastructure, and identifying high-value data within compromised networks. Research indicates that AI is being integrated across multiple stages of the attack lifecycle to improve efficiency and effectiveness.",
       "date": "2026-08-18T04:30:15.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/gambit-security-ai-cyberattack-tools-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "afc97d93-e59c-4c1a-8082-fb3e7dec86ce",
@@ -263,7 +340,7 @@
       "summary": "A cybercriminal is selling millions of records purportedly stolen from several major corporate Azure tenants, including prominent companies like McDonald's and Vodafone. Security researchers have linked the incident to the use of compromised credentials.",
       "date": "2026-08-17T11:43:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "83af0aa0-d2ec-48ef-b00b-9bfe8f7ca6c6",
@@ -274,7 +351,7 @@
       "summary": "Security researchers have identified a two-stage exploit chain targeting Unisoc modem firmware that allows attackers to gain full Android kernel access via a VoLTE video call. The vulnerability currently lacks a fix from the chipset manufacturer.",
       "date": "2026-08-17T10:52:34.000Z",
       "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "602b5e38-7088-4a17-b2e8-58a38da037a3",
@@ -318,7 +395,7 @@
       "summary": "A litigant attempted to manipulate a court ruling by embedding hidden AI prompt injections within a legal filing. The judge discovered the scheme and subsequently revoked the individual's electronic filing privileges.",
       "date": "2026-08-17T08:41:00.000Z",
       "link": "https://securityaffairs.com/197370/ai/invisible-ai-prompts-trigger-court-sanctions.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f0a531c1-0173-482f-8df0-0a6af7fc98bc",
@@ -659,7 +736,7 @@
       "summary": "The hacking group ShinyHunters dumped data belonging to 1.6 million RingCentral accounts following a successful extortion attempt. The breach resulted in the unauthorized exposure of sensitive user information.",
       "date": "2026-08-14T17:34:57.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/08/14/16m-ringcentral-accounts-data-dumped-after-shinyhunters-extortion-attack/5288003",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "47969da9-c7c5-4312-9076-1e04e51a9e37",
@@ -703,7 +780,7 @@
       "summary": "Experts warn that autonomous AI agents could be weaponized to launch cyberattacks capable of causing physical damage to critical infrastructure. This evolving threat represents a significant escalation in the potential impact of digital intrusions.",
       "date": "2026-08-14T13:03:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4593618f-8c62-46ef-a6b3-b03d3ad47a3c",
@@ -5422,83 +5499,6 @@
       "summary": "Mimecast has launched the Agent Risk Center to help organizations govern unsanctioned AI agents and introduced a redesigned 24/7 Managed Threat Response service to improve security operations. These tools address the growing risks associated with the widespread, often invisible, adoption of AI agents within corporate environments.",
       "date": "2026-08-03T13:57:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/03/mimecast-agent-risk-center/",
-      "isTopTen": false
-    },
-    {
-      "id": "8a78c3ce-0e8f-49fd-a2e6-2614a14de2fe",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Chinese hacker used DeepSeek to launch autonomous cyberattacks on vulnerable servers",
-      "summary": "A Chinese threat actor utilized multiple LLMs, including DeepSeek, to automate cyberattacks against vulnerable internet-facing servers. The operation was exposed after the attacker's AI agent misconfigured a file server, granting researchers insight into their infrastructure and methodology.",
-      "date": "2026-08-03T13:51:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/deepseek-ai-autonomous-cyberattacks-hermes-agent/",
-      "isTopTen": false
-    },
-    {
-      "id": "d54cef7c-6810-49ea-9117-8796f7f51d46",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "SentinelOne expands security operations automation with governed AI",
-      "summary": "SentinelOne has introduced governed, closed-loop automation within its Singularity Platform, enabling AI to autonomously investigate and respond to security alerts under human-defined parameters. This advancement aims to increase the speed and scale of security operations while maintaining human oversight.",
-      "date": "2026-08-03T13:44:00.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/sentinelone-security-operations-automation/",
-      "isTopTen": false
-    },
-    {
-      "id": "f9976d19-0394-4e3c-ac45-7546d7e1b72c",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Water system cyberattacks spread to Georgia, Michigan amid US-Iran conflict",
-      "summary": "Water infrastructure systems in Georgia and Michigan have been targeted by cyberattacks amid rising tensions between the United States and Iran. While the attacks are reported as part of a broader conflict, political officials have offered conflicting attributions regarding the source of the incidents.",
-      "date": "2026-08-03T13:33:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/03/georgia-michigan-say-water-systems-hacked-by-iran-tied-crew/5282262",
-      "isTopTen": false
-    },
-    {
-      "id": "f054e6a1-6558-4aa2-a03e-bb3f6f700ce7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Horizon3.ai hits $2 billion valuation in $250 million funding round",
-      "summary": "Horizon3.ai has secured $250 million in Series E funding, pushing its valuation to over $2 billion as demand for its autonomous security validation platform grows. The investment reflects the market's focus on countering AI-driven cyberattacks.",
-      "date": "2026-08-03T13:21:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/03/horizon3-ai-250-million-funding/",
-      "isTopTen": false
-    },
-    {
-      "id": "3aa85373-8eda-446b-8b2b-907b6cd6af47",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Biotech giant Amgen says patient data stolen from third-party cloud systems",
-      "summary": "Biotech company Amgen reported a data breach involving patient and proprietary information compromised through a third-party cloud provider. The company has formally notified regulators regarding the unauthorized access.",
-      "date": "2026-08-03T12:45:00.000Z",
-      "link": "https://therecord.media/amgen-hackers-cyberattack-sec",
-      "isTopTen": false
-    },
-    {
-      "id": "428370b3-49dd-412d-b3ff-71efff0933c7",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Hackers Exploit N-able N-central Flaw After Initial Fix Falls Short",
-      "summary": "Attackers exploited a vulnerability in N-able N-central by bypassing authentication to compromise managed client devices and establish persistent backdoors via Cloudflare tunnels. This activity occurred after a previous attempt to patch the flaw proved insufficient.",
-      "date": "2026-08-03T12:24:13.000Z",
-      "link": "https://hackread.com/hackers-exploit-n-able-n-central-flaw-initial-fix/",
-      "isTopTen": false
-    },
-    {
-      "id": "e109b230-40c5-43b0-aed3-c28a60223be6",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "PNLD Confirms Data Breach Affecting UK Police and Justice Staff",
-      "summary": "The Police National Legal Database (PNLD) has confirmed a data breach that exposed the names and work emails of police and criminal justice staff across the UK. The incident is currently under investigation by the National Crime Agency due to the increased risk of targeted phishing attacks.",
-      "date": "2026-08-03T12:23:55.000Z",
-      "link": "https://securityaffairs.com/196525/data-breach/pnld-confirms-data-breach-affecting-uk-police-and-justice-staff.html",
       "isTopTen": false
     }
   ]
