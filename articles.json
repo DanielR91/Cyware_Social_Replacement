@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-08-18T18:47:07.589Z",
+  "lastUpdated": "2026-08-18T21:30:52.652Z",
   "articles": [
+    {
+      "id": "a1b760cb-2a54-4db7-aad0-8de9d60036d5",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Expired credit cards revived by researchers to make unauthorized payments",
+      "summary": "Security researchers discovered that weaknesses in payment validation systems allow expired credit cards to be used for unauthorized transactions. This vulnerability highlights flaws in how merchants and processors verify card expiration dates during the payment authorization process.",
+      "date": "2026-08-18T20:20:28.000Z",
+      "link": "https://www.theregister.com/security/2026/08/18/expired-credit-cards-revived-by-researchers-to-make-unauthorized-payments/5289229",
+      "isTopTen": false
+    },
+    {
+      "id": "59ae4c1b-bbb1-4216-a2fc-aa2e4a41ad03",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Eight years later, federal authorities re-up charges against alleged Iranian hackers at Mabna Institute",
+      "summary": "U.S. federal authorities have issued a superseding indictment against the Mabna Institute, expanding charges and naming additional Iranian hackers involved in a long-standing academic and corporate cybertheft campaign.",
+      "date": "2026-08-18T20:12:06.000Z",
+      "link": "https://cyberscoop.com/mabna-institute-iranian-hackers-indictment/",
+      "isTopTen": false
+    },
+    {
+      "id": "3f5bbdf2-3a36-4696-91d4-6e01549d851e",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)",
+      "summary": "Unit 42 has released updated guidance on defending against large-scale credential stuffing attacks, specifically those targeting security vendor infrastructure.",
+      "date": "2026-08-18T19:05:33.000Z",
+      "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+      "isTopTen": false
+    },
     {
       "id": "b6085397-8664-412a-8914-73bb6eaf6f95",
       "source": "The Record",
@@ -32,7 +65,7 @@
       "summary": "Varonis Threat Labs identified three vulnerabilities, collectively dubbed CoSnitch, in Microsoft Copilot Personal that allow attackers to exfiltrate data from connected applications via a single malicious link.",
       "date": "2026-08-18T17:47:22.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a0fa9aed-a8a8-4b23-9e2c-bc657accc9fb",
@@ -43,7 +76,7 @@
       "summary": "Attackers are actively exploiting critical vulnerabilities in MLflow and FUXA to steal cloud credentials and sensitive data. Both platforms are currently seeing widespread malicious scanning and exploitation attempts.",
       "date": "2026-08-18T17:44:05.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "20c6890d-efac-44f3-9b00-042e0fabf869",
@@ -164,7 +197,7 @@
       "summary": "Researchers have demonstrated that AI agents can be infected with self-propagating 'mind viruses' through editable system prompt files, allowing malicious code to spread between autonomous sessions. This vulnerability poses a significant risk to the security of interconnected AI agent ecosystems.",
       "date": "2026-08-18T12:38:36.000Z",
       "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "307eb5e6-1f77-43b3-bafe-94ced42c614a",
@@ -439,7 +472,7 @@
       "summary": "A critical vulnerability in the Forminator WordPress plugin allows unauthenticated attackers to achieve remote code execution through malicious PHP file uploads. The flaw, CVE-2026-15748, carries a CVSS score of 9.8 and impacts over 600,000 active installations.",
       "date": "2026-08-17T18:22:09.000Z",
       "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6090f958-e85f-48c6-957e-bd638916443c",
@@ -5466,39 +5499,6 @@
       "summary": "Microsoft is reducing the expiration period for new NuGet.org API keys from 365 days to 30 days to bolster supply chain security. This change aims to minimize the impact of compromised credentials by requiring more frequent key rotations.",
       "date": "2026-08-04T08:30:15.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/04/microsoft-reducing-nuget-api-keys-lifetime/",
-      "isTopTen": false
-    },
-    {
-      "id": "b01377c3-199a-480f-b35f-e06dc2ac8f63",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "31,000 Records Compromised in Breach of Liechtenstein Companies and Foundations Register",
-      "summary": "A cyberattack on Liechtenstein's official register of beneficial owners has compromised the personal data of approximately 31,000 individuals linked to companies and foundations. The incident impacts a government-maintained database designed to track ownership transparency.",
-      "date": "2026-08-04T07:14:55.000Z",
-      "link": "https://securityaffairs.com/196558/cyber-crime/31000-records-compromised-in-breach-of-liechtenstein-companies-and-foundations-register.html",
-      "isTopTen": false
-    },
-    {
-      "id": "00708881-6ddd-40be-bb81-4b629b08f08b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-      "summary": "CISA has added a high-severity, actively exploited vulnerability in N-able N-central to its Known Exploited Vulnerabilities catalog. The flaw, CVE-2026-18577, is identified as an incomplete patch for a previous security issue.",
-      "date": "2026-08-04T07:00:13.000Z",
-      "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-      "isTopTen": false
-    },
-    {
-      "id": "89c90af9-637b-483e-80c3-c2657653378b",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "EU begins enforcing AI Act, putting AI models under the microscope",
-      "summary": "The European Union has officially begun enforcing the AI Act, implementing new transparency requirements for AI systems including mandatory labeling for chatbots and deepfakes. This regulation marks a shift from policy development to active oversight of AI models.",
-      "date": "2026-08-04T06:30:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/",
       "isTopTen": false
     }
   ]
