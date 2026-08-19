@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-19T01:28:27.314Z",
+  "lastUpdated": "2026-08-19T03:51:51.720Z",
   "articles": [
+    {
+      "id": "a8b38cca-c76f-4f9e-938f-0e7609fa7db9",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Australian hotel chain leaks guests’ PII after breach at third-party database operator",
+      "summary": "The Quest Apartment Hotel chain experienced a data breach involving a third-party database operator, exposing the personally identifiable information of guests across 120 properties. The incident highlights security risks associated with third-party service providers.",
+      "date": "2026-08-19T02:16:03.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/08/19/australian-hotel-chain-leaks-guests-pii-after-breach-at-third-party-database-operator/5289341",
+      "isTopTen": false
+    },
     {
       "id": "7c01cd3b-f991-4f98-82e9-46baabb23dc6",
       "source": "The Register",
@@ -21,7 +32,7 @@
       "summary": "Security researchers discovered that weaknesses in payment validation systems allow expired credit cards to be used for unauthorized transactions. This vulnerability highlights flaws in how merchants and processors verify card expiration dates during the payment authorization process.",
       "date": "2026-08-18T20:20:28.000Z",
       "link": "https://www.theregister.com/security/2026/08/18/expired-credit-cards-revived-by-researchers-to-make-unauthorized-payments/5289229",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "59ae4c1b-bbb1-4216-a2fc-aa2e4a41ad03",
@@ -76,7 +87,7 @@
       "summary": "Varonis Threat Labs identified three vulnerabilities, collectively dubbed CoSnitch, in Microsoft Copilot Personal that allow attackers to exfiltrate data from connected applications via a single malicious link.",
       "date": "2026-08-18T17:47:22.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a0fa9aed-a8a8-4b23-9e2c-bc657accc9fb",
@@ -87,7 +98,7 @@
       "summary": "Attackers are actively exploiting critical vulnerabilities in MLflow and FUXA to steal cloud credentials and sensitive data. Both platforms are currently seeing widespread malicious scanning and exploitation attempts.",
       "date": "2026-08-18T17:44:05.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "20c6890d-efac-44f3-9b00-042e0fabf869",
@@ -153,7 +164,7 @@
       "summary": "CISA has issued an emergency directive requiring federal agencies to mitigate a critical remote code execution vulnerability in the Ray framework within three days. Attackers are currently exploiting this flaw via phishing and malvertising to gain unauthorized access to corporate networks.",
       "date": "2026-08-18T15:26:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/18/cisa-gives-feds-3-days-to-fix-actively-exploited-ray-rce-bug/5289007",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "facb0d0f-28bc-4a9d-8916-bd3774b1b0d3",
@@ -263,7 +274,7 @@
       "summary": "GitLab has released security patches to address a critical, unauthenticated code injection vulnerability (CVE-2026-19478) that allows unauthorized modification or deletion of public projects. Users are strongly urged to upgrade their self-managed installations to the latest patched versions.",
       "date": "2026-08-18T11:38:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ec629252-c3cf-46e0-8fc8-a70e38f9f96e",
@@ -307,7 +318,7 @@
       "summary": "A threat actor known as 'TheHatman' claims to have stolen millions of employee records from the Azure environments of several major global corporations, including McDonald's and Vodafone. The data is currently being shared on cybercrime forums, allegedly sourced directly from the victims' cloud tenants.",
       "date": "2026-08-18T09:06:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/azure-data-leak-fortune-500-companies/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ecfafcc1-ffc5-4dd3-9b0a-7b442043ac9c",
@@ -483,7 +494,7 @@
       "summary": "A critical vulnerability in the Forminator WordPress plugin allows unauthenticated attackers to achieve remote code execution through malicious PHP file uploads. The flaw, CVE-2026-15748, carries a CVSS score of 9.8 and impacts over 600,000 active installations.",
       "date": "2026-08-17T18:22:09.000Z",
       "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6090f958-e85f-48c6-957e-bd638916443c",
@@ -516,7 +527,7 @@
       "summary": "The SANDCLOCK supply-chain attack involving LiteLLM compromised over 2,000 repositories, resulting in widespread credential theft across key industries like technology, finance, and healthcare. Security experts warn that the backdoor will have significant and long-lasting impacts on affected organizations.",
       "date": "2026-08-17T17:09:53.000Z",
       "link": "https://securityaffairs.com/197377/hacking/litellm-supply-chain-attack-technology-banking-and-healthcare-the-most-affected.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "45809451-fbbd-4785-8d32-2da44157a49c",
@@ -560,7 +571,7 @@
       "summary": "Polish healthcare software provider MyDr is under investigation following a data breach that may have exposed the personal information of 19 million people. The company confirmed it has mitigated the incident and implemented enhanced security protocols.",
       "date": "2026-08-17T16:01:00.000Z",
       "link": "https://therecord.media/poland-probes-mydr-healthcare-software-breach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "259b79ac-0f2f-4f9d-94f9-2bef6d07f3f3",
@@ -725,7 +736,7 @@
       "summary": "A suspected China-linked APT is exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter to deploy Babuk-derived ransomware. The flaw carries a CVSS score of 9.8 and allows for remote code execution.",
       "date": "2026-08-17T07:36:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2a489d6f-e0d4-44b3-8cb2-ed2825cddd42",
@@ -5488,17 +5499,6 @@
       "summary": "Legit Security has launched VibeGuard 2.0, an enhanced security platform that provides real-time guardrails and endpoint protection for AI-driven coding agents. The update aims to secure AI-generated code during development while maintaining a frictionless experience for developers.",
       "date": "2026-08-04T09:30:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/04/legit-security-vibeguard-2-0/",
-      "isTopTen": false
-    },
-    {
-      "id": "dc92cf1d-a851-4524-9cc6-1247b82dfaff",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
-      "summary": "A new Russian loader-as-a-service named DOUBLECUP is utilizing ClickFix social engineering and steganographic PNG images to deliver the CountLoader malware and a novel remote access trojan called DeviceManager.",
-      "date": "2026-08-04T09:03:23.000Z",
-      "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
       "isTopTen": false
     }
   ]
