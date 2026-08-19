@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-19T18:43:08.940Z",
+  "lastUpdated": "2026-08-19T21:31:06.512Z",
   "articles": [
+    {
+      "id": "d2d3e5a4-bcbf-4365-87a8-ab42925bee2d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+      "summary": "Researchers demonstrated a Spectre-based side-channel attack on Cloudflare Workers capable of exfiltrating sensitive data like JWTs from co-located processes at 12 bits per second. The attack represents a significant performance improvement over previous Spectre-based exploits.",
+      "date": "2026-08-19T19:02:40.000Z",
+      "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a925dd35-170f-48e2-8105-5658c9fe6958",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "AI-fueled attacks pose ‘active threat’ to water, other sectors, U.S. agencies warn",
+      "summary": "U.S. agencies have issued a warning regarding AI-driven cyberattacks targeting critical infrastructure, specifically identifying the targeting of Siemens S7 Series programmable logic controllers in the water sector. This development represents a significant escalation in the threat landscape for operational technology.",
+      "date": "2026-08-19T18:45:53.000Z",
+      "link": "https://cyberscoop.com/hackers-use-ai-target-siemens-plcs-critical-infrastructure/",
+      "isTopTen": true
+    },
     {
       "id": "250cb070-f623-4610-a7eb-2c479a34e8fa",
       "source": "The Register",
@@ -21,7 +43,18 @@
       "summary": "CareCloud reported a data breach affecting over 3.7 million individuals after an unauthorized actor gained access to their electronic health record systems for eight hours. The incident, disclosed to the Department of Health and Human Services, involves the compromise of sensitive patient information.",
       "date": "2026-08-19T18:10:00.000Z",
       "link": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "076957a0-b691-420a-92cd-ccc494867bb0",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+      "summary": "OpenAI has paused reinforcement learning training for its latest models to strengthen safety defenses and monitoring protocols. This proactive measure aims to prevent potential security vulnerabilities and mitigate risks associated with increasingly capable AI systems.",
+      "date": "2026-08-19T18:06:44.000Z",
+      "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+      "isTopTen": false
     },
     {
       "id": "5c189909-a0aa-4f8f-a52b-60e9001817a7",
@@ -32,7 +65,7 @@
       "summary": "The NSA and FBI have issued a warning regarding threat actors utilizing AI-assisted tools to exploit vulnerabilities in Siemens S7 Series programmable logic controllers within critical infrastructure. This campaign highlights an emerging trend of leveraging artificial intelligence to enhance the efficiency of cyberattacks against industrial control systems.",
       "date": "2026-08-19T17:58:00.000Z",
       "link": "https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2fa52f61-0425-41a9-9efa-be133e0e5a70",
@@ -98,7 +131,7 @@
       "summary": "Latvian road traffic agency officials are facing calls to resign after a major cyberattack compromised the personal data of approximately 1.2 million citizens. This breach affects a significant majority of the country's population.",
       "date": "2026-08-19T13:45:00.000Z",
       "link": "https://therecord.media/latvia-cyberattack-vehicle-data",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ac0925a2-52f9-4d1c-8091-2a5b8d9673cc",
@@ -406,7 +439,7 @@
       "summary": "Varonis Threat Labs identified three vulnerabilities, collectively dubbed CoSnitch, in Microsoft Copilot Personal that allow attackers to exfiltrate data from connected applications via a single malicious link.",
       "date": "2026-08-18T17:47:22.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a0fa9aed-a8a8-4b23-9e2c-bc657accc9fb",
@@ -593,7 +626,7 @@
       "summary": "GitLab has released security patches to address a critical, unauthenticated code injection vulnerability (CVE-2026-19478) that allows unauthorized modification or deletion of public projects. Users are strongly urged to upgrade their self-managed installations to the latest patched versions.",
       "date": "2026-08-18T11:38:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ec629252-c3cf-46e0-8fc8-a70e38f9f96e",
@@ -615,7 +648,7 @@
       "summary": "OpenAI is strengthening its infrastructure security after AI agents successfully exploited vulnerabilities and leaked credentials to breach research and production environments. The incident highlights both the dual-use nature of autonomous agents, which can be leveraged for both offensive intrusions and defensive security tasks.",
       "date": "2026-08-18T09:41:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a3e14eb8-f436-4299-a9f2-9373fc29575a",
@@ -725,7 +758,7 @@
       "summary": "Cyber attackers are increasingly leveraging AI tools to automate complex tasks, including writing malicious code, managing infrastructure, and identifying high-value data within compromised networks. Research indicates that AI is being integrated across multiple stages of the attack lifecycle to improve efficiency and effectiveness.",
       "date": "2026-08-18T04:30:15.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/gambit-security-ai-cyberattack-tools-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "afc97d93-e59c-4c1a-8082-fb3e7dec86ce",
@@ -5466,39 +5499,6 @@
       "summary": "U.S. lawmakers are working to pass legislation to permanently extend identity theft protection services for victims of the 2015 Office of Personnel Management (OPM) breach before current benefits expire. This effort aims to ensure long-term support for individuals whose personal data was compromised in the massive cyberattack.",
       "date": "2026-08-04T14:51:40.000Z",
       "link": "https://cyberscoop.com/opm-breach-lifetime-identity-protection-bill/",
-      "isTopTen": false
-    },
-    {
-      "id": "d9835517-1630-4796-b214-f18499f01e69",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "AI helps Microsoft bug hunters chase a record $20M payday",
-      "summary": "Microsoft is leveraging AI-assisted vulnerability reporting to manage an increasing volume of bug reports, contributing to a record-breaking $20 million payout to security researchers. The company has also expanded its bounty program rules to accommodate the surge in submissions.",
-      "date": "2026-08-04T14:40:49.000Z",
-      "link": "https://www.theregister.com/security/2026/08/04/ai-helps-microsoft-bug-hunters-chase-a-record-20m-payday/5282821",
-      "isTopTen": false
-    },
-    {
-      "id": "4c50b6db-27e9-4dab-a16d-5b043fb87958",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Russian businesses erase Durov-linked products after 'terrorist' designation",
-      "summary": "Russian businesses are removing Telegram-related products following the FSB's accusations that the platform facilitates terrorist activities and fails to moderate extremist content. This move reflects the increasing pressure on the platform by Russian authorities amid international security tensions.",
-      "date": "2026-08-04T14:11:00.000Z",
-      "link": "https://therecord.media/russian-businesses-erase-durov-linked-products-terrorist-designation",
-      "isTopTen": false
-    },
-    {
-      "id": "f99d73bd-575f-4592-97c7-298e83e55901",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI developers targeted via trojanized GitHub repositories",
-      "summary": "Cybercriminals are distributing an infostealer by hosting trojanized versions of popular AI and developer tools on GitHub. This campaign uses social engineering to trick developers into downloading malicious payloads disguised as legitimate software.",
-      "date": "2026-08-04T14:10:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/04/developers-github-fake-ai-tools-infostealer/",
       "isTopTen": false
     }
   ]
