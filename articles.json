@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-19T12:56:34.514Z",
+  "lastUpdated": "2026-08-19T15:38:22.449Z",
   "articles": [
+    {
+      "id": "683526a7-5a51-4c28-a760-ccf8639eedb8",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "The long tail of Clop’s PTC hack is just beginning to emerge",
+      "summary": "The Clop ransomware group exploited a critical vulnerability in PTC’s product lifecycle management software to conduct large-scale data theft. The full scope of the impact is expected to expand as more victims face extortion attempts.",
+      "date": "2026-08-19T14:30:52.000Z",
+      "link": "https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/",
+      "isTopTen": true
+    },
+    {
+      "id": "898e666b-8c21-4e9f-bbd2-1c060dc4e02d",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Intezer adds native response automation without separate SOAR",
+      "summary": "Intezer has launched Workflows, a native automation feature that allows security teams to execute incident response actions directly within its platform. This integration aims to eliminate the need for separate SOAR tools by streamlining the transition from alert investigation to remediation.",
+      "date": "2026-08-19T13:56:13.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/19/intezer-workflows-automation/",
+      "isTopTen": false
+    },
+    {
+      "id": "f5866d9f-cc20-4933-b615-5d7e2572ac1b",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Latvian officials resign after cyberattack exposes data on 1.2 million people",
+      "summary": "Latvian road traffic agency officials are facing calls to resign after a major cyberattack compromised the personal data of approximately 1.2 million citizens. This breach affects a significant majority of the country's population.",
+      "date": "2026-08-19T13:45:00.000Z",
+      "link": "https://therecord.media/latvia-cyberattack-vehicle-data",
+      "isTopTen": true
+    },
+    {
+      "id": "ac0925a2-52f9-4d1c-8091-2a5b8d9673cc",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Comcast gives its Wi-Fi motion detector a security makeover",
+      "summary": "Comcast has updated its Wi-Fi-based motion detection feature to improve security and privacy, though users should review the terms of service regarding data usage. The system identifies motion without the use of cameras, offering household monitoring capabilities.",
+      "date": "2026-08-19T13:14:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
+      "isTopTen": false
+    },
+    {
+      "id": "459b28e6-96ae-43cf-bd50-898bfef6ddce",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+      "summary": "The SilkParasite espionage campaign is targeting Central Asian government entities using seven remote access tools, including five previously undocumented malware strains. This sophisticated operation, discovered in late 2025, represents a significant cyber threat to regional national security.",
+      "date": "2026-08-19T13:12:17.000Z",
+      "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+      "isTopTen": false
+    },
     {
       "id": "57ae783c-ca6b-4016-ba8d-84e16ee02efd",
       "source": "The Record",
@@ -10,7 +65,29 @@
       "summary": "The U.S. Justice Department has charged 17 individuals linked to the Iranian government for orchestrating a widespread hacking campaign that compromised government email accounts and stole intellectual property from numerous universities.",
       "date": "2026-08-19T12:15:00.000Z",
       "link": "https://therecord.media/iran-cyberattacks-us-doj",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "e84dc362-0269-43ee-b578-73a9c0a49182",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+      "summary": "Operation CameraSwarm resulted in the compromise of over 14,500 Dahua devices through a combination of credential stuffing, authentication bypass vulnerabilities, and P2P relay exploitation. Researchers uncovered the campaign after discovering an exposed working directory containing project files and evidence of the attacks.",
+      "date": "2026-08-19T11:34:28.000Z",
+      "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+      "isTopTen": false
+    },
+    {
+      "id": "da5edc19-bef6-490e-a222-7fafb6db7a7c",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
+      "summary": "The evolution of phishing has shifted from malicious payloads and bad intent to autonomous AI agents, necessitating a move toward automated defense systems. This transition marks a new era of 'agent versus agent' cyber warfare.",
+      "date": "2026-08-19T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+      "isTopTen": false
     },
     {
       "id": "a16ad921-a8af-4f6b-af0f-7eee66c4c0fc",
@@ -32,7 +109,7 @@
       "summary": "CISA has added four critical vulnerabilities affecting Apple macOS, Microsoft SharePoint, VMware vCenter, and Microsoft IKE to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild.",
       "date": "2026-08-19T11:01:48.000Z",
       "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8d27ff13-b9af-477a-bb02-5a1408d1f91a",
@@ -87,7 +164,7 @@
       "summary": "OpenAI has paused the training of its latest frontier AI models for two weeks to enhance security measures, red-team its infrastructure, and evaluate safeguards following a recent security incident. This proactive delay aims to mitigate cyber risks and ensure model alignment before proceeding with large-scale training.",
       "date": "2026-08-19T08:48:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/19/openai-model-safety-updates/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b696132a-766f-449f-ac52-a43b0b930d72",
@@ -120,7 +197,7 @@
       "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog to include critical security flaws affecting Apple macOS, Microsoft SharePoint, Broadcom VMware vCenter, and the Microsoft IKE service. These additions indicate that these vulnerabilities are currently being actively exploited in the wild.",
       "date": "2026-08-19T07:19:31.000Z",
       "link": "https://securityaffairs.com/197490/hacking/u-s-cisa-adds-apple-macos-microsoft-sharepoint-broadcom-vmware-vcenter-and-microsoft-ike-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5c713226-f70a-41c0-8ab2-b958c9480504",
@@ -461,7 +538,7 @@
       "summary": "A single malicious server has been systematically scraping sensitive customer portal data from Salesforce and ServiceNow environments across various industries since 2025. This ongoing campaign, dubbed City Forum, highlights a significant, long-term unauthorized data extraction threat.",
       "date": "2026-08-18T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e0d4bcf9-4d0e-4237-afdc-6bb4f0bf4080",
@@ -670,7 +747,7 @@
       "summary": "A critical vulnerability in the Forminator WordPress plugin allows unauthenticated attackers to achieve remote code execution through malicious PHP file uploads. The flaw, CVE-2026-15748, carries a CVSS score of 9.8 and impacts over 600,000 active installations.",
       "date": "2026-08-17T18:22:09.000Z",
       "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6090f958-e85f-48c6-957e-bd638916443c",
@@ -703,7 +780,7 @@
       "summary": "The SANDCLOCK supply-chain attack involving LiteLLM compromised over 2,000 repositories, resulting in widespread credential theft across key industries like technology, finance, and healthcare. Security experts warn that the backdoor will have significant and long-lasting impacts on affected organizations.",
       "date": "2026-08-17T17:09:53.000Z",
       "link": "https://securityaffairs.com/197377/hacking/litellm-supply-chain-attack-technology-banking-and-healthcare-the-most-affected.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "45809451-fbbd-4785-8d32-2da44157a49c",
@@ -747,7 +824,7 @@
       "summary": "Polish healthcare software provider MyDr is under investigation following a data breach that may have exposed the personal information of 19 million people. The company confirmed it has mitigated the incident and implemented enhanced security protocols.",
       "date": "2026-08-17T16:01:00.000Z",
       "link": "https://therecord.media/poland-probes-mydr-healthcare-software-breach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "259b79ac-0f2f-4f9d-94f9-2bef6d07f3f3",
@@ -5422,83 +5499,6 @@
       "summary": "Snyk has launched Evo Continuous Offensive Security (COS), a new platform that utilizes AI-powered pentesting and agent red teaming to identify complex architectural flaws and exploitable vulnerabilities in software. This tool aims to help security teams maintain visibility into attack surfaces created by rapid AI-driven development.",
       "date": "2026-08-04T13:15:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/04/snyk-evo-continuous-offensive-security-cos/",
-      "isTopTen": false
-    },
-    {
-      "id": "08d66b42-db2f-4c5e-9143-d36488070607",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-      "summary": "A sophisticated social engineering campaign dubbed SMOKE#SCREEN is masquerading as legitimate software updates for Adobe and Zoom to infect systems with ScreenConnect RMM tools for persistent unauthorized access.",
-      "date": "2026-08-04T13:11:22.000Z",
-      "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7966f99f-3647-4c81-86e8-7b00f548bfb3",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
-      "summary": "Unit 42 researchers developed the NOVA system, which utilizes frontier AI to autonomously identify over 14,000 previously unknown vulnerabilities in open-source software. This advancement signals a shift toward industrial-scale vulnerability discovery within the software supply chain.",
-      "date": "2026-08-04T13:00:11.000Z",
-      "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
-      "isTopTen": false
-    },
-    {
-      "id": "565cce59-f31e-41fc-b3ec-ccc9cc3cc369",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Apple launches new legal challenge against UK over iCloud access",
-      "summary": "Apple is challenging British legal demands that seek to bypass its iCloud Advanced Data Protection feature, aiming to maintain end-to-end encryption for its users. This legal battle highlights the ongoing tension between government surveillance requirements and corporate commitment to consumer privacy.",
-      "date": "2026-08-04T13:00:00.000Z",
-      "link": "https://therecord.media/apple-uk-tcn-icloud-new-legal-challenge",
-      "isTopTen": false
-    },
-    {
-      "id": "34ee2259-c776-4f75-8d71-bdf038d374c5",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "RapidFort Runtime brings continuous CVE monitoring and tamper detection",
-      "summary": "RapidFort has launched a new runtime security solution that provides continuous CVE monitoring and tamper detection for software in production environments. This offering aims to bridge the gap between pre-deployment security and live threat mitigation by alerting teams to unauthorized changes and emerging vulnerabilities.",
-      "date": "2026-08-04T12:55:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/04/rapidfort-runtime/",
-      "isTopTen": false
-    },
-    {
-      "id": "e4883239-2104-42ff-a005-2ffccaec0858",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Almost Half of Malware Samples Communicate Direct to IP",
-      "summary": "Recent research indicates that nearly 50% of command-and-control malware bypasses DNS to communicate directly via IP addresses, necessitating zero trust IP enforcement for effective mitigation.",
-      "date": "2026-08-04T12:50:53.000Z",
-      "link": "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
-      "isTopTen": false
-    },
-    {
-      "id": "62808c2b-de99-4511-9c0b-9571728d95ef",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Swiss IT agency hacked, 200 accounts compromised, SharePoint vulns suspected",
-      "summary": "The Swiss Federal Office for Information Technology and Communications (BIT) is investigating a security breach involving 200 compromised accounts on their on-premises Microsoft servers. Officials suspect the intrusion may have stemmed from SharePoint vulnerabilities.",
-      "date": "2026-08-04T12:45:00.000Z",
-      "link": "https://therecord.media/swiss-bit-foitt-hacked-possibly-sharepoint-vulnerabilities",
-      "isTopTen": false
-    },
-    {
-      "id": "61916ef8-01af-48d8-a8f3-4f09457d7f73",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CVE-2026-58048: cPanel Bug Enables Full Database Administrator Access",
-      "summary": "A critical vulnerability in cPanel (CVE-2026-58048) with a CVSS score of 9.4 allows authenticated users to execute SQL commands as root, necessitating an immediate update. This flaw poses a significant risk to shared hosting environments by enabling privilege escalation.",
-      "date": "2026-08-04T12:29:41.000Z",
-      "link": "https://securityaffairs.com/196595/security/cve-2026-58048-cpanel-bug-enables-full-database-administrator-access.html",
       "isTopTen": false
     }
   ]
