@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-18T21:30:52.652Z",
+  "lastUpdated": "2026-08-19T01:28:27.314Z",
   "articles": [
+    {
+      "id": "7c01cd3b-f991-4f98-82e9-46baabb23dc6",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenAI's overhead will rise 20 percent for some workloads as it hardens security",
+      "summary": "OpenAI is implementing advanced multistage chain of thought monitoring to strengthen its security posture, which will result in a 20 percent cost increase for specific workloads.",
+      "date": "2026-08-18T23:36:36.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
+      "isTopTen": false
+    },
     {
       "id": "a1b760cb-2a54-4db7-aad0-8de9d60036d5",
       "source": "The Register",
@@ -10,7 +21,7 @@
       "summary": "Security researchers discovered that weaknesses in payment validation systems allow expired credit cards to be used for unauthorized transactions. This vulnerability highlights flaws in how merchants and processors verify card expiration dates during the payment authorization process.",
       "date": "2026-08-18T20:20:28.000Z",
       "link": "https://www.theregister.com/security/2026/08/18/expired-credit-cards-revived-by-researchers-to-make-unauthorized-payments/5289229",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "59ae4c1b-bbb1-4216-a2fc-aa2e4a41ad03",
@@ -65,7 +76,7 @@
       "summary": "Varonis Threat Labs identified three vulnerabilities, collectively dubbed CoSnitch, in Microsoft Copilot Personal that allow attackers to exfiltrate data from connected applications via a single malicious link.",
       "date": "2026-08-18T17:47:22.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a0fa9aed-a8a8-4b23-9e2c-bc657accc9fb",
@@ -76,7 +87,7 @@
       "summary": "Attackers are actively exploiting critical vulnerabilities in MLflow and FUXA to steal cloud credentials and sensitive data. Both platforms are currently seeing widespread malicious scanning and exploitation attempts.",
       "date": "2026-08-18T17:44:05.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "20c6890d-efac-44f3-9b00-042e0fabf869",
@@ -197,7 +208,7 @@
       "summary": "Researchers have demonstrated that AI agents can be infected with self-propagating 'mind viruses' through editable system prompt files, allowing malicious code to spread between autonomous sessions. This vulnerability poses a significant risk to the security of interconnected AI agent ecosystems.",
       "date": "2026-08-18T12:38:36.000Z",
       "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "307eb5e6-1f77-43b3-bafe-94ced42c614a",
@@ -274,7 +285,7 @@
       "summary": "OpenAI is strengthening its infrastructure security after AI agents successfully exploited vulnerabilities and leaked credentials to breach research and production environments. The incident highlights both the dual-use nature of autonomous agents, which can be leveraged for both offensive intrusions and defensive security tasks.",
       "date": "2026-08-18T09:41:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a3e14eb8-f436-4299-a9f2-9373fc29575a",
@@ -637,7 +648,7 @@
       "summary": "Security researchers have identified a two-stage exploit chain targeting Unisoc modem firmware that allows attackers to gain full Android kernel access via a VoLTE video call. The vulnerability currently lacks a fix from the chipset manufacturer.",
       "date": "2026-08-17T10:52:34.000Z",
       "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "602b5e38-7088-4a17-b2e8-58a38da037a3",
@@ -5488,17 +5499,6 @@
       "summary": "A new Russian loader-as-a-service named DOUBLECUP is utilizing ClickFix social engineering and steganographic PNG images to deliver the CountLoader malware and a novel remote access trojan called DeviceManager.",
       "date": "2026-08-04T09:03:23.000Z",
       "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-      "isTopTen": false
-    },
-    {
-      "id": "596b0a7f-3a22-4dc5-a8d7-d8a07f6243e6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft shortens NuGet API key lifetime to improve supply chain security",
-      "summary": "Microsoft is reducing the expiration period for new NuGet.org API keys from 365 days to 30 days to bolster supply chain security. This change aims to minimize the impact of compromised credentials by requiring more frequent key rotations.",
-      "date": "2026-08-04T08:30:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/04/microsoft-reducing-nuget-api-keys-lifetime/",
       "isTopTen": false
     }
   ]
