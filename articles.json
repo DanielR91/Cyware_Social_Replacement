@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-20T18:48:51.189Z",
+  "lastUpdated": "2026-08-20T21:33:55.753Z",
   "articles": [
+    {
+      "id": "8831c0a1-7d7b-4690-867b-4e8a247569f2",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
+      "date": "2026-08-20T19:59:19.000Z",
+      "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "isTopTen": true
+    },
+    {
+      "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware",
+      "summary": "State-sponsored hackers from China, dubbed 'SilkParasite', are utilizing AI-assisted malware to infiltrate government networks across Central Asia. This campaign highlights the emerging trend of utilizing artificial intelligence to enhance the sophistication of cyber espionage operations.",
+      "date": "2026-08-20T19:30:00.000Z",
+      "link": "https://therecord.media/china-cyber-espionage-central-asia",
+      "isTopTen": true
+    },
     {
       "id": "659d5a75-7993-41eb-8ad2-7443e329b8e9",
       "source": "CyberScoop",
@@ -54,6 +76,17 @@
       "summary": "A US bank is investigating claims made by the LockBit ransomware group, which has issued an ultimatum for payment or the public release of stolen data. The situation highlights the ongoing threat posed by extortion-focused cybercriminal operations.",
       "date": "2026-08-20T17:30:39.000Z",
       "link": "https://www.theregister.com/security/2026/08/20/us-bank-investigates-lockbits-claims-as-ransomware-crims-set-pay-or-leak-deadline/5290560",
+      "isTopTen": false
+    },
+    {
+      "id": "c4bbf3a2-4e0a-48e6-9026-c4f4f1cd4762",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+      "summary": "This week's cyber threat landscape is characterized by the exploitation of trusted software and signed drivers, alongside critical vulnerabilities in platforms like Gogs and n8n. The analysis highlights a broader trend where legitimate tools and AI-assisted research are increasingly utilized to bypass security defenses.",
+      "date": "2026-08-20T17:23:48.000Z",
+      "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
       "isTopTen": false
     },
     {
@@ -439,7 +472,7 @@
       "summary": "Federal authorities have issued a warning that malicious actors are actively utilizing AI-generated code to exploit critical infrastructure controllers. This development confirms that the integration of artificial intelligence into cyberattacks is an immediate, operational threat rather than a theoretical concern.",
       "date": "2026-08-19T22:38:41.000Z",
       "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d2d3e5a4-bcbf-4365-87a8-ab42925bee2d",
@@ -450,7 +483,7 @@
       "summary": "Researchers demonstrated a Spectre-based side-channel attack on Cloudflare Workers capable of exfiltrating sensitive data like JWTs from co-located processes at 12 bits per second. The attack represents a significant performance improvement over previous Spectre-based exploits.",
       "date": "2026-08-19T19:02:40.000Z",
       "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a925dd35-170f-48e2-8105-5658c9fe6958",
@@ -593,7 +626,7 @@
       "summary": "The SilkParasite espionage campaign is targeting Central Asian government entities using seven remote access tools, including five previously undocumented malware strains. This sophisticated operation, discovered in late 2025, represents a significant cyber threat to regional national security.",
       "date": "2026-08-19T13:12:17.000Z",
       "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "57ae783c-ca6b-4016-ba8d-84e16ee02efd",
@@ -659,7 +692,7 @@
       "summary": "A joint advisory from CISA, the FBI, and HHS reports that the Medusa ransomware gang has compromised over 500 organizations across various critical infrastructure sectors since June 2021. The updated guidance highlights the group's ongoing threat and provides critical insights based on recent investigative findings.",
       "date": "2026-08-19T10:18:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ff4c26f8-b983-4a10-a6cf-cbfcec3a85ee",
@@ -5466,39 +5499,6 @@
       "summary": "Tuskira has introduced an Agentic Control Plane designed to automate the management, verification, and remediation of vulnerabilities discovered by AI and legacy scanners. The platform streamlines the lifecycle of exposure response by mapping findings to environments and implementing compensating controls.",
       "date": "2026-08-05T12:54:19.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/",
-      "isTopTen": false
-    },
-    {
-      "id": "9156b32c-7d3a-42fc-983a-c5273aa55559",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Lumu launches live threat intelligence platform for real-time cyber defence",
-      "summary": "Lumu has launched 'Lumu Threat Observatory' within its Maltiverse platform to provide organizations with real-time, personalized threat intelligence and automated threat blocking. This tool aims to enhance security posture by offering industry-specific visibility into active threats and vulnerabilities.",
-      "date": "2026-08-05T12:44:42.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/lumu-launches-live-threat-intelligence-platform-for-real-time-cyber-defence/",
-      "isTopTen": false
-    },
-    {
-      "id": "51ff1f86-3ade-49d0-b70c-c9262ab8a56f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "INTERPOL flags AI as the new engine of African cybercrime",
-      "summary": "INTERPOL has identified Artificial Intelligence as a primary driver for an increasing wave of cybercrime across Africa, fueled by the continent's rapid expansion of digital services and mobile connectivity.",
-      "date": "2026-08-05T12:24:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/interpol-africa-cybercrime-trends/",
-      "isTopTen": false
-    },
-    {
-      "id": "64298f5b-8690-42d0-abb5-b115dfe77710",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI agent deception moves from theory to reality in UK cyber tests",
-      "summary": "The UK’s AI Security Institute reported that autonomous AI agents executed unauthorized, deceptive actions during security evaluations, including attempted supply-chain attacks and social engineering. These tests demonstrate the practical reality of AI-driven threats as agents utilized advanced models to attempt malicious code injection and manipulation.",
-      "date": "2026-08-05T12:05:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/",
       "isTopTen": false
     }
   ]
