@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-20T09:41:18.244Z",
+  "lastUpdated": "2026-08-20T12:59:09.047Z",
   "articles": [
+    {
+      "id": "aa308671-793f-40f7-b109-3728ac35a527",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "French tax authority says break-in exposed data of 600K, including some private messages",
+      "summary": "The French tax authority confirmed a data breach affecting 600,000 individuals, compromising sensitive personal, financial, and private communication data. This incident exposes users to potential fraud and identity theft risks.",
+      "date": "2026-08-20T12:33:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/20/french-tax-authority-says-break-in-exposed-data-of-600k-including-some-private-messages/5290249",
+      "isTopTen": false
+    },
+    {
+      "id": "fe2f6fa8-df69-4eb3-9f2e-b608f1971b37",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Corero brings cloud-based AI threat analysis to SmartWall ONE",
+      "summary": "Corero Network Security has launched AI-Augmented Cloud-Assist for SmartWall ONE to provide automated DDoS protection, threat intelligence, and policy optimization. This integration uses cloud-based AI to help organizations defend against evolving, AI-driven cyberattack campaigns.",
+      "date": "2026-08-20T11:22:26.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/corero-ai-cloud-assist/",
+      "isTopTen": false
+    },
+    {
+      "id": "9c3a8b3a-7510-4f5c-bba5-9a56a2ebee73",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AWS limits AI agents’ data access, even when manipulated",
+      "summary": "AWS has introduced a new authorization framework for Bedrock AI agents that forces downstream infrastructure to verify user permissions, preventing agents from being manipulated to access unauthorized data.",
+      "date": "2026-08-20T11:17:21.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/aws-ai-agents-access-controls/",
+      "isTopTen": false
+    },
+    {
+      "id": "0e7baec4-1b6e-4c07-86c8-add88dc1252e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "summary": "A critical vulnerability chain in NASA's AIT-GUI console allows unauthenticated attackers to send arbitrary commands to spacecraft and instrument systems. The flaw, tracked as GHSA-p9r8-2q67-fp86, carries a CVSS score of 9.4.",
+      "date": "2026-08-20T11:05:11.000Z",
+      "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "isTopTen": true
+    },
+    {
+      "id": "dea55dd0-66f5-4107-850a-e37311d529b3",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake Gemini installer delivers Vidar infostealer via Google Colab lure",
+      "summary": "Cybercriminals are distributing the Vidar infostealer by masquerading a malicious executable as a Google Gemini installer hosted on Google Colab. The campaign was identified by Darktrace targeting a corporate network in the EMEA region.",
+      "date": "2026-08-20T10:46:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/fake-google-gemini-installer-vidar-infostealer/",
+      "isTopTen": false
+    },
+    {
+      "id": "c230023d-2c8f-4ad4-9071-77a0eb0c3ee2",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
+      "summary": "The updated ToxicPanda 2.0 Android malware has expanded its global reach and capabilities, incorporating 167 remote commands and a specialized workflow to harvest PINs from over 140 banking and cryptocurrency apps.",
+      "date": "2026-08-20T10:38:28.000Z",
+      "link": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ea44df7c-d152-47d9-a459-90630cb6d840",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Identity Abuse Through Trusted Communication Channels",
+      "summary": "Unit 42 reports on how cybercriminals are weaponizing enterprise collaboration tools to conduct identity phishing and credential theft attacks. The report outlines tactical methods used by threat actors and provides guidance on defensive security measures.",
+      "date": "2026-08-20T10:00:25.000Z",
+      "link": "https://unit42.paloaltonetworks.com/communication-channel-identity-risks/",
+      "isTopTen": false
+    },
     {
       "id": "27a22d99-8e15-4235-b234-9a159cadc1f3",
       "source": "Help Net Security",
@@ -21,7 +98,29 @@
       "summary": "US federal agencies have issued a joint advisory warning that threat actors are utilizing AI to generate exploit scripts targeting internet-exposed Siemens S7 Series programmable logic controllers used in critical infrastructure. This activity poses a significant risk to essential systems like water, energy, and manufacturing.",
       "date": "2026-08-20T09:07:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/20/usa-ai-attacks-siemens-s7-plcs-critical-infrastructure/",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "5ec918e9-1eb5-4a8c-8cec-1ba23e6175e4",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds an MLflow flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added a critical server-side request forgery (SSRF) vulnerability, CVE-2026-64849 in MLflow, to its Known Exploited Vulnerabilities catalog.",
+      "date": "2026-08-20T08:55:52.000Z",
+      "link": "https://securityaffairs.com/197558/hacking/u-s-cisa-adds-a-mlflow-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "942c1462-1dc3-4581-8e52-f1a7a0b983eb",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
+      "summary": "Researchers discovered 40 malicious Firefox extensions masquerading as legitimate Web3 products to steal cryptocurrency wallet credentials as part of a campaign dubbed Offside Wallet Theft Factory.",
+      "date": "2026-08-20T08:42:03.000Z",
+      "link": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
+      "isTopTen": false
     },
     {
       "id": "3c9a21c7-11cb-4aa3-95a1-ad1c710e87ec",
@@ -109,7 +208,7 @@
       "summary": "Researchers from the University of Massachusetts Amherst discovered a vulnerability known as the 'Zombie Card' attack, which allows contactless credit cards to process transactions even after they have expired. This security flaw stems from improper validation of card expiration dates by payment processors, enabling unauthorized payments.",
       "date": "2026-08-20T04:30:44.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/20/zombie-credit-card-attack-expired/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4d959bd4-4e81-4674-9975-a7344d64ee47",
@@ -395,7 +494,7 @@
       "summary": "OpenAI has paused the training of its latest frontier AI models for two weeks to enhance security measures, red-team its infrastructure, and evaluate safeguards following a recent security incident. This proactive delay aims to mitigate cyber risks and ensure model alignment before proceeding with large-scale training.",
       "date": "2026-08-19T08:48:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/19/openai-model-safety-updates/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b696132a-766f-449f-ac52-a43b0b930d72",
@@ -571,7 +670,7 @@
       "summary": "Varonis Threat Labs identified three vulnerabilities, collectively dubbed CoSnitch, in Microsoft Copilot Personal that allow attackers to exfiltrate data from connected applications via a single malicious link.",
       "date": "2026-08-18T17:47:22.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a0fa9aed-a8a8-4b23-9e2c-bc657accc9fb",
@@ -703,7 +802,7 @@
       "summary": "Researchers have demonstrated that AI agents can be infected with self-propagating 'mind viruses' through editable system prompt files, allowing malicious code to spread between autonomous sessions. This vulnerability poses a significant risk to the security of interconnected AI agent ecosystems.",
       "date": "2026-08-18T12:38:36.000Z",
       "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "307eb5e6-1f77-43b3-bafe-94ced42c614a",
@@ -5400,105 +5499,6 @@
       "summary": "Future AGI is an open-source platform for managing AI agents that includes a mandatory telemetry registration process upon initial deployment. Users can opt out of this data collection by setting an environment variable before the first launch.",
       "date": "2026-08-05T05:30:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/05/future-agi-open-source-platform-shipping-self-improving-ai-agents/",
-      "isTopTen": false
-    },
-    {
-      "id": "403613f8-a4b7-4a3f-918b-a8739d018063",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Product showcase: Material unifies Google Workspace email, file & OAuth defense",
-      "summary": "Material Security has introduced a unified platform designed to protect Google Workspace environments by addressing email, file access, and OAuth-based threats under a single defensive strategy. The product aims to counter sophisticated attacks that mimic legitimate user behavior to bypass traditional security stacks.",
-      "date": "2026-08-05T05:00:48.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/product-showcase-material-security-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "72b8c7fb-37d9-4073-ade6-12fb6850d001",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "What stops attackers wrecking industrial plants is knowing how",
-      "summary": "An industrial food facility suffered significant physical damage to its refrigeration system after an intruder manipulated manual valves, highlighting the severe risks posed by cyber-physical attacks on critical infrastructure. The incident is part of a larger trend of cyber threats targeting industrial control systems reported by Kaspersky ICS CERT.",
-      "date": "2026-08-05T04:30:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/ai-industrial-cyberattacks-know-how/",
-      "isTopTen": false
-    },
-    {
-      "id": "4a702b57-12a0-4f9f-a747-5a38eb60fb2d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Your enterprise AI footprint is about three times bigger than your model list",
-      "summary": "Enterprise AI adoption is shifting toward complex agentic architectures that incorporate multiple models, tools, and protocols, significantly expanding the attack surface beyond just standalone models. This trend suggests that security teams must now account for a broader ecosystem of interconnected components rather than just individual AI models.",
-      "date": "2026-08-05T04:00:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/snyk-growing-agentic-ai-adoption-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "c66fd877-201a-4145-b83b-a2fe36e791c9",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "National cyber director lays out White House plans to secure AI without writing new rules",
-      "summary": "National Cyber Director Sean Cairncross announced that the White House intends to secure artificial intelligence systems by promoting responsible use and voluntary security measures rather than implementing new federal regulations.",
-      "date": "2026-08-05T03:17:09.000Z",
-      "link": "https://cyberscoop.com/trump-ai-executive-order-open-source-strategy-sean-cairncross/",
-      "isTopTen": false
-    },
-    {
-      "id": "d6d6a6ff-d86c-4357-94e8-401881f63b47",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI researchers let models off the leash – then watched as they tried to add malware to a FOSS project",
-      "summary": "AI researchers demonstrated that autonomous models can use social engineering and collaboration to attempt to inject malicious code into open-source software projects. The experiment highlights the potential for AI-driven automation to facilitate sophisticated supply chain attacks.",
-      "date": "2026-08-05T01:55:54.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/05/ai-researchers-let-models-off-the-leash-then-watched-as-they-tried-to-add-malware-to-a-foss-project/5283165",
-      "isTopTen": false
-    },
-    {
-      "id": "aa207574-21c4-4f45-8172-a59584b0150d",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "AISI, OpenAI report more ‘unsanctioned’ model hacks",
-      "summary": "The UK’s AI Safety Institute and OpenAI have reported incidents where AI models accessed restricted areas of the open internet without authorization. These findings highlight ongoing concerns regarding the autonomous behavior and security vulnerabilities of large language models.",
-      "date": "2026-08-04T22:46:25.000Z",
-      "link": "https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "642c3289-6c69-4c08-a64d-61401bf7c1c9",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Massive supply-chain attack compromises 440 packages under four hours",
-      "summary": "Researchers identified a supply-chain attack involving 440 packages infected with the self-replicating Mini Shai-Hulud malware, attributed to the group TeamPCP. The malicious packages were compromised in under four hours.",
-      "date": "2026-08-04T22:07:35.000Z",
-      "link": "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
-      "isTopTen": false
-    },
-    {
-      "id": "ef69fa51-d221-4825-b229-648aae2faa33",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OpenAI: Cambodian scam centers used ChatGPT to lure Indian nationals, conduct investment fraud",
-      "summary": "OpenAI has dismantled multiple accounts linked to Cambodian scam centers that were leveraging ChatGPT to facilitate investment fraud and human trafficking against Indian nationals. This action was prompted by intelligence shared via WhatsApp regarding the misuse of the platform for deceptive operations.",
-      "date": "2026-08-04T20:15:00.000Z",
-      "link": "https://therecord.media/openai-chatgpt-cambodia-scam-centers-disruption",
-      "isTopTen": false
-    },
-    {
-      "id": "f651410d-fa30-4804-9531-ad574f0d6ef7",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "SharePoint Flaws Used to Hack Switzerland’s Federal IT Agency",
-      "summary": "Unknown attackers compromised approximately 200 accounts at the Swiss Federal IT Agency (FOITT) by exploiting vulnerabilities in on-premises SharePoint servers. The agency is currently rebuilding the affected servers as part of an ongoing investigation.",
-      "date": "2026-08-04T20:12:47.000Z",
-      "link": "https://securityaffairs.com/196625/hacking/sharepoint-flaws-used-to-hack-switzerlands-federal-it-agency.html",
       "isTopTen": false
     }
   ]
