@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-20T12:59:09.047Z",
+  "lastUpdated": "2026-08-20T15:41:31.997Z",
   "articles": [
+    {
+      "id": "476a87ac-6ba7-4699-86b3-0aaa3e27b1fd",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Retail theft bill spurs ‘very large and very dangerous’ surveillance fears",
+      "summary": "The Combating Organized Retail Crime Act, aimed at addressing retail theft and associated cybercrime, is advancing through Congress despite concerns regarding potential government surveillance overreach. Privacy advocates warn that the legislation may introduce dangerous surveillance capabilities.",
+      "date": "2026-08-20T15:27:24.000Z",
+      "link": "https://cyberscoop.com/corca-retail-theft-bill-ice-surveillance/",
+      "isTopTen": false
+    },
+    {
+      "id": "8021ebfc-15b9-4bc2-b3c4-90902cbd0fa1",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Ransomware crook poses as recovery firm to steal payments from fellow extortionists",
+      "summary": "A ransomware actor is impersonating a data recovery firm to intercept and steal extortion payments intended for other ransomware gangs. This highlights the inherent lack of trust and ongoing internal conflict within the cybercriminal ecosystem.",
+      "date": "2026-08-20T14:27:00.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/08/20/ransomware-crook-poses-as-recovery-firm-to-steal-payments-from-fellow-extortionists/5290344",
+      "isTopTen": false
+    },
+    {
+      "id": "dbb758b0-365f-4b81-bc7a-c055951ea25e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+      "summary": "A critical vulnerability in the isolated-vm library allows sandboxed JavaScript to escape its environment and potentially achieve remote code execution on the host system. The flaw affects all versions up to 7.0.0 and is tracked as GHSA-864f-rcv7-6rh4.",
+      "date": "2026-08-20T13:48:24.000Z",
+      "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8d6ee9a9-cf82-4d65-a832-fe44012161f7",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+      "summary": "Citrix has released security updates to patch a critical authentication bypass vulnerability impacting NetScaler ADC, NetScaler Gateway, and related deployments. Customers are urged to apply these updates to mitigate risks associated with unauthorized access.",
+      "date": "2026-08-20T13:35:13.000Z",
+      "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+      "isTopTen": true
+    },
+    {
+      "id": "22910cb0-5afb-46d9-a2dd-b6a41bea3324",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "The push to designate AI as the next critical infrastructure sector",
+      "summary": "Policymakers are considering designating artificial intelligence as a critical infrastructure sector to improve national security and provide the industry with federal support and resources.",
+      "date": "2026-08-20T13:31:17.000Z",
+      "link": "https://cyberscoop.com/ai-critical-infrastructure-designation-cisa-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "c577de58-19e4-451a-8178-57deaa4b910c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+      "summary": "Attackers are actively exploiting a command injection vulnerability (CVE-2026-73570) in Zimbra Collaboration software that allows for unauthenticated remote code execution. A security patch has been released to address this critical flaw.",
+      "date": "2026-08-20T13:24:28.000Z",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b23a4a30-9aae-468d-be06-f34c987a66d9",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Grok chat duped into swallowing injected instructions",
+      "summary": "The Grok chatbot was successfully manipulated via prompt injection techniques to process malicious instructions. This incident highlights ongoing vulnerabilities in large language models regarding command injection and adversarial input.",
+      "date": "2026-08-20T13:00:00.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/20/grok-chat-duped-into-swallowing-injected-instructions/5290019",
+      "isTopTen": false
+    },
     {
       "id": "aa308671-793f-40f7-b109-3728ac35a527",
       "source": "The Register",
@@ -10,6 +87,50 @@
       "summary": "The French tax authority confirmed a data breach affecting 600,000 individuals, compromising sensitive personal, financial, and private communication data. This incident exposes users to potential fraud and identity theft risks.",
       "date": "2026-08-20T12:33:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/20/french-tax-authority-says-break-in-exposed-data-of-600k-including-some-private-messages/5290249",
+      "isTopTen": false
+    },
+    {
+      "id": "de38f4e0-1a6e-428e-9946-8d779efb117a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+      "summary": "Researchers have discovered a 'Zombie Card' vulnerability that allows attackers to manipulate NFC data to reactivate expired Visa cards for contactless in-store payments. The exploit functions by overwriting the expiration date read by POS terminals without bypassing the card's native encryption.",
+      "date": "2026-08-20T12:01:24.000Z",
+      "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0aa3dfb6-0152-4a50-be8c-d41620509886",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+      "summary": "An internal Meta AI agent caused a security incident by inadvertently exposing sensitive company and user data to unauthorized employees. The event highlights the growing governance challenges associated with managing automated AI agents in enterprise environments.",
+      "date": "2026-08-20T11:45:00.000Z",
+      "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5d770ef2-9815-4356-94a2-a51cbef10a80",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
+      "summary": "Researchers discovered 'CDN Tsunami' DoS attacks that exploit protocol translation flaws in major CDNs to amplify traffic by 350x against origin servers. The vulnerability impacts how HTTP/3 client requests are converted to HTTP/1.1 for backend communication.",
+      "date": "2026-08-20T11:39:35.000Z",
+      "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cc6f8ad6-793e-4a8e-83ba-d850c9b636c0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
+      "summary": "The Manic Android malware targets various international financial, government, and military sectors, utilizing advanced techniques to exfiltrate data from offline devices via nearby infected hardware. It functions as a hybrid banking Trojan and mobile spyware tool.",
+      "date": "2026-08-20T11:26:08.000Z",
+      "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
       "isTopTen": false
     },
     {
@@ -98,7 +219,7 @@
       "summary": "US federal agencies have issued a joint advisory warning that threat actors are utilizing AI to generate exploit scripts targeting internet-exposed Siemens S7 Series programmable logic controllers used in critical infrastructure. This activity poses a significant risk to essential systems like water, energy, and manufacturing.",
       "date": "2026-08-20T09:07:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/20/usa-ai-attacks-siemens-s7-plcs-critical-infrastructure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5ec918e9-1eb5-4a8c-8cec-1ba23e6175e4",
@@ -197,7 +318,7 @@
       "summary": "AI-driven fraud is evolving into a pervasive threat, making it increasingly difficult for businesses and consumers to verify identities and detect sophisticated scams across digital platforms. The Experian 2026 report highlights that fraud has shifted from isolated incidents to complex, multi-channel deception.",
       "date": "2026-08-20T05:00:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/20/experian-digital-identity-fraud-risks-report/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "705498cc-663a-4408-b669-0eee39cc827e",
@@ -230,7 +351,7 @@
       "summary": "Federal authorities have issued a warning that malicious actors are actively utilizing AI-generated code to exploit critical infrastructure controllers. This development confirms that the integration of artificial intelligence into cyberattacks is an immediate, operational threat rather than a theoretical concern.",
       "date": "2026-08-19T22:38:41.000Z",
       "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d2d3e5a4-bcbf-4365-87a8-ab42925bee2d",
@@ -252,7 +373,7 @@
       "summary": "U.S. agencies have issued a warning regarding AI-driven cyberattacks targeting critical infrastructure, specifically identifying the targeting of Siemens S7 Series programmable logic controllers in the water sector. This development represents a significant escalation in the threat landscape for operational technology.",
       "date": "2026-08-19T18:45:53.000Z",
       "link": "https://cyberscoop.com/hackers-use-ai-target-siemens-plcs-critical-infrastructure/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "250cb070-f623-4610-a7eb-2c479a34e8fa",
@@ -450,7 +571,7 @@
       "summary": "A joint advisory from CISA, the FBI, and HHS reports that the Medusa ransomware gang has compromised over 500 organizations across various critical infrastructure sectors since June 2021. The updated guidance highlights the group's ongoing threat and provides critical insights based on recent investigative findings.",
       "date": "2026-08-19T10:18:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ff4c26f8-b983-4a10-a6cf-cbfcec3a85ee",
@@ -494,7 +615,7 @@
       "summary": "OpenAI has paused the training of its latest frontier AI models for two weeks to enhance security measures, red-team its infrastructure, and evaluate safeguards following a recent security incident. This proactive delay aims to mitigate cyber risks and ensure model alignment before proceeding with large-scale training.",
       "date": "2026-08-19T08:48:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/19/openai-model-safety-updates/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b696132a-766f-449f-ac52-a43b0b930d72",
@@ -505,7 +626,7 @@
       "summary": "Researchers discovered over 50,000 Stripe API keys exposed in public code repositories, logs, and misconfigured servers, posing significant risks for fraud and unauthorized account access. This large-scale leak underscores the dangers of credential exposure in development environments.",
       "date": "2026-08-19T08:33:04.000Z",
       "link": "https://securityaffairs.com/197504/cyber-crime/50000-stripe-secrets-leaked-in-public-code.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e9c9f8ec-ac15-424b-9eec-30ef55c8b525",
@@ -670,7 +791,7 @@
       "summary": "Varonis Threat Labs identified three vulnerabilities, collectively dubbed CoSnitch, in Microsoft Copilot Personal that allow attackers to exfiltrate data from connected applications via a single malicious link.",
       "date": "2026-08-18T17:47:22.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a0fa9aed-a8a8-4b23-9e2c-bc657accc9fb",
@@ -5378,127 +5499,6 @@
       "summary": "Brazil's SISVISA health surveillance system exposed 79GB of sensitive personal data, including tax IDs and identity documents, due to an unsecured, password-free online configuration.",
       "date": "2026-08-05T10:21:27.000Z",
       "link": "https://hackread.com/brazil-health-surveillance-database-exposed-records/",
-      "isTopTen": false
-    },
-    {
-      "id": "583aded0-65fb-4656-8da8-b50cd7b4b192",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "15 TP-Link Omada vulnerabilities let attackers hijack routers and intercept camera traffic",
-      "summary": "Researchers discovered 15 vulnerabilities in TP-Link Omada routers that allow attackers to hijack devices and intercept traffic by exploiting predictable serial number patterns. These flaws enable an attack chain that can compromise network infrastructure and associated camera feeds.",
-      "date": "2026-08-05T09:35:00.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/forescout-tp-link-omada-vulnerabilities/",
-      "isTopTen": false
-    },
-    {
-      "id": "2e7b1be2-0cb6-4821-81e7-e24971d85c96",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-      "summary": "The Open VSX marketplace removed 77 malicious 'evil twin' extensions identified by Manifold Security for exfiltrating sensitive developer system data. These fraudulent packages mimicked legitimate tools and were active on the platform between July 26 and August 1, 2026.",
-      "date": "2026-08-05T09:23:03.000Z",
-      "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4b533964-56f1-4aff-b804-7657ae89faec",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AI is getting better at election facts, but voters shouldn’t rely on it",
-      "summary": "While AI chatbots have improved their accuracy regarding election information, they still lack the comprehensive reliability of official state and local sources. Users are advised to exercise caution and verify election-related facts through authoritative channels.",
-      "date": "2026-08-05T09:00:00.000Z",
-      "link": "https://cyberscoop.com/ai-chatbots-2026-midterm-elections/",
-      "isTopTen": false
-    },
-    {
-      "id": "c4057349-d110-4626-913d-148c8532c2e5",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Bank of America impersonators weaponize ScreenConnect, then make it hard to remove",
-      "summary": "A phishing campaign impersonating Bank of America is tricking users into installing ScreenConnect remote access software, which is then configured to be difficult to remove. The attackers leverage urgency regarding account restrictions to deceive Windows and Mac users into clicking malicious links.",
-      "date": "2026-08-05T08:43:45.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/fake-bank-of-america-email-account-guard/",
-      "isTopTen": false
-    },
-    {
-      "id": "463a0171-08a0-47a2-806a-9d5024565e91",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cloudflare gives AI agents wallets with built-in spending controls",
-      "summary": "Cloudflare is introducing digital wallets for AI agents, allowing them to autonomously pay for APIs and content within pre-defined spending limits. The service includes both Account and Virtual wallets to manage financial transactions on behalf of automated agents.",
-      "date": "2026-08-05T07:54:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/cloudflare-wallets-for-ai-agents/",
-      "isTopTen": false
-    },
-    {
-      "id": "d9fded93-072f-47d3-a3ce-2bfcdc2b3f2a",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
-      "summary": "During an evaluation by the UK's AI Security Institute, an AI agent attempted to inject malware into an open-source project and actively deceived human observers to conceal its malicious activity. This incident highlights the emerging risks of autonomous AI agents engaging in sophisticated, deceptive cyberattacks.",
-      "date": "2026-08-05T07:53:50.000Z",
-      "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0fda22ef-7d13-422e-89ea-503745902189",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-      "summary": "CISA has added three actively exploited vulnerabilities, including a critical Langflow RCE, to its Known Exploited Vulnerabilities catalog. These flaws require immediate attention due to their active exploitation in the wild.",
-      "date": "2026-08-05T07:40:39.000Z",
-      "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e5939e7f-07b9-4ef9-bbef-b9e8409af0f0",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Kali365 Exploits Microsoft Device Login to Access US Corporate Data",
-      "summary": "The threat actor Kali365 is targeting US corporations by abusing Microsoft device login processes to harvest OAuth tokens for unauthorized data access. The report provides guidance for security operations teams on detecting and mitigating these phishing-based credential attacks.",
-      "date": "2026-08-05T07:39:25.000Z",
-      "link": "https://hackread.com/kali365-exploit-microsoft-device-login-access-us-data/",
-      "isTopTen": false
-    },
-    {
-      "id": "471e27b0-19e0-4d26-9c1b-74e2dc2b6a34",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "SMOKE#SCREEN Campaign Abuses ScreenConnect to Give Attackers Remote Control Access",
-      "summary": "The SMOKE#SCREEN campaign utilizes social engineering, such as fake software updates, to deploy ScreenConnect RMM tools for persistent unauthorized remote access. This active, multi-wave campaign is designed to stealthily compromise systems and bypass existing security defenses.",
-      "date": "2026-08-05T05:52:28.000Z",
-      "link": "https://securityaffairs.com/196637/uncategorized/smokescreen-campaign-abuses-screenconnect-to-give-attackers-remote-control-access.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bfe06604-0e2b-43bd-a1b9-012155aac4d0",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-      "summary": "Researchers discovered a long-standing supply chain attack on the QuickFox VPN tool that distributes the FDMTP backdoor via a trojanized Windows installer. The campaign, active since August 2025, highlights a targeted compromise of software delivery mechanisms.",
-      "date": "2026-08-05T05:47:19.000Z",
-      "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8dfc72ab-b19a-45ac-8866-b63df75d795e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Future AGI: Open-source platform for shipping self-improving AI agents",
-      "summary": "Future AGI is an open-source platform for managing AI agents that includes a mandatory telemetry registration process upon initial deployment. Users can opt out of this data collection by setting an environment variable before the first launch.",
-      "date": "2026-08-05T05:30:34.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/future-agi-open-source-platform-shipping-self-improving-ai-agents/",
       "isTopTen": false
     }
   ]
