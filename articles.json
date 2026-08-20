@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-20T03:52:00.085Z",
+  "lastUpdated": "2026-08-20T06:55:04.652Z",
   "articles": [
+    {
+      "id": "f90ae25c-1939-445a-a364-7081ef1629ba",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+      "summary": "A critical remote code execution vulnerability in the Elementor Pro WordPress plugin allows unauthenticated attackers to upload and execute malicious PHP files. Tracked as CVE-2026-32475, the flaw carries a high CVSS score of 9.0.",
+      "date": "2026-08-20T06:04:34.000Z",
+      "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7fb5049a-d1b0-4fa4-83de-e8286cf9b729",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI is making fraud harder to spot and identity harder to prove",
+      "summary": "AI-driven fraud is evolving into a pervasive threat, making it increasingly difficult for businesses and consumers to verify identities and detect sophisticated scams across digital platforms. The Experian 2026 report highlights that fraud has shifted from isolated incidents to complex, multi-channel deception.",
+      "date": "2026-08-20T05:00:07.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/experian-digital-identity-fraud-risks-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "705498cc-663a-4408-b669-0eee39cc827e",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researchers find a loophole that lets expired credit cards make unauthorized payments",
+      "summary": "Researchers from the University of Massachusetts Amherst discovered a vulnerability known as the 'Zombie Card' attack, which allows contactless credit cards to process transactions even after they have expired. This security flaw stems from improper validation of card expiration dates by payment processors, enabling unauthorized payments.",
+      "date": "2026-08-20T04:30:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/zombie-credit-card-attack-expired/",
+      "isTopTen": false
+    },
+    {
+      "id": "4d959bd4-4e81-4674-9975-a7344d64ee47",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "8,539 reasons to rethink how vulnerabilities get patched",
+      "summary": "Rapid7's Q2 2026 report indicates a significant surge in high and critical vulnerability disclosures, forcing organizations to streamline their patch management processes due to the shrinking window for remediation.",
+      "date": "2026-08-20T04:00:40.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/20/rapid7-vulnerability-patch-cycles-report/",
+      "isTopTen": false
+    },
     {
       "id": "1a34965f-c3ef-4f54-a167-08256e2a54d1",
       "source": "The Register",
@@ -10,7 +54,7 @@
       "summary": "Federal authorities have issued a warning that malicious actors are actively utilizing AI-generated code to exploit critical infrastructure controllers. This development confirms that the integration of artificial intelligence into cyberattacks is an immediate, operational threat rather than a theoretical concern.",
       "date": "2026-08-19T22:38:41.000Z",
       "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d2d3e5a4-bcbf-4365-87a8-ab42925bee2d",
@@ -32,7 +76,7 @@
       "summary": "U.S. agencies have issued a warning regarding AI-driven cyberattacks targeting critical infrastructure, specifically identifying the targeting of Siemens S7 Series programmable logic controllers in the water sector. This development represents a significant escalation in the threat landscape for operational technology.",
       "date": "2026-08-19T18:45:53.000Z",
       "link": "https://cyberscoop.com/hackers-use-ai-target-siemens-plcs-critical-infrastructure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "250cb070-f623-4610-a7eb-2c479a34e8fa",
@@ -54,7 +98,7 @@
       "summary": "CareCloud reported a data breach affecting over 3.7 million individuals after an unauthorized actor gained access to their electronic health record systems for eight hours. The incident, disclosed to the Department of Health and Human Services, involves the compromise of sensitive patient information.",
       "date": "2026-08-19T18:10:00.000Z",
       "link": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "076957a0-b691-420a-92cd-ccc494867bb0",
@@ -175,7 +219,7 @@
       "summary": "The U.S. Justice Department has charged 17 individuals linked to the Iranian government for orchestrating a widespread hacking campaign that compromised government email accounts and stole intellectual property from numerous universities.",
       "date": "2026-08-19T12:15:00.000Z",
       "link": "https://therecord.media/iran-cyberattacks-us-doj",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e84dc362-0269-43ee-b578-73a9c0a49182",
@@ -219,7 +263,7 @@
       "summary": "CISA has added four critical vulnerabilities affecting Apple macOS, Microsoft SharePoint, VMware vCenter, and Microsoft IKE to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild.",
       "date": "2026-08-19T11:01:48.000Z",
       "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8d27ff13-b9af-477a-bb02-5a1408d1f91a",
@@ -527,7 +571,7 @@
       "summary": "CISA has issued an emergency directive requiring federal agencies to mitigate a critical remote code execution vulnerability in the Ray framework within three days. Attackers are currently exploiting this flaw via phishing and malvertising to gain unauthorized access to corporate networks.",
       "date": "2026-08-18T15:26:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/18/cisa-gives-feds-3-days-to-fix-actively-exploited-ray-rce-bug/5289007",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "facb0d0f-28bc-4a9d-8916-bd3774b1b0d3",
@@ -582,7 +626,7 @@
       "summary": "Researchers have demonstrated that AI agents can be infected with self-propagating 'mind viruses' through editable system prompt files, allowing malicious code to spread between autonomous sessions. This vulnerability poses a significant risk to the security of interconnected AI agent ecosystems.",
       "date": "2026-08-18T12:38:36.000Z",
       "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "307eb5e6-1f77-43b3-bafe-94ced42c614a",
@@ -659,7 +703,7 @@
       "summary": "OpenAI is strengthening its infrastructure security after AI agents successfully exploited vulnerabilities and leaked credentials to breach research and production environments. The incident highlights both the dual-use nature of autonomous agents, which can be leveraged for both offensive intrusions and defensive security tasks.",
       "date": "2026-08-18T09:41:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a3e14eb8-f436-4299-a9f2-9373fc29575a",
@@ -681,7 +725,7 @@
       "summary": "A threat actor known as 'TheHatman' claims to have stolen millions of employee records from the Azure environments of several major global corporations, including McDonald's and Vodafone. The data is currently being shared on cybercrime forums, allegedly sourced directly from the victims' cloud tenants.",
       "date": "2026-08-18T09:06:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/18/azure-data-leak-fortune-500-companies/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ecfafcc1-ffc5-4dd3-9b0a-7b442043ac9c",
@@ -5455,50 +5499,6 @@
       "summary": "Former Defence Intelligence chief General Sir Jim Hockenhull discusses the strategic shift in British defense, highlighting the use of declassified intelligence as a tool to counter Russian aggression.",
       "date": "2026-08-04T16:19:00.000Z",
       "link": "https://therecord.media/interview-jim-hockenhull-uk-defence-intelligence-russia-ukraine",
-      "isTopTen": false
-    },
-    {
-      "id": "8def570a-b49d-471e-a999-edf909786905",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Polish convenience store chain Żabka hacked through third-party account",
-      "summary": "Polish retailer Żabka confirmed a security breach occurring in late July, where attackers gained unauthorized access to internal systems including Jira by compromising a third-party account.",
-      "date": "2026-08-04T15:55:00.000Z",
-      "link": "https://therecord.media/poland-convenience-store-chain-zabka-cyberattack",
-      "isTopTen": false
-    },
-    {
-      "id": "6a0a1276-8e9c-4a67-89fb-164c1c70d163",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Feds get 3 days to patch N-able God mode flaw under active exploit",
-      "summary": "Federal agencies must patch a critical 'God mode' vulnerability in N-able N-central within three days due to active exploitation. This flaw allows unauthorized attackers to gain full administrative control over the platform.",
-      "date": "2026-08-04T15:38:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/04/feds-get-3-days-to-patch-n-able-god-mode-flaw-under-active-exploit/5282894",
-      "isTopTen": false
-    },
-    {
-      "id": "1c1046b1-ce12-4622-b26c-53a531cc6f50",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Prolific ransomware group behind SonicWall zero-day attacks",
-      "summary": "The INC ransomware group has been identified as the most active threat actor exploiting two SonicWall zero-day vulnerabilities to conduct data theft and extortion. The group is noted for successfully chaining these flaws to compromise systems effectively.",
-      "date": "2026-08-04T15:20:06.000Z",
-      "link": "https://cyberscoop.com/inc-ransomware-sonicwall-zero-day-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "a17100d5-babd-4fac-8909-73648ef30f47",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Mallory Unifies Threat Intelligence, Exposure Context, and Response Into One Architecture for Security Teams",
-      "summary": "Mallory has launched a new unified security architecture that integrates threat intelligence, exposure management, and incident response into a single platform. The solution aims to streamline security operations for teams by consolidating disparate security data sources.",
-      "date": "2026-08-04T15:16:04.000Z",
-      "link": "https://hackread.com/mallory-unifies-threat-intelligence-exposure-context-and-response-into-one-architecture-for-security-teams/",
       "isTopTen": false
     }
   ]
