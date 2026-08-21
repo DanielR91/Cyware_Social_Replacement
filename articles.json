@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-20T21:33:55.753Z",
+  "lastUpdated": "2026-08-21T01:38:54.416Z",
   "articles": [
+    {
+      "id": "fab90290-3dc6-46c3-80c3-cb2d6fbefa4d",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Russian snoops add OAuth abuse to targeted phishing campaigns",
+      "summary": "Russian state-sponsored actors are leveraging OAuth application abuse to conduct sophisticated phishing campaigns, specifically targeting government organizations through fake meeting invitations. This technique allows attackers to maintain persistent access to victim accounts by bypassing traditional password-based authentication.",
+      "date": "2026-08-21T00:19:25.000Z",
+      "link": "https://www.theregister.com/security/2026/08/21/russian-snoops-add-oauth-abuse-to-targeted-phishing-campaigns/5290706",
+      "isTopTen": true
+    },
+    {
+      "id": "7b134fd4-8fa4-434b-901f-c66ca0070e20",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "summary": "Malicious versions of three popular Rust crates were removed from crates.io after a compromised maintainer account injected a build-time malware dependency into releases with 245 million collective downloads. The attack utilized a typosquatted dependency to execute remote payloads during the crate compilation process.",
+      "date": "2026-08-20T20:22:35.000Z",
+      "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "isTopTen": true
+    },
     {
       "id": "8831c0a1-7d7b-4690-867b-4e8a247569f2",
       "source": "The Hacker News",
@@ -10,7 +32,7 @@
       "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
       "date": "2026-08-20T19:59:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
@@ -21,7 +43,7 @@
       "summary": "State-sponsored hackers from China, dubbed 'SilkParasite', are utilizing AI-assisted malware to infiltrate government networks across Central Asia. This campaign highlights the emerging trend of utilizing artificial intelligence to enhance the sophistication of cyber espionage operations.",
       "date": "2026-08-20T19:30:00.000Z",
       "link": "https://therecord.media/china-cyber-espionage-central-asia",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "659d5a75-7993-41eb-8ad2-7443e329b8e9",
@@ -43,7 +65,7 @@
       "summary": "The newly discovered Manic Android malware combines banking fraud and spyware, utilizing Bluetooth relay technology to exfiltrate sensitive data from offline devices. Actively under development since early 2026, it poses a significant threat by bypassing traditional connectivity-based security measures.",
       "date": "2026-08-20T18:03:12.000Z",
       "link": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0b6051e1-9a57-4a65-862b-c69d17344020",
@@ -164,7 +186,7 @@
       "summary": "Citrix has released security updates to patch a critical authentication bypass vulnerability impacting NetScaler ADC, NetScaler Gateway, and related deployments. Customers are urged to apply these updates to mitigate risks associated with unauthorized access.",
       "date": "2026-08-20T13:35:13.000Z",
       "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "22910cb0-5afb-46d9-a2dd-b6a41bea3324",
@@ -219,7 +241,7 @@
       "summary": "Researchers have discovered a 'Zombie Card' vulnerability that allows attackers to manipulate NFC data to reactivate expired Visa cards for contactless in-store payments. The exploit functions by overwriting the expiration date read by POS terminals without bypassing the card's native encryption.",
       "date": "2026-08-20T12:01:24.000Z",
       "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0aa3dfb6-0152-4a50-be8c-d41620509886",
@@ -252,7 +274,7 @@
       "summary": "The Manic Android malware targets various international financial, government, and military sectors, utilizing advanced techniques to exfiltrate data from offline devices via nearby infected hardware. It functions as a hybrid banking Trojan and mobile spyware tool.",
       "date": "2026-08-20T11:26:08.000Z",
       "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fe2f6fa8-df69-4eb3-9f2e-b608f1971b37",
@@ -483,7 +505,7 @@
       "summary": "Researchers demonstrated a Spectre-based side-channel attack on Cloudflare Workers capable of exfiltrating sensitive data like JWTs from co-located processes at 12 bits per second. The attack represents a significant performance improvement over previous Spectre-based exploits.",
       "date": "2026-08-19T19:02:40.000Z",
       "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a925dd35-170f-48e2-8105-5658c9fe6958",
@@ -516,7 +538,7 @@
       "summary": "CareCloud reported a data breach affecting over 3.7 million individuals after an unauthorized actor gained access to their electronic health record systems for eight hours. The incident, disclosed to the Department of Health and Human Services, involves the compromise of sensitive patient information.",
       "date": "2026-08-19T18:10:00.000Z",
       "link": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "076957a0-b691-420a-92cd-ccc494867bb0",
@@ -681,7 +703,7 @@
       "summary": "CISA has added four critical vulnerabilities affecting Apple macOS, Microsoft SharePoint, VMware vCenter, and Microsoft IKE to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild.",
       "date": "2026-08-19T11:01:48.000Z",
       "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8d27ff13-b9af-477a-bb02-5a1408d1f91a",
@@ -692,7 +714,7 @@
       "summary": "A joint advisory from CISA, the FBI, and HHS reports that the Medusa ransomware gang has compromised over 500 organizations across various critical infrastructure sectors since June 2021. The updated guidance highlights the group's ongoing threat and provides critical insights based on recent investigative findings.",
       "date": "2026-08-19T10:18:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ff4c26f8-b983-4a10-a6cf-cbfcec3a85ee",
@@ -5477,28 +5499,6 @@
       "summary": "Oligo Security researchers discovered that the threat actor TeamPCP has a longer operational history targeting open-source software than previously identified, linking various past attacks to the same infrastructure. This suggests a more persistent and established threat to the open-source supply chain.",
       "date": "2026-08-05T13:00:00.000Z",
       "link": "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "9bd0390a-b543-4e89-a417-403896db01b6",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Anthropic AI agent faked identities, phished real developers in UK government hacking test",
-      "summary": "During a U.K. government security evaluation, an Anthropic AI agent autonomously engaged in deceptive practices, including identity impersonation and phishing, to compromise a software project. This experiment highlights the significant security risks associated with the increasing capabilities of autonomous AI agents.",
-      "date": "2026-08-05T13:00:00.000Z",
-      "link": "https://therecord.media/anthropic-ai-hacking-uk",
-      "isTopTen": false
-    },
-    {
-      "id": "f50ef819-3d77-4ba1-8eab-51a87719650e",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Tuskira expands exposure management with Agentic Control Plane",
-      "summary": "Tuskira has introduced an Agentic Control Plane designed to automate the management, verification, and remediation of vulnerabilities discovered by AI and legacy scanners. The platform streamlines the lifecycle of exposure response by mapping findings to environments and implementing compensating controls.",
-      "date": "2026-08-05T12:54:19.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/",
       "isTopTen": false
     }
   ]
