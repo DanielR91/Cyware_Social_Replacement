@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-08-21T03:54:36.674Z",
+  "lastUpdated": "2026-08-21T06:56:16.225Z",
   "articles": [
+    {
+      "id": "de703ac3-c199-441a-a8c9-f6d4fb252ca4",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "summary": "Microsoft is addressing a critical remote code execution vulnerability in Entra ID, formerly known as Azure Active Directory, which is currently being exploited in the wild. While the flaw carries a CVSS score of 10.0, the company has stated that no immediate action is required from customers.",
+      "date": "2026-08-21T06:06:11.000Z",
+      "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4d2e6750-d0dd-4ae2-a62b-de36d6ec5423",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco bug severity warning reads like Olympic gymnastics scores: 10, 10, 9.9, 9.6, and 7.5.",
+      "summary": "Cisco has released patches for five vulnerabilities in its Secure Workload software, ranging from high to critical severity. The updates apply to both on-premises and SaaS versions of the platform.",
+      "date": "2026-08-21T05:33:08.000Z",
+      "link": "https://www.theregister.com/security/2026/08/21/cisco-bug-severity-warning-reads-like-olympic-gymnastics-scores-10-10-99-96-and-75/5290838",
+      "isTopTen": false
+    },
+    {
+      "id": "de6b0f29-81fa-43f7-b4a3-00fd728e6a4a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "A $25 template helped scammers build hundreds of phantom bank domains",
+      "summary": "Researchers discovered that attackers are utilizing a $25 website template to rapidly deploy hundreds of fraudulent phantom bank domains for large-scale financial scams. The investigation highlights how inexpensive, scalable tools allow threat actors to efficiently impersonate multiple financial institutions.",
+      "date": "2026-08-21T05:00:59.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/21/phantom-bank-websites-fraud-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "7d66b028-7116-499d-a75a-470154ce230c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Nearly half of enterprises have no one leading PQC migration",
+      "summary": "Recent research from Axiad reveals that nearly half of enterprises lack clear leadership for post-quantum cryptography (PQC) migration, despite high confidence in their preparedness. This oversight creates significant risks regarding asset visibility and cryptographic readiness as quantum computing threats evolve.",
+      "date": "2026-08-21T04:30:46.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/21/axiad-pqc-migration-readiness-gaps-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "eed9d6a9-9fc8-48ed-962b-81bb6345ef9d",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New infosec products of the week: August 21, 2026",
+      "summary": "NETSCOUT has enhanced its Adaptive DDoS Protection solution to automatically detect and mitigate outbound DDoS traffic originating from compromised subscriber devices. The release is part of a weekly roundup of new cybersecurity product announcements.",
+      "date": "2026-08-21T04:00:20.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/21/new-infosec-products-of-the-week-august-21-2026/",
+      "isTopTen": false
+    },
     {
       "id": "fab90290-3dc6-46c3-80c3-cb2d6fbefa4d",
       "source": "The Register",
@@ -10,7 +65,7 @@
       "summary": "Russian state-sponsored actors are leveraging OAuth application abuse to conduct sophisticated phishing campaigns, specifically targeting government organizations through fake meeting invitations. This technique allows attackers to maintain persistent access to victim accounts by bypassing traditional password-based authentication.",
       "date": "2026-08-21T00:19:25.000Z",
       "link": "https://www.theregister.com/security/2026/08/21/russian-snoops-add-oauth-abuse-to-targeted-phishing-campaigns/5290706",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7b134fd4-8fa4-434b-901f-c66ca0070e20",
@@ -32,7 +87,7 @@
       "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
       "date": "2026-08-20T19:59:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
@@ -43,7 +98,7 @@
       "summary": "State-sponsored hackers from China, dubbed 'SilkParasite', are utilizing AI-assisted malware to infiltrate government networks across Central Asia. This campaign highlights the emerging trend of utilizing artificial intelligence to enhance the sophistication of cyber espionage operations.",
       "date": "2026-08-20T19:30:00.000Z",
       "link": "https://therecord.media/china-cyber-espionage-central-asia",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "659d5a75-7993-41eb-8ad2-7443e329b8e9",
@@ -395,7 +450,7 @@
       "summary": "The US Department of Justice has expanded a long-standing indictment against 17 members of the Iranian Mabna Institute for a massive, multi-year cyber espionage campaign that resulted in the theft of 31TB of data from global entities. The move marks an update to a case that has been ongoing for eight years.",
       "date": "2026-08-20T08:36:37.000Z",
       "link": "https://securityaffairs.com/197551/intelligence/us-indicts-17-iranians-over-years-long-cyber-espionage-campaign.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2cfeed2f-196a-4442-9edb-3c7f43bd329d",
@@ -703,7 +758,7 @@
       "summary": "CISA has added four critical vulnerabilities affecting Apple macOS, Microsoft SharePoint, VMware vCenter, and Microsoft IKE to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild.",
       "date": "2026-08-19T11:01:48.000Z",
       "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8d27ff13-b9af-477a-bb02-5a1408d1f91a",
@@ -5444,61 +5499,6 @@
       "summary": "Cybersecurity researchers discovered two malicious npm packages using a new 'NullReceiver' technique to hide command-and-control server addresses within empty Ethereum blockchain transactions. This evolution of the EtherHiding method allows attackers to evade detection by embedding infrastructure details directly on the blockchain.",
       "date": "2026-08-05T13:41:27.000Z",
       "link": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
-      "isTopTen": false
-    },
-    {
-      "id": "af32a2d7-f307-43aa-b2a1-76e96e169a85",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "London cops handed victim's new address and number to her stalker, watchdog says",
-      "summary": "The London Metropolitan Police Service faces criticism after revealing a victim's private contact information and new address to her stalker due to internal data handling errors. The oversight agency has ordered the department to implement stricter safeguards to prevent future security lapses.",
-      "date": "2026-08-05T13:30:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/05/london-cops-handed-victims-new-address-and-number-to-her-stalker-watchdog-says/5283382",
-      "isTopTen": false
-    },
-    {
-      "id": "e616160d-2e14-453d-9e5c-9b995686f237",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Tenable broadens AI visibility across major LLMs and AI tools",
-      "summary": "Tenable has enhanced its AI Exposure Management platform to provide broader visibility and security coverage for major LLMs, including Google Gemini, OpenAI ChatGPT, and Microsoft Copilot, as well as AI-native IDE tools.",
-      "date": "2026-08-05T13:16:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools/",
-      "isTopTen": false
-    },
-    {
-      "id": "2e2e8dca-a1c9-40a8-b669-84baeb37b845",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "New Research: The Confidence Gap Between CISOs and Their Boards Is Real, and It’s Measurable",
-      "summary": "Recent research highlights a measurable and persistent disconnect in security perceptions and confidence levels between CISOs and their corporate boards. This communication gap poses a significant challenge to effective organizational cybersecurity governance.",
-      "date": "2026-08-05T13:16:25.000Z",
-      "link": "https://hackread.com/new-research-the-confidence-gap-between-cisos-and-their-boards-is-real-and-its-measurable/",
-      "isTopTen": false
-    },
-    {
-      "id": "8284954a-b3e6-4920-b503-60da46b9ec8c",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "ArmorCode enhances attack path analysis with new AI agents and Context Risk Graph",
-      "summary": "ArmorCode has expanded its Agentic Control Plane with four new Anya AI agents and an enhanced Context Risk Graph to improve vulnerability prioritization and remediation orchestration. These updates aim to help security teams streamline cloud risk management and automate patch coordination.",
-      "date": "2026-08-05T13:07:04.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/armorcode-anya-ai-agents/",
-      "isTopTen": false
-    },
-    {
-      "id": "623fbdd7-8172-4de1-937a-a93a940158c3",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Open-source software’s archenemy TeamPCP goes back further than anyone thought",
-      "summary": "Oligo Security researchers discovered that the threat actor TeamPCP has a longer operational history targeting open-source software than previously identified, linking various past attacks to the same infrastructure. This suggests a more persistent and established threat to the open-source supply chain.",
-      "date": "2026-08-05T13:00:00.000Z",
-      "link": "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/",
       "isTopTen": false
     }
   ]
