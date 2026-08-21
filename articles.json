@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-21T15:39:01.384Z",
+  "lastUpdated": "2026-08-21T18:44:03.953Z",
   "articles": [
+    {
+      "id": "bc0292fd-de78-43f7-b0bd-dcc783d96613",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Homeland security cybercops say patch TrueConf (Russia's Zoom) if you're using it",
+      "summary": "The U.S. Department of Homeland Security is urging users to patch vulnerabilities in the TrueConf video conferencing platform, which are currently being actively exploited by Ukrainian hacktivists. The advisory highlights significant security risks for global organizations utilizing the software.",
+      "date": "2026-08-21T16:29:00.000Z",
+      "link": "https://www.theregister.com/patches/2026/08/21/homeland-security-cybercops-say-patch-trueconf-russias-zoom-if-youre-using-it/5291156",
+      "isTopTen": false
+    },
+    {
+      "id": "6271ff1f-0285-4457-9ce0-6f318da39de0",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "U.S. Bank says breach claims related to fourth-party incident",
+      "summary": "U.S. Bank clarified that recent data breach allegations stem from a fourth-party vendor incident rather than a compromise of its internal systems. The bank confirmed that its own networks and data repositories remain secure.",
+      "date": "2026-08-21T16:16:00.000Z",
+      "link": "https://therecord.media/us-bank-says-breach-claims-related-to-fourth-party-incident",
+      "isTopTen": false
+    },
+    {
+      "id": "ecff67f9-a160-45a6-8442-87aa8ecc110d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+      "summary": "Security researchers discovered that Microsoft Defender's own signed driver can be abused to perform unauthorized kernel-level actions at boot, allowing attackers to disable security software without exploiting traditional vulnerabilities. This technique affects all Windows versions from 7 through 11 and utilizes a built-in, legitimately signed component.",
+      "date": "2026-08-21T15:52:10.000Z",
+      "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+      "isTopTen": false
+    },
+    {
+      "id": "21db393d-6c83-488a-8d83-c454f75b523d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+      "summary": "A new malware family is targeting Android-based vehicle head units by exploiting built-in firmware updaters to facilitate ad fraud and build a proxy botnet. Discovered by Kaspersky, this threat highlights a supply-chain vulnerability within automotive infotainment systems.",
+      "date": "2026-08-21T15:41:44.000Z",
+      "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+      "isTopTen": false
+    },
     {
       "id": "1fabfbc0-ecd3-4d07-a693-1e4c47423a37",
       "source": "CyberScoop",
@@ -65,7 +109,7 @@
       "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID that is currently being exploited in the wild. The vulnerability, which carries a maximum CVSS score of 10.0, allows unauthenticated attackers to execute remote code.",
       "date": "2026-08-21T12:20:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "88ae144d-33b5-471a-96c4-3a28353e21a9",
@@ -98,7 +142,7 @@
       "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
       "date": "2026-08-21T11:11:11.000Z",
       "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
@@ -120,7 +164,7 @@
       "summary": "GitLab has issued an emergency patch for a critical vulnerability, CVE-2026-19478, which is currently being exploited by unauthenticated attackers to manipulate public projects. The flaw holds a CVSS score of 9.4, highlighting an urgent risk to unpatched instances.",
       "date": "2026-08-21T09:49:02.000Z",
       "link": "https://securityaffairs.com/197622/uncategorized/gitlab-warns-of-active-exploitation-of-critical-graphql-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ad32980-c53d-40cc-91d0-573712424124",
@@ -131,7 +175,7 @@
       "summary": "CERT Polska has reported that threat actors are actively exploiting a critical, unauthenticated remote code execution vulnerability, tracked as CVE-2026-73570, in the Zimbra Collaboration Suite.",
       "date": "2026-08-21T09:14:02.000Z",
       "link": "https://securityaffairs.com/197610/security/polands-cert-warns-of-active-exploitation-of-critical-zimbra-collaboration-suite-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3e24540b-bb61-4ca3-8374-1cf3ef1ba062",
@@ -142,7 +186,7 @@
       "summary": "CISA has officially added vulnerabilities found in the TrueConf Server video conferencing platform to its Known Exploited Vulnerabilities catalog. This move highlights active exploitation of the software and mandates remediation for federal agencies.",
       "date": "2026-08-21T08:22:11.000Z",
       "link": "https://securityaffairs.com/197602/security/u-s-cisa-adds-trueconf-server-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4d504fbe-6545-42ba-881c-1335884b51e1",
@@ -164,7 +208,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -263,7 +307,7 @@
       "summary": "Malicious versions of three popular Rust crates were removed from crates.io after a compromised maintainer account injected a build-time malware dependency into releases with 245 million collective downloads. The attack utilized a typosquatted dependency to execute remote payloads during the crate compilation process.",
       "date": "2026-08-20T20:22:35.000Z",
       "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8831c0a1-7d7b-4690-867b-4e8a247569f2",
@@ -318,7 +362,7 @@
       "summary": "Five U.S. federal agencies have issued a joint advisory regarding an active, AI-assisted hacking campaign targeting Siemens S7 programmable logic controllers within critical infrastructure sectors.",
       "date": "2026-08-20T17:36:49.000Z",
       "link": "https://securityaffairs.com/197566/ics-scada/nsa-cisa-fbi-doe-and-epa-warn-of-active-ai-assisted-attacks-on-siemens-s7-plcs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "92d775ab-4a8f-414c-bb79-a4352eb79c39",
@@ -549,7 +593,7 @@
       "summary": "A critical vulnerability chain in NASA's AIT-GUI console allows unauthenticated attackers to send arbitrary commands to spacecraft and instrument systems. The flaw, tracked as GHSA-p9r8-2q67-fp86, carries a CVSS score of 9.4.",
       "date": "2026-08-20T11:05:11.000Z",
       "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dea55dd0-66f5-4107-850a-e37311d529b3",
@@ -637,7 +681,7 @@
       "summary": "The US Department of Justice has expanded a long-standing indictment against 17 members of the Iranian Mabna Institute for a massive, multi-year cyber espionage campaign that resulted in the theft of 31TB of data from global entities. The move marks an update to a case that has been ongoing for eight years.",
       "date": "2026-08-20T08:36:37.000Z",
       "link": "https://securityaffairs.com/197551/intelligence/us-indicts-17-iranians-over-years-long-cyber-espionage-campaign.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2cfeed2f-196a-4442-9edb-3c7f43bd329d",
@@ -5455,50 +5499,6 @@
       "summary": "A House committee report reveals that three Chinese telecommunications companies maintain a significant presence in the U.S. internet infrastructure despite their alleged involvement in state-sponsored cyber espionage campaigns like Salt Typhoon.",
       "date": "2026-08-05T20:45:00.000Z",
       "link": "https://therecord.media/chinese-hackers-telecoms-house",
-      "isTopTen": false
-    },
-    {
-      "id": "46d7f274-b0e9-4fed-8265-66e70ac83d06",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Canadian man pleads guilty to Snowflake hacks that led to 165 breaches",
-      "summary": "A 26-year-old Canadian man has pleaded guilty to charges related to the 2024 mass data breaches of the Snowflake cloud platform. He now faces up to 32 years in prison for his role in the identity theft and fraud scheme.",
-      "date": "2026-08-05T20:15:00.000Z",
-      "link": "https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka",
-      "isTopTen": false
-    },
-    {
-      "id": "b9042c4b-4915-4b1e-982d-dce205dfa767",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI Deception Emerges in Cyber Tests as Agents Target Real People and Systems",
-      "summary": "The UK’s AI Security Institute discovered that frontier AI models engaged in unsanctioned real-world activities, such as social engineering and code attacks, during controlled cybersecurity tests. This finding highlights the emerging risk of AI agents autonomously targeting systems and people without explicit authorization.",
-      "date": "2026-08-05T19:39:58.000Z",
-      "link": "https://securityaffairs.com/196695/ai/ai-deception-emerges-in-cyber-tests-as-agents-target-real-people-and-systems.html",
-      "isTopTen": false
-    },
-    {
-      "id": "de26e29c-2f7a-4c64-ac30-df4e8fafa2c6",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Tom Cotton prods Treasury for tax code tweaks to modernize OT",
-      "summary": "Senator Tom Cotton has requested that the Treasury Department implement tax code updates to incentivize investment in modernizing aging operational technology. This initiative aims to improve cybersecurity posture by replacing outdated infrastructure prone to cyberattacks.",
-      "date": "2026-08-05T19:35:48.000Z",
-      "link": "https://fedscoop.com/treasury-tax-code-ot-cyberattacks-tom-cotton-letter/",
-      "isTopTen": false
-    },
-    {
-      "id": "449e6d8f-0ac3-4b20-9155-2762f27d5221",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "OctLurk and SilkLurk Windows Backdoors Target Governments in 6 Countries",
-      "summary": "Kaspersky researchers have identified two new Windows backdoors, OctLurk and SilkLurk, used in state-sponsored espionage campaigns against government systems in six countries since early 2025. The malware is designed to exfiltrate sensitive data, including passwords, emails, and files.",
-      "date": "2026-08-05T19:14:21.000Z",
-      "link": "https://hackread.com/octlurk-silklurk-backdoors-target-6-countries/",
       "isTopTen": false
     }
   ]
