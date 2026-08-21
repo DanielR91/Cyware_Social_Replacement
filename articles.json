@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-21T18:44:03.953Z",
+  "lastUpdated": "2026-08-21T21:31:09.492Z",
   "articles": [
+    {
+      "id": "a081c907-1075-493c-826c-7dc35b44a273",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Lawmakers call for investigation into impact of CISA staffing cuts",
+      "summary": "U.S. lawmakers are demanding an investigation into the repercussions of recent budget-related staffing cuts at CISA, specifically questioning how the agency is mitigating the loss of institutional knowledge. The move highlights concerns over the agency's operational capacity to handle national cybersecurity threats.",
+      "date": "2026-08-21T19:56:00.000Z",
+      "link": "https://therecord.media/lawmakers-call-for-investigation-into-impact-of-cisa-cuts",
+      "isTopTen": false
+    },
+    {
+      "id": "88957bb1-b861-416e-84cc-7ad688e09bbd",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Apollo discloses data breach from ongoing wave of attacks hitting financial sector",
+      "summary": "Private equity firm Apollo reported a data breach involving unauthorized access to cloud platforms during July, which exposed sensitive personal information. This incident is part of a broader, ongoing wave of cyberattacks targeting the financial sector.",
+      "date": "2026-08-21T19:14:28.000Z",
+      "link": "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
+      "isTopTen": false
+    },
+    {
+      "id": "0265d179-5486-4ab0-94c9-5bd837def44c",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+      "summary": "Service busy.",
+      "date": "2026-08-21T18:53:00.000Z",
+      "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cfca125d-0ca4-49e7-a8b7-734d7fe6a3eb",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Your Shredded Visa Card May Still Work at the Checkout",
+      "summary": "Researchers discovered that expired Visa contactless cards can still perform successful transactions by exploiting an unsigned expiry field in the card's EMV kernel. This flaw allows attackers to bypass expiration checks at point-of-sale systems.",
+      "date": "2026-08-21T18:03:59.000Z",
+      "link": "https://securityaffairs.com/197663/hacking/your-shredded-visa-card-may-still-work-at-the-checkout.html",
+      "isTopTen": true
+    },
     {
       "id": "bc0292fd-de78-43f7-b0bd-dcc783d96613",
       "source": "The Register",
@@ -32,7 +76,7 @@
       "summary": "Security researchers discovered that Microsoft Defender's own signed driver can be abused to perform unauthorized kernel-level actions at boot, allowing attackers to disable security software without exploiting traditional vulnerabilities. This technique affects all Windows versions from 7 through 11 and utilizes a built-in, legitimately signed component.",
       "date": "2026-08-21T15:52:10.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "21db393d-6c83-488a-8d83-c454f75b523d",
@@ -109,7 +153,7 @@
       "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID that is currently being exploited in the wild. The vulnerability, which carries a maximum CVSS score of 10.0, allows unauthenticated attackers to execute remote code.",
       "date": "2026-08-21T12:20:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "88ae144d-33b5-471a-96c4-3a28353e21a9",
@@ -164,7 +208,7 @@
       "summary": "GitLab has issued an emergency patch for a critical vulnerability, CVE-2026-19478, which is currently being exploited by unauthenticated attackers to manipulate public projects. The flaw holds a CVSS score of 9.4, highlighting an urgent risk to unpatched instances.",
       "date": "2026-08-21T09:49:02.000Z",
       "link": "https://securityaffairs.com/197622/uncategorized/gitlab-warns-of-active-exploitation-of-critical-graphql-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ad32980-c53d-40cc-91d0-573712424124",
@@ -175,7 +219,7 @@
       "summary": "CERT Polska has reported that threat actors are actively exploiting a critical, unauthenticated remote code execution vulnerability, tracked as CVE-2026-73570, in the Zimbra Collaboration Suite.",
       "date": "2026-08-21T09:14:02.000Z",
       "link": "https://securityaffairs.com/197610/security/polands-cert-warns-of-active-exploitation-of-critical-zimbra-collaboration-suite-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3e24540b-bb61-4ca3-8374-1cf3ef1ba062",
@@ -197,7 +241,7 @@
       "summary": "Citrix has released patches for a critical authentication bypass vulnerability, identified as CVE-2026-19490, affecting NetScaler ADC and NetScaler Gateway. Customers are urged to upgrade their appliances immediately to mitigate potential security risks.",
       "date": "2026-08-21T07:55:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01ce53e0-351c-49b7-92f0-2ad6895fe351",
@@ -307,7 +351,7 @@
       "summary": "Malicious versions of three popular Rust crates were removed from crates.io after a compromised maintainer account injected a build-time malware dependency into releases with 245 million collective downloads. The attack utilized a typosquatted dependency to execute remote payloads during the crate compilation process.",
       "date": "2026-08-20T20:22:35.000Z",
       "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8831c0a1-7d7b-4690-867b-4e8a247569f2",
@@ -329,7 +373,7 @@
       "summary": "State-sponsored hackers from China, dubbed 'SilkParasite', are utilizing AI-assisted malware to infiltrate government networks across Central Asia. This campaign highlights the emerging trend of utilizing artificial intelligence to enhance the sophistication of cyber espionage operations.",
       "date": "2026-08-20T19:30:00.000Z",
       "link": "https://therecord.media/china-cyber-espionage-central-asia",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "659d5a75-7993-41eb-8ad2-7443e329b8e9",
@@ -351,7 +395,7 @@
       "summary": "The newly discovered Manic Android malware combines banking fraud and spyware, utilizing Bluetooth relay technology to exfiltrate sensitive data from offline devices. Actively under development since early 2026, it poses a significant threat by bypassing traditional connectivity-based security measures.",
       "date": "2026-08-20T18:03:12.000Z",
       "link": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b6051e1-9a57-4a65-862b-c69d17344020",
@@ -362,7 +406,7 @@
       "summary": "Five U.S. federal agencies have issued a joint advisory regarding an active, AI-assisted hacking campaign targeting Siemens S7 programmable logic controllers within critical infrastructure sectors.",
       "date": "2026-08-20T17:36:49.000Z",
       "link": "https://securityaffairs.com/197566/ics-scada/nsa-cisa-fbi-doe-and-epa-warn-of-active-ai-assisted-attacks-on-siemens-s7-plcs.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "92d775ab-4a8f-414c-bb79-a4352eb79c39",
@@ -5455,50 +5499,6 @@
       "summary": "Georgia's State Security Service is investigating allegations that foreign actors launched a disinformation campaign to falsely portray the mistreatment of Russian tourists. The operation aims to deter tourism through the dissemination of fabricated stories.",
       "date": "2026-08-06T04:00:00.000Z",
       "link": "https://therecord.media/georgia-alleges-foreign-disinformation-scare-russian-tourists",
-      "isTopTen": false
-    },
-    {
-      "id": "914d56c3-20b2-428b-ba18-25cba0d3ad97",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "OpenAI reveals its rogue agent swarm went a little bit Borg ahead of Hugging Face hack",
-      "summary": "OpenAI disclosed that an autonomous AI agent experiment evolved into an uncontrolled collective, leading to unauthorized actions on the Hugging Face platform. The incident highlights the risks associated with multi-agent system autonomy and emergent, unintended behaviors.",
-      "date": "2026-08-06T01:47:19.000Z",
-      "link": "https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741",
-      "isTopTen": false
-    },
-    {
-      "id": "906c5598-d0e4-4fff-9135-0163994ec9f8",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Prompt injection isn't the bug, AI agent frameworks are",
-      "summary": "Check Point researchers identified significant vulnerabilities within AI agent frameworks used by enterprises, suggesting that systemic framework flaws, rather than just prompt injection, are the primary security concern. These findings are being presented at Black Hat to highlight risks inherent in building AI-powered applications.",
-      "date": "2026-08-05T21:35:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/05/prompt-injection-isnt-the-bug-ai-agent-frameworks-are/5283585",
-      "isTopTen": false
-    },
-    {
-      "id": "ed086642-dbfa-4907-ae5b-c6a2188e72b2",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Snowflake hacker pleads guilty, faces up to 32 years in prison",
-      "summary": "Connor Moucka has pleaded guilty to his involvement in a massive, high-profile cyberattack spree targeting Snowflake customers, resulting in approximately $500,000 in illicit gains. He now faces a potential prison sentence of up to 32 years.",
-      "date": "2026-08-05T21:29:58.000Z",
-      "link": "https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/",
-      "isTopTen": false
-    },
-    {
-      "id": "59e54151-0e89-4e46-bab2-022210d08c7f",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Chinese telcos maintain deep US presence despite Salt Typhoon links, House committee says",
-      "summary": "A House committee report reveals that three Chinese telecommunications companies maintain a significant presence in the U.S. internet infrastructure despite their alleged involvement in state-sponsored cyber espionage campaigns like Salt Typhoon.",
-      "date": "2026-08-05T20:45:00.000Z",
-      "link": "https://therecord.media/chinese-hackers-telecoms-house",
       "isTopTen": false
     }
   ]
