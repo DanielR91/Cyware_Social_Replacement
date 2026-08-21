@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-08-21T09:42:57.949Z",
+  "lastUpdated": "2026-08-21T12:58:32.824Z",
   "articles": [
+    {
+      "id": "c484ab33-bb16-4173-bbf2-1eb0bbeee99a",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Six Maximum-Severity Flaws Found in Cisco Products",
+      "summary": "Cisco has released security patches for nine critical vulnerabilities, including six maximum-severity CVSS 10.0 flaws, discovered during an internal security review. There is currently no evidence that these vulnerabilities have been exploited in the wild.",
+      "date": "2026-08-21T12:30:16.000Z",
+      "link": "https://securityaffairs.com/197640/security/six-maximum-severity-flaws-found-in-cisco-products.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b288abb8-b537-4c1e-bdcb-cab882ff3870",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)",
+      "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID that is currently being exploited in the wild. The vulnerability, which carries a maximum CVSS score of 10.0, allows unauthenticated attackers to execute remote code.",
+      "date": "2026-08-21T12:20:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
+      "isTopTen": true
+    },
+    {
+      "id": "88ae144d-33b5-471a-96c4-3a28353e21a9",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Attackers impersonate popular AI brands to spread malware",
+      "summary": "Threat actors are leveraging the popularity of AI brands like ChatGPT, Claude, and Perplexity to distribute malware, including information stealers and malicious browser extensions. Research from Sophos highlights that 34 of 86 analyzed AI-related cases involved confirmed malicious activity.",
+      "date": "2026-08-21T11:47:39.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/21/ai-brand-impersonation-malware-malware-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "2c684a52-f848-489e-bb1f-3b4b822b9b4c",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "summary": "Service busy.",
+      "date": "2026-08-21T11:21:39.000Z",
+      "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e4baa6d5-c711-4b6e-8c6d-1e7ab59d4758",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake Conferences, OAuth and WhatsApp: Inside Russia’s New Espionage Tactics",
+      "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
+      "date": "2026-08-21T11:11:11.000Z",
+      "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
+      "isTopTen": true
+    },
+    {
+      "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+      "summary": "Cisco has released security patches addressing nine vulnerabilities in its Crosswork and Secure Workload platforms, five of which are classified with a critical CVSS score of 10.0.",
+      "date": "2026-08-21T10:03:11.000Z",
+      "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "fa53fb4b-c5a6-4109-b47f-81f57b2ce5c9",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "GitLab Warns of Active Exploitation of Critical GraphQL Flaw",
+      "summary": "GitLab has issued an emergency patch for a critical vulnerability, CVE-2026-19478, which is currently being exploited by unauthenticated attackers to manipulate public projects. The flaw holds a CVSS score of 9.4, highlighting an urgent risk to unpatched instances.",
+      "date": "2026-08-21T09:49:02.000Z",
+      "link": "https://securityaffairs.com/197622/uncategorized/gitlab-warns-of-active-exploitation-of-critical-graphql-flaw.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4ad32980-c53d-40cc-91d0-573712424124",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Poland’s CERT Warns of Active Exploitation of Critical Zimbra Collaboration Suite Flaw",
+      "summary": "CERT Polska has reported that threat actors are actively exploiting a critical, unauthenticated remote code execution vulnerability, tracked as CVE-2026-73570, in the Zimbra Collaboration Suite.",
+      "date": "2026-08-21T09:14:02.000Z",
+      "link": "https://securityaffairs.com/197610/security/polands-cert-warns-of-active-exploitation-of-critical-zimbra-collaboration-suite-flaw.html",
+      "isTopTen": true
+    },
     {
       "id": "3e24540b-bb61-4ca3-8374-1cf3ef1ba062",
       "source": "Security Affairs",
@@ -10,7 +98,7 @@
       "summary": "CISA has officially added vulnerabilities found in the TrueConf Server video conferencing platform to its Known Exploited Vulnerabilities catalog. This move highlights active exploitation of the software and mandates remediation for federal agencies.",
       "date": "2026-08-21T08:22:11.000Z",
       "link": "https://securityaffairs.com/197602/security/u-s-cisa-adds-trueconf-server-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d504fbe-6545-42ba-881c-1335884b51e1",
@@ -32,7 +120,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -54,7 +142,7 @@
       "summary": "CVE-2026-19478, a critical code injection vulnerability in GitLab with a CVSS score of 9.4, is being actively exploited by unauthenticated attackers to modify or delete project data shortly after disclosure.",
       "date": "2026-08-21T07:04:25.000Z",
       "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de703ac3-c199-441a-a8c9-f6d4fb252ca4",
@@ -65,7 +153,7 @@
       "summary": "Microsoft is addressing a critical remote code execution vulnerability in Entra ID, formerly known as Azure Active Directory, which is currently being exploited in the wild. While the flaw carries a CVSS score of 10.0, the company has stated that no immediate action is required from customers.",
       "date": "2026-08-21T06:06:11.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4d2e6750-d0dd-4ae2-a62b-de36d6ec5423",
@@ -142,7 +230,7 @@
       "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
       "date": "2026-08-20T19:59:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
@@ -384,7 +472,7 @@
       "summary": "The Manic Android malware targets various international financial, government, and military sectors, utilizing advanced techniques to exfiltrate data from offline devices via nearby infected hardware. It functions as a hybrid banking Trojan and mobile spyware tool.",
       "date": "2026-08-20T11:26:08.000Z",
       "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe2f6fa8-df69-4eb3-9f2e-b608f1971b37",
@@ -5411,94 +5499,6 @@
       "summary": "This article provides a comparative review of five leading AI-driven threat detection and response platforms designed to secure runtime environments for 2026. It highlights key vendors like Dash and Lakera for their role in automated cybersecurity defense.",
       "date": "2026-08-05T16:56:41.000Z",
       "link": "https://hackread.com/best-ai-detection-response-platforms-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "6ade95fd-b42e-4c33-8509-adc020712fd8",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "IBM's agentic AI platform is under active attack - patch now",
-      "summary": "CISA has issued an urgent warning regarding an actively exploited critical remote code execution (RCE) vulnerability in Langflow, affecting IBM's agentic AI platform. Users are advised to patch their systems immediately to prevent potential compromise.",
-      "date": "2026-08-05T16:44:39.000Z",
-      "link": "https://www.theregister.com/security/2026/08/05/ibms-agentic-ai-platform-is-under-active-attack-patch-now/5283535",
-      "isTopTen": false
-    },
-    {
-      "id": "9108c219-8686-4082-8733-574d88512e80",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Brown Health Medical Group-MA Data Breach Exposes Information of 311,000 Individuals",
-      "summary": "Brown Health Medical Group-MA suffered a data breach involving a legacy file server, exposing the personal, medical, and financial information of approximately 311,000 individuals.",
-      "date": "2026-08-05T16:27:17.000Z",
-      "link": "https://securityaffairs.com/196681/uncategorized/brown-health-medical-group-ma-data-breach-exposes-information-of-311000-individuals.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3c3a50dd-e31b-4b46-afd5-6dab467cae6b",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-      "summary": "Cybersecurity researchers have identified an illicit service called 'Poison Claude' that sells unauthorized, discounted access to Anthropic's AI models while simultaneously logging all user prompts for the operator's surveillance. This highlights an emerging trend of threat actors compromising AI platform security for data exfiltration and credential misuse.",
-      "date": "2026-08-05T15:36:03.000Z",
-      "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-      "isTopTen": false
-    },
-    {
-      "id": "40d16033-1cdd-4060-864f-fbdc8173d3b8",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Dutch retailer De Bijenkorf warns customer data may be exposed after cyber incident",
-      "summary": "Dutch luxury retailer De Bijenkorf has alerted customers to a potential data breach resulting from a security incident at a third-party logistics provider.",
-      "date": "2026-08-05T15:36:00.000Z",
-      "link": "https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident",
-      "isTopTen": false
-    },
-    {
-      "id": "7c07b723-1547-48e0-a10a-8b3ffb5d802f",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Langflow, Apache Tomcat, and N-able N-central flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog by including critical flaws identified in Langflow, Apache Tomcat, and N-able N-central software. Organizations are required to address these vulnerabilities to mitigate the risk of active exploitation.",
-      "date": "2026-08-05T15:25:18.000Z",
-      "link": "https://securityaffairs.com/196667/hacking/u-s-cisa-adds-langflow-apache-tomcat-and-n-able-n-central-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e93b589e-bfe6-4e91-907f-610501af642c",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
-      "summary": "Multiple vulnerabilities in the Paperclip AI framework allow remote attackers to execute arbitrary system commands and expose sensitive data through malicious agent imports and insecure API routes.",
-      "date": "2026-08-05T15:14:05.000Z",
-      "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a149dc05-bab3-473e-b33e-62c810233ff8",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Top product launches at Black Hat USA 2026",
-      "summary": "Black Hat USA 2026 highlights key cybersecurity product launches, notably BlackCloak's new Impersonation Protection feature designed to secure executive communications against deepfakes. These innovations provide security teams with new defensive tools to evaluate for upcoming budget planning.",
-      "date": "2026-08-05T15:00:25.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/05/black-hat-usa-2026-product-launches/",
-      "isTopTen": false
-    },
-    {
-      "id": "6c70383b-b77b-406f-9ea9-968fe89fde53",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "“I’m Allowed”: Hackers Use Simple Claims to Bypass AI Guardrails",
-      "summary": "Cisco Talos researchers discovered that hackers are successfully bypassing AI security guardrails by using simple authorization claims to generate malicious tools and compromise sensitive systems. This vulnerability highlights a critical weakness in current AI safety implementations.",
-      "date": "2026-08-05T14:35:37.000Z",
-      "link": "https://hackread.com/im-allowed-hackers-use-claims-bypass-ai-guardrails/",
       "isTopTen": false
     }
   ]
