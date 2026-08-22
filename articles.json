@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-22T12:47:42.362Z",
+  "lastUpdated": "2026-08-22T15:27:14.238Z",
   "articles": [
+    {
+      "id": "b945e2bf-0eeb-4188-b8b8-480575d216c7",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "If you're not using AI to attack your own systems, your adversaries will",
+      "summary": "Organizations must proactively utilize AI-driven red teaming to stress-test their systems, as attackers are already leveraging these tools to exploit vulnerabilities. The rapid integration of AI agents is creating new, complex attack surfaces that security defenders must urgently address.",
+      "date": "2026-08-22T15:02:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
+      "isTopTen": true
+    },
+    {
+      "id": "dc50f3fe-cc63-4504-9cdb-ba23d8584308",
+      "source": "The Hacker News",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+      "summary": "TikTok has agreed to a $400 million settlement with the U.S. Department of Justice to resolve allegations that the platform violated child privacy laws. The payment is structured as an immediate $300 million fine followed by a $100 million payment contingent on regulatory conditions.",
+      "date": "2026-08-22T14:32:41.000Z",
+      "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+      "isTopTen": false
+    },
     {
       "id": "25c181d3-2234-4374-99f5-d41a40f2a196",
       "source": "Security Affairs",
@@ -263,7 +285,7 @@
       "summary": "GitLab has issued an emergency patch for a critical vulnerability, CVE-2026-19478, which is currently being exploited by unauthenticated attackers to manipulate public projects. The flaw holds a CVSS score of 9.4, highlighting an urgent risk to unpatched instances.",
       "date": "2026-08-21T09:49:02.000Z",
       "link": "https://securityaffairs.com/197622/uncategorized/gitlab-warns-of-active-exploitation-of-critical-graphql-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ad32980-c53d-40cc-91d0-573712424124",
@@ -307,7 +329,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -329,7 +351,7 @@
       "summary": "CVE-2026-19478, a critical code injection vulnerability in GitLab with a CVSS score of 9.4, is being actively exploited by unauthenticated attackers to modify or delete project data shortly after disclosure.",
       "date": "2026-08-21T07:04:25.000Z",
       "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de703ac3-c199-441a-a8c9-f6d4fb252ca4",
@@ -417,7 +439,7 @@
       "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
       "date": "2026-08-20T19:59:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
@@ -659,7 +681,7 @@
       "summary": "The Manic Android malware targets various international financial, government, and military sectors, utilizing advanced techniques to exfiltrate data from offline devices via nearby infected hardware. It functions as a hybrid banking Trojan and mobile spyware tool.",
       "date": "2026-08-20T11:26:08.000Z",
       "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe2f6fa8-df69-4eb3-9f2e-b608f1971b37",
@@ -5477,28 +5499,6 @@
       "summary": "Connor Riley Moucka has pleaded guilty to a massive hacking campaign that targeted 165 organizations, resulting in the theft of billions of records and millions of dollars in extortion. The breach campaign utilized stolen credentials to compromise customer accounts across the Snowflake cloud platform.",
       "date": "2026-08-06T05:39:46.000Z",
       "link": "https://securityaffairs.com/196714/security/snowflake-hacker-pleads-guilty-after-breaching-165-companies-and-stealing-billions-of-records.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ad9ccfe0-c6e3-45dc-977e-49c0d9c9d983",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Browser security is where software, data, and AI meet",
-      "summary": "The browser is increasingly a significant security concern for organizations as it serves as an uncontrolled environment where application logic, sensitive data, and third-party AI scripts converge. The article highlights that traditional browser security mechanisms like Content Security Policy are insufficient to address these modern risks.",
-      "date": "2026-08-06T05:30:35.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/rui-ribeiro-jscrambler-browser-security/",
-      "isTopTen": false
-    },
-    {
-      "id": "4ba3ebb6-3794-4dd8-8934-21dfd334bcbc",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Suppliers, logins, and AI tools are all becoming attack paths",
-      "summary": "The CrowdStrike 2026 Threat Hunting Report highlights that cybercriminals are increasingly bypassing detection by exploiting trusted identities, cloud services, and software supply chains. While intrusion activity growth has moderated, attackers are shifting toward more sophisticated, targeted campaigns leveraging legitimate infrastructure and AI tools.",
-      "date": "2026-08-06T05:00:03.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/crowdstrike-cyber-threat-trends-report/",
       "isTopTen": false
     }
   ]
