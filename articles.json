@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-22T06:47:25.172Z",
+  "lastUpdated": "2026-08-22T09:32:09.108Z",
   "articles": [
+    {
+      "id": "fabae832-23d8-453f-88d8-8a6c55f0f115",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Flaw in NASA/JPL Open-Source Spacecraft Command Software Allowed Unauthenticated Command Execution",
+      "summary": "A critical vulnerability in NASA/JPL’s AIT-GUI software, part of the AMMOS Instrument Toolkit, allowed unauthenticated users to execute arbitrary commands on spacecraft instruments due to a complete lack of security controls. The flaw is rated with a CVSS score of 9.4, highlighting significant risks to mission-critical hardware.",
+      "date": "2026-08-22T08:04:09.000Z",
+      "link": "https://securityaffairs.com/197689/hacking/critical-flaw-in-nasa-jpl-open-source-spacecraft-command-software.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4c33f361-1e2a-45dd-98a7-2c529ff2e380",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Zimbra Collaboration Suite (ZCS) flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the Zimbra Collaboration Suite vulnerability CVE-2026-73570 to its Known Exploited Vulnerabilities (KEV) catalog following confirmation of active exploitation by threat actors. This mandates that federal agencies address the security flaw to mitigate potential risks.",
+      "date": "2026-08-22T07:17:49.000Z",
+      "link": "https://securityaffairs.com/197693/security/u-s-cisa-adds-zimbra-collaboration-suite-zcs-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "2402a3bb-f488-4b71-aa21-2a69f865db27",
       "source": "The Register",
@@ -54,7 +76,7 @@
       "summary": "Service busy.",
       "date": "2026-08-21T18:53:00.000Z",
       "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cfca125d-0ca4-49e7-a8b7-734d7fe6a3eb",
@@ -65,7 +87,7 @@
       "summary": "Researchers discovered that expired Visa contactless cards can still perform successful transactions by exploiting an unsigned expiry field in the card's EMV kernel. This flaw allows attackers to bypass expiration checks at point-of-sale systems.",
       "date": "2026-08-21T18:03:59.000Z",
       "link": "https://securityaffairs.com/197663/hacking/your-shredded-visa-card-may-still-work-at-the-checkout.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bc0292fd-de78-43f7-b0bd-dcc783d96613",
@@ -263,7 +285,7 @@
       "summary": "Citrix has released patches for a critical authentication bypass vulnerability, identified as CVE-2026-19490, affecting NetScaler ADC and NetScaler Gateway. Customers are urged to upgrade their appliances immediately to mitigate potential security risks.",
       "date": "2026-08-21T07:55:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01ce53e0-351c-49b7-92f0-2ad6895fe351",
@@ -274,7 +296,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -417,7 +439,7 @@
       "summary": "The newly discovered Manic Android malware combines banking fraud and spyware, utilizing Bluetooth relay technology to exfiltrate sensitive data from offline devices. Actively under development since early 2026, it poses a significant threat by bypassing traditional connectivity-based security measures.",
       "date": "2026-08-20T18:03:12.000Z",
       "link": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0b6051e1-9a57-4a65-862b-c69d17344020",
@@ -659,7 +681,7 @@
       "summary": "A critical vulnerability chain in NASA's AIT-GUI console allows unauthenticated attackers to send arbitrary commands to spacecraft and instrument systems. The flaw, tracked as GHSA-p9r8-2q67-fp86, carries a CVSS score of 9.4.",
       "date": "2026-08-20T11:05:11.000Z",
       "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dea55dd0-66f5-4107-850a-e37311d529b3",
@@ -5477,28 +5499,6 @@
       "summary": "Router manufacturer Zbtlink has suspended firmware downloads to address security concerns after publicly denying claims that its remote maintenance features act as backdoors.",
       "date": "2026-08-06T04:57:43.000Z",
       "link": "https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794",
-      "isTopTen": false
-    },
-    {
-      "id": "57f289af-b5aa-44b9-a07f-b02f84129b7e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Non-human identities are 91% of everything active in production",
-      "summary": "Non-human identities account for 91% of active production traffic, with only 20% of this activity occurring during standard business hours, significantly expanding the potential attack surface for credential-based exploits.",
-      "date": "2026-08-06T04:45:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/non-human-identities-active-in-production/",
-      "isTopTen": false
-    },
-    {
-      "id": "c95bc633-1462-43c2-90dd-a97a3216e83f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Cloudflare OS goes open source with a record of everything its agents read",
-      "summary": "Cloudflare has open-sourced its agent platform, Cloudflare OS, which integrates a granular auditing mechanism that records all data accessed by AI agents to ensure security and access control compliance. This platform validates that any user viewing output generated by an agent has the appropriate permissions to access the underlying source data.",
-      "date": "2026-08-06T04:27:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/cloudflare-os-open-source/",
       "isTopTen": false
     }
   ]
