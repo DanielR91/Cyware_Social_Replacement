@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-22T15:27:14.238Z",
+  "lastUpdated": "2026-08-22T18:37:49.043Z",
   "articles": [
+    {
+      "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Postal Service moves to finalize mail ballot regs before SCOTUS ruling",
+      "summary": "The U.S. Postal Service is rushing to finalize mail ballot regulations in anticipation of a favorable Supreme Court ruling, despite prior challenges in state courts. This initiative highlights the intersection of political policy and election security processes.",
+      "date": "2026-08-22T17:01:11.000Z",
+      "link": "https://cyberscoop.com/postal-service-finalizes-mail-in-ballot-rules-before-scotus-ruling/",
+      "isTopTen": false
+    },
+    {
+      "id": "85a4bea7-7748-4f55-b19b-231fa8b57852",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ToxicPanda 2.0 Gets a Major Upgrade, Expanding Attacks Across 16 Countries",
+      "summary": "The updated ToxicPanda 2.0 malware has expanded its reach to 16 countries, now targeting 349 financial applications by exploiting Android Wireless Debugging to steal credentials. This evolution marks a significant shift from its previous limited, Europe-focused operations.",
+      "date": "2026-08-22T16:50:20.000Z",
+      "link": "https://securityaffairs.com/197681/breaking-news/toxicpanda-2-0-gets-a-major-upgrade.html",
+      "isTopTen": false
+    },
     {
       "id": "b945e2bf-0eeb-4188-b8b8-480575d216c7",
       "source": "The Register",
@@ -10,7 +32,7 @@
       "summary": "Organizations must proactively utilize AI-driven red teaming to stress-test their systems, as attackers are already leveraging these tools to exploit vulnerabilities. The rapid integration of AI agents is creating new, complex attack surfaces that security defenders must urgently address.",
       "date": "2026-08-22T15:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dc50f3fe-cc63-4504-9cdb-ba23d8584308",
@@ -263,7 +285,7 @@
       "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
       "date": "2026-08-21T11:11:11.000Z",
       "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
@@ -329,7 +351,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -472,7 +494,7 @@
       "summary": "The newly discovered Manic Android malware combines banking fraud and spyware, utilizing Bluetooth relay technology to exfiltrate sensitive data from offline devices. Actively under development since early 2026, it poses a significant threat by bypassing traditional connectivity-based security measures.",
       "date": "2026-08-20T18:03:12.000Z",
       "link": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b6051e1-9a57-4a65-862b-c69d17344020",
@@ -5477,28 +5499,6 @@
       "summary": "Connor Riley Moucka has pleaded guilty to charges related to the 2024 mass breach of Snowflake customer accounts, which compromised the data of at least 100 million individuals across 165 organizations.",
       "date": "2026-08-06T06:04:30.000Z",
       "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a4f84de3-42c0-4db7-9909-cc9f910e7002",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "OWASP 2026 LLM Top 10: “The model will be fooled”",
-      "summary": "The OWASP GenAI Security Project has updated its Top 10 list for LLM applications, incorporating real-world incident data to refine the rankings of critical security vulnerabilities. While Prompt Injection and Sensitive Information Disclosure remain the top risks, the updated list reflects shifting priorities in AI security.",
-      "date": "2026-08-06T06:00:37.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/owasp-2026-llm-top-10-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "8b51068d-21a9-4130-95bd-b374947d8522",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Snowflake Hacker Pleads Guilty After Breaching 165 Companies and Stealing Billions of Records",
-      "summary": "Connor Riley Moucka has pleaded guilty to a massive hacking campaign that targeted 165 organizations, resulting in the theft of billions of records and millions of dollars in extortion. The breach campaign utilized stolen credentials to compromise customer accounts across the Snowflake cloud platform.",
-      "date": "2026-08-06T05:39:46.000Z",
-      "link": "https://securityaffairs.com/196714/security/snowflake-hacker-pleads-guilty-after-breaching-165-companies-and-stealing-billions-of-records.html",
       "isTopTen": false
     }
   ]
