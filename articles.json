@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-22T09:32:09.108Z",
+  "lastUpdated": "2026-08-22T12:47:42.362Z",
   "articles": [
+    {
+      "id": "25c181d3-2234-4374-99f5-d41a40f2a196",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Malware Hijacks Android Car Head Units",
+      "summary": "Malware is exploiting Android-based car infotainment systems by installing unauthorized proxy software to turn vehicles into nodes for the BADBOX botnet. Researchers discovered that these malicious apps operate without a user interface to evade detection while utilizing car update mechanisms.",
+      "date": "2026-08-22T08:55:18.000Z",
+      "link": "https://securityaffairs.com/197700/hacking/malware-hijacks-android-car-head-units.html",
+      "isTopTen": false
+    },
     {
       "id": "fabae832-23d8-453f-88d8-8a6c55f0f115",
       "source": "Security Affairs",
@@ -87,7 +98,7 @@
       "summary": "Researchers discovered that expired Visa contactless cards can still perform successful transactions by exploiting an unsigned expiry field in the card's EMV kernel. This flaw allows attackers to bypass expiration checks at point-of-sale systems.",
       "date": "2026-08-21T18:03:59.000Z",
       "link": "https://securityaffairs.com/197663/hacking/your-shredded-visa-card-may-still-work-at-the-checkout.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc0292fd-de78-43f7-b0bd-dcc783d96613",
@@ -230,7 +241,7 @@
       "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
       "date": "2026-08-21T11:11:11.000Z",
       "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
@@ -318,7 +329,7 @@
       "summary": "CVE-2026-19478, a critical code injection vulnerability in GitLab with a CVSS score of 9.4, is being actively exploited by unauthenticated attackers to modify or delete project data shortly after disclosure.",
       "date": "2026-08-21T07:04:25.000Z",
       "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "de703ac3-c199-441a-a8c9-f6d4fb252ca4",
@@ -406,7 +417,7 @@
       "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
       "date": "2026-08-20T19:59:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
@@ -637,7 +648,7 @@
       "summary": "Researchers discovered 'CDN Tsunami' DoS attacks that exploit protocol translation flaws in major CDNs to amplify traffic by 350x against origin servers. The vulnerability impacts how HTTP/3 client requests are converted to HTTP/1.1 for backend communication.",
       "date": "2026-08-20T11:39:35.000Z",
       "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cc6f8ad6-793e-4a8e-83ba-d850c9b636c0",
@@ -648,7 +659,7 @@
       "summary": "The Manic Android malware targets various international financial, government, and military sectors, utilizing advanced techniques to exfiltrate data from offline devices via nearby infected hardware. It functions as a hybrid banking Trojan and mobile spyware tool.",
       "date": "2026-08-20T11:26:08.000Z",
       "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fe2f6fa8-df69-4eb3-9f2e-b608f1971b37",
@@ -5488,17 +5499,6 @@
       "summary": "The CrowdStrike 2026 Threat Hunting Report highlights that cybercriminals are increasingly bypassing detection by exploiting trusted identities, cloud services, and software supply chains. While intrusion activity growth has moderated, attackers are shifting toward more sophisticated, targeted campaigns leveraging legitimate infrastructure and AI tools.",
       "date": "2026-08-06T05:00:03.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/crowdstrike-cyber-threat-trends-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "a9ba9755-9dfa-4338-a367-84a9947b9beb",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Chinese router vendor denies its firmware contains backdoors – but pauses downloads to fix security issues anyway",
-      "summary": "Router manufacturer Zbtlink has suspended firmware downloads to address security concerns after publicly denying claims that its remote maintenance features act as backdoors.",
-      "date": "2026-08-06T04:57:43.000Z",
-      "link": "https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794",
       "isTopTen": false
     }
   ]
