@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-23T06:48:54.167Z",
+  "lastUpdated": "2026-08-23T09:33:46.043Z",
   "articles": [
+    {
+      "id": "0e0fc71d-b55b-498b-9d28-f6657beaf86f",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "UK Power Plant Disabled for Four Days by Iran-Linked Hackers, Concurrent with US Water Attacks",
+      "summary": "Iran-linked hackers successfully disrupted a UK power plant for four days, marking a significant infrastructure breach that occurred simultaneously with cyberattacks on water systems across 12 US states.",
+      "date": "2026-08-23T08:48:14.000Z",
+      "link": "https://securityaffairs.com/197734/cyber-warfare-2/uk-power-plant-disabled-for-four-days-by-iran-linked-hackers-concurrent-with-us-water-attacks.html",
+      "isTopTen": true
+    },
+    {
+      "id": "341d9dae-aee1-42ca-b1c3-e0420c61d327",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 591 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The Security Affairs newsletter highlights the emergence of ToxicPanda 2.0, an Android malware variant that has expanded its operations to hijack vehicle head units across 16 countries.",
+      "date": "2026-08-23T08:29:02.000Z",
+      "link": "https://securityaffairs.com/197728/breaking-news/security-affairs-newsletter-round-591-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b904bb5a-2bc9-4079-b1fd-ce1f5c73d0c9",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Week in review: Records allegedly stolen from Azure tenants, Medusa ransomware hits 500+ orgs",
+      "summary": "This weekly review covers critical security developments, including bypass methods for Windows 11 protections, data theft from Azure tenants, and widespread Medusa ransomware campaigns.",
+      "date": "2026-08-23T08:00:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/23/week-in-review-records-allegedly-stolen-from-azure-tenants-medusa-ransomware-hits-500-orgs/",
+      "isTopTen": false
+    },
+    {
+      "id": "81140ff5-e7c8-4347-b5d8-cc66cb8595e3",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Zero-Click Grok Chat History Theft: Adversa AI Demonstrates Cryptographic Context Injection",
+      "summary": "Adversa AI researcher Rony Utevsky developed a 'Cryptographic Context Injection' technique that exploits AI guardrails by using AES-encrypted payloads to exfiltrate Grok chat histories without user interaction. This zero-click attack leverages the model's own runtime to decrypt and execute malicious instructions.",
+      "date": "2026-08-23T07:20:38.000Z",
+      "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
+      "isTopTen": false
+    },
     {
       "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
       "source": "CyberScoop",
@@ -21,7 +65,7 @@
       "summary": "The updated ToxicPanda 2.0 malware has expanded its reach to 16 countries, now targeting 349 financial applications by exploiting Android Wireless Debugging to steal credentials. This evolution marks a significant shift from its previous limited, Europe-focused operations.",
       "date": "2026-08-22T16:50:20.000Z",
       "link": "https://securityaffairs.com/197681/breaking-news/toxicpanda-2-0-gets-a-major-upgrade.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b945e2bf-0eeb-4188-b8b8-480575d216c7",
@@ -76,7 +120,7 @@
       "summary": "CISA has added the Zimbra Collaboration Suite vulnerability CVE-2026-73570 to its Known Exploited Vulnerabilities (KEV) catalog following confirmation of active exploitation by threat actors. This mandates that federal agencies address the security flaw to mitigate potential risks.",
       "date": "2026-08-22T07:17:49.000Z",
       "link": "https://securityaffairs.com/197693/security/u-s-cisa-adds-zimbra-collaboration-suite-zcs-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2402a3bb-f488-4b71-aa21-2a69f865db27",
@@ -252,7 +296,7 @@
       "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID that is currently being exploited in the wild. The vulnerability, which carries a maximum CVSS score of 10.0, allows unauthenticated attackers to execute remote code.",
       "date": "2026-08-21T12:20:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "88ae144d-33b5-471a-96c4-3a28353e21a9",
@@ -307,7 +351,7 @@
       "summary": "GitLab has issued an emergency patch for a critical vulnerability, CVE-2026-19478, which is currently being exploited by unauthenticated attackers to manipulate public projects. The flaw holds a CVSS score of 9.4, highlighting an urgent risk to unpatched instances.",
       "date": "2026-08-21T09:49:02.000Z",
       "link": "https://securityaffairs.com/197622/uncategorized/gitlab-warns-of-active-exploitation-of-critical-graphql-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ad32980-c53d-40cc-91d0-573712424124",
@@ -340,7 +384,7 @@
       "summary": "Citrix has released patches for a critical authentication bypass vulnerability, identified as CVE-2026-19490, affecting NetScaler ADC and NetScaler Gateway. Customers are urged to upgrade their appliances immediately to mitigate potential security risks.",
       "date": "2026-08-21T07:55:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01ce53e0-351c-49b7-92f0-2ad6895fe351",
@@ -351,7 +395,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -384,7 +428,7 @@
       "summary": "Microsoft is addressing a critical remote code execution vulnerability in Entra ID, formerly known as Azure Active Directory, which is currently being exploited in the wild. While the flaw carries a CVSS score of 10.0, the company has stated that no immediate action is required from customers.",
       "date": "2026-08-21T06:06:11.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d2e6750-d0dd-4ae2-a62b-de36d6ec5423",
@@ -505,7 +549,7 @@
       "summary": "Five U.S. federal agencies have issued a joint advisory regarding an active, AI-assisted hacking campaign targeting Siemens S7 programmable logic controllers within critical infrastructure sectors.",
       "date": "2026-08-20T17:36:49.000Z",
       "link": "https://securityaffairs.com/197566/ics-scada/nsa-cisa-fbi-doe-and-epa-warn-of-active-ai-assisted-attacks-on-siemens-s7-plcs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "92d775ab-4a8f-414c-bb79-a4352eb79c39",
@@ -549,7 +593,7 @@
       "summary": "U.S. critical infrastructure is under threat from AI-generated exploit scripts designed to target and conduct reconnaissance on Siemens S7 Programmable Logic Controllers. These malicious scripts are being masked as legitimate monitoring tools to compromise industrial systems.",
       "date": "2026-08-20T16:59:44.000Z",
       "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d74a6a10-c7f9-4e08-a713-3d9df10bf703",
@@ -5455,50 +5499,6 @@
       "summary": "Help Net Security provides a photo overview of the Black Hat USA 2026 Arsenal, highlighting a workshop-style environment where developers showcase and demonstrate open-source security tools.",
       "date": "2026-08-06T08:05:56.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/black-hat-usa-2026-arsenal-photos/",
-      "isTopTen": false
-    },
-    {
-      "id": "ddc3fc22-38c2-4018-8b98-3d2fa81a1110",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-      "summary": "Researchers discovered a persistent backdoor in 20 Zbtlink router models that provides unauthenticated root access and beacons to external servers. The vulnerability has been present in the company's firmware for over two years.",
-      "date": "2026-08-06T08:05:22.000Z",
-      "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-      "isTopTen": false
-    },
-    {
-      "id": "902af8c7-32bc-4195-844e-f228575e8e0f",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-      "summary": "Maksim Silnikau, the creator of the Ransom Cartel ransomware-as-a-service operation, has been sentenced to 16 years in federal prison for orchestrating attacks against at least 18 companies between 2021 and 2023. This sentencing highlights ongoing international efforts to hold cybercriminals accountable for ransomware activities.",
-      "date": "2026-08-06T07:19:54.000Z",
-      "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a51d45eb-96b2-4fbe-b53e-9a144af8ee5d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-      "summary": "CISA has issued a warning regarding active exploitation of a critical remote code execution vulnerability (CVE-2026-63077) in on-premise versions of JetBrains TeamCity. The flaw, which involves deserialization of untrusted data, carries a CVSS score of 9.8.",
-      "date": "2026-08-06T06:51:43.000Z",
-      "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1da32dd2-ba52-4c09-92da-1071423292c7",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "summary": "Connor Riley Moucka has pleaded guilty to charges related to the 2024 mass breach of Snowflake customer accounts, which compromised the data of at least 100 million individuals across 165 organizations.",
-      "date": "2026-08-06T06:04:30.000Z",
-      "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
       "isTopTen": false
     }
   ]
