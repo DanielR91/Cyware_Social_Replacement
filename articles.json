@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T09:33:46.043Z",
+  "lastUpdated": "2026-08-23T12:48:35.564Z",
   "articles": [
     {
       "id": "0e0fc71d-b55b-498b-9d28-f6657beaf86f",
@@ -43,7 +43,7 @@
       "summary": "Adversa AI researcher Rony Utevsky developed a 'Cryptographic Context Injection' technique that exploits AI guardrails by using AES-encrypted payloads to exfiltrate Grok chat histories without user interaction. This zero-click attack leverages the model's own runtime to decrypt and execute malicious instructions.",
       "date": "2026-08-23T07:20:38.000Z",
       "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
@@ -120,7 +120,7 @@
       "summary": "CISA has added the Zimbra Collaboration Suite vulnerability CVE-2026-73570 to its Known Exploited Vulnerabilities (KEV) catalog following confirmation of active exploitation by threat actors. This mandates that federal agencies address the security flaw to mitigate potential risks.",
       "date": "2026-08-22T07:17:49.000Z",
       "link": "https://securityaffairs.com/197693/security/u-s-cisa-adds-zimbra-collaboration-suite-zcs-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2402a3bb-f488-4b71-aa21-2a69f865db27",
@@ -296,7 +296,7 @@
       "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID that is currently being exploited in the wild. The vulnerability, which carries a maximum CVSS score of 10.0, allows unauthenticated attackers to execute remote code.",
       "date": "2026-08-21T12:20:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "88ae144d-33b5-471a-96c4-3a28353e21a9",
@@ -329,7 +329,7 @@
       "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
       "date": "2026-08-21T11:11:11.000Z",
       "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
@@ -384,7 +384,7 @@
       "summary": "Citrix has released patches for a critical authentication bypass vulnerability, identified as CVE-2026-19490, affecting NetScaler ADC and NetScaler Gateway. Customers are urged to upgrade their appliances immediately to mitigate potential security risks.",
       "date": "2026-08-21T07:55:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "01ce53e0-351c-49b7-92f0-2ad6895fe351",
@@ -428,7 +428,7 @@
       "summary": "Microsoft is addressing a critical remote code execution vulnerability in Entra ID, formerly known as Azure Active Directory, which is currently being exploited in the wild. While the flaw carries a CVSS score of 10.0, the company has stated that no immediate action is required from customers.",
       "date": "2026-08-21T06:06:11.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4d2e6750-d0dd-4ae2-a62b-de36d6ec5423",
@@ -505,7 +505,7 @@
       "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
       "date": "2026-08-20T19:59:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
@@ -538,7 +538,7 @@
       "summary": "The newly discovered Manic Android malware combines banking fraud and spyware, utilizing Bluetooth relay technology to exfiltrate sensitive data from offline devices. Actively under development since early 2026, it poses a significant threat by bypassing traditional connectivity-based security measures.",
       "date": "2026-08-20T18:03:12.000Z",
       "link": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0b6051e1-9a57-4a65-862b-c69d17344020",
@@ -549,7 +549,7 @@
       "summary": "Five U.S. federal agencies have issued a joint advisory regarding an active, AI-assisted hacking campaign targeting Siemens S7 programmable logic controllers within critical infrastructure sectors.",
       "date": "2026-08-20T17:36:49.000Z",
       "link": "https://securityaffairs.com/197566/ics-scada/nsa-cisa-fbi-doe-and-epa-warn-of-active-ai-assisted-attacks-on-siemens-s7-plcs.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "92d775ab-4a8f-414c-bb79-a4352eb79c39",
@@ -747,7 +747,7 @@
       "summary": "The Manic Android malware targets various international financial, government, and military sectors, utilizing advanced techniques to exfiltrate data from offline devices via nearby infected hardware. It functions as a hybrid banking Trojan and mobile spyware tool.",
       "date": "2026-08-20T11:26:08.000Z",
       "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fe2f6fa8-df69-4eb3-9f2e-b608f1971b37",
