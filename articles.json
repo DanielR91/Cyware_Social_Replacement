@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-23T15:27:29.572Z",
+  "lastUpdated": "2026-08-23T18:35:55.279Z",
   "articles": [
+    {
+      "id": "df07ddde-9233-44ad-a746-ff69b001c8a7",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 111",
+      "summary": "This newsletter provides an overview of recent malware activity, featuring analyses on Akira ransomware, Linux botnets, and various information-stealing campaigns targeting different operating systems. It highlights key research on evolving threats such as MacSync and the Manic malware strain.",
+      "date": "2026-08-23T17:04:47.000Z",
+      "link": "https://securityaffairs.com/197743/security/security-affairs-malware-newsletter-round-111.html",
+      "isTopTen": false
+    },
     {
       "id": "0e0fc71d-b55b-498b-9d28-f6657beaf86f",
       "source": "Security Affairs",
@@ -186,7 +197,7 @@
       "summary": "Researchers discovered that expired Visa contactless cards can still perform successful transactions by exploiting an unsigned expiry field in the card's EMV kernel. This flaw allows attackers to bypass expiration checks at point-of-sale systems.",
       "date": "2026-08-21T18:03:59.000Z",
       "link": "https://securityaffairs.com/197663/hacking/your-shredded-visa-card-may-still-work-at-the-checkout.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bc0292fd-de78-43f7-b0bd-dcc783d96613",
@@ -263,7 +274,7 @@
       "summary": "Malicious actors compromised popular Rust programming language packages to distribute infostealer malware during routine software builds. This supply chain attack specifically targets developers to exfiltrate their sensitive credentials.",
       "date": "2026-08-21T14:57:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3220e49-bf66-4af1-92d5-d88ab014d0fb",
@@ -384,7 +395,7 @@
       "summary": "Citrix has released patches for a critical authentication bypass vulnerability, identified as CVE-2026-19490, affecting NetScaler ADC and NetScaler Gateway. Customers are urged to upgrade their appliances immediately to mitigate potential security risks.",
       "date": "2026-08-21T07:55:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "01ce53e0-351c-49b7-92f0-2ad6895fe351",
@@ -494,7 +505,7 @@
       "summary": "Malicious versions of three popular Rust crates were removed from crates.io after a compromised maintainer account injected a build-time malware dependency into releases with 245 million collective downloads. The attack utilized a typosquatted dependency to execute remote payloads during the crate compilation process.",
       "date": "2026-08-20T20:22:35.000Z",
       "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8831c0a1-7d7b-4690-867b-4e8a247569f2",
@@ -5488,17 +5499,6 @@
       "summary": "CISA has added the critical JetBrains TeamCity vulnerability CVE-2026-63077, which carries a CVSS score of 9.8, to its Known Exploited Vulnerabilities catalog. This update mandates that federal agencies address the security flaw to mitigate the risk of active exploitation.",
       "date": "2026-08-06T08:22:27.000Z",
       "link": "https://securityaffairs.com/196725/security/u-s-cisa-adds-a-jetbrains-teamcity-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d86dfae9-fec9-43ab-a842-64ef9e93f6bf",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Photos: Black Hat USA 2026 Arsenal",
-      "summary": "Help Net Security provides a photo overview of the Black Hat USA 2026 Arsenal, highlighting a workshop-style environment where developers showcase and demonstrate open-source security tools.",
-      "date": "2026-08-06T08:05:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/black-hat-usa-2026-arsenal-photos/",
       "isTopTen": false
     }
   ]
