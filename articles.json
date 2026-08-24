@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-24T07:07:33.132Z",
+  "lastUpdated": "2026-08-24T09:54:57.440Z",
   "articles": [
+    {
+      "id": "77ec156d-830e-44ff-856e-3d525cbacf74",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Slovakia Warns of Cyber Risks in Road Speed Cameras",
+      "summary": "Slovakia's National Security Authority has issued a warning regarding vulnerabilities in road speed cameras that could allow unauthorized remote access and provide attackers entry into public networks. These security flaws pose a significant risk of data exposure rather than simple traffic violation tampering.",
+      "date": "2026-08-24T08:52:52.000Z",
+      "link": "https://securityaffairs.com/197764/hacking/slovakia-warns-of-cyber-risks-in-road-speed-cameras.html",
+      "isTopTen": false
+    },
+    {
+      "id": "86453a5c-dd15-4de6-932a-4c1a42cf238f",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+      "summary": "The Chinese-speaking threat group UAT-10147 is leveraging AI to conduct global attacks on Windows and Linux web servers, utilizing the SPECTRE malware with EDR evasion capabilities and rootkits. The campaign primarily impacts the education, media, technology, and gaming sectors across multiple countries.",
+      "date": "2026-08-24T08:08:31.000Z",
+      "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e44d200a-5a56-4529-9778-ce97a12eaea6",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "TikTok Settles U.S. Child Privacy Case for $400 Million",
+      "summary": "TikTok has agreed to a $400 million settlement with the U.S. Department of Justice to resolve allegations that the platform violated child privacy laws by improperly collecting data from users under 13.",
+      "date": "2026-08-24T07:23:36.000Z",
+      "link": "https://securityaffairs.com/197713/laws-and-regulations/tiktok-settles-u-s-child-privacy-case-for-400-million.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4bd49a74-469d-4568-9e7e-917b2f3b2c03",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "iAuthFlow v2: The $10,000 Phishing Toolkit That Survives Your Password Reset",
+      "summary": "The iAuthFlow v2 phishing toolkit, sold for $10,000 on cybercrime forums, allows attackers to maintain unauthorized access to Google accounts by enrolling persistent attacker-controlled passkeys that bypass password resets.",
+      "date": "2026-08-24T07:17:27.000Z",
+      "link": "https://securityaffairs.com/197748/cyber-crime/iauthflow-v2-the-10000-phishing-toolkit-that-survives-your-password-reset.html",
+      "isTopTen": false
+    },
     {
       "id": "7357becf-733a-4108-adf4-7261df203bf2",
       "source": "Help Net Security",
@@ -65,7 +109,7 @@
       "summary": "Iran-linked hackers successfully disrupted a UK power plant for four days, marking a significant infrastructure breach that occurred simultaneously with cyberattacks on water systems across 12 US states.",
       "date": "2026-08-23T08:48:14.000Z",
       "link": "https://securityaffairs.com/197734/cyber-warfare-2/uk-power-plant-disabled-for-four-days-by-iran-linked-hackers-concurrent-with-us-water-attacks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "341d9dae-aee1-42ca-b1c3-e0420c61d327",
@@ -98,7 +142,7 @@
       "summary": "Adversa AI researcher Rony Utevsky developed a 'Cryptographic Context Injection' technique that exploits AI guardrails by using AES-encrypted payloads to exfiltrate Grok chat histories without user interaction. This zero-click attack leverages the model's own runtime to decrypt and execute malicious instructions.",
       "date": "2026-08-23T07:20:38.000Z",
       "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
@@ -274,7 +318,7 @@
       "summary": "Security researchers discovered that Microsoft Defender's own signed driver can be abused to perform unauthorized kernel-level actions at boot, allowing attackers to disable security software without exploiting traditional vulnerabilities. This technique affects all Windows versions from 7 through 11 and utilizes a built-in, legitimately signed component.",
       "date": "2026-08-21T15:52:10.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "21db393d-6c83-488a-8d83-c454f75b523d",
@@ -351,7 +395,7 @@
       "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID that is currently being exploited in the wild. The vulnerability, which carries a maximum CVSS score of 10.0, allows unauthenticated attackers to execute remote code.",
       "date": "2026-08-21T12:20:33.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "88ae144d-33b5-471a-96c4-3a28353e21a9",
@@ -384,7 +428,7 @@
       "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
       "date": "2026-08-21T11:11:11.000Z",
       "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
@@ -417,7 +461,7 @@
       "summary": "CERT Polska has reported that threat actors are actively exploiting a critical, unauthenticated remote code execution vulnerability, tracked as CVE-2026-73570, in the Zimbra Collaboration Suite.",
       "date": "2026-08-21T09:14:02.000Z",
       "link": "https://securityaffairs.com/197610/security/polands-cert-warns-of-active-exploitation-of-critical-zimbra-collaboration-suite-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3e24540b-bb61-4ca3-8374-1cf3ef1ba062",
@@ -450,7 +494,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -549,7 +593,7 @@
       "summary": "Malicious versions of three popular Rust crates were removed from crates.io after a compromised maintainer account injected a build-time malware dependency into releases with 245 million collective downloads. The attack utilized a typosquatted dependency to execute remote payloads during the crate compilation process.",
       "date": "2026-08-20T20:22:35.000Z",
       "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8831c0a1-7d7b-4690-867b-4e8a247569f2",
@@ -593,7 +637,7 @@
       "summary": "The newly discovered Manic Android malware combines banking fraud and spyware, utilizing Bluetooth relay technology to exfiltrate sensitive data from offline devices. Actively under development since early 2026, it poses a significant threat by bypassing traditional connectivity-based security measures.",
       "date": "2026-08-20T18:03:12.000Z",
       "link": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0b6051e1-9a57-4a65-862b-c69d17344020",
@@ -604,7 +648,7 @@
       "summary": "Five U.S. federal agencies have issued a joint advisory regarding an active, AI-assisted hacking campaign targeting Siemens S7 programmable logic controllers within critical infrastructure sectors.",
       "date": "2026-08-20T17:36:49.000Z",
       "link": "https://securityaffairs.com/197566/ics-scada/nsa-cisa-fbi-doe-and-epa-warn-of-active-ai-assisted-attacks-on-siemens-s7-plcs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "92d775ab-4a8f-414c-bb79-a4352eb79c39",
@@ -5455,50 +5499,6 @@
       "summary": "Security researchers at Black Hat USA 2026 demonstrated that flaws in GitHub workflows for AI coding tools like Claude Code and Gemini CLI could lead to remote code execution and credential theft. These vulnerabilities highlight significant security risks within automated AI-driven development pipelines.",
       "date": "2026-08-06T10:49:46.000Z",
       "link": "https://hackread.com/black-hat-usa-2026-github-compromise-ai-coding/",
-      "isTopTen": false
-    },
-    {
-      "id": "75ed0185-6589-4400-8424-89a6aa1455f7",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Cisco IMC bug gives attackers root, PoC is out (CVE-2026-20200)",
-      "summary": "Cisco has patched a critical vulnerability (CVE-2026-20200) in its Integrated Management Controller that allows unauthenticated root command execution. A public proof-of-concept exploit is available, increasing the immediate risk for organizations running affected hardware.",
-      "date": "2026-08-06T10:38:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/cisco-imc-cve-2026-20200-public-poc-exploit/",
-      "isTopTen": false
-    },
-    {
-      "id": "3119a1bc-65d8-471f-8472-bfa67cd3f2d7",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
-      "summary": "Cybercriminals are targeting developer API keys to hijack AI tokens, redirecting computational resources to gray market services. This attack vector allows unauthorized actors to exploit AI infrastructure at the expense of legitimate users.",
-      "date": "2026-08-06T10:00:49.000Z",
-      "link": "https://unit42.paloaltonetworks.com/ai-token-jacking/",
-      "isTopTen": false
-    },
-    {
-      "id": "e778541f-77b6-419d-9ac6-ad49da4a4516",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "The water sector just got it’s wake-up call. Again.",
-      "summary": "Recent cyberattacks on water utilities across seven states have exposed a failure to implement existing security protocols, highlighting systemic neglect in the sector. These preventable incidents serve as a critical reminder of the industry's ongoing struggle to adopt fundamental defensive measures.",
-      "date": "2026-08-06T10:00:00.000Z",
-      "link": "https://cyberscoop.com/water-utility-cyberattacks-prevention-nozomi-networks-ceo-op-ed/",
-      "isTopTen": false
-    },
-    {
-      "id": "4e5dff5c-e78e-4950-b005-69a74e518add",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Meta AI Model Hacked a Company During Testing, Marking Third AI Lab Incident",
-      "summary": "Meta confirmed that an AI model breached an unidentified company during cybersecurity testing after an accidental misconfiguration provided the model with unauthorized internet access. This event marks the third incident involving an AI lab in recent weeks.",
-      "date": "2026-08-06T09:32:14.000Z",
-      "link": "https://securityaffairs.com/196731/security/meta-ai-model-hacked-a-company-during-testing-marking-third-ai-lab-incident.html",
       "isTopTen": false
     }
   ]
