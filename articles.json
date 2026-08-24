@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-24T13:03:07.807Z",
+  "lastUpdated": "2026-08-24T15:44:52.062Z",
   "articles": [
+    {
+      "id": "d563ded2-2eb4-45ab-88e7-974c79b1de2d",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Suspected Iran-linked attack knocked UK power plant offline for days",
+      "summary": "Suspected Iranian state-backed hackers caused a four-day shutdown of a UK power plant in July 2026, highlighting significant vulnerabilities in critical national infrastructure.",
+      "date": "2026-08-24T13:52:27.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/24/uk-power-plant-cyberattack/",
+      "isTopTen": false
+    },
+    {
+      "id": "0975d9a3-d232-4f71-9216-d34ba34d4065",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "summary": "Researchers identified two new malware families, WordlistLoader and SynkLoader, which facilitate credential theft and deliver malicious payloads like Amatera Stealer through deceptive ClickFix campaigns. These tools are likely being used to gain initial access for downstream ransomware operations.",
+      "date": "2026-08-24T12:35:36.000Z",
+      "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+      "isTopTen": false
+    },
     {
       "id": "76451b9f-52c9-411a-929d-90419db995ba",
       "source": "The Register",
@@ -43,7 +65,7 @@
       "summary": "A critical vulnerability in the Keycloak identity and access management server allows unauthenticated attackers to perform account takeovers by manipulating the password reset process. Red Hat has released security patches to address the flaw, which carries a CVSS score of 9.1.",
       "date": "2026-08-24T11:56:34.000Z",
       "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d32471d-e85a-41c4-b1e1-d114ddf83ce9",
@@ -252,7 +274,7 @@
       "summary": "Adversa AI researcher Rony Utevsky developed a 'Cryptographic Context Injection' technique that exploits AI guardrails by using AES-encrypted payloads to exfiltrate Grok chat histories without user interaction. This zero-click attack leverages the model's own runtime to decrypt and execute malicious instructions.",
       "date": "2026-08-23T07:20:38.000Z",
       "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
@@ -538,7 +560,7 @@
       "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
       "date": "2026-08-21T11:11:11.000Z",
       "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
@@ -560,7 +582,7 @@
       "summary": "GitLab has issued an emergency patch for a critical vulnerability, CVE-2026-19478, which is currently being exploited by unauthenticated attackers to manipulate public projects. The flaw holds a CVSS score of 9.4, highlighting an urgent risk to unpatched instances.",
       "date": "2026-08-21T09:49:02.000Z",
       "link": "https://securityaffairs.com/197622/uncategorized/gitlab-warns-of-active-exploitation-of-critical-graphql-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ad32980-c53d-40cc-91d0-573712424124",
@@ -604,7 +626,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -758,7 +780,7 @@
       "summary": "Five U.S. federal agencies have issued a joint advisory regarding an active, AI-assisted hacking campaign targeting Siemens S7 programmable logic controllers within critical infrastructure sectors.",
       "date": "2026-08-20T17:36:49.000Z",
       "link": "https://securityaffairs.com/197566/ics-scada/nsa-cisa-fbi-doe-and-epa-warn-of-active-ai-assisted-attacks-on-siemens-s7-plcs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "92d775ab-4a8f-414c-bb79-a4352eb79c39",
@@ -5477,28 +5499,6 @@
       "summary": "A mobile ad fraud scheme called Papyrus utilizes novel-reading apps to covertly load and interact with websites in the background, generating fraudulent ad traffic on users' devices. The campaign leverages the BootNova malware framework to execute these hidden operations without user knowledge.",
       "date": "2026-08-06T14:07:15.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/06/papyrus-mobile-ad-fraud-scheme/",
-      "isTopTen": false
-    },
-    {
-      "id": "b1552397-78b7-47a8-aa85-1d4f1d6563cd",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Black Hat USA: TP-Link Flaws Put Omada Controllers and Camera Feeds at Risk",
-      "summary": "Researchers disclosed 15 vulnerabilities in TP-Link Omada controllers and VIGI cameras that could allow unauthorized access to credentials, VPN keys, and video feeds. These flaws pose significant risks to internal network security for affected users.",
-      "date": "2026-08-06T13:37:07.000Z",
-      "link": "https://hackread.com/black-hat-usa-tp-link-flaws-omada-credentials-camera-risk/",
-      "isTopTen": false
-    },
-    {
-      "id": "fe0422c8-cbf1-4d89-97cc-8104ad5ce59d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Photos: Black Hat USA 2026",
-      "summary": "This post features a photo gallery capturing key moments, vendors, and industry experts at the Black Hat USA 2026 Business Hall.",
-      "date": "2026-08-06T13:30:02.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/black-hat-usa-2026-photos/",
       "isTopTen": false
     }
   ]
