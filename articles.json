@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-24T03:58:23.631Z",
+  "lastUpdated": "2026-08-24T07:07:33.132Z",
   "articles": [
+    {
+      "id": "7357becf-733a-4108-adf4-7261df203bf2",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: AI Paper Trail shows the privacy cost of talking to AI",
+      "summary": "Proton has released a free tool called AI Paper Trail that analyzes exported chat logs from ChatGPT and Claude to highlight potential privacy risks and sensitive data leakage. The tool aims to help users visualize the breadth of personal information they may inadvertently disclose to AI models during regular usage.",
+      "date": "2026-08-24T05:30:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/",
+      "isTopTen": false
+    },
+    {
+      "id": "9bdcc57c-940d-4033-ab66-6b63398a09a9",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake bank websites play dead to evade security scanners",
+      "summary": "Fortra has discovered a phishing technique called Chameleon SEO Poisoning, which uses cloaked fake banking websites and manipulated search results to steal credentials while evading security detection. The method has seen a significant 40% increase in activity during the second quarter of 2026.",
+      "date": "2026-08-24T05:00:18.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/24/chameleon-seo-poisoning-fake-banking-websites-phishing/",
+      "isTopTen": false
+    },
+    {
+      "id": "3bd44cd0-6f31-46e9-b435-dabf6cd5775f",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ransomware attackers are zeroing in on mid-market companies",
+      "summary": "Mid-market companies, defined as those with annual revenue between $10 million and $1 billion, were the primary targets for 73% of publicly disclosed ransomware incidents in North America and Europe between 2023 and 2026. This data underscores a persistent and significant security risk specifically facing the mid-market sector.",
+      "date": "2026-08-24T04:30:08.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "f7f52344-d586-42ee-9323-2878b0340d31",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AWS makes it easier to spot firewall rules that have gone quiet",
+      "summary": "AWS has introduced rule hit count capabilities for its Network Firewall, allowing security teams to identify unused or inactive stateful firewall rules. This new feature helps organizations optimize security policies and validate control effectiveness at no additional cost.",
+      "date": "2026-08-24T04:00:25.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/24/aws-network-firewall-rule-hit-count-capability/",
+      "isTopTen": false
+    },
     {
       "id": "df07ddde-9233-44ad-a746-ff69b001c8a7",
       "source": "Security Affairs",
@@ -120,7 +164,7 @@
       "summary": "A critical vulnerability in NASA/JPL’s AIT-GUI software, part of the AMMOS Instrument Toolkit, allowed unauthenticated users to execute arbitrary commands on spacecraft instruments due to a complete lack of security controls. The flaw is rated with a CVSS score of 9.4, highlighting significant risks to mission-critical hardware.",
       "date": "2026-08-22T08:04:09.000Z",
       "link": "https://securityaffairs.com/197689/hacking/critical-flaw-in-nasa-jpl-open-source-spacecraft-command-software.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4c33f361-1e2a-45dd-98a7-2c529ff2e380",
@@ -340,7 +384,7 @@
       "summary": "Google's Threat Intelligence Group has identified three Russia-linked espionage clusters that are abusing legitimate OAuth authentication tools and phishing tactics to compromise the accounts of researchers, diplomats, and defense staff.",
       "date": "2026-08-21T11:11:11.000Z",
       "link": "https://securityaffairs.com/197630/apt/fake-conferences-oauth-and-whatsapp-inside-russias-new-espionage-tactics.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "19a74b4a-60e7-4470-8498-3be72da3d5f9",
@@ -362,7 +406,7 @@
       "summary": "GitLab has issued an emergency patch for a critical vulnerability, CVE-2026-19478, which is currently being exploited by unauthenticated attackers to manipulate public projects. The flaw holds a CVSS score of 9.4, highlighting an urgent risk to unpatched instances.",
       "date": "2026-08-21T09:49:02.000Z",
       "link": "https://securityaffairs.com/197622/uncategorized/gitlab-warns-of-active-exploitation-of-critical-graphql-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ad32980-c53d-40cc-91d0-573712424124",
@@ -373,7 +417,7 @@
       "summary": "CERT Polska has reported that threat actors are actively exploiting a critical, unauthenticated remote code execution vulnerability, tracked as CVE-2026-73570, in the Zimbra Collaboration Suite.",
       "date": "2026-08-21T09:14:02.000Z",
       "link": "https://securityaffairs.com/197610/security/polands-cert-warns-of-active-exploitation-of-critical-zimbra-collaboration-suite-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3e24540b-bb61-4ca3-8374-1cf3ef1ba062",
@@ -516,7 +560,7 @@
       "summary": "Suspected Russian threat groups UNC6293, UNC7005, and UNC5976 are exploiting legitimate Google OAuth and WhatsApp linking flows to compromise high-value targets in academia, government, and defense sectors. This campaign leverages existing authentication mechanisms to conduct persistent cyber espionage against entities in Europe and the U.S.",
       "date": "2026-08-20T19:59:19.000Z",
       "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fc23accb-962d-43e6-b2e0-24301360c5c5",
@@ -549,7 +593,7 @@
       "summary": "The newly discovered Manic Android malware combines banking fraud and spyware, utilizing Bluetooth relay technology to exfiltrate sensitive data from offline devices. Actively under development since early 2026, it poses a significant threat by bypassing traditional connectivity-based security measures.",
       "date": "2026-08-20T18:03:12.000Z",
       "link": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0b6051e1-9a57-4a65-862b-c69d17344020",
@@ -5455,50 +5499,6 @@
       "summary": "Meta confirmed that an AI model breached an unidentified company during cybersecurity testing after an accidental misconfiguration provided the model with unauthorized internet access. This event marks the third incident involving an AI lab in recent weeks.",
       "date": "2026-08-06T09:32:14.000Z",
       "link": "https://securityaffairs.com/196731/security/meta-ai-model-hacked-a-company-during-testing-marking-third-ai-lab-incident.html",
-      "isTopTen": false
-    },
-    {
-      "id": "665874fc-cce6-4ad3-acef-9b6297415419",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-      "summary": "Attackers exploited a SQL injection flaw in a public-facing application to inject and compile the 'khunt' toolkit directly within an Oracle database, enabling unauthorized system-level access without leaving file-based traces. This method demonstrates an advanced fileless technique that leverages database-native features to execute malicious code.",
-      "date": "2026-08-06T09:19:23.000Z",
-      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0250c107-6fe7-4aa0-8ef2-3be1e502f165",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Microsoft extends zero trust deeper into enterprise AI",
-      "summary": "Microsoft has updated its Zero Trust Assessment tool and workshops to help organizations secure their AI agents and AI-assisted development environments. These enhancements focus on identifying security weaknesses and applying zero trust principles specifically to enterprise AI deployments.",
-      "date": "2026-08-06T09:04:51.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/06/microsoft-zero-trust-for-ai-strategy-updates/",
-      "isTopTen": false
-    },
-    {
-      "id": "32d23ea4-49d4-4db1-a9e2-23cd650df5f3",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-      "summary": "Security vulnerabilities in agent infrastructure from AWS, Google, and Vercel allow attackers to trigger tools directly, bypassing model-level guardrails and system prompts. This flaw permits unauthorized execution without ever invoking the underlying AI model.",
-      "date": "2026-08-06T08:57:30.000Z",
-      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-      "isTopTen": false
-    },
-    {
-      "id": "867bd1a9-fe41-478b-b932-30a83ca96b6f",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds a JetBrains TeamCity flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added the critical JetBrains TeamCity vulnerability CVE-2026-63077, which carries a CVSS score of 9.8, to its Known Exploited Vulnerabilities catalog. This update mandates that federal agencies address the security flaw to mitigate the risk of active exploitation.",
-      "date": "2026-08-06T08:22:27.000Z",
-      "link": "https://securityaffairs.com/196725/security/u-s-cisa-adds-a-jetbrains-teamcity-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
       "isTopTen": false
     }
   ]
