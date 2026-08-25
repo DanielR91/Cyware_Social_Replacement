@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-25T03:53:19.650Z",
+  "lastUpdated": "2026-08-25T06:57:23.976Z",
   "articles": [
+    {
+      "id": "6c60fdba-7025-4760-a70a-ccfd0de8cce0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+      "summary": "CISA has added a critical CVSS 10.0 vulnerability in Oracle WebLogic and HTTP Server to its KEV catalog due to evidence of active, unauthenticated exploitation. Attackers can leverage this flaw over HTTP to gain unauthorized access to critical data.",
+      "date": "2026-08-25T06:12:35.000Z",
+      "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "isTopTen": true
+    },
+    {
+      "id": "3d3cc4ad-d78c-48d7-a2b2-541d35f10fbc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AI supply chain risk is showing up in developer workflows first",
+      "summary": "AI supply chain risks are currently most prevalent in developer workflows and open-source repositories rather than advanced model-based attacks. The report emphasizes that network segmentation and adopting semiconductor isolation practices are more effective security measures than relying solely on tooling.",
+      "date": "2026-08-25T06:00:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/jaushin-lee-ai-zentera-systems-supply-chain-risk/",
+      "isTopTen": false
+    },
+    {
+      "id": "3de1c475-5d3b-422c-baff-c9e7c48570bd",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "TruffleHog AWS Analyze reduces remediation time on leaked AWS credentials",
+      "summary": "Truffle Security has expanded its TruffleHog Enterprise platform with AWS Analyze, a tool that provides identity and access context for leaked AWS credentials to accelerate risk assessment and remediation. This enhancement helps security teams prioritize responses by clarifying the permissions associated with discovered secrets.",
+      "date": "2026-08-25T05:33:25.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/trufflehog-aws-analyze-leaked-credentials/",
+      "isTopTen": false
+    },
+    {
+      "id": "0b66322f-d23d-49b7-8040-58d8bf56c093",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "HOL Guard: Open-source antivirus for AI agents",
+      "summary": "HOL Guard is an open-source security tool designed to monitor and intercept risky actions performed by AI agents locally, ensuring user approval before execution. It operates offline without data transmission to protect user privacy.",
+      "date": "2026-08-25T05:30:35.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "51615ff8-4fcb-4f23-b9f2-0ab35626391b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "The cybercrime supply chain has five stages, each with a price",
+      "summary": "The modern cybercrime landscape has evolved into a structured supply chain consisting of five distinct specialized roles, ranging from initial data harvesters to financial launderers. This organized ecosystem moves away from the outdated stereotype of the lone wolf attacker, operating instead as a professionalized business model.",
+      "date": "2026-08-25T05:00:15.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/cybercrime-supply-chain-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "fd860f56-830a-4121-b575-38313443b4da",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "New TCG guidance gives buyers a way to test PQC-ready TPM claims",
+      "summary": "The Trusted Computing Group has released new standards to help organizations verify whether Trusted Platform Modules are truly quantum-safe. This guidance provides a baseline for buyers to request empirical evidence from vendors regarding PQC-readiness.",
+      "date": "2026-08-25T04:30:42.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/trusted-computing-group-pqc-ready-tpm/",
+      "isTopTen": false
+    },
+    {
+      "id": "a2bc3bbe-4576-4951-990b-327426a93c8b",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Cybersecurity jobs available right now: August 25, 2026",
+      "summary": "This article provides a curated list of active cybersecurity employment opportunities available as of August 25, 2026, including specific roles like compliance security specialists and identity management positions.",
+      "date": "2026-08-25T04:00:18.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/cybersecurity-jobs-available-right-now-august-25-2026/",
+      "isTopTen": false
+    },
     {
       "id": "2ea03116-b5c9-4a1f-9462-791fb65f6a94",
       "source": "The Record",
@@ -54,7 +131,7 @@
       "summary": "New Zealand is drafting legislation to mandate age verification for users under 16 on major social media platforms, requiring companies to implement tools like facial estimation or digital ID to comply. The move reflects a growing global policy trend to increase digital safety and oversight for minors on high-risk platforms.",
       "date": "2026-08-24T20:36:00.000Z",
       "link": "https://therecord.media/new-zealand-to-pursue-social-media-ban-for-children",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b4d4c969-ded9-4214-bb8b-41bb54fe3963",
@@ -197,7 +274,7 @@
       "summary": "A critical vulnerability in the Keycloak identity and access management server allows unauthenticated attackers to perform account takeovers by manipulating the password reset process. Red Hat has released security patches to address the flaw, which carries a CVSS score of 9.1.",
       "date": "2026-08-24T11:56:34.000Z",
       "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d32471d-e85a-41c4-b1e1-d114ddf83ce9",
@@ -340,7 +417,7 @@
       "summary": "Mid-market companies, defined as those with annual revenue between $10 million and $1 billion, were the primary targets for 73% of publicly disclosed ransomware incidents in North America and Europe between 2023 and 2026. This data underscores a persistent and significant security risk specifically facing the mid-market sector.",
       "date": "2026-08-24T04:30:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f7f52344-d586-42ee-9323-2878b0340d31",
@@ -406,7 +483,7 @@
       "summary": "Adversa AI researcher Rony Utevsky developed a 'Cryptographic Context Injection' technique that exploits AI guardrails by using AES-encrypted payloads to exfiltrate Grok chat histories without user interaction. This zero-click attack leverages the model's own runtime to decrypt and execute malicious instructions.",
       "date": "2026-08-23T07:20:38.000Z",
       "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
@@ -439,7 +516,7 @@
       "summary": "Organizations must proactively utilize AI-driven red teaming to stress-test their systems, as attackers are already leveraging these tools to exploit vulnerabilities. The rapid integration of AI agents is creating new, complex attack surfaces that security defenders must urgently address.",
       "date": "2026-08-22T15:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "dc50f3fe-cc63-4504-9cdb-ba23d8584308",
@@ -505,7 +582,7 @@
       "summary": "Cyber attackers are increasingly shifting their focus from application code to insecure CI/CD pipelines and developer tools within the software supply chain. Organizations must implement enhanced visibility and strict security controls across the entire development lifecycle to defend against these evolving threats.",
       "date": "2026-08-21T23:00:21.000Z",
       "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a081c907-1075-493c-826c-7dc35b44a273",
@@ -758,7 +835,7 @@
       "summary": "The Cl0p ransomware group is leveraging a vulnerability in PTC Windchill and FlexPLM to target over 40 organizations, threatening data publication if extortion demands are not met. This marks another instance of the group utilizing a single enterprise software flaw to conduct wide-scale attacks.",
       "date": "2026-08-21T07:15:02.000Z",
       "link": "https://securityaffairs.com/197587/cyber-crime/cl0p-targets-40-organizations-through-ptc-windchill-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "98939183-d7b7-417b-8ca1-49570e806fe9",
@@ -5422,83 +5499,6 @@
       "summary": "The number of internet-exposed fuel tank gauges in the US decreased by over 50% between April and June, marking an unusually rapid decline in potential attack surface. This drop is confirmed to be a genuine reduction in exposure rather than a result of network churn or port hopping.",
       "date": "2026-08-07T05:00:30.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/07/automatic-fuel-tank-gauge-exposure/",
-      "isTopTen": false
-    },
-    {
-      "id": "ea1700bc-f21e-49eb-bed3-cb19bfe20706",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "ShieldFont fights AI scraping by handing crawlers the wrong words",
-      "summary": "ShieldFont is a new typeface technology that visually displays readable text to humans while obfuscating the underlying HTML source code to mislead AI scrapers. This tool aims to protect digital content creators from unauthorized data harvesting by delivering corrupted or incorrect text to automated crawlers.",
-      "date": "2026-08-07T04:30:47.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/07/shieldfont-ai-scraping-protection/",
-      "isTopTen": false
-    },
-    {
-      "id": "d0e06a2b-6e68-43a3-acb6-5f035a7aadc1",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "China launches mysterious probe into security of Palo Alto Networks' products",
-      "summary": "The Chinese government has initiated an unspecified security investigation into Palo Alto Networks products, mirroring previous regulatory actions taken against Micron. The lack of stated reasons for the probe has raised concerns regarding potential geopolitical retaliation or cybersecurity scrutiny.",
-      "date": "2026-08-07T04:24:37.000Z",
-      "link": "https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453",
-      "isTopTen": false
-    },
-    {
-      "id": "744a63d2-1b84-4009-b37f-cd415d66c01f",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Gut feeling does nothing against AI spear phishing texts",
-      "summary": "Recent findings demonstrate that AI-generated spear phishing messages are sophisticated enough to deceive even experienced professionals by perfectly mimicking legitimate institutional alerts. This highlights the limitations of relying on intuition to detect highly personalized social engineering attacks.",
-      "date": "2026-08-07T04:00:11.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/07/ai-spear-phishing-research/",
-      "isTopTen": false
-    },
-    {
-      "id": "628b0b67-16f9-4251-8abe-b9f87d9b94ca",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "How the famed USENIX Security conf is managing a flood of papers in the AI era",
-      "summary": "The USENIX Security conference is adapting its peer-review and submission processes to handle an increasing volume of research papers driven by AI tools. Organizers report that while AI usage is growing, it has not yet reached a level that compromises the integrity or quality of the submissions.",
-      "date": "2026-08-06T23:40:23.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/07/how-the-famed-usenix-security-conf-is-managing-a-flood-of-papers-in-the-ai-era/5284374",
-      "isTopTen": false
-    },
-    {
-      "id": "a7ae77b2-20b2-46d8-ab5b-8b7d2b425999",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "ChainDrop: Inside a Self-Propagating npm Worm",
-      "summary": "ChainDrop is a self-propagating npm worm that steals GitHub Actions runner secrets and leverages Ethereum smart contracts for command-and-control communication. This attack highlights sophisticated methods used in software supply chain compromises.",
-      "date": "2026-08-06T22:26:39.000Z",
-      "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-      "isTopTen": false
-    },
-    {
-      "id": "811d065f-f222-4511-99b9-c7a109201975",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Capitol Hill wants to know if executive branch, foreign allies coordinated enough to combat scams",
-      "summary": "The Senate Foreign Relations Committee is investigating the level of coordination between U.S. federal agencies and international allies to combat rising global scam operations. The hearing aims to evaluate the effectiveness of current interagency and cross-border collaborative strategies.",
-      "date": "2026-08-06T20:27:31.000Z",
-      "link": "https://cyberscoop.com/senate-hearing-transnational-scam-task-force/",
-      "isTopTen": false
-    },
-    {
-      "id": "ca28b7ae-bc28-41cc-94cf-30185a27f506",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Despite federal warnings, thousands of U.S. industrial controllers used in water systems remain exposed online",
-      "summary": "Recent scans reveal that 4,400 industrial controllers in U.S. water systems remain exposed to the public internet despite federal warnings. This exposure includes systems in municipalities previously targeted by cyberattacks, highlighting a significant risk to critical infrastructure.",
-      "date": "2026-08-06T19:10:21.000Z",
-      "link": "https://cyberscoop.com/exposed-rockwell-controllers-water-system-attacks/",
       "isTopTen": false
     }
   ]
