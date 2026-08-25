@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-08-25T09:41:31.075Z",
+  "lastUpdated": "2026-08-25T12:57:04.648Z",
   "articles": [
+    {
+      "id": "e9dffc72-173f-4458-85be-e516733007f8",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake OpenAI Codex download tricks macOS users into installing malware",
+      "summary": "A malicious campaign is targeting macOS users via sponsored search ads that lead to a fake OpenAI Codex download page, employing social engineering to trick victims into executing harmful Terminal commands. This 'ClickFix' technique bypasses traditional file-based detection by relying on user-assisted infection.",
+      "date": "2026-08-25T12:40:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/",
+      "isTopTen": false
+    },
+    {
+      "id": "f8fa56e1-a0f2-4595-ae29-56ebc8fb5981",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "summary": "The Mirage2FA phishing-as-a-service toolkit has successfully compromised thousands of US and EU companies by bypassing Microsoft 365 two-factor authentication via legitimate login flows. Research indicates a 48% compromise rate among targeted email addresses.",
+      "date": "2026-08-25T11:56:15.000Z",
+      "link": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+      "isTopTen": true
+    },
+    {
+      "id": "3c88af0f-33d4-464a-aecc-9cadfa1e6cf1",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+      "summary": "Threat actors are exploiting 24 npm packages to host fake Cloudflare CAPTCHA pages, using the platform's infrastructure for phishing rather than traditional software-based malware delivery.",
+      "date": "2026-08-25T11:52:43.000Z",
+      "link": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "dfe8e06b-1ce0-473a-a2fc-593c3c76bc4e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
+      "summary": "Threat actors are using FTP banners as dead drop resolvers to distribute two new remote access trojans, E4del and PINHOLE, by masking C2 communication within legitimate network traffic.",
+      "date": "2026-08-25T11:33:44.000Z",
+      "link": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3b2beafe-2b1f-4f49-8828-12c0a0690b4a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
+      "summary": "This article explores the evolution of vulnerability management practices as they integrate frontier AI technologies to address systemic security challenges. It examines the changing collaborative dynamics between vulnerability and patch management teams in modern cybersecurity programs.",
+      "date": "2026-08-25T11:14:07.000Z",
+      "link": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4293a432-9a6a-4a2b-9201-6e1f2f524340",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA slaps its tightest three-day patching deadline on perfect-10 Oracle flaw",
+      "summary": "CISA has issued a mandatory three-day patching deadline for US federal agencies to address a critical 'perfect-10' severity Oracle vulnerability that has been actively targeted since its disclosure. This directive highlights the urgent need to mitigate high-risk exposures in government systems.",
+      "date": "2026-08-25T10:43:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/25/cisa-slaps-its-tightest-three-day-patching-deadline-on-perfect-10-oracle-flaw/5292107",
+      "isTopTen": true
+    },
+    {
+      "id": "633cf24f-e7f7-4f7f-8688-0a67a26df4f1",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Unpatched Zimbra servers are falling to CVE-2026-73570 attacks",
+      "summary": "Unknown attackers have compromised at least 274 internet-facing Zimbra Collaboration Suite servers by exploiting a code injection vulnerability, CVE-2026-73570. The flaw was addressed in the July 2026 update, ZCS v10.1.20, but remains a risk for unpatched instances.",
+      "date": "2026-08-25T10:03:28.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/",
+      "isTopTen": true
+    },
+    {
+      "id": "2ea6eee8-81fb-4e4e-b400-9bffdd182706",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
+      "summary": "This Unit 42 report examines the evolution of AI-powered malware, shifting from simple brand abuse to autonomous agentic execution. It highlights how modern behavioral detection and endpoint analytics remain effective at blocking AI-generated malicious code.",
+      "date": "2026-08-25T10:00:57.000Z",
+      "link": "https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/",
+      "isTopTen": false
+    },
     {
       "id": "85eaec9e-d6c4-4c9d-8336-1be554c158ac",
       "source": "Help Net Security",
@@ -10,7 +98,7 @@
       "summary": "Cybersecurity firm ReliaQuest confirmed a data security incident after a social engineering attack on an employee allowed attackers temporary access to their identity system. The threat actor group ShinyHunters claimed responsibility for the breach after taunting the company on social media.",
       "date": "2026-08-25T09:24:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/25/reliaquest-breach-social-engineering/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4b35f12c-9102-4e81-8555-15fb19a60883",
@@ -65,7 +153,7 @@
       "summary": "CISA has added a critical CVSS 10.0 vulnerability in Oracle WebLogic and HTTP Server to its KEV catalog due to evidence of active, unauthenticated exploitation. Attackers can leverage this flaw over HTTP to gain unauthorized access to critical data.",
       "date": "2026-08-25T06:12:35.000Z",
       "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3d3cc4ad-d78c-48d7-a2b2-541d35f10fbc",
@@ -439,7 +527,7 @@
       "summary": "The iAuthFlow v2 phishing toolkit, sold for $10,000 on cybercrime forums, allows attackers to maintain unauthorized access to Google accounts by enrolling persistent attacker-controlled passkeys that bypass password resets.",
       "date": "2026-08-24T07:17:27.000Z",
       "link": "https://securityaffairs.com/197748/cyber-crime/iauthflow-v2-the-10000-phishing-toolkit-that-survives-your-password-reset.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7357becf-733a-4108-adf4-7261df203bf2",
@@ -538,7 +626,7 @@
       "summary": "Adversa AI researcher Rony Utevsky developed a 'Cryptographic Context Injection' technique that exploits AI guardrails by using AES-encrypted payloads to exfiltrate Grok chat histories without user interaction. This zero-click attack leverages the model's own runtime to decrypt and execute malicious instructions.",
       "date": "2026-08-23T07:20:38.000Z",
       "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
@@ -637,7 +725,7 @@
       "summary": "Cyber attackers are increasingly shifting their focus from application code to insecure CI/CD pipelines and developer tools within the software supply chain. Organizations must implement enhanced visibility and strict security controls across the entire development lifecycle to defend against these evolving threats.",
       "date": "2026-08-21T23:00:21.000Z",
       "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a081c907-1075-493c-826c-7dc35b44a273",
@@ -670,7 +758,7 @@
       "summary": "Service busy.",
       "date": "2026-08-21T18:53:00.000Z",
       "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cfca125d-0ca4-49e7-a8b7-734d7fe6a3eb",
@@ -681,7 +769,7 @@
       "summary": "Researchers discovered that expired Visa contactless cards can still perform successful transactions by exploiting an unsigned expiry field in the card's EMV kernel. This flaw allows attackers to bypass expiration checks at point-of-sale systems.",
       "date": "2026-08-21T18:03:59.000Z",
       "link": "https://securityaffairs.com/197663/hacking/your-shredded-visa-card-may-still-work-at-the-checkout.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bc0292fd-de78-43f7-b0bd-dcc783d96613",
@@ -714,7 +802,7 @@
       "summary": "Security researchers discovered that Microsoft Defender's own signed driver can be abused to perform unauthorized kernel-level actions at boot, allowing attackers to disable security software without exploiting traditional vulnerabilities. This technique affects all Windows versions from 7 through 11 and utilizes a built-in, legitimately signed component.",
       "date": "2026-08-21T15:52:10.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "21db393d-6c83-488a-8d83-c454f75b523d",
@@ -758,7 +846,7 @@
       "summary": "Malicious actors compromised popular Rust programming language packages to distribute infostealer malware during routine software builds. This supply chain attack specifically targets developers to exfiltrate their sensitive credentials.",
       "date": "2026-08-21T14:57:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3220e49-bf66-4af1-92d5-d88ab014d0fb",
@@ -5411,94 +5499,6 @@
       "summary": "An active phishing campaign is leveraging adversary-in-the-middle (AitM) techniques and residential proxies to compromise Microsoft 365 accounts. The attackers specifically target financial personnel to intercept sensitive payroll and finance-related communications.",
       "date": "2026-08-07T10:38:27.000Z",
       "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "709de226-4152-4359-ae6d-f7efcae303c4",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Researchers Discover Hidden Backdoor in 20 Router Models Allowing Remote Root Access",
-      "summary": "Researchers at VulnCheck discovered a hardcoded backdoor in 20 Zbtlink router models that grants attackers remote root access to execute arbitrary commands. This vulnerability exposes affected networking devices to potential full system compromise.",
-      "date": "2026-08-07T10:17:38.000Z",
-      "link": "https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9a24fcc7-617f-4ea9-9026-1faca220af85",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-      "summary": "PortSwigger's AI-assisted research tool, HTTP Terminator, identified novel HTTP desynchronization techniques and a zero-day vulnerability in Apache Traffic Server. The system discovered these issues by analyzing 30,000 candidate vectors across various websites.",
-      "date": "2026-08-07T10:09:54.000Z",
-      "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1fbc3f34-569d-4d6a-9ae4-dffecceb5568",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "'Asimov was right' about rules for robots, says ex-US Cyber Director",
-      "summary": "Former US Cyber Director Chris Inglis emphasizes the necessity of ethical governance for AI models, referencing Isaac Asimov's laws of robotics to highlight that human influence determines the outcomes of artificial intelligence development.",
-      "date": "2026-08-07T10:03:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/07/asimov-was-right-about-rules-for-robots-says-ex-us-cyber-director/5284397",
-      "isTopTen": false
-    },
-    {
-      "id": "aa25fdf1-9aab-4eb0-bbef-43d10c6f9fa9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "summary": "Security researcher Malcolm Stagg has uncovered NatJack, a novel attack technique that exploits NAT table manipulation to hijack TCP sessions and perform DNS spoofing. The vulnerability affects multiple operating systems, including Windows, and poses a significant risk to network connection integrity.",
-      "date": "2026-08-07T09:32:57.000Z",
-      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e2d55728-747f-4688-ac44-2b2988c398d1",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI drops ChatGPT text chat limits for free users, adds new safeguards for teens",
-      "summary": "OpenAI has removed text chat limits for free ChatGPT users and introduced a new model, GPT-5.6 Luna, while implementing additional safety measures for teen users.",
-      "date": "2026-08-07T08:52:52.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/07/openai-gpt-5-6-sol-luna-chatgpt-free-limits/",
-      "isTopTen": false
-    },
-    {
-      "id": "97b4aa2f-de9f-4f0c-8369-98d3dee1cdcd",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "summary": "Security researcher Malcolm Stagg introduced 'NatJack,' a technique that exploits network address translation (NAT) to hijack TCP sessions and manipulate network traffic. This attack allows for DNS spoofing and connection state manipulation across network infrastructure devices.",
-      "date": "2026-08-07T08:52:11.000Z",
-      "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fc99375c-c9f4-4bf6-9a64-e328d3556e0a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "summary": "Security researchers discovered critical vulnerabilities in Claude Code and Gemini CLI that allow unauthorized users to execute code on CI runners or hijack agent workflows via malicious GitHub issues. These flaws highlight significant supply chain risks in default-configured AI coding agents.",
-      "date": "2026-08-07T08:18:35.000Z",
-      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-      "isTopTen": false
-    },
-    {
-      "id": "01275ef3-a00c-4f28-8ec9-9a6cce78f33c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Keepit AI Truth Cloud protects the data behind enterprise AI",
-      "summary": "Keepit has launched AI Truth Cloud, a platform designed to provide a secure, immutable, and verifiable data foundation for enterprise AI applications. It aims to ensure that AI agents operate on trustworthy and tamper-proof data sets.",
-      "date": "2026-08-07T07:10:26.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/07/keepit-ai-truth-cloud-data-protection/",
       "isTopTen": false
     }
   ]
