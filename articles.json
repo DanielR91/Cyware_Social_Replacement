@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-08-26T06:58:30.433Z",
+  "lastUpdated": "2026-08-26T09:51:02.540Z",
   "articles": [
+    {
+      "id": "715385e9-7726-4522-a2e3-85a2d1a671eb",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Gitea flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a Gitea vulnerability and a high-severity flaw in Oracle HTTP Server and Weblogic Server Proxy Plug-in.",
+      "date": "2026-08-26T08:44:12.000Z",
+      "link": "https://securityaffairs.com/197854/security/u-s-cisa-adds-gitea-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e830396e-b7a5-4883-82e8-d78beca6c891",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "88 ID Verification Breaches Show the Cost of Collecting Identity Data",
+      "summary": "A report from Mysterium VPN reveals that 88 identity verification breaches since 2011 have resulted in the exposure of 2.15 billion records, emphasizing the significant security risks associated with storing sensitive biometric and identity data.",
+      "date": "2026-08-26T08:30:22.000Z",
+      "link": "https://securityaffairs.com/197855/reports/88-id-verification-breaches-show-the-cost-of-collecting-identity-data.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b215a018-0520-411c-9a73-6d583141f051",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "WhatsApp Adds Stronger Security as Passkeys Hit 1 Billion",
+      "summary": "WhatsApp has reached a milestone of one billion passkey users while simultaneously enhancing two-step verification and caller context features to bolster account security. These updates represent a significant shift toward stronger, passwordless authentication methods for its massive user base.",
+      "date": "2026-08-26T08:08:48.000Z",
+      "link": "https://securityaffairs.com/197837/security/whatsapp-adds-stronger-security-as-passkeys-hit-1-billion.html",
+      "isTopTen": false
+    },
+    {
+      "id": "170badb2-76de-4f88-9b12-d11afdb35c87",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+      "summary": "INTERPOL's Operation Jackal IV successfully apprehended 58 individuals and identified 263 suspects linked to West African organized crime networks involved in global cyber fraud. The eight-month initiative coordinated efforts across 22 countries to dismantle groups like Black Axe.",
+      "date": "2026-08-26T07:54:12.000Z",
+      "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+      "isTopTen": false
+    },
+    {
+      "id": "688684de-15db-4c9f-a54c-1eb7a992e08b",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Meta adds three new features to keep WhatsApp accounts secure",
+      "summary": "Meta has introduced three security updates for WhatsApp, including enhanced two-step verification, caller identification for unknown numbers, and multi-passkey support. These features aim to strengthen user privacy and account protection against unauthorized access.",
+      "date": "2026-08-26T07:52:05.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/meta-whatsapp-security-enhancements/",
+      "isTopTen": false
+    },
+    {
+      "id": "a7031372-dedc-4dd8-aa25-05b4d60b559e",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Operation Jackal: 58 Arrests Expose the Money Laundering Machine Behind Global Scams",
+      "summary": "INTERPOL's Operation Jackal IV resulted in 58 arrests and the identification of 263 suspects linked to West African organized crime groups involved in large-scale money laundering and international fraud. The operation successfully disrupted global networks responsible for scams, fraud, and sextortion schemes.",
+      "date": "2026-08-26T07:17:54.000Z",
+      "link": "https://securityaffairs.com/197843/cyber-crime/operation-jackal-58-arrests-expose-the-money-laundering-machine-behind-global-scams.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6189581b-8a78-4551-9b0c-d75ef5577fc2",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+      "summary": "Researchers have discovered SLEEPWALKER, a new Windows backdoor that remains dormant in memory until triggered by a custom-crafted network packet, after which it executes commands via a proprietary bytecode interpreter.",
+      "date": "2026-08-26T07:12:55.000Z",
+      "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b6704051-dfbb-43fd-8907-e0c7fa3031f4",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+      "summary": "CISA has issued a warning regarding active exploitation of a critical remote code execution vulnerability (CVE-2026-60004) in Gitea, which is being leveraged to deploy malicious payloads. Attackers with write access to a repository can exploit this flaw to execute arbitrary shell commands.",
+      "date": "2026-08-26T06:27:07.000Z",
+      "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+      "isTopTen": true
+    },
     {
       "id": "52fa54b9-c5f5-49a3-960c-6ef94b578f83",
       "source": "Help Net Security",
@@ -10,7 +98,18 @@
       "summary": "The Linux Foundation has launched TRACE, an open-source hardware-backed specification designed to provide auditable evidence and governance for the operations of AI agents and confidential workloads. Developed in collaboration with major tech firms, the initiative aims to ensure autonomous AI processes adhere to security policies through verifiable runtime records.",
       "date": "2026-08-26T05:54:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/26/the-linux-foundation-trace-ai-agent-security/",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "851a8934-27ba-41cd-8921-3d316f5d0be7",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+      "summary": "A phishing-as-a-service platform called AnonyMousKIT uses AI-powered voice agents to impersonate Apple Support and trick theft victims into revealing device passcodes and 2FA codes. This scheme aims to bypass Apple's Activation Lock on stolen hardware.",
+      "date": "2026-08-26T05:47:28.000Z",
+      "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+      "isTopTen": false
     },
     {
       "id": "e3aaf7a9-33e1-42f7-94c7-b0f63a8930a2",
@@ -98,7 +197,7 @@
       "summary": "The U.S. Treasury Department has imposed new sanctions on Iranian cyber actors responsible for breaching critical infrastructure. These measures are part of a broader economic campaign aimed at disrupting the regime's financial and cyber operations.",
       "date": "2026-08-25T18:17:17.000Z",
       "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1eb494d6-1c1a-4d34-9ee5-f14c14e01e7a",
@@ -120,7 +219,7 @@
       "summary": "During simulated CISA red-team exercises, the water sector successfully detected and contained an unauthorized intrusion, while the government sector failed to stop the attack's progression. This highlights varying levels of cybersecurity maturity and incident response efficacy across different critical infrastructure sectors.",
       "date": "2026-08-25T17:11:33.000Z",
       "link": "https://cyberscoop.com/cisa-red-team-report-government-water-cybersecurity/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "063f3ca9-4674-4be2-84fd-7d4bd61aaaf3",
@@ -131,7 +230,7 @@
       "summary": "The Dutch Data Protection Authority has issued an €825 million GDPR fine to Uber for the unauthorized transfer of European driver data to the U.S. and for employing automated algorithmic decisions that suspended workers without human oversight.",
       "date": "2026-08-25T17:02:23.000Z",
       "link": "https://securityaffairs.com/197823/laws-and-regulations/when-the-algorithm-fires-you-uber-faces-e825m-fine.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cea54114-bf86-49b1-9ed6-16cd2f84f9f5",
@@ -153,7 +252,7 @@
       "summary": "Oracle security experts warn that attackers are increasingly shifting from traditional exploit methods to leveraging the intended logic of systems, rendering standard patching insufficient. This trend highlights the need for a deeper understanding of system behavior beyond simple vulnerability management.",
       "date": "2026-08-25T16:09:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/25/you-couldve-applied-all-1449-oracle-patches-and-still-been-hit-by-this-attack/5292335",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "beb396e1-1289-4430-a9ad-55f5ceec7ffa",
@@ -329,7 +428,7 @@
       "summary": "CISA has issued a mandatory three-day patching deadline for US federal agencies to address a critical 'perfect-10' severity Oracle vulnerability that has been actively targeted since its disclosure. This directive highlights the urgent need to mitigate high-risk exposures in government systems.",
       "date": "2026-08-25T10:43:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/25/cisa-slaps-its-tightest-three-day-patching-deadline-on-perfect-10-oracle-flaw/5292107",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "633cf24f-e7f7-4f7f-8688-0a67a26df4f1",
@@ -604,7 +703,7 @@
       "summary": "An Iran-linked cyberattack successfully forced a shutdown at a UK power plant, though the government has confirmed there is no risk to the national energy grid.",
       "date": "2026-08-24T16:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e6e8fdc0-6d26-42f7-abd3-2adcc92b1ea6",
@@ -626,7 +725,7 @@
       "summary": "Suspected Iranian state-backed hackers caused a four-day shutdown of a UK power plant in July 2026, highlighting significant vulnerabilities in critical national infrastructure.",
       "date": "2026-08-24T13:52:27.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/24/uk-power-plant-cyberattack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0975d9a3-d232-4f71-9216-d34ba34d4065",
@@ -659,7 +758,7 @@
       "summary": "A new malware strain is targeting Android-based automotive systems to compromise them and incorporate them into a proxy botnet. This attack vector highlights an emerging threat to connected vehicle infrastructure.",
       "date": "2026-08-24T12:15:00.000Z",
       "link": "https://therecord.media/android-botnet-china-hackers",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0df4406b-7bb1-4e8d-a2ed-07fbeed310de",
@@ -747,7 +846,7 @@
       "summary": "Researchers discovered Android-based car head units being infected with malware via built-in software updaters, turning them into nodes for proxy botnets and ad-fraud schemes. This represents the first documented case of an infection chain specifically targeting this type of automotive device.",
       "date": "2026-08-24T09:51:16.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/24/android-malware-car-head-unit-badbox/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "77ec156d-830e-44ff-856e-3d525cbacf74",
@@ -5400,105 +5499,6 @@
       "summary": "Atlassian's Rovo AI assistant is susceptible to prompt injection attacks that allow unauthorized exfiltration of sensitive Jira and Confluence data to external servers. While one attack vector has been mitigated, researchers warn that the AI can still be manipulated through malicious instructions hidden in accessible content.",
       "date": "2026-08-08T08:54:50.000Z",
       "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e3435158-43b4-4158-a94f-899a52b0fecd",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
-      "summary": "Researchers discovered CSS-based injection vulnerabilities across major webmail platforms that allow attackers to bypass security boundaries, steal credentials, and hijack user sessions. These techniques enable unauthorized actions ranging from account takeovers to the manipulation of AI email integration tools.",
-      "date": "2026-08-08T08:03:57.000Z",
-      "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a6929f46-72c3-4677-b414-b207bd5d3c46",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Unlimited Technology Systems Data Breach Exposes Data of 3.8 Million Healthcare Patients",
-      "summary": "Unlimited Technology Systems reported a data breach involving a commercial data center that exposed the personal, medical, and insurance records of 3.8 million healthcare patients. The unauthorized access occurred over a five-day period in October 2025.",
-      "date": "2026-08-08T07:25:10.000Z",
-      "link": "https://securityaffairs.com/196843/data-breach/unlimited-technology-systems-data-breach-exposes-data-of-3-8-million-healthcare-patients.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f24692a6-0e5c-4de7-bc4b-86586deb1e59",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
-      "summary": "Metabase has disclosed a critical zero-day vulnerability that allows unauthenticated remote attackers to execute arbitrary SQL commands and gain administrative access. The flaw is currently being exploited in the wild.",
-      "date": "2026-08-08T06:58:31.000Z",
-      "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dc53fa7d-7f88-471f-81d9-4070a0131b02",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-      "summary": "N-able has released an emergency hotfix for its N-central RMM platform to address ongoing exploitation by threat actors attempting to establish persistent access. The update follows evidence of attackers actively evolving their methods to leverage a previously disclosed security vulnerability.",
-      "date": "2026-08-08T06:57:43.000Z",
-      "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3d40f8b0-32be-45ed-b556-73da96f6a30b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-      "summary": "CISA has added a critical command injection vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities catalog following reports of active exploitation in the wild.",
-      "date": "2026-08-08T06:52:16.000Z",
-      "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-      "isTopTen": false
-    },
-    {
-      "id": "71f726ed-3ac4-4673-a0f4-7e92663937fc",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI pledges to add Astra security as Anthropic loosens Fable's leash",
-      "summary": "OpenAI and Anthropic are adjusting their safety protocols and deployment strategies as both companies navigate the balance between rapid AI innovation and risk mitigation. These developments highlight the ongoing industry focus on securing advanced AI models against potential misuse.",
-      "date": "2026-08-07T23:41:07.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
-      "isTopTen": false
-    },
-    {
-      "id": "113a63f5-fa14-47c4-ba41-6887cd3324eb",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Inside the Modern SOC: The Identity Front Door",
-      "summary": "This article explores the prevalence of identity-based attacks in modern security incidents and provides strategic guidance for Security Operations Center (SOC) leaders to mitigate these risks. It highlights that 90% of security incidents originate from exploited identities.",
-      "date": "2026-08-07T23:00:01.000Z",
-      "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
-      "isTopTen": false
-    },
-    {
-      "id": "c46a329b-10f3-4210-941a-413d144d9e9b",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Water system controllers don't belong on the internet, says ex-NSA chief after suspected Iran attacks",
-      "summary": "Following suspected cyberattacks linked to Iran, a former NSA chief warned that industrial water system controllers must be disconnected from the public internet to prevent further vulnerabilities. The incident highlights the urgent need for better security practices in critical infrastructure.",
-      "date": "2026-08-07T19:53:10.000Z",
-      "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-      "isTopTen": false
-    },
-    {
-      "id": "341d1d8d-bacd-4aae-93ca-60edb1c270a1",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Water utilities group partners with DEF CON offshoot for Water Watch Center",
-      "summary": "The National Rural Water Association has partnered with a cybersecurity group to launch a dedicated center aimed at protecting resource-constrained water utilities from increasing digital threats.",
-      "date": "2026-08-07T18:55:00.000Z",
-      "link": "https://therecord.media/water-watch-center-utilities-def-con-franklin-nrwa",
       "isTopTen": false
     }
   ]
