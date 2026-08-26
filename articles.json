@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-26T09:51:02.540Z",
+  "lastUpdated": "2026-08-26T13:02:39.716Z",
   "articles": [
+    {
+      "id": "b0168ced-d8a9-44dd-b79d-b1dcf67ef4bc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "AnonyMousKIT phishing-as-a-service uses AI voice calls to steal iPhone passcodes",
+      "summary": "The AnonyMousKIT phishing-as-a-service platform is using AI-generated voice calls to impersonate Apple Support and steal user credentials to unlock stolen iPhones. Despite its sophisticated automation, researchers identified coding flaws that exposed the platform's internal operational infrastructure.",
+      "date": "2026-08-26T12:46:44.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/anonymouskit-phishing-stolen-iphone/",
+      "isTopTen": true
+    },
+    {
+      "id": "6b713122-9e3a-42f6-ae75-786e2cc65af8",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+      "summary": "The article proposes shifting Security Operations Centers (SOC) from reactive alert-based queuing systems to an AI-driven hypothesis engine model. This transition aims to overcome the limitations of manual alert review and overwhelming detection volumes.",
+      "date": "2026-08-26T11:36:49.000Z",
+      "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e4e780a0-daaf-400d-93a3-dd58b17b198e",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Gitea vulnerability now exploited in the wild (CVE-2026-60004)",
+      "summary": "CISA has added the critical code injection vulnerability CVE-2026-60004 affecting Gitea to its Known Exploited Vulnerabilities catalog following reports of active exploitation in the wild.",
+      "date": "2026-08-26T10:59:58.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/gitea-cve-2026-60004-exploited-in-the-wild/",
+      "isTopTen": true
+    },
+    {
+      "id": "4f5bf435-f0ce-4a09-a441-a3c4c0422949",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "RightCrowd Pass unifies mobile, physical, and biometric credentials",
+      "summary": "RightCrowd Pass is a new credentialing platform that centralizes the management of mobile, physical, and biometric access to address fragmentation in legacy security systems. It streamlines the issuance and revocation processes for organizations relying on multiple access methods.",
+      "date": "2026-08-26T10:31:09.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/rightcrowd-pass-credentialing-solution/",
+      "isTopTen": false
+    },
+    {
+      "id": "97d72a02-b85d-49ab-972f-0f6f31b1b949",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+      "summary": "Researchers demonstrated that an AI agent using Claude Opus 4.6 could bypass client-side booking restrictions to maliciously cancel other users' gym reservations. The study highlights security risks associated with relying solely on client-side controls for web applications.",
+      "date": "2026-08-26T10:27:23.000Z",
+      "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+      "isTopTen": true
+    },
+    {
+      "id": "f3a54067-967d-4b58-87cb-e494773686de",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Bogus recruiters go after high-value corporate credentials on mobile",
+      "summary": "Scammers are leveraging browser-in-the-browser (BitB) techniques and impersonated HR profiles to trick professionals into providing corporate credentials via mobile devices. This campaign utilizes sophisticated social engineering to bypass standard skepticism by mimicking legitimate interview scheduling flows.",
+      "date": "2026-08-26T10:05:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/26/recruitment-scam-corporate-passwords-mobile/",
+      "isTopTen": false
+    },
+    {
+      "id": "02fadb21-386e-40ab-b7ac-9e8aeeaf9b50",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
+      "summary": "OpenAI has banned a group of Russian accounts that leveraged ChatGPT to generate content for coordinated influence operations across multiple social media platforms. The actors utilized VPNs to circumvent geographic access restrictions to spread propaganda.",
+      "date": "2026-08-26T09:38:45.000Z",
+      "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
+      "isTopTen": false
+    },
     {
       "id": "715385e9-7726-4522-a2e3-85a2d1a671eb",
       "source": "Security Affairs",
@@ -43,7 +120,7 @@
       "summary": "INTERPOL's Operation Jackal IV successfully apprehended 58 individuals and identified 263 suspects linked to West African organized crime networks involved in global cyber fraud. The eight-month initiative coordinated efforts across 22 countries to dismantle groups like Black Axe.",
       "date": "2026-08-26T07:54:12.000Z",
       "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "688684de-15db-4c9f-a54c-1eb7a992e08b",
@@ -87,7 +164,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of a critical remote code execution vulnerability (CVE-2026-60004) in Gitea, which is being leveraged to deploy malicious payloads. Attackers with write access to a repository can exploit this flaw to execute arbitrary shell commands.",
       "date": "2026-08-26T06:27:07.000Z",
       "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "52fa54b9-c5f5-49a3-960c-6ef94b578f83",
@@ -428,7 +505,7 @@
       "summary": "CISA has issued a mandatory three-day patching deadline for US federal agencies to address a critical 'perfect-10' severity Oracle vulnerability that has been actively targeted since its disclosure. This directive highlights the urgent need to mitigate high-risk exposures in government systems.",
       "date": "2026-08-25T10:43:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/25/cisa-slaps-its-tightest-three-day-patching-deadline-on-perfect-10-oracle-flaw/5292107",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "633cf24f-e7f7-4f7f-8688-0a67a26df4f1",
@@ -703,7 +780,7 @@
       "summary": "An Iran-linked cyberattack successfully forced a shutdown at a UK power plant, though the government has confirmed there is no risk to the national energy grid.",
       "date": "2026-08-24T16:59:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e6e8fdc0-6d26-42f7-abd3-2adcc92b1ea6",
@@ -758,7 +835,7 @@
       "summary": "A new malware strain is targeting Android-based automotive systems to compromise them and incorporate them into a proxy botnet. This attack vector highlights an emerging threat to connected vehicle infrastructure.",
       "date": "2026-08-24T12:15:00.000Z",
       "link": "https://therecord.media/android-botnet-china-hackers",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0df4406b-7bb1-4e8d-a2ed-07fbeed310de",
@@ -5422,83 +5499,6 @@
       "summary": "Ransomware attackers are increasingly targeting IT managers rather than executives to facilitate system encryption and data exfiltration. This shift highlights a strategic move to bypass senior management and exploit the direct access held by technical personnel.",
       "date": "2026-08-09T09:33:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
-      "isTopTen": false
-    },
-    {
-      "id": "d41d0688-452b-4d1f-85da-ae91a8747bbd",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Webmail CSS Attacks Expose a New Risk for AI-Powered Email Tools",
-      "summary": "Researchers have demonstrated that CSS injection techniques can be used to compromise webmail services, potentially leading to credential theft, session hijacking, and the manipulation of AI email assistants. This vulnerability highlights a significant security risk where styling languages can be weaponized to bypass traditional web protections.",
-      "date": "2026-08-09T08:01:00.000Z",
-      "link": "https://securityaffairs.com/196899/hacking/webmail-css-attacks-expose-a-new-risk-for-ai-powered-email-tools.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a4a6ac66-a124-4a5a-a9ac-39ef8d2d75a5",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Week in review: Cisco fixes IMC bug, Patch Tuesday forecast, Black Hat USA 2026",
-      "summary": "This week's roundup covers critical updates including a Cisco IMC bug fix, Patch Tuesday expectations, and insights into AI-driven malware campaign mapping.",
-      "date": "2026-08-09T08:00:30.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/09/week-in-review-cisco-fixes-imc-bug-patch-tuesday-forecast-black-hat-usa-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "422625ae-49ee-4343-9905-d6022c0679cc",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Palo Alto Networks Faces China Cybersecurity Review Amid Rising Tech Tensions",
-      "summary": "China’s Cyberspace Administration has initiated a cybersecurity review of Palo Alto Networks products, citing national security concerns amidst escalating geopolitical tensions.",
-      "date": "2026-08-08T13:41:32.000Z",
-      "link": "https://securityaffairs.com/196881/intelligence/palo-alto-networks-faces-china-cybersecurity-review-amid-rising-tech-tensions.html",
-      "isTopTen": false
-    },
-    {
-      "id": "86015f6b-880d-44b4-bd00-1f827a40587b",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Devs to Anthropic, OpenAI, Cursor, and friends: Make security and privacy the default",
-      "summary": "Software developers are urging major AI tool providers like Anthropic and OpenAI to prioritize security and privacy by default due to increasing concerns about the safety of AI-assisted coding. Researchers are now actively monitoring developer sentiment to quantify these anxieties surrounding AI development platforms.",
-      "date": "2026-08-08T13:00:00.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107",
-      "isTopTen": false
-    },
-    {
-      "id": "fce2cdda-eabf-437a-8f85-d7b0fe2c2244",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Metabase Zero-Day Exploited in the Wild, Exposing Admin Access and Sensitive Data",
-      "summary": "Attackers exploited a critical CVSS 10 zero-day vulnerability in Metabase to gain unauthorized administrative access and compromise sensitive data within Metabase Cloud. The flaw was actively used in the wild before a patch was available, affecting high-profile victims like Framework.",
-      "date": "2026-08-08T11:50:21.000Z",
-      "link": "https://securityaffairs.com/196874/hacking/metabase-zero-day-exploited-in-the-wild-exposing-admin-access-and-sensitive-data.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a34c6adc-1447-4ee9-82e7-d438e42eb7e0",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds a Progress LoadMaster flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added the Progress LoadMaster CVE-2026-8037 vulnerability, a critical OS command injection flaw, to its Known Exploited Vulnerabilities catalog. Federal agencies are now required to patch this issue to mitigate the risk of remote code execution.",
-      "date": "2026-08-08T11:00:08.000Z",
-      "link": "https://securityaffairs.com/196863/hacking/u-s-cisa-adds-a-progress-loadmaster-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8bc9de3b-747e-4245-ad78-139946628d8b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-      "summary": "Atlassian's Rovo AI assistant is susceptible to prompt injection attacks that allow unauthorized exfiltration of sensitive Jira and Confluence data to external servers. While one attack vector has been mitigated, researchers warn that the AI can still be manipulated through malicious instructions hidden in accessible content.",
-      "date": "2026-08-08T08:54:50.000Z",
-      "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
       "isTopTen": false
     }
   ]
