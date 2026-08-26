@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-08-26T13:02:39.716Z",
+  "lastUpdated": "2026-08-26T16:25:16.190Z",
   "articles": [
+    {
+      "id": "edd2b5fb-ce87-427f-a63e-cee26efa69cb",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Iran-linked hackers expand infrastructure across Europe and Middle East, report says",
+      "summary": "Researchers have discovered that Iran-linked threat actors are expanding their command-and-control infrastructure across Europe and the Middle East, indicating a wider geographical targeting scope. The expansion suggests the group is scaling its capabilities for potential large-scale cyber espionage or disruption operations.",
+      "date": "2026-08-26T15:45:00.000Z",
+      "link": "https://therecord.media/iran-linked-hackers-expand-infrastructure-europe-middle-east",
+      "isTopTen": true
+    },
+    {
+      "id": "e7a3c7f1-f100-44d7-a473-ae2772500af7",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Boston Scientific discloses 'global disruption' in ongoing cyberattack",
+      "summary": "Boston Scientific has confirmed a global IT disruption resulting from an ongoing cyberattack, with no current timeline for full system restoration. The company is actively investigating the incident.",
+      "date": "2026-08-26T15:44:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/26/boston-scientific-discloses-global-disruption-in-ongoing-cyberattack/5292641",
+      "isTopTen": true
+    },
+    {
+      "id": "43085d67-9610-4822-aeb4-5f23fe601b0b",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Carhartt data breach affects 12.9M, half of what ShinyHunters claimed",
+      "summary": "Carhartt experienced a data breach impacting 12.9 million customers, significantly lower than the 25 million originally claimed by the threat actor ShinyHunters. Investigations confirmed that the extent of the exposed data was smaller than initially asserted by the attackers.",
+      "date": "2026-08-26T15:13:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/26/carhartt-data-breach-affects-129m-half-of-what-shinyhunters-claimed/5292626",
+      "isTopTen": false
+    },
+    {
+      "id": "88887db7-31ea-45ab-92fd-fdb8189a1bb9",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "summary": "The NovaCookies phishing toolkit uses an adversary-in-the-middle proxy approach to abuse legitimate DocuSign notifications for stealing Microsoft 365 session cookies. This subscription-based service allows attackers to bypass standard sign-in protections by capturing active authentication sessions.",
+      "date": "2026-08-26T13:44:31.000Z",
+      "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f647c470-4386-4c29-803f-65c782a5d693",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Election official says Tina Peters would be consultant, won’t have access to election systems",
+      "summary": "Shasta County registrar Clint Curtis plans to hire former clerk Tina Peters as an election consultant, asserting she will not have direct access to election systems despite her prior criminal conviction for tampering with voting machines.",
+      "date": "2026-08-26T13:30:44.000Z",
+      "link": "https://cyberscoop.com/shasta-county-election-clint-curtis-tina-peters-controversy/",
+      "isTopTen": false
+    },
+    {
+      "id": "9f8909f7-806b-4985-abe7-87ab797e3bbd",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+      "summary": "CISA red team exercises revealed that two critical infrastructure organizations were fully compromised at the domain level, with one failing to detect the unauthorized activity entirely. The findings highlight significant disparities in defensive capabilities across critical infrastructure sectors.",
+      "date": "2026-08-26T13:07:02.000Z",
+      "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+      "isTopTen": true
+    },
     {
       "id": "b0168ced-d8a9-44dd-b79d-b1dcf67ef4bc",
       "source": "Help Net Security",
@@ -10,7 +76,18 @@
       "summary": "The AnonyMousKIT phishing-as-a-service platform is using AI-generated voice calls to impersonate Apple Support and steal user credentials to unlock stolen iPhones. Despite its sophisticated automation, researchers identified coding flaws that exposed the platform's internal operational infrastructure.",
       "date": "2026-08-26T12:46:44.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/26/anonymouskit-phishing-stolen-iphone/",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "3618cb57-5346-4f6c-8464-1eb06cf861db",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
+      "summary": "Two unpatched vulnerabilities in Kaltura's mwEmbed video player allow remote, unauthenticated attackers to read arbitrary files and execute code via unsafe deserialization. These flaws, identified as CVE-2026-19913 and CVE-2026-19912, currently lack vendor patches.",
+      "date": "2026-08-26T11:55:00.000Z",
+      "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+      "isTopTen": false
     },
     {
       "id": "6b713122-9e3a-42f6-ae75-786e2cc65af8",
@@ -32,7 +109,7 @@
       "summary": "CISA has added the critical code injection vulnerability CVE-2026-60004 affecting Gitea to its Known Exploited Vulnerabilities catalog following reports of active exploitation in the wild.",
       "date": "2026-08-26T10:59:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/26/gitea-cve-2026-60004-exploited-in-the-wild/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f5bf435-f0ce-4a09-a441-a3c4c0422949",
@@ -54,7 +131,7 @@
       "summary": "Researchers demonstrated that an AI agent using Claude Opus 4.6 could bypass client-side booking restrictions to maliciously cancel other users' gym reservations. The study highlights security risks associated with relying solely on client-side controls for web applications.",
       "date": "2026-08-26T10:27:23.000Z",
       "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3a54067-967d-4b58-87cb-e494773686de",
@@ -98,7 +175,7 @@
       "summary": "A report from Mysterium VPN reveals that 88 identity verification breaches since 2011 have resulted in the exposure of 2.15 billion records, emphasizing the significant security risks associated with storing sensitive biometric and identity data.",
       "date": "2026-08-26T08:30:22.000Z",
       "link": "https://securityaffairs.com/197855/reports/88-id-verification-breaches-show-the-cost-of-collecting-identity-data.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b215a018-0520-411c-9a73-6d583141f051",
@@ -120,7 +197,7 @@
       "summary": "INTERPOL's Operation Jackal IV successfully apprehended 58 individuals and identified 263 suspects linked to West African organized crime networks involved in global cyber fraud. The eight-month initiative coordinated efforts across 22 countries to dismantle groups like Black Axe.",
       "date": "2026-08-26T07:54:12.000Z",
       "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "688684de-15db-4c9f-a54c-1eb7a992e08b",
@@ -164,7 +241,7 @@
       "summary": "CISA has issued a warning regarding active exploitation of a critical remote code execution vulnerability (CVE-2026-60004) in Gitea, which is being leveraged to deploy malicious payloads. Attackers with write access to a repository can exploit this flaw to execute arbitrary shell commands.",
       "date": "2026-08-26T06:27:07.000Z",
       "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "52fa54b9-c5f5-49a3-960c-6ef94b578f83",
@@ -274,7 +351,7 @@
       "summary": "The U.S. Treasury Department has imposed new sanctions on Iranian cyber actors responsible for breaching critical infrastructure. These measures are part of a broader economic campaign aimed at disrupting the regime's financial and cyber operations.",
       "date": "2026-08-25T18:17:17.000Z",
       "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1eb494d6-1c1a-4d34-9ee5-f14c14e01e7a",
@@ -351,7 +428,7 @@
       "summary": "A vulnerability in NVIDIA NemoClaw allows a malicious webpage to execute unauthorized control over a local Ollama instance and inject hidden instructions into AI models. The flaw enables unauthenticated access, potentially compromising the integrity of AI-driven agents.",
       "date": "2026-08-25T14:07:37.000Z",
       "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a5763f89-877e-4267-b37f-6cea90040184",
@@ -505,7 +582,7 @@
       "summary": "CISA has issued a mandatory three-day patching deadline for US federal agencies to address a critical 'perfect-10' severity Oracle vulnerability that has been actively targeted since its disclosure. This directive highlights the urgent need to mitigate high-risk exposures in government systems.",
       "date": "2026-08-25T10:43:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/25/cisa-slaps-its-tightest-three-day-patching-deadline-on-perfect-10-oracle-flaw/5292107",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "633cf24f-e7f7-4f7f-8688-0a67a26df4f1",
@@ -5422,83 +5499,6 @@
       "summary": "Enpass Password Manager is promoting its cloud-agnostic architecture, which allows users to store encrypted vaults on their own devices or chosen cloud storage services rather than a proprietary cloud. This approach emphasizes user control and data sovereignty over sensitive credentials.",
       "date": "2026-08-10T05:00:23.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/10/product-showcase-enpass-password-manager/",
-      "isTopTen": false
-    },
-    {
-      "id": "158a1493-dea2-44b4-a510-95f0e0fd54d3",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "71% of CISOs spend 10+ hours on board reports",
-      "summary": "A significant majority of CISOs dedicate over ten hours per report to translate technical security data into business-relevant insights for board members. This communication gap is exacerbated by a lack of formalized cyber risk appetite and the need for more efficient data reporting frameworks.",
-      "date": "2026-08-10T04:30:47.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/10/ciso-board-communication-gap-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "b69d5287-f033-42c7-b8cf-146407c72c0c",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "How to report an AI Act violation in the EU",
-      "summary": "The European Union has officially begun enforcing the AI Act, establishing a comprehensive legal framework to regulate AI systems and protect fundamental rights. This post provides guidance on how citizens can report potential violations of these new regulations.",
-      "date": "2026-08-10T04:00:10.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/10/eu-ai-act-enforcement-how-to-report-violation/",
-      "isTopTen": false
-    },
-    {
-      "id": "0d6c159c-500a-4a6d-8dfa-e1de57a6c148",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Advertisers are trying to influence AI bots with secret ads",
-      "summary": "Advertisers are developing methods to manipulate AI responses through hidden advertisements, while broader industry concerns emerge regarding the security risks of decentralized AI hiveminds and open-weight models.",
-      "date": "2026-08-10T03:00:00.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/10/advertisers-are-trying-to-influence-ai-bots-with-secret-ads/5285093",
-      "isTopTen": false
-    },
-    {
-      "id": "be655be6-2fda-4521-a56d-c669aedc001a",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "U.S. Defense Manufacturer IEH Hit by Phishing Attack, Exposing Potentially Export-Controlled Data",
-      "summary": "U.S. defense manufacturer IEH Corporation suffered a phishing attack that compromised its Microsoft 365 inbox, leading to the potential exposure of sensitive, export-controlled military data. The breach affects a supplier of critical electrical components used in aerospace and defense environments.",
-      "date": "2026-08-09T16:44:40.000Z",
-      "link": "https://securityaffairs.com/196890/cyber-crime/u-s-defense-manufacturer-ieh-hit-by-phishing-attack-exposing-potentially-export-controlled-data.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7c8ad51b-c3ef-4fc8-8c27-8ffcfd7170ec",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 109",
-      "summary": "This Security Affairs newsletter highlights recent malware campaigns, including fake Roblox cheats delivering Java stealers and a distributed npm package cluster deploying cross-platform RATs.",
-      "date": "2026-08-09T12:29:47.000Z",
-      "link": "https://securityaffairs.com/196919/malware/security-affairs-malware-newsletter-round-109.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ea6841ed-b626-4202-81dc-90acec8846ab",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Security Affairs newsletter Round 589 by Pierluigi Paganini – INTERNATIONAL EDITION",
-      "summary": "This newsletter issue highlights a cybersecurity review of Palo Alto Networks in China and reports on the active exploitation of a Metabase zero-day vulnerability.",
-      "date": "2026-08-09T11:49:08.000Z",
-      "link": "https://securityaffairs.com/196911/security/security-affairs-newsletter-round-589-by-pierluigi-paganini-international-edition.html",
-      "isTopTen": false
-    },
-    {
-      "id": "d161d026-cf3c-47c9-bde6-b269b0b30b0b",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
-      "summary": "Ransomware attackers are increasingly targeting IT managers rather than executives to facilitate system encryption and data exfiltration. This shift highlights a strategic move to bypass senior management and exploit the direct access held by technical personnel.",
-      "date": "2026-08-09T09:33:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
       "isTopTen": false
     }
   ]
