@@ -1,6 +1,138 @@
 {
-  "lastUpdated": "2026-08-28T15:18:31.414Z",
+  "lastUpdated": "2026-08-29T01:38:38.833Z",
   "articles": [
+    {
+      "id": "416bdc64-ba95-4ec8-9f3f-0ed1d95ab2e6",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety",
+      "summary": "New research identifies that LLM safety mechanisms reside in a vulnerable, thin neural layer, suggesting that current AI defenses can be easily bypassed. This finding underscores the necessity of implementing multi-layered, external security protocols to protect AI systems.",
+      "date": "2026-08-28T22:00:07.000Z",
+      "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
+      "isTopTen": false
+    },
+    {
+      "id": "4d8626ba-0c77-44ab-82f6-dced81453aac",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+      "summary": "The Berlin state government is refusing to pay an extortion demand following a data breach that affected its administrative network and the Senate Department for Mobility, Transport, Climate Protection and Environment.",
+      "date": "2026-08-28T21:30:52.000Z",
+      "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cbc25adc-08bd-45f9-adbe-2f3ab8383847",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researcher shows how Claude Code can be tricked simply by asking it to summarize a website",
+      "summary": "A security researcher demonstrated that Claude Code can be manipulated via prompt injection simply by requesting the analysis of a specific website. This vulnerability highlights potential risks in AI coding tools when processing untrusted external content.",
+      "date": "2026-08-28T20:50:15.000Z",
+      "link": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+      "isTopTen": false
+    },
+    {
+      "id": "8d32e4b4-323e-41fe-a73e-aaac2f7c2f8b",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+      "summary": "A critical balance-handling flaw in the Cosmos EVM module was exploited to drain funds from six blockchains after Cosmos Labs failed to timely address the known vulnerability. The exploit occurred between August 20 and August 25, 2026, affecting versions prior to 0.6.2.",
+      "date": "2026-08-28T20:38:47.000Z",
+      "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a70075c2-677d-4e2b-93bd-e2f97e513855",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "ATF confirms cyberattack hit system containing info on its investigation targets",
+      "summary": "The ATF confirmed a cyberattack involving a standalone system containing information on investigation targets, with the ransomware group Qilin claiming responsibility. The agency maintains that the incident did not disrupt critical operations.",
+      "date": "2026-08-28T20:29:38.000Z",
+      "link": "https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/",
+      "isTopTen": false
+    },
+    {
+      "id": "407926b4-7ffe-4d86-83e9-0c9b93f81d14",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Love Electric Breach: 877,000 Driver Records Offered for $600",
+      "summary": "UK electric-vehicle broker Love Electric has allegedly suffered a data breach exposing 877,000 driver records, which are currently being sold on a dark web forum for $600. The incident underscores the growing security risks associated with third-party salary sacrifice service providers.",
+      "date": "2026-08-28T20:14:36.000Z",
+      "link": "https://securityaffairs.com/198033/data-breach/love-electric-breach-877000-driver-records-offered-for-600.html",
+      "isTopTen": false
+    },
+    {
+      "id": "af1be268-fdd2-4527-8efa-f29bc4cc1926",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Critical",
+      "title": "Trump Targets Foreign Technology in New U.S. Power Grid Security Order",
+      "summary": "President Trump signed Executive Order 14420 to restrict foreign-made power grid equipment, aiming to mitigate national security risks such as sabotage, unauthorized access, and supply-chain vulnerabilities.",
+      "date": "2026-08-28T18:00:24.000Z",
+      "link": "https://securityaffairs.com/198025/security/trump-targets-foreign-technology-in-new-u-s-power-grid-security-order.html",
+      "isTopTen": true
+    },
+    {
+      "id": "8aeda668-163f-4b36-b230-384ccbccf37f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+      "summary": "Attackers are actively exploiting two chained vulnerabilities in PaperCut NG and MF to achieve unauthenticated remote code execution. PaperCut has released emergency patches and hardening measures to address the flaw.",
+      "date": "2026-08-28T17:12:15.000Z",
+      "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4068c48d-b71d-46e8-9397-7cc29c1607c6",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "PaperCut warns of hackers using printer management software flaw in attacks",
+      "summary": "PaperCut has issued an emergency advisory regarding active exploitation of critical vulnerabilities in its PaperCut NG and MF print management software. Organizations are urged to apply patches immediately to mitigate the risk of ongoing cyberattacks.",
+      "date": "2026-08-28T16:30:00.000Z",
+      "link": "https://therecord.media/papercut-warns-of-hackers-using-printer-management-vulnerabilities",
+      "isTopTen": false
+    },
+    {
+      "id": "730bd885-4e8d-4d57-984f-9465da7fc90e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+      "summary": "Google has introduced Encrypted Client Hello (ECH) support in Android 17 to enhance user privacy by preventing network providers from monitoring specific website traffic. This update aims to strengthen connection security and mitigate potential cellular network vulnerabilities.",
+      "date": "2026-08-28T16:20:46.000Z",
+      "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+      "isTopTen": false
+    },
+    {
+      "id": "33599efe-2bb2-4263-8644-2045430cd9fe",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+      "summary": "A Chinese-speaking threat actor exploited the critical CVE-2023-49105 vulnerability in ownCloud to steal sensitive records from a Philippine nuclear research organization. Consequently, CISA has added this flaw to its Known Exploited Vulnerabilities catalog.",
+      "date": "2026-08-28T15:56:55.000Z",
+      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+      "isTopTen": true
+    },
+    {
+      "id": "07edeb6b-8f63-425b-a025-e9eba0ac8746",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+      "summary": "Researchers identified 19 malicious browser extensions for Chrome and Edge that are designed to steal cryptocurrency wallet secrets and drain user funds. These extensions share common code, suggesting a coordinated campaign targeting browser users.",
+      "date": "2026-08-28T15:27:26.000Z",
+      "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+      "isTopTen": false
+    },
     {
       "id": "f461b868-daa0-4d23-b638-e6c1c54b2e94",
       "source": "The Register",
@@ -10,7 +142,7 @@
       "summary": "An IT specialist working for the DIA's Insider Threat Division has pleaded guilty to espionage charges after leaking sensitive state secrets to foreign intelligence agents. The individual compromised national security shortly after gaining access to restricted systems.",
       "date": "2026-08-28T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7adb46e-7d36-42d0-a7dd-69f1bab9f245",
@@ -109,7 +241,7 @@
       "summary": "Security researchers discovered two factory-installed implants in ZBT routers that grant unauthenticated remote attackers root-level command execution. These backdoors are tracked as CVE-2026-74232 and CVE-2026-74233.",
       "date": "2026-08-28T10:58:29.000Z",
       "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "64a0f910-5285-413e-ab1f-d33573afa9f7",
@@ -175,7 +307,7 @@
       "summary": "The state-sponsored threat actor APT28 has been linked to a new campaign deploying a previously undocumented Windows batch script backdoor called HOOKEDGE against government and diplomatic targets in Romania, Spain, and Türkiye. The attacks occurred between late 2025 and early 2026, marking a targeted espionage effort.",
       "date": "2026-08-28T08:20:59.000Z",
       "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1b00fa31-246e-464c-82ab-8915a39d922b",
@@ -274,7 +406,7 @@
       "summary": "The White House has issued a ban on foreign-made power grid equipment to mitigate the risk of cyber backdoors and vulnerabilities exploited by foreign actors. This policy aims to secure critical energy infrastructure against potential state-sponsored cyber espionage or disruption.",
       "date": "2026-08-27T19:45:00.000Z",
       "link": "https://therecord.media/trump-cyber-electricity-parts",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "666ac22c-4d1d-4338-8f17-9422886d006f",
@@ -329,7 +461,7 @@
       "summary": "A lawsuit alleges that Elon Musk's Grok AI model was trained on non-consensual imagery of sexual abuse victims, contradicting claims that the platform is free of child sexual abuse material.",
       "date": "2026-08-27T17:12:38.000Z",
       "link": "https://cyberscoop.com/xai-grok-csam-class-action-lawsuit/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cb73b276-243a-4606-9803-d01f0f476605",
@@ -384,7 +516,7 @@
       "summary": "This report highlights a diverse range of cyber threats including a massive IoT botnet, targeted attacks on critical infrastructure, and critical vulnerabilities in SharePoint. It also notes an increasing reliance on sophisticated social engineering tactics and evasive techniques by threat actors.",
       "date": "2026-08-27T15:12:16.000Z",
       "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bb900b07-dfed-4b53-9940-5966d7ba6da8",
@@ -505,7 +637,7 @@
       "summary": "Medical technology company Boston Scientific experienced a global network outage and operational disruption following a cyberattack. The incident impacted critical IT systems for a corporation that provides essential medical devices to millions of patients annually.",
       "date": "2026-08-27T12:00:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/27/boston-scientific-cyberattack-network-outage/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3b9e4e1d-1aae-4b22-9385-d73328a737c9",
@@ -626,7 +758,7 @@
       "summary": "CISA has issued a warning to US water utilities to secure internet-exposed Programmable Logic Controllers (PLCs) following a wave of cyberattacks in July 2026. The agency provided specific guidance on identifying and mitigating risks to prevent further compromise of critical industrial infrastructure.",
       "date": "2026-08-27T07:36:42.000Z",
       "link": "https://securityaffairs.com/197891/ics-scada/cisa-warns-water-utilities-find-your-exposed-plcs-before-attackers-do.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3404a2e5-d7f8-4c26-b316-fb2a6f7b440e",
@@ -5367,138 +5499,6 @@
       "summary": "Signal has introduced a new security feature that utilizes unique safety numbers to verify identity, though it requires users to possess their contact's phone number. This enhancement aims to prevent impersonation and ensure users are communicating with the intended individual.",
       "date": "2026-08-11T21:45:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/11/signal-adds-an-extra-layer-of-security-to-make-sure-youre-actually-chatting-with-the-right-person/5286461",
-      "isTopTen": false
-    },
-    {
-      "id": "61ee141e-548b-499f-9610-62f71abf5935",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "421 bugs in Microsoft's Patch Tuesday release, and the Norks have already attacked one",
-      "summary": "Microsoft's latest Patch Tuesday release addresses 421 vulnerabilities, with at least one already being actively exploited by North Korean state-sponsored actors. System administrators are urged to prioritize patching to mitigate these widespread security risks.",
-      "date": "2026-08-11T21:31:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/11/421-bugs-in-microsofts-patch-tuesday-release-and-the-norks-have-already-attacked-one/5286483",
-      "isTopTen": false
-    },
-    {
-      "id": "e2e755ef-b927-42a2-b87c-79e921f21b79",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-      "summary": "Microsoft has released a monthly security update addressing 398 vulnerabilities, including a Windows kernel driver zero-day (CVE-2026-68820) that is currently being exploited to escalate privileges to SYSTEM level.",
-      "date": "2026-08-11T20:10:55.000Z",
-      "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "isTopTen": false
-    },
-    {
-      "id": "19058d67-02ee-4984-96ba-0fa492ff90a0",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "NSA installs DHS lawyer as new general counsel",
-      "summary": "Kerianne Tobitsch, a former senior attorney at the Department of Homeland Security, has been appointed as the new general counsel for the National Security Agency.",
-      "date": "2026-08-11T20:00:09.000Z",
-      "link": "https://therecord.media/kerianne-tobitsch-new-nsa-general-counsel",
-      "isTopTen": false
-    },
-    {
-      "id": "442a5cf2-d158-4857-9fb4-4d66c8f52ea9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-      "summary": "Researchers discovered the Kimwolf v7 Android and IoT botnet, which utilizes HTTP/2 to disguise DDoS traffic as legitimate user browsing to enhance operational stealth. This evolution marks a significant advancement in the botnet's capacity to evade detection while conducting attacks.",
-      "date": "2026-08-11T19:36:37.000Z",
-      "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ccc287df-7a79-473f-831f-52ac32bda549",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout",
-      "summary": "A ransomware group has hijacked a hospital system's Facebook page while leveraging 6 terabytes of exfiltrated, highly sensitive patient data as part of an extortion attempt. The breached information includes records concerning sexual assault, mental health, and reproductive healthcare.",
-      "date": "2026-08-11T19:15:00.000Z",
-      "link": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
-      "isTopTen": false
-    },
-    {
-      "id": "88565715-21f4-4066-b086-83e5df3c01fe",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
-      "summary": "A critical vulnerability in Zoom's annotation feature allowed meeting participants to remotely hijack the computers of other attendees without any user interaction. The flaw enabled unauthorized control over both screen-sharers and viewers simply by participating in a call.",
-      "date": "2026-08-11T19:08:47.000Z",
-      "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "isTopTen": false
-    },
-    {
-      "id": "298b4a8b-57ff-45c5-991c-b069f71a44ae",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-      "summary": "Russian threat actor UAC-0145 is targeting Ukrainian IT professionals with a social engineering campaign involving fake job interviews to deploy a malicious VPN client capable of remote command execution. The activity has been attributed to the Sandworm group.",
-      "date": "2026-08-11T18:36:47.000Z",
-      "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b1babab9-5969-4b36-8a4f-4381b570377b",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Delta investigates in-flight Wi-Fi spoofing on post-DEF CON flight from Las Vegas",
-      "summary": "Delta Air Lines is investigating a Wi-Fi spoofing incident that occurred on a flight departing from Las Vegas following the DEF CON security conference. The airline disabled the in-flight network after the crew detected unauthorized tampering, and federal authorities are now involved.",
-      "date": "2026-08-11T18:02:10.000Z",
-      "link": "https://cyberscoop.com/delta-flight-rogue-wifi-investigation-def-con-las-vegas/",
-      "isTopTen": false
-    },
-    {
-      "id": "c76ea003-bcfe-4df5-bc4b-4bb50e381e48",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Zoom Patches “Zoomsday” Zero-Click Flaw Enabling Remote Code Execution",
-      "summary": "Zoom has released a patch for a critical zero-click memory corruption vulnerability, CVE-2026-53413, which could allow remote code execution via the application's annotation feature.",
-      "date": "2026-08-11T17:48:01.000Z",
-      "link": "https://securityaffairs.com/197042/hacking/zoom-patches-zoomsday-zero-click-flaw-enabling-remote-code-execution.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4f8d87f5-03e7-409d-99b7-f764e1fc5921",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-      "summary": "Security researchers have identified a critical unauthenticated remote code execution exploit chain affecting multiple versions of Microsoft SharePoint, facilitated by the use of AI agents. The vulnerability is tracked as CVE-2026-55040 with a CVSS score of 9.1.",
-      "date": "2026-08-11T16:47:44.000Z",
-      "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9a2d4709-a12f-4918-8473-2b5bb41fc9cd",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "ExfilSquad Targets New Victims, Shares Data via Torrents",
-      "summary": "The newly emerged cybercrime group ExfilSquad is targeting organizations by exploiting cloud portals to steal data, which they then disseminate via torrents to maximize impact. Unlike traditional ransomware actors, the group focuses on extortion through the public release of exfiltrated information.",
-      "date": "2026-08-11T16:44:19.000Z",
-      "link": "https://securityaffairs.com/197025/security/exfilsquad-targets-new-victims-shares-data-via-torrents.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6c86f55d-7731-4656-be47-e3eed1c91165",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-      "summary": "The DeadLock ransomware group is leveraging Polygon smart contracts and decentralized messaging platforms to decentralize their extortion infrastructure, making it more resilient against disruption. This shift aims to ensure continuous victim communication and data leak operations by minimizing reliance on traditional centralized servers.",
-      "date": "2026-08-11T16:35:27.000Z",
-      "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
       "isTopTen": false
     }
   ]
