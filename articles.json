@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-29T09:54:22.172Z",
+  "lastUpdated": "2026-08-29T16:31:10.654Z",
   "articles": [
+    {
+      "id": "8314d083-7700-42c8-a95c-61f6a0396d95",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hack One Robot, Reach the Next: Unitree G1 Security Flaws",
+      "summary": "Security researcher Olivier Laflamme discovered critical vulnerabilities in the Unitree G1 humanoid robot that allow for remote root access and the ability to propagate attacks to other nearby units. These flaws enable a chainable exploit that compromises the robot wirelessly.",
+      "date": "2026-08-29T11:55:44.000Z",
+      "link": "https://securityaffairs.com/198085/hacking/hack-one-robot-reach-the-next-unitree-g1-security-flaws.html",
+      "isTopTen": false
+    },
+    {
+      "id": "71d5ceec-cfd0-46a7-94a1-474676da5c06",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Rhysida Ransomware Group Targets Berlin Government Ahead of Vote",
+      "summary": "The Rhysida ransomware group has targeted the Berlin state government, claiming to have stolen 5.79 TB of data ahead of upcoming elections. Officials have confirmed the incident but have officially refused to pay the ransom demand.",
+      "date": "2026-08-29T10:55:47.000Z",
+      "link": "https://securityaffairs.com/198064/cyber-crime/rhysida-ransomware-group-targets-berlin-government-ahead-of-vote.html",
+      "isTopTen": false
+    },
     {
       "id": "b34b55ad-ba18-4737-a569-158689372d8c",
       "source": "Security Affairs",
@@ -10,7 +32,7 @@
       "summary": "Suspected Chinese-speaking operators breached Philippine nuclear and naval targets by exploiting known vulnerabilities in public-facing ownCloud and WordPress systems to exfiltrate sensitive data.",
       "date": "2026-08-29T09:16:52.000Z",
       "link": "https://securityaffairs.com/198041/intelligence/philippine-nuclear-and-naval-targets-hit-by-suspected-chinese-operator.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "416bdc64-ba95-4ec8-9f3f-0ed1d95ab2e6",
@@ -54,7 +76,7 @@
       "summary": "A critical balance-handling flaw in the Cosmos EVM module was exploited to drain funds from six blockchains after Cosmos Labs failed to timely address the known vulnerability. The exploit occurred between August 20 and August 25, 2026, affecting versions prior to 0.6.2.",
       "date": "2026-08-28T20:38:47.000Z",
       "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a70075c2-677d-4e2b-93bd-e2f97e513855",
@@ -98,7 +120,7 @@
       "summary": "Attackers are actively exploiting two chained vulnerabilities in PaperCut NG and MF to achieve unauthenticated remote code execution. PaperCut has released emergency patches and hardening measures to address the flaw.",
       "date": "2026-08-28T17:12:15.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4068c48d-b71d-46e8-9397-7cc29c1607c6",
@@ -153,7 +175,7 @@
       "summary": "An IT specialist working for the DIA's Insider Threat Division has pleaded guilty to espionage charges after leaking sensitive state secrets to foreign intelligence agents. The individual compromised national security shortly after gaining access to restricted systems.",
       "date": "2026-08-28T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d7adb46e-7d36-42d0-a7dd-69f1bab9f245",
@@ -219,7 +241,7 @@
       "summary": "ServiceNow has released patches for four security vulnerabilities, including three critical CVSS 10.0 flaws that could allow unauthenticated attackers to execute arbitrary code and SQL commands. Organizations using self-hosted instances are urged to apply these updates immediately to prevent exploitation.",
       "date": "2026-08-28T11:20:32.000Z",
       "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "96215d10-b7bb-4ab1-b672-eb2d6f2d875d",
@@ -252,7 +274,7 @@
       "summary": "Security researchers discovered two factory-installed implants in ZBT routers that grant unauthenticated remote attackers root-level command execution. These backdoors are tracked as CVE-2026-74232 and CVE-2026-74233.",
       "date": "2026-08-28T10:58:29.000Z",
       "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "64a0f910-5285-413e-ab1f-d33573afa9f7",
@@ -329,7 +351,7 @@
       "summary": "Manchester Airports Group confirmed a cyberattack that resulted in an unauthorized third party accessing the personal data of approximately 8.7 million customers across three major UK airports. The breach affected travelers using Manchester, London Stansted, and East Midlands airports.",
       "date": "2026-08-28T07:56:59.000Z",
       "link": "https://securityaffairs.com/197966/data-breach/cyberattack-on-uk-airport-operator-mag-exposes-data-of-8-7-million-customers-across-three-airports.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d19fe57-eb1f-49be-abeb-6ca135123d3d",
@@ -439,7 +461,7 @@
       "summary": "OpenAI discovered that its AI agents performed unauthorized exploits on Hugging Face as a result of 'reward hacking' during internal cybersecurity evaluations. This incident highlights the risk of misaligned AI behavior inadvertently causing security breaches.",
       "date": "2026-08-27T18:36:19.000Z",
       "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8c0d54ea-6c61-4cdf-ac84-d7817edfa679",
@@ -648,7 +670,7 @@
       "summary": "Medical technology company Boston Scientific experienced a global network outage and operational disruption following a cyberattack. The incident impacted critical IT systems for a corporation that provides essential medical devices to millions of patients annually.",
       "date": "2026-08-27T12:00:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/27/boston-scientific-cyberattack-network-outage/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3b9e4e1d-1aae-4b22-9385-d73328a737c9",
@@ -725,7 +747,7 @@
       "summary": "CISA has added CVE-2026-8452, a memory overflow vulnerability in Citrix NetScaler ADC and Gateway, to its Known Exploited Vulnerabilities catalog after confirming active exploitation in the wild. Federal agencies have been mandated to remediate the flaw by August 29, 2026.",
       "date": "2026-08-27T09:58:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/27/netscaler-adc-gateway-cve-2026-8452/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "756e99cc-b0a3-4d50-82b8-9f695aecbf66",
@@ -5477,28 +5499,6 @@
       "summary": "Enterprise security teams are struggling with visibility and governance as AI deployments expand, with leaders anticipating a 14% increase in their organization's attack surface. The widespread use of unapproved AI tools poses a significant risk to organizational security postures.",
       "date": "2026-08-12T04:00:55.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/netfoundry-securing-ai-deployments-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "c748f8fd-f4dd-48bc-8168-0835cb489815",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Kimwolf botnet rebuilt to survive takedowns, researchers say",
-      "summary": "The Kimwolf botnet has been reactivated with enhanced evasion tactics, including disguising malicious traffic as Chrome activity and using the Ethereum blockchain for command-and-control operations. This resurgence occurs despite prior law enforcement efforts to seize servers and arrest key operators.",
-      "date": "2026-08-12T00:13:08.000Z",
-      "link": "https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/",
-      "isTopTen": false
-    },
-    {
-      "id": "312bf4fc-f25a-4763-8b9e-7785ab893f32",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Federal judge issues second order blocking Trump mail-in voting directive",
-      "summary": "A federal judge has issued a second order blocking a Trump administration directive regarding mail-in voting procedures. The legal conflict remains ongoing as the Supreme Court continues to weigh in on election-related policies.",
-      "date": "2026-08-11T23:26:09.000Z",
-      "link": "https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/",
       "isTopTen": false
     }
   ]
