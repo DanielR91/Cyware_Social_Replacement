@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-29T16:31:10.654Z",
+  "lastUpdated": "2026-08-29T20:44:26.809Z",
   "articles": [
+    {
+      "id": "eaa210ad-8e10-4fdd-b9ae-892eeb545a74",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+      "summary": "Critical vulnerabilities have been identified in several popular WordPress plugins and themes, potentially allowing attackers to achieve remote code execution and site takeover. These flaws include authentication bypass and arbitrary code execution, posing a significant risk to affected WordPress installations.",
+      "date": "2026-08-29T16:25:03.000Z",
+      "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "isTopTen": false
+    },
     {
       "id": "8314d083-7700-42c8-a95c-61f6a0396d95",
       "source": "Security Affairs",
@@ -32,7 +43,7 @@
       "summary": "Suspected Chinese-speaking operators breached Philippine nuclear and naval targets by exploiting known vulnerabilities in public-facing ownCloud and WordPress systems to exfiltrate sensitive data.",
       "date": "2026-08-29T09:16:52.000Z",
       "link": "https://securityaffairs.com/198041/intelligence/philippine-nuclear-and-naval-targets-hit-by-suspected-chinese-operator.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "416bdc64-ba95-4ec8-9f3f-0ed1d95ab2e6",
@@ -153,7 +164,7 @@
       "summary": "A Chinese-speaking threat actor exploited the critical CVE-2023-49105 vulnerability in ownCloud to steal sensitive records from a Philippine nuclear research organization. Consequently, CISA has added this flaw to its Known Exploited Vulnerabilities catalog.",
       "date": "2026-08-28T15:56:55.000Z",
       "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "07edeb6b-8f63-425b-a025-e9eba0ac8746",
@@ -285,7 +296,7 @@
       "summary": "cPanel has released emergency patches for a critical vulnerability (CVE-2026-65643) that allows attackers to escalate privileges to the root user via domain parking and addon domain features. All supported versions of cPanel and WHM are impacted, necessitating immediate updates.",
       "date": "2026-08-28T09:45:15.000Z",
       "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "31a363fc-f536-4514-a919-a37fb3d592a9",
@@ -351,7 +362,7 @@
       "summary": "Manchester Airports Group confirmed a cyberattack that resulted in an unauthorized third party accessing the personal data of approximately 8.7 million customers across three major UK airports. The breach affected travelers using Manchester, London Stansted, and East Midlands airports.",
       "date": "2026-08-28T07:56:59.000Z",
       "link": "https://securityaffairs.com/197966/data-breach/cyberattack-on-uk-airport-operator-mag-exposes-data-of-8-7-million-customers-across-three-airports.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3d19fe57-eb1f-49be-abeb-6ca135123d3d",
@@ -549,7 +560,7 @@
       "summary": "This report highlights a diverse range of cyber threats including a massive IoT botnet, targeted attacks on critical infrastructure, and critical vulnerabilities in SharePoint. It also notes an increasing reliance on sophisticated social engineering tactics and evasive techniques by threat actors.",
       "date": "2026-08-27T15:12:16.000Z",
       "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bb900b07-dfed-4b53-9940-5966d7ba6da8",
@@ -747,7 +758,7 @@
       "summary": "CISA has added CVE-2026-8452, a memory overflow vulnerability in Citrix NetScaler ADC and Gateway, to its Known Exploited Vulnerabilities catalog after confirming active exploitation in the wild. Federal agencies have been mandated to remediate the flaw by August 29, 2026.",
       "date": "2026-08-27T09:58:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/27/netscaler-adc-gateway-cve-2026-8452/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "756e99cc-b0a3-4d50-82b8-9f695aecbf66",
@@ -5488,17 +5499,6 @@
       "summary": "A $500 ready-made scam kit found on a cybercrime forum enables attackers to conduct sophisticated cryptocurrency fraud through fake account balances and wallet tracking. This development highlights the increasing accessibility of complex financial scams through affordable, pre-packaged tools.",
       "date": "2026-08-12T04:30:27.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/crypto-scam-kit-cybercrime-forum/",
-      "isTopTen": false
-    },
-    {
-      "id": "dace8088-cac3-4c68-8140-154495ad4bed",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI deployments are stretching enterprise security to its limits",
-      "summary": "Enterprise security teams are struggling with visibility and governance as AI deployments expand, with leaders anticipating a 14% increase in their organization's attack surface. The widespread use of unapproved AI tools poses a significant risk to organizational security postures.",
-      "date": "2026-08-12T04:00:55.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/netfoundry-securing-ai-deployments-report/",
       "isTopTen": false
     }
   ]
