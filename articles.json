@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-30T16:24:13.500Z",
+  "lastUpdated": "2026-08-30T20:51:15.898Z",
   "articles": [
+    {
+      "id": "8f057161-5467-48cf-ac62-9c66cf2cfed2",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Extortion Group FulcrumSec Claims 86GB Manchester Airports Group Data Theft",
+      "summary": "The extortion group FulcrumSec claimed responsibility for stealing 86GB of data from Manchester Airports Group after exploiting exposed API credentials found in client-side JavaScript. The incident affected customers across three major UK airports.",
+      "date": "2026-08-30T17:21:51.000Z",
+      "link": "https://securityaffairs.com/198143/cyber-crime/extortion-group-fulcrumsec-claims-86gb-manchester-airports-group-data-theft.html",
+      "isTopTen": false
+    },
     {
       "id": "bd72b72b-2bd8-4be5-9c41-12d07cc7085c",
       "source": "Security Affairs",
@@ -21,7 +32,7 @@
       "summary": "PaperCut print management servers are facing active exploitation from a pre-authentication remote code execution flaw, with nearly half of all installations remaining unpatched. The vulnerability poses a significant risk to the schools, hospitals, and offices that rely on this software.",
       "date": "2026-08-30T11:26:29.000Z",
       "link": "https://securityaffairs.com/198107/uncategorized/hackers-are-probing-papercut-servers-and-47-still-have-no-patch.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2f89987c-e40f-41c8-b550-b0393edc46be",
@@ -98,7 +109,7 @@
       "summary": "The Rhysida ransomware group has targeted the Berlin state government, claiming to have stolen 5.79 TB of data ahead of upcoming elections. Officials have confirmed the incident but have officially refused to pay the ransom demand.",
       "date": "2026-08-29T10:55:47.000Z",
       "link": "https://securityaffairs.com/198064/cyber-crime/rhysida-ransomware-group-targets-berlin-government-ahead-of-vote.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b34b55ad-ba18-4737-a569-158689372d8c",
@@ -164,7 +175,7 @@
       "summary": "The ATF confirmed a cyberattack involving a standalone system containing information on investigation targets, with the ransomware group Qilin claiming responsibility. The agency maintains that the incident did not disrupt critical operations.",
       "date": "2026-08-28T20:29:38.000Z",
       "link": "https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "407926b4-7ffe-4d86-83e9-0c9b93f81d14",
@@ -197,7 +208,7 @@
       "summary": "Attackers are actively exploiting two chained vulnerabilities in PaperCut NG and MF to achieve unauthenticated remote code execution. PaperCut has released emergency patches and hardening measures to address the flaw.",
       "date": "2026-08-28T17:12:15.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4068c48d-b71d-46e8-9397-7cc29c1607c6",
@@ -252,7 +263,7 @@
       "summary": "An IT specialist working for the DIA's Insider Threat Division has pleaded guilty to espionage charges after leaking sensitive state secrets to foreign intelligence agents. The individual compromised national security shortly after gaining access to restricted systems.",
       "date": "2026-08-28T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d7adb46e-7d36-42d0-a7dd-69f1bab9f245",
@@ -428,7 +439,7 @@
       "summary": "Manchester Airports Group confirmed a cyberattack that resulted in an unauthorized third party accessing the personal data of approximately 8.7 million customers across three major UK airports. The breach affected travelers using Manchester, London Stansted, and East Midlands airports.",
       "date": "2026-08-28T07:56:59.000Z",
       "link": "https://securityaffairs.com/197966/data-breach/cyberattack-on-uk-airport-operator-mag-exposes-data-of-8-7-million-customers-across-three-airports.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3d19fe57-eb1f-49be-abeb-6ca135123d3d",
@@ -5488,17 +5499,6 @@
       "summary": "SAP has released a patch for a critical 10.0 CVSS rated vulnerability in the Commerce Cloud Data Hub Adapter that allows unauthenticated attackers to perform remote code execution. The flaw stems from insufficient authorization and input validation mechanisms.",
       "date": "2026-08-12T07:31:40.000Z",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1d5b25a6-5908-4bfa-ae2b-dd7892899413",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft Patch Tuesday for August 2026 Fixed a Zero-Day and Wormable RCE",
-      "summary": "Microsoft's August 2026 Patch Tuesday addressed 398 vulnerabilities, headlined by an actively exploited zero-day and a wormable remote code execution flaw in DNS. The update encompasses a broad range of products including Windows, Azure, and Office.",
-      "date": "2026-08-12T06:49:55.000Z",
-      "link": "https://securityaffairs.com/197048/security/microsoft-patch-tuesday-for-august-2026-fixed-a-zero-day-and-wormable-rce.html",
       "isTopTen": false
     }
   ]
