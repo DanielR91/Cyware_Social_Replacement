@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-08-30T04:40:30.029Z",
+  "lastUpdated": "2026-08-30T11:37:35.526Z",
   "articles": [
+    {
+      "id": "2f89987c-e40f-41c8-b550-b0393edc46be",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 592 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 592nd edition of the Security Affairs newsletter covers critical topics including security vulnerabilities in Unitree G1 robots and a Rhysida ransomware attack targeting the Berlin government.",
+      "date": "2026-08-30T08:38:01.000Z",
+      "link": "https://securityaffairs.com/198124/security/security-affairs-newsletter-round-592-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cfc9faac-c856-456a-aaba-a1784a7b5b05",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Turns out Brits would quite like their private messages to stay private",
+      "summary": "Recent polling indicates that a significant majority of British citizens oppose government efforts to access encrypted messaging platforms, citing a lack of trust in current and future administrations. The findings highlight public resistance toward policy proposals that would weaken digital privacy protections.",
+      "date": "2026-08-30T08:34:00.000Z",
+      "link": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "isTopTen": false
+    },
+    {
+      "id": "3ee8604a-5759-47ac-a4db-b4bf2f48f2f1",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
+      "summary": "Recent cybersecurity reports highlight the exploitation of a critical vulnerability in Zimbra servers affecting hundreds of instances, alongside ongoing concerns regarding AI-related supply chain risks.",
+      "date": "2026-08-30T08:00:48.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+      "isTopTen": false
+    },
+    {
+      "id": "40112aad-86f9-4e76-ad79-daca253e37cc",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+      "summary": "TerminalFix is a new ClickFix-style social engineering attack that tricks users into executing malicious code within Windows Terminal or PowerShell by masquerading as a Cloudflare CAPTCHA. This evolution of the technique allows for more complex command execution, increasing the risk of full system compromise.",
+      "date": "2026-08-30T07:36:33.000Z",
+      "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+      "isTopTen": false
+    },
     {
       "id": "eaa210ad-8e10-4fdd-b9ae-892eeb545a74",
       "source": "The Hacker News",
@@ -54,7 +98,7 @@
       "summary": "New research identifies that LLM safety mechanisms reside in a vulnerable, thin neural layer, suggesting that current AI defenses can be easily bypassed. This finding underscores the necessity of implementing multi-layered, external security protocols to protect AI systems.",
       "date": "2026-08-28T22:00:07.000Z",
       "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d8626ba-0c77-44ab-82f6-dced81453aac",
@@ -98,7 +142,7 @@
       "summary": "The ATF confirmed a cyberattack involving a standalone system containing information on investigation targets, with the ransomware group Qilin claiming responsibility. The agency maintains that the incident did not disrupt critical operations.",
       "date": "2026-08-28T20:29:38.000Z",
       "link": "https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "407926b4-7ffe-4d86-83e9-0c9b93f81d14",
@@ -131,7 +175,7 @@
       "summary": "Attackers are actively exploiting two chained vulnerabilities in PaperCut NG and MF to achieve unauthenticated remote code execution. PaperCut has released emergency patches and hardening measures to address the flaw.",
       "date": "2026-08-28T17:12:15.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4068c48d-b71d-46e8-9397-7cc29c1607c6",
@@ -142,7 +186,7 @@
       "summary": "PaperCut has issued an emergency advisory regarding active exploitation of critical vulnerabilities in its PaperCut NG and MF print management software. Organizations are urged to apply patches immediately to mitigate the risk of ongoing cyberattacks.",
       "date": "2026-08-28T16:30:00.000Z",
       "link": "https://therecord.media/papercut-warns-of-hackers-using-printer-management-vulnerabilities",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "730bd885-4e8d-4d57-984f-9465da7fc90e",
@@ -164,7 +208,7 @@
       "summary": "A Chinese-speaking threat actor exploited the critical CVE-2023-49105 vulnerability in ownCloud to steal sensitive records from a Philippine nuclear research organization. Consequently, CISA has added this flaw to its Known Exploited Vulnerabilities catalog.",
       "date": "2026-08-28T15:56:55.000Z",
       "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "07edeb6b-8f63-425b-a025-e9eba0ac8746",
@@ -186,7 +230,7 @@
       "summary": "An IT specialist working for the DIA's Insider Threat Division has pleaded guilty to espionage charges after leaking sensitive state secrets to foreign intelligence agents. The individual compromised national security shortly after gaining access to restricted systems.",
       "date": "2026-08-28T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d7adb46e-7d36-42d0-a7dd-69f1bab9f245",
@@ -285,7 +329,7 @@
       "summary": "Security researchers discovered two factory-installed implants in ZBT routers that grant unauthenticated remote attackers root-level command execution. These backdoors are tracked as CVE-2026-74232 and CVE-2026-74233.",
       "date": "2026-08-28T10:58:29.000Z",
       "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "64a0f910-5285-413e-ab1f-d33573afa9f7",
@@ -362,7 +406,7 @@
       "summary": "Manchester Airports Group confirmed a cyberattack that resulted in an unauthorized third party accessing the personal data of approximately 8.7 million customers across three major UK airports. The breach affected travelers using Manchester, London Stansted, and East Midlands airports.",
       "date": "2026-08-28T07:56:59.000Z",
       "link": "https://securityaffairs.com/197966/data-breach/cyberattack-on-uk-airport-operator-mag-exposes-data-of-8-7-million-customers-across-three-airports.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d19fe57-eb1f-49be-abeb-6ca135123d3d",
@@ -483,7 +527,7 @@
       "summary": "Palo Alto Networks' Unit 42 reports that the emergence of agentic AI models has shifted the security advantage toward attackers, leaving many organizations unprepared for sophisticated new threats. The warning highlights a critical transition in the threat landscape as AI-powered attacks become increasingly prevalent.",
       "date": "2026-08-27T18:31:23.000Z",
       "link": "https://cyberscoop.com/unit-42-palo-alto-networks-warning-agentic-ai-frontier-models/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4312e6f8-da55-4eb2-a5bc-6fe4851e8400",
@@ -560,7 +604,7 @@
       "summary": "This report highlights a diverse range of cyber threats including a massive IoT botnet, targeted attacks on critical infrastructure, and critical vulnerabilities in SharePoint. It also notes an increasing reliance on sophisticated social engineering tactics and evasive techniques by threat actors.",
       "date": "2026-08-27T15:12:16.000Z",
       "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bb900b07-dfed-4b53-9940-5966d7ba6da8",
@@ -681,7 +725,7 @@
       "summary": "Medical technology company Boston Scientific experienced a global network outage and operational disruption following a cyberattack. The incident impacted critical IT systems for a corporation that provides essential medical devices to millions of patients annually.",
       "date": "2026-08-27T12:00:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/27/boston-scientific-cyberattack-network-outage/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3b9e4e1d-1aae-4b22-9385-d73328a737c9",
@@ -758,7 +802,7 @@
       "summary": "CISA has added CVE-2026-8452, a memory overflow vulnerability in Citrix NetScaler ADC and Gateway, to its Known Exploited Vulnerabilities catalog after confirming active exploitation in the wild. Federal agencies have been mandated to remediate the flaw by August 29, 2026.",
       "date": "2026-08-27T09:58:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/27/netscaler-adc-gateway-cve-2026-8452/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "756e99cc-b0a3-4d50-82b8-9f695aecbf66",
@@ -5455,50 +5499,6 @@
       "summary": "Cisco has confirmed that a high-severity vulnerability, CVE-2026-20349, in its ASA and FTD software is being actively exploited to cause remote denial-of-service conditions. Unauthenticated attackers can trigger this flaw by sending specially crafted HTTP requests to the target devices.",
       "date": "2026-08-12T06:15:58.000Z",
       "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-      "isTopTen": false
-    },
-    {
-      "id": "02680fb2-49d7-4ac1-99ac-095c8fda4796",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Post-quantum migration gets harder when every user holds a key",
-      "summary": "Post-quantum migration is complicated by decentralized key management, where outdated cryptographic inventories and embedded user keys create significant technical challenges for upgrading protocols like SSH and TLS. The article emphasizes that legacy vulnerabilities, such as unmanaged admin keys and password hygiene, further impede the transition to quantum-resistant standards.",
-      "date": "2026-08-12T06:00:53.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/christopher-smith-quantus-post-quantum-migration/",
-      "isTopTen": false
-    },
-    {
-      "id": "7b59a121-9162-4b79-bc8b-c8455c84e2dc",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "PentestGPT: Open-source automated penetration testing agentic framework",
-      "summary": "PentestGPT is an automated, agentic framework that utilizes large language models to perform end-to-end penetration testing, including recon, exploitation, and reporting without human intervention.",
-      "date": "2026-08-12T05:30:45.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/pentestgpt-open-source/",
-      "isTopTen": false
-    },
-    {
-      "id": "e037934d-54ed-4322-bbc1-9adb565063f7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "338 million attack simulations reveal the state of enterprise defense",
-      "summary": "Picus Labs' Blue Report 2026 indicates that while enterprise defenses are improving against loud, overt attacks, they remain largely ineffective at detecting stealthy, quiet cyber threats. The report is based on insights gained from 338 million simulated attacks conducted in production environments.",
-      "date": "2026-08-12T05:00:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/picus-security-blue-report-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "3ef56cba-7269-47b4-a247-78ff4310d989",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Ready-made $500 kit puts a crypto scam within anyone’s reach",
-      "summary": "A $500 ready-made scam kit found on a cybercrime forum enables attackers to conduct sophisticated cryptocurrency fraud through fake account balances and wallet tracking. This development highlights the increasing accessibility of complex financial scams through affordable, pre-packaged tools.",
-      "date": "2026-08-12T04:30:27.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/crypto-scam-kit-cybercrime-forum/",
       "isTopTen": false
     }
   ]
