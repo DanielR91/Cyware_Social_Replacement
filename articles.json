@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-30T11:37:35.526Z",
+  "lastUpdated": "2026-08-30T16:24:13.500Z",
   "articles": [
+    {
+      "id": "bd72b72b-2bd8-4be5-9c41-12d07cc7085c",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 112",
+      "summary": "This newsletter provides a comprehensive overview of recent malware trends, including a state-sponsored campaign targeting Myanmar diplomats and the emergence of AI-enhanced threats. It highlights critical research on new remote access trojans and delivery methods used by sophisticated threat actors.",
+      "date": "2026-08-30T12:31:00.000Z",
+      "link": "https://securityaffairs.com/198133/malware/security-affairs-malware-newsletter-round-112.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e2bfb5d4-5774-4687-a40d-2dd4c738d14c",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers Are Probing PaperCut Servers, and 47% Still Have No Patch",
+      "summary": "PaperCut print management servers are facing active exploitation from a pre-authentication remote code execution flaw, with nearly half of all installations remaining unpatched. The vulnerability poses a significant risk to the schools, hospitals, and offices that rely on this software.",
+      "date": "2026-08-30T11:26:29.000Z",
+      "link": "https://securityaffairs.com/198107/uncategorized/hackers-are-probing-papercut-servers-and-47-still-have-no-patch.html",
+      "isTopTen": true
+    },
     {
       "id": "2f89987c-e40f-41c8-b550-b0393edc46be",
       "source": "Security Affairs",
@@ -76,7 +98,7 @@
       "summary": "The Rhysida ransomware group has targeted the Berlin state government, claiming to have stolen 5.79 TB of data ahead of upcoming elections. Officials have confirmed the incident but have officially refused to pay the ransom demand.",
       "date": "2026-08-29T10:55:47.000Z",
       "link": "https://securityaffairs.com/198064/cyber-crime/rhysida-ransomware-group-targets-berlin-government-ahead-of-vote.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b34b55ad-ba18-4737-a569-158689372d8c",
@@ -98,7 +120,7 @@
       "summary": "New research identifies that LLM safety mechanisms reside in a vulnerable, thin neural layer, suggesting that current AI defenses can be easily bypassed. This finding underscores the necessity of implementing multi-layered, external security protocols to protect AI systems.",
       "date": "2026-08-28T22:00:07.000Z",
       "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4d8626ba-0c77-44ab-82f6-dced81453aac",
@@ -131,7 +153,7 @@
       "summary": "A critical balance-handling flaw in the Cosmos EVM module was exploited to drain funds from six blockchains after Cosmos Labs failed to timely address the known vulnerability. The exploit occurred between August 20 and August 25, 2026, affecting versions prior to 0.6.2.",
       "date": "2026-08-28T20:38:47.000Z",
       "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a70075c2-677d-4e2b-93bd-e2f97e513855",
@@ -142,7 +164,7 @@
       "summary": "The ATF confirmed a cyberattack involving a standalone system containing information on investigation targets, with the ransomware group Qilin claiming responsibility. The agency maintains that the incident did not disrupt critical operations.",
       "date": "2026-08-28T20:29:38.000Z",
       "link": "https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "407926b4-7ffe-4d86-83e9-0c9b93f81d14",
@@ -186,7 +208,7 @@
       "summary": "PaperCut has issued an emergency advisory regarding active exploitation of critical vulnerabilities in its PaperCut NG and MF print management software. Organizations are urged to apply patches immediately to mitigate the risk of ongoing cyberattacks.",
       "date": "2026-08-28T16:30:00.000Z",
       "link": "https://therecord.media/papercut-warns-of-hackers-using-printer-management-vulnerabilities",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "730bd885-4e8d-4d57-984f-9465da7fc90e",
@@ -208,7 +230,7 @@
       "summary": "A Chinese-speaking threat actor exploited the critical CVE-2023-49105 vulnerability in ownCloud to steal sensitive records from a Philippine nuclear research organization. Consequently, CISA has added this flaw to its Known Exploited Vulnerabilities catalog.",
       "date": "2026-08-28T15:56:55.000Z",
       "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "07edeb6b-8f63-425b-a025-e9eba0ac8746",
@@ -230,7 +252,7 @@
       "summary": "An IT specialist working for the DIA's Insider Threat Division has pleaded guilty to espionage charges after leaking sensitive state secrets to foreign intelligence agents. The individual compromised national security shortly after gaining access to restricted systems.",
       "date": "2026-08-28T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7adb46e-7d36-42d0-a7dd-69f1bab9f245",
@@ -527,7 +549,7 @@
       "summary": "Palo Alto Networks' Unit 42 reports that the emergence of agentic AI models has shifted the security advantage toward attackers, leaving many organizations unprepared for sophisticated new threats. The warning highlights a critical transition in the threat landscape as AI-powered attacks become increasingly prevalent.",
       "date": "2026-08-27T18:31:23.000Z",
       "link": "https://cyberscoop.com/unit-42-palo-alto-networks-warning-agentic-ai-frontier-models/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4312e6f8-da55-4eb2-a5bc-6fe4851e8400",
@@ -549,7 +571,7 @@
       "summary": "A lawsuit alleges that Elon Musk's Grok AI model was trained on non-consensual imagery of sexual abuse victims, contradicting claims that the platform is free of child sexual abuse material.",
       "date": "2026-08-27T17:12:38.000Z",
       "link": "https://cyberscoop.com/xai-grok-csam-class-action-lawsuit/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cb73b276-243a-4606-9803-d01f0f476605",
@@ -604,7 +626,7 @@
       "summary": "This report highlights a diverse range of cyber threats including a massive IoT botnet, targeted attacks on critical infrastructure, and critical vulnerabilities in SharePoint. It also notes an increasing reliance on sophisticated social engineering tactics and evasive techniques by threat actors.",
       "date": "2026-08-27T15:12:16.000Z",
       "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bb900b07-dfed-4b53-9940-5966d7ba6da8",
@@ -725,7 +747,7 @@
       "summary": "Medical technology company Boston Scientific experienced a global network outage and operational disruption following a cyberattack. The incident impacted critical IT systems for a corporation that provides essential medical devices to millions of patients annually.",
       "date": "2026-08-27T12:00:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/27/boston-scientific-cyberattack-network-outage/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3b9e4e1d-1aae-4b22-9385-d73328a737c9",
@@ -5477,28 +5499,6 @@
       "summary": "Microsoft's August 2026 Patch Tuesday addressed 398 vulnerabilities, headlined by an actively exploited zero-day and a wormable remote code execution flaw in DNS. The update encompasses a broad range of products including Windows, Azure, and Office.",
       "date": "2026-08-12T06:49:55.000Z",
       "link": "https://securityaffairs.com/197048/security/microsoft-patch-tuesday-for-august-2026-fixed-a-zero-day-and-wormable-rce.html",
-      "isTopTen": false
-    },
-    {
-      "id": "988cd2ac-0f3e-498e-ad7c-86d5618fcdaa",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-      "summary": "A security researcher known as Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day exploit that bypasses a patch for a previous Microsoft Defender vulnerability to gain SYSTEM-level access.",
-      "date": "2026-08-12T06:41:38.000Z",
-      "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3685b716-22bb-40f8-816d-3e5a1399acc4",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-      "summary": "Cisco has confirmed that a high-severity vulnerability, CVE-2026-20349, in its ASA and FTD software is being actively exploited to cause remote denial-of-service conditions. Unauthenticated attackers can trigger this flaw by sending specially crafted HTTP requests to the target devices.",
-      "date": "2026-08-12T06:15:58.000Z",
-      "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
       "isTopTen": false
     }
   ]
