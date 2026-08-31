@@ -1,6 +1,215 @@
 {
-  "lastUpdated": "2026-08-31T04:44:35.757Z",
+  "lastUpdated": "2026-08-31T13:16:11.601Z",
   "articles": [
+    {
+      "id": "c154e31f-f472-4b9a-9f67-3e9e73e9a03c",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Pharmaceutical giant McKesson warns of 'service degradation' following cyberattack",
+      "summary": "Pharmaceutical giant McKesson is investigating a cybersecurity incident involving a third-party application that has resulted in service degradation. The company has formally notified regulators as it begins its response efforts.",
+      "date": "2026-08-31T12:45:00.000Z",
+      "link": "https://therecord.media/mckesson-cyberattack-ransomware-pharma",
+      "isTopTen": false
+    },
+    {
+      "id": "7a0ee4a6-f53a-4931-a557-75dea8ee3660",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Slovenian casinos reopen after cyberattack knocked gaming systems offline",
+      "summary": "One of Slovenia's major gambling groups has resumed operations after a cyberattack forced a multi-day shutdown of their gaming systems. The incident disrupted the company's tourism and casino services before systems were gradually restored.",
+      "date": "2026-08-31T12:30:00.000Z",
+      "link": "https://therecord.media/slovenia-cyberattack-casinos-reopen",
+      "isTopTen": false
+    },
+    {
+      "id": "13fb58bc-4c0f-463b-9ec8-8d73f25c8e3f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+      "summary": "The threat actor Silver Fox is distributing the ValleyRAT backdoor by disguising it as a signed Chinese adware application named QN Wallpaper. Attackers leverage user-added antivirus exclusions to execute the malicious code under a trusted process.",
+      "date": "2026-08-31T12:14:00.000Z",
+      "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+      "isTopTen": false
+    },
+    {
+      "id": "849175ad-e3ff-49f4-bb72-32a41760b61d",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AWS Console Private Access can block sign-ins to personal accounts",
+      "summary": "AWS has launched Console Private Access, a feature that allows organizations to restrict AWS Management Console access to specific accounts by routing traffic through PrivateLink. This mechanism prevents users from accessing personal AWS accounts while connected to a corporate network.",
+      "date": "2026-08-31T11:57:21.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/31/amazon-aws-console-private-access/",
+      "isTopTen": false
+    },
+    {
+      "id": "423e9e4f-869a-413a-ad41-a463eba9ef2b",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "ShinyHunters claims it stole 284 million patient records from McKesson",
+      "summary": "The hacker group ShinyHunters claims to have stolen 284 million patient records from the healthcare company McKesson following a security breach involving third-party applications. McKesson is currently investigating the incident, which was officially detected on August 25, 2026.",
+      "date": "2026-08-31T11:57:08.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/",
+      "isTopTen": true
+    },
+    {
+      "id": "2b316707-7dd4-4630-92b4-909479560319",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+      "summary": "Aurora ransomware operators are leveraging the AI-powered coding assistant Cursor to facilitate unauthorized network intrusions against selected targets. This development highlights the growing adoption of legitimate AI tools by threat actors to streamline their attack workflows.",
+      "date": "2026-08-31T11:47:24.000Z",
+      "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+      "isTopTen": false
+    },
+    {
+      "id": "e30f50b7-1fb0-489d-bfc0-7f34127f8998",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+      "summary": "Anthropic has introduced Compliance API endpoints for Claude Code to improve visibility into agent activity on developer machines, highlighting the ongoing challenge of distinguishing legitimate AI agent actions from unauthorized use.",
+      "date": "2026-08-31T11:31:47.000Z",
+      "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a9b3a063-c4b7-43f8-98ce-32dbc73b9b9c",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Anthropic locks out Claude users after infostealers hijack login sessions",
+      "summary": "Anthropic is forcing password resets for Claude users whose session cookies were compromised by infostealer malware, including Vidar, Lumma, and Atomic Stealer. The incident stems from users downloading malicious software that allows attackers to hijack active login sessions.",
+      "date": "2026-08-31T11:30:47.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/31/claude-accounts-compromised-through-infostealer/",
+      "isTopTen": false
+    },
+    {
+      "id": "17428a47-c6b0-489e-98e6-409ede9d80eb",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "China-linked Fire Ant Hides Inside Trusted Infrastructure",
+      "summary": "The China-linked threat actor Fire Ant has shifted its focus to compromising critical infrastructure, specifically hijacking Cisco routers to steal credentials and obfuscate their presence within high-value networks.",
+      "date": "2026-08-31T11:10:44.000Z",
+      "link": "https://securityaffairs.com/198183/apt/china-linked-fire-ant-hides-inside-trusted-infrastructure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "2bbda383-73cc-4a85-bfb5-6397f64619c2",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Spring Ring: An Inside Look at Voice Phishing Campaigns in Microsoft Teams",
+      "summary": "The Spring Ring campaign utilizes voice phishing tactics within Microsoft Teams to compromise enterprise domain controllers and deliver malware. This attack vector highlights a significant risk to organizations leveraging collaboration platforms.",
+      "date": "2026-08-31T10:00:36.000Z",
+      "link": "https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/",
+      "isTopTen": false
+    },
+    {
+      "id": "08fa11f9-3b81-42dd-afb6-252e1331273d",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "The AI Kill Switch Act is repeating the Clipper Chip’s mistakes",
+      "summary": "Critics argue that the proposed AI Kill Switch Act mirrors historical failed encryption mandates, potentially compromising infrastructure security and hindering domestic technological innovation.",
+      "date": "2026-08-31T10:00:00.000Z",
+      "link": "https://cyberscoop.com/ai-kill-switch-act-clipper-chip-mistakes-op-ed/",
+      "isTopTen": false
+    },
+    {
+      "id": "4cb08250-e01b-4a22-9b0a-994db4c3c7ce",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Russian hackers plant nuclear weapon prompt in malware to trip AI safety guardrails",
+      "summary": "Russian-linked threat actor UAC-0099 is embedding manipulative prompts within malware scripts to trigger AI safety guardrails, effectively obstructing automated security analysis tools. This novel technique, dubbed GuardBreaker, aims to interfere with the detection of malicious activity in Ukraine.",
+      "date": "2026-08-31T09:45:02.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/31/russian-hackers-ai-safety-filters-manipulation/",
+      "isTopTen": true
+    },
+    {
+      "id": "c5d273a7-51c6-4cd6-a378-59a6c39d3f8b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Infostealers Are Hijacking Claude Sessions and Draining Subscriptions",
+      "summary": "Infostealer malware is hijacking active Claude sessions to bypass multi-factor authentication and misuse paid subscriptions. Anthropic is responding by revoking compromised sessions and providing refunds for unauthorized charges.",
+      "date": "2026-08-31T09:17:31.000Z",
+      "link": "https://securityaffairs.com/198166/ai/infostealers-are-hijacking-claude-sessions-and-draining-subscriptions.html",
+      "isTopTen": false
+    },
+    {
+      "id": "801565b5-14f0-4661-bdd2-f6d592576b3a",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+      "summary": "The China-linked threat actor Fire Ant has extended its espionage activities to compromise Cisco routers, authentication servers, and Linux hosts to steal credentials and evade detection. This campaign targets critical network infrastructure to maintain unauthorized access and bypass security monitoring.",
+      "date": "2026-08-31T09:04:55.000Z",
+      "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+      "isTopTen": true
+    },
+    {
+      "id": "f9db1aa5-6ee6-4ec5-9539-ec3cb2f0e397",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Debian developers rejected an LLM ban and left disclosure voluntary",
+      "summary": "Debian developers have voted to reject a ban on Large Language Models (LLMs) in code contributions, opting instead to make AI disclosure voluntary. This policy maintains current review processes without requiring contributors to identify if code was generated by AI.",
+      "date": "2026-08-31T08:08:47.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/31/debian-linux-llm-policy/",
+      "isTopTen": false
+    },
+    {
+      "id": "f4716dca-73aa-4280-ad5c-7f5c3ea3bd41",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+      "summary": "The U.S. Department of Justice issued a correction clarifying that several federal agencies were targeted by Chinese threat actors, rather than confirmed victims of a breach.",
+      "date": "2026-08-31T07:56:53.000Z",
+      "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
+      "isTopTen": false
+    },
+    {
+      "id": "edf9e0d8-7639-41df-91f8-c2f42b332fd4",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical GiveWP Flaw Lets Attackers Run Commands on WordPress Servers",
+      "summary": "A critical PHP object injection vulnerability in the GiveWP WordPress plugin allows unauthenticated attackers to execute arbitrary commands on affected servers. The flaw has been patched in version 4.16.7.2.",
+      "date": "2026-08-31T07:41:24.000Z",
+      "link": "https://securityaffairs.com/198156/security/critical-givewp-flaw-lets-attackers-run-commands-on-wordpress-servers.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a8f82656-9582-48cf-bedc-490380f4efb6",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "The OpenClaw 2.0 release moves your sessions into SQLite",
+      "summary": "OpenClaw 2.0 has introduced a significant architecture change by migrating user session data into an SQLite database. Users are advised to review the impact of this upgrade on their data storage before proceeding with the installation.",
+      "date": "2026-08-31T07:24:39.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/31/openclaw-2-0-released/",
+      "isTopTen": false
+    },
+    {
+      "id": "dd0dc52e-5ab8-4177-83a4-dc6d5f4b9e3a",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree",
+      "summary": "Dr. Joye Purser of Cohesity outlines a prioritization strategy for vulnerabilities that integrates KEV, EPSS, and CVSS data while emphasizing business context and active threat intelligence. The framework prioritizes exploited internet-facing systems with recommended remediation timelines of 24 to 72 hours.",
+      "date": "2026-08-31T06:00:37.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/",
+      "isTopTen": false
+    },
     {
       "id": "95f94065-e0f3-4b5b-bd08-58ce61ecb071",
       "source": "Help Net Security",
@@ -43,7 +252,7 @@
       "summary": "PaperCut print management servers are facing active exploitation from a pre-authentication remote code execution flaw, with nearly half of all installations remaining unpatched. The vulnerability poses a significant risk to the schools, hospitals, and offices that rely on this software.",
       "date": "2026-08-30T11:26:29.000Z",
       "link": "https://securityaffairs.com/198107/uncategorized/hackers-are-probing-papercut-servers-and-47-still-have-no-patch.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2f89987c-e40f-41c8-b550-b0393edc46be",
@@ -219,7 +428,7 @@
       "summary": "Attackers are actively exploiting two chained vulnerabilities in PaperCut NG and MF to achieve unauthenticated remote code execution. PaperCut has released emergency patches and hardening measures to address the flaw.",
       "date": "2026-08-28T17:12:15.000Z",
       "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4068c48d-b71d-46e8-9397-7cc29c1607c6",
@@ -274,7 +483,7 @@
       "summary": "An IT specialist working for the DIA's Insider Threat Division has pleaded guilty to espionage charges after leaking sensitive state secrets to foreign intelligence agents. The individual compromised national security shortly after gaining access to restricted systems.",
       "date": "2026-08-28T15:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7adb46e-7d36-42d0-a7dd-69f1bab9f245",
@@ -571,7 +780,7 @@
       "summary": "Palo Alto Networks' Unit 42 reports that the emergence of agentic AI models has shifted the security advantage toward attackers, leaving many organizations unprepared for sophisticated new threats. The warning highlights a critical transition in the threat landscape as AI-powered attacks become increasingly prevalent.",
       "date": "2026-08-27T18:31:23.000Z",
       "link": "https://cyberscoop.com/unit-42-palo-alto-networks-warning-agentic-ai-frontier-models/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4312e6f8-da55-4eb2-a5bc-6fe4851e8400",
@@ -648,7 +857,7 @@
       "summary": "This report highlights a diverse range of cyber threats including a massive IoT botnet, targeted attacks on critical infrastructure, and critical vulnerabilities in SharePoint. It also notes an increasing reliance on sophisticated social engineering tactics and evasive techniques by threat actors.",
       "date": "2026-08-27T15:12:16.000Z",
       "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bb900b07-dfed-4b53-9940-5966d7ba6da8",
@@ -5290,215 +5499,6 @@
       "summary": "Deloitte has expanded its AI Controls and Assurance services to help enterprises securely govern and deploy AI technologies throughout their lifecycle. The initiative aims to address the significant gap between corporate interest in agentic AI and current organizational readiness.",
       "date": "2026-08-12T13:28:05.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/",
-      "isTopTen": false
-    },
-    {
-      "id": "aaa86488-77c7-4191-abc1-c76b3ccebd59",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Three intrusions at UK criminal records office went undetected for two years",
-      "summary": "Britain's ACRO criminal records office suffered three data breaches over two years due to ignored antivirus alerts and unpatched software. The incident resulted in a formal reprimand due to the significant delay in detecting the unauthorized access.",
-      "date": "2026-08-12T13:00:00.000Z",
-      "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-      "isTopTen": false
-    },
-    {
-      "id": "cd323d8b-ee38-4729-9661-d0892b2f4cc4",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Akira ransomware scum blocked victim's security tools – and broke their own encryptor",
-      "summary": "The Akira ransomware group accidentally crippled their own encryption process after successfully disabling the victim's security software. This operational error effectively halted the attack, leaving the targeted system's data intact.",
-      "date": "2026-08-12T13:00:00.000Z",
-      "link": "https://www.theregister.com/research/2026/08/12/akira-ransomware-scum-blocked-victims-security-tools-and-broke-their-own-encryptor/5286515",
-      "isTopTen": false
-    },
-    {
-      "id": "2260c7f2-65ba-4864-ada4-0b6e5b1b9f5e",
-      "source": "The Record",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft’s massive Patch Tuesday releases continue as AI reshapes bug discovery",
-      "summary": "Microsoft has significantly increased its Patch Tuesday volume, releasing five times the usual number of security updates due to the integration of AI-assisted vulnerability discovery. This shift highlights a new era of accelerated bug identification and patching cycles.",
-      "date": "2026-08-12T12:38:00.000Z",
-      "link": "https://therecord.media/microsoft-massive-patch-tuesday-releases-continue-ai",
-      "isTopTen": false
-    },
-    {
-      "id": "c7ac2bb8-f6a5-4fc8-b0e8-df0a27e30921",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Critical",
-      "title": "CISA gives federal agencies two weeks to patch Microsoft bug exploited in DPRK campaign",
-      "summary": "CISA has mandated that federal agencies address a Microsoft vulnerability within two weeks following its exploitation by North Korean actors targeting job application processes.",
-      "date": "2026-08-12T12:06:00.000Z",
-      "link": "https://therecord.media/cisa-gives-federal-agencies-two-weeks-to-patch-dprk-microsoft-bug",
-      "isTopTen": false
-    },
-    {
-      "id": "08053627-f9b3-49f2-ae04-59657263bd33",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Lazarus hackers pair fake job offers with Windows zero-day exploit",
-      "summary": "The Lazarus group is targeting the defense sector by distributing trojanized software and a Windows zero-day exploit disguised as legitimate job offers from companies like Lockheed Martin. This ongoing campaign, known as Operation Dream Job, leverages social engineering to deliver malicious payloads.",
-      "date": "2026-08-12T11:48:17.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/",
-      "isTopTen": false
-    },
-    {
-      "id": "ed8f9eb4-cd28-475c-b806-27cbc86d1749",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "summary": "A vulnerability in OpenAI, Anthropic, and Google's reasoning APIs allowed researchers to replay encrypted session data to extract sensitive information, including internal reasoning logs, API keys, and passwords.",
-      "date": "2026-08-12T11:47:38.000Z",
-      "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "isTopTen": false
-    },
-    {
-      "id": "db3f56f2-d534-404f-80cb-04abafaeca93",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
-      "summary": "The Picus Labs Blue Report 2026 reveals that while enterprise perimeter defenses are successfully blocking noisy attacks, organizations remain vulnerable to stealthy, silent threats operating within their internal environments. Data suggests that attackers are increasingly succeeding by avoiding detection mechanisms that rely on high-volume alerts.",
-      "date": "2026-08-12T11:41:34.000Z",
-      "link": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
-      "isTopTen": false
-    },
-    {
-      "id": "92ae252c-f1ae-4f28-a166-423c3df519be",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Brit rail cops bring live facial recognition to the London Underground",
-      "summary": "British Transport Police have implemented live facial recognition technology at Victoria station, marking the start of its deployment across the London Underground. This expansion has drawn criticism from privacy advocates concerned about the normalization of mass surveillance.",
-      "date": "2026-08-12T11:19:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/12/brit-rail-cops-bring-live-facial-recognition-to-the-london-underground/5286697",
-      "isTopTen": false
-    },
-    {
-      "id": "fe669afd-a1b3-42f8-9d82-0b17b2865501",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-      "summary": "Adobe has released critical security patches for ColdFusion, Commerce, and Campaign Classic to address vulnerabilities, including three flaws rated with a maximum CVSS score of 10.0, which could lead to arbitrary code execution. These updates are essential to prevent potential exploitation of command injection and privilege escalation risks.",
-      "date": "2026-08-12T11:13:03.000Z",
-      "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b3834798-16ff-4fe6-86d1-16aba867c34d",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft patches 400+ vulnerabilities, one zero-day under attack (CVE-2026-68820)",
-      "summary": "Microsoft's August 2026 Patch Tuesday addressed over 400 vulnerabilities, including a zero-day flaw (CVE-2026-68820) in the Windows AFD.sys driver that enables local privilege escalation to SYSTEM.",
-      "date": "2026-08-12T09:34:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
-      "isTopTen": false
-    },
-    {
-      "id": "77f0df5d-dab5-4d56-a759-491107a223f2",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-      "summary": "Threat actors are actively exploiting a critical directory-traversal vulnerability (CVE-2026-59310) in VMware vCenter that allows for arbitrary code execution and persistent remote access. Security teams are urged to apply the recently released patches immediately to mitigate the risk.",
-      "date": "2026-08-12T09:01:54.000Z",
-      "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3f750677-7dd9-4315-81bb-b95bbc74fc03",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "ConnectSecure helps MSPs automate Microsoft 365 security remediation",
-      "summary": "ConnectSecure has launched Microsoft 365 Auto Remediation and AI-powered Training Assessments to help MSPs automate security fixes and streamline client training. This platform update aims to improve the security posture of managed service providers through unified, proactive management.",
-      "date": "2026-08-12T09:00:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/connectsecure-microsoft-365-auto-remediation-training-assessments/",
-      "isTopTen": false
-    },
-    {
-      "id": "e3c1bae2-33b8-4b32-a3b2-036f0e9db9f5",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "CBTS brings continuous penetration testing to enterprise security",
-      "summary": "CBTS has introduced Penetration Testing as a Service (PTaaS), a solution designed to provide continuous security testing and risk remediation for evolving enterprise environments. This service aims to address the rapid expansion of attack surfaces, such as cloud and AI systems, by replacing traditional, periodic testing cycles.",
-      "date": "2026-08-12T08:53:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/cbts-penetration-testing-as-a-service-ptaas/",
-      "isTopTen": false
-    },
-    {
-      "id": "87147cd9-e2a6-46ed-bbd3-99cfb9a1717c",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Crytica’s RDAi detects OT device tampering from within",
-      "summary": "Crytica Security has launched RDAi, a solution designed to provide rapid, deterministic threat detection for operational technology (OT) to protect critical infrastructure from tampering. This release addresses the rising urgency of securing embedded systems against increasingly sophisticated AI-driven cyberattacks.",
-      "date": "2026-08-12T08:40:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/crytica-security-rapid-detection-alert-and-isolation-rdai/",
-      "isTopTen": false
-    },
-    {
-      "id": "fb1c7a95-e52d-4009-9fbe-ec82f967371a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Chrome’s anti-abuse protections block 7 billion unwanted Android notifications daily",
-      "summary": "Google Chrome has implemented new anti-abuse measures that automatically revoke notification permissions for suspicious or inactive websites, successfully blocking 7 billion unwanted notifications daily. This initiative aims to protect Android users from phishing, scams, and deceptive content delivered through web push notifications.",
-      "date": "2026-08-12T08:36:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/google-chrome-abusive-web-push-notifications/",
-      "isTopTen": false
-    },
-    {
-      "id": "4736037b-d84b-4dda-b661-375e602d29f0",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Kimwolf v7 Hides DDoS Traffic Behind Chrome Fingerprints and Ethereum",
-      "summary": "Palo Alto Networks Unit 42 discovered Kimwolf v7, an upgraded Android TV botnet that now conceals its DDoS traffic using Chrome browser fingerprints and Ethereum blockchain infrastructure.",
-      "date": "2026-08-12T08:27:13.000Z",
-      "link": "https://securityaffairs.com/197070/malware/kimwolf-v7-hides-ddos-traffic-behind-chrome-fingerprints-and-ethereum.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fa64f746-49bd-4dd3-ad3a-59bec6f00590",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "ShieldBreak: New Windows Zero-Day Bypasses Microsoft’s RoguePlanet Patch",
-      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept for 'ShieldBreak,' a zero-day vulnerability in Microsoft Defender that bypasses the patch for the RoguePlanet (CVE-2026-50656) race condition and enables SYSTEM-level code execution.",
-      "date": "2026-08-12T08:07:15.000Z",
-      "link": "https://securityaffairs.com/197063/hacking/shieldbreak-new-windows-zero-day-bypasses-microsofts-rogueplanet-patch.html",
-      "isTopTen": false
-    },
-    {
-      "id": "71ca95cf-0f30-4665-992a-eaca9ea18381",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-      "summary": "Two malicious releases of the LiteLLM library were uploaded to PyPI, enabling attackers to harvest sensitive cloud and infrastructure credentials from over 2,100 organizations. The breach, linked to the Trivy compromise, resulted in the exfiltration of a massive dataset containing thousands of files.",
-      "date": "2026-08-12T08:04:52.000Z",
-      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "00af7a7d-027d-40f4-9549-843e8a5e0674",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Split-second deepfake glitch blows digital certificate fraudster’s cover",
-      "summary": "Spanish police arrested a man for attempting to bypass digital identity verification checks using deepfake software to commit financial fraud. The scheme was thwarted after a technical glitch during a deepfake video session alerted authorities to the fraudulent activity.",
-      "date": "2026-08-12T07:50:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/12/deepfake-video-identity-verification-fraud-arrest-spain/",
       "isTopTen": false
     }
   ]
