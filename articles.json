@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-09-01T18:20:01.245Z",
+  "lastUpdated": "2026-09-01T23:13:06.798Z",
   "articles": [
+    {
+      "id": "5847295e-10bd-491a-a995-337eaae6d00b",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "FBI raises alarm over deceptive phishing campaign targeting prominent people",
+      "summary": "The FBI has issued a warning regarding a sophisticated social engineering phishing campaign targeting high-profile individuals to gain persistent account access. This ongoing threat, which has been active since late 2025, utilizes deceptive tactics to compromise victim accounts.",
+      "date": "2026-09-01T21:30:45.000Z",
+      "link": "https://cyberscoop.com/fbi-alert-oauth-consent-phishing-campaign/",
+      "isTopTen": false
+    },
+    {
+      "id": "033eb0bc-0d6f-47d7-a1e7-48b68f178138",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Another Artifactory CVE under attack by AI agents or humans",
+      "summary": "JFrog Artifactory servers are facing active exploitation by unauthorized actors who are leveraging a critical vulnerability to mint administrative tokens. The flaw allows unauthenticated attackers to gain full control over exposed instances.",
+      "date": "2026-09-01T21:07:13.000Z",
+      "link": "https://www.theregister.com/security/2026/09/01/another-artifactory-cve-under-attack-by-ai-agents-or-humans/5293769",
+      "isTopTen": false
+    },
+    {
+      "id": "869da19b-a111-4b67-96fc-c4581db6f847",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Attacker stole a METR API key, used $600K worth of credits, and no one noticed for weeks",
+      "summary": "An attacker compromised a METR API key to consume $600,000 in free model credits, remaining undetected for several weeks due to a lack of usage monitoring. The incident highlights the severe financial risks associated with insecure API management and inadequate anomaly detection for cloud-based services.",
+      "date": "2026-09-01T20:45:00.000Z",
+      "link": "https://www.theregister.com/security/2026/09/01/attacker-stole-a-metr-api-key-used-600k-worth-of-credits-and-no-one-noticed-for-weeks/5293730",
+      "isTopTen": false
+    },
+    {
+      "id": "19f23bab-d33b-4ee2-bda2-b011b058a645",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "China's 'Fire Ant' campaign used compromised Cisco routers as platform for more attacks",
+      "summary": "The 'Fire Ant' hacking campaign linked to China utilized compromised Cisco routers as a strategic platform to launch further attacks by undermining the trust layer of network infrastructure.",
+      "date": "2026-09-01T20:35:00.000Z",
+      "link": "https://therecord.media/router-hacks-fire-ant-group-china",
+      "isTopTen": false
+    },
+    {
+      "id": "75de3e6f-0ade-4c05-9a02-594647f3ac30",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Tina Peters, through attorney, backs off formal role in Shasta County elections",
+      "summary": "Tina Peters has withdrawn from a formal role in Shasta County elections, though she continues to advocate for the discontinuation of electronic voting systems.",
+      "date": "2026-09-01T20:24:15.000Z",
+      "link": "https://cyberscoop.com/tina-peters-shasta-county-election-role/",
+      "isTopTen": false
+    },
+    {
+      "id": "e98a03b2-676f-4d15-b9e3-220c45528240",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Firefox helps iPhone users bypass ads on web sites while making money showing its own ads",
+      "summary": "Firefox has begun rolling out an ad-blocking feature for its iOS browser, which is disabled by default and allows users to bypass third-party advertisements. The update has sparked discussion regarding the company's strategy of displaying its own promotional content while enabling ad-blocking capabilities.",
+      "date": "2026-09-01T20:17:31.000Z",
+      "link": "https://www.theregister.com/security/2026/09/01/firefox-helps-iphone-users-bypass-ads-on-web-sites-while-making-money-showing-its-own-ads/5293747",
+      "isTopTen": false
+    },
+    {
+      "id": "348244ab-4ab6-49ca-a101-efa72d21b5b8",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Anthropic pledges to try harder to keep models under control, asks partners to chip in",
+      "summary": "Anthropic has committed to enhancing the security and control of its AI models, requesting increased collaboration from its industry partners to improve safety standards. The initiative follows ongoing concerns regarding the mitigation of potential risks posed by large-scale AI systems.",
+      "date": "2026-09-01T19:27:23.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733",
+      "isTopTen": false
+    },
     {
       "id": "ed995a45-5c3a-4a20-86fc-40c7aa265134",
       "source": "The Hacker News",
@@ -54,7 +131,7 @@
       "summary": "Aesto Health suffered a major data breach involving unauthorized access to its AWS infrastructure, resulting in the exposure of personal and health information for over 9.5 million individuals.",
       "date": "2026-09-01T15:12:55.000Z",
       "link": "https://securityaffairs.com/198250/data-breach/attackers-access-aesto-health-aws-infrastructure-exposing-9-5-million-records.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4bce4929-50e3-459b-8c03-0c320883799e",
@@ -65,7 +142,7 @@
       "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit named 'PrettyPrague' for a privilege escalation zero-day vulnerability affecting GenDigital's Avast Antivirus.",
       "date": "2026-09-01T14:33:00.000Z",
       "link": "https://securityaffairs.com/198243/hacking/chaotic-eclipse-releases-gendigital-avast-antivirus-zeroday-prettyprague.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cc8e3617-8b94-4b03-9216-9276b61dc5a6",
@@ -76,7 +153,7 @@
       "summary": "Cybersecurity researchers discovered 13 malicious Composer packages on Packagist that inject JavaScript into streaming sites to facilitate ad-fraud and deploy spyware targeting unpatched iOS devices. The attack chain aims to compromise mobile users and potentially exfiltrate cryptocurrency wallet seeds.",
       "date": "2026-09-01T14:07:20.000Z",
       "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8bf2c652-a5a2-4716-a0f8-6a508433cb20",
@@ -98,7 +175,7 @@
       "summary": "A federal whistleblower alleges that the USPS is implementing untested IT systems for mail-in ballots, which could potentially result in the rejection of thousands of votes. The claim highlights concerns regarding the reliability and security of infrastructure critical to the electoral process.",
       "date": "2026-09-01T13:58:05.000Z",
       "link": "https://cyberscoop.com/usps-whistleblower-ballot-system-2026-midterms/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d36392e8-adac-4091-9633-0c0824f2a97f",
@@ -186,7 +263,7 @@
       "summary": "Security firm Huntress has documented five cases of North Korea-linked workers infiltrating Western companies using fake identities and remote-access tools in 2026. This highlights an ongoing trend of DPRK-aligned actors successfully bypassing hiring processes to gain unauthorized corporate access.",
       "date": "2026-09-01T11:08:54.000Z",
       "link": "https://securityaffairs.com/198227/apt/north-korea-linked-it-workers-are-getting-hired-inside-western-companies.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "467e0c4f-e3ae-4041-9e46-27ae3bbec2f1",
@@ -252,7 +329,7 @@
       "summary": "CISA has added the pre-authentication remote code execution vulnerability CVE-2026-81578 affecting PaperCut NG/MF software to its Known Exploited Vulnerabilities catalog. This addition mandates federal agencies to remediate the flaw due to evidence of active exploitation.",
       "date": "2026-09-01T08:13:38.000Z",
       "link": "https://securityaffairs.com/198200/security/u-s-cisa-adds-papercut-ng-mf-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "59a08895-6d60-4529-a52b-2d4d6d402658",
@@ -428,7 +505,7 @@
       "summary": "North Korean threat actors are expanding their long-running IT worker fraud scheme to infiltrate the healthcare, sales, and marketing sectors. This diversification signifies a broadening insider threat aimed at securing employment and potential unauthorized access across non-technical industries.",
       "date": "2026-08-31T17:24:28.000Z",
       "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ca03176-0946-48ca-8d7f-cf60106a2443",
@@ -582,7 +659,7 @@
       "summary": "The China-linked threat actor Fire Ant has shifted its focus to compromising critical infrastructure, specifically hijacking Cisco routers to steal credentials and obfuscate their presence within high-value networks.",
       "date": "2026-08-31T11:10:44.000Z",
       "link": "https://securityaffairs.com/198183/apt/china-linked-fire-ant-hides-inside-trusted-infrastructure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2bbda383-73cc-4a85-bfb5-6397f64619c2",
@@ -637,7 +714,7 @@
       "summary": "The China-linked threat actor Fire Ant has extended its espionage activities to compromise Cisco routers, authentication servers, and Linux hosts to steal credentials and evade detection. This campaign targets critical network infrastructure to maintain unauthorized access and bypass security monitoring.",
       "date": "2026-08-31T09:04:55.000Z",
       "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f9db1aa5-6ee6-4ec5-9539-ec3cb2f0e397",
@@ -736,7 +813,7 @@
       "summary": "PaperCut print management servers are facing active exploitation from a pre-authentication remote code execution flaw, with nearly half of all installations remaining unpatched. The vulnerability poses a significant risk to the schools, hospitals, and offices that rely on this software.",
       "date": "2026-08-30T11:26:29.000Z",
       "link": "https://securityaffairs.com/198107/uncategorized/hackers-are-probing-papercut-servers-and-47-still-have-no-patch.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2f89987c-e40f-41c8-b550-b0393edc46be",
@@ -5422,83 +5499,6 @@
       "summary": "Organizations struggle to implement agentic AI effectively because they lack the necessary operational processes and business model updates. While leaders recognize AI's potential for productivity, foundational workflow challenges remain the primary barrier to adoption.",
       "date": "2026-08-14T05:30:21.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/14/deloitte-agentic-ai-readiness-gap-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "7cf1272e-92ec-47d6-b0d9-9bcd658b3e25",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Critical",
-      "title": "Weak IAM affects up to 98% of cloud environments",
-      "summary": "Weak Identity and Access Management (IAM) configurations are a prevalent issue affecting nearly all cloud environments, prompting CISA to mandate stricter security standards for federal agencies. The complexity of managing security across multiple cloud providers remains a primary driver of these misconfiguration risks.",
-      "date": "2026-08-14T05:00:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "4ecad475-1c2e-42d4-bd10-b34d3a1db593",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "17 draft Cyber Resilience Act standards are open for comment",
-      "summary": "Seventeen draft standards for the EU's Cyber Resilience Act have been released for public comment, providing manufacturers with the technical guidelines necessary to achieve regulatory conformity for connected devices by 2027.",
-      "date": "2026-08-14T04:30:18.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/14/etsi-cyber-resilience-act-standards/",
-      "isTopTen": false
-    },
-    {
-      "id": "ffcdfcb5-4a76-4396-9940-8a252213abac",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the week: August 14, 2026",
-      "summary": "This weekly roundup highlights new information security products, notably ScienceLogic's Skylar AI 2.5, which focuses on secure AI deployment and enhanced IT operational intelligence.",
-      "date": "2026-08-14T04:00:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/14/new-infosec-products-of-the-week-august-14-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "e7587545-57bf-40c1-b1a5-57299bb09a5e",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "New Zealand says China tried using space investments to spy on local affairs",
-      "summary": "New Zealand intelligence officials report that China allegedly leveraged space-related investments to conduct espionage, while noting that identifying domestic threats has become increasingly difficult due to online disinformation.",
-      "date": "2026-08-14T03:23:34.000Z",
-      "link": "https://www.theregister.com/security/2026/08/14/new-zealand-says-china-tried-using-space-investments-to-spy-on-local-affairs/5287657",
-      "isTopTen": false
-    },
-    {
-      "id": "d3a4f44d-a9e4-4904-9d61-5625f0bf81c6",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "OpenAI ditches Recall-style screenshot surveillance for friendly keylogging",
-      "summary": "OpenAI has introduced a new feature called 'Computer History' that logs user clicks and typing data to enhance ChatGPT's memory capabilities. This approach replaces previous screenshot-based tracking methods with more targeted activity logging.",
-      "date": "2026-08-14T00:27:53.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/14/openai-ditches-recall-style-screenshot-surveillance-for-friendly-keylogging/5287618",
-      "isTopTen": false
-    },
-    {
-      "id": "14cdc90b-b1d4-4b21-be76-4beb9c66af71",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "A bold new strategy or a dangerous precedent? Experts are divided on Trump’s memo.",
-      "summary": "Experts are debating the implications of a new memo from Donald Trump, which authorizes a significant philosophical shift in cybersecurity strategy. The move has prompted concerns regarding its legal, practical, and moral consequences.",
-      "date": "2026-08-13T22:19:07.000Z",
-      "link": "https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/",
-      "isTopTen": false
-    },
-    {
-      "id": "7040f783-2702-48a7-bbd3-0b7949397a24",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack",
-      "summary": "A former tech contractor for Brightly Software was sentenced to two years in prison for stealing proprietary data and sensitive employee information to extort the company. The perpetrator successfully extorted over $7,500 before facing legal consequences.",
-      "date": "2026-08-13T21:59:53.000Z",
-      "link": "https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/",
       "isTopTen": false
     }
   ]
