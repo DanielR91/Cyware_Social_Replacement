@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-09-01T14:06:51.033Z",
+  "lastUpdated": "2026-09-01T18:20:01.245Z",
   "articles": [
+    {
+      "id": "ed995a45-5c3a-4a20-86fc-40c7aa265134",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+      "summary": "Threat actors are actively exploiting a critical authentication bypass vulnerability, CVE-2026-82329, in JFrog Artifactory to gain administrative access shortly after the patch's disclosure.",
+      "date": "2026-09-01T17:53:11.000Z",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "8addebb5-b4a1-4a86-b146-7006d66189cf",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+      "summary": "Breeze Comet (formerly UNC5669) is actively targeting Brazilian financial, retail, and e-commerce sectors by manipulating payment and banking software to execute fraudulent transactions. Google Threat Intelligence and Mandiant identified the group as a financially motivated threat actor specializing in these system exploits.",
+      "date": "2026-09-01T17:19:24.000Z",
+      "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+      "isTopTen": false
+    },
+    {
+      "id": "511a59db-bf72-4b15-ace5-079d9f725510",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Healthcare facilities operator Nutex says patient, employee data stolen in August incident",
+      "summary": "Nutex Health, a Houston-based healthcare operator, reported a data breach involving patient and employee information that resulted in an extortion attempt. The incident was formally disclosed in a filing with federal regulators.",
+      "date": "2026-09-01T15:31:00.000Z",
+      "link": "https://therecord.media/nutex-health-data-breach",
+      "isTopTen": false
+    },
+    {
+      "id": "95b64f36-ad23-4f47-9ff6-0177c1214bcb",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "CISA review makes the case for eliminating vulnerability classes",
+      "summary": "CISA's latest review advocates for a shift in software development practices, moving away from reactive patching to the proactive elimination of entire vulnerability classes at the source. This strategy aims to reduce the attack surface by addressing root causes before software is deployed.",
+      "date": "2026-09-01T15:23:19.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/01/cisa-on-eliminating-recurring-security-weaknesses/",
+      "isTopTen": false
+    },
+    {
+      "id": "fc16a481-76f8-446f-ab18-5888cb711165",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Attackers Access Aesto Health AWS Infrastructure, Exposing 9.5 Million Records",
+      "summary": "Aesto Health suffered a major data breach involving unauthorized access to its AWS infrastructure, resulting in the exposure of personal and health information for over 9.5 million individuals.",
+      "date": "2026-09-01T15:12:55.000Z",
+      "link": "https://securityaffairs.com/198250/data-breach/attackers-access-aesto-health-aws-infrastructure-exposing-9-5-million-records.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4bce4929-50e3-459b-8c03-0c320883799e",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chaotic Eclipse Releases GenDigital Avast Antivirus ZeroDay PrettyPrague",
+      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit named 'PrettyPrague' for a privilege escalation zero-day vulnerability affecting GenDigital's Avast Antivirus.",
+      "date": "2026-09-01T14:33:00.000Z",
+      "link": "https://securityaffairs.com/198243/hacking/chaotic-eclipse-releases-gendigital-avast-antivirus-zeroday-prettyprague.html",
+      "isTopTen": true
+    },
+    {
+      "id": "cc8e3617-8b94-4b03-9216-9276b61dc5a6",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+      "summary": "Cybersecurity researchers discovered 13 malicious Composer packages on Packagist that inject JavaScript into streaming sites to facilitate ad-fraud and deploy spyware targeting unpatched iOS devices. The attack chain aims to compromise mobile users and potentially exfiltrate cryptocurrency wallet seeds.",
+      "date": "2026-09-01T14:07:20.000Z",
+      "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8bf2c652-a5a2-4716-a0f8-6a508433cb20",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Vishing campaign abuses Microsoft Teams to give attackers a foothold in company networks",
+      "summary": "A sophisticated vishing campaign dubbed 'Spring Ring' exploited Microsoft Teams by posing as IT support to deceive employees into installing malware or granting unauthorized remote access. The attack targeted over 150 employees across multiple organizations to gain an initial foothold in corporate networks.",
+      "date": "2026-09-01T14:07:16.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/01/spring-ring-vishing-campaign-microsoft-teams/",
+      "isTopTen": false
+    },
     {
       "id": "6af1600a-d2e9-4fe8-8a33-9680a6d3e63e",
       "source": "CyberScoop",
@@ -10,7 +98,7 @@
       "summary": "A federal whistleblower alleges that the USPS is implementing untested IT systems for mail-in ballots, which could potentially result in the rejection of thousands of votes. The claim highlights concerns regarding the reliability and security of infrastructure critical to the electoral process.",
       "date": "2026-09-01T13:58:05.000Z",
       "link": "https://cyberscoop.com/usps-whistleblower-ballot-system-2026-midterms/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d36392e8-adac-4091-9633-0c0824f2a97f",
@@ -32,7 +120,7 @@
       "summary": "The Iranian hacking group Nimbus Manticore is using fake recruiter lures to trick targets into running cross-platform RATs written in Node.js and JavaScript, extending their reach to Linux and macOS. These new malware families demonstrate the group's evolving capabilities and broader targeting strategies.",
       "date": "2026-09-01T13:08:58.000Z",
       "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "76f8a43d-03a7-4980-982e-ddcc69de2798",
@@ -98,7 +186,7 @@
       "summary": "Security firm Huntress has documented five cases of North Korea-linked workers infiltrating Western companies using fake identities and remote-access tools in 2026. This highlights an ongoing trend of DPRK-aligned actors successfully bypassing hiring processes to gain unauthorized corporate access.",
       "date": "2026-09-01T11:08:54.000Z",
       "link": "https://securityaffairs.com/198227/apt/north-korea-linked-it-workers-are-getting-hired-inside-western-companies.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "467e0c4f-e3ae-4041-9e46-27ae3bbec2f1",
@@ -252,7 +340,7 @@
       "summary": "Healthcare giant McKesson suffered a significant data breach as the threat actor ShinyHunters is demanding a $55.2 million ransom. The incident highlights ongoing security risks to medical infrastructure, including vulnerabilities affecting patient records and critical health devices.",
       "date": "2026-08-31T22:10:38.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/08/31/healthcare-cyberattacks-hit-pacemakers-and-millions-of-patient-records/5293537",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7ec30588-1e4c-4258-89ee-4d5537d55fdd",
@@ -340,7 +428,7 @@
       "summary": "North Korean threat actors are expanding their long-running IT worker fraud scheme to infiltrate the healthcare, sales, and marketing sectors. This diversification signifies a broadening insider threat aimed at securing employment and potential unauthorized access across non-technical industries.",
       "date": "2026-08-31T17:24:28.000Z",
       "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ca03176-0946-48ca-8d7f-cf60106a2443",
@@ -450,7 +538,7 @@
       "summary": "The hacker group ShinyHunters claims to have stolen 284 million patient records from the healthcare company McKesson following a security breach involving third-party applications. McKesson is currently investigating the incident, which was officially detected on August 25, 2026.",
       "date": "2026-08-31T11:57:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2b316707-7dd4-4630-92b4-909479560319",
@@ -494,7 +582,7 @@
       "summary": "The China-linked threat actor Fire Ant has shifted its focus to compromising critical infrastructure, specifically hijacking Cisco routers to steal credentials and obfuscate their presence within high-value networks.",
       "date": "2026-08-31T11:10:44.000Z",
       "link": "https://securityaffairs.com/198183/apt/china-linked-fire-ant-hides-inside-trusted-infrastructure.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2bbda383-73cc-4a85-bfb5-6397f64619c2",
@@ -549,7 +637,7 @@
       "summary": "The China-linked threat actor Fire Ant has extended its espionage activities to compromise Cisco routers, authentication servers, and Linux hosts to steal credentials and evade detection. This campaign targets critical network infrastructure to maintain unauthorized access and bypass security monitoring.",
       "date": "2026-08-31T09:04:55.000Z",
       "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f9db1aa5-6ee6-4ec5-9539-ec3cb2f0e397",
@@ -736,7 +824,7 @@
       "summary": "Suspected Chinese-speaking operators breached Philippine nuclear and naval targets by exploiting known vulnerabilities in public-facing ownCloud and WordPress systems to exfiltrate sensitive data.",
       "date": "2026-08-29T09:16:52.000Z",
       "link": "https://securityaffairs.com/198041/intelligence/philippine-nuclear-and-naval-targets-hit-by-suspected-chinese-operator.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "416bdc64-ba95-4ec8-9f3f-0ed1d95ab2e6",
@@ -5411,94 +5499,6 @@
       "summary": "A former tech contractor for Brightly Software was sentenced to two years in prison for stealing proprietary data and sensitive employee information to extort the company. The perpetrator successfully extorted over $7,500 before facing legal consequences.",
       "date": "2026-08-13T21:59:53.000Z",
       "link": "https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/",
-      "isTopTen": false
-    },
-    {
-      "id": "504b2f0d-035c-40b0-86e3-9cb6936db5f4",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Adobe Commerce CVE-2026-71362 Comes Under Attack Shortly After Public Disclosure",
-      "summary": "Hackers are actively exploiting a critical unauthenticated remote code execution vulnerability in Adobe Commerce, designated as CVE-2026-71362, shortly after its public disclosure. The flaw allows attackers to hijack customer accounts and access sensitive private information.",
-      "date": "2026-08-13T17:48:54.000Z",
-      "link": "https://securityaffairs.com/197149/hacking/adobe-commerce-cve-2026-71362-comes-under-attack-shortly-after-public-disclosure.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7b833da1-509a-4be1-86c5-cd50c413eeba",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Metabase, Windows, and Cisco Secure Firewall flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws affecting Metabase, Windows, and Cisco Secure Firewall. These additions indicate that these vulnerabilities are currently being actively exploited in the wild.",
-      "date": "2026-08-13T17:12:45.000Z",
-      "link": "https://securityaffairs.com/197110/hacking/u-s-cisa-adds-metabase-windows-and-cisco-secure-firewall-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4a4c8daf-840f-4360-86ef-dfb7061bd5ea",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Metabase, Windows, and Cisco Secure Firewall flaws to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog to include multiple active flaws affecting Cisco Secure Firewall, Windows, and Metabase. Federal agencies are now required to address these specific vulnerabilities within a mandated timeframe to mitigate potential exploitation risks.",
-      "date": "2026-08-13T17:12:45.000Z",
-      "link": "https://securityaffairs.com/197110/uncategorized/u-s-cisa-adds-metabase-windows-and-cisco-secure-firewall-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7fe264d5-4e5b-415e-9931-d08bdb03ea02",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI’s ‘middle class’ has gotten dramatically better at hacking",
-      "summary": "Advancements in mid-tier, cost-efficient AI models are significantly improving automated hacking capabilities, raising concerns among researchers beyond just frontier-level threats.",
-      "date": "2026-08-13T16:55:02.000Z",
-      "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
-      "isTopTen": false
-    },
-    {
-      "id": "44563d0c-041e-4162-8408-95563d9ca34d",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Flock tightens privacy controls amid scandals over officer abuse",
-      "summary": "Flock Safety is implementing mandatory audit tracking and reducing its data retention policy to seven days in response to concerns regarding the misuse of its automated license plate recognition systems by law enforcement. These changes aim to enhance transparency and mitigate privacy risks associated with the platform.",
-      "date": "2026-08-13T16:47:00.000Z",
-      "link": "https://therecord.media/flock-safety-audit-assistance-police-departments",
-      "isTopTen": false
-    },
-    {
-      "id": "504dddfe-4ce5-47f8-820d-9a660ad39f5c",
-      "source": "The Record",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "New Mirai variant adds stealth capabilities to notorious botnet code",
-      "summary": "A new variant of the Mirai botnet has emerged, incorporating stealth features such as encrypted command-and-control communications and a credential-sniffing module. These enhancements aim to evade detection while automating the discovery of vulnerable devices.",
-      "date": "2026-08-13T15:52:00.000Z",
-      "link": "https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code",
-      "isTopTen": false
-    },
-    {
-      "id": "2937ebe8-069f-45fb-a259-49c47a641629",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Trump wants to grant private cyber firms a license to hack back",
-      "summary": "The proposal aims to authorize private cybersecurity firms to conduct offensive operations against foreign criminal networks under a regulated framework involving a financial stake. This initiative marks a significant shift in national policy regarding active cyber defense by non-governmental entities.",
-      "date": "2026-08-13T15:04:09.000Z",
-      "link": "https://www.theregister.com/security/2026/08/13/trump-wants-to-grant-private-cyber-firms-a-license-to-hack-back/5287420",
-      "isTopTen": false
-    },
-    {
-      "id": "38d6386b-a39c-4b14-96c6-588b665d0cab",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The backup Microsoft never promised you",
-      "summary": "This article highlights the common misconception that Microsoft automatically protects M365 and Azure data from ransomware, emphasizing the necessity of third-party backup solutions. It warns users that Microsoft's shared responsibility model leaves data recovery gaps that organizations must address.",
-      "date": "2026-08-13T15:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/13/sponsored-the-backup-microsoft-never-promised-you/5284957",
       "isTopTen": false
     }
   ]
