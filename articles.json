@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-09-03T20:50:25.877Z",
+  "lastUpdated": "2026-09-03T23:14:41.261Z",
   "articles": [
+    {
+      "id": "1dee0a79-d32e-4229-9410-ebedd2ad8334",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers exploit zero-days in consistently besieged SonicWall product",
+      "summary": "SonicWall SMA 1000 series appliances are under persistent attack, with five zero-day vulnerabilities being actively exploited since late 2025. This continues a long-term trend of security challenges for the product line.",
+      "date": "2026-09-03T22:12:53.000Z",
+      "link": "https://cyberscoop.com/sonicwall-sma1000-zero-days-actively-exploited/",
+      "isTopTen": false
+    },
+    {
+      "id": "42da3dd5-f868-4670-8b71-a70a1d965b98",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Pegasus and NoviSpy Used Against Serbian Protesters",
+      "summary": "Serbian activists were targeted by state-sponsored surveillance using zero-click Pegasus and NoviSpy spyware. The Citizen Lab confirmed infections affecting members of the student protest movement ahead of national elections.",
+      "date": "2026-09-03T20:17:00.000Z",
+      "link": "https://securityaffairs.com/198377/intelligence/pegasus-and-novispy-used-against-serbian-protesters.html",
+      "isTopTen": true
+    },
     {
       "id": "69a49c16-7d0e-4ad2-812f-d0ed62a64d15",
       "source": "Security Affairs",
@@ -219,7 +241,7 @@
       "summary": "A security researcher known as Chaotic Eclipse has released a proof-of-concept exploit named FalconFlank that targets a privilege escalation zero-day vulnerability in the CrowdStrike Falcon platform.",
       "date": "2026-09-03T09:52:26.000Z",
       "link": "https://securityaffairs.com/198342/hacking/chaotic-eclipse-releases-crowdstrike-falcon-zeroday-falconflank.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "12218fc5-e640-48ed-ae4a-87d77d870630",
@@ -450,7 +472,7 @@
       "summary": "Healthcare company Aesto disclosed a cyberattack from last December that exposed the sensitive personal information of over 9.5 million individuals. The incident was reported to federal regulators following the discovery of the data breach.",
       "date": "2026-09-02T17:15:00.000Z",
       "link": "https://therecord.media/health-data-aesto-cyberattack-leak",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b99e576b-1ed1-41ad-bcf0-e2a2d40b5f7a",
@@ -505,7 +527,7 @@
       "summary": "Citizen Lab has identified a new Pegasus spyware infection and a NoviSpy variant targeting activists in Serbia, marking the largest surveillance campaign of this type in the region. The findings represent the first confirmed Pegasus case of 2026.",
       "date": "2026-09-02T15:03:21.000Z",
       "link": "https://cyberscoop.com/pegasus-novispy-variant-spyware-found-on-devices-of-serbian-activists/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0c1e6573-1c80-4703-ab95-7daf88990a8a",
@@ -5477,28 +5499,6 @@
       "summary": "SafePal experienced a data breach affecting nearly 40,000 customers due to an authorization flaw in an order-tracking plug-in. Exposed data includes customer contact information and purchase history.",
       "date": "2026-08-18T09:10:45.000Z",
       "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9aa3c79c-d5b7-4a34-abd9-d6bc3c49b738",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Hacker claims millions of records stolen from corporate Azure tenants",
-      "summary": "A threat actor known as 'TheHatman' claims to have stolen millions of employee records from the Azure environments of several major global corporations, including McDonald's and Vodafone. The data is currently being shared on cybercrime forums, allegedly sourced directly from the victims' cloud tenants.",
-      "date": "2026-08-18T09:06:07.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/18/azure-data-leak-fortune-500-companies/",
-      "isTopTen": false
-    },
-    {
-      "id": "ecfafcc1-ffc5-4dd3-9b0a-7b442043ac9c",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "GitLab Patches Critical Unauthenticated GraphQL Vulnerability",
-      "summary": "GitLab released an emergency patch for a critical unauthenticated GraphQL vulnerability (CVE-2026-19478) that allows remote attackers to modify or delete public projects on self-managed servers.",
-      "date": "2026-08-18T08:44:19.000Z",
-      "link": "https://securityaffairs.com/197454/hacking/gitlab-patches-critical-unauthenticated-graphql-vulnerability.html",
       "isTopTen": false
     }
   ]
