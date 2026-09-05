@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-09-05T14:53:44.179Z",
+  "lastUpdated": "2026-09-05T17:15:42.790Z",
   "articles": [
+    {
+      "id": "8f9bb927-a65b-4685-9acc-1358a122ccd9",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "summary": "JetBrains has alerted Cadence users to rotate all credentials after attackers exploited a critical vulnerability in TeamCity to breach their systems. Users are urged to take immediate action to secure their environments against potential unauthorized access.",
+      "date": "2026-09-05T16:52:33.000Z",
+      "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "isTopTen": true
+    },
+    {
+      "id": "352567a0-4b04-4cf2-b512-763e27439b47",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+      "summary": "Broadcom has released patches for a critical integer-overflow vulnerability (CVE-2026-59346) in VMware Workstation and Fusion that allows local attackers with elevated privileges to execute arbitrary code on the host machine.",
+      "date": "2026-09-05T16:05:08.000Z",
+      "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+      "isTopTen": true
+    },
+    {
+      "id": "61252968-4d74-4864-9737-1a590e4a975d",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "summary": "Trezor reported a data breach at its shipping partner, ShipMonk, resulting in the exposure of contact and order information for 67,000 U.S. customers. The incident did not compromise the security of Trezor's hardware wallet devices.",
+      "date": "2026-09-05T14:17:02.000Z",
+      "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "isTopTen": false
+    },
     {
       "id": "95bda18b-0a14-4df0-aca0-eec1bf85a538",
       "source": "The Hacker News",
@@ -32,7 +65,7 @@
       "summary": "Broadcom has released patches for two VMware Workstation and Fusion VM-escape vulnerabilities, including one critical flaw that allows attackers to execute code on the host machine. Users are urged to update to version 26H1u1 immediately as no workarounds exist.",
       "date": "2026-09-05T04:54:27.000Z",
       "link": "https://securityaffairs.com/198465/security/broadcom-patches-critical-vmware-workstation-and-fusion-vm-escape-vulnerabilities.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6a54c6b2-e60f-4fe6-849b-f498006d6cad",
@@ -406,7 +439,7 @@
       "summary": "SonicWall SMA 1000 series appliances are under persistent attack, with five zero-day vulnerabilities being actively exploited since late 2025. This continues a long-term trend of security challenges for the product line.",
       "date": "2026-09-03T22:12:53.000Z",
       "link": "https://cyberscoop.com/sonicwall-sma1000-zero-days-actively-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "42da3dd5-f868-4670-8b71-a70a1d965b98",
@@ -417,7 +450,7 @@
       "summary": "Serbian activists were targeted by state-sponsored surveillance using zero-click Pegasus and NoviSpy spyware. The Citizen Lab confirmed infections affecting members of the student protest movement ahead of national elections.",
       "date": "2026-09-03T20:17:00.000Z",
       "link": "https://securityaffairs.com/198377/intelligence/pegasus-and-novispy-used-against-serbian-protesters.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "69a49c16-7d0e-4ad2-812f-d0ed62a64d15",
@@ -483,7 +516,7 @@
       "summary": "Cisco has released critical patches for Nexus 9000 switches to address a 9.8-rated remote code execution vulnerability (CVE-2026-20212), alongside updates for IOS XR addressing multiple high-severity flaws.",
       "date": "2026-09-03T15:52:07.000Z",
       "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6a4ab9c5-9d71-420d-8644-3fe73757b867",
@@ -527,7 +560,7 @@
       "summary": "Thomson Reuters disclosed a data breach involving its C-Track court case management platform, exposing sensitive personal information and court records across the U.S. and Canada. The incident stems from unauthorized activity detected within the system, prompting public notifications for affected individuals.",
       "date": "2026-09-03T13:50:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ee94a19-5d36-43ba-a41b-fe7ab8c9c8cb",
@@ -681,7 +714,7 @@
       "summary": "Leaked internal documents from Bauman Moscow State Technical University expose a clandestine program tasked with training engineering students to become cyber operators for Russian intelligence agencies, specifically APT28 and Sandworm. This revelation sheds light on the formal academic pipeline utilized by the GRU to develop professional hackers, propagandists, and malware developers.",
       "date": "2026-09-03T08:12:56.000Z",
       "link": "https://securityaffairs.com/198332/intelligence/2000-leaked-documents-reveal-how-russia-turns-engineering-students-into-gru-cyber-operators.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe906a79-0c6b-413e-8a63-6a83e8ed6107",
@@ -692,7 +725,7 @@
       "summary": "AI system prompts are insufficient as security controls because they can be easily bypassed by prompt injection, necessitating that access permissions be enforced at the data retrieval layer instead. Security experts recommend integrating attribute-based or role-based access controls to verify user permissions independently of the AI's logic.",
       "date": "2026-09-03T07:53:58.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/03/sans-aws-agentic-ai-security/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "616d1d42-0d6f-4367-9a5d-a253119d460e",
@@ -758,7 +791,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities catalog to include seven new flaws currently being leveraged by attackers to deploy reverse shells and cryptocurrency miners. One of the vulnerabilities, affecting SonicWall SMA 1000 appliances, carries a critical CVSS score of 10.0.",
       "date": "2026-09-03T05:19:04.000Z",
       "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7bbe6f66-8379-4dde-a178-61ba3cec4e6f",
@@ -5466,39 +5499,6 @@
       "summary": "Brinqa has acquired PlexTrac to integrate offensive security verification into its exposure management platform, enabling organizations to validate the effectiveness of their remediation efforts. This merger aims to close the Continuous Threat Exposure Management (CTEM) loop by combining prioritization with verified remediation.",
       "date": "2026-08-19T09:19:07.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/19/brinqa-plextrac-acqisition/",
-      "isTopTen": false
-    },
-    {
-      "id": "af7fcb9f-d0e4-4d37-8600-89c9d270707f",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Google’s AI security agents found 100+ critical software vulnerabilities in just two days",
-      "summary": "Google's Mandiant revealed their AI-driven Agentic Vulnerability Discovery Harness (AVDH) successfully identified over 100 high-severity software vulnerabilities within two days of operation. The tool has been actively scanning millions of lines of code over the past ten months to bolster internal security.",
-      "date": "2026-08-19T09:03:25.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/19/google-mandiant-avdh-ai-vulnerability-discovery-tool/",
-      "isTopTen": false
-    },
-    {
-      "id": "749c8c63-59ea-4af4-8f60-0edd79e08ce0",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Microsoft Tracks MacSync Stealer by Its Behavior, Not Its Domains",
-      "summary": "Microsoft is successfully tracking the MacSync Stealer malware by prioritizing behavioral analysis over domain-based blocking, which often fails due to rapid infrastructure rotation. The campaign specifically targets sensitive user data including passwords, cryptographic keys, and digital wallets.",
-      "date": "2026-08-19T08:55:47.000Z",
-      "link": "https://securityaffairs.com/197514/malware/microsoft-tracks-macsync-stealer-by-its-behavior-not-its-domains.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dbc5f93b-d004-413c-b9b4-e66d8aaa71e3",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "OpenAI puts major frontier AI training run on hold over cyber risks",
-      "summary": "OpenAI has paused the training of its latest frontier AI models for two weeks to enhance security measures, red-team its infrastructure, and evaluate safeguards following a recent security incident. This proactive delay aims to mitigate cyber risks and ensure model alignment before proceeding with large-scale training.",
-      "date": "2026-08-19T08:48:40.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/19/openai-model-safety-updates/",
       "isTopTen": false
     }
   ]
