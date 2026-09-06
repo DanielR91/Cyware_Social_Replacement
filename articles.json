@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-09-06T03:50:22.404Z",
+  "lastUpdated": "2026-09-06T10:38:44.710Z",
   "articles": [
+    {
+      "id": "4fe6c6cb-14de-46de-8094-9336d15dc824",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "summary": "Attackers are exploiting internet-exposed SSH services on MikroTik routers to bypass authentication and gain full administrative control. The campaign, identified by CERT Polska, has been active since at least September 2.",
+      "date": "2026-09-06T09:32:38.000Z",
+      "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "isTopTen": true
+    },
+    {
+      "id": "b5107592-e5f9-4f5f-a999-1389f3ed1850",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "summary": "Elastic Security Labs identified four new modules linked to the REVSTEALER malware that persist on infected systems to disable Windows security features and execute cryptocurrency mining operations.",
+      "date": "2026-09-06T08:34:20.000Z",
+      "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f5cd6972-7240-40f0-a801-6e4c71381a2a",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 113",
+      "summary": "This newsletter highlights recent malware trends, including the use of infostealers to hijack Claude accounts, the evolution of the Fire Ant tool, and the emergence of AI-driven toolkits like Gryxa.",
+      "date": "2026-09-06T08:27:01.000Z",
+      "link": "https://securityaffairs.com/198522/security/security-affairs-malware-newsletter-round-113.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f5cda826-b38f-4457-a37c-495b2e4cadf2",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Week in review: Claude accounts compromised through infostealer, Patch Tuesday forecast",
+      "summary": "Anthropic has begun locking down Claude accounts compromised by infostealer malware, while security teams prepare for a heavy patch load during the upcoming September Patch Tuesday. These events highlight ongoing risks from credential-stealing threats and increasing software vulnerability management burdens.",
+      "date": "2026-09-06T08:00:56.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/",
+      "isTopTen": false
+    },
+    {
+      "id": "b5e62bb7-4efa-4149-ad2f-10dba0627652",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 593 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The latest edition of the Security Affairs newsletter covers the exploitation of PaperCut vulnerabilities targeting educational institutions and reports on critical patches for VMware Workstation and Fusion.",
+      "date": "2026-09-06T07:56:16.000Z",
+      "link": "https://securityaffairs.com/198495/breaking-news/security-affairs-newsletter-round-593-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "3562059c-7f33-48dc-8731-ceed4839b542",
       "source": "Security Affairs",
@@ -32,7 +87,7 @@
       "summary": "Attackers are actively exploiting two new PaperCut vulnerabilities to gain unauthorized access and steal credentials from educational institutions in the U.S. and Europe. Security researchers have identified these flaws, designated as CVE-2026-81578 and CVE-2026-82078, as the primary vector for these targeted campaigns.",
       "date": "2026-09-05T18:47:14.000Z",
       "link": "https://securityaffairs.com/198476/hacking/papercut-flaws-exploited-in-attacks-on-u-s-and-european-schools.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8f9bb927-a65b-4685-9acc-1358a122ccd9",
@@ -54,7 +109,7 @@
       "summary": "Broadcom has released patches for a critical integer-overflow vulnerability (CVE-2026-59346) in VMware Workstation and Fusion that allows local attackers with elevated privileges to execute arbitrary code on the host machine.",
       "date": "2026-09-05T16:05:08.000Z",
       "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "61252968-4d74-4864-9737-1a590e4a975d",
@@ -120,7 +175,7 @@
       "summary": "Members of the European Parliament are urging a delay in Serbia's EU accession process following reports of local student activists being targeted with Pegasus and NoviSpy spyware. The development highlights increasing international scrutiny regarding the government's alleged misuse of surveillance technology.",
       "date": "2026-09-04T21:02:39.000Z",
       "link": "https://cyberscoop.com/eu-parliament-serbia-accession-spyware-demands/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "feae5137-2cb9-48ff-8de0-92133f53fbdf",
@@ -274,7 +329,7 @@
       "summary": "Hunt.io identified a China-linked cyberespionage campaign utilizing autonomous AI agents to automate attacks against government, education, and industrial targets across Asia. This operation highlights the increasing integration of commercial AI models into sophisticated, multi-country state-sponsored hacking activities.",
       "date": "2026-09-04T11:00:15.000Z",
       "link": "https://securityaffairs.com/198417/ai/chinese-hackers-use-ai-agents-in-multi-country-cyber-campaign.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "091ba3b7-026c-4d92-9c3f-cf80bd77e513",
@@ -593,7 +648,7 @@
       "summary": "Thomson Reuters disclosed a data breach involving its C-Track court case management platform, exposing sensitive personal information and court records across the U.S. and Canada. The incident stems from unauthorized activity detected within the system, prompting public notifications for affected individuals.",
       "date": "2026-09-03T13:50:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ee94a19-5d36-43ba-a41b-fe7ab8c9c8cb",
@@ -703,7 +758,7 @@
       "summary": "A security researcher known as Chaotic Eclipse has released a proof-of-concept exploit named FalconFlank that targets a privilege escalation zero-day vulnerability in the CrowdStrike Falcon platform.",
       "date": "2026-09-03T09:52:26.000Z",
       "link": "https://securityaffairs.com/198342/hacking/chaotic-eclipse-releases-crowdstrike-falcon-zeroday-falconflank.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "12218fc5-e640-48ed-ae4a-87d77d870630",
@@ -747,7 +802,7 @@
       "summary": "Leaked internal documents from Bauman Moscow State Technical University expose a clandestine program tasked with training engineering students to become cyber operators for Russian intelligence agencies, specifically APT28 and Sandworm. This revelation sheds light on the formal academic pipeline utilized by the GRU to develop professional hackers, propagandists, and malware developers.",
       "date": "2026-09-03T08:12:56.000Z",
       "link": "https://securityaffairs.com/198332/intelligence/2000-leaked-documents-reveal-how-russia-turns-engineering-students-into-gru-cyber-operators.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe906a79-0c6b-413e-8a63-6a83e8ed6107",
@@ -5444,61 +5499,6 @@
       "summary": "Comcast has updated its Wi-Fi-based motion detection feature to improve security and privacy, though users should review the terms of service regarding data usage. The system identifies motion without the use of cameras, offering household monitoring capabilities.",
       "date": "2026-08-19T13:14:00.000Z",
       "link": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
-      "isTopTen": false
-    },
-    {
-      "id": "459b28e6-96ae-43cf-bd50-898bfef6ddce",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
-      "summary": "The SilkParasite espionage campaign is targeting Central Asian government entities using seven remote access tools, including five previously undocumented malware strains. This sophisticated operation, discovered in late 2025, represents a significant cyber threat to regional national security.",
-      "date": "2026-08-19T13:12:17.000Z",
-      "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "57ae783c-ca6b-4016-ba8d-84e16ee02efd",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "US charges Iranians for sprawling hacking campaign on government agencies, universities",
-      "summary": "The U.S. Justice Department has charged 17 individuals linked to the Iranian government for orchestrating a widespread hacking campaign that compromised government email accounts and stole intellectual property from numerous universities.",
-      "date": "2026-08-19T12:15:00.000Z",
-      "link": "https://therecord.media/iran-cyberattacks-us-doj",
-      "isTopTen": false
-    },
-    {
-      "id": "e84dc362-0269-43ee-b578-73a9c0a49182",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-      "summary": "Operation CameraSwarm resulted in the compromise of over 14,500 Dahua devices through a combination of credential stuffing, authentication bypass vulnerabilities, and P2P relay exploitation. Researchers uncovered the campaign after discovering an exposed working directory containing project files and evidence of the attacks.",
-      "date": "2026-08-19T11:34:28.000Z",
-      "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-      "isTopTen": false
-    },
-    {
-      "id": "da5edc19-bef6-490e-a222-7fafb6db7a7c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-      "summary": "The evolution of phishing has shifted from malicious payloads and bad intent to autonomous AI agents, necessitating a move toward automated defense systems. This transition marks a new era of 'agent versus agent' cyber warfare.",
-      "date": "2026-08-19T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a16ad921-a8af-4f6b-af0f-7eee66c4c0fc",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-      "summary": "A global cybercrime operation dubbed StopAndProtect is leveraging nearly 2,000 compromised WordPress sites to host malware distribution infrastructure and exfiltrated user data. The campaign utilizes a sophisticated toolkit of criminal software to maintain control over infected hosts and monitor malicious activities.",
-      "date": "2026-08-19T11:25:28.000Z",
-      "link": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
       "isTopTen": false
     }
   ]
