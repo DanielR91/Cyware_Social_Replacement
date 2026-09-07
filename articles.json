@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-09-07T12:07:50.718Z",
+  "lastUpdated": "2026-09-07T19:09:08.613Z",
   "articles": [
+    {
+      "id": "25c1f32d-2504-4436-94ea-2aa8e21e40e6",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "summary": "Service busy.",
+      "date": "2026-09-07T18:12:09.000Z",
+      "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "isTopTen": false
+    },
+    {
+      "id": "43259132-52d0-4e42-9049-1d15b8351d22",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "StyleSmuggler: The Magento Zero-Day Behind New Store Attacks",
+      "summary": "Service busy.",
+      "date": "2026-09-07T17:49:08.000Z",
+      "link": "https://securityaffairs.com/198603/uncategorized/stylesmuggler-the-magento-zero-day-behind-new-store-attacks.html",
+      "isTopTen": false
+    },
+    {
+      "id": "57b38ba1-986f-4dd8-817a-9300832aef43",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+      "summary": "Threat actors are using vishing, AitM token theft, and residential proxies to target executives in a campaign aimed at stealing data from Microsoft 365 and SaaS platforms for extortion. The attacks specifically focus on high-level corporate personnel such as directors and vice presidents.",
+      "date": "2026-09-07T15:51:56.000Z",
+      "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5aa18c3b-73ec-4169-b1e2-ae7de0788f8d",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Low",
+      "title": "Nightwing CEO has a Labor Day message for staff – and apparently The Register",
+      "summary": "The CEO of Nightwing accidentally leaked an internal memo intended for staff to a news publication. The incident highlights a significant lapse in operational security regarding internal communications.",
+      "date": "2026-09-07T14:43:00.000Z",
+      "link": "https://www.theregister.com/security/2026/09/07/nightwing-ceo-has-a-labor-day-message-for-staff-and-apparently-the-register/5294819",
+      "isTopTen": false
+    },
+    {
+      "id": "f86e0532-4875-47a3-8f4f-b0b3ff2cfe24",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+      "summary": "This week's cybersecurity landscape featured a critical Chrome zero-day vulnerability, supply chain attacks via trusted software, and a clever QR code phishing technique designed to bypass image-blocking security measures.",
+      "date": "2026-09-07T14:36:07.000Z",
+      "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0cecc4de-2730-4991-92e8-5574609f67a3",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Hackers exploit RouterOS flaws to hijack MikroTik devices without authentication",
+      "summary": "CERT Polska has discovered an exploit chain named 'MikroTrick' that allows unauthenticated attackers to gain full control over MikroTik devices with internet-accessible SSH. The six identified vulnerabilities in RouterOS have been coordinated with the vendor for patching.",
+      "date": "2026-09-07T14:07:20.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/07/mikrotik-routeros-ssh-vulnerabilities-exploited/",
+      "isTopTen": false
+    },
+    {
+      "id": "aa4e251b-024a-482e-ba12-e638d6be9bfd",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chaotic Eclipse Released A PoC For NVIDIA GreenSection Memory Corruption Zero-Day",
+      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit named GreenSection targeting a memory corruption zero-day vulnerability in NVIDIA’s Windows user-mode driver. The disclosure highlights a potential security flaw currently affecting NVIDIA software environments.",
+      "date": "2026-09-07T13:42:58.000Z",
+      "link": "https://securityaffairs.com/198589/hacking/chaotic-eclipse-released-a-poc-for-nvidia-greensection-memory-corruption-zero-day.html",
+      "isTopTen": false
+    },
+    {
+      "id": "858acdb9-a6f0-4f1f-a171-5f4545bc315c",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Hackers drain $320M in Bitcoin from Liquid Network, claim they're the good guys",
+      "summary": "Hackers stole $320 million in Bitcoin from the Liquid Network, claiming they are white-hat actors who intend to return the majority of the funds after a vulnerability is patched.",
+      "date": "2026-09-07T13:26:00.000Z",
+      "link": "https://www.theregister.com/security/2026/09/07/hackers-drain-320m-in-bitcoin-from-liquid-network-claim-theyre-the-good-guys/5294770",
+      "isTopTen": false
+    },
     {
       "id": "03867af0-26e2-4313-8bec-e637c7affdfb",
       "source": "Help Net Security",
@@ -10,6 +98,50 @@
       "summary": "N-able has released an emergency hotfix to address a critical, actively exploited remote code execution vulnerability (CVE-2026-86218) in its N-central remote monitoring and management platform. The flaw allows pre-authenticated attackers to execute arbitrary code on affected servers.",
       "date": "2026-09-07T11:55:57.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/",
+      "isTopTen": false
+    },
+    {
+      "id": "1602a7f7-87c2-4213-87d8-f81919eccdfe",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Berlin investigates new data leak after hackers publish stolen login credentials",
+      "summary": "Berlin government officials are investigating a new data leak involving published login credentials, while German security agencies issued a warning regarding the activities of the Rhysida ransomware group.",
+      "date": "2026-09-07T11:50:00.000Z",
+      "link": "https://therecord.media/germany-berlin-second-data-breach-city-agencies",
+      "isTopTen": false
+    },
+    {
+      "id": "29034104-d5da-419b-a170-cecff36fd8b4",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+      "summary": "A 2026 Cloud Security Index report reveals that cloud security misconfigurations vary significantly across AWS, Azure, and Google Cloud, indicating that standardized checklists are insufficient for multi-cloud environments. The findings highlight that risk profiles are unique to each provider, requiring specialized management strategies.",
+      "date": "2026-09-07T11:45:00.000Z",
+      "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+      "isTopTen": false
+    },
+    {
+      "id": "80d052a7-5317-42d0-a151-76691bf9b1bb",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+      "summary": "Researchers identified worm-like activity leveraging ConnectWise ScreenConnect to propagate a four-stage VBScript payload via diverse initial access methods. The campaign targets newly connected hosts through techniques including tech-support scams and malicious installers.",
+      "date": "2026-09-07T11:36:39.000Z",
+      "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+      "isTopTen": false
+    },
+    {
+      "id": "dca77a8e-1c93-4447-baee-3e2d4640cde0",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+      "summary": "Service busy.",
+      "date": "2026-09-07T11:20:14.000Z",
+      "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
       "isTopTen": false
     },
     {
@@ -5367,138 +5499,6 @@
       "summary": "Cybercriminals are distributing the Vidar infostealer by masquerading a malicious executable as a Google Gemini installer hosted on Google Colab. The campaign was identified by Darktrace targeting a corporate network in the EMEA region.",
       "date": "2026-08-20T10:46:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/08/20/fake-google-gemini-installer-vidar-infostealer/",
-      "isTopTen": false
-    },
-    {
-      "id": "c230023d-2c8f-4ad4-9071-77a0eb0c3ee2",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-      "summary": "The updated ToxicPanda 2.0 Android malware has expanded its global reach and capabilities, incorporating 167 remote commands and a specialized workflow to harvest PINs from over 140 banking and cryptocurrency apps.",
-      "date": "2026-08-20T10:38:28.000Z",
-      "link": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ea44df7c-d152-47d9-a459-90630cb6d840",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Identity Abuse Through Trusted Communication Channels",
-      "summary": "Unit 42 reports on how cybercriminals are weaponizing enterprise collaboration tools to conduct identity phishing and credential theft attacks. The report outlines tactical methods used by threat actors and provides guidance on defensive security measures.",
-      "date": "2026-08-20T10:00:25.000Z",
-      "link": "https://unit42.paloaltonetworks.com/communication-channel-identity-risks/",
-      "isTopTen": false
-    },
-    {
-      "id": "27a22d99-8e15-4235-b234-9a159cadc1f3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenAI previews privacy-focused system for detecting AI misuse",
-      "summary": "OpenAI is introducing Private Safety Processing, a system designed to detect AI misuse while maintaining user privacy by preventing human access to underlying data. The tool aims to improve risk identification through pattern analysis without compromising the confidentiality of user interactions.",
-      "date": "2026-08-20T09:09:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/20/openai-private-safety-processing-zdr/",
-      "isTopTen": false
-    },
-    {
-      "id": "38d098de-f86b-49f3-8f9f-21d6f8743935",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "US agencies warn of AI-powered attacks on Siemens industrial controllers",
-      "summary": "US federal agencies have issued a joint advisory warning that threat actors are utilizing AI to generate exploit scripts targeting internet-exposed Siemens S7 Series programmable logic controllers used in critical infrastructure. This activity poses a significant risk to essential systems like water, energy, and manufacturing.",
-      "date": "2026-08-20T09:07:34.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/20/usa-ai-attacks-siemens-s7-plcs-critical-infrastructure/",
-      "isTopTen": false
-    },
-    {
-      "id": "5ec918e9-1eb5-4a8c-8cec-1ba23e6175e4",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds an MLflow flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added a critical server-side request forgery (SSRF) vulnerability, CVE-2026-64849 in MLflow, to its Known Exploited Vulnerabilities catalog.",
-      "date": "2026-08-20T08:55:52.000Z",
-      "link": "https://securityaffairs.com/197558/hacking/u-s-cisa-adds-a-mlflow-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "942c1462-1dc3-4581-8e52-f1a7a0b983eb",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
-      "summary": "Researchers discovered 40 malicious Firefox extensions masquerading as legitimate Web3 products to steal cryptocurrency wallet credentials as part of a campaign dubbed Offside Wallet Theft Factory.",
-      "date": "2026-08-20T08:42:03.000Z",
-      "link": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3c9a21c7-11cb-4aa3-95a1-ad1c710e87ec",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "US Indicts 17 Iranians Over Years-Long Cyber Espionage Campaign",
-      "summary": "The US Department of Justice has expanded a long-standing indictment against 17 members of the Iranian Mabna Institute for a massive, multi-year cyber espionage campaign that resulted in the theft of 31TB of data from global entities. The move marks an update to a case that has been ongoing for eight years.",
-      "date": "2026-08-20T08:36:37.000Z",
-      "link": "https://securityaffairs.com/197551/intelligence/us-indicts-17-iranians-over-years-long-cyber-espionage-campaign.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2cfeed2f-196a-4442-9edb-3c7f43bd329d",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Tufin expands Unified Control Plane with AI intelligence and multi-vendor automation",
-      "summary": "Tufin has released TOS 5.3, which integrates AI and multi-vendor automation to help enterprises manage security policies across complex hybrid and cloud environments. The update aims to address the governance challenges organizations face when coordinating security across numerous disparate tools.",
-      "date": "2026-08-20T07:31:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/20/tufin-expands-unified-control-plane-with-ai-intelligence-and-multi-vendor-automation/",
-      "isTopTen": false
-    },
-    {
-      "id": "49e8d22f-343c-46cf-87fb-259822e9c89f",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "US charges 17 Iranian hackers over 31-terabyte academic data theft",
-      "summary": "The U.S. government has indicted 17 members of the Iranian Mabna Institute for orchestrating a massive, multi-year cyber campaign that resulted in the theft of 31 terabytes of data from academic, corporate, and government entities.",
-      "date": "2026-08-20T07:28:56.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/20/us-iranian-hackers-mabna-institute-charged/",
-      "isTopTen": false
-    },
-    {
-      "id": "c42acd71-039c-496c-811d-9a113e7d3d7f",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "StopAndProtect Turns 2,000 Hacked WordPress Sites Into a Criminal Network",
-      "summary": "Check Point Research discovered a cybercriminal operation named StopAndProtect that compromised approximately 2,000 WordPress sites to facilitate malware distribution, data theft, and ransomware attacks. This network leverages compromised infrastructure to act as a multi-purpose platform for various malicious activities.",
-      "date": "2026-08-20T07:20:41.000Z",
-      "link": "https://securityaffairs.com/197537/hacking/stopandprotect-turns-2000-hacked-wordpress-sites-into-a-criminal-network.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7523dd03-389a-48f8-8009-aff0d9531c33",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "AI agent suggested installing a malware package. Engineer almost took its advice",
-      "summary": "An AI coding assistant recommended a malicious software package to an engineer, which was avoided due to established source code verification policies. This incident highlights the risks of AI-generated code suggestions and the importance of manual security oversight.",
-      "date": "2026-08-20T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
-      "isTopTen": false
-    },
-    {
-      "id": "f90ae25c-1939-445a-a364-7081ef1629ba",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-      "summary": "A critical remote code execution vulnerability in the Elementor Pro WordPress plugin allows unauthenticated attackers to upload and execute malicious PHP files. Tracked as CVE-2026-32475, the flaw carries a high CVSS score of 9.0.",
-      "date": "2026-08-20T06:04:34.000Z",
-      "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
       "isTopTen": false
     }
   ]
