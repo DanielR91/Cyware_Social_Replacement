@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-09-09T20:47:35.315Z",
+  "lastUpdated": "2026-09-09T23:08:07.345Z",
   "articles": [
+    {
+      "id": "3ef9272f-22c6-4076-b5f3-39e3927ebfe3",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Novel Blue Moon kit targeting Chrome and Windows reflects new reality of AI-driven exploits",
+      "summary": "The Blue Moon exploit kit is leveraging AI-driven techniques to target vulnerabilities in the Chrome browser and Windows operating systems. Security professionals are advised to prioritize patching to mitigate the risks posed by these emerging threats.",
+      "date": "2026-09-09T22:28:53.000Z",
+      "link": "https://www.theregister.com/research/2026/09/09/novel-blue-moon-kit-targeting-chrome-and-windows-reflects-new-reality-of-ai-driven-exploits/5295399",
+      "isTopTen": false
+    },
+    {
+      "id": "2fa755e4-6c08-45de-bc2b-453e16c87083",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "CISA head says agency must change quickly to prevent the 'worst that could happen'",
+      "summary": "Acting CISA director Nick Andersen emphasizes the urgent need for organizational evolution and filling key personnel vacancies to mitigate potential catastrophic national security threats. This internal restructuring aims to bolster the agency's operational readiness across critical infrastructure and emergency communication sectors.",
+      "date": "2026-09-09T21:25:00.000Z",
+      "link": "https://therecord.media/cisa-hiring-nick-andersen-warning",
+      "isTopTen": false
+    },
+    {
+      "id": "f41252d8-d622-40e6-be66-1754f8f91918",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Chinese espionage groups swarm to exploit triple-link chain of zero-days",
+      "summary": "Chinese-aligned threat actors are actively exploiting a chain of three zero-day vulnerabilities to target various organizations. Security researchers report that this campaign is ongoing and likely to expand.",
+      "date": "2026-09-09T21:17:32.000Z",
+      "link": "https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/",
+      "isTopTen": false
+    },
     {
       "id": "9126469a-9ab0-447a-a3fc-5a52e5988346",
       "source": "The Record",
@@ -21,7 +54,7 @@
       "summary": "The FTC has rescinded a policy that previously mandated health apps to notify users regarding unauthorized sharing or exposure of their personal health information. This move reduces transparency requirements for health-related digital platforms following data breaches.",
       "date": "2026-09-09T19:18:32.000Z",
       "link": "https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "61836336-8a97-468f-9df0-0a6c100f03ae",
@@ -54,7 +87,7 @@
       "summary": "The NSA, CISA, and FBI have issued a joint advisory accusing six Chinese AI companies of conducting large-scale data extraction to replicate the capabilities of advanced US AI models. This activity is described as a strategic effort to accelerate their own technological development by harvesting proprietary model information.",
       "date": "2026-09-09T18:20:36.000Z",
       "link": "https://securityaffairs.com/198770/security/us-agencies-warn-chinese-ai-firms-are-extracting-advanced-ai-models.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "088a315b-f82d-4e2d-b09c-0207d4b470b4",
@@ -109,7 +142,7 @@
       "summary": "At least four Chinese cyber-espionage groups have been observed utilizing the same zero-day vulnerability in Google Chrome. Researchers identified the exploitation of this bug, which was originally discovered in August.",
       "date": "2026-09-09T16:30:00.000Z",
       "link": "https://therecord.media/china-hackers-chrome-browser-zero-day-multiple-groups",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "06130b2b-9f29-451b-b4a8-2ba87c87376f",
@@ -142,7 +175,7 @@
       "summary": "Cybercriminals are using information-stealing malware to harvest AI session tokens and API keys, allowing them to bypass MFA and gain unauthorized access to accounts from providers like Google and Anthropic.",
       "date": "2026-09-09T14:23:55.000Z",
       "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2d33c453-1a70-4423-8350-7dde2d0f2ba7",
@@ -197,7 +230,7 @@
       "summary": "A memory corruption vulnerability in WeChat's VoIP feature allowed attackers to achieve remote code execution on a victim's device without requiring user interaction. Tencent has since addressed the flaw after researchers demonstrated the worm's potential to propagate across platforms.",
       "date": "2026-09-09T12:45:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/09/wechat-worm-could-pwn-a-friend-before-they-even-answered-the-call/5295234",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1fcdc1ed-a778-4a28-bf2f-92017904bec5",
@@ -252,7 +285,7 @@
       "summary": "Hackers are infecting F5 BIG-IP APM devices with a Linux rootkit that deploys and executes fileless web shells directly in memory to evade detection. This technique allows attackers to maintain persistent, stealthy access to critical infrastructure within enterprises and government organizations.",
       "date": "2026-09-09T11:05:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/09/f5-big-ip-apm-rootkit-hides-web-shell-in-memory/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "264ef254-100c-420d-b9e8-2c07320b250a",
@@ -406,7 +439,7 @@
       "summary": "Microsoft's September 2026 Patch Tuesday sets a record with nearly 1,000 CVEs addressed, including two exploited zero-days and 20 wormable vulnerabilities. The massive update covers a wide range of products, notably including a critical Remote Code Execution flaw in Exchange.",
       "date": "2026-09-09T07:03:55.000Z",
       "link": "https://securityaffairs.com/198705/security/microsofts-biggest-patch-tuesday-974-cves-2-zero-days-and-20-wormable-bugs.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "97a3b256-d2e8-431c-b457-10b753e33d04",
@@ -428,7 +461,7 @@
       "summary": "SAP has released a critical security patch for a CVSS 10.0 memory corruption vulnerability in its Extended Passport Processing, which allows unauthenticated remote code execution.",
       "date": "2026-09-09T06:25:45.000Z",
       "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2bc073d7-abd9-4bae-a8f8-8925a707937c",
@@ -472,7 +505,7 @@
       "summary": "CISA has added a critical pre-authentication RCE vulnerability in N-able N-central, tracked as CVE-2026-86218, to its Known Exploited Vulnerabilities catalog after evidence of active exploitation. FCEB agencies are mandated to patch the flaw by September 11, 2026.",
       "date": "2026-09-09T04:27:51.000Z",
       "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "eec0d829-e955-417a-a392-d3261e871804",
@@ -725,7 +758,7 @@
       "summary": "Threat actors are utilizing autonomous, multi-agent AI frameworks to conduct rapid, large-scale credential harvesting campaigns. Google Threat Intelligence confirms this emerging tactic is being used to efficiently compromise thousands of accounts in just hours.",
       "date": "2026-09-08T13:48:16.000Z",
       "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7d388a3a-317d-4855-856b-cb3d91e3c6ec",
@@ -5466,39 +5499,6 @@
       "summary": "Cybersecurity researchers have identified the Weedhack malware being distributed to gamers through fake Minecraft client websites and SEO poisoning tactics. McAfee Labs reported thousands of blocked access attempts to these deceptive sites.",
       "date": "2026-08-24T17:41:11.000Z",
       "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1625e9a0-4615-4064-af3d-f16205b54c79",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Cybercriminals Turn GTA VI Leaks Into Malware Bait",
-      "summary": "Cybercriminals are exploiting the hype surrounding GTA VI by distributing fake game files that contain hidden malware payloads to compromise users' systems. These malicious actors rely on the curiosity of fans to trick them into installing harmful software under the guise of an early game leak.",
-      "date": "2026-08-24T17:27:10.000Z",
-      "link": "https://securityaffairs.com/197772/malware/cybercriminals-turn-gta-vi-leaks-into-malware-bait.html",
-      "isTopTen": false
-    },
-    {
-      "id": "febee293-27c7-4e38-a3c5-b16bb37d0fc0",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Iran-linked cyberattack shut down a UK power plant",
-      "summary": "An Iran-linked cyberattack successfully forced a shutdown at a UK power plant, though the government has confirmed there is no risk to the national energy grid.",
-      "date": "2026-08-24T16:59:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
-      "isTopTen": false
-    },
-    {
-      "id": "e6e8fdc0-6d26-42f7-abd3-2adcc92b1ea6",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-      "summary": "The weekly report highlights an uptick in diverse cyber threats, including AI-driven PLC exploits, GitLab vulnerabilities, and sensitive credential leaks. It emphasizes the risk posed by trusted software being weaponized and the ongoing exposure of internet-facing infrastructure.",
-      "date": "2026-08-24T14:32:10.000Z",
-      "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
       "isTopTen": false
     }
   ]
