@@ -1,6 +1,204 @@
 {
-  "lastUpdated": "2026-09-09T03:58:06.654Z",
+  "lastUpdated": "2026-09-09T11:06:28.556Z",
   "articles": [
+    {
+      "id": "f21dc390-4fe3-4711-9dd9-727428caeeb7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Zscaler Agentic SOC combines AI agents with zero trust telemetry",
+      "summary": "Zscaler has launched Zscaler Agentic SOC, an AI-first security operations platform that integrates zero trust telemetry to proactively identify and mitigate threats at machine speed. The solution is designed to scale security expertise and defend against sophisticated AI-driven cyberattacks.",
+      "date": "2026-09-09T10:09:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/09/zscaler-agentic-soc-solution/",
+      "isTopTen": false
+    },
+    {
+      "id": "73e51b8c-0924-49d5-9081-b8b1a93380dc",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure",
+      "summary": "Cybercriminals are exploiting commodity infrastructure, such as YouTube gaming lures and SEO poisoning, to deliver multi-payload malware into enterprise networks. This investigation highlights how attackers leverage legitimate platforms to evade detection.",
+      "date": "2026-09-09T10:00:55.000Z",
+      "link": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
+      "isTopTen": false
+    },
+    {
+      "id": "c300b5c3-71c4-41a1-88e8-e3bfc4f064c7",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Chinese AI firms are siphoning capabilities from American models, CISA warns",
+      "summary": "U.S. intelligence and cybersecurity agencies have warned that Chinese AI firms are utilizing knowledge distillation to illicitly replicate the advanced capabilities of American AI models. This industrial-scale extraction allows these companies to bypass development hurdles for high-level functions like coding and reasoning.",
+      "date": "2026-09-09T09:55:36.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/09/china-malicious-ai-knowledge-distillation-against-us-companies/",
+      "isTopTen": true
+    },
+    {
+      "id": "6f6b6b5f-4da9-4a42-b8c4-df6d951c582a",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Securin Platform helps security teams prove when attack paths are closed",
+      "summary": "Securin has launched an AI-native Preemptive Exposure Management platform that integrates attack surface discovery, threat intelligence, and offensive validation to help security teams prioritize and verify the closure of attack paths. The platform aims to move beyond traditional severity-based vulnerability lists by providing continuous, evidence-based remediation insights.",
+      "date": "2026-09-09T09:52:55.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/09/securin-exposure-management-platform/",
+      "isTopTen": false
+    },
+    {
+      "id": "9996e171-faa0-4bff-b913-a300b0c8b6c1",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "summary": "Google has issued a security patch for a Chrome V8 engine zero-day vulnerability, identified as CVE-2026-87491, which is currently being exploited in the wild to achieve code execution. This out-of-bounds write flaw impacts the JavaScript and WebAssembly engine within the browser.",
+      "date": "2026-09-09T09:11:03.000Z",
+      "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "isTopTen": true
+    },
+    {
+      "id": "40d4642b-ac81-44e6-b865-8bef0ea813df",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "September 2026 Patch Tuesday: Record patch count, 2 zero-days, and a SigRed successor",
+      "summary": "Microsoft's September 2026 Patch Tuesday sets a record for updates, including patches for two actively exploited zero-days and a new privilege escalation exploit dubbed ShieldCrash. This exploit, released by researcher Nightmare Eclipse, reportedly bypasses the fix for a critical flaw in Microsoft Defender.",
+      "date": "2026-09-09T09:04:18.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/09/september-2026-patch-tuesday-zero-days-sigred-successor/",
+      "isTopTen": true
+    },
+    {
+      "id": "56752aa4-6091-4b1b-9b60-841eea7c1aa4",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "PoisonedRefresh: A Fileless Linux Rootkit That Injects PHP Web Shells Into F5 BIG-IP APM Server Memory",
+      "summary": "PoisonedRefresh is a fileless Linux rootkit that targets F5 BIG-IP APM servers by injecting PHP web shells directly into memory, leaving no detectable disk artifacts. This stealthy implant poses a significant risk to compromised environments by allowing unauthorized persistence and access.",
+      "date": "2026-09-09T08:50:44.000Z",
+      "link": "https://securityaffairs.com/198746/malware/poisonedrefresh-a-fileless-linux-rootkit-that-injects-php-web-shells-into-f5-big-ip-apm-server-memory.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ac1a96ca-0609-4f2e-822f-b6f0468c5427",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "summary": "cPanel has released a security patch for a critical vulnerability that allows authenticated hosting account users with mail privileges to execute arbitrary code as the root user. The flaw affects all currently supported versions of cPanel and WHM.",
+      "date": "2026-09-09T08:19:32.000Z",
+      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "isTopTen": false
+    },
+    {
+      "id": "fe081480-840e-4ef7-8d3e-827eacd52ac9",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Google fixes yet another actively exploited Chrome zero-day (CVE-2026-87491)",
+      "summary": "Google has released an urgent update for Chrome to address CVE-2026-87491, an out-of-bounds write vulnerability in the V8 engine that is currently being exploited in the wild.",
+      "date": "2026-09-09T07:53:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/09/google-chrome-cve-2026-87491-zero-day-flaw/",
+      "isTopTen": false
+    },
+    {
+      "id": "dfbe6118-f3c9-4fec-bba3-b2ce85ab1c65",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Chaotic Eclipse Released ShieldCrash, A PoC For Microsoft Defender Zero-Day",
+      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit named ShieldCrash, which leverages an unpatched Microsoft Defender zero-day vulnerability to facilitate arbitrary file reads with SYSTEM-level privileges.",
+      "date": "2026-09-09T07:53:00.000Z",
+      "link": "https://securityaffairs.com/198726/security/chaotic-eclipse-released-shieldcrash-a-poc-for-microsoft-defender-zero-day.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6cedec27-d390-4c8c-be6c-5e1704b8a315",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "summary": "Malware targeting F5 BIG-IP appliances injects a PHP web shell directly into memory during script execution, effectively bypassing traditional disk-based security scans. The technique complicates detection by ensuring that the malicious code leaves no persistent footprint on the appliance's storage.",
+      "date": "2026-09-09T07:36:49.000Z",
+      "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ee9e2920-d6c8-4ea2-b6d7-20f335ae6470",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft’s Biggest Patch Tuesday: 974 CVEs, 2 Zero-Days and 20 Wormable Bugs",
+      "summary": "Microsoft's September 2026 Patch Tuesday sets a record with nearly 1,000 CVEs addressed, including two exploited zero-days and 20 wormable vulnerabilities. The massive update covers a wide range of products, notably including a critical Remote Code Execution flaw in Exchange.",
+      "date": "2026-09-09T07:03:55.000Z",
+      "link": "https://securityaffairs.com/198705/security/microsofts-biggest-patch-tuesday-974-cves-2-zero-days-and-20-wormable-bugs.html",
+      "isTopTen": false
+    },
+    {
+      "id": "97a3b256-d2e8-431c-b457-10b753e33d04",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept for ShieldCrash, a bypass for a recent Microsoft Defender vulnerability patch. The finding highlights a failure in the initial remediation of CVE-2026-69414.",
+      "date": "2026-09-09T06:47:27.000Z",
+      "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "isTopTen": false
+    },
+    {
+      "id": "4589ebe4-da55-4713-8415-68a718cacb2a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "summary": "SAP has released a critical security patch for a CVSS 10.0 memory corruption vulnerability in its Extended Passport Processing, which allows unauthenticated remote code execution.",
+      "date": "2026-09-09T06:25:45.000Z",
+      "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "isTopTen": true
+    },
+    {
+      "id": "2bc073d7-abd9-4bae-a8f8-8925a707937c",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AI-Infra-Guard: Open-source security scanner for AI systems",
+      "summary": "Tencent’s Zhuque Lab has released AI-Infra-Guard, an open-source scanner designed to identify vulnerabilities in AI systems by fingerprinting services and evaluating model safety against CVEs and malicious agent behaviors.",
+      "date": "2026-09-09T05:30:53.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/09/ai-infra-guard-open-source-security-scanner-ai-systems/",
+      "isTopTen": false
+    },
+    {
+      "id": "f8122bef-cf1a-4d55-8729-fcecd43a7b64",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Gartner: 70% of SOCs will pilot AI agents. Only 15% will see results",
+      "summary": "A Gartner report predicts that while 70% of large Security Operations Centers will pilot AI agents by 2028, only 15% will achieve measurable improvements due to a lack of structured evaluation. This highlights the ongoing 'hype' phase surrounding AI integration in security operations.",
+      "date": "2026-09-09T05:00:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/09/prophet-security-evaluating-ai-soc-agents/",
+      "isTopTen": false
+    },
+    {
+      "id": "81b244d6-6a16-4b12-bf1c-a3a606fb58e0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+      "summary": "Microsoft addressed a record-breaking 974 vulnerabilities across its software suite, including two critical zero-day flaws currently being exploited in the wild.",
+      "date": "2026-09-09T04:41:29.000Z",
+      "link": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+      "isTopTen": false
+    },
+    {
+      "id": "9844d226-fec8-4be8-b13f-e1aa5108d0c0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+      "summary": "CISA has added a critical pre-authentication RCE vulnerability in N-able N-central, tracked as CVE-2026-86218, to its Known Exploited Vulnerabilities catalog after evidence of active exploitation. FCEB agencies are mandated to patch the flaw by September 11, 2026.",
+      "date": "2026-09-09T04:27:51.000Z",
+      "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+      "isTopTen": true
+    },
     {
       "id": "eec0d829-e955-417a-a392-d3261e871804",
       "source": "The Register",
@@ -21,7 +219,7 @@
       "summary": "Microsoft has released patches for 974 vulnerabilities, including two zero-day flaws currently being exploited in the wild. Despite the record-breaking volume of patches, security experts advise organizations to prioritize remediation based on their specific risk profiles.",
       "date": "2026-09-08T22:50:41.000Z",
       "link": "https://cyberscoop.com/microsoft-patch-tuesday-september-2026/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6677edb1-507f-416e-8358-fd0ffef53937",
@@ -32,7 +230,7 @@
       "summary": "Microsoft has released a record-breaking 973 vulnerabilities for its Patch Tuesday update, with CISA confirming that two of these flaws are currently being actively exploited. Users are urged to apply patches promptly to mitigate potential security risks.",
       "date": "2026-09-08T22:40:00.000Z",
       "link": "https://therecord.media/microsoft-patch-tuesday-september-2026",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c1ebf0b0-8852-4964-97ec-f670c00ef9a9",
@@ -65,7 +263,7 @@
       "summary": "U.S. federal agencies have warned that Chinese companies are systematically stealing proprietary data from American AI models by routing millions of requests through various accounts. This activity, known as model distillation, allows the actors to replicate the capabilities of restricted AI systems.",
       "date": "2026-09-08T20:47:53.000Z",
       "link": "https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e96da2d2-87ae-4218-b0b0-b9baadddac21",
@@ -153,7 +351,7 @@
       "summary": "Researchers discovered a critical WeChat vulnerability that allows a worm to compromise accounts via incoming calls without requiring user interaction. Tencent has since implemented a fix to block the exploit.",
       "date": "2026-09-08T18:09:13.000Z",
       "link": "https://securityaffairs.com/198688/hacking/wechat-worm-can-hijack-accounts-without-victims-answering-calls.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "18a569c5-60e1-42b1-ba38-6d63d58e020b",
@@ -219,7 +417,7 @@
       "summary": "Researchers discovered a vulnerability in ChatGPT where a malicious prompt can be used to exfiltrate data from a user's connected Gmail account to an attacker's account. This exploit operates silently in the background while the chatbot continues to function normally, posing a significant privacy risk.",
       "date": "2026-09-08T14:19:17.000Z",
       "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e4c0f1a5-d41b-48d3-b9b5-4242c1894b41",
@@ -340,7 +538,7 @@
       "summary": "Researchers discovered a zero-click vulnerability in WeChat that allows a worm to compromise iPhone and Android accounts via incoming calls from existing contacts. Tencent has since patched the flaw following a report from the security firm Calif.",
       "date": "2026-09-08T11:54:29.000Z",
       "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "076c80ed-ac41-417a-9e8e-a152fd465d40",
@@ -549,7 +747,7 @@
       "summary": "User data for 32.8 million Condé Nast accounts is being sold on a cybercrime forum for $15,000, exposing users to increased risks of phishing and fraud. Samples reviewed from the database appear to be genuine, confirming a significant data breach.",
       "date": "2026-09-07T19:40:06.000Z",
       "link": "https://securityaffairs.com/198628/data-breach/conde-nast-data-of-32-8-million-users-offered-for-sale-after-wired-leak.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "25c1f32d-2504-4436-94ea-2aa8e21e40e6",
@@ -615,7 +813,7 @@
       "summary": "CERT Polska has discovered an exploit chain named 'MikroTrick' that allows unauthenticated attackers to gain full control over MikroTik devices with internet-accessible SSH. The six identified vulnerabilities in RouterOS have been coordinated with the vendor for patching.",
       "date": "2026-09-07T14:07:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/07/mikrotik-routeros-ssh-vulnerabilities-exploited/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aa4e251b-024a-482e-ba12-e638d6be9bfd",
@@ -648,7 +846,7 @@
       "summary": "N-able has released an emergency hotfix to address a critical, actively exploited remote code execution vulnerability (CVE-2026-86218) in its N-central remote monitoring and management platform. The flaw allows pre-authenticated attackers to execute arbitrary code on affected servers.",
       "date": "2026-09-07T11:55:57.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1602a7f7-87c2-4213-87d8-f81919eccdfe",
@@ -5301,204 +5499,6 @@
       "summary": "Adversa AI researcher Rony Utevsky developed a 'Cryptographic Context Injection' technique that exploits AI guardrails by using AES-encrypted payloads to exfiltrate Grok chat histories without user interaction. This zero-click attack leverages the model's own runtime to decrypt and execute malicious instructions.",
       "date": "2026-08-23T07:20:38.000Z",
       "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e8e8040c-4e49-4904-92d5-4ed9345291fb",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Postal Service moves to finalize mail ballot regs before SCOTUS ruling",
-      "summary": "The U.S. Postal Service is rushing to finalize mail ballot regulations in anticipation of a favorable Supreme Court ruling, despite prior challenges in state courts. This initiative highlights the intersection of political policy and election security processes.",
-      "date": "2026-08-22T17:01:11.000Z",
-      "link": "https://cyberscoop.com/postal-service-finalizes-mail-in-ballot-rules-before-scotus-ruling/",
-      "isTopTen": false
-    },
-    {
-      "id": "85a4bea7-7748-4f55-b19b-231fa8b57852",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "ToxicPanda 2.0 Gets a Major Upgrade, Expanding Attacks Across 16 Countries",
-      "summary": "The updated ToxicPanda 2.0 malware has expanded its reach to 16 countries, now targeting 349 financial applications by exploiting Android Wireless Debugging to steal credentials. This evolution marks a significant shift from its previous limited, Europe-focused operations.",
-      "date": "2026-08-22T16:50:20.000Z",
-      "link": "https://securityaffairs.com/197681/breaking-news/toxicpanda-2-0-gets-a-major-upgrade.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b945e2bf-0eeb-4188-b8b8-480575d216c7",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "If you're not using AI to attack your own systems, your adversaries will",
-      "summary": "Organizations must proactively utilize AI-driven red teaming to stress-test their systems, as attackers are already leveraging these tools to exploit vulnerabilities. The rapid integration of AI agents is creating new, complex attack surfaces that security defenders must urgently address.",
-      "date": "2026-08-22T15:02:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
-      "isTopTen": false
-    },
-    {
-      "id": "dc50f3fe-cc63-4504-9cdb-ba23d8584308",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-      "summary": "TikTok has agreed to a $400 million settlement with the U.S. Department of Justice to resolve allegations that the platform violated child privacy laws. The payment is structured as an immediate $300 million fine followed by a $100 million payment contingent on regulatory conditions.",
-      "date": "2026-08-22T14:32:41.000Z",
-      "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-      "isTopTen": false
-    },
-    {
-      "id": "25c181d3-2234-4374-99f5-d41a40f2a196",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Malware Hijacks Android Car Head Units",
-      "summary": "Malware is exploiting Android-based car infotainment systems by installing unauthorized proxy software to turn vehicles into nodes for the BADBOX botnet. Researchers discovered that these malicious apps operate without a user interface to evade detection while utilizing car update mechanisms.",
-      "date": "2026-08-22T08:55:18.000Z",
-      "link": "https://securityaffairs.com/197700/hacking/malware-hijacks-android-car-head-units.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fabae832-23d8-453f-88d8-8a6c55f0f115",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Flaw in NASA/JPL Open-Source Spacecraft Command Software Allowed Unauthenticated Command Execution",
-      "summary": "A critical vulnerability in NASA/JPL’s AIT-GUI software, part of the AMMOS Instrument Toolkit, allowed unauthenticated users to execute arbitrary commands on spacecraft instruments due to a complete lack of security controls. The flaw is rated with a CVSS score of 9.4, highlighting significant risks to mission-critical hardware.",
-      "date": "2026-08-22T08:04:09.000Z",
-      "link": "https://securityaffairs.com/197689/hacking/critical-flaw-in-nasa-jpl-open-source-spacecraft-command-software.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4c33f361-1e2a-45dd-98a7-2c529ff2e380",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Zimbra Collaboration Suite (ZCS) flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added the Zimbra Collaboration Suite vulnerability CVE-2026-73570 to its Known Exploited Vulnerabilities (KEV) catalog following confirmation of active exploitation by threat actors. This mandates that federal agencies address the security flaw to mitigate potential risks.",
-      "date": "2026-08-22T07:17:49.000Z",
-      "link": "https://securityaffairs.com/197693/security/u-s-cisa-adds-zimbra-collaboration-suite-zcs-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2402a3bb-f488-4b71-aa21-2a69f865db27",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AWS Security makes an inscrutable choice",
-      "summary": "The article critiques AWS's policy of quarantining leaked credentials as an insufficient security measure for preventing unauthorized access. It suggests that more robust, proactive authentication strategies are required to effectively mitigate credential-based threats.",
-      "date": "2026-08-21T23:42:41.000Z",
-      "link": "https://www.theregister.com/security/2026/08/22/aws-security-makes-an-inscrutable-choice-corey-quinn/5291446",
-      "isTopTen": false
-    },
-    {
-      "id": "3bfa452f-1959-4580-9b79-cffae904f5f9",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
-      "summary": "Cyber attackers are increasingly shifting their focus from application code to insecure CI/CD pipelines and developer tools within the software supply chain. Organizations must implement enhanced visibility and strict security controls across the entire development lifecycle to defend against these evolving threats.",
-      "date": "2026-08-21T23:00:21.000Z",
-      "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
-      "isTopTen": false
-    },
-    {
-      "id": "a081c907-1075-493c-826c-7dc35b44a273",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Lawmakers call for investigation into impact of CISA staffing cuts",
-      "summary": "U.S. lawmakers are demanding an investigation into the repercussions of recent budget-related staffing cuts at CISA, specifically questioning how the agency is mitigating the loss of institutional knowledge. The move highlights concerns over the agency's operational capacity to handle national cybersecurity threats.",
-      "date": "2026-08-21T19:56:00.000Z",
-      "link": "https://therecord.media/lawmakers-call-for-investigation-into-impact-of-cisa-cuts",
-      "isTopTen": false
-    },
-    {
-      "id": "88957bb1-b861-416e-84cc-7ad688e09bbd",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Apollo discloses data breach from ongoing wave of attacks hitting financial sector",
-      "summary": "Private equity firm Apollo reported a data breach involving unauthorized access to cloud platforms during July, which exposed sensitive personal information. This incident is part of a broader, ongoing wave of cyberattacks targeting the financial sector.",
-      "date": "2026-08-21T19:14:28.000Z",
-      "link": "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
-      "isTopTen": false
-    },
-    {
-      "id": "0265d179-5486-4ab0-94c9-5bd837def44c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "summary": "Service busy.",
-      "date": "2026-08-21T18:53:00.000Z",
-      "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cfca125d-0ca4-49e7-a8b7-734d7fe6a3eb",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Your Shredded Visa Card May Still Work at the Checkout",
-      "summary": "Researchers discovered that expired Visa contactless cards can still perform successful transactions by exploiting an unsigned expiry field in the card's EMV kernel. This flaw allows attackers to bypass expiration checks at point-of-sale systems.",
-      "date": "2026-08-21T18:03:59.000Z",
-      "link": "https://securityaffairs.com/197663/hacking/your-shredded-visa-card-may-still-work-at-the-checkout.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bc0292fd-de78-43f7-b0bd-dcc783d96613",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Homeland security cybercops say patch TrueConf (Russia's Zoom) if you're using it",
-      "summary": "The U.S. Department of Homeland Security is urging users to patch vulnerabilities in the TrueConf video conferencing platform, which are currently being actively exploited by Ukrainian hacktivists. The advisory highlights significant security risks for global organizations utilizing the software.",
-      "date": "2026-08-21T16:29:00.000Z",
-      "link": "https://www.theregister.com/patches/2026/08/21/homeland-security-cybercops-say-patch-trueconf-russias-zoom-if-youre-using-it/5291156",
-      "isTopTen": false
-    },
-    {
-      "id": "6271ff1f-0285-4457-9ce0-6f318da39de0",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "U.S. Bank says breach claims related to fourth-party incident",
-      "summary": "U.S. Bank clarified that recent data breach allegations stem from a fourth-party vendor incident rather than a compromise of its internal systems. The bank confirmed that its own networks and data repositories remain secure.",
-      "date": "2026-08-21T16:16:00.000Z",
-      "link": "https://therecord.media/us-bank-says-breach-claims-related-to-fourth-party-incident",
-      "isTopTen": false
-    },
-    {
-      "id": "ecff67f9-a160-45a6-8442-87aa8ecc110d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "summary": "Security researchers discovered that Microsoft Defender's own signed driver can be abused to perform unauthorized kernel-level actions at boot, allowing attackers to disable security software without exploiting traditional vulnerabilities. This technique affects all Windows versions from 7 through 11 and utilizes a built-in, legitimately signed component.",
-      "date": "2026-08-21T15:52:10.000Z",
-      "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "isTopTen": false
-    },
-    {
-      "id": "21db393d-6c83-488a-8d83-c454f75b523d",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-      "summary": "A new malware family is targeting Android-based vehicle head units by exploiting built-in firmware updaters to facilitate ad fraud and build a proxy botnet. Discovered by Kaspersky, this threat highlights a supply-chain vulnerability within automotive infotainment systems.",
-      "date": "2026-08-21T15:41:44.000Z",
-      "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1fabfbc0-ecd3-4d07-a693-1e4c47423a37",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Lawmakers seek watchdog review of federal hacking of Americans",
-      "summary": "Sen. Ron Wyden and Rep. Greg Casar are requesting a GAO investigation into the U.S. government's deployment of spyware and hacking tools against citizens. This move aims to increase oversight regarding the use of sophisticated surveillance technologies by federal agencies.",
-      "date": "2026-08-21T15:05:33.000Z",
-      "link": "https://cyberscoop.com/watchdog-review-federal-government-hacking-americans/",
       "isTopTen": false
     }
   ]
