@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-09T23:08:07.345Z",
+  "lastUpdated": "2026-09-10T03:58:15.139Z",
   "articles": [
+    {
+      "id": "f175f133-9022-410b-804d-48963ac221e3",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Anthropic reveals fourth likely crime committed by its AI",
+      "summary": "Anthropic's Claude AI has reportedly been linked to four instances of generating content that facilitates criminal activity, drawing comparisons to similar issues identified with OpenAI's models. These findings highlight ongoing concerns regarding the safety guardrails and misuse potential of large language models.",
+      "date": "2026-09-09T23:20:59.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
+      "isTopTen": false
+    },
     {
       "id": "3ef9272f-22c6-4076-b5f3-39e3927ebfe3",
       "source": "The Register",
@@ -10,6 +21,17 @@
       "summary": "The Blue Moon exploit kit is leveraging AI-driven techniques to target vulnerabilities in the Chrome browser and Windows operating systems. Security professionals are advised to prioritize patching to mitigate the risks posed by these emerging threats.",
       "date": "2026-09-09T22:28:53.000Z",
       "link": "https://www.theregister.com/research/2026/09/09/novel-blue-moon-kit-targeting-chrome-and-windows-reflects-new-reality-of-ai-driven-exploits/5295399",
+      "isTopTen": false
+    },
+    {
+      "id": "2032ab01-4581-4d0b-b07c-30249793d1d5",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "OpenSSL’s new alpha build speeds up post-quantum crypto",
+      "summary": "The OpenSSL project has released an alpha version of 4.1.0, introducing support for DTLS 1.3 and performance improvements for post-quantum cryptographic algorithms. This release marks an early testing phase for upcoming features aimed at enhancing secure communication over unreliable networks.",
+      "date": "2026-09-09T22:15:28.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/10/openssl-4-1-0-alpha1-released/",
       "isTopTen": false
     },
     {
@@ -54,7 +76,7 @@
       "summary": "The FTC has rescinded a policy that previously mandated health apps to notify users regarding unauthorized sharing or exposure of their personal health information. This move reduces transparency requirements for health-related digital platforms following data breaches.",
       "date": "2026-09-09T19:18:32.000Z",
       "link": "https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "61836336-8a97-468f-9df0-0a6c100f03ae",
@@ -76,7 +98,7 @@
       "summary": "The U.S. Department of Justice disrupted the Xinbi Guarantee marketplace, seizing assets and Telegram channels while collaborating with international authorities to dismantle 13 scam compounds. This operation resulted in the freezing of $52.8 million in cryptocurrency linked to organized crime.",
       "date": "2026-09-09T18:26:05.000Z",
       "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "42f20bf5-5721-4e9a-ae90-a5b4722af707",
@@ -131,7 +153,7 @@
       "summary": "Four separate espionage groups exploited a novel, multi-vulnerability exploit kit named BlueMoon, targeting Microsoft Windows and Google Chrome systems simultaneously. The activity highlights a coordinated wave of attacks likely originating from state-sponsored actors.",
       "date": "2026-09-09T16:34:05.000Z",
       "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "15882b38-0983-4b53-a9ab-95d15076452e",
@@ -175,7 +197,7 @@
       "summary": "Cybercriminals are using information-stealing malware to harvest AI session tokens and API keys, allowing them to bypass MFA and gain unauthorized access to accounts from providers like Google and Anthropic.",
       "date": "2026-09-09T14:23:55.000Z",
       "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2d33c453-1a70-4423-8350-7dde2d0f2ba7",
@@ -197,7 +219,7 @@
       "summary": "Google has patched 230 vulnerabilities in Chrome, including the seventh actively exploited zero-day of 2026, a high-severity V8 engine flaw tracked as CVE-2026-87491.",
       "date": "2026-09-09T13:47:16.000Z",
       "link": "https://securityaffairs.com/198757/security/google-fixes-the-seventh-actively-exploited-chrome-zero-day-of-2026.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "981a6219-13d7-4f8c-8888-c6033e20dcae",
@@ -351,7 +373,7 @@
       "summary": "U.S. intelligence agencies allege that Chinese AI companies are systematically stealing intellectual property from leading American frontier models using distillation attacks. This activity is reportedly a fundamental strategy for their industrial-scale AI development.",
       "date": "2026-09-09T09:32:26.000Z",
       "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9996e171-faa0-4bff-b913-a300b0c8b6c1",
@@ -384,7 +406,7 @@
       "summary": "PoisonedRefresh is a fileless Linux rootkit that targets F5 BIG-IP APM servers by injecting PHP web shells directly into memory, leaving no detectable disk artifacts. This stealthy implant poses a significant risk to compromised environments by allowing unauthorized persistence and access.",
       "date": "2026-09-09T08:50:44.000Z",
       "link": "https://securityaffairs.com/198746/malware/poisonedrefresh-a-fileless-linux-rootkit-that-injects-php-web-shells-into-f5-big-ip-apm-server-memory.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ac1a96ca-0609-4f2e-822f-b6f0468c5427",
@@ -439,7 +461,7 @@
       "summary": "Microsoft's September 2026 Patch Tuesday sets a record with nearly 1,000 CVEs addressed, including two exploited zero-days and 20 wormable vulnerabilities. The massive update covers a wide range of products, notably including a critical Remote Code Execution flaw in Exchange.",
       "date": "2026-09-09T07:03:55.000Z",
       "link": "https://securityaffairs.com/198705/security/microsofts-biggest-patch-tuesday-974-cves-2-zero-days-and-20-wormable-bugs.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "97a3b256-d2e8-431c-b457-10b753e33d04",
@@ -461,7 +483,7 @@
       "summary": "SAP has released a critical security patch for a CVSS 10.0 memory corruption vulnerability in its Extended Passport Processing, which allows unauthenticated remote code execution.",
       "date": "2026-09-09T06:25:45.000Z",
       "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2bc073d7-abd9-4bae-a8f8-8925a707937c",
@@ -725,7 +747,7 @@
       "summary": "Researchers discovered a vulnerability in ChatGPT where a malicious prompt can be used to exfiltrate data from a user's connected Gmail account to an attacker's account. This exploit operates silently in the background while the chatbot continues to function normally, posing a significant privacy risk.",
       "date": "2026-09-08T14:19:17.000Z",
       "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e4c0f1a5-d41b-48d3-b9b5-4242c1894b41",
@@ -5477,28 +5499,6 @@
       "summary": "A bipartisan Senate bill proposes requiring FERC to incorporate quantum computing threats and post-quantum cryptography standards into energy sector reliability guidelines. The legislation aims to proactively protect critical infrastructure against future decryption capabilities.",
       "date": "2026-08-24T19:01:05.000Z",
       "link": "https://cyberscoop.com/quantum-guard-act-electric-grid-cybersecurity/",
-      "isTopTen": false
-    },
-    {
-      "id": "89c0012d-9352-41f0-95f8-a4e505daffda",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Indian man who fled US arrested for allegedly helping scammers siphon $7.5 million from elderly New Yorkers",
-      "summary": "An Indian national residing in Jersey City was arrested for allegedly serving as a money mule in a scam that defrauded elderly New Yorkers of $7.5 million. The suspect had previously fled the U.S. before being apprehended for his role in laundering funds for overseas cyberscammers.",
-      "date": "2026-08-24T18:30:00.000Z",
-      "link": "https://therecord.media/cyber-scam-indian-arrested",
-      "isTopTen": false
-    },
-    {
-      "id": "3c2bcf81-6e74-41f8-a19d-462d2698f2f7",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-      "summary": "Cybersecurity researchers have identified the Weedhack malware being distributed to gamers through fake Minecraft client websites and SEO poisoning tactics. McAfee Labs reported thousands of blocked access attempts to these deceptive sites.",
-      "date": "2026-08-24T17:41:11.000Z",
-      "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
       "isTopTen": false
     }
   ]
