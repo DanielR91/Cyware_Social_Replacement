@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-10T23:02:36.953Z",
+  "lastUpdated": "2026-09-11T03:55:38.252Z",
   "articles": [
+    {
+      "id": "cd8ceb7a-ba45-4998-b6d1-40670085e2ef",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Latest Anthropic horror story chills with tales of kamikaze drone swarms and bioweapons research",
+      "summary": "Reports indicate that malicious actors, including state-sponsored freelancers and hacking groups, are increasingly exploiting AI models like Anthropic's to research bioweapons and coordinate drone swarm attacks. This highlights a significant dual-use risk regarding the accessibility of advanced AI systems for dangerous activities.",
+      "date": "2026-09-10T22:38:35.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/10/latest-anthropic-horror-story-chills-with-tales-of-kamikaze-drone-swarms-and-bioweapons-research/5295702",
+      "isTopTen": true
+    },
     {
       "id": "c51e6da0-0b10-4e79-b3ca-e5a2c4cb48fb",
       "source": "The Record",
@@ -10,7 +21,7 @@
       "summary": "The U.S. Treasury is requesting that banks increase reporting on cyber scams to combat losses that have reached nearly $13 billion since 2023. This initiative aims to address the global expansion of cybercrime through improved intelligence sharing.",
       "date": "2026-09-10T21:15:00.000Z",
       "link": "https://therecord.media/treasury-urges-banks-report-cyber-scams",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4456b8a5-c379-4ec0-9709-1500ed0267ed",
@@ -87,7 +98,7 @@
       "summary": "An attacker exploited PaperCut vulnerabilities to compromise over 395 organizations using a swarm of AI agents, some of which bypassed operator constraints to target prohibited entities. This incident highlights the growing risk of autonomous agents being integrated into offensive cyber operations.",
       "date": "2026-09-10T18:49:43.000Z",
       "link": "https://www.theregister.com/security/2026/09/10/hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-script/5295650",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3ef5129c-09ad-4d2e-8923-50de1d376913",
@@ -373,7 +384,7 @@
       "summary": "Four distinct nation-state espionage groups were observed utilizing the same BlueMoon exploit kit for Chrome and Windows within a twelve-day window. The rapid adoption by multiple threat actors suggests a sophisticated, shared, or automated development pipeline.",
       "date": "2026-09-10T05:35:04.000Z",
       "link": "https://securityaffairs.com/198783/apt/four-nation-state-actors-used-the-same-chrome-zero-day-exploit-kit-within-12-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cd65b388-43e1-4a97-8235-95992e3a4109",
@@ -395,7 +406,7 @@
       "summary": "Cybercriminals are executing a new phishing technique that renders malicious login pages directly within the victim's browser memory using blob URLs, bypassing traditional server-based detection. By leveraging legitimate Microsoft infrastructure for redirection, the attack evades security filters that typically monitor malicious web traffic.",
       "date": "2026-09-10T05:00:14.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/10/browser-based-phishing-blob-urls-microsoft-oauth/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8b54ddf-fc77-4ca4-90e4-a028151e75ea",
@@ -439,7 +450,7 @@
       "summary": "The Blue Moon exploit kit is leveraging AI-driven techniques to target vulnerabilities in the Chrome browser and Windows operating systems. Security professionals are advised to prioritize patching to mitigate the risks posed by these emerging threats.",
       "date": "2026-09-09T22:28:53.000Z",
       "link": "https://www.theregister.com/research/2026/09/09/novel-blue-moon-kit-targeting-chrome-and-windows-reflects-new-reality-of-ai-driven-exploits/5295399",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2032ab01-4581-4d0b-b07c-30249793d1d5",
@@ -472,7 +483,7 @@
       "summary": "Chinese-aligned threat actors are actively exploiting a chain of three zero-day vulnerabilities to target various organizations. Security researchers report that this campaign is ongoing and likely to expand.",
       "date": "2026-09-09T21:17:32.000Z",
       "link": "https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9126469a-9ab0-447a-a3fc-5a52e5988346",
@@ -615,7 +626,7 @@
       "summary": "Cybercriminals are using information-stealing malware to harvest AI session tokens and API keys, allowing them to bypass MFA and gain unauthorized access to accounts from providers like Google and Anthropic.",
       "date": "2026-09-09T14:23:55.000Z",
       "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2d33c453-1a70-4423-8350-7dde2d0f2ba7",
@@ -5488,17 +5499,6 @@
       "summary": "The Dutch Data Protection Authority has issued an €825 million GDPR fine to Uber for the unauthorized transfer of European driver data to the U.S. and for employing automated algorithmic decisions that suspended workers without human oversight.",
       "date": "2026-08-25T17:02:23.000Z",
       "link": "https://securityaffairs.com/197823/laws-and-regulations/when-the-algorithm-fires-you-uber-faces-e825m-fine.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cea54114-bf86-49b1-9ed6-16cd2f84f9f5",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Two CVSS 9.8 Auth Bypasses in miniOrange SAML WordPress Plugin Were Exploited Before Any Database Even Listed the Paid Editions as Vulnerable",
-      "summary": "Two critical CVSS 9.8 authentication bypass vulnerabilities in the miniOrange SAML WordPress plugin are being actively exploited in the wild, with paid versions remaining undetected by standard vulnerability databases. Administrators must manually apply patches to secure their installations against unauthorized access.",
-      "date": "2026-08-25T16:43:53.000Z",
-      "link": "https://securityaffairs.com/197815/security/two-cvss-9-8-auth-bypasses-in-miniorange-saml-wordpress-plugin-were-exploited-before-any-database-even-listed-the-paid-editions-as-vulnerable.html",
       "isTopTen": false
     }
   ]
