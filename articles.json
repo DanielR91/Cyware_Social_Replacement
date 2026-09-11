@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-09-11T11:04:11.395Z",
+  "lastUpdated": "2026-09-11T16:14:06.078Z",
   "articles": [
+    {
+      "id": "e00b49b9-b180-4d63-b01b-cbc02a584a69",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "summary": "Anthropic has reported that various state-sponsored and criminal threat actors are exploiting its Claude AI models to facilitate cyber attacks, weapon design, and mass surveillance. This development highlights the growing security risks associated with the weaponization of generative AI platforms.",
+      "date": "2026-09-11T14:29:47.000Z",
+      "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b291c69e-924f-47fd-b144-55b7a7fe8b96",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+      "summary": "Anthropic identified and disrupted a Russian state-sponsored hacking group using its Claude AI models to refine malware and optimize their detection-evasion workflows. The group, linked to Midnight Blizzard, leveraged generative AI to accelerate development cycles during cyber espionage operations.",
+      "date": "2026-09-11T14:10:20.000Z",
+      "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ad14f17b-453c-4812-a02a-dc4b2eec94fa",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Anthropic caught Russia-linked spies using Claude in hacking operations",
+      "summary": "Anthropic identified and disrupted a Russia-linked espionage group that leveraged their Claude AI model to facilitate cyber-attacks against high-profile government and defense organizations.",
+      "date": "2026-09-11T12:45:00.000Z",
+      "link": "https://therecord.media/anthropic-russia-hackers-claude",
+      "isTopTen": false
+    },
+    {
+      "id": "ae9e0cb6-22ab-479d-8ced-0961445aea7c",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Ukrainian lawyer's second career as a Conti coder earns him 4 years behind bars",
+      "summary": "A Ukrainian lawyer was sentenced to four years in prison after pleading guilty to participating in the development of Conti ransomware. He was extradited to face charges for his role in the criminal operation.",
+      "date": "2026-09-11T12:15:00.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/09/11/ukrainian-lawyers-second-career-as-a-conti-coder-earns-him-4-years-behind-bars/5295841",
+      "isTopTen": false
+    },
+    {
+      "id": "c096ed86-b29b-42bf-b937-de6d8f8fd661",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Ukrainian hacker gets four years in US prison over Conti ransomware attacks",
+      "summary": "A Ukrainian national has been sentenced to four years in U.S. prison for his involvement in the Conti ransomware group, which compromised over 1,000 victims globally. The sentencing marks a significant legal outcome for the defunct but prolific cybercriminal operation.",
+      "date": "2026-09-11T12:00:00.000Z",
+      "link": "https://therecord.media/conti-ransomware-ukraine-hacker",
+      "isTopTen": false
+    },
+    {
+      "id": "41e76a20-9cbf-4037-97c5-0faf0ba4c2ad",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "EU's Cyber Resilience Act starts the 24-hour vulnerability clock",
+      "summary": "The EU's Cyber Resilience Act now mandates that manufacturers report actively exploited vulnerabilities and severe security incidents to ENISA within a 24-hour timeframe. This regulation aims to bolster regional digital security by streamlining the disclosure process for critical flaws.",
+      "date": "2026-09-11T11:34:41.000Z",
+      "link": "https://www.theregister.com/security/2026/09/11/eus-cyber-resilience-act-starts-the-24-hour-vulnerability-clock/5295821",
+      "isTopTen": true
+    },
+    {
+      "id": "f5495dcd-dece-488c-baf2-0dc36511a386",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+      "summary": "Security teams should shift focus from simply identifying critical vulnerabilities to assessing which specific flaws actually present a viable exploit path. Prioritizing risk over raw vulnerability severity is essential for effective defense.",
+      "date": "2026-09-11T11:30:00.000Z",
+      "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3f19ebc9-c2ff-4652-b815-583696da3de1",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Attackers Exploit Critical Cisco FMC Flaw to deploy Qilin ransomware",
+      "summary": "Three threat groups are actively exploiting critical authentication bypass vulnerabilities in Cisco Secure Firewall Management Center to gain root access and deploy Qilin ransomware. These flaws allow unauthenticated remote attackers to bypass security controls and compromise affected systems.",
+      "date": "2026-09-11T10:14:46.000Z",
+      "link": "https://securityaffairs.com/198884/cyber-crime/attackers-exploit-critical-cisco-fmc-flaw-to-deploy-qilin-ransomware.html",
+      "isTopTen": false
+    },
     {
       "id": "abaadd7c-d989-42e0-bab5-c9a53c1cab2e",
       "source": "Help Net Security",
@@ -10,7 +98,7 @@
       "summary": "Threat actors utilized AI agents to automate the exploitation of PaperCut vulnerabilities, resulting in the compromise of nearly 400 organizations across 48 countries. The attackers leveraged a private lab to develop the exploit before deploying autonomous agents to execute the mass breach.",
       "date": "2026-09-11T10:05:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2d2ca56c-f032-4330-aa67-1bd41117ce2f",
@@ -153,7 +241,7 @@
       "summary": "The U.S. Treasury is requesting that banks increase reporting on cyber scams to combat losses that have reached nearly $13 billion since 2023. This initiative aims to address the global expansion of cybercrime through improved intelligence sharing.",
       "date": "2026-09-10T21:15:00.000Z",
       "link": "https://therecord.media/treasury-urges-banks-report-cyber-scams",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4456b8a5-c379-4ec0-9709-1500ed0267ed",
@@ -197,7 +285,7 @@
       "summary": "A report from Anthropic reveals that AI tools are enabling smaller cybercriminal groups to conduct sophisticated, state-level espionage and large-scale hacking campaigns. The findings highlight various recent operations, including Russian-aligned cyber espionage and academic-based exploit development.",
       "date": "2026-09-10T19:45:29.000Z",
       "link": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cf9ea80e-7160-4c6f-8e38-b9492f16b859",
@@ -208,7 +296,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities catalog to include multiple critical flaws affecting products from Cisco, Google, Fortinet, and Citrix. These additions include a high-severity authentication bypass vulnerability in Cisco Secure software.",
       "date": "2026-09-10T18:57:21.000Z",
       "link": "https://securityaffairs.com/198850/security/u-s-cisa-adds-cisco-google-chromium-v8-fortinet-and-citrix-netscaler-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8b8d6dfd-8b16-4f65-9c11-ffc215ceb466",
@@ -274,7 +362,7 @@
       "summary": "Rapid advancements in AI agent capabilities are currently outpacing the development of necessary security safeguards. Experts warn that prioritizing system performance over robust oversight increases the risk of harmful real-world actions.",
       "date": "2026-09-10T15:19:09.000Z",
       "link": "https://securityaffairs.com/198833/ai/more-capable-ai-not-enough-guardrails.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "13e4993c-6013-4600-a137-efe83813ad7a",
@@ -318,7 +406,7 @@
       "summary": "Attackers are conducting social engineering campaigns by calling employees on their personal phones to impersonate IT staff and gain unauthorized access to Microsoft 365 corporate accounts. Once access is obtained, attackers exfiltrate sensitive data from services like SharePoint, OneDrive, and email inboxes.",
       "date": "2026-09-10T13:26:23.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/10/microsoft-365-social-engineering-personal-phones/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0187897e-bef8-4e33-b8b9-b5bc026c83c7",
@@ -362,7 +450,7 @@
       "summary": "A threat actor is leveraging AI agents to develop and deploy exploits for PaperCut NG/MF vulnerabilities, successfully compromising over 440 instances. The activity has been traced to a specific IP address associated with a Russian-speaking cyber actor.",
       "date": "2026-09-10T11:41:53.000Z",
       "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b273e4e0-f56a-4d69-9154-41c986b17898",
@@ -538,7 +626,7 @@
       "summary": "Cybercriminals are executing a new phishing technique that renders malicious login pages directly within the victim's browser memory using blob URLs, bypassing traditional server-based detection. By leveraging legitimate Microsoft infrastructure for redirection, the attack evades security filters that typically monitor malicious web traffic.",
       "date": "2026-09-10T05:00:14.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/10/browser-based-phishing-blob-urls-microsoft-oauth/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8b54ddf-fc77-4ca4-90e4-a028151e75ea",
@@ -615,7 +703,7 @@
       "summary": "Chinese-aligned threat actors are actively exploiting a chain of three zero-day vulnerabilities to target various organizations. Security researchers report that this campaign is ongoing and likely to expand.",
       "date": "2026-09-09T21:17:32.000Z",
       "link": "https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9126469a-9ab0-447a-a3fc-5a52e5988346",
@@ -670,7 +758,7 @@
       "summary": "The NSA, CISA, and FBI have issued a joint advisory accusing six Chinese AI companies of conducting large-scale data extraction to replicate the capabilities of advanced US AI models. This activity is described as a strategic effort to accelerate their own technological development by harvesting proprietary model information.",
       "date": "2026-09-09T18:20:36.000Z",
       "link": "https://securityaffairs.com/198770/security/us-agencies-warn-chinese-ai-firms-are-extracting-advanced-ai-models.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "088a315b-f82d-4e2d-b09c-0207d4b470b4",
@@ -758,7 +846,7 @@
       "summary": "Cybercriminals are using information-stealing malware to harvest AI session tokens and API keys, allowing them to bypass MFA and gain unauthorized access to accounts from providers like Google and Anthropic.",
       "date": "2026-09-09T14:23:55.000Z",
       "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2d33c453-1a70-4423-8350-7dde2d0f2ba7",
@@ -5411,94 +5499,6 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include a Gitea vulnerability and a high-severity flaw in Oracle HTTP Server and Weblogic Server Proxy Plug-in.",
       "date": "2026-08-26T08:44:12.000Z",
       "link": "https://securityaffairs.com/197854/security/u-s-cisa-adds-gitea-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e830396e-b7a5-4883-82e8-d78beca6c891",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "88 ID Verification Breaches Show the Cost of Collecting Identity Data",
-      "summary": "A report from Mysterium VPN reveals that 88 identity verification breaches since 2011 have resulted in the exposure of 2.15 billion records, emphasizing the significant security risks associated with storing sensitive biometric and identity data.",
-      "date": "2026-08-26T08:30:22.000Z",
-      "link": "https://securityaffairs.com/197855/reports/88-id-verification-breaches-show-the-cost-of-collecting-identity-data.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b215a018-0520-411c-9a73-6d583141f051",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "WhatsApp Adds Stronger Security as Passkeys Hit 1 Billion",
-      "summary": "WhatsApp has reached a milestone of one billion passkey users while simultaneously enhancing two-step verification and caller context features to bolster account security. These updates represent a significant shift toward stronger, passwordless authentication methods for its massive user base.",
-      "date": "2026-08-26T08:08:48.000Z",
-      "link": "https://securityaffairs.com/197837/security/whatsapp-adds-stronger-security-as-passkeys-hit-1-billion.html",
-      "isTopTen": false
-    },
-    {
-      "id": "170badb2-76de-4f88-9b12-d11afdb35c87",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
-      "summary": "INTERPOL's Operation Jackal IV successfully apprehended 58 individuals and identified 263 suspects linked to West African organized crime networks involved in global cyber fraud. The eight-month initiative coordinated efforts across 22 countries to dismantle groups like Black Axe.",
-      "date": "2026-08-26T07:54:12.000Z",
-      "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-      "isTopTen": false
-    },
-    {
-      "id": "688684de-15db-4c9f-a54c-1eb7a992e08b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meta adds three new features to keep WhatsApp accounts secure",
-      "summary": "Meta has introduced three security updates for WhatsApp, including enhanced two-step verification, caller identification for unknown numbers, and multi-passkey support. These features aim to strengthen user privacy and account protection against unauthorized access.",
-      "date": "2026-08-26T07:52:05.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/26/meta-whatsapp-security-enhancements/",
-      "isTopTen": false
-    },
-    {
-      "id": "a7031372-dedc-4dd8-aa25-05b4d60b559e",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Operation Jackal: 58 Arrests Expose the Money Laundering Machine Behind Global Scams",
-      "summary": "INTERPOL's Operation Jackal IV resulted in 58 arrests and the identification of 263 suspects linked to West African organized crime groups involved in large-scale money laundering and international fraud. The operation successfully disrupted global networks responsible for scams, fraud, and sextortion schemes.",
-      "date": "2026-08-26T07:17:54.000Z",
-      "link": "https://securityaffairs.com/197843/cyber-crime/operation-jackal-58-arrests-expose-the-money-laundering-machine-behind-global-scams.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6189581b-8a78-4551-9b0c-d75ef5577fc2",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
-      "summary": "Researchers have discovered SLEEPWALKER, a new Windows backdoor that remains dormant in memory until triggered by a custom-crafted network packet, after which it executes commands via a proprietary bytecode interpreter.",
-      "date": "2026-08-26T07:12:55.000Z",
-      "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b6704051-dfbb-43fd-8907-e0c7fa3031f4",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-      "summary": "CISA has issued a warning regarding active exploitation of a critical remote code execution vulnerability (CVE-2026-60004) in Gitea, which is being leveraged to deploy malicious payloads. Attackers with write access to a repository can exploit this flaw to execute arbitrary shell commands.",
-      "date": "2026-08-26T06:27:07.000Z",
-      "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-      "isTopTen": false
-    },
-    {
-      "id": "52fa54b9-c5f5-49a3-960c-6ef94b578f83",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Linux Foundation takes on TRACE, a hardware-backed runtime evidence specification for AI agents",
-      "summary": "The Linux Foundation has launched TRACE, an open-source hardware-backed specification designed to provide auditable evidence and governance for the operations of AI agents and confidential workloads. Developed in collaboration with major tech firms, the initiative aims to ensure autonomous AI processes adhere to security policies through verifiable runtime records.",
-      "date": "2026-08-26T05:54:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/26/the-linux-foundation-trace-ai-agent-security/",
       "isTopTen": false
     }
   ]
