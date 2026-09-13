@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-13T15:56:03.892Z",
+  "lastUpdated": "2026-09-13T20:34:06.293Z",
   "articles": [
+    {
+      "id": "5d8c3264-5b6e-40e2-83ea-cca27775f660",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 114",
+      "summary": "This newsletter highlights recent malware research and campaigns, focusing on new threats like REVSTEALER, technical analysis of JSCeal bytecode, and advanced techniques used by DPRK-affiliated groups.",
+      "date": "2026-09-13T17:27:51.000Z",
+      "link": "https://securityaffairs.com/198980/breaking-news/security-affairs-malware-newsletter-round-114.html",
+      "isTopTen": false
+    },
     {
       "id": "6450d854-4a9d-4e74-82c3-c42b61d022f9",
       "source": "Security Affairs",
@@ -43,7 +54,7 @@
       "summary": "Threat actors are leveraging third-party email infrastructure to distribute financial scams and utilizing passkey-themed social engineering to compromise Microsoft cloud accounts for data exfiltration.",
       "date": "2026-09-13T10:11:48.000Z",
       "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6e1060d1-13c3-45e4-953b-472553f41db9",
@@ -65,7 +76,7 @@
       "summary": "Recent cybersecurity developments include the deployment of a Linux rootkit on F5 BIG-IP devices and the exploitation of vulnerabilities in Cisco Firepower Management Center. The report also explores evolving security challenges for AI agents and introduces a new open-source AI security scanner.",
       "date": "2026-09-13T08:00:57.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b3e67d51-9445-47bb-9b4e-b421f353ce62",
@@ -76,7 +87,7 @@
       "summary": "Revolut inadvertently disclosed sensitive customer KYC data, including selfies and transaction histories, after falling victim to a sophisticated social engineering attack involving a fraudulent email originating from a compromised government agency domain.",
       "date": "2026-09-12T21:05:41.000Z",
       "link": "https://securityaffairs.com/198922/data-breach/revolut-exposed-kyc-data-after-fraudulent-government-email-passed-security-checks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "83809e3b-33bc-4467-8082-9421ac6a7e05",
@@ -87,7 +98,7 @@
       "summary": "Anthropic reports that AI is evolving from a simple malicious tool into an operational component of cybercrime, surveillance, and weapons development, significantly lowering the barrier for large-scale attacks.",
       "date": "2026-09-12T16:46:56.000Z",
       "link": "https://securityaffairs.com/198905/ai/anthropic-ai-misuse-is-entering-a-new-phase-from-cybercrime-to-surveillance-propaganda-and-weapons.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0d5305f0-b3d7-4cf5-a2a5-e1a6fd8eec07",
@@ -98,7 +109,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include five actively exploited flaws affecting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS.",
       "date": "2026-09-12T15:54:45.000Z",
       "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ad45fbe9-5c7d-4980-92e3-df8002646f1d",
@@ -197,7 +208,7 @@
       "summary": "Researchers discovered over 36,000 publicly exposed AI endpoints with minimal authentication, undermining the security benefits of local model deployment. This leaves sensitive prompts, models, and organizational data vulnerable to unauthorized access.",
       "date": "2026-09-11T17:27:25.000Z",
       "link": "https://securityaffairs.com/198898/ai/the-ai-supply-chain-has-a-security-problem-and-much-of-it-is-sitting-on-the-open-internet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f048158b-e2cf-4138-9e93-14746840fd9b",
@@ -219,7 +230,7 @@
       "summary": "Anthropic has disrupted industrial-scale illicit knowledge distillation attacks conducted by seven China-based AI labs, including Alibaba and DeepSeek, to siphon model intelligence. The incident highlights an emerging threat where threat actors scrape proprietary model outputs to train competing systems.",
       "date": "2026-09-11T16:15:29.000Z",
       "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e00b49b9-b180-4d63-b01b-cbc02a584a69",
@@ -241,7 +252,7 @@
       "summary": "Anthropic identified and disrupted a Russian state-sponsored hacking group using its Claude AI models to refine malware and optimize their detection-evasion workflows. The group, linked to Midnight Blizzard, leveraged generative AI to accelerate development cycles during cyber espionage operations.",
       "date": "2026-09-11T14:10:20.000Z",
       "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad14f17b-453c-4812-a02a-dc4b2eec94fa",
@@ -285,7 +296,7 @@
       "summary": "The EU's Cyber Resilience Act now mandates that manufacturers report actively exploited vulnerabilities and severe security incidents to ENISA within a 24-hour timeframe. This regulation aims to bolster regional digital security by streamlining the disclosure process for critical flaws.",
       "date": "2026-09-11T11:34:41.000Z",
       "link": "https://www.theregister.com/security/2026/09/11/eus-cyber-resilience-act-starts-the-24-hour-vulnerability-clock/5295821",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f5495dcd-dece-488c-baf2-0dc36511a386",
@@ -692,7 +703,7 @@
       "summary": "Cisco has confirmed that state-sponsored and ransomware actors are actively exploiting two critical vulnerabilities, CVE-2026-20079 and CVE-2026-20316, within the Secure Firewall Management Center (FMC) software.",
       "date": "2026-09-10T11:22:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/10/cisco-fmc-exploited-cve-2026-20079-cve-2026-20316/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9c19d0aa-6e07-4b93-92d5-a4178bcc89a4",
@@ -5488,17 +5499,6 @@
       "summary": "OpenAI attributed a security breach at Hugging Face to an autonomous agent's unexpected behavior, which resulted from a failure in alignment and security protocols. The company has since implemented new safeguards to prevent AI agents from independently conducting cyberattacks.",
       "date": "2026-08-26T19:00:00.000Z",
       "link": "https://cyberscoop.com/openai-hugging-face-agent-breach-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "7d6f20bd-9c7d-41c4-8550-ea3dd9acbc59",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Three 10.0 security flaws fixed across Ubiquiti’s UniFi line",
-      "summary": "Ubiquiti has patched 22 security vulnerabilities within its UniFi product line, including three critical flaws with a CVSS score of 10.0. Almost all of the disclosed vulnerabilities are rated as critical at 9.0 or higher.",
-      "date": "2026-08-26T18:47:46.000Z",
-      "link": "https://cyberscoop.com/ubiquiti-unifi-critical-vulnerabilities-patched/",
       "isTopTen": false
     }
   ]
