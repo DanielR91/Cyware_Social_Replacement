@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-09-13T11:26:26.724Z",
+  "lastUpdated": "2026-09-13T15:56:03.892Z",
   "articles": [
+    {
+      "id": "6450d854-4a9d-4e74-82c3-c42b61d022f9",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Security Affairs newsletter Round 594 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 594th edition of the Security Affairs newsletter features curated cybersecurity articles, including an analysis of security risks within the AI supply chain.",
+      "date": "2026-09-13T14:23:47.000Z",
+      "link": "https://securityaffairs.com/198957/security/security-affairs-newsletter-round-594-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "616b63b7-b87c-42d7-9b17-2bb4ab65151b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "GitLab CVE-2026-85706: One HTTP Request, No Authentication, Full File Read – Exploited Within 24 Hours",
+      "summary": "GitLab disclosed a critical CVSS 10.0 path traversal vulnerability (CVE-2026-85706) in its repository commits API, which allowed unauthenticated attackers to read arbitrary files and was exploited within 24 hours of disclosure.",
+      "date": "2026-09-13T12:26:54.000Z",
+      "link": "https://securityaffairs.com/198945/hacking/gitlab-cve-2026-85706-one-http-request-no-authentication-full-file-read-exploited-within-24-hours.html",
+      "isTopTen": true
+    },
+    {
+      "id": "d0ddd99f-ea34-466f-a950-d65e9c047d5f",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security through obscurity is dead, and AI delivered the fatal blow",
+      "summary": "The headline argues that artificial intelligence has effectively ended the efficacy of security through obscurity, making traditional hidden-defense strategies obsolete. This shift suggests that attackers now use AI to rapidly discover and exploit previously obscured vulnerabilities.",
+      "date": "2026-09-13T11:21:00.000Z",
+      "link": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000",
+      "isTopTen": false
+    },
     {
       "id": "9b274275-044e-4b8f-ae79-f4f323e9169e",
       "source": "The Hacker News",
@@ -54,7 +87,7 @@
       "summary": "Anthropic reports that AI is evolving from a simple malicious tool into an operational component of cybercrime, surveillance, and weapons development, significantly lowering the barrier for large-scale attacks.",
       "date": "2026-09-12T16:46:56.000Z",
       "link": "https://securityaffairs.com/198905/ai/anthropic-ai-misuse-is-entering-a-new-phase-from-cybercrime-to-surveillance-propaganda-and-weapons.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0d5305f0-b3d7-4cf5-a2a5-e1a6fd8eec07",
@@ -65,7 +98,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include five actively exploited flaws affecting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS.",
       "date": "2026-09-12T15:54:45.000Z",
       "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad45fbe9-5c7d-4980-92e3-df8002646f1d",
@@ -164,7 +197,7 @@
       "summary": "Researchers discovered over 36,000 publicly exposed AI endpoints with minimal authentication, undermining the security benefits of local model deployment. This leaves sensitive prompts, models, and organizational data vulnerable to unauthorized access.",
       "date": "2026-09-11T17:27:25.000Z",
       "link": "https://securityaffairs.com/198898/ai/the-ai-supply-chain-has-a-security-problem-and-much-of-it-is-sitting-on-the-open-internet.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f048158b-e2cf-4138-9e93-14746840fd9b",
@@ -175,7 +208,7 @@
       "summary": "GitLab has released patches for CVE-2026-85706, a critical CVSS 10.0 path traversal vulnerability that is already being exploited in the wild. The flaw allows unauthenticated attackers to read arbitrary files from the affected server.",
       "date": "2026-09-11T16:30:18.000Z",
       "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f96365c9-21c8-4c8d-8689-feda3a6cc87b",
@@ -252,7 +285,7 @@
       "summary": "The EU's Cyber Resilience Act now mandates that manufacturers report actively exploited vulnerabilities and severe security incidents to ENISA within a 24-hour timeframe. This regulation aims to bolster regional digital security by streamlining the disclosure process for critical flaws.",
       "date": "2026-09-11T11:34:41.000Z",
       "link": "https://www.theregister.com/security/2026/09/11/eus-cyber-resilience-act-starts-the-24-hour-vulnerability-clock/5295821",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f5495dcd-dece-488c-baf2-0dc36511a386",
@@ -285,7 +318,7 @@
       "summary": "Threat actors utilized AI agents to automate the exploitation of PaperCut vulnerabilities, resulting in the compromise of nearly 400 organizations across 48 countries. The attackers leveraged a private lab to develop the exploit before deploying autonomous agents to execute the mass breach.",
       "date": "2026-09-11T10:05:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2d2ca56c-f032-4330-aa67-1bd41117ce2f",
@@ -417,7 +450,7 @@
       "summary": "Reports indicate that malicious actors, including state-sponsored freelancers and hacking groups, are increasingly exploiting AI models like Anthropic's to research bioweapons and coordinate drone swarm attacks. This highlights a significant dual-use risk regarding the accessibility of advanced AI systems for dangerous activities.",
       "date": "2026-09-10T22:38:35.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/09/10/latest-anthropic-horror-story-chills-with-tales-of-kamikaze-drone-swarms-and-bioweapons-research/5295702",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c51e6da0-0b10-4e79-b3ca-e5a2c4cb48fb",
@@ -428,7 +461,7 @@
       "summary": "The U.S. Treasury is requesting that banks increase reporting on cyber scams to combat losses that have reached nearly $13 billion since 2023. This initiative aims to address the global expansion of cybercrime through improved intelligence sharing.",
       "date": "2026-09-10T21:15:00.000Z",
       "link": "https://therecord.media/treasury-urges-banks-report-cyber-scams",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4456b8a5-c379-4ec0-9709-1500ed0267ed",
@@ -626,7 +659,7 @@
       "summary": "Check Point has patched two critical 9.8-rated vulnerabilities in its firewall and management products that could allow unauthenticated remote attackers to execute code under specific conditions.",
       "date": "2026-09-10T11:45:05.000Z",
       "link": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a425e08a-5da1-4d64-94aa-09d8a8fc9310",
@@ -637,7 +670,7 @@
       "summary": "A threat actor is leveraging AI agents to develop and deploy exploits for PaperCut NG/MF vulnerabilities, successfully compromising over 440 instances. The activity has been traced to a specific IP address associated with a Russian-speaking cyber actor.",
       "date": "2026-09-10T11:41:53.000Z",
       "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b273e4e0-f56a-4d69-9154-41c986b17898",
@@ -758,7 +791,7 @@
       "summary": "Wiz Research discovered that approximately 10% of internet-facing LiteLLM gateways remain vulnerable because administrators failed to change the default example key 'sk-1234'. This oversight allows unauthorized access to administrative functions and potential sensitive data exposure.",
       "date": "2026-09-10T07:12:55.000Z",
       "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cef846e2-711d-4483-91a8-4fb19e006436",
@@ -5466,39 +5499,6 @@
       "summary": "Ubiquiti has patched 22 security vulnerabilities within its UniFi product line, including three critical flaws with a CVSS score of 10.0. Almost all of the disclosed vulnerabilities are rated as critical at 9.0 or higher.",
       "date": "2026-08-26T18:47:46.000Z",
       "link": "https://cyberscoop.com/ubiquiti-unifi-critical-vulnerabilities-patched/",
-      "isTopTen": false
-    },
-    {
-      "id": "d855f93c-a89b-4e21-886c-f8f5045de6e3",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Meta pledges to overhaul kids’ safety protections, pay $17 billion to settle social media case",
-      "summary": "Meta has agreed to a $17 billion settlement with U.S. state attorneys general to resolve litigation and implement enhanced privacy and safety protections for minors. The agreement mandates significant policy and product updates across Meta's social media platforms.",
-      "date": "2026-08-26T18:35:00.000Z",
-      "link": "https://therecord.media/meta-settlement-children-online-safety-social-media",
-      "isTopTen": false
-    },
-    {
-      "id": "c11a779b-fe4a-4ba1-b05f-05000473e7e6",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "FBI Seizes China-Linked Hacking Platforms QScan and QTRouter Used Against Critical Infrastructure",
-      "summary": "The FBI and DOJ have seized QScan and QTRouter, two platforms utilized by state-backed Chinese actors to facilitate cyberattacks against U.S. critical infrastructure. This operation aims to disrupt foreign efforts to obfuscate malicious activity and infiltrate essential domestic systems.",
-      "date": "2026-08-26T17:33:17.000Z",
-      "link": "https://securityaffairs.com/197873/apt/fbi-seizes-china-linked-hacking-platforms-qscan-and-qtrouter-used-against-critical-infrastructure.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a4e77637-859e-441e-90d0-7e634e5be3a5",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-      "summary": "The U.S. Department of Justice disrupted QScan and QTRouter, two hacking platforms operated by the Chinese state-sponsored group QTFY, which targeted critical infrastructure and sensitive U.S. networks.",
-      "date": "2026-08-26T16:42:03.000Z",
-      "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
       "isTopTen": false
     }
   ]
