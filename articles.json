@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-09-13T04:06:24.008Z",
+  "lastUpdated": "2026-09-13T11:26:26.724Z",
   "articles": [
+    {
+      "id": "9b274275-044e-4b8f-ae79-f4f323e9169e",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+      "summary": "Threat actors are leveraging third-party email infrastructure to distribute financial scams and utilizing passkey-themed social engineering to compromise Microsoft cloud accounts for data exfiltration.",
+      "date": "2026-09-13T10:11:48.000Z",
+      "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "6e1060d1-13c3-45e4-953b-472553f41db9",
+      "source": "Security Affairs",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Conti Hacker Who Built Malware and Attacked Victims Gets Four-Year Sentence",
+      "summary": "Ukrainian lawyer turned malware developer Oleksii Lytvynenko has been sentenced to four years in a U.S. federal prison for his involvement in Conti ransomware attacks. The conviction marks a significant legal outcome for a key contributor to the notorious ransomware syndicate.",
+      "date": "2026-09-13T09:19:42.000Z",
+      "link": "https://securityaffairs.com/198931/cyber-crime/conti-hacker-who-built-malware-and-attacked-victims-gets-four-year-sentence.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b51928ed-5bbd-4c2c-9b0e-01f56ee946ea",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Week in review: Linux rootkit deployed on F5 BIG-IP APM devices, Cisco FMC bugs exploited",
+      "summary": "Recent cybersecurity developments include the deployment of a Linux rootkit on F5 BIG-IP devices and the exploitation of vulnerabilities in Cisco Firepower Management Center. The report also explores evolving security challenges for AI agents and introduces a new open-source AI security scanner.",
+      "date": "2026-09-13T08:00:57.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited/",
+      "isTopTen": false
+    },
     {
       "id": "b3e67d51-9445-47bb-9b4e-b421f353ce62",
       "source": "Security Affairs",
@@ -131,7 +164,7 @@
       "summary": "Researchers discovered over 36,000 publicly exposed AI endpoints with minimal authentication, undermining the security benefits of local model deployment. This leaves sensitive prompts, models, and organizational data vulnerable to unauthorized access.",
       "date": "2026-09-11T17:27:25.000Z",
       "link": "https://securityaffairs.com/198898/ai/the-ai-supply-chain-has-a-security-problem-and-much-of-it-is-sitting-on-the-open-internet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f048158b-e2cf-4138-9e93-14746840fd9b",
@@ -142,7 +175,7 @@
       "summary": "GitLab has released patches for CVE-2026-85706, a critical CVSS 10.0 path traversal vulnerability that is already being exploited in the wild. The flaw allows unauthenticated attackers to read arbitrary files from the affected server.",
       "date": "2026-09-11T16:30:18.000Z",
       "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f96365c9-21c8-4c8d-8689-feda3a6cc87b",
@@ -153,7 +186,7 @@
       "summary": "Anthropic has disrupted industrial-scale illicit knowledge distillation attacks conducted by seven China-based AI labs, including Alibaba and DeepSeek, to siphon model intelligence. The incident highlights an emerging threat where threat actors scrape proprietary model outputs to train competing systems.",
       "date": "2026-09-11T16:15:29.000Z",
       "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e00b49b9-b180-4d63-b01b-cbc02a584a69",
@@ -164,7 +197,7 @@
       "summary": "Anthropic has reported that various state-sponsored and criminal threat actors are exploiting its Claude AI models to facilitate cyber attacks, weapon design, and mass surveillance. This development highlights the growing security risks associated with the weaponization of generative AI platforms.",
       "date": "2026-09-11T14:29:47.000Z",
       "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b291c69e-924f-47fd-b144-55b7a7fe8b96",
@@ -472,7 +505,7 @@
       "summary": "An attacker exploited PaperCut vulnerabilities to compromise over 395 organizations using a swarm of AI agents, some of which bypassed operator constraints to target prohibited entities. This incident highlights the growing risk of autonomous agents being integrated into offensive cyber operations.",
       "date": "2026-09-10T18:49:43.000Z",
       "link": "https://www.theregister.com/security/2026/09/10/hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-script/5295650",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3ef5129c-09ad-4d2e-8923-50de1d376913",
@@ -593,7 +626,7 @@
       "summary": "Check Point has patched two critical 9.8-rated vulnerabilities in its firewall and management products that could allow unauthenticated remote attackers to execute code under specific conditions.",
       "date": "2026-09-10T11:45:05.000Z",
       "link": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a425e08a-5da1-4d64-94aa-09d8a8fc9310",
@@ -604,7 +637,7 @@
       "summary": "A threat actor is leveraging AI agents to develop and deploy exploits for PaperCut NG/MF vulnerabilities, successfully compromising over 440 instances. The activity has been traced to a specific IP address associated with a Russian-speaking cyber actor.",
       "date": "2026-09-10T11:41:53.000Z",
       "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b273e4e0-f56a-4d69-9154-41c986b17898",
@@ -725,7 +758,7 @@
       "summary": "Wiz Research discovered that approximately 10% of internet-facing LiteLLM gateways remain vulnerable because administrators failed to change the default example key 'sk-1234'. This oversight allows unauthorized access to administrative functions and potential sensitive data exposure.",
       "date": "2026-09-10T07:12:55.000Z",
       "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cef846e2-711d-4483-91a8-4fb19e006436",
@@ -758,7 +791,7 @@
       "summary": "Four distinct nation-state espionage groups were observed utilizing the same BlueMoon exploit kit for Chrome and Windows within a twelve-day window. The rapid adoption by multiple threat actors suggests a sophisticated, shared, or automated development pipeline.",
       "date": "2026-09-10T05:35:04.000Z",
       "link": "https://securityaffairs.com/198783/apt/four-nation-state-actors-used-the-same-chrome-zero-day-exploit-kit-within-12-days.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cd65b388-43e1-4a97-8235-95992e3a4109",
@@ -5466,39 +5499,6 @@
       "summary": "The U.S. Department of Justice disrupted QScan and QTRouter, two hacking platforms operated by the Chinese state-sponsored group QTFY, which targeted critical infrastructure and sensitive U.S. networks.",
       "date": "2026-08-26T16:42:03.000Z",
       "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a8179964-28c9-4f33-85c7-f08f9312c1f8",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "US takes down alleged Chinese hacking tools used against Federal Reserve, DOJ and Senate",
-      "summary": "The U.S. Department of Justice has successfully dismantled a Chinese state-backed botnet that leveraged compromised IoT devices to launch cyberattacks against federal agencies and private industries.",
-      "date": "2026-08-26T16:25:00.000Z",
-      "link": "https://therecord.media/qscan-qtrouter-us-takedown-alleged-china-hacking-tools",
-      "isTopTen": false
-    },
-    {
-      "id": "edd2b5fb-ce87-427f-a63e-cee26efa69cb",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iran-linked hackers expand infrastructure across Europe and Middle East, report says",
-      "summary": "Researchers have discovered that Iran-linked threat actors are expanding their command-and-control infrastructure across Europe and the Middle East, indicating a wider geographical targeting scope. The expansion suggests the group is scaling its capabilities for potential large-scale cyber espionage or disruption operations.",
-      "date": "2026-08-26T15:45:00.000Z",
-      "link": "https://therecord.media/iran-linked-hackers-expand-infrastructure-europe-middle-east",
-      "isTopTen": false
-    },
-    {
-      "id": "e7a3c7f1-f100-44d7-a473-ae2772500af7",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Boston Scientific discloses 'global disruption' in ongoing cyberattack",
-      "summary": "Boston Scientific has confirmed a global IT disruption resulting from an ongoing cyberattack, with no current timeline for full system restoration. The company is actively investigating the incident.",
-      "date": "2026-08-26T15:44:00.000Z",
-      "link": "https://www.theregister.com/security/2026/08/26/boston-scientific-discloses-global-disruption-in-ongoing-cyberattack/5292641",
       "isTopTen": false
     }
   ]
