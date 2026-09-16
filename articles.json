@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-09-15T21:10:44.997Z",
+  "lastUpdated": "2026-09-16T04:08:56.267Z",
   "articles": [
+    {
+      "id": "b251ec29-aa63-48e0-bbff-11a56d16d805",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "The vulnpocalypse rains iBugs down on Apple with record-setting number of patches",
+      "summary": "Apple has released a record-breaking volume of security patches to address a wide array of vulnerabilities across its ecosystem. This unusual mid-month update follows the regular Patch Tuesday cycle, indicating a significant effort to remediate critical flaws.",
+      "date": "2026-09-15T21:38:31.000Z",
+      "link": "https://www.theregister.com/security/2026/09/15/the-vulnpocalypse-rains-ibugs-down-on-apple-with-record-setting-number-of-patches/5296679",
+      "isTopTen": true
+    },
+    {
+      "id": "048cc1f2-2cf2-462a-aa13-8622e6889d6d",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Cisco Secure Email Gateway flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the critical Cisco Secure Email Gateway vulnerability, tracked as CVE-2026-76461, to its Known Exploited Vulnerabilities (KEV) catalog following active exploitation. The flaw carries a high CVSS score of 9.8.",
+      "date": "2026-09-15T20:46:41.000Z",
+      "link": "https://securityaffairs.com/199156/security/u-s-cisa-adds-cisco-secure-email-gateway-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "8b1d931b-6382-4151-9c66-5aecc2ef349f",
       "source": "The Record",
@@ -65,7 +87,7 @@
       "summary": "Intelligence agencies from the US, UK, and Netherlands have identified Iranian-linked malware that leverages Telegram to spy on activists and journalists by intercepting communications and recording audio. The campaign targets individuals globally through sophisticated surveillance capabilities embedded in Windows-based malware.",
       "date": "2026-09-15T16:29:51.000Z",
       "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ef326fda-5094-4921-aea1-8e25bdea3f89",
@@ -142,7 +164,7 @@
       "summary": "CenterPoint Energy has reported a data breach to federal regulators after customer information was leaked on the dark web. The utility company is currently investigating the incident to determine the scope of the exposure.",
       "date": "2026-09-15T14:22:00.000Z",
       "link": "https://therecord.media/centerpoint-energy-data-breach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c8862275-b6d1-4123-8dac-fe513dd5aa57",
@@ -230,7 +252,7 @@
       "summary": "China's intelligence leadership has identified advanced US-based AI models as significant cybersecurity threats due to their potential to accelerate malware development and vulnerability exploitation. This marks a formal acknowledgment of the geopolitical security risks posed by rapid advancements in AI capabilities.",
       "date": "2026-09-15T12:54:00.000Z",
       "link": "https://therecord.media/china-spy-chief-warns-of-us-ai-models",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "235e1725-68ea-48ee-a7ac-ed2c7ebcd37f",
@@ -252,7 +274,7 @@
       "summary": "A critical vulnerability in LiteSpeed Enterprise allows low-privilege users on shared hosting platforms to bypass security protections like CageFS and escalate privileges to root access. Administrators are urged to immediately update to version 6.3.7 to mitigate the risk.",
       "date": "2026-09-15T12:19:11.000Z",
       "link": "https://securityaffairs.com/199127/security/shared-hosting-at-risk-litespeed-enterprise-bug-can-grant-root-from-a-single-tenant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e721926-768e-4d30-8a21-b33c83a2e2c4",
@@ -373,7 +395,7 @@
       "summary": "The Japanese Digital Agency suffered a data breach affecting 246,000 government employees after attackers exploited a known VPN vulnerability to gain access to a shared network platform. The incident, which impacted 23 ministries, was discovered in June and publicly disclosed in September.",
       "date": "2026-09-15T07:19:25.000Z",
       "link": "https://securityaffairs.com/199090/security/non-zero-day-vpn-flaw-left-japan-government-shared-network-platform-exposed-246000-records-at-risk.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "108ba63a-af05-4da6-8e1c-39c628d2a866",
@@ -395,7 +417,7 @@
       "summary": "Cisco has confirmed that a critical, high-severity vulnerability (CVE-2026-76461) in its Secure Email Gateway's AsyncOS is being actively exploited, allowing unauthenticated remote attackers to achieve root command execution.",
       "date": "2026-09-15T06:11:11.000Z",
       "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b64058f5-4c41-4e0f-aaba-988e8460c576",
@@ -505,7 +527,7 @@
       "summary": "The ENISA report warns that frontier AI is accelerating the cyberattack lifecycle, enabling faster vulnerability exploitation and forcing a shift toward automated defense mechanisms. It highlights the urgent need for Europe to enhance its cybersecurity posture to keep pace with these advancements.",
       "date": "2026-09-14T20:35:42.000Z",
       "link": "https://securityaffairs.com/199063/ai/enisa-frontier-ai-is-changing-the-speed-of-cyberattacks-europe-needs-to-catch-up.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5abee895-c6e7-4fbd-bf10-52618154c933",
@@ -571,7 +593,7 @@
       "summary": "The DDRop hardware attack exploits Intel TDX and AMD SEV-SNP confidential computing by intercepting memory writes, allowing attackers with physical access to force processors to process stale data. This vulnerability compromises the integrity of memory encryption in secure environments.",
       "date": "2026-09-14T18:02:13.000Z",
       "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "764d4dbf-1488-4511-8e66-82984a53eb27",
@@ -604,7 +626,7 @@
       "summary": "The Chinese threat actor Red Heron is exploiting a Gitea RCE vulnerability to compromise at least 13 organizations globally, with a specific focus on Taiwanese infrastructure. Researchers identified that the group scanned over 1,300 instances to identify and exploit vulnerable targets.",
       "date": "2026-09-14T16:56:30.000Z",
       "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f218d99d-92b9-4aa2-b179-241e2187a353",
@@ -769,7 +791,7 @@
       "summary": "The Dutch NCSC has issued a warning regarding two critical vulnerabilities in Check Point VPN products with a CVSS score of 9.8 that could allow for remote code execution. Organizations are urged to patch their systems immediately and restrict VPN access to mitigate the risk of potential exploitation.",
       "date": "2026-09-14T09:43:29.000Z",
       "link": "https://securityaffairs.com/199015/security/dutch-ncsc-warns-critical-check-point-vpn-flaws-put-networks-at-risk.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "27f6796b-20f0-43e1-95d4-152e1923de3d",
@@ -5477,28 +5499,6 @@
       "summary": "Suspected Chinese-speaking operators breached Philippine nuclear and naval targets by exploiting known vulnerabilities in public-facing ownCloud and WordPress systems to exfiltrate sensitive data.",
       "date": "2026-08-29T09:16:52.000Z",
       "link": "https://securityaffairs.com/198041/intelligence/philippine-nuclear-and-naval-targets-hit-by-suspected-chinese-operator.html",
-      "isTopTen": false
-    },
-    {
-      "id": "416bdc64-ba95-4ec8-9f3f-0ed1d95ab2e6",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety",
-      "summary": "New research identifies that LLM safety mechanisms reside in a vulnerable, thin neural layer, suggesting that current AI defenses can be easily bypassed. This finding underscores the necessity of implementing multi-layered, external security protocols to protect AI systems.",
-      "date": "2026-08-28T22:00:07.000Z",
-      "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
-      "isTopTen": false
-    },
-    {
-      "id": "4d8626ba-0c77-44ab-82f6-dced81453aac",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-      "summary": "The Berlin state government is refusing to pay an extortion demand following a data breach that affected its administrative network and the Senate Department for Mobility, Transport, Climate Protection and Environment.",
-      "date": "2026-08-28T21:30:52.000Z",
-      "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
       "isTopTen": false
     }
   ]
