@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-09-16T16:39:13.367Z",
+  "lastUpdated": "2026-09-16T21:08:07.384Z",
   "articles": [
+    {
+      "id": "8a9aa37a-454e-4af8-b23b-a72eacb3407e",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "CISA decides weekly vulnerability bulletin isn't necessary anymore",
+      "summary": "CISA is retiring its weekly vulnerability bulletin, shifting its focus toward a risk-based prioritization model rather than static CVSS scores.",
+      "date": "2026-09-16T20:33:48.000Z",
+      "link": "https://www.theregister.com/security/2026/09/16/cisa-decides-weekly-vulnerability-bulletin-isnt-necessary-anymore/5296968",
+      "isTopTen": false
+    },
+    {
+      "id": "53ba934f-c23e-4f83-8004-3259266acfb4",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "CISA promotes a fresh way to deter cyberattackers: Lie to them",
+      "summary": "CISA has released its first formal guidance on utilizing decoys, such as honeypots, as a strategic method to detect and divert cyber adversaries. This proactive defense approach focuses on deceiving attackers to improve organizational security posture.",
+      "date": "2026-09-16T20:22:03.000Z",
+      "link": "https://cyberscoop.com/cisa-guidance-cyber-decoys-critical-infrastructure/",
+      "isTopTen": true
+    },
+    {
+      "id": "62aca8d7-7fdd-491f-91d1-01ead8d32ce6",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "BambooToken: The Malware That Speaks MQTT to Stay Under the Radar",
+      "summary": "BambooToken is a stealthy new malware family that leverages the MQTT protocol and DLL sideloading to establish covert command-and-control communication on both Windows and Linux systems. It is primarily targeting infrastructure in Asia by blending in with legitimate industrial and smart device traffic.",
+      "date": "2026-09-16T20:20:36.000Z",
+      "link": "https://securityaffairs.com/199205/malware/bambootoken-the-malware-that-speaks-mqtt-to-stay-under-the-radar.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8e9f23fe-4a2f-483d-a7d8-264407f94ffa",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’",
+      "summary": "U.S. officials boarded an oil tanker in the Gulf of Mexico to verify the security of its operational and IT systems following a cyberattack by foreign actors.",
+      "date": "2026-09-16T18:46:00.000Z",
+      "link": "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi",
+      "isTopTen": false
+    },
+    {
+      "id": "65995b6d-2f03-4d41-858b-2803c4c7b36c",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "House passes bill to equip local law enforcement with scam-fighting tools",
+      "summary": "The U.S. House passed the GUARD Act to provide local law enforcement with the resources and tools necessary to investigate online scams that fall below the federal jurisdiction threshold. This initiative aims to close a critical gap in responding to complex financial cyber-crimes targeting retirees.",
+      "date": "2026-09-16T18:28:00.000Z",
+      "link": "https://therecord.media/house-passes-bill-to-equip-local-law-enforcement-scams",
+      "isTopTen": false
+    },
+    {
+      "id": "65575174-ac0b-4638-b63b-3df56976c36f",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Google Pixel phones pwned in zero-click attacks",
+      "summary": "Google Pixel devices are being targeted by zero-click exploits, prompting CISA to mandate that federal agencies patch their affected devices within three days. This critical vulnerability poses a significant risk as it requires no user interaction to execute malicious code.",
+      "date": "2026-09-16T17:56:31.000Z",
+      "link": "https://www.theregister.com/security/2026/09/16/google-pixel-phones-pwned-in-zero-click-attacks/5296936",
+      "isTopTen": true
+    },
     {
       "id": "0828437f-5df5-4406-b81e-1df4137b28f8",
       "source": "The Hacker News",
@@ -10,7 +76,7 @@
       "summary": "A critical vulnerability, CVE-2026-89026, in the Issabel PBX framework is being actively exploited to allow unauthenticated remote attackers to execute arbitrary OS commands.",
       "date": "2026-09-16T15:50:59.000Z",
       "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c48351ed-d074-4b14-9ef4-8d6ce9215c45",
@@ -54,7 +120,7 @@
       "summary": "Security researchers discovered that a single malicious browser extension can hijack and control AI assistants integrated into multiple popular Chromium-based web browsers and extensions. This vulnerability poses a significant risk as it allows unauthorized access to user interactions with AI tools.",
       "date": "2026-09-16T14:36:44.000Z",
       "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "52473f5c-b6e0-4122-ae13-7b17cbcf6382",
@@ -186,7 +252,7 @@
       "summary": "Spain has experienced its first reported cyber attack utilizing artificial intelligence, prompting data protection authorities to demand an urgent review of existing security models.",
       "date": "2026-09-16T11:56:55.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/09/16/spain-gets-its-first-taste-of-ai-aided-cyber-attack/5296844",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "842851ea-f861-437d-9275-55c3ff28feb5",
@@ -252,7 +318,7 @@
       "summary": "CenterPoint Energy has confirmed a data breach involving unauthorized access to its external systems after a hacker claimed to have exfiltrated data belonging to millions of customers. The utility provider is currently investigating the incident following reports of 7.49 million records being leaked on a hacking forum.",
       "date": "2026-09-16T10:35:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/16/centerpoint-energy-data-breach-hacker-claims/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "58950047-5f62-4e98-b011-13fded7f9a51",
@@ -318,7 +384,7 @@
       "summary": "CenterPoint Energy has confirmed a data breach involving the theft of personal and billing information for a significant portion of its 7 million customers following claims from a hacker. The utility company is currently addressing the unauthorized access to its systems.",
       "date": "2026-09-16T08:19:03.000Z",
       "link": "https://securityaffairs.com/199170/data-breach/texas-utility-centerpoint-energy-confirms-data-breach-after-hacker-claims-7-49m-records-stolen.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "63382062-a163-439d-a7e3-8e5065ec77d9",
@@ -351,7 +417,7 @@
       "summary": "Active exploitation is targeting a critical JWT authentication bypass vulnerability in WSO2 API Manager, allowing attackers to perform account takeovers using forged admin tokens. The vulnerability is tracked as CVE-2026-5430 and carries a CVSS score of 9.8.",
       "date": "2026-09-16T05:18:06.000Z",
       "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b251ec29-aa63-48e0-bbff-11a56d16d805",
@@ -373,7 +439,7 @@
       "summary": "CISA has added the critical Cisco Secure Email Gateway vulnerability, tracked as CVE-2026-76461, to its Known Exploited Vulnerabilities (KEV) catalog following active exploitation. The flaw carries a high CVSS score of 9.8.",
       "date": "2026-09-15T20:46:41.000Z",
       "link": "https://securityaffairs.com/199156/security/u-s-cisa-adds-cisco-secure-email-gateway-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8b1d931b-6382-4151-9c66-5aecc2ef349f",
@@ -626,7 +692,7 @@
       "summary": "A critical vulnerability in LiteSpeed Enterprise allows low-privilege users on shared hosting platforms to bypass security protections like CageFS and escalate privileges to root access. Administrators are urged to immediately update to version 6.3.7 to mitigate the risk.",
       "date": "2026-09-15T12:19:11.000Z",
       "link": "https://securityaffairs.com/199127/security/shared-hosting-at-risk-litespeed-enterprise-bug-can-grant-root-from-a-single-tenant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e721926-768e-4d30-8a21-b33c83a2e2c4",
@@ -747,7 +813,7 @@
       "summary": "The Japanese Digital Agency suffered a data breach affecting 246,000 government employees after attackers exploited a known VPN vulnerability to gain access to a shared network platform. The incident, which impacted 23 ministries, was discovered in June and publicly disclosed in September.",
       "date": "2026-09-15T07:19:25.000Z",
       "link": "https://securityaffairs.com/199090/security/non-zero-day-vpn-flaw-left-japan-government-shared-network-platform-exposed-246000-records-at-risk.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "108ba63a-af05-4da6-8e1c-39c628d2a866",
@@ -769,7 +835,7 @@
       "summary": "Cisco has confirmed that a critical, high-severity vulnerability (CVE-2026-76461) in its Secure Email Gateway's AsyncOS is being actively exploited, allowing unauthenticated remote attackers to achieve root command execution.",
       "date": "2026-09-15T06:11:11.000Z",
       "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b64058f5-4c41-4e0f-aaba-988e8460c576",
@@ -5433,72 +5499,6 @@
       "summary": "Texas and the Office of the National Cyber Director have launched the 'Watershed 250' program to collaborate with the private sector in testing cybersecurity defenses for water infrastructure. The pilot aims to identify effective security strategies for protecting critical water systems.",
       "date": "2026-08-31T18:36:43.000Z",
       "link": "https://cyberscoop.com/watershed-250-texas-water-cybersecurity-pilot/",
-      "isTopTen": false
-    },
-    {
-      "id": "964a30db-be96-4a49-ac74-72f8d982b31b",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Attack hides malware in PNGs and drops custom reverse tunnel on victims' machines",
-      "summary": "Threat actors are employing a sophisticated 'ClickFix' campaign to deploy malware hidden in PNG images, which subsequently installs a custom reverse tunnel on victim systems. This multi-stage attack highlights an evolving evasion technique aimed at establishing persistent unauthorized access.",
-      "date": "2026-08-31T18:26:03.000Z",
-      "link": "https://www.theregister.com/security/2026/08/31/attack-hides-malware-in-pngs-and-drops-custom-reverse-tunnel-on-victims-machines/5293480",
-      "isTopTen": false
-    },
-    {
-      "id": "0d54943d-3967-4c5b-a843-f181f73b7356",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-      "summary": "North Korean threat actors are expanding their long-running IT worker fraud scheme to infiltrate the healthcare, sales, and marketing sectors. This diversification signifies a broadening insider threat aimed at securing employment and potential unauthorized access across non-technical industries.",
-      "date": "2026-08-31T17:24:28.000Z",
-      "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4ca03176-0946-48ca-8d7f-cf60106a2443",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Anthropic cracks down on hijacked user accounts mining AI tokens",
-      "summary": "Anthropic is taking action against hijacked accounts where attackers use stolen session tokens to illegally access and mine AI computing resources. This campaign exploits commodity malware to bypass authentication and abuse victim subscription credits.",
-      "date": "2026-08-31T16:03:46.000Z",
-      "link": "https://www.theregister.com/security/2026/08/31/anthropic-cracks-down-on-hijacked-user-accounts-mining-ai-tokens/5293461",
-      "isTopTen": false
-    },
-    {
-      "id": "b4d62bb1-1b28-4e6b-9bb5-d4c5b7588f90",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Berlin says it won’t pay ransom after hackers steal government data",
-      "summary": "Berlin officials have officially refused to pay a ransom demand following a cyberattack detected in mid-August that resulted in the theft of government data. The incident has prompted a firm stance against extortion as the city addresses the breach.",
-      "date": "2026-08-31T14:45:00.000Z",
-      "link": "https://therecord.media/berlin-says-it-wont-pay-ransom-after-hackers-steal-gov-data",
-      "isTopTen": false
-    },
-    {
-      "id": "6b7c2e07-7d3e-41c2-ba72-88d9e50d1468",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Threat actors are posing as AI crawlers to hunt for exposed credentials",
-      "summary": "Cyber threat actors are spoofing the user-agent strings of legitimate AI crawlers like ClaudeBot and Googlebot to bypass security filters and scan websites for sensitive credentials and configuration files. This technique exploits the inherent lack of verification in HTTP request identification headers.",
-      "date": "2026-08-31T14:39:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/31/ai-crawlers-scan-exposed-credentials/",
-      "isTopTen": false
-    },
-    {
-      "id": "16082c52-060b-4f32-b59f-aa5ca65b5301",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers plant remote access tools on compromised PaperCut servers",
-      "summary": "Attackers are exploiting PaperCut zero-day vulnerabilities to compromise internet-facing application servers and install legitimate remote access software for persistent unauthorized access. The vendor has urged customers to restrict web access to trusted IP addresses to mitigate the ongoing campaign.",
-      "date": "2026-08-31T14:38:33.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/08/31/papercut-attack-remote-access-tools/",
       "isTopTen": false
     }
   ]
