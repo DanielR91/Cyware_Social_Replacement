@@ -1,6 +1,149 @@
 {
-  "lastUpdated": "2026-09-18T04:05:09.373Z",
+  "lastUpdated": "2026-09-18T10:57:31.992Z",
   "articles": [
+    {
+      "id": "5f6e753b-120d-4f15-93ca-1386f4bfb3ea",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "summary": "Researchers discovered 13 malicious npm packages distributing a new JavaScript stealer called WeaselBiscuit, which targets Chrome extension data and shares technical links to North Korean state-sponsored threat groups.",
+      "date": "2026-09-18T10:40:06.000Z",
+      "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "isTopTen": true
+    },
+    {
+      "id": "86d3f46f-557a-4c00-87b6-b9dffee2af68",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Bots with good manners are better at fooling people on social media",
+      "summary": "A study by Surfshark reveals that social media users struggle to distinguish between humans and AI, with polite and non-aggressive bots achieving the highest success rates in deception. Participants successfully identified only 40% of the AI-generated comments presented to them.",
+      "date": "2026-09-18T10:15:12.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study/",
+      "isTopTen": false
+    },
+    {
+      "id": "5954e453-00c2-47b0-adc0-e395c398c5ec",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "RatHat Turns Android Accessibility Into an Attack Weapon",
+      "summary": "RatHat is a sophisticated Android trojan that leverages AI-driven screen control and accessibility services to perform deep device exploitation and credential theft. Researchers have linked the malware to China-based threat actors.",
+      "date": "2026-09-18T10:04:52.000Z",
+      "link": "https://securityaffairs.com/199317/malware/rathat-turns-android-accessibility-into-an-attack-weapon.html",
+      "isTopTen": true
+    },
+    {
+      "id": "59c56d0f-a22f-441b-90cf-bd5d09109fae",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity",
+      "summary": "The Unit 42 research highlights how default configurations in AWS AgentCore Harness enable prompt injection attacks, potentially leading to credential exfiltration. The post provides mitigation strategies to secure agents against these vulnerabilities.",
+      "date": "2026-09-18T10:00:36.000Z",
+      "link": "https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/",
+      "isTopTen": false
+    },
+    {
+      "id": "6b40836f-f221-4e3e-8e90-773891279567",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "summary": "A threat actor leveraged large language models to develop and distribute the PhantomRaven information stealer via the npm registry. The attribution was confirmed through specific linguistic and structural patterns characteristic of AI-generated code.",
+      "date": "2026-09-18T09:18:03.000Z",
+      "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3437023c-3a18-4106-b1c3-4598a58367a8",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Arcjet brings security controls and audit trails to AI agents",
+      "summary": "Arcjet has introduced a new security platform for AI agents, providing engineering and security teams with observability, governance, and audit capabilities for production-grade workflows.",
+      "date": "2026-09-18T08:55:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security/",
+      "isTopTen": false
+    },
+    {
+      "id": "b6d7b063-11bb-405b-83f8-d79a35a14643",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
+      "summary": "A critical zero-click RCE vulnerability affecting major AI coding agents allows unauthorized access to company systems and data through malicious plugin installation. The vulnerability, identified as the first supply chain flaw in the AI agent ecosystem, remains unpatched in two of the four affected platforms.",
+      "date": "2026-09-18T08:49:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
+      "isTopTen": false
+    },
+    {
+      "id": "aa8b63ea-306f-4829-9bd2-058e269164ce",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Android apps can now check security patches down to individual device components",
+      "summary": "Google has released new AndroidX Security State libraries that allow developers to verify the patch status of individual device components and manage OTA update availability. This enhancement provides a more granular approach for ensuring device security and monitoring update readiness.",
+      "date": "2026-09-18T08:38:42.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/",
+      "isTopTen": false
+    },
+    {
+      "id": "9d347b8e-38c9-47d1-bc91-42cb1f3a9bf0",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Check Point Fixes Critical CVE-2026-91843 Allowing Root Code Execution",
+      "summary": "Check Point has released a fix for CVE-2026-91843, a critical, unauthenticated remote code execution vulnerability impacting its Security Management and Log Servers.",
+      "date": "2026-09-18T07:52:41.000Z",
+      "link": "https://securityaffairs.com/199279/security/check-point-fixes-critical-cve-2026-91843-allowing-root-code-execution.html",
+      "isTopTen": false
+    },
+    {
+      "id": "87f80e12-ddf4-4e26-a47b-9944831ddc73",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "summary": "RatHat is a sophisticated Android malware linked to China-based threat actors that utilizes AI-driven device control and ADB exploitation to maintain persistence even after uninstallation. It is primarily distributed through targeted smishing and malvertising campaigns.",
+      "date": "2026-09-18T06:17:25.000Z",
+      "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8a9b8417-0f70-4af5-bf3f-06faacb7d4dc",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Abandoned IoT apps keep sending sensitive data to broken servers",
+      "summary": "Researchers discovered that millions of abandoned Android IoT companion apps remain in use despite containing known software vulnerabilities and insecure data practices. These outdated apps continue to transmit sensitive user data to unmaintained or broken servers, posing a significant security risk to smart home ecosystems.",
+      "date": "2026-09-18T06:00:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/18/abandoned-iot-apps-data-security-risks/",
+      "isTopTen": false
+    },
+    {
+      "id": "cfdf3b62-235b-4854-963b-e44f54aa2bf5",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Hardcoded MCP credentials found in public GitHub files",
+      "summary": "Research from Hush Security reveals that 12% of publicly accessible MCP configuration files on GitHub contain hardcoded credentials, posing a significant risk to connected systems and services. The findings highlight a critical identity security gap for users of AI coding tools.",
+      "date": "2026-09-18T05:30:26.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/18/hush-security-mcp-credential-exposure-report/",
+      "isTopTen": false
+    },
+    {
+      "id": "7b516538-228a-4f02-afcc-ff6f5e780b41",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "98% of fraudulent hires have company credentials by the time they’re caught",
+      "summary": "A report by HYPR reveals that 98% of fraudulent hires successfully obtain legitimate company credentials during the onboarding window, highlighting a significant security gap in enterprise identity verification. This trend allows attackers to bypass traditional network breaches by infiltrating organizations through deceptive remote hiring processes.",
+      "date": "2026-09-18T05:00:51.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/18/hypr-hiring-fraud-detection-report/",
+      "isTopTen": false
+    },
     {
       "id": "f0db46bc-7a37-41b4-b1c2-cbfac277cef7",
       "source": "The Register",
@@ -98,7 +241,7 @@
       "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated remote attackers to execute code with root privileges. The vendor has released a fix via the LivePatch update channel to address the flaw.",
       "date": "2026-09-17T18:08:28.000Z",
       "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10f7cfcf-1f19-4b95-9c64-ecc1449e4f10",
@@ -153,7 +296,7 @@
       "summary": "A critical vulnerability, CVE-2026-77179, allows malicious code within a Docker Sandbox on macOS to escape the project directory and gain unauthorized read and write access to files on the host system. This flaw operates with the privileges of the user running the virtual machine.",
       "date": "2026-09-17T15:37:56.000Z",
       "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "48b14938-f80e-4e43-a36c-d7bae269d443",
@@ -197,7 +340,7 @@
       "summary": "An anonymous group has reportedly breached Russian election infrastructure shortly before the scheduled parliamentary vote. The incident raises significant concerns regarding the integrity of the upcoming electoral process.",
       "date": "2026-09-17T13:45:00.000Z",
       "link": "https://therecord.media/russia-election-hackers-breach",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "99659543-c1db-4779-9ed7-d3e9f9c3db69",
@@ -274,7 +417,7 @@
       "summary": "Cisco has released a security patch for a critical zero-day vulnerability in its Identity Services Engine (ISE) that is currently being exploited in the wild. This flaw carries a CVSS score of 10.0 and allows attackers to bypass authentication.",
       "date": "2026-09-17T12:40:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/17/cisco-drops-another-exploited-zero-day-this-time-a-perfect-10/5297180",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "12193ff0-3bf6-45a3-a5ec-6edc022be40f",
@@ -285,7 +428,7 @@
       "summary": "A critical heap overflow vulnerability (CVE-2026-81642) in Unbound DNS versions prior to 1.26.1 allows attackers to achieve remote code execution via malicious DNS zones. Users are advised to upgrade to version 1.26.1 immediately to patch the flaw.",
       "date": "2026-09-17T12:30:00.000Z",
       "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8cf6a691-153b-498b-9a9d-ff4d6b6200b1",
@@ -384,7 +527,7 @@
       "summary": "Cisco has confirmed that an authentication bypass vulnerability (CVE-2026-76460) in the Cisco Identity Services Engine (ISE) management interface is currently being actively exploited by attackers.",
       "date": "2026-09-17T10:24:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/17/cisco-ise-vulnerability-exploited-cve-2026-76460/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cb746d05-396e-4b57-94f5-15f24558f9e5",
@@ -450,7 +593,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical flaws found in Acronis Backup, Cisco Identity Services Engine, and Google Pixel devices. This update mandates federal agencies to remediate these specific vulnerabilities to mitigate the risk of active exploitation.",
       "date": "2026-09-17T09:26:14.000Z",
       "link": "https://securityaffairs.com/199239/security/u-s-cisa-adds-acronis-backup-cisco-ise-and-google-pixel-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1570c882-fd45-4a5c-9e7d-3192211fc4f4",
@@ -549,7 +692,7 @@
       "summary": "The rapid advancement and deployment of autonomous AI-driven weapon systems in conflicts, such as the war in Ukraine, necessitate urgent international regulations and red lines to protect civilian safety. This shift toward machines engaging targets without human oversight poses significant ethical and security risks.",
       "date": "2026-09-17T04:00:36.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/17/autonomous-ai-weapons-future/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "65a9c892-8fea-4c95-804e-a83bf9258b25",
@@ -560,7 +703,7 @@
       "summary": "Recent findings indicate that autonomous AI agents possess the capability to self-modify without human intervention, raising concerns about unpredictable behavior and security risks. The provided snippet does not contain further technical details as it is marked as a test.",
       "date": "2026-09-16T22:10:24.000Z",
       "link": "https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1c2b4b4f-5e48-447d-b62c-a1a8fbcbebf5",
@@ -747,7 +890,7 @@
       "summary": "An attacker compromised an AI coding assistant at a SaaS provider, leveraging poisoned recommendations to propagate the 'Shai-Hulud' worm across approximately 100 repositories to exfiltrate secrets and source code.",
       "date": "2026-09-16T13:37:07.000Z",
       "link": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ade2b146-0dad-4161-887f-cedd84abf8d7",
@@ -5356,149 +5499,6 @@
       "summary": "Forescout researchers demonstrated that an AI model can successfully port a PLC exploit to a different hardware model, though the process required significant time, financial investment, and resulted in hardware destruction. This highlights both the potential capabilities of AI-assisted cyberattacks and the current limitations regarding stability and reliability.",
       "date": "2026-09-02T12:19:36.000Z",
       "link": "https://securityaffairs.com/198296/hacking/536-and-8-hours-ai-learns-to-attack-a-different-plc.html",
-      "isTopTen": false
-    },
-    {
-      "id": "37773ccc-f4ed-497a-89f5-23288243f08d",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Sality, one of the longest-running botnets, finally gets disrupted",
-      "summary": "U.S. and European authorities successfully disrupted the long-standing Sality botnet by exploiting its own peer-to-peer architecture to disconnect infected systems. This operation effectively neutralized a significant, multi-year threat to global network security.",
-      "date": "2026-09-02T12:15:00.000Z",
-      "link": "https://therecord.media/sality-botnet-cyber-doj",
-      "isTopTen": false
-    },
-    {
-      "id": "05dd3df7-594f-4628-b452-ce96ca42cd8c",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
-      "summary": "This article addresses the strategic challenge of scaling enterprise AI adoption while maintaining robust cybersecurity controls and incident readiness. It emphasizes the need to balance rapid business integration with effective risk management.",
-      "date": "2026-09-02T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a0c8994a-4ed0-475b-bc23-b6844896f3fb",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Attackers are going after prominent individuals through OAuth phishing, FBI warns",
-      "summary": "The FBI has issued a warning regarding sophisticated OAuth consent phishing campaigns targeting prominent individuals and their contacts to gain persistent, unauthorized access to private accounts. This technique bypasses password requirements, allowing attackers to maintain access to emails and sensitive files.",
-      "date": "2026-09-02T10:58:22.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/02/oauth-consent-phishing-fbi-warning/",
-      "isTopTen": false
-    },
-    {
-      "id": "9621aaf9-9eea-450f-b742-dd1471f3c9df",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
-      "summary": "Service busy.",
-      "date": "2026-09-02T10:53:49.000Z",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
-      "isTopTen": false
-    },
-    {
-      "id": "65d85135-3a1f-478f-9071-7ca765471d66",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iran-linked APT Mirage Kitten Uses Fake Job Tests to Spread Malware",
-      "summary": "The Iran-linked threat actor Mirage Kitten is targeting job seekers on LinkedIn by distributing malware disguised as coding assessments and explicitly prohibiting the use of AI tools to evade detection. This campaign utilizes trojanized code to deploy the NodeRabbit and PollCat malware strains.",
-      "date": "2026-09-02T10:25:24.000Z",
-      "link": "https://securityaffairs.com/198289/apt/iran-linked-apt-mirage-kitten-uses-fake-job-tests-to-spread-malware.html",
-      "isTopTen": false
-    },
-    {
-      "id": "10c625c8-24d6-4d2c-8e74-c0243604100d",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "SonicWall SMA 1000 appliances under attack via zero-day flaws",
-      "summary": "SonicWall has confirmed that attackers are actively exploiting two zero-day vulnerabilities in its SMA 1000 series SSL VPN gateways. These flaws, including a pre-authentication SSRF, expose enterprise and government systems to potential unauthorized access.",
-      "date": "2026-09-02T10:13:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/02/sonicwall-sma-1000-cve-2026-83548-cve-2026-83549-zero-day-attacks/",
-      "isTopTen": false
-    },
-    {
-      "id": "b789a097-1aeb-4233-886f-5833080beb03",
-      "source": "Unit 42",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation",
-      "summary": "Unit 42 researchers detail a real-world incident where autonomous AI agents were leveraged to breach an enterprise network within hours. The report outlines tactical insights into how organizations can defend against emerging agentic cyber threats.",
-      "date": "2026-09-02T10:00:46.000Z",
-      "link": "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/",
-      "isTopTen": false
-    },
-    {
-      "id": "a5b14349-746a-4442-bc23-9485cb9153d0",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "UK cyber bill targets AI users, not the vendors building it",
-      "summary": "Service busy.",
-      "date": "2026-09-02T09:44:00.000Z",
-      "link": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738",
-      "isTopTen": false
-    },
-    {
-      "id": "370549a2-f459-4e24-a267-76cd5d9df475",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-      "summary": "GeoNetwork has released patches to address an unauthenticated remote code execution (RCE) vulnerability chain that affects government and agency geospatial metadata portals. The fixes were implemented in versions 4.4.12 and 4.2.17 to mitigate the risk of unauthorized system compromise.",
-      "date": "2026-09-02T09:18:02.000Z",
-      "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9fbf71e7-dd73-4e1c-8de3-23e9db21c99b",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-      "summary": "A Russian national has been extradited to the U.S. to face charges for orchestrating a large-scale malware campaign between 2016 and 2017 that used malicious Excel files to target 80,000 freelance platform users. The suspect allegedly utilized hundreds of fraudulent accounts to distribute the malware.",
-      "date": "2026-09-02T09:10:23.000Z",
-      "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8bf9f3c5-a62e-4af2-a02d-34062603d6d6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "A battery storage cyberattack would look exactly like a badly tuned controller",
-      "summary": "Cybersecurity experts warn that attackers could manipulate battery storage grid controllers to simulate standard frequency regulation behavior, potentially causing grid instability. This subtle attack vector could remain undetected until significant service disruptions occur.",
-      "date": "2026-09-02T09:00:35.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/02/grid-battery-storage-cyberattack/",
-      "isTopTen": false
-    },
-    {
-      "id": "21b898ac-4577-451f-a6d0-d4061a2f8868",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Global sinkhole operation ends Sality botnet’s 23-year run",
-      "summary": "International law enforcement agencies, in collaboration with CrowdStrike and the Shadowserver Foundation, successfully dismantled the 23-year-old Sality P2P botnet. The operation effectively severed the attacker's command-and-control access to over 15,000 infected machines worldwide.",
-      "date": "2026-09-02T08:56:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/02/sality-botnet-disruption-crowdstrike-law-enforcement/",
-      "isTopTen": false
-    },
-    {
-      "id": "66833f9d-c96c-4f25-b69d-27ac799f1fb3",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Keepnet launches free SMS/Call Reporter for iOS",
-      "summary": "Keepnet has released a free iOS application that allows users to report suspicious SMS messages and phone calls to help mitigate human-based security risks. The app is currently available for individual and organizational use, with an Android version planned for the future.",
-      "date": "2026-09-02T08:00:45.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/02/keepnet-launches-free-sms-call-reporter-for-ios/",
       "isTopTen": false
     }
   ]
