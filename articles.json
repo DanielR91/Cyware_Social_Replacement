@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-18T20:43:44.731Z",
+  "lastUpdated": "2026-09-18T23:10:41.422Z",
   "articles": [
+    {
+      "id": "c2631f7c-3320-4f33-91f0-9ea5822ee7a8",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Brevo Supply-Chain Attack Infected Over 100,000 Websites",
+      "summary": "The marketing platform Brevo suffered a supply-chain attack where unauthorized access to their Cloudflare account enabled hackers to inject malicious code into over 100,000 client websites. The breach originated from a vulnerability exploited on September 10, impacting numerous major global brands.",
+      "date": "2026-09-18T21:38:15.000Z",
+      "link": "https://securityaffairs.com/199355/hacking/brevo-supply-chain-attack-infected-over-100000-websites.html",
+      "isTopTen": true
+    },
     {
       "id": "3986fb55-a39b-4054-9826-417ca8fcf628",
       "source": "CyberScoop",
@@ -32,7 +43,7 @@
       "summary": "Researchers utilized AI to identify a critical software decoder vulnerability that granted attackers remote code execution and unauthorized access to major platforms like Meta and OpenAI. The flaw has since been patched by the affected parties.",
       "date": "2026-09-18T17:19:49.000Z",
       "link": "https://cyberscoop.com/hacktron-ai-heif-heist-vulnerability/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f59db799-b956-492c-b3d2-b0ebd2b17a94",
@@ -43,7 +54,7 @@
       "summary": "Security researchers successfully utilized the Claude AI model to automate the exploitation of ChatGPT accounts belonging to OpenAI employees. This demonstration highlights the growing threat of agentic AI being leveraged to conduct automated cyberattacks.",
       "date": "2026-09-18T17:16:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d9377dec-b7a8-41c1-b00a-041bfaa60ea9",
@@ -417,7 +428,7 @@
       "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated remote attackers to execute code with root privileges. The vendor has released a fix via the LivePatch update channel to address the flaw.",
       "date": "2026-09-17T18:08:28.000Z",
       "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10f7cfcf-1f19-4b95-9c64-ecc1449e4f10",
@@ -428,7 +439,7 @@
       "summary": "Recent cyberattacks on oil tankers near Texas have exposed significant security vulnerabilities in maritime navigation and critical ship systems. These incidents highlight growing risks to port operations and global trade stability.",
       "date": "2026-09-17T18:06:07.000Z",
       "link": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "579beb80-8d42-42af-9660-e47bac358baa",
@@ -604,7 +615,7 @@
       "summary": "A critical heap overflow vulnerability (CVE-2026-81642) in Unbound DNS versions prior to 1.26.1 allows attackers to achieve remote code execution via malicious DNS zones. Users are advised to upgrade to version 1.26.1 immediately to patch the flaw.",
       "date": "2026-09-17T12:30:00.000Z",
       "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8cf6a691-153b-498b-9a9d-ff4d6b6200b1",
@@ -5488,17 +5499,6 @@
       "summary": "Healthcare company Aesto disclosed a cyberattack from last December that exposed the sensitive personal information of over 9.5 million individuals. The incident was reported to federal regulators following the discovery of the data breach.",
       "date": "2026-09-02T17:15:00.000Z",
       "link": "https://therecord.media/health-data-aesto-cyberattack-leak",
-      "isTopTen": false
-    },
-    {
-      "id": "b99e576b-1ed1-41ad-bcf0-e2a2d40b5f7a",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Dogged Russia-based botnet dismantled after 23-year run",
-      "summary": "Authorities and cybersecurity experts have successfully dismantled the Sality botnet, a Russia-based peer-to-peer infrastructure that remained active for 23 years.",
-      "date": "2026-09-02T17:03:58.000Z",
-      "link": "https://cyberscoop.com/sality-botnet-dismantled/",
       "isTopTen": false
     }
   ]
