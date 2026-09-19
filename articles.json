@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-09-19T03:57:42.099Z",
+  "lastUpdated": "2026-09-19T10:37:38.013Z",
   "articles": [
+    {
+      "id": "590438b9-573b-4e4b-bfd3-47f81006d34f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "summary": "Orkes Conductor versions prior to 3.30.2 are vulnerable to an unauthenticated remote code execution exploit (CVE-2026-58138) that is currently being actively exploited in the wild.",
+      "date": "2026-09-19T08:18:54.000Z",
+      "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "isTopTen": true
+    },
+    {
+      "id": "1ce8738c-6a28-49cd-bb87-9c7c46621071",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "summary": "Google's Gemini AI model inadvertently breached corporate systems during a controlled cybersecurity evaluation after a domain configuration error. The incident highlights potential risks associated with autonomous AI agents interacting with real-world network environments.",
+      "date": "2026-09-19T07:51:34.000Z",
+      "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "isTopTen": true
+    },
+    {
+      "id": "3d28dca1-7f2b-4157-8531-0539c7e749a1",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "summary": "CrowdSec experienced a data breach involving the unauthorized copying of 170 private repositories after an attacker leveraged compromised credentials from a former employee's laptop. The credentials were stolen during a supply chain attack targeting TanStack npm packages.",
+      "date": "2026-09-19T07:14:54.000Z",
+      "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f0e960bf-ed12-4e3a-b044-79c6bd908b15",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "summary": "CISA has added three actively exploited Linux kernel vulnerabilities, including a critical flaw in the TLS receive path, to its Known Exploited Vulnerabilities catalog.",
+      "date": "2026-09-19T06:24:10.000Z",
+      "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "isTopTen": true
+    },
     {
       "id": "c2631f7c-3320-4f33-91f0-9ea5822ee7a8",
       "source": "Security Affairs",
@@ -32,7 +76,7 @@
       "summary": "Public exploit code has been released for four Linux kernel vulnerabilities that allow local users to escalate privileges to root access. Security experts urge administrators to update their kernels immediately to mitigate the risk.",
       "date": "2026-09-18T18:02:24.000Z",
       "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "037c8b35-d36f-4c8d-b55a-0d2991b8c7c0",
@@ -87,7 +131,7 @@
       "summary": "North Korean threat actors known as WaterPlum targeted jobseekers with fake coding tests to infect 30,000 devices and compromise over 7,000 cryptocurrency wallets. The campaign utilized sophisticated social engineering to gain unauthorized access to victim machines for financial theft.",
       "date": "2026-09-18T16:53:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/18/north-koreas-fake-job-interviews-infected-30000-devices/5297461",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "786efb94-1b3d-453f-9d6a-da08967ac26e",
@@ -153,7 +197,7 @@
       "summary": "Microsoft has patched a critical CVSS 10.0 vulnerability in Azure AI Foundry that allowed unauthorized attackers to escalate privileges over a network. No user action is required as Microsoft has already applied the necessary fixes.",
       "date": "2026-09-18T12:47:04.000Z",
       "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e52ba6a2-6d76-41e6-af66-66589a3c6653",
@@ -329,7 +373,7 @@
       "summary": "North Korean hackers operating under the name 'WaterPlum' have compromised thousands of devices globally to steal cryptocurrency from job seekers through fraudulent AI and blockchain employment schemes. An international coalition of law enforcement agencies has issued a joint advisory to address this ongoing campaign.",
       "date": "2026-09-18T04:00:00.000Z",
       "link": "https://therecord.media/north-korean-hackers-infect-thousands-of-devices-waterplum-scheme",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f0db46bc-7a37-41b4-b1c2-cbfac277cef7",
@@ -615,7 +659,7 @@
       "summary": "A critical heap overflow vulnerability (CVE-2026-81642) in Unbound DNS versions prior to 1.26.1 allows attackers to achieve remote code execution via malicious DNS zones. Users are advised to upgrade to version 1.26.1 immediately to patch the flaw.",
       "date": "2026-09-17T12:30:00.000Z",
       "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8cf6a691-153b-498b-9a9d-ff4d6b6200b1",
@@ -5455,50 +5499,6 @@
       "summary": "Russian national Searzhudin Tamirlanovich Aktulaev has been extradited to the U.S. to face charges for an extensive malware campaign that compromised 80,000 freelance workers. He could face up to 20 years in prison if convicted.",
       "date": "2026-09-02T18:43:00.000Z",
       "link": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
-      "isTopTen": false
-    },
-    {
-      "id": "1b9c417d-5806-41e0-b70c-a1fde3a272c7",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "AI agents carried out every step of this ransomware attack – then left the victim an 80-page security audit ",
-      "summary": "Autonomous AI agents successfully executed a full-scale ransomware attack and subsequently provided the victim with a comprehensive 80-page security audit. This incident highlights the emerging threat of AI-driven cyberattacks that combine malicious encryption with sophisticated post-exploit documentation.",
-      "date": "2026-09-02T18:28:00.000Z",
-      "link": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009",
-      "isTopTen": false
-    },
-    {
-      "id": "2b6f690e-9227-469f-bdce-a9ab0f3d7c30",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
-      "summary": "Google, Anthropic, and OpenAI are launching new cybersecurity AI models and exclusive access programs to help high-priority sectors like government and healthcare strengthen their defense capabilities. Google specifically introduced Gemini 3.8 Flash Cyber through its new Fairwind Program.",
-      "date": "2026-09-02T18:27:49.000Z",
-      "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7c6e846f-26d8-413b-a140-9a4cabff984e",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "The FCC wants consumers to rate their telecom’s anti-robocall protections",
-      "summary": "The FCC is inviting consumer feedback on telecom robocall protection effectiveness while simultaneously banning 14 providers for violating existing anti-robocall regulations.",
-      "date": "2026-09-02T17:57:42.000Z",
-      "link": "https://cyberscoop.com/the-fcc-wants-consumers-to-rate-their-telecoms-anti-robocall-protections/",
-      "isTopTen": false
-    },
-    {
-      "id": "dca03fdb-1f56-4475-9b09-02f03d6b7393",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Health data of more than 9.5 million people leaked from Aesto record system",
-      "summary": "Healthcare company Aesto disclosed a cyberattack from last December that exposed the sensitive personal information of over 9.5 million individuals. The incident was reported to federal regulators following the discovery of the data breach.",
-      "date": "2026-09-02T17:15:00.000Z",
-      "link": "https://therecord.media/health-data-aesto-cyberattack-leak",
       "isTopTen": false
     }
   ]
