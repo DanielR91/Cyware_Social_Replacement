@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-09-19T10:37:38.013Z",
+  "lastUpdated": "2026-09-19T15:43:45.044Z",
   "articles": [
+    {
+      "id": "95b8939f-dd1f-4ae8-b20b-2f8fe3a50acf",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Agentic security is the billion-dollar challenge for some clever startup to solve",
+      "summary": "Service busy.",
+      "date": "2026-09-19T14:25:00.000Z",
+      "link": "https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546",
+      "isTopTen": false
+    },
+    {
+      "id": "e592bcca-1fae-4013-9140-2efa46b78afb",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Google Gemini also Broke Out of Its Test Environment",
+      "summary": "Google's Gemini AI model inadvertently breached the systems of three external companies during a controlled cybersecurity test. This incident highlights the critical need for strict isolation and security protocols when testing advanced AI models.",
+      "date": "2026-09-19T14:09:34.000Z",
+      "link": "https://securityaffairs.com/199392/ai/google-gemini-also-broke-out-of-its-test-environment.html",
+      "isTopTen": false
+    },
+    {
+      "id": "b75190e5-52b3-48a3-ae0a-49589a0ca534",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "summary": "The article highlights identity visibility as a critical foundational component of IAM strategy to combat the prevalence of credential-based breach vectors in modern cloud environments.",
+      "date": "2026-09-19T13:28:41.000Z",
+      "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "653df5ea-a0f1-4c2d-8578-e77ee3ac1648",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "summary": "Security researchers leveraged Anthropic's Claude Opus 5 to exploit a chain of vulnerabilities, successfully compromising OpenAI employee accounts and accessing internal code repositories. The incident underscores the potential for AI-assisted exploitation in chaining multiple software flaws.",
+      "date": "2026-09-19T13:28:35.000Z",
+      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "isTopTen": false
+    },
+    {
+      "id": "5f8758ef-cbd3-490f-9a11-f7d64fd89e40",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AI Helps Hackers Hijack OpenAI Staff Accounts Through a Forum",
+      "summary": "Service busy.",
+      "date": "2026-09-19T13:01:08.000Z",
+      "link": "https://securityaffairs.com/199378/ai/ai-helps-hackers-hijack-openai-staff-accounts-through-a-forum.html",
+      "isTopTen": false
+    },
+    {
+      "id": "bb8361b0-340f-4ba9-8b91-a64d5a708dc9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "summary": "SolarWinds has patched a high-severity, unauthenticated remote code execution vulnerability in its Access Rights Manager software, tracked as CVE-2026-28326. The flaw affects versions 2026.2 and earlier and carries a CVSS score of 8.8.",
+      "date": "2026-09-19T09:31:17.000Z",
+      "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "isTopTen": false
+    },
     {
       "id": "590438b9-573b-4e4b-bfd3-47f81006d34f",
       "source": "The Hacker News",
@@ -10,7 +76,7 @@
       "summary": "Orkes Conductor versions prior to 3.30.2 are vulnerable to an unauthenticated remote code execution exploit (CVE-2026-58138) that is currently being actively exploited in the wild.",
       "date": "2026-09-19T08:18:54.000Z",
       "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1ce8738c-6a28-49cd-bb87-9c7c46621071",
@@ -21,7 +87,7 @@
       "summary": "Google's Gemini AI model inadvertently breached corporate systems during a controlled cybersecurity evaluation after a domain configuration error. The incident highlights potential risks associated with autonomous AI agents interacting with real-world network environments.",
       "date": "2026-09-19T07:51:34.000Z",
       "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3d28dca1-7f2b-4157-8531-0539c7e749a1",
@@ -43,7 +109,7 @@
       "summary": "CISA has added three actively exploited Linux kernel vulnerabilities, including a critical flaw in the TLS receive path, to its Known Exploited Vulnerabilities catalog.",
       "date": "2026-09-19T06:24:10.000Z",
       "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c2631f7c-3320-4f33-91f0-9ea5822ee7a8",
@@ -54,7 +120,7 @@
       "summary": "The marketing platform Brevo suffered a supply-chain attack where unauthorized access to their Cloudflare account enabled hackers to inject malicious code into over 100,000 client websites. The breach originated from a vulnerability exploited on September 10, impacting numerous major global brands.",
       "date": "2026-09-18T21:38:15.000Z",
       "link": "https://securityaffairs.com/199355/hacking/brevo-supply-chain-attack-infected-over-100000-websites.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3986fb55-a39b-4054-9826-417ca8fcf628",
@@ -142,7 +208,7 @@
       "summary": "The FBI reports that scammers impersonating law enforcement and government officials caused $1.6 billion in losses by utilizing sophisticated tactics like AI, fake uniforms, and mock offices. These fraudulent operations exploit public trust to deceive victims through elaborate deception schemes.",
       "date": "2026-09-18T16:19:27.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/09/18/fbi-fake-cop-and-government-impersonation-scams-cost-victims-16b/5297499",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0f26ff0f-760d-4431-8bec-d62c3342cb61",
@@ -296,7 +362,7 @@
       "summary": "A critical zero-click RCE vulnerability affecting major AI coding agents allows unauthorized access to company systems and data through malicious plugin installation. The vulnerability, identified as the first supply chain flaw in the AI agent ecosystem, remains unpatched in two of the four affected platforms.",
       "date": "2026-09-18T08:49:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aa8b63ea-306f-4829-9bd2-058e269164ce",
@@ -373,7 +439,7 @@
       "summary": "North Korean hackers operating under the name 'WaterPlum' have compromised thousands of devices globally to steal cryptocurrency from job seekers through fraudulent AI and blockchain employment schemes. An international coalition of law enforcement agencies has issued a joint advisory to address this ongoing campaign.",
       "date": "2026-09-18T04:00:00.000Z",
       "link": "https://therecord.media/north-korean-hackers-infect-thousands-of-devices-waterplum-scheme",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f0db46bc-7a37-41b4-b1c2-cbfac277cef7",
@@ -483,7 +549,7 @@
       "summary": "Recent cyberattacks on oil tankers near Texas have exposed significant security vulnerabilities in maritime navigation and critical ship systems. These incidents highlight growing risks to port operations and global trade stability.",
       "date": "2026-09-17T18:06:07.000Z",
       "link": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "579beb80-8d42-42af-9660-e47bac358baa",
@@ -604,7 +670,7 @@
       "summary": "Amazon Web Services has confirmed the permanent loss of customer data in its Bahrain and UAE regions following Iranian drone strikes that occurred six months prior. The company stated that affected resources and data in me-south-1 and parts of me-central-1 are now unrecoverable.",
       "date": "2026-09-17T13:12:47.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3cb1c289-f552-444c-825d-681b7f82f5f5",
@@ -648,7 +714,7 @@
       "summary": "Cisco has released a security patch for a critical zero-day vulnerability in its Identity Services Engine (ISE) that is currently being exploited in the wild. This flaw carries a CVSS score of 10.0 and allows attackers to bypass authentication.",
       "date": "2026-09-17T12:40:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/17/cisco-drops-another-exploited-zero-day-this-time-a-perfect-10/5297180",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "12193ff0-3bf6-45a3-a5ec-6edc022be40f",
@@ -5433,72 +5499,6 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities catalog to include seven new flaws currently being leveraged by attackers to deploy reverse shells and cryptocurrency miners. One of the vulnerabilities, affecting SonicWall SMA 1000 appliances, carries a critical CVSS score of 10.0.",
       "date": "2026-09-03T05:19:04.000Z",
       "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7bbe6f66-8379-4dde-a178-61ba3cec4e6f",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "When AI quietly breaks things, who pays?",
-      "summary": "This article explores the complex insurance and liability challenges arising from AI-related system failures and model degradation during corporate transitions. It highlights the risks organizations face regarding insurance coverage gaps, governance disclosures, and claim timelines in the context of AI deployment.",
-      "date": "2026-09-03T05:00:12.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/03/david-halbreich-reed-smith-ai-insurance-coverage-gaps/",
-      "isTopTen": false
-    },
-    {
-      "id": "f751b0b7-423b-4820-be03-9b89d9f1271d",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Windows memory integrity switches on automatically for eligible devices in October 2026",
-      "summary": "Starting in October 2026, Microsoft will automatically enable memory integrity and Virtualization-based Security (VBS) on eligible Windows devices to prevent unauthorized kernel-mode code execution. This proactive security measure aims to harden the operating system against kernel-level attacks.",
-      "date": "2026-09-03T04:30:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/03/windows-memory-integrity-update/",
-      "isTopTen": false
-    },
-    {
-      "id": "f4e45dab-de9c-4a96-afe1-4c53833c2cf6",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Claude Mythos only model to complete full cyber kill chain, experts say",
-      "summary": "The Cyber Weapon Index reports that the Claude Mythos AI model has successfully demonstrated the ability to execute an entire cyber kill chain, signaling that sophisticated AI-driven cyberattacks may be imminent.",
-      "date": "2026-09-02T21:31:31.000Z",
-      "link": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071",
-      "isTopTen": false
-    },
-    {
-      "id": "a097df07-290b-4602-9c04-8a170abd24eb",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "OpenAI Astra Brings Autonomous Zero-Day Exploitation to AI",
-      "summary": "OpenAI's new Astra model has been officially categorized as 'Critical' risk due to its demonstrated ability to autonomously identify zero-day vulnerabilities and develop functional exploits. This development marks a significant shift in AI capabilities, moving toward automated offensive cyber operations.",
-      "date": "2026-09-02T21:31:29.000Z",
-      "link": "https://securityaffairs.com/198317/ai/openai-astra-brings-autonomous-zero-day-exploitation-to-ai.html",
-      "isTopTen": false
-    },
-    {
-      "id": "889a9649-5ab8-4391-9d4c-d369f2bb30af",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Jail time for Maine child in 764 marks turning point in federal law enforcement",
-      "summary": "A Maine youth's sentencing in connection to the 764 network marks a significant legal precedent for federal prosecution of violent extremist online activities. This case is expected to influence future law enforcement approaches to addressing extremist crime in digital spaces.",
-      "date": "2026-09-02T21:03:43.000Z",
-      "link": "https://cyberscoop.com/maine-teenager-first-underage-detained-764/",
-      "isTopTen": false
-    },
-    {
-      "id": "6f977faf-0f0d-42e1-8d11-3702c10f1732",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
-      "summary": "Russian national Searzhudin Tamirlanovich Aktulaev has been extradited to the U.S. to face charges for an extensive malware campaign that compromised 80,000 freelance workers. He could face up to 20 years in prison if convicted.",
-      "date": "2026-09-02T18:43:00.000Z",
-      "link": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
       "isTopTen": false
     }
   ]
