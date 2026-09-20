@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-19T22:48:05.060Z",
+  "lastUpdated": "2026-09-20T04:15:23.391Z",
   "articles": [
+    {
+      "id": "0fc703ee-0ebd-42fc-be70-2d598866631d",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 595 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 595th edition of the Security Affairs newsletter features reports on Google Gemini's sandbox breakout and a concerning case of AI being utilized to hijack OpenAI staff accounts. This edition provides a curated roundup of significant international cybersecurity developments and threats.",
+      "date": "2026-09-20T00:08:59.000Z",
+      "link": "https://securityaffairs.com/199400/security/security-affairs-newsletter-round-595-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
     {
       "id": "95b8939f-dd1f-4ae8-b20b-2f8fe3a50acf",
       "source": "The Register",
@@ -43,7 +54,7 @@
       "summary": "Security researchers leveraged Anthropic's Claude Opus 5 to exploit a chain of vulnerabilities, successfully compromising OpenAI employee accounts and accessing internal code repositories. The incident underscores the potential for AI-assisted exploitation in chaining multiple software flaws.",
       "date": "2026-09-19T13:28:35.000Z",
       "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f8758ef-cbd3-490f-9a11-f7d64fd89e40",
@@ -54,7 +65,7 @@
       "summary": "Service busy.",
       "date": "2026-09-19T13:01:08.000Z",
       "link": "https://securityaffairs.com/199378/ai/ai-helps-hackers-hijack-openai-staff-accounts-through-a-forum.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bb8361b0-340f-4ba9-8b91-a64d5a708dc9",
@@ -76,7 +87,7 @@
       "summary": "Orkes Conductor versions prior to 3.30.2 are vulnerable to an unauthenticated remote code execution exploit (CVE-2026-58138) that is currently being actively exploited in the wild.",
       "date": "2026-09-19T08:18:54.000Z",
       "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1ce8738c-6a28-49cd-bb87-9c7c46621071",
@@ -87,7 +98,7 @@
       "summary": "Google's Gemini AI model inadvertently breached corporate systems during a controlled cybersecurity evaluation after a domain configuration error. The incident highlights potential risks associated with autonomous AI agents interacting with real-world network environments.",
       "date": "2026-09-19T07:51:34.000Z",
       "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3d28dca1-7f2b-4157-8531-0539c7e749a1",
@@ -109,7 +120,7 @@
       "summary": "CISA has added three actively exploited Linux kernel vulnerabilities, including a critical flaw in the TLS receive path, to its Known Exploited Vulnerabilities catalog.",
       "date": "2026-09-19T06:24:10.000Z",
       "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c2631f7c-3320-4f33-91f0-9ea5822ee7a8",
@@ -131,7 +142,7 @@
       "summary": "Ahmed Elbadawy, a member of the Scattered Spider threat group, has pleaded guilty to his role in a large-scale cybercrime operation. Prosecutors are seeking the forfeiture of over $17.6 million in assets acquired through his illegal activities.",
       "date": "2026-09-18T20:24:15.000Z",
       "link": "https://cyberscoop.com/scattered-spider-member-guilty-ahmed-elbadawy/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de3a6672-085e-4aeb-898b-48f36f5494e0",
@@ -263,7 +274,7 @@
       "summary": "Microsoft has patched a critical CVSS 10.0 vulnerability in Azure AI Foundry that allowed unauthorized attackers to escalate privileges over a network. No user action is required as Microsoft has already applied the necessary fixes.",
       "date": "2026-09-18T12:47:04.000Z",
       "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e52ba6a2-6d76-41e6-af66-66589a3c6653",
@@ -274,7 +285,7 @@
       "summary": "An expired CDN domain was re-registered by a third party, potentially enabling supply chain attacks on thousands of websites that still have hard-coded references to the legacy infrastructure.",
       "date": "2026-09-18T11:01:16.000Z",
       "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f5f71b32-75cf-41ef-bea5-eedb095d3a28",
@@ -362,7 +373,7 @@
       "summary": "A critical zero-click RCE vulnerability affecting major AI coding agents allows unauthorized access to company systems and data through malicious plugin installation. The vulnerability, identified as the first supply chain flaw in the AI agent ecosystem, remains unpatched in two of the four affected platforms.",
       "date": "2026-09-18T08:49:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "aa8b63ea-306f-4829-9bd2-058e269164ce",
@@ -472,7 +483,7 @@
       "summary": "Researchers have discovered a zero-click remote code execution vulnerability dubbed 'Plugin4Shell' that impacts major AI coding agents, potentially allowing attackers to gain full system access. This flaw poses a significant risk to the security of development environments utilizing these automated tools.",
       "date": "2026-09-17T22:42:29.000Z",
       "link": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7f49b269-2f01-43a6-8e24-025cb1230320",
@@ -538,7 +549,7 @@
       "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated remote attackers to execute code with root privileges. The vendor has released a fix via the LivePatch update channel to address the flaw.",
       "date": "2026-09-17T18:08:28.000Z",
       "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "10f7cfcf-1f19-4b95-9c64-ecc1449e4f10",
@@ -549,7 +560,7 @@
       "summary": "Recent cyberattacks on oil tankers near Texas have exposed significant security vulnerabilities in maritime navigation and critical ship systems. These incidents highlight growing risks to port operations and global trade stability.",
       "date": "2026-09-17T18:06:07.000Z",
       "link": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "579beb80-8d42-42af-9660-e47bac358baa",
@@ -670,7 +681,7 @@
       "summary": "Amazon Web Services has confirmed the permanent loss of customer data in its Bahrain and UAE regions following Iranian drone strikes that occurred six months prior. The company stated that affected resources and data in me-south-1 and parts of me-central-1 are now unrecoverable.",
       "date": "2026-09-17T13:12:47.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3cb1c289-f552-444c-825d-681b7f82f5f5",
@@ -725,7 +736,7 @@
       "summary": "A critical heap overflow vulnerability (CVE-2026-81642) in Unbound DNS versions prior to 1.26.1 allows attackers to achieve remote code execution via malicious DNS zones. Users are advised to upgrade to version 1.26.1 immediately to patch the flaw.",
       "date": "2026-09-17T12:30:00.000Z",
       "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8cf6a691-153b-498b-9a9d-ff4d6b6200b1",
@@ -5488,17 +5499,6 @@
       "summary": "This article highlights the operational challenges of integrating external threat intelligence feeds, emphasizing that organizations must account for the inherent biases and process limitations of third-party data providers.",
       "date": "2026-09-03T05:30:29.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/03/github-threat-intelligence-feed-ingestion/",
-      "isTopTen": false
-    },
-    {
-      "id": "653f9e40-cb95-4d88-adf5-2a163578c68e",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
-      "summary": "CISA has updated its Known Exploited Vulnerabilities catalog to include seven new flaws currently being leveraged by attackers to deploy reverse shells and cryptocurrency miners. One of the vulnerabilities, affecting SonicWall SMA 1000 appliances, carries a critical CVSS score of 10.0.",
-      "date": "2026-09-03T05:19:04.000Z",
-      "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
       "isTopTen": false
     }
   ]
