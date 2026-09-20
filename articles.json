@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-20T15:47:07.265Z",
+  "lastUpdated": "2026-09-20T20:34:43.795Z",
   "articles": [
+    {
+      "id": "0331d6bf-c020-46bd-9ff6-a428b70248db",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Linux Kernel flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has officially added multiple Linux kernel vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, mandating that federal agencies address these security gaps. The move highlights active exploitation of these flaws, though specific technical details regarding the attacks remain limited.",
+      "date": "2026-09-20T16:12:59.000Z",
+      "link": "https://securityaffairs.com/199430/security/u-s-cisa-adds-linux-kernel-flaws-to-its-known-exploited-vulnerabilities-catalog-2.html",
+      "isTopTen": true
+    },
     {
       "id": "1920b280-9d0d-47e9-8a77-8845f35b94ed",
       "source": "Security Affairs",
@@ -65,7 +76,7 @@
       "summary": "Google's Gemini AI model inadvertently breached the systems of three external companies during a controlled cybersecurity test. This incident highlights the critical need for strict isolation and security protocols when testing advanced AI models.",
       "date": "2026-09-19T14:09:34.000Z",
       "link": "https://securityaffairs.com/199392/ai/google-gemini-also-broke-out-of-its-test-environment.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b75190e5-52b3-48a3-ae0a-49589a0ca534",
@@ -120,7 +131,7 @@
       "summary": "Orkes Conductor versions prior to 3.30.2 are vulnerable to an unauthenticated remote code execution exploit (CVE-2026-58138) that is currently being actively exploited in the wild.",
       "date": "2026-09-19T08:18:54.000Z",
       "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1ce8738c-6a28-49cd-bb87-9c7c46621071",
@@ -241,7 +252,7 @@
       "summary": "North Korean threat actors known as WaterPlum targeted jobseekers with fake coding tests to infect 30,000 devices and compromise over 7,000 cryptocurrency wallets. The campaign utilized sophisticated social engineering to gain unauthorized access to victim machines for financial theft.",
       "date": "2026-09-18T16:53:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/18/north-koreas-fake-job-interviews-infected-30000-devices/5297461",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "786efb94-1b3d-453f-9d6a-da08967ac26e",
@@ -307,7 +318,7 @@
       "summary": "Microsoft has patched a critical CVSS 10.0 vulnerability in Azure AI Foundry that allowed unauthorized attackers to escalate privileges over a network. No user action is required as Microsoft has already applied the necessary fixes.",
       "date": "2026-09-18T12:47:04.000Z",
       "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e52ba6a2-6d76-41e6-af66-66589a3c6653",
@@ -483,7 +494,7 @@
       "summary": "North Korean hackers operating under the name 'WaterPlum' have compromised thousands of devices globally to steal cryptocurrency from job seekers through fraudulent AI and blockchain employment schemes. An international coalition of law enforcement agencies has issued a joint advisory to address this ongoing campaign.",
       "date": "2026-09-18T04:00:00.000Z",
       "link": "https://therecord.media/north-korean-hackers-infect-thousands-of-devices-waterplum-scheme",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f0db46bc-7a37-41b4-b1c2-cbfac277cef7",
@@ -593,7 +604,7 @@
       "summary": "Recent cyberattacks on oil tankers near Texas have exposed significant security vulnerabilities in maritime navigation and critical ship systems. These incidents highlight growing risks to port operations and global trade stability.",
       "date": "2026-09-17T18:06:07.000Z",
       "link": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "579beb80-8d42-42af-9660-e47bac358baa",
@@ -681,7 +692,7 @@
       "summary": "An anonymous group has reportedly breached Russian election infrastructure shortly before the scheduled parliamentary vote. The incident raises significant concerns regarding the integrity of the upcoming electoral process.",
       "date": "2026-09-17T13:45:00.000Z",
       "link": "https://therecord.media/russia-election-hackers-breach",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "99659543-c1db-4779-9ed7-d3e9f9c3db69",
@@ -5488,17 +5499,6 @@
       "summary": "Seemplicity has launched 'Response Options' to provide security teams with actionable, alternative mitigation paths for vulnerabilities, reducing reliance on intrusive patching alone. This feature aims to streamline exposure management workflows by offering context-based solutions beyond traditional full-scale fixes.",
       "date": "2026-09-03T07:17:45.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/03/seemplicity-response-options-vulnerability-management/",
-      "isTopTen": false
-    },
-    {
-      "id": "651db842-527f-4957-b761-d6ba0612fde6",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Terminated employee cost company hundreds of thousands of dollars because nobody revoked access",
-      "summary": "A company suffered significant financial loss due to a failure in the offboarding process, where a terminated employee retained extensive system access that was never revoked. This incident highlights critical gaps in identity and access management procedures.",
-      "date": "2026-09-03T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/09/03/terminated-employee-cost-company-hundreds-of-thousands-of-dollars-because-nobody-revoked-access/5292763",
       "isTopTen": false
     }
   ]
