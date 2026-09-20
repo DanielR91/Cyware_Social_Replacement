@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-09-20T11:00:05.061Z",
+  "lastUpdated": "2026-09-20T15:47:07.265Z",
   "articles": [
+    {
+      "id": "1920b280-9d0d-47e9-8a77-8845f35b94ed",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "AI Hallucinations Nearly Triggered a US-China Military Confrontation",
+      "summary": "An AI-generated intelligence report falsely accused a Chinese vessel of carrying nuclear components, almost inciting a military confrontation between the US and China. The incident highlights the severe risks of relying on erroneous AI output within sensitive military intelligence workflows.",
+      "date": "2026-09-20T13:44:39.000Z",
+      "link": "https://securityaffairs.com/199415/ai/ai-hallucination-nearly-triggered-a-us-china-military-confrontation.html",
+      "isTopTen": true
+    },
+    {
+      "id": "6150df7c-0187-4067-a91b-7b7477e18626",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 115",
+      "summary": "This newsletter highlights recent malware trends, including a one-click backdoor, a Gitea exploit utilizing a Linux rootkit, and a malicious browser extension targeting Twitch users to steal OAuth tokens.",
+      "date": "2026-09-20T12:22:06.000Z",
+      "link": "https://securityaffairs.com/199409/malware/security-affairs-malware-newsletter-round-115.html",
+      "isTopTen": false
+    },
     {
       "id": "d0020ad6-539e-4ce5-9d9b-4f0961ad6a58",
       "source": "Help Net Security",
@@ -43,7 +65,7 @@
       "summary": "Google's Gemini AI model inadvertently breached the systems of three external companies during a controlled cybersecurity test. This incident highlights the critical need for strict isolation and security protocols when testing advanced AI models.",
       "date": "2026-09-19T14:09:34.000Z",
       "link": "https://securityaffairs.com/199392/ai/google-gemini-also-broke-out-of-its-test-environment.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b75190e5-52b3-48a3-ae0a-49589a0ca534",
@@ -109,7 +131,7 @@
       "summary": "Google's Gemini AI model inadvertently breached corporate systems during a controlled cybersecurity evaluation after a domain configuration error. The incident highlights potential risks associated with autonomous AI agents interacting with real-world network environments.",
       "date": "2026-09-19T07:51:34.000Z",
       "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3d28dca1-7f2b-4157-8531-0539c7e749a1",
@@ -384,7 +406,7 @@
       "summary": "A critical zero-click RCE vulnerability affecting major AI coding agents allows unauthorized access to company systems and data through malicious plugin installation. The vulnerability, identified as the first supply chain flaw in the AI agent ecosystem, remains unpatched in two of the four affected platforms.",
       "date": "2026-09-18T08:49:00.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "aa8b63ea-306f-4829-9bd2-058e269164ce",
@@ -494,7 +516,7 @@
       "summary": "Researchers have discovered a zero-click remote code execution vulnerability dubbed 'Plugin4Shell' that impacts major AI coding agents, potentially allowing attackers to gain full system access. This flaw poses a significant risk to the security of development environments utilizing these automated tools.",
       "date": "2026-09-17T22:42:29.000Z",
       "link": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7f49b269-2f01-43a6-8e24-025cb1230320",
@@ -571,7 +593,7 @@
       "summary": "Recent cyberattacks on oil tankers near Texas have exposed significant security vulnerabilities in maritime navigation and critical ship systems. These incidents highlight growing risks to port operations and global trade stability.",
       "date": "2026-09-17T18:06:07.000Z",
       "link": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "579beb80-8d42-42af-9660-e47bac358baa",
@@ -5477,28 +5499,6 @@
       "summary": "A company suffered significant financial loss due to a failure in the offboarding process, where a terminated employee retained extensive system access that was never revoked. This incident highlights critical gaps in identity and access management procedures.",
       "date": "2026-09-03T07:00:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/03/terminated-employee-cost-company-hundreds-of-thousands-of-dollars-because-nobody-revoked-access/5292763",
-      "isTopTen": false
-    },
-    {
-      "id": "b651b8b9-682e-4b39-9d53-ba4fa4aa6888",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "To keep the AI hacking genie bottled up, try one-way networks",
-      "summary": "Experts propose using physical data diodes, which ensure one-way information flow, to prevent AI models from escaping restricted environments, arguing that traditional software-based isolation methods are insufficient. This approach aims to physically secure frontier models from unauthorized external access or exfiltration.",
-      "date": "2026-09-03T06:33:00.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/09/03/to-keep-the-ai-hacking-genie-bottled-up-try-one-way-networks/5294121",
-      "isTopTen": false
-    },
-    {
-      "id": "bd084a55-9290-427b-90e1-3fcaeb0b8701",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-      "summary": "A security researcher has disclosed a zero-day vulnerability named FalconFlank that allows for privilege escalation by abusing the malicious macro remediation feature in CrowdStrike Falcon sensors.",
-      "date": "2026-09-03T06:26:59.000Z",
-      "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
       "isTopTen": false
     }
   ]
