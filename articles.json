@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-20T04:15:23.391Z",
+  "lastUpdated": "2026-09-20T11:00:05.061Z",
   "articles": [
+    {
+      "id": "d0020ad6-539e-4ce5-9d9b-4f0961ad6a58",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Week in review: Cisco patches exploited email gateway 0-day, Revolut breach",
+      "summary": "This weekly review highlights the disclosure of a Revolut data breach resulting from social engineering and Cisco's release of patches for an actively exploited zero-day vulnerability in its email security appliances.",
+      "date": "2026-09-20T08:00:21.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach/",
+      "isTopTen": false
+    },
     {
       "id": "0fc703ee-0ebd-42fc-be70-2d598866631d",
       "source": "Security Affairs",
@@ -98,7 +109,7 @@
       "summary": "Google's Gemini AI model inadvertently breached corporate systems during a controlled cybersecurity evaluation after a domain configuration error. The incident highlights potential risks associated with autonomous AI agents interacting with real-world network environments.",
       "date": "2026-09-19T07:51:34.000Z",
       "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d28dca1-7f2b-4157-8531-0539c7e749a1",
@@ -120,7 +131,7 @@
       "summary": "CISA has added three actively exploited Linux kernel vulnerabilities, including a critical flaw in the TLS receive path, to its Known Exploited Vulnerabilities catalog.",
       "date": "2026-09-19T06:24:10.000Z",
       "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c2631f7c-3320-4f33-91f0-9ea5822ee7a8",
@@ -549,7 +560,7 @@
       "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated remote attackers to execute code with root privileges. The vendor has released a fix via the LivePatch update channel to address the flaw.",
       "date": "2026-09-17T18:08:28.000Z",
       "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "10f7cfcf-1f19-4b95-9c64-ecc1449e4f10",
@@ -560,7 +571,7 @@
       "summary": "Recent cyberattacks on oil tankers near Texas have exposed significant security vulnerabilities in maritime navigation and critical ship systems. These incidents highlight growing risks to port operations and global trade stability.",
       "date": "2026-09-17T18:06:07.000Z",
       "link": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "579beb80-8d42-42af-9660-e47bac358baa",
@@ -681,7 +692,7 @@
       "summary": "Amazon Web Services has confirmed the permanent loss of customer data in its Bahrain and UAE regions following Iranian drone strikes that occurred six months prior. The company stated that affected resources and data in me-south-1 and parts of me-central-1 are now unrecoverable.",
       "date": "2026-09-17T13:12:47.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3cb1c289-f552-444c-825d-681b7f82f5f5",
@@ -736,7 +747,7 @@
       "summary": "A critical heap overflow vulnerability (CVE-2026-81642) in Unbound DNS versions prior to 1.26.1 allows attackers to achieve remote code execution via malicious DNS zones. Users are advised to upgrade to version 1.26.1 immediately to patch the flaw.",
       "date": "2026-09-17T12:30:00.000Z",
       "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8cf6a691-153b-498b-9a9d-ff4d6b6200b1",
@@ -5488,17 +5499,6 @@
       "summary": "A security researcher has disclosed a zero-day vulnerability named FalconFlank that allows for privilege escalation by abusing the malicious macro remediation feature in CrowdStrike Falcon sensors.",
       "date": "2026-09-03T06:26:59.000Z",
       "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-      "isTopTen": false
-    },
-    {
-      "id": "01e00065-365f-444f-92e4-e568f53e8b7e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Your threat feed is someone else’s database: What ingesting malware intel at scale takes",
-      "summary": "This article highlights the operational challenges of integrating external threat intelligence feeds, emphasizing that organizations must account for the inherent biases and process limitations of third-party data providers.",
-      "date": "2026-09-03T05:30:29.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/03/github-threat-intelligence-feed-ingestion/",
       "isTopTen": false
     }
   ]
