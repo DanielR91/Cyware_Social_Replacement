@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-09-22T21:12:32.794Z",
+  "lastUpdated": "2026-09-23T04:06:48.659Z",
   "articles": [
+    {
+      "id": "8fb8d204-dfa1-4fbd-855c-3e9f538f87dc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Rabbit’s new OS lives in the cloud and borrows your laptop to get things done",
+      "summary": "Rabbit has released OS3, an agentic operating system that operates a user's computer via a local agent to execute tasks. This architecture raises potential security concerns regarding remote access to local files and system control.",
+      "date": "2026-09-23T03:38:05.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/23/rabbit-os3-ai-agent-now-available/",
+      "isTopTen": false
+    },
+    {
+      "id": "0d986da0-94f8-498d-a626-466724480c8e",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "NetBSD 10.2 security fixes close a remote kernel bug in ipfilter",
+      "summary": "The NetBSD Project released version 10.2 to address a remotely exploitable null pointer dereference vulnerability in ipfilter that could trigger a kernel panic. The flaw allows unauthorized remote attackers to cause a system crash by targeting the network filtering mechanism.",
+      "date": "2026-09-23T03:16:17.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/23/netbsd-10-2-security-fixes-released/",
+      "isTopTen": false
+    },
+    {
+      "id": "3fe1430d-9da5-47f9-85ba-1a889841f108",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "ShinyHunters claims attack on FBI exposes almost all agents",
+      "summary": "The hacking group ShinyHunters claims to have compromised FBI personnel data following a defacement of the agency's jobs website. The FBI is currently investigating the breach, and the affected site remains offline.",
+      "date": "2026-09-22T23:47:43.000Z",
+      "link": "https://cyberscoop.com/shinyhunters-claims-fbi-attack/",
+      "isTopTen": true
+    },
+    {
+      "id": "dbeca735-5c8c-4b82-a1d4-26d31bc8c53c",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Windows CLOSEDQUORUM malware uses AI models to autonomously select post-compromise actions",
+      "summary": "A newly identified Windows malware called CLOSEDQUORUM has become the first publicly documented implant to leverage large language models for autonomously determining post-compromise activities via command-and-control communication.",
+      "date": "2026-09-22T21:33:29.000Z",
+      "link": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435",
+      "isTopTen": true
+    },
+    {
+      "id": "0f62cbd8-76e5-4bb8-83db-0ef78b66e59b",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program",
+      "summary": "House lawmakers have proposed a $100 million Department of Homeland Security pilot program to develop AI-based cybersecurity testing tools for critical infrastructure protection following recent attacks on water systems. This initiative aims to bolster sector resilience independently of existing administration proposals.",
+      "date": "2026-09-22T21:14:32.000Z",
+      "link": "https://cyberscoop.com/gottheimer-ai-cyber-defense-act-cisa-pilot/",
+      "isTopTen": false
+    },
     {
       "id": "9fa5a0ae-aadf-4223-ae04-049e5af31a2d",
       "source": "HackRead",
@@ -10,7 +65,7 @@
       "summary": "The hacker group ShinyHunters claims to have compromised the FBI Jobs portal, allegedly exfiltrating sensitive data belonging to agents and applicants. The portal was subsequently taken offline to address the security incident.",
       "date": "2026-09-22T20:57:45.000Z",
       "link": "https://hackread.com/shinyhunters-hacks-fbi-jobs-portal-fbi-agents-data/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b090da96-2bc7-4705-b4b5-d20ac42399aa",
@@ -43,7 +98,7 @@
       "summary": "Security researchers at Volexity identified a China-aligned threat actor, designated UTA0565, exploiting vulnerabilities in Chrome and Microsoft software using a common exploit kit. This activity highlights evolving tactics among state-sponsored groups sharing shared infrastructure.",
       "date": "2026-09-22T18:47:07.000Z",
       "link": "https://cyberscoop.com/volexity-uta0565-china-exploit-chain-chrome-microsoft/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4d59aa18-2946-4b60-b86c-eb3ecea19f63",
@@ -428,7 +483,7 @@
       "summary": "North Korea-linked threat actor WaterPlum, also known as Contagious Interview, has infected over 30,000 devices through a sophisticated fake job interview campaign. An international coalition of intelligence and law enforcement agencies issued a joint advisory to warn organizations about these malicious activities.",
       "date": "2026-09-22T06:44:46.000Z",
       "link": "https://securityaffairs.com/199506/uncategorized/contagious-interview-30000-devices-infected-by-a-fake-job-interview.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "675e6649-786d-4f65-babf-5a858f7a37d2",
@@ -472,7 +527,7 @@
       "summary": "CISA has added a high-severity buffer overflow vulnerability in Zyxel GS1900 switches, tracked as CVE-2026-7273, to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw allows unauthorized actors to gain command and SYSTEM-level access to affected devices.",
       "date": "2026-09-22T05:31:59.000Z",
       "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c4f5dcd8-b786-4a16-bf0c-e0dbb62754de",
@@ -615,7 +670,7 @@
       "summary": "Threat actors are distributing a malicious LastPass Authenticator installer that utilizes a legitimate, Microsoft-signed driver to disable security software and deploy credential-stealing malware. The use of a signed driver allows the attack to evade initial detection by security solutions.",
       "date": "2026-09-21T17:31:01.000Z",
       "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ed2e1dc0-0d23-4b44-b9a5-695ccd7e9bd6",
@@ -626,7 +681,7 @@
       "summary": "North Korean threat actors have compromised 30,000 devices across 100 countries through a deceptive interview campaign, resulting in the theft of over $10 million in cryptocurrency. The campaign specifically targets tech professionals, including engineers and web designers.",
       "date": "2026-09-21T17:19:00.000Z",
       "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4e9c6b39-c71b-4a8c-9409-a4913639bda2",
@@ -5444,61 +5499,6 @@
       "summary": "CERT Polska has discovered an exploit chain named 'MikroTrick' that allows unauthenticated attackers to gain full control over MikroTik devices with internet-accessible SSH. The six identified vulnerabilities in RouterOS have been coordinated with the vendor for patching.",
       "date": "2026-09-07T14:07:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/07/mikrotik-routeros-ssh-vulnerabilities-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "aa4e251b-024a-482e-ba12-e638d6be9bfd",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Chaotic Eclipse Released A PoC For NVIDIA GreenSection Memory Corruption Zero-Day",
-      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit named GreenSection targeting a memory corruption zero-day vulnerability in NVIDIA’s Windows user-mode driver. The disclosure highlights a potential security flaw currently affecting NVIDIA software environments.",
-      "date": "2026-09-07T13:42:58.000Z",
-      "link": "https://securityaffairs.com/198589/hacking/chaotic-eclipse-released-a-poc-for-nvidia-greensection-memory-corruption-zero-day.html",
-      "isTopTen": false
-    },
-    {
-      "id": "858acdb9-a6f0-4f1f-a171-5f4545bc315c",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Hackers drain $320M in Bitcoin from Liquid Network, claim they're the good guys",
-      "summary": "Hackers stole $320 million in Bitcoin from the Liquid Network, claiming they are white-hat actors who intend to return the majority of the funds after a vulnerability is patched.",
-      "date": "2026-09-07T13:26:00.000Z",
-      "link": "https://www.theregister.com/security/2026/09/07/hackers-drain-320m-in-bitcoin-from-liquid-network-claim-theyre-the-good-guys/5294770",
-      "isTopTen": false
-    },
-    {
-      "id": "03867af0-26e2-4313-8bec-e637c7affdfb",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "N-able patches critical N-central zero-day exploited in the wild (CVE-2026-86218)",
-      "summary": "N-able has released an emergency hotfix to address a critical, actively exploited remote code execution vulnerability (CVE-2026-86218) in its N-central remote monitoring and management platform. The flaw allows pre-authenticated attackers to execute arbitrary code on affected servers.",
-      "date": "2026-09-07T11:55:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/",
-      "isTopTen": false
-    },
-    {
-      "id": "1602a7f7-87c2-4213-87d8-f81919eccdfe",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Berlin investigates new data leak after hackers publish stolen login credentials",
-      "summary": "Berlin government officials are investigating a new data leak involving published login credentials, while German security agencies issued a warning regarding the activities of the Rhysida ransomware group.",
-      "date": "2026-09-07T11:50:00.000Z",
-      "link": "https://therecord.media/germany-berlin-second-data-breach-city-agencies",
-      "isTopTen": false
-    },
-    {
-      "id": "29034104-d5da-419b-a170-cecff36fd8b4",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-      "summary": "A 2026 Cloud Security Index report reveals that cloud security misconfigurations vary significantly across AWS, Azure, and Google Cloud, indicating that standardized checklists are insufficient for multi-cloud environments. The findings highlight that risk profiles are unique to each provider, requiring specialized management strategies.",
-      "date": "2026-09-07T11:45:00.000Z",
-      "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
       "isTopTen": false
     }
   ]
