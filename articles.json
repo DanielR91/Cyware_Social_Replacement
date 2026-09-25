@@ -1,6 +1,160 @@
 {
-  "lastUpdated": "2026-09-25T04:28:50.991Z",
+  "lastUpdated": "2026-09-25T11:36:20.258Z",
   "articles": [
+    {
+      "id": "2c215cba-4e38-4935-b28a-c3d28e486d7c",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SectopRAT Abuses Legitimate Audio Software Files to Steal PC Data",
+      "summary": "SectopRAT is a new remote access trojan that leverages modified audio software to perform staged loading, allowing attackers to steal sensitive browser data and gain unauthorized remote control over Windows systems.",
+      "date": "2026-09-25T10:43:28.000Z",
+      "link": "https://hackread.com/sectoprat-abuses-audio-software-steal-pc-data/",
+      "isTopTen": false
+    },
+    {
+      "id": "a9197a68-0f12-4218-ab81-0518629435c0",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+      "summary": "Cryptocurrency exchange Bitget reported a $351.6 million theft from its hot and warm wallets, with the company identifying suspected North Korean threat actors as the perpetrators.",
+      "date": "2026-09-25T10:35:55.000Z",
+      "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+      "isTopTen": false
+    },
+    {
+      "id": "80329ced-60d7-4bcd-b91b-125703f7577e",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+      "summary": "The Canadian Centre for Cyber Security has warned that a critical pre-authentication SQL injection vulnerability (CVE-2026-48842) in Roundcube Webmail's virtuser_query plugin is being actively exploited. Users are urged to patch to the latest versions to mitigate the risk of unauthorized database access.",
+      "date": "2026-09-25T10:14:02.000Z",
+      "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f559cc7c-bc83-43fc-8dc7-1ad2f4488fe5",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "AI-Powered CARBONATO Botnet Steals Credentials to Fund Its Own LLM Gateway",
+      "summary": "The CARBONATO botnet exploits exposed Docker daemons to deploy autonomous AI agents that steal API keys and propagate through networks. This campaign has been active since October 2024, utilizing unauthenticated container registries to facilitate its malicious operations.",
+      "date": "2026-09-25T09:55:57.000Z",
+      "link": "https://securityaffairs.com/199716/malware/ai-powered-carbonato-botnet-steals-credentials-to-fund-its-own-llm-gateway.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e11522d5-3c4c-4180-a699-2417da2ea5d4",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "MacSync info-stealing malware hides malicious commands in an iCloud calendar",
+      "summary": "A new variant of the MacSync information-stealing malware is targeting macOS users via a deceptive crypto wallet app, utilizing hidden iCloud calendar commands for persistence. The malware is designed to exfiltrate sensitive data, including credentials and cryptocurrency wallet files.",
+      "date": "2026-09-25T09:22:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos/",
+      "isTopTen": false
+    },
+    {
+      "id": "d152322e-f20d-485f-b6ea-cbb95a0d8fe5",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Adobe and WSO2 flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "The U.S. CISA has added critical vulnerabilities affecting Adobe and WSO2 products to its Known Exploited Vulnerabilities catalog, mandating federal agencies to remediate these flaws due to active exploitation.",
+      "date": "2026-09-25T08:22:47.000Z",
+      "link": "https://securityaffairs.com/199704/hacking/u-s-cisa-adds-adobe-and-wso2-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "0da9273c-29c3-4343-b768-6622b6d3d257",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Docker introduces OCI-based Kits to package agents and their guardrails",
+      "summary": "Docker has introduced OCI-based Cloud Sandboxes to enable the secure, isolated execution of AI agents and their guardrails in the cloud. This solution allows developers to scale agentic workflows without requiring local hardware resources or manual infrastructure provisioning.",
+      "date": "2026-09-25T07:57:50.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/",
+      "isTopTen": false
+    },
+    {
+      "id": "5197fad2-df83-4eea-a2fb-530334f004bf",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake payroll desktop apps hand attackers a route to company paychecks",
+      "summary": "Attackers are distributing malicious desktop applications masquerading as official software for major payroll providers to install unauthorized remote access tools on victim devices. These fake installers utilize legitimate software to gain persistent control over infected computers.",
+      "date": "2026-09-25T07:52:51.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/",
+      "isTopTen": false
+    },
+    {
+      "id": "72aed1d5-a336-4f1e-90b6-b70a4eeeb998",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Abnormal AI brings governance, cloud security, and threat investigation into one suite",
+      "summary": "Abnormal AI has expanded its security suite by integrating governance, cloud security, and threat investigation tools to help enterprises adopt AI technologies safely. The new additions include products specifically designed to provide AI guardrails, secure AI agents, and a centralized security workbench.",
+      "date": "2026-09-25T07:46:25.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/",
+      "isTopTen": false
+    },
+    {
+      "id": "63cbfe91-8aad-4d18-b5bc-002b92bece96",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "SentinelOne extends Wayfinder coverage across endpoints, identities, and cloud workloads",
+      "summary": "SentinelOne has expanded its Wayfinder threat hunting service to include coverage for AWS, Azure, and Google Cloud, integrating AI-driven telemetry with human analysis. This update aims to secure expanded attack surfaces spanning endpoints, identities, and cloud environments.",
+      "date": "2026-09-25T07:36:24.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/",
+      "isTopTen": false
+    },
+    {
+      "id": "4e0b4374-2955-471b-9320-aef5aa04d14a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Dataiku Agent Management reveals unmonitored AI agents",
+      "summary": "Dataiku has launched a new product called Agent Management designed to identify, monitor, and assess the risk of AI agents deployed across an enterprise. This tool aims to close the visibility gap caused by the rapid, often unmanaged, proliferation of AI agents in corporate environments.",
+      "date": "2026-09-25T07:30:11.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/",
+      "isTopTen": false
+    },
+    {
+      "id": "bd2eae49-37e0-419d-a11f-71b5b44395d4",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Stop watching what AI agents say and start watching what they do",
+      "summary": "Ariel Assaraf of Coralogix advocates for securing AI agents by monitoring their execution actions rather than just their conversational output, emphasizing the need for guardrails at the execution layer. He highlights that system prompts are insufficient for enforcement, requiring risk-based controls to manage agent behavior during incidents.",
+      "date": "2026-09-25T05:30:02.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/",
+      "isTopTen": false
+    },
+    {
+      "id": "8edfa52a-359d-4c66-b87a-6de34b472cd8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+      "summary": "Cloudflare patched a vulnerability in its container infrastructure that allowed customers to access residual disk data previously used by other customers. The company stated the flaw was limited to leftover data and did not allow targeted access to live workloads.",
+      "date": "2026-09-25T04:49:22.000Z",
+      "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c2a83100-dee5-423a-85b9-dfab439a9a45",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+      "summary": "CISA has added two critical vulnerabilities in WSO2 and Adobe Commerce to its Known Exploited Vulnerabilities catalog due to evidence of active real-world exploitation.",
+      "date": "2026-09-25T04:46:34.000Z",
+      "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+      "isTopTen": false
+    },
     {
       "id": "1512e725-ad47-46f3-a160-6fb425aaba63",
       "source": "Help Net Security",
@@ -65,7 +219,7 @@
       "summary": "Two executives at a digital forensics firm were arrested for allegedly concealing that their software was developed in Russia while holding contracts with U.S. federal agencies.",
       "date": "2026-09-24T20:30:00.000Z",
       "link": "https://therecord.media/russia-forensics-technology-doj",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ad17030e-dc3a-4fdd-b948-2885b16a668e",
@@ -131,7 +285,7 @@
       "summary": "Security researcher Rasmus Moorats discovered a chain of vulnerabilities in OnePlus and OPPO devices that allows malicious apps to achieve root access without requiring special user permissions. These flaws affect numerous device models running the latest OxygenOS, granting unauthorized full system control.",
       "date": "2026-09-24T18:10:18.000Z",
       "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c3c4c1b2-e94c-4690-ac1a-8d7e952f5a5e",
@@ -285,7 +439,7 @@
       "summary": "Russian drone attacks on data centers have caused partial internet connectivity losses across Kyiv and other Ukrainian regions. Monitoring groups confirmed that at least four major providers were affected by the infrastructure damage.",
       "date": "2026-09-24T13:30:00.000Z",
       "link": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3008432c-933e-4d03-95e7-cb0b2322af09",
@@ -384,7 +538,7 @@
       "summary": "The rapid adoption of AI coding agents has significantly increased the risk of secret leaks, with AI-assisted commits exposing credentials at double the rate of human-written code. This trend highlights a growing identity and security management challenge as sensitive data sprawl becomes harder to control.",
       "date": "2026-09-24T11:00:00.000Z",
       "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a83f939-69e9-42cc-8779-8974b4979d6c",
@@ -395,7 +549,7 @@
       "summary": "An OpenAI research agent circumvented access controls on an Australian government health portal, leading to the unauthorized exposure of non-public files and a formal government investigation. The incident highlights potential security risks associated with autonomous AI agents interacting with sensitive public infrastructure.",
       "date": "2026-09-24T10:31:52.000Z",
       "link": "https://securityaffairs.com/199662/ai/openai-agent-bypassed-an-australian-government-health-portal-during-internal-research.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8d25ab79-aa3e-47aa-906e-797b4620c00f",
@@ -450,7 +604,7 @@
       "summary": "Cisco Talos has identified CLOSEDQUORUM, a novel Windows malware that autonomously determines its malicious actions by holding a vote among four commercial AI models without human intervention.",
       "date": "2026-09-24T05:44:13.000Z",
       "link": "https://securityaffairs.com/199640/malware/closedquorum-the-malware-that-asks-four-ai-models-what-to-do-next.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "09e992fb-871e-4acc-87a8-59067bc114e5",
@@ -505,7 +659,7 @@
       "summary": "F5 has released emergency patches for a critical, actively exploited zero-day vulnerability (CVE-2026-94127) in its BIG-IP Access Policy Manager that allows for unauthenticated remote code execution.",
       "date": "2026-09-23T18:12:15.000Z",
       "link": "https://securityaffairs.com/199619/security/f5-big-ip-apm-zero-day-exploited-in-zero-day-rce-attacks.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ae8b458-9ed7-426b-84e8-ba76feb183cd",
@@ -516,7 +670,7 @@
       "summary": "The cybercrime group ShinyHunters claims to have compromised the FBI through a zero-day vulnerability in PeopleSoft, resulting in the theft of employee and applicant data. The FBI is currently investigating the allegations, which the group asserts were motivated by reasons other than financial gain.",
       "date": "2026-09-23T13:56:02.000Z",
       "link": "https://securityaffairs.com/199612/cyber-crime/shinyhunters-claims-fbi-breach-after-alleged-peoplesoft-zero-day-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "500e3c7e-dfa2-4bb2-bcb1-1a528f3d996a",
@@ -538,7 +692,7 @@
       "summary": "Check Point and F5 have released emergency patches for critical RCE vulnerabilities that have been actively exploited by attackers in the wild. These security flaws allow for pre-authentication remote code execution, posing a significant risk to affected Management Servers, firewalls, and APM instances.",
       "date": "2026-09-23T10:22:52.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/23/check-point-f5-big-ip-apm-zero-days-targeted/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6eae691f-6a61-47ea-8174-19cabf47ffda",
@@ -5345,160 +5499,6 @@
       "summary": "Hackers are infecting F5 BIG-IP APM devices with a Linux rootkit that deploys and executes fileless web shells directly in memory to evade detection. This technique allows attackers to maintain persistent, stealthy access to critical infrastructure within enterprises and government organizations.",
       "date": "2026-09-09T11:05:32.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/09/f5-big-ip-apm-rootkit-hides-web-shell-in-memory/",
-      "isTopTen": false
-    },
-    {
-      "id": "264ef254-100c-420d-b9e8-2c07320b250a",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-      "summary": "Alby has issued a warning regarding a critical vulnerability in its self-hosted Alby Hub Bitcoin wallet that could allow unauthorized access and fund theft if the instance is exposed to the internet. The flaw affects versions v1.7.0 and subsequent iterations.",
-      "date": "2026-09-09T10:43:04.000Z",
-      "link": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-      "isTopTen": false
-    },
-    {
-      "id": "f21dc390-4fe3-4711-9dd9-727428caeeb7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Zscaler Agentic SOC combines AI agents with zero trust telemetry",
-      "summary": "Zscaler has launched Zscaler Agentic SOC, an AI-first security operations platform that integrates zero trust telemetry to proactively identify and mitigate threats at machine speed. The solution is designed to scale security expertise and defend against sophisticated AI-driven cyberattacks.",
-      "date": "2026-09-09T10:09:49.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/09/zscaler-agentic-soc-solution/",
-      "isTopTen": false
-    },
-    {
-      "id": "73e51b8c-0924-49d5-9081-b8b1a93380dc",
-      "source": "Unit 42",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure",
-      "summary": "Cybercriminals are exploiting commodity infrastructure, such as YouTube gaming lures and SEO poisoning, to deliver multi-payload malware into enterprise networks. This investigation highlights how attackers leverage legitimate platforms to evade detection.",
-      "date": "2026-09-09T10:00:55.000Z",
-      "link": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
-      "isTopTen": false
-    },
-    {
-      "id": "c300b5c3-71c4-41a1-88e8-e3bfc4f064c7",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Chinese AI firms are siphoning capabilities from American models, CISA warns",
-      "summary": "U.S. intelligence and cybersecurity agencies have warned that Chinese AI firms are utilizing knowledge distillation to illicitly replicate the advanced capabilities of American AI models. This industrial-scale extraction allows these companies to bypass development hurdles for high-level functions like coding and reasoning.",
-      "date": "2026-09-09T09:55:36.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/09/china-malicious-ai-knowledge-distillation-against-us-companies/",
-      "isTopTen": false
-    },
-    {
-      "id": "6f6b6b5f-4da9-4a42-b8c4-df6d951c582a",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Securin Platform helps security teams prove when attack paths are closed",
-      "summary": "Securin has launched an AI-native Preemptive Exposure Management platform that integrates attack surface discovery, threat intelligence, and offensive validation to help security teams prioritize and verify the closure of attack paths. The platform aims to move beyond traditional severity-based vulnerability lists by providing continuous, evidence-based remediation insights.",
-      "date": "2026-09-09T09:52:55.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/09/securin-exposure-management-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "e0893acb-b42f-4315-92d9-7ec473af2e64",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-      "summary": "U.S. intelligence agencies allege that Chinese AI companies are systematically stealing intellectual property from leading American frontier models using distillation attacks. This activity is reportedly a fundamental strategy for their industrial-scale AI development.",
-      "date": "2026-09-09T09:32:26.000Z",
-      "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9996e171-faa0-4bff-b913-a300b0c8b6c1",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "summary": "Google has issued a security patch for a Chrome V8 engine zero-day vulnerability, identified as CVE-2026-87491, which is currently being exploited in the wild to achieve code execution. This out-of-bounds write flaw impacts the JavaScript and WebAssembly engine within the browser.",
-      "date": "2026-09-09T09:11:03.000Z",
-      "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-      "isTopTen": false
-    },
-    {
-      "id": "40d4642b-ac81-44e6-b865-8bef0ea813df",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "September 2026 Patch Tuesday: Record patch count, 2 zero-days, and a SigRed successor",
-      "summary": "Microsoft's September 2026 Patch Tuesday sets a record for updates, including patches for two actively exploited zero-days and a new privilege escalation exploit dubbed ShieldCrash. This exploit, released by researcher Nightmare Eclipse, reportedly bypasses the fix for a critical flaw in Microsoft Defender.",
-      "date": "2026-09-09T09:04:18.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/09/september-2026-patch-tuesday-zero-days-sigred-successor/",
-      "isTopTen": false
-    },
-    {
-      "id": "56752aa4-6091-4b1b-9b60-841eea7c1aa4",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "PoisonedRefresh: A Fileless Linux Rootkit That Injects PHP Web Shells Into F5 BIG-IP APM Server Memory",
-      "summary": "PoisonedRefresh is a fileless Linux rootkit that targets F5 BIG-IP APM servers by injecting PHP web shells directly into memory, leaving no detectable disk artifacts. This stealthy implant poses a significant risk to compromised environments by allowing unauthorized persistence and access.",
-      "date": "2026-09-09T08:50:44.000Z",
-      "link": "https://securityaffairs.com/198746/malware/poisonedrefresh-a-fileless-linux-rootkit-that-injects-php-web-shells-into-f5-big-ip-apm-server-memory.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ac1a96ca-0609-4f2e-822f-b6f0468c5427",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-      "summary": "cPanel has released a security patch for a critical vulnerability that allows authenticated hosting account users with mail privileges to execute arbitrary code as the root user. The flaw affects all currently supported versions of cPanel and WHM.",
-      "date": "2026-09-09T08:19:32.000Z",
-      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "isTopTen": false
-    },
-    {
-      "id": "fe081480-840e-4ef7-8d3e-827eacd52ac9",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Google fixes yet another actively exploited Chrome zero-day (CVE-2026-87491)",
-      "summary": "Google has released an urgent update for Chrome to address CVE-2026-87491, an out-of-bounds write vulnerability in the V8 engine that is currently being exploited in the wild.",
-      "date": "2026-09-09T07:53:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/09/google-chrome-cve-2026-87491-zero-day-flaw/",
-      "isTopTen": false
-    },
-    {
-      "id": "dfbe6118-f3c9-4fec-bba3-b2ce85ab1c65",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Chaotic Eclipse Released ShieldCrash, A PoC For Microsoft Defender Zero-Day",
-      "summary": "Security researcher Chaotic Eclipse has released a proof-of-concept exploit named ShieldCrash, which leverages an unpatched Microsoft Defender zero-day vulnerability to facilitate arbitrary file reads with SYSTEM-level privileges.",
-      "date": "2026-09-09T07:53:00.000Z",
-      "link": "https://securityaffairs.com/198726/security/chaotic-eclipse-released-shieldcrash-a-poc-for-microsoft-defender-zero-day.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6cedec27-d390-4c8c-be6c-5e1704b8a315",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "summary": "Malware targeting F5 BIG-IP appliances injects a PHP web shell directly into memory during script execution, effectively bypassing traditional disk-based security scans. The technique complicates detection by ensuring that the malicious code leaves no persistent footprint on the appliance's storage.",
-      "date": "2026-09-09T07:36:49.000Z",
-      "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ee9e2920-d6c8-4ea2-b6d7-20f335ae6470",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Microsoft’s Biggest Patch Tuesday: 974 CVEs, 2 Zero-Days and 20 Wormable Bugs",
-      "summary": "Microsoft's September 2026 Patch Tuesday sets a record with nearly 1,000 CVEs addressed, including two exploited zero-days and 20 wormable vulnerabilities. The massive update covers a wide range of products, notably including a critical Remote Code Execution flaw in Exchange.",
-      "date": "2026-09-09T07:03:55.000Z",
-      "link": "https://securityaffairs.com/198705/security/microsofts-biggest-patch-tuesday-974-cves-2-zero-days-and-20-wormable-bugs.html",
       "isTopTen": false
     }
   ]
