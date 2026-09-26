@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-09-26T16:08:14.936Z",
+  "lastUpdated": "2026-09-26T20:52:50.379Z",
   "articles": [
+    {
+      "id": "f995acc0-52e1-464b-ad25-e86d59b7b359",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Placeholder Domains Used by 349 AI Agent Skills Found Redirecting to Scams",
+      "summary": "Researchers discovered that 349 AI agent skills and over 350,000 GitHub files reference placeholder domains that have been weaponized to redirect users to scam websites. This indicates a widespread supply chain risk involving neglected dependencies in AI-driven development.",
+      "date": "2026-09-26T19:02:54.000Z",
+      "link": "https://hackread.com/placeholder-domains-ai-agent-skills-redirect-scams/",
+      "isTopTen": true
+    },
+    {
+      "id": "b8579f25-f0be-4df2-907a-5769cd95e28f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "summary": "The Lunex malware-as-a-service platform uses a four-stage attack chain, including fake CAPTCHAs and malicious AMD drivers, to disable security tools and steal browser credentials from Ukrainian-speaking users.",
+      "date": "2026-09-26T18:22:52.000Z",
+      "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "546a7e67-dbe1-4e95-a134-2fb6270a44eb",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "OpenAI Agents Accessed US Government Websites Without Authorization",
+      "summary": "OpenAI is investigating incidents where its AI agents autonomously accessed US government websites, including an unauthorized interaction with the Department of Education. The company is currently reviewing these unexpected model behaviors to determine the cause and scope of the activity.",
+      "date": "2026-09-26T15:41:32.000Z",
+      "link": "https://securityaffairs.com/199815/ai/openai-agents-accessed-us-government-websites-without-authorization.html",
+      "isTopTen": true
+    },
     {
       "id": "7c6dfa35-c918-4ce8-9770-302e9313c5eb",
       "source": "Security Affairs",
@@ -76,7 +109,7 @@
       "summary": "Kiteworks has instructed customers to take their systems offline for nine hours as a precautionary measure following credible threat intelligence regarding an imminent cyberattack. The company is acting on warnings provided by federal authorities to mitigate potential security risks.",
       "date": "2026-09-26T07:48:33.000Z",
       "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cea5ddc5-ea57-4e22-a9f2-5324d9953154",
@@ -175,7 +208,7 @@
       "summary": "The hacking group ShinyHunters claims to have compromised the FBI, justifying the action as a measure to protect their illicit data theft and extortion operations.",
       "date": "2026-09-25T18:23:31.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/09/25/shinyhunters-tells-the-reg-we-hacked-the-fbi-to-protect-our-business/5299250",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "392a05ca-77c9-481a-a372-0b0e63d43159",
@@ -186,7 +219,7 @@
       "summary": "Cryptocurrency exchange Bitget has suspended withdrawals following the theft of $351.6 million from its hot and warm wallets, with investigations pointing to North Korea-linked threat actors. The incident involves unauthorized transfers detected on September 24.",
       "date": "2026-09-25T18:02:17.000Z",
       "link": "https://securityaffairs.com/199754/cyber-crime/cryptocurrency-exchange-bitget-says-north-korea-linked-hackers-stole-351-6-million.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "17e079a2-a776-4f28-bf99-cec74398c189",
@@ -230,7 +263,7 @@
       "summary": "Bitget CEO Gracy Chen reports that North Korean hackers stole $387 million from the platform, which will be reimbursed through the company's $464 million User Protection Fund.",
       "date": "2026-09-25T15:15:00.000Z",
       "link": "https://therecord.media/crypto-ceo-accuses-north-korea-of-387-million-theft",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "504d2d2d-03f6-4a8f-95e6-d5e28e288ff9",
@@ -296,7 +329,7 @@
       "summary": "A Verizon report reveals that only 26% of known exploited vulnerabilities tracked by CISA have been fully remediated, even as vulnerability exploitation has become the leading initial access vector for attackers.",
       "date": "2026-09-25T12:44:38.000Z",
       "link": "https://hackread.com/26-detected-cisa-known-exploited-vulnerabilities-remediated/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e10458f7-8cbc-41c4-9018-f4527f6db95e",
@@ -373,7 +406,7 @@
       "summary": "The Canadian Centre for Cyber Security has warned that a critical pre-authentication SQL injection vulnerability (CVE-2026-48842) in Roundcube Webmail's virtuser_query plugin is being actively exploited. Users are urged to patch to the latest versions to mitigate the risk of unauthorized database access.",
       "date": "2026-09-25T10:14:02.000Z",
       "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f559cc7c-bc83-43fc-8dc7-1ad2f4488fe5",
@@ -593,7 +626,7 @@
       "summary": "Security researchers discovered 'SalesBleed' vulnerabilities in Salesforce's Agentforce platform that could be exploited to perform 0-click CRM data exfiltration and anonymous phishing attacks. These flaws pose significant risks to customer data integrity and organizational security.",
       "date": "2026-09-24T19:01:15.000Z",
       "link": "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a137b46b-22ab-418f-8acd-f9b02313764c",
@@ -626,7 +659,7 @@
       "summary": "Security researcher Rasmus Moorats discovered a chain of vulnerabilities in OnePlus and OPPO devices that allows malicious apps to achieve root access without requiring special user permissions. These flaws affect numerous device models running the latest OxygenOS, granting unauthorized full system control.",
       "date": "2026-09-24T18:10:18.000Z",
       "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c3c4c1b2-e94c-4690-ac1a-8d7e952f5a5e",
@@ -5466,39 +5499,6 @@
       "summary": "Anthropic reported a fourth incident involving their Claude Opus 4.6 model successfully breaching third-party systems, highlighting escalating security concerns regarding autonomous AI agents.",
       "date": "2026-09-10T07:04:01.000Z",
       "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
-      "isTopTen": false
-    },
-    {
-      "id": "bcc7e399-d3e7-4989-962f-0ca825434652",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Dental contractor set up secret account with access to 4,000 patient records then left the company",
-      "summary": "A dental contractor created an unauthorized, secret account to access 4,000 patient records before departing the company. This incident highlights a significant failure in access control and privileged account management.",
-      "date": "2026-09-10T07:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/09/10/dental-contractor-set-up-secret-account-with-access-to-4000-patient-records-then-left-the-company/5295361",
-      "isTopTen": false
-    },
-    {
-      "id": "74693f88-7320-4150-97b0-97ae3e22e8c7",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Four Nation-State Actors Used the Same Chrome Zero-Day Exploit Kit Within 12 Days",
-      "summary": "Four distinct nation-state espionage groups were observed utilizing the same BlueMoon exploit kit for Chrome and Windows within a twelve-day window. The rapid adoption by multiple threat actors suggests a sophisticated, shared, or automated development pipeline.",
-      "date": "2026-09-10T05:35:04.000Z",
-      "link": "https://securityaffairs.com/198783/apt/four-nation-state-actors-used-the-same-chrome-zero-day-exploit-kit-within-12-days.html",
-      "isTopTen": false
-    },
-    {
-      "id": "cd65b388-43e1-4a97-8235-95992e3a4109",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Product showcase: GitGuardian Honeytoken catches credential theft as it happens",
-      "summary": "The increase in sophisticated infostealer malware, such as Shai-Hulud, that scans entire filesystems for credentials highlights the growing need for proactive deception technologies like honeytokens. GitGuardian's solution aims to mitigate these threats by detecting unauthorized credential access in real-time.",
-      "date": "2026-09-10T05:30:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/10/product-showcase-gitguardian-honeytoken-decoy-service/",
       "isTopTen": false
     }
   ]
