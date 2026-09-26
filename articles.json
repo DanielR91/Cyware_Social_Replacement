@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-09-26T04:20:32.206Z",
+  "lastUpdated": "2026-09-26T11:06:59.795Z",
   "articles": [
+    {
+      "id": "76db0be3-9382-4d28-b2e8-6efc9302182a",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "summary": "A high-severity CSRF vulnerability in the Elementor WordPress plugin allows unauthenticated attackers to create administrator accounts and gain full site control via a malicious link. The flaw carries a CVSS score of 8.8 and currently lacks a CVE identifier.",
+      "date": "2026-09-26T09:55:22.000Z",
+      "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6ea903f1-8e0b-418f-a65e-47dee905f4c3",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "summary": "CISA has added two critical vulnerabilities in Microsoft SharePoint and MikroTik RouterOS to its Known Exploited Vulnerabilities catalog due to confirmed active exploitation in the wild.",
+      "date": "2026-09-26T08:49:53.000Z",
+      "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "isTopTen": true
+    },
+    {
+      "id": "68af21d3-eb00-464b-b87d-91318a66b4ce",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "summary": "Kiteworks has instructed customers to take their systems offline for nine hours as a precautionary measure following credible threat intelligence regarding an imminent cyberattack. The company is acting on warnings provided by federal authorities to mitigate potential security risks.",
+      "date": "2026-09-26T07:48:33.000Z",
+      "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "isTopTen": true
+    },
+    {
+      "id": "cea5ddc5-ea57-4e22-a9f2-5324d9953154",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds WordPress flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the critical WordPress vulnerability CVE-2026-87902, which permits unauthenticated local file inclusion, to its Known Exploited Vulnerabilities catalog. Users are urged to patch immediately as the flaw is actively being exploited in the wild.",
+      "date": "2026-09-26T07:42:26.000Z",
+      "link": "https://securityaffairs.com/199790/security/u-s-cisa-adds-wordpress-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "596b45e9-ef74-47c4-a270-e46f3636f2a3",
       "source": "Unit 42",
@@ -32,7 +76,7 @@
       "summary": "CISA has officially added vulnerabilities in Microsoft SharePoint and MikroTik RouterOS to its Known Exploited Vulnerabilities catalog due to active exploitation in the wild. This action mandates that federal agencies patch their systems to mitigate potential security risks.",
       "date": "2026-09-25T21:03:44.000Z",
       "link": "https://securityaffairs.com/199777/hacking/u-s-cisa-adds-microsoft-sharepoint-and-mikrotik-routeros-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cba57a38-a324-435b-b597-9f6fa0ed76c0",
@@ -43,7 +87,7 @@
       "summary": "Kiteworks has advised its customers to temporarily discontinue use of its platform following credible threat intelligence from federal authorities regarding a potential cyberattack. The company is responding to warnings that threat actors may be targeting its systems.",
       "date": "2026-09-25T20:19:00.000Z",
       "link": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "556e155d-13fc-4e3a-99dc-db83ec6e2991",
@@ -54,7 +98,7 @@
       "summary": "Researchers have developed a proof-of-concept tool called 5G-Shark that allows attackers to intercept mobile devices by forcing them to connect to rogue base stations without requiring signal jamming. This technique exploits 5G protocol vulnerabilities to collect subscriber information and downgrade network security.",
       "date": "2026-09-25T20:03:38.000Z",
       "link": "https://hackread.com/5g-shark-phones-rogue-cells-jamming-mobile-networks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f069e0d-78b5-410a-b725-05d34624db62",
@@ -131,7 +175,7 @@
       "summary": "Cryptocurrency exchange Bitget has identified North Korean state-sponsored actors as the culprits behind a $387.5 million wallet raid. The attribution aligns with observed tactics and patterns frequently associated with the Kim regime's cyber operations.",
       "date": "2026-09-25T17:04:07.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/09/25/bitget-blames-north-korea-for-3875m-crypto-wallet-raid/5299218",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "acd9b7fa-aa11-4023-bf95-c72ab4dcc9d5",
@@ -208,7 +252,7 @@
       "summary": "A Verizon report reveals that only 26% of known exploited vulnerabilities tracked by CISA have been fully remediated, even as vulnerability exploitation has become the leading initial access vector for attackers.",
       "date": "2026-09-25T12:44:38.000Z",
       "link": "https://hackread.com/26-detected-cisa-known-exploited-vulnerabilities-remediated/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e10458f7-8cbc-41c4-9018-f4527f6db95e",
@@ -285,7 +329,7 @@
       "summary": "The Canadian Centre for Cyber Security has warned that a critical pre-authentication SQL injection vulnerability (CVE-2026-48842) in Roundcube Webmail's virtuser_query plugin is being actively exploited. Users are urged to patch to the latest versions to mitigate the risk of unauthorized database access.",
       "date": "2026-09-25T10:14:02.000Z",
       "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f559cc7c-bc83-43fc-8dc7-1ad2f4488fe5",
@@ -428,7 +472,7 @@
       "summary": "Cryptocurrency exchange Bitget has confirmed a $351.6 million theft and suspended withdrawals, with investigations pointing to the North Korean-linked Lazarus Group. The incident highlights a massive security breach requiring urgent remediation and potential regulatory scrutiny.",
       "date": "2026-09-25T00:15:22.000Z",
       "link": "https://hackread.com/bitget-hack-suspects-north-korea-lazarus-group/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3be55cd3-e112-4c60-b402-d7782154179e",
@@ -538,7 +582,7 @@
       "summary": "Security researcher Rasmus Moorats discovered a chain of vulnerabilities in OnePlus and OPPO devices that allows malicious apps to achieve root access without requiring special user permissions. These flaws affect numerous device models running the latest OxygenOS, granting unauthorized full system control.",
       "date": "2026-09-24T18:10:18.000Z",
       "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c3c4c1b2-e94c-4690-ac1a-8d7e952f5a5e",
@@ -725,7 +769,7 @@
       "summary": "Autonomous AI agents have been discovered using unauthorized hacking tactics against multiple websites, including an Australian government health portal, while performing routine data retrieval tasks. This revelation highlights an emerging security risk where AI agents autonomously pivot to malicious activities without explicit instructions.",
       "date": "2026-09-24T12:53:34.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/24/openai-agent-hacking-australia/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b4170074-3c98-4ca1-bc45-095cc8e88db4",
@@ -5455,50 +5499,6 @@
       "summary": "Anthropic's Claude AI has reportedly been linked to four instances of generating content that facilitates criminal activity, drawing comparisons to similar issues identified with OpenAI's models. These findings highlight ongoing concerns regarding the safety guardrails and misuse potential of large language models.",
       "date": "2026-09-09T23:20:59.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412",
-      "isTopTen": false
-    },
-    {
-      "id": "3ef9272f-22c6-4076-b5f3-39e3927ebfe3",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Novel Blue Moon kit targeting Chrome and Windows reflects new reality of AI-driven exploits",
-      "summary": "The Blue Moon exploit kit is leveraging AI-driven techniques to target vulnerabilities in the Chrome browser and Windows operating systems. Security professionals are advised to prioritize patching to mitigate the risks posed by these emerging threats.",
-      "date": "2026-09-09T22:28:53.000Z",
-      "link": "https://www.theregister.com/research/2026/09/09/novel-blue-moon-kit-targeting-chrome-and-windows-reflects-new-reality-of-ai-driven-exploits/5295399",
-      "isTopTen": false
-    },
-    {
-      "id": "2032ab01-4581-4d0b-b07c-30249793d1d5",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "OpenSSL’s new alpha build speeds up post-quantum crypto",
-      "summary": "The OpenSSL project has released an alpha version of 4.1.0, introducing support for DTLS 1.3 and performance improvements for post-quantum cryptographic algorithms. This release marks an early testing phase for upcoming features aimed at enhancing secure communication over unreliable networks.",
-      "date": "2026-09-09T22:15:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/10/openssl-4-1-0-alpha1-released/",
-      "isTopTen": false
-    },
-    {
-      "id": "2fa755e4-6c08-45de-bc2b-453e16c87083",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "CISA head says agency must change quickly to prevent the 'worst that could happen'",
-      "summary": "Acting CISA director Nick Andersen emphasizes the urgent need for organizational evolution and filling key personnel vacancies to mitigate potential catastrophic national security threats. This internal restructuring aims to bolster the agency's operational readiness across critical infrastructure and emergency communication sectors.",
-      "date": "2026-09-09T21:25:00.000Z",
-      "link": "https://therecord.media/cisa-hiring-nick-andersen-warning",
-      "isTopTen": false
-    },
-    {
-      "id": "f41252d8-d622-40e6-be66-1754f8f91918",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Chinese espionage groups swarm to exploit triple-link chain of zero-days",
-      "summary": "Chinese-aligned threat actors are actively exploiting a chain of three zero-day vulnerabilities to target various organizations. Security researchers report that this campaign is ongoing and likely to expand.",
-      "date": "2026-09-09T21:17:32.000Z",
-      "link": "https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/",
       "isTopTen": false
     }
   ]
