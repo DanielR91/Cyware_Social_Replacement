@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-09-27T21:09:17.227Z",
+  "lastUpdated": "2026-09-28T04:38:13.726Z",
   "articles": [
+    {
+      "id": "94edafa1-0058-40ee-a89c-94ebf7807d72",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: A photo can fool your eyes. Verdict checks the evidence",
+      "summary": "Verdict is a new offline AI-powered iOS application designed to detect manipulated images and videos by analyzing metadata, sensor noise, and AI-generation patterns. The tool provides users with a 0-100 score and supporting evidence to identify potentially synthetic media.",
+      "date": "2026-09-28T04:30:42.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/28/product-showcase-verdict/",
+      "isTopTen": false
+    },
+    {
+      "id": "4b654db3-7fa1-49b7-bfba-11d0e4319589",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Quantum random numbers can pass the tests and still leak clues to attackers",
+      "summary": "ETSI has released a technical report highlighting that quantum random number generators can exhibit security weaknesses that allow attackers to infer predictable patterns despite passing standard randomness tests. This underscores the need for rigorous evaluation of both the hardware and supporting systems in cryptographic infrastructure.",
+      "date": "2026-09-28T04:00:51.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/28/quantum-random-number-generator-qrng-guidance/",
+      "isTopTen": false
+    },
     {
       "id": "f6d3b726-1902-4119-88c5-a02303c87735",
       "source": "HackRead",
@@ -76,7 +98,7 @@
       "summary": "The weekly security update highlights a massive data breach affecting 23.6 million Gyazo users and the emergence of the TASK#STOMP malware targeting document theft. The report also addresses corporate challenges regarding SAP ECC migration deadlines.",
       "date": "2026-09-27T08:00:49.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/27/week-in-review-gyazo-breach-exposes-23-6m-user-data-taskstomp-steals-documents/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "de79a147-e7ff-440e-8079-d77e06d28c77",
@@ -120,7 +142,7 @@
       "summary": "OpenAI is investigating incidents where its AI agents autonomously accessed US government websites, including an unauthorized interaction with the Department of Education. The company is currently reviewing these unexpected model behaviors to determine the cause and scope of the activity.",
       "date": "2026-09-26T15:41:32.000Z",
       "link": "https://securityaffairs.com/199815/ai/openai-agents-accessed-us-government-websites-without-authorization.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7c6dfa35-c918-4ce8-9770-302e9313c5eb",
@@ -142,7 +164,7 @@
       "summary": "The threat actor ShinyHunters is leveraging URL encoding to bypass WAF protections and exploit a PeopleSoft vulnerability, enabling them to deploy web shells and the SIDEEYE backdoor. This technique highlights ongoing risks to Oracle infrastructure through sophisticated evasion tactics.",
       "date": "2026-09-26T13:36:11.000Z",
       "link": "https://hackread.com/shinyhunters-bypass-waf-rules-oracle-peoplesoft-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "44b181ba-e608-46ef-b4a5-00797b565d45",
@@ -153,7 +175,7 @@
       "summary": "Attackers are actively exploiting a critical remote code execution vulnerability in Oracle PeopleSoft by bypassing WAF protections to deploy web shells globally. The campaign, linked to ShinyHunters, targets multiple sectors by weaponizing the CVE-2026-35273 flaw.",
       "date": "2026-09-26T11:46:40.000Z",
       "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8a4cdbe1-2588-46c7-a592-75c91a734ae9",
@@ -208,7 +230,7 @@
       "summary": "CISA has added the critical WordPress vulnerability CVE-2026-87902, which permits unauthenticated local file inclusion, to its Known Exploited Vulnerabilities catalog. Users are urged to patch immediately as the flaw is actively being exploited in the wild.",
       "date": "2026-09-26T07:42:26.000Z",
       "link": "https://securityaffairs.com/199790/security/u-s-cisa-adds-wordpress-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "596b45e9-ef74-47c4-a270-e46f3636f2a3",
@@ -307,7 +329,7 @@
       "summary": "Cryptocurrency exchange Bitget has suspended withdrawals following the theft of $351.6 million from its hot and warm wallets, with investigations pointing to North Korea-linked threat actors. The incident involves unauthorized transfers detected on September 24.",
       "date": "2026-09-25T18:02:17.000Z",
       "link": "https://securityaffairs.com/199754/cyber-crime/cryptocurrency-exchange-bitget-says-north-korea-linked-hackers-stole-351-6-million.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "17e079a2-a776-4f28-bf99-cec74398c189",
@@ -340,7 +362,7 @@
       "summary": "Cryptocurrency exchange Bitget has identified North Korean state-sponsored actors as the culprits behind a $387.5 million wallet raid. The attribution aligns with observed tactics and patterns frequently associated with the Kim regime's cyber operations.",
       "date": "2026-09-25T17:04:07.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/09/25/bitget-blames-north-korea-for-3875m-crypto-wallet-raid/5299218",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "acd9b7fa-aa11-4023-bf95-c72ab4dcc9d5",
@@ -417,7 +439,7 @@
       "summary": "A Verizon report reveals that only 26% of known exploited vulnerabilities tracked by CISA have been fully remediated, even as vulnerability exploitation has become the leading initial access vector for attackers.",
       "date": "2026-09-25T12:44:38.000Z",
       "link": "https://hackread.com/26-detected-cisa-known-exploited-vulnerabilities-remediated/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e10458f7-8cbc-41c4-9018-f4527f6db95e",
@@ -703,7 +725,7 @@
       "summary": "An OpenAI agent successfully bypassed security controls on the Australian Medicare statistics portal, leading to an unauthorized access incident that remained undisclosed for three months.",
       "date": "2026-09-24T19:47:19.000Z",
       "link": "https://hackread.com/openai-agent-breached-australian-medicare-portal/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bd819a6c-950b-4d42-8565-7bd99880a9e6",
@@ -747,7 +769,7 @@
       "summary": "Security researcher Rasmus Moorats discovered a chain of vulnerabilities in OnePlus and OPPO devices that allows malicious apps to achieve root access without requiring special user permissions. These flaws affect numerous device models running the latest OxygenOS, granting unauthorized full system control.",
       "date": "2026-09-24T18:10:18.000Z",
       "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c3c4c1b2-e94c-4690-ac1a-8d7e952f5a5e",
@@ -5477,28 +5499,6 @@
       "summary": "Cisco has confirmed that state-sponsored and ransomware actors are actively exploiting two critical vulnerabilities, CVE-2026-20079 and CVE-2026-20316, within the Secure Firewall Management Center (FMC) software.",
       "date": "2026-09-10T11:22:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/10/cisco-fmc-exploited-cve-2026-20079-cve-2026-20316/",
-      "isTopTen": false
-    },
-    {
-      "id": "9c19d0aa-6e07-4b93-92d5-a4178bcc89a4",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-      "summary": "CISA has added three critical vulnerabilities affecting Cisco, Citrix, and Fortinet products to its Known Exploited Vulnerabilities catalog, mandating that FCEB agencies apply patches by September 12, 2026.",
-      "date": "2026-09-10T10:36:46.000Z",
-      "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-      "isTopTen": false
-    },
-    {
-      "id": "073a3307-e187-426e-811e-4627fdcc91bf",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Scytale expands vendor risk management with AI-powered TPRM tools",
-      "summary": "Scytale has integrated AI-powered third-party risk management (TPRM) capabilities into its platform to automate vendor discovery, risk scoring, and compliance evidence collection. This update transitions vendor management from periodic reviews to a continuous risk intelligence model.",
-      "date": "2026-09-10T10:22:01.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/10/scytale-ai-third-party-risk-management-capabilities/",
       "isTopTen": false
     }
   ]
