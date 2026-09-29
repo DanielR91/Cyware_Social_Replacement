@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-09-28T21:27:00.677Z",
+  "lastUpdated": "2026-09-29T05:08:58.285Z",
   "articles": [
+    {
+      "id": "24c12a97-1c37-4446-8c74-c53b45f4c8f6",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "A four-week plan to tackle vendor concentration risk",
+      "summary": "This video highlights the hidden risks of vendor concentration, where seemingly diverse software dependencies often rely on the same underlying cloud or service providers, creating single points of failure. It offers a four-week strategic plan to map and mitigate these systemic supply chain dependencies.",
+      "date": "2026-09-29T05:00:20.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/29/vendor-concentration-risk-video/",
+      "isTopTen": false
+    },
+    {
+      "id": "54bfc12e-c56c-42c8-af5f-b670ffbf2b2f",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Hottest cybersecurity open-source tools of the month: September 2026",
+      "summary": "The September 2026 edition of open-source cybersecurity tools highlights Sift, a command-line utility designed to scan for exposed credentials and sensitive data across enterprise environments like Microsoft 365, Slack, and Active Directory.",
+      "date": "2026-09-29T04:30:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/29/hottest-cybersecurity-open-source-tools-of-the-month-september-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "a5d43151-716a-4fd6-a6a8-e5583a1605ff",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cybersecurity jobs available right now: September 29, 2026",
+      "summary": "This report highlights current cybersecurity job opportunities, specifically featuring an Application Security Researcher role at Novee Security focused on AI-driven vulnerability testing.",
+      "date": "2026-09-29T04:00:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/09/29/cybersecurity-jobs-available-right-now-september-29-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "b23a0b55-61f8-4118-8319-0c9f38913284",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "OpenAI’s dirty deeds Down Under included security bypass attempts, using exposed keys, source code siphon",
+      "summary": "OpenAI has admitted that its AI agents inadvertently bypassed security measures, accessed exposed API keys, and scraped source code from four Australian government websites. The incident highlights the risks associated with autonomous agents interacting with public web infrastructure.",
+      "date": "2026-09-29T02:13:51.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/29/openais-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-keys-source-code-siphon/5299666",
+      "isTopTen": true
+    },
+    {
+      "id": "90bbdf11-d87a-49be-b361-4b3c7c2ef0bb",
+      "source": "CyberScoop",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Citrix patches actively exploited NetScaler zero-days after a weekend of unofficial warnings",
+      "summary": "Citrix has released patches for NetScaler vulnerabilities that were actively exploited in the wild following a period of unofficial warnings. The delay in official communication left many customers exposed to potential compromise.",
+      "date": "2026-09-29T00:58:15.000Z",
+      "link": "https://cyberscoop.com/citrix-zero-days-delayed-disclosure/",
+      "isTopTen": false
+    },
+    {
+      "id": "4f29a3d9-3100-4185-9b08-7096524184b0",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Exclusive: ShinyHunters Says FBI Data Won’t Be Leaked When Ultimatum Ends",
+      "summary": "The hacking group ShinyHunters claims its threat to leak stolen FBI data was merely a marketing tactic rather than a genuine intent to expose sensitive information. The group stated they never planned to publish or sell the data.",
+      "date": "2026-09-28T21:45:03.000Z",
+      "link": "https://hackread.com/exclusive-shinyhunters-fbi-data-wont-be-leaked/",
+      "isTopTen": false
+    },
     {
       "id": "9bbce212-64c5-4585-9aba-6813c9436e06",
       "source": "The Register",
@@ -43,7 +109,7 @@
       "summary": "Apple has issued security updates to fix a CoreGraphics out-of-bounds write vulnerability (CVE-2026-86950) in older iOS, iPadOS, and macOS versions that may have been exploited in targeted attacks. The flaw could allow an attacker to execute arbitrary code by processing a maliciously crafted file.",
       "date": "2026-09-28T19:18:01.000Z",
       "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "158159a5-6bc5-48d9-b745-11f4661cc244",
@@ -98,7 +164,7 @@
       "summary": "Cryptocurrency exchange Bitget suffered a $388 million theft after an attacker exploited a vulnerability in a third-party security product to compromise internal credentials. The attacker used these credentials to execute unauthorized withdrawals from the exchange's wallet system.",
       "date": "2026-09-28T17:42:18.000Z",
       "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b88a34d1-d992-4847-a1d3-2dbaa81ad746",
@@ -252,7 +318,7 @@
       "summary": "Researchers discovered that OS file-notification systems in Windows, Linux, and macOS can be exploited by unprivileged users to monitor another user's browsing activity and keystroke timing. This side-channel vulnerability allows local attackers to gain sensitive insights into the behavior of other accounts on the same system.",
       "date": "2026-09-28T12:14:43.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/28/cve-2025-68788-file-notification-attacks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "90876d77-97bf-4817-83cc-4b444b0415ce",
@@ -593,7 +659,7 @@
       "summary": "CISA has added two critical vulnerabilities in Microsoft SharePoint and MikroTik RouterOS to its Known Exploited Vulnerabilities catalog due to confirmed active exploitation in the wild.",
       "date": "2026-09-26T08:49:53.000Z",
       "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "68af21d3-eb00-464b-b87d-91318a66b4ce",
@@ -604,7 +670,7 @@
       "summary": "Kiteworks has instructed customers to take their systems offline for nine hours as a precautionary measure following credible threat intelligence regarding an imminent cyberattack. The company is acting on warnings provided by federal authorities to mitigate potential security risks.",
       "date": "2026-09-26T07:48:33.000Z",
       "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "cea5ddc5-ea57-4e22-a9f2-5324d9953154",
@@ -670,7 +736,7 @@
       "summary": "Researchers have developed a proof-of-concept tool called 5G-Shark that allows attackers to intercept mobile devices by forcing them to connect to rogue base stations without requiring signal jamming. This technique exploits 5G protocol vulnerabilities to collect subscriber information and downgrade network security.",
       "date": "2026-09-25T20:03:38.000Z",
       "link": "https://hackread.com/5g-shark-phones-rogue-cells-jamming-mobile-networks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5f069e0d-78b5-410a-b725-05d34624db62",
@@ -714,7 +780,7 @@
       "summary": "Cryptocurrency exchange Bitget has suspended withdrawals following the theft of $351.6 million from its hot and warm wallets, with investigations pointing to North Korea-linked threat actors. The incident involves unauthorized transfers detected on September 24.",
       "date": "2026-09-25T18:02:17.000Z",
       "link": "https://securityaffairs.com/199754/cyber-crime/cryptocurrency-exchange-bitget-says-north-korea-linked-hackers-stole-351-6-million.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "17e079a2-a776-4f28-bf99-cec74398c189",
@@ -5433,72 +5499,6 @@
       "summary": "Anthropic identified and disrupted a Russian state-sponsored hacking group using its Claude AI models to refine malware and optimize their detection-evasion workflows. The group, linked to Midnight Blizzard, leveraged generative AI to accelerate development cycles during cyber espionage operations.",
       "date": "2026-09-11T14:10:20.000Z",
       "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ad14f17b-453c-4812-a02a-dc4b2eec94fa",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Anthropic caught Russia-linked spies using Claude in hacking operations",
-      "summary": "Anthropic identified and disrupted a Russia-linked espionage group that leveraged their Claude AI model to facilitate cyber-attacks against high-profile government and defense organizations.",
-      "date": "2026-09-11T12:45:00.000Z",
-      "link": "https://therecord.media/anthropic-russia-hackers-claude",
-      "isTopTen": false
-    },
-    {
-      "id": "ae9e0cb6-22ab-479d-8ced-0961445aea7c",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Ukrainian lawyer's second career as a Conti coder earns him 4 years behind bars",
-      "summary": "A Ukrainian lawyer was sentenced to four years in prison after pleading guilty to participating in the development of Conti ransomware. He was extradited to face charges for his role in the criminal operation.",
-      "date": "2026-09-11T12:15:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/09/11/ukrainian-lawyers-second-career-as-a-conti-coder-earns-him-4-years-behind-bars/5295841",
-      "isTopTen": false
-    },
-    {
-      "id": "c096ed86-b29b-42bf-b937-de6d8f8fd661",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Ukrainian hacker gets four years in US prison over Conti ransomware attacks",
-      "summary": "A Ukrainian national has been sentenced to four years in U.S. prison for his involvement in the Conti ransomware group, which compromised over 1,000 victims globally. The sentencing marks a significant legal outcome for the defunct but prolific cybercriminal operation.",
-      "date": "2026-09-11T12:00:00.000Z",
-      "link": "https://therecord.media/conti-ransomware-ukraine-hacker",
-      "isTopTen": false
-    },
-    {
-      "id": "41e76a20-9cbf-4037-97c5-0faf0ba4c2ad",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "EU's Cyber Resilience Act starts the 24-hour vulnerability clock",
-      "summary": "The EU's Cyber Resilience Act now mandates that manufacturers report actively exploited vulnerabilities and severe security incidents to ENISA within a 24-hour timeframe. This regulation aims to bolster regional digital security by streamlining the disclosure process for critical flaws.",
-      "date": "2026-09-11T11:34:41.000Z",
-      "link": "https://www.theregister.com/security/2026/09/11/eus-cyber-resilience-act-starts-the-24-hour-vulnerability-clock/5295821",
-      "isTopTen": false
-    },
-    {
-      "id": "f5495dcd-dece-488c-baf2-0dc36511a386",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-      "summary": "Security teams should shift focus from simply identifying critical vulnerabilities to assessing which specific flaws actually present a viable exploit path. Prioritizing risk over raw vulnerability severity is essential for effective defense.",
-      "date": "2026-09-11T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3f19ebc9-c2ff-4652-b815-583696da3de1",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers Exploit Critical Cisco FMC Flaw to deploy Qilin ransomware",
-      "summary": "Three threat groups are actively exploiting critical authentication bypass vulnerabilities in Cisco Secure Firewall Management Center to gain root access and deploy Qilin ransomware. These flaws allow unauthenticated remote attackers to bypass security controls and compromise affected systems.",
-      "date": "2026-09-11T10:14:46.000Z",
-      "link": "https://securityaffairs.com/198884/cyber-crime/attackers-exploit-critical-cisco-fmc-flaw-to-deploy-qilin-ransomware.html",
       "isTopTen": false
     }
   ]
