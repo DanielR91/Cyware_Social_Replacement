@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-09-30T22:14:25.383Z",
+  "lastUpdated": "2026-10-01T05:07:17.530Z",
   "articles": [
+    {
+      "id": "3fd6992e-e486-46f7-af84-6d46d42f08b3",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "The vulnerabilities AI finds are the ones attackers want",
+      "summary": "Research from Google Threat Intelligence Group reveals that attackers are rapidly weaponizing vulnerabilities identified by AI research agents, with overall monthly CVE disclosures doubling throughout 2026.",
+      "date": "2026-10-01T05:00:35.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/",
+      "isTopTen": false
+    },
+    {
+      "id": "41efad7c-0cd1-419b-b86b-b93f0353c7a1",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+      "summary": "Threat actors are exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler devices to deploy web shells and steal configuration data. The attack involves creating superuser accounts and disguising malicious files as CSS-like URLs to maintain unauthorized access.",
+      "date": "2026-10-01T04:35:34.000Z",
+      "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+      "isTopTen": false
+    },
+    {
+      "id": "12a9fa8b-2ea0-499b-afae-62b12ad3dac8",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Employment scam victims tripled at financial firms in 21 countries",
+      "summary": "Employment scams targeting financial institutions have surged by 258% over the past year across 21 countries, significantly outpacing the growth of other fraud types. Data from BioCatch highlights a substantial rise in victim reports at over 370 banks and financial firms.",
+      "date": "2026-10-01T04:30:35.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/employment-scam-victims-research/",
+      "isTopTen": false
+    },
+    {
+      "id": "448e90c2-95ae-4f91-a5f8-15a784e2f5d3",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Google says Gemini 4 Argon can find and patch critical software flaws",
+      "summary": "Google has unveiled Gemini 4 Argon, an AI model capable of autonomously identifying, validating, and patching software vulnerabilities. Access is being provided to select cyber defenders and internal teams, with a version lacking standard security guardrails to facilitate advanced vulnerability research.",
+      "date": "2026-10-01T04:00:41.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/",
+      "isTopTen": false
+    },
+    {
+      "id": "894f4a1d-b988-44b9-830d-1e9c3d738c92",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Product showcase: Proton Drive end-to-end encrypted cloud storage",
+      "summary": "Proton Drive is a secure, end-to-end encrypted cloud storage service that now includes collaborative document editing features across web, desktop, and mobile platforms.",
+      "date": "2026-10-01T03:48:10.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/product-showcase-proton-drive/",
+      "isTopTen": false
+    },
+    {
+      "id": "195a664b-d33b-4bcf-950b-87ce29a70496",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google’s SynthID Bio can watermark AI-designed protein binders without breaking them",
+      "summary": "Google DeepMind has introduced SynthID Bio, a watermarking technology that embeds traceable signatures into AI-designed protein sequences to facilitate secure DNA synthesis screening without compromising biological function.",
+      "date": "2026-10-01T03:31:14.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/01/synthid-bio-watermark/",
+      "isTopTen": false
+    },
+    {
+      "id": "473300c2-69c7-417d-8517-04b9ee900825",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "US sanctions 10 over ATM malware scheme tied to Tren de Aragua",
+      "summary": "The US Treasury has sanctioned ten Venezuelan nationals and associated companies involved in a transnational ATM malware operation linked to the Tren de Aragua criminal organization. The action aims to disrupt the financial networks used to launder money stolen through targeted ATM attacks.",
+      "date": "2026-09-30T22:35:00.000Z",
+      "link": "https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua",
+      "isTopTen": false
+    },
+    {
+      "id": "c26436a4-401f-44b5-af9d-88f5821301a6",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "OpenAI reveals ‘novel’ encryption bypass used in distillation attack ",
+      "summary": "OpenAI disclosed a novel encryption bypass method used in a model distillation attack and attributed the activity to actors linked to MoonshotAI, though specific evidence was not provided.",
+      "date": "2026-09-30T22:17:34.000Z",
+      "link": "https://cyberscoop.com/openai-moonshot-ai-model-distillation-attack/",
+      "isTopTen": false
+    },
     {
       "id": "52120a90-bad4-4784-8017-0a64826fc2c1",
       "source": "HackRead",
@@ -76,7 +164,7 @@
       "summary": "Google researchers report that monthly vulnerability disclosures have doubled to 10,000, driven largely by the use of AI in exploiting software flaws. This rapid escalation highlights an increasing challenge for security teams in tracking and remediating vulnerabilities.",
       "date": "2026-09-30T19:00:00.000Z",
       "link": "https://therecord.media/google-vulnerabilities-cyberattacks-ai",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d07263f5-2cb9-480a-b864-56bbb4f4fa44",
@@ -87,7 +175,7 @@
       "summary": "A 16-year-old security researcher discovered a critical vulnerability in Microsoft's systems that allowed unauthorized administrative access to massive databases containing 17.3 trillion rows of data.",
       "date": "2026-09-30T18:29:41.000Z",
       "link": "https://www.theregister.com/security/2026/09/30/16-year-old-researcher-found-a-microsoft-bug-got-admin-access-to-databases-with-173-trillion-rows/5300240",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6a944a44-bb14-4482-bdbc-be9bb15da9f3",
@@ -131,7 +219,7 @@
       "summary": "Cisco has issued an advisory regarding a critical zero-day authentication bypass vulnerability in its Catalyst SD-WAN Manager, currently being exploited by remote attackers. Users are advised to upgrade to fixed releases immediately as no workarounds are available.",
       "date": "2026-09-30T15:24:54.000Z",
       "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "06cccd7e-794a-4b6a-8112-9b6f87f4aa36",
@@ -175,7 +263,7 @@
       "summary": "Oxygen Forensics, a company with Russian ties, has been indicted by the DOJ for allegedly deceiving European police departments regarding its true ownership while supplying them with forensic software. The case highlights significant security concerns regarding foreign intelligence access to law enforcement investigative tools.",
       "date": "2026-09-30T13:26:20.000Z",
       "link": "https://securityaffairs.com/200090/intelligence/oxygen-forensics-a-russian-run-forensics-firm-spent-a-decade-inside-european-police-departments.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7c72fb33-41e2-4bfa-b0ef-39f4885c2fda",
@@ -186,7 +274,7 @@
       "summary": "State-sponsored threat actors have been actively exploiting a NetScaler zero-day vulnerability (CVE-2026-88772) against various sectors across North America and Europe since early September. Mandiant and the Google Threat Intelligence Group have identified dozens of affected organizations spanning government, finance, and telecommunications.",
       "date": "2026-09-30T12:33:38.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/30/cve-2026-88772-netscaler-exploitation-zero-day/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8a28c412-51a7-43ae-b70f-b5c669d939a8",
@@ -263,7 +351,7 @@
       "summary": "OpenInfra Europe's self-hosted JFrog Artifactory instance was breached via CVE-2026-82329, leading to the potential compromise of software packages downloaded between August 28 and September 15, 2026. Users are advised to immediately cease using these artifacts and purge them from their systems.",
       "date": "2026-09-30T10:39:26.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/30/openinfra-jfrog-artifactory-instance-compromised/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4523ec85-4a81-4ad0-9b73-09245fc00b82",
@@ -285,7 +373,7 @@
       "summary": "WaterISAC is heightening monitoring efforts across the water sector due to a surge in cyberattacks targeting critical infrastructure components like PLCs and internet-exposed technology. The organization is prioritizing defense against both internal and external threats to protect vital water utility operations.",
       "date": "2026-09-30T10:00:00.000Z",
       "link": "https://cyberscoop.com/water-utility-cyberattacks-waterisac-cyware-threat-intelligence/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ab06c7a3-379e-4256-b72f-e3fcc4b4750a",
@@ -494,7 +582,7 @@
       "summary": "Researchers have identified a new class of AI security threats involving self-replicating prompt injections that function similarly to computer worms. This vulnerability could allow malicious payloads to propagate autonomously across AI-powered systems.",
       "date": "2026-09-29T21:34:39.000Z",
       "link": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d833a521-394e-4eda-a676-dd76682a2dc1",
@@ -626,7 +714,7 @@
       "summary": "Researchers have discovered a new Spectre-v2 variant called Branch Target Reuse (BTR) that bypasses existing mitigations to leak memory from JIT engines and OS kernels across multiple CPU architectures.",
       "date": "2026-09-29T17:20:17.000Z",
       "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2bf34bd5-44d5-4736-bded-cf7573ebf9a7",
@@ -681,7 +769,7 @@
       "summary": "The vulnerability CVE-2026-88771 in Citrix NetScaler ADC and Gateway has escalated from stealthy zero-day targeting to widespread mass exploitation following the release of proof-of-concept code. Organizations are urged to patch internet-exposed devices immediately to mitigate remote attack risks.",
       "date": "2026-09-29T14:59:06.000Z",
       "link": "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "83a5a07a-c029-4196-b8d0-d3a6e75af55c",
@@ -5411,94 +5499,6 @@
       "summary": "Security firm Infoblox has identified that low-quality, illegal gambling websites are being leveraged as infrastructure for sophisticated and dangerous threat actors. These sites serve as conduits for malicious activity, potentially exposing unsuspecting users to severe cyber risks.",
       "date": "2026-09-15T19:38:58.000Z",
       "link": "https://www.theregister.com/security/2026/09/15/low-quality-casino-sites-conceal-highly-dangerous-threat-actors/5296652",
-      "isTopTen": false
-    },
-    {
-      "id": "1c73d0eb-9300-4d03-ab8a-c19625261a71",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-      "summary": "A newly identified Brazilian banking malware called KREMLIN, tracked as REF9334, is targeting users by installing malicious browser extensions to steal credentials and session tokens. The campaign impersonates various Brazilian financial institutions to facilitate these thefts.",
-      "date": "2026-09-15T18:54:14.000Z",
-      "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9d2f654c-b786-466e-918a-a1d629ae6b22",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iranian spies hit Windows machines with Chosen Brick data-stealing malware",
-      "summary": "Iranian state-sponsored actors are deploying a new data-stealing malware called 'Chosen Brick' to target Windows systems, specifically focusing on political dissidents. This campaign highlights the ongoing efforts of Iranian intelligence to conduct surveillance and espionage against perceived regime enemies.",
-      "date": "2026-09-15T18:01:57.000Z",
-      "link": "https://www.theregister.com/security/2026/09/15/iranian-spies-hit-windows-machines-with-chosen-brick-data-stealing-malware/5296646",
-      "isTopTen": false
-    },
-    {
-      "id": "9eaa75d0-52c6-4c96-a06c-418aa7f48e2a",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-      "summary": "Intelligence agencies from the US, UK, and Netherlands have identified Iranian-linked malware that leverages Telegram to spy on activists and journalists by intercepting communications and recording audio. The campaign targets individuals globally through sophisticated surveillance capabilities embedded in Windows-based malware.",
-      "date": "2026-09-15T16:29:51.000Z",
-      "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ef326fda-5094-4921-aea1-8e25bdea3f89",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Iranian cyber spies used fake MRI scan results to hack ‘enemy of regime’",
-      "summary": "Iranian state-linked hackers utilized fraudulent MRI scan documents as a social engineering tactic to target and surveil perceived regime dissidents. The campaign was identified by the UK's NCSC as part of a broader effort to suppress journalists and activists.",
-      "date": "2026-09-15T16:28:00.000Z",
-      "link": "https://therecord.media/iran-cyber-spies-use-fake-mri-scans-as-lure",
-      "isTopTen": false
-    },
-    {
-      "id": "0745373e-dd7b-41de-b120-2bef71d4a8b5",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco email security boxes can be rooted by... an email",
-      "summary": "Cisco is urging customers to patch a critical remote code execution vulnerability in its email security appliances that attackers are actively exploiting to gain root access. The flaw allows unauthorized users to compromise systems and potentially delete evidence of their intrusion.",
-      "date": "2026-09-15T16:01:00.000Z",
-      "link": "https://www.theregister.com/security/2026/09/15/cisco-email-security-boxes-can-be-rooted-by-an-email/5296604",
-      "isTopTen": false
-    },
-    {
-      "id": "28c9f3ca-a6c3-4b7e-b15a-dd7909bc2570",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco warns customers of actively exploited zero-day in email gateways",
-      "summary": "Cisco has issued a warning regarding a zero-day vulnerability in its email gateway products that is being actively exploited by attackers. The company has released patches but has not yet disclosed the specific nature or scope of the ongoing attacks.",
-      "date": "2026-09-15T15:44:41.000Z",
-      "link": "https://cyberscoop.com/cisco-secure-email-gateway-zero-day-exploited/",
-      "isTopTen": false
-    },
-    {
-      "id": "2e70c3ee-6809-48fc-8ac9-021ff9dc480b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-      "summary": "Researchers have identified BambooToken, a multi-platform malware strain active since 2023 that leverages the MQTT protocol to establish command-and-control communication on Windows and Linux systems across Asia and South America.",
-      "date": "2026-09-15T15:23:19.000Z",
-      "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "77db17e9-f7c9-48b6-930c-b430dd05dfd2",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Zelensky appoints former police chief to lead Ukraine’s cyber coordination center",
-      "summary": "Ukrainian President Volodymyr Zelensky has appointed former interior minister and police chief Ihor Klymenko to head the country's National Cybersecurity Coordination Center. This leadership change signals a shift toward integrating law enforcement experience into Ukraine's strategic national cyber defense operations.",
-      "date": "2026-09-15T15:09:23.000Z",
-      "link": "https://therecord.media/ukraine-cyber-coordination-center-ihor-klymenko",
       "isTopTen": false
     }
   ]
