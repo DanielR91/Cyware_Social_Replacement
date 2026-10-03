@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-03T04:38:15.649Z",
+  "lastUpdated": "2026-10-03T11:23:00.383Z",
   "articles": [
+    {
+      "id": "8c2bc8a4-f5c2-4fb2-950c-cce631242674",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+      "summary": "This report highlights the evolution of cybersecurity as cloud, AI, and distributed systems drive the need for continuous risk management and scalable infrastructure protection. It outlines the strategic shifts required to secure increasingly complex digital environments.",
+      "date": "2026-10-03T11:00:00.000Z",
+      "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c0b7f1c8-30a0-40dc-9c4e-076e71882dfe",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVE-2026-90970: Critical GitLab AI Gateway Flaw Fixed",
+      "summary": "GitLab has patched a critical vulnerability, CVE-2026-90970, in its AI Gateway that allows authenticated Duo users to escape the sandbox and execute arbitrary commands. The flaw carries a CVSS score of 9.9, prompting urgent updates for self-hosted instances.",
+      "date": "2026-10-03T10:43:39.000Z",
+      "link": "https://securityaffairs.com/200283/hacking/cve-2026-90970-critical-gitlab-ai-gateway-flaw-fixed.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e93210f2-f1e7-42a5-83e9-22e5233c5c9f",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Antino Backdoor Lets China-Linked UAT-11587 Turn Microsoft 365 Into a C2 Channel",
+      "summary": "A China-linked threat actor identified as UAT-11587 is utilizing the Antino backdoor to compromise Microsoft 365 environments, establishing covert command-and-control channels to conduct espionage against government and policy organizations.",
+      "date": "2026-10-03T09:26:04.000Z",
+      "link": "https://securityaffairs.com/200264/apt/antino-backdoor-uses-your-inbox-as-its-control-panel.html",
+      "isTopTen": true
+    },
     {
       "id": "20290c92-407c-4ec2-a840-01bf79e6ea2b",
       "source": "Security Affairs",
@@ -10,7 +43,7 @@
       "summary": "CISA has added a critical session hijacking vulnerability in Zammad, identified as CVE-2026-102489, to its Known Exploited Vulnerabilities catalog due to active exploitation. This flaw allows attackers to perform remote code execution on affected systems.",
       "date": "2026-10-02T22:46:18.000Z",
       "link": "https://securityaffairs.com/200248/security/u-s-cisa-adds-zammad-gmbh-zammad-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "44554479-86b6-422f-999b-4b3120e52340",
@@ -76,7 +109,7 @@
       "summary": "A China-nexus threat actor is targeting government and policy organizations across Asia using a newly discovered backdoor called Antino. The malware leverages Microsoft Outlook and OneDrive to facilitate command-and-control operations.",
       "date": "2026-10-02T17:33:16.000Z",
       "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a5c7c46-9f37-437c-8eba-4ac9da99c639",
@@ -87,7 +120,7 @@
       "summary": "Dell has released critical security updates for its Container Storage Modules (CSM) to patch a vulnerability that allows unauthenticated attackers to gain root access on Kubernetes nodes.",
       "date": "2026-10-02T17:02:12.000Z",
       "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fe0f9323-00ca-4c04-8ee5-6a58955796f5",
@@ -98,7 +131,7 @@
       "summary": "A California man has been charged with illegally exporting $300 million worth of high-performance Nvidia chips to China in violation of U.S. federal export controls. The hardware was allegedly intended to support China's development of advanced artificial intelligence capabilities.",
       "date": "2026-10-02T15:20:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8a1fea0b-9cac-4913-8111-a311848b542f",
@@ -142,7 +175,7 @@
       "summary": "The Warlock ransomware group is targeting critical infrastructure in Portuguese and Spanish-speaking countries by exploiting vulnerabilities in Microsoft SharePoint. This activity was identified by the Symantec Threat Hunter Team.",
       "date": "2026-10-02T14:05:00.000Z",
       "link": "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "99a04274-f870-4a15-9c8a-f5857392e659",
@@ -219,7 +252,7 @@
       "summary": "Fortinet has issued a warning regarding a critical path traversal and null byte injection vulnerability in FortiMail that is currently being exploited in the wild. Customers are urged to implement provided workarounds immediately while awaiting official patches.",
       "date": "2026-10-02T08:50:59.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1b62790d-d3be-46e9-a0ac-ece8d9bfb0c6",
@@ -274,7 +307,7 @@
       "summary": "CISA has added a critical unauthenticated arbitrary file write vulnerability in Fortinet FortiMail, tracked as CVE-2026-104286, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-10-02T05:49:50.000Z",
       "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "60fe05fe-dd7e-46f8-86a7-6299542128aa",
@@ -329,7 +362,7 @@
       "summary": "Security researchers successfully utilized autonomous AI agents to exploit multiple Zammad vulnerabilities, achieving root access and exfiltrating data from a target organization's systems. The attack leveraged chained flaws to execute session hijacking and remote code execution in seconds.",
       "date": "2026-10-01T21:26:42.000Z",
       "link": "https://www.theregister.com/security/2026/10/01/ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org/5300652",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2ccb3b87-8edf-4413-881e-c2da62197622",
@@ -395,7 +428,7 @@
       "summary": "Security researchers have identified China-linked threat actors conducting targeted espionage campaigns against artificial intelligence companies and Asian government entities using sophisticated phishing techniques.",
       "date": "2026-10-01T18:16:00.000Z",
       "link": "https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "23cecdf7-4fb0-4662-9d7c-ad3d179a076e",
@@ -450,7 +483,7 @@
       "summary": "Suspected Chinese state-sponsored actors conducted targeted phishing attacks by impersonating a high-level Anthropic executive and a former White House official. The attackers invited victims to join a fraudulent AI policy advisory committee to facilitate espionage.",
       "date": "2026-10-01T16:43:30.000Z",
       "link": "https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e6dd5f5f-9832-40b7-bb98-705da76cbef7",
@@ -5466,39 +5499,6 @@
       "summary": "This update highlights a diverse and evolving threat landscape, covering issues ranging from self-rewriting AI agents and widespread software vulnerabilities to insider-driven SIM swapping attacks.",
       "date": "2026-09-17T17:32:22.000Z",
       "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ed4505c9-4be3-47fb-b6a4-a395cb229b7b",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
-      "summary": "Chinese threat group FamousSparrow is actively targeting Latin American government agencies using a novel backdoor identified as SparroWocky. This campaign highlights an expansion of state-aligned cyber espionage operations into new geographic regions.",
-      "date": "2026-09-17T16:30:00.000Z",
-      "link": "https://therecord.media/china-hackers-latin-america-espionage",
-      "isTopTen": false
-    },
-    {
-      "id": "2ad2c300-c02e-4ea6-9969-1792047d00cd",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-      "summary": "A critical vulnerability, CVE-2026-77179, allows malicious code within a Docker Sandbox on macOS to escape the project directory and gain unauthorized read and write access to files on the host system. This flaw operates with the privileges of the user running the virtual machine.",
-      "date": "2026-09-17T15:37:56.000Z",
-      "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-      "isTopTen": false
-    },
-    {
-      "id": "48b14938-f80e-4e43-a36c-d7bae269d443",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "London property manager breach may have exposed bank details and lockbox codes",
-      "summary": "London-based property manager City Relay suffered two security breaches involving unauthorized access to its Metabase Cloud instance, potentially exposing sensitive customer financial data and physical security credentials. The company is currently investigating the extent of the data exfiltration.",
-      "date": "2026-09-17T15:30:00.000Z",
-      "link": "https://www.theregister.com/security/2026/09/17/london-property-manager-breach-may-have-exposed-bank-details-and-lockbox-codes/5297232",
       "isTopTen": false
     }
   ]
