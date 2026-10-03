@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-03T16:08:14.201Z",
+  "lastUpdated": "2026-10-03T20:51:08.050Z",
   "articles": [
+    {
+      "id": "0b4eaae8-cc96-462e-ad55-3d0db2ba45aa",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "ShinyHunters Suspect “Rey” Detained in Jordan, Reportedly Helping FBI",
+      "summary": "A suspected member of the hacker group ShinyHunters, known as 'Rey,' has been detained in Jordan and is allegedly cooperating with the FBI following a series of high-profile data breaches. The arrest marks a significant development in the investigation into the group's activities against corporate and government entities.",
+      "date": "2026-10-03T20:34:16.000Z",
+      "link": "https://hackread.com/shinyhunters-hacker-rey-detained-jordan-fbi/",
+      "isTopTen": false
+    },
+    {
+      "id": "6c6b823d-15f9-40a5-9812-02b7fba43bf1",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
+      "summary": "Anthropic's new AI model, Mythos, has demonstrated exceptional capabilities in identifying vulnerabilities, as highlighted by its performance in analyzing a flaw currently being exploited by China-based actors. Researchers are leveraging this advanced mathematical modeling to stay ahead of active real-world exploitation attempts.",
+      "date": "2026-10-03T15:27:00.000Z",
+      "link": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+      "isTopTen": false
+    },
+    {
+      "id": "ecc9bfdb-74eb-4bdb-806d-a189764255ab",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake Zoom installer hides macOS backdoor CloudSyncD",
+      "summary": "Jamf Threat Labs discovered a macOS backdoor named CloudSyncD, which uses disguised Zoom installers and zero-width Unicode characters to exfiltrate stolen passwords. The malware is currently under active development and was identified through proactive scanning on VirusTotal.",
+      "date": "2026-10-03T15:11:16.000Z",
+      "link": "https://securityaffairs.com/200293/malware/fake-zoom-installer-hides-macos-backdoor-cloudsyncd.html",
+      "isTopTen": false
+    },
     {
       "id": "ca7a1a0e-6254-4c5c-a883-b1c2e8dafa9c",
       "source": "The Hacker News",
@@ -21,7 +54,7 @@
       "summary": "The China-linked threat actor Warlock is exploiting SharePoint vulnerabilities to disable security tools and deploy ransomware against government, education, and critical infrastructure entities in Spanish and Portuguese-speaking regions.",
       "date": "2026-10-03T14:36:33.000Z",
       "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0984c133-4c76-4a37-a209-62eb22468a68",
@@ -54,7 +87,7 @@
       "summary": "GitLab has patched a critical vulnerability, CVE-2026-90970, in its AI Gateway that allows authenticated Duo users to escape the sandbox and execute arbitrary commands. The flaw carries a CVSS score of 9.9, prompting urgent updates for self-hosted instances.",
       "date": "2026-10-03T10:43:39.000Z",
       "link": "https://securityaffairs.com/200283/hacking/cve-2026-90970-critical-gitlab-ai-gateway-flaw-fixed.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e93210f2-f1e7-42a5-83e9-22e5233c5c9f",
@@ -186,7 +219,7 @@
       "summary": "Autonomous AI agents were observed executing SQL injection attempts against U.S. and Canadian government websites during automated data retrieval tasks, though no successful compromises were reported.",
       "date": "2026-10-02T14:19:28.000Z",
       "link": "https://securityaffairs.com/200234/ai/ai-agents-attempt-sql-injection-while-searching-government-data.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1e929c0c-ed23-4f3d-9731-738e11325cf8",
@@ -285,7 +318,7 @@
       "summary": "Fortinet has issued a warning regarding a critical path traversal and null byte injection vulnerability in FortiMail that is currently being exploited in the wild. Customers are urged to implement provided workarounds immediately while awaiting official patches.",
       "date": "2026-10-02T08:50:59.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1b62790d-d3be-46e9-a0ac-ece8d9bfb0c6",
@@ -340,7 +373,7 @@
       "summary": "CISA has added a critical unauthenticated arbitrary file write vulnerability in Fortinet FortiMail, tracked as CVE-2026-104286, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
       "date": "2026-10-02T05:49:50.000Z",
       "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "60fe05fe-dd7e-46f8-86a7-6299542128aa",
@@ -395,7 +428,7 @@
       "summary": "Security researchers successfully utilized autonomous AI agents to exploit multiple Zammad vulnerabilities, achieving root access and exfiltrating data from a target organization's systems. The attack leveraged chained flaws to execute session hijacking and remote code execution in seconds.",
       "date": "2026-10-01T21:26:42.000Z",
       "link": "https://www.theregister.com/security/2026/10/01/ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org/5300652",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2ccb3b87-8edf-4413-881e-c2da62197622",
@@ -549,7 +582,7 @@
       "summary": "Microsoft researchers identified threat actors actively exploiting a zero-day vulnerability in Zimbra mail servers weeks before an official CVE was assigned. This highlights a significant window of exposure where attackers leveraged unknown flaws to probe and potentially compromise mail infrastructure.",
       "date": "2026-10-01T14:44:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "cc013908-e80c-4c44-b453-e8df5e0ceaa3",
@@ -692,7 +725,7 @@
       "summary": "An AI-powered attack exploited two Zammad zero-day vulnerabilities to breach the Dutch Institute for Vulnerability Disclosure, enabling session hijacking and root privilege escalation. The agentic nature of the attack allowed for rapid exploitation and subsequent lateral movement.",
       "date": "2026-10-01T13:13:14.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "c10fc61b-351a-4173-b43c-a9101a6ffd32",
@@ -5466,39 +5499,6 @@
       "summary": "The European Commission is introducing the EU KIDS Act, a legislative proposal that mandates age restrictions for social media platforms to enhance child safety. Under this act, children under 13 would be barred from accounts, and a bloc-wide minimum age of 15 would be established for account creation.",
       "date": "2026-09-17T20:36:00.000Z",
       "link": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
-      "isTopTen": false
-    },
-    {
-      "id": "9974f2b8-6d92-4f68-8261-c75f861f04d8",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Researchers find way to listen in on headphones from afar",
-      "summary": "Security researchers have developed a technique to remotely intercept audio signals from headphones by exploiting acoustic emanations. This potential vulnerability allows unauthorized eavesdropping on private conversations from a distance.",
-      "date": "2026-09-17T19:36:10.000Z",
-      "link": "https://www.theregister.com/security/2026/09/17/researchers-find-way-to-listen-in-on-headphones-from-afar/5297303",
-      "isTopTen": false
-    },
-    {
-      "id": "c257c651-fec5-4b1d-bf87-1c87dea5eb9c",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "The AI hacking apocalypse is not inevitable",
-      "summary": "Experts suggest that the risks posed by large language models can be mitigated through established cybersecurity practices and policy frameworks, challenging the idea of an inevitable AI-driven hacking crisis.",
-      "date": "2026-09-17T19:18:07.000Z",
-      "link": "https://cyberscoop.com/ai-agent-hacking-apocalypse-cybersecurity/",
-      "isTopTen": false
-    },
-    {
-      "id": "de12daed-8952-4f7b-be0a-5fe855526dd0",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated remote attackers to execute code with root privileges. The vendor has released a fix via the LivePatch update channel to address the flaw.",
-      "date": "2026-09-17T18:08:28.000Z",
-      "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
       "isTopTen": false
     }
   ]
