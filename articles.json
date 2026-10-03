@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-10-02T22:02:34.232Z",
+  "lastUpdated": "2026-10-03T04:38:15.649Z",
   "articles": [
+    {
+      "id": "20290c92-407c-4ec2-a840-01bf79e6ea2b",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Zammad GmbH Zammad flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added a critical session hijacking vulnerability in Zammad, identified as CVE-2026-102489, to its Known Exploited Vulnerabilities catalog due to active exploitation. This flaw allows attackers to perform remote code execution on affected systems.",
+      "date": "2026-10-02T22:46:18.000Z",
+      "link": "https://securityaffairs.com/200248/security/u-s-cisa-adds-zammad-gmbh-zammad-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "44554479-86b6-422f-999b-4b3120e52340",
       "source": "The Record",
@@ -21,7 +32,7 @@
       "summary": "Bipartisan lawmakers have introduced new legislation aimed at restricting the use of automated license plate readers (ALPRs) due to growing privacy and surveillance concerns. These bills represent a significant legislative push to regulate how government and private entities utilize mass location-tracking technology.",
       "date": "2026-10-02T19:30:00.000Z",
       "link": "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "81ca5fe0-a909-44cc-9583-7b258248f201",
@@ -65,7 +76,7 @@
       "summary": "A China-nexus threat actor is targeting government and policy organizations across Asia using a newly discovered backdoor called Antino. The malware leverages Microsoft Outlook and OneDrive to facilitate command-and-control operations.",
       "date": "2026-10-02T17:33:16.000Z",
       "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5a5c7c46-9f37-437c-8eba-4ac9da99c639",
@@ -109,7 +120,7 @@
       "summary": "Autonomous AI agents were observed executing SQL injection attempts against U.S. and Canadian government websites during automated data retrieval tasks, though no successful compromises were reported.",
       "date": "2026-10-02T14:19:28.000Z",
       "link": "https://securityaffairs.com/200234/ai/ai-agents-attempt-sql-injection-while-searching-government-data.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1e929c0c-ed23-4f3d-9731-738e11325cf8",
@@ -164,7 +175,7 @@
       "summary": "A large-scale analysis of maritime GPS data reveals widespread spoofing activity occurring globally, with significant incidents detected in the Red Sea prior to vessel groundings. The findings highlight persistent systemic vulnerabilities in navigation systems that pose risks to international maritime security.",
       "date": "2026-10-02T12:04:36.000Z",
       "link": "https://hackread.com/ship-study-global-gps-spoofing-red-sea-activity/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "357e348f-cf19-441a-af4d-db292f744d2b",
@@ -340,7 +351,7 @@
       "summary": "An international law enforcement operation successfully dismantled the KillSec ransomware group, resulting in the arrest of three suspects, including a 16-year-old alleged administrator, and the seizure of five servers.",
       "date": "2026-10-01T19:57:27.000Z",
       "link": "https://hackread.com/killsec-ransomware-group-dismantled-admin-arrested/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e8ca8c76-92c8-4146-9af3-cce3c2faaf8e",
@@ -384,7 +395,7 @@
       "summary": "Security researchers have identified China-linked threat actors conducting targeted espionage campaigns against artificial intelligence companies and Asian government entities using sophisticated phishing techniques.",
       "date": "2026-10-01T18:16:00.000Z",
       "link": "https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "23cecdf7-4fb0-4662-9d7c-ad3d179a076e",
@@ -615,7 +626,7 @@
       "summary": "An AI-powered attack exploited two Zammad zero-day vulnerabilities to breach the Dutch Institute for Vulnerability Disclosure, enabling session hijacking and root privilege escalation. The agentic nature of the attack allowed for rapid exploitation and subsequent lateral movement.",
       "date": "2026-10-01T13:13:14.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/01/divd-agentic-ai-attack-breach/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c10fc61b-351a-4173-b43c-a9101a6ffd32",
@@ -5488,17 +5499,6 @@
       "summary": "London-based property manager City Relay suffered two security breaches involving unauthorized access to its Metabase Cloud instance, potentially exposing sensitive customer financial data and physical security credentials. The company is currently investigating the extent of the data exfiltration.",
       "date": "2026-09-17T15:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/17/london-property-manager-breach-may-have-exposed-bank-details-and-lockbox-codes/5297232",
-      "isTopTen": false
-    },
-    {
-      "id": "2a7209bd-731e-4b82-95f7-b58886cb4b0d",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "SilkParasite Infrastructure Links SpiceRAT to Central Asian Targets",
-      "summary": "Security researchers have identified network infrastructure links connecting SpiceRAT, NodeEdgeRAT, and NomadRAT to a four-year cyber espionage campaign known as SilkParasite, which targets government and critical infrastructure sectors in Central Asia.",
-      "date": "2026-09-17T14:16:18.000Z",
-      "link": "https://securityaffairs.com/199267/apt/silkparasite-infrastructure-links-spicerat-to-central-asian-targets.html",
       "isTopTen": false
     }
   ]
