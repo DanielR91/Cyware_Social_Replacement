@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-03T11:23:00.383Z",
+  "lastUpdated": "2026-10-03T16:08:14.201Z",
   "articles": [
+    {
+      "id": "ca7a1a0e-6254-4c5c-a883-b1c2e8dafa9c",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "summary": "MI5 has issued an espionage alert warning that over 100 U.K.-linked academics have been funded by China's Ministry of State Security to assist in intelligence gathering. The alert specifically identifies the China General Technology Research Institute as a vehicle for these operations.",
+      "date": "2026-10-03T14:38:46.000Z",
+      "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "isTopTen": true
+    },
+    {
+      "id": "d2a77f14-a1be-4ac1-ad75-a89a2928fefd",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "summary": "The China-linked threat actor Warlock is exploiting SharePoint vulnerabilities to disable security tools and deploy ransomware against government, education, and critical infrastructure entities in Spanish and Portuguese-speaking regions.",
+      "date": "2026-10-03T14:36:33.000Z",
+      "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0984c133-4c76-4a37-a209-62eb22468a68",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Dutch Institute for Vulnerability Disclosure Breached via Zammad 0-Days",
+      "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered a security breach after attackers exploited two zero-day vulnerabilities in the Zammad helpdesk software to achieve remote code execution and root access.",
+      "date": "2026-10-03T12:00:04.000Z",
+      "link": "https://hackread.com/dutch-institute-vulnerability-disclosure-breach-zammad-0-days/",
+      "isTopTen": false
+    },
     {
       "id": "8c2bc8a4-f5c2-4fb2-950c-cce631242674",
       "source": "The Hacker News",
@@ -120,7 +153,7 @@
       "summary": "Dell has released critical security updates for its Container Storage Modules (CSM) to patch a vulnerability that allows unauthenticated attackers to gain root access on Kubernetes nodes.",
       "date": "2026-10-02T17:02:12.000Z",
       "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fe0f9323-00ca-4c04-8ee5-6a58955796f5",
@@ -131,7 +164,7 @@
       "summary": "A California man has been charged with illegally exporting $300 million worth of high-performance Nvidia chips to China in violation of U.S. federal export controls. The hardware was allegedly intended to support China's development of advanced artificial intelligence capabilities.",
       "date": "2026-10-02T15:20:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8a1fea0b-9cac-4913-8111-a311848b542f",
@@ -208,7 +241,7 @@
       "summary": "A large-scale analysis of maritime GPS data reveals widespread spoofing activity occurring globally, with significant incidents detected in the Red Sea prior to vessel groundings. The findings highlight persistent systemic vulnerabilities in navigation systems that pose risks to international maritime security.",
       "date": "2026-10-02T12:04:36.000Z",
       "link": "https://hackread.com/ship-study-global-gps-spoofing-red-sea-activity/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "357e348f-cf19-441a-af4d-db292f744d2b",
@@ -384,7 +417,7 @@
       "summary": "An international law enforcement operation successfully dismantled the KillSec ransomware group, resulting in the arrest of three suspects, including a 16-year-old alleged administrator, and the seizure of five servers.",
       "date": "2026-10-01T19:57:27.000Z",
       "link": "https://hackread.com/killsec-ransomware-group-dismantled-admin-arrested/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e8ca8c76-92c8-4146-9af3-cce3c2faaf8e",
@@ -483,7 +516,7 @@
       "summary": "Suspected Chinese state-sponsored actors conducted targeted phishing attacks by impersonating a high-level Anthropic executive and a former White House official. The attackers invited victims to join a fraudulent AI policy advisory committee to facilitate espionage.",
       "date": "2026-10-01T16:43:30.000Z",
       "link": "https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e6dd5f5f-9832-40b7-bb98-705da76cbef7",
@@ -769,7 +802,7 @@
       "summary": "CISA has added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager, tracked as CVE-2026-76504, to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw carries a CVSS score of 9.8 and enables remote, unauthenticated access to affected systems.",
       "date": "2026-10-01T10:33:16.000Z",
       "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3039ad60-69b5-4d65-888b-03284d016971",
@@ -5466,39 +5499,6 @@
       "summary": "A critical vulnerability in Check Point's Security Management and Log Servers allows unauthenticated remote attackers to execute code with root privileges. The vendor has released a fix via the LivePatch update channel to address the flaw.",
       "date": "2026-09-17T18:08:28.000Z",
       "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "isTopTen": false
-    },
-    {
-      "id": "10f7cfcf-1f19-4b95-9c64-ecc1449e4f10",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cyberattacks on Oil Tankers Put Maritime Critical Infrastructure at Risk",
-      "summary": "Recent cyberattacks on oil tankers near Texas have exposed significant security vulnerabilities in maritime navigation and critical ship systems. These incidents highlight growing risks to port operations and global trade stability.",
-      "date": "2026-09-17T18:06:07.000Z",
-      "link": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
-      "isTopTen": false
-    },
-    {
-      "id": "579beb80-8d42-42af-9660-e47bac358baa",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "China's Salt Typhoon backdoors Latin American orgs with new snooping malware",
-      "summary": "The China-linked threat actor Salt Typhoon is deploying a new backdoor, identified as SparroWocky, to infiltrate and conduct surveillance on organizations across Latin America.",
-      "date": "2026-09-17T18:00:17.000Z",
-      "link": "https://www.theregister.com/security/2026/09/17/chinas-salt-typhoon-backdoors-latin-american-orgs-with-new-snooping-malware/5297286",
-      "isTopTen": false
-    },
-    {
-      "id": "ed03637c-9391-49b9-a143-496f79af8190",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories  ",
-      "summary": "This update highlights a diverse and evolving threat landscape, covering issues ranging from self-rewriting AI agents and widespread software vulnerabilities to insider-driven SIM swapping attacks.",
-      "date": "2026-09-17T17:32:22.000Z",
-      "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
       "isTopTen": false
     }
   ]
