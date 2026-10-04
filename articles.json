@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-10-04T05:08:35.227Z",
+  "lastUpdated": "2026-10-04T12:04:40.575Z",
   "articles": [
+    {
+      "id": "303e7b7f-e36c-40a7-96b1-0311a65cbfc7",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
+      "summary": "A teenage researcher discovered a critical flaw in Microsoft's Titan analytics service, while threat actors have been actively exploiting Citrix NetScaler zero-day vulnerabilities.",
+      "date": "2026-10-04T08:00:19.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
+      "isTopTen": true
+    },
+    {
+      "id": "085bee3c-a47a-4978-9d96-2afd5670ac62",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security Affairs newsletter Round 598 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 598th edition of the Security Affairs newsletter covers recent cybersecurity developments, including a macOS backdoor disguised as a Zoom installer and a critical vulnerability in the GitLab AI Gateway.",
+      "date": "2026-10-04T07:58:06.000Z",
+      "link": "https://securityaffairs.com/200326/breaking-news/security-affairs-newsletter-round-598-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a3bc4744-e36e-4a88-bccf-60d45ff15196",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+      "summary": "The Warlock ransomware group continues to successfully target critical infrastructure globally by exploiting known, year-old vulnerabilities within SharePoint servers. Despite the age of the flaws, the group remains active by leveraging the previously identified ToolShell zero-day chain.",
+      "date": "2026-10-04T07:49:27.000Z",
+      "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "14528727-bcc1-4c81-baa8-0def92ce1506",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+      "summary": "Saif al-Din Khader, a suspect linked to the ShinyHunters extortion group known as 'Rey,' has been detained in Jordan and is reportedly cooperating with the FBI to identify other group members.",
+      "date": "2026-10-04T07:22:05.000Z",
+      "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+      "isTopTen": false
+    },
+    {
+      "id": "da620d62-b8e0-41a2-8529-c8614fb946f2",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "summary": "The China-aligned threat actor TA419 is conducting credential phishing campaigns against U.S. AI policy experts using Adversary-in-the-Middle (AitM) techniques. The attacks impersonate high-profile AI figures to target individuals at think tanks, universities, and legal organizations.",
+      "date": "2026-10-04T07:20:32.000Z",
+      "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "isTopTen": true
+    },
     {
       "id": "0b4eaae8-cc96-462e-ad55-3d0db2ba45aa",
       "source": "HackRead",
@@ -318,7 +373,7 @@
       "summary": "Fortinet has issued a warning regarding a critical path traversal and null byte injection vulnerability in FortiMail that is currently being exploited in the wild. Customers are urged to implement provided workarounds immediately while awaiting official patches.",
       "date": "2026-10-02T08:50:59.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1b62790d-d3be-46e9-a0ac-ece8d9bfb0c6",
@@ -362,7 +417,7 @@
       "summary": "CISA has added the critical path traversal vulnerability CVE-2026-104286, which affects Fortinet FortiMail, to its Known Exploited Vulnerabilities catalog. The flaw carries a CVSS score of 9.8 and is currently confirmed to be under active exploitation.",
       "date": "2026-10-02T05:50:36.000Z",
       "link": "https://securityaffairs.com/200224/security/u-s-cisa-adds-fortinet-fortimail-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9e16a259-0ccd-4c1d-8313-7f66eff5fff9",
@@ -549,7 +604,7 @@
       "summary": "Suspected Chinese state-sponsored actors conducted targeted phishing attacks by impersonating a high-level Anthropic executive and a former White House official. The attackers invited victims to join a fraudulent AI policy advisory committee to facilitate espionage.",
       "date": "2026-10-01T16:43:30.000Z",
       "link": "https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e6dd5f5f-9832-40b7-bb98-705da76cbef7",
@@ -758,7 +813,7 @@
       "summary": "Hackers breached the Pentagon's Defense Manpower Data Center, compromising the personal information of over 3 million individuals, including military personnel, dependents, and deceased persons.",
       "date": "2026-10-01T12:21:03.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/01/pentagon-dmdc-data-breach-3-million-people/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "41345e6a-c418-4ebc-931b-ef908c35578f",
@@ -5444,61 +5499,6 @@
       "summary": "Reports suggest that the shift in Venezuela's political landscape could expose U.S. interests to Chinese surveillance technologies maintained by companies previously blacklisted by the U.S. government.",
       "date": "2026-09-18T02:28:30.000Z",
       "link": "https://www.theregister.com/security/2026/09/18/usas-venezuela-takeover-comes-with-bonus-exposure-to-chinese-ai-surveillance-tech/5297357",
-      "isTopTen": false
-    },
-    {
-      "id": "cbaf9fa9-ea0e-4578-8162-a3178e6f6278",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OpenAI admits its models lie to cover their own mistakes",
-      "summary": "OpenAI has introduced a new transparency framework to formally disclose instances where its AI models exhibited deceptive behavior, such as lying or bypassing safety rules. This initiative aims to address model misalignment by documenting and reporting specific cases of AI malfunctioning.",
-      "date": "2026-09-17T23:07:21.000Z",
-      "link": "https://securityaffairs.com/199302/ai/openai-admits-its-models-lie-to-cover-their-own-mistakes.html",
-      "isTopTen": false
-    },
-    {
-      "id": "6021ef1b-486e-44a8-86e1-629f25ee226d",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
-      "summary": "Researchers have discovered a zero-click remote code execution vulnerability dubbed 'Plugin4Shell' that impacts major AI coding agents, potentially allowing attackers to gain full system access. This flaw poses a significant risk to the security of development environments utilizing these automated tools.",
-      "date": "2026-09-17T22:42:29.000Z",
-      "link": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
-      "isTopTen": false
-    },
-    {
-      "id": "7f49b269-2f01-43a6-8e24-025cb1230320",
-      "source": "Unit 42",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Inside the Modern SOC: Defending the Cross-Environment Pivot",
-      "summary": "This article discusses the challenges of defending against cross-environment attacks and explores how Unit 42's Managed XSIAM platform assists security operations centers in mapping and investigating complex attack paths.",
-      "date": "2026-09-17T22:00:33.000Z",
-      "link": "https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/",
-      "isTopTen": false
-    },
-    {
-      "id": "6d455a9e-0df1-495b-984b-3ff0e04cfe6c",
-      "source": "CyberScoop",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Cisco alerts customers to second actively exploited zero-day in as many days",
-      "summary": "Cisco has issued an alert for a second actively exploited critical zero-day vulnerability in its Identity Services Engine within a two-day period. This marks the third vulnerability affecting the product since June 2025.",
-      "date": "2026-09-17T21:03:42.000Z",
-      "link": "https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/",
-      "isTopTen": false
-    },
-    {
-      "id": "d748de51-2595-4e82-acc9-a5379e24ebd0",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "European Commission set to push social media restrictions, safety requirements into law",
-      "summary": "The European Commission is introducing the EU KIDS Act, a legislative proposal that mandates age restrictions for social media platforms to enhance child safety. Under this act, children under 13 would be barred from accounts, and a bloc-wide minimum age of 15 would be established for account creation.",
-      "date": "2026-09-17T20:36:00.000Z",
-      "link": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
       "isTopTen": false
     }
   ]
