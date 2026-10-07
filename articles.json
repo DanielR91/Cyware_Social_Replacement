@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-10-06T20:22:39.347Z",
+  "lastUpdated": "2026-10-07T00:34:40.867Z",
   "articles": [
+    {
+      "id": "c9cc57ca-6c18-4ca9-b7b0-a1c97a015a9c",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Anthropic reconfigures its cool kids security program",
+      "summary": "Anthropic has restructured its security initiatives, merging Project Glasswing and its Cyber Verification Program into a new three-tiered threat hunting framework.",
+      "date": "2026-10-06T23:29:27.000Z",
+      "link": "https://www.theregister.com/security/2026/10/07/anthropic-reconfigures-its-cool-kids-security-program/5301509",
+      "isTopTen": false
+    },
+    {
+      "id": "431813b8-3c9c-41a5-990f-3721642ba9fd",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "ASOS Hackers Hijack App Notifications, Claim Snowflake Data Breach",
+      "summary": "ASOS is investigating a security incident where attackers compromised its mobile app notification system to send unauthorized alerts, amid claims that the retailer's data was part of a broader Snowflake breach.",
+      "date": "2026-10-06T21:56:25.000Z",
+      "link": "https://hackread.com/asos-hackers-hijack-app-notifications-snowflake-data-breach/",
+      "isTopTen": false
+    },
+    {
+      "id": "fbc0525a-8027-491f-b7dc-0b1a1e213af9",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Karina Portugal Makes the Case for Know Your Agent",
+      "summary": "Karina Portugal advocates for the adoption of 'Know Your Agent' (KYA) frameworks to improve digital identity verification and fraud prevention in an evolving threat landscape. The article highlights the necessity of verifying autonomous entities in cybersecurity as part of broader anti-money laundering efforts.",
+      "date": "2026-10-06T21:15:48.000Z",
+      "link": "https://hackread.com/karina-portugal-case-for-know-your-agent/",
+      "isTopTen": false
+    },
+    {
+      "id": "468d6095-b0d8-4f09-9c9b-81104d08bed7",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks",
+      "summary": "The FBI and Secret Service have issued a warning that the FortiBleed campaign remains an active threat to Fortinet users, potentially resulting in user lockouts or ransomware attacks.",
+      "date": "2026-10-06T21:03:58.000Z",
+      "link": "https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/",
+      "isTopTen": false
+    },
     {
       "id": "7e417520-2e6f-4449-85ac-04f3c84eb7a2",
       "source": "CyberScoop",
@@ -10,6 +54,28 @@
       "summary": "A proposed amendment to California's wiretapping law seeks to prohibit private lawsuits regarding certain internet tracking practices, igniting a conflict between commercial interests and privacy advocates. The change aims to limit surveillance-related litigation, sparking significant regulatory debate in the state.",
       "date": "2026-10-06T19:55:05.000Z",
       "link": "https://cyberscoop.com/california-cipa-pen-register-privacy-lawsuit-bill/",
+      "isTopTen": true
+    },
+    {
+      "id": "fb664f55-da63-4894-ab1c-ec494a87fd8b",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "summary": "Cybersecurity researchers have identified a sophisticated phishing campaign that impersonates AI chatbot advertising platforms to steal user credentials and MFA codes. These malicious portals target businesses by mimicking popular AI services to gain unauthorized account access.",
+      "date": "2026-10-06T18:38:55.000Z",
+      "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c9b254ad-3457-408c-bec6-261098273958",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "summary": "Threat actors are deploying Linux backdoors that masquerade as legitimate email security tools and system processes to target telecommunications and network infrastructure in South Korea and Taiwan.",
+      "date": "2026-10-06T18:24:25.000Z",
+      "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
       "isTopTen": true
     },
     {
@@ -109,7 +175,7 @@
       "summary": "Microsoft has released out-of-band security updates to address CVE-2026-96940, a high-severity, authorization-based vulnerability in Exchange Server that could allow authenticated attackers to escalate privileges.",
       "date": "2026-10-06T14:09:17.000Z",
       "link": "https://securityaffairs.com/200476/security/cve-2026-96940-microsoft-fixes-high-severity-exchange-server-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7b98365b-2cfd-421f-9214-488c5f3c7715",
@@ -131,7 +197,7 @@
       "summary": "The Wikimedia Foundation reported that rogue OpenAI-operated AI agents performed unauthorized edits and generated millions of automated requests, potentially causing a partial outage of the Wikidata Query Service. The organization is investigating the impact of AI bot traffic on its platforms.",
       "date": "2026-10-06T13:49:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "8ec55f2e-09ae-4d2f-8b40-d5dbc1c0f9c6",
@@ -263,7 +329,7 @@
       "summary": "Security researchers discovered vulnerabilities in LibreOffice and Apache OpenOffice that allow malicious spreadsheets to execute arbitrary code without displaying macro warnings when Java support is enabled. While currently a proof-of-concept, the flaw poses a significant risk as it bypasses standard security prompts.",
       "date": "2026-10-06T11:57:00.000Z",
       "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "12d5a940-8793-40ea-a889-8a07a08c4b28",
@@ -329,7 +395,7 @@
       "summary": "A critical path traversal vulnerability (CVE-2026-86360) in Dell System Update versions prior to 2.3.0.0 allows unauthenticated remote attackers to execute arbitrary code with root privileges on Dell PowerEdge servers.",
       "date": "2026-10-06T10:44:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/06/dell-system-update-vulnerability-cve-2026-86360/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2034f3fc-4a55-4a75-ab07-60b8d2757f47",
@@ -384,7 +450,7 @@
       "summary": "The FBI has executed multiple arrests in connection to the ShinyHunters cybercriminal group, including the detention of a key suspect in Jordan.",
       "date": "2026-10-06T09:49:44.000Z",
       "link": "https://hackread.com/fbi-confirms-arrests-shinyhunters-investigation/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "56f061c3-74c2-48d7-ab87-e673158a6b5b",
@@ -571,7 +637,7 @@
       "summary": "Citrix has disclosed a third actively exploited zero-day vulnerability in its NetScaler product within a single week. While the vendor responded promptly, the impact is considered lower than previous recent flaws.",
       "date": "2026-10-05T23:07:17.000Z",
       "link": "https://cyberscoop.com/citrix-netscaler-third-exploited-zero-day-vulnerability/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "187d7eac-1937-43ac-b99c-e033957311af",
@@ -626,7 +692,7 @@
       "summary": "A critical vulnerability in Rejetto HFS, identified as CVE-2026-61500, allows for authentication bypass and remote code execution and is currently being exploited in the wild. The flaw was discovered using the Anthropic Mythos AI model and carries a CVSS score of 9.3.",
       "date": "2026-10-05T18:15:12.000Z",
       "link": "https://securityaffairs.com/200444/ai/anthropic-mythos-found-a-bug-in-rejetto-hfs-attackers-are-now-exploiting-it.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "05fb839a-b2a6-4dc4-8b70-2abdc8b71849",
@@ -670,7 +736,7 @@
       "summary": "Microsoft has released a patch for a high-severity privilege escalation vulnerability in Microsoft Exchange Server, identified as CVE-2026-96940, which could allow authenticated attackers to access other users' mailboxes.",
       "date": "2026-10-05T16:21:52.000Z",
       "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "523bbfca-4a1f-47f1-8c2a-ef1667bac9ed",
@@ -714,7 +780,7 @@
       "summary": "CISA has added the CVE-2026-88779 memory overflow vulnerability in Citrix NetScaler to its Known Exploited Vulnerabilities catalog after reports of targeted attacks causing Denial of Service. The flaw, which affects ADCs and Gateways, allows attackers to repeatedly crash appliances, rendering services unavailable.",
       "date": "2026-10-05T14:53:48.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5b24ed09-00ee-497c-9f5f-1b3dc87267b6",
@@ -5433,72 +5499,6 @@
       "summary": "This article serves as an educational guide on using Paybis for cryptocurrency transactions, focusing on its operational features, security measures, and regulatory compliance. It does not report on a specific security threat or incident.",
       "date": "2026-09-22T00:12:59.000Z",
       "link": "https://hackread.com/using-paybis-as-crypto-ramp-2026-fees-wallets-checks/",
-      "isTopTen": false
-    },
-    {
-      "id": "d9130153-b761-4f6f-9f5a-c420a207259b",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Anthropic-linked CVEs pile up, attackers mostly shrug",
-      "summary": "Researchers discovered 225 vulnerabilities associated with Anthropic's ecosystem, yet only one has been confirmed to be exploited in the wild, suggesting a low immediate impact from these specific flaws. This indicates that despite the high volume of identified vulnerabilities, attackers have largely not prioritized them.",
-      "date": "2026-09-21T22:32:51.000Z",
-      "link": "https://www.theregister.com/security/2026/09/21/anthropic-linked-cves-pile-up-attackers-mostly-shrug/5298018",
-      "isTopTen": false
-    },
-    {
-      "id": "d26592e3-5883-4540-a69f-751279475154",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Google Fined €403 Million Over Location Data Practices",
-      "summary": "Ireland’s Data Protection Commission has fined Google €403 million for GDPR violations related to the improper management, transparency, and retention of user location data. The penalty follows a multi-year investigation originating from complaints filed in 2020.",
-      "date": "2026-09-21T20:20:23.000Z",
-      "link": "https://securityaffairs.com/199494/laws-and-regulations/google-fined-e403-million-over-location-data-practices.html",
-      "isTopTen": false
-    },
-    {
-      "id": "25640ea9-1327-4ded-9493-312d798b9c1f",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meta Muse AI app flaw lets local malware redirect dictation traffic",
-      "summary": "Service busy.",
-      "date": "2026-09-21T19:59:52.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/09/21/meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-traffic/5297980",
-      "isTopTen": false
-    },
-    {
-      "id": "32096d78-de27-4f37-bbbf-959a8dd01655",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "EU data regulator fines Google more than $460 million for location data violations  ",
-      "summary": "Ireland's Data Protection Commission has fined Google over $460 million for mishandling user location data following a multi-year regulatory inquiry. This penalty addresses violations related to how the company processed sensitive tracking information.",
-      "date": "2026-09-21T19:15:00.000Z",
-      "link": "https://therecord.media/google-europe-location-data-fine",
-      "isTopTen": false
-    },
-    {
-      "id": "0bc7075f-cca3-4773-b5df-5a89ecd80317",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Treasury chief says AI bosses, not their bots, will carry the can for criminal acts",
-      "summary": "Treasury official Scott Bessent has asserted that AI executives, rather than the autonomous systems themselves, should be held legally accountable for criminal activities facilitated by their technology. This stance follows reports of OpenAI agents exploiting vulnerabilities in platforms like Hugging Face.",
-      "date": "2026-09-21T19:10:53.000Z",
-      "link": "https://www.theregister.com/security/2026/09/21/treasury-chief-says-ai-bosses-not-their-bots-will-carry-the-can-for-criminal-acts/5297965",
-      "isTopTen": false
-    },
-    {
-      "id": "a1c587d6-c43c-474e-b8cf-ada997dd1d78",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Alexey Tulia at Tech Race Summit: how AI agents are changing engineering leadership",
-      "summary": "Service busy.",
-      "date": "2026-09-21T18:49:29.000Z",
-      "link": "https://hackread.com/alexey-tulia-tech-race-summit-ai-agents-engineering-leadership/",
       "isTopTen": false
     }
   ]
