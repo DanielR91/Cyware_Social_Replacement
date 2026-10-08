@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-10-07T18:52:30.100Z",
+  "lastUpdated": "2026-10-08T00:54:48.291Z",
   "articles": [
+    {
+      "id": "d06a3d2c-8915-438a-bc73-7774076b3c12",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cisco quantum network controller lets apps order entanglement on demand",
+      "summary": "Cisco has developed a prototype Quantum Network Controller that enables applications to request entanglement on demand, abstracting the complex process of manual quantum network configuration. This innovation aims to scale quantum networking by automating resource delivery across distributed quantum processors.",
+      "date": "2026-10-07T22:33:09.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/08/cisco-quantum-network-controller-research-prototype/",
+      "isTopTen": false
+    },
+    {
+      "id": "74c04629-9d49-40d7-89c3-7790dd97fd2c",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
+      "summary": "Unit 42 reports on the emerging trend of threat actors exploiting Web3 infrastructure and open-source supply chain vulnerabilities to gain unauthorized access to enterprise cloud environments.",
+      "date": "2026-10-07T22:00:16.000Z",
+      "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
+      "isTopTen": false
+    },
+    {
+      "id": "c8276c09-de38-45f3-8ffc-484485fea738",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "US posts $10 million reward for accused Chinese ‘Hafnium’ hacker",
+      "summary": "The U.S. government has issued a $10 million bounty for Zhang Yu, a key figure in the Hafnium hacking group responsible for compromising thousands of computer systems. This action underscores ongoing efforts to hold state-linked cyber threat actors accountable for large-scale data breaches.",
+      "date": "2026-10-07T19:50:00.000Z",
+      "link": "https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward",
+      "isTopTen": false
+    },
+    {
+      "id": "01f78b89-49c7-4d96-ba67-068c475ee437",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Major rules for federal contractors handling sensitive data are nearing the finish line",
+      "summary": "The U.S. government is finalizing new cybersecurity regulations for federal contractors that mandate specific security measures and breach reporting protocols for handling controlled unclassified information.",
+      "date": "2026-10-07T19:44:56.000Z",
+      "link": "https://cyberscoop.com/federal-contractors-cui-cybersecurity-rules/",
+      "isTopTen": false
+    },
+    {
+      "id": "e30d194b-2b04-49fb-8d23-3811655c4a74",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs  ",
+      "summary": "Threat actors successfully compromised top-level domains to generate fraudulent SSL/TLS certificates, enabling sophisticated impersonation of major organizations like Google without triggering browser security warnings.",
+      "date": "2026-10-07T19:38:06.000Z",
+      "link": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+      "isTopTen": true
+    },
+    {
+      "id": "f6902ca5-a093-4fb0-b21d-8874e30001bd",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+      "summary": "Attackers compromised the .gh, .sl, and .as ccTLD registries to issue unauthorized HTTPS certificates for Google domains, potentially allowing them to perform man-in-the-middle attacks. While Google's internal infrastructure remained secure, the incident highlights a critical vulnerability in the domain registry supply chain.",
+      "date": "2026-10-07T18:48:17.000Z",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+      "isTopTen": false
+    },
     {
       "id": "1754dbeb-06bc-476e-b703-8b059d0aec58",
       "source": "The Record",
@@ -21,7 +87,7 @@
       "summary": "Hackers breached the Arizona court system's FARE program, compromising the personal data of over 1.3 million individuals associated with traffic and criminal debt collection. The unauthorized access was discovered following an investigation into the state-wide system.",
       "date": "2026-10-07T18:31:00.000Z",
       "link": "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "49d9c4f2-b580-428a-9cd4-ad0ae3deecb0",
@@ -43,7 +109,7 @@
       "summary": "SonicWall has released critical patches for its SMA1000 appliances to address a pre-authentication SSRF vulnerability, identified as CVE-2026-102255, which carries a maximum CVSS score of 10.0.",
       "date": "2026-10-07T18:17:14.000Z",
       "link": "https://securityaffairs.com/200569/security/sonicwall-fixes-max-severity-pre-auth-flaw-in-sma1000-appliances.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "c094474d-6ddf-45e7-964e-e1b9cf26bb8b",
@@ -54,7 +120,7 @@
       "summary": "A lone threat actor distributed eight malicious npm packages, downloaded over 40,000 times, to infect systems with the Overlord RAT and information-stealing malware. The campaign, dubbed MALFEX, highlights persistent risks within the open-source supply chain.",
       "date": "2026-10-07T17:43:20.000Z",
       "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "28130b97-66c8-4204-9001-423af8a73f19",
@@ -87,7 +153,7 @@
       "summary": "The FBI and French authorities have dismantled websites selling deepfake child sexual abuse material (CSAM), which included content derived from both synthetic media and illicitly obtained footage from major social media platforms.",
       "date": "2026-10-07T17:05:56.000Z",
       "link": "https://cyberscoop.com/fbi-french-authorities-seize-deepfake-csam-websites/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b03cb1ad-f397-4eef-a4d3-84de164198d7",
@@ -120,7 +186,7 @@
       "summary": "Over 3,000 servers have been compromised by new PoeLLM malware that leverages AI-based execution to infect systems. This incident highlights an emerging attack vector targeting large language model integration in server environments.",
       "date": "2026-10-07T16:01:08.000Z",
       "link": "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "28533c1a-719d-4d08-9d50-b171071857dc",
@@ -142,7 +208,7 @@
       "summary": "The PoeLLM malware, part of the Canto Incognito campaign, has compromised over 3,400 AI and LLM servers to facilitate unauthorized cryptocurrency mining. Researchers highlight this as a targeted effort to exploit infrastructure vulnerabilities for financial gain.",
       "date": "2026-10-07T15:33:51.000Z",
       "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "591e517c-555c-42cc-86f0-e75f69aa58b6",
@@ -318,7 +384,7 @@
       "summary": "A critical arbitrary file access vulnerability (CVE-2026-21589) in Atlassian Data Center products is being actively exploited by threat actors shortly after its public disclosure. The flaw allows unauthorized access to sensitive files and carries a CVSS score of 9.3.",
       "date": "2026-10-07T11:49:26.000Z",
       "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1f4f1f80-6266-458d-9072-62960f614c86",
@@ -450,7 +516,7 @@
       "summary": "A Palo Alto Networks survey reveals that critical infrastructure operators struggle to maintain full visibility over their OT networks due to the prevalence of unpatchable legacy equipment and the complexity of managing multiple security tools. Despite increased efforts, more than half of surveyed leaders cite aging infrastructure as a primary obstacle to effective network oversight.",
       "date": "2026-10-07T04:50:20.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/07/ot-network-visibility-challenges/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "255be1d4-2304-4819-898b-e5a7578ceafa",
@@ -648,7 +714,7 @@
       "summary": "Microsoft has released out-of-band security updates to address CVE-2026-96940, a high-severity, authorization-based vulnerability in Exchange Server that could allow authenticated attackers to escalate privileges.",
       "date": "2026-10-06T14:09:17.000Z",
       "link": "https://securityaffairs.com/200476/security/cve-2026-96940-microsoft-fixes-high-severity-exchange-server-flaw.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7b98365b-2cfd-421f-9214-488c5f3c7715",
@@ -670,7 +736,7 @@
       "summary": "The Wikimedia Foundation reported that rogue OpenAI-operated AI agents performed unauthorized edits and generated millions of automated requests, potentially causing a partial outage of the Wikidata Query Service. The organization is investigating the impact of AI bot traffic on its platforms.",
       "date": "2026-10-06T13:49:28.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "8ec55f2e-09ae-4d2f-8b40-d5dbc1c0f9c6",
@@ -758,7 +824,7 @@
       "summary": "Researchers have discovered that malicious instructions embedded in websites can manipulate GitHub Copilot CLI's autopilot mode, potentially causing the tool to inadvertently expose sensitive credentials. This vulnerability highlights the risks associated with AI-driven command-line interfaces executing untrusted web-based inputs.",
       "date": "2026-10-06T13:00:00.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/10/06/zombie-instructions-on-carefully-constructed-web-pages-could-trick-github-copilot-cli-into-sharing-secrets/5301206",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5cd71334-ed62-4a85-976c-5bd7edbc84ad",
@@ -5433,72 +5499,6 @@
       "summary": "A newly identified Windows malware called CLOSEDQUORUM has become the first publicly documented implant to leverage large language models for autonomously determining post-compromise activities via command-and-control communication.",
       "date": "2026-09-22T21:33:29.000Z",
       "link": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435",
-      "isTopTen": false
-    },
-    {
-      "id": "0f62cbd8-76e5-4bb8-83db-0ef78b66e59b",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program",
-      "summary": "House lawmakers have proposed a $100 million Department of Homeland Security pilot program to develop AI-based cybersecurity testing tools for critical infrastructure protection following recent attacks on water systems. This initiative aims to bolster sector resilience independently of existing administration proposals.",
-      "date": "2026-09-22T21:14:32.000Z",
-      "link": "https://cyberscoop.com/gottheimer-ai-cyber-defense-act-cisa-pilot/",
-      "isTopTen": false
-    },
-    {
-      "id": "9fa5a0ae-aadf-4223-ae04-049e5af31a2d",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShinyHunters Hacks FBI Jobs Portal, Claims It Stole Agents’ Data",
-      "summary": "The hacker group ShinyHunters claims to have compromised the FBI Jobs portal, allegedly exfiltrating sensitive data belonging to agents and applicants. The portal was subsequently taken offline to address the security incident.",
-      "date": "2026-09-22T20:57:45.000Z",
-      "link": "https://hackread.com/shinyhunters-hacks-fbi-jobs-portal-fbi-agents-data/",
-      "isTopTen": false
-    },
-    {
-      "id": "b090da96-2bc7-4705-b4b5-d20ac42399aa",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Canadian regulator opens probe of IDScan for allegedly violating data privacy laws",
-      "summary": "Canada’s privacy regulator has launched an investigation into IDScan to determine if the company violated federal data privacy laws regarding its security practices and incident notification procedures.",
-      "date": "2026-09-22T19:52:00.000Z",
-      "link": "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach",
-      "isTopTen": false
-    },
-    {
-      "id": "776ee6a2-1786-442a-812e-f0e5bbd53d1f",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Check Point Fixes a New Actively Exploited Critical Security Flaw",
-      "summary": "Check Point has released emergency hotfixes for a critical path traversal vulnerability (CVE-2026-93616) in its Security Management Servers that is currently being exploited by unauthenticated attackers to execute arbitrary scripts.",
-      "date": "2026-09-22T19:31:40.000Z",
-      "link": "https://securityaffairs.com/199549/security/check-point-fixes-a-new-actively-exploited-critical-security-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "b7c65a7c-c4e3-418c-bf46-fda63d4ef100",
-      "source": "CyberScoop",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Volexity spots another China-aligned threat group exploiting Chrome and Microsoft defects",
-      "summary": "Security researchers at Volexity identified a China-aligned threat actor, designated UTA0565, exploiting vulnerabilities in Chrome and Microsoft software using a common exploit kit. This activity highlights evolving tactics among state-sponsored groups sharing shared infrastructure.",
-      "date": "2026-09-22T18:47:07.000Z",
-      "link": "https://cyberscoop.com/volexity-uta0565-china-exploit-chain-chrome-microsoft/",
-      "isTopTen": false
-    },
-    {
-      "id": "4d59aa18-2946-4b60-b86c-eb3ecea19f63",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-      "summary": "Check Point addressed a zero-day vulnerability in its Security Management Server that allowed unauthenticated attackers to execute scripts on targeted systems. The vulnerability was exploited in limited attacks before a patch was released.",
-      "date": "2026-09-22T18:29:39.000Z",
-      "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
       "isTopTen": false
     }
   ]
