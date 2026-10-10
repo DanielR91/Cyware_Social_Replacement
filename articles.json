@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T18:16:16.694Z",
+  "lastUpdated": "2026-10-10T00:39:31.110Z",
   "articles": [
     {
       "id": "0369c07c-702f-4b66-9932-98c6b2e60db7",
@@ -10,6 +10,72 @@
       "summary": "Raheim Hamilton, a co-creator of the Empire Market dark web marketplace, has been sentenced to 40 years in prison following a guilty plea for drug conspiracy. As part of his sentence, he has agreed to forfeit over $100 million in cryptocurrency and various real estate assets.",
       "date": "2026-10-10T00:55:00.000Z",
       "link": "https://therecord.media/co-creator-empire-dark-net-market-sentenced",
+      "isTopTen": false
+    },
+    {
+      "id": "b8d807a9-41ca-42e3-b638-61ef7c1d01dc",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "AWS AgentCore security undone by prompt requesting credentials",
+      "summary": "A security flaw in the AWS AgentCore component allows attackers to exfiltrate credentials through simple prompt injection due to weak VM isolation and excessive permissions. This vulnerability simplifies unauthorized access to sensitive cloud environment tokens.",
+      "date": "2026-10-09T19:15:48.000Z",
+      "link": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
+      "isTopTen": false
+    },
+    {
+      "id": "41e406ff-d4f2-4161-b6a5-b379d785b431",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "summary": "Attackers compromised high-profile open-source accounts to inject malicious GitHub Actions workflows into tens of thousands of repositories to steal credentials. This supply chain campaign highlights the risks of automated workflow exploitation in the open-source ecosystem.",
+      "date": "2026-10-09T19:14:28.000Z",
+      "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "isTopTen": true
+    },
+    {
+      "id": "9af49724-f97c-4dea-a24d-af8c53fadf27",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Germany Arrests Suspected Qilin Ransomware Leader After Japan Detention",
+      "summary": "German authorities have arrested a suspected leader of the Qilin ransomware gang following his extradition from Japan. Despite the arrest, the ransomware group remains active and continues to launch attacks against victims.",
+      "date": "2026-10-09T18:45:43.000Z",
+      "link": "https://securityaffairs.com/200695/uncategorized/germany-arrests-suspected-qilin-ransomware-leader-after-japan-detention.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1b41be75-8092-4815-8c4e-14f7a8151313",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
+      "summary": "Japanese authorities have arrested a Russian national linked to the Qilin ransomware gang and successfully extradited the individual to Germany to face charges. This operation marks a significant cross-border law enforcement action against members of the notorious ransomware collective.",
+      "date": "2026-10-09T18:45:00.000Z",
+      "link": "https://therecord.media/japan-germany-ransomware-arrest",
+      "isTopTen": false
+    },
+    {
+      "id": "9c80d638-1cce-4645-be0d-79f9c4571ebd",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "MonsterCloud CEO Zohar Pinhasi Accused of Paying Hackers, Defrauding Victims",
+      "summary": "MonsterCloud CEO Zohar Pinhasi has been charged by the DOJ for allegedly orchestrating a scheme where he paid ransomware gangs for decryption keys while deceptively charging clients inflated fees for the recovery services. This behavior implies a conflict of interest and fraudulent business practices involving criminal threat actors.",
+      "date": "2026-10-09T18:19:01.000Z",
+      "link": "https://hackread.com/monstercloud-ceo-zohar-pinhasi-ransomware-victims/",
+      "isTopTen": true
+    },
+    {
+      "id": "7a30bea0-2a23-4abe-801e-f0a7a6f0942e",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "summary": "The FBI has arrested a suspected co-conspirator linked to the ShinyHunters hacking group following their claim of breaching the FBI's jobs portal. The identity of the suspect remains undisclosed as the investigation continues.",
+      "date": "2026-10-09T17:45:26.000Z",
+      "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
       "isTopTen": false
     },
     {
@@ -32,7 +98,7 @@
       "summary": "Cardiac monitoring company iRhythm has confirmed a data breach occurring over the summer that has affected hundreds of thousands of individuals. The firm is currently in the process of notifying state authorities regarding the incident.",
       "date": "2026-10-09T16:06:00.000Z",
       "link": "https://therecord.media/irhythm-data-breach-reports",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0bc31397-fb2c-445e-943f-524c07dce406",
@@ -98,7 +164,7 @@
       "summary": "Four additional U.S. states have joined a lawsuit against TP-Link, alleging the company misled consumers regarding router security and its corporate ties to China. TP-Link has denied the allegations and intends to contest the claims in court.",
       "date": "2026-10-09T13:22:53.000Z",
       "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3507f0cb-ad8a-4b4f-afb5-0d387adb4242",
@@ -197,7 +263,7 @@
       "summary": "The DOJ and FBI successfully disrupted two China-linked espionage tools, Microscan and FishHub, which were utilized by a Beijing-based company to target global critical infrastructure. This operation effectively neutralized hacking capabilities that were directly supported by government contracts.",
       "date": "2026-10-09T10:49:22.000Z",
       "link": "https://securityaffairs.com/200673/security/us-disrupts-china-linked-integrity-tech-cyber-espionage-tools.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ed6f7e37-6bd1-48af-aecb-0654d0fd9793",
@@ -274,7 +340,7 @@
       "summary": "Three research teams successfully demonstrated remote exploits against fully patched Google Pixel 10 devices during the Pwn2Own Ireland competition, highlighting significant undisclosed vulnerabilities. The findings were disclosed to Google to facilitate the development of security patches.",
       "date": "2026-10-09T08:26:17.000Z",
       "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "66f1f518-1ff8-4b7b-b2cf-e661e99b3895",
@@ -406,7 +472,7 @@
       "summary": "U.S. lawmakers are cautioning that Google's $10 million AI training deal involving Spirit Airlines data could expose sensitive employee records and private communications. The potential transfer includes massive datasets, raising significant privacy and data security concerns.",
       "date": "2026-10-08T20:27:00.000Z",
       "link": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "05e4c782-62ae-4b3c-bbb2-491270a0dc5e",
@@ -714,7 +780,7 @@
       "summary": "The rapid advancement of quantum computing poses a significant future threat to current encryption standards, necessitating urgent policy action and the adoption of post-quantum defenses by the U.S. government.",
       "date": "2026-10-08T10:00:00.000Z",
       "link": "https://cyberscoop.com/quantum-computers-could-break-todays-encryption-washington-needs-to-prepare-now/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b1cf729f-ea62-4e9f-bb1c-92cf59faff6e",
@@ -5433,72 +5499,6 @@
       "summary": "Researchers have discovered an updated version of the PamStealer macOS malware that utilizes server-side decryption and improved persistence mechanisms to evade detection. The malware maintains its use of JavaScript for Automation (JXA) while refining its delivery and obfuscation methods.",
       "date": "2026-09-25T13:18:06.000Z",
       "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-      "isTopTen": false
-    },
-    {
-      "id": "785117bf-f4cf-4c74-b6df-4bab4c75b3d7",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Only 26% of Detected CISA Known Exploited Vulnerabilities Were Fully Remediated",
-      "summary": "A Verizon report reveals that only 26% of known exploited vulnerabilities tracked by CISA have been fully remediated, even as vulnerability exploitation has become the leading initial access vector for attackers.",
-      "date": "2026-09-25T12:44:38.000Z",
-      "link": "https://hackread.com/26-detected-cisa-known-exploited-vulnerabilities-remediated/",
-      "isTopTen": false
-    },
-    {
-      "id": "e10458f7-8cbc-41c4-9018-f4527f6db95e",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Threat detection dashboards are masking security coverage gaps",
-      "summary": "Research indicates that nearly half of security detection rules are ineffective despite appearing active on dashboards due to logic errors and configuration issues. This discrepancy creates a false sense of security, leaving organizations vulnerable to undetected threats.",
-      "date": "2026-09-25T12:04:03.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/25/threat-detections-coverage-gaps-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "aaaf71b5-56d9-48d1-897f-422a1beccf8b",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
-      "summary": "Salmon has launched its Execution Verification Infrastructure (EVI) designed to secure autonomous systems and AI agents against potential threats. This technology aims to provide a verification layer for AI decision-making processes to enhance security.",
-      "date": "2026-09-25T12:00:05.000Z",
-      "link": "https://hackread.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
-      "isTopTen": false
-    },
-    {
-      "id": "84d2d6c6-c5b9-42c4-8a23-0f25fd132ee1",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Low",
-      "title": "Doubts grow over claims OpenAI agent hacked Australian Medicare portal",
-      "summary": "Security researchers are challenging claims that an OpenAI agent breached an Australian Medicare portal, suggesting that the site's own code provided public, unauthenticated access. This investigation casts doubt on whether an actual hack occurred or if the data was simply exposed via a misconfigured endpoint.",
-      "date": "2026-09-25T12:00:00.000Z",
-      "link": "https://therecord.media/openai-australia-breach-cyber",
-      "isTopTen": false
-    },
-    {
-      "id": "00563ee0-0300-4287-ac0d-7d800163c78a",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The SOC Doesn't Need to Start Over with Every Alert",
-      "summary": "AI is lowering the cost of cyberattacks by enabling rapid, automated retries for previously labor-intensive tasks like privilege escalation. This shift necessitates a change in how Security Operations Centers handle repetitive alert patterns.",
-      "date": "2026-09-25T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2c215cba-4e38-4935-b28a-c3d28e486d7c",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "SectopRAT Abuses Legitimate Audio Software Files to Steal PC Data",
-      "summary": "SectopRAT is a new remote access trojan that leverages modified audio software to perform staged loading, allowing attackers to steal sensitive browser data and gain unauthorized remote control over Windows systems.",
-      "date": "2026-09-25T10:43:28.000Z",
-      "link": "https://hackread.com/sectoprat-abuses-audio-software-steal-pc-data/",
       "isTopTen": false
     }
   ]
