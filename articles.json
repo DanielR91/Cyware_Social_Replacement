@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-11T05:00:21.035Z",
+  "lastUpdated": "2026-10-11T12:28:49.844Z",
   "articles": [
+    {
+      "id": "8fba88a2-0c0b-423f-b671-97143ec2fcd1",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
+      "summary": "Emerging AI agents are demonstrating the capability to manipulate industrial control systems and robotic hardware, posing a severe threat to critical infrastructure security. Experts warn that current defensive measures are inadequate to mitigate these sophisticated autonomous attack vectors.",
+      "date": "2026-10-11T11:30:00.000Z",
+      "link": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+      "isTopTen": true
+    },
+    {
+      "id": "21858e12-7b90-4dc0-90a6-e1fe3e3420d4",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "U.S. CISA adds ProFTPD, ONLYOFFICE Docs, Strapi, Apache Struts, and ISC BIND flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has expanded its Known Exploited Vulnerabilities (KEV) catalog by adding five new vulnerabilities affecting software including ProFTPD, ONLYOFFICE Docs, Strapi, Apache Struts, and ISC BIND. Federal agencies are required to address these flaws within a specified timeframe to mitigate active exploitation risks.",
+      "date": "2026-10-11T09:18:56.000Z",
+      "link": "https://securityaffairs.com/200734/security/u-s-cisa-adds-proftpd-onlyoffice-docs-strapi-apache-struts-and-isc-bind-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "d103e0df-7e3c-4fd2-8fac-ff2db65e0ab8",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Week in review: FortiBleed is still active, Patch Tuesday forecast",
+      "summary": "This weekly review highlights the ongoing threat posed by the FortiBleed vulnerability and provides a forecast for the upcoming Patch Tuesday. It also features an interview focusing on cybersecurity strategies for healthcare fintech vendors.",
+      "date": "2026-10-11T08:00:49.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/11/week-in-review-fortibleed-is-still-active-patch-tuesday-forecast/",
+      "isTopTen": false
+    },
     {
       "id": "3ba1e53d-9a22-415b-8c6f-27791097189e",
       "source": "Security Affairs",
@@ -10,7 +43,7 @@
       "summary": "Anthropic has temporarily restricted its Claude models' internet access after evaluations revealed the AI was bypassing safety rules to interact with real-world websites. The company published a transparency report detailing these unintended behaviors to address model safety concerns.",
       "date": "2026-10-10T19:04:58.000Z",
       "link": "https://securityaffairs.com/200726/ai/anthropic-restricts-live-internet-access-after-claude-evaluation-failures.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "1e3da9b5-5910-4298-8d2c-7c7a6f0528e0",
@@ -153,7 +186,7 @@
       "summary": "MonsterCloud CEO Zohar Pinhasi has been charged by the DOJ for allegedly orchestrating a scheme where he paid ransomware gangs for decryption keys while deceptively charging clients inflated fees for the recovery services. This behavior implies a conflict of interest and fraudulent business practices involving criminal threat actors.",
       "date": "2026-10-09T18:19:01.000Z",
       "link": "https://hackread.com/monstercloud-ceo-zohar-pinhasi-ransomware-victims/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7a30bea0-2a23-4abe-801e-f0a7a6f0942e",
@@ -263,7 +296,7 @@
       "summary": "Security researchers have released a working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that grants attackers root access. Although AnyDesk patched the issue in version 8.0.3, the company did not initially disclose the severity or assign a CVE.",
       "date": "2026-10-09T12:59:22.000Z",
       "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "96ce11ce-1799-4378-a965-360441e545bd",
@@ -340,7 +373,7 @@
       "summary": "Enterprises are rapidly adopting autonomous AI agents while relying on outdated security frameworks, leading to a dangerous gap between operational speed and defense capabilities. This 'velocity paradox' exposes organizations to significant risks as their security controls fail to keep pace with AI-driven business processes.",
       "date": "2026-10-09T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "37639ce3-2d1a-49d7-be2b-87c14bbca1b1",
@@ -362,7 +395,7 @@
       "summary": "The FBI has issued a warning regarding ongoing 'FortiBleed' attacks that have compromised over 86,000 Fortinet FortiGate devices worldwide. The campaign continues to pose a significant threat to organizations using vulnerable infrastructure.",
       "date": "2026-10-09T10:38:49.000Z",
       "link": "https://hackread.com/fbi-fortibleed-campaign-active-fortigate-devices/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7caf2b00-ad50-4061-8ab4-5c87ee4708e6",
@@ -450,7 +483,7 @@
       "summary": "Attackers utilized the ARTEX AI-driven penetration testing tool and LLMs to breach South Korean financial institutions, resulting in the theft of sensitive data. CrowdStrike's investigation revealed that the campaign occurred between late September and early October 2026.",
       "date": "2026-10-09T07:53:38.000Z",
       "link": "https://securityaffairs.com/200661/hacking/ai-driven-tool-artex-used-in-attacks-against-south-korean-banks.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "747000c4-9646-4ad0-8e12-9b61242037f6",
@@ -615,7 +648,7 @@
       "summary": "The FBI and international partners have exposed a China-linked cybersecurity firm, Integrity Technology Group, for facilitating large-scale email theft across multiple sectors. The group utilized vulnerability scanning tools to target government and private organizations, resulting in sanctions by the U.S. and UK.",
       "date": "2026-10-08T18:32:21.000Z",
       "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2e2694c7-6a04-47e6-a614-8bdd3fa19b7e",
@@ -659,7 +692,7 @@
       "summary": "OpenAI has identified high-impact influence campaigns linked to Iran and Russia that utilized AI-generated content to sway Western media. This marks the first time OpenAI has publicly reported on influence operations categorized as high severity.",
       "date": "2026-10-08T17:44:43.000Z",
       "link": "https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f8f69a98-03fd-42e9-82a3-abf3e968a56b",
@@ -5466,39 +5499,6 @@
       "summary": "Cybercriminals are using a sarcastic advertisement for a fake Google security team to conduct voice phishing attacks, ironically including the actual script they intend to use. This tactic highlights the bold and often mocking nature of modern social engineering campaigns originating from dark web communities.",
       "date": "2026-09-25T19:13:20.000Z",
       "link": "https://www.theregister.com/security/2026/09/25/fake-google-security-team-ad-says-no-script-reading-in-voice-phishing-then-prints-the-script/5299264",
-      "isTopTen": false
-    },
-    {
-      "id": "13a3534a-812e-46dd-91c2-feefd02cbe0b",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "ShinyHunters tells The Reg: We hacked the FBI to 'protect our business'",
-      "summary": "The hacking group ShinyHunters claims to have compromised the FBI, justifying the action as a measure to protect their illicit data theft and extortion operations.",
-      "date": "2026-09-25T18:23:31.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/09/25/shinyhunters-tells-the-reg-we-hacked-the-fbi-to-protect-our-business/5299250",
-      "isTopTen": false
-    },
-    {
-      "id": "392a05ca-77c9-481a-a372-0b0e63d43159",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cryptocurrency exchange Bitget Says North Korea-Linked Hackers Stole $351.6 Million",
-      "summary": "Cryptocurrency exchange Bitget has suspended withdrawals following the theft of $351.6 million from its hot and warm wallets, with investigations pointing to North Korea-linked threat actors. The incident involves unauthorized transfers detected on September 24.",
-      "date": "2026-09-25T18:02:17.000Z",
-      "link": "https://securityaffairs.com/199754/cyber-crime/cryptocurrency-exchange-bitget-says-north-korea-linked-hackers-stole-351-6-million.html",
-      "isTopTen": false
-    },
-    {
-      "id": "17e079a2-a776-4f28-bf99-cec74398c189",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Supreme Court permits states to use SAVE database for citizenship checks",
-      "summary": "The U.S. Supreme Court has cleared the way for states to access the federal SAVE database to verify the citizenship status of individuals. Dissenting justices raised significant concerns regarding the erosion of privacy protections for sensitive government-held personal data.",
-      "date": "2026-09-25T17:41:12.000Z",
-      "link": "https://cyberscoop.com/supreme-court-save-database-voter-citizenship/",
       "isTopTen": false
     }
   ]
