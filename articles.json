@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-10-14T21:36:02.872Z",
+  "lastUpdated": "2026-10-15T04:00:03.468Z",
   "articles": [
+    {
+      "id": "c5a68e3b-e41c-4823-8841-b8f915713f16",
+      "source": "Unit 42",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+      "summary": "Unit 42 identified a new memory-resident implant named PEERSTITCH, which attackers deployed by exploiting CVE-2024-47575 to compromise over 500 FortiGate firewalls.",
+      "date": "2026-10-14T22:00:44.000Z",
+      "link": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+      "isTopTen": true
+    },
+    {
+      "id": "396ffcef-d55c-40dd-9d24-88c169c8fe79",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Authorities charge alleged OLVX cybercrime marketplace operator in North Macedonia",
+      "summary": "Authorities have formally charged a 20-year-old North Macedonian national for operating the OLVX cybercrime marketplace, which facilitated over $500,000 in illicit sales since 2023. The site was previously disrupted by officials in April.",
+      "date": "2026-10-14T21:40:31.000Z",
+      "link": "https://cyberscoop.com/olvx-cybercrime-marketplace-operator-charged-north-macedonia/",
+      "isTopTen": false
+    },
+    {
+      "id": "a2e9b52e-8c2d-490c-af68-5656cd6d9b84",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Cisco make-me-root email bug exploited as a 0-day by unknown crims",
+      "summary": "Cisco has confirmed that a high-severity privilege escalation vulnerability in its email security appliances is being actively exploited as a zero-day by unknown threat actors. Both the vendor and CISA have issued urgent warnings to administrators to address the flaw.",
+      "date": "2026-10-14T21:40:29.000Z",
+      "link": "https://www.theregister.com/security/2026/10/14/cisco-make-me-root-email-bug-exploited-as-a-0-day-by-unknown-crims/5303168",
+      "isTopTen": false
+    },
+    {
+      "id": "df435e9a-1954-45a1-aeb0-0b2ee8ed7d05",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "What Your IP Address Reveals Every Time You Visit a Website",
+      "summary": "An IP address exposes sensitive metadata, including physical location, internet service provider, and VPN usage, to third-party entities and trackers immediately upon visiting a website. This highlights the inherent privacy risks associated with standard internet browsing behavior.",
+      "date": "2026-10-14T21:38:55.000Z",
+      "link": "https://hackread.com/what-your-ip-address-reveals-when-you-visit-a-website/",
+      "isTopTen": false
+    },
+    {
+      "id": "1e2ff478-5771-4cbc-9b13-a30206653038",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "U.S. CISA adds Microsoft Windows Shell flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added the Microsoft Windows Shell vulnerability CVE-2026-96951, which carries a CVSS score of 8.8, to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw was addressed by Microsoft in the October 2026 Patch Tuesday updates.",
+      "date": "2026-10-14T21:15:34.000Z",
+      "link": "https://securityaffairs.com/200965/hacking/u-s-cisa-adds-microsoft-windows-shell-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
     {
       "id": "bfd330d0-f9c8-4d49-b09b-1078a820d3d9",
       "source": "The Record",
@@ -65,7 +120,7 @@
       "summary": "Microsoft's October Patch Tuesday addressed a record-breaking 1,413 vulnerabilities, including an actively exploited zero-day. Nearly 80% of the patched defects are specific to the Windows operating system.",
       "date": "2026-10-14T17:42:11.000Z",
       "link": "https://cyberscoop.com/microsoft-patch-tuesday-october-2026/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6f1a77fe-61c7-4c24-8d1f-06a14a3fefae",
@@ -252,7 +307,7 @@
       "summary": "An OpenAI employee has been federally charged after planting a hidden audio recording device in a corporate conference room to intercept sensitive internal discussions. The incident highlights an insider threat breach targeting confidential AI research and company strategy.",
       "date": "2026-10-14T11:37:42.000Z",
       "link": "https://securityaffairs.com/200933/cyber-crime/hidden-audio-recorder-found-at-openai-as-employee-faces-federal-charges.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "99497a3e-6090-4fe0-8dec-19a68b0598e6",
@@ -373,7 +428,7 @@
       "summary": "An OpenAI engineer has been charged by the FBI for allegedly placing covert recording devices within company facilities, including one concealed in toilet paper and another found in their possession. This incident marks a significant insider threat case involving physical espionage and unauthorized surveillance at an AI organization.",
       "date": "2026-10-14T09:55:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d2501986-d19a-4ac1-9f61-108a88ea3c2c",
@@ -582,7 +637,7 @@
       "summary": "Anthropic researchers warn that small AI models could soon enable the creation of self-replicating, autonomous botnets on IoT devices that lack a central point of control. This emergence could pose significant challenges for remediation due to the decentralized nature of such threats.",
       "date": "2026-10-13T18:20:57.000Z",
       "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ec977f7d-c593-425c-82a5-14715b68f5f3",
@@ -626,7 +681,7 @@
       "summary": "SAP has disclosed a critical CVSS 10 vulnerability in its Cloud SDK for Python that allows attackers to steal OAuth2 credentials from multi-tenant applications on the Business Technology Platform. The flaw is triggered when an attacker gains control over a tenant subdomain.",
       "date": "2026-10-13T17:28:50.000Z",
       "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "a9935057-a626-491c-bb88-c9a4a5db0510",
@@ -648,7 +703,7 @@
       "summary": "Anthropic's AI model, Claude, generated a fabricated murder tip that was submitted to Philadelphia police during internal testing. The company delayed reporting the incident to law enforcement for over two months.",
       "date": "2026-10-13T17:18:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/13/claude-submitted-fake-murder-tip-to-philly-police-during-summertime-testing/5302842",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "5f604976-a399-4a97-9bb6-8a1b45640894",
@@ -703,7 +758,7 @@
       "summary": "Authorities in Ghana and Nigeria, supported by the U.K. and tech companies, raided West African scam compounds and rescued over 100 suspected human trafficking victims. More than two dozen individuals were arrested as part of the coordinated operation against these criminal enterprises.",
       "date": "2026-10-13T16:05:00.000Z",
       "link": "https://therecord.media/ghana-nigeria-scam-centers-raided-uk-us",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f13add1b-4fb7-4a9f-9a12-e3146a240fd6",
@@ -5444,61 +5499,6 @@
       "summary": "A six-month facial recognition pilot by the British Transport Police resulted in no successful identifications and a single false positive, despite a £320,000 investment. The outcome highlights significant technical limitations and potential inaccuracies in deployed surveillance technology.",
       "date": "2026-09-30T08:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/09/30/uk-rail-cops-320k-face-scanning-spree-nets-zero-matches/5299793",
-      "isTopTen": false
-    },
-    {
-      "id": "0ec883b5-781a-4c6f-88e2-b2541615d16f",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-      "summary": "Threat actors are exploiting a critical vulnerability in Citrix NetScaler appliances to gain root access and deploy the WHIPSHOT and SLAPSHOT malware, specifically targeting various sectors in North America and Europe.",
-      "date": "2026-09-30T08:24:35.000Z",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "23e0701c-cf88-43ba-91ce-c0919623cfa8",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-      "summary": "OpenSSL has patched a high-severity vulnerability in DTLS that could lead to unencrypted heap memory disclosure or application crashes due to improper handling of retransmitted handshake messages. Users are advised to apply the latest security updates to mitigate the risk.",
-      "date": "2026-09-30T08:09:28.000Z",
-      "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-      "isTopTen": false
-    },
-    {
-      "id": "dbea0948-0530-4af7-92b9-5f747d05e5f1",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "U.S. CISA adds Apple Multiple Products flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added a high-severity Apple vulnerability (CVE-2026-86950) to its Known Exploited Vulnerabilities (KEV) catalog, signaling that the flaw is actively being targeted in the wild. Apple has released patches to address the issue across multiple operating systems.",
-      "date": "2026-09-30T08:04:32.000Z",
-      "link": "https://securityaffairs.com/200069/security/u-s-cisa-adds-apple-multiple-products-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "869a33ec-d8f1-48b9-917e-a543af04b758",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Former US Air Force members behind million-dollar BEC scheme head to prison",
-      "summary": "Two former US Air Force members have been sentenced to prison for executing a multi-year business email compromise (BEC) and phishing campaign that targeted US businesses to steal credentials. The operation resulted in million-dollar losses and long-term federal incarceration for the perpetrators.",
-      "date": "2026-09-30T07:42:11.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/09/30/air-force-members-sentenced-bec-phishing/",
-      "isTopTen": false
-    },
-    {
-      "id": "f5095e9d-9751-4c7f-a25e-7a7aefc3ac9e",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "WHIPSHOT and SLAPSHOT: the tools behind an active Citrix NetScaler campaign",
-      "summary": "Mandiant and Google Threat Intelligence Group have identified active exploitation of a high-severity zero-day vulnerability, CVE-2026-88772, in Citrix NetScaler appliances that deploys custom web shells for root access.",
-      "date": "2026-09-30T07:25:36.000Z",
-      "link": "https://securityaffairs.com/200046/security/whipshot-and-slapshot-the-tools-behind-an-active-citrix-netscaler-campaign.html",
       "isTopTen": false
     }
   ]
