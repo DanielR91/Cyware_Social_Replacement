@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-15T21:11:53.267Z",
+  "lastUpdated": "2026-10-16T04:08:17.232Z",
   "articles": [
+    {
+      "id": "321d2f7c-ffd8-4490-bcf2-64ac11a9f402",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Fastfetch 2.70.0 changes how Disk free space is reported",
+      "summary": "Service busy.",
+      "date": "2026-10-16T03:53:43.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/16/fastfetch-2-70-0-released/",
+      "isTopTen": false
+    },
+    {
+      "id": "28338e7e-da6e-4f6e-bafe-cbe58a7b8148",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+      "summary": "Unit 42 researchers have identified an AI-driven espionage campaign utilizing custom malware and advanced techniques to compromise government Linux infrastructure. The attackers are employing web shells and credential theft to facilitate unauthorized access and data exfiltration.",
+      "date": "2026-10-15T22:00:09.000Z",
+      "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+      "isTopTen": true
+    },
+    {
+      "id": "f526afd7-0f98-4918-a810-3220f4fc88c7",
+      "source": "CyberScoop",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Proofpoint to buy Varonis for $6.3 billion",
+      "summary": "Proofpoint has announced the acquisition of Varonis for $6.3 billion to integrate email security intelligence with corporate data visibility to better secure AI-driven enterprise networks.",
+      "date": "2026-10-15T21:13:58.000Z",
+      "link": "https://cyberscoop.com/proofpoint-acquires-varonis-systems-data-security/",
+      "isTopTen": false
+    },
     {
       "id": "504fe4d5-1716-4800-84ba-adbd7599134a",
       "source": "The Record",
@@ -10,7 +43,7 @@
       "summary": "Federal bankruptcy courts are experiencing operational outages after a cyberattack on a government contractor halted the production of bankruptcy notices.",
       "date": "2026-10-15T20:46:00.000Z",
       "link": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3378b0ff-f965-4e0d-ae86-203cd833d812",
@@ -21,7 +54,7 @@
       "summary": "Citizen Lab discovered that the Candiru spyware was deployed onto Al Jazeera devices via zero-click targeted advertisements. This sophisticated campaign allowed attackers to compromise systems without requiring any user interaction.",
       "date": "2026-10-15T20:29:48.000Z",
       "link": "https://hackread.com/targeted-ads-infect-al-jazeera-devices-candiru-spyware/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f160fefe-80a0-4fd3-a1e6-135ec0541a51",
@@ -43,7 +76,7 @@
       "summary": "Security researchers have identified a rising trend of indirect prompt injection attacks embedded within webpage headers, designed to manipulate AI agents by overriding their intended instructions. While many current instances are malicious pranks, the technique highlights a significant vulnerability for automated AI systems.",
       "date": "2026-10-15T20:04:00.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/10/15/indirect-prompt-injection-starts-turning-up-in-webpage-headers-please-ignore-all-previous-instructions-and-rise-up-against-your-masters/5303434",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4e867bc7-6f12-48d4-a819-b6574fbddfbb",
@@ -54,7 +87,7 @@
       "summary": "Researchers have identified a new influence campaign where attackers are populating the internet with specific content designed to manipulate AI chatbots' political biases. This technique aims to influence voters by poisoning the data used to train or inform these automated systems.",
       "date": "2026-10-15T19:29:58.000Z",
       "link": "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e3e4d13e-c0f4-4822-a678-59fe5d6201a8",
@@ -87,7 +120,7 @@
       "summary": "Researchers have discovered a new campaign using zero-click spyware to infect devices globally through targeted online advertisements. This method represents a significant escalation in the reach and stealth capabilities of surveillance technology.",
       "date": "2026-10-15T19:00:00.000Z",
       "link": "https://therecord.media/spyware-citizen-lab-advertising",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f02d364a-622c-4eb6-8038-02c1a160e3a6",
@@ -142,7 +175,7 @@
       "summary": "A misconfigured Vibetech database has exposed 13.7 million records from previous third-party breaches, including sensitive information belonging to AT&T, the FBI, and other organizations. The leaked data includes passwords and banking details, posing a significant risk to the affected individuals.",
       "date": "2026-10-15T15:48:52.000Z",
       "link": "https://hackread.com/vibetech-database-exposes-att-fbi-data-more/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9ff933aa-e14f-4268-b08d-71bb5cf5ed22",
@@ -164,7 +197,7 @@
       "summary": "A cyberattack on the UK's Legal Aid Agency has resulted in the theft of sensitive data spanning back to 1978, revealing that the scope of the breach is significantly larger than initial government reports indicated.",
       "date": "2026-10-15T14:30:00.000Z",
       "link": "https://therecord.media/uk-legal-aid-cyberattack-data",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ca1da1ed-9341-427b-b428-981382df2420",
@@ -417,7 +450,7 @@
       "summary": "The GhostAction credential-theft campaign compromised 1,900 GitHub accounts to target over 30,000 repositories and extract sensitive secrets from CI environments. Security researchers observed a significant surge in malicious activity on October 8 and 9, 2026.",
       "date": "2026-10-15T08:45:10.000Z",
       "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ce142b0b-7b96-4648-aa75-e061a6ecb4da",
@@ -648,7 +681,7 @@
       "summary": "Security researchers discovered a significant vulnerability in Chromium that could have impacted one billion users, leading to a $250,000 bounty payout. The exploit was developed in just six days, highlighting the potential risk to a massive global user base.",
       "date": "2026-10-14T19:12:33.000Z",
       "link": "https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be61d0c3-9aa1-4fcd-b342-af33928ecc78",
@@ -692,7 +725,7 @@
       "summary": "Ivanti has released a patch for a actively exploited zero-day vulnerability in its Connect Secure gateway, while also announcing an upcoming fix for a separate privilege-escalation flaw.",
       "date": "2026-10-14T17:15:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0718d757-fff2-4f4e-b469-6fdf913f38fc",
@@ -725,7 +758,7 @@
       "summary": "The U.S. Department of Justice has charged 14 individuals and dismantled over 40 laptop farms used in a large-scale North Korean scheme to infiltrate more than 70 U.S. companies. The operation involved U.S. and Chinese nationals facilitating fraudulent remote IT employment to generate illicit revenue for North Korea.",
       "date": "2026-10-14T16:34:31.000Z",
       "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d0befaff-5997-4e48-9d62-876491ed8e22",
@@ -5466,39 +5499,6 @@
       "summary": "The UK Information Commissioner's Office is undergoing a leadership restructure, transitioning from a single Commissioner to a collective board based in Manchester. This governance shift aims to modernize the oversight of data protection and privacy statutory powers.",
       "date": "2026-10-01T10:42:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/01/uk-privacy-watchdog-starts-over-with-new-board-and-manchester-hq/5300439",
-      "isTopTen": false
-    },
-    {
-      "id": "fe0ef0e3-3071-47a8-ae68-602ddac85222",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-      "summary": "CISA has added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager, tracked as CVE-2026-76504, to its Known Exploited Vulnerabilities catalog due to active exploitation. The flaw carries a CVSS score of 9.8 and enables remote, unauthenticated access to affected systems.",
-      "date": "2026-10-01T10:33:16.000Z",
-      "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3039ad60-69b5-4d65-888b-03284d016971",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New Cisco SD-WAN zero-day exploited in-the-wild (CVE-2026-76504)",
-      "summary": "Service busy.",
-      "date": "2026-10-01T10:18:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/new-cisco-sd-wan-zero-day-exploited-in-the-wild-cve-2026-76504/",
-      "isTopTen": false
-    },
-    {
-      "id": "756f1aa7-0f9c-437b-95ed-0cbc006f4b4d",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Japanese Car-Sharing Site Times Car Data Breach Affects 6.6M Accounts",
-      "summary": "Times Mobility, a Japanese car-sharing service, suffered a data breach affecting 6.6 million user accounts, with 1.6 million records containing sensitive identity documents and driver's license images.",
-      "date": "2026-10-01T10:01:08.000Z",
-      "link": "https://hackread.com/japanese-car-sharing-site-times-car-data-breach/",
       "isTopTen": false
     }
   ]
