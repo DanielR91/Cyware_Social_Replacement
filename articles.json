@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-17T10:24:34.416Z",
+  "lastUpdated": "2026-10-17T15:18:21.552Z",
   "articles": [
+    {
+      "id": "7009de2d-23bb-4f7f-a1b6-71f099827e14",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Cybercrims go beyond stealing data to attack physical building systems",
+      "summary": "Cybercriminals are increasingly expanding their scope to target physical building management systems, posing risks to office infrastructure and physical security. This shift indicates a trend where threat actors move beyond digital data theft to disrupt or control physical environments.",
+      "date": "2026-10-17T11:30:00.000Z",
+      "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
+      "isTopTen": false
+    },
+    {
+      "id": "d7180867-7546-4f29-9585-349c15bed228",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "summary": "A malicious npm package named 'imgdecode' has been identified as part of the MALFEX supply chain attack, masquerading as a utility while embedding a Windows shellcode loader. The package has been downloaded nearly 1,000 times and remains active on the registry.",
+      "date": "2026-10-17T11:11:56.000Z",
+      "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "isTopTen": false
+    },
+    {
+      "id": "ea78ee0f-de39-4c10-b293-c9a4fe65bc74",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Fortinet Multiple Products and BeyondTrust Remote Support flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added specific vulnerabilities in Fortinet products and BeyondTrust Remote Support to its Known Exploited Vulnerabilities catalog due to active exploitation. Notably, these vulnerabilities have been linked to the PEERSTITCH malware, which has been used to compromise numerous firewalls.",
+      "date": "2026-10-17T10:35:48.000Z",
+      "link": "https://securityaffairs.com/201178/security/u-s-cisa-adds-fortinet-multiple-products-and-beyondtrust-remote-support-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
     {
       "id": "97d37a6b-106f-4219-80d8-a5c8892d1121",
       "source": "Security Affairs",
@@ -21,7 +54,7 @@
       "summary": "India's CERT-In issued a critical advisory warning that unauthorized AI agents have accessed confidential organizational data, while malicious actors are increasingly leveraging offensive AI frameworks to escalate cyberattacks.",
       "date": "2026-10-17T08:55:55.000Z",
       "link": "https://securityaffairs.com/201130/ai/ai-agents-accessed-indian-organizations-without-authorization-cert-in-warns.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "e644f9ed-9d1e-4e07-a0ec-89c7d169d19c",
@@ -54,7 +87,7 @@
       "summary": "Security researchers have disclosed a local privilege escalation exploit for OpenBSD 7.9 that leverages a 37-year-old integer overflow alongside a kernel flaw to bypass multiple security protections. The exploit chain allows attackers to achieve root access and has been released alongside a full proof-of-concept following a vendor patch.",
       "date": "2026-10-16T17:48:45.000Z",
       "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "41104c26-8560-4076-ae20-c91b7f6897f7",
@@ -87,7 +120,7 @@
       "summary": "The Chinese espionage group Armory Castle (UNC5221) is exploiting a zero-day vulnerability in BeyondTrust software, marking the latest in a series of attacks against high-profile enterprise infrastructure.",
       "date": "2026-10-16T17:09:09.000Z",
       "link": "https://cyberscoop.com/china-espionage-attacks-beyondtrust-zero-day-armory-castle/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fa8b493e-947e-41f5-a364-6e9020e1c22f",
@@ -274,7 +307,7 @@
       "summary": "CISA has added the critical Atlassian arbitrary file access vulnerability CVE-2026-21589, which carries a CVSS score of 9.3, to its Known Exploited Vulnerabilities (KEV) catalog following active exploitation by threat actors.",
       "date": "2026-10-16T11:05:55.000Z",
       "link": "https://securityaffairs.com/201086/hacking/u-s-cisa-adds-atlassian-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b6573d03-b382-4df6-b739-91aab8956cc6",
@@ -318,7 +351,7 @@
       "summary": "The PEERSTITCH malware exploited a FortiManager vulnerability to compromise over 500 firewalls, allowing attackers to maintain stealthy, persistent access within a telecom managed service provider. The campaign, discovered by Palo Alto Networks Unit 42, highlights an advanced effort to evade detection by operating within FortiOS memory.",
       "date": "2026-10-16T09:08:57.000Z",
       "link": "https://securityaffairs.com/201077/malware/peerstitch-malware-how-attackers-compromised-500-firewalls-through-fortimanager.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7f6bfa48-f750-4c54-92f4-cd7e054a822f",
@@ -428,7 +461,7 @@
       "summary": "Unit 42 researchers have identified an AI-driven espionage campaign utilizing custom malware and advanced techniques to compromise government Linux infrastructure. The attackers are employing web shells and credential theft to facilitate unauthorized access and data exfiltration.",
       "date": "2026-10-15T22:00:09.000Z",
       "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f526afd7-0f98-4918-a810-3220f4fc88c7",
@@ -516,7 +549,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical security flaws found in Palo Alto Networks PAN-OS, Ahsay AhsayCBS, and Cisco Secure Email Gateway. These additions indicate that threat actors are actively exploiting these vulnerabilities in the wild.",
       "date": "2026-10-15T19:21:30.000Z",
       "link": "https://securityaffairs.com/201041/security/u-s-cisa-adds-palo-alto-networks-pan-os-ahsay-ahsaycbs-and-cisco-secure-email-gateway-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "bed29a46-6ca8-452b-9290-a09918514487",
@@ -582,7 +615,7 @@
       "summary": "A misconfigured Vibetech database has exposed 13.7 million records from previous third-party breaches, including sensitive information belonging to AT&T, the FBI, and other organizations. The leaked data includes passwords and banking details, posing a significant risk to the affected individuals.",
       "date": "2026-10-15T15:48:52.000Z",
       "link": "https://hackread.com/vibetech-database-exposes-att-fbi-data-more/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9ff933aa-e14f-4268-b08d-71bb5cf5ed22",
@@ -604,7 +637,7 @@
       "summary": "A cyberattack on the UK's Legal Aid Agency has resulted in the theft of sensitive data spanning back to 1978, revealing that the scope of the breach is significantly larger than initial government reports indicated.",
       "date": "2026-10-15T14:30:00.000Z",
       "link": "https://therecord.media/uk-legal-aid-cyberattack-data",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ca1da1ed-9341-427b-b428-981382df2420",
@@ -5466,39 +5499,6 @@
       "summary": "Google has introduced six new security features for Android 17's Advanced Protection, including an intrusion logging system that offloads forensic evidence to protect it from being tampered with by spyware. These updates aim to improve incident response by ensuring security logs remain accessible even if a device is compromised.",
       "date": "2026-10-02T05:30:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/02/android-17-advanced-protection-features/",
-      "isTopTen": false
-    },
-    {
-      "id": "a790b3f0-cfc4-4025-af85-65815d96da15",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Botnets, adversarial attacks and data poisoning top leaders’ AI threat list",
-      "summary": "A PwC survey reveals that global business leaders identify AI-specific threats, such as botnets and data poisoning, as their primary cybersecurity preparedness gap. Executives rank these adversarial AI attacks as their most critical concern despite increasing investments in AI technology.",
-      "date": "2026-10-02T05:00:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/02/pwc-attacks-on-ai-systems/",
-      "isTopTen": false
-    },
-    {
-      "id": "feafb6f6-e34d-4ab3-ba34-2d62b8f96381",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AI agents keep access to company data after their work is done",
-      "summary": "IT security teams are increasingly concerned about the lack of enforcement mechanisms to revoke AI agents' access to sensitive company systems once their tasks are completed. The research highlights a significant gap between existing AI security policies and the technical ability to control autonomous agent permissions.",
-      "date": "2026-10-02T04:30:21.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/02/delinea-ai-policy-adoption-enforcement-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "855c35f1-315f-46fc-86b0-854ea6021eac",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the week: October 2, 2026",
-      "summary": "Vega has launched Vega II, an AI-powered security operations platform designed to enhance SOC efficiency by replacing traditional SIEM and data pipeline dependencies. The update is part of a weekly roundup of new cybersecurity product releases.",
-      "date": "2026-10-02T04:00:35.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/02/new-infosec-products-of-the-week-october-2-2026/",
       "isTopTen": false
     }
   ]
