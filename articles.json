@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-10-18T10:42:18.863Z",
+  "lastUpdated": "2026-10-18T15:39:30.477Z",
   "articles": [
+    {
+      "id": "24b4520c-d8fb-48e6-8d92-6167f5ab0f35",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 4",
+      "summary": "This newsletter highlights the dual-use nature of artificial intelligence in cybersecurity, detailing how AI agents are transforming both offensive techniques and defensive capabilities. It serves as a curated collection of research and insights regarding AI's impact on the current global security landscape.",
+      "date": "2026-10-18T13:46:39.000Z",
+      "link": "https://securityaffairs.com/201251/ai/security-affairs-ai-cybersecurity-newsletter-round-4.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cc1a3f3f-1da1-46d6-8e8d-3b2f45095d30",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Rust-Based CikaBika Bot Turns Discord into a Command Center",
+      "summary": "The CikaBika Bot is a Rust-based remote access trojan that leverages Discord and Ngrok to conduct malicious activities, including command execution, file theft, and surveillance. The malware is distributed via fake documents contained within disk images.",
+      "date": "2026-10-18T11:33:52.000Z",
+      "link": "https://securityaffairs.com/201210/security/rust-based-cikabika-bot-turns-discord-into-a-command-center.html",
+      "isTopTen": false
+    },
     {
       "id": "66c0b03f-e9b0-492e-bd73-6c25332c6b72",
       "source": "Security Affairs",
@@ -65,7 +87,7 @@
       "summary": "Cybercriminals are increasingly expanding their scope to target physical building management systems, posing risks to office infrastructure and physical security. This shift indicates a trend where threat actors move beyond digital data theft to disrupt or control physical environments.",
       "date": "2026-10-17T11:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "d7180867-7546-4f29-9585-349c15bed228",
@@ -109,7 +131,7 @@
       "summary": "India's CERT-In issued a critical advisory warning that unauthorized AI agents have accessed confidential organizational data, while malicious actors are increasingly leveraging offensive AI frameworks to escalate cyberattacks.",
       "date": "2026-10-17T08:55:55.000Z",
       "link": "https://securityaffairs.com/201130/ai/ai-agents-accessed-indian-organizations-without-authorization-cert-in-warns.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e644f9ed-9d1e-4e07-a0ec-89c7d169d19c",
@@ -175,7 +197,7 @@
       "summary": "The Chinese espionage group Armory Castle (UNC5221) is exploiting a zero-day vulnerability in BeyondTrust software, marking the latest in a series of attacks against high-profile enterprise infrastructure.",
       "date": "2026-10-16T17:09:09.000Z",
       "link": "https://cyberscoop.com/china-espionage-attacks-beyondtrust-zero-day-armory-castle/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fa8b493e-947e-41f5-a364-6e9020e1c22f",
@@ -450,7 +472,7 @@
       "summary": "The China-linked threat actor Armory Castle exploited a critical zero-day vulnerability, CVE-2026-102764, in BeyondTrust Remote Support servers to facilitate cyber espionage activities.",
       "date": "2026-10-16T06:55:55.000Z",
       "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f77a741a-3eae-45f0-8a3b-447b6c6379aa",
@@ -516,7 +538,7 @@
       "summary": "Unit 42 researchers have identified an AI-driven espionage campaign utilizing custom malware and advanced techniques to compromise government Linux infrastructure. The attackers are employing web shells and credential theft to facilitate unauthorized access and data exfiltration.",
       "date": "2026-10-15T22:00:09.000Z",
       "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f526afd7-0f98-4918-a810-3220f4fc88c7",
@@ -670,7 +692,7 @@
       "summary": "A misconfigured Vibetech database has exposed 13.7 million records from previous third-party breaches, including sensitive information belonging to AT&T, the FBI, and other organizations. The leaked data includes passwords and banking details, posing a significant risk to the affected individuals.",
       "date": "2026-10-15T15:48:52.000Z",
       "link": "https://hackread.com/vibetech-database-exposes-att-fbi-data-more/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9ff933aa-e14f-4268-b08d-71bb5cf5ed22",
@@ -5477,28 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-10-02T10:21:55.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts/",
-      "isTopTen": false
-    },
-    {
-      "id": "0ff1cf63-1ef1-4c53-a8d3-181d79062df9",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical FortiMail zero-day exploited in the wild (CVE-2026-104286)",
-      "summary": "Fortinet has issued a warning regarding a critical path traversal and null byte injection vulnerability in FortiMail that is currently being exploited in the wild. Customers are urged to implement provided workarounds immediately while awaiting official patches.",
-      "date": "2026-10-02T08:50:59.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/",
-      "isTopTen": false
-    },
-    {
-      "id": "1b62790d-d3be-46e9-a0ac-ece8d9bfb0c6",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-      "summary": "Google is restricting Android's accessibility services to verified applications when Advanced Protection is enabled to prevent malware from abusing this API. This security update aims to close a primary attack vector used for financial fraud and malicious activity.",
-      "date": "2026-10-02T08:01:30.000Z",
-      "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
       "isTopTen": false
     }
   ]
