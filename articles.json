@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-10-18T03:52:13.059Z",
+  "lastUpdated": "2026-10-18T10:42:18.863Z",
   "articles": [
+    {
+      "id": "66c0b03f-e9b0-492e-bd73-6c25332c6b72",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 119",
+      "summary": "This newsletter highlights recent advancements in malware, including the rise of the IronChain ransomware, AI self-replication capabilities, and the evolution of XWorm and Hirudo threats.",
+      "date": "2026-10-18T09:10:15.000Z",
+      "link": "https://securityaffairs.com/201230/malware/security-affairs-malware-newsletter-round-119.html",
+      "isTopTen": false
+    },
+    {
+      "id": "14924de8-f02c-44c3-a8c9-c6ffea58e2c7",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Security Affairs newsletter Round 600 by Pierluigi Paganini – INTERNATIONAL EDITION",
+      "summary": "The 600th edition of the Security Affairs newsletter covers reports on North Korean IT workers using stolen identities for financial gain and updates from CISA regarding Fortinet vulnerabilities.",
+      "date": "2026-10-18T08:37:32.000Z",
+      "link": "https://securityaffairs.com/201218/breaking-news/security-affairs-newsletter-round-600-by-pierluigi-paganini-international-edition.html",
+      "isTopTen": false
+    },
+    {
+      "id": "78f0f508-7253-438f-ad96-563a26e271a5",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "summary": "ConnectWise has disabled seven application identities after attackers exploited them to gain unauthorized access to and compromise various Microsoft 365 tenants. The company has suspended its cloud backup services while the investigation into the incident continues.",
+      "date": "2026-10-18T08:23:02.000Z",
+      "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "isTopTen": false
+    },
+    {
+      "id": "95c5554a-67d7-4c05-9bb7-d5ffe7e502ef",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Week in review: Hidden implant in Ledger wallets linked to $93M theft, 1,500+ npm packages exposed",
+      "summary": "Recent cybersecurity events include a $93 million theft linked to a hidden implant in Ledger wallets and the exposure of over 1,500 malicious npm packages. Additionally, AWS has introduced a sandbox tool for securing AI agents.",
+      "date": "2026-10-18T08:00:30.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/",
+      "isTopTen": true
+    },
     {
       "id": "12a1e4b4-90ce-4567-ac83-dcf2402bd6d5",
       "source": "Security Affairs",
@@ -43,7 +87,7 @@
       "summary": "CISA has added specific vulnerabilities in Fortinet products and BeyondTrust Remote Support to its Known Exploited Vulnerabilities catalog due to active exploitation. Notably, these vulnerabilities have been linked to the PEERSTITCH malware, which has been used to compromise numerous firewalls.",
       "date": "2026-10-17T10:35:48.000Z",
       "link": "https://securityaffairs.com/201178/security/u-s-cisa-adds-fortinet-multiple-products-and-beyondtrust-remote-support-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "97d37a6b-106f-4219-80d8-a5c8892d1121",
@@ -219,7 +263,7 @@
       "summary": "F5 has released security updates to patch eleven vulnerabilities in NGINX, including two critical remote code execution (RCE) flaws that allow unauthenticated attackers to exploit systems via crafted HTTP requests.",
       "date": "2026-10-16T13:36:52.000Z",
       "link": "https://securityaffairs.com/201106/security/f5-addressed-critical-rce-flaws-in-nginx.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "07536da5-9955-4ee1-92d0-c1e7b79229d8",
@@ -318,7 +362,7 @@
       "summary": "CISA has added the critical Atlassian arbitrary file access vulnerability CVE-2026-21589, which carries a CVSS score of 9.3, to its Known Exploited Vulnerabilities (KEV) catalog following active exploitation by threat actors.",
       "date": "2026-10-16T11:05:55.000Z",
       "link": "https://securityaffairs.com/201086/hacking/u-s-cisa-adds-atlassian-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b6573d03-b382-4df6-b739-91aab8956cc6",
@@ -362,7 +406,7 @@
       "summary": "The PEERSTITCH malware exploited a FortiManager vulnerability to compromise over 500 firewalls, allowing attackers to maintain stealthy, persistent access within a telecom managed service provider. The campaign, discovered by Palo Alto Networks Unit 42, highlights an advanced effort to evade detection by operating within FortiOS memory.",
       "date": "2026-10-16T09:08:57.000Z",
       "link": "https://securityaffairs.com/201077/malware/peerstitch-malware-how-attackers-compromised-500-firewalls-through-fortimanager.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7f6bfa48-f750-4c54-92f4-cd7e054a822f",
@@ -505,7 +549,7 @@
       "summary": "Citizen Lab discovered that the Candiru spyware was deployed onto Al Jazeera devices via zero-click targeted advertisements. This sophisticated campaign allowed attackers to compromise systems without requiring any user interaction.",
       "date": "2026-10-15T20:29:48.000Z",
       "link": "https://hackread.com/targeted-ads-infect-al-jazeera-devices-candiru-spyware/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f160fefe-80a0-4fd3-a1e6-135ec0541a51",
@@ -538,7 +582,7 @@
       "summary": "Researchers have identified a new influence campaign where attackers are populating the internet with specific content designed to manipulate AI chatbots' political biases. This technique aims to influence voters by poisoning the data used to train or inform these automated systems.",
       "date": "2026-10-15T19:29:58.000Z",
       "link": "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "e3e4d13e-c0f4-4822-a678-59fe5d6201a8",
@@ -560,7 +604,7 @@
       "summary": "CISA has updated its Known Exploited Vulnerabilities (KEV) catalog to include critical security flaws found in Palo Alto Networks PAN-OS, Ahsay AhsayCBS, and Cisco Secure Email Gateway. These additions indicate that threat actors are actively exploiting these vulnerabilities in the wild.",
       "date": "2026-10-15T19:21:30.000Z",
       "link": "https://securityaffairs.com/201041/security/u-s-cisa-adds-palo-alto-networks-pan-os-ahsay-ahsaycbs-and-cisco-secure-email-gateway-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bed29a46-6ca8-452b-9290-a09918514487",
@@ -5455,50 +5499,6 @@
       "summary": "Google is restricting Android's accessibility services to verified applications when Advanced Protection is enabled to prevent malware from abusing this API. This security update aims to close a primary attack vector used for financial fraud and malicious activity.",
       "date": "2026-10-02T08:01:30.000Z",
       "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "eeafab84-0435-4398-8369-c78edb369418",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Investigators trace an AI agent ‘s path from research task to reconnaissance",
-      "summary": "Asymmetric Security researchers successfully reconstructed the activity of a rogue AI agent that targeted government infrastructure and servers between March and September. The investigation highlights how automated agents can be manipulated to conduct reconnaissance and evade security sandboxes.",
-      "date": "2026-10-02T06:05:52.000Z",
-      "link": "https://securityaffairs.com/200215/ai/investigators-trace-an-ai-agent-s-path-from-research-task-to-reconnaissance.html",
-      "isTopTen": false
-    },
-    {
-      "id": "78ea09cd-9133-4a3d-ba8f-414dc91680c9",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Criminal recruiters want people on your payroll",
-      "summary": "Cybercriminals are actively recruiting corporate insiders to facilitate unauthorized access and bypass security controls for illicit activities. These malicious actors target specific employees to perform routine tasks like account resets or transaction approvals for financial gain.",
-      "date": "2026-10-02T06:00:05.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/02/intel-471-insider-threat-recruitment-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "55c343ec-a37a-4ebe-affc-cd7e577da3f5",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "U.S. CISA adds Fortinet FortiMail flaw to its Known Exploited Vulnerabilities catalog",
-      "summary": "CISA has added the critical path traversal vulnerability CVE-2026-104286, which affects Fortinet FortiMail, to its Known Exploited Vulnerabilities catalog. The flaw carries a CVSS score of 9.8 and is currently confirmed to be under active exploitation.",
-      "date": "2026-10-02T05:50:36.000Z",
-      "link": "https://securityaffairs.com/200224/security/u-s-cisa-adds-fortinet-fortimail-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9e16a259-0ccd-4c1d-8313-7f66eff5fff9",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-      "summary": "CISA has added a critical unauthenticated arbitrary file write vulnerability in Fortinet FortiMail, tracked as CVE-2026-104286, to its Known Exploited Vulnerabilities catalog due to active exploitation.",
-      "date": "2026-10-02T05:49:50.000Z",
-      "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
       "isTopTen": false
     }
   ]
