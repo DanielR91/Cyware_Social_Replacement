@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-10-18T22:55:10.047Z",
+  "lastUpdated": "2026-10-19T04:03:54.561Z",
   "articles": [
+    {
+      "id": "7d2b51a1-dbf8-46f2-8f42-d9725cdd1d77",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "16-Year-Old Broadcom Wi-Fi Bug Lets Attackers Take Over Routers Without a Password",
+      "summary": "A 16-year-old vulnerability in Broadcom's Wi-Fi SDK allows unauthenticated attackers within range to execute arbitrary code on vulnerable routers. The flaw affects proprietary 802.11 implementations that have remained unpatched since 2010.",
+      "date": "2026-10-19T00:36:33.000Z",
+      "link": "https://securityaffairs.com/201268/iot/16-year-old-broadcom-wi-fi-bug-lets-attackers-take-over-routers-without-a-password.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0cc82b82-6fd5-4ab2-bc91-8936b41844bb",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
+      "summary": "A critical Linux KVM guest-to-host escape vulnerability, identified as PwnEscape, has been assigned a high severity score of 9.3, posing a significant risk to virtualized networking environments.",
+      "date": "2026-10-19T00:33:00.000Z",
+      "link": "https://www.theregister.com/virtualization/2026/10/19/linux-kvm-guest-host-escape-rated-critical-may-represent-a-new-way-to-attack-penguin-powered-networking/5303744",
+      "isTopTen": true
+    },
     {
       "id": "24b4520c-d8fb-48e6-8d92-6167f5ab0f35",
       "source": "Security Affairs",
@@ -65,7 +87,7 @@
       "summary": "Recent cybersecurity events include a $93 million theft linked to a hidden implant in Ledger wallets and the exposure of over 1,500 malicious npm packages. Additionally, AWS has introduced a sandbox tool for securing AI agents.",
       "date": "2026-10-18T08:00:30.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "12a1e4b4-90ce-4567-ac83-dcf2402bd6d5",
@@ -87,7 +109,7 @@
       "summary": "Cybercriminals are increasingly expanding their scope to target physical building management systems, posing risks to office infrastructure and physical security. This shift indicates a trend where threat actors move beyond digital data theft to disrupt or control physical environments.",
       "date": "2026-10-17T11:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7180867-7546-4f29-9585-349c15bed228",
@@ -538,7 +560,7 @@
       "summary": "Unit 42 researchers have identified an AI-driven espionage campaign utilizing custom malware and advanced techniques to compromise government Linux infrastructure. The attackers are employing web shells and credential theft to facilitate unauthorized access and data exfiltration.",
       "date": "2026-10-15T22:00:09.000Z",
       "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f526afd7-0f98-4918-a810-3220f4fc88c7",
@@ -582,7 +604,7 @@
       "summary": "A critical Linux kernel vulnerability, tracked as CVE-2026-99999 and dubbed PwnEscape, enables guest virtual machines to access and read memory on the underlying host system. The flaw was successfully demonstrated against Vercel's cloud infrastructure, highlighting a significant security risk for multi-tenant environments.",
       "date": "2026-10-15T20:24:36.000Z",
       "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "61e6185a-336c-4bf2-a9a0-5ff54f9e8fb8",
@@ -593,7 +615,7 @@
       "summary": "Security researchers have identified a rising trend of indirect prompt injection attacks embedded within webpage headers, designed to manipulate AI agents by overriding their intended instructions. While many current instances are malicious pranks, the technique highlights a significant vulnerability for automated AI systems.",
       "date": "2026-10-15T20:04:00.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/10/15/indirect-prompt-injection-starts-turning-up-in-webpage-headers-please-ignore-all-previous-instructions-and-rise-up-against-your-masters/5303434",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4e867bc7-6f12-48d4-a819-b6574fbddfbb",
@@ -692,7 +714,7 @@
       "summary": "A misconfigured Vibetech database has exposed 13.7 million records from previous third-party breaches, including sensitive information belonging to AT&T, the FBI, and other organizations. The leaked data includes passwords and banking details, posing a significant risk to the affected individuals.",
       "date": "2026-10-15T15:48:52.000Z",
       "link": "https://hackread.com/vibetech-database-exposes-att-fbi-data-more/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9ff933aa-e14f-4268-b08d-71bb5cf5ed22",
@@ -5477,28 +5499,6 @@
       "summary": "CISOs often struggle to report on organizational security posture due to the manual and fragmented nature of aggregating data from disparate security tools. The article addresses how to improve board-level communication by streamlining the reporting process and answering foundational security questions.",
       "date": "2026-10-02T11:30:00.000Z",
       "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-      "isTopTen": false
-    },
-    {
-      "id": "5f092641-4c22-440f-b855-61d1d9528f0a",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Fortinet sounds the alarm over actively exploited FortiMail zero-day",
-      "summary": "Service busy.",
-      "date": "2026-10-02T10:53:49.000Z",
-      "link": "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803",
-      "isTopTen": false
-    },
-    {
-      "id": "9fc66a78-3653-4409-879a-4b00af75e575",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Chinese spies impersonate White House, Anthropic figures to phish AI policy experts",
-      "summary": "Service busy.",
-      "date": "2026-10-02T10:21:55.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts/",
       "isTopTen": false
     }
   ]
