@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-10-19T20:42:22.180Z",
+  "lastUpdated": "2026-10-20T00:11:33.497Z",
   "articles": [
+    {
+      "id": "168b00d4-6f65-424c-aef5-04c8d1e465f6",
+      "source": "Unit 42",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
+      "summary": "Service busy.",
+      "date": "2026-10-19T22:35:42.000Z",
+      "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+      "isTopTen": true
+    },
     {
       "id": "1a8556cd-fdfb-40d4-9d36-ba76ee31c083",
       "source": "The Register",
@@ -10,7 +21,7 @@
       "summary": "Grocery retailer Ahold Delhaize has taken its US and European systems offline following a confirmed cyberattack, marking the second such incident for the company in two years.",
       "date": "2026-10-19T20:26:21.000Z",
       "link": "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "63036e8a-1165-4513-a71c-ef3363735a85",
@@ -32,7 +43,7 @@
       "summary": "ConnectWise suspended its Cloud Backup service after confirming a supply chain attack involving unauthorized access to the environment. The company is currently investigating the incident to mitigate further risks.",
       "date": "2026-10-19T19:45:00.000Z",
       "link": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9c3206f9-6f8a-4de8-93f1-4e61fc1bb049",
@@ -43,7 +54,7 @@
       "summary": "Opposition figures and the rector of the University of Belgrade have been targeted with Pegasus spyware ahead of Serbia's national elections. This incident highlights the continued use of advanced surveillance tools against political actors.",
       "date": "2026-10-19T18:45:00.000Z",
       "link": "https://therecord.media/serbia-spyware-pegasus-elections",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "15e9ed12-c6bd-47dc-a390-1c5ddaaf3c62",
@@ -76,7 +87,7 @@
       "summary": "Recent research highlights that an increasing number of GitHub security patches are failing within 90 days, exacerbated by attackers utilizing AI to exploit vulnerabilities. This trend necessitates faster remediation cycles and more robust patch validation processes.",
       "date": "2026-10-19T18:23:40.000Z",
       "link": "https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5a77d81a-c431-4319-ae88-526752c1dd89",
@@ -120,7 +131,7 @@
       "summary": "Rank Math PRO users who downloaded or updated the plugin within a specific 11-hour window on October 15-16 received a version containing a self-restoring backdoor. The company advises all affected sites to be treated as fully compromised.",
       "date": "2026-10-19T16:28:47.000Z",
       "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ecd7ce83-8605-40a7-bcb9-d56687cc20aa",
@@ -219,7 +230,7 @@
       "summary": "The GhostAction threat actor has escalated its supply chain attack strategy by embedding credential-stealing malware within fake font files across 94 compromised GitHub repositories. This evolution demonstrates a shift from malicious workflows to targeted phishing and malware distribution against open-source developers.",
       "date": "2026-10-19T13:05:45.000Z",
       "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3f50f756-664d-44b2-9998-7ce821529d9d",
@@ -362,7 +373,7 @@
       "summary": "A critical vulnerability in Broadcom's Wi-Fi software allows unauthenticated attackers within radio range to execute arbitrary code as root on affected routers. The flaw bypasses network passwords and has been demonstrated to leak sensitive credentials from home gateways.",
       "date": "2026-10-19T06:29:44.000Z",
       "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f9ff8ec3-bb69-4a14-96d0-d41f371303bd",
@@ -428,7 +439,7 @@
       "summary": "A survey of IT and security professionals reveals that 37% of organizations affected by ransomware have experienced attackers threatening employees' families and friends. This escalation reflects a shift in criminal tactics toward personal harassment to force ransom payments.",
       "date": "2026-10-19T04:00:22.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7d2b51a1-dbf8-46f2-8f42-d9725cdd1d77",
@@ -538,7 +549,7 @@
       "summary": "Cybercriminals are increasingly expanding their scope to target physical building management systems, posing risks to office infrastructure and physical security. This shift indicates a trend where threat actors move beyond digital data theft to disrupt or control physical environments.",
       "date": "2026-10-17T11:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d7180867-7546-4f29-9585-349c15bed228",
@@ -593,7 +604,7 @@
       "summary": "Threat actors are exploiting compromised ConnectWise Cloud Backup credentials to gain unauthorized access to 173 Microsoft 365 customer environments. The campaign leverages elevated privileges associated with the service to target multiple managed service provider (MSP) clients.",
       "date": "2026-10-17T06:16:46.000Z",
       "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "6b747515-f6d5-4e79-93de-c4a630cf6b27",
@@ -736,7 +747,7 @@
       "summary": "F5 has released security updates to patch eleven vulnerabilities in NGINX, including two critical remote code execution (RCE) flaws that allow unauthenticated attackers to exploit systems via crafted HTTP requests.",
       "date": "2026-10-16T13:36:52.000Z",
       "link": "https://securityaffairs.com/201106/security/f5-addressed-critical-rce-flaws-in-nginx.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "07536da5-9955-4ee1-92d0-c1e7b79229d8",
@@ -5488,17 +5499,6 @@
       "summary": "Bromcom experienced a data breach after intruders exploited a legacy sign-on service that was kept active despite being superseded. The incident resulted in the unauthorized retrieval of user email addresses from an internal system.",
       "date": "2026-10-05T09:30:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/05/legacy-sign-on-service-comes-back-to-bite-school-software-provider-bromcom/5301156",
-      "isTopTen": false
-    },
-    {
-      "id": "41373046-9c82-4555-ac7f-ca6dbfddd2e7",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "MI5 Raises Alarm Over Chinese Funding of UK Academic Research",
-      "summary": "MI5 has issued a formal warning to UK universities regarding over 100 academics who may have inadvertently collaborated on research funded by a Chinese institute with ties to the Ministry of State Security. The alert highlights concerns over the potential exploitation of academic research for national security purposes.",
-      "date": "2026-10-05T09:12:58.000Z",
-      "link": "https://securityaffairs.com/200396/intelligence/mi5-raises-alarm-over-chinese-funding-of-uk-academic-research.html",
       "isTopTen": false
     }
   ]
