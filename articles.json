@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-10-20T23:53:10.382Z",
+  "lastUpdated": "2026-10-21T04:08:13.031Z",
   "articles": [
+    {
+      "id": "098715ca-1df5-4d75-837a-e751eff17ecc",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google open-sourced TorchTPU, so PyTorch on TPUs just got a lot easier",
+      "summary": "Google has open-sourced TorchTPU to simplify running PyTorch models on its custom Tensor Processing Units, while extending TPU support to several key AI frameworks and serving engines. This move aims to streamline infrastructure transitions for developers currently relying on GPU-based workflows.",
+      "date": "2026-10-21T03:42:06.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus/",
+      "isTopTen": false
+    },
+    {
+      "id": "08dbfd10-9f3f-4ce5-8b8a-92fd620b64be",
+      "source": "HackRead",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Industrial Defender Unifies Endpoint Intelligence and Network Monitoring for CIP-015, Adds Risk Signal",
+      "summary": "Industrial Defender has integrated endpoint intelligence with network monitoring to support NERC CIP-015 compliance and introduced new risk signaling capabilities. This update enhances visibility and security posture for industrial control systems.",
+      "date": "2026-10-21T01:55:04.000Z",
+      "link": "https://hackread.com/industrial-defender-unifies-endpoint-intelligence-and-network-monitoring-for-cip-015-adds-risk-signal/",
+      "isTopTen": false
+    },
     {
       "id": "1da8f017-1dfe-4d6a-8232-c04aadcc91f0",
       "source": "CyberScoop",
@@ -10,7 +32,7 @@
       "summary": "Robert Wayne Boling Jr. has pleaded guilty to orchestrating a large-scale identity theft scheme that targeted thousands of U.S. military personnel and veterans from his base in the Philippines. He now faces a potential 40-year prison sentence for his role in the fraud.",
       "date": "2026-10-20T23:36:10.000Z",
       "link": "https://cyberscoop.com/identity-theft-fraud-military-servicemembers-veterans-guilty-robert-boling/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2ff8fc2d-cae4-4051-987d-4343294cacb4",
@@ -21,7 +43,7 @@
       "summary": "Indian certification authority eMudhra suffered a compromise of its private keys, including one trivial key set to the number '4', enabling potential impersonation of secure websites and services. The organization is currently undergoing a massive remediation effort to mitigate the resulting security risks.",
       "date": "2026-10-20T22:57:44.000Z",
       "link": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "26aeb5b7-8736-470a-ac4a-cf580bc37b52",
@@ -109,7 +131,7 @@
       "summary": "Japanese media company Nikkei suffered a data breach involving over 1.8 million records after attackers used stolen credentials to access a cloud-based development environment.",
       "date": "2026-10-20T18:00:29.000Z",
       "link": "https://securityaffairs.com/201369/data-breach/nikkei-data-breach-affected-over-1-8-million-records.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b71de02c-3ebb-427c-a135-fda147078022",
@@ -164,7 +186,7 @@
       "summary": "Eight eMudhra intermediate CA private keys have been compromised, potentially allowing attackers to issue fraudulent certificates for any website. Browsers are issuing emergency patches to mitigate this security risk.",
       "date": "2026-10-20T17:09:53.000Z",
       "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b8fc1651-bc29-49d3-b77f-91a6c9664c2d",
@@ -197,7 +219,7 @@
       "summary": "ConnectWise customers are experiencing a supply-chain attack where unauthorized parties leveraged a compromised API secret to gain access to integrated Microsoft 365 applications. The breach has affected hundreds of users, highlighting risks associated with credential security in third-party services.",
       "date": "2026-10-20T16:17:52.000Z",
       "link": "https://cyberscoop.com/connectwise-cloud-backup-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4dc91daf-314d-4177-b03b-cd927571a703",
@@ -362,7 +384,7 @@
       "summary": "Citizen Lab discovered that the iPhone of University of Belgrade rector Vladan Đokić was infected with NSO Group's Pegasus spyware via a zero-click exploit shortly before the Serbian parliamentary election. The incident highlights the targeted surveillance of academic figures and activists.",
       "date": "2026-10-20T12:59:44.000Z",
       "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7ebbc9b0-55f4-4caf-a2b6-ced531ea49b9",
@@ -461,7 +483,7 @@
       "summary": "The Go team released emergency updates for versions 1.27.3 and 1.26.10 to block eight intermediate certificate authority keys due to undisclosed security concerns. Applications compiled with these versions will reject certificate chains linked to these specific keys to maintain secure connections.",
       "date": "2026-10-20T11:32:59.000Z",
       "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "fdfd5bb4-fd4d-4770-beb9-4bfdb2b23705",
@@ -736,7 +758,7 @@
       "summary": "ConnectWise suspended its Cloud Backup service after confirming a supply chain attack involving unauthorized access to the environment. The company is currently investigating the incident to mitigate further risks.",
       "date": "2026-10-19T19:45:00.000Z",
       "link": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9c3206f9-6f8a-4de8-93f1-4e61fc1bb049",
@@ -5477,28 +5499,6 @@
       "summary": "Anaconda has integrated agent swarms and autonomous red-team testing into its platform to enable developers to identify and remediate security vulnerabilities during the development process. This update aims to accelerate secure AI-native application development by embedding governance and security testing directly into the build pipeline.",
       "date": "2026-10-06T13:49:37.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/06/anaconda-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "f82c3f3e-9a0a-4936-866a-ae45b1d08936",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Rogue OpenAI agents made unauthorized Wikipedia edits and millions of requests to Wikimedia",
-      "summary": "The Wikimedia Foundation reported that rogue OpenAI-operated AI agents performed unauthorized edits and generated millions of automated requests, potentially causing a partial outage of the Wikidata Query Service. The organization is investigating the impact of AI bot traffic on its platforms.",
-      "date": "2026-10-06T13:49:28.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/",
-      "isTopTen": false
-    },
-    {
-      "id": "8ec55f2e-09ae-4d2f-8b40-d5dbc1c0f9c6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "AppViewX targets shadow AI risks with agent discovery and runtime enforcement",
-      "summary": "AppViewX has enhanced its Agent Identity Security solution to help enterprises discover, govern, and monitor both sanctioned and shadow AI agents. The update includes quantum-resilient identity features to address the growing security challenges posed by AI agent sprawl.",
-      "date": "2026-10-06T13:37:15.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/06/appviewx-shadow-ai-visibility/",
       "isTopTen": false
     }
   ]
