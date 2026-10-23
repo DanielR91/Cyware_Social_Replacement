@@ -1,6 +1,138 @@
 {
-  "lastUpdated": "2026-10-23T04:17:20.649Z",
+  "lastUpdated": "2026-10-23T11:23:53.441Z",
   "articles": [
+    {
+      "id": "510ffe1a-e6d4-4ef4-a4f1-3277877b953a",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "PHP2Shell: Millions of Attacks, No Confirmed Successful Exploits Yet",
+      "summary": "PHP has released emergency patches for two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that have triggered millions of attack attempts, though no successful exploits have been confirmed. These flaws affect all versions of PHP handling web requests and date back to 2012.",
+      "date": "2026-10-23T10:52:00.000Z",
+      "link": "https://securityaffairs.com/201538/hacking/php2shell-millions-of-attacks-no-confirmed-successful-exploits-yet.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4f8ca95e-72f1-4f11-bc7e-0c7bd0c1ca95",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "summary": "A critical vulnerability in the Python Pillow library allows remote code execution by exploiting how it handles EPS images via Ghostscript. Attackers can trigger unauthorized operating system commands by providing a maliciously crafted filename.",
+      "date": "2026-10-23T09:36:00.000Z",
+      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "isTopTen": true
+    },
+    {
+      "id": "80c7b6af-db31-4c0b-8f05-0e4234614212",
+      "source": "The Register",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "UK threatens subsea cable saboteurs with 14 years behind bars",
+      "summary": "The UK government is proposing legislation to increase prison sentences for subsea cable sabotage to 14 years and expand regulatory oversight over telecommunications providers in response to growing concerns over Russian interference.",
+      "date": "2026-10-23T09:29:00.000Z",
+      "link": "https://www.theregister.com/networks/2026/10/23/uk-threatens-subsea-cable-saboteurs-with-14-years-behind-bars/5304794",
+      "isTopTen": false
+    },
+    {
+      "id": "44daed95-7ebf-4aed-b83f-146f473fcc73",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Capcom data breach exposes 11.7 million account records",
+      "summary": "Capcom disclosed a significant data breach involving unauthorized access to their CAPCOM ID system, resulting in the exposure of approximately 11.7 million customer account records.",
+      "date": "2026-10-23T09:07:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
+      "isTopTen": false
+    },
+    {
+      "id": "b19f4746-0699-4446-8f48-9045a8f0eef3",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "summary": "Security researchers at Imperva discovered a Remote Code Execution (RCE) vulnerability in the Node.js Brotli decoder, allowing attackers to execute arbitrary code via crafted data. The proof-of-concept, dubbed 'Node2Shell', highlights a critical risk in standard Node.js environments.",
+      "date": "2026-10-23T08:40:43.000Z",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "isTopTen": false
+    },
+    {
+      "id": "bb76a8d6-df46-485c-a7bb-ab90640b24ac",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "summary": "A critical vulnerability in the x402 SDK allowed malicious APIs to drain an AI agent's entire token balance by exploiting a lack of default spending limits. While the issue was addressed in an August 18 update, it posed a significant financial risk to agents with automated payment signing enabled.",
+      "date": "2026-10-23T08:35:45.000Z",
+      "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "isTopTen": false
+    },
+    {
+      "id": "91d8014f-c956-4bdd-9f8c-ce81fec5291d",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Hackers hijack exposed AI models to launch cyberattacks at victims’ expense",
+      "summary": "Hackers are scanning the internet for publicly exposed AI models to hijack their computing resources for planning and executing cyberattacks at the owner's expense. Researchers identified this activity through a honeypot that captured malicious instruction sets used to exploit these unsecured services.",
+      "date": "2026-10-23T08:21:48.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
+      "isTopTen": false
+    },
+    {
+      "id": "4ac201f2-8b98-430b-b92b-9f78dd280bf1",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "summary": "Service busy.",
+      "date": "2026-10-23T07:40:45.000Z",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1e6833c9-cff3-4a59-854e-d7ef0a0a6da8",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "INTERPOL Operation Serengeti III Nets 1,462 Arrests and Recovers $105 Million in Cybercrime Crackdown",
+      "summary": "INTERPOL’s Operation Serengeti III successfully resulted in 1,462 arrests, the disruption of over 10,000 malicious networks, and the recovery of $105 million in illicit funds across 21 countries.",
+      "date": "2026-10-23T06:08:00.000Z",
+      "link": "https://securityaffairs.com/201500/cyber-crime/interpol-operation-serengeti-iii-nets-1462-arrests-and-recovers-105-million-in-cybercrime-crackdown.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7bdae671-3e02-475d-bab0-06e8575bf67a",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Google opens its cloud to rival OpenAI, promises business data won’t train models",
+      "summary": "Google Cloud is integrating OpenAI models into its platform via the Marketplace, allowing business customers to access these tools while guaranteeing that their proprietary data will not be used to train future AI models.",
+      "date": "2026-10-23T06:00:31.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview/",
+      "isTopTen": false
+    },
+    {
+      "id": "8fc84ebd-b883-430e-b581-d89b7f334e6a",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Drone program compliance: What a CTO says most agencies get wrong",
+      "summary": "This article outlines critical compliance and security shortcomings in public safety drone programs, specifically highlighting risks in data handling, ground control software, and documentation practices. It provides expert guidance for agencies on maintaining chain of custody and protecting sensitive operational data.",
+      "date": "2026-10-23T05:30:25.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/23/nick-donarski-rotorlab-drone-program-compliance/",
+      "isTopTen": false
+    },
+    {
+      "id": "7ca5dc56-223d-4761-b619-8db98c28cd10",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AI is taking cybersecurity jobs at junior and experienced levels alike",
+      "summary": "A Barracuda report indicates that organizations are reducing their cybersecurity workforce across all experience levels due to AI adoption, despite a simultaneous increase in the need for specialized threat management expertise.",
+      "date": "2026-10-23T04:30:39.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
+      "isTopTen": false
+    },
     {
       "id": "f0c912a9-20ef-4a1f-8b1a-dc943dc5eda6",
       "source": "Help Net Security",
@@ -87,7 +219,7 @@
       "summary": "A critical vulnerability in Signal's calling library, CVE-2026-113380, allows malicious actors to keep a victim's microphone and camera active after a call has been terminated. Users are urged to update their application immediately to address this high-risk flaw.",
       "date": "2026-10-22T18:17:24.000Z",
       "link": "https://securityaffairs.com/201490/security/signal-vulnerability-could-keep-calls-alive-after-users-hang-up.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "586e2349-fea5-4933-bb54-e830f010d85e",
@@ -208,7 +340,7 @@
       "summary": "A New Mexico court has ordered Meta to pay $25 billion in penalties for 43 million privacy violations stemming from the Cambridge Analytica data scandal. The ruling addresses massive user data mishandling that first came to light in 2018.",
       "date": "2026-10-22T16:12:31.000Z",
       "link": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0eb40872-2d7e-48f9-907d-be67b713bb95",
@@ -252,7 +384,7 @@
       "summary": "eMudhra has shut down its digital certificate business following the discovery that its private keys were cryptographically insecure and could be cracked in less than a second. The investigation revealed significant flaws, including the use of extremely weak keys like the digit '4'.",
       "date": "2026-10-22T14:57:06.000Z",
       "link": "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9d8aecca-dc1a-43cc-a5fe-e375e9b5a77f",
@@ -428,7 +560,7 @@
       "summary": "Law enforcement agencies from the US, UK, and Germany have issued a joint advisory regarding the SafePay ransomware group, which has compromised over 600 organizations since 2024 using stolen credentials and double extortion tactics.",
       "date": "2026-10-22T06:48:43.000Z",
       "link": "https://securityaffairs.com/201464/cyber-crime/fbi-and-cisa-warn-of-safepay-ransomware-attacks-on-600-organizations.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "709f9548-f650-447a-8b83-b3a021d3c7de",
@@ -450,7 +582,7 @@
       "summary": "A Russian satellite, Kosmos 2612, performed a close proximity maneuver near an ICEYE commercial radar satellite utilized by Ukraine. This incident highlights growing concerns over potential space-based surveillance and threats to critical commercial orbital assets.",
       "date": "2026-10-21T21:29:04.000Z",
       "link": "https://securityaffairs.com/201446/breaking-news/russian-satellite-makes-a-close-approach-to-a-commercial-radar-satellite-used-by-ukraine.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "779327a1-dfee-4060-87d7-18f04aee2131",
@@ -494,7 +626,7 @@
       "summary": "PHP has released emergency security patches to address two critical vulnerabilities that could allow unauthenticated attackers to execute arbitrary code on affected systems. Website administrators and hosting providers are urged to update their installations immediately to prevent exploitation.",
       "date": "2026-10-21T14:52:33.000Z",
       "link": "https://hackread.com/php-releases-emergency-fixe-php2shell-vulnerabilities/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "952874b7-b9fe-4408-8585-1f50dbcbf48b",
@@ -505,7 +637,7 @@
       "summary": "A threat actor successfully bypassed AI safety protocols to coordinate diverse criminal operations, including credential theft, VoIP fraud, and data exfiltration. This incident highlights the growing risks associated with the weaponization of artificial intelligence in cybercrime.",
       "date": "2026-10-21T14:00:24.000Z",
       "link": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a672fb7-8854-4a00-b4b0-b22642c41a4f",
@@ -582,7 +714,7 @@
       "summary": "Indian certification authority eMudhra suffered a compromise of its private keys, including one trivial key set to the number '4', enabling potential impersonation of secure websites and services. The organization is currently undergoing a massive remediation effort to mitigate the resulting security risks.",
       "date": "2026-10-20T22:57:44.000Z",
       "link": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "26aeb5b7-8736-470a-ac4a-cf580bc37b52",
@@ -725,7 +857,7 @@
       "summary": "Eight eMudhra intermediate CA private keys have been compromised, potentially allowing attackers to issue fraudulent certificates for any website. Browsers are issuing emergency patches to mitigate this security risk.",
       "date": "2026-10-20T17:09:53.000Z",
       "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b8fc1651-bc29-49d3-b77f-91a6c9664c2d",
@@ -758,7 +890,7 @@
       "summary": "ConnectWise customers are experiencing a supply-chain attack where unauthorized parties leveraged a compromised API secret to gain access to integrated Microsoft 365 applications. The breach has affected hundreds of users, highlighting risks associated with credential security in third-party services.",
       "date": "2026-10-20T16:17:52.000Z",
       "link": "https://cyberscoop.com/connectwise-cloud-backup-supply-chain-attack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4dc91daf-314d-4177-b03b-cd927571a703",
@@ -5367,138 +5499,6 @@
       "summary": "Threat actors successfully compromised top-level domains to generate fraudulent SSL/TLS certificates, enabling sophisticated impersonation of major organizations like Google without triggering browser security warnings.",
       "date": "2026-10-07T19:38:06.000Z",
       "link": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
-      "isTopTen": false
-    },
-    {
-      "id": "f6902ca5-a093-4fb0-b21d-8874e30001bd",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
-      "summary": "Attackers compromised the .gh, .sl, and .as ccTLD registries to issue unauthorized HTTPS certificates for Google domains, potentially allowing them to perform man-in-the-middle attacks. While Google's internal infrastructure remained secure, the incident highlights a critical vulnerability in the domain registry supply chain.",
-      "date": "2026-10-07T18:48:17.000Z",
-      "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1754dbeb-06bc-476e-b703-8b059d0aec58",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "$11 million plan for psychological support at Cyber Command gets fresh boost from lawmakers",
-      "summary": "Lawmakers are pushing to secure $11 million in defense spending for a mental health program dedicated to personnel at U.S. Cyber Command and Fort Meade. The initiative aims to provide essential psychological support for those operating within the military's cyber infrastructure.",
-      "date": "2026-10-07T18:35:00.000Z",
-      "link": "https://therecord.media/cyber-command-mental-health-support-program-bipartisan-letters",
-      "isTopTen": false
-    },
-    {
-      "id": "4ead9527-cd7b-49c2-89fe-df07b73e0095",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Arizona courts say hackers stole info on more than 1.3 million people",
-      "summary": "Hackers breached the Arizona court system's FARE program, compromising the personal data of over 1.3 million individuals associated with traffic and criminal debt collection. The unauthorized access was discovered following an investigation into the state-wide system.",
-      "date": "2026-10-07T18:31:00.000Z",
-      "link": "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million",
-      "isTopTen": false
-    },
-    {
-      "id": "49d9c4f2-b580-428a-9cd4-ad0ae3deecb0",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Dread Dark Web Forum Hijacked, Operators Claim Control of Domain Keys",
-      "summary": "The Dread dark web forum has reportedly been hijacked by unknown actors who claim to have seized control of the site's domain keys. Despite the takeover, the operators assert that they have no intention of leaking user data.",
-      "date": "2026-10-07T18:22:07.000Z",
-      "link": "https://hackread.com/dread-dark-web-forum-hijacked-domain-keys/",
-      "isTopTen": false
-    },
-    {
-      "id": "1a9b98e3-a42d-4c9f-b336-2f674c9f87dc",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "SonicWall Fixes Max Severity Pre-Auth Flaw in SMA1000 Appliances",
-      "summary": "SonicWall has released critical patches for its SMA1000 appliances to address a pre-authentication SSRF vulnerability, identified as CVE-2026-102255, which carries a maximum CVSS score of 10.0.",
-      "date": "2026-10-07T18:17:14.000Z",
-      "link": "https://securityaffairs.com/200569/security/sonicwall-fixes-max-severity-pre-auth-flaw-in-sma1000-appliances.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c094474d-6ddf-45e7-964e-e1b9cf26bb8b",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-      "summary": "A lone threat actor distributed eight malicious npm packages, downloaded over 40,000 times, to infect systems with the Overlord RAT and information-stealing malware. The campaign, dubbed MALFEX, highlights persistent risks within the open-source supply chain.",
-      "date": "2026-10-07T17:43:20.000Z",
-      "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-      "isTopTen": false
-    },
-    {
-      "id": "28130b97-66c8-4204-9001-423af8a73f19",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
-      "summary": "AWS has introduced Strands Box, an open-source sandbox environment designed to provide safety controls for autonomous AI agents and mitigate risks associated with uncontrolled operations. The tool aims to prevent operational failures by establishing better oversight for AI systems running in production environments.",
-      "date": "2026-10-07T17:42:06.000Z",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
-      "isTopTen": false
-    },
-    {
-      "id": "34095508-6ad2-4557-aeeb-2425fd9e433c",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "US states sue popular kitmaker TP-Link over China risks",
-      "summary": "Several US states have filed a lawsuit against TP-Link, alleging the company misled consumers regarding the security of its routers and its reliance on Chinese suppliers. The manufacturer has formally denied these claims of deceptive business practices.",
-      "date": "2026-10-07T17:30:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/07/us-states-sue-popular-kitmaker-tp-link-over-china-risks/5301653",
-      "isTopTen": false
-    },
-    {
-      "id": "c7f4a98d-1693-4db7-b689-bd4b29f8e9ad",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "FBI, French authorities seize deepfake CSAM-for-sale websites ",
-      "summary": "The FBI and French authorities have dismantled websites selling deepfake child sexual abuse material (CSAM), which included content derived from both synthetic media and illicitly obtained footage from major social media platforms.",
-      "date": "2026-10-07T17:05:56.000Z",
-      "link": "https://cyberscoop.com/fbi-french-authorities-seize-deepfake-csam-websites/",
-      "isTopTen": false
-    },
-    {
-      "id": "b03cb1ad-f397-4eef-a4d3-84de164198d7",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "How DNS, Firewalls and Endpoint Tools Block Websites",
-      "summary": "The article explains the four distinct architectural layers where website filtering can be implemented, highlighting the strengths and inherent blind spots of DNS, firewall, and endpoint security controls. It clarifies how traffic can bypass specific defensive layers and why multi-layered security is essential for effective content blocking.",
-      "date": "2026-10-07T16:59:50.000Z",
-      "link": "https://hackread.com/how-dns-firewalls-endpoint-tools-block-websites/",
-      "isTopTen": false
-    },
-    {
-      "id": "013b7c27-0108-494e-8980-0adedd26c6cf",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-      "summary": "SonicWall has issued emergency hotfixes for four vulnerabilities in its SMA1000 appliances, including a critical CVSS 10.0 pre-authentication SSRF flaw that could allow unauthorized access to internal network functions.",
-      "date": "2026-10-07T16:17:44.000Z",
-      "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-      "isTopTen": false
-    },
-    {
-      "id": "185a660c-9853-40df-9ffd-4537a2bcf3c6",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Poetry is the new AI security threat as PoeLLM malware infects 3K+ servers",
-      "summary": "Over 3,000 servers have been compromised by new PoeLLM malware that leverages AI-based execution to infect systems. This incident highlights an emerging attack vector targeting large language model integration in server environments.",
-      "date": "2026-10-07T16:01:08.000Z",
-      "link": "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
       "isTopTen": false
     }
   ]
