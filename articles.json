@@ -1,6 +1,105 @@
 {
-  "lastUpdated": "2026-10-23T16:57:14.561Z",
+  "lastUpdated": "2026-10-23T21:16:21.007Z",
   "articles": [
+    {
+      "id": "5dd92d30-6eb1-4961-9886-e778da56d447",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "There's a third PHP2Shell bug, but it won't get an emergency fix",
+      "summary": "Service busy.",
+      "date": "2026-10-23T20:04:40.000Z",
+      "link": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
+      "isTopTen": false
+    },
+    {
+      "id": "0ed868d1-f8ad-450c-9bb6-b9f673da4cd5",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
+      "summary": "A red-team report revealed that OpenAI lacked sufficient monitoring for its AI agents, allowing attackers to easily bypass security controls during a simulated breach on Hugging Face.",
+      "date": "2026-10-23T19:14:57.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
+      "isTopTen": false
+    },
+    {
+      "id": "974ee0a4-40ae-4d9d-a14a-0fa7902c17fb",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "GoDaddy Revokes 404,607 SSL Certificates After Policy Errors",
+      "summary": "GoDaddy revoked over 400,000 SSL/TLS certificates due to certificate-policy errors that impacted numerous websites, including those belonging to the Gibraltar government. This incident highlights a significant configuration failure necessitating widespread site re-validation.",
+      "date": "2026-10-23T19:09:16.000Z",
+      "link": "https://hackread.com/godaddy-revokes-ssl-certificates-policy-errors/",
+      "isTopTen": false
+    },
+    {
+      "id": "2839ef17-5048-4b6e-bf9c-c452286e30fc",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "summary": "Service busy.",
+      "date": "2026-10-23T18:50:13.000Z",
+      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6dd6c9ae-932b-4fa3-950f-d3c29925a3ce",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "PHP Warns of New Code Execution Flaw Days After PHP2Shell Patches",
+      "summary": "PHP has issued a warning regarding a new remote code execution vulnerability, CVE-2026-115560, advising users to disable session upload progress while awaiting an official patch. This discovery follows recent emergency fixes released for the critical PHP2Shell security flaws.",
+      "date": "2026-10-23T18:07:27.000Z",
+      "link": "https://securityaffairs.com/201595/security/php-warns-of-new-code-execution-flaw-days-after-php2shell-patches.html",
+      "isTopTen": true
+    },
+    {
+      "id": "a40fd49d-b30a-4f54-9c10-edbf176d02e9",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "summary": "Ruby has patched three critical memory corruption vulnerabilities in its Onigmo regex engine that were exploited to execute code within GitLab environments. Developers are urged to update to the latest versions to mitigate these RCE flaws.",
+      "date": "2026-10-23T17:54:08.000Z",
+      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7ee9958f-083c-4f72-9adc-8327b7d8d071",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "summary": "Russian-speaking ransomware groups INC and The Gentlemen are utilizing an AI-driven framework called Phantom to automate intrusion and data extortion operations. This development highlights the integration of autonomous agents into the kill chains of sophisticated cybercriminal syndicates.",
+      "date": "2026-10-23T17:50:47.000Z",
+      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "isTopTen": true
+    },
+    {
+      "id": "668f902f-ef54-4d71-814a-1631d64157e1",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Overlord RAT Uses Fake Legal Notices to Infect Windows PCs in New Campaign",
+      "summary": "A new malware campaign is distributing the Overlord RAT by masquerading as fake legal notices targeting Brazilian users. The campaign also involves the deployment of Lampion malware and other remote access tools.",
+      "date": "2026-10-23T17:31:31.000Z",
+      "link": "https://hackread.com/overlord-rat-fake-legal-notices-infect-windows-pcs/",
+      "isTopTen": false
+    },
+    {
+      "id": "f1ac57a2-6e0b-43c4-8b39-b9890c6c1c05",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "FCC bans two devices with surveillance chips linked to Huawei",
+      "summary": "The FCC has prohibited the sale of a wireless video transmitter and a dashboard camera due to their use of surveillance-capable chips produced by Huawei subsidiary HiSilicon. This move aligns with broader U.S. efforts to mitigate national security risks associated with Chinese technology manufacturers.",
+      "date": "2026-10-23T17:28:00.000Z",
+      "link": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+      "isTopTen": false
+    },
     {
       "id": "1e85ec80-653f-4974-a9b0-b8cd2b3b5723",
       "source": "CyberScoop",
@@ -43,7 +142,7 @@
       "summary": "The UK government aims to modernize the 1885 Submarine Telegraph Act to increase penalties for sabotaging undersea cables from five years to 14 years in prison. This proposal addresses growing concerns over hybrid threats targeting critical national infrastructure.",
       "date": "2026-10-23T13:26:00.000Z",
       "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "275bfec0-b8c2-438f-8f95-ae8111a8e7f0",
@@ -76,7 +175,7 @@
       "summary": "The UK government is proposing a legislative update that would increase prison sentences to 14 years and introduce unlimited fines for parties found guilty of sabotaging critical subsea infrastructure. These measures aim to modernize outdated laws and enhance the security of vital subsea cables and pipelines.",
       "date": "2026-10-23T12:37:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/uk-undersea-cable-sabotage-sentences/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "72d8200c-7f7b-4761-bf77-d7439b707ab6",
@@ -98,7 +197,7 @@
       "summary": "A New Mexico judge has ordered Meta to pay a record-breaking $25 billion penalty for deceiving Facebook users regarding their privacy in relation to the Cambridge Analytica scandal. Meta intends to appeal the court's decision.",
       "date": "2026-10-23T11:42:24.000Z",
       "link": "https://securityaffairs.com/201582/laws-and-regulations/meta-faces-25-billion-penalty-linked-to-cambridge-analytica-scandal.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a5f4cd5-5ac7-4d76-931d-c4dabc5ea61f",
@@ -131,7 +230,7 @@
       "summary": "Service busy.",
       "date": "2026-10-23T11:11:23.000Z",
       "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "510ffe1a-e6d4-4ef4-a4f1-3277877b953a",
@@ -274,6 +373,17 @@
       "summary": "This article highlights recent product releases from AppGate, IDENTOS, Sweet Security, and ThreatModeler, focusing on new cybersecurity tools and cloud workload protection. Specifically, Sweet Security introduced a virtual patching feature to mitigate cloud and AI vulnerabilities.",
       "date": "2026-10-23T04:00:41.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/new-infosec-products-of-the-week-october-23-2026/",
+      "isTopTen": false
+    },
+    {
+      "id": "b2aa7bab-f247-4c84-8d24-ad477dce5bf4",
+      "source": "The Record",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
+      "summary": "Cybersecurity analysts are observing an increase in exploitation attempts targeting the PHP2Shell vulnerabilities, though experts suggest these exploits currently have limited practical impact. The situation remains a point of focus for monitoring due to the widespread attention surrounding the flaws.",
+      "date": "2026-10-23T04:00:00.000Z",
+      "link": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
       "isTopTen": false
     },
     {
@@ -483,7 +593,7 @@
       "summary": "The PHP2Shell malware has disrupted over 30 UK government services, causing significant operational outages despite no evidence of a data compromise. Authorities are currently managing the impact on affected digital platforms.",
       "date": "2026-10-22T16:05:53.000Z",
       "link": "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "67914b33-a80a-4c23-a182-16a14207f916",
@@ -670,7 +780,7 @@
       "summary": "The Qilin and INC ransomware groups are actively exploiting a vulnerability in Palo Alto Networks' PAN-OS to compromise VPNs and steal domain credentials. This activity highlights a coordinated effort by threat actors to leverage critical infrastructure flaws for initial access.",
       "date": "2026-10-22T10:15:31.000Z",
       "link": "https://hackread.com/qilin-inc-exploit-palo-alto-vpn-flaw-ransomware-attacks/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6a284091-e77c-447c-bd95-69b2ce532b9a",
@@ -5389,116 +5499,6 @@
       "summary": "The newly identified Wazza phishkit utilizes advanced infrastructure, including traffic controls and session management, to target government, banking, and manufacturing sectors in the US, EU, and Australia. This sophisticated tool demonstrates an evolution beyond simple credential harvesting by integrating complex filtering mechanisms.",
       "date": "2026-10-08T10:30:00.000Z",
       "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-      "isTopTen": false
-    },
-    {
-      "id": "e33c09a9-c939-4d6a-988a-9b049bd01bb2",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Cryptomining botnet hides C2 addresses in GitHub poem, infects over 3,400 servers",
-      "summary": "A threat actor dubbed 'Canto Incognito' is using a cryptomining botnet called PoeLLM to target exposed AI services, utilizing a poem hosted on GitHub to obfuscate command-and-control communication. The campaign has successfully compromised over 3,400 servers to mine cryptocurrency and propagate further infections.",
-      "date": "2026-10-08T10:24:57.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/08/poellm-malware-github-poem-ai-servers/",
-      "isTopTen": false
-    },
-    {
-      "id": "05c24140-837c-4137-9f2e-3fe19ae2e565",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "U.S. Offers $10 Million Reward for Alleged HAFNIUM Hacker Zhang Yu",
-      "summary": "The U.S. State Department is offering a $10 million reward for information leading to the arrest of Zhang Yu, a key figure in the 2021 HAFNIUM cyber espionage campaign.",
-      "date": "2026-10-08T10:11:44.000Z",
-      "link": "https://securityaffairs.com/200608/intelligence/u-s-offers-10-million-reward-for-alleged-hafnium-hacker-zhang-yu.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a07770f5-7d1d-42c7-b7bf-2b8e0c6bbfef",
-      "source": "CyberScoop",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Critical",
-      "title": "Quantum computers could break today’s encryption. Washington needs to prepare now.",
-      "summary": "The rapid advancement of quantum computing poses a significant future threat to current encryption standards, necessitating urgent policy action and the adoption of post-quantum defenses by the U.S. government.",
-      "date": "2026-10-08T10:00:00.000Z",
-      "link": "https://cyberscoop.com/quantum-computers-could-break-todays-encryption-washington-needs-to-prepare-now/",
-      "isTopTen": false
-    },
-    {
-      "id": "b1cf729f-ea62-4e9f-bb1c-92cf59faff6e",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-      "summary": "Researchers identified 16 malicious Firefox extensions masquerading as legitimate cryptocurrency wallet services to intercept and steal user recovery phrases and private keys. These extensions compromise user credentials during the wallet import process, posing a direct threat to digital asset security.",
-      "date": "2026-10-08T09:46:32.000Z",
-      "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3ea53afb-5a75-4ea8-ab37-7807f69d2123",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "GitHub adds AI to catch passwords before a code push",
-      "summary": "GitHub has integrated an AI-powered classifier based on ModernBERT into its push protection feature to identify and block the accidental uploading of unstructured credentials like passwords before they reach repository history.",
-      "date": "2026-10-08T09:02:11.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/08/github-push-protection-modernbert/",
-      "isTopTen": false
-    },
-    {
-      "id": "cd863985-ce00-49bf-828d-d787bb3180c1",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "What is MATCHBOIL? The Russia-aligned malware that installs a spying backdoor",
-      "summary": "MATCHBOIL is a Russia-aligned downloader used by the threat group UAC-0099 to plant spying backdoors on systems within critical infrastructure sectors in Ukraine. Researchers from ESET have tracked its deployment across transportation, manufacturing, and energy companies since 2025.",
-      "date": "2026-10-08T09:00:54.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/08/matchboil-malware-uac-0099/",
-      "isTopTen": false
-    },
-    {
-      "id": "4b66715d-90ea-4d56-bbef-db7a5eb22efd",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
-      "summary": "A business owner's decision to bypass professional security services led to a devastating ransomware attack that ultimately resulted in the company's insolvency. The incident highlights the high cost of neglecting cybersecurity investments.",
-      "date": "2026-10-08T08:15:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/08/cheapskates-wouldnt-pay-for-security-help-got-hit-by-ransomware-and-went-bust-months-later/5301757",
-      "isTopTen": false
-    },
-    {
-      "id": "3f4c700a-0818-4aa3-a15e-8c04ec23b1f6",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Ransomware recovery firm boss charged with secretly paying attackers and overcharging victims",
-      "summary": "Zohar Pinhasi, the owner of the ransomware recovery firm MonsterCloud, has been indicted for allegedly defrauding clients by secretly paying attackers and significantly overcharging victims for remediation services.",
-      "date": "2026-10-08T08:00:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/08/monstercloud-owner-ransomware-fraud-charges/",
-      "isTopTen": false
-    },
-    {
-      "id": "317be864-fdb2-48ef-81c1-72ea1e251e8d",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-      "summary": "The U.S. State Department is offering a $10 million reward for information leading to the capture of Chinese national Zhang Yu, who is accused of involvement in the 2021 HAFNIUM Microsoft Exchange Server attacks.",
-      "date": "2026-10-08T07:42:04.000Z",
-      "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-      "isTopTen": false
-    },
-    {
-      "id": "21176c2a-c845-41f8-ae01-89f2e7a4471b",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-      "summary": "Zohar Pinhasi, the owner of MonsterCloud, has been charged with wire fraud for allegedly deceiving ransomware victims by charging millions for fake proprietary recovery services while secretly paying attackers for decryptors.",
-      "date": "2026-10-08T07:41:44.000Z",
-      "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
       "isTopTen": false
     }
   ]
