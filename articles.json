@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-10-24T03:58:53.601Z",
+  "lastUpdated": "2026-10-24T10:38:19.590Z",
   "articles": [
+    {
+      "id": "3ef7e481-4db7-4e67-bedd-4da62006ea7e",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "summary": "Dutch security firm Eye Security remotely patched over 2 million unauthorized computers to disable a vulnerable background updater found in a defunct version of Popcorn Time. This preemptive action was intended to prevent the potential hijacking of these systems for use in a botnet.",
+      "date": "2026-10-24T09:04:24.000Z",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "isTopTen": false
+    },
+    {
+      "id": "6bcc8624-2f07-4ed2-b26a-57c5867451d8",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "summary": "A critical memory-corruption vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497, exposes multiple platforms including Node.js, Bun, and Python packages to potential remote code execution via crafted data. The flaw allows attackers to perform out-of-bounds memory overwrites, posing a significant risk to widely used software.",
+      "date": "2026-10-24T08:45:56.000Z",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4fee2322-4cb7-4acf-b986-67f4885b905a",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Arista VeloCloud Orchestrator flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has added a critical vulnerability (CVE-2026-114625) in Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities catalog due to active exploitation. This vulnerability affects the central management system for VeloCloud network environments.",
+      "date": "2026-10-24T08:30:44.000Z",
+      "link": "https://securityaffairs.com/201609/hacking/u-s-cisa-adds-arista-velocloud-orchestrator-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "1d7e761d-874d-4bf0-8f7b-fddf724e6fab",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "summary": "CISA has added two actively exploited critical vulnerabilities in Collabora Online and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities (KEV) catalog. These flaws allow for potential exploitation in the wild, necessitating immediate patching.",
+      "date": "2026-10-24T06:25:57.000Z",
+      "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "isTopTen": true
+    },
     {
       "id": "5dd92d30-6eb1-4961-9886-e778da56d447",
       "source": "The Register",
@@ -21,7 +65,7 @@
       "summary": "A red-team report revealed that OpenAI lacked sufficient monitoring for its AI agents, allowing attackers to easily bypass security controls during a simulated breach on Hugging Face.",
       "date": "2026-10-23T19:14:57.000Z",
       "link": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "974ee0a4-40ae-4d9d-a14a-0fa7902c17fb",
@@ -43,7 +87,7 @@
       "summary": "Service busy.",
       "date": "2026-10-23T18:50:13.000Z",
       "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "6dd6c9ae-932b-4fa3-950f-d3c29925a3ce",
@@ -76,7 +120,7 @@
       "summary": "Russian-speaking ransomware groups INC and The Gentlemen are utilizing an AI-driven framework called Phantom to automate intrusion and data extortion operations. This development highlights the integration of autonomous agents into the kill chains of sophisticated cybercriminal syndicates.",
       "date": "2026-10-23T17:50:47.000Z",
       "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "668f902f-ef54-4d71-814a-1631d64157e1",
@@ -186,7 +230,7 @@
       "summary": "An attacker compromised 79 organizations by replaying stolen Microsoft 365 session tokens, bypassing password requirements to gain unauthorized email access. The campaign involved the use of hidden inbox rules to conceal malicious activity from victims.",
       "date": "2026-10-23T11:45:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d820d77-6569-4c53-8e95-376713157a4d",
@@ -197,7 +241,7 @@
       "summary": "A New Mexico judge has ordered Meta to pay a record-breaking $25 billion penalty for deceiving Facebook users regarding their privacy in relation to the Cambridge Analytica scandal. Meta intends to appeal the court's decision.",
       "date": "2026-10-23T11:42:24.000Z",
       "link": "https://securityaffairs.com/201582/laws-and-regulations/meta-faces-25-billion-penalty-linked-to-cambridge-analytica-scandal.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a5f4cd5-5ac7-4d76-931d-c4dabc5ea61f",
@@ -230,7 +274,7 @@
       "summary": "Service busy.",
       "date": "2026-10-23T11:11:23.000Z",
       "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "510ffe1a-e6d4-4ef4-a4f1-3277877b953a",
@@ -406,7 +450,7 @@
       "summary": "Microsoft has identified the China-linked threat actor Storm-0940 as the entity behind the ConnectWise supply chain breach, utilizing an AI-driven pentesting tool named ARTEX to compromise 2,250 Microsoft 365 tenants.",
       "date": "2026-10-22T20:47:34.000Z",
       "link": "https://securityaffairs.com/201501/apt/microsoft-links-connectwise-breach-to-china-linked-group-using-ai-pentesting-tool-artex.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "31da6d26-404e-4a01-a03c-463114d27278",
@@ -472,7 +516,7 @@
       "summary": "eMudhra is exiting the global SSL/TLS certificate market after a security researcher discovered eight of its intermediate CA private keys were easily guessable. The company is now transitioning affected customers to alternative providers to mitigate risks.",
       "date": "2026-10-22T18:12:43.000Z",
       "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "220b2b86-55ce-4e3a-952c-aa1c701cc85a",
@@ -626,7 +670,7 @@
       "summary": "eMudhra has shut down its digital certificate business following the discovery that its private keys were cryptographically insecure and could be cracked in less than a second. The investigation revealed significant flaws, including the use of extremely weak keys like the digit '4'.",
       "date": "2026-10-22T14:57:06.000Z",
       "link": "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9d8aecca-dc1a-43cc-a5fe-e375e9b5a77f",
@@ -758,7 +802,7 @@
       "summary": "Chinese state-sponsored hackers exploited a vulnerability in ConnectWise software to gain unauthorized access to 2,250 Microsoft cloud environments using AI-driven automation. The attack allowed the threat actors to secure privileged access in as little as three hours.",
       "date": "2026-10-22T11:28:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "7e262589-7ea0-4e57-a39d-88ca35809564",
@@ -5455,50 +5499,6 @@
       "summary": "Insignary has launched Clarity AIR, a new tool designed to identify undeclared open-source components and AI-generated code within software supply chains. This solution aims to improve transparency and security compliance by detecting non-compliant or potentially risky code insertions.",
       "date": "2026-10-08T11:50:05.000Z",
       "link": "https://hackread.com/insignary-launches-clarity-air-to-detect-undeclared-open-source-and-ai-written-code/",
-      "isTopTen": false
-    },
-    {
-      "id": "9107e8be-fa48-45db-93bc-9df02caf4fe4",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Anthropic’s new budget model gets much better at ignoring hidden commands",
-      "summary": "Anthropic has released the Claude Haiku 5.5 model, which features enhanced resistance to prompt injection attacks and improved security safeguards compared to its predecessor. While the model shows increased proficiency in identifying vulnerabilities, Anthropic continues to implement stricter controls to mitigate risks associated with its offensive capabilities.",
-      "date": "2026-10-08T11:24:16.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/08/anthropic-claude-haiku-5-5/",
-      "isTopTen": false
-    },
-    {
-      "id": "fba1e4a3-7cf9-4e5b-af1e-9001839cc11a",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
-      "summary": "The UK and Germany have established a new security pact to collaborate on information-sharing and the disruption of Russian-linked cyber threats. The agreement highlights increased geopolitical cooperation amidst evolving post-Brexit security strategies.",
-      "date": "2026-10-08T11:22:01.000Z",
-      "link": "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914",
-      "isTopTen": false
-    },
-    {
-      "id": "453a5f52-5b02-45ca-afbc-21bcfbee8fad",
-      "source": "HackRead",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "FBI, French Police Seize CSAM Site Domains, Suspected Admin Arrested",
-      "summary": "US and French law enforcement agencies dismantled a platform involved in the distribution of CSAM and non-consensual intimate images, leading to the arrest of a suspected administrator. The operation resulted in the seizure of two website domains associated with the illicit activity.",
-      "date": "2026-10-08T10:52:46.000Z",
-      "link": "https://hackread.com/fbi-french-police-seize-csam-domains-admin-arrested/",
-      "isTopTen": false
-    },
-    {
-      "id": "2f99d0bf-604e-47af-8d9b-81ade31745e3",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "summary": "The newly identified Wazza phishkit utilizes advanced infrastructure, including traffic controls and session management, to target government, banking, and manufacturing sectors in the US, EU, and Australia. This sophisticated tool demonstrates an evolution beyond simple credential harvesting by integrating complex filtering mechanisms.",
-      "date": "2026-10-08T10:30:00.000Z",
-      "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
       "isTopTen": false
     }
   ]
