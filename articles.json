@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-24T15:41:58.321Z",
+  "lastUpdated": "2026-10-24T20:31:20.883Z",
   "articles": [
+    {
+      "id": "afd69187-f1b6-4753-a646-96782f7e359d",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Pierluigi Paganini answers questions about the PHP2Shell flaws",
+      "summary": "Security expert Pierluigi Paganini discusses the PHP2Shell vulnerability, highlighting that exploitation began prior to public disclosure and emphasizing the risks posed by AI-assisted attacks. The analysis addresses the widespread usage of PHP and the potential impact on global server infrastructure and data security.",
+      "date": "2026-10-24T18:58:38.000Z",
+      "link": "https://securityaffairs.com/201662/hacking/pierluigi-paganini-answers-questions-about-the-php2shell-flaws.html",
+      "isTopTen": true
+    },
+    {
+      "id": "4fc0f1e2-ff21-4fb7-916c-201f55c87a27",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "U.S. CISA adds Collabora Online flaw to its Known Exploited Vulnerabilities catalog",
+      "summary": "CISA has officially added the critical Collabora Online flaw, tracked as CVE-2026-110447, to its Known Exploited Vulnerabilities catalog due to active exploitation. This vulnerability carries a high CVSS score of 9.2, signaling a significant security risk for affected organizations.",
+      "date": "2026-10-24T16:53:59.000Z",
+      "link": "https://securityaffairs.com/201652/security/u-s-cisa-adds-collabora-online-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": true
+    },
+    {
+      "id": "e524d2a1-52f3-4986-a107-2690863b8929",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "SPECTER Attack Uses USB Power Signals to Leak Data From Air-Gapped PCs",
+      "summary": "Service busy.",
+      "date": "2026-10-24T16:02:19.000Z",
+      "link": "https://hackread.com/specter-usb-power-signals-air-gapped-pcs-leak-data/",
+      "isTopTen": false
+    },
     {
       "id": "54f365ba-8f9d-4ff9-8962-6340b2d8aa23",
       "source": "Security Affairs",
@@ -32,7 +65,7 @@
       "summary": "LiteLLM reported that an accidentally leaked master key in a public repository allowed attackers to hijack their release pipeline and distribute a malicious version of their Python package.",
       "date": "2026-10-24T11:03:33.000Z",
       "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "18490a28-9119-4706-a6c2-5b58d9279b12",
@@ -43,7 +76,7 @@
       "summary": "Google has updated its privacy policy to clarify that enabling AI features in Search or Gemini may permit the company to use personal data from connected services to deliver targeted advertisements. This change highlights the intersection of generative AI integration and data privacy practices across the Google ecosystem.",
       "date": "2026-10-24T10:36:33.000Z",
       "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9009a085-2919-4597-936c-a5fccf5be7eb",
@@ -76,7 +109,7 @@
       "summary": "A critical memory-corruption vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497, exposes multiple platforms including Node.js, Bun, and Python packages to potential remote code execution via crafted data. The flaw allows attackers to perform out-of-bounds memory overwrites, posing a significant risk to widely used software.",
       "date": "2026-10-24T08:45:56.000Z",
       "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4fee2322-4cb7-4acf-b986-67f4885b905a",
@@ -153,7 +186,7 @@
       "summary": "PHP has issued a warning regarding a new remote code execution vulnerability, CVE-2026-115560, advising users to disable session upload progress while awaiting an official patch. This discovery follows recent emergency fixes released for the critical PHP2Shell security flaws.",
       "date": "2026-10-23T18:07:27.000Z",
       "link": "https://securityaffairs.com/201595/security/php-warns-of-new-code-execution-flaw-days-after-php2shell-patches.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a40fd49d-b30a-4f54-9c10-edbf176d02e9",
@@ -175,7 +208,7 @@
       "summary": "Russian-speaking ransomware groups INC and The Gentlemen are utilizing an AI-driven framework called Phantom to automate intrusion and data extortion operations. This development highlights the integration of autonomous agents into the kill chains of sophisticated cybercriminal syndicates.",
       "date": "2026-10-23T17:50:47.000Z",
       "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "668f902f-ef54-4d71-814a-1631d64157e1",
@@ -241,7 +274,7 @@
       "summary": "The UK government aims to modernize the 1885 Submarine Telegraph Act to increase penalties for sabotaging undersea cables from five years to 14 years in prison. This proposal addresses growing concerns over hybrid threats targeting critical national infrastructure.",
       "date": "2026-10-23T13:26:00.000Z",
       "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "275bfec0-b8c2-438f-8f95-ae8111a8e7f0",
@@ -285,7 +318,7 @@
       "summary": "An attacker compromised 79 organizations by replaying stolen Microsoft 365 session tokens, bypassing password requirements to gain unauthorized email access. The campaign involved the use of hidden inbox rules to conceal malicious activity from victims.",
       "date": "2026-10-23T11:45:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d820d77-6569-4c53-8e95-376713157a4d",
@@ -505,7 +538,7 @@
       "summary": "Microsoft has identified the China-linked threat actor Storm-0940 as the entity behind the ConnectWise supply chain breach, utilizing an AI-driven pentesting tool named ARTEX to compromise 2,250 Microsoft 365 tenants.",
       "date": "2026-10-22T20:47:34.000Z",
       "link": "https://securityaffairs.com/201501/apt/microsoft-links-connectwise-breach-to-china-linked-group-using-ai-pentesting-tool-artex.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "31da6d26-404e-4a01-a03c-463114d27278",
@@ -538,7 +571,7 @@
       "summary": "Arista has issued a warning regarding a critical SQL injection zero-day vulnerability in its VeloCloud Orchestrator that allows authenticated users to escalate privileges to operator level. Active exploitation of this flaw has been reported by the company.",
       "date": "2026-10-22T19:05:17.000Z",
       "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "be6647bb-395c-4907-8a0b-3fb1d7b0ec19",
@@ -560,7 +593,7 @@
       "summary": "A critical vulnerability in Signal's calling library, CVE-2026-113380, allows malicious actors to keep a victim's microphone and camera active after a call has been terminated. Users are urged to update their application immediately to address this high-risk flaw.",
       "date": "2026-10-22T18:17:24.000Z",
       "link": "https://securityaffairs.com/201490/security/signal-vulnerability-could-keep-calls-alive-after-users-hang-up.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "586e2349-fea5-4933-bb54-e830f010d85e",
@@ -571,7 +604,7 @@
       "summary": "eMudhra is exiting the global SSL/TLS certificate market after a security researcher discovered eight of its intermediate CA private keys were easily guessable. The company is now transitioning affected customers to alternative providers to mitigate risks.",
       "date": "2026-10-22T18:12:43.000Z",
       "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "220b2b86-55ce-4e3a-952c-aa1c701cc85a",
@@ -615,7 +648,7 @@
       "summary": "A critical vulnerability affecting 12 years of GitLab releases has been identified, enabling remote code execution. The vendor has issued an urgent recommendation for users to upgrade to a patched version immediately.",
       "date": "2026-10-22T17:36:30.000Z",
       "link": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "67c44acc-6eed-44d5-97d5-fc1690d5d3f5",
@@ -637,7 +670,7 @@
       "summary": "Two critical remote code execution vulnerabilities in the Linux kernel's KSMBD feature have been disclosed publicly before the release of official patches. These flaws pose a significant risk to Linux servers, with one vulnerability exploitable without prior authentication.",
       "date": "2026-10-22T17:01:53.000Z",
       "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7cbe843f-7208-471e-8713-124d26b85bd3",
@@ -670,7 +703,7 @@
       "summary": "Microsoft has identified a Chinese state-aligned hacking group leveraging automated AI agents to exploit ConnectWise software for global supply chain attacks. The attackers are actively using these tools to target organizations across the globe.",
       "date": "2026-10-22T16:30:00.000Z",
       "link": "https://therecord.media/china-cyber-connectwise-ai",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "00a5329e-12a1-4c81-a9ab-4ec91fcc9b5f",
@@ -681,7 +714,7 @@
       "summary": "A New Mexico court has ordered Meta to pay $25 billion in penalties for 43 million privacy violations stemming from the Cambridge Analytica data scandal. The ruling addresses massive user data mishandling that first came to light in 2018.",
       "date": "2026-10-22T16:12:31.000Z",
       "link": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0eb40872-2d7e-48f9-907d-be67b713bb95",
@@ -725,7 +758,7 @@
       "summary": "eMudhra has shut down its digital certificate business following the discovery that its private keys were cryptographically insecure and could be cracked in less than a second. The investigation revealed significant flaws, including the use of extremely weak keys like the digit '4'.",
       "date": "2026-10-22T14:57:06.000Z",
       "link": "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9d8aecca-dc1a-43cc-a5fe-e375e9b5a77f",
@@ -5466,39 +5499,6 @@
       "summary": "Service busy.",
       "date": "2026-10-08T15:45:56.000Z",
       "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
-      "isTopTen": false
-    },
-    {
-      "id": "c4b15e99-caf7-444d-a777-4b5197d8137f",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Midnight Mimosa Malware Found Preinstalled on Low-Cost Android Phones",
-      "summary": "Service busy.",
-      "date": "2026-10-08T15:28:24.000Z",
-      "link": "https://hackread.com/midnight-mimosa-malware-preinstalled-android-phones/",
-      "isTopTen": false
-    },
-    {
-      "id": "b6ead6ee-066a-490a-9612-b0799d47881a",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
-      "summary": "Service busy.",
-      "date": "2026-10-08T15:26:56.000Z",
-      "link": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
-      "isTopTen": false
-    },
-    {
-      "id": "878e0dc8-213a-415a-9397-c3bc362baaeb",
-      "source": "The Register",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Fighting GenAI with GenAI: The New Email Security Landscape",
-      "summary": "This article explores how organizations are leveraging generative AI tools to defend against increasingly sophisticated, AI-driven email-based cyberattacks. It highlights the shift toward automated, intelligent security measures to counter evolving threat vectors.",
-      "date": "2026-10-08T15:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/08/sponsored-fighting-genai-with-genai-the-new-email-security-landscape/5301063",
       "isTopTen": false
     }
   ]
