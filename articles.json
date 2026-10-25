@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-25T16:03:53.790Z",
+  "lastUpdated": "2026-10-25T20:47:16.557Z",
   "articles": [
+    {
+      "id": "109ea5aa-5040-4c71-8c16-1dff28c79e56",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 5",
+      "summary": "Service busy.",
+      "date": "2026-10-25T17:49:25.000Z",
+      "link": "https://securityaffairs.com/201718/ai/security-affairs-ai-cybersecurity-newsletter-round-5.html",
+      "isTopTen": false
+    },
+    {
+      "id": "f7871c57-3ff7-4970-9164-48c78df8168f",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "summary": "Security researchers have identified vulnerabilities in Tailscale SSH that could allow an attacker who compromises a single device to escalate privileges and gain root access on other servers within the same network. The attack requires specific configurations involving port forwarding and existing access permissions between devices.",
+      "date": "2026-10-25T17:44:09.000Z",
+      "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "isTopTen": false
+    },
+    {
+      "id": "888e0573-1592-48cb-b780-28f96979f05d",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "summary": "Threat actors are leveraging agentic AI to accelerate post-exploitation activity following the discovery of PHP2Shell vulnerabilities, resulting in a successful breach of a European government entity. The attackers gained access to sensitive credentials, including password hashes and MFA tokens, within two hours of initial access.",
+      "date": "2026-10-25T17:19:46.000Z",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "isTopTen": true
+    },
     {
       "id": "3ec16e08-6c26-40dc-b3f9-0733a1cf1bbb",
       "source": "Security Affairs",
@@ -54,7 +87,7 @@
       "summary": "OpenAI is implementing strict air-gapping measures for its frontier model training following research that identified potential VM escape and cross-sandbox communication risks. These precautions aim to mitigate security threats during the reinforcement learning and inference processes for advanced models.",
       "date": "2026-10-25T06:54:29.000Z",
       "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "afd69187-f1b6-4753-a646-96782f7e359d",
@@ -186,7 +219,7 @@
       "summary": "CISA has added two actively exploited critical vulnerabilities in Collabora Online and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities (KEV) catalog. These flaws allow for potential exploitation in the wild, necessitating immediate patching.",
       "date": "2026-10-24T06:25:57.000Z",
       "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5dd92d30-6eb1-4961-9886-e778da56d447",
@@ -263,7 +296,7 @@
       "summary": "Russian-speaking ransomware groups INC and The Gentlemen are utilizing an AI-driven framework called Phantom to automate intrusion and data extortion operations. This development highlights the integration of autonomous agents into the kill chains of sophisticated cybercriminal syndicates.",
       "date": "2026-10-23T17:50:47.000Z",
       "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "668f902f-ef54-4d71-814a-1631d64157e1",
@@ -329,7 +362,7 @@
       "summary": "The UK government aims to modernize the 1885 Submarine Telegraph Act to increase penalties for sabotaging undersea cables from five years to 14 years in prison. This proposal addresses growing concerns over hybrid threats targeting critical national infrastructure.",
       "date": "2026-10-23T13:26:00.000Z",
       "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "275bfec0-b8c2-438f-8f95-ae8111a8e7f0",
@@ -428,7 +461,7 @@
       "summary": "PHP has released emergency patches for two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that have triggered millions of attack attempts, though no successful exploits have been confirmed. These flaws affect all versions of PHP handling web requests and date back to 2012.",
       "date": "2026-10-23T10:52:00.000Z",
       "link": "https://securityaffairs.com/201538/hacking/php2shell-millions-of-attacks-no-confirmed-successful-exploits-yet.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4f8ca95e-72f1-4f11-bc7e-0c7bd0c1ca95",
@@ -494,7 +527,7 @@
       "summary": "Hackers are scanning the internet for publicly exposed AI models to hijack their computing resources for planning and executing cyberattacks at the owner's expense. Researchers identified this activity through a honeypot that captured malicious instruction sets used to exploit these unsecured services.",
       "date": "2026-10-23T08:21:48.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4ac201f2-8b98-430b-b92b-9f78dd280bf1",
@@ -593,7 +626,7 @@
       "summary": "Microsoft has identified the China-linked threat actor Storm-0940 as the entity behind the ConnectWise supply chain breach, utilizing an AI-driven pentesting tool named ARTEX to compromise 2,250 Microsoft 365 tenants.",
       "date": "2026-10-22T20:47:34.000Z",
       "link": "https://securityaffairs.com/201501/apt/microsoft-links-connectwise-breach-to-china-linked-group-using-ai-pentesting-tool-artex.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "31da6d26-404e-4a01-a03c-463114d27278",
@@ -659,7 +692,7 @@
       "summary": "eMudhra is exiting the global SSL/TLS certificate market after a security researcher discovered eight of its intermediate CA private keys were easily guessable. The company is now transitioning affected customers to alternative providers to mitigate risks.",
       "date": "2026-10-22T18:12:43.000Z",
       "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "220b2b86-55ce-4e3a-952c-aa1c701cc85a",
@@ -758,7 +791,7 @@
       "summary": "Microsoft has identified a Chinese state-aligned hacking group leveraging automated AI agents to exploit ConnectWise software for global supply chain attacks. The attackers are actively using these tools to target organizations across the globe.",
       "date": "2026-10-22T16:30:00.000Z",
       "link": "https://therecord.media/china-cyber-connectwise-ai",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "00a5329e-12a1-4c81-a9ab-4ec91fcc9b5f",
@@ -5466,39 +5499,6 @@
       "summary": "The FBI and international partners have exposed a China-linked cybersecurity firm, Integrity Technology Group, for facilitating large-scale email theft across multiple sectors. The group utilized vulnerability scanning tools to target government and private organizations, resulting in sanctions by the U.S. and UK.",
       "date": "2026-10-08T18:32:21.000Z",
       "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2e2694c7-6a04-47e6-a614-8bdd3fa19b7e",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "High-severity Nvidia bug could crash GPU monitoring on exposed servers",
-      "summary": "Nvidia has released a security patch to address a high-severity vulnerability, tracked as CVE-2026-47483, which could lead to GPU monitoring crashes on exposed servers.",
-      "date": "2026-10-08T18:17:08.000Z",
-      "link": "https://www.theregister.com/security/2026/10/08/high-severity-nvidia-bug-could-crash-gpu-monitoring-on-exposed-servers/5302077",
-      "isTopTen": false
-    },
-    {
-      "id": "4661bfae-83f6-4263-b904-3e764adfc628",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-      "summary": "The weekly threat roundup highlights internal disputes among ransomware groups, exposed hacker infrastructure, and the discovery of malicious code in developer ecosystems. These incidents underscore persistent security challenges facing both malicious actors and legitimate software supply chains.",
-      "date": "2026-10-08T17:58:02.000Z",
-      "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
-      "isTopTen": false
-    },
-    {
-      "id": "22cf2434-309d-4343-a150-ddf4c318b3e1",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Hunt.io Finds New Infrastructure Of BraZetsu Access Broker Months Before Disclosure",
-      "summary": "Hunt.io identified new infrastructure used by the threat actor BraZetsu by analyzing persistent hosting patterns and certificate data, demonstrating that historical indicators remain valuable long after initial disclosure.",
-      "date": "2026-10-08T17:47:35.000Z",
-      "link": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
       "isTopTen": false
     }
   ]
