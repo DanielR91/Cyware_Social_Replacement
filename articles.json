@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-10-25T03:58:30.086Z",
+  "lastUpdated": "2026-10-25T11:02:11.553Z",
   "articles": [
+    {
+      "id": "22cd04cd-bd42-4e60-b46b-597c57bfabce",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "OpenAI Paused Frontier AI Training After a Security Incident",
+      "summary": "OpenAI temporarily halted the training of its frontier AI models for 11 days after internal security testing revealed critical vulnerabilities, including VM escapes and covert communication channels. The company subsequently implemented enhanced security measures to address these risks and prevent future exploitation.",
+      "date": "2026-10-25T09:56:32.000Z",
+      "link": "https://securityaffairs.com/201673/ai/openai-paused-frontier-ai-training-after-a-security-incident.html",
+      "isTopTen": true
+    },
+    {
+      "id": "efe6d6c8-854a-4678-b46c-a6effb9df5bf",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
+      "summary": "PHP is scheduled to release an urgent security patch for two critical vulnerabilities, while Palo Alto Networks addresses an exploited flaw in its GlobalProtect VPN.",
+      "date": "2026-10-25T09:00:56.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+      "isTopTen": false
+    },
+    {
+      "id": "9971a73a-0ccf-4649-925c-362a6c47cdcd",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "summary": "OpenAI is implementing strict air-gapping measures for its frontier model training following research that identified potential VM escape and cross-sandbox communication risks. These precautions aim to mitigate security threats during the reinforcement learning and inference processes for advanced models.",
+      "date": "2026-10-25T06:54:29.000Z",
+      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "isTopTen": false
+    },
     {
       "id": "afd69187-f1b6-4753-a646-96782f7e359d",
       "source": "Security Affairs",
@@ -65,7 +98,7 @@
       "summary": "LiteLLM reported that an accidentally leaked master key in a public repository allowed attackers to hijack their release pipeline and distribute a malicious version of their Python package.",
       "date": "2026-10-24T11:03:33.000Z",
       "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "18490a28-9119-4706-a6c2-5b58d9279b12",
@@ -186,7 +219,7 @@
       "summary": "PHP has issued a warning regarding a new remote code execution vulnerability, CVE-2026-115560, advising users to disable session upload progress while awaiting an official patch. This discovery follows recent emergency fixes released for the critical PHP2Shell security flaws.",
       "date": "2026-10-23T18:07:27.000Z",
       "link": "https://securityaffairs.com/201595/security/php-warns-of-new-code-execution-flaw-days-after-php2shell-patches.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a40fd49d-b30a-4f54-9c10-edbf176d02e9",
@@ -318,7 +351,7 @@
       "summary": "An attacker compromised 79 organizations by replaying stolen Microsoft 365 session tokens, bypassing password requirements to gain unauthorized email access. The campaign involved the use of hidden inbox rules to conceal malicious activity from victims.",
       "date": "2026-10-23T11:45:12.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "3d820d77-6569-4c53-8e95-376713157a4d",
@@ -329,7 +362,7 @@
       "summary": "A New Mexico judge has ordered Meta to pay a record-breaking $25 billion penalty for deceiving Facebook users regarding their privacy in relation to the Cambridge Analytica scandal. Meta intends to appeal the court's decision.",
       "date": "2026-10-23T11:42:24.000Z",
       "link": "https://securityaffairs.com/201582/laws-and-regulations/meta-faces-25-billion-penalty-linked-to-cambridge-analytica-scandal.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "9a5f4cd5-5ac7-4d76-931d-c4dabc5ea61f",
@@ -373,7 +406,7 @@
       "summary": "PHP has released emergency patches for two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that have triggered millions of attack attempts, though no successful exploits have been confirmed. These flaws affect all versions of PHP handling web requests and date back to 2012.",
       "date": "2026-10-23T10:52:00.000Z",
       "link": "https://securityaffairs.com/201538/hacking/php2shell-millions-of-attacks-no-confirmed-successful-exploits-yet.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "4f8ca95e-72f1-4f11-bc7e-0c7bd0c1ca95",
@@ -5466,39 +5499,6 @@
       "summary": "The CEO of a ransomware recovery firm faces wire fraud charges for covertly paying attackers and overcharging victims. This case highlights unethical practices in the cyber recovery industry and potential legal consequences for facilitating ransomware payments.",
       "date": "2026-10-08T17:00:00.000Z",
       "link": "https://therecord.media/ransomware-recovery-charges-doj",
-      "isTopTen": false
-    },
-    {
-      "id": "ffdbbc62-9ae7-4a2e-bfc3-c3811b57c518",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "ASOS: Hackers tricked way into employee account before sending rogue push notification",
-      "summary": "ASOS confirmed a data breach involving unauthorized access to employee accounts via push notification fatigue, leading to the exposure of customer contact information. The company engaged external experts to investigate the scope of the incident.",
-      "date": "2026-10-08T16:57:00.000Z",
-      "link": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification",
-      "isTopTen": false
-    },
-    {
-      "id": "dddc4cc7-a0c5-4af9-9aa0-36b9fb98536b",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Shai-Hulud worm makes jump to AI infrastructure with Tensorlake compromise",
-      "summary": "The Shai-Hulud malware was identified in a compromised npm package used by Tensorlake, marking an expansion of the threat into AI infrastructure. Security researchers detected the credential-stealing malicious code shortly after the package's release.",
-      "date": "2026-10-08T16:54:48.000Z",
-      "link": "https://www.theregister.com/security/2026/10/08/shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorlake-compromise/5302054",
-      "isTopTen": false
-    },
-    {
-      "id": "1751106d-c700-4041-8dce-4d8b87a236cb",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
-      "summary": "Service busy.",
-      "date": "2026-10-08T15:45:56.000Z",
-      "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
       "isTopTen": false
     }
   ]
