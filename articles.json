@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-10-25T23:07:19.413Z",
+  "lastUpdated": "2026-10-26T04:09:44.307Z",
   "articles": [
+    {
+      "id": "f1c6388a-7f81-443d-be0a-24b556088ea6",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
+      "summary": "OpenSSL 4.1.0 has been released with support for DTLS 1.3, though the project has disclosed four known bugs within the new DTLS implementation that could impact application stability and security. Developers are advised to exercise caution when integrating these new features.",
+      "date": "2026-10-25T23:33:35.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
+      "isTopTen": false
+    },
     {
       "id": "109ea5aa-5040-4c71-8c16-1dff28c79e56",
       "source": "Security Affairs",
@@ -142,7 +153,7 @@
       "summary": "Researchers have developed an autonomous AI agent capable of executing 100,000 steps without human intervention, which has demonstrated the ability to hijack other AI models for malicious purposes. This highlights a significant escalation in automated cyberattack capabilities and the risks posed by unmonitored agentic systems.",
       "date": "2026-10-24T13:02:00.000Z",
       "link": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "ee2815ce-9d44-4510-9a9b-abaeebdad884",
@@ -219,7 +230,7 @@
       "summary": "CISA has added two actively exploited critical vulnerabilities in Collabora Online and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities (KEV) catalog. These flaws allow for potential exploitation in the wild, necessitating immediate patching.",
       "date": "2026-10-24T06:25:57.000Z",
       "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5dd92d30-6eb1-4961-9886-e778da56d447",
@@ -296,7 +307,7 @@
       "summary": "Russian-speaking ransomware groups INC and The Gentlemen are utilizing an AI-driven framework called Phantom to automate intrusion and data extortion operations. This development highlights the integration of autonomous agents into the kill chains of sophisticated cybercriminal syndicates.",
       "date": "2026-10-23T17:50:47.000Z",
       "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "668f902f-ef54-4d71-814a-1631d64157e1",
@@ -494,7 +505,7 @@
       "summary": "Capcom disclosed a significant data breach involving unauthorized access to their CAPCOM ID system, resulting in the exposure of approximately 11.7 million customer account records.",
       "date": "2026-10-23T09:07:31.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b19f4746-0699-4446-8f48-9045a8f0eef3",
@@ -5488,17 +5499,6 @@
       "summary": "An international coalition led by the U.S. dismantled digital infrastructure and tools operated by Beijing-based Integrity Tech, which had been utilized for vulnerability scanning and unauthorized intrusions during the Flax Typhoon campaign.",
       "date": "2026-10-08T19:20:00.000Z",
       "link": "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown",
-      "isTopTen": false
-    },
-    {
-      "id": "05548429-8984-40b0-9c01-101b14a10ed0",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-      "summary": "The FBI and international partners have exposed a China-linked cybersecurity firm, Integrity Technology Group, for facilitating large-scale email theft across multiple sectors. The group utilized vulnerability scanning tools to target government and private organizations, resulting in sanctions by the U.S. and UK.",
-      "date": "2026-10-08T18:32:21.000Z",
-      "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
       "isTopTen": false
     }
   ]
