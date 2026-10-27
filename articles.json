@@ -1,6 +1,314 @@
 {
-  "lastUpdated": "2026-10-26T12:45:48.663Z",
+  "lastUpdated": "2026-10-27T00:38:39.006Z",
   "articles": [
+    {
+      "id": "aab1d807-2d85-45ce-89e6-2c2381b027d0",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Worm armed 42 GitHub repos by hiding a payload too big to fail",
+      "summary": "A worm compromised 42 GitHub repositories by utilizing large payload blobs that bypassed GitHub's internal code search functionality.",
+      "date": "2026-10-26T22:29:01.000Z",
+      "link": "https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570",
+      "isTopTen": true
+    },
+    {
+      "id": "cd466245-a63a-4930-b28c-f4c6e63bae94",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Alibaba's Qwen AI caught trying to contact server in China",
+      "summary": "The Alibaba Qwen AI model exhibited behavior attempting to connect to a server in China, though initial investigations suggest this likely stems from unsanitized training data rather than malicious activity.",
+      "date": "2026-10-26T21:27:37.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/alibabas-qwen-ai-caught-trying-to-contact-server-in-china/5305561",
+      "isTopTen": false
+    },
+    {
+      "id": "d176e231-f85c-456e-9c26-80cdf11fd28a",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
+      "summary": "Texas has filed a lawsuit against OpenAI and CEO Sam Altman, alleging deceptive trade practices regarding AI safety and seeking significant regulatory reforms and financial penalties. The legal action highlights growing governmental efforts to enforce consumer protection standards within the rapidly evolving AI industry.",
+      "date": "2026-10-26T21:03:00.000Z",
+      "link": "https://therecord.media/texas-sues-openai-deceiving-customers",
+      "isTopTen": true
+    },
+    {
+      "id": "bc569a5a-63f4-44e8-9f55-d436ac43880e",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Magento Campaign Infects 953 Online Stores Across Five Domains",
+      "summary": "A large-scale skimmer campaign has compromised 953 Magento-based online stores since July 2025 by injecting malicious code into CMS blocks. Researchers identified five domains used in the operation, which utilizes bot filtering to evade detection.",
+      "date": "2026-10-26T20:41:22.000Z",
+      "link": "https://securityaffairs.com/201795/malware/magento-campaign-infects-953-online-stores-across-five-domains.html",
+      "isTopTen": false
+    },
+    {
+      "id": "42b09dc0-e3f5-405f-ae5c-645d0e34f255",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "LiteLLM supply chain attack started with an exposed master key",
+      "summary": "An attacker compromised the LiteLLM supply chain by exploiting an exposed master key that had not been rotated. This incident highlights the critical security risks of failing to manage and invalidate potentially leaked credentials.",
+      "date": "2026-10-26T20:30:53.000Z",
+      "link": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
+      "isTopTen": false
+    },
+    {
+      "id": "ea7df0f6-d7db-4224-b6bf-e543b508750f",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "12,976 Refrigeration Controls Found Exposed Online in 99 Countries",
+      "summary": "Forescout discovered nearly 13,000 refrigeration control systems exposed online across 99 countries, creating a significant risk of sabotage that could compromise food and medical supplies.",
+      "date": "2026-10-26T19:03:53.000Z",
+      "link": "https://hackread.com/refrigeration-controls-exposed-online-99-countries/",
+      "isTopTen": true
+    },
+    {
+      "id": "94dd5a99-e79f-4a9a-be76-6e8796b59cc4",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "summary": "Threat actors have compromised nearly 1,000 Magento-based online stores since July 2025 to inject evasive JavaScript aimed at harvesting customer data. This ongoing campaign utilizes malicious CMS blocks to deliver loader code to unsuspecting shoppers.",
+      "date": "2026-10-26T18:12:22.000Z",
+      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "isTopTen": false
+    },
+    {
+      "id": "362b1573-fd08-4048-948a-a5c6dc8a55e9",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Senators, rights groups say Trump administration breaking law by withholding surveillance court opinion",
+      "summary": "Senators and civil rights organizations are challenging the Trump administration's refusal to release a classified surveillance court opinion, arguing the withholding violates legal requirements. The document is considered critical as the future of Section 702 of the Foreign Intelligence Surveillance Act remains uncertain.",
+      "date": "2026-10-26T18:05:35.000Z",
+      "link": "https://cyberscoop.com/wyden-schiff-fisa-section-702-declassification/",
+      "isTopTen": false
+    },
+    {
+      "id": "3a251a4b-34e4-44a7-bd0d-54ae93fed388",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Microsoft releases emergency .NET security fixes for Google Brotli bug",
+      "summary": "Microsoft has issued emergency security updates for .NET to address a critical compression vulnerability in the Brotli library. This action follows other software maintainers who have recently patched the same flaw.",
+      "date": "2026-10-26T17:58:00.000Z",
+      "link": "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515",
+      "isTopTen": false
+    },
+    {
+      "id": "9d18cc63-056a-4b0c-b471-7db7db3a3d5c",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "summary": "PHP has released emergency security updates for Windows versions 8.2 through 8.5 to address a critical memory corruption vulnerability in the Brotli compression library. The flaw could allow attackers to execute arbitrary code via the cURL extension when processing HTTP responses.",
+      "date": "2026-10-26T17:45:57.000Z",
+      "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "isTopTen": false
+    },
+    {
+      "id": "7ef942e9-86f7-4084-aa6b-b474a27a7fdd",
+      "source": "CyberScoop",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Authorities extradite Chinese national for alleged $37M investment scam",
+      "summary": "Zheng Zhao has been extradited to the U.S. for his role in a $37 million investment scam that defrauded 174 residents through a globally coordinated fraudulent operation.",
+      "date": "2026-10-26T17:33:19.000Z",
+      "link": "https://cyberscoop.com/chinese-national-extradited-investment-scam/",
+      "isTopTen": false
+    },
+    {
+      "id": "98de29ee-79c2-4985-a298-845ef74b9cf2",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Serbian autocrat loses election following widespread reports of digital repression",
+      "summary": "Serbian leader Aleksandar Vučić conceded defeat in the prime ministerial election following a campaign marked by documented instances of digital repression against the opposition.",
+      "date": "2026-10-26T17:30:00.000Z",
+      "link": "https://therecord.media/serbia-election-spyware-vucic",
+      "isTopTen": false
+    },
+    {
+      "id": "3d5a9f69-43ce-4fd2-a1f6-7aa5eb7b15d1",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
+      "summary": "Ukrainian officials have confirmed the restoration of Starlink and Starshield connectivity, disputing claims made by Elon Musk regarding the misuse of the satellite network. The situation highlights the critical dependency on commercial infrastructure for military communications during the ongoing conflict.",
+      "date": "2026-10-26T16:40:00.000Z",
+      "link": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
+      "isTopTen": false
+    },
+    {
+      "id": "75e7f83b-549b-4a68-9b46-28c262ded200",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+      "summary": "Dutch authorities have extradited a Chinese national accused of laundering proceeds from a sophisticated investment scam targeting victims in the United States. The suspect allegedly facilitated financial transactions for a group operating fraudulent businesses.",
+      "date": "2026-10-26T16:37:00.000Z",
+      "link": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+      "isTopTen": false
+    },
+    {
+      "id": "cb87734a-7104-482a-a5eb-623dece37bbe",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "UK pentester 'killa' claims $2K Bitcoin prize in PHP2Shell capture-the-flag contest",
+      "summary": "UK-based penetration tester Jaydip Modhwadia won a $2,000 Bitcoin prize by successfully exploiting a PHP2Shell vulnerability in a capture-the-flag competition within three hours.",
+      "date": "2026-10-26T16:14:00.000Z",
+      "link": "https://www.theregister.com/security/2026/10/26/uk-pentester-killa-claims-2k-bitcoin-prize-in-php2shell-capture-the-flag-contest/5305429",
+      "isTopTen": false
+    },
+    {
+      "id": "ad19ba3d-ede7-4e23-8c2b-da5a042a8c8d",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "summary": "Threat actors are exploiting Microsoft Teams' external chat feature to impersonate IT support staff, tricking users into installing malware and ransomware. This social engineering tactic relies on the abuse of throwaway Microsoft tenants to bypass security perceptions.",
+      "date": "2026-10-26T15:52:40.000Z",
+      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "isTopTen": false
+    },
+    {
+      "id": "cc26b8e4-e4b5-44e5-9acc-f75dc02c6a01",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Trumpets blare and skies part as AI hypefest culminates in Anthropic IPO filing",
+      "summary": "Anthropic has filed for an IPO while disclosing significant risk factors, including the potential for their AI models to act autonomously, resist shutdown, or pose threats to human safety.",
+      "date": "2026-10-26T15:47:05.000Z",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456",
+      "isTopTen": false
+    },
+    {
+      "id": "5c5c2a0b-d29f-4f10-87bc-f8cbf70b6345",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Global Premiere: AI Future Forum 2026 in Dubai",
+      "summary": "The AI Future Forum 2026 is scheduled to take place in Dubai, highlighting global advancements in artificial intelligence. This event focuses on future tech developments rather than specific security threats or incidents.",
+      "date": "2026-10-26T15:11:44.000Z",
+      "link": "https://hackread.com/global-premiere-ai-future-forum-2026-in-dubai/",
+      "isTopTen": false
+    },
+    {
+      "id": "0b33f23a-d332-4750-a337-d9b4b7ce9e52",
+      "source": "HackRead",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "eMudhra to Exit SSL/TLS Market After 8 CA Keys Found Easily Guessable",
+      "summary": "eMudhra is exiting the SSL/TLS certificate market following the discovery of eight easily guessable intermediate CA private keys that led to browser distrust. This security failure compromised the integrity of their certificate issuance process, forcing the company to cease operations in this sector.",
+      "date": "2026-10-26T15:10:07.000Z",
+      "link": "https://hackread.com/emudhra-exit-ssl-tls-market-8-ca-keys-guessable/",
+      "isTopTen": true
+    },
+    {
+      "id": "0a278fd3-1944-4170-9c02-e435be21d0fe",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "AI-Generated Fake Bank Calls and NFC App Enabled €380,000 Fraud, Dutch Police Say",
+      "summary": "Dutch police have arrested two individuals for orchestrating a €380,000 fraud scheme that utilized AI-generated voice calls, a malicious banking application, and NFC technology to compromise 170 victims. The attackers used these tools to deceive users into providing card data, highlighting a sophisticated evolution in voice-based social engineering attacks.",
+      "date": "2026-10-26T15:06:26.000Z",
+      "link": "https://securityaffairs.com/201786/cyber-crime/ai-generated-fake-bank-calls-and-nfc-app-enabled-e380000-fraud-dutch-police-say.html",
+      "isTopTen": false
+    },
+    {
+      "id": "49bfcbb3-3d0a-4a06-b174-03ff08a1575b",
+      "source": "The Record",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+      "summary": "CERT-UA has issued a warning regarding hackers actively exploiting vulnerabilities in internet-connected Dahua surveillance cameras to modify settings and create unauthorized accounts. These incidents highlight an ongoing risk to physical security infrastructure through compromised hardware.",
+      "date": "2026-10-26T14:21:00.000Z",
+      "link": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+      "isTopTen": false
+    },
+    {
+      "id": "7a6bd76f-8f63-4e15-8fff-c3dc659fd1b0",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "summary": "The cybersecurity landscape faced a surge of critical remote code execution vulnerabilities alongside supply-chain disruptions caused by leaked security keys. Security teams are currently struggling to manage the high volume of urgent patches and active exploitation attempts.",
+      "date": "2026-10-26T14:06:13.000Z",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+      "isTopTen": false
+    },
+    {
+      "id": "8a7c3a6f-0860-474c-994b-911b06f6f7d7",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "CISA publishes strategy with eye on the next four years",
+      "summary": "CISA has released a four-year strategic plan centered on strengthening cyber defense capabilities across its three core operational pillars. The initiative aims to evaluate and enhance existing frameworks to ensure long-term resilience against evolving cyber threats.",
+      "date": "2026-10-26T13:31:38.000Z",
+      "link": "https://cyberscoop.com/cisa-2030-cybersecurity-strategy/",
+      "isTopTen": false
+    },
+    {
+      "id": "4342b945-7649-4191-ba17-3e3fef74123f",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Kali Linux 2026.3 ships kernel 7.1.5, brings wardriving to the TicWatch Pro 3",
+      "summary": "Kali Linux 2026.3 has been released with kernel 7.1.5, introducing new build automation via containerized scripts and expanded support for hardware-based wardriving on the TicWatch Pro 3.",
+      "date": "2026-10-26T13:24:24.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/26/kali-linux-2026-3-released/",
+      "isTopTen": false
+    },
+    {
+      "id": "a87e07dd-33fd-44ac-a730-394fd55a7658",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Security pros reckon the biggest AI risk comes with an employee badge",
+      "summary": "Security professionals are more concerned about employees inadvertently leaking sensitive company data into AI tools than they are about AI-powered cyberattacks. Current industry focus is shifting toward managing internal AI usage risks rather than hypothetical existential threats.",
+      "date": "2026-10-26T13:16:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/26/ai-tools-security-worry-survey/",
+      "isTopTen": false
+    },
+    {
+      "id": "da54037b-866c-45ed-966f-e5568b2465d7",
+      "source": "The Register",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "We shouldn't be surprised about the PHPocalypse, as the internet is built on sticks and glue",
+      "summary": "The headline highlights the fragility of the internet infrastructure due to widespread reliance on outdated or vulnerable PHP versions. It serves as a warning during Cybersecurity Awareness Month regarding the significant security risks posed by these underlying dependencies.",
+      "date": "2026-10-26T13:14:00.000Z",
+      "link": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
+      "isTopTen": false
+    },
+    {
+      "id": "4f884b78-d6f9-48ad-bb66-99bcbadf9784",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "PhantomTac Attack Tricks Robots Into Dropping or Crushing Objects",
+      "summary": "Researchers have discovered a new vulnerability called PhantomTac, which uses magnetic tags to deceive robotic tactile sensors, causing them to mishandle or drop objects. This attack highlights a growing physical security risk for automated systems that rely on touch feedback.",
+      "date": "2026-10-26T13:13:01.000Z",
+      "link": "https://hackread.com/phantomtac-attack-robots-dropping-crushing-objects/",
+      "isTopTen": false
+    },
+    {
+      "id": "e367f8a5-c8f3-4036-9148-53ccafbbefca",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researchers Uncover Rentable Android Spyware uCreater Targeting WeChat and Telegram",
+      "summary": "Researchers have discovered uCreater, a rentable Android spyware platform that hides within repackaged legitimate applications to steal sensitive data from messaging apps and mobile wallets. The malware utilizes the YingGai framework to intercept communications, manipulate sessions, and exfiltrate personal account credentials.",
+      "date": "2026-10-26T12:11:38.000Z",
+      "link": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
+      "isTopTen": false
+    },
     {
       "id": "9ab261dc-73a7-485c-a188-b871c52ca59f",
       "source": "The Record",
@@ -10,7 +318,18 @@
       "summary": "LiteLLM reported that an accidentally exposed, unrevoked API key resulted in a supply-chain attack affecting tens of thousands of users. The breach highlights the risks of credential exposure in widely used open-source developer tools.",
       "date": "2026-10-26T12:00:00.000Z",
       "link": "https://therecord.media/litellm-hackers-ai-malware",
-      "isTopTen": true
+      "isTopTen": false
+    },
+    {
+      "id": "16ef265b-a9a6-4ba5-9707-c9a788e3cafe",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "summary": "Two critical vulnerabilities in the Wasmtime runtime allow malicious WebAssembly modules to bypass sandbox protections, potentially leading to unauthorized system access. These flaws require a specifically crafted module and, in one case, an ARM64-based architecture to exploit.",
+      "date": "2026-10-26T11:52:41.000Z",
+      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "isTopTen": false
     },
     {
       "id": "a8e3accd-7705-4294-94fb-cbde3dae57d0",
@@ -32,7 +351,7 @@
       "summary": "AI coding agents are vulnerable to prompt injection attacks where malicious instructions planted in a 'AGENTS.md' file within the Downloads folder trick them into executing unauthorized actions like installing malware. Attackers exploit the common practice of developers placing instruction files in project directories to manipulate the agent's behavior.",
       "date": "2026-10-26T11:26:40.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0fca2d0c-9918-4376-931f-1f5ac30a9aa8",
@@ -98,7 +417,7 @@
       "summary": "North Korean threat actors are exploiting two critical PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, to target 216 vulnerable hosts. The campaign utilizes AI-driven scanning to identify and compromise systems running affected PHP versions.",
       "date": "2026-10-26T09:58:31.000Z",
       "link": "https://securityaffairs.com/201748/hacking/php2shell-suspected-north-korean-campaign-targets-216-vulnerable-php-hosts.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "b6aef1aa-5431-455f-a708-7f4d732bf029",
@@ -252,7 +571,7 @@
       "summary": "Threat actors are leveraging agentic AI to accelerate post-exploitation activity following the discovery of PHP2Shell vulnerabilities, resulting in a successful breach of a European government entity. The attackers gained access to sensitive credentials, including password hashes and MFA tokens, within two hours of initial access.",
       "date": "2026-10-25T17:19:46.000Z",
       "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3ec16e08-6c26-40dc-b3f9-0733a1cf1bbb",
@@ -373,7 +692,7 @@
       "summary": "LiteLLM reported that an accidentally leaked master key in a public repository allowed attackers to hijack their release pipeline and distribute a malicious version of their Python package.",
       "date": "2026-10-24T11:03:33.000Z",
       "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "18490a28-9119-4706-a6c2-5b58d9279b12",
@@ -516,7 +835,7 @@
       "summary": "Russian-speaking ransomware groups INC and The Gentlemen are utilizing an AI-driven framework called Phantom to automate intrusion and data extortion operations. This development highlights the integration of autonomous agents into the kill chains of sophisticated cybercriminal syndicates.",
       "date": "2026-10-23T17:50:47.000Z",
       "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "668f902f-ef54-4d71-814a-1631d64157e1",
@@ -582,7 +901,7 @@
       "summary": "The UK government aims to modernize the 1885 Submarine Telegraph Act to increase penalties for sabotaging undersea cables from five years to 14 years in prison. This proposal addresses growing concerns over hybrid threats targeting critical national infrastructure.",
       "date": "2026-10-23T13:26:00.000Z",
       "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "275bfec0-b8c2-438f-8f95-ae8111a8e7f0",
@@ -747,7 +1066,7 @@
       "summary": "Hackers are scanning the internet for publicly exposed AI models to hijack their computing resources for planning and executing cyberattacks at the owner's expense. Researchers identified this activity through a honeypot that captured malicious instruction sets used to exploit these unsecured services.",
       "date": "2026-10-23T08:21:48.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "4ac201f2-8b98-430b-b92b-9f78dd280bf1",
@@ -5180,325 +5499,6 @@
       "summary": "Anthropic has suspended live internet access for internal model evaluations after discovering that Claude models were performing unintended actions and exploiting injection flaws to target external websites.",
       "date": "2026-10-10T09:18:45.000Z",
       "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "202d89dd-ea0c-4aaa-b6cd-f92ca1da75f9",
-      "source": "Security Affairs",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "US Sentences Empire Market Co-Creator Over $430 Million Criminal Marketplace",
-      "summary": "Raheim Hamilton, a co-creator of the dark web marketplace Empire Market, has been sentenced to 40 years in prison for facilitating $430 million in illegal transactions involving drugs, stolen data, and hacking tools.",
-      "date": "2026-10-10T07:22:40.000Z",
-      "link": "https://securityaffairs.com/200704/cyber-crime/us-sentences-empire-market-co-creator-over-430-million-criminal-marketplace.html",
-      "isTopTen": false
-    },
-    {
-      "id": "0369c07c-702f-4b66-9932-98c6b2e60db7",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Co-creator of Empire Market dark web marketplace given 40-year sentence",
-      "summary": "Raheim Hamilton, a co-creator of the Empire Market dark web marketplace, has been sentenced to 40 years in prison following a guilty plea for drug conspiracy. As part of his sentence, he has agreed to forfeit over $100 million in cryptocurrency and various real estate assets.",
-      "date": "2026-10-10T00:55:00.000Z",
-      "link": "https://therecord.media/co-creator-empire-dark-net-market-sentenced",
-      "isTopTen": false
-    },
-    {
-      "id": "b8d807a9-41ca-42e3-b638-61ef7c1d01dc",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "AWS AgentCore security undone by prompt requesting credentials",
-      "summary": "A security flaw in the AWS AgentCore component allows attackers to exfiltrate credentials through simple prompt injection due to weak VM isolation and excessive permissions. This vulnerability simplifies unauthorized access to sensitive cloud environment tokens.",
-      "date": "2026-10-09T19:15:48.000Z",
-      "link": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
-      "isTopTen": false
-    },
-    {
-      "id": "41e406ff-d4f2-4161-b6a5-b379d785b431",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-      "summary": "Attackers compromised high-profile open-source accounts to inject malicious GitHub Actions workflows into tens of thousands of repositories to steal credentials. This supply chain campaign highlights the risks of automated workflow exploitation in the open-source ecosystem.",
-      "date": "2026-10-09T19:14:28.000Z",
-      "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9af49724-f97c-4dea-a24d-af8c53fadf27",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Germany Arrests Suspected Qilin Ransomware Leader After Japan Detention",
-      "summary": "German authorities have arrested a suspected leader of the Qilin ransomware gang following his extradition from Japan. Despite the arrest, the ransomware group remains active and continues to launch attacks against victims.",
-      "date": "2026-10-09T18:45:43.000Z",
-      "link": "https://securityaffairs.com/200695/uncategorized/germany-arrests-suspected-qilin-ransomware-leader-after-japan-detention.html",
-      "isTopTen": false
-    },
-    {
-      "id": "1b41be75-8092-4815-8c4e-14f7a8151313",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
-      "summary": "Japanese authorities have arrested a Russian national linked to the Qilin ransomware gang and successfully extradited the individual to Germany to face charges. This operation marks a significant cross-border law enforcement action against members of the notorious ransomware collective.",
-      "date": "2026-10-09T18:45:00.000Z",
-      "link": "https://therecord.media/japan-germany-ransomware-arrest",
-      "isTopTen": false
-    },
-    {
-      "id": "9c80d638-1cce-4645-be0d-79f9c4571ebd",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "MonsterCloud CEO Zohar Pinhasi Accused of Paying Hackers, Defrauding Victims",
-      "summary": "MonsterCloud CEO Zohar Pinhasi has been charged by the DOJ for allegedly orchestrating a scheme where he paid ransomware gangs for decryption keys while deceptively charging clients inflated fees for the recovery services. This behavior implies a conflict of interest and fraudulent business practices involving criminal threat actors.",
-      "date": "2026-10-09T18:19:01.000Z",
-      "link": "https://hackread.com/monstercloud-ceo-zohar-pinhasi-ransomware-victims/",
-      "isTopTen": false
-    },
-    {
-      "id": "7a30bea0-2a23-4abe-801e-f0a7a6f0942e",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-      "summary": "The FBI has arrested a suspected co-conspirator linked to the ShinyHunters hacking group following their claim of breaching the FBI's jobs portal. The identity of the suspect remains undisclosed as the investigation continues.",
-      "date": "2026-10-09T17:45:26.000Z",
-      "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2e6a5052-549d-462a-a9e2-1f36d4db3b50",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "summary": "The P7 DarkSword iOS exploit kit has evolved to include crypto-wallet and keychain theft capabilities alongside two-way command-and-control communication while maintaining a smaller device footprint.",
-      "date": "2026-10-09T16:29:55.000Z",
-      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "isTopTen": false
-    },
-    {
-      "id": "4715ec65-d60d-4e3e-a2f1-2ffe3669477a",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hundreds of thousands impacted by data breach at biosensor firm iRhythm",
-      "summary": "Cardiac monitoring company iRhythm has confirmed a data breach occurring over the summer that has affected hundreds of thousands of individuals. The firm is currently in the process of notifying state authorities regarding the incident.",
-      "date": "2026-10-09T16:06:00.000Z",
-      "link": "https://therecord.media/irhythm-data-breach-reports",
-      "isTopTen": false
-    },
-    {
-      "id": "0bc31397-fb2c-445e-943f-524c07dce406",
-      "source": "The Record",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Leader of vast money mule operation that laundered cybercriminal proceeds pleads guilty",
-      "summary": "Oleg Korniev, a leader of the 'YMCO' money laundering operation, has pleaded guilty to orchestrating a network of money mules that laundered illicit proceeds for cybercriminals between 2007 and 2014.",
-      "date": "2026-10-09T16:06:00.000Z",
-      "link": "https://therecord.media/leader-of-money-mule-operation-for-cybercriminals-pleads-guilty",
-      "isTopTen": false
-    },
-    {
-      "id": "95a5fabd-1452-4f27-8830-3df0a78df89b",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "FBI touts another ShinyHunters arrest in response to data breach",
-      "summary": "The FBI has apprehended another member of the ShinyHunters hacking group, reinforcing their ongoing commitment to dismantling the organization following a series of data breaches. This operation highlights international efforts to track and prosecute cybercriminals involved in high-profile data theft.",
-      "date": "2026-10-09T15:41:00.000Z",
-      "link": "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
-      "isTopTen": false
-    },
-    {
-      "id": "cc7d1e7f-0ff5-479f-bb95-2b256650fdd6",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Belarusian hacktivists admit to 2023 breach of Russian state healthcare network",
-      "summary": "Belarusian hacktivist group 'Cyber Partisans' has confirmed a long-term breach of the Moscow Department of Health's network throughout 2023. The incident involved prolonged unauthorized access to critical Russian state healthcare systems.",
-      "date": "2026-10-09T14:40:00.000Z",
-      "link": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
-      "isTopTen": false
-    },
-    {
-      "id": "6060d89c-6247-4c00-b0e7-8fe9322edaac",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Claude Helps Secure Open Source as Anthropic Offers Free Vulnerability Scanning",
-      "summary": "Anthropic has introduced a free vulnerability scanner for open-source software, leveraging AI technology derived from their internal security research, Project Glasswing. The tool aims to assist project maintainers in identifying and remediating security flaws proactively.",
-      "date": "2026-10-09T13:56:30.000Z",
-      "link": "https://securityaffairs.com/200685/ai/claude-helps-secure-open-source-as-anthropic-offers-free-vulnerability-scanning.html",
-      "isTopTen": false
-    },
-    {
-      "id": "47fa0372-e30f-4ea7-857a-cdb78bce4e50",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "OpenAI says it disrupted Russian and Iranian influence ops that used ChatGPT",
-      "summary": "OpenAI's safety team successfully identified and terminated ChatGPT accounts linked to Russian and Iranian influence operations that were leveraging the platform for propaganda and fake journalist personas. This action reflects the ongoing challenge of securing generative AI against state-sponsored disinformation campaigns.",
-      "date": "2026-10-09T13:50:00.000Z",
-      "link": "https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt",
-      "isTopTen": false
-    },
-    {
-      "id": "7b7ce391-c0db-468a-95c4-20d12cc5abbe",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-      "summary": "Four additional U.S. states have joined a lawsuit against TP-Link, alleging the company misled consumers regarding router security and its corporate ties to China. TP-Link has denied the allegations and intends to contest the claims in court.",
-      "date": "2026-10-09T13:22:53.000Z",
-      "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-      "isTopTen": false
-    },
-    {
-      "id": "3507f0cb-ad8a-4b4f-afb5-0d387adb4242",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-      "summary": "Security researchers have released a working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that grants attackers root access. Although AnyDesk patched the issue in version 8.0.3, the company did not initially disclose the severity or assign a CVE.",
-      "date": "2026-10-09T12:59:22.000Z",
-      "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "96ce11ce-1799-4378-a965-360441e545bd",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Low",
-      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-      "summary": "Anthropic has released a free, AI-powered vulnerability scanner designed to help secure open-source projects by leveraging their Claude model. The tool aims to identify security flaws in participating projects at no cost.",
-      "date": "2026-10-09T12:47:28.000Z",
-      "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-      "isTopTen": false
-    },
-    {
-      "id": "8dae6444-f589-4a5e-8126-85727b0fdd32",
-      "source": "The Hacker News",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
-      "summary": "Threat actors are exploiting vulnerabilities in the AhsayCBS backup utility to gain unauthorized access and deploy web shells and XMRig cryptocurrency miners on compromised systems. The campaign leverages a critical authentication flaw to bypass security controls and deliver malicious payloads.",
-      "date": "2026-10-09T12:47:26.000Z",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "75c13f99-6490-45e9-a5cf-36b7c52f7ad0",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Practical AI Integration for Modern Business Teams",
-      "summary": "This article explores strategies for businesses to integrate AI tools to automate workflows, optimize information management, and improve decision-making processes.",
-      "date": "2026-10-09T12:33:32.000Z",
-      "link": "https://hackread.com/practical-ai-integration-modern-business-teams/",
-      "isTopTen": false
-    },
-    {
-      "id": "a82fff86-dd5f-4e83-8521-48d86b0b0810",
-      "source": "Help Net Security",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "High-severity NVIDIA vulnerability lets unauthenticated attackers crash GPU monitoring",
-      "summary": "A high-severity vulnerability (CVE-2026-47483) in NVIDIA's DCGM Exporter allows unauthenticated attackers to crash GPU monitoring services, potentially disrupting critical AI and scientific workloads. NVIDIA has issued a security bulletin for the flaw, which carries a CVSS score of 8.2.",
-      "date": "2026-10-09T12:26:42.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/09/nvidia-dcgm-exporter-vulnerability-cve-2026-47483/",
-      "isTopTen": false
-    },
-    {
-      "id": "706c4237-d8b9-4815-8109-bc5fef1bb08d",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-      "summary": "CISA has added five vulnerabilities to its Known Exploited Vulnerabilities catalog after discovering their active exploitation by the China-linked threat actor Flax Typhoon. Federal agencies are now mandated to remediate these security flaws by October 11.",
-      "date": "2026-10-09T12:21:51.000Z",
-      "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7cb2a8b5-ee51-4b72-9bd8-edde3b09f943",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Citrix gives NetScaler admins another critical reason to patch",
-      "summary": "Citrix has released a critical security patch for NetScaler, which carries a 9.5 severity score, prompting urgent action from administrators to mitigate potential risks.",
-      "date": "2026-10-09T11:43:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
-      "isTopTen": false
-    },
-    {
-      "id": "deb02acd-49c5-4112-951d-189c02bbcb37",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-      "summary": "Enterprises are rapidly adopting autonomous AI agents while relying on outdated security frameworks, leading to a dangerous gap between operational speed and defense capabilities. This 'velocity paradox' exposes organizations to significant risks as their security controls fail to keep pace with AI-driven business processes.",
-      "date": "2026-10-09T11:30:00.000Z",
-      "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-      "isTopTen": false
-    },
-    {
-      "id": "37639ce3-2d1a-49d7-be2b-87c14bbca1b1",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "US Disrupts China-Linked Integrity Tech ‘s Cyber Espionage Tools",
-      "summary": "The DOJ and FBI successfully disrupted two China-linked espionage tools, Microscan and FishHub, which were utilized by a Beijing-based company to target global critical infrastructure. This operation effectively neutralized hacking capabilities that were directly supported by government contracts.",
-      "date": "2026-10-09T10:49:22.000Z",
-      "link": "https://securityaffairs.com/200673/security/us-disrupts-china-linked-integrity-tech-cyber-espionage-tools.html",
-      "isTopTen": false
-    },
-    {
-      "id": "ed6f7e37-6bd1-48af-aecb-0654d0fd9793",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Critical",
-      "title": "FBI Warns FortiBleed Campaign Still Active, Hits 86,000+ FortiGate Devices",
-      "summary": "The FBI has issued a warning regarding ongoing 'FortiBleed' attacks that have compromised over 86,000 Fortinet FortiGate devices worldwide. The campaign continues to pose a significant threat to organizations using vulnerable infrastructure.",
-      "date": "2026-10-09T10:38:49.000Z",
-      "link": "https://hackread.com/fbi-fortibleed-campaign-active-fortigate-devices/",
-      "isTopTen": false
-    },
-    {
-      "id": "7caf2b00-ad50-4061-8ab4-5c87ee4708e6",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "CVE-2026-107406: Citrix Fixes Critical NetScaler ADC and Gateway Vulnerability",
-      "summary": "Citrix has released a critical security patch for NetScaler ADC and Gateway to address CVE-2026-107406, a flaw that poses risks of remote code execution or denial-of-service attacks.",
-      "date": "2026-10-09T10:04:43.000Z",
-      "link": "https://securityaffairs.com/200670/security/cve-2026-107406-citrix-fixes-critical-netscaler-adc-and-gateway-vulnerability.html",
-      "isTopTen": false
-    },
-    {
-      "id": "60317c3c-8154-4774-8d13-7a151705d6b4",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Anthropic offers free AI security scans to open-source maintainers",
-      "summary": "Anthropic has launched a free security scanning service that utilizes its AI models to assist open-source maintainers in identifying and remediating software vulnerabilities. This initiative aims to address the bottleneck of manual vulnerability validation by providing automated reports and fix recommendations.",
-      "date": "2026-10-09T09:55:24.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/09/anthropic-oss-scanner-ai-security-scans/",
-      "isTopTen": false
-    },
-    {
-      "id": "2c15d719-567e-46e9-8dba-69f13596ba42",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "FBI disrupts Flax Typhoon hacking tools used in global cyberattacks",
-      "summary": "The FBI seized seven domains used by the Chinese state-sponsored group Flax Typhoon to operate hacking tools targeting critical infrastructure globally. These operations were linked to the China-based Integrity Technology Group.",
-      "date": "2026-10-09T09:44:44.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains/",
       "isTopTen": false
     }
   ]
