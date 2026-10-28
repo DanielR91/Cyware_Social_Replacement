@@ -1,6 +1,248 @@
 {
-  "lastUpdated": "2026-10-28T04:54:31.587Z",
+  "lastUpdated": "2026-10-28T12:32:47.089Z",
   "articles": [
+    {
+      "id": "7968852e-5280-4e61-9071-c09288a47118",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Tailscale fixes SSH flaws allowing lateral movement within tailnets",
+      "summary": "Tailscale has patched multiple vulnerabilities in its SSH implementation that could allow attackers with existing network access to move laterally and escalate privileges between devices. The flaws are limited to machines already permitted by tailnet policy configurations.",
+      "date": "2026-10-28T12:25:04.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+      "isTopTen": false
+    },
+    {
+      "id": "d51643bf-3206-467d-beae-d357a743c339",
+      "source": "Help Net Security",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
+      "summary": "A Ukrainian national was sentenced to nearly six years in prison for his role in the Nefilim ransomware group, while authorities continue to offer an $11 million reward for his co-conspirator. The group is responsible for targeting high-profile entities including hospitals and government organizations.",
+      "date": "2026-10-28T12:17:33.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/doj-ukrainian-ransomware-hacker-sentenced/",
+      "isTopTen": false
+    },
+    {
+      "id": "28994f7d-0743-4d38-91f1-316f51fc1253",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Cisco open sources tool for detecting AI agents on hacking sprees",
+      "summary": "Cisco has open-sourced Project Quarry, a tool designed to standardize the detection and evaluation of autonomous AI agents conducting malicious activities. This initiative seeks to foster collaborative defense by providing a shared framework for analyzing AI-driven hacking behavior.",
+      "date": "2026-10-28T12:00:00.000Z",
+      "link": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
+      "isTopTen": false
+    },
+    {
+      "id": "865f9260-22c6-4891-9a5e-5d04ddfd6e4e",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FBI seizes ‘bulletproof’ hosting site accused of facilitating child abuse, money laundering",
+      "summary": "The FBI seized a 'bulletproof' hosting provider used to facilitate serious criminal activities such as money laundering and the distribution of child sexual abuse material. This action aims to disrupt the infrastructure supporting diverse illegal cyber operations.",
+      "date": "2026-10-28T12:00:00.000Z",
+      "link": "https://therecord.media/fbi-seizure-csam-virtualine",
+      "isTopTen": true
+    },
+    {
+      "id": "fa17dc97-66ad-496b-a31e-9ebecd15cfce",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+      "summary": "123 Reg has reported a data breach involving an AI-driven cyberattack, with investigations suggesting potential links to Chinese state-sponsored actors associated with the ARTEX malware campaigns. The incident highlights an evolving threat landscape where advanced automation is being leveraged against customer databases.",
+      "date": "2026-10-28T11:45:00.000Z",
+      "link": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+      "isTopTen": true
+    },
+    {
+      "id": "a5b1e0de-4394-499d-af23-1d2fc81513d0",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FBI seizes Virtualine, bulletproof hosting provider that promised to shield criminals from police",
+      "summary": "The FBI, in collaboration with international law enforcement, seized the domain of bulletproof hosting provider Virtualine for facilitating criminal activities including money laundering and the distribution of illegal content. The operation, codenamed Operation Omegaline, marks a significant takedown of infrastructure supporting illicit online enterprises.",
+      "date": "2026-10-28T11:41:01.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/fbi-seizure-virtualine-bulletproof-hosting-domain/",
+      "isTopTen": false
+    },
+    {
+      "id": "556e1fe5-8403-4010-b72f-c823cb1899d3",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVE-2026-97631: 16-Year-Old UEFI Flaw Threatens Servers",
+      "summary": "A critical 16-year-old UEFI vulnerability (CVE-2026-97631) with a CVSS score of 9.5 allows for pre-OS code execution on affected servers. Organizations are urged to apply firmware patches immediately to mitigate the risk of exploitation.",
+      "date": "2026-10-28T11:15:56.000Z",
+      "link": "https://securityaffairs.com/201928/security/cve-2026-97631-16-year-old-uefi-flaw-threatens-servers.html",
+      "isTopTen": true
+    },
+    {
+      "id": "7fdc15a1-812a-4d92-8f96-50639105d537",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "summary": "Adobe has patched eight critical vulnerabilities in Campaign Classic, including a code injection flaw with a CVSS score of 9.9 that could allow for arbitrary code execution and privilege escalation.",
+      "date": "2026-10-28T11:15:51.000Z",
+      "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "isTopTen": false
+    },
+    {
+      "id": "31ff3e7c-6dd2-4cca-97c6-98c32f811923",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Fake AI Attacks Target US Firms as Researchers Warn of Corporate Credential Theft",
+      "summary": "Cybersecurity researchers have identified a campaign using fake ChatGPT and Claude software downloads to steal corporate credentials and browser session data from U.S. companies. The attack leverages deceptive AI-themed lures to compromise sensitive enterprise information.",
+      "date": "2026-10-28T11:10:50.000Z",
+      "link": "https://hackread.com/fake-ai-attacks-target-us-firms-credential-theft/",
+      "isTopTen": false
+    },
+    {
+      "id": "22b02bef-5f00-479c-9771-261aa829b0a4",
+      "source": "The Hacker News",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "summary": "The Skyw4lker campaign uses device code phishing to bypass traditional credential theft by exploiting legitimate cloud services and authentication workflows to infiltrate U.S. organizations. This sophisticated method allows attackers to compromise corporate accounts while minimizing detectable signs of malicious activity.",
+      "date": "2026-10-28T10:30:00.000Z",
+      "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "isTopTen": false
+    },
+    {
+      "id": "34c1084d-538a-4790-8bc3-f002b2ca13cf",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Data breach at Sony-owned internet provider compromises 2.6 million customer records",
+      "summary": "Sony-owned Japanese ISP So-net suffered a data breach resulting in the exposure of personal information for 2.6 million customers and email passwords for over 54,000 users. The company confirmed the incident was caused by unauthorized access to its member database.",
+      "date": "2026-10-28T10:18:09.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/sony-network-communications-data-breach-so-net/",
+      "isTopTen": false
+    },
+    {
+      "id": "01c8a115-53ae-478f-800c-4e147009db3e",
+      "source": "Security Affairs",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "U.S. CISA adds Google Brotli and Adobe Commerce and Magento flaws to its Known Exploited Vulnerabilities catalog",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added vulnerabilities impacting Google Brotli, Adobe Commerce, and Magento to its Known Exploited Vulnerabilities (KEV) catalog.",
+      "date": "2026-10-28T10:05:15.000Z",
+      "link": "https://securityaffairs.com/201922/security/u-s-cisa-adds-google-brotli-and-adobe-commerce-and-magento-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "isTopTen": false
+    },
+    {
+      "id": "c3275c2f-c703-4ca7-acf2-3e102736a127",
+      "source": "HackRead",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Fake US Court Notices Target 100,000+ Businesses With LodaRAT",
+      "summary": "Threat actors are distributing fake US court notices to over 100,000 businesses to trick users into installing LodaRAT malware. This remote access trojan is designed to steal sensitive data, including passwords and audio recordings, from compromised systems.",
+      "date": "2026-10-28T10:04:16.000Z",
+      "link": "https://hackread.com/fake-us-court-notices-target-businesses-lodarat/",
+      "isTopTen": false
+    },
+    {
+      "id": "5f6bb920-10e3-482d-b979-0ef7f8a0ac66",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "CISA updates ScubaGear and ScubaGoggles, and says Microsoft 365 checks get faster",
+      "summary": "CISA has released updated versions of its open-source configuration assessment tools, ScubaGear and ScubaGoggles, to enhance security auditing for Microsoft 365 and Google Workspace environments. The updates include performance improvements for Microsoft 365 checks and new security baselines for Google Workspace.",
+      "date": "2026-10-28T09:38:17.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/",
+      "isTopTen": false
+    },
+    {
+      "id": "7860aeac-72c7-4b34-a999-20fd295118a4",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Three Japan-Focused Cyberattacks Show How Hackers Use AI",
+      "summary": "Recent cyberattacks targeting Japanese organizations highlight how threat actors are leveraging artificial intelligence to scale operations while continuing to exploit vulnerabilities in legacy systems. The incidents prompted official warnings from the Japanese government regarding the rising sophistication of these digital threats.",
+      "date": "2026-10-28T08:34:17.000Z",
+      "link": "https://securityaffairs.com/201913/ai/three-japan-focused-cyberattacks-show-how-hackers-use-ai.html",
+      "isTopTen": false
+    },
+    {
+      "id": "3d6c79d6-addf-44aa-a064-2486e1ffde14",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "summary": "An unreleased Anthropic AI model successfully identified and chained security vulnerabilities across multiple major operating systems and browsers to create proof-of-concept exploits. The company disclosed all findings to the respective vendors, and patches have already been implemented for all identified flaws.",
+      "date": "2026-10-28T08:15:07.000Z",
+      "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "isTopTen": true
+    },
+    {
+      "id": "37f79ccd-ceb6-4640-8755-0789a88321c0",
+      "source": "The Hacker News",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "summary": "The U.S. Department of Justice has seized the domain of Virtualine, a bulletproof hosting provider accused of facilitating illicit activities including child exploitation and money laundering. This action marks a significant crackdown on infrastructure services used by cybercriminals.",
+      "date": "2026-10-28T07:37:50.000Z",
+      "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+      "isTopTen": false
+    },
+    {
+      "id": "237a9f28-7b34-4b71-a71c-96f079d509b3",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "summary": "Japan's GMO Internet Group has launched a $1 million bounty program to identify attackers who breached its Onamae.com Desktop Cloud service after the company rejected a ransom demand. The initiative aims to facilitate arrests or international legal action against the perpetrators.",
+      "date": "2026-10-28T07:13:21.000Z",
+      "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "isTopTen": false
+    },
+    {
+      "id": "a6626e98-2dc7-433c-a9aa-5e19419cc827",
+      "source": "Help Net Security",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Low",
+      "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
+      "summary": "Bellini Capital CISO Brian Blakley advocates for shifting focus from purely rapid patching to proactive exposure reduction when managing vulnerabilities in AI-integrated environments. He emphasizes the need for shared metrics and clear accountability structures to address risks stemming from evolving AI models.",
+      "date": "2026-10-28T06:30:35.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/",
+      "isTopTen": false
+    },
+    {
+      "id": "a22ba2d6-dcc8-4d0e-a8d7-bbbf69c07739",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "summary": "Tailscale has released version 1.104.4 to patch critical vulnerabilities in its SSH implementation that could allow attackers to gain unauthorized root-level access to networked servers. These flaws stem from improper network connection forwarding by the Tailscale background process.",
+      "date": "2026-10-28T06:20:37.000Z",
+      "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+      "isTopTen": false
+    },
+    {
+      "id": "09285474-2f67-447f-9532-060de8058850",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "summary": "Researchers discovered that the Oracle PeopleSoft vulnerability exploited by ShinyHunters is actually a chain of three flaws, which Oracle patched under CVE-2026-35273. The exploit relies on an SSRF vulnerability to bypass internal network trust boundaries.",
+      "date": "2026-10-28T06:04:58.000Z",
+      "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "isTopTen": false
+    },
+    {
+      "id": "d341a714-105c-42e3-bf46-306e942f9e05",
+      "source": "Help Net Security",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "AbuseBox: Open-source monitor for blacklists, DNS, SSL and email records",
+      "summary": "AbuseBox is a new open-source monitoring tool that tracks IP and domain reputation, DNS blacklists, SSL certificates, and email authentication records. It alerts administrators to potential security issues or configuration changes in real-time.",
+      "date": "2026-10-28T06:00:45.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
+      "isTopTen": false
+    },
     {
       "id": "9447b855-cd5f-4715-8c3e-4a652767b479",
       "source": "CyberScoop",
@@ -76,7 +318,7 @@
       "summary": "An AI-powered tool identified four high-severity vulnerabilities in industrial control software within four hours, highlighting the potential for automated exploitation in critical infrastructure. The discovery includes one critical and three high-severity bugs that could disrupt research activities.",
       "date": "2026-10-27T19:11:02.000Z",
       "link": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "5b596f6a-ecc9-44e4-9e32-b164e28c397b",
@@ -109,7 +351,7 @@
       "summary": "Threat actors utilizing the 'CyberStrikeAI' platform are deploying 44 autonomous AI agents to conduct sophisticated cyber attacks against Japanese organizations. This campaign marks a significant evolution in automated malicious operations where AI actively orchestrates or assists in cyber intrusion tactics.",
       "date": "2026-10-27T18:26:46.000Z",
       "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "336981f2-98f6-42a3-b45d-20f69759bdac",
@@ -120,7 +362,7 @@
       "summary": "CISA has issued a directive for federal agencies to patch two critical PHP vulnerabilities, identified as CVE-2026-109618 and CVE-2026-109619, following reports of active exploitation.",
       "date": "2026-10-27T18:26:21.000Z",
       "link": "https://hackread.com/cisa-confirm-php2shell-exploit-federal-agencies-patch/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0953b53b-cce3-4bda-bcb1-42b573bf637a",
@@ -131,7 +373,7 @@
       "summary": "A remotely exploitable out-of-bounds write vulnerability (CVE-2026-111497) in the Brotli compression library allows attackers to corrupt process memory and potentially execute arbitrary code. The flaw affects numerous software applications beyond Node.js, which is where it was initially disclosed.",
       "date": "2026-10-27T17:38:51.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "2db63748-d0da-498f-b484-06021e5b348a",
@@ -142,7 +384,7 @@
       "summary": "The University of New Mexico canceled classes for a second day following a cyberattack on its Health Sciences Center that caused patient diversions. While hospital operations are partially resuming, recovery efforts remain ongoing.",
       "date": "2026-10-27T16:15:00.000Z",
       "link": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "7ef6487a-184d-4fce-8ea7-07d1eb662dd1",
@@ -175,7 +417,7 @@
       "summary": "A UK watchdog report revealed that third-party IT suppliers holding sensitive police data have suffered multiple security breaches throughout the past decade. The findings highlight significant vulnerabilities within the police supply chain and data management ecosystem.",
       "date": "2026-10-27T15:07:00.000Z",
       "link": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "055ec8cf-1a8c-4d29-8745-05d6218161e2",
@@ -340,7 +582,7 @@
       "summary": "A vulnerability in the Microsoft Authenticator app for Android allowed unauthorized apps to impersonate trusted Microsoft services and steal work account tokens. Microsoft has released a fix in version 6.2606.4246 to address this security flaw.",
       "date": "2026-10-27T12:09:50.000Z",
       "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "71b4b43a-6e94-4cc9-821e-3033227d31eb",
@@ -516,7 +758,7 @@
       "summary": "CISA has added two critical PHP2Shell vulnerabilities, which allow for unauthenticated remote code execution, to its Known Exploited Vulnerabilities (KEV) catalog following confirmed active exploitation.",
       "date": "2026-10-27T04:37:59.000Z",
       "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "ff1876f8-d795-4689-8e73-b0400a5c3d9c",
@@ -758,7 +1000,7 @@
       "summary": "eMudhra is exiting the SSL/TLS certificate market following the discovery of eight easily guessable intermediate CA private keys that led to browser distrust. This security failure compromised the integrity of their certificate issuance process, forcing the company to cease operations in this sector.",
       "date": "2026-10-26T15:10:07.000Z",
       "link": "https://hackread.com/emudhra-exit-ssl-tls-market-8-ca-keys-guessable/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0a278fd3-1944-4170-9c02-e435be21d0fe",
@@ -769,7 +1011,7 @@
       "summary": "Dutch police have arrested two individuals for orchestrating a €380,000 fraud scheme that utilized AI-generated voice calls, a malicious banking application, and NFC technology to compromise 170 victims. The attackers used these tools to deceive users into providing card data, highlighting a sophisticated evolution in voice-based social engineering attacks.",
       "date": "2026-10-26T15:06:26.000Z",
       "link": "https://securityaffairs.com/201786/cyber-crime/ai-generated-fake-bank-calls-and-nfc-app-enabled-e380000-fraud-dutch-police-say.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "49bfcbb3-3d0a-4a06-b174-03ff08a1575b",
@@ -5257,248 +5499,6 @@
       "summary": "Authorities in Ghana and Nigeria, supported by the U.K. and tech companies, raided West African scam compounds and rescued over 100 suspected human trafficking victims. More than two dozen individuals were arrested as part of the coordinated operation against these criminal enterprises.",
       "date": "2026-10-13T16:05:00.000Z",
       "link": "https://therecord.media/ghana-nigeria-scam-centers-raided-uk-us",
-      "isTopTen": false
-    },
-    {
-      "id": "f13add1b-4fb7-4a9f-9a12-e3146a240fd6",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "MS Teams Phishing, ClickFix and Shai-Hulud npm Attacks Dominate Threat Report",
-      "summary": "The Ontinue 1H 2026 threat report highlights a rising trend in cyberattacks leveraging Microsoft Teams, malicious npm packages, and blockchain-based ClickFix campaigns. These findings underscore the shift toward abusing trusted enterprise platforms and supply chain dependencies for malicious activity.",
-      "date": "2026-10-13T15:57:29.000Z",
-      "link": "https://hackread.com/ms-teams-phishing-clickfix-shai-hulud-threat-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "605b22dc-bdd5-4f81-bc2e-082415e7e8d9",
-      "source": "The Record",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "North Korean hackers target Ukrainian experts for possible intelligence on Russia's war",
-      "summary": "North Korean state-sponsored threat actors are conducting targeted campaigns against Ukrainian experts in diplomacy and security to gather intelligence related to the ongoing war in Russia. This activity coincides with deepening military ties between Pyongyang and Moscow.",
-      "date": "2026-10-13T15:15:00.000Z",
-      "link": "https://therecord.media/north-korea-hackers-russia-ukraine",
-      "isTopTen": false
-    },
-    {
-      "id": "3bb473cf-7238-4fa6-ac7a-0da1907ab15d",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Anthropic Shows How Small AI Models Could Replicate Across IoT Devices",
-      "summary": "Anthropic researchers have demonstrated that small AI models could autonomously replicate across IoT devices, highlighting a potential future risk for self-spreading, adaptive AI-powered botnets. This research underscores critical security vulnerabilities in IoT infrastructure as AI capabilities advance.",
-      "date": "2026-10-13T14:30:22.000Z",
-      "link": "https://securityaffairs.com/200880/ai/anthropic-shows-how-small-ai-models-could-replicate-across-iot-devices.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a7d0eaa8-96d0-42d0-94c2-b225a370500b",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "SerpApi Expands Beyond Search Results with New Extract API",
-      "summary": "SerpApi has launched a new Extract API that allows developers to parse structured content, crawl web pages, and discover data within their existing workflow. This expansion moves the company beyond standard search engine results to broader web data extraction capabilities.",
-      "date": "2026-10-13T14:02:00.000Z",
-      "link": "https://hackread.com/serpapi-expands-search-results-new-extract-api/",
-      "isTopTen": false
-    },
-    {
-      "id": "f66d2f17-b6e5-44cd-91a0-b0665ce06c39",
-      "source": "Security Affairs",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "GitLab Patches Max-Severity Vulnerability CVE-2026-97229",
-      "summary": "Service busy.",
-      "date": "2026-10-13T13:48:38.000Z",
-      "link": "https://securityaffairs.com/200868/security/gitlab-patches-max-severity-vulnerability-cve-2026-97229.html",
-      "isTopTen": false
-    },
-    {
-      "id": "2a7e3c05-e942-4185-8b2f-5ed13b6a0f34",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Trellix Wise for Private Cloud delivers auditable AI investigations for security teams",
-      "summary": "Trellix has introduced Trellix Wise for Private Cloud, an on-premises AI security solution designed to enhance threat detection and incident response while maintaining data sovereignty and governance. The platform enables security teams to conduct auditable AI investigations across their existing infrastructure.",
-      "date": "2026-10-13T13:35:06.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/trellix-wise-for-private-cloud-delivers-auditable-ai-investigations-for-security-teams/",
-      "isTopTen": false
-    },
-    {
-      "id": "572dd896-1295-4bb1-971f-20de7a5da606",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "NinjaOne combines Katana AI and MCP server to accelerate IT problem resolution",
-      "summary": "NinjaOne has introduced Katana AI and an MCP server to enhance IT operations by automating problem resolution and integrating AI tools within managed environments. The platform aims to reduce manual data processing and improve efficiency for IT technicians.",
-      "date": "2026-10-13T13:26:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/ninjaone-katana-ai-mcp/",
-      "isTopTen": false
-    },
-    {
-      "id": "3e38574d-b3f7-46cc-a1af-26a531de3403",
-      "source": "Help Net Security",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Ukrainian drones hit Yandex data centers, sparking claims that Russian troll farms went quiet",
-      "summary": "Ukrainian drone strikes successfully targeted and incapacitated three Yandex data centers, forcing the company to operate in emergency mode and impacting its cloud services. The disruption has led to reports of diminished activity from associated Russian online influence operations.",
-      "date": "2026-10-13T13:15:05.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/ukraine-drone-strikes-yandex-data-centers/",
-      "isTopTen": false
-    },
-    {
-      "id": "070cb9b2-f1c3-49f4-b63e-49119159aefc",
-      "source": "The Hacker News",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "High",
-      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-      "summary": "The Norwegian Data Protection Authority has issued a record €8.6 million fine to Microsoft-owned Xandr for illegally sharing sensitive Grindr user data, including sexual orientation, with advertisers. The regulator cited the severity of the privacy breach as the primary justification for the historic penalty.",
-      "date": "2026-10-13T13:12:32.000Z",
-      "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
-      "isTopTen": false
-    },
-    {
-      "id": "9e190b40-94c5-48ba-99f0-08c43ff80993",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Lattice Sentry 5.0 brings quantum-resistant firmware security to AI data centers",
-      "summary": "Lattice Semiconductor has launched Lattice Sentry 5.0, incorporating post-quantum cryptography to enhance firmware security and resilience for AI data centers. This update ensures compliance with CNSA 2.0 and NIST standards to mitigate emerging quantum-era threats.",
-      "date": "2026-10-13T13:04:59.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/lattice-sentry-5-0-solution-stack/",
-      "isTopTen": false
-    },
-    {
-      "id": "92672f40-9b57-4bab-9b51-407664daed7d",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo",
-      "summary": "Criminal IP is set to demonstrate its threat intelligence capabilities and AITEM solution at the upcoming Security Days Fall 2026 conference in Tokyo. The presentation will highlight advancements in their security technology suite.",
-      "date": "2026-10-13T13:00:05.000Z",
-      "link": "https://hackread.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/",
-      "isTopTen": false
-    },
-    {
-      "id": "e364d8f0-bf94-4645-9fdc-f33e2c5e2ecc",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Ridge Security’s RidgeOne keeps autonomous penetration testing data inside customer environments",
-      "summary": "Ridge Security has introduced RidgeOne, an autonomous penetration testing solution that utilizes an on-premises AI model to secure sensitive data within customer environments. This approach eliminates the need to transmit data to external providers and avoids ongoing AI token costs.",
-      "date": "2026-10-13T12:49:07.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/ridge-security-ridgeone/",
-      "isTopTen": false
-    },
-    {
-      "id": "480b1d8c-155f-4000-b10c-5a122a373b1a",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cyberattacks crank French supermarket refrigeration systems up to 50°C",
-      "summary": "Hackers compromised French supermarket refrigeration systems by exploiting outdated firmware, causing units to overheat to 50°C and resulting in significant food spoilage across hundreds of locations.",
-      "date": "2026-10-13T12:00:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/13/cyberattacks-crank-french-supermarket-refrigeration-systems-up-to-50c/5302784",
-      "isTopTen": false
-    },
-    {
-      "id": "8b50fa98-c865-449d-915b-e2fac396e614",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "summary": "This webinar explores how AI-accelerated privilege escalation enables attackers to move laterally through systems rapidly after an initial account compromise. It focuses on utilizing runtime identity controls to mitigate these advanced threats.",
-      "date": "2026-10-13T11:57:06.000Z",
-      "link": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-      "isTopTen": false
-    },
-    {
-      "id": "890a65d0-87da-497b-80e6-5fb58be9a00e",
-      "source": "HackRead",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Powering Proactive Defense: How MSSPs Can Strengthen Threat Hunting Against Ransomware",
-      "summary": "This article explores how Managed Security Service Providers (MSSPs) can enhance their proactive threat hunting capabilities specifically to counter ransomware attacks.",
-      "date": "2026-10-13T11:49:37.000Z",
-      "link": "https://hackread.com/mssps-strengthens-threat-hunting-against-ransomware/",
-      "isTopTen": false
-    },
-    {
-      "id": "a6a44d63-b65a-4934-89e2-58bf04f6e8a8",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Mozilla’s Firefox Enterprise lets companies block shadow AI in the browser",
-      "summary": "Mozilla has introduced a Firefox Enterprise platform that enables organizations to manage security policies and restrict employee access to shadow AI tools. This solution helps businesses maintain control over sensitive data and monitor web browser activity to meet regulatory requirements.",
-      "date": "2026-10-13T11:21:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/mozilla-firefox-enterprise-platform/",
-      "isTopTen": false
-    },
-    {
-      "id": "97afb4bd-7e09-4b80-bfe1-6a1422afa785",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "'123456' password linked to Denmark data breach affecting 8.8M people",
-      "summary": "A data breach in Denmark involving 8.8 million records was traced back to the compromise of three weakly protected accounts at a small IT firm that had access to a national registry. The breach highlights the risks associated with poor credential hygiene, as the compromised accounts utilized the common '123456' password.",
-      "date": "2026-10-13T11:14:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/13/123456-password-linked-to-denmark-data-breach-affecting-88m-people/5302726",
-      "isTopTen": false
-    },
-    {
-      "id": "b0e5ac5f-8706-4d35-bf03-0f7aac47b7af",
-      "source": "HackRead",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Amazon Fire TV Cube Rooted Using Four-Year-Old Arm Mali Vulnerability",
-      "summary": "Researchers discovered that a four-year-old vulnerability in Arm Mali GPUs allows for rooting the third-generation Amazon Fire TV Cube. This exploit highlights the ongoing risk posed by legacy vulnerabilities in consumer hardware.",
-      "date": "2026-10-13T10:16:23.000Z",
-      "link": "https://hackread.com/amazon-fire-tv-cube-rooted-arm-mali-vulnerability/",
-      "isTopTen": false
-    },
-    {
-      "id": "2125e21d-a197-49cd-ab2c-9066e278bd45",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Owner of fashion brands Hobbs and Whistles joins autumn pwned collection",
-      "summary": "TFG London, the owner of fashion brands Hobbs and Whistles, is experiencing significant operational disruptions due to a cyberattack that has taken IT systems offline and delayed customer orders.",
-      "date": "2026-10-13T09:45:00.000Z",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/13/owner-of-fashion-brands-hobbs-and-whistles-joins-autumn-pwned-collection/5302752",
-      "isTopTen": false
-    },
-    {
-      "id": "d3a0fd8a-a0cc-42e1-8f7b-d80eb38f4eec",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Meta outlines Muse Wonder safeguards for AI agents acting on your behalf",
-      "summary": "Meta has introduced safety protocols for its Muse Wonder AI models, which are designed to perform complex autonomous tasks like software development and document analysis. These safeguards aim to mitigate risks associated with AI agents that interact with sensitive information and execute external tools.",
-      "date": "2026-10-13T09:35:02.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/13/meta-muse-wonder-full-models/",
-      "isTopTen": false
-    },
-    {
-      "id": "fb8aa4dd-9fe8-42d4-a29c-250b85c1d34d",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Hackers cranked French supermarkets’ freezers up to 50 degrees, causing hundreds of stores to lose their stock",
-      "summary": "Hackers exploited unpatched vulnerabilities in Danfoss refrigeration systems to remotely increase temperatures in French supermarkets, resulting in the loss of millions of dollars in inventory. The incident highlights the growing risk of cyberattacks targeting industrial control systems in the retail supply chain.",
-      "date": "2026-10-13T07:50:08.000Z",
-      "link": "https://securityaffairs.com/200863/hacking/hackers-cranked-french-supermarkets-freezers-up-to-50-degrees-causing-hundreds-of-stores-to-lose-their-stock.html",
-      "isTopTen": false
-    },
-    {
-      "id": "99ae7baf-efcf-4bfc-949e-1a97df6ab860",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "VMware is pushing so many patches, it thinks users need new tools to manage the flood",
-      "summary": "VMware is addressing the overwhelming volume of security patches by introducing new management tools and implementing paid multi-factor authentication (MFA) features. This shift highlights the growing complexity of maintaining infrastructure security against frequent software vulnerabilities.",
-      "date": "2026-10-13T07:01:00.000Z",
-      "link": "https://www.theregister.com/virtualization/2026/10/13/vmware-is-pushing-so-many-patches-it-thinks-users-need-new-tools-to-manage-the-flood-1/5302172",
       "isTopTen": false
     }
   ]
