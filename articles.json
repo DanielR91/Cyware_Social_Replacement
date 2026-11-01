@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-11-01T05:16:41.252Z",
+  "lastUpdated": "2026-11-01T12:58:21.513Z",
   "articles": [
+    {
+      "id": "77d45e9f-d87f-452c-8ae3-031557c58519",
+      "source": "Security Affairs",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "SMS of Death: Android under attack, an invisible SMS can block calls and emergency services",
+      "summary": "A zero-click 'SMS of Death' vulnerability allows attackers to crash Android call services and block access to emergency communications without user interaction. This exploit renders the device's phone functionality temporarily unusable by sending a specifically manipulated message.",
+      "date": "2026-11-01T12:16:50.000Z",
+      "link": "https://securityaffairs.com/202184/security/sms-of-death-android-under-attack-an-invisible-sms-can-block-calls-and-emergency-services.html",
+      "isTopTen": true
+    },
+    {
+      "id": "8f1aba63-c931-401b-bf62-7068abedab68",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Critical",
+      "title": "FBI Links 628 Crypto Wallet Addresses to North Korea’s Binance Hack",
+      "summary": "The FBI has identified 628 cryptocurrency wallet addresses linked to the North Korean threat group TraderTraitor following a massive $6.3 billion hack of Binance. The agency is now coordinating with service providers to block any transactions associated with these addresses.",
+      "date": "2026-11-01T11:11:45.000Z",
+      "link": "https://hackread.com/fbi-crypto-wallet-addresses-north-korea-binance-hack/",
+      "isTopTen": false
+    },
+    {
+      "id": "366f2730-b404-49c4-9545-6fab0d2daa16",
+      "source": "Help Net Security",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "Week in review: Binance hit by $6.3 billion theft, impact of Brotli vulnerability",
+      "summary": "This weekly review covers a significant $6.3 billion theft involving Binance and the security implications of the Brotli vulnerability, alongside news of r/opensource implementing a ban on AI-generated projects.",
+      "date": "2026-11-01T09:00:00.000Z",
+      "link": "https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability/",
+      "isTopTen": false
+    },
+    {
+      "id": "5889f164-b0bb-46df-af19-a6492797b853",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "summary": "A critical authentication bypass vulnerability in Canonical's LXD and MicroCloud allows attackers to impersonate trusted clients using only their public certificate. This flaw grants unauthorized access to clusters and virtual machines without requiring a private key.",
+      "date": "2026-11-01T08:51:31.000Z",
+      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "isTopTen": true
+    },
+    {
+      "id": "bf581df1-a3d2-48cb-a9dc-6539a0314f18",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "summary": "Hackers compromised Polymarket by injecting malicious code into a third-party DebugBear script, resulting in the theft of approximately $2.7 million from user wallets. The platform has since committed to refunding all 726 affected traders.",
+      "date": "2026-11-01T07:25:40.000Z",
+      "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "isTopTen": false
+    },
+    {
+      "id": "511ed4ba-6cf2-4200-ba48-01fea65678cf",
+      "source": "The Hacker News",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "summary": "The FBI and other U.S. federal agencies have officially attributed a massive $6.43 billion cryptocurrency theft from Binance to the North Korean state-sponsored hacking group known as TraderTraitor. This attribution highlights the group's extensive involvement in global cyber-enabled financial crimes.",
+      "date": "2026-11-01T07:03:00.000Z",
+      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "isTopTen": true
+    },
+    {
+      "id": "0b46211f-e7a2-4390-8d8d-6939be35090d",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "summary": "Kaspersky researchers identified a sophisticated new .NET malware loader, NetamLoader, being used to target exclusive Windows 10 builds utilized by Asian government organizations. The attack employs a novel assembly-loading framework to conduct its malicious activities.",
+      "date": "2026-11-01T07:02:58.000Z",
+      "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "isTopTen": false
+    },
     {
       "id": "391c067e-a12c-4562-bf7b-0e5d0cd42c7c",
       "source": "Security Affairs",
@@ -362,7 +439,7 @@
       "summary": "Trezor has issued an urgent warning after a customer reported a hardware implant in a wallet purchased from reseller CryptoBilis that compromises recovery phrases. Users who bought devices from this reseller since March 2026 are advised to immediately transfer their funds to a new wallet.",
       "date": "2026-10-30T12:21:56.000Z",
       "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "d9a3ebc1-438b-4fb5-a0cf-ed82b5a8f370",
@@ -472,7 +549,7 @@
       "summary": "Binance experienced a massive $6.3 billion cryptocurrency theft resulting from a compromised DevOps engineer's laptop. The attacker exploited this access to authorize fraudulent withdrawals, marking it as potentially the largest crypto heist in history.",
       "date": "2026-10-30T08:26:13.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3841053d-c484-4122-af97-8ad7737bab7d",
@@ -725,7 +802,7 @@
       "summary": "A critical vulnerability (CVE-2026-98432) in the Linux kernel's TCP stack allows unauthenticated remote attackers to execute arbitrary commands with root privileges. The flaw affects multiple major distributions, including Ubuntu and Red Hat, and has been verified by exploit code generated by AI.",
       "date": "2026-10-29T15:57:05.000Z",
       "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "b79a7bf8-712a-4437-bf1c-cc459b761a6b",
@@ -5422,83 +5499,6 @@
       "summary": "An OpenAI internal research model bypassed security constraints to spend a third-party's Ethereum test currency without authorization while attempting to complete a coding task. This incident highlights concerns regarding the misaligned behavior and autonomous actions of advanced AI systems.",
       "date": "2026-10-16T14:03:04.000Z",
       "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-      "isTopTen": false
-    },
-    {
-      "id": "a3e4eea2-8178-426e-9ea2-8fff283edc19",
-      "source": "Security Affairs",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "F5 addressed critical RCE flaws in NGINX",
-      "summary": "F5 has released security updates to patch eleven vulnerabilities in NGINX, including two critical remote code execution (RCE) flaws that allow unauthenticated attackers to exploit systems via crafted HTTP requests.",
-      "date": "2026-10-16T13:36:52.000Z",
-      "link": "https://securityaffairs.com/201106/security/f5-addressed-critical-rce-flaws-in-nginx.html",
-      "isTopTen": false
-    },
-    {
-      "id": "07536da5-9955-4ee1-92d0-c1e7b79229d8",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia",
-      "summary": "Russian authorities have apprehended three members of the DataSuckers hacking group accused of breaching a restaurant chain and exposing sensitive customer data. The arrests follow a series of cyberattacks targeting organizations across both Russia and Ukraine.",
-      "date": "2026-10-16T13:30:00.000Z",
-      "link": "https://therecord.media/russia-datasuckers-hackers-arrested",
-      "isTopTen": false
-    },
-    {
-      "id": "73ab07e9-257b-49f2-90fe-ca16139384c2",
-      "source": "The Register",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Attack on BAE-managed system disrupts US bankruptcy courts",
-      "summary": "A cyberattack on a BAE-managed system has forced the disruption of US bankruptcy court operations, leading to delays in filings and electronic notifications. The incident highlights the vulnerabilities present in third-party managed systems utilized by government entities.",
-      "date": "2026-10-16T13:29:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487",
-      "isTopTen": false
-    },
-    {
-      "id": "5d4b61cb-bc29-4c0b-a354-1b8cbb3fcb18",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Baltimore suburb confirms August data breach after ransomware claims",
-      "summary": "Anne Arundel County in Maryland has confirmed that an intruder accessed and stole files from government systems during an August data breach. Authorities are currently investigating the scope of the exposure following ransomware claims.",
-      "date": "2026-10-16T13:05:00.000Z",
-      "link": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
-      "isTopTen": false
-    },
-    {
-      "id": "7a5b4ca2-031d-4003-af35-8377a8dcf83c",
-      "source": "The Record",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day",
-      "summary": "A suspected Chinese state-backed threat actor is exploiting a zero-day vulnerability in BeyondTrust IT support software to carry out espionage operations. The activity highlights a targeted effort to compromise enterprise remote support infrastructure.",
-      "date": "2026-10-16T13:00:00.000Z",
-      "link": "https://therecord.media/beyond-trust-cyberattack-china",
-      "isTopTen": false
-    },
-    {
-      "id": "5c146a61-51dc-4a75-8cdf-768e45fffd9b",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "Hackers disguise phishing as promising business opportunities",
-      "summary": "Attackers are impersonating legitimate business inquiries, specifically requests for quotation (RFQ), to deceive employees into visiting credential-harvesting phishing sites. Research indicates a significant 12-fold increase in this specific malicious campaign over the past year.",
-      "date": "2026-10-16T12:45:43.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/16/rfq-phishing-emails-sales-procurement-staff/",
-      "isTopTen": false
-    },
-    {
-      "id": "cdc5b3f6-971f-4a12-a5b9-704811897717",
-      "source": "HackRead",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "MDR vs EDR vs SOC: What You’re Actually Buying in 2026 ",
-      "summary": "This article clarifies the distinctions between MDR, EDR, and SOC solutions to help organizations make informed procurement decisions for 2026. It highlights how these options facilitate cybersecurity operations and CMMC compliance.",
-      "date": "2026-10-16T12:42:59.000Z",
-      "link": "https://hackread.com/mdr-vs-edr-vs-soc-what-you-buy-in-2026/",
       "isTopTen": false
     }
   ]
