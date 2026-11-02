@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-11-01T19:28:03.052Z",
+  "lastUpdated": "2026-11-02T00:28:28.446Z",
   "articles": [
+    {
+      "id": "afb8b299-8d34-4904-ba4b-a3fd38a75239",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Federal court tosses Trump lawsuit challenging Alaska Senate certification",
+      "summary": "A federal judge dismissed a lawsuit filed by Donald Trump challenging the certification of an Alaska Senate race, citing a lack of constitutional authority for the executive branch to intervene. The court rejected the argument that voter confusion over similar candidate names necessitated judicial or executive action.",
+      "date": "2026-11-01T22:47:26.000Z",
+      "link": "https://cyberscoop.com/judge-dismisses-alaska-senate-lawsuit-peltola-sullivan/",
+      "isTopTen": false
+    },
+    {
+      "id": "7ec8b945-7f85-46ee-bb7d-4d26d4a72270",
+      "source": "Security Affairs",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "FBI Blames North Korea for $6 Billion Binance Crypto Theft",
+      "summary": "The FBI has officially attributed the theft of $6 billion in virtual assets from Binance to North Korean actors. The agency is now calling on cryptocurrency firms to implement measures to block transactions associated with the stolen funds.",
+      "date": "2026-11-01T19:23:14.000Z",
+      "link": "https://securityaffairs.com/202221/apt/fbi-blames-north-korea-for-6-billion-binance-crypto-theft.html",
+      "isTopTen": false
+    },
     {
       "id": "438d7ed6-3bb8-4774-9576-086387ba45ba",
       "source": "Security Affairs",
@@ -76,7 +98,7 @@
       "summary": "A critical authentication bypass vulnerability in Canonical's LXD and MicroCloud allows attackers to impersonate trusted clients using only their public certificate. This flaw grants unauthorized access to clusters and virtual machines without requiring a private key.",
       "date": "2026-11-01T08:51:31.000Z",
       "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "bf581df1-a3d2-48cb-a9dc-6539a0314f18",
@@ -439,7 +461,7 @@
       "summary": "A watchdog report revealed that the British intelligence agency GCHQ cannot account for thousands of data storage devices, raising significant concerns about internal security and asset management. The IPCO criticized the agency for the slow pace of their internal investigation into the missing hardware.",
       "date": "2026-10-30T12:52:00.000Z",
       "link": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "250c09ca-2557-46d2-912f-6f31d60eac2b",
@@ -560,7 +582,7 @@
       "summary": "Researchers discovered that Zhipu AI's GLM-5.3 open-weight model demonstrated advanced offensive cyber capabilities, successfully executing multistage attacks in simulated environments without safety refusals. The findings highlight significant security concerns regarding the potential misuse of high-performing open-weight AI models for cyberattacks.",
       "date": "2026-10-30T09:23:25.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/30/irregular-glm-5-3-cyber-capabilities-evaluation/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "0ee7b8a5-5d71-4c17-b538-6e7a142bd12d",
@@ -582,7 +604,7 @@
       "summary": "Binance experienced a massive $6.3 billion cryptocurrency theft resulting from a compromised DevOps engineer's laptop. The attacker exploited this access to authorize fraudulent withdrawals, marking it as potentially the largest crypto heist in history.",
       "date": "2026-10-30T08:26:13.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "3841053d-c484-4122-af97-8ad7737bab7d",
@@ -604,7 +626,7 @@
       "summary": "CISA has added two actively exploited vulnerabilities in Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV) catalog, mandating immediate attention for federal agencies. These flaws include a critical-severity remote code execution issue in GitLab and a denial-of-service vulnerability in Cisco products.",
       "date": "2026-10-30T07:27:05.000Z",
       "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a39f644c-a074-4dc9-9e29-8da9a2199dd6",
@@ -626,7 +648,7 @@
       "summary": "A hacker exposed the personal data of over 40,000 U.S. Department of Homeland Security employees following an undisclosed data breach. The compromised information includes details regarding staff from major agencies like CBP, ICE, and CISA.",
       "date": "2026-10-30T06:26:27.000Z",
       "link": "https://securityaffairs.com/202103/data-breach/hacker-leaks-data-on-more-than-40000-homeland-security-employees.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "129949a8-d293-4d99-b145-ff12e237e507",
@@ -5477,28 +5499,6 @@
       "summary": "The UAT-11985 APT group is conducting a spear-phishing campaign against Taiwan research organizations, utilizing fake event invitations and an Adversary-in-the-Middle (AitM) framework to steal Google credentials and MFA codes.",
       "date": "2026-10-16T16:16:44.000Z",
       "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-      "isTopTen": false
-    },
-    {
-      "id": "574e6fa1-3003-4fe6-b847-a67d50d90221",
-      "source": "The Register",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Networking problems after the October 2026 Windows update? NTLM might be to blame",
-      "summary": "Microsoft is enforcing the deprecation of the NTLM legacy authentication protocol in the October 2026 Windows update, which may cause connectivity issues for organizations that have not yet migrated to modern alternatives. The move highlights the final stages of a long-term transition away from less secure authentication methods.",
-      "date": "2026-10-16T15:30:00.000Z",
-      "link": "https://www.theregister.com/security/2026/10/16/networking-problems-after-the-october-2026-windows-update-ntlm-might-be-to-blame/5303503",
-      "isTopTen": false
-    },
-    {
-      "id": "45c36ff8-10b0-455c-8700-fb3358cc94c3",
-      "source": "CyberScoop",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Cybersecurity incident at BAE Systems disrupts US bankruptcy court system",
-      "summary": "A cybersecurity incident at BAE Systems has disrupted the US bankruptcy court system, halting the issuance of official notices nationwide since October 9. The cause and estimated restoration time for the outage remain undisclosed.",
-      "date": "2026-10-16T15:12:44.000Z",
-      "link": "https://cyberscoop.com/bae-systems-cybersecurity-incident-us-bankruptcy-courts/",
       "isTopTen": false
     }
   ]
