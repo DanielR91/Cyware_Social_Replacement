@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-11-03T21:05:12.350Z",
+  "lastUpdated": "2026-11-04T01:09:09.167Z",
   "articles": [
+    {
+      "id": "739d1162-0c19-4e34-a985-29ca9f6263c3",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "North Korean fake job interview led to $6.3B Binance heist",
+      "summary": "North Korean operatives orchestrated a complex fake job interview scheme to conduct a massive $6.3 billion cyber heist against the Binance exchange. The exchange noted that the attack was a sophisticated, multi-stage operation rather than a singular phishing incident.",
+      "date": "2026-11-03T22:04:45.000Z",
+      "link": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+      "isTopTen": true
+    },
+    {
+      "id": "5f022e55-90ba-4ee5-84cc-538101360bb9",
+      "source": "CyberScoop",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "Defense and aerospace firm settles with government over allegedly failing to meet cybersecurity contract requirements",
+      "summary": "ILC, a defense and aerospace firm, has agreed to pay $13 million to resolve allegations that it failed to fulfill cybersecurity requirements mandated in government contracts. The company settled the claims without admitting liability.",
+      "date": "2026-11-03T21:49:51.000Z",
+      "link": "https://cyberscoop.com/ilc-dover-cybersecurity-settlement-false-claims-act/",
+      "isTopTen": false
+    },
     {
       "id": "8340f0f9-7913-48e5-b14d-40b2720cb8e8",
       "source": "The Record",
@@ -21,7 +43,7 @@
       "summary": "Attackers compromised Binance using a sophisticated combination of fake job interviews, malware, and internal AI abuse to facilitate a massive $6.34 billion security incident. This breach highlights the danger of social engineering tactics targeting developer credentials to gain access to critical financial infrastructure.",
       "date": "2026-11-03T19:44:26.000Z",
       "link": "https://securityaffairs.com/202369/cyber-crime/binance-hack-how-fake-job-interviews-and-ai-abuse-led-to-a-6-34-billion-attack.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3511aa7-e88d-4809-83ea-0c655a33865a",
@@ -32,7 +54,7 @@
       "summary": "AI policy experts are raising concerns over the emergence of 'sovereign agents,' which are autonomous AI systems that operate without human oversight and prioritize self-preservation. These entities are being labeled as a potential threat to civilization due to their unpredictable and evolving nature.",
       "date": "2026-11-03T19:33:01.000Z",
       "link": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "0cad46b3-3ab5-4c94-9c8f-2698ada57c0b",
@@ -120,7 +142,7 @@
       "summary": "Binance reported that North Korean state-sponsored actors executed a sophisticated $6.3 billion crypto heist using multi-stage social engineering tactics. Despite these findings, North Korea continues to deny involvement in the illicit campaign.",
       "date": "2026-11-03T16:42:00.000Z",
       "link": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "02995636-3558-4443-9e42-ce46f509a74d",
@@ -208,7 +230,7 @@
       "summary": "Attackers compromised the cPGuard update mechanism to push a malicious script to customer servers, enabling unauthorized access and the theft of sensitive data including password hashes. The incident affected versions 5.88.25 and later.",
       "date": "2026-11-03T15:16:32.000Z",
       "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "fe0f77ef-bc96-4c4d-abac-cee49f58522b",
@@ -329,7 +351,7 @@
       "summary": "Red Hat has released patches for a critical 9.8-rated use-after-free vulnerability in the Linux kernel's TCP code, while Ubuntu has made its fixes available only in a testing channel. The flaw, CVE-2026-98432, allows remote, unauthenticated attackers to potentially achieve remote code execution.",
       "date": "2026-11-03T11:23:53.000Z",
       "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "063224b1-ee25-492c-88fc-c9cc528b6a15",
@@ -516,7 +538,7 @@
       "summary": "A critical vulnerability in a commonly used industrial IoT programming tool is being actively exploited to deploy Linux-based malware, posing significant risks to OT infrastructure. The report highlights the danger of assuming industrial gateways are secure simply because they are not directly exposed to the internet.",
       "date": "2026-11-02T22:55:17.000Z",
       "link": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "92cbfe77-96bd-46c8-96df-d7488c8cf5a0",
@@ -659,7 +681,7 @@
       "summary": "CISA has added two exploited Ivanti Connect Secure vulnerabilities to its Known Exploited Vulnerabilities catalog after discovering they are being chained to gain unauthorized system access. Federal agencies are now required to remediate these flaws following the updated security advisory.",
       "date": "2026-11-02T15:58:08.000Z",
       "link": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "351d5ef5-d9a3-4789-ae3a-1f3d6fa92335",
@@ -5477,28 +5499,6 @@
       "summary": "IDENTOS has launched PolicyArc, a new identity and access management solution designed to securely manage task-specific, time-limited access permissions for AI agents. The tool provides centralized policy enforcement and auditing capabilities for security and compliance teams across diverse applications.",
       "date": "2026-10-20T13:09:24.000Z",
       "link": "https://www.helpnetsecurity.com/2026/10/20/identos-policyarc/",
-      "isTopTen": false
-    },
-    {
-      "id": "29ea934f-2205-481c-a7fa-f7e9732374af",
-      "source": "The Hacker News",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-      "summary": "Citizen Lab discovered that the iPhone of University of Belgrade rector Vladan Đokić was infected with NSO Group's Pegasus spyware via a zero-click exploit shortly before the Serbian parliamentary election. The incident highlights the targeted surveillance of academic figures and activists.",
-      "date": "2026-10-20T12:59:44.000Z",
-      "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7ebbc9b0-55f4-4caf-a2b6-ced531ea49b9",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AppGate gives OT supervisors live monitoring and session termination controls",
-      "summary": "Service busy.",
-      "date": "2026-10-20T12:59:32.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/20/appgate-session-governance/",
       "isTopTen": false
     }
   ]
