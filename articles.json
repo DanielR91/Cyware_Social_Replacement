@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-11-05T19:51:26.894Z",
+  "lastUpdated": "2026-11-06T01:30:09.048Z",
   "articles": [
+    {
+      "id": "c8c06986-1798-4244-811f-e2a258b5ffd9",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
+      "summary": "Threat actors are exploiting weekends to target Indian fintech firms with sophisticated, AI-driven attacks. CERT-IN has issued an advisory highlighting the rising frequency of these incidents despite recent defensive improvements.",
+      "date": "2026-11-06T01:17:40.000Z",
+      "link": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+      "isTopTen": false
+    },
+    {
+      "id": "8c4c132b-f85f-41b0-acec-80c8fd660344",
+      "source": "HackRead",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "High",
+      "title": "How Governments Detect VPN Traffic, and Why Encryption Alone Doesn’t Hide It",
+      "summary": "This article explains the technical methods governments use to identify and block VPN traffic, clarifying that encryption is insufficient to guarantee anonymity. It details techniques such as IP address filtering, protocol fingerprinting, and active probing.",
+      "date": "2026-11-05T22:50:58.000Z",
+      "link": "https://hackread.com/how-governments-detect-vpn-traffic-encryption/",
+      "isTopTen": false
+    },
+    {
+      "id": "ed99e5ef-eabb-4989-8000-9fe00e5ab2c1",
+      "source": "The Register",
+      "tag": "Threat Intel & Info Sharing",
+      "severity": "Low",
+      "title": "Feds warn grocers: Don't chill on cyber defenses as freezer hacking spree heats up",
+      "summary": "Federal authorities are urging American grocery retailers to bolster their cybersecurity measures against potential threats to refrigeration systems. While no actual attacks have been reported, the warning follows an increase in malicious activity targeting these industrial controllers.",
+      "date": "2026-11-05T22:37:06.000Z",
+      "link": "https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978",
+      "isTopTen": false
+    },
+    {
+      "id": "e702f42d-a571-45c7-90e0-268a3581992b",
+      "source": "The Record",
+      "tag": "Breaches and Incidents",
+      "severity": "High",
+      "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+      "summary": "The Queens Public Library system experienced a significant operational disruption across its 66 branches due to a confirmed ransomware attack. The incident has impacted public access to Wi-Fi and on-site computing services.",
+      "date": "2026-11-05T22:08:00.000Z",
+      "link": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+      "isTopTen": false
+    },
+    {
+      "id": "43fe0da3-265a-4275-ada2-44df1c614275",
+      "source": "The Register",
+      "tag": "Breaches and Incidents",
+      "severity": "Critical",
+      "title": "The White House is apparently a popular residential proxy exit spot",
+      "summary": "The White House network infrastructure has been identified as a source for residential proxy traffic, suggesting that its systems may have been compromised to facilitate illicit routing. The specific methods used to achieve this unauthorized access remain under investigation.",
+      "date": "2026-11-05T20:50:57.000Z",
+      "link": "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
+      "isTopTen": false
+    },
+    {
+      "id": "b86ec2f0-fa32-4c7e-9990-e985a5aa5b1c",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "Low",
+      "title": "Social media giants sue California to overturn law shielding kids 15 and under from compulsive use",
+      "summary": "Major social media companies are suing California to block a new law that restricts platforms from using features deemed psychologically exploitative toward minors. The legal challenge targets regulations aimed at curbing compulsive usage patterns among children aged 15 and under.",
+      "date": "2026-11-05T20:48:00.000Z",
+      "link": "https://therecord.media/social-media-giants-sue-california-over-social-media-law",
+      "isTopTen": true
+    },
+    {
+      "id": "a937af59-9665-40a4-83ae-2fed61e1b16c",
+      "source": "The Record",
+      "tag": "Laws, Policy, Regulations",
+      "severity": "High",
+      "title": "US issues more sanctions against Prince Group scam center affiliates",
+      "summary": "The US government has imposed sanctions on four individuals and 41 companies associated with the Prince Group, a Cambodian entity linked to a large-scale billion-dollar scam operation.",
+      "date": "2026-11-05T20:11:00.000Z",
+      "link": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
+      "isTopTen": false
+    },
     {
       "id": "f3a1b71b-1b61-4bbf-bb8c-1bee9083bc5c",
       "source": "CyberScoop",
@@ -54,7 +131,7 @@
       "summary": "Hackers compromised refrigeration controls at three French blood service facilities, though staff intervention successfully prevented damage to critical plasma and blood supplies.",
       "date": "2026-11-05T17:06:58.000Z",
       "link": "https://hackread.com/hackers-tamper-refrigeration-controls-france-blood-service/",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "43e1e722-9f7a-45a7-8891-81c8a1c38f77",
@@ -88,6 +165,28 @@
       "date": "2026-11-05T17:00:00.000Z",
       "link": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
       "isTopTen": true
+    },
+    {
+      "id": "2b0e04eb-7615-4a99-9372-ba1bb0508967",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "Critical",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "summary": "A critical vulnerability in OpenSSH on Alpine Linux allows attackers to bypass authentication using specially crafted long passwords. OpenSSH has released version 10.6p2 to mitigate this security flaw.",
+      "date": "2026-11-05T16:42:46.000Z",
+      "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "isTopTen": false
+    },
+    {
+      "id": "deb2f9a7-2b86-4295-9aa3-77a64e501eec",
+      "source": "The Hacker News",
+      "tag": "Malware and Vulnerabilities",
+      "severity": "High",
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "summary": "Researchers discovered a now-patched vulnerability in ChatGPT's Lockdown Mode that allowed attackers to exfiltrate user chat data silently without interaction. The flaw bypassed security controls designed to mitigate risks from prompt injections.",
+      "date": "2026-11-05T16:42:32.000Z",
+      "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "isTopTen": false
     },
     {
       "id": "a45fec62-7d6d-4298-b1a1-96b0a076693d",
@@ -197,7 +296,7 @@
       "summary": "UNM Health was forced to shut down clinics and divert emergency patients due to a severe cybersecurity incident. The health system paused operations and canceled appointments to contain the threat and secure its systems.",
       "date": "2026-11-05T13:48:57.000Z",
       "link": "https://securityaffairs.com/202495/security/unm-health-shuts-clinics-and-diverts-patients-during-security-incident.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f05a50a7-31e6-4414-8b84-b35b12594663",
@@ -219,7 +318,7 @@
       "summary": "Anthropic has decided not to patch a vulnerability in Claude Dispatch that potentially allows attackers to execute remote commands across corporate organizational boundaries. The flaw reportedly enables a clear path for escalation from an enterprise open-proxy to remote code execution.",
       "date": "2026-11-05T13:00:00.000Z",
       "link": "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "9a33aca3-d89e-4cf2-818a-747cde6a20d5",
@@ -318,7 +417,7 @@
       "summary": "Apple is introducing a new security feature starting with version 27.3 that will scan iCloud content shared via public links for harmful material. This measure aims to prevent the distribution of prohibited content through publicly accessible links.",
       "date": "2026-11-05T09:13:28.000Z",
       "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "1d3c5bcb-8d0b-4e08-b5af-f3f79957c079",
@@ -340,7 +439,7 @@
       "summary": "Bitdefender researchers discovered a critical Android vulnerability dubbed GhostMap, where a malicious APK structure triggers an unrecoverable crash loop upon installation without requiring any permissions or execution. The flaw forces a factory reset to resolve, highlighting a significant security risk in how Android handles ZIP structures.",
       "date": "2026-11-05T09:00:02.000Z",
       "link": "https://www.helpnetsecurity.com/2026/11/05/ghostmap-android-bug-research/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "f3b7be16-bf6e-45c1-a0f3-1d8204e0bf94",
@@ -384,7 +483,7 @@
       "summary": "Zyxel GS1900 series switches remain vulnerable to a root command execution flaw despite a previous patch, necessitating a new firmware update. The zero-day vulnerability allows unauthenticated attackers to execute commands via the web management interface.",
       "date": "2026-11-05T07:06:33.000Z",
       "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-      "isTopTen": false
+      "isTopTen": true
     },
     {
       "id": "f4724099-5a56-4591-9eba-c4c0d27ef43c",
@@ -472,7 +571,7 @@
       "summary": "Blockchain analytics firm Chainalysis confirmed a security breach that exposed data belonging to its entire user base, including high-profile law enforcement and national security clients. The attack reportedly utilized advanced agentic techniques to compromise company systems.",
       "date": "2026-11-05T00:00:00.000Z",
       "link": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "2fdf8eaf-b915-4c04-9ceb-a50d73c1e988",
@@ -593,7 +692,7 @@
       "summary": "A vulnerability in the APT package manager for Debian and Ubuntu allows attackers to perform a Man-in-the-Middle (MitM) attack to replace verified packages with malicious code that executes with root privileges. The exploit relies on triggering retries during failed package downloads.",
       "date": "2026-11-04T17:00:46.000Z",
       "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "61468b81-d758-4e4b-89ad-383925fe66ab",
@@ -769,7 +868,7 @@
       "summary": "Hackers compromised refrigeration control systems at European supermarkets, resulting in the mandatory disposal of food supplies. Similar incidents were also reported among UK-based suppliers.",
       "date": "2026-11-04T12:36:57.000Z",
       "link": "https://hackread.com/hackers-alter-refrigeration-settings-european-discard-food/",
-      "isTopTen": true
+      "isTopTen": false
     },
     {
       "id": "a86cdbbd-75ff-4f80-bf1c-88dd232f0600",
@@ -5400,105 +5499,6 @@
       "summary": "INTERPOL’s Operation Serengeti III successfully resulted in 1,462 arrests, the disruption of over 10,000 malicious networks, and the recovery of $105 million in illicit funds across 21 countries.",
       "date": "2026-10-23T06:08:00.000Z",
       "link": "https://securityaffairs.com/201500/cyber-crime/interpol-operation-serengeti-iii-nets-1462-arrests-and-recovers-105-million-in-cybercrime-crackdown.html",
-      "isTopTen": false
-    },
-    {
-      "id": "7bdae671-3e02-475d-bab0-06e8575bf67a",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "Google opens its cloud to rival OpenAI, promises business data won’t train models",
-      "summary": "Google Cloud is integrating OpenAI models into its platform via the Marketplace, allowing business customers to access these tools while guaranteeing that their proprietary data will not be used to train future AI models.",
-      "date": "2026-10-23T06:00:31.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview/",
-      "isTopTen": false
-    },
-    {
-      "id": "8fc84ebd-b883-430e-b581-d89b7f334e6a",
-      "source": "Help Net Security",
-      "tag": "Laws, Policy, Regulations",
-      "severity": "Low",
-      "title": "Drone program compliance: What a CTO says most agencies get wrong",
-      "summary": "This article outlines critical compliance and security shortcomings in public safety drone programs, specifically highlighting risks in data handling, ground control software, and documentation practices. It provides expert guidance for agencies on maintaining chain of custody and protecting sensitive operational data.",
-      "date": "2026-10-23T05:30:25.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/23/nick-donarski-rotorlab-drone-program-compliance/",
-      "isTopTen": false
-    },
-    {
-      "id": "7ca5dc56-223d-4761-b619-8db98c28cd10",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "AI is taking cybersecurity jobs at junior and experienced levels alike",
-      "summary": "A Barracuda report indicates that organizations are reducing their cybersecurity workforce across all experience levels due to AI adoption, despite a simultaneous increase in the need for specialized threat management expertise.",
-      "date": "2026-10-23T04:30:39.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
-      "isTopTen": false
-    },
-    {
-      "id": "f0c912a9-20ef-4a1f-8b1a-dc943dc5eda6",
-      "source": "Help Net Security",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "Low",
-      "title": "New infosec products of the week: October 23, 2026",
-      "summary": "This article highlights recent product releases from AppGate, IDENTOS, Sweet Security, and ThreatModeler, focusing on new cybersecurity tools and cloud workload protection. Specifically, Sweet Security introduced a virtual patching feature to mitigate cloud and AI vulnerabilities.",
-      "date": "2026-10-23T04:00:41.000Z",
-      "link": "https://www.helpnetsecurity.com/2026/10/23/new-infosec-products-of-the-week-october-23-2026/",
-      "isTopTen": false
-    },
-    {
-      "id": "b2aa7bab-f247-4c84-8d24-ad477dce5bf4",
-      "source": "The Record",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "High",
-      "title": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
-      "summary": "Cybersecurity analysts are observing an increase in exploitation attempts targeting the PHP2Shell vulnerabilities, though experts suggest these exploits currently have limited practical impact. The situation remains a point of focus for monitoring due to the widespread attention surrounding the flaws.",
-      "date": "2026-10-23T04:00:00.000Z",
-      "link": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
-      "isTopTen": false
-    },
-    {
-      "id": "4864fc0a-5676-408b-90ca-6cc458ebd51c",
-      "source": "The Record",
-      "tag": "Breaches and Incidents",
-      "severity": "High",
-      "title": "Toronto crime tips org freezes operations after details of data breach come to light",
-      "summary": "The Toronto chapter of Crime Stoppers has suspended its operations following the disclosure of a data breach and the timing of its discovery. The organization publicly broke from its national association to provide transparency regarding the incident.",
-      "date": "2026-10-22T20:52:00.000Z",
-      "link": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
-      "isTopTen": false
-    },
-    {
-      "id": "ed3fbb67-832b-43bf-a735-412347a418d3",
-      "source": "Security Affairs",
-      "tag": "Breaches and Incidents",
-      "severity": "Critical",
-      "title": "Microsoft Links ConnectWise Breach to China-Linked Group Using AI Pentesting Tool ARTEX",
-      "summary": "Microsoft has identified the China-linked threat actor Storm-0940 as the entity behind the ConnectWise supply chain breach, utilizing an AI-driven pentesting tool named ARTEX to compromise 2,250 Microsoft 365 tenants.",
-      "date": "2026-10-22T20:47:34.000Z",
-      "link": "https://securityaffairs.com/201501/apt/microsoft-links-connectwise-breach-to-china-linked-group-using-ai-pentesting-tool-artex.html",
-      "isTopTen": false
-    },
-    {
-      "id": "31da6d26-404e-4a01-a03c-463114d27278",
-      "source": "The Register",
-      "tag": "Malware and Vulnerabilities",
-      "severity": "Critical",
-      "title": "PHP2Shell exploit bypasses protections designed to stop remote code execution",
-      "summary": "The PHP2Shell exploit has been identified as an effective method for bypassing established security measures, allowing attackers to achieve remote code execution. Security researchers note that threat actors are actively leveraging this vulnerability in ongoing campaigns.",
-      "date": "2026-10-22T20:37:52.000Z",
-      "link": "https://www.theregister.com/security/2026/10/22/php2shell-exploit-bypasses-protections-designed-to-stop-remote-code-execution/5304883",
-      "isTopTen": false
-    },
-    {
-      "id": "c2622e70-5239-4651-b32f-a1d04517f339",
-      "source": "The Hacker News",
-      "tag": "Threat Intel & Info Sharing",
-      "severity": "High",
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "summary": "This article highlights the growing cybersecurity risk posed by autonomous AI agents that operate with significant system access and lack proper organizational oversight. It argues that these unmonitored tools should be treated as potential insider threats rather than just productivity assets.",
-      "date": "2026-10-22T19:05:35.000Z",
-      "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
       "isTopTen": false
     }
   ]
